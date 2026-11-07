@@ -1,0 +1,13 @@
+{
+  "id": "8552e155f7fe",
+  "municipality": "Sindelfingen",
+  "title": "Satzung ab 1. August 2026 (PDF)",
+  "url": "https://www.sindelfingen.de/fileadmin/Website/01_Sindelfingen/Dateien/Bildung_und_Betreuung/Kindertagesst%C3%A4tten/Satzung_Benutzung_st%C3%A4dtische_Betreuungsangebote_Kinder_neu.pdf",
+  "retrieved_at": "2026-11-07T22:07:19.393742+00:00",
+  "http_status": 200,
+  "content_type": "application/pdf",
+  "final_url": "https://www.sindelfingen.de/fileadmin/Website/01_Sindelfingen/Dateien/Bildung_und_Betreuung/Kindertagesst%C3%A4tten/Satzung_Benutzung_st%C3%A4dtische_Betreuungsangebote_Kinder_neu.pdf",
+  "error": null,
+  "local_path": "data/sources/8552e155f7fe/document.pdf",
+  "sha256": "1af82c3ce923fc4d7a941f0b8c40525d1f20aa0ca28536d6d139cbd9160e2cc5"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "4003d93df1bb",
+  "municipality": "Fellbach",
+  "title": "Additional official source",
+  "url": "https://www.fellbach.de/de/Leben-in-Fellbach/Kinder,Jugend,Familie/Kinderbetreuung-",
+  "retrieved_at": "2026-11-07T22:23:25.064949+00:00",
+  "http_status": 200,
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://www.fellbach.de/de/Leben-in-Fellbach/Kinder,Jugend,Familie/Kinderbetreuung-",
+  "error": null,
+  "local_path": "data/sources/4003d93df1bb/document.html",
+  "sha256": "227c0327c803a90b442581aa14921a018891b80d62bd70875a40d3961b187e72"
+}

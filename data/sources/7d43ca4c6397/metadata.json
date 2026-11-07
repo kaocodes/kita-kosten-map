@@ -1,0 +1,13 @@
+{
+  "id": "7d43ca4c6397",
+  "municipality": "Gerlingen",
+  "title": "Ortsrecht",
+  "url": "https://www.gerlingen.de/start/Ortsrecht",
+  "retrieved_at": "2026-11-07T22:07:16.651125+00:00",
+  "http_status": 200,
+  "content_type": "text/html;charset=UTF-8",
+  "final_url": "https://www.gerlingen.de/start/Ortsrecht",
+  "error": null,
+  "local_path": "data/sources/7d43ca4c6397/document.html",
+  "sha256": "1cf3d2bc9ffa5c11fa50fbff87684fb15448395e0571fc761d7bf719e21a1e13"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "494c1a026cb0",
+  "municipality": "Böblingen",
+  "title": "Städtische Einrichtungen – Satzung und Gebühren",
+  "url": "https://www.boeblingen.de/leben--lernen/bildung--betreuung/Kinderbetreuung/Einrichtungen",
+  "retrieved_at": "2026-11-07T22:07:19.936679+00:00",
+  "http_status": 200,
+  "content_type": "text/html;charset=UTF-8",
+  "final_url": "https://www.boeblingen.de/leben--lernen/bildung--betreuung/Kinderbetreuung/Einrichtungen",
+  "error": null,
+  "local_path": "data/sources/494c1a026cb0/document.html",
+  "sha256": "d3bdb42a32a5046a5f628d21820a0796529a94f412e74d0c74b9e6186d630e98"
+}

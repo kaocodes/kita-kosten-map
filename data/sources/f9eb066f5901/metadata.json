@@ -1,0 +1,13 @@
+{
+  "id": "f9eb066f5901",
+  "municipality": "Gerlingen",
+  "title": "Gebührensatzung und Gebührenverzeichnis ab 1. September 2026 (PDF)",
+  "url": "https://www.gerlingen.de/site/Gerlingen-Internet-2021/get/params_E621822343/25429607/Kindertagesst%C3%A4tten%20-%20Benutzungsgeb%C3%BChren%20ab%2001.09.2026_barrierefrei%20-%20freigegeben%20-%2003.07.2026.pdf",
+  "retrieved_at": "2026-11-07T22:07:16.028947+00:00",
+  "http_status": 200,
+  "content_type": "application/pdf",
+  "final_url": "https://www.gerlingen.de/site/Gerlingen-Internet-2021/get/params_E621822343/25429607/Kindertagesst%C3%A4tten%20-%20Benutzungsgeb%C3%BChren%20ab%2001.09.2026_barrierefrei%20-%20freigegeben%20-%2003.07.2026.pdf",
+  "error": null,
+  "local_path": "data/sources/f9eb066f5901/document.pdf",
+  "sha256": "ee18a0137067108a2cffd134cf3df5959ff63da96bd3c562f149064eac7608d2"
+}

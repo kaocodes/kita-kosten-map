@@ -1,0 +1,537 @@
+# Erfasste Gebühren: Recherchefassung und Ergänzungen
+
+**Status:** Menschlich lesbare Recherchefassung. Maßgeblich für Berechnungen sind seit 7. November 2026 die strukturierten JSON-Daten in `data/municipalities/`; Vergleichswerte und Einschränkungen stehen im [Standardvergleich](STANDARDVERGLEICH.md). Die ursprüngliche Fassung bleibt unter `data/imported/` unverändert erhalten.  
+**Abruf-/Prüfstand:** 4. November 2026  
+**Werte:** Monatliche Eurobeträge, soweit in der Quelle als Monatsgebühr ausgewiesen
+
+Dieses Dokument bewahrt die veröffentlichten Staffelungen, statt sie zu einem einzelnen Vergleichsbetrag zusammenzufassen. Es bildet den konsolidierten Erfassungsstand für das weitere Datenmodell. Historische Preisreihen werden vorerst nicht weiter recherchiert.
+
+## Ergänzende Prüfung vom 7. November 2026
+
+Die strukturierte Übertragung umfasst alle zwölf Kommunen. Dabei wurden die vollständigen Einkommensstaffeln Korntal-Münchingens, Esslingens Regel-/VÖ-Tarife und Leinfelden-Echterdingens veröffentlichte Stadtpasstabellen ergänzt. Die früheren Aussagen zur Vollständigkeit bezogen sich teilweise nur auf Quellenverweise oder zusammengefasste Regeln; diese Lücken sind im strukturierten Datenbestand nachgearbeitet.
+
+Wesentliche Korrekturen: Korntal-Münchingens Gebührenanlage enthält bereits Essenspauschalen von 85 € bei mehr als sieben Betreuungsstunden und 80 € im VÖ-Bereich. Leonbergs Satzungsdokumente sind unter den aktuellen Downloadlinks abrufbar; die Gebührenstaffel richtet sich nach Familienkindern im Haushalt. Fellbachs tatsächliche Tagesverteilungen erfordern für das Standardprofil ein 45-Stunden-Paket. Leinfelden-Echterdingens Stadtpassbeträge werden wegen der veröffentlichten Rundung direkt aus der Tabelle übernommen.
+
+Die zwölf Defaulttarife wurden am Original geprüft, einschließlich visueller PDF-Prüfung der ausgewählten Tarifzellen. Zusätzlich sind sämtliche 800 Esslinger Zusatzzeitbeträge gegen das Original-PDF abgeglichen. Einzelne Sonderfälle bleiben dokumentiert und liefern bei unzureichenden Angaben keinen geschätzten Betrag. Details: [Datenmodell](DATENMODELL.md).
+
+## Ditzingen
+
+### Quellen und Gültigkeit
+
+- [Gebührenseite der Stadt Ditzingen](https://www.ditzingen.de/leben-wohnen/familien/kindertageseinrichtungen-1), abgerufen am 4. November 2026.
+- [Gebührensatzung mit Anlagen](https://www.ditzingen.de/fileadmin/Dateien/Cross7/Startseite/Service_%26_Rathaus/Ortsrecht/4.02_Gebuhrensatzung_fur_die_stadtischen_Kindertageseinrichtungen.pdf). Die Satzung verweist auf eine Änderung vom 29. Juli 2025, gültig ab 1. September 2025; die Anlagen enthalten Tabellenstände ab 1. Januar 2026.
+- [Kommunale Gebührenwebseite mit Tarifen ab 1. Januar 2027](https://www.ditzingen.de/leben-wohnen/familien/kindertageseinrichtungen-1). Die dort verlinkte [Änderungssatzung ab 1. Januar 2027](https://www.ditzingen.de/fileadmin/Dateien/Cross7/Startseite/Service_%26_Rathaus/Ortsrecht/Anderungssatzung_Kita_01.01.2027.pdf) ist seit der direkten Nachprüfung am 7. November 2026 archiviert und geprüft. Die Gebührenanlagen liegen darin als Bildseiten vor; sie wurden visuell mit der städtischen Gebührenwebseite abgeglichen.
+
+Die Stadt weist darauf hin, dass sich die Benutzungsgebühr aus Betreuung und Verpflegung zusammensetzt. Die Satzung gilt für städtische Kindertageseinrichtungen. Ganztagsbeiträge sind nach zu versteuerndem Einkommen des Vorjahres gestaffelt. Die nachfolgenden Beträge entsprechen den auf der kommunalen Seite bzw. in den Anlagen ausgewiesenen Tabellen für 2026.
+
+### Kinder ab 3 Jahren – gültig ab 1. Januar 2026
+
+| Betreuungsmodell | Einkommensstufe (Ganztag) | 1 Kind | 2 Kinder | 3 Kinder | 4+ Kinder | Essen je Kind/Monat |
+|---|---:|---:|---:|---:|---:|---:|
+| Regelbetreuung, max. 30 Std./Woche | – | 145 € | 110 € | 74 € | 30 € | 0 € |
+| VÖ, max. 30 Std./Woche | – | 154 € | 120 € | 79 € | 32 € | 58 € |
+| VÖ, max. 35 Std./Woche | – | 178 € | 136 € | 92 € | 37 € | 58 € |
+| Ganztag, 45 Std./Woche | bis 35.000 € | 318 € | 245 € | 162 € | 66 € | 88 € |
+| Ganztag, 45 Std./Woche | 35.001–50.000 € | 357 € | 275 € | 182 € | 75 € | 88 € |
+| Ganztag, 45 Std./Woche | 50.001–70.000 € | 397 € | 306 € | 202 € | 83 € | 88 € |
+| Ganztag, 45 Std./Woche | über 70.001 € | 437 € | 337 € | 222 € | 91 € | 88 € |
+| Ganztag, 50 Std./Woche | bis 35.000 € | 354 € | 272 € | 179 € | 73 € | 88 € |
+| Ganztag, 50 Std./Woche | 35.001–50.000 € | 398 € | 306 € | 202 € | 82 € | 88 € |
+| Ganztag, 50 Std./Woche | 50.001–70.000 € | 442 € | 340 € | 224 € | 91 € | 88 € |
+| Ganztag, 50 Std./Woche | über 70.001 € | 486 € | 374 € | 246 € | 100 € | 88 € |
+
+### Kinder von 1 bis 3 Jahren – gültig ab 1. Januar 2026
+
+| Betreuungsmodell | Einkommensstufe (Ganztag) | 1 Kind | 2 Kinder | 3 Kinder | 4+ Kinder | Essen je Kind/Monat |
+|---|---:|---:|---:|---:|---:|---:|
+| VÖ, max. 30 Std./Woche | – | 331 € | 254 € | 167 € | 67 € | 58 € |
+| VÖ, max. 35 Std./Woche | – | 386 € | 295 € | 196 € | 80 € | 58 € |
+| Ganztag, 45 Std./Woche | bis 35.000 € | 462 € | 356 € | 235 € | 96 € | 88 € |
+| Ganztag, 45 Std./Woche | 35.001–50.000 € | 520 € | 401 € | 265 € | 108 € | 88 € |
+| Ganztag, 45 Std./Woche | 50.001–70.000 € | 578 € | 445 € | 294 € | 120 € | 88 € |
+| Ganztag, 45 Std./Woche | über 70.001 € | 636 € | 490 € | 323 € | 132 € | 88 € |
+| Ganztag, 50 Std./Woche | bis 35.000 € | 513 € | 394 € | 262 € | 107 € | 88 € |
+| Ganztag, 50 Std./Woche | 35.001–50.000 € | 577 € | 444 € | 294 € | 121 € | 88 € |
+| Ganztag, 50 Std./Woche | 50.001–70.000 € | 641 € | 493 € | 327 € | 134 € | 88 € |
+| Ganztag, 50 Std./Woche | über 70.001 € | 705 € | 542 € | 360 € | 147 € | 88 € |
+
+### Künftige Tarife ab 1. Januar 2027
+
+Die Stadt hat die folgenden Werte auf ihrer offiziellen Gebührenseite veröffentlicht. Sie sind **künftige**, nicht am Prüfdatum (4. November 2026) geltende Tarife. Die Tabelle 2027 führt Ganztag mit 45 Std./Woche auf; ein 50-Stunden-Tarif ist dort nicht ausgewiesen.
+
+| Ü3-Modell / Einkommensstufe | 1 Kind | 2 Kinder | 3 Kinder | 4+ Kinder | Essen/Kind/Monat |
+|---|---:|---:|---:|---:|---:|
+| RG, max. 30 Std./Woche | 154 € | 117 € | 78 € | 32 € | 0 € |
+| VÖ, max. 30 Std./Woche | 166 € | 130 € | 85 € | 35 € | 58 € |
+| VÖ, max. 35 Std./Woche | 192 € | 147 € | 99 € | 40 € | 58 € |
+| GT, 45 Std./Woche, zvE bis 35.000 € | 332 € | 256 € | 169 € | 69 € | 88 € |
+| GT, 45 Std./Woche, zvE 35.001–50.000 € | 373 € | 288 € | 190 € | 78 € | 88 € |
+| GT, 45 Std./Woche, zvE 50.001–70.000 € | 415 € | 320 € | 211 € | 87 € | 88 € |
+| GT, 45 Std./Woche, wörtlich: „mehr als 70.001 €“ | 456 € | 352 € | 232 € | 95 € | 88 € |
+
+| U3-Modell / Einkommensstufe | 1 Kind | 2 Kinder | 3 Kinder | 4+ Kinder | Essen/Kind/Monat |
+|---|---:|---:|---:|---:|---:|
+| VÖ, max. 30 Std./Woche | 361 € | 277 € | 182 € | 73 € | 58 € |
+| VÖ, max. 35 Std./Woche | 421 € | 322 € | 214 € | 87 € | 58 € |
+| GT, 45 Std./Woche, zvE bis 35.000 € | 496 € | 382 € | 252 € | 103 € | 88 € |
+| GT, 45 Std./Woche, zvE 35.001–50.000 € | 558 € | 430 € | 284 € | 116 € | 88 € |
+| GT, 45 Std./Woche, zvE 50.001–70.000 € | 620 € | 477 € | 315 € | 129 € | 88 € |
+| GT, 45 Std./Woche, wörtlich: „mehr als 70.001 €“ | 682 € | 525 € | 347 € | 142 € | 88 € |
+
+**Quellenhinweis zur Einkommensgrenze:** Die Stadtseite verwendet wörtlich „mehr als 70.001 €“, wodurch der Grenzfall 70.001 € nicht eindeutig eingeordnet ist. Die veröffentlichte Intervallformulierung wird nicht eigenmächtig korrigiert; vor einer automatischen Berechnung muss sie mit der Änderungssatzung oder der Stadt geklärt werden.
+
+### Ditzingen: dokumentierte Bedingungen und offene Prüfung
+
+- Die Gebühren beziehen sich auf einen Kalendermonat und werden monatlich eingezogen.
+- Für Ganztag ist die Einkommensgrundlage laut Satzung das zu versteuernde Einkommen des Vorjahres.
+- Die Betreuungspreise sind nach der Zahl der Kinder in der Familie gestaffelt. Die genaue Definition der berücksichtigten Kinder ist in der Satzung geregelt.
+- Die Satzung sieht eine Ermäßigung über den Ditzinger Familienpass vor; Verpflegungsgebühren sind davon ausgenommen.
+- Die 2027-Tarifwerte sind der städtischen Webseite entnommen. Die Änderungssatzung und ihre bildbasierten Anlagen sind nach dem direkten Nachabruf geprüft; die missverständliche Einkommensgrenze „mehr als 70.001 €“ ist eine dokumentierte Klärungsfrage.
+- Der Eintrag zur Ganztagsgebühr „über 70.001 €“ ist wörtlich aus der Tabelle übernommen; die Intervallgrenze muss beim PDF-Abgleich auf mögliche Rundungs-/Grenzformulierungen geprüft werden.
+
+## Kornwestheim
+
+### Quellen und Gültigkeit
+
+- [Gebührenseite der Stadt Kornwestheim](https://www.kornwestheim.de/start/bildung/kindergaerten%2Bund%2Bkindertagesstaetten.html), abgerufen am 4. November 2026.
+- [Gebührensatzung und Gebührenverzeichnis ab 1. September 2026 (PDF)](https://www.kornwestheim.de/site/Kornwestheim_Internet/get/params_E-1204246672/25201515/Satzung%20mit%20Geb%C3%BChren%20ab%201.9.2026.pdf).
+
+Die Satzung beschreibt städtische Kindertageseinrichtungen als öffentliche Einrichtungen. Die Gebühren richten sich nach Alter, Betreuungsumfang und der Zahl bestimmter Kinder im Haushalt. Die Tabelle ist mit Stand **1. September 2026** für das Kindergartenjahr 2026/2027 ausgewiesen. Gebühren sind für elf Monate zu entrichten; August ist gebührenfrei.
+
+### Gebührenverzeichnis – Stand 1. September 2026
+
+| Betreuungsmodell | 1 Kind | 2 Kinder | 3 Kinder | 4 Kinder |
+|---|---:|---:|---:|---:|
+| VÖ Ü3 | 167 € | 126 € | 84 € | 27 € |
+| VÖ U3 | 326 € | 244 € | 164 € | 60 € |
+| HT Ü3, 5 Std. | 139 € | 104 € | 69 € | 23 € |
+| HT U3, 5 Std. | 271 € | 205 € | 135 € | 48 € |
+| GT Ü3, 7,5 Std./Tag, 5 Tage | 291 € | 210 € | 116 € | 46 € |
+| GT U3, 7,5 Std./Tag, 5 Tage | 375 € | 268 € | 174 € | 68 € |
+| GT Ü3, 9 Std./Tag, 5 Tage | 354 € | 248 € | 140 € | 58 € |
+| GT U3, 9 Std./Tag, 5 Tage | 436 € | 310 € | 200 € | 79 € |
+| GT Ü3, 10,5 Std./Tag, 5 Tage | 418 € | 287 € | 166 € | 66 € |
+| GT U3, 10,5 Std./Tag, 5 Tage | 497 € | 353 € | 227 € | 89 € |
+
+**Verpflegung:** 76 € je Kind und Monat bei fünf Tagen pro Woche; in den städtischen Kitas Bebelstraße, Karlstraße und Neckarstraße 90 € für Vollverpflegung. Verpflegung ist bei Ganztagsbetreuung verpflichtend und kommt zur Benutzungsgebühr hinzu.
+
+**Begriffe der Quelle:** U3 = unter 3 Jahre; Ü3 = über 3 Jahre; GT = Ganztagesbetreuung; VÖ = verlängerte Vormittagsöffnung; HT = Halbtagesgruppe. Die Quelle verwendet „über 3 Jahre“; die genaue Altersgrenze sollte bei der Normalisierung nicht stillschweigend geändert werden.
+
+### Kornwestheim: dokumentierte Bedingungen und offene Prüfung
+
+- Die Tabelle weist vier Familiengrößen aus (1, 2, 3, 4 Kinder). Sie enthält keine Einkommensstaffel in den Grundtarifen.
+- Bei monatlichem Familienbruttoeinkommen unter 4.000 € ist laut Stadtseite unter bestimmten Voraussetzungen eine Ermäßigung von 50 % auf Benutzungs- und Verpflegungsgebühr möglich; vorrangige Sozialleistungen sind zu berücksichtigen.
+- Die Satzung nennt eine automatische jährliche Anpassung um 5 % bis zum Ende des Kindergartenjahrs 2029/2030. Für historische Vergleiche soll dennoch die jeweilige veröffentlichte Tarifversion gespeichert werden.
+- Eine ältere Suche hatte eine Fassung von 2024 gefunden. Sie ist gegenüber der nun bestätigten Fassung ab 1. September 2026 als historischer Stand einzuordnen.
+
+## Pilot-Fazit
+
+- Die Gebühren liegen überwiegend in gut extrahierbaren PDF-Tabellen, aber Detailregeln stehen zusätzlich im Satzungstext.
+- Ein reines Tabellen-Scraping würde Gültigkeitsdaten, Einkommensbedingungen, Familiengrößenstaffeln und Ausnahmen bei Verpflegung übersehen.
+- Die Erfassung sollte daher Satzungstext und Gebührenanlage gemeinsam abbilden. Automatische Tabellenextraktion braucht bei jeder PDF eine visuelle oder manuelle Prüfung der Spaltenzuordnung.
+- Die 2027-Änderung Ditzingens ist ein gutes Beispiel für künftige Tarife: sie muss getrennt als zukünftige Tarifversion geführt werden und darf nicht die am 4. November 2026 geltenden Werte ersetzen.
+
+## Stuttgart
+
+### Quelle und Gültigkeit
+
+- [Stuttgarter Stadtrecht: Anlage 1 zu 4/6 (PDF)](https://www.stuttgart.de/medien/ibs/4-6-anlage-1-ab-01-08-2026.pdf)
+- [Übersichtsseite der Anlagen 1 bis 5](https://www.stuttgart.de/rathaus/verwaltung/stadtrecht/4/anlagen-1-bis-5-zu-4-6-verzeichnis-der-kostenbeitraege-und-des-essensgeldes-pro-monat)
+- Gültigkeit der Anlage 1: **1. August 2026 bis 31. Juli 2027**. Die Stadt veröffentlicht weitere Anlagen für Folgejahre bis einschließlich einer Anlage ab 1. August 2030.
+
+Die nachfolgenden Werte sind Monatsbeiträge für städtische Tageseinrichtungen. Die Tabellenstaffel berücksichtigt FamilienCard und Vollzahlerstatus; in der Krippentabelle ist der Kleinkindzuschlag bereits im Beitrag enthalten. Essensgeld wird separat erhoben. Für ein Betreuungsjahr werden elf Monatsbeiträge erhoben; August ist beitragsfrei.
+
+### Kinder unter 3 Jahren – gültig 1. August 2026 bis 31. Juli 2027
+
+| Modell | Familiengröße | FamilienCard | Vollzahler | Kleinkindzuschlag darin enthalten: FamilienCard / Vollzahler |
+|---|---:|---:|---:|---:|
+| VÖ, 6 Std./Tag | 1 Kind | 104 € | 195 € | 43 € / 75 € |
+| VÖ, 6 Std./Tag | 2 Kinder | 76 € | 165 € | 43 € / 75 € |
+| VÖ, 6 Std./Tag | 3 Kinder | 0 € | 119 € | 43 € / 75 € |
+| VÖ, 6 Std./Tag | 4+ Kinder | 0 € | 114 € | 43 € / 75 € |
+| VÖ, 7 Std./Tag | 1 Kind | 122 € | 215 € | 43 € / 75 € |
+| VÖ, 7 Std./Tag | 2 Kinder | 90 € | 180 € | 43 € / 75 € |
+| VÖ, 7 Std./Tag | 3 Kinder | 0 € | 126 € | 43 € / 75 € |
+| VÖ, 7 Std./Tag | 4+ Kinder | 0 € | 120 € | 43 € / 75 € |
+| GT, 8 Std./Tag | 1 Kind | 146 € | 243 € | 44 € / 78 € |
+| GT, 8 Std./Tag | 2 Kinder | 108 € | 202 € | 44 € / 78 € |
+| GT, 8 Std./Tag | 3 Kinder | 0 € | 138 € | 44 € / 78 € |
+| GT, 8 Std./Tag | 4+ Kinder | 0 € | 131 € | 44 € / 78 € |
+| GT, 8 Std. + Früh- oder Spätbetreuung bis 1 Std. | 1 Kind | 165 € | 264 € | 44 € / 78 € |
+| GT, 8 Std. + Früh- oder Spätbetreuung bis 1 Std. | 2 Kinder | 123 € | 218 € | 44 € / 78 € |
+| GT, 8 Std. + Früh- oder Spätbetreuung bis 1 Std. | 3 Kinder | 0 € | 145 € | 44 € / 78 € |
+| GT, 8 Std. + Früh- oder Spätbetreuung bis 1 Std. | 4+ Kinder | 0 € | 138 € | 44 € / 78 € |
+| GT, 8 Std. + Früh- und Spätbetreuung bis 2 Std. | 1 Kind | 184 € | 284 € | 44 € / 78 € |
+| GT, 8 Std. + Früh- und Spätbetreuung bis 2 Std. | 2 Kinder | 137 € | 233 € | 44 € / 78 € |
+| GT, 8 Std. + Früh- und Spätbetreuung bis 2 Std. | 3 Kinder | 0 € | 153 € | 44 € / 78 € |
+| GT, 8 Std. + Früh- und Spätbetreuung bis 2 Std. | 4+ Kinder | 0 € | 144 € | 44 € / 78 € |
+
+**Essensgeld:** 77 € pro Monat.
+
+### Kinder ab 3 Jahren bis Schuleintritt – gültig 1. August 2026 bis 31. Juli 2027
+
+| Modell | Familiengröße | FamilienCard | Vollzahler |
+|---|---:|---:|---:|
+| VÖ, 6 Std./Tag | 1 Kind | 57 € | 117 € |
+| VÖ, 6 Std./Tag | 2 Kinder | 31 € | 88 € |
+| VÖ, 6 Std./Tag | 3 Kinder | 0 € | 42 € |
+| VÖ, 6 Std./Tag | 4+ Kinder | 0 € | 38 € |
+| VÖ, 7 Std./Tag | 1 Kind | 75 € | 136 € |
+| VÖ, 7 Std./Tag | 2 Kinder | 44 € | 102 € |
+| VÖ, 7 Std./Tag | 3 Kinder | 0 € | 49 € |
+| VÖ, 7 Std./Tag | 4+ Kinder | 0 € | 44 € |
+| GT, 8 Std./Tag | 1 Kind | 98 € | 160 € |
+| GT, 8 Std./Tag | 2 Kinder | 61 € | 120 € |
+| GT, 8 Std./Tag | 3 Kinder | 0 € | 58 € |
+| GT, 8 Std./Tag | 4+ Kinder | 0 € | 52 € |
+| GT, 8 Std. + Früh- oder Spätbetreuung bis 1 Std. | 1 Kind | 116 € | 180 € |
+| GT, 8 Std. + Früh- oder Spätbetreuung bis 1 Std. | 2 Kinder | 75 € | 135 € |
+| GT, 8 Std. + Früh- oder Spätbetreuung bis 1 Std. | 3 Kinder | 0 € | 65 € |
+| GT, 8 Std. + Früh- oder Spätbetreuung bis 1 Std. | 4+ Kinder | 0 € | 58 € |
+| GT, 8 Std. + Früh- und Spätbetreuung bis 2 Std. | 1 Kind | 134 € | 200 € |
+| GT, 8 Std. + Früh- und Spätbetreuung bis 2 Std. | 2 Kinder | 88 € | 150 € |
+| GT, 8 Std. + Früh- und Spätbetreuung bis 2 Std. | 3 Kinder | 0 € | 72 € |
+| GT, 8 Std. + Früh- und Spätbetreuung bis 2 Std. | 4+ Kinder | 0 € | 64 € |
+
+**Essensgeld:** 77 € pro Monat.
+
+## Gerlingen
+
+### Quelle und Gültigkeit
+
+- [Gebührensatzung und Gebührenverzeichnis ab 1. September 2026 (PDF)](https://www.gerlingen.de/site/Gerlingen-Internet-2021/get/params_E621822343/25429607/Kindertagesst%C3%A4tten%20-%20Benutzungsgeb%C3%BChren%20ab%2001.09.2026_barrierefrei%20-%20freigegeben%20-%2003.07.2026.pdf)
+- [Ortsrecht der Stadt Gerlingen](https://www.gerlingen.de/start/Ortsrecht)
+
+Die Gebühren sind monatlich und werden zwölf Monate pro Jahr erhoben. Die Satzung enthält Gebührenermäßigungen, Kosten für Verpflegung und sowohl 2026- als auch 2027-Tarife für den Kindergarten. Die Krippentarife sind im Gebührenverzeichnis mit Stand ab 1. September 2025 ausgewiesen; die 2026-Änderung verändert die Ermäßigungsbedingungen, nennt aber keine neue Krippen-Grundtariftabelle. Deshalb ist für die Krippe der jüngste ausdrücklich ausgewiesene Tabellenstand dokumentiert und als vorläufig aktuell markiert.
+
+### Krippe, jüngster ausgewiesener Tarif ab 1. September 2025
+
+| Modell | 1 Kind | 2 Kinder | 3 Kinder | 4+ Kinder |
+|---|---:|---:|---:|---:|
+| VÖ, 7:30–14:00 Uhr | 544 € | 425 € | 300 € | 163 € |
+| Ganztag, 7:30–16:00 Uhr | 640 € | 520 € | 351 € | 191 € |
+
+### Kindergarten, gültig ab 1. September 2026
+
+| Modell | 1 Kind | 2 Kinder | 3 Kinder | 4+ Kinder |
+|---|---:|---:|---:|---:|
+| VÖ, 7:30–14:00 Uhr | 195 € | 148 € | 99 € | 51 € |
+| Ganztag, 7:30–16:00 Uhr | 379 € | 280 € | 208 € | 112 € |
+
+Die Satzung enthält bereits die künftigen Gebühren ab 1. September 2027: Kindergarten-VÖ 203/154/103/53 € und Ganztag 394/291/216/116 € (jeweils für 1/2/3/4+ Kinder). Diese Werte sind als zukünftige, nicht als aktuelle Tarife zu behandeln.
+
+**Verpflegung:** 69 € monatliche Pauschale bzw. 3,75 € Tagessatz für Krippe und Kindergarten; zusätzlich zu den Betreuungskosten.
+
+**Ermäßigung:** Nach Ablehnung vorrangiger Sozialleistungen kann bei einem Haushaltsjahreseinkommen unter 60.000 € ein Erlass von 10 %, unter 50.000 € von 20 % beantragt werden. Die Regel gilt für Krippe und Ganztagskindergarten; die Voraussetzungen sind in der Satzung beschrieben.
+
+## Leonberg
+
+### Quelle und Gültigkeit
+
+- [Gebührentabelle Kindertageseinrichtungen ab 1. Oktober 2026 (PDF)](https://www.leonberg.de/PDF/Geb%C3%BChrentabelle_Kindertageseinrichtungen_g%C3%BCltig_ab_01_10_2026_.PDF?ObjSvrID=2691&ObjID=2369&ObjLa=1&Ext=PDF&WTR=1&_ts=1791804947), abgerufen am 4. November 2026.
+- [Gebührenseite der Stadt Leonberg](https://www.leonberg.de/Familie-Bildung/Kindertages-einrichtungen/Geb%C3%BChren) und [FAQ Kindertageseinrichtungen](https://www.leonberg.de/Familie-Bildung/Bildung/Kindertageseinrichtungen/FAQ-Kindertageseinrichtungen/).
+- [Benutzungsordnung für städtische/kirchliche Kindertageseinrichtungen](https://www.leonberg.de/loadDocument.phtml?Ext=PDF&FID=2691.7840.1), Stand 1. September 2026; [Ratsvorlage 2024/192 zur Gebührenanpassung und Satzungsüberarbeitung](https://www.leonberg.de/ratsinformationssystem/wicket/resource/org.apache.wicket.Application/doc472809.pdf); [Bekanntmachungen der Stadt Leonberg](https://www.leonberg.de/%C3%96ffentliche-Bekanntmachungen) mit neuen Satzungen vom 30. Juli, 6. August und 1. Oktober 2026.
+- [Ratsvorlage 2022/206](https://www.leonberg.de/ratsinformationssystem/wicket/resource/org.apache.wicket.Application/doc399129.pdf) mit Tarifvergleich ab 2021/2022; [Ratsvorlage 2021/243](https://www.leonberg.de/ratsinformationssystem/wicket/resource/org.apache.wicket.Application/doc361466.pdf) mit Tarifvergleich zum 1. Januar und 1. September 2021.
+
+Die aktuelle [Gebührenseite der Stadt](https://www.leonberg.de/Familie-Bildung/Kindertages-einrichtungen/Geb%C3%BChren) und die [FAQ](https://www.leonberg.de/Familie-Bildung/Bildung/Kindertageseinrichtungen/FAQ-Kindertageseinrichtungen/) verlinken die Gebührentabelle ab **1. Oktober 2026**; die PDF-Tabelle wurde vom Nutzer bereitgestellt und lokal geprüft. Die Betreuungsgebühr richtet sich nach Alter, Betreuungsumfang und Familiengröße. Die aktuelle Tabellenfußnote zählt die unter 18-jährigen Kinder mit Hauptwohnsitz im selben Familienhaushalt. Für Krippe/Ganztag weist die Tabelle 50-Euro-Schritte aus; ein Rang gleichzeitig betreuter Kinder wird daraus nicht abgeleitet. Die Gebühren-FAQ bestätigt warmes Mittagessen ab sieben Stunden und weist auf abweichende Verpflegungsregeln freier Träger hin. Im Jahr 2026 wurden eine neue Benutzungsordnung (Stand 1. September), eine Satzung über die Mittagsverpflegung (30. Juli) und eine Satzungsänderung (1. Oktober) veröffentlicht. Beim direkten Nachabruf am 7. November 2026 konnten die Satzungen heruntergeladen und geprüft werden; Quellenkopien liegen im Quellenarchiv. Die Gebührenbeträge sind durch die aktuell verlinkte Gebührentabelle belegt; auf freie Träger wird der städtische Tarif nicht ohne eigenen Nachweis übertragen.
+
+### Kinder unter 3 Jahren – monatliche Betreuungskosten
+
+| Familien-/Geschwisterrang | Ganztagskrippe 10,5 Std. | Ganztagskrippe 9 Std. | verkürzte Krippe 8,5 Std. | Halbtagskrippe 6,5 Std. | VÖ 6 Std. | Regel 5,5 Std. |
+|---|---:|---:|---:|---:|---:|---:|
+| 1. Kind | 695 € | 585 € | 537 € | 451 € | 416 € | 332 € |
+| 2. Kind | 645 € | 535 € | 487 € | 401 € | 322 € | 258 € |
+| 3. Kind | 595 € | 485 € | 437 € | 351 € | 217 € | 175 € |
+| 4. Kind | 545 € | 435 € | 387 € | 301 € | 72 € | 58 € |
+
+### Kinder über 3 Jahren – monatliche Betreuungskosten
+
+| Familien-/Geschwisterrang | Ganztag 10,5 Std. | Ganztag 9 Std. | verkürzter Ganztag 8,5 Std. | VÖ 7 Std. | VÖ 6 Std. | Regel 5,5 Std. |
+|---|---:|---:|---:|---:|---:|---:|
+| 1. Kind | 492 € | 409 € | 375 € | 266 € | 207 € | 166 € |
+| 2. Kind | 442 € | 359 € | 325 € | 205 € | 162 € | 129 € |
+| 3. Kind | 392 € | 309 € | 275 € | 136 € | 108 € | 88 € |
+| 4. Kind | 342 € | 259 € | 225 € | 46 € | 36 € | 29 € |
+
+**Verpflegung:** Die Betreuungspreise sind ohne Verpflegung. Ganztagsverpflegung ist verpflichtend und wird separat mit **96,80 € pro Monat für U3** bzw. **114,80 € für Ü3** ausgewiesen. Bei Betreuungsumfängen unter sieben Stunden gibt es laut FAQ ein gemeinsames Vesper, das von zu Hause mitgebracht wird.
+
+Familien mit geringem Einkommen oder Sozialleistungsbezug können bei der Wirtschaftlichen Jugendhilfe des Landkreises Böblingen prüfen lassen, ob ein Zuschuss möglich ist. Die konkrete Ausgestaltung und Trägergeltung der zugrundeliegenden Benutzungssatzung ist zusätzlich zu den Gebührenbeträgen zu dokumentieren.
+
+### Leonberg: erste historische Tarifpunkte
+
+Die offizielle Ratsvorlage 2024/192 dokumentiert Gebühren zum 1. September 2023, 2024 und 2025. Für die lange Ganztagsbetreuung (10,5 Stunden) stehen unten die Betreuungskosten der historischen Tabelle den 2026-Betreuungskosten plus separat ausgewiesenem Pflichtessen gegenüber. Dadurch ist die Vergleichsgröße als monatliche Summe ausgewiesen; Essensregeln und Preisgrundlage müssen bei einer späteren Zeitreihe weiter vereinheitlicht werden.
+
+| Gültig ab | U3 Krippe 10,5 Std., 1. Kind | Ü3 Ganztag 10,5 Std., 1. Kind | Hinweis zur Verpflegung |
+|---|---:|---:|---|
+| 1. September 2021 | 565,20 € | 427 € | Historische Ganztagestarife mit Verpflegung |
+| 1. September 2022 | 587 € | 444 € | Historische Ganztagestarife mit Verpflegung |
+| 1. September 2023 | 636 € | 481 € | Historische Ganztagestarife mit Verpflegung |
+| 1. September 2024 | 684 € | 517 € | Historische Ganztagestarife mit Verpflegung |
+| 1. September 2025 | 734 € | 555 € | Historische Ganztagestarife mit Verpflegung |
+| 1. Oktober 2026 | 791,80 € (695 € + 96,80 €) | 606,80 € (492 € + 114,80 €) | 2026-Tabelle trennt Pflichtessen vom Betreuungstarif |
+
+Die Ratsvorlage 2024/192 nennt als beschlossene Empfehlung eine Beitragserhöhung um 7,5 % für 2024/25 und 7,3 % für 2025/26. Die offiziellen Ratsvorlagen 2021/243 und 2022/206 ergänzen Vergleichswerte ab 2021; damit ist für Leonberg ein Tarifpunkt je Jahr von 2021 bis 2026 vorerfasst. Für eine präzise Zeitreihe muss noch die unterschiedliche Ausweisung des Essensgelds und der Änderungen an Betreuungsmodellen berücksichtigt werden.
+
+## Korntal-Münchingen
+
+### Quelle und Gültigkeit
+
+- [Kindergarten- und Gebührenordnung für städtische Kindertageseinrichtungen (PDF)](https://www.korntal-muenchingen.de/ceasy/serve/usage/main.php?id=1111&item=statute&view=publish), abgerufen am 4. November 2026.
+- Die Kindergartenordnung tritt laut Dokument am **1. September 2023** in Kraft; die Gebührenanlage enthält abschließend eine Änderung mit Wirkung vom **1. Januar 2024**. Die aktuelle Ortsrechtsübersicht der Stadt führt die konsolidierte Fassung weiterhin als geltend.
+
+Die Beiträge werden für elf Monate erhoben; August ist beitragsfrei. Die Einkommensgrundlage ist grundsätzlich das zu versteuernde Einkommen des Vorjahres. Es gibt unterschiedliche Tarife für Krippenbetreuung (30, 35, 40 oder 42,5 Wochenstunden), Ü3-VÖ (30 oder 35 Wochenstunden) und Ü3-Ganztag (37,5, 40 oder 42,5 Wochenstunden). Für Familien mit monatlichem Einkommen zwischen 3.000 und 4.500 € gilt der Basiswert; unter 3.000 € gibt es 15 % Abschlag (Alleinerziehende 30 %), darüber Zuschläge in mehreren Stufen bis 45 %.
+
+### Basiswerte bei monatlichem Familieneinkommen von 3.000–4.500 €
+
+Alle Werte monatlich, in Euro. Die Satzung rundet/definiert teils abgeleitete Einkommensstufen in der Anlage; hier sind die ausgewiesenen Basiswerte (Spalte „Basiswert“) für die häufigsten Stundenmodelle erfasst.
+
+| Altersgruppe / Modell | 1 Kind | 2 Kinder | 3 Kinder | 4 Kinder |
+|---|---:|---:|---:|---:|
+| Krippe, 30 Std./Woche | 205,00 € | 156,00 € | 104,00 € | 35,00 € |
+| Krippe, 35 Std./Woche | 240,00 € | 182,00 € | 122,00 € | 41,00 € |
+| Krippe, 40 Std./Woche | 275,00 € | 208,00 € | 140,00 € | 47,00 € |
+| Krippe, 42,5 Std./Woche | 292,00 € | 221,00 € | 149,00 € | 50,00 € |
+| Ü3 VÖ, 30 Std./Woche | 147,75 € | 109,50 € | 74,25 € | 30,00 € |
+| Ü3 VÖ, 35 Std./Woche | 172,38 € | 127,75 € | 86,63 € | 35,00 € |
+| Ü3 Ganztag, 37,5 Std./Woche | 184,69 € | 136,88 € | 92,81 € | 37,50 € |
+| Ü3 Ganztag, 40 Std./Woche | 197,00 € | 146,00 € | 99,00 € | 40,00 € |
+| Ü3 Ganztag, 42,5 Std./Woche | 210,61 € | 154,89 € | 105,78 € | 42,50 € |
+
+**Korrektur nach direkter Nachprüfung der Anlage 1, Seite 11, Ziff. 5:** Die Elternbeitragsanlage enthält feste Essenspauschalen von **85 €/Monat bei mehr als sieben Stunden Betreuung** und **80 €/Monat im VÖ-Bereich**. Diese Pauschalen sind im strukturierten Kita-Datensatz maßgeblich. Eine eindeutige Zahl der Essens-Beitragsmonate wird dort nicht genannt und bleibt ungeklärt. Die früher zusätzlich gefundenen Mensapreise sind kein Ersatz für diese Kita-Pauschalen; die zuvor dokumentierten Mensa-Direktlinks lieferten beim neuen Abruf 404.
+
+- [Ortsrecht und Satzungen](https://www.korntal-muenchingen.de/de/Rathaus/Stadtverwaltung/Ortsrecht-Satzungen) (Status der Kindergartenordnung)
+- [Mensa Münchingen](https://www.korntal-muenchingen.de/de/Leben-Lernen/Bildung/Mensa-Muenchingen) (kommunaler Essenstarif; Versorgung auch von Kita-Kindern)
+- [Mensa Korntal](https://www.korntal-muenchingen.de/de/Leben-Lernen/Bildung/Mensa-Korntal) (kommunaler Essenstarif)
+
+## Fellbach
+
+### Quelle und Gültigkeit
+
+- [Gebührensatzung Einrichtungen für Kinder, Stand September 2025 (PDF)](https://www.fellbach.de/ceasy/resource/?download=1&id=1414)
+- [Städtische Erläuterung der Berechnung](https://www.fellbach.de/Betreuung)
+
+Die Satzung gilt für von der Stadt betriebene Tageseinrichtungen. Sie enthält Gebühren ab 1. September 2025 und bereits die erhöhten Tarife ab **1. September 2026**. Die Monatsgebühr eines Einzelkindes wird aus dem Satz je Wochenstunde multipliziert mit der tatsächlichen angebotenen Wochenstundenzahl gebildet. Die Tabellenwerte sind kaufmännisch auf volle Euro gerundet.
+
+### Grundtarif ab 1. September 2026
+
+| Alters-/Betreuungsbereich | Grundsatz pro Wochenstunde | Beispiel bei 30 Wochenstunden | Beispiel bei 40 Wochenstunden | Beispiel bei 45 Wochenstunden |
+|---|---:|---:|---:|---:|
+| U3, bis einschließlich 35 Std./Woche | 13,00 € | 390 € | – | – |
+| U3, über 35 Std./Woche | 15,60 € | – | 624 € | 702 € |
+| Ü3, bis einschließlich 35 Std./Woche | 6,50 € | 195 € | – | – |
+| Ü3, über 35 Std./Woche | 7,80 € | – | 312 € | 351 € |
+
+**Geschwisterermäßigung:** 20 % bei einem, 40 % bei zwei und 60 % bei drei oder mehr Geschwistern unter 18 Jahren im Haushalt. Für bestimmte Familien mit monatlichem Bruttoeinkommen unter 5.820 € sieht die Satzung auf Antrag eine proportionale Sozialstaffelung vor. Die Satzung erstreckt diese Sozialstaffelung auf freie Träger mit vertraglicher Beziehung zur städtischen Bedarfsplanung; sie macht deren Betreuungs- und Essensgebühren nicht automatisch gleich.
+
+**Verpflegung:** 134 €/Monat ab 1. September 2026, wenn Mahlzeiten inklusive Getränke angeboten werden. Satzungsgemäß wird das Entgelt September bis Juli erhoben. Abweichende Angebote und Essensregeln freier Träger sind einzeln zu erfassen.
+
+## Esslingen am Neckar
+
+### Quellen und Gültigkeit
+
+- [Entgeltordnung Regel- und verlängerte Öffnungszeiten](https://www.esslingen.de/%2CLtr/leben-und-lernen/familie-und-bildung/kinderbetreuung/entgeltordnung-roevoe): Tarife ab 1. März 2026.
+- [Entgeltordnung Ganztag](https://www.esslingen.de/%2CLde/leben-und-lernen/familie-und-bildung/kinderbetreuung/entgeltordnung-gt)
+- [Gebührenanlage Ganztag ab 1. März 2026 (PDF)](https://www.esslingen.de/site/Esslingen_Layout_2022/get/params_E879676739_Dattachment/24947481/Entgelte%20Ganztagsbetreuung%20ab%2001.03.2026%20Gesamt.pdf)
+
+Die Regel-/VÖ-Tarife sind oben im Quellenregisterstand dokumentiert. Ganztagsentgelt gilt für kommunale Einrichtungen und wird für zwölf Monate erhoben. Das Grundmodell beträgt 40 Stunden/Woche; die Höhe richtet sich nach Bruttojahreseinkommen in zehn Stufen sowie U3/Ü3 und Zahl der Kinder in der Familie. Zusatz-Früh-/Spätbetreuung wird tageweise gebucht und nach Einkommensstufe separat berechnet.
+
+### Ganztag, Grundmodell 40 Stunden/Woche, 5 Tage, ab 1. März 2026
+
+| Bruttojahreseinkommen | U3 (1 / 2 / 3 / 4+ Kinder) | Ü3 (1 / 2 / 3 / 4+ Kinder) |
+|---|---|---|
+| bis 50.000 € | 366 / 275 / 183 / 66 € | 215 / 161 / 108 / 39 € |
+| bis 60.000 € | 425 / 319 / 213 / 77 € | 250 / 188 / 125 / 45 € |
+| bis 70.000 € | 491 / 368 / 246 / 88 € | 289 / 217 / 145 / 52 € |
+| bis 80.000 € | 551 / 413 / 276 / 99 € | 324 / 243 / 162 / 58 € |
+| bis 90.000 € | 610 / 458 / 305 / 110 € | 359 / 269 / 180 / 65 € |
+| bis 100.000 € | 677 / 508 / 339 / 122 € | 398 / 299 / 199 / 72 € |
+| bis 120.000 € | 801 / 601 / 401 / 144 € | 471 / 353 / 236 / 85 € |
+| bis 140.000 € | 923 / 692 / 462 / 166 € | 543 / 407 / 272 / 98 € |
+| bis 160.000 € | 1.046 / 785 / 523 / 188 € | 615 / 461 / 308 / 111 € |
+| über 160.000 € | 1.170 / 878 / 585 / 211 € | 688 / 516 / 344 / 124 € |
+
+Essensgeld: 79 €/Monat für fünf Tage; bei gültigem Jobcenter-/Landkreis-Gutschein entfällt es. Zusatzzeiten werden nach Bruttojahreseinkommen, gebuchten Tagen, Zusatzdauer (0,5/1,0 Stunden) und Familiengröße berechnet. Die folgenden kompakten Zellen enthalten je Gebührenstufe und Zusatzdauer die Monatsbeträge in der Reihenfolge **5 / 4 / 3 / 2 / 1 gebuchte Tage pro Woche**; innerhalb jedes Tageswerts stehen die Beiträge in der Reihenfolge **1 / 2 / 3 / 4+ Kinder**. Alle Beträge sind Euro pro Monat. Quelle: Anlage mit Stand 17. November 2025, gültig ab 1. März 2026.
+
+### Zusatzbetreuung Ü3 (Kinder von 3 bis 6 Jahren)
+
+| Bruttojahreseinkommen | +0,5 Std.: Tagesfolgen (5/4/3/2/1 Tage; je 1/2/3/4+ Kinder) | +1,0 Std.: Tagesfolgen (5/4/3/2/1 Tage; je 1/2/3/4+ Kinder) |
+|---|---|---|
+| bis 50.000 € | 13/10/7/2; 10/8/5/2; 8/6/4/1; 5/4/3/1; 3/2/2/1 | 27/20/14/5; 22/17/11/4; 16/12/8/3; 11/8/6/2; 5/4/3/1 |
+| bis 60.000 € | 16/12/8/3; 13/10/7/2; 10/8/5/2; 6/5/3/1; 3/2/2/1 | 31/23/16/6; 25/19/13/5; 19/14/10/3; 12/9/6/2; 6/5/3/1 |
+| bis 70.000 € | 18/14/9/3; 14/11/7/3; 11/8/6/2; 7/5/4/1; 4/3/2/1 | 36/27/18/6; 29/22/15/5; 22/17/11/4; 14/11/7/3; 7/5/4/1 |
+| bis 80.000 € | 20/15/10/4; 16/12/8/3; 12/9/6/2; 8/6/4/1; 4/3/2/1 | 41/31/21/7; 33/25/17/6; 25/19/13/5; 16/12/8/3; 8/6/4/1 |
+| bis 90.000 € | 22/17/11/4; 18/14/9/3; 13/10/7/2; 9/7/5/2; 4/3/2/1 | 45/34/23/8; 36/27/18/6; 27/20/14/5; 18/14/9/3; 9/7/5/2 |
+| bis 100.000 € | 25/19/13/5; 20/15/10/4; 15/11/8/3; 10/8/5/2; 5/4/3/1 | 50/38/25/9; 40/30/20/7; 30/23/15/5; 20/15/10/4; 10/8/5/2 |
+| bis 120.000 € | 29/22/15/5; 23/17/12/4; 17/13/9/3; 12/9/6/2; 6/5/3/1 | 59/44/30/11; 47/35/24/8; 35/26/18/6; 24/18/12/4; 12/9/6/2 |
+| bis 140.000 € | 34/26/17/6; 27/20/14/5; 20/15/10/4; 14/11/7/3; 7/5/4/1 | 68/51/34/12; 54/41/27/10; 41/31/21/7; 27/20/14/5; 14/11/7/3 |
+| bis 160.000 € | 38/29/19/7; 30/23/15/5; 23/17/12/4; 15/11/8/3; 8/6/4/1 | 77/58/39/14; 62/47/31/11; 46/35/23/8; 31/23/16/6; 15/11/8/3 |
+| über 160.000 € | 43/32/22/8; 34/26/17/6; 26/20/13/5; 17/13/9/3; 9/7/5/2 | 86/65/43/15; 69/52/35/12; 52/39/26/9; 34/26/17/6; 17/13/9/3 |
+
+### Zusatzbetreuung U3 (Kinder unter 3 Jahren)
+
+| Bruttojahreseinkommen | +0,5 Std.: Tagesfolgen (5/4/3/2/1 Tage; je 1/2/3/4+ Kinder) | +1,0 Std.: Tagesfolgen (5/4/3/2/1 Tage; je 1/2/3/4+ Kinder) |
+|---|---|---|
+| bis 50.000 € | 23/17/12/4; 18/14/9/3; 14/11/7/3; 9/7/5/2; 5/4/3/1 | 46/35/23/8; 37/28/19/7; 28/21/14/5; 18/14/9/3; 9/7/5/2 |
+| bis 60.000 € | 27/20/14/5; 22/17/11/4; 16/12/8/3; 11/8/6/2; 5/4/3/1 | 53/40/27/10; 42/32/21/8; 32/24/16/6; 21/16/11/4; 11/8/6/2 |
+| bis 70.000 € | 31/23/16/6; 25/19/13/5; 19/14/10/3; 12/9/6/2; 6/5/3/1 | 61/46/31/11; 49/37/25/9; 37/28/19/7; 24/18/12/4; 12/9/6/2 |
+| bis 80.000 € | 34/26/17/6; 27/20/14/5; 20/15/10/4; 14/11/7/3; 7/5/4/1 | 69/52/35/12; 55/41/28/10; 41/31/21/7; 28/21/14/5; 14/11/7/3 |
+| bis 90.000 € | 38/29/19/7; 30/23/15/5; 23/17/12/4; 15/11/8/3; 8/6/4/1 | 76/57/38/14; 61/46/31/11; 46/35/23/8; 30/23/15/5; 15/11/8/3 |
+| bis 100.000 € | 42/32/21/8; 34/26/17/6; 25/19/13/5; 17/13/9/3; 8/6/4/1 | 85/64/43/15; 68/51/34/12; 51/38/26/9; 34/26/17/6; 17/13/9/3 |
+| bis 120.000 € | 50/38/25/9; 40/30/20/7; 30/23/15/5; 20/15/10/4; 10/8/5/2 | 100/75/50/18; 80/60/40/14; 60/45/30/11; 40/30/20/7; 20/15/10/4 |
+| bis 140.000 € | 58/44/29/10; 46/35/23/8; 35/26/18/6; 23/17/12/4; 12/9/6/2 | 115/86/58/21; 92/69/46/17; 69/52/35/12; 46/35/23/8; 23/17/12/4 |
+| bis 160.000 € | 65/49/33/12; 52/39/26/9; 39/29/20/7; 26/20/13/5; 13/10/7/2 | 131/98/66/24; 105/79/53/19; 79/59/40/14; 52/39/26/9; 26/20/13/5 |
+| über 160.000 € | 73/55/37/13; 58/44/29/10; 44/33/22/8; 29/22/15/5; 15/11/8/3 | 146/110/73/26; 117/88/59/21; 88/66/44/16; 58/44/29/10; 29/22/15/5 |
+
+## Sindelfingen
+
+- [Neue Satzung über städtische Betreuungsangebote ab 1. August 2026 (PDF)](https://www.sindelfingen.de/fileadmin/Website/01_Sindelfingen/Dateien/Bildung_und_Betreuung/Kindertagesst%C3%A4tten/Satzung_Benutzung_st%C3%A4dtische_Betreuungsangebote_Kinder_neu.pdf)
+- [Gebührenübersicht Kita ab 1. August 2026](https://www.sindelfingen.de/bildung-betreuung/kindertagesstaetten/anmeldung-vormerkung)
+
+Die aktuelle Gebührensatzung gilt ab **1. August 2026** und bezieht sich auf städtische Betreuungsangebote. Sie erhebt zwölf Monatsgebühren. Die Grundgebühr richtet sich nach U3/Ü3, Betreuungsmodell, Zahl der unter 18-jährigen Familienkinder sowie der Rangfolge der Kinder in städtischen Betreuungsangeboten. Die soziale Ermäßigung beträgt 50 % und setzt die Bedingungen der Sindelfinger Berechtigungskarte voraus. Für das vierte und jedes weitere Kind in einem städtischen Betreuungsangebot besteht Gebührenfreiheit. Die vollständige U3-/Ü3-Staffel wurde gegen das Gebührenverzeichnis der Satzung geprüft.
+
+Die folgenden Monatsbeträge sind **ohne Verpflegung**. Je Zelle steht regulärer Betrag / Betrag mit sozialer Ermäßigung.
+
+### Kinder ab 3 Jahren (Ü3)
+
+| Familiengröße und Rang in städtischer Betreuung | HT5 | VÖ6 | VÖ7 | GT8 | GT9 | SF10 |
+|---|---:|---:|---:|---:|---:|---:|
+| 1 Kind unter 18 | 86,00 / 43,00 € | 113,50 / 56,75 € | 138,50 / 69,25 € | 167,90 / 83,95 € | 204,30 / 102,15 € | 252,80 / 126,40 € |
+| 2 Kinder: 1. betreutes Kind | 73,10 / 36,55 € | 96,50 / 48,25 € | 117,70 / 58,85 € | 142,70 / 71,35 € | 173,70 / 86,85 € | 214,90 / 107,45 € |
+| 2 Kinder: 2. betreutes Kind | 54,80 / 27,40 € | 72,40 / 36,20 € | 88,30 / 44,15 € | 107,00 / 53,50 € | 130,30 / 65,15 € | 161,20 / 80,60 € |
+| 3 Kinder: 1. betreutes Kind | 58,50 / 29,25 € | 77,20 / 38,60 € | 94,20 / 47,10 € | 114,20 / 57,10 € | 138,90 / 69,45 € | 171,90 / 85,95 € |
+| 3 Kinder: 2. betreutes Kind | 43,90 / 21,95 € | 57,90 / 28,95 € | 70,70 / 35,35 € | 85,70 / 42,85 € | 104,20 / 52,10 € | 128,90 / 64,45 € |
+| 3 Kinder: 3. betreutes Kind | 29,40 / 14,70 € | 38,80 / 19,40 € | 47,40 / 23,70 € | 57,40 / 28,70 € | 69,80 / 34,90 € | 86,40 / 43,20 € |
+| 4+ Kinder: 1. betreutes Kind | 43,90 / 21,95 € | 57,90 / 28,95 € | 70,60 / 35,30 € | 85,60 / 42,80 € | 104,20 / 52,10 € | 128,90 / 64,45 € |
+| 4+ Kinder: 2. betreutes Kind | 32,90 / 16,45 € | 43,40 / 21,70 € | 53,00 / 26,50 € | 64,20 / 32,10 € | 78,20 / 39,10 € | 96,70 / 48,35 € |
+| 4+ Kinder: 3. betreutes Kind | 22,00 / 11,00 € | 29,10 / 14,55 € | 35,50 / 17,75 € | 43,00 / 21,50 € | 52,40 / 26,20 € | 64,80 / 32,40 € |
+| 4+ Kinder: 4. und weitere betreute Kinder | gebührenfrei | gebührenfrei | gebührenfrei | gebührenfrei | gebührenfrei | gebührenfrei |
+
+### Kinder unter 3 Jahren (U3)
+
+| Familiengröße und Rang in städtischer Betreuung | HT5 | VÖ6 | VÖ7 | GT8 | GT9 | SF10 |
+|---|---:|---:|---:|---:|---:|---:|
+| 1 Kind unter 18 | 170,00 / 85,00 € | 224,40 / 112,20 € | 273,70 / 136,85 € | 331,80 / 165,90 € | 403,90 / 201,95 € | 499,80 / 249,90 € |
+| 2 Kinder: 1. betreutes Kind | 144,50 / 72,25 € | 190,70 / 95,35 € | 232,60 / 116,30 € | 282,00 / 141,00 € | 343,30 / 171,65 € | 424,80 / 212,40 € |
+| 2 Kinder: 2. betreutes Kind | 108,40 / 54,20 € | 143,00 / 71,50 € | 174,50 / 87,25 € | 211,50 / 105,75 € | 257,50 / 128,75 € | 318,60 / 159,30 € |
+| 3 Kinder: 1. betreutes Kind | 115,60 / 57,80 € | 152,60 / 76,30 € | 186,10 / 93,05 € | 225,60 / 112,80 € | 274,70 / 137,35 € | 339,90 / 169,95 € |
+| 3 Kinder: 2. betreutes Kind | 86,70 / 43,35 € | 114,50 / 57,25 € | 139,60 / 69,80 € | 169,20 / 84,60 € | 206,00 / 103,00 € | 254,90 / 127,45 € |
+| 3 Kinder: 3. betreutes Kind | 58,10 / 29,05 € | 76,70 / 38,35 € | 93,50 / 46,75 € | 113,40 / 56,70 € | 138,00 / 69,00 € | 170,80 / 85,40 € |
+| 4+ Kinder: 1. betreutes Kind | 86,70 / 43,35 € | 114,40 / 57,20 € | 139,60 / 69,80 € | 169,20 / 84,60 € | 206,00 / 103,00 € | 254,90 / 127,45 € |
+| 4+ Kinder: 2. betreutes Kind | 65,00 / 32,50 € | 85,80 / 42,90 € | 104,70 / 52,35 € | 126,90 / 63,45 € | 154,50 / 77,25 € | 191,20 / 95,60 € |
+| 4+ Kinder: 3. betreutes Kind | 43,60 / 21,80 € | 57,50 / 28,75 € | 70,10 / 35,05 € | 85,00 / 42,50 € | 103,50 / 51,75 € | 128,10 / 64,05 € |
+| 4+ Kinder: 4. und weitere betreute Kinder | gebührenfrei | gebührenfrei | gebührenfrei | gebührenfrei | gebührenfrei | gebührenfrei |
+
+**Verpflegung:** Mittagessen 95 €/Monat; bei sozialer Ermäßigung 20 €/Monat. Die Gebührensatzung enthält außerdem gesonderte Entgelte für Kita-Notferienbetreuung.
+
+## Qualitäts- und Statushinweise
+
+Prüfstand **4. November 2026**. Diese Prüfung fokussiert aktuelle Gültigkeit, Geltungsbereich, Staffelungen und Essen. Historische Fassungen werden in diesem Arbeitsschritt nicht weiter geprüft.
+
+| Kommune | Aktueller Gebührenstand / Geltungsbereich | Ergebnis der Qualitätsprüfung und verbleibende Lücke |
+|---|---|---|
+| Ditzingen | Tarife ab 1. Januar 2026; künftige Tabellen ab 1. Januar 2027; städtische Einrichtungen | 2027-PDF einschließlich Bildanlagen direkt geprüft; Werte stimmen mit der Stadtseite überein. Wörtliche Einkommensgrenze und fehlender GT50-Tarif bleiben gekennzeichnet. |
+| Kornwestheim | Tarife ab 1. September 2026; städtische Einrichtungen | Aktuelle Tabelle und elfmonatige Zahlung erfasst. Verpflegungsausnahmen nach Einrichtung dokumentiert. |
+| Stuttgart | Anlage 1 gültig 1. August 2026–31. Juli 2027; städtische Einrichtungen | Gültigkeit und separate Essensgebühr belegt. Bezirksweise Tarifunterschiede sind nicht ausgewiesen; die Gebührenquelle betrifft städtische Einrichtungen. |
+| Gerlingen | Konsolidierte Gebührensatzung in Kraft ab 1. September 2026; städtische Einrichtungen | Die aktuelle konsolidierte Satzung enthält die Krippentabelle weiterhin ausdrücklich mit Preisstand 1. September 2025 und Kindergartentarife ab 2026/2027. Damit ist der jüngste offiziell veröffentlichte U3-Stand festgestellt; einen neuen U3-Betrag für 2026 nennt sie nicht. Essen kommt zusätzlich hinzu. |
+| Leonberg | Gebührentabelle ab 1. Oktober 2026; städtische Tabelle | Aktuelle Gebührentabelle, Satzung ab Oktober 2026, Benutzungsordnung und Verpflegungssatzung direkt geprüft. Frühere Downloadfehler sind beim Nachabruf behoben; Familienstaffel nach Haushaltskindern. |
+| Korntal-Münchingen | Gebührenordnung ab 1. September 2023; Ortsrecht führt diese weiterhin als geltend; städtische Einrichtungen | Alle Einkommensspalten übertragen. Anlage 1 enthält 85 €/Monat Essen über sieben Stunden und 80 € im VÖ-Bereich. Mensapreise sind dafür nicht maßgeblich; Essens-Beitragsmonate bleiben ungeklärt. |
+| Fellbach | Satzungsdokument Stand September 2025, Tarifregeln mit Werten ab 1. September 2026; städtische Einrichtungen und benannte freie Träger | Stundenbezogene Tarife, Geschwisterrabatte und Essen ab 2026 erfasst. Bei freien Trägern können konkrete Essenspreise abweichen. |
+| Esslingen am Neckar | Regel-/VÖ und Ganztag ab 1. März 2026; kommunale Einrichtungen | Ganztags-Grundtarife und Zusatzbetreuung U3/Ü3 vollständig übertragen: zehn Einkommensstufen, 1–4+ Familienkinder, 1–5 Tage und 0,5/1,0 Zusatzstunden. Regel-/VÖ-Quelle bleibt separat referenziert. |
+| Sindelfingen | Satzung ab 1. August 2026; städtische Angebote | U3-/Ü3-Familien- und Sozialstaffeln vollständig in dieses Dokument übertragen; Essen separat ausgewiesen. Angaben wurden anhand der Tabellenextraktion gegengeprüft. |
+| Ludwigsburg | Anlage A für 2026/2027; ausdrücklich benannte städtische, kirchliche und freie Träger | Aktuelle Haupttarife, elfmonatige Zahlung und Essensregeln direkt in der offiziellen PDF-Anlage geprüft. GT11 ist als Betreuungsform definiert, wird aber in der Anlage A 2026/2027 nicht bepreist; kein Betrag ergänzt. |
+| Leinfelden-Echterdingen | Betreuungsentgelte ab 1. September 2026; teilnehmende konfessionelle und freie Träger. Verpflegungsordnung ab 1. September 2025 | Reguläre und gerundete Stadtpasstabellen übertragen. Die aktuell verlinkte Essensfassung ab September 2025 erneut geprüft; eigene Beitragsmonate und Zusatzkosten separat gespeichert. |
+| Böblingen | Gebührenverzeichnis ab 1. September 2026; städtische Einrichtungen | U3-/Ü3-Tabellen nach Wochenstunden und Familiengröße sowie Essen sind erfasst. Sozialzuschüsse werden als mögliche separate Unterstützung nicht mit dem regulären Tarif verrechnet. |
+
+Die Städte verwenden unterschiedliche Definitionen der Familiengröße, verschiedene Zahlmonate und abweichende Essensmodelle. Ein Vergleichswert muss deshalb künftig stets Betreuungsmodell, Beitragsmonate, Essen und Ermäßigungsannahmen mitführen. Der vorläufige Standardfall „ein Kind, U3, Ganztag“ ist in den Quellen nicht überall gleich verfügbar und sollte nicht zur einzigen Datenansicht werden.
+
+### Stichprobenprüfung gegen die Originalquellen
+
+Am 4. November 2026 wurden Tarifzellen aus sechs Kommunen direkt mit aktuellen offiziellen Gebührenseiten oder PDF-Anlagen abgeglichen. Die geprüften Stichproben stimmten mit diesem Erfassungsstand überein:
+
+| Kommune | Geprüfte Tarifzelle(n) | Abgleichquelle |
+|---|---|---|
+| Ditzingen | 2026 Ü3-Regelbetreuung: 145/110/74/30 €; 2027 Ü3-VÖ30: 166/130/85/35 € | [Gebührenwebseite](https://www.ditzingen.de/leben-wohnen/familien/kindertageseinrichtungen-1), ergänzt durch direkt geprüfte Änderungssatzung ab Januar 2027 |
+| Gerlingen | Krippe VÖ, 1/2/3/4+ Kinder: 544/425/300/163 €; Kindergarten GT ab 2026: 379/280/208/112 € | [Konsolidierte Gebührensatzung ab 1. September 2026 (PDF)](https://www.gerlingen.de/site/Gerlingen-Internet-2021/get/params_E621822343/25429607/Kindertagesst%C3%A4tten%20-%20Benutzungsgeb%C3%BChren%20ab%2001.09.2026_barrierefrei%20-%20freigegeben%20-%2003.07.2026.pdf) |
+| Leinfelden-Echterdingen | Ü3-GT45: 291,60/218,70/145,80/72,90 €; U3-GT45: 660,60/495,50/330,30/165,20 € | Reguläre und gerundete Stadtpasstabellen übertragen. Die aktuell verlinkte Essensfassung ab September 2025 erneut geprüft; eigene Beitragsmonate und Zusatzkosten separat gespeichert. |
+| Leonberg | U3-GT10,5 1. Kind: 695 €; Ü3-GT10,5 1. Kind: 492 €; Pflichtessen separat 96,80/114,80 € | [Gebührenseite](https://www.leonberg.de/Familie-Bildung/Kindertages-einrichtungen/Geb%C3%BChren) und aktuelle Tabelle; ergänzt durch direkt geprüfte Satzung ab Oktober 2026 |
+| Ludwigsburg | 2026/27 GT10 für ein Kind: Ü3 351 €, U3 578 €, jeweils zuzüglich 80 € Essen; kein GT11-Wert in Anlage A | [Offizielle Elternbeitragssatzung und Anlage A ab 1. September 2026 (PDF)](https://www.ludwigsburg.de/site/Ludwigsburg-Internet-2020/get/params_E-995498330/24269351/Stammsatzung_Kitageb%C3%BChren_2026_August_07.pdf) |
+| Sindelfingen | Ü3-GT8 1 Kind: 167,90/83,95 € regulär/sozial; U3-SF10 1 Kind: 499,80/249,90 € | [Gebührensatzung ab 1. August 2026 (PDF)](https://www.sindelfingen.de/fileadmin/Website/01_Sindelfingen/Dateien/Bildung_und_Betreuung/Kindertagesst%C3%A4tten/Satzung_Benutzung_st%C3%A4dtische_Betreuungsangebote_Kinder_neu.pdf) |
+
+Diese Stichprobe bestätigt exemplarisch Werte aus den neu ergänzten und zuvor erfassten Tabellen. Sie ist keine visuelle Einzelprüfung jeder Tabellenzelle. Explizit offene Quellen-/Definitionsfragen bleiben als solche gekennzeichnet und werden nicht durch Schätzungen geschlossen.
+
+## Ludwigsburg
+
+### Quelle und Gültigkeit
+
+- [Satzung über Benutzungsgebühren, einschließlich Anlage A](https://www.ludwigsburg.de/site/Ludwigsburg-Internet-2020/get/params_E-995498330/24269351/Stammsatzung_Kitageb%C3%BChren_2026_August_07.pdf)
+- [Kommunale Elternbeitragsseite](https://www.ludwigsburg.de/%2CLde/leben%2Bin%2Bludwigsburg/bildung%2Bund%2Bfamilie/kinderbetreuung/)
+- Anlage A ist für das Kindergartenjahr **2026/2027** ausgewiesen. Die Satzung gilt ausdrücklich auch für evangelische und katholische Einrichtungen, Charlottenkrippe, Einrichtungen der AWO Ludwigsburg gGmbH und MAHALE gGmbH sowie bestimmte von der Stadt belegte Betriebsplätze.
+
+Die Betreuungstarife unterscheiden Alter und Betreuungsumfang. Familienermäßigungen: ein Kind 0 %, zwei Kinder 25 %, drei Kinder 50 %, vier oder mehr Kinder 75 %. Für Ganztag ist Essen verpflichtend und kostet 80 € monatlich. Bei RG/VÖ wird Essen nach Teilnahme mit 4 € je Essen abgerechnet. August ist beitragsfrei; es werden elf Monatsbeiträge erhoben.
+
+### Monatliche Betreuungstarife 2026/2027
+
+| Modell | Altersgruppe | 1 Kind | 2 Kinder | 3 Kinder | 4+ Kinder | Verpflegung |
+|---|---|---:|---:|---:|---:|---|
+| VÖ6, 6 Std. durchgehend | ab 3 bis Schuleintritt | 190 € | 142,50 € | 95 € | 47,50 € | 4 € je Essen |
+| VÖ6, 6 Std. durchgehend | unter 3 Jahren | 348 € | 261 € | 174 € | 87 € | 4 € je Essen |
+| VÖ7, 7 Std. durchgehend | ab 3 bis Schuleintritt | 235 € | 176,25 € | 117,50 € | 58,75 € | 4 € je Essen |
+| VÖ7, 7 Std. durchgehend | unter 3 Jahren | 429 € | 321,75 € | 214,50 € | 107,25 € | 4 € je Essen |
+| GT8, 8 Std. durchgehend | ab 3 bis Schuleintritt | 301 € | 225,75 € | 150,50 € | 75,25 € | +80 €/Monat |
+| GT8, 8 Std. durchgehend | unter 3 Jahren | 499 € | 374,25 € | 249,50 € | 124,75 € | +80 €/Monat |
+| GT9, 9 Std. durchgehend | ab 3 bis Schuleintritt | 338 € | 253,50 € | 169 € | 84,50 € | +80 €/Monat |
+| GT9, 9 Std. durchgehend | unter 3 Jahren | 563 € | 422,25 € | 281,50 € | 140,75 € | +80 €/Monat |
+| GT10, 10 Std. durchgehend | ab 3 bis Schuleintritt | 351 € | 263,25 € | 175,50 € | 87,75 € | +80 €/Monat |
+| GT10, 10 Std. durchgehend | unter 3 Jahren | 578 € | 433,50 € | 289 € | 144,50 € | +80 €/Monat |
+
+Die Satzung definiert GT11 als Betreuungsform; die von der Stadt verlinkte Satzung mit Anlage A für 2026/2027 enthält jedoch keine GT11-Gebührentabelle. Es wird deshalb kein GT11-Betrag interpoliert. Die Kategorie ist als „definiert, aber kein Tarif in der veröffentlichten Anlage“ erfasst.
+
+## Leinfelden-Echterdingen
+
+### Quelle und Gültigkeit
+
+- [Entgeltregelung ab 1. September 2026 (PDF)](https://www.leinfelden-echterdingen.de/site/Leinfelden-Echterdingen-Internet/get/documents_E-476817934/leinfelden-echterdingen/Datenquelle_LE/stadtrecht/Stadtrecht-4_1_2.pdf)
+- [Entgeltregelung Verpflegung, Anlage gültig ab 1. September 2025 (PDF)](https://www.leinfelden-echterdingen.de/site/Leinfelden-Echterdingen-Internet/get/documents_E-1581222893/leinfelden-echterdingen/Datenquelle_LE/stadtrecht/Stadtrecht-4_5.pdf)
+
+Die 2026-Entgeltregelung gilt auch für konfessionelle und freie Träger, die am städtischen Vergabeverfahren teilnehmen. Es werden elf Monatsentgelte (September bis Juli) erhoben. Die Grundtabellen unterscheiden U3/Ü3, Wochenstunden und die Zahl kindergeldberechtigter Kinder im Familienhaushalt. Die ergänzende Stadtpassregel wird jährlich gemäß der jeweils gültigen Stadtpassregelung angewendet. Für Stadtpass A/B/C gelten Ermäßigungen von 60 %, 35 % bzw. 25 % auf das Betreuungsentgelt; nur eine Ermäßigungsgrundlage kann angesetzt werden. Diese Stufen bestätigt die städtische Mitteilung zur Anpassung 2026/27. Die vollständigen gerundeten Stadtpass-Tabellen wurden bei der Nachprüfung zusätzlich in die strukturierten Daten übernommen und haben bei der Berechnung Vorrang vor einer freien Prozentrechnung.
+
+### Reguläre monatliche Betreuungstarife ab 1. September 2026
+
+| Altersgruppe | Familiengröße | Früh-/Spätdienst je angefangene halbe Stunde | bis 25 Std. | VÖ bis 30 Std. | VÖ bis 35 Std. | GT bis 40 Std. | GT bis 45 Std. |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| Ü3 | 1 Kind | 17,35 € | 162 € | 194,40 € | 226,80 € | 259,20 € | 291,60 € |
+| Ü3 | 2 Kinder | 13,00 € | 121,50 € | 145,80 € | 170,10 € | 194,40 € | 218,70 € |
+| Ü3 | 3 Kinder | 8,70 € | 81 € | 97,20 € | 113,40 € | 129,60 € | 145,80 € |
+| Ü3 | 4 Kinder | 4,30 € | 40,50 € | 48,60 € | 56,70 € | 64,80 € | 72,90 € |
+| U3 | 1 Kind | 40,23 € | – | 440,40 € | 513,80 € | 587,20 € | 660,60 € |
+| U3 | 2 Kinder | 30,20 € | – | 330,30 € | 385,40 € | 440,40 € | 495,50 € |
+| U3 | 3 Kinder | 20,10 € | – | 220,20 € | 256,90 € | 293,60 € | 330,30 € |
+| U3 | 4 Kinder | 10,10 € | – | 110,10 € | 128,50 € | 146,80 € | 165,20 € |
+
+**Verpflegung, jüngste auf der Stadtrechtseite gelistete Fassung, Stand 22. Mai 2025 / gültig ab 1. September 2025:** Bei fünf Tagen pro Woche kostet das Mittagessen U3 82 €/Monat und Ü3 86 €/Monat; Stadtpass A/B/C zahlen jeweils 60 €/Monat. Abrechnung ist nach gebuchten Tagen gestaffelt. Zusätzlich kostet der Snack 10 €/Monat im Kindergarten-Halbtagsmodell bzw. 16 €/Monat bei VÖ/GT. Mittagessen ist bei Betreuungsende ab 14 Uhr verpflichtend; Essen wird für elf Monate (September bis Juli) berechnet. Die aktuelle Kinderbetreuungsseite verlinkt diese Verpflegungsordnung weiterhin. Der Nachabruf am 7. November 2026 bestätigt die unveränderte Fassung ab September 2025 als aktuell verlinkte Regelung; sie bleibt mit eigenem Preisstand gespeichert.
+
+## Böblingen
+
+### Quelle und Gültigkeit
+
+- [Gebührenverzeichnis ab 1. September 2026 (PDF)](https://www.boeblingen.de/site/Boeblingen-Internet/get/params_E-1808561047/25368744/460.1331%20-%20Geb%C3%BChrenverzeichnis%20ab%2001.09.2026%20-%20Anlage%20%28neue%20Schriftart%29.pdf)
+- [Städtische Einrichtungen und Satzung](https://www.boeblingen.de/leben--lernen/bildung--betreuung/Kinderbetreuung/Einrichtungen)
+
+Die Tabelle gilt für städtische Einrichtungen ab **1. September 2026**. Sie bemisst sich nach Alter, maximaler Betreuungszeit pro Woche und Zahl der Kinder im Haushalt. Für Betreuung und Verpflegung gibt es separate Gebühren.
+
+### Monatliche Betreuungsgebühren ab 1. September 2026
+
+Die Quelle weist für 15 Stunden/Woche „kein Angebot“ aus; die folgenden Beträge gelten für 25, 30, 35, 40, 45, 50 und 55 Stunden/Woche.
+
+| Altersgruppe | Familiengröße | 25 Std. | 30 Std. | 35 Std. | 40 Std. | 45 Std. | 50 Std. | 55 Std. |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|
+| ab 3 Jahren | 1 Kind | 55 € | 83 € | 116 € | 155 € | 199 € | 249 € | 304 € |
+| ab 3 Jahren | 2 Kinder | 43 € | 65 € | 91 € | 120 € | 155 € | 194 € | 237 € |
+| ab 3 Jahren | 3 Kinder | 29 € | 44 € | 62 € | 82 € | 106 € | 132 € | 161 € |
+| ab 3 Jahren | 4+ Kinder | 10 € | 15 € | 20 € | 27 € | 35 € | 43 € | 53 € |
+| unter 3 Jahren | 1 Kind | 110 € | 166 € | 232 € | 310 € | 398 € | 498 € | 608 € |
+| unter 3 Jahren | 2 Kinder | 86 € | 130 € | 182 € | 240 € | 310 € | 388 € | 474 € |
+| unter 3 Jahren | 3 Kinder | 58 € | 88 € | 124 € | 164 € | 212 € | 264 € | 322 € |
+| unter 3 Jahren | 4+ Kinder | 20 € | 30 € | 40 € | 54 € | 70 € | 86 € | 106 € |
+
+**Verpflegung:** 100 €/Monat ab 3 Jahren, 90 €/Monat unter 3 Jahren. Für August wird grundsätzlich keine Verpflegungsgebühr erhoben. Die Satzung sieht außerdem optionale Ferienbetreuung mit separater Wochenpauschale vor; diese gehört nicht zu den regulären Monatstarifen.

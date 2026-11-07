@@ -1,0 +1,13 @@
+{
+  "id": "6d67ccd75002",
+  "municipality": "Böblingen",
+  "title": "Additional official source",
+  "url": "https://www.boeblingen.de/site/Boeblingen-Internet/get/params_E1557862559/24731764/Prospekt%20105x210%20Kita%20Betreuungsangebote%20Bo%CC%88blingen.pdf",
+  "retrieved_at": "2026-11-07T22:22:57.714147+00:00",
+  "http_status": 200,
+  "content_type": "application/pdf",
+  "final_url": "https://www.boeblingen.de/site/Boeblingen-Internet/get/params_E1557862559/24731764/Prospekt%20105x210%20Kita%20Betreuungsangebote%20Bo%CC%88blingen.pdf",
+  "error": null,
+  "local_path": "data/sources/6d67ccd75002/document.pdf",
+  "sha256": "8e1d23c516a8c208fb4120d0455b13f8de8c713e719acc29050043bb4f40b17b"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "01bdd4e044a8",
+  "municipality": "Leonberg",
+  "title": "FAQ Kindertageseinrichtungen",
+  "url": "https://www.leonberg.de/Familie-Bildung/Bildung/Kindertageseinrichtungen/FAQ-Kindertageseinrichtungen/",
+  "retrieved_at": "2026-11-07T22:07:15.578734+00:00",
+  "http_status": 200,
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://www.leonberg.de/Familie-Bildung/Bildung/Kindertageseinrichtungen/FAQ-Kindertageseinrichtungen/",
+  "error": null,
+  "local_path": "data/sources/01bdd4e044a8/document.html",
+  "sha256": "0ef7dd40ec64d2b68da83f34250d7ea8c01c8419d54fe3e2da652b1b698abd3c"
+}

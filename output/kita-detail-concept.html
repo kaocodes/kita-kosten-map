@@ -1,0 +1,83 @@
+<style>
+#kita-concept { --kc-bg: light-dark(#f7f8f6,#171e1c); --kc-panel: light-dark(#ffffff,#212b27); --kc-text: light-dark(#20372e,#e5eee8); --kc-muted: light-dark(#53685f,#b0c4b8); --kc-line: light-dark(#dce4de,#3c5045); --kc-accent: light-dark(#275942,#a5d6b6); color:var(--kc-text); font:400 15px/1.5 system-ui,sans-serif; background:var(--kc-bg); border:1px solid var(--kc-line); border-radius:18px; overflow:hidden; }
+#kita-concept * { box-sizing:border-box; }
+#kita-concept header { padding:20px 24px; border-bottom:1px solid var(--kc-line); background:var(--kc-panel); }
+#kita-concept .kc-brand { font-size:17px; font-weight:600; letter-spacing:-.4px; }
+#kita-concept .kc-caption { font-size:12px; color:var(--kc-muted); }
+#kita-concept .kc-body { padding:24px; display:grid; grid-template-columns:minmax(0,1fr) minmax(0,1.05fr); gap:32px; }
+#kita-concept h2 { margin:3px 0 0; font-size:28px; font-weight:600; letter-spacing:-1px; line-height:1.2; }
+#kita-concept p { margin:8px 0 0; }
+#kita-concept .kc-form { display:grid; gap:16px; margin-top:24px; }
+#kita-concept label { display:grid; gap:6px; font-size:13px; }
+#kita-concept select { min-width:0; width:100%; padding:10px 12px; background:var(--kc-panel); color:var(--kc-text); border:1px solid var(--kc-line); border-radius:8px; font:inherit; }
+#kita-concept .kc-result { align-self:start; padding:24px; background:var(--kc-panel); border:1px solid var(--kc-line); border-radius:12px; }
+#kita-concept .kc-total { margin:9px 0 16px; font-size:42px; font-weight:600; letter-spacing:-1.8px; font-variant-numeric:tabular-nums; line-height:1.1; }
+#kita-concept .kc-total span { font-size:14px; font-weight:400; letter-spacing:0; color:var(--kc-muted); }
+#kita-concept dl { margin:0; }
+#kita-concept .kc-row { display:flex; justify-content:space-between; gap:12px; padding:10px 0; border-top:1px solid var(--kc-line); }
+#kita-concept dt { color:var(--kc-muted); }
+#kita-concept dd { margin:0; font-variant-numeric:tabular-nums; }
+#kita-concept details { margin-top:18px; font-size:13px; }
+#kita-concept summary { color:var(--kc-accent); }
+#kita-concept footer { padding:14px 24px; border-top:1px solid var(--kc-line); font-size:12px; color:var(--kc-muted); }
+@media(max-width:600px) { #kita-concept .kc-body { grid-template-columns:minmax(0,1fr); gap:22px; padding:20px; } #kita-concept select { font-size:16px; min-height:44px; } }
+</style>
+<section id="kita-concept" aria-label="Entwurf einer kommunalen Gebührendetailansicht">
+  <header><div class="kc-brand">Kita-Kosten</div><div class="kc-caption">Region Stuttgart · Entwurf der Detailansicht</div></header>
+  <div class="kc-body">
+    <div>
+      <div class="kc-caption">Kommunale Betreuung</div>
+      <h2>Ditzingen</h2>
+      <p>Ganztagsbetreuung · 45 Stunden pro Woche</p>
+      <div class="kc-form">
+        <label>Alter des Kindes<select id="kc-age"><option value="u3">1 bis unter 3 Jahre</option><option value="o3">Ab 3 Jahren</option></select></label>
+        <label>Kinderzahl laut Tarifstaffel<select id="kc-children"><option value="0">1 Kind</option><option value="1">2 Kinder</option><option value="2">3 Kinder</option><option value="3">4 oder mehr Kinder</option></select></label>
+        <label>Zu versteuerndes Vorjahreseinkommen<select id="kc-income"><option value="0">Bis 35.000 € / Jahr</option><option value="1">35.001–50.000 € / Jahr</option><option value="2" selected>50.001–70.000 € / Jahr</option><option value="3">Über 70.001 € / Jahr (Quellenwortlaut)</option></select></label>
+      </div>
+    </div>
+    <div class="kc-result" aria-live="polite" aria-atomic="true">
+      <div class="kc-caption">Betreuung und Verpflegung</div>
+      <div class="kc-total"><output id="kc-total">666 €</output> <span>/ Monat</span></div>
+      <dl>
+        <div class="kc-row"><dt>Betreuung</dt><dd id="kc-care">578 €</dd></div>
+        <div class="kc-row"><dt>Verpflegung</dt><dd>88 €</dd></div>
+        <div class="kc-row"><dt>Tarif gültig ab</dt><dd>01.01.2026</dd></div>
+      </dl>
+      <details><summary>Quelle und Berechnungsgrundlage</summary><p>Kommunale Gebührentabelle Ditzingen, Ganztag mit 45 Wochenstunden. Betreuung nach Altersgruppe, Kinderzahl und Einkommensstufe; zuzüglich 88 € Verpflegung je Kind und Monat. Betrag für einen Betreuungsplatz. Geltungsbereich: städtische Einrichtungen.</p><p>Erfassungsstand des Projekts: 04.11.2026.</p></details>
+    </div>
+  </div>
+  <footer>Beispiel aus dem erfassten Datenstand · Beträge für einen Betreuungsplatz</footer>
+</section>
+<script>
+(() => {
+  const root = document.getElementById('kita-concept');
+  const fields = ['kc-age','kc-children','kc-income'].map(id => root.querySelector('#'+id));
+  const rates = {
+    u3:[[462,356,235,96],[520,401,265,108],[578,445,294,120],[636,490,323,132]],
+    o3:[[318,245,162,66],[357,275,182,75],[397,306,202,83],[437,337,222,91]]
+  };
+  const format = n => new Intl.NumberFormat('de-DE',{style:'currency',currency:'EUR',maximumFractionDigits:0}).format(n);
+  function restore(state) {
+    if (!state) return;
+    const values = [state.age,state.children,state.income];
+    fields.forEach((field,i) => {
+      if (Array.from(field.options).some(option=>option.value===String(values[i]))) field.value=String(values[i]);
+    });
+  }
+  function render() {
+    const care = rates[fields[0].value][Number(fields[2].value)][Number(fields[1].value)];
+    root.querySelector('#kc-care').textContent = format(care);
+    root.querySelector('#kc-total').textContent = format(care+88);
+  }
+  restore(window.openai?.widgetState?.modelContent);
+  render();
+  fields.forEach(field => field.addEventListener('change',()=>{
+    render();
+    window.openai?.setWidgetState?.({modelContent:{municipality:'Ditzingen',age:fields[0].value,children:fields[1].value,income:fields[2].value},privateContent:null})?.catch(()=>{});
+  }));
+  window.addEventListener('openai:set_globals',event=>{
+    restore(event.detail?.globals?.widgetState?.modelContent);
+    render();
+  });
+})();
+</script>

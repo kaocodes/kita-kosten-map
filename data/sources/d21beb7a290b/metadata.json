@@ -1,0 +1,13 @@
+{
+  "id": "d21beb7a290b",
+  "municipality": "Korntal-Münchingen",
+  "title": "Mensa Korntal",
+  "url": "https://www.korntal-muenchingen.de/de/Leben-Lernen/Bildung/Mensa-Korntal",
+  "retrieved_at": "2026-11-07T22:07:17.632497+00:00",
+  "http_status": 404,
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://www.korntal-muenchingen.de/de/Leben-Lernen/Bildung/Mensa-Korntal",
+  "error": null,
+  "local_path": "data/sources/d21beb7a290b/document.html",
+  "sha256": "fc9fe7477f7316cc37298ab790a4735da6ee2ecf6ee7350db87ac2ab02de407a"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "ac08173fffe3",
+  "municipality": "Leonberg",
+  "title": "Öffentliche Bekanntmachungen",
+  "url": "https://www.leonberg.de/%C3%96ffentliche-Bekanntmachungen",
+  "retrieved_at": "2026-11-07T22:07:15.682923+00:00",
+  "http_status": 200,
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://www.leonberg.de/%C3%96ffentliche-Bekanntmachungen",
+  "error": null,
+  "local_path": "data/sources/ac08173fffe3/document.html",
+  "sha256": "df1a760096310a53536c25cc7ecd8a0f09244d34aecf05b230794c5f49905c89"
+}

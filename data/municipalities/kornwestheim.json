@@ -1,0 +1,1835 @@
+{
+  "schema_version": "1.0",
+  "id": "kornwestheim",
+  "name": "Kornwestheim",
+  "reviewed_at": "2026-11-07",
+  "reference_date": "2026-11-04",
+  "scope": {
+    "included": [
+      "municipal"
+    ],
+    "other_providers": "only_with_explicit_source_evidence",
+    "also_included": []
+  },
+  "family_basis": "resident_children",
+  "family_evidence": {
+    "source_id": "ecb1d09b1939",
+    "locator": "Gebührenmaßstab / Familienbegriff",
+    "original": null
+  },
+  "payment_months": 11,
+  "payment_evidence": {
+    "source_id": "ecb1d09b1939",
+    "locator": "PDF Seite 2, §3 Abs. 2: elf Monate, August gebührenfrei",
+    "original": null
+  },
+  "original_research": {
+    "path": "data/imported/research_2026-11-04.md",
+    "section": "Kornwestheim",
+    "text": "\n### Quellen und Gültigkeit\n\n- [Gebührenseite der Stadt Kornwestheim](https://www.kornwestheim.de/start/bildung/kindergaerten%2Bund%2Bkindertagesstaetten.html), abgerufen am 4. November 2026.\n- [Gebührensatzung und Gebührenverzeichnis ab 1. September 2026 (PDF)](https://www.kornwestheim.de/site/Kornwestheim_Internet/get/params_E-1204246672/25201515/Satzung%20mit%20Geb%C3%BChren%20ab%201.9.2026.pdf).\n\nDie Satzung beschreibt städtische Kindertageseinrichtungen als öffentliche Einrichtungen. Die Gebühren richten sich nach Alter, Betreuungsumfang und der Zahl bestimmter Kinder im Haushalt. Die Tabelle ist mit Stand **1. September 2026** für das Kindergartenjahr 2026/2027 ausgewiesen. Gebühren sind für elf Monate zu entrichten; August ist gebührenfrei.\n\n### Gebührenverzeichnis – Stand 1. September 2026\n\n| Betreuungsmodell | 1 Kind | 2 Kinder | 3 Kinder | 4 Kinder |\n|---|---:|---:|---:|---:|\n| VÖ Ü3 | 167 € | 126 € | 84 € | 27 € |\n| VÖ U3 | 326 € | 244 € | 164 € | 60 € |\n| HT Ü3, 5 Std. | 139 € | 104 € | 69 € | 23 € |\n| HT U3, 5 Std. | 271 € | 205 € | 135 € | 48 € |\n| GT Ü3, 7,5 Std./Tag, 5 Tage | 291 € | 210 € | 116 € | 46 € |\n| GT U3, 7,5 Std./Tag, 5 Tage | 375 € | 268 € | 174 € | 68 € |\n| GT Ü3, 9 Std./Tag, 5 Tage | 354 € | 248 € | 140 € | 58 € |\n| GT U3, 9 Std./Tag, 5 Tage | 436 € | 310 € | 200 € | 79 € |\n| GT Ü3, 10,5 Std./Tag, 5 Tage | 418 € | 287 € | 166 € | 66 € |\n| GT U3, 10,5 Std./Tag, 5 Tage | 497 € | 353 € | 227 € | 89 € |\n\n**Verpflegung:** 76 € je Kind und Monat bei fünf Tagen pro Woche; in den städtischen Kitas Bebelstraße, Karlstraße und Neckarstraße 90 € für Vollverpflegung. Verpflegung ist bei Ganztagsbetreuung verpflichtend und kommt zur Benutzungsgebühr hinzu.\n\n**Begriffe der Quelle:** U3 = unter 3 Jahre; Ü3 = über 3 Jahre; GT = Ganztagesbetreuung; VÖ = verlängerte Vormittagsöffnung; HT = Halbtagesgruppe. Die Quelle verwendet „über 3 Jahre“; die genaue Altersgrenze sollte bei der Normalisierung nicht stillschweigend geändert werden.\n\n### Kornwestheim: dokumentierte Bedingungen und offene Prüfung\n\n- Die Tabelle weist vier Familiengrößen aus (1, 2, 3, 4 Kinder). Sie enthält keine Einkommensstaffel in den Grundtarifen.\n- Bei monatlichem Familienbruttoeinkommen unter 4.000 € ist laut Stadtseite unter bestimmten Voraussetzungen eine Ermäßigung von 50 % auf Benutzungs- und Verpflegungsgebühr möglich; vorrangige Sozialleistungen sind zu berücksichtigen.\n- Die Satzung nennt eine automatische jährliche Anpassung um 5 % bis zum Ende des Kindergartenjahrs 2029/2030. Für historische Vergleiche soll dennoch die jeweilige veröffentlichte Tarifversion gespeichert werden.\n- Eine ältere Suche hatte eine Fassung von 2024 gefunden. Sie ist gegenüber der nun bestätigten Fassung ab 1. September 2026 als historischer Stand einzuordnen.\n\n"
+  },
+  "income_bands": [],
+  "offers": [
+    {
+      "id": "kornwestheim-4a3de6b896",
+      "original_label": "VÖ Ü3",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "weekly_minutes": 1800,
+      "weekday_minutes": [
+        360,
+        360,
+        360,
+        360,
+        360
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "ecb1d09b1939",
+        "locator": "§1b: VÖ durchgehend sechs Stunden pro Tag",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "ecb1d09b1939",
+        "locator": "PDF Seite 2, §3 Abs. 2: elf Monate, August gebührenfrei",
+        "original": null
+      },
+      "evidence": {
+        "source_id": "ecb1d09b1939",
+        "locator": "PDF Seite 6, VÖ Ü3, o3",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "kornwestheim-f1e2c3af1b",
+      "original_label": "VÖ U3",
+      "age_group": "u3",
+      "age_min_months": 0,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "weekly_minutes": 1800,
+      "weekday_minutes": [
+        360,
+        360,
+        360,
+        360,
+        360
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "ecb1d09b1939",
+        "locator": "§1b: VÖ durchgehend sechs Stunden pro Tag",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "ecb1d09b1939",
+        "locator": "PDF Seite 2, §3 Abs. 2: elf Monate, August gebührenfrei",
+        "original": null
+      },
+      "evidence": {
+        "source_id": "ecb1d09b1939",
+        "locator": "PDF Seite 6, VÖ U3, u3",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "kornwestheim-a1c5ad0d1b",
+      "original_label": "HT Ü3, 5 Std.",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "weekly_minutes": 1500,
+      "weekday_minutes": [
+        300,
+        300,
+        300,
+        300,
+        300
+      ],
+      "continuous": true,
+      "schedule_status": "published",
+      "schedule_evidence": {
+        "source_id": "ecb1d09b1939",
+        "locator": "Gebührentabelle",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "ecb1d09b1939",
+        "locator": "PDF Seite 2, §3 Abs. 2: elf Monate, August gebührenfrei",
+        "original": null
+      },
+      "evidence": {
+        "source_id": "ecb1d09b1939",
+        "locator": "PDF Seite 6, HT Ü3, 5 Std., o3",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "kornwestheim-5996f035ce",
+      "original_label": "HT U3, 5 Std.",
+      "age_group": "u3",
+      "age_min_months": 0,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "weekly_minutes": 1500,
+      "weekday_minutes": [
+        300,
+        300,
+        300,
+        300,
+        300
+      ],
+      "continuous": true,
+      "schedule_status": "published",
+      "schedule_evidence": {
+        "source_id": "ecb1d09b1939",
+        "locator": "Gebührentabelle",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "ecb1d09b1939",
+        "locator": "PDF Seite 2, §3 Abs. 2: elf Monate, August gebührenfrei",
+        "original": null
+      },
+      "evidence": {
+        "source_id": "ecb1d09b1939",
+        "locator": "PDF Seite 6, HT U3, 5 Std., u3",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "kornwestheim-1d85696827",
+      "original_label": "GT Ü3, 7,5 Std./Tag, 5 Tage",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "weekly_minutes": 2250,
+      "weekday_minutes": [
+        450,
+        450,
+        450,
+        450,
+        450
+      ],
+      "continuous": true,
+      "schedule_status": "published",
+      "schedule_evidence": {
+        "source_id": "ecb1d09b1939",
+        "locator": "Gebührentabelle",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "ecb1d09b1939",
+        "locator": "PDF Seite 2, §3 Abs. 2: elf Monate, August gebührenfrei",
+        "original": null
+      },
+      "evidence": {
+        "source_id": "ecb1d09b1939",
+        "locator": "PDF Seite 6, GT Ü3, 7,5 Std./Tag, 5 Tage, o3",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "kornwestheim-e4238d28ad",
+      "original_label": "GT U3, 7,5 Std./Tag, 5 Tage",
+      "age_group": "u3",
+      "age_min_months": 0,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "weekly_minutes": 2250,
+      "weekday_minutes": [
+        450,
+        450,
+        450,
+        450,
+        450
+      ],
+      "continuous": true,
+      "schedule_status": "published",
+      "schedule_evidence": {
+        "source_id": "ecb1d09b1939",
+        "locator": "Gebührentabelle",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "ecb1d09b1939",
+        "locator": "PDF Seite 2, §3 Abs. 2: elf Monate, August gebührenfrei",
+        "original": null
+      },
+      "evidence": {
+        "source_id": "ecb1d09b1939",
+        "locator": "PDF Seite 6, GT U3, 7,5 Std./Tag, 5 Tage, u3",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "kornwestheim-1ead94c110",
+      "original_label": "GT Ü3, 9 Std./Tag, 5 Tage",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "weekly_minutes": 2700,
+      "weekday_minutes": [
+        540,
+        540,
+        540,
+        540,
+        540
+      ],
+      "continuous": true,
+      "schedule_status": "published",
+      "schedule_evidence": {
+        "source_id": "ecb1d09b1939",
+        "locator": "Gebührentabelle",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "ecb1d09b1939",
+        "locator": "PDF Seite 2, §3 Abs. 2: elf Monate, August gebührenfrei",
+        "original": null
+      },
+      "evidence": {
+        "source_id": "ecb1d09b1939",
+        "locator": "PDF Seite 6, GT Ü3, 9 Std./Tag, 5 Tage, o3",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "kornwestheim-cc5325c66a",
+      "original_label": "GT U3, 9 Std./Tag, 5 Tage",
+      "age_group": "u3",
+      "age_min_months": 0,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "weekly_minutes": 2700,
+      "weekday_minutes": [
+        540,
+        540,
+        540,
+        540,
+        540
+      ],
+      "continuous": true,
+      "schedule_status": "published",
+      "schedule_evidence": {
+        "source_id": "ecb1d09b1939",
+        "locator": "Gebührentabelle",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "ecb1d09b1939",
+        "locator": "PDF Seite 2, §3 Abs. 2: elf Monate, August gebührenfrei",
+        "original": null
+      },
+      "evidence": {
+        "source_id": "ecb1d09b1939",
+        "locator": "PDF Seite 6, GT U3, 9 Std./Tag, 5 Tage, u3",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "kornwestheim-07c7bbc1f9",
+      "original_label": "GT Ü3, 10,5 Std./Tag, 5 Tage",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "weekly_minutes": 3150,
+      "weekday_minutes": [
+        630,
+        630,
+        630,
+        630,
+        630
+      ],
+      "continuous": true,
+      "schedule_status": "published",
+      "schedule_evidence": {
+        "source_id": "ecb1d09b1939",
+        "locator": "Gebührentabelle",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "ecb1d09b1939",
+        "locator": "PDF Seite 2, §3 Abs. 2: elf Monate, August gebührenfrei",
+        "original": null
+      },
+      "evidence": {
+        "source_id": "ecb1d09b1939",
+        "locator": "PDF Seite 6, GT Ü3, 10,5 Std./Tag, 5 Tage, o3",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "kornwestheim-c59da8afdc",
+      "original_label": "GT U3, 10,5 Std./Tag, 5 Tage",
+      "age_group": "u3",
+      "age_min_months": 0,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "weekly_minutes": 3150,
+      "weekday_minutes": [
+        630,
+        630,
+        630,
+        630,
+        630
+      ],
+      "continuous": true,
+      "schedule_status": "published",
+      "schedule_evidence": {
+        "source_id": "ecb1d09b1939",
+        "locator": "Gebührentabelle",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "ecb1d09b1939",
+        "locator": "PDF Seite 2, §3 Abs. 2: elf Monate, August gebührenfrei",
+        "original": null
+      },
+      "evidence": {
+        "source_id": "ecb1d09b1939",
+        "locator": "PDF Seite 6, GT U3, 10,5 Std./Tag, 5 Tage, u3",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "kornwestheim-fd582d02bb",
+      "original_label": "HT3: definiert, kein Preis in Anlage 1",
+      "age_group": "u3",
+      "age_min_months": 0,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "weekly_minutes": 900,
+      "weekday_minutes": [
+        180,
+        180,
+        180,
+        180,
+        180
+      ],
+      "continuous": true,
+      "schedule_status": "defined_only",
+      "schedule_evidence": {
+        "source_id": "ecb1d09b1939",
+        "locator": "§1c; Anlage 1",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "ecb1d09b1939",
+        "locator": "PDF Seite 2, §3 Abs. 2: elf Monate, August gebührenfrei",
+        "original": null
+      },
+      "evidence": {
+        "source_id": "ecb1d09b1939",
+        "locator": "§1c; Anlage 1",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "kornwestheim-6ff47b51c0",
+      "original_label": "Regelgruppe RG: definiert, kein Preis in Anlage 1",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "weekly_minutes": null,
+      "weekday_minutes": null,
+      "continuous": false,
+      "schedule_status": "defined_only",
+      "schedule_evidence": {
+        "source_id": "ecb1d09b1939",
+        "locator": "§1a; Anlage 1",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "ecb1d09b1939",
+        "locator": "PDF Seite 2, §3 Abs. 2: elf Monate, August gebührenfrei",
+        "original": null
+      },
+      "evidence": {
+        "source_id": "ecb1d09b1939",
+        "locator": "§1a; Anlage 1",
+        "original": null
+      },
+      "formula": null
+    }
+  ],
+  "prices": [
+    {
+      "id": "kornwestheim-price-0001",
+      "offer_id": "kornwestheim-4a3de6b896",
+      "amount_cents": 16700,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ecb1d09b1939",
+        "locator": "PDF Seite 6, VÖ Ü3, o3",
+        "original": {
+          "research_line": 95,
+          "heading": "Gebührenverzeichnis – Stand 1. September 2026",
+          "row": [
+            "VÖ Ü3",
+            "167 €",
+            "126 €",
+            "84 €",
+            "27 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "kornwestheim-price-0002",
+      "offer_id": "kornwestheim-4a3de6b896",
+      "amount_cents": 12600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ecb1d09b1939",
+        "locator": "PDF Seite 6, VÖ Ü3, o3",
+        "original": {
+          "research_line": 95,
+          "heading": "Gebührenverzeichnis – Stand 1. September 2026",
+          "row": [
+            "VÖ Ü3",
+            "167 €",
+            "126 €",
+            "84 €",
+            "27 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "kornwestheim-price-0003",
+      "offer_id": "kornwestheim-4a3de6b896",
+      "amount_cents": 8400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ecb1d09b1939",
+        "locator": "PDF Seite 6, VÖ Ü3, o3",
+        "original": {
+          "research_line": 95,
+          "heading": "Gebührenverzeichnis – Stand 1. September 2026",
+          "row": [
+            "VÖ Ü3",
+            "167 €",
+            "126 €",
+            "84 €",
+            "27 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "kornwestheim-price-0004",
+      "offer_id": "kornwestheim-4a3de6b896",
+      "amount_cents": 2700,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ecb1d09b1939",
+        "locator": "PDF Seite 6, VÖ Ü3, o3",
+        "original": {
+          "research_line": 95,
+          "heading": "Gebührenverzeichnis – Stand 1. September 2026",
+          "row": [
+            "VÖ Ü3",
+            "167 €",
+            "126 €",
+            "84 €",
+            "27 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "kornwestheim-price-0005",
+      "offer_id": "kornwestheim-f1e2c3af1b",
+      "amount_cents": 32600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ecb1d09b1939",
+        "locator": "PDF Seite 6, VÖ U3, u3",
+        "original": {
+          "research_line": 95,
+          "heading": "Gebührenverzeichnis – Stand 1. September 2026",
+          "row": [
+            "VÖ U3",
+            "326 €",
+            "244 €",
+            "164 €",
+            "60 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "kornwestheim-price-0006",
+      "offer_id": "kornwestheim-f1e2c3af1b",
+      "amount_cents": 24400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ecb1d09b1939",
+        "locator": "PDF Seite 6, VÖ U3, u3",
+        "original": {
+          "research_line": 95,
+          "heading": "Gebührenverzeichnis – Stand 1. September 2026",
+          "row": [
+            "VÖ U3",
+            "326 €",
+            "244 €",
+            "164 €",
+            "60 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "kornwestheim-price-0007",
+      "offer_id": "kornwestheim-f1e2c3af1b",
+      "amount_cents": 16400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ecb1d09b1939",
+        "locator": "PDF Seite 6, VÖ U3, u3",
+        "original": {
+          "research_line": 95,
+          "heading": "Gebührenverzeichnis – Stand 1. September 2026",
+          "row": [
+            "VÖ U3",
+            "326 €",
+            "244 €",
+            "164 €",
+            "60 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "kornwestheim-price-0008",
+      "offer_id": "kornwestheim-f1e2c3af1b",
+      "amount_cents": 6000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ecb1d09b1939",
+        "locator": "PDF Seite 6, VÖ U3, u3",
+        "original": {
+          "research_line": 95,
+          "heading": "Gebührenverzeichnis – Stand 1. September 2026",
+          "row": [
+            "VÖ U3",
+            "326 €",
+            "244 €",
+            "164 €",
+            "60 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "kornwestheim-price-0009",
+      "offer_id": "kornwestheim-a1c5ad0d1b",
+      "amount_cents": 13900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ecb1d09b1939",
+        "locator": "PDF Seite 6, HT Ü3, 5 Std., o3",
+        "original": {
+          "research_line": 95,
+          "heading": "Gebührenverzeichnis – Stand 1. September 2026",
+          "row": [
+            "HT Ü3, 5 Std.",
+            "139 €",
+            "104 €",
+            "69 €",
+            "23 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "kornwestheim-price-0010",
+      "offer_id": "kornwestheim-a1c5ad0d1b",
+      "amount_cents": 10400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ecb1d09b1939",
+        "locator": "PDF Seite 6, HT Ü3, 5 Std., o3",
+        "original": {
+          "research_line": 95,
+          "heading": "Gebührenverzeichnis – Stand 1. September 2026",
+          "row": [
+            "HT Ü3, 5 Std.",
+            "139 €",
+            "104 €",
+            "69 €",
+            "23 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "kornwestheim-price-0011",
+      "offer_id": "kornwestheim-a1c5ad0d1b",
+      "amount_cents": 6900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ecb1d09b1939",
+        "locator": "PDF Seite 6, HT Ü3, 5 Std., o3",
+        "original": {
+          "research_line": 95,
+          "heading": "Gebührenverzeichnis – Stand 1. September 2026",
+          "row": [
+            "HT Ü3, 5 Std.",
+            "139 €",
+            "104 €",
+            "69 €",
+            "23 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "kornwestheim-price-0012",
+      "offer_id": "kornwestheim-a1c5ad0d1b",
+      "amount_cents": 2300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ecb1d09b1939",
+        "locator": "PDF Seite 6, HT Ü3, 5 Std., o3",
+        "original": {
+          "research_line": 95,
+          "heading": "Gebührenverzeichnis – Stand 1. September 2026",
+          "row": [
+            "HT Ü3, 5 Std.",
+            "139 €",
+            "104 €",
+            "69 €",
+            "23 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "kornwestheim-price-0013",
+      "offer_id": "kornwestheim-5996f035ce",
+      "amount_cents": 27100,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ecb1d09b1939",
+        "locator": "PDF Seite 6, HT U3, 5 Std., u3",
+        "original": {
+          "research_line": 95,
+          "heading": "Gebührenverzeichnis – Stand 1. September 2026",
+          "row": [
+            "HT U3, 5 Std.",
+            "271 €",
+            "205 €",
+            "135 €",
+            "48 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "kornwestheim-price-0014",
+      "offer_id": "kornwestheim-5996f035ce",
+      "amount_cents": 20500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ecb1d09b1939",
+        "locator": "PDF Seite 6, HT U3, 5 Std., u3",
+        "original": {
+          "research_line": 95,
+          "heading": "Gebührenverzeichnis – Stand 1. September 2026",
+          "row": [
+            "HT U3, 5 Std.",
+            "271 €",
+            "205 €",
+            "135 €",
+            "48 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "kornwestheim-price-0015",
+      "offer_id": "kornwestheim-5996f035ce",
+      "amount_cents": 13500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ecb1d09b1939",
+        "locator": "PDF Seite 6, HT U3, 5 Std., u3",
+        "original": {
+          "research_line": 95,
+          "heading": "Gebührenverzeichnis – Stand 1. September 2026",
+          "row": [
+            "HT U3, 5 Std.",
+            "271 €",
+            "205 €",
+            "135 €",
+            "48 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "kornwestheim-price-0016",
+      "offer_id": "kornwestheim-5996f035ce",
+      "amount_cents": 4800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ecb1d09b1939",
+        "locator": "PDF Seite 6, HT U3, 5 Std., u3",
+        "original": {
+          "research_line": 95,
+          "heading": "Gebührenverzeichnis – Stand 1. September 2026",
+          "row": [
+            "HT U3, 5 Std.",
+            "271 €",
+            "205 €",
+            "135 €",
+            "48 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "kornwestheim-price-0017",
+      "offer_id": "kornwestheim-1d85696827",
+      "amount_cents": 29100,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ecb1d09b1939",
+        "locator": "PDF Seite 6, GT Ü3, 7,5 Std./Tag, 5 Tage, o3",
+        "original": {
+          "research_line": 95,
+          "heading": "Gebührenverzeichnis – Stand 1. September 2026",
+          "row": [
+            "GT Ü3, 7,5 Std./Tag, 5 Tage",
+            "291 €",
+            "210 €",
+            "116 €",
+            "46 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "kornwestheim-price-0018",
+      "offer_id": "kornwestheim-1d85696827",
+      "amount_cents": 21000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ecb1d09b1939",
+        "locator": "PDF Seite 6, GT Ü3, 7,5 Std./Tag, 5 Tage, o3",
+        "original": {
+          "research_line": 95,
+          "heading": "Gebührenverzeichnis – Stand 1. September 2026",
+          "row": [
+            "GT Ü3, 7,5 Std./Tag, 5 Tage",
+            "291 €",
+            "210 €",
+            "116 €",
+            "46 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "kornwestheim-price-0019",
+      "offer_id": "kornwestheim-1d85696827",
+      "amount_cents": 11600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ecb1d09b1939",
+        "locator": "PDF Seite 6, GT Ü3, 7,5 Std./Tag, 5 Tage, o3",
+        "original": {
+          "research_line": 95,
+          "heading": "Gebührenverzeichnis – Stand 1. September 2026",
+          "row": [
+            "GT Ü3, 7,5 Std./Tag, 5 Tage",
+            "291 €",
+            "210 €",
+            "116 €",
+            "46 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "kornwestheim-price-0020",
+      "offer_id": "kornwestheim-1d85696827",
+      "amount_cents": 4600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ecb1d09b1939",
+        "locator": "PDF Seite 6, GT Ü3, 7,5 Std./Tag, 5 Tage, o3",
+        "original": {
+          "research_line": 95,
+          "heading": "Gebührenverzeichnis – Stand 1. September 2026",
+          "row": [
+            "GT Ü3, 7,5 Std./Tag, 5 Tage",
+            "291 €",
+            "210 €",
+            "116 €",
+            "46 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "kornwestheim-price-0021",
+      "offer_id": "kornwestheim-e4238d28ad",
+      "amount_cents": 37500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ecb1d09b1939",
+        "locator": "PDF Seite 6, GT U3, 7,5 Std./Tag, 5 Tage, u3",
+        "original": {
+          "research_line": 95,
+          "heading": "Gebührenverzeichnis – Stand 1. September 2026",
+          "row": [
+            "GT U3, 7,5 Std./Tag, 5 Tage",
+            "375 €",
+            "268 €",
+            "174 €",
+            "68 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "kornwestheim-price-0022",
+      "offer_id": "kornwestheim-e4238d28ad",
+      "amount_cents": 26800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ecb1d09b1939",
+        "locator": "PDF Seite 6, GT U3, 7,5 Std./Tag, 5 Tage, u3",
+        "original": {
+          "research_line": 95,
+          "heading": "Gebührenverzeichnis – Stand 1. September 2026",
+          "row": [
+            "GT U3, 7,5 Std./Tag, 5 Tage",
+            "375 €",
+            "268 €",
+            "174 €",
+            "68 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "kornwestheim-price-0023",
+      "offer_id": "kornwestheim-e4238d28ad",
+      "amount_cents": 17400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ecb1d09b1939",
+        "locator": "PDF Seite 6, GT U3, 7,5 Std./Tag, 5 Tage, u3",
+        "original": {
+          "research_line": 95,
+          "heading": "Gebührenverzeichnis – Stand 1. September 2026",
+          "row": [
+            "GT U3, 7,5 Std./Tag, 5 Tage",
+            "375 €",
+            "268 €",
+            "174 €",
+            "68 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "kornwestheim-price-0024",
+      "offer_id": "kornwestheim-e4238d28ad",
+      "amount_cents": 6800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ecb1d09b1939",
+        "locator": "PDF Seite 6, GT U3, 7,5 Std./Tag, 5 Tage, u3",
+        "original": {
+          "research_line": 95,
+          "heading": "Gebührenverzeichnis – Stand 1. September 2026",
+          "row": [
+            "GT U3, 7,5 Std./Tag, 5 Tage",
+            "375 €",
+            "268 €",
+            "174 €",
+            "68 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "kornwestheim-price-0025",
+      "offer_id": "kornwestheim-1ead94c110",
+      "amount_cents": 35400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ecb1d09b1939",
+        "locator": "PDF Seite 6, GT Ü3, 9 Std./Tag, 5 Tage, o3",
+        "original": {
+          "research_line": 95,
+          "heading": "Gebührenverzeichnis – Stand 1. September 2026",
+          "row": [
+            "GT Ü3, 9 Std./Tag, 5 Tage",
+            "354 €",
+            "248 €",
+            "140 €",
+            "58 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "kornwestheim-price-0026",
+      "offer_id": "kornwestheim-1ead94c110",
+      "amount_cents": 24800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ecb1d09b1939",
+        "locator": "PDF Seite 6, GT Ü3, 9 Std./Tag, 5 Tage, o3",
+        "original": {
+          "research_line": 95,
+          "heading": "Gebührenverzeichnis – Stand 1. September 2026",
+          "row": [
+            "GT Ü3, 9 Std./Tag, 5 Tage",
+            "354 €",
+            "248 €",
+            "140 €",
+            "58 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "kornwestheim-price-0027",
+      "offer_id": "kornwestheim-1ead94c110",
+      "amount_cents": 14000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ecb1d09b1939",
+        "locator": "PDF Seite 6, GT Ü3, 9 Std./Tag, 5 Tage, o3",
+        "original": {
+          "research_line": 95,
+          "heading": "Gebührenverzeichnis – Stand 1. September 2026",
+          "row": [
+            "GT Ü3, 9 Std./Tag, 5 Tage",
+            "354 €",
+            "248 €",
+            "140 €",
+            "58 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "kornwestheim-price-0028",
+      "offer_id": "kornwestheim-1ead94c110",
+      "amount_cents": 5800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ecb1d09b1939",
+        "locator": "PDF Seite 6, GT Ü3, 9 Std./Tag, 5 Tage, o3",
+        "original": {
+          "research_line": 95,
+          "heading": "Gebührenverzeichnis – Stand 1. September 2026",
+          "row": [
+            "GT Ü3, 9 Std./Tag, 5 Tage",
+            "354 €",
+            "248 €",
+            "140 €",
+            "58 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "kornwestheim-price-0029",
+      "offer_id": "kornwestheim-cc5325c66a",
+      "amount_cents": 43600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ecb1d09b1939",
+        "locator": "PDF Seite 6, GT U3, 9 Std./Tag, 5 Tage, u3",
+        "original": {
+          "research_line": 95,
+          "heading": "Gebührenverzeichnis – Stand 1. September 2026",
+          "row": [
+            "GT U3, 9 Std./Tag, 5 Tage",
+            "436 €",
+            "310 €",
+            "200 €",
+            "79 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "kornwestheim-price-0030",
+      "offer_id": "kornwestheim-cc5325c66a",
+      "amount_cents": 31000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ecb1d09b1939",
+        "locator": "PDF Seite 6, GT U3, 9 Std./Tag, 5 Tage, u3",
+        "original": {
+          "research_line": 95,
+          "heading": "Gebührenverzeichnis – Stand 1. September 2026",
+          "row": [
+            "GT U3, 9 Std./Tag, 5 Tage",
+            "436 €",
+            "310 €",
+            "200 €",
+            "79 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "kornwestheim-price-0031",
+      "offer_id": "kornwestheim-cc5325c66a",
+      "amount_cents": 20000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ecb1d09b1939",
+        "locator": "PDF Seite 6, GT U3, 9 Std./Tag, 5 Tage, u3",
+        "original": {
+          "research_line": 95,
+          "heading": "Gebührenverzeichnis – Stand 1. September 2026",
+          "row": [
+            "GT U3, 9 Std./Tag, 5 Tage",
+            "436 €",
+            "310 €",
+            "200 €",
+            "79 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "kornwestheim-price-0032",
+      "offer_id": "kornwestheim-cc5325c66a",
+      "amount_cents": 7900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ecb1d09b1939",
+        "locator": "PDF Seite 6, GT U3, 9 Std./Tag, 5 Tage, u3",
+        "original": {
+          "research_line": 95,
+          "heading": "Gebührenverzeichnis – Stand 1. September 2026",
+          "row": [
+            "GT U3, 9 Std./Tag, 5 Tage",
+            "436 €",
+            "310 €",
+            "200 €",
+            "79 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "kornwestheim-price-0033",
+      "offer_id": "kornwestheim-07c7bbc1f9",
+      "amount_cents": 41800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ecb1d09b1939",
+        "locator": "PDF Seite 6, GT Ü3, 10,5 Std./Tag, 5 Tage, o3",
+        "original": {
+          "research_line": 95,
+          "heading": "Gebührenverzeichnis – Stand 1. September 2026",
+          "row": [
+            "GT Ü3, 10,5 Std./Tag, 5 Tage",
+            "418 €",
+            "287 €",
+            "166 €",
+            "66 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "kornwestheim-price-0034",
+      "offer_id": "kornwestheim-07c7bbc1f9",
+      "amount_cents": 28700,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ecb1d09b1939",
+        "locator": "PDF Seite 6, GT Ü3, 10,5 Std./Tag, 5 Tage, o3",
+        "original": {
+          "research_line": 95,
+          "heading": "Gebührenverzeichnis – Stand 1. September 2026",
+          "row": [
+            "GT Ü3, 10,5 Std./Tag, 5 Tage",
+            "418 €",
+            "287 €",
+            "166 €",
+            "66 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "kornwestheim-price-0035",
+      "offer_id": "kornwestheim-07c7bbc1f9",
+      "amount_cents": 16600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ecb1d09b1939",
+        "locator": "PDF Seite 6, GT Ü3, 10,5 Std./Tag, 5 Tage, o3",
+        "original": {
+          "research_line": 95,
+          "heading": "Gebührenverzeichnis – Stand 1. September 2026",
+          "row": [
+            "GT Ü3, 10,5 Std./Tag, 5 Tage",
+            "418 €",
+            "287 €",
+            "166 €",
+            "66 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "kornwestheim-price-0036",
+      "offer_id": "kornwestheim-07c7bbc1f9",
+      "amount_cents": 6600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ecb1d09b1939",
+        "locator": "PDF Seite 6, GT Ü3, 10,5 Std./Tag, 5 Tage, o3",
+        "original": {
+          "research_line": 95,
+          "heading": "Gebührenverzeichnis – Stand 1. September 2026",
+          "row": [
+            "GT Ü3, 10,5 Std./Tag, 5 Tage",
+            "418 €",
+            "287 €",
+            "166 €",
+            "66 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "kornwestheim-price-0037",
+      "offer_id": "kornwestheim-c59da8afdc",
+      "amount_cents": 49700,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ecb1d09b1939",
+        "locator": "PDF Seite 6, GT U3, 10,5 Std./Tag, 5 Tage, u3",
+        "original": {
+          "research_line": 95,
+          "heading": "Gebührenverzeichnis – Stand 1. September 2026",
+          "row": [
+            "GT U3, 10,5 Std./Tag, 5 Tage",
+            "497 €",
+            "353 €",
+            "227 €",
+            "89 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "kornwestheim-price-0038",
+      "offer_id": "kornwestheim-c59da8afdc",
+      "amount_cents": 35300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ecb1d09b1939",
+        "locator": "PDF Seite 6, GT U3, 10,5 Std./Tag, 5 Tage, u3",
+        "original": {
+          "research_line": 95,
+          "heading": "Gebührenverzeichnis – Stand 1. September 2026",
+          "row": [
+            "GT U3, 10,5 Std./Tag, 5 Tage",
+            "497 €",
+            "353 €",
+            "227 €",
+            "89 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "kornwestheim-price-0039",
+      "offer_id": "kornwestheim-c59da8afdc",
+      "amount_cents": 22700,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ecb1d09b1939",
+        "locator": "PDF Seite 6, GT U3, 10,5 Std./Tag, 5 Tage, u3",
+        "original": {
+          "research_line": 95,
+          "heading": "Gebührenverzeichnis – Stand 1. September 2026",
+          "row": [
+            "GT U3, 10,5 Std./Tag, 5 Tage",
+            "497 €",
+            "353 €",
+            "227 €",
+            "89 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "kornwestheim-price-0040",
+      "offer_id": "kornwestheim-c59da8afdc",
+      "amount_cents": 8900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ecb1d09b1939",
+        "locator": "PDF Seite 6, GT U3, 10,5 Std./Tag, 5 Tage, u3",
+        "original": {
+          "research_line": 95,
+          "heading": "Gebührenverzeichnis – Stand 1. September 2026",
+          "row": [
+            "GT U3, 10,5 Std./Tag, 5 Tage",
+            "497 €",
+            "353 €",
+            "227 €",
+            "89 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "kornwestheim-price-0041",
+      "offer_id": "kornwestheim-fd582d02bb",
+      "amount_cents": null,
+      "unit": "per_month",
+      "value_status": "not_published",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ecb1d09b1939",
+        "locator": "§1c; Anlage 1",
+        "original": "Definition ohne separat ausgewiesenen Tarif"
+      }
+    },
+    {
+      "id": "kornwestheim-price-0042",
+      "offer_id": "kornwestheim-6ff47b51c0",
+      "amount_cents": null,
+      "unit": "per_month",
+      "value_status": "not_published",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ecb1d09b1939",
+        "locator": "§1a; Anlage 1",
+        "original": "Definition ohne separat ausgewiesenen Tarif"
+      }
+    }
+  ],
+  "components": [
+    {
+      "id": "kornwestheim-component-001",
+      "kind": "meal",
+      "original_label": "Mittagessen Standard",
+      "amount_cents": 7600,
+      "unit": "per_month",
+      "age_group": null,
+      "offer_ids": [
+        "kornwestheim-1d85696827",
+        "kornwestheim-e4238d28ad",
+        "kornwestheim-1ead94c110",
+        "kornwestheim-cc5325c66a",
+        "kornwestheim-07c7bbc1f9",
+        "kornwestheim-c59da8afdc"
+      ],
+      "required": true,
+      "payment_months": null,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "ecb1d09b1939",
+        "locator": "Verpflegung",
+        "original": null
+      },
+      "exception_group": "standard"
+    },
+    {
+      "id": "kornwestheim-component-002",
+      "kind": "meal",
+      "original_label": "Vollverpflegung Bebelstraße/Karlstraße/Neckarstraße",
+      "amount_cents": 9000,
+      "unit": "per_month",
+      "age_group": null,
+      "offer_ids": [
+        "kornwestheim-1d85696827",
+        "kornwestheim-e4238d28ad",
+        "kornwestheim-1ead94c110",
+        "kornwestheim-cc5325c66a",
+        "kornwestheim-07c7bbc1f9",
+        "kornwestheim-c59da8afdc"
+      ],
+      "required": true,
+      "payment_months": null,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "ecb1d09b1939",
+        "locator": "Verpflegung",
+        "original": null
+      },
+      "exception_group": "full_board"
+    }
+  ],
+  "rules": [
+    {
+      "id": "social_reduction",
+      "kind": "percent_discount",
+      "parameters": {
+        "percent": 50,
+        "income_below_cents": 400000,
+        "income_basis": "gross_income",
+        "income_period": "month",
+        "components": [
+          "care",
+          "meal"
+        ]
+      },
+      "requires": [
+        "priority_benefits_denied"
+      ],
+      "stackable": false,
+      "execution_status": "supported",
+      "evidence": {
+        "source_id": "ecb1d09b1939",
+        "locator": "Gebührenermäßigung",
+        "original": null
+      }
+    }
+  ],
+  "issues": [],
+  "source_text_archive": "data/sources/ecb1d09b1939/text.txt",
+  "coverage": {
+    "care_tables": "transferred",
+    "income_tables": "transferred_or_not_applicable",
+    "family_tables": "transferred",
+    "rules": "source_text_preserved_with_supported_subset",
+    "exceptions": "source_text_preserved",
+    "reviewed_at": "2026-11-07"
+  },
+  "age_transition": "age_group_at_reference_date",
+  "supporting_source_ids": [
+    "7888f69c10dc",
+    "ecb1d09b1939"
+  ]
+}

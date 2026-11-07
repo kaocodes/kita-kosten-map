@@ -1,0 +1,850 @@
+{
+  "schema_version": "1.0",
+  "id": "fellbach",
+  "name": "Fellbach",
+  "reviewed_at": "2026-11-07",
+  "reference_date": "2026-11-04",
+  "scope": {
+    "included": [
+      "municipal"
+    ],
+    "other_providers": "only_with_explicit_source_evidence",
+    "also_included": [],
+    "partial_rule_scope": {
+      "rule": "social_income_ratio",
+      "also_applies_to": "freie Träger mit vertraglicher Beziehung zur städtischen Bedarfsplanung",
+      "evidence": {
+        "source_id": "772cfcc5d07d",
+        "locator": "§4 Abs. 7",
+        "original": null
+      }
+    }
+  },
+  "family_basis": "under_18",
+  "family_evidence": {
+    "source_id": "772cfcc5d07d",
+    "locator": "Gebührenmaßstab / Familienbegriff",
+    "original": null
+  },
+  "payment_months": 12,
+  "payment_evidence": {
+    "source_id": "772cfcc5d07d",
+    "locator": "§2 Abs. 1, §6 Abs. 1 und §7 Abs. 3: monatliche Betreuung auch in Ferien; elf Monate gelten separat nur fürs Essen nach §5",
+    "original": null
+  },
+  "original_research": {
+    "path": "data/imported/research_2026-11-04.md",
+    "section": "Fellbach",
+    "text": "\n### Quelle und Gültigkeit\n\n- [Gebührensatzung Einrichtungen für Kinder, Stand September 2025 (PDF)](https://www.fellbach.de/ceasy/resource/?download=1&id=1414)\n- [Städtische Erläuterung der Berechnung](https://www.fellbach.de/Betreuung)\n\nDie Satzung gilt für von der Stadt betriebene Tageseinrichtungen. Sie enthält Gebühren ab 1. September 2025 und bereits die erhöhten Tarife ab **1. September 2026**. Die Monatsgebühr eines Einzelkindes wird aus dem Satz je Wochenstunde multipliziert mit der tatsächlichen angebotenen Wochenstundenzahl gebildet. Die Tabellenwerte sind kaufmännisch auf volle Euro gerundet.\n\n### Grundtarif ab 1. September 2026\n\n| Alters-/Betreuungsbereich | Grundsatz pro Wochenstunde | Beispiel bei 30 Wochenstunden | Beispiel bei 40 Wochenstunden | Beispiel bei 45 Wochenstunden |\n|---|---:|---:|---:|---:|\n| U3, bis einschließlich 35 Std./Woche | 13,00 € | 390 € | – | – |\n| U3, über 35 Std./Woche | 15,60 € | – | 624 € | 702 € |\n| Ü3, bis einschließlich 35 Std./Woche | 6,50 € | 195 € | – | – |\n| Ü3, über 35 Std./Woche | 7,80 € | – | 312 € | 351 € |\n\n**Geschwisterermäßigung:** 20 % bei einem, 40 % bei zwei und 60 % bei drei oder mehr Geschwistern unter 18 Jahren im Haushalt. Für bestimmte Familien mit monatlichem Bruttoeinkommen unter 5.820 € sieht die Satzung auf Antrag eine proportionale Sozialstaffelung vor. Die Satzung erstreckt diese Sozialstaffelung auf freie Träger mit vertraglicher Beziehung zur städtischen Bedarfsplanung; sie macht deren Betreuungs- und Essensgebühren nicht automatisch gleich.\n\n**Verpflegung:** 134 €/Monat ab 1. September 2026, wenn Mahlzeiten inklusive Getränke angeboten werden. Satzungsgemäß wird das Entgelt September bis Juli erhoben. Abweichende Angebote und Essensregeln freier Träger sind einzeln zu erfassen.\n\n"
+  },
+  "income_bands": [],
+  "offers": [
+    {
+      "id": "fellbach-da07433254",
+      "original_label": "Gebühr je angebotener Wochenstunde",
+      "age_group": "u3",
+      "age_min_months": 0,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "weekly_minutes": null,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "offered_hours_required",
+      "schedule_evidence": {
+        "source_id": "772cfcc5d07d",
+        "locator": "Gebührentabelle",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "772cfcc5d07d",
+        "locator": "§2 Abs. 1, §6 Abs. 1 und §7 Abs. 3: monatliche Betreuung auch in Ferien; elf Monate gelten separat nur fürs Essen nach §5",
+        "original": null
+      },
+      "evidence": {
+        "source_id": "772cfcc5d07d",
+        "locator": "PDF Seite 3, §§2–4: Tarif je angebotener Wochenstunde, Familienstaffel und Mindestgebühr",
+        "original": null
+      },
+      "formula": {
+        "kind": "weekly_hour_rate",
+        "threshold_minutes": 2100,
+        "below_or_equal_rate_cents": 1300,
+        "above_rate_cents": 1560,
+        "rate_applies_to": "entire_weekly_hours",
+        "rounding": "whole_euro_half_up",
+        "minimum_cents": 1000,
+        "family_discount_percent": [
+          0,
+          20,
+          40,
+          60
+        ]
+      }
+    },
+    {
+      "id": "fellbach-0097378f82",
+      "original_label": "Gebühr je angebotener Wochenstunde",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "weekly_minutes": null,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "offered_hours_required",
+      "schedule_evidence": {
+        "source_id": "772cfcc5d07d",
+        "locator": "Gebührentabelle",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "772cfcc5d07d",
+        "locator": "§2 Abs. 1, §6 Abs. 1 und §7 Abs. 3: monatliche Betreuung auch in Ferien; elf Monate gelten separat nur fürs Essen nach §5",
+        "original": null
+      },
+      "evidence": {
+        "source_id": "772cfcc5d07d",
+        "locator": "PDF Seite 3, §§2–4: Tarif je angebotener Wochenstunde, Familienstaffel und Mindestgebühr",
+        "original": null
+      },
+      "formula": {
+        "kind": "weekly_hour_rate",
+        "threshold_minutes": 2100,
+        "below_or_equal_rate_cents": 650,
+        "above_rate_cents": 780,
+        "rate_applies_to": "entire_weekly_hours",
+        "rounding": "whole_euro_half_up",
+        "minimum_cents": 1000,
+        "family_discount_percent": [
+          0,
+          20,
+          40,
+          60
+        ]
+      }
+    },
+    {
+      "id": "fellbach-f2e22d8340",
+      "original_label": "GT 45 Std., Mo–Do 9,25 Std./Fr 8 Std.",
+      "age_group": "u3",
+      "age_min_months": 0,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "weekly_minutes": 2700,
+      "weekday_minutes": [
+        555,
+        555,
+        555,
+        555,
+        480
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "e0f7ae696e98",
+        "locator": "Öffnungszeiten und Altersgruppen auf der städtischen Angebotsseite",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "772cfcc5d07d",
+        "locator": "§2 Abs. 1, §6 Abs. 1 und §7 Abs. 3: monatliche Betreuung auch in Ferien; elf Monate gelten separat nur fürs Essen nach §5",
+        "original": null
+      },
+      "evidence": {
+        "source_id": "772cfcc5d07d",
+        "locator": "PDF Seite 3, §§2–4: Tarif je angebotener Wochenstunde, Familienstaffel und Mindestgebühr",
+        "original": null
+      },
+      "formula": {
+        "kind": "weekly_hour_rate",
+        "threshold_minutes": 2100,
+        "below_or_equal_rate_cents": 1300,
+        "above_rate_cents": 1560,
+        "rate_applies_to": "entire_weekly_hours",
+        "rounding": "whole_euro_half_up",
+        "minimum_cents": 1000,
+        "family_discount_percent": [
+          0,
+          20,
+          40,
+          60
+        ]
+      }
+    },
+    {
+      "id": "fellbach-a7088dbc3a",
+      "original_label": "GT 45 Std., Mo–Do 9,25 Std./Fr 8 Std.",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "weekly_minutes": 2700,
+      "weekday_minutes": [
+        555,
+        555,
+        555,
+        555,
+        480
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "e0f7ae696e98",
+        "locator": "Öffnungszeiten und Altersgruppen auf der städtischen Angebotsseite",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "772cfcc5d07d",
+        "locator": "§2 Abs. 1, §6 Abs. 1 und §7 Abs. 3: monatliche Betreuung auch in Ferien; elf Monate gelten separat nur fürs Essen nach §5",
+        "original": null
+      },
+      "evidence": {
+        "source_id": "772cfcc5d07d",
+        "locator": "PDF Seite 3, §§2–4: Tarif je angebotener Wochenstunde, Familienstaffel und Mindestgebühr",
+        "original": null
+      },
+      "formula": {
+        "kind": "weekly_hour_rate",
+        "threshold_minutes": 2100,
+        "below_or_equal_rate_cents": 650,
+        "above_rate_cents": 780,
+        "rate_applies_to": "entire_weekly_hours",
+        "rounding": "whole_euro_half_up",
+        "minimum_cents": 1000,
+        "family_discount_percent": [
+          0,
+          20,
+          40,
+          60
+        ]
+      }
+    },
+    {
+      "id": "fellbach-a6c77cbf12",
+      "original_label": "GT 42,5 Std., Mo–Do 9 Std./Fr 6,5 Std.",
+      "age_group": "u3",
+      "age_min_months": 0,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "weekly_minutes": 2550,
+      "weekday_minutes": [
+        540,
+        540,
+        540,
+        540,
+        390
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "cc8785e12412",
+        "locator": "Öffnungszeiten und Altersgruppen auf der städtischen Angebotsseite",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "772cfcc5d07d",
+        "locator": "§2 Abs. 1, §6 Abs. 1 und §7 Abs. 3: monatliche Betreuung auch in Ferien; elf Monate gelten separat nur fürs Essen nach §5",
+        "original": null
+      },
+      "evidence": {
+        "source_id": "772cfcc5d07d",
+        "locator": "PDF Seite 3, §§2–4: Tarif je angebotener Wochenstunde, Familienstaffel und Mindestgebühr",
+        "original": null
+      },
+      "formula": {
+        "kind": "weekly_hour_rate",
+        "threshold_minutes": 2100,
+        "below_or_equal_rate_cents": 1300,
+        "above_rate_cents": 1560,
+        "rate_applies_to": "entire_weekly_hours",
+        "rounding": "whole_euro_half_up",
+        "minimum_cents": 1000,
+        "family_discount_percent": [
+          0,
+          20,
+          40,
+          60
+        ]
+      }
+    },
+    {
+      "id": "fellbach-a68a59868f",
+      "original_label": "GT 42,5 Std., Mo–Do 9 Std./Fr 6,5 Std.",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "weekly_minutes": 2550,
+      "weekday_minutes": [
+        540,
+        540,
+        540,
+        540,
+        390
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "cc8785e12412",
+        "locator": "Öffnungszeiten und Altersgruppen auf der städtischen Angebotsseite",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "772cfcc5d07d",
+        "locator": "§2 Abs. 1, §6 Abs. 1 und §7 Abs. 3: monatliche Betreuung auch in Ferien; elf Monate gelten separat nur fürs Essen nach §5",
+        "original": null
+      },
+      "evidence": {
+        "source_id": "772cfcc5d07d",
+        "locator": "PDF Seite 3, §§2–4: Tarif je angebotener Wochenstunde, Familienstaffel und Mindestgebühr",
+        "original": null
+      },
+      "formula": {
+        "kind": "weekly_hour_rate",
+        "threshold_minutes": 2100,
+        "below_or_equal_rate_cents": 650,
+        "above_rate_cents": 780,
+        "rate_applies_to": "entire_weekly_hours",
+        "rounding": "whole_euro_half_up",
+        "minimum_cents": 1000,
+        "family_discount_percent": [
+          0,
+          20,
+          40,
+          60
+        ]
+      }
+    },
+    {
+      "id": "fellbach-9a1a24f80a",
+      "original_label": "GT 40 Std., Mo/Di 9 Std., Mi 8 Std., Do/Fr 7 Std.",
+      "age_group": "u3",
+      "age_min_months": 0,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "weekly_minutes": 2400,
+      "weekday_minutes": [
+        540,
+        540,
+        480,
+        420,
+        420
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "17735adc2ed8",
+        "locator": "Öffnungszeiten und Altersgruppen auf der städtischen Angebotsseite",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "772cfcc5d07d",
+        "locator": "§2 Abs. 1, §6 Abs. 1 und §7 Abs. 3: monatliche Betreuung auch in Ferien; elf Monate gelten separat nur fürs Essen nach §5",
+        "original": null
+      },
+      "evidence": {
+        "source_id": "772cfcc5d07d",
+        "locator": "PDF Seite 3, §§2–4: Tarif je angebotener Wochenstunde, Familienstaffel und Mindestgebühr",
+        "original": null
+      },
+      "formula": {
+        "kind": "weekly_hour_rate",
+        "threshold_minutes": 2100,
+        "below_or_equal_rate_cents": 1300,
+        "above_rate_cents": 1560,
+        "rate_applies_to": "entire_weekly_hours",
+        "rounding": "whole_euro_half_up",
+        "minimum_cents": 1000,
+        "family_discount_percent": [
+          0,
+          20,
+          40,
+          60
+        ]
+      }
+    },
+    {
+      "id": "fellbach-0b4d1c2403",
+      "original_label": "GT 40 Std., Mo/Di 9 Std., Mi 8 Std., Do/Fr 7 Std.",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "weekly_minutes": 2400,
+      "weekday_minutes": [
+        540,
+        540,
+        480,
+        420,
+        420
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "17735adc2ed8",
+        "locator": "Öffnungszeiten und Altersgruppen auf der städtischen Angebotsseite",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "772cfcc5d07d",
+        "locator": "§2 Abs. 1, §6 Abs. 1 und §7 Abs. 3: monatliche Betreuung auch in Ferien; elf Monate gelten separat nur fürs Essen nach §5",
+        "original": null
+      },
+      "evidence": {
+        "source_id": "772cfcc5d07d",
+        "locator": "PDF Seite 3, §§2–4: Tarif je angebotener Wochenstunde, Familienstaffel und Mindestgebühr",
+        "original": null
+      },
+      "formula": {
+        "kind": "weekly_hour_rate",
+        "threshold_minutes": 2100,
+        "below_or_equal_rate_cents": 650,
+        "above_rate_cents": 780,
+        "rate_applies_to": "entire_weekly_hours",
+        "rounding": "whole_euro_half_up",
+        "minimum_cents": 1000,
+        "family_discount_percent": [
+          0,
+          20,
+          40,
+          60
+        ]
+      }
+    },
+    {
+      "id": "fellbach-07763ca352",
+      "original_label": "VÖ 34,5 Std., Mo–Do 7 Std./Fr 6,5 Std.",
+      "age_group": "u3",
+      "age_min_months": 0,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "weekly_minutes": 2070,
+      "weekday_minutes": [
+        420,
+        420,
+        420,
+        420,
+        390
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "17735adc2ed8",
+        "locator": "Öffnungszeiten und Altersgruppen auf der städtischen Angebotsseite",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "772cfcc5d07d",
+        "locator": "§2 Abs. 1, §6 Abs. 1 und §7 Abs. 3: monatliche Betreuung auch in Ferien; elf Monate gelten separat nur fürs Essen nach §5",
+        "original": null
+      },
+      "evidence": {
+        "source_id": "772cfcc5d07d",
+        "locator": "PDF Seite 3, §§2–4: Tarif je angebotener Wochenstunde, Familienstaffel und Mindestgebühr",
+        "original": null
+      },
+      "formula": {
+        "kind": "weekly_hour_rate",
+        "threshold_minutes": 2100,
+        "below_or_equal_rate_cents": 1300,
+        "above_rate_cents": 1560,
+        "rate_applies_to": "entire_weekly_hours",
+        "rounding": "whole_euro_half_up",
+        "minimum_cents": 1000,
+        "family_discount_percent": [
+          0,
+          20,
+          40,
+          60
+        ]
+      }
+    },
+    {
+      "id": "fellbach-179b25495a",
+      "original_label": "VÖ 34,5 Std., Mo–Do 7 Std./Fr 6,5 Std.",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "weekly_minutes": 2070,
+      "weekday_minutes": [
+        420,
+        420,
+        420,
+        420,
+        390
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "17735adc2ed8",
+        "locator": "Öffnungszeiten und Altersgruppen auf der städtischen Angebotsseite",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "772cfcc5d07d",
+        "locator": "§2 Abs. 1, §6 Abs. 1 und §7 Abs. 3: monatliche Betreuung auch in Ferien; elf Monate gelten separat nur fürs Essen nach §5",
+        "original": null
+      },
+      "evidence": {
+        "source_id": "772cfcc5d07d",
+        "locator": "PDF Seite 3, §§2–4: Tarif je angebotener Wochenstunde, Familienstaffel und Mindestgebühr",
+        "original": null
+      },
+      "formula": {
+        "kind": "weekly_hour_rate",
+        "threshold_minutes": 2100,
+        "below_or_equal_rate_cents": 650,
+        "above_rate_cents": 780,
+        "rate_applies_to": "entire_weekly_hours",
+        "rounding": "whole_euro_half_up",
+        "minimum_cents": 1000,
+        "family_discount_percent": [
+          0,
+          20,
+          40,
+          60
+        ]
+      }
+    },
+    {
+      "id": "fellbach-2f8ae0f220",
+      "original_label": "VÖ 34,25 Std., Mo–Mi 7 Std., Do 8,5 Std., Fr 4,75 Std.",
+      "age_group": "u3",
+      "age_min_months": 0,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "weekly_minutes": 2055,
+      "weekday_minutes": [
+        420,
+        420,
+        420,
+        510,
+        285
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "923b8e4514fb",
+        "locator": "Öffnungszeiten und Altersgruppen auf der städtischen Angebotsseite",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "772cfcc5d07d",
+        "locator": "§2 Abs. 1, §6 Abs. 1 und §7 Abs. 3: monatliche Betreuung auch in Ferien; elf Monate gelten separat nur fürs Essen nach §5",
+        "original": null
+      },
+      "evidence": {
+        "source_id": "772cfcc5d07d",
+        "locator": "PDF Seite 3, §§2–4: Tarif je angebotener Wochenstunde, Familienstaffel und Mindestgebühr",
+        "original": null
+      },
+      "formula": {
+        "kind": "weekly_hour_rate",
+        "threshold_minutes": 2100,
+        "below_or_equal_rate_cents": 1300,
+        "above_rate_cents": 1560,
+        "rate_applies_to": "entire_weekly_hours",
+        "rounding": "whole_euro_half_up",
+        "minimum_cents": 1000,
+        "family_discount_percent": [
+          0,
+          20,
+          40,
+          60
+        ]
+      }
+    },
+    {
+      "id": "fellbach-504295f87f",
+      "original_label": "VÖ 30 Std., Mo–Fr 6 Std.",
+      "age_group": "u3",
+      "age_min_months": 24,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "weekly_minutes": 1800,
+      "weekday_minutes": [
+        360,
+        360,
+        360,
+        360,
+        360
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "22e722be0364",
+        "locator": "Öffnungszeiten und Altersgruppen auf der städtischen Angebotsseite",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "772cfcc5d07d",
+        "locator": "§2 Abs. 1, §6 Abs. 1 und §7 Abs. 3: monatliche Betreuung auch in Ferien; elf Monate gelten separat nur fürs Essen nach §5",
+        "original": null
+      },
+      "evidence": {
+        "source_id": "772cfcc5d07d",
+        "locator": "PDF Seite 3, §§2–4: Tarif je angebotener Wochenstunde, Familienstaffel und Mindestgebühr",
+        "original": null
+      },
+      "formula": {
+        "kind": "weekly_hour_rate",
+        "threshold_minutes": 2100,
+        "below_or_equal_rate_cents": 1300,
+        "above_rate_cents": 1560,
+        "rate_applies_to": "entire_weekly_hours",
+        "rounding": "whole_euro_half_up",
+        "minimum_cents": 1000,
+        "family_discount_percent": [
+          0,
+          20,
+          40,
+          60
+        ]
+      }
+    },
+    {
+      "id": "fellbach-1ec2f2c5f2",
+      "original_label": "VÖ 30 Std., Mo–Fr 6 Std.",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "weekly_minutes": 1800,
+      "weekday_minutes": [
+        360,
+        360,
+        360,
+        360,
+        360
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "22e722be0364",
+        "locator": "Öffnungszeiten und Altersgruppen auf der städtischen Angebotsseite",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "772cfcc5d07d",
+        "locator": "§2 Abs. 1, §6 Abs. 1 und §7 Abs. 3: monatliche Betreuung auch in Ferien; elf Monate gelten separat nur fürs Essen nach §5",
+        "original": null
+      },
+      "evidence": {
+        "source_id": "772cfcc5d07d",
+        "locator": "PDF Seite 3, §§2–4: Tarif je angebotener Wochenstunde, Familienstaffel und Mindestgebühr",
+        "original": null
+      },
+      "formula": {
+        "kind": "weekly_hour_rate",
+        "threshold_minutes": 2100,
+        "below_or_equal_rate_cents": 650,
+        "above_rate_cents": 780,
+        "rate_applies_to": "entire_weekly_hours",
+        "rounding": "whole_euro_half_up",
+        "minimum_cents": 1000,
+        "family_discount_percent": [
+          0,
+          20,
+          40,
+          60
+        ]
+      }
+    },
+    {
+      "id": "fellbach-eda87393bb",
+      "original_label": "HT 25 Std., Mo–Fr 5 Std.",
+      "age_group": "u3",
+      "age_min_months": 0,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "weekly_minutes": 1500,
+      "weekday_minutes": [
+        300,
+        300,
+        300,
+        300,
+        300
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "fd3ce01c91ee",
+        "locator": "Öffnungszeiten und Altersgruppen auf der städtischen Angebotsseite",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "772cfcc5d07d",
+        "locator": "§2 Abs. 1, §6 Abs. 1 und §7 Abs. 3: monatliche Betreuung auch in Ferien; elf Monate gelten separat nur fürs Essen nach §5",
+        "original": null
+      },
+      "evidence": {
+        "source_id": "772cfcc5d07d",
+        "locator": "PDF Seite 3, §§2–4: Tarif je angebotener Wochenstunde, Familienstaffel und Mindestgebühr",
+        "original": null
+      },
+      "formula": {
+        "kind": "weekly_hour_rate",
+        "threshold_minutes": 2100,
+        "below_or_equal_rate_cents": 1300,
+        "above_rate_cents": 1560,
+        "rate_applies_to": "entire_weekly_hours",
+        "rounding": "whole_euro_half_up",
+        "minimum_cents": 1000,
+        "family_discount_percent": [
+          0,
+          20,
+          40,
+          60
+        ]
+      }
+    }
+  ],
+  "prices": [],
+  "components": [
+    {
+      "id": "fellbach-component-001",
+      "kind": "meal",
+      "original_label": "Mahlzeiten inkl. Getränke",
+      "amount_cents": 13400,
+      "unit": "per_month",
+      "age_group": null,
+      "offer_ids": null,
+      "required": null,
+      "payment_months": 11,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "772cfcc5d07d",
+        "locator": "Verpflegung",
+        "original": null
+      },
+      "required_condition": "when_meals_are_offered_and_booked"
+    }
+  ],
+  "rules": [
+    {
+      "id": "social_income_ratio",
+      "kind": "income_ratio",
+      "execution_status": "supported",
+      "parameters": {
+        "income_basis": "fellbach_gross_income",
+        "income_period": "month",
+        "threshold_cents": 582000
+      },
+      "requires": [
+        "approved_social_reduction",
+        "resident",
+        "no_priority_benefit"
+      ],
+      "evidence": {
+        "source_id": "772cfcc5d07d",
+        "locator": "§§ 2–4, whole-euro rounding and minimum EUR 10",
+        "original": null
+      }
+    }
+  ],
+  "issues": [
+    {
+      "code": "no_uniform_40h_daily_schedule",
+      "detail": "The published 40-hour package has only seven hours on Thursday/Friday. The smallest verified schedule covering eight hours every weekday is 45 hours (9.25/9.25/9.25/9.25/8)."
+    }
+  ],
+  "source_text_archive": "data/sources/772cfcc5d07d/text.txt",
+  "coverage": {
+    "care_tables": "transferred",
+    "income_tables": "transferred_or_not_applicable",
+    "family_tables": "transferred",
+    "rules": "source_text_preserved_with_supported_subset",
+    "exceptions": "source_text_preserved",
+    "reviewed_at": "2026-11-07"
+  },
+  "age_transition": "following_month",
+  "supporting_source_ids": [
+    "17735adc2ed8",
+    "22e722be0364",
+    "329113400c3b",
+    "4003d93df1bb",
+    "772cfcc5d07d",
+    "84ed199ddee7",
+    "923b8e4514fb",
+    "9efd7bf545c6",
+    "bbeeedb77f97",
+    "cc8785e12412",
+    "e0f7ae696e98",
+    "eed704f23b00",
+    "fd3ce01c91ee",
+    "fd4073c4834e"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "eed704f23b00",
+  "municipality": "Fellbach",
+  "title": "Additional official source",
+  "url": "https://www.fellbach.de/ceasy/resource/?id=12589&download=1",
+  "retrieved_at": "2026-11-07T22:24:00.688753+00:00",
+  "http_status": 200,
+  "content_type": "application/pdf",
+  "final_url": "https://www.fellbach.de/ceasy/resource/?id=12589&download=1",
+  "error": null,
+  "local_path": "data/sources/eed704f23b00/document.pdf",
+  "sha256": "f3fd5006cb70c70ae3c0bda48a16e61ded7de43895cf458c9ac73f989502a63e"
+}

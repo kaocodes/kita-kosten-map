@@ -1,0 +1,13 @@
+{
+  "id": "45e2bf9b9180",
+  "municipality": "Leinfelden-Echterdingen",
+  "title": "Additional official source",
+  "url": "https://www.leinfelden-echterdingen.de/site/Leinfelden-Echterdingen-Internet/get/params_E524503045/14717412/Flyer_Kinderbetreuung_in_LE.pdf",
+  "retrieved_at": "2026-11-07T22:29:21.665245+00:00",
+  "http_status": 200,
+  "content_type": "application/pdf",
+  "final_url": "https://www.leinfelden-echterdingen.de/site/Leinfelden-Echterdingen-Internet/get/params_E524503045/14717412/Flyer_Kinderbetreuung_in_LE.pdf",
+  "error": null,
+  "local_path": "data/sources/45e2bf9b9180/document.pdf",
+  "sha256": "5bddbd531f09ac129f5ad7c178aaefb2470f28e827bb2ba09fe34bc379fbde10"
+}

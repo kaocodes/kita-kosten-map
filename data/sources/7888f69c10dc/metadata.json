@@ -1,0 +1,13 @@
+{
+  "id": "7888f69c10dc",
+  "municipality": "Kornwestheim",
+  "title": "Kindergärten und Kindertagesstätten",
+  "url": "https://www.kornwestheim.de/start/bildung/kindergaerten%2Bund%2Bkindertagesstaetten.html",
+  "retrieved_at": "2026-11-07T22:07:17.950216+00:00",
+  "http_status": 200,
+  "content_type": "text/html;charset=UTF-8",
+  "final_url": "https://www.kornwestheim.de/start/bildung/kindergaerten%2Bund%2Bkindertagesstaetten.html",
+  "error": null,
+  "local_path": "data/sources/7888f69c10dc/document.html",
+  "sha256": "553994c892c450bbcf76456d8cbf1b1311aab63eb710797e4b9edebb18c0db7f"
+}

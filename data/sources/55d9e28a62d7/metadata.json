@@ -1,0 +1,13 @@
+{
+  "id": "55d9e28a62d7",
+  "municipality": "Esslingen am Neckar",
+  "title": "Ganztagstabelle ab 1. März 2026 (PDF)",
+  "url": "https://www.esslingen.de/site/Esslingen_Layout_2022/get/params_E879676739_Dattachment/24947481/Entgelte%20Ganztagsbetreuung%20ab%2001.03.2026%20Gesamt.pdf",
+  "retrieved_at": "2026-11-07T22:07:20.323287+00:00",
+  "http_status": 200,
+  "content_type": "application/pdf",
+  "final_url": "https://www.esslingen.de/site/Esslingen_Layout_2022/get/params_E879676739_Dattachment/24947481/Entgelte%20Ganztagsbetreuung%20ab%2001.03.2026%20Gesamt.pdf",
+  "error": null,
+  "local_path": "data/sources/55d9e28a62d7/document.pdf",
+  "sha256": "4791569417d60709533418142acaef3a02149ec2591c77121d538a79f08d969f"
+}

@@ -1,0 +1,1464 @@
+{
+  "schema_version": "1.0",
+  "profile": {
+    "id": "u3-single-child-full-payer-40h",
+    "label": "Krippe · Einzelkind · mindestens 8 Stunden täglich · Vollzahler",
+    "as_of": "2026-11-04",
+    "children": [
+      {
+        "age_months": 24,
+        "resident": true,
+        "child_benefit": true
+      }
+    ],
+    "target_child": 0,
+    "school_entry": false,
+    "care_rank": 1,
+    "weekday_minutes": [
+      480,
+      480,
+      480,
+      480,
+      480
+    ],
+    "income_mode": "highest_band",
+    "incomes": [],
+    "pass_id": "none",
+    "approved_rules": [],
+    "eligibility": [],
+    "single_parent": false,
+    "scope": "municipal",
+    "metric": "care_annual_equivalent_divided_by_12"
+  },
+  "results": [
+    {
+      "municipality_id": "boeblingen",
+      "municipality": "Böblingen",
+      "profile_id": "u3-single-child-full-payer-40h",
+      "as_of": "2026-11-04",
+      "reviewed_at": "2026-11-07",
+      "status": "comparable",
+      "reasons": [],
+      "monthly_care_cents": 31000,
+      "annual_care_cents": 372000,
+      "monthly_equivalent_cents": 31000,
+      "offer_id": "boeblingen-690132b244",
+      "offer_label": "bis 40 Std./Woche",
+      "booked_weekly_minutes": 2400,
+      "extra_weekly_minutes": 0,
+      "payment_months": 12,
+      "components": [
+        {
+          "id": "boeblingen-component-001",
+          "kind": "meal",
+          "original_label": "Verpflegung",
+          "amount_cents": 9000,
+          "unit": "per_month",
+          "age_group": "u3",
+          "offer_ids": null,
+          "required": null,
+          "payment_months": 11,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "value_status": "known",
+          "evidence": {
+            "source_id": "d1f83ab397ca",
+            "locator": "Verpflegung",
+            "original": null
+          },
+          "annual_equivalent_cents": 8250,
+          "calculation": []
+        }
+      ],
+      "calculation": [
+        {
+          "operation": "table_lookup",
+          "price_id": "boeblingen-price-0032",
+          "amount_cents": 31000,
+          "evidence": {
+            "source_id": "d1f83ab397ca",
+            "locator": "PDF Seite 1, bis 40 Std./Woche, u3",
+            "original": {
+              "research_line": 518,
+              "heading": "Monatliche Betreuungsgebühren ab 1. September 2026",
+              "row": [
+                "unter 3 Jahren",
+                "1 Kind",
+                "110 €",
+                "166 €",
+                "232 €",
+                "310 €",
+                "398 €",
+                "498 €",
+                "608 €"
+              ]
+            }
+          }
+        },
+        {
+          "operation": "annual_equivalent_divided_by_12",
+          "monthly_cents": 31000,
+          "payment_months": 12,
+          "result_cents": 31000
+        }
+      ],
+      "evidence": [
+        {
+          "source_id": "d1f83ab397ca",
+          "locator": "PDF Seite 1, bis 40 Std./Woche, u3",
+          "original": null
+        },
+        {
+          "source_id": "d1f83ab397ca",
+          "locator": "PDF Seite 1, bis 40 Std./Woche, u3",
+          "original": {
+            "research_line": 518,
+            "heading": "Monatliche Betreuungsgebühren ab 1. September 2026",
+            "row": [
+              "unter 3 Jahren",
+              "1 Kind",
+              "110 €",
+              "166 €",
+              "232 €",
+              "310 €",
+              "398 €",
+              "498 €",
+              "608 €"
+            ]
+          }
+        },
+        {
+          "source_id": "4b99e2929828",
+          "locator": "§§ 14,16: ganzjährig monatlich, auch Ferien; nur Essen im August ausgenommen",
+          "original": null
+        },
+        {
+          "source_id": "6d67ccd75002",
+          "locator": "PDF Seite 1: Betreuungsformen; Seite 2: städtische Angebote",
+          "original": null
+        }
+      ],
+      "issues": [],
+      "alternatives": [],
+      "family_count": 1,
+      "care_rank": 1,
+      "selected_price_id": "boeblingen-price-0032",
+      "total_mandatory_monthly_equivalent_cents": null,
+      "total_status": "incomplete_or_variant_costs"
+    },
+    {
+      "municipality_id": "ditzingen",
+      "municipality": "Ditzingen",
+      "profile_id": "u3-single-child-full-payer-40h",
+      "as_of": "2026-11-04",
+      "reviewed_at": "2026-11-07",
+      "status": "comparable",
+      "reasons": [],
+      "monthly_care_cents": 63600,
+      "annual_care_cents": 763200,
+      "monthly_equivalent_cents": 63600,
+      "offer_id": "ditzingen-364e50ed1d",
+      "offer_label": "GT 45 Std./Woche",
+      "booked_weekly_minutes": 2700,
+      "extra_weekly_minutes": 300,
+      "payment_months": 12,
+      "components": [
+        {
+          "id": "ditzingen-component-008",
+          "kind": "meal",
+          "original_label": "Verpflegung",
+          "amount_cents": 8800,
+          "unit": "per_month",
+          "age_group": null,
+          "offer_ids": [
+            "ditzingen-364e50ed1d"
+          ],
+          "required": true,
+          "payment_months": 12,
+          "valid_from": "2026-01-01",
+          "valid_to": "2026-12-31",
+          "value_status": "known",
+          "evidence": {
+            "source_id": "e3a01305341e",
+            "locator": "Verpflegung",
+            "original": null
+          },
+          "annual_equivalent_cents": 8800,
+          "calculation": []
+        }
+      ],
+      "calculation": [
+        {
+          "operation": "table_lookup",
+          "price_id": "ditzingen-price-0065",
+          "amount_cents": 63600,
+          "evidence": {
+            "source_id": "e3a01305341e",
+            "locator": "PDF Seite 11, GT 45 Std./Woche, u3",
+            "original": {
+              "research_line": 37,
+              "heading": "Kinder von 1 bis 3 Jahren – gültig ab 1. Januar 2026",
+              "row": [
+                "Ganztag, 45 Std./Woche",
+                "über 70.001 €",
+                "636 €",
+                "490 €",
+                "323 €",
+                "132 €",
+                "88 €"
+              ]
+            }
+          }
+        },
+        {
+          "operation": "annual_equivalent_divided_by_12",
+          "monthly_cents": 63600,
+          "payment_months": 12,
+          "result_cents": 63600
+        }
+      ],
+      "evidence": [
+        {
+          "source_id": "e3a01305341e",
+          "locator": "PDF Seite 11, GT 45 Std./Woche, u3",
+          "original": null
+        },
+        {
+          "source_id": "e3a01305341e",
+          "locator": "PDF Seite 11, GT 45 Std./Woche, u3",
+          "original": {
+            "research_line": 37,
+            "heading": "Kinder von 1 bis 3 Jahren – gültig ab 1. Januar 2026",
+            "row": [
+              "Ganztag, 45 Std./Woche",
+              "über 70.001 €",
+              "636 €",
+              "490 €",
+              "323 €",
+              "132 €",
+              "88 €"
+            ]
+          }
+        },
+        {
+          "source_id": "e3a01305341e",
+          "locator": "§3 Abs. 3 und §5: monatliche Erhebung auch ohne tatsächlichen Besuch, keine Ferienausnahme",
+          "original": null
+        },
+        {
+          "source_id": "e3a01305341e",
+          "locator": "Gebührentabelle",
+          "original": null
+        }
+      ],
+      "issues": [
+        {
+          "code": "income_interval_gaps",
+          "detail": "Published boundaries include 'mehr als 70.001 €'; do not fill uncovered boundary values."
+        },
+        {
+          "code": "unpriced_gt50_2027",
+          "detail": "The 2027 appendices do not list GT50. Do not infer abolition or continue the 2026 fee as a confirmed 2027 amount."
+        }
+      ],
+      "alternatives": [],
+      "family_count": 1,
+      "care_rank": 1,
+      "selected_price_id": "ditzingen-price-0065",
+      "total_mandatory_monthly_equivalent_cents": 72400,
+      "total_status": "known_for_selected_components"
+    },
+    {
+      "municipality_id": "esslingen",
+      "municipality": "Esslingen am Neckar",
+      "profile_id": "u3-single-child-full-payer-40h",
+      "as_of": "2026-11-04",
+      "reviewed_at": "2026-11-07",
+      "status": "comparable",
+      "reasons": [],
+      "monthly_care_cents": 117000,
+      "annual_care_cents": 1404000,
+      "monthly_equivalent_cents": 117000,
+      "offer_id": "esslingen-dfa9673594",
+      "offer_label": "Ganztag 40 Std./Woche",
+      "booked_weekly_minutes": 2400,
+      "extra_weekly_minutes": 0,
+      "payment_months": 12,
+      "components": [
+        {
+          "id": "esslingen-component-801",
+          "kind": "meal",
+          "original_label": "Mittagessen GT",
+          "amount_cents": 7900,
+          "unit": "per_month",
+          "age_group": null,
+          "offer_ids": [
+            "esslingen-dfa9673594",
+            "esslingen-d942b88ff2"
+          ],
+          "required": true,
+          "payment_months": 12,
+          "valid_from": "2026-03-01",
+          "valid_to": null,
+          "value_status": "known",
+          "evidence": {
+            "source_id": "55d9e28a62d7",
+            "locator": "Verpflegung",
+            "original": null
+          },
+          "annual_equivalent_cents": 7900,
+          "calculation": []
+        }
+      ],
+      "calculation": [
+        {
+          "operation": "table_lookup",
+          "price_id": "esslingen-price-0073",
+          "amount_cents": 117000,
+          "evidence": {
+            "source_id": "55d9e28a62d7",
+            "locator": "PDF Seite 1, Ganztag 40 Std./Woche, u3",
+            "original": {
+              "research_line": 332,
+              "heading": "Ganztag, Grundmodell 40 Stunden/Woche, 5 Tage, ab 1. März 2026",
+              "row": [
+                "über 160.000 €",
+                "1.170 / 878 / 585 / 211 €",
+                "688 / 516 / 344 / 124 €"
+              ]
+            }
+          }
+        },
+        {
+          "operation": "annual_equivalent_divided_by_12",
+          "monthly_cents": 117000,
+          "payment_months": 12,
+          "result_cents": 117000
+        }
+      ],
+      "evidence": [
+        {
+          "source_id": "55d9e28a62d7",
+          "locator": "PDF Seite 1, Ganztag 40 Std./Woche, u3",
+          "original": null
+        },
+        {
+          "source_id": "55d9e28a62d7",
+          "locator": "PDF Seite 1, Ganztag 40 Std./Woche, u3",
+          "original": {
+            "research_line": 332,
+            "heading": "Ganztag, Grundmodell 40 Stunden/Woche, 5 Tage, ab 1. März 2026",
+            "row": [
+              "über 160.000 €",
+              "1.170 / 878 / 585 / 211 €",
+              "688 / 516 / 344 / 124 €"
+            ]
+          }
+        },
+        {
+          "source_id": "4d33c02682ef",
+          "locator": "III. Entstehen und Fälligkeit: zwölf Monate",
+          "original": null
+        },
+        {
+          "source_id": "55d9e28a62d7",
+          "locator": "Gebührentabelle",
+          "original": null
+        }
+      ],
+      "issues": [],
+      "alternatives": [],
+      "family_count": 1,
+      "care_rank": 1,
+      "selected_price_id": "esslingen-price-0073",
+      "total_mandatory_monthly_equivalent_cents": 124900,
+      "total_status": "known_for_selected_components"
+    },
+    {
+      "municipality_id": "fellbach",
+      "municipality": "Fellbach",
+      "profile_id": "u3-single-child-full-payer-40h",
+      "as_of": "2026-11-04",
+      "reviewed_at": "2026-11-07",
+      "status": "comparable",
+      "reasons": [],
+      "monthly_care_cents": 70200,
+      "annual_care_cents": 842400,
+      "monthly_equivalent_cents": 70200,
+      "offer_id": "fellbach-f2e22d8340",
+      "offer_label": "GT 45 Std., Mo–Do 9,25 Std./Fr 8 Std.",
+      "booked_weekly_minutes": 2700,
+      "extra_weekly_minutes": 300,
+      "payment_months": 12,
+      "components": [
+        {
+          "id": "fellbach-component-001",
+          "kind": "meal",
+          "original_label": "Mahlzeiten inkl. Getränke",
+          "amount_cents": 13400,
+          "unit": "per_month",
+          "age_group": null,
+          "offer_ids": null,
+          "required": null,
+          "payment_months": 11,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "value_status": "known",
+          "evidence": {
+            "source_id": "772cfcc5d07d",
+            "locator": "Verpflegung",
+            "original": null
+          },
+          "required_condition": "when_meals_are_offered_and_booked",
+          "annual_equivalent_cents": 12283,
+          "calculation": []
+        }
+      ],
+      "calculation": [
+        {
+          "operation": "weekly_hour_rate",
+          "rate_cents": 1560,
+          "weekly_minutes": 2700,
+          "family_discount_percent": 0,
+          "evidence": {
+            "source_id": "772cfcc5d07d",
+            "locator": "PDF Seite 3, §§2–4: Tarif je angebotener Wochenstunde, Familienstaffel und Mindestgebühr",
+            "original": null
+          }
+        },
+        {
+          "operation": "formula_result",
+          "price_id": null,
+          "amount_cents": 70200,
+          "evidence": {
+            "source_id": "772cfcc5d07d",
+            "locator": "PDF Seite 3, §§2–4: Tarif je angebotener Wochenstunde, Familienstaffel und Mindestgebühr",
+            "original": null
+          }
+        },
+        {
+          "operation": "annual_equivalent_divided_by_12",
+          "monthly_cents": 70200,
+          "payment_months": 12,
+          "result_cents": 70200
+        }
+      ],
+      "evidence": [
+        {
+          "source_id": "772cfcc5d07d",
+          "locator": "PDF Seite 3, §§2–4: Tarif je angebotener Wochenstunde, Familienstaffel und Mindestgebühr",
+          "original": null
+        },
+        {
+          "source_id": "772cfcc5d07d",
+          "locator": "PDF Seite 3, §§2–4: Tarif je angebotener Wochenstunde, Familienstaffel und Mindestgebühr",
+          "original": null
+        },
+        {
+          "source_id": "772cfcc5d07d",
+          "locator": "§2 Abs. 1, §6 Abs. 1 und §7 Abs. 3: monatliche Betreuung auch in Ferien; elf Monate gelten separat nur fürs Essen nach §5",
+          "original": null
+        },
+        {
+          "source_id": "e0f7ae696e98",
+          "locator": "Öffnungszeiten und Altersgruppen auf der städtischen Angebotsseite",
+          "original": null
+        }
+      ],
+      "issues": [
+        {
+          "code": "no_uniform_40h_daily_schedule",
+          "detail": "The published 40-hour package has only seven hours on Thursday/Friday. The smallest verified schedule covering eight hours every weekday is 45 hours (9.25/9.25/9.25/9.25/8)."
+        }
+      ],
+      "alternatives": [],
+      "family_count": 1,
+      "care_rank": 1,
+      "selected_price_id": null,
+      "total_mandatory_monthly_equivalent_cents": null,
+      "total_status": "incomplete_or_variant_costs"
+    },
+    {
+      "municipality_id": "gerlingen",
+      "municipality": "Gerlingen",
+      "profile_id": "u3-single-child-full-payer-40h",
+      "as_of": "2026-11-04",
+      "reviewed_at": "2026-11-07",
+      "status": "comparable",
+      "reasons": [],
+      "monthly_care_cents": 64000,
+      "annual_care_cents": 768000,
+      "monthly_equivalent_cents": 64000,
+      "offer_id": "gerlingen-bcb543ded7",
+      "offer_label": "Ganztag, 7:30–16:00 Uhr",
+      "booked_weekly_minutes": 2550,
+      "extra_weekly_minutes": 150,
+      "payment_months": 12,
+      "components": [
+        {
+          "id": "gerlingen-component-001",
+          "kind": "meal",
+          "original_label": "Verpflegungspauschale",
+          "amount_cents": 6900,
+          "unit": "per_month",
+          "age_group": null,
+          "offer_ids": null,
+          "required": null,
+          "payment_months": 12,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "value_status": "known",
+          "evidence": {
+            "source_id": "f9eb066f5901",
+            "locator": "Verpflegung",
+            "original": null
+          },
+          "annual_equivalent_cents": 6900,
+          "calculation": []
+        },
+        {
+          "id": "gerlingen-component-002",
+          "kind": "meal",
+          "original_label": "Verpflegung Tagessatz",
+          "amount_cents": 375,
+          "unit": "per_meal",
+          "age_group": null,
+          "offer_ids": null,
+          "required": null,
+          "payment_months": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "value_status": "known",
+          "evidence": {
+            "source_id": "f9eb066f5901",
+            "locator": "Verpflegung",
+            "original": null
+          },
+          "alternative_to": "monthly_meal",
+          "annual_equivalent_cents": null,
+          "calculation": []
+        }
+      ],
+      "calculation": [
+        {
+          "operation": "table_lookup",
+          "price_id": "gerlingen-price-0005",
+          "amount_cents": 64000,
+          "evidence": {
+            "source_id": "f9eb066f5901",
+            "locator": "PDF Seite 6, Ganztag, 7:30–16:00 Uhr, u3",
+            "original": {
+              "research_line": 201,
+              "heading": "Krippe, jüngster ausgewiesener Tarif ab 1. September 2025",
+              "row": [
+                "Ganztag, 7:30–16:00 Uhr",
+                "640 €",
+                "520 €",
+                "351 €",
+                "191 €"
+              ]
+            }
+          }
+        },
+        {
+          "operation": "annual_equivalent_divided_by_12",
+          "monthly_cents": 64000,
+          "payment_months": 12,
+          "result_cents": 64000
+        }
+      ],
+      "evidence": [
+        {
+          "source_id": "f9eb066f5901",
+          "locator": "PDF Seite 6, Ganztag, 7:30–16:00 Uhr, u3",
+          "original": null
+        },
+        {
+          "source_id": "f9eb066f5901",
+          "locator": "PDF Seite 6, Ganztag, 7:30–16:00 Uhr, u3",
+          "original": {
+            "research_line": 201,
+            "heading": "Krippe, jüngster ausgewiesener Tarif ab 1. September 2025",
+            "row": [
+              "Ganztag, 7:30–16:00 Uhr",
+              "640 €",
+              "520 €",
+              "351 €",
+              "191 €"
+            ]
+          }
+        },
+        {
+          "source_id": "f9eb066f5901",
+          "locator": "PDF Seite 6, Gebührenverzeichnis: zwölf Monate pro Jahr",
+          "original": null
+        },
+        {
+          "source_id": "f9eb066f5901",
+          "locator": "Gebührentabelle",
+          "original": null
+        }
+      ],
+      "issues": [
+        {
+          "code": "older_u3_price_date",
+          "detail": "Current consolidated ordinance preserves the explicitly dated September 2025 U3 table."
+        }
+      ],
+      "alternatives": [],
+      "family_count": 1,
+      "care_rank": 1,
+      "selected_price_id": "gerlingen-price-0005",
+      "total_mandatory_monthly_equivalent_cents": null,
+      "total_status": "incomplete_or_variant_costs"
+    },
+    {
+      "municipality_id": "korntal-muenchingen",
+      "municipality": "Korntal-Münchingen",
+      "profile_id": "u3-single-child-full-payer-40h",
+      "as_of": "2026-11-04",
+      "reviewed_at": "2026-11-07",
+      "status": "comparable",
+      "reasons": [],
+      "monthly_care_cents": 39875,
+      "annual_care_cents": 438625,
+      "monthly_equivalent_cents": 36552,
+      "offer_id": "korntal-muenchingen-7decf2a528",
+      "offer_label": "Krippe 40 Std./Woche",
+      "booked_weekly_minutes": 2400,
+      "extra_weekly_minutes": 0,
+      "payment_months": 11,
+      "components": [
+        {
+          "id": "korntal-muenchingen-component-001",
+          "kind": "meal",
+          "original_label": "Mittagessen bei mehr als 7 Stunden Betreuung",
+          "amount_cents": 8500,
+          "unit": "per_month",
+          "age_group": null,
+          "offer_ids": null,
+          "required": null,
+          "payment_months": null,
+          "valid_from": "2024-01-01",
+          "valid_to": null,
+          "value_status": "known",
+          "evidence": {
+            "source_id": "e534e1399550",
+            "locator": "PDF Seite 11, Anlage 1 Ziff. 5",
+            "original": null
+          },
+          "minimum_daily_minutes_exclusive": 420,
+          "annual_equivalent_cents": null,
+          "calculation": []
+        }
+      ],
+      "calculation": [
+        {
+          "operation": "table_lookup",
+          "price_id": "korntal-muenchingen-price-0063",
+          "amount_cents": 39875,
+          "evidence": {
+            "source_id": "e534e1399550",
+            "locator": "PDF Seite 8, Anlage 1, 2.7",
+            "original": "für ein Kind aus einer Familie mit 1 Kind          192,50 €      233,75 €        275,00 €     316,25 €    343,75 €    371,25 €    398,75 €"
+          }
+        },
+        {
+          "operation": "annual_equivalent_divided_by_12",
+          "monthly_cents": 39875,
+          "payment_months": 11,
+          "result_cents": 36552
+        }
+      ],
+      "evidence": [
+        {
+          "source_id": "e534e1399550",
+          "locator": "PDF Seite 8, Anlage 1, 2.7",
+          "original": null
+        },
+        {
+          "source_id": "e534e1399550",
+          "locator": "PDF Seite 8, Anlage 1, 2.7",
+          "original": "für ein Kind aus einer Familie mit 1 Kind          192,50 €      233,75 €        275,00 €     316,25 €    343,75 €    371,25 €    398,75 €"
+        },
+        {
+          "source_id": "e534e1399550",
+          "locator": "PDF Seite 7, Anlage 1 Ziff. 1: elf Monatsbeiträge, August frei",
+          "original": null
+        },
+        {
+          "source_id": "d9080549f5ae",
+          "locator": "Öffnungszeiten: Montag bis Freitag 7:30–13:30 oder 7:00–15:00 Uhr",
+          "original": null
+        }
+      ],
+      "issues": [
+        {
+          "code": "income_interval_gaps",
+          "detail": "Literal boundaries leave cent values between 4500/4501, 6000/6001 and 7000/7001 unresolved."
+        }
+      ],
+      "alternatives": [],
+      "family_count": 1,
+      "care_rank": 1,
+      "selected_price_id": "korntal-muenchingen-price-0063",
+      "total_mandatory_monthly_equivalent_cents": null,
+      "total_status": "incomplete_or_variant_costs"
+    },
+    {
+      "municipality_id": "kornwestheim",
+      "municipality": "Kornwestheim",
+      "profile_id": "u3-single-child-full-payer-40h",
+      "as_of": "2026-11-04",
+      "reviewed_at": "2026-11-07",
+      "status": "comparable",
+      "reasons": [],
+      "monthly_care_cents": 43600,
+      "annual_care_cents": 479600,
+      "monthly_equivalent_cents": 39967,
+      "offer_id": "kornwestheim-cc5325c66a",
+      "offer_label": "GT U3, 9 Std./Tag, 5 Tage",
+      "booked_weekly_minutes": 2700,
+      "extra_weekly_minutes": 300,
+      "payment_months": 11,
+      "components": [
+        {
+          "id": "kornwestheim-component-001",
+          "kind": "meal",
+          "original_label": "Mittagessen Standard",
+          "amount_cents": 7600,
+          "unit": "per_month",
+          "age_group": null,
+          "offer_ids": [
+            "kornwestheim-1d85696827",
+            "kornwestheim-e4238d28ad",
+            "kornwestheim-1ead94c110",
+            "kornwestheim-cc5325c66a",
+            "kornwestheim-07c7bbc1f9",
+            "kornwestheim-c59da8afdc"
+          ],
+          "required": true,
+          "payment_months": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "value_status": "known",
+          "evidence": {
+            "source_id": "ecb1d09b1939",
+            "locator": "Verpflegung",
+            "original": null
+          },
+          "exception_group": "standard",
+          "annual_equivalent_cents": null,
+          "calculation": []
+        },
+        {
+          "id": "kornwestheim-component-002",
+          "kind": "meal",
+          "original_label": "Vollverpflegung Bebelstraße/Karlstraße/Neckarstraße",
+          "amount_cents": 9000,
+          "unit": "per_month",
+          "age_group": null,
+          "offer_ids": [
+            "kornwestheim-1d85696827",
+            "kornwestheim-e4238d28ad",
+            "kornwestheim-1ead94c110",
+            "kornwestheim-cc5325c66a",
+            "kornwestheim-07c7bbc1f9",
+            "kornwestheim-c59da8afdc"
+          ],
+          "required": true,
+          "payment_months": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "value_status": "known",
+          "evidence": {
+            "source_id": "ecb1d09b1939",
+            "locator": "Verpflegung",
+            "original": null
+          },
+          "exception_group": "full_board",
+          "annual_equivalent_cents": null,
+          "calculation": []
+        }
+      ],
+      "calculation": [
+        {
+          "operation": "table_lookup",
+          "price_id": "kornwestheim-price-0029",
+          "amount_cents": 43600,
+          "evidence": {
+            "source_id": "ecb1d09b1939",
+            "locator": "PDF Seite 6, GT U3, 9 Std./Tag, 5 Tage, u3",
+            "original": {
+              "research_line": 95,
+              "heading": "Gebührenverzeichnis – Stand 1. September 2026",
+              "row": [
+                "GT U3, 9 Std./Tag, 5 Tage",
+                "436 €",
+                "310 €",
+                "200 €",
+                "79 €"
+              ]
+            }
+          }
+        },
+        {
+          "operation": "annual_equivalent_divided_by_12",
+          "monthly_cents": 43600,
+          "payment_months": 11,
+          "result_cents": 39967
+        }
+      ],
+      "evidence": [
+        {
+          "source_id": "ecb1d09b1939",
+          "locator": "PDF Seite 6, GT U3, 9 Std./Tag, 5 Tage, u3",
+          "original": null
+        },
+        {
+          "source_id": "ecb1d09b1939",
+          "locator": "PDF Seite 6, GT U3, 9 Std./Tag, 5 Tage, u3",
+          "original": {
+            "research_line": 95,
+            "heading": "Gebührenverzeichnis – Stand 1. September 2026",
+            "row": [
+              "GT U3, 9 Std./Tag, 5 Tage",
+              "436 €",
+              "310 €",
+              "200 €",
+              "79 €"
+            ]
+          }
+        },
+        {
+          "source_id": "ecb1d09b1939",
+          "locator": "PDF Seite 2, §3 Abs. 2: elf Monate, August gebührenfrei",
+          "original": null
+        },
+        {
+          "source_id": "ecb1d09b1939",
+          "locator": "Gebührentabelle",
+          "original": null
+        }
+      ],
+      "issues": [],
+      "alternatives": [],
+      "family_count": 1,
+      "care_rank": 1,
+      "selected_price_id": "kornwestheim-price-0029",
+      "total_mandatory_monthly_equivalent_cents": null,
+      "total_status": "incomplete_or_variant_costs"
+    },
+    {
+      "municipality_id": "leinfelden-echterdingen",
+      "municipality": "Leinfelden-Echterdingen",
+      "profile_id": "u3-single-child-full-payer-40h",
+      "as_of": "2026-11-04",
+      "reviewed_at": "2026-11-07",
+      "status": "comparable",
+      "reasons": [],
+      "monthly_care_cents": 58720,
+      "annual_care_cents": 645920,
+      "monthly_equivalent_cents": 53827,
+      "offer_id": "leinfelden-echterdingen-af25960595",
+      "offer_label": "GT bis 40 Std.",
+      "booked_weekly_minutes": 2400,
+      "extra_weekly_minutes": 0,
+      "payment_months": 11,
+      "components": [
+        {
+          "id": "leinfelden-echterdingen-component-017",
+          "kind": "meal",
+          "original_label": "Mittagessen",
+          "amount_cents": 8200,
+          "unit": "per_month",
+          "age_group": "u3",
+          "offer_ids": null,
+          "required": null,
+          "payment_months": 11,
+          "valid_from": "2025-09-01",
+          "valid_to": null,
+          "value_status": "known",
+          "evidence": {
+            "source_id": "d14c375c9897",
+            "locator": "Verpflegung",
+            "original": null
+          },
+          "days_per_week": 5,
+          "pass_id": "none",
+          "required_condition": "care_until_14_or_later",
+          "annual_equivalent_cents": 7517,
+          "calculation": []
+        }
+      ],
+      "calculation": [
+        {
+          "operation": "table_lookup",
+          "price_id": "leinfelden-echterdingen-price-0024",
+          "amount_cents": 58720,
+          "evidence": {
+            "source_id": "3edbd30ca2f4",
+            "locator": "PDF Seite 6, GT bis 40 Std., u3",
+            "original": {
+              "research_line": 492,
+              "heading": "Reguläre monatliche Betreuungstarife ab 1. September 2026",
+              "row": [
+                "U3",
+                "1 Kind",
+                "40,23 €",
+                "–",
+                "440,40 €",
+                "513,80 €",
+                "587,20 €",
+                "660,60 €"
+              ]
+            }
+          }
+        },
+        {
+          "operation": "annual_equivalent_divided_by_12",
+          "monthly_cents": 58720,
+          "payment_months": 11,
+          "result_cents": 53827
+        }
+      ],
+      "evidence": [
+        {
+          "source_id": "3edbd30ca2f4",
+          "locator": "PDF Seite 6, GT bis 40 Std., u3",
+          "original": null
+        },
+        {
+          "source_id": "3edbd30ca2f4",
+          "locator": "PDF Seite 6, GT bis 40 Std., u3",
+          "original": {
+            "research_line": 492,
+            "heading": "Reguläre monatliche Betreuungstarife ab 1. September 2026",
+            "row": [
+              "U3",
+              "1 Kind",
+              "40,23 €",
+              "–",
+              "440,40 €",
+              "513,80 €",
+              "587,20 €",
+              "660,60 €"
+            ]
+          }
+        },
+        {
+          "source_id": "3edbd30ca2f4",
+          "locator": "PDF Seite 2, Ziff. 3.4: September bis Juli, elf Monate",
+          "original": null
+        },
+        {
+          "source_id": "03bd8c4fc8b1",
+          "locator": "PDF Seite 6: Wochenpakete mit Endzeiten 13/14/15/16/17 Uhr, Frühdienst vor 8 Uhr",
+          "original": null
+        }
+      ],
+      "issues": [
+        {
+          "code": "adult_child_application",
+          "detail": "Counting child-benefit-eligible adults requires a parental application; eligibility input must reflect the approved household."
+        },
+        {
+          "code": "published_pass_rounding",
+          "detail": "Use the published A/B/C price cells. Applying 60/35/25 percent to regular fees can differ from the rounded published tariffs."
+        }
+      ],
+      "alternatives": [],
+      "family_count": 1,
+      "care_rank": 1,
+      "selected_price_id": "leinfelden-echterdingen-price-0024",
+      "total_mandatory_monthly_equivalent_cents": null,
+      "total_status": "incomplete_or_variant_costs"
+    },
+    {
+      "municipality_id": "leonberg",
+      "municipality": "Leonberg",
+      "profile_id": "u3-single-child-full-payer-40h",
+      "as_of": "2026-11-04",
+      "reviewed_at": "2026-11-07",
+      "status": "comparable",
+      "reasons": [],
+      "monthly_care_cents": 53700,
+      "annual_care_cents": 644400,
+      "monthly_equivalent_cents": 53700,
+      "offer_id": "leonberg-2acd8c006e",
+      "offer_label": "verkürzte Krippe 8,5 Std.",
+      "booked_weekly_minutes": 2550,
+      "extra_weekly_minutes": 150,
+      "payment_months": 12,
+      "components": [
+        {
+          "id": "leonberg-component-001",
+          "kind": "meal",
+          "original_label": "Pflichtverpflegung KK/KG",
+          "amount_cents": 9680,
+          "unit": "per_month",
+          "age_group": "u3",
+          "offer_ids": [
+            "leonberg-fade62d93f",
+            "leonberg-d7aaec5ca0",
+            "leonberg-2acd8c006e",
+            "leonberg-3985a7b16a"
+          ],
+          "required": true,
+          "payment_months": 12,
+          "valid_from": "2026-10-01",
+          "valid_to": null,
+          "value_status": "known",
+          "evidence": {
+            "source_id": "14d95ae93ac8",
+            "locator": "§ 5 ff. und Gebührentabelle",
+            "original": null
+          },
+          "annual_equivalent_cents": 9680,
+          "calculation": []
+        },
+        {
+          "id": "leonberg-component-005",
+          "kind": "penalty",
+          "original_label": "Verspätete Abholung nach Öffnungsende",
+          "amount_cents": 600,
+          "unit": "per_started_quarter_hour",
+          "age_group": null,
+          "offer_ids": null,
+          "required": false,
+          "payment_months": null,
+          "valid_from": "2026-10-01",
+          "valid_to": null,
+          "value_status": "known",
+          "evidence": {
+            "source_id": "adc2c4902240",
+            "locator": "§6 Ziff. 5a",
+            "original": null
+          },
+          "annual_equivalent_cents": null,
+          "calculation": []
+        }
+      ],
+      "calculation": [
+        {
+          "operation": "table_lookup",
+          "price_id": "leonberg-price-0003",
+          "amount_cents": 53700,
+          "evidence": {
+            "source_id": "ca8ce11d0b8f",
+            "locator": "PDF Seite 1, verkürzte Krippe 8,5 Std., u3",
+            "original": {
+              "research_line": 232,
+              "heading": "Kinder unter 3 Jahren – monatliche Betreuungskosten",
+              "row": [
+                "1. Kind",
+                "695 €",
+                "585 €",
+                "537 €",
+                "451 €",
+                "416 €",
+                "332 €"
+              ]
+            }
+          }
+        },
+        {
+          "operation": "annual_equivalent_divided_by_12",
+          "monthly_cents": 53700,
+          "payment_months": 12,
+          "result_cents": 53700
+        }
+      ],
+      "evidence": [
+        {
+          "source_id": "ca8ce11d0b8f",
+          "locator": "PDF Seite 1, verkürzte Krippe 8,5 Std., u3",
+          "original": null
+        },
+        {
+          "source_id": "ca8ce11d0b8f",
+          "locator": "PDF Seite 1, verkürzte Krippe 8,5 Std., u3",
+          "original": {
+            "research_line": 232,
+            "heading": "Kinder unter 3 Jahren – monatliche Betreuungskosten",
+            "row": [
+              "1. Kind",
+              "695 €",
+              "585 €",
+              "537 €",
+              "451 €",
+              "416 €",
+              "332 €"
+            ]
+          }
+        },
+        {
+          "source_id": "adc2c4902240",
+          "locator": "§ 5 Ziff. 2: monatlich, auch während der Ferien",
+          "original": null
+        },
+        {
+          "source_id": "ca8ce11d0b8f",
+          "locator": "Gebührentabelle",
+          "original": null
+        }
+      ],
+      "issues": [],
+      "alternatives": [],
+      "family_count": 1,
+      "care_rank": 1,
+      "selected_price_id": "leonberg-price-0003",
+      "total_mandatory_monthly_equivalent_cents": 63380,
+      "total_status": "known_for_selected_components"
+    },
+    {
+      "municipality_id": "ludwigsburg",
+      "municipality": "Ludwigsburg",
+      "profile_id": "u3-single-child-full-payer-40h",
+      "as_of": "2026-11-04",
+      "reviewed_at": "2026-11-07",
+      "status": "comparable",
+      "reasons": [],
+      "monthly_care_cents": 49900,
+      "annual_care_cents": 548900,
+      "monthly_equivalent_cents": 45742,
+      "offer_id": "ludwigsburg-4ac8d8426f",
+      "offer_label": "GT8, 8 Std. durchgehend",
+      "booked_weekly_minutes": 2400,
+      "extra_weekly_minutes": 0,
+      "payment_months": 11,
+      "components": [
+        {
+          "id": "ludwigsburg-component-001",
+          "kind": "meal",
+          "original_label": "Ganztagsverpflegung",
+          "amount_cents": 8000,
+          "unit": "per_month",
+          "age_group": null,
+          "offer_ids": [
+            "ludwigsburg-d58382de89",
+            "ludwigsburg-4ac8d8426f",
+            "ludwigsburg-7b007b7f1d",
+            "ludwigsburg-ed4e54a5ea",
+            "ludwigsburg-3c454c3266",
+            "ludwigsburg-da7f223429"
+          ],
+          "required": true,
+          "payment_months": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "value_status": "known",
+          "evidence": {
+            "source_id": "29969ba83249",
+            "locator": "Verpflegung",
+            "original": null
+          },
+          "annual_equivalent_cents": null,
+          "calculation": []
+        }
+      ],
+      "calculation": [
+        {
+          "operation": "table_lookup",
+          "price_id": "ludwigsburg-price-0021",
+          "amount_cents": 49900,
+          "evidence": {
+            "source_id": "29969ba83249",
+            "locator": "PDF Seite 6, GT8, 8 Std. durchgehend, u3",
+            "original": {
+              "research_line": 466,
+              "heading": "Monatliche Betreuungstarife 2026/2027",
+              "row": [
+                "GT8, 8 Std. durchgehend",
+                "unter 3 Jahren",
+                "499 €",
+                "374,25 €",
+                "249,50 €",
+                "124,75 €",
+                "+80 €/Monat"
+              ]
+            }
+          }
+        },
+        {
+          "operation": "annual_equivalent_divided_by_12",
+          "monthly_cents": 49900,
+          "payment_months": 11,
+          "result_cents": 45742
+        }
+      ],
+      "evidence": [
+        {
+          "source_id": "29969ba83249",
+          "locator": "PDF Seite 6, GT8, 8 Std. durchgehend, u3",
+          "original": null
+        },
+        {
+          "source_id": "29969ba83249",
+          "locator": "PDF Seite 6, GT8, 8 Std. durchgehend, u3",
+          "original": {
+            "research_line": 466,
+            "heading": "Monatliche Betreuungstarife 2026/2027",
+            "row": [
+              "GT8, 8 Std. durchgehend",
+              "unter 3 Jahren",
+              "499 €",
+              "374,25 €",
+              "249,50 €",
+              "124,75 €",
+              "+80 €/Monat"
+            ]
+          }
+        },
+        {
+          "source_id": "29969ba83249",
+          "locator": "PDF Seite 2, §4 Abs. 1: elf Monate, August gebührenfrei",
+          "original": null
+        },
+        {
+          "source_id": "29969ba83249",
+          "locator": "Gebührentabelle",
+          "original": null
+        }
+      ],
+      "issues": [
+        {
+          "code": "unpriced_gt11",
+          "detail": "GT11 is defined without a price in Anlage A."
+        }
+      ],
+      "alternatives": [],
+      "family_count": 1,
+      "care_rank": 1,
+      "selected_price_id": "ludwigsburg-price-0021",
+      "total_mandatory_monthly_equivalent_cents": null,
+      "total_status": "incomplete_or_variant_costs"
+    },
+    {
+      "municipality_id": "sindelfingen",
+      "municipality": "Sindelfingen",
+      "profile_id": "u3-single-child-full-payer-40h",
+      "as_of": "2026-11-04",
+      "reviewed_at": "2026-11-07",
+      "status": "comparable",
+      "reasons": [],
+      "monthly_care_cents": 33180,
+      "annual_care_cents": 398160,
+      "monthly_equivalent_cents": 33180,
+      "offer_id": "sindelfingen-b111773d6e",
+      "offer_label": "GT8",
+      "booked_weekly_minutes": 2400,
+      "extra_weekly_minutes": 0,
+      "payment_months": 12,
+      "components": [
+        {
+          "id": "sindelfingen-component-001",
+          "kind": "meal",
+          "original_label": "Mittagessen",
+          "amount_cents": 9500,
+          "unit": "per_month",
+          "age_group": null,
+          "offer_ids": null,
+          "required": null,
+          "payment_months": 12,
+          "valid_from": "2026-08-01",
+          "valid_to": null,
+          "value_status": "known",
+          "evidence": {
+            "source_id": "8552e155f7fe",
+            "locator": "Verpflegung",
+            "original": null
+          },
+          "pass_id": "none",
+          "annual_equivalent_cents": 9500,
+          "calculation": []
+        }
+      ],
+      "calculation": [
+        {
+          "operation": "table_lookup",
+          "price_id": "sindelfingen-price-0127",
+          "amount_cents": 33180,
+          "evidence": {
+            "source_id": "8552e155f7fe",
+            "locator": "PDF Seite 13, GT8, u3",
+            "original": {
+              "research_line": 403,
+              "heading": "Kinder unter 3 Jahren (U3)",
+              "row": [
+                "1 Kind unter 18",
+                "170,00 / 85,00 €",
+                "224,40 / 112,20 €",
+                "273,70 / 136,85 €",
+                "331,80 / 165,90 €",
+                "403,90 / 201,95 €",
+                "499,80 / 249,90 €"
+              ]
+            }
+          }
+        },
+        {
+          "operation": "annual_equivalent_divided_by_12",
+          "monthly_cents": 33180,
+          "payment_months": 12,
+          "result_cents": 33180
+        }
+      ],
+      "evidence": [
+        {
+          "source_id": "8552e155f7fe",
+          "locator": "PDF Seite 13, GT8, u3",
+          "original": null
+        },
+        {
+          "source_id": "8552e155f7fe",
+          "locator": "PDF Seite 13, GT8, u3",
+          "original": {
+            "research_line": 403,
+            "heading": "Kinder unter 3 Jahren (U3)",
+            "row": [
+              "1 Kind unter 18",
+              "170,00 / 85,00 €",
+              "224,40 / 112,20 €",
+              "273,70 / 136,85 €",
+              "331,80 / 165,90 €",
+              "403,90 / 201,95 €",
+              "499,80 / 249,90 €"
+            ]
+          }
+        },
+        {
+          "source_id": "8552e155f7fe",
+          "locator": "PDF Seite 10, §11: zwölf Monatsgebühren",
+          "original": null
+        },
+        {
+          "source_id": "8552e155f7fe",
+          "locator": "Gebührentabelle",
+          "original": null
+        }
+      ],
+      "issues": [],
+      "alternatives": [],
+      "family_count": 1,
+      "care_rank": 1,
+      "selected_price_id": "sindelfingen-price-0127",
+      "total_mandatory_monthly_equivalent_cents": null,
+      "total_status": "incomplete_or_variant_costs"
+    },
+    {
+      "municipality_id": "stuttgart",
+      "municipality": "Stuttgart",
+      "profile_id": "u3-single-child-full-payer-40h",
+      "as_of": "2026-11-04",
+      "reviewed_at": "2026-11-07",
+      "status": "comparable",
+      "reasons": [],
+      "monthly_care_cents": 24300,
+      "annual_care_cents": 267300,
+      "monthly_equivalent_cents": 22275,
+      "offer_id": "stuttgart-cd11b5ddfc",
+      "offer_label": "GT, 8 Std./Tag",
+      "booked_weekly_minutes": 2400,
+      "extra_weekly_minutes": 0,
+      "payment_months": 11,
+      "components": [
+        {
+          "id": "stuttgart-component-001",
+          "kind": "meal",
+          "original_label": "Essensgeld",
+          "amount_cents": 7700,
+          "unit": "per_month",
+          "age_group": null,
+          "offer_ids": [
+            "stuttgart-cd11b5ddfc",
+            "stuttgart-95dea50444",
+            "stuttgart-b992bae17c",
+            "stuttgart-69e9f68323",
+            "stuttgart-e5f4733f3b",
+            "stuttgart-a086b51780"
+          ],
+          "required": true,
+          "payment_months": null,
+          "valid_from": "2026-08-01",
+          "valid_to": null,
+          "value_status": "known",
+          "evidence": {
+            "source_id": "535c7b4c86f8",
+            "locator": "Verpflegung",
+            "original": null
+          },
+          "annual_equivalent_cents": null,
+          "calculation": []
+        }
+      ],
+      "calculation": [
+        {
+          "operation": "table_lookup",
+          "price_id": "stuttgart-price-0018",
+          "amount_cents": 24300,
+          "evidence": {
+            "source_id": "535c7b4c86f8",
+            "locator": "PDF Seite 1, GT, 8 Std./Tag, u3",
+            "original": {
+              "research_line": 138,
+              "heading": "Kinder unter 3 Jahren – gültig 1. August 2026 bis 31. Juli 2027",
+              "row": [
+                "GT, 8 Std./Tag",
+                "1 Kind",
+                "146 €",
+                "243 €",
+                "44 € / 78 €"
+              ]
+            }
+          }
+        },
+        {
+          "operation": "annual_equivalent_divided_by_12",
+          "monthly_cents": 24300,
+          "payment_months": 11,
+          "result_cents": 22275
+        }
+      ],
+      "evidence": [
+        {
+          "source_id": "535c7b4c86f8",
+          "locator": "PDF Seite 1, GT, 8 Std./Tag, u3",
+          "original": null
+        },
+        {
+          "source_id": "535c7b4c86f8",
+          "locator": "PDF Seite 1, GT, 8 Std./Tag, u3",
+          "original": {
+            "research_line": 138,
+            "heading": "Kinder unter 3 Jahren – gültig 1. August 2026 bis 31. Juli 2027",
+            "row": [
+              "GT, 8 Std./Tag",
+              "1 Kind",
+              "146 €",
+              "243 €",
+              "44 € / 78 €"
+            ]
+          }
+        },
+        {
+          "source_id": "535c7b4c86f8",
+          "locator": "PDF Seite 1: elf Monatsbeiträge, August beitragsfrei",
+          "original": null
+        },
+        {
+          "source_id": "535c7b4c86f8",
+          "locator": "Gebührentabelle",
+          "original": null
+        }
+      ],
+      "issues": [],
+      "alternatives": [],
+      "family_count": 1,
+      "care_rank": 1,
+      "selected_price_id": "stuttgart-price-0018",
+      "total_mandatory_monthly_equivalent_cents": null,
+      "total_status": "incomplete_or_variant_costs"
+    }
+  ]
+}

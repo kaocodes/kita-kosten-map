@@ -1,0 +1,13 @@
+{
+  "id": "87eee842f50d",
+  "municipality": "Leonberg",
+  "title": "Benutzungsordnung, lesbare Fassung Stand 2024 (PDF)",
+  "url": "https://www.leonberg.de/loadDocument.phtml?Ext=PDF&FID=2691.7840.1",
+  "retrieved_at": "2026-11-07T22:07:15.869073+00:00",
+  "http_status": 200,
+  "content_type": "application/pdf",
+  "final_url": "https://www.leonberg.de/PDF/OR_3651_Benutzungsordnung_f%C3%BCr_die_Kindertageseinrichtungen.PDF?ObjSvrID=2691&ObjID=7840&ObjLa=1&Ext=PDF&WTR=1&_ts=1786030233",
+  "error": null,
+  "local_path": "data/sources/87eee842f50d/document.pdf",
+  "sha256": "b660e87dbb40a541adb875526932a9ea5babbea084cb5910e931e56165cd7323"
+}

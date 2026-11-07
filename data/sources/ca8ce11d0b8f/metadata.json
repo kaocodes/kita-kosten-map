@@ -1,0 +1,13 @@
+{
+  "id": "ca8ce11d0b8f",
+  "municipality": "Leonberg",
+  "title": "Gebührentabelle ab 1. Oktober 2026 (PDF)",
+  "url": "https://www.leonberg.de/PDF/Geb%C3%BChrentabelle_Kindertageseinrichtungen_g%C3%BCltig_ab_01_10_2026_.PDF?ObjSvrID=2691&ObjID=2369&ObjLa=1&Ext=PDF&WTR=1&_ts=1791804947",
+  "retrieved_at": "2026-11-07T22:07:15.677768+00:00",
+  "http_status": 200,
+  "content_type": "application/pdf",
+  "final_url": "https://www.leonberg.de/PDF/Geb%C3%BChrentabelle_Kindertageseinrichtungen_g%C3%BCltig_ab_01_10_2026_.PDF?ObjSvrID=2691&ObjID=2369&ObjLa=1&Ext=PDF&WTR=1&_ts=1791804947",
+  "error": null,
+  "local_path": "data/sources/ca8ce11d0b8f/document.pdf",
+  "sha256": "d1637b74515bba7e996a1b6613c7547abe321079108716d43192898c9b74abf5"
+}

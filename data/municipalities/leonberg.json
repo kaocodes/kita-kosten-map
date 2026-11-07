@@ -1,0 +1,3598 @@
+{
+  "schema_version": "1.0",
+  "id": "leonberg",
+  "name": "Leonberg",
+  "reviewed_at": "2026-11-07",
+  "reference_date": "2026-11-04",
+  "scope": {
+    "included": [
+      "municipal"
+    ],
+    "other_providers": "only_with_explicit_source_evidence",
+    "also_included": []
+  },
+  "family_basis": "under_18",
+  "family_evidence": {
+    "source_id": "ca8ce11d0b8f",
+    "locator": "Tabellenfußnote: Kinder unter 18 im selben Haushalt; Satzung §7",
+    "original": null
+  },
+  "payment_months": 12,
+  "payment_evidence": {
+    "source_id": "adc2c4902240",
+    "locator": "§ 5 Ziff. 2: monatlich, auch während der Ferien",
+    "original": null
+  },
+  "original_research": {
+    "path": "data/imported/research_2026-11-04.md",
+    "section": "Leonberg",
+    "text": "\n### Quelle und Gültigkeit\n\n- [Gebührentabelle Kindertageseinrichtungen ab 1. Oktober 2026 (PDF)](https://www.leonberg.de/PDF/Geb%C3%BChrentabelle_Kindertageseinrichtungen_g%C3%BCltig_ab_01_10_2026_.PDF?ObjSvrID=2691&ObjID=2369&ObjLa=1&Ext=PDF&WTR=1&_ts=1791804947), abgerufen am 4. November 2026.\n- [Gebührenseite der Stadt Leonberg](https://www.leonberg.de/Familie-Bildung/Kindertages-einrichtungen/Geb%C3%BChren) und [FAQ Kindertageseinrichtungen](https://www.leonberg.de/Familie-Bildung/Bildung/Kindertageseinrichtungen/FAQ-Kindertageseinrichtungen/).\n- [Benutzungsordnung für städtische/kirchliche Kindertageseinrichtungen](https://www.leonberg.de/loadDocument.phtml?Ext=PDF&FID=2691.7840.1), Stand 1. September 2024; [Ratsvorlage 2024/192 zur Gebührenanpassung und Satzungsüberarbeitung](https://www.leonberg.de/ratsinformationssystem/wicket/resource/org.apache.wicket.Application/doc472809.pdf); [Bekanntmachungen der Stadt Leonberg](https://www.leonberg.de/%C3%96ffentliche-Bekanntmachungen) mit neuen Satzungen vom 30. Juli, 6. August und 1. Oktober 2026.\n- [Ratsvorlage 2022/206](https://www.leonberg.de/ratsinformationssystem/wicket/resource/org.apache.wicket.Application/doc399129.pdf) mit Tarifvergleich ab 2021/2022; [Ratsvorlage 2021/243](https://www.leonberg.de/ratsinformationssystem/wicket/resource/org.apache.wicket.Application/doc361466.pdf) mit Tarifvergleich zum 1. Januar und 1. September 2021.\n\nDie aktuelle [Gebührenseite der Stadt](https://www.leonberg.de/Familie-Bildung/Kindertages-einrichtungen/Geb%C3%BChren) und die [FAQ](https://www.leonberg.de/Familie-Bildung/Bildung/Kindertageseinrichtungen/FAQ-Kindertageseinrichtungen/) verlinken die Gebührentabelle ab **1. Oktober 2026**; die PDF-Tabelle wurde vom Nutzer bereitgestellt und lokal geprüft. Die Betreuungsgebühr richtet sich nach Alter, Betreuungsumfang und Familiengröße. Für Krippe und Ganztag ist die Staffel nach Rangfolge der Geschwister in Krippe, Ganztag und Hort ausgestaltet; bei Halbtags- und VÖ-Plätzen zählt die Zahl der unter 18-jährigen Kinder im Haushalt. Die Gebühren-FAQ bestätigt warmes Mittagessen ab sieben Stunden und weist auf abweichende Verpflegungsregeln freier Träger hin. Im Jahr 2026 wurden eine neue Benutzungsordnung (Stand 1. September), eine Satzung über die Mittagsverpflegung (30. Juli) und eine Satzungsänderung (1. Oktober) veröffentlicht. Die Stadt verlinkt sie, aber die direkten Dokumentlinks lieferten beim Abruf 404; deshalb bleiben rechtliche Detailregeln und die Trägergeltung der aktualisierten Benutzungsordnung als Quellenhinweis offen. Die Gebührenbeträge sind durch die aktuell verlinkte Gebührentabelle belegt; auf freie Träger wird der städtische Tarif nicht ohne eigenen Nachweis übertragen.\n\n### Kinder unter 3 Jahren – monatliche Betreuungskosten\n\n| Familien-/Geschwisterrang | Ganztagskrippe 10,5 Std. | Ganztagskrippe 9 Std. | verkürzte Krippe 8,5 Std. | Halbtagskrippe 6,5 Std. | VÖ 6 Std. | Regel 5,5 Std. |\n|---|---:|---:|---:|---:|---:|---:|\n| 1. Kind | 695 € | 585 € | 537 € | 451 € | 416 € | 332 € |\n| 2. Kind | 645 € | 535 € | 487 € | 401 € | 322 € | 258 € |\n| 3. Kind | 595 € | 485 € | 437 € | 351 € | 217 € | 175 € |\n| 4. Kind | 545 € | 435 € | 387 € | 301 € | 72 € | 58 € |\n\n### Kinder über 3 Jahren – monatliche Betreuungskosten\n\n| Familien-/Geschwisterrang | Ganztag 10,5 Std. | Ganztag 9 Std. | verkürzter Ganztag 8,5 Std. | VÖ 7 Std. | VÖ 6 Std. | Regel 5,5 Std. |\n|---|---:|---:|---:|---:|---:|---:|\n| 1. Kind | 492 € | 409 € | 375 € | 266 € | 207 € | 166 € |\n| 2. Kind | 442 € | 359 € | 325 € | 205 € | 162 € | 129 € |\n| 3. Kind | 392 € | 309 € | 275 € | 136 € | 108 € | 88 € |\n| 4. Kind | 342 € | 259 € | 225 € | 46 € | 36 € | 29 € |\n\n**Verpflegung:** Die Betreuungspreise sind ohne Verpflegung. Ganztagsverpflegung ist verpflichtend und wird separat mit **96,80 € pro Monat für U3** bzw. **114,80 € für Ü3** ausgewiesen. Bei Betreuungsumfängen unter sieben Stunden gibt es laut FAQ ein gemeinsames Vesper, das von zu Hause mitgebracht wird.\n\nFamilien mit geringem Einkommen oder Sozialleistungsbezug können bei der Wirtschaftlichen Jugendhilfe des Landkreises Böblingen prüfen lassen, ob ein Zuschuss möglich ist. Die konkrete Ausgestaltung und Trägergeltung der zugrundeliegenden Benutzungssatzung ist zusätzlich zu den Gebührenbeträgen zu dokumentieren.\n\n### Leonberg: erste historische Tarifpunkte\n\nDie offizielle Ratsvorlage 2024/192 dokumentiert Gebühren zum 1. September 2023, 2024 und 2025. Für die lange Ganztagsbetreuung (10,5 Stunden) stehen unten die Betreuungskosten der historischen Tabelle den 2026-Betreuungskosten plus separat ausgewiesenem Pflichtessen gegenüber. Dadurch ist die Vergleichsgröße als monatliche Summe ausgewiesen; Essensregeln und Preisgrundlage müssen bei einer späteren Zeitreihe weiter vereinheitlicht werden.\n\n| Gültig ab | U3 Krippe 10,5 Std., 1. Kind | Ü3 Ganztag 10,5 Std., 1. Kind | Hinweis zur Verpflegung |\n|---|---:|---:|---|\n| 1. September 2021 | 565,20 € | 427 € | Historische Ganztagestarife mit Verpflegung |\n| 1. September 2022 | 587 € | 444 € | Historische Ganztagestarife mit Verpflegung |\n| 1. September 2023 | 636 € | 481 € | Historische Ganztagestarife mit Verpflegung |\n| 1. September 2024 | 684 € | 517 € | Historische Ganztagestarife mit Verpflegung |\n| 1. September 2025 | 734 € | 555 € | Historische Ganztagestarife mit Verpflegung |\n| 1. Oktober 2026 | 791,80 € (695 € + 96,80 €) | 606,80 € (492 € + 114,80 €) | 2026-Tabelle trennt Pflichtessen vom Betreuungstarif |\n\nDie Ratsvorlage 2024/192 nennt als beschlossene Empfehlung eine Beitragserhöhung um 7,5 % für 2024/25 und 7,3 % für 2025/26. Die offiziellen Ratsvorlagen 2021/243 und 2022/206 ergänzen Vergleichswerte ab 2021; damit ist für Leonberg ein Tarifpunkt je Jahr von 2021 bis 2026 vorerfasst. Für eine präzise Zeitreihe muss noch die unterschiedliche Ausweisung des Essensgelds und der Änderungen an Betreuungsmodellen berücksichtigt werden.\n\n"
+  },
+  "income_bands": [],
+  "offers": [
+    {
+      "id": "leonberg-fade62d93f",
+      "original_label": "Ganztagskrippe 10,5 Std.",
+      "age_group": "u3",
+      "age_min_months": 0,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-10-01",
+      "valid_to": "2027-08-31",
+      "original_price_valid_from": "2026-10-01",
+      "scope": "municipal",
+      "weekly_minutes": 3150,
+      "weekday_minutes": [
+        630,
+        630,
+        630,
+        630,
+        630
+      ],
+      "continuous": true,
+      "schedule_status": "published",
+      "schedule_evidence": {
+        "source_id": "ca8ce11d0b8f",
+        "locator": "Gebührentabelle",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "adc2c4902240",
+        "locator": "§ 5 Ziff. 2: monatlich, auch während der Ferien",
+        "original": null
+      },
+      "evidence": {
+        "source_id": "ca8ce11d0b8f",
+        "locator": "PDF Seite 1, Ganztagskrippe 10,5 Std., u3",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "leonberg-d7aaec5ca0",
+      "original_label": "Ganztagskrippe 9 Std.",
+      "age_group": "u3",
+      "age_min_months": 0,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-10-01",
+      "valid_to": "2027-08-31",
+      "original_price_valid_from": "2026-10-01",
+      "scope": "municipal",
+      "weekly_minutes": 2700,
+      "weekday_minutes": [
+        540,
+        540,
+        540,
+        540,
+        540
+      ],
+      "continuous": true,
+      "schedule_status": "published",
+      "schedule_evidence": {
+        "source_id": "ca8ce11d0b8f",
+        "locator": "Gebührentabelle",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "adc2c4902240",
+        "locator": "§ 5 Ziff. 2: monatlich, auch während der Ferien",
+        "original": null
+      },
+      "evidence": {
+        "source_id": "ca8ce11d0b8f",
+        "locator": "PDF Seite 1, Ganztagskrippe 9 Std., u3",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "leonberg-2acd8c006e",
+      "original_label": "verkürzte Krippe 8,5 Std.",
+      "age_group": "u3",
+      "age_min_months": 0,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-10-01",
+      "valid_to": "2027-08-31",
+      "original_price_valid_from": "2026-10-01",
+      "scope": "municipal",
+      "weekly_minutes": 2550,
+      "weekday_minutes": [
+        510,
+        510,
+        510,
+        510,
+        510
+      ],
+      "continuous": true,
+      "schedule_status": "published",
+      "schedule_evidence": {
+        "source_id": "ca8ce11d0b8f",
+        "locator": "Gebührentabelle",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "adc2c4902240",
+        "locator": "§ 5 Ziff. 2: monatlich, auch während der Ferien",
+        "original": null
+      },
+      "evidence": {
+        "source_id": "ca8ce11d0b8f",
+        "locator": "PDF Seite 1, verkürzte Krippe 8,5 Std., u3",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "leonberg-3985a7b16a",
+      "original_label": "Halbtagskrippe 6,5 Std.",
+      "age_group": "u3",
+      "age_min_months": 0,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-10-01",
+      "valid_to": "2027-08-31",
+      "original_price_valid_from": "2026-10-01",
+      "scope": "municipal",
+      "weekly_minutes": 1950,
+      "weekday_minutes": [
+        390,
+        390,
+        390,
+        390,
+        390
+      ],
+      "continuous": true,
+      "schedule_status": "published",
+      "schedule_evidence": {
+        "source_id": "ca8ce11d0b8f",
+        "locator": "Gebührentabelle",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "adc2c4902240",
+        "locator": "§ 5 Ziff. 2: monatlich, auch während der Ferien",
+        "original": null
+      },
+      "evidence": {
+        "source_id": "ca8ce11d0b8f",
+        "locator": "PDF Seite 1, Halbtagskrippe 6,5 Std., u3",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "leonberg-39741a2d30",
+      "original_label": "VÖ 6 Std.",
+      "age_group": "u3",
+      "age_min_months": 0,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-10-01",
+      "valid_to": "2027-08-31",
+      "original_price_valid_from": "2026-10-01",
+      "scope": "municipal",
+      "weekly_minutes": 1800,
+      "weekday_minutes": [
+        360,
+        360,
+        360,
+        360,
+        360
+      ],
+      "continuous": true,
+      "schedule_status": "published",
+      "schedule_evidence": {
+        "source_id": "ca8ce11d0b8f",
+        "locator": "Gebührentabelle",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "adc2c4902240",
+        "locator": "§ 5 Ziff. 2: monatlich, auch während der Ferien",
+        "original": null
+      },
+      "evidence": {
+        "source_id": "ca8ce11d0b8f",
+        "locator": "PDF Seite 1, VÖ 6 Std., u3",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "leonberg-2a80a55f22",
+      "original_label": "Regel 5,5 Std.",
+      "age_group": "u3",
+      "age_min_months": 0,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-10-01",
+      "valid_to": "2027-08-31",
+      "original_price_valid_from": "2026-10-01",
+      "scope": "municipal",
+      "weekly_minutes": 1650,
+      "weekday_minutes": [
+        330,
+        330,
+        330,
+        330,
+        330
+      ],
+      "continuous": false,
+      "schedule_status": "published",
+      "schedule_evidence": {
+        "source_id": "ca8ce11d0b8f",
+        "locator": "Gebührentabelle",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "adc2c4902240",
+        "locator": "§ 5 Ziff. 2: monatlich, auch während der Ferien",
+        "original": null
+      },
+      "evidence": {
+        "source_id": "ca8ce11d0b8f",
+        "locator": "PDF Seite 1, Regel 5,5 Std., u3",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "leonberg-f0e79aedac",
+      "original_label": "Ganztag 10,5 Std.",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-10-01",
+      "valid_to": "2027-08-31",
+      "original_price_valid_from": "2026-10-01",
+      "scope": "municipal",
+      "weekly_minutes": 3150,
+      "weekday_minutes": [
+        630,
+        630,
+        630,
+        630,
+        630
+      ],
+      "continuous": true,
+      "schedule_status": "published",
+      "schedule_evidence": {
+        "source_id": "ca8ce11d0b8f",
+        "locator": "Gebührentabelle",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "adc2c4902240",
+        "locator": "§ 5 Ziff. 2: monatlich, auch während der Ferien",
+        "original": null
+      },
+      "evidence": {
+        "source_id": "ca8ce11d0b8f",
+        "locator": "PDF Seite 1, Ganztag 10,5 Std., o3",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "leonberg-a8a4bcf0a8",
+      "original_label": "Ganztag 9 Std.",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-10-01",
+      "valid_to": "2027-08-31",
+      "original_price_valid_from": "2026-10-01",
+      "scope": "municipal",
+      "weekly_minutes": 2700,
+      "weekday_minutes": [
+        540,
+        540,
+        540,
+        540,
+        540
+      ],
+      "continuous": true,
+      "schedule_status": "published",
+      "schedule_evidence": {
+        "source_id": "ca8ce11d0b8f",
+        "locator": "Gebührentabelle",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "adc2c4902240",
+        "locator": "§ 5 Ziff. 2: monatlich, auch während der Ferien",
+        "original": null
+      },
+      "evidence": {
+        "source_id": "ca8ce11d0b8f",
+        "locator": "PDF Seite 1, Ganztag 9 Std., o3",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "leonberg-ec03f4efbe",
+      "original_label": "verkürzter Ganztag 8,5 Std.",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-10-01",
+      "valid_to": "2027-08-31",
+      "original_price_valid_from": "2026-10-01",
+      "scope": "municipal",
+      "weekly_minutes": 2550,
+      "weekday_minutes": [
+        510,
+        510,
+        510,
+        510,
+        510
+      ],
+      "continuous": true,
+      "schedule_status": "published",
+      "schedule_evidence": {
+        "source_id": "ca8ce11d0b8f",
+        "locator": "Gebührentabelle",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "adc2c4902240",
+        "locator": "§ 5 Ziff. 2: monatlich, auch während der Ferien",
+        "original": null
+      },
+      "evidence": {
+        "source_id": "ca8ce11d0b8f",
+        "locator": "PDF Seite 1, verkürzter Ganztag 8,5 Std., o3",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "leonberg-698aefae7b",
+      "original_label": "VÖ 7 Std.",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-10-01",
+      "valid_to": "2027-08-31",
+      "original_price_valid_from": "2026-10-01",
+      "scope": "municipal",
+      "weekly_minutes": 2100,
+      "weekday_minutes": [
+        420,
+        420,
+        420,
+        420,
+        420
+      ],
+      "continuous": true,
+      "schedule_status": "published",
+      "schedule_evidence": {
+        "source_id": "ca8ce11d0b8f",
+        "locator": "Gebührentabelle",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "adc2c4902240",
+        "locator": "§ 5 Ziff. 2: monatlich, auch während der Ferien",
+        "original": null
+      },
+      "evidence": {
+        "source_id": "ca8ce11d0b8f",
+        "locator": "PDF Seite 1, VÖ 7 Std., o3",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "leonberg-9b46e3cc86",
+      "original_label": "VÖ 6 Std.",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-10-01",
+      "valid_to": "2027-08-31",
+      "original_price_valid_from": "2026-10-01",
+      "scope": "municipal",
+      "weekly_minutes": 1800,
+      "weekday_minutes": [
+        360,
+        360,
+        360,
+        360,
+        360
+      ],
+      "continuous": true,
+      "schedule_status": "published",
+      "schedule_evidence": {
+        "source_id": "ca8ce11d0b8f",
+        "locator": "Gebührentabelle",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "adc2c4902240",
+        "locator": "§ 5 Ziff. 2: monatlich, auch während der Ferien",
+        "original": null
+      },
+      "evidence": {
+        "source_id": "ca8ce11d0b8f",
+        "locator": "PDF Seite 1, VÖ 6 Std., o3",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "leonberg-fc52341cf1",
+      "original_label": "Regel 5,5 Std.",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-10-01",
+      "valid_to": "2027-08-31",
+      "original_price_valid_from": "2026-10-01",
+      "scope": "municipal",
+      "weekly_minutes": 1650,
+      "weekday_minutes": [
+        330,
+        330,
+        330,
+        330,
+        330
+      ],
+      "continuous": false,
+      "schedule_status": "published",
+      "schedule_evidence": {
+        "source_id": "ca8ce11d0b8f",
+        "locator": "Gebührentabelle",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "adc2c4902240",
+        "locator": "§ 5 Ziff. 2: monatlich, auch während der Ferien",
+        "original": null
+      },
+      "evidence": {
+        "source_id": "ca8ce11d0b8f",
+        "locator": "PDF Seite 1, Regel 5,5 Std., o3",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "leonberg-c2a1091a81",
+      "original_label": "Ganztagskrippe 10,5 Std.",
+      "age_group": "u3",
+      "age_min_months": 0,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2027-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2027-09-01",
+      "scope": "municipal",
+      "weekly_minutes": 3150,
+      "weekday_minutes": [
+        630,
+        630,
+        630,
+        630,
+        630
+      ],
+      "continuous": true,
+      "schedule_status": "published",
+      "schedule_evidence": {
+        "source_id": "adc2c4902240",
+        "locator": "Satzung §6/7: ab 01.09.2027",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "adc2c4902240",
+        "locator": "§ 5 Ziff. 2: monatlich, auch während der Ferien",
+        "original": null
+      },
+      "evidence": {
+        "source_id": "adc2c4902240",
+        "locator": "Satzung §6/7: ab 01.09.2027",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "leonberg-160eaa7c0a",
+      "original_label": "Ganztagskrippe 9 Std.",
+      "age_group": "u3",
+      "age_min_months": 0,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2027-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2027-09-01",
+      "scope": "municipal",
+      "weekly_minutes": 2700,
+      "weekday_minutes": [
+        540,
+        540,
+        540,
+        540,
+        540
+      ],
+      "continuous": true,
+      "schedule_status": "published",
+      "schedule_evidence": {
+        "source_id": "adc2c4902240",
+        "locator": "Satzung §6/7: ab 01.09.2027",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "adc2c4902240",
+        "locator": "§ 5 Ziff. 2: monatlich, auch während der Ferien",
+        "original": null
+      },
+      "evidence": {
+        "source_id": "adc2c4902240",
+        "locator": "Satzung §6/7: ab 01.09.2027",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "leonberg-466a2fd108",
+      "original_label": "verkürzte Krippe 8,5 Std.",
+      "age_group": "u3",
+      "age_min_months": 0,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2027-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2027-09-01",
+      "scope": "municipal",
+      "weekly_minutes": 2550,
+      "weekday_minutes": [
+        510,
+        510,
+        510,
+        510,
+        510
+      ],
+      "continuous": true,
+      "schedule_status": "published",
+      "schedule_evidence": {
+        "source_id": "adc2c4902240",
+        "locator": "Satzung §6/7: ab 01.09.2027",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "adc2c4902240",
+        "locator": "§ 5 Ziff. 2: monatlich, auch während der Ferien",
+        "original": null
+      },
+      "evidence": {
+        "source_id": "adc2c4902240",
+        "locator": "Satzung §6/7: ab 01.09.2027",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "leonberg-4b40f672be",
+      "original_label": "Halbtagskrippe 6,5 Std.",
+      "age_group": "u3",
+      "age_min_months": 0,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2027-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2027-09-01",
+      "scope": "municipal",
+      "weekly_minutes": 1950,
+      "weekday_minutes": [
+        390,
+        390,
+        390,
+        390,
+        390
+      ],
+      "continuous": true,
+      "schedule_status": "published",
+      "schedule_evidence": {
+        "source_id": "adc2c4902240",
+        "locator": "Satzung §6/7: ab 01.09.2027",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "adc2c4902240",
+        "locator": "§ 5 Ziff. 2: monatlich, auch während der Ferien",
+        "original": null
+      },
+      "evidence": {
+        "source_id": "adc2c4902240",
+        "locator": "Satzung §6/7: ab 01.09.2027",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "leonberg-b00bc15498",
+      "original_label": "VÖ 6 Std.",
+      "age_group": "u3",
+      "age_min_months": 0,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2027-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2027-09-01",
+      "scope": "municipal",
+      "weekly_minutes": 1800,
+      "weekday_minutes": [
+        360,
+        360,
+        360,
+        360,
+        360
+      ],
+      "continuous": true,
+      "schedule_status": "published",
+      "schedule_evidence": {
+        "source_id": "adc2c4902240",
+        "locator": "Satzung §6/7: ab 01.09.2027",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "adc2c4902240",
+        "locator": "§ 5 Ziff. 2: monatlich, auch während der Ferien",
+        "original": null
+      },
+      "evidence": {
+        "source_id": "adc2c4902240",
+        "locator": "Satzung §6/7: ab 01.09.2027",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "leonberg-0efefb3536",
+      "original_label": "Regel 5,5 Std.",
+      "age_group": "u3",
+      "age_min_months": 0,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2027-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2027-09-01",
+      "scope": "municipal",
+      "weekly_minutes": 1650,
+      "weekday_minutes": [
+        330,
+        330,
+        330,
+        330,
+        330
+      ],
+      "continuous": false,
+      "schedule_status": "published",
+      "schedule_evidence": {
+        "source_id": "adc2c4902240",
+        "locator": "Satzung §6/7: ab 01.09.2027",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "adc2c4902240",
+        "locator": "§ 5 Ziff. 2: monatlich, auch während der Ferien",
+        "original": null
+      },
+      "evidence": {
+        "source_id": "adc2c4902240",
+        "locator": "Satzung §6/7: ab 01.09.2027",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "leonberg-c6be64fabf",
+      "original_label": "Ganztag 10,5 Std.",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2027-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2027-09-01",
+      "scope": "municipal",
+      "weekly_minutes": 3150,
+      "weekday_minutes": [
+        630,
+        630,
+        630,
+        630,
+        630
+      ],
+      "continuous": true,
+      "schedule_status": "published",
+      "schedule_evidence": {
+        "source_id": "adc2c4902240",
+        "locator": "Satzung §6/7: ab 01.09.2027",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "adc2c4902240",
+        "locator": "§ 5 Ziff. 2: monatlich, auch während der Ferien",
+        "original": null
+      },
+      "evidence": {
+        "source_id": "adc2c4902240",
+        "locator": "Satzung §6/7: ab 01.09.2027",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "leonberg-49afa44bab",
+      "original_label": "Ganztag 9 Std.",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2027-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2027-09-01",
+      "scope": "municipal",
+      "weekly_minutes": 2700,
+      "weekday_minutes": [
+        540,
+        540,
+        540,
+        540,
+        540
+      ],
+      "continuous": true,
+      "schedule_status": "published",
+      "schedule_evidence": {
+        "source_id": "adc2c4902240",
+        "locator": "Satzung §6/7: ab 01.09.2027",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "adc2c4902240",
+        "locator": "§ 5 Ziff. 2: monatlich, auch während der Ferien",
+        "original": null
+      },
+      "evidence": {
+        "source_id": "adc2c4902240",
+        "locator": "Satzung §6/7: ab 01.09.2027",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "leonberg-b32d0c4a82",
+      "original_label": "verkürzter Ganztag 8,5 Std.",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2027-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2027-09-01",
+      "scope": "municipal",
+      "weekly_minutes": 2550,
+      "weekday_minutes": [
+        510,
+        510,
+        510,
+        510,
+        510
+      ],
+      "continuous": true,
+      "schedule_status": "published",
+      "schedule_evidence": {
+        "source_id": "adc2c4902240",
+        "locator": "Satzung §6/7: ab 01.09.2027",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "adc2c4902240",
+        "locator": "§ 5 Ziff. 2: monatlich, auch während der Ferien",
+        "original": null
+      },
+      "evidence": {
+        "source_id": "adc2c4902240",
+        "locator": "Satzung §6/7: ab 01.09.2027",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "leonberg-7c8b9ee989",
+      "original_label": "VÖ 7 Std.",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2027-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2027-09-01",
+      "scope": "municipal",
+      "weekly_minutes": 2100,
+      "weekday_minutes": [
+        420,
+        420,
+        420,
+        420,
+        420
+      ],
+      "continuous": true,
+      "schedule_status": "published",
+      "schedule_evidence": {
+        "source_id": "adc2c4902240",
+        "locator": "Satzung §6/7: ab 01.09.2027",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "adc2c4902240",
+        "locator": "§ 5 Ziff. 2: monatlich, auch während der Ferien",
+        "original": null
+      },
+      "evidence": {
+        "source_id": "adc2c4902240",
+        "locator": "Satzung §6/7: ab 01.09.2027",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "leonberg-c12ea1abd8",
+      "original_label": "VÖ 6 Std.",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2027-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2027-09-01",
+      "scope": "municipal",
+      "weekly_minutes": 1800,
+      "weekday_minutes": [
+        360,
+        360,
+        360,
+        360,
+        360
+      ],
+      "continuous": true,
+      "schedule_status": "published",
+      "schedule_evidence": {
+        "source_id": "adc2c4902240",
+        "locator": "Satzung §6/7: ab 01.09.2027",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "adc2c4902240",
+        "locator": "§ 5 Ziff. 2: monatlich, auch während der Ferien",
+        "original": null
+      },
+      "evidence": {
+        "source_id": "adc2c4902240",
+        "locator": "Satzung §6/7: ab 01.09.2027",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "leonberg-2a5930396b",
+      "original_label": "Regel 5,5 Std.",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2027-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2027-09-01",
+      "scope": "municipal",
+      "weekly_minutes": 1650,
+      "weekday_minutes": [
+        330,
+        330,
+        330,
+        330,
+        330
+      ],
+      "continuous": false,
+      "schedule_status": "published",
+      "schedule_evidence": {
+        "source_id": "adc2c4902240",
+        "locator": "Satzung §6/7: ab 01.09.2027",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "adc2c4902240",
+        "locator": "§ 5 Ziff. 2: monatlich, auch während der Ferien",
+        "original": null
+      },
+      "evidence": {
+        "source_id": "adc2c4902240",
+        "locator": "Satzung §6/7: ab 01.09.2027",
+        "original": null
+      },
+      "formula": null
+    }
+  ],
+  "prices": [
+    {
+      "id": "leonberg-price-0001",
+      "offer_id": "leonberg-fade62d93f",
+      "amount_cents": 69500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ca8ce11d0b8f",
+        "locator": "PDF Seite 1, Ganztagskrippe 10,5 Std., u3",
+        "original": {
+          "research_line": 232,
+          "heading": "Kinder unter 3 Jahren – monatliche Betreuungskosten",
+          "row": [
+            "1. Kind",
+            "695 €",
+            "585 €",
+            "537 €",
+            "451 €",
+            "416 €",
+            "332 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "leonberg-price-0002",
+      "offer_id": "leonberg-d7aaec5ca0",
+      "amount_cents": 58500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ca8ce11d0b8f",
+        "locator": "PDF Seite 1, Ganztagskrippe 9 Std., u3",
+        "original": {
+          "research_line": 232,
+          "heading": "Kinder unter 3 Jahren – monatliche Betreuungskosten",
+          "row": [
+            "1. Kind",
+            "695 €",
+            "585 €",
+            "537 €",
+            "451 €",
+            "416 €",
+            "332 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "leonberg-price-0003",
+      "offer_id": "leonberg-2acd8c006e",
+      "amount_cents": 53700,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ca8ce11d0b8f",
+        "locator": "PDF Seite 1, verkürzte Krippe 8,5 Std., u3",
+        "original": {
+          "research_line": 232,
+          "heading": "Kinder unter 3 Jahren – monatliche Betreuungskosten",
+          "row": [
+            "1. Kind",
+            "695 €",
+            "585 €",
+            "537 €",
+            "451 €",
+            "416 €",
+            "332 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "leonberg-price-0004",
+      "offer_id": "leonberg-3985a7b16a",
+      "amount_cents": 45100,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ca8ce11d0b8f",
+        "locator": "PDF Seite 1, Halbtagskrippe 6,5 Std., u3",
+        "original": {
+          "research_line": 232,
+          "heading": "Kinder unter 3 Jahren – monatliche Betreuungskosten",
+          "row": [
+            "1. Kind",
+            "695 €",
+            "585 €",
+            "537 €",
+            "451 €",
+            "416 €",
+            "332 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "leonberg-price-0005",
+      "offer_id": "leonberg-39741a2d30",
+      "amount_cents": 41600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ca8ce11d0b8f",
+        "locator": "PDF Seite 1, VÖ 6 Std., u3",
+        "original": {
+          "research_line": 232,
+          "heading": "Kinder unter 3 Jahren – monatliche Betreuungskosten",
+          "row": [
+            "1. Kind",
+            "695 €",
+            "585 €",
+            "537 €",
+            "451 €",
+            "416 €",
+            "332 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "leonberg-price-0006",
+      "offer_id": "leonberg-2a80a55f22",
+      "amount_cents": 33200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ca8ce11d0b8f",
+        "locator": "PDF Seite 1, Regel 5,5 Std., u3",
+        "original": {
+          "research_line": 232,
+          "heading": "Kinder unter 3 Jahren – monatliche Betreuungskosten",
+          "row": [
+            "1. Kind",
+            "695 €",
+            "585 €",
+            "537 €",
+            "451 €",
+            "416 €",
+            "332 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "leonberg-price-0007",
+      "offer_id": "leonberg-fade62d93f",
+      "amount_cents": 64500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ca8ce11d0b8f",
+        "locator": "PDF Seite 1, Ganztagskrippe 10,5 Std., u3",
+        "original": {
+          "research_line": 232,
+          "heading": "Kinder unter 3 Jahren – monatliche Betreuungskosten",
+          "row": [
+            "2. Kind",
+            "645 €",
+            "535 €",
+            "487 €",
+            "401 €",
+            "322 €",
+            "258 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "leonberg-price-0008",
+      "offer_id": "leonberg-d7aaec5ca0",
+      "amount_cents": 53500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ca8ce11d0b8f",
+        "locator": "PDF Seite 1, Ganztagskrippe 9 Std., u3",
+        "original": {
+          "research_line": 232,
+          "heading": "Kinder unter 3 Jahren – monatliche Betreuungskosten",
+          "row": [
+            "2. Kind",
+            "645 €",
+            "535 €",
+            "487 €",
+            "401 €",
+            "322 €",
+            "258 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "leonberg-price-0009",
+      "offer_id": "leonberg-2acd8c006e",
+      "amount_cents": 48700,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ca8ce11d0b8f",
+        "locator": "PDF Seite 1, verkürzte Krippe 8,5 Std., u3",
+        "original": {
+          "research_line": 232,
+          "heading": "Kinder unter 3 Jahren – monatliche Betreuungskosten",
+          "row": [
+            "2. Kind",
+            "645 €",
+            "535 €",
+            "487 €",
+            "401 €",
+            "322 €",
+            "258 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "leonberg-price-0010",
+      "offer_id": "leonberg-3985a7b16a",
+      "amount_cents": 40100,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ca8ce11d0b8f",
+        "locator": "PDF Seite 1, Halbtagskrippe 6,5 Std., u3",
+        "original": {
+          "research_line": 232,
+          "heading": "Kinder unter 3 Jahren – monatliche Betreuungskosten",
+          "row": [
+            "2. Kind",
+            "645 €",
+            "535 €",
+            "487 €",
+            "401 €",
+            "322 €",
+            "258 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "leonberg-price-0011",
+      "offer_id": "leonberg-39741a2d30",
+      "amount_cents": 32200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ca8ce11d0b8f",
+        "locator": "PDF Seite 1, VÖ 6 Std., u3",
+        "original": {
+          "research_line": 232,
+          "heading": "Kinder unter 3 Jahren – monatliche Betreuungskosten",
+          "row": [
+            "2. Kind",
+            "645 €",
+            "535 €",
+            "487 €",
+            "401 €",
+            "322 €",
+            "258 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "leonberg-price-0012",
+      "offer_id": "leonberg-2a80a55f22",
+      "amount_cents": 25800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ca8ce11d0b8f",
+        "locator": "PDF Seite 1, Regel 5,5 Std., u3",
+        "original": {
+          "research_line": 232,
+          "heading": "Kinder unter 3 Jahren – monatliche Betreuungskosten",
+          "row": [
+            "2. Kind",
+            "645 €",
+            "535 €",
+            "487 €",
+            "401 €",
+            "322 €",
+            "258 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "leonberg-price-0013",
+      "offer_id": "leonberg-fade62d93f",
+      "amount_cents": 59500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ca8ce11d0b8f",
+        "locator": "PDF Seite 1, Ganztagskrippe 10,5 Std., u3",
+        "original": {
+          "research_line": 232,
+          "heading": "Kinder unter 3 Jahren – monatliche Betreuungskosten",
+          "row": [
+            "3. Kind",
+            "595 €",
+            "485 €",
+            "437 €",
+            "351 €",
+            "217 €",
+            "175 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "leonberg-price-0014",
+      "offer_id": "leonberg-d7aaec5ca0",
+      "amount_cents": 48500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ca8ce11d0b8f",
+        "locator": "PDF Seite 1, Ganztagskrippe 9 Std., u3",
+        "original": {
+          "research_line": 232,
+          "heading": "Kinder unter 3 Jahren – monatliche Betreuungskosten",
+          "row": [
+            "3. Kind",
+            "595 €",
+            "485 €",
+            "437 €",
+            "351 €",
+            "217 €",
+            "175 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "leonberg-price-0015",
+      "offer_id": "leonberg-2acd8c006e",
+      "amount_cents": 43700,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ca8ce11d0b8f",
+        "locator": "PDF Seite 1, verkürzte Krippe 8,5 Std., u3",
+        "original": {
+          "research_line": 232,
+          "heading": "Kinder unter 3 Jahren – monatliche Betreuungskosten",
+          "row": [
+            "3. Kind",
+            "595 €",
+            "485 €",
+            "437 €",
+            "351 €",
+            "217 €",
+            "175 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "leonberg-price-0016",
+      "offer_id": "leonberg-3985a7b16a",
+      "amount_cents": 35100,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ca8ce11d0b8f",
+        "locator": "PDF Seite 1, Halbtagskrippe 6,5 Std., u3",
+        "original": {
+          "research_line": 232,
+          "heading": "Kinder unter 3 Jahren – monatliche Betreuungskosten",
+          "row": [
+            "3. Kind",
+            "595 €",
+            "485 €",
+            "437 €",
+            "351 €",
+            "217 €",
+            "175 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "leonberg-price-0017",
+      "offer_id": "leonberg-39741a2d30",
+      "amount_cents": 21700,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ca8ce11d0b8f",
+        "locator": "PDF Seite 1, VÖ 6 Std., u3",
+        "original": {
+          "research_line": 232,
+          "heading": "Kinder unter 3 Jahren – monatliche Betreuungskosten",
+          "row": [
+            "3. Kind",
+            "595 €",
+            "485 €",
+            "437 €",
+            "351 €",
+            "217 €",
+            "175 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "leonberg-price-0018",
+      "offer_id": "leonberg-2a80a55f22",
+      "amount_cents": 17500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ca8ce11d0b8f",
+        "locator": "PDF Seite 1, Regel 5,5 Std., u3",
+        "original": {
+          "research_line": 232,
+          "heading": "Kinder unter 3 Jahren – monatliche Betreuungskosten",
+          "row": [
+            "3. Kind",
+            "595 €",
+            "485 €",
+            "437 €",
+            "351 €",
+            "217 €",
+            "175 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "leonberg-price-0019",
+      "offer_id": "leonberg-fade62d93f",
+      "amount_cents": 54500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ca8ce11d0b8f",
+        "locator": "PDF Seite 1, Ganztagskrippe 10,5 Std., u3",
+        "original": {
+          "research_line": 232,
+          "heading": "Kinder unter 3 Jahren – monatliche Betreuungskosten",
+          "row": [
+            "4. Kind",
+            "545 €",
+            "435 €",
+            "387 €",
+            "301 €",
+            "72 €",
+            "58 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "leonberg-price-0020",
+      "offer_id": "leonberg-d7aaec5ca0",
+      "amount_cents": 43500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ca8ce11d0b8f",
+        "locator": "PDF Seite 1, Ganztagskrippe 9 Std., u3",
+        "original": {
+          "research_line": 232,
+          "heading": "Kinder unter 3 Jahren – monatliche Betreuungskosten",
+          "row": [
+            "4. Kind",
+            "545 €",
+            "435 €",
+            "387 €",
+            "301 €",
+            "72 €",
+            "58 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "leonberg-price-0021",
+      "offer_id": "leonberg-2acd8c006e",
+      "amount_cents": 38700,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ca8ce11d0b8f",
+        "locator": "PDF Seite 1, verkürzte Krippe 8,5 Std., u3",
+        "original": {
+          "research_line": 232,
+          "heading": "Kinder unter 3 Jahren – monatliche Betreuungskosten",
+          "row": [
+            "4. Kind",
+            "545 €",
+            "435 €",
+            "387 €",
+            "301 €",
+            "72 €",
+            "58 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "leonberg-price-0022",
+      "offer_id": "leonberg-3985a7b16a",
+      "amount_cents": 30100,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ca8ce11d0b8f",
+        "locator": "PDF Seite 1, Halbtagskrippe 6,5 Std., u3",
+        "original": {
+          "research_line": 232,
+          "heading": "Kinder unter 3 Jahren – monatliche Betreuungskosten",
+          "row": [
+            "4. Kind",
+            "545 €",
+            "435 €",
+            "387 €",
+            "301 €",
+            "72 €",
+            "58 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "leonberg-price-0023",
+      "offer_id": "leonberg-39741a2d30",
+      "amount_cents": 7200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ca8ce11d0b8f",
+        "locator": "PDF Seite 1, VÖ 6 Std., u3",
+        "original": {
+          "research_line": 232,
+          "heading": "Kinder unter 3 Jahren – monatliche Betreuungskosten",
+          "row": [
+            "4. Kind",
+            "545 €",
+            "435 €",
+            "387 €",
+            "301 €",
+            "72 €",
+            "58 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "leonberg-price-0024",
+      "offer_id": "leonberg-2a80a55f22",
+      "amount_cents": 5800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ca8ce11d0b8f",
+        "locator": "PDF Seite 1, Regel 5,5 Std., u3",
+        "original": {
+          "research_line": 232,
+          "heading": "Kinder unter 3 Jahren – monatliche Betreuungskosten",
+          "row": [
+            "4. Kind",
+            "545 €",
+            "435 €",
+            "387 €",
+            "301 €",
+            "72 €",
+            "58 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "leonberg-price-0025",
+      "offer_id": "leonberg-f0e79aedac",
+      "amount_cents": 49200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ca8ce11d0b8f",
+        "locator": "PDF Seite 1, Ganztag 10,5 Std., o3",
+        "original": {
+          "research_line": 241,
+          "heading": "Kinder über 3 Jahren – monatliche Betreuungskosten",
+          "row": [
+            "1. Kind",
+            "492 €",
+            "409 €",
+            "375 €",
+            "266 €",
+            "207 €",
+            "166 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "leonberg-price-0026",
+      "offer_id": "leonberg-a8a4bcf0a8",
+      "amount_cents": 40900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ca8ce11d0b8f",
+        "locator": "PDF Seite 1, Ganztag 9 Std., o3",
+        "original": {
+          "research_line": 241,
+          "heading": "Kinder über 3 Jahren – monatliche Betreuungskosten",
+          "row": [
+            "1. Kind",
+            "492 €",
+            "409 €",
+            "375 €",
+            "266 €",
+            "207 €",
+            "166 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "leonberg-price-0027",
+      "offer_id": "leonberg-ec03f4efbe",
+      "amount_cents": 37500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ca8ce11d0b8f",
+        "locator": "PDF Seite 1, verkürzter Ganztag 8,5 Std., o3",
+        "original": {
+          "research_line": 241,
+          "heading": "Kinder über 3 Jahren – monatliche Betreuungskosten",
+          "row": [
+            "1. Kind",
+            "492 €",
+            "409 €",
+            "375 €",
+            "266 €",
+            "207 €",
+            "166 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "leonberg-price-0028",
+      "offer_id": "leonberg-698aefae7b",
+      "amount_cents": 26600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ca8ce11d0b8f",
+        "locator": "PDF Seite 1, VÖ 7 Std., o3",
+        "original": {
+          "research_line": 241,
+          "heading": "Kinder über 3 Jahren – monatliche Betreuungskosten",
+          "row": [
+            "1. Kind",
+            "492 €",
+            "409 €",
+            "375 €",
+            "266 €",
+            "207 €",
+            "166 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "leonberg-price-0029",
+      "offer_id": "leonberg-9b46e3cc86",
+      "amount_cents": 20700,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ca8ce11d0b8f",
+        "locator": "PDF Seite 1, VÖ 6 Std., o3",
+        "original": {
+          "research_line": 241,
+          "heading": "Kinder über 3 Jahren – monatliche Betreuungskosten",
+          "row": [
+            "1. Kind",
+            "492 €",
+            "409 €",
+            "375 €",
+            "266 €",
+            "207 €",
+            "166 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "leonberg-price-0030",
+      "offer_id": "leonberg-fc52341cf1",
+      "amount_cents": 16600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ca8ce11d0b8f",
+        "locator": "PDF Seite 1, Regel 5,5 Std., o3",
+        "original": {
+          "research_line": 241,
+          "heading": "Kinder über 3 Jahren – monatliche Betreuungskosten",
+          "row": [
+            "1. Kind",
+            "492 €",
+            "409 €",
+            "375 €",
+            "266 €",
+            "207 €",
+            "166 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "leonberg-price-0031",
+      "offer_id": "leonberg-f0e79aedac",
+      "amount_cents": 44200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ca8ce11d0b8f",
+        "locator": "PDF Seite 1, Ganztag 10,5 Std., o3",
+        "original": {
+          "research_line": 241,
+          "heading": "Kinder über 3 Jahren – monatliche Betreuungskosten",
+          "row": [
+            "2. Kind",
+            "442 €",
+            "359 €",
+            "325 €",
+            "205 €",
+            "162 €",
+            "129 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "leonberg-price-0032",
+      "offer_id": "leonberg-a8a4bcf0a8",
+      "amount_cents": 35900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ca8ce11d0b8f",
+        "locator": "PDF Seite 1, Ganztag 9 Std., o3",
+        "original": {
+          "research_line": 241,
+          "heading": "Kinder über 3 Jahren – monatliche Betreuungskosten",
+          "row": [
+            "2. Kind",
+            "442 €",
+            "359 €",
+            "325 €",
+            "205 €",
+            "162 €",
+            "129 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "leonberg-price-0033",
+      "offer_id": "leonberg-ec03f4efbe",
+      "amount_cents": 32500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ca8ce11d0b8f",
+        "locator": "PDF Seite 1, verkürzter Ganztag 8,5 Std., o3",
+        "original": {
+          "research_line": 241,
+          "heading": "Kinder über 3 Jahren – monatliche Betreuungskosten",
+          "row": [
+            "2. Kind",
+            "442 €",
+            "359 €",
+            "325 €",
+            "205 €",
+            "162 €",
+            "129 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "leonberg-price-0034",
+      "offer_id": "leonberg-698aefae7b",
+      "amount_cents": 20500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ca8ce11d0b8f",
+        "locator": "PDF Seite 1, VÖ 7 Std., o3",
+        "original": {
+          "research_line": 241,
+          "heading": "Kinder über 3 Jahren – monatliche Betreuungskosten",
+          "row": [
+            "2. Kind",
+            "442 €",
+            "359 €",
+            "325 €",
+            "205 €",
+            "162 €",
+            "129 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "leonberg-price-0035",
+      "offer_id": "leonberg-9b46e3cc86",
+      "amount_cents": 16200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ca8ce11d0b8f",
+        "locator": "PDF Seite 1, VÖ 6 Std., o3",
+        "original": {
+          "research_line": 241,
+          "heading": "Kinder über 3 Jahren – monatliche Betreuungskosten",
+          "row": [
+            "2. Kind",
+            "442 €",
+            "359 €",
+            "325 €",
+            "205 €",
+            "162 €",
+            "129 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "leonberg-price-0036",
+      "offer_id": "leonberg-fc52341cf1",
+      "amount_cents": 12900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ca8ce11d0b8f",
+        "locator": "PDF Seite 1, Regel 5,5 Std., o3",
+        "original": {
+          "research_line": 241,
+          "heading": "Kinder über 3 Jahren – monatliche Betreuungskosten",
+          "row": [
+            "2. Kind",
+            "442 €",
+            "359 €",
+            "325 €",
+            "205 €",
+            "162 €",
+            "129 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "leonberg-price-0037",
+      "offer_id": "leonberg-f0e79aedac",
+      "amount_cents": 39200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ca8ce11d0b8f",
+        "locator": "PDF Seite 1, Ganztag 10,5 Std., o3",
+        "original": {
+          "research_line": 241,
+          "heading": "Kinder über 3 Jahren – monatliche Betreuungskosten",
+          "row": [
+            "3. Kind",
+            "392 €",
+            "309 €",
+            "275 €",
+            "136 €",
+            "108 €",
+            "88 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "leonberg-price-0038",
+      "offer_id": "leonberg-a8a4bcf0a8",
+      "amount_cents": 30900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ca8ce11d0b8f",
+        "locator": "PDF Seite 1, Ganztag 9 Std., o3",
+        "original": {
+          "research_line": 241,
+          "heading": "Kinder über 3 Jahren – monatliche Betreuungskosten",
+          "row": [
+            "3. Kind",
+            "392 €",
+            "309 €",
+            "275 €",
+            "136 €",
+            "108 €",
+            "88 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "leonberg-price-0039",
+      "offer_id": "leonberg-ec03f4efbe",
+      "amount_cents": 27500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ca8ce11d0b8f",
+        "locator": "PDF Seite 1, verkürzter Ganztag 8,5 Std., o3",
+        "original": {
+          "research_line": 241,
+          "heading": "Kinder über 3 Jahren – monatliche Betreuungskosten",
+          "row": [
+            "3. Kind",
+            "392 €",
+            "309 €",
+            "275 €",
+            "136 €",
+            "108 €",
+            "88 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "leonberg-price-0040",
+      "offer_id": "leonberg-698aefae7b",
+      "amount_cents": 13600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ca8ce11d0b8f",
+        "locator": "PDF Seite 1, VÖ 7 Std., o3",
+        "original": {
+          "research_line": 241,
+          "heading": "Kinder über 3 Jahren – monatliche Betreuungskosten",
+          "row": [
+            "3. Kind",
+            "392 €",
+            "309 €",
+            "275 €",
+            "136 €",
+            "108 €",
+            "88 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "leonberg-price-0041",
+      "offer_id": "leonberg-9b46e3cc86",
+      "amount_cents": 10800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ca8ce11d0b8f",
+        "locator": "PDF Seite 1, VÖ 6 Std., o3",
+        "original": {
+          "research_line": 241,
+          "heading": "Kinder über 3 Jahren – monatliche Betreuungskosten",
+          "row": [
+            "3. Kind",
+            "392 €",
+            "309 €",
+            "275 €",
+            "136 €",
+            "108 €",
+            "88 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "leonberg-price-0042",
+      "offer_id": "leonberg-fc52341cf1",
+      "amount_cents": 8800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ca8ce11d0b8f",
+        "locator": "PDF Seite 1, Regel 5,5 Std., o3",
+        "original": {
+          "research_line": 241,
+          "heading": "Kinder über 3 Jahren – monatliche Betreuungskosten",
+          "row": [
+            "3. Kind",
+            "392 €",
+            "309 €",
+            "275 €",
+            "136 €",
+            "108 €",
+            "88 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "leonberg-price-0043",
+      "offer_id": "leonberg-f0e79aedac",
+      "amount_cents": 34200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ca8ce11d0b8f",
+        "locator": "PDF Seite 1, Ganztag 10,5 Std., o3",
+        "original": {
+          "research_line": 241,
+          "heading": "Kinder über 3 Jahren – monatliche Betreuungskosten",
+          "row": [
+            "4. Kind",
+            "342 €",
+            "259 €",
+            "225 €",
+            "46 €",
+            "36 €",
+            "29 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "leonberg-price-0044",
+      "offer_id": "leonberg-a8a4bcf0a8",
+      "amount_cents": 25900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ca8ce11d0b8f",
+        "locator": "PDF Seite 1, Ganztag 9 Std., o3",
+        "original": {
+          "research_line": 241,
+          "heading": "Kinder über 3 Jahren – monatliche Betreuungskosten",
+          "row": [
+            "4. Kind",
+            "342 €",
+            "259 €",
+            "225 €",
+            "46 €",
+            "36 €",
+            "29 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "leonberg-price-0045",
+      "offer_id": "leonberg-ec03f4efbe",
+      "amount_cents": 22500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ca8ce11d0b8f",
+        "locator": "PDF Seite 1, verkürzter Ganztag 8,5 Std., o3",
+        "original": {
+          "research_line": 241,
+          "heading": "Kinder über 3 Jahren – monatliche Betreuungskosten",
+          "row": [
+            "4. Kind",
+            "342 €",
+            "259 €",
+            "225 €",
+            "46 €",
+            "36 €",
+            "29 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "leonberg-price-0046",
+      "offer_id": "leonberg-698aefae7b",
+      "amount_cents": 4600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ca8ce11d0b8f",
+        "locator": "PDF Seite 1, VÖ 7 Std., o3",
+        "original": {
+          "research_line": 241,
+          "heading": "Kinder über 3 Jahren – monatliche Betreuungskosten",
+          "row": [
+            "4. Kind",
+            "342 €",
+            "259 €",
+            "225 €",
+            "46 €",
+            "36 €",
+            "29 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "leonberg-price-0047",
+      "offer_id": "leonberg-9b46e3cc86",
+      "amount_cents": 3600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ca8ce11d0b8f",
+        "locator": "PDF Seite 1, VÖ 6 Std., o3",
+        "original": {
+          "research_line": 241,
+          "heading": "Kinder über 3 Jahren – monatliche Betreuungskosten",
+          "row": [
+            "4. Kind",
+            "342 €",
+            "259 €",
+            "225 €",
+            "46 €",
+            "36 €",
+            "29 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "leonberg-price-0048",
+      "offer_id": "leonberg-fc52341cf1",
+      "amount_cents": 2900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ca8ce11d0b8f",
+        "locator": "PDF Seite 1, Regel 5,5 Std., o3",
+        "original": {
+          "research_line": 241,
+          "heading": "Kinder über 3 Jahren – monatliche Betreuungskosten",
+          "row": [
+            "4. Kind",
+            "342 €",
+            "259 €",
+            "225 €",
+            "46 €",
+            "36 €",
+            "29 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "leonberg-price-0049",
+      "offer_id": "leonberg-c2a1091a81",
+      "amount_cents": 72200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "adc2c4902240",
+        "locator": "Satzung §6/7: ab 01.09.2027",
+        "original": "Satzung §6: 2027-Grundtarif und §7: Familienstaffel"
+      }
+    },
+    {
+      "id": "leonberg-price-0050",
+      "offer_id": "leonberg-c2a1091a81",
+      "amount_cents": 67200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "adc2c4902240",
+        "locator": "Satzung §6/7: ab 01.09.2027",
+        "original": "Satzung §6: 2027-Grundtarif und §7: Familienstaffel"
+      }
+    },
+    {
+      "id": "leonberg-price-0051",
+      "offer_id": "leonberg-c2a1091a81",
+      "amount_cents": 62200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "adc2c4902240",
+        "locator": "Satzung §6/7: ab 01.09.2027",
+        "original": "Satzung §6: 2027-Grundtarif und §7: Familienstaffel"
+      }
+    },
+    {
+      "id": "leonberg-price-0052",
+      "offer_id": "leonberg-c2a1091a81",
+      "amount_cents": 57200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "adc2c4902240",
+        "locator": "Satzung §6/7: ab 01.09.2027",
+        "original": "Satzung §6: 2027-Grundtarif und §7: Familienstaffel"
+      }
+    },
+    {
+      "id": "leonberg-price-0053",
+      "offer_id": "leonberg-160eaa7c0a",
+      "amount_cents": 60800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "adc2c4902240",
+        "locator": "Satzung §6/7: ab 01.09.2027",
+        "original": "Satzung §6: 2027-Grundtarif und §7: Familienstaffel"
+      }
+    },
+    {
+      "id": "leonberg-price-0054",
+      "offer_id": "leonberg-160eaa7c0a",
+      "amount_cents": 55800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "adc2c4902240",
+        "locator": "Satzung §6/7: ab 01.09.2027",
+        "original": "Satzung §6: 2027-Grundtarif und §7: Familienstaffel"
+      }
+    },
+    {
+      "id": "leonberg-price-0055",
+      "offer_id": "leonberg-160eaa7c0a",
+      "amount_cents": 50800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "adc2c4902240",
+        "locator": "Satzung §6/7: ab 01.09.2027",
+        "original": "Satzung §6: 2027-Grundtarif und §7: Familienstaffel"
+      }
+    },
+    {
+      "id": "leonberg-price-0056",
+      "offer_id": "leonberg-160eaa7c0a",
+      "amount_cents": 45800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "adc2c4902240",
+        "locator": "Satzung §6/7: ab 01.09.2027",
+        "original": "Satzung §6: 2027-Grundtarif und §7: Familienstaffel"
+      }
+    },
+    {
+      "id": "leonberg-price-0057",
+      "offer_id": "leonberg-466a2fd108",
+      "amount_cents": 55800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "adc2c4902240",
+        "locator": "Satzung §6/7: ab 01.09.2027",
+        "original": "Satzung §6: 2027-Grundtarif und §7: Familienstaffel"
+      }
+    },
+    {
+      "id": "leonberg-price-0058",
+      "offer_id": "leonberg-466a2fd108",
+      "amount_cents": 50800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "adc2c4902240",
+        "locator": "Satzung §6/7: ab 01.09.2027",
+        "original": "Satzung §6: 2027-Grundtarif und §7: Familienstaffel"
+      }
+    },
+    {
+      "id": "leonberg-price-0059",
+      "offer_id": "leonberg-466a2fd108",
+      "amount_cents": 45800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "adc2c4902240",
+        "locator": "Satzung §6/7: ab 01.09.2027",
+        "original": "Satzung §6: 2027-Grundtarif und §7: Familienstaffel"
+      }
+    },
+    {
+      "id": "leonberg-price-0060",
+      "offer_id": "leonberg-466a2fd108",
+      "amount_cents": 40800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "adc2c4902240",
+        "locator": "Satzung §6/7: ab 01.09.2027",
+        "original": "Satzung §6: 2027-Grundtarif und §7: Familienstaffel"
+      }
+    },
+    {
+      "id": "leonberg-price-0061",
+      "offer_id": "leonberg-4b40f672be",
+      "amount_cents": 46900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "adc2c4902240",
+        "locator": "Satzung §6/7: ab 01.09.2027",
+        "original": "Satzung §6: 2027-Grundtarif und §7: Familienstaffel"
+      }
+    },
+    {
+      "id": "leonberg-price-0062",
+      "offer_id": "leonberg-4b40f672be",
+      "amount_cents": 41900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "adc2c4902240",
+        "locator": "Satzung §6/7: ab 01.09.2027",
+        "original": "Satzung §6: 2027-Grundtarif und §7: Familienstaffel"
+      }
+    },
+    {
+      "id": "leonberg-price-0063",
+      "offer_id": "leonberg-4b40f672be",
+      "amount_cents": 36900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "adc2c4902240",
+        "locator": "Satzung §6/7: ab 01.09.2027",
+        "original": "Satzung §6: 2027-Grundtarif und §7: Familienstaffel"
+      }
+    },
+    {
+      "id": "leonberg-price-0064",
+      "offer_id": "leonberg-4b40f672be",
+      "amount_cents": 31900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "adc2c4902240",
+        "locator": "Satzung §6/7: ab 01.09.2027",
+        "original": "Satzung §6: 2027-Grundtarif und §7: Familienstaffel"
+      }
+    },
+    {
+      "id": "leonberg-price-0065",
+      "offer_id": "leonberg-b00bc15498",
+      "amount_cents": 43200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "adc2c4902240",
+        "locator": "Satzung §6/7: ab 01.09.2027",
+        "original": "Satzung §6: 2027-Grundtarif und §7: Familienstaffel"
+      }
+    },
+    {
+      "id": "leonberg-price-0066",
+      "offer_id": "leonberg-b00bc15498",
+      "amount_cents": 33500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "adc2c4902240",
+        "locator": "Satzung §6/7: ab 01.09.2027",
+        "original": "Satzung §6: 2027-Grundtarif und §7: Familienstaffel"
+      }
+    },
+    {
+      "id": "leonberg-price-0067",
+      "offer_id": "leonberg-b00bc15498",
+      "amount_cents": 22600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "adc2c4902240",
+        "locator": "Satzung §6/7: ab 01.09.2027",
+        "original": "Satzung §6: 2027-Grundtarif und §7: Familienstaffel"
+      }
+    },
+    {
+      "id": "leonberg-price-0068",
+      "offer_id": "leonberg-b00bc15498",
+      "amount_cents": 7500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "adc2c4902240",
+        "locator": "Satzung §6/7: ab 01.09.2027",
+        "original": "Satzung §6: 2027-Grundtarif und §7: Familienstaffel"
+      }
+    },
+    {
+      "id": "leonberg-price-0069",
+      "offer_id": "leonberg-0efefb3536",
+      "amount_cents": 34500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "adc2c4902240",
+        "locator": "Satzung §6/7: ab 01.09.2027",
+        "original": "Satzung §6: 2027-Grundtarif und §7: Familienstaffel"
+      }
+    },
+    {
+      "id": "leonberg-price-0070",
+      "offer_id": "leonberg-0efefb3536",
+      "amount_cents": 26800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "adc2c4902240",
+        "locator": "Satzung §6/7: ab 01.09.2027",
+        "original": "Satzung §6: 2027-Grundtarif und §7: Familienstaffel"
+      }
+    },
+    {
+      "id": "leonberg-price-0071",
+      "offer_id": "leonberg-0efefb3536",
+      "amount_cents": 18200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "adc2c4902240",
+        "locator": "Satzung §6/7: ab 01.09.2027",
+        "original": "Satzung §6: 2027-Grundtarif und §7: Familienstaffel"
+      }
+    },
+    {
+      "id": "leonberg-price-0072",
+      "offer_id": "leonberg-0efefb3536",
+      "amount_cents": 6100,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "adc2c4902240",
+        "locator": "Satzung §6/7: ab 01.09.2027",
+        "original": "Satzung §6: 2027-Grundtarif und §7: Familienstaffel"
+      }
+    },
+    {
+      "id": "leonberg-price-0073",
+      "offer_id": "leonberg-c6be64fabf",
+      "amount_cents": 51200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "adc2c4902240",
+        "locator": "Satzung §6/7: ab 01.09.2027",
+        "original": "Satzung §6: 2027-Grundtarif und §7: Familienstaffel"
+      }
+    },
+    {
+      "id": "leonberg-price-0074",
+      "offer_id": "leonberg-c6be64fabf",
+      "amount_cents": 46200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "adc2c4902240",
+        "locator": "Satzung §6/7: ab 01.09.2027",
+        "original": "Satzung §6: 2027-Grundtarif und §7: Familienstaffel"
+      }
+    },
+    {
+      "id": "leonberg-price-0075",
+      "offer_id": "leonberg-c6be64fabf",
+      "amount_cents": 41200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "adc2c4902240",
+        "locator": "Satzung §6/7: ab 01.09.2027",
+        "original": "Satzung §6: 2027-Grundtarif und §7: Familienstaffel"
+      }
+    },
+    {
+      "id": "leonberg-price-0076",
+      "offer_id": "leonberg-c6be64fabf",
+      "amount_cents": 36200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "adc2c4902240",
+        "locator": "Satzung §6/7: ab 01.09.2027",
+        "original": "Satzung §6: 2027-Grundtarif und §7: Familienstaffel"
+      }
+    },
+    {
+      "id": "leonberg-price-0077",
+      "offer_id": "leonberg-49afa44bab",
+      "amount_cents": 42500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "adc2c4902240",
+        "locator": "Satzung §6/7: ab 01.09.2027",
+        "original": "Satzung §6: 2027-Grundtarif und §7: Familienstaffel"
+      }
+    },
+    {
+      "id": "leonberg-price-0078",
+      "offer_id": "leonberg-49afa44bab",
+      "amount_cents": 37500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "adc2c4902240",
+        "locator": "Satzung §6/7: ab 01.09.2027",
+        "original": "Satzung §6: 2027-Grundtarif und §7: Familienstaffel"
+      }
+    },
+    {
+      "id": "leonberg-price-0079",
+      "offer_id": "leonberg-49afa44bab",
+      "amount_cents": 32500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "adc2c4902240",
+        "locator": "Satzung §6/7: ab 01.09.2027",
+        "original": "Satzung §6: 2027-Grundtarif und §7: Familienstaffel"
+      }
+    },
+    {
+      "id": "leonberg-price-0080",
+      "offer_id": "leonberg-49afa44bab",
+      "amount_cents": 27500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "adc2c4902240",
+        "locator": "Satzung §6/7: ab 01.09.2027",
+        "original": "Satzung §6: 2027-Grundtarif und §7: Familienstaffel"
+      }
+    },
+    {
+      "id": "leonberg-price-0081",
+      "offer_id": "leonberg-b32d0c4a82",
+      "amount_cents": 39000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "adc2c4902240",
+        "locator": "Satzung §6/7: ab 01.09.2027",
+        "original": "Satzung §6: 2027-Grundtarif und §7: Familienstaffel"
+      }
+    },
+    {
+      "id": "leonberg-price-0082",
+      "offer_id": "leonberg-b32d0c4a82",
+      "amount_cents": 34000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "adc2c4902240",
+        "locator": "Satzung §6/7: ab 01.09.2027",
+        "original": "Satzung §6: 2027-Grundtarif und §7: Familienstaffel"
+      }
+    },
+    {
+      "id": "leonberg-price-0083",
+      "offer_id": "leonberg-b32d0c4a82",
+      "amount_cents": 29000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "adc2c4902240",
+        "locator": "Satzung §6/7: ab 01.09.2027",
+        "original": "Satzung §6: 2027-Grundtarif und §7: Familienstaffel"
+      }
+    },
+    {
+      "id": "leonberg-price-0084",
+      "offer_id": "leonberg-b32d0c4a82",
+      "amount_cents": 24000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "adc2c4902240",
+        "locator": "Satzung §6/7: ab 01.09.2027",
+        "original": "Satzung §6: 2027-Grundtarif und §7: Familienstaffel"
+      }
+    },
+    {
+      "id": "leonberg-price-0085",
+      "offer_id": "leonberg-7c8b9ee989",
+      "amount_cents": 27700,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "adc2c4902240",
+        "locator": "Satzung §6/7: ab 01.09.2027",
+        "original": "Satzung §6: 2027-Grundtarif und §7: Familienstaffel"
+      }
+    },
+    {
+      "id": "leonberg-price-0086",
+      "offer_id": "leonberg-7c8b9ee989",
+      "amount_cents": 21300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "adc2c4902240",
+        "locator": "Satzung §6/7: ab 01.09.2027",
+        "original": "Satzung §6: 2027-Grundtarif und §7: Familienstaffel"
+      }
+    },
+    {
+      "id": "leonberg-price-0087",
+      "offer_id": "leonberg-7c8b9ee989",
+      "amount_cents": 14200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "adc2c4902240",
+        "locator": "Satzung §6/7: ab 01.09.2027",
+        "original": "Satzung §6: 2027-Grundtarif und §7: Familienstaffel"
+      }
+    },
+    {
+      "id": "leonberg-price-0088",
+      "offer_id": "leonberg-7c8b9ee989",
+      "amount_cents": 4800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "adc2c4902240",
+        "locator": "Satzung §6/7: ab 01.09.2027",
+        "original": "Satzung §6: 2027-Grundtarif und §7: Familienstaffel"
+      }
+    },
+    {
+      "id": "leonberg-price-0089",
+      "offer_id": "leonberg-c12ea1abd8",
+      "amount_cents": 21600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "adc2c4902240",
+        "locator": "Satzung §6/7: ab 01.09.2027",
+        "original": "Satzung §6: 2027-Grundtarif und §7: Familienstaffel"
+      }
+    },
+    {
+      "id": "leonberg-price-0090",
+      "offer_id": "leonberg-c12ea1abd8",
+      "amount_cents": 16900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "adc2c4902240",
+        "locator": "Satzung §6/7: ab 01.09.2027",
+        "original": "Satzung §6: 2027-Grundtarif und §7: Familienstaffel"
+      }
+    },
+    {
+      "id": "leonberg-price-0091",
+      "offer_id": "leonberg-c12ea1abd8",
+      "amount_cents": 11200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "adc2c4902240",
+        "locator": "Satzung §6/7: ab 01.09.2027",
+        "original": "Satzung §6: 2027-Grundtarif und §7: Familienstaffel"
+      }
+    },
+    {
+      "id": "leonberg-price-0092",
+      "offer_id": "leonberg-c12ea1abd8",
+      "amount_cents": 3800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "adc2c4902240",
+        "locator": "Satzung §6/7: ab 01.09.2027",
+        "original": "Satzung §6: 2027-Grundtarif und §7: Familienstaffel"
+      }
+    },
+    {
+      "id": "leonberg-price-0093",
+      "offer_id": "leonberg-2a5930396b",
+      "amount_cents": 17300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "adc2c4902240",
+        "locator": "Satzung §6/7: ab 01.09.2027",
+        "original": "Satzung §6: 2027-Grundtarif und §7: Familienstaffel"
+      }
+    },
+    {
+      "id": "leonberg-price-0094",
+      "offer_id": "leonberg-2a5930396b",
+      "amount_cents": 13400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "adc2c4902240",
+        "locator": "Satzung §6/7: ab 01.09.2027",
+        "original": "Satzung §6: 2027-Grundtarif und §7: Familienstaffel"
+      }
+    },
+    {
+      "id": "leonberg-price-0095",
+      "offer_id": "leonberg-2a5930396b",
+      "amount_cents": 9200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "adc2c4902240",
+        "locator": "Satzung §6/7: ab 01.09.2027",
+        "original": "Satzung §6: 2027-Grundtarif und §7: Familienstaffel"
+      }
+    },
+    {
+      "id": "leonberg-price-0096",
+      "offer_id": "leonberg-2a5930396b",
+      "amount_cents": 3000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "adc2c4902240",
+        "locator": "Satzung §6/7: ab 01.09.2027",
+        "original": "Satzung §6: 2027-Grundtarif und §7: Familienstaffel"
+      }
+    }
+  ],
+  "components": [
+    {
+      "id": "leonberg-component-001",
+      "kind": "meal",
+      "original_label": "Pflichtverpflegung KK/KG",
+      "amount_cents": 9680,
+      "unit": "per_month",
+      "age_group": "u3",
+      "offer_ids": [
+        "leonberg-fade62d93f",
+        "leonberg-d7aaec5ca0",
+        "leonberg-2acd8c006e",
+        "leonberg-3985a7b16a"
+      ],
+      "required": true,
+      "payment_months": 12,
+      "valid_from": "2026-10-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "14d95ae93ac8",
+        "locator": "§ 5 ff. und Gebührentabelle",
+        "original": null
+      }
+    },
+    {
+      "id": "leonberg-component-002",
+      "kind": "meal",
+      "original_label": "Pflichtverpflegung KK/KG",
+      "amount_cents": 11480,
+      "unit": "per_month",
+      "age_group": "o3",
+      "offer_ids": [
+        "leonberg-f0e79aedac",
+        "leonberg-a8a4bcf0a8",
+        "leonberg-ec03f4efbe"
+      ],
+      "required": true,
+      "payment_months": 12,
+      "valid_from": "2026-10-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "14d95ae93ac8",
+        "locator": "§ 5 ff. und Gebührentabelle",
+        "original": null
+      }
+    },
+    {
+      "id": "leonberg-component-003",
+      "kind": "care_extension",
+      "original_label": "Zusatzbetreuung bis 17 Uhr an einzelnen Tagen",
+      "amount_cents": 1076,
+      "unit": "per_day",
+      "age_group": "u3",
+      "offer_ids": null,
+      "required": false,
+      "payment_months": null,
+      "valid_from": "2026-10-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "adc2c4902240",
+        "locator": "§6 Ziff. 1e/2d",
+        "original": null
+      },
+      "execution_status": "attendance_days_required"
+    },
+    {
+      "id": "leonberg-component-004",
+      "kind": "care_extension",
+      "original_label": "Zusatzbetreuung bis 17 Uhr an einzelnen Tagen",
+      "amount_cents": 784,
+      "unit": "per_day",
+      "age_group": "o3",
+      "offer_ids": null,
+      "required": false,
+      "payment_months": null,
+      "valid_from": "2026-10-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "adc2c4902240",
+        "locator": "§6 Ziff. 1e/2d",
+        "original": null
+      },
+      "execution_status": "attendance_days_required"
+    },
+    {
+      "id": "leonberg-component-005",
+      "kind": "penalty",
+      "original_label": "Verspätete Abholung nach Öffnungsende",
+      "amount_cents": 600,
+      "unit": "per_started_quarter_hour",
+      "age_group": null,
+      "offer_ids": null,
+      "required": false,
+      "payment_months": null,
+      "valid_from": "2026-10-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "adc2c4902240",
+        "locator": "§6 Ziff. 5a",
+        "original": null
+      }
+    }
+  ],
+  "rules": [],
+  "issues": [],
+  "source_text_archive": "data/sources/ca8ce11d0b8f/text.txt",
+  "coverage": {
+    "care_tables": "transferred",
+    "income_tables": "transferred_or_not_applicable",
+    "family_tables": "transferred",
+    "rules": "source_text_preserved_with_supported_subset",
+    "exceptions": "source_text_preserved",
+    "reviewed_at": "2026-11-07"
+  },
+  "age_transition": "age_group_at_reference_date",
+  "supporting_source_ids": [
+    "01bdd4e044a8",
+    "14d95ae93ac8",
+    "87eee842f50d",
+    "942371fe82a6",
+    "ac08173fffe3",
+    "adc2c4902240",
+    "ca8ce11d0b8f",
+    "df263c24169c"
+  ]
+}

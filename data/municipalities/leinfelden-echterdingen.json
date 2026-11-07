@@ -1,0 +1,5344 @@
+{
+  "schema_version": "1.0",
+  "id": "leinfelden-echterdingen",
+  "name": "Leinfelden-Echterdingen",
+  "reviewed_at": "2026-11-07",
+  "reference_date": "2026-11-04",
+  "scope": {
+    "included": [
+      "municipal"
+    ],
+    "other_providers": "only_with_explicit_source_evidence",
+    "also_included": [
+      "konfessionelle und freie Träger, die am städtischen Vergabeverfahren teilnehmen"
+    ],
+    "evidence": {
+      "source_id": "3edbd30ca2f4",
+      "locator": "Ziff. 0 Öffentliche Einrichtung",
+      "original": null
+    }
+  },
+  "family_basis": "under_18_or_child_benefit",
+  "family_evidence": {
+    "source_id": "3edbd30ca2f4",
+    "locator": "Gebührenmaßstab / Familienbegriff",
+    "original": null
+  },
+  "payment_months": 11,
+  "payment_evidence": {
+    "source_id": "3edbd30ca2f4",
+    "locator": "PDF Seite 2, Ziff. 3.4: September bis Juli, elf Monate",
+    "original": null
+  },
+  "original_research": {
+    "path": "data/imported/research_2026-11-04.md",
+    "section": "Leinfelden-Echterdingen",
+    "text": "\n### Quelle und Gültigkeit\n\n- [Entgeltregelung ab 1. September 2026 (PDF)](https://www.leinfelden-echterdingen.de/site/Leinfelden-Echterdingen-Internet/get/documents_E-476817934/leinfelden-echterdingen/Datenquelle_LE/stadtrecht/Stadtrecht-4_1_2.pdf)\n- [Entgeltregelung Verpflegung, Anlage gültig ab 1. September 2025 (PDF)](https://www.leinfelden-echterdingen.de/site/Leinfelden-Echterdingen-Internet/get/documents_E-1581222893/leinfelden-echterdingen/Datenquelle_LE/stadtrecht/Stadtrecht-4_5.pdf)\n\nDie 2026-Entgeltregelung gilt auch für konfessionelle und freie Träger, die am städtischen Vergabeverfahren teilnehmen. Es werden elf Monatsentgelte (September bis Juli) erhoben. Die Grundtabellen unterscheiden U3/Ü3, Wochenstunden und die Zahl kindergeldberechtigter Kinder im Familienhaushalt. Die ergänzende Stadtpassregel wird jährlich gemäß der jeweils gültigen Stadtpassregelung angewendet. Für Stadtpass A/B/C gelten Ermäßigungen von 60 %, 35 % bzw. 25 % auf das Betreuungsentgelt; nur eine Ermäßigungsgrundlage kann angesetzt werden. Diese Stufen bestätigt die städtische Mitteilung zur Anpassung 2026/27. Stadtpassbeträge werden als Rabattregel zur Grundtabelle erfasst und nicht als gerundete Parallel-Tabelle verdoppelt.\n\n### Reguläre monatliche Betreuungstarife ab 1. September 2026\n\n| Altersgruppe | Familiengröße | Früh-/Spätdienst je angefangene halbe Stunde | bis 25 Std. | VÖ bis 30 Std. | VÖ bis 35 Std. | GT bis 40 Std. | GT bis 45 Std. |\n|---|---:|---:|---:|---:|---:|---:|---:|\n| Ü3 | 1 Kind | 17,35 € | 162 € | 194,40 € | 226,80 € | 259,20 € | 291,60 € |\n| Ü3 | 2 Kinder | 13,00 € | 121,50 € | 145,80 € | 170,10 € | 194,40 € | 218,70 € |\n| Ü3 | 3 Kinder | 8,70 € | 81 € | 97,20 € | 113,40 € | 129,60 € | 145,80 € |\n| Ü3 | 4 Kinder | 4,30 € | 40,50 € | 48,60 € | 56,70 € | 64,80 € | 72,90 € |\n| U3 | 1 Kind | 40,23 € | – | 440,40 € | 513,80 € | 587,20 € | 660,60 € |\n| U3 | 2 Kinder | 30,20 € | – | 330,30 € | 385,40 € | 440,40 € | 495,50 € |\n| U3 | 3 Kinder | 20,10 € | – | 220,20 € | 256,90 € | 293,60 € | 330,30 € |\n| U3 | 4 Kinder | 10,10 € | – | 110,10 € | 128,50 € | 146,80 € | 165,20 € |\n\n**Verpflegung, jüngste auf der Stadtrechtseite gelistete Fassung, Stand 22. Mai 2025 / gültig ab 1. September 2025:** Bei fünf Tagen pro Woche kostet das Mittagessen U3 82 €/Monat und Ü3 86 €/Monat; Stadtpass A/B/C zahlen jeweils 60 €/Monat. Abrechnung ist nach gebuchten Tagen gestaffelt. Zusätzlich kostet der Snack 10 €/Monat im Kindergarten-Halbtagsmodell bzw. 16 €/Monat bei VÖ/GT. Mittagessen ist bei Betreuungsende ab 14 Uhr verpflichtend; Essen wird für elf Monate (September bis Juli) berechnet. Die aktuelle 2026-Betreuungsregel verweist weiterhin auf die separate Verpflegungsordnung. Auf der Stadtrechtseite ist keine neuere Essensregelung gelistet; das ist der jüngste gefundene Stand, nicht der Nachweis einer Neufestsetzung für 2026/2027.\n\n"
+  },
+  "income_bands": [],
+  "offers": [
+    {
+      "id": "leinfelden-echterdingen-f25e3ec3b2",
+      "original_label": "bis 25 Std.",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "weekly_minutes": 1500,
+      "weekday_minutes": [
+        300,
+        300,
+        300,
+        300,
+        300
+      ],
+      "continuous": true,
+      "schedule_status": "published",
+      "schedule_evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "PDF Seite 6: Wochenpakete mit Endzeiten 13/14/15/16/17 Uhr, Frühdienst vor 8 Uhr",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "3edbd30ca2f4",
+        "locator": "PDF Seite 2, Ziff. 3.4: September bis Juli, elf Monate",
+        "original": null
+      },
+      "evidence": {
+        "source_id": "3edbd30ca2f4",
+        "locator": "PDF Seite 6, bis 25 Std., o3",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "leinfelden-echterdingen-872ce878c1",
+      "original_label": "VÖ bis 30 Std.",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "weekly_minutes": 1800,
+      "weekday_minutes": [
+        360,
+        360,
+        360,
+        360,
+        360
+      ],
+      "continuous": true,
+      "schedule_status": "published",
+      "schedule_evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "PDF Seite 6: Wochenpakete mit Endzeiten 13/14/15/16/17 Uhr, Frühdienst vor 8 Uhr",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "3edbd30ca2f4",
+        "locator": "PDF Seite 2, Ziff. 3.4: September bis Juli, elf Monate",
+        "original": null
+      },
+      "evidence": {
+        "source_id": "3edbd30ca2f4",
+        "locator": "PDF Seite 6, VÖ bis 30 Std., o3",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "leinfelden-echterdingen-6c88ca58fe",
+      "original_label": "VÖ bis 35 Std.",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "weekly_minutes": 2100,
+      "weekday_minutes": [
+        420,
+        420,
+        420,
+        420,
+        420
+      ],
+      "continuous": true,
+      "schedule_status": "published",
+      "schedule_evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "PDF Seite 6: Wochenpakete mit Endzeiten 13/14/15/16/17 Uhr, Frühdienst vor 8 Uhr",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "3edbd30ca2f4",
+        "locator": "PDF Seite 2, Ziff. 3.4: September bis Juli, elf Monate",
+        "original": null
+      },
+      "evidence": {
+        "source_id": "3edbd30ca2f4",
+        "locator": "PDF Seite 6, VÖ bis 35 Std., o3",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "leinfelden-echterdingen-3650219db5",
+      "original_label": "GT bis 40 Std.",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "weekly_minutes": 2400,
+      "weekday_minutes": [
+        480,
+        480,
+        480,
+        480,
+        480
+      ],
+      "continuous": true,
+      "schedule_status": "published",
+      "schedule_evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "PDF Seite 6: Wochenpakete mit Endzeiten 13/14/15/16/17 Uhr, Frühdienst vor 8 Uhr",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "3edbd30ca2f4",
+        "locator": "PDF Seite 2, Ziff. 3.4: September bis Juli, elf Monate",
+        "original": null
+      },
+      "evidence": {
+        "source_id": "3edbd30ca2f4",
+        "locator": "PDF Seite 6, GT bis 40 Std., o3",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "leinfelden-echterdingen-2e01caaab8",
+      "original_label": "GT bis 45 Std.",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "weekly_minutes": 2700,
+      "weekday_minutes": [
+        540,
+        540,
+        540,
+        540,
+        540
+      ],
+      "continuous": true,
+      "schedule_status": "published",
+      "schedule_evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "PDF Seite 6: Wochenpakete mit Endzeiten 13/14/15/16/17 Uhr, Frühdienst vor 8 Uhr",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "3edbd30ca2f4",
+        "locator": "PDF Seite 2, Ziff. 3.4: September bis Juli, elf Monate",
+        "original": null
+      },
+      "evidence": {
+        "source_id": "3edbd30ca2f4",
+        "locator": "PDF Seite 6, GT bis 45 Std., o3",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "leinfelden-echterdingen-8e3ae3a936",
+      "original_label": "bis 25 Std.",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "weekly_minutes": 1500,
+      "weekday_minutes": [
+        300,
+        300,
+        300,
+        300,
+        300
+      ],
+      "continuous": true,
+      "schedule_status": "published",
+      "schedule_evidence": {
+        "source_id": "3edbd30ca2f4",
+        "locator": "Gebührentabelle",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "3edbd30ca2f4",
+        "locator": "PDF Seite 2, Ziff. 3.4: September bis Juli, elf Monate",
+        "original": null
+      },
+      "evidence": {
+        "source_id": "3edbd30ca2f4",
+        "locator": "PDF Seite 6, bis 25 Std., u3",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "leinfelden-echterdingen-1d682c5005",
+      "original_label": "VÖ bis 30 Std.",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "weekly_minutes": 1800,
+      "weekday_minutes": [
+        360,
+        360,
+        360,
+        360,
+        360
+      ],
+      "continuous": true,
+      "schedule_status": "published",
+      "schedule_evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "PDF Seite 6: Wochenpakete mit Endzeiten 13/14/15/16/17 Uhr, Frühdienst vor 8 Uhr",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "3edbd30ca2f4",
+        "locator": "PDF Seite 2, Ziff. 3.4: September bis Juli, elf Monate",
+        "original": null
+      },
+      "evidence": {
+        "source_id": "3edbd30ca2f4",
+        "locator": "PDF Seite 6, VÖ bis 30 Std., u3",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "leinfelden-echterdingen-ee5d274d30",
+      "original_label": "VÖ bis 35 Std.",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "weekly_minutes": 2100,
+      "weekday_minutes": [
+        420,
+        420,
+        420,
+        420,
+        420
+      ],
+      "continuous": true,
+      "schedule_status": "published",
+      "schedule_evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "PDF Seite 6: Wochenpakete mit Endzeiten 13/14/15/16/17 Uhr, Frühdienst vor 8 Uhr",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "3edbd30ca2f4",
+        "locator": "PDF Seite 2, Ziff. 3.4: September bis Juli, elf Monate",
+        "original": null
+      },
+      "evidence": {
+        "source_id": "3edbd30ca2f4",
+        "locator": "PDF Seite 6, VÖ bis 35 Std., u3",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "leinfelden-echterdingen-af25960595",
+      "original_label": "GT bis 40 Std.",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "weekly_minutes": 2400,
+      "weekday_minutes": [
+        480,
+        480,
+        480,
+        480,
+        480
+      ],
+      "continuous": true,
+      "schedule_status": "published",
+      "schedule_evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "PDF Seite 6: Wochenpakete mit Endzeiten 13/14/15/16/17 Uhr, Frühdienst vor 8 Uhr",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "3edbd30ca2f4",
+        "locator": "PDF Seite 2, Ziff. 3.4: September bis Juli, elf Monate",
+        "original": null
+      },
+      "evidence": {
+        "source_id": "3edbd30ca2f4",
+        "locator": "PDF Seite 6, GT bis 40 Std., u3",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "leinfelden-echterdingen-865ca1e4ff",
+      "original_label": "GT bis 45 Std.",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "weekly_minutes": 2700,
+      "weekday_minutes": [
+        540,
+        540,
+        540,
+        540,
+        540
+      ],
+      "continuous": true,
+      "schedule_status": "published",
+      "schedule_evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "PDF Seite 6: Wochenpakete mit Endzeiten 13/14/15/16/17 Uhr, Frühdienst vor 8 Uhr",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "3edbd30ca2f4",
+        "locator": "PDF Seite 2, Ziff. 3.4: September bis Juli, elf Monate",
+        "original": null
+      },
+      "evidence": {
+        "source_id": "3edbd30ca2f4",
+        "locator": "PDF Seite 6, GT bis 45 Std., u3",
+        "original": null
+      },
+      "formula": null
+    }
+  ],
+  "prices": [
+    {
+      "id": "leinfelden-echterdingen-price-0001",
+      "offer_id": "leinfelden-echterdingen-f25e3ec3b2",
+      "amount_cents": 16200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "3edbd30ca2f4",
+        "locator": "PDF Seite 6, bis 25 Std., o3",
+        "original": {
+          "research_line": 492,
+          "heading": "Reguläre monatliche Betreuungstarife ab 1. September 2026",
+          "row": [
+            "Ü3",
+            "1 Kind",
+            "17,35 €",
+            "162 €",
+            "194,40 €",
+            "226,80 €",
+            "259,20 €",
+            "291,60 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0002",
+      "offer_id": "leinfelden-echterdingen-872ce878c1",
+      "amount_cents": 19440,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "3edbd30ca2f4",
+        "locator": "PDF Seite 6, VÖ bis 30 Std., o3",
+        "original": {
+          "research_line": 492,
+          "heading": "Reguläre monatliche Betreuungstarife ab 1. September 2026",
+          "row": [
+            "Ü3",
+            "1 Kind",
+            "17,35 €",
+            "162 €",
+            "194,40 €",
+            "226,80 €",
+            "259,20 €",
+            "291,60 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0003",
+      "offer_id": "leinfelden-echterdingen-6c88ca58fe",
+      "amount_cents": 22680,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "3edbd30ca2f4",
+        "locator": "PDF Seite 6, VÖ bis 35 Std., o3",
+        "original": {
+          "research_line": 492,
+          "heading": "Reguläre monatliche Betreuungstarife ab 1. September 2026",
+          "row": [
+            "Ü3",
+            "1 Kind",
+            "17,35 €",
+            "162 €",
+            "194,40 €",
+            "226,80 €",
+            "259,20 €",
+            "291,60 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0004",
+      "offer_id": "leinfelden-echterdingen-3650219db5",
+      "amount_cents": 25920,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "3edbd30ca2f4",
+        "locator": "PDF Seite 6, GT bis 40 Std., o3",
+        "original": {
+          "research_line": 492,
+          "heading": "Reguläre monatliche Betreuungstarife ab 1. September 2026",
+          "row": [
+            "Ü3",
+            "1 Kind",
+            "17,35 €",
+            "162 €",
+            "194,40 €",
+            "226,80 €",
+            "259,20 €",
+            "291,60 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0005",
+      "offer_id": "leinfelden-echterdingen-2e01caaab8",
+      "amount_cents": 29160,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "3edbd30ca2f4",
+        "locator": "PDF Seite 6, GT bis 45 Std., o3",
+        "original": {
+          "research_line": 492,
+          "heading": "Reguläre monatliche Betreuungstarife ab 1. September 2026",
+          "row": [
+            "Ü3",
+            "1 Kind",
+            "17,35 €",
+            "162 €",
+            "194,40 €",
+            "226,80 €",
+            "259,20 €",
+            "291,60 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0006",
+      "offer_id": "leinfelden-echterdingen-f25e3ec3b2",
+      "amount_cents": 12150,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "3edbd30ca2f4",
+        "locator": "PDF Seite 6, bis 25 Std., o3",
+        "original": {
+          "research_line": 492,
+          "heading": "Reguläre monatliche Betreuungstarife ab 1. September 2026",
+          "row": [
+            "Ü3",
+            "2 Kinder",
+            "13,00 €",
+            "121,50 €",
+            "145,80 €",
+            "170,10 €",
+            "194,40 €",
+            "218,70 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0007",
+      "offer_id": "leinfelden-echterdingen-872ce878c1",
+      "amount_cents": 14580,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "3edbd30ca2f4",
+        "locator": "PDF Seite 6, VÖ bis 30 Std., o3",
+        "original": {
+          "research_line": 492,
+          "heading": "Reguläre monatliche Betreuungstarife ab 1. September 2026",
+          "row": [
+            "Ü3",
+            "2 Kinder",
+            "13,00 €",
+            "121,50 €",
+            "145,80 €",
+            "170,10 €",
+            "194,40 €",
+            "218,70 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0008",
+      "offer_id": "leinfelden-echterdingen-6c88ca58fe",
+      "amount_cents": 17010,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "3edbd30ca2f4",
+        "locator": "PDF Seite 6, VÖ bis 35 Std., o3",
+        "original": {
+          "research_line": 492,
+          "heading": "Reguläre monatliche Betreuungstarife ab 1. September 2026",
+          "row": [
+            "Ü3",
+            "2 Kinder",
+            "13,00 €",
+            "121,50 €",
+            "145,80 €",
+            "170,10 €",
+            "194,40 €",
+            "218,70 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0009",
+      "offer_id": "leinfelden-echterdingen-3650219db5",
+      "amount_cents": 19440,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "3edbd30ca2f4",
+        "locator": "PDF Seite 6, GT bis 40 Std., o3",
+        "original": {
+          "research_line": 492,
+          "heading": "Reguläre monatliche Betreuungstarife ab 1. September 2026",
+          "row": [
+            "Ü3",
+            "2 Kinder",
+            "13,00 €",
+            "121,50 €",
+            "145,80 €",
+            "170,10 €",
+            "194,40 €",
+            "218,70 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0010",
+      "offer_id": "leinfelden-echterdingen-2e01caaab8",
+      "amount_cents": 21870,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "3edbd30ca2f4",
+        "locator": "PDF Seite 6, GT bis 45 Std., o3",
+        "original": {
+          "research_line": 492,
+          "heading": "Reguläre monatliche Betreuungstarife ab 1. September 2026",
+          "row": [
+            "Ü3",
+            "2 Kinder",
+            "13,00 €",
+            "121,50 €",
+            "145,80 €",
+            "170,10 €",
+            "194,40 €",
+            "218,70 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0011",
+      "offer_id": "leinfelden-echterdingen-f25e3ec3b2",
+      "amount_cents": 8100,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "3edbd30ca2f4",
+        "locator": "PDF Seite 6, bis 25 Std., o3",
+        "original": {
+          "research_line": 492,
+          "heading": "Reguläre monatliche Betreuungstarife ab 1. September 2026",
+          "row": [
+            "Ü3",
+            "3 Kinder",
+            "8,70 €",
+            "81 €",
+            "97,20 €",
+            "113,40 €",
+            "129,60 €",
+            "145,80 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0012",
+      "offer_id": "leinfelden-echterdingen-872ce878c1",
+      "amount_cents": 9720,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "3edbd30ca2f4",
+        "locator": "PDF Seite 6, VÖ bis 30 Std., o3",
+        "original": {
+          "research_line": 492,
+          "heading": "Reguläre monatliche Betreuungstarife ab 1. September 2026",
+          "row": [
+            "Ü3",
+            "3 Kinder",
+            "8,70 €",
+            "81 €",
+            "97,20 €",
+            "113,40 €",
+            "129,60 €",
+            "145,80 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0013",
+      "offer_id": "leinfelden-echterdingen-6c88ca58fe",
+      "amount_cents": 11340,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "3edbd30ca2f4",
+        "locator": "PDF Seite 6, VÖ bis 35 Std., o3",
+        "original": {
+          "research_line": 492,
+          "heading": "Reguläre monatliche Betreuungstarife ab 1. September 2026",
+          "row": [
+            "Ü3",
+            "3 Kinder",
+            "8,70 €",
+            "81 €",
+            "97,20 €",
+            "113,40 €",
+            "129,60 €",
+            "145,80 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0014",
+      "offer_id": "leinfelden-echterdingen-3650219db5",
+      "amount_cents": 12960,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "3edbd30ca2f4",
+        "locator": "PDF Seite 6, GT bis 40 Std., o3",
+        "original": {
+          "research_line": 492,
+          "heading": "Reguläre monatliche Betreuungstarife ab 1. September 2026",
+          "row": [
+            "Ü3",
+            "3 Kinder",
+            "8,70 €",
+            "81 €",
+            "97,20 €",
+            "113,40 €",
+            "129,60 €",
+            "145,80 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0015",
+      "offer_id": "leinfelden-echterdingen-2e01caaab8",
+      "amount_cents": 14580,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "3edbd30ca2f4",
+        "locator": "PDF Seite 6, GT bis 45 Std., o3",
+        "original": {
+          "research_line": 492,
+          "heading": "Reguläre monatliche Betreuungstarife ab 1. September 2026",
+          "row": [
+            "Ü3",
+            "3 Kinder",
+            "8,70 €",
+            "81 €",
+            "97,20 €",
+            "113,40 €",
+            "129,60 €",
+            "145,80 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0016",
+      "offer_id": "leinfelden-echterdingen-f25e3ec3b2",
+      "amount_cents": 4050,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "3edbd30ca2f4",
+        "locator": "PDF Seite 6, bis 25 Std., o3",
+        "original": {
+          "research_line": 492,
+          "heading": "Reguläre monatliche Betreuungstarife ab 1. September 2026",
+          "row": [
+            "Ü3",
+            "4 Kinder",
+            "4,30 €",
+            "40,50 €",
+            "48,60 €",
+            "56,70 €",
+            "64,80 €",
+            "72,90 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0017",
+      "offer_id": "leinfelden-echterdingen-872ce878c1",
+      "amount_cents": 4860,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "3edbd30ca2f4",
+        "locator": "PDF Seite 6, VÖ bis 30 Std., o3",
+        "original": {
+          "research_line": 492,
+          "heading": "Reguläre monatliche Betreuungstarife ab 1. September 2026",
+          "row": [
+            "Ü3",
+            "4 Kinder",
+            "4,30 €",
+            "40,50 €",
+            "48,60 €",
+            "56,70 €",
+            "64,80 €",
+            "72,90 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0018",
+      "offer_id": "leinfelden-echterdingen-6c88ca58fe",
+      "amount_cents": 5670,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "3edbd30ca2f4",
+        "locator": "PDF Seite 6, VÖ bis 35 Std., o3",
+        "original": {
+          "research_line": 492,
+          "heading": "Reguläre monatliche Betreuungstarife ab 1. September 2026",
+          "row": [
+            "Ü3",
+            "4 Kinder",
+            "4,30 €",
+            "40,50 €",
+            "48,60 €",
+            "56,70 €",
+            "64,80 €",
+            "72,90 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0019",
+      "offer_id": "leinfelden-echterdingen-3650219db5",
+      "amount_cents": 6480,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "3edbd30ca2f4",
+        "locator": "PDF Seite 6, GT bis 40 Std., o3",
+        "original": {
+          "research_line": 492,
+          "heading": "Reguläre monatliche Betreuungstarife ab 1. September 2026",
+          "row": [
+            "Ü3",
+            "4 Kinder",
+            "4,30 €",
+            "40,50 €",
+            "48,60 €",
+            "56,70 €",
+            "64,80 €",
+            "72,90 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0020",
+      "offer_id": "leinfelden-echterdingen-2e01caaab8",
+      "amount_cents": 7290,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "3edbd30ca2f4",
+        "locator": "PDF Seite 6, GT bis 45 Std., o3",
+        "original": {
+          "research_line": 492,
+          "heading": "Reguläre monatliche Betreuungstarife ab 1. September 2026",
+          "row": [
+            "Ü3",
+            "4 Kinder",
+            "4,30 €",
+            "40,50 €",
+            "48,60 €",
+            "56,70 €",
+            "64,80 €",
+            "72,90 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0021",
+      "offer_id": "leinfelden-echterdingen-8e3ae3a936",
+      "amount_cents": null,
+      "unit": "per_month",
+      "value_status": "not_offered",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "3edbd30ca2f4",
+        "locator": "PDF Seite 6, bis 25 Std., u3",
+        "original": {
+          "research_line": 492,
+          "heading": "Reguläre monatliche Betreuungstarife ab 1. September 2026",
+          "row": [
+            "U3",
+            "1 Kind",
+            "40,23 €",
+            "–",
+            "440,40 €",
+            "513,80 €",
+            "587,20 €",
+            "660,60 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0022",
+      "offer_id": "leinfelden-echterdingen-1d682c5005",
+      "amount_cents": 44040,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "3edbd30ca2f4",
+        "locator": "PDF Seite 6, VÖ bis 30 Std., u3",
+        "original": {
+          "research_line": 492,
+          "heading": "Reguläre monatliche Betreuungstarife ab 1. September 2026",
+          "row": [
+            "U3",
+            "1 Kind",
+            "40,23 €",
+            "–",
+            "440,40 €",
+            "513,80 €",
+            "587,20 €",
+            "660,60 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0023",
+      "offer_id": "leinfelden-echterdingen-ee5d274d30",
+      "amount_cents": 51380,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "3edbd30ca2f4",
+        "locator": "PDF Seite 6, VÖ bis 35 Std., u3",
+        "original": {
+          "research_line": 492,
+          "heading": "Reguläre monatliche Betreuungstarife ab 1. September 2026",
+          "row": [
+            "U3",
+            "1 Kind",
+            "40,23 €",
+            "–",
+            "440,40 €",
+            "513,80 €",
+            "587,20 €",
+            "660,60 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0024",
+      "offer_id": "leinfelden-echterdingen-af25960595",
+      "amount_cents": 58720,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "3edbd30ca2f4",
+        "locator": "PDF Seite 6, GT bis 40 Std., u3",
+        "original": {
+          "research_line": 492,
+          "heading": "Reguläre monatliche Betreuungstarife ab 1. September 2026",
+          "row": [
+            "U3",
+            "1 Kind",
+            "40,23 €",
+            "–",
+            "440,40 €",
+            "513,80 €",
+            "587,20 €",
+            "660,60 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0025",
+      "offer_id": "leinfelden-echterdingen-865ca1e4ff",
+      "amount_cents": 66060,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "3edbd30ca2f4",
+        "locator": "PDF Seite 6, GT bis 45 Std., u3",
+        "original": {
+          "research_line": 492,
+          "heading": "Reguläre monatliche Betreuungstarife ab 1. September 2026",
+          "row": [
+            "U3",
+            "1 Kind",
+            "40,23 €",
+            "–",
+            "440,40 €",
+            "513,80 €",
+            "587,20 €",
+            "660,60 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0026",
+      "offer_id": "leinfelden-echterdingen-8e3ae3a936",
+      "amount_cents": null,
+      "unit": "per_month",
+      "value_status": "not_offered",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "3edbd30ca2f4",
+        "locator": "PDF Seite 6, bis 25 Std., u3",
+        "original": {
+          "research_line": 492,
+          "heading": "Reguläre monatliche Betreuungstarife ab 1. September 2026",
+          "row": [
+            "U3",
+            "2 Kinder",
+            "30,20 €",
+            "–",
+            "330,30 €",
+            "385,40 €",
+            "440,40 €",
+            "495,50 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0027",
+      "offer_id": "leinfelden-echterdingen-1d682c5005",
+      "amount_cents": 33030,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "3edbd30ca2f4",
+        "locator": "PDF Seite 6, VÖ bis 30 Std., u3",
+        "original": {
+          "research_line": 492,
+          "heading": "Reguläre monatliche Betreuungstarife ab 1. September 2026",
+          "row": [
+            "U3",
+            "2 Kinder",
+            "30,20 €",
+            "–",
+            "330,30 €",
+            "385,40 €",
+            "440,40 €",
+            "495,50 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0028",
+      "offer_id": "leinfelden-echterdingen-ee5d274d30",
+      "amount_cents": 38540,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "3edbd30ca2f4",
+        "locator": "PDF Seite 6, VÖ bis 35 Std., u3",
+        "original": {
+          "research_line": 492,
+          "heading": "Reguläre monatliche Betreuungstarife ab 1. September 2026",
+          "row": [
+            "U3",
+            "2 Kinder",
+            "30,20 €",
+            "–",
+            "330,30 €",
+            "385,40 €",
+            "440,40 €",
+            "495,50 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0029",
+      "offer_id": "leinfelden-echterdingen-af25960595",
+      "amount_cents": 44040,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "3edbd30ca2f4",
+        "locator": "PDF Seite 6, GT bis 40 Std., u3",
+        "original": {
+          "research_line": 492,
+          "heading": "Reguläre monatliche Betreuungstarife ab 1. September 2026",
+          "row": [
+            "U3",
+            "2 Kinder",
+            "30,20 €",
+            "–",
+            "330,30 €",
+            "385,40 €",
+            "440,40 €",
+            "495,50 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0030",
+      "offer_id": "leinfelden-echterdingen-865ca1e4ff",
+      "amount_cents": 49550,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "3edbd30ca2f4",
+        "locator": "PDF Seite 6, GT bis 45 Std., u3",
+        "original": {
+          "research_line": 492,
+          "heading": "Reguläre monatliche Betreuungstarife ab 1. September 2026",
+          "row": [
+            "U3",
+            "2 Kinder",
+            "30,20 €",
+            "–",
+            "330,30 €",
+            "385,40 €",
+            "440,40 €",
+            "495,50 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0031",
+      "offer_id": "leinfelden-echterdingen-8e3ae3a936",
+      "amount_cents": null,
+      "unit": "per_month",
+      "value_status": "not_offered",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "3edbd30ca2f4",
+        "locator": "PDF Seite 6, bis 25 Std., u3",
+        "original": {
+          "research_line": 492,
+          "heading": "Reguläre monatliche Betreuungstarife ab 1. September 2026",
+          "row": [
+            "U3",
+            "3 Kinder",
+            "20,10 €",
+            "–",
+            "220,20 €",
+            "256,90 €",
+            "293,60 €",
+            "330,30 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0032",
+      "offer_id": "leinfelden-echterdingen-1d682c5005",
+      "amount_cents": 22020,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "3edbd30ca2f4",
+        "locator": "PDF Seite 6, VÖ bis 30 Std., u3",
+        "original": {
+          "research_line": 492,
+          "heading": "Reguläre monatliche Betreuungstarife ab 1. September 2026",
+          "row": [
+            "U3",
+            "3 Kinder",
+            "20,10 €",
+            "–",
+            "220,20 €",
+            "256,90 €",
+            "293,60 €",
+            "330,30 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0033",
+      "offer_id": "leinfelden-echterdingen-ee5d274d30",
+      "amount_cents": 25690,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "3edbd30ca2f4",
+        "locator": "PDF Seite 6, VÖ bis 35 Std., u3",
+        "original": {
+          "research_line": 492,
+          "heading": "Reguläre monatliche Betreuungstarife ab 1. September 2026",
+          "row": [
+            "U3",
+            "3 Kinder",
+            "20,10 €",
+            "–",
+            "220,20 €",
+            "256,90 €",
+            "293,60 €",
+            "330,30 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0034",
+      "offer_id": "leinfelden-echterdingen-af25960595",
+      "amount_cents": 29360,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "3edbd30ca2f4",
+        "locator": "PDF Seite 6, GT bis 40 Std., u3",
+        "original": {
+          "research_line": 492,
+          "heading": "Reguläre monatliche Betreuungstarife ab 1. September 2026",
+          "row": [
+            "U3",
+            "3 Kinder",
+            "20,10 €",
+            "–",
+            "220,20 €",
+            "256,90 €",
+            "293,60 €",
+            "330,30 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0035",
+      "offer_id": "leinfelden-echterdingen-865ca1e4ff",
+      "amount_cents": 33030,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "3edbd30ca2f4",
+        "locator": "PDF Seite 6, GT bis 45 Std., u3",
+        "original": {
+          "research_line": 492,
+          "heading": "Reguläre monatliche Betreuungstarife ab 1. September 2026",
+          "row": [
+            "U3",
+            "3 Kinder",
+            "20,10 €",
+            "–",
+            "220,20 €",
+            "256,90 €",
+            "293,60 €",
+            "330,30 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0036",
+      "offer_id": "leinfelden-echterdingen-8e3ae3a936",
+      "amount_cents": null,
+      "unit": "per_month",
+      "value_status": "not_offered",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "3edbd30ca2f4",
+        "locator": "PDF Seite 6, bis 25 Std., u3",
+        "original": {
+          "research_line": 492,
+          "heading": "Reguläre monatliche Betreuungstarife ab 1. September 2026",
+          "row": [
+            "U3",
+            "4 Kinder",
+            "10,10 €",
+            "–",
+            "110,10 €",
+            "128,50 €",
+            "146,80 €",
+            "165,20 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0037",
+      "offer_id": "leinfelden-echterdingen-1d682c5005",
+      "amount_cents": 11010,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "3edbd30ca2f4",
+        "locator": "PDF Seite 6, VÖ bis 30 Std., u3",
+        "original": {
+          "research_line": 492,
+          "heading": "Reguläre monatliche Betreuungstarife ab 1. September 2026",
+          "row": [
+            "U3",
+            "4 Kinder",
+            "10,10 €",
+            "–",
+            "110,10 €",
+            "128,50 €",
+            "146,80 €",
+            "165,20 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0038",
+      "offer_id": "leinfelden-echterdingen-ee5d274d30",
+      "amount_cents": 12850,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "3edbd30ca2f4",
+        "locator": "PDF Seite 6, VÖ bis 35 Std., u3",
+        "original": {
+          "research_line": 492,
+          "heading": "Reguläre monatliche Betreuungstarife ab 1. September 2026",
+          "row": [
+            "U3",
+            "4 Kinder",
+            "10,10 €",
+            "–",
+            "110,10 €",
+            "128,50 €",
+            "146,80 €",
+            "165,20 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0039",
+      "offer_id": "leinfelden-echterdingen-af25960595",
+      "amount_cents": 14680,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "3edbd30ca2f4",
+        "locator": "PDF Seite 6, GT bis 40 Std., u3",
+        "original": {
+          "research_line": 492,
+          "heading": "Reguläre monatliche Betreuungstarife ab 1. September 2026",
+          "row": [
+            "U3",
+            "4 Kinder",
+            "10,10 €",
+            "–",
+            "110,10 €",
+            "128,50 €",
+            "146,80 €",
+            "165,20 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0040",
+      "offer_id": "leinfelden-echterdingen-865ca1e4ff",
+      "amount_cents": 16520,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "3edbd30ca2f4",
+        "locator": "PDF Seite 6, GT bis 45 Std., u3",
+        "original": {
+          "research_line": 492,
+          "heading": "Reguläre monatliche Betreuungstarife ab 1. September 2026",
+          "row": [
+            "U3",
+            "4 Kinder",
+            "10,10 €",
+            "–",
+            "110,10 €",
+            "128,50 €",
+            "146,80 €",
+            "165,20 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0041",
+      "offer_id": "leinfelden-echterdingen-f25e3ec3b2",
+      "amount_cents": 6480,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "city_pass_a",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "PDF Seite 6: veröffentlichte Stadtpass-Tabelle",
+        "original": "1 Kind           100,0%                  6,90 €          64,80 €         77,80 €         90,70 €          103,70 €       116,60 €"
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0042",
+      "offer_id": "leinfelden-echterdingen-872ce878c1",
+      "amount_cents": 7780,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "city_pass_a",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "PDF Seite 6: veröffentlichte Stadtpass-Tabelle",
+        "original": "1 Kind           100,0%                  6,90 €          64,80 €         77,80 €         90,70 €          103,70 €       116,60 €"
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0043",
+      "offer_id": "leinfelden-echterdingen-6c88ca58fe",
+      "amount_cents": 9070,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "city_pass_a",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "PDF Seite 6: veröffentlichte Stadtpass-Tabelle",
+        "original": "1 Kind           100,0%                  6,90 €          64,80 €         77,80 €         90,70 €          103,70 €       116,60 €"
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0044",
+      "offer_id": "leinfelden-echterdingen-3650219db5",
+      "amount_cents": 10370,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "city_pass_a",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "PDF Seite 6: veröffentlichte Stadtpass-Tabelle",
+        "original": "1 Kind           100,0%                  6,90 €          64,80 €         77,80 €         90,70 €          103,70 €       116,60 €"
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0045",
+      "offer_id": "leinfelden-echterdingen-2e01caaab8",
+      "amount_cents": 11660,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "city_pass_a",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "PDF Seite 6: veröffentlichte Stadtpass-Tabelle",
+        "original": "1 Kind           100,0%                  6,90 €          64,80 €         77,80 €         90,70 €          103,70 €       116,60 €"
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0046",
+      "offer_id": "leinfelden-echterdingen-f25e3ec3b2",
+      "amount_cents": 4860,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "city_pass_a",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "PDF Seite 6: veröffentlichte Stadtpass-Tabelle",
+        "original": "2 Kinder          75,0%                  5,20 €          48,60 €         58,30 €         68,00 €           77,80 €        87,50 €"
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0047",
+      "offer_id": "leinfelden-echterdingen-872ce878c1",
+      "amount_cents": 5830,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "city_pass_a",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "PDF Seite 6: veröffentlichte Stadtpass-Tabelle",
+        "original": "2 Kinder          75,0%                  5,20 €          48,60 €         58,30 €         68,00 €           77,80 €        87,50 €"
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0048",
+      "offer_id": "leinfelden-echterdingen-6c88ca58fe",
+      "amount_cents": 6800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "city_pass_a",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "PDF Seite 6: veröffentlichte Stadtpass-Tabelle",
+        "original": "2 Kinder          75,0%                  5,20 €          48,60 €         58,30 €         68,00 €           77,80 €        87,50 €"
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0049",
+      "offer_id": "leinfelden-echterdingen-3650219db5",
+      "amount_cents": 7780,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "city_pass_a",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "PDF Seite 6: veröffentlichte Stadtpass-Tabelle",
+        "original": "2 Kinder          75,0%                  5,20 €          48,60 €         58,30 €         68,00 €           77,80 €        87,50 €"
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0050",
+      "offer_id": "leinfelden-echterdingen-2e01caaab8",
+      "amount_cents": 8750,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "city_pass_a",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "PDF Seite 6: veröffentlichte Stadtpass-Tabelle",
+        "original": "2 Kinder          75,0%                  5,20 €          48,60 €         58,30 €         68,00 €           77,80 €        87,50 €"
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0051",
+      "offer_id": "leinfelden-echterdingen-f25e3ec3b2",
+      "amount_cents": 3240,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "city_pass_a",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "PDF Seite 6: veröffentlichte Stadtpass-Tabelle",
+        "original": "3 Kinder          50,0%                  3,50 €          32,40 €         38,90 €         45,40 €           51,80 €        58,30 €"
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0052",
+      "offer_id": "leinfelden-echterdingen-872ce878c1",
+      "amount_cents": 3890,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "city_pass_a",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "PDF Seite 6: veröffentlichte Stadtpass-Tabelle",
+        "original": "3 Kinder          50,0%                  3,50 €          32,40 €         38,90 €         45,40 €           51,80 €        58,30 €"
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0053",
+      "offer_id": "leinfelden-echterdingen-6c88ca58fe",
+      "amount_cents": 4540,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "city_pass_a",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "PDF Seite 6: veröffentlichte Stadtpass-Tabelle",
+        "original": "3 Kinder          50,0%                  3,50 €          32,40 €         38,90 €         45,40 €           51,80 €        58,30 €"
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0054",
+      "offer_id": "leinfelden-echterdingen-3650219db5",
+      "amount_cents": 5180,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "city_pass_a",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "PDF Seite 6: veröffentlichte Stadtpass-Tabelle",
+        "original": "3 Kinder          50,0%                  3,50 €          32,40 €         38,90 €         45,40 €           51,80 €        58,30 €"
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0055",
+      "offer_id": "leinfelden-echterdingen-2e01caaab8",
+      "amount_cents": 5830,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "city_pass_a",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "PDF Seite 6: veröffentlichte Stadtpass-Tabelle",
+        "original": "3 Kinder          50,0%                  3,50 €          32,40 €         38,90 €         45,40 €           51,80 €        58,30 €"
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0056",
+      "offer_id": "leinfelden-echterdingen-f25e3ec3b2",
+      "amount_cents": 1620,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "city_pass_a",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "PDF Seite 6: veröffentlichte Stadtpass-Tabelle",
+        "original": "4 Kinder          25,0%                  1,70 €          16,20 €         19,40 €         22,70 €           25,90 €        29,20 €"
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0057",
+      "offer_id": "leinfelden-echterdingen-872ce878c1",
+      "amount_cents": 1940,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "city_pass_a",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "PDF Seite 6: veröffentlichte Stadtpass-Tabelle",
+        "original": "4 Kinder          25,0%                  1,70 €          16,20 €         19,40 €         22,70 €           25,90 €        29,20 €"
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0058",
+      "offer_id": "leinfelden-echterdingen-6c88ca58fe",
+      "amount_cents": 2270,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "city_pass_a",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "PDF Seite 6: veröffentlichte Stadtpass-Tabelle",
+        "original": "4 Kinder          25,0%                  1,70 €          16,20 €         19,40 €         22,70 €           25,90 €        29,20 €"
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0059",
+      "offer_id": "leinfelden-echterdingen-3650219db5",
+      "amount_cents": 2590,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "city_pass_a",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "PDF Seite 6: veröffentlichte Stadtpass-Tabelle",
+        "original": "4 Kinder          25,0%                  1,70 €          16,20 €         19,40 €         22,70 €           25,90 €        29,20 €"
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0060",
+      "offer_id": "leinfelden-echterdingen-2e01caaab8",
+      "amount_cents": 2920,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "city_pass_a",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "PDF Seite 6: veröffentlichte Stadtpass-Tabelle",
+        "original": "4 Kinder          25,0%                  1,70 €          16,20 €         19,40 €         22,70 €           25,90 €        29,20 €"
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0061",
+      "offer_id": "leinfelden-echterdingen-f25e3ec3b2",
+      "amount_cents": 10530,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "city_pass_b",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "PDF Seite 6: veröffentlichte Stadtpass-Tabelle",
+        "original": "1 Kind           100,0%                 11,30 €         105,30 €        126,40 €        147,40 €          168,50 €       189,50 €"
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0062",
+      "offer_id": "leinfelden-echterdingen-872ce878c1",
+      "amount_cents": 12640,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "city_pass_b",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "PDF Seite 6: veröffentlichte Stadtpass-Tabelle",
+        "original": "1 Kind           100,0%                 11,30 €         105,30 €        126,40 €        147,40 €          168,50 €       189,50 €"
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0063",
+      "offer_id": "leinfelden-echterdingen-6c88ca58fe",
+      "amount_cents": 14740,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "city_pass_b",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "PDF Seite 6: veröffentlichte Stadtpass-Tabelle",
+        "original": "1 Kind           100,0%                 11,30 €         105,30 €        126,40 €        147,40 €          168,50 €       189,50 €"
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0064",
+      "offer_id": "leinfelden-echterdingen-3650219db5",
+      "amount_cents": 16850,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "city_pass_b",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "PDF Seite 6: veröffentlichte Stadtpass-Tabelle",
+        "original": "1 Kind           100,0%                 11,30 €         105,30 €        126,40 €        147,40 €          168,50 €       189,50 €"
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0065",
+      "offer_id": "leinfelden-echterdingen-2e01caaab8",
+      "amount_cents": 18950,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "city_pass_b",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "PDF Seite 6: veröffentlichte Stadtpass-Tabelle",
+        "original": "1 Kind           100,0%                 11,30 €         105,30 €        126,40 €        147,40 €          168,50 €       189,50 €"
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0066",
+      "offer_id": "leinfelden-echterdingen-f25e3ec3b2",
+      "amount_cents": 7900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "city_pass_b",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "PDF Seite 6: veröffentlichte Stadtpass-Tabelle",
+        "original": "2 Kinder          75,0%                  8,50 €          79,00 €         94,80 €        110,60 €          126,40 €       142,20 €"
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0067",
+      "offer_id": "leinfelden-echterdingen-872ce878c1",
+      "amount_cents": 9480,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "city_pass_b",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "PDF Seite 6: veröffentlichte Stadtpass-Tabelle",
+        "original": "2 Kinder          75,0%                  8,50 €          79,00 €         94,80 €        110,60 €          126,40 €       142,20 €"
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0068",
+      "offer_id": "leinfelden-echterdingen-6c88ca58fe",
+      "amount_cents": 11060,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "city_pass_b",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "PDF Seite 6: veröffentlichte Stadtpass-Tabelle",
+        "original": "2 Kinder          75,0%                  8,50 €          79,00 €         94,80 €        110,60 €          126,40 €       142,20 €"
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0069",
+      "offer_id": "leinfelden-echterdingen-3650219db5",
+      "amount_cents": 12640,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "city_pass_b",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "PDF Seite 6: veröffentlichte Stadtpass-Tabelle",
+        "original": "2 Kinder          75,0%                  8,50 €          79,00 €         94,80 €        110,60 €          126,40 €       142,20 €"
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0070",
+      "offer_id": "leinfelden-echterdingen-2e01caaab8",
+      "amount_cents": 14220,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "city_pass_b",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "PDF Seite 6: veröffentlichte Stadtpass-Tabelle",
+        "original": "2 Kinder          75,0%                  8,50 €          79,00 €         94,80 €        110,60 €          126,40 €       142,20 €"
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0071",
+      "offer_id": "leinfelden-echterdingen-f25e3ec3b2",
+      "amount_cents": 5270,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "city_pass_b",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "PDF Seite 6: veröffentlichte Stadtpass-Tabelle",
+        "original": "3 Kinder          50,0%                  5,70 €          52,70 €         63,20 €         73,70 €           84,20 €        94,80 €"
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0072",
+      "offer_id": "leinfelden-echterdingen-872ce878c1",
+      "amount_cents": 6320,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "city_pass_b",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "PDF Seite 6: veröffentlichte Stadtpass-Tabelle",
+        "original": "3 Kinder          50,0%                  5,70 €          52,70 €         63,20 €         73,70 €           84,20 €        94,80 €"
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0073",
+      "offer_id": "leinfelden-echterdingen-6c88ca58fe",
+      "amount_cents": 7370,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "city_pass_b",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "PDF Seite 6: veröffentlichte Stadtpass-Tabelle",
+        "original": "3 Kinder          50,0%                  5,70 €          52,70 €         63,20 €         73,70 €           84,20 €        94,80 €"
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0074",
+      "offer_id": "leinfelden-echterdingen-3650219db5",
+      "amount_cents": 8420,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "city_pass_b",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "PDF Seite 6: veröffentlichte Stadtpass-Tabelle",
+        "original": "3 Kinder          50,0%                  5,70 €          52,70 €         63,20 €         73,70 €           84,20 €        94,80 €"
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0075",
+      "offer_id": "leinfelden-echterdingen-2e01caaab8",
+      "amount_cents": 9480,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "city_pass_b",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "PDF Seite 6: veröffentlichte Stadtpass-Tabelle",
+        "original": "3 Kinder          50,0%                  5,70 €          52,70 €         63,20 €         73,70 €           84,20 €        94,80 €"
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0076",
+      "offer_id": "leinfelden-echterdingen-f25e3ec3b2",
+      "amount_cents": 2630,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "city_pass_b",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "PDF Seite 6: veröffentlichte Stadtpass-Tabelle",
+        "original": "4 Kinder          25,0%                  2,80 €          26,30 €         31,60 €         36,90 €           42,10 €        47,40 €"
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0077",
+      "offer_id": "leinfelden-echterdingen-872ce878c1",
+      "amount_cents": 3160,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "city_pass_b",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "PDF Seite 6: veröffentlichte Stadtpass-Tabelle",
+        "original": "4 Kinder          25,0%                  2,80 €          26,30 €         31,60 €         36,90 €           42,10 €        47,40 €"
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0078",
+      "offer_id": "leinfelden-echterdingen-6c88ca58fe",
+      "amount_cents": 3690,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "city_pass_b",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "PDF Seite 6: veröffentlichte Stadtpass-Tabelle",
+        "original": "4 Kinder          25,0%                  2,80 €          26,30 €         31,60 €         36,90 €           42,10 €        47,40 €"
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0079",
+      "offer_id": "leinfelden-echterdingen-3650219db5",
+      "amount_cents": 4210,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "city_pass_b",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "PDF Seite 6: veröffentlichte Stadtpass-Tabelle",
+        "original": "4 Kinder          25,0%                  2,80 €          26,30 €         31,60 €         36,90 €           42,10 €        47,40 €"
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0080",
+      "offer_id": "leinfelden-echterdingen-2e01caaab8",
+      "amount_cents": 4740,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "city_pass_b",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "PDF Seite 6: veröffentlichte Stadtpass-Tabelle",
+        "original": "4 Kinder          25,0%                  2,80 €          26,30 €         31,60 €         36,90 €           42,10 €        47,40 €"
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0081",
+      "offer_id": "leinfelden-echterdingen-f25e3ec3b2",
+      "amount_cents": 12150,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "city_pass_c",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "PDF Seite 6: veröffentlichte Stadtpass-Tabelle",
+        "original": "1 Kind           100,0%                 13,00 €         121,50 €        145,80 €        170,10 €          194,40 €       218,70 €"
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0082",
+      "offer_id": "leinfelden-echterdingen-872ce878c1",
+      "amount_cents": 14580,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "city_pass_c",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "PDF Seite 6: veröffentlichte Stadtpass-Tabelle",
+        "original": "1 Kind           100,0%                 13,00 €         121,50 €        145,80 €        170,10 €          194,40 €       218,70 €"
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0083",
+      "offer_id": "leinfelden-echterdingen-6c88ca58fe",
+      "amount_cents": 17010,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "city_pass_c",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "PDF Seite 6: veröffentlichte Stadtpass-Tabelle",
+        "original": "1 Kind           100,0%                 13,00 €         121,50 €        145,80 €        170,10 €          194,40 €       218,70 €"
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0084",
+      "offer_id": "leinfelden-echterdingen-3650219db5",
+      "amount_cents": 19440,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "city_pass_c",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "PDF Seite 6: veröffentlichte Stadtpass-Tabelle",
+        "original": "1 Kind           100,0%                 13,00 €         121,50 €        145,80 €        170,10 €          194,40 €       218,70 €"
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0085",
+      "offer_id": "leinfelden-echterdingen-2e01caaab8",
+      "amount_cents": 21870,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "city_pass_c",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "PDF Seite 6: veröffentlichte Stadtpass-Tabelle",
+        "original": "1 Kind           100,0%                 13,00 €         121,50 €        145,80 €        170,10 €          194,40 €       218,70 €"
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0086",
+      "offer_id": "leinfelden-echterdingen-f25e3ec3b2",
+      "amount_cents": 9110,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "city_pass_c",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "PDF Seite 6: veröffentlichte Stadtpass-Tabelle",
+        "original": "2 Kinder          75,0%                  9,80 €          91,10 €        109,40 €        127,60 €          145,80 €       164,00 €"
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0087",
+      "offer_id": "leinfelden-echterdingen-872ce878c1",
+      "amount_cents": 10940,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "city_pass_c",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "PDF Seite 6: veröffentlichte Stadtpass-Tabelle",
+        "original": "2 Kinder          75,0%                  9,80 €          91,10 €        109,40 €        127,60 €          145,80 €       164,00 €"
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0088",
+      "offer_id": "leinfelden-echterdingen-6c88ca58fe",
+      "amount_cents": 12760,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "city_pass_c",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "PDF Seite 6: veröffentlichte Stadtpass-Tabelle",
+        "original": "2 Kinder          75,0%                  9,80 €          91,10 €        109,40 €        127,60 €          145,80 €       164,00 €"
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0089",
+      "offer_id": "leinfelden-echterdingen-3650219db5",
+      "amount_cents": 14580,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "city_pass_c",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "PDF Seite 6: veröffentlichte Stadtpass-Tabelle",
+        "original": "2 Kinder          75,0%                  9,80 €          91,10 €        109,40 €        127,60 €          145,80 €       164,00 €"
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0090",
+      "offer_id": "leinfelden-echterdingen-2e01caaab8",
+      "amount_cents": 16400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "city_pass_c",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "PDF Seite 6: veröffentlichte Stadtpass-Tabelle",
+        "original": "2 Kinder          75,0%                  9,80 €          91,10 €        109,40 €        127,60 €          145,80 €       164,00 €"
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0091",
+      "offer_id": "leinfelden-echterdingen-f25e3ec3b2",
+      "amount_cents": 6080,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "city_pass_c",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "PDF Seite 6: veröffentlichte Stadtpass-Tabelle",
+        "original": "3 Kinder          50,0%                  6,50 €          60,80 €         72,90 €         85,10 €           97,20 €       109,40 €"
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0092",
+      "offer_id": "leinfelden-echterdingen-872ce878c1",
+      "amount_cents": 7290,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "city_pass_c",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "PDF Seite 6: veröffentlichte Stadtpass-Tabelle",
+        "original": "3 Kinder          50,0%                  6,50 €          60,80 €         72,90 €         85,10 €           97,20 €       109,40 €"
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0093",
+      "offer_id": "leinfelden-echterdingen-6c88ca58fe",
+      "amount_cents": 8510,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "city_pass_c",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "PDF Seite 6: veröffentlichte Stadtpass-Tabelle",
+        "original": "3 Kinder          50,0%                  6,50 €          60,80 €         72,90 €         85,10 €           97,20 €       109,40 €"
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0094",
+      "offer_id": "leinfelden-echterdingen-3650219db5",
+      "amount_cents": 9720,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "city_pass_c",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "PDF Seite 6: veröffentlichte Stadtpass-Tabelle",
+        "original": "3 Kinder          50,0%                  6,50 €          60,80 €         72,90 €         85,10 €           97,20 €       109,40 €"
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0095",
+      "offer_id": "leinfelden-echterdingen-2e01caaab8",
+      "amount_cents": 10940,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "city_pass_c",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "PDF Seite 6: veröffentlichte Stadtpass-Tabelle",
+        "original": "3 Kinder          50,0%                  6,50 €          60,80 €         72,90 €         85,10 €           97,20 €       109,40 €"
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0096",
+      "offer_id": "leinfelden-echterdingen-f25e3ec3b2",
+      "amount_cents": 3040,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "city_pass_c",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "PDF Seite 6: veröffentlichte Stadtpass-Tabelle",
+        "original": "4 Kinder          25,0%                  3,20 €          30,40 €         36,50 €         42,50 €           48,60 €        54,70 €"
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0097",
+      "offer_id": "leinfelden-echterdingen-872ce878c1",
+      "amount_cents": 3650,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "city_pass_c",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "PDF Seite 6: veröffentlichte Stadtpass-Tabelle",
+        "original": "4 Kinder          25,0%                  3,20 €          30,40 €         36,50 €         42,50 €           48,60 €        54,70 €"
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0098",
+      "offer_id": "leinfelden-echterdingen-6c88ca58fe",
+      "amount_cents": 4250,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "city_pass_c",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "PDF Seite 6: veröffentlichte Stadtpass-Tabelle",
+        "original": "4 Kinder          25,0%                  3,20 €          30,40 €         36,50 €         42,50 €           48,60 €        54,70 €"
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0099",
+      "offer_id": "leinfelden-echterdingen-3650219db5",
+      "amount_cents": 4860,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "city_pass_c",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "PDF Seite 6: veröffentlichte Stadtpass-Tabelle",
+        "original": "4 Kinder          25,0%                  3,20 €          30,40 €         36,50 €         42,50 €           48,60 €        54,70 €"
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0100",
+      "offer_id": "leinfelden-echterdingen-2e01caaab8",
+      "amount_cents": 5470,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "city_pass_c",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "PDF Seite 6: veröffentlichte Stadtpass-Tabelle",
+        "original": "4 Kinder          25,0%                  3,20 €          30,40 €         36,50 €         42,50 €           48,60 €        54,70 €"
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0101",
+      "offer_id": "leinfelden-echterdingen-1d682c5005",
+      "amount_cents": 17620,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "city_pass_a",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "PDF Seite 6: veröffentlichte Stadtpass-Tabelle",
+        "original": "1 Kind           100,0%                 16,10 €                         176,20 €        205,50 €          234,90 €       264,20 €"
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0102",
+      "offer_id": "leinfelden-echterdingen-ee5d274d30",
+      "amount_cents": 20550,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "city_pass_a",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "PDF Seite 6: veröffentlichte Stadtpass-Tabelle",
+        "original": "1 Kind           100,0%                 16,10 €                         176,20 €        205,50 €          234,90 €       264,20 €"
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0103",
+      "offer_id": "leinfelden-echterdingen-af25960595",
+      "amount_cents": 23490,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "city_pass_a",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "PDF Seite 6: veröffentlichte Stadtpass-Tabelle",
+        "original": "1 Kind           100,0%                 16,10 €                         176,20 €        205,50 €          234,90 €       264,20 €"
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0104",
+      "offer_id": "leinfelden-echterdingen-865ca1e4ff",
+      "amount_cents": 26420,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "city_pass_a",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "PDF Seite 6: veröffentlichte Stadtpass-Tabelle",
+        "original": "1 Kind           100,0%                 16,10 €                         176,20 €        205,50 €          234,90 €       264,20 €"
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0105",
+      "offer_id": "leinfelden-echterdingen-1d682c5005",
+      "amount_cents": 13210,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "city_pass_a",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "PDF Seite 6: veröffentlichte Stadtpass-Tabelle",
+        "original": "2 Kinder          75,0%                 12,10 €                         132,10 €        154,20 €          176,20 €       198,20 €"
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0106",
+      "offer_id": "leinfelden-echterdingen-ee5d274d30",
+      "amount_cents": 15420,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "city_pass_a",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "PDF Seite 6: veröffentlichte Stadtpass-Tabelle",
+        "original": "2 Kinder          75,0%                 12,10 €                         132,10 €        154,20 €          176,20 €       198,20 €"
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0107",
+      "offer_id": "leinfelden-echterdingen-af25960595",
+      "amount_cents": 17620,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "city_pass_a",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "PDF Seite 6: veröffentlichte Stadtpass-Tabelle",
+        "original": "2 Kinder          75,0%                 12,10 €                         132,10 €        154,20 €          176,20 €       198,20 €"
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0108",
+      "offer_id": "leinfelden-echterdingen-865ca1e4ff",
+      "amount_cents": 19820,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "city_pass_a",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "PDF Seite 6: veröffentlichte Stadtpass-Tabelle",
+        "original": "2 Kinder          75,0%                 12,10 €                         132,10 €        154,20 €          176,20 €       198,20 €"
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0109",
+      "offer_id": "leinfelden-echterdingen-1d682c5005",
+      "amount_cents": 8810,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "city_pass_a",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "PDF Seite 6: veröffentlichte Stadtpass-Tabelle",
+        "original": "3 Kinder          50,0%                  8,00 €                          88,10 €        102,80 €          117,40 €       132,10 €"
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0110",
+      "offer_id": "leinfelden-echterdingen-ee5d274d30",
+      "amount_cents": 10280,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "city_pass_a",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "PDF Seite 6: veröffentlichte Stadtpass-Tabelle",
+        "original": "3 Kinder          50,0%                  8,00 €                          88,10 €        102,80 €          117,40 €       132,10 €"
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0111",
+      "offer_id": "leinfelden-echterdingen-af25960595",
+      "amount_cents": 11740,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "city_pass_a",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "PDF Seite 6: veröffentlichte Stadtpass-Tabelle",
+        "original": "3 Kinder          50,0%                  8,00 €                          88,10 €        102,80 €          117,40 €       132,10 €"
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0112",
+      "offer_id": "leinfelden-echterdingen-865ca1e4ff",
+      "amount_cents": 13210,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "city_pass_a",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "PDF Seite 6: veröffentlichte Stadtpass-Tabelle",
+        "original": "3 Kinder          50,0%                  8,00 €                          88,10 €        102,80 €          117,40 €       132,10 €"
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0113",
+      "offer_id": "leinfelden-echterdingen-1d682c5005",
+      "amount_cents": 4400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "city_pass_a",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "PDF Seite 6: veröffentlichte Stadtpass-Tabelle",
+        "original": "4 Kinder          25,0%                  4,00 €                          44,00 €         51,40 €           58,70 €        66,10 €"
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0114",
+      "offer_id": "leinfelden-echterdingen-ee5d274d30",
+      "amount_cents": 5140,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "city_pass_a",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "PDF Seite 6: veröffentlichte Stadtpass-Tabelle",
+        "original": "4 Kinder          25,0%                  4,00 €                          44,00 €         51,40 €           58,70 €        66,10 €"
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0115",
+      "offer_id": "leinfelden-echterdingen-af25960595",
+      "amount_cents": 5870,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "city_pass_a",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "PDF Seite 6: veröffentlichte Stadtpass-Tabelle",
+        "original": "4 Kinder          25,0%                  4,00 €                          44,00 €         51,40 €           58,70 €        66,10 €"
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0116",
+      "offer_id": "leinfelden-echterdingen-865ca1e4ff",
+      "amount_cents": 6610,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "city_pass_a",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "PDF Seite 6: veröffentlichte Stadtpass-Tabelle",
+        "original": "4 Kinder          25,0%                  4,00 €                          44,00 €         51,40 €           58,70 €        66,10 €"
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0117",
+      "offer_id": "leinfelden-echterdingen-1d682c5005",
+      "amount_cents": 28630,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "city_pass_b",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "PDF Seite 6: veröffentlichte Stadtpass-Tabelle",
+        "original": "1 Kind           100,0%                 26,10 €                         286,30 €        334,00 €          381,70 €       429,40 €"
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0118",
+      "offer_id": "leinfelden-echterdingen-ee5d274d30",
+      "amount_cents": 33400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "city_pass_b",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "PDF Seite 6: veröffentlichte Stadtpass-Tabelle",
+        "original": "1 Kind           100,0%                 26,10 €                         286,30 €        334,00 €          381,70 €       429,40 €"
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0119",
+      "offer_id": "leinfelden-echterdingen-af25960595",
+      "amount_cents": 38170,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "city_pass_b",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "PDF Seite 6: veröffentlichte Stadtpass-Tabelle",
+        "original": "1 Kind           100,0%                 26,10 €                         286,30 €        334,00 €          381,70 €       429,40 €"
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0120",
+      "offer_id": "leinfelden-echterdingen-865ca1e4ff",
+      "amount_cents": 42940,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "city_pass_b",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "PDF Seite 6: veröffentlichte Stadtpass-Tabelle",
+        "original": "1 Kind           100,0%                 26,10 €                         286,30 €        334,00 €          381,70 €       429,40 €"
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0121",
+      "offer_id": "leinfelden-echterdingen-1d682c5005",
+      "amount_cents": 21470,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "city_pass_b",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "PDF Seite 6: veröffentlichte Stadtpass-Tabelle",
+        "original": "2 Kinder          75,0%                 19,60 €                         214,70 €        250,50 €          286,30 €       322,10 €"
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0122",
+      "offer_id": "leinfelden-echterdingen-ee5d274d30",
+      "amount_cents": 25050,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "city_pass_b",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "PDF Seite 6: veröffentlichte Stadtpass-Tabelle",
+        "original": "2 Kinder          75,0%                 19,60 €                         214,70 €        250,50 €          286,30 €       322,10 €"
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0123",
+      "offer_id": "leinfelden-echterdingen-af25960595",
+      "amount_cents": 28630,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "city_pass_b",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "PDF Seite 6: veröffentlichte Stadtpass-Tabelle",
+        "original": "2 Kinder          75,0%                 19,60 €                         214,70 €        250,50 €          286,30 €       322,10 €"
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0124",
+      "offer_id": "leinfelden-echterdingen-865ca1e4ff",
+      "amount_cents": 32210,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "city_pass_b",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "PDF Seite 6: veröffentlichte Stadtpass-Tabelle",
+        "original": "2 Kinder          75,0%                 19,60 €                         214,70 €        250,50 €          286,30 €       322,10 €"
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0125",
+      "offer_id": "leinfelden-echterdingen-1d682c5005",
+      "amount_cents": 14310,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "city_pass_b",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "PDF Seite 6: veröffentlichte Stadtpass-Tabelle",
+        "original": "3 Kinder          50,0%                 13,10 €                         143,10 €        167,00 €          190,80 €       214,70 €"
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0126",
+      "offer_id": "leinfelden-echterdingen-ee5d274d30",
+      "amount_cents": 16700,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "city_pass_b",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "PDF Seite 6: veröffentlichte Stadtpass-Tabelle",
+        "original": "3 Kinder          50,0%                 13,10 €                         143,10 €        167,00 €          190,80 €       214,70 €"
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0127",
+      "offer_id": "leinfelden-echterdingen-af25960595",
+      "amount_cents": 19080,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "city_pass_b",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "PDF Seite 6: veröffentlichte Stadtpass-Tabelle",
+        "original": "3 Kinder          50,0%                 13,10 €                         143,10 €        167,00 €          190,80 €       214,70 €"
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0128",
+      "offer_id": "leinfelden-echterdingen-865ca1e4ff",
+      "amount_cents": 21470,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "city_pass_b",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "PDF Seite 6: veröffentlichte Stadtpass-Tabelle",
+        "original": "3 Kinder          50,0%                 13,10 €                         143,10 €        167,00 €          190,80 €       214,70 €"
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0129",
+      "offer_id": "leinfelden-echterdingen-1d682c5005",
+      "amount_cents": 7160,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "city_pass_b",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "PDF Seite 6: veröffentlichte Stadtpass-Tabelle",
+        "original": "4 Kinder          25,0%                  6,60 €                          71,60 €         83,50 €           95,40 €       107,40 €"
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0130",
+      "offer_id": "leinfelden-echterdingen-ee5d274d30",
+      "amount_cents": 8350,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "city_pass_b",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "PDF Seite 6: veröffentlichte Stadtpass-Tabelle",
+        "original": "4 Kinder          25,0%                  6,60 €                          71,60 €         83,50 €           95,40 €       107,40 €"
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0131",
+      "offer_id": "leinfelden-echterdingen-af25960595",
+      "amount_cents": 9540,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "city_pass_b",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "PDF Seite 6: veröffentlichte Stadtpass-Tabelle",
+        "original": "4 Kinder          25,0%                  6,60 €                          71,60 €         83,50 €           95,40 €       107,40 €"
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0132",
+      "offer_id": "leinfelden-echterdingen-865ca1e4ff",
+      "amount_cents": 10740,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "city_pass_b",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "PDF Seite 6: veröffentlichte Stadtpass-Tabelle",
+        "original": "4 Kinder          25,0%                  6,60 €                          71,60 €         83,50 €           95,40 €       107,40 €"
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0133",
+      "offer_id": "leinfelden-echterdingen-1d682c5005",
+      "amount_cents": 33030,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "city_pass_c",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "PDF Seite 6: veröffentlichte Stadtpass-Tabelle",
+        "original": "1 Kind           100,0%                 30,20 €                         330,30 €        385,40 €          440,40 €       495,50 €"
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0134",
+      "offer_id": "leinfelden-echterdingen-ee5d274d30",
+      "amount_cents": 38540,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "city_pass_c",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "PDF Seite 6: veröffentlichte Stadtpass-Tabelle",
+        "original": "1 Kind           100,0%                 30,20 €                         330,30 €        385,40 €          440,40 €       495,50 €"
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0135",
+      "offer_id": "leinfelden-echterdingen-af25960595",
+      "amount_cents": 44040,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "city_pass_c",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "PDF Seite 6: veröffentlichte Stadtpass-Tabelle",
+        "original": "1 Kind           100,0%                 30,20 €                         330,30 €        385,40 €          440,40 €       495,50 €"
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0136",
+      "offer_id": "leinfelden-echterdingen-865ca1e4ff",
+      "amount_cents": 49550,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "city_pass_c",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "PDF Seite 6: veröffentlichte Stadtpass-Tabelle",
+        "original": "1 Kind           100,0%                 30,20 €                         330,30 €        385,40 €          440,40 €       495,50 €"
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0137",
+      "offer_id": "leinfelden-echterdingen-1d682c5005",
+      "amount_cents": 24770,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "city_pass_c",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "PDF Seite 6: veröffentlichte Stadtpass-Tabelle",
+        "original": "2 Kinder          75,0%                 22,70 €                         247,70 €        289,10 €          330,30 €       371,60 €"
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0138",
+      "offer_id": "leinfelden-echterdingen-ee5d274d30",
+      "amount_cents": 28910,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "city_pass_c",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "PDF Seite 6: veröffentlichte Stadtpass-Tabelle",
+        "original": "2 Kinder          75,0%                 22,70 €                         247,70 €        289,10 €          330,30 €       371,60 €"
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0139",
+      "offer_id": "leinfelden-echterdingen-af25960595",
+      "amount_cents": 33030,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "city_pass_c",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "PDF Seite 6: veröffentlichte Stadtpass-Tabelle",
+        "original": "2 Kinder          75,0%                 22,70 €                         247,70 €        289,10 €          330,30 €       371,60 €"
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0140",
+      "offer_id": "leinfelden-echterdingen-865ca1e4ff",
+      "amount_cents": 37160,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "city_pass_c",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "PDF Seite 6: veröffentlichte Stadtpass-Tabelle",
+        "original": "2 Kinder          75,0%                 22,70 €                         247,70 €        289,10 €          330,30 €       371,60 €"
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0141",
+      "offer_id": "leinfelden-echterdingen-1d682c5005",
+      "amount_cents": 16520,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "city_pass_c",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "PDF Seite 6: veröffentlichte Stadtpass-Tabelle",
+        "original": "3 Kinder          50,0%                 15,10 €                         165,20 €        192,70 €          220,20 €       247,70 €"
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0142",
+      "offer_id": "leinfelden-echterdingen-ee5d274d30",
+      "amount_cents": 19270,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "city_pass_c",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "PDF Seite 6: veröffentlichte Stadtpass-Tabelle",
+        "original": "3 Kinder          50,0%                 15,10 €                         165,20 €        192,70 €          220,20 €       247,70 €"
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0143",
+      "offer_id": "leinfelden-echterdingen-af25960595",
+      "amount_cents": 22020,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "city_pass_c",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "PDF Seite 6: veröffentlichte Stadtpass-Tabelle",
+        "original": "3 Kinder          50,0%                 15,10 €                         165,20 €        192,70 €          220,20 €       247,70 €"
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0144",
+      "offer_id": "leinfelden-echterdingen-865ca1e4ff",
+      "amount_cents": 24770,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "city_pass_c",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "PDF Seite 6: veröffentlichte Stadtpass-Tabelle",
+        "original": "3 Kinder          50,0%                 15,10 €                         165,20 €        192,70 €          220,20 €       247,70 €"
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0145",
+      "offer_id": "leinfelden-echterdingen-1d682c5005",
+      "amount_cents": 8260,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "city_pass_c",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "PDF Seite 6: veröffentlichte Stadtpass-Tabelle",
+        "original": "4 Kinder          25,0%                  7,60 €                          82,60 €         96,40 €          110,10 €       123,90 €"
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0146",
+      "offer_id": "leinfelden-echterdingen-ee5d274d30",
+      "amount_cents": 9640,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "city_pass_c",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "PDF Seite 6: veröffentlichte Stadtpass-Tabelle",
+        "original": "4 Kinder          25,0%                  7,60 €                          82,60 €         96,40 €          110,10 €       123,90 €"
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0147",
+      "offer_id": "leinfelden-echterdingen-af25960595",
+      "amount_cents": 11010,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "city_pass_c",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "PDF Seite 6: veröffentlichte Stadtpass-Tabelle",
+        "original": "4 Kinder          25,0%                  7,60 €                          82,60 €         96,40 €          110,10 €       123,90 €"
+      }
+    },
+    {
+      "id": "leinfelden-echterdingen-price-0148",
+      "offer_id": "leinfelden-echterdingen-865ca1e4ff",
+      "amount_cents": 12390,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "city_pass_c",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "PDF Seite 6: veröffentlichte Stadtpass-Tabelle",
+        "original": "4 Kinder          25,0%                  7,60 €                          82,60 €         96,40 €          110,10 €       123,90 €"
+      }
+    }
+  ],
+  "components": [
+    {
+      "id": "leinfelden-echterdingen-component-001",
+      "kind": "care_extension",
+      "original_label": "Früh-/Spätdienst je angefangene halbe Stunde",
+      "amount_cents": 1735,
+      "unit": "per_month",
+      "age_group": "o3",
+      "offer_ids": null,
+      "required": false,
+      "payment_months": 11,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "3edbd30ca2f4",
+        "locator": "Entgelttabelle",
+        "original": {
+          "research_line": 492,
+          "heading": "Reguläre monatliche Betreuungstarife ab 1. September 2026",
+          "row": [
+            "Ü3",
+            "1 Kind",
+            "17,35 €",
+            "162 €",
+            "194,40 €",
+            "226,80 €",
+            "259,20 €",
+            "291,60 €"
+          ]
+        }
+      },
+      "extension_minutes": 30,
+      "days_per_week": null,
+      "selectors": {
+        "family_count": 1,
+        "income_band_id": null
+      },
+      "execution_status": "blocked_schedule_details"
+    },
+    {
+      "id": "leinfelden-echterdingen-component-002",
+      "kind": "care_extension",
+      "original_label": "Früh-/Spätdienst je angefangene halbe Stunde",
+      "amount_cents": 1300,
+      "unit": "per_month",
+      "age_group": "o3",
+      "offer_ids": null,
+      "required": false,
+      "payment_months": 11,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "3edbd30ca2f4",
+        "locator": "Entgelttabelle",
+        "original": {
+          "research_line": 492,
+          "heading": "Reguläre monatliche Betreuungstarife ab 1. September 2026",
+          "row": [
+            "Ü3",
+            "2 Kinder",
+            "13,00 €",
+            "121,50 €",
+            "145,80 €",
+            "170,10 €",
+            "194,40 €",
+            "218,70 €"
+          ]
+        }
+      },
+      "extension_minutes": 30,
+      "days_per_week": null,
+      "selectors": {
+        "family_count": 2,
+        "income_band_id": null
+      },
+      "execution_status": "blocked_schedule_details"
+    },
+    {
+      "id": "leinfelden-echterdingen-component-003",
+      "kind": "care_extension",
+      "original_label": "Früh-/Spätdienst je angefangene halbe Stunde",
+      "amount_cents": 870,
+      "unit": "per_month",
+      "age_group": "o3",
+      "offer_ids": null,
+      "required": false,
+      "payment_months": 11,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "3edbd30ca2f4",
+        "locator": "Entgelttabelle",
+        "original": {
+          "research_line": 492,
+          "heading": "Reguläre monatliche Betreuungstarife ab 1. September 2026",
+          "row": [
+            "Ü3",
+            "3 Kinder",
+            "8,70 €",
+            "81 €",
+            "97,20 €",
+            "113,40 €",
+            "129,60 €",
+            "145,80 €"
+          ]
+        }
+      },
+      "extension_minutes": 30,
+      "days_per_week": null,
+      "selectors": {
+        "family_count": 3,
+        "income_band_id": null
+      },
+      "execution_status": "blocked_schedule_details"
+    },
+    {
+      "id": "leinfelden-echterdingen-component-004",
+      "kind": "care_extension",
+      "original_label": "Früh-/Spätdienst je angefangene halbe Stunde",
+      "amount_cents": 430,
+      "unit": "per_month",
+      "age_group": "o3",
+      "offer_ids": null,
+      "required": false,
+      "payment_months": 11,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "3edbd30ca2f4",
+        "locator": "Entgelttabelle",
+        "original": {
+          "research_line": 492,
+          "heading": "Reguläre monatliche Betreuungstarife ab 1. September 2026",
+          "row": [
+            "Ü3",
+            "4 Kinder",
+            "4,30 €",
+            "40,50 €",
+            "48,60 €",
+            "56,70 €",
+            "64,80 €",
+            "72,90 €"
+          ]
+        }
+      },
+      "extension_minutes": 30,
+      "days_per_week": null,
+      "selectors": {
+        "family_count": 4,
+        "income_band_id": null
+      },
+      "execution_status": "blocked_schedule_details"
+    },
+    {
+      "id": "leinfelden-echterdingen-component-005",
+      "kind": "care_extension",
+      "original_label": "Früh-/Spätdienst je angefangene halbe Stunde",
+      "amount_cents": 4023,
+      "unit": "per_month",
+      "age_group": "u3",
+      "offer_ids": null,
+      "required": false,
+      "payment_months": 11,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "3edbd30ca2f4",
+        "locator": "Entgelttabelle",
+        "original": {
+          "research_line": 492,
+          "heading": "Reguläre monatliche Betreuungstarife ab 1. September 2026",
+          "row": [
+            "U3",
+            "1 Kind",
+            "40,23 €",
+            "–",
+            "440,40 €",
+            "513,80 €",
+            "587,20 €",
+            "660,60 €"
+          ]
+        }
+      },
+      "extension_minutes": 30,
+      "days_per_week": null,
+      "selectors": {
+        "family_count": 1,
+        "income_band_id": null
+      },
+      "execution_status": "blocked_schedule_details"
+    },
+    {
+      "id": "leinfelden-echterdingen-component-006",
+      "kind": "care_extension",
+      "original_label": "Früh-/Spätdienst je angefangene halbe Stunde",
+      "amount_cents": 3020,
+      "unit": "per_month",
+      "age_group": "u3",
+      "offer_ids": null,
+      "required": false,
+      "payment_months": 11,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "3edbd30ca2f4",
+        "locator": "Entgelttabelle",
+        "original": {
+          "research_line": 492,
+          "heading": "Reguläre monatliche Betreuungstarife ab 1. September 2026",
+          "row": [
+            "U3",
+            "2 Kinder",
+            "30,20 €",
+            "–",
+            "330,30 €",
+            "385,40 €",
+            "440,40 €",
+            "495,50 €"
+          ]
+        }
+      },
+      "extension_minutes": 30,
+      "days_per_week": null,
+      "selectors": {
+        "family_count": 2,
+        "income_band_id": null
+      },
+      "execution_status": "blocked_schedule_details"
+    },
+    {
+      "id": "leinfelden-echterdingen-component-007",
+      "kind": "care_extension",
+      "original_label": "Früh-/Spätdienst je angefangene halbe Stunde",
+      "amount_cents": 2010,
+      "unit": "per_month",
+      "age_group": "u3",
+      "offer_ids": null,
+      "required": false,
+      "payment_months": 11,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "3edbd30ca2f4",
+        "locator": "Entgelttabelle",
+        "original": {
+          "research_line": 492,
+          "heading": "Reguläre monatliche Betreuungstarife ab 1. September 2026",
+          "row": [
+            "U3",
+            "3 Kinder",
+            "20,10 €",
+            "–",
+            "220,20 €",
+            "256,90 €",
+            "293,60 €",
+            "330,30 €"
+          ]
+        }
+      },
+      "extension_minutes": 30,
+      "days_per_week": null,
+      "selectors": {
+        "family_count": 3,
+        "income_band_id": null
+      },
+      "execution_status": "blocked_schedule_details"
+    },
+    {
+      "id": "leinfelden-echterdingen-component-008",
+      "kind": "care_extension",
+      "original_label": "Früh-/Spätdienst je angefangene halbe Stunde",
+      "amount_cents": 1010,
+      "unit": "per_month",
+      "age_group": "u3",
+      "offer_ids": null,
+      "required": false,
+      "payment_months": 11,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "3edbd30ca2f4",
+        "locator": "Entgelttabelle",
+        "original": {
+          "research_line": 492,
+          "heading": "Reguläre monatliche Betreuungstarife ab 1. September 2026",
+          "row": [
+            "U3",
+            "4 Kinder",
+            "10,10 €",
+            "–",
+            "110,10 €",
+            "128,50 €",
+            "146,80 €",
+            "165,20 €"
+          ]
+        }
+      },
+      "extension_minutes": 30,
+      "days_per_week": null,
+      "selectors": {
+        "family_count": 4,
+        "income_band_id": null
+      },
+      "execution_status": "blocked_schedule_details"
+    },
+    {
+      "id": "leinfelden-echterdingen-component-009",
+      "kind": "meal",
+      "original_label": "Mittagessen",
+      "amount_cents": 1640,
+      "unit": "per_month",
+      "age_group": "u3",
+      "offer_ids": null,
+      "required": null,
+      "payment_months": 11,
+      "valid_from": "2025-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "d14c375c9897",
+        "locator": "Verpflegung",
+        "original": null
+      },
+      "days_per_week": 1,
+      "pass_id": "none",
+      "required_condition": "care_until_14_or_later"
+    },
+    {
+      "id": "leinfelden-echterdingen-component-010",
+      "kind": "meal",
+      "original_label": "Mittagessen Stadtpass A/B/C",
+      "amount_cents": 1200,
+      "unit": "per_month",
+      "age_group": "u3",
+      "offer_ids": null,
+      "required": null,
+      "payment_months": 11,
+      "valid_from": "2025-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "d14c375c9897",
+        "locator": "Verpflegung",
+        "original": null
+      },
+      "days_per_week": 1,
+      "pass_id": "city_pass_abc"
+    },
+    {
+      "id": "leinfelden-echterdingen-component-011",
+      "kind": "meal",
+      "original_label": "Mittagessen",
+      "amount_cents": 3280,
+      "unit": "per_month",
+      "age_group": "u3",
+      "offer_ids": null,
+      "required": null,
+      "payment_months": 11,
+      "valid_from": "2025-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "d14c375c9897",
+        "locator": "Verpflegung",
+        "original": null
+      },
+      "days_per_week": 2,
+      "pass_id": "none",
+      "required_condition": "care_until_14_or_later"
+    },
+    {
+      "id": "leinfelden-echterdingen-component-012",
+      "kind": "meal",
+      "original_label": "Mittagessen Stadtpass A/B/C",
+      "amount_cents": 2400,
+      "unit": "per_month",
+      "age_group": "u3",
+      "offer_ids": null,
+      "required": null,
+      "payment_months": 11,
+      "valid_from": "2025-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "d14c375c9897",
+        "locator": "Verpflegung",
+        "original": null
+      },
+      "days_per_week": 2,
+      "pass_id": "city_pass_abc"
+    },
+    {
+      "id": "leinfelden-echterdingen-component-013",
+      "kind": "meal",
+      "original_label": "Mittagessen",
+      "amount_cents": 4920,
+      "unit": "per_month",
+      "age_group": "u3",
+      "offer_ids": null,
+      "required": null,
+      "payment_months": 11,
+      "valid_from": "2025-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "d14c375c9897",
+        "locator": "Verpflegung",
+        "original": null
+      },
+      "days_per_week": 3,
+      "pass_id": "none",
+      "required_condition": "care_until_14_or_later"
+    },
+    {
+      "id": "leinfelden-echterdingen-component-014",
+      "kind": "meal",
+      "original_label": "Mittagessen Stadtpass A/B/C",
+      "amount_cents": 3600,
+      "unit": "per_month",
+      "age_group": "u3",
+      "offer_ids": null,
+      "required": null,
+      "payment_months": 11,
+      "valid_from": "2025-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "d14c375c9897",
+        "locator": "Verpflegung",
+        "original": null
+      },
+      "days_per_week": 3,
+      "pass_id": "city_pass_abc"
+    },
+    {
+      "id": "leinfelden-echterdingen-component-015",
+      "kind": "meal",
+      "original_label": "Mittagessen",
+      "amount_cents": 6560,
+      "unit": "per_month",
+      "age_group": "u3",
+      "offer_ids": null,
+      "required": null,
+      "payment_months": 11,
+      "valid_from": "2025-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "d14c375c9897",
+        "locator": "Verpflegung",
+        "original": null
+      },
+      "days_per_week": 4,
+      "pass_id": "none",
+      "required_condition": "care_until_14_or_later"
+    },
+    {
+      "id": "leinfelden-echterdingen-component-016",
+      "kind": "meal",
+      "original_label": "Mittagessen Stadtpass A/B/C",
+      "amount_cents": 4800,
+      "unit": "per_month",
+      "age_group": "u3",
+      "offer_ids": null,
+      "required": null,
+      "payment_months": 11,
+      "valid_from": "2025-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "d14c375c9897",
+        "locator": "Verpflegung",
+        "original": null
+      },
+      "days_per_week": 4,
+      "pass_id": "city_pass_abc"
+    },
+    {
+      "id": "leinfelden-echterdingen-component-017",
+      "kind": "meal",
+      "original_label": "Mittagessen",
+      "amount_cents": 8200,
+      "unit": "per_month",
+      "age_group": "u3",
+      "offer_ids": null,
+      "required": null,
+      "payment_months": 11,
+      "valid_from": "2025-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "d14c375c9897",
+        "locator": "Verpflegung",
+        "original": null
+      },
+      "days_per_week": 5,
+      "pass_id": "none",
+      "required_condition": "care_until_14_or_later"
+    },
+    {
+      "id": "leinfelden-echterdingen-component-018",
+      "kind": "meal",
+      "original_label": "Mittagessen Stadtpass A/B/C",
+      "amount_cents": 6000,
+      "unit": "per_month",
+      "age_group": "u3",
+      "offer_ids": null,
+      "required": null,
+      "payment_months": 11,
+      "valid_from": "2025-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "d14c375c9897",
+        "locator": "Verpflegung",
+        "original": null
+      },
+      "days_per_week": 5,
+      "pass_id": "city_pass_abc"
+    },
+    {
+      "id": "leinfelden-echterdingen-component-019",
+      "kind": "meal",
+      "original_label": "Mittagessen",
+      "amount_cents": 1720,
+      "unit": "per_month",
+      "age_group": "o3",
+      "offer_ids": null,
+      "required": null,
+      "payment_months": 11,
+      "valid_from": "2025-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "d14c375c9897",
+        "locator": "Verpflegung",
+        "original": null
+      },
+      "days_per_week": 1,
+      "pass_id": "none",
+      "required_condition": "care_until_14_or_later"
+    },
+    {
+      "id": "leinfelden-echterdingen-component-020",
+      "kind": "meal",
+      "original_label": "Mittagessen Stadtpass A/B/C",
+      "amount_cents": 1200,
+      "unit": "per_month",
+      "age_group": "o3",
+      "offer_ids": null,
+      "required": null,
+      "payment_months": 11,
+      "valid_from": "2025-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "d14c375c9897",
+        "locator": "Verpflegung",
+        "original": null
+      },
+      "days_per_week": 1,
+      "pass_id": "city_pass_abc"
+    },
+    {
+      "id": "leinfelden-echterdingen-component-021",
+      "kind": "meal",
+      "original_label": "Mittagessen",
+      "amount_cents": 3440,
+      "unit": "per_month",
+      "age_group": "o3",
+      "offer_ids": null,
+      "required": null,
+      "payment_months": 11,
+      "valid_from": "2025-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "d14c375c9897",
+        "locator": "Verpflegung",
+        "original": null
+      },
+      "days_per_week": 2,
+      "pass_id": "none",
+      "required_condition": "care_until_14_or_later"
+    },
+    {
+      "id": "leinfelden-echterdingen-component-022",
+      "kind": "meal",
+      "original_label": "Mittagessen Stadtpass A/B/C",
+      "amount_cents": 2400,
+      "unit": "per_month",
+      "age_group": "o3",
+      "offer_ids": null,
+      "required": null,
+      "payment_months": 11,
+      "valid_from": "2025-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "d14c375c9897",
+        "locator": "Verpflegung",
+        "original": null
+      },
+      "days_per_week": 2,
+      "pass_id": "city_pass_abc"
+    },
+    {
+      "id": "leinfelden-echterdingen-component-023",
+      "kind": "meal",
+      "original_label": "Mittagessen",
+      "amount_cents": 5160,
+      "unit": "per_month",
+      "age_group": "o3",
+      "offer_ids": null,
+      "required": null,
+      "payment_months": 11,
+      "valid_from": "2025-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "d14c375c9897",
+        "locator": "Verpflegung",
+        "original": null
+      },
+      "days_per_week": 3,
+      "pass_id": "none",
+      "required_condition": "care_until_14_or_later"
+    },
+    {
+      "id": "leinfelden-echterdingen-component-024",
+      "kind": "meal",
+      "original_label": "Mittagessen Stadtpass A/B/C",
+      "amount_cents": 3600,
+      "unit": "per_month",
+      "age_group": "o3",
+      "offer_ids": null,
+      "required": null,
+      "payment_months": 11,
+      "valid_from": "2025-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "d14c375c9897",
+        "locator": "Verpflegung",
+        "original": null
+      },
+      "days_per_week": 3,
+      "pass_id": "city_pass_abc"
+    },
+    {
+      "id": "leinfelden-echterdingen-component-025",
+      "kind": "meal",
+      "original_label": "Mittagessen",
+      "amount_cents": 6880,
+      "unit": "per_month",
+      "age_group": "o3",
+      "offer_ids": null,
+      "required": null,
+      "payment_months": 11,
+      "valid_from": "2025-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "d14c375c9897",
+        "locator": "Verpflegung",
+        "original": null
+      },
+      "days_per_week": 4,
+      "pass_id": "none",
+      "required_condition": "care_until_14_or_later"
+    },
+    {
+      "id": "leinfelden-echterdingen-component-026",
+      "kind": "meal",
+      "original_label": "Mittagessen Stadtpass A/B/C",
+      "amount_cents": 4800,
+      "unit": "per_month",
+      "age_group": "o3",
+      "offer_ids": null,
+      "required": null,
+      "payment_months": 11,
+      "valid_from": "2025-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "d14c375c9897",
+        "locator": "Verpflegung",
+        "original": null
+      },
+      "days_per_week": 4,
+      "pass_id": "city_pass_abc"
+    },
+    {
+      "id": "leinfelden-echterdingen-component-027",
+      "kind": "meal",
+      "original_label": "Mittagessen",
+      "amount_cents": 8600,
+      "unit": "per_month",
+      "age_group": "o3",
+      "offer_ids": null,
+      "required": null,
+      "payment_months": 11,
+      "valid_from": "2025-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "d14c375c9897",
+        "locator": "Verpflegung",
+        "original": null
+      },
+      "days_per_week": 5,
+      "pass_id": "none",
+      "required_condition": "care_until_14_or_later"
+    },
+    {
+      "id": "leinfelden-echterdingen-component-028",
+      "kind": "meal",
+      "original_label": "Mittagessen Stadtpass A/B/C",
+      "amount_cents": 6000,
+      "unit": "per_month",
+      "age_group": "o3",
+      "offer_ids": null,
+      "required": null,
+      "payment_months": 11,
+      "valid_from": "2025-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "d14c375c9897",
+        "locator": "Verpflegung",
+        "original": null
+      },
+      "days_per_week": 5,
+      "pass_id": "city_pass_abc"
+    },
+    {
+      "id": "leinfelden-echterdingen-component-029",
+      "kind": "snack",
+      "original_label": "Zwischenmahlzeit/Snack",
+      "amount_cents": 1000,
+      "unit": "per_month",
+      "age_group": "o3",
+      "offer_ids": null,
+      "required": true,
+      "payment_months": 11,
+      "valid_from": "2025-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "d14c375c9897",
+        "locator": "Verpflegung",
+        "original": null
+      },
+      "offer_group": "half_day"
+    },
+    {
+      "id": "leinfelden-echterdingen-component-030",
+      "kind": "snack",
+      "original_label": "Zwischenmahlzeit/Snack",
+      "amount_cents": 1600,
+      "unit": "per_month",
+      "age_group": "o3",
+      "offer_ids": null,
+      "required": true,
+      "payment_months": 11,
+      "valid_from": "2025-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "d14c375c9897",
+        "locator": "Verpflegung",
+        "original": null
+      },
+      "offer_group": "voe_or_gt"
+    },
+    {
+      "id": "leinfelden-echterdingen-component-031",
+      "kind": "care_extension",
+      "original_label": "Früh-/Spätdienst Stadtpass",
+      "amount_cents": 690,
+      "unit": "per_month",
+      "age_group": "o3",
+      "offer_ids": null,
+      "required": false,
+      "payment_months": 11,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "Verpflegung",
+        "original": null
+      },
+      "extension_minutes": 30,
+      "selectors": {
+        "family_count": 1,
+        "pass_id": "city_pass_a"
+      },
+      "execution_status": "blocked_schedule_details"
+    },
+    {
+      "id": "leinfelden-echterdingen-component-032",
+      "kind": "care_extension",
+      "original_label": "Früh-/Spätdienst Stadtpass",
+      "amount_cents": 520,
+      "unit": "per_month",
+      "age_group": "o3",
+      "offer_ids": null,
+      "required": false,
+      "payment_months": 11,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "Verpflegung",
+        "original": null
+      },
+      "extension_minutes": 30,
+      "selectors": {
+        "family_count": 2,
+        "pass_id": "city_pass_a"
+      },
+      "execution_status": "blocked_schedule_details"
+    },
+    {
+      "id": "leinfelden-echterdingen-component-033",
+      "kind": "care_extension",
+      "original_label": "Früh-/Spätdienst Stadtpass",
+      "amount_cents": 350,
+      "unit": "per_month",
+      "age_group": "o3",
+      "offer_ids": null,
+      "required": false,
+      "payment_months": 11,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "Verpflegung",
+        "original": null
+      },
+      "extension_minutes": 30,
+      "selectors": {
+        "family_count": 3,
+        "pass_id": "city_pass_a"
+      },
+      "execution_status": "blocked_schedule_details"
+    },
+    {
+      "id": "leinfelden-echterdingen-component-034",
+      "kind": "care_extension",
+      "original_label": "Früh-/Spätdienst Stadtpass",
+      "amount_cents": 170,
+      "unit": "per_month",
+      "age_group": "o3",
+      "offer_ids": null,
+      "required": false,
+      "payment_months": 11,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "Verpflegung",
+        "original": null
+      },
+      "extension_minutes": 30,
+      "selectors": {
+        "family_count": 4,
+        "pass_id": "city_pass_a"
+      },
+      "execution_status": "blocked_schedule_details"
+    },
+    {
+      "id": "leinfelden-echterdingen-component-035",
+      "kind": "care_extension",
+      "original_label": "Früh-/Spätdienst Stadtpass",
+      "amount_cents": 1130,
+      "unit": "per_month",
+      "age_group": "o3",
+      "offer_ids": null,
+      "required": false,
+      "payment_months": 11,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "Verpflegung",
+        "original": null
+      },
+      "extension_minutes": 30,
+      "selectors": {
+        "family_count": 1,
+        "pass_id": "city_pass_b"
+      },
+      "execution_status": "blocked_schedule_details"
+    },
+    {
+      "id": "leinfelden-echterdingen-component-036",
+      "kind": "care_extension",
+      "original_label": "Früh-/Spätdienst Stadtpass",
+      "amount_cents": 850,
+      "unit": "per_month",
+      "age_group": "o3",
+      "offer_ids": null,
+      "required": false,
+      "payment_months": 11,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "Verpflegung",
+        "original": null
+      },
+      "extension_minutes": 30,
+      "selectors": {
+        "family_count": 2,
+        "pass_id": "city_pass_b"
+      },
+      "execution_status": "blocked_schedule_details"
+    },
+    {
+      "id": "leinfelden-echterdingen-component-037",
+      "kind": "care_extension",
+      "original_label": "Früh-/Spätdienst Stadtpass",
+      "amount_cents": 570,
+      "unit": "per_month",
+      "age_group": "o3",
+      "offer_ids": null,
+      "required": false,
+      "payment_months": 11,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "Verpflegung",
+        "original": null
+      },
+      "extension_minutes": 30,
+      "selectors": {
+        "family_count": 3,
+        "pass_id": "city_pass_b"
+      },
+      "execution_status": "blocked_schedule_details"
+    },
+    {
+      "id": "leinfelden-echterdingen-component-038",
+      "kind": "care_extension",
+      "original_label": "Früh-/Spätdienst Stadtpass",
+      "amount_cents": 280,
+      "unit": "per_month",
+      "age_group": "o3",
+      "offer_ids": null,
+      "required": false,
+      "payment_months": 11,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "Verpflegung",
+        "original": null
+      },
+      "extension_minutes": 30,
+      "selectors": {
+        "family_count": 4,
+        "pass_id": "city_pass_b"
+      },
+      "execution_status": "blocked_schedule_details"
+    },
+    {
+      "id": "leinfelden-echterdingen-component-039",
+      "kind": "care_extension",
+      "original_label": "Früh-/Spätdienst Stadtpass",
+      "amount_cents": 1300,
+      "unit": "per_month",
+      "age_group": "o3",
+      "offer_ids": null,
+      "required": false,
+      "payment_months": 11,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "Verpflegung",
+        "original": null
+      },
+      "extension_minutes": 30,
+      "selectors": {
+        "family_count": 1,
+        "pass_id": "city_pass_c"
+      },
+      "execution_status": "blocked_schedule_details"
+    },
+    {
+      "id": "leinfelden-echterdingen-component-040",
+      "kind": "care_extension",
+      "original_label": "Früh-/Spätdienst Stadtpass",
+      "amount_cents": 980,
+      "unit": "per_month",
+      "age_group": "o3",
+      "offer_ids": null,
+      "required": false,
+      "payment_months": 11,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "Verpflegung",
+        "original": null
+      },
+      "extension_minutes": 30,
+      "selectors": {
+        "family_count": 2,
+        "pass_id": "city_pass_c"
+      },
+      "execution_status": "blocked_schedule_details"
+    },
+    {
+      "id": "leinfelden-echterdingen-component-041",
+      "kind": "care_extension",
+      "original_label": "Früh-/Spätdienst Stadtpass",
+      "amount_cents": 650,
+      "unit": "per_month",
+      "age_group": "o3",
+      "offer_ids": null,
+      "required": false,
+      "payment_months": 11,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "Verpflegung",
+        "original": null
+      },
+      "extension_minutes": 30,
+      "selectors": {
+        "family_count": 3,
+        "pass_id": "city_pass_c"
+      },
+      "execution_status": "blocked_schedule_details"
+    },
+    {
+      "id": "leinfelden-echterdingen-component-042",
+      "kind": "care_extension",
+      "original_label": "Früh-/Spätdienst Stadtpass",
+      "amount_cents": 320,
+      "unit": "per_month",
+      "age_group": "o3",
+      "offer_ids": null,
+      "required": false,
+      "payment_months": 11,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "Verpflegung",
+        "original": null
+      },
+      "extension_minutes": 30,
+      "selectors": {
+        "family_count": 4,
+        "pass_id": "city_pass_c"
+      },
+      "execution_status": "blocked_schedule_details"
+    },
+    {
+      "id": "leinfelden-echterdingen-component-043",
+      "kind": "care_extension",
+      "original_label": "Früh-/Spätdienst Stadtpass",
+      "amount_cents": 1610,
+      "unit": "per_month",
+      "age_group": "u3",
+      "offer_ids": null,
+      "required": false,
+      "payment_months": 11,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "Verpflegung",
+        "original": null
+      },
+      "extension_minutes": 30,
+      "selectors": {
+        "family_count": 1,
+        "pass_id": "city_pass_a"
+      },
+      "execution_status": "blocked_schedule_details"
+    },
+    {
+      "id": "leinfelden-echterdingen-component-044",
+      "kind": "care_extension",
+      "original_label": "Früh-/Spätdienst Stadtpass",
+      "amount_cents": 1210,
+      "unit": "per_month",
+      "age_group": "u3",
+      "offer_ids": null,
+      "required": false,
+      "payment_months": 11,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "Verpflegung",
+        "original": null
+      },
+      "extension_minutes": 30,
+      "selectors": {
+        "family_count": 2,
+        "pass_id": "city_pass_a"
+      },
+      "execution_status": "blocked_schedule_details"
+    },
+    {
+      "id": "leinfelden-echterdingen-component-045",
+      "kind": "care_extension",
+      "original_label": "Früh-/Spätdienst Stadtpass",
+      "amount_cents": 800,
+      "unit": "per_month",
+      "age_group": "u3",
+      "offer_ids": null,
+      "required": false,
+      "payment_months": 11,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "Verpflegung",
+        "original": null
+      },
+      "extension_minutes": 30,
+      "selectors": {
+        "family_count": 3,
+        "pass_id": "city_pass_a"
+      },
+      "execution_status": "blocked_schedule_details"
+    },
+    {
+      "id": "leinfelden-echterdingen-component-046",
+      "kind": "care_extension",
+      "original_label": "Früh-/Spätdienst Stadtpass",
+      "amount_cents": 400,
+      "unit": "per_month",
+      "age_group": "u3",
+      "offer_ids": null,
+      "required": false,
+      "payment_months": 11,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "Verpflegung",
+        "original": null
+      },
+      "extension_minutes": 30,
+      "selectors": {
+        "family_count": 4,
+        "pass_id": "city_pass_a"
+      },
+      "execution_status": "blocked_schedule_details"
+    },
+    {
+      "id": "leinfelden-echterdingen-component-047",
+      "kind": "care_extension",
+      "original_label": "Früh-/Spätdienst Stadtpass",
+      "amount_cents": 2610,
+      "unit": "per_month",
+      "age_group": "u3",
+      "offer_ids": null,
+      "required": false,
+      "payment_months": 11,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "Verpflegung",
+        "original": null
+      },
+      "extension_minutes": 30,
+      "selectors": {
+        "family_count": 1,
+        "pass_id": "city_pass_b"
+      },
+      "execution_status": "blocked_schedule_details"
+    },
+    {
+      "id": "leinfelden-echterdingen-component-048",
+      "kind": "care_extension",
+      "original_label": "Früh-/Spätdienst Stadtpass",
+      "amount_cents": 1960,
+      "unit": "per_month",
+      "age_group": "u3",
+      "offer_ids": null,
+      "required": false,
+      "payment_months": 11,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "Verpflegung",
+        "original": null
+      },
+      "extension_minutes": 30,
+      "selectors": {
+        "family_count": 2,
+        "pass_id": "city_pass_b"
+      },
+      "execution_status": "blocked_schedule_details"
+    },
+    {
+      "id": "leinfelden-echterdingen-component-049",
+      "kind": "care_extension",
+      "original_label": "Früh-/Spätdienst Stadtpass",
+      "amount_cents": 1310,
+      "unit": "per_month",
+      "age_group": "u3",
+      "offer_ids": null,
+      "required": false,
+      "payment_months": 11,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "Verpflegung",
+        "original": null
+      },
+      "extension_minutes": 30,
+      "selectors": {
+        "family_count": 3,
+        "pass_id": "city_pass_b"
+      },
+      "execution_status": "blocked_schedule_details"
+    },
+    {
+      "id": "leinfelden-echterdingen-component-050",
+      "kind": "care_extension",
+      "original_label": "Früh-/Spätdienst Stadtpass",
+      "amount_cents": 660,
+      "unit": "per_month",
+      "age_group": "u3",
+      "offer_ids": null,
+      "required": false,
+      "payment_months": 11,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "Verpflegung",
+        "original": null
+      },
+      "extension_minutes": 30,
+      "selectors": {
+        "family_count": 4,
+        "pass_id": "city_pass_b"
+      },
+      "execution_status": "blocked_schedule_details"
+    },
+    {
+      "id": "leinfelden-echterdingen-component-051",
+      "kind": "care_extension",
+      "original_label": "Früh-/Spätdienst Stadtpass",
+      "amount_cents": 3020,
+      "unit": "per_month",
+      "age_group": "u3",
+      "offer_ids": null,
+      "required": false,
+      "payment_months": 11,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "Verpflegung",
+        "original": null
+      },
+      "extension_minutes": 30,
+      "selectors": {
+        "family_count": 1,
+        "pass_id": "city_pass_c"
+      },
+      "execution_status": "blocked_schedule_details"
+    },
+    {
+      "id": "leinfelden-echterdingen-component-052",
+      "kind": "care_extension",
+      "original_label": "Früh-/Spätdienst Stadtpass",
+      "amount_cents": 2270,
+      "unit": "per_month",
+      "age_group": "u3",
+      "offer_ids": null,
+      "required": false,
+      "payment_months": 11,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "Verpflegung",
+        "original": null
+      },
+      "extension_minutes": 30,
+      "selectors": {
+        "family_count": 2,
+        "pass_id": "city_pass_c"
+      },
+      "execution_status": "blocked_schedule_details"
+    },
+    {
+      "id": "leinfelden-echterdingen-component-053",
+      "kind": "care_extension",
+      "original_label": "Früh-/Spätdienst Stadtpass",
+      "amount_cents": 1510,
+      "unit": "per_month",
+      "age_group": "u3",
+      "offer_ids": null,
+      "required": false,
+      "payment_months": 11,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "Verpflegung",
+        "original": null
+      },
+      "extension_minutes": 30,
+      "selectors": {
+        "family_count": 3,
+        "pass_id": "city_pass_c"
+      },
+      "execution_status": "blocked_schedule_details"
+    },
+    {
+      "id": "leinfelden-echterdingen-component-054",
+      "kind": "care_extension",
+      "original_label": "Früh-/Spätdienst Stadtpass",
+      "amount_cents": 760,
+      "unit": "per_month",
+      "age_group": "u3",
+      "offer_ids": null,
+      "required": false,
+      "payment_months": 11,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "Verpflegung",
+        "original": null
+      },
+      "extension_minutes": 30,
+      "selectors": {
+        "family_count": 4,
+        "pass_id": "city_pass_c"
+      },
+      "execution_status": "blocked_schedule_details"
+    }
+  ],
+  "rules": [
+    {
+      "id": "published_city_pass_prices",
+      "kind": "table_lookup",
+      "execution_status": "table_lookup",
+      "requires": [
+        "valid_city_pass",
+        "no_priority_benefit"
+      ],
+      "evidence": {
+        "source_id": "03bd8c4fc8b1",
+        "locator": "PDF Seite 6: veröffentlichte Stadtpassbeträge haben Vorrang vor Prozentrechnung",
+        "original": null
+      }
+    }
+  ],
+  "issues": [
+    {
+      "code": "adult_child_application",
+      "detail": "Counting child-benefit-eligible adults requires a parental application; eligibility input must reflect the approved household."
+    },
+    {
+      "code": "published_pass_rounding",
+      "detail": "Use the published A/B/C price cells. Applying 60/35/25 percent to regular fees can differ from the rounded published tariffs."
+    }
+  ],
+  "source_text_archive": "data/sources/3edbd30ca2f4/text.txt",
+  "coverage": {
+    "care_tables": "transferred",
+    "income_tables": "transferred_or_not_applicable",
+    "family_tables": "transferred",
+    "rules": "source_text_preserved_with_supported_subset",
+    "exceptions": "source_text_preserved",
+    "reviewed_at": "2026-11-07"
+  },
+  "age_transition": "following_month",
+  "supporting_source_ids": [
+    "03bd8c4fc8b1",
+    "2a717425747f",
+    "33faf71a5b9c",
+    "3edbd30ca2f4",
+    "45e2bf9b9180",
+    "4cd9ee779b78",
+    "5cf0d51e344f",
+    "c871bba74cd8",
+    "d14c375c9897"
+  ]
+}

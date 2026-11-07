@@ -1,0 +1,13 @@
+{
+  "id": "bbeeedb77f97",
+  "municipality": "Fellbach",
+  "title": "Betreuung und Gebühren",
+  "url": "https://www.fellbach.de/Betreuung",
+  "retrieved_at": "2026-11-07T22:07:20.900605+00:00",
+  "http_status": 200,
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://www.fellbach.de/Betreuung",
+  "error": null,
+  "local_path": "data/sources/bbeeedb77f97/document.html",
+  "sha256": "c51d89188a24e390137634e2c5c41d2bbdb6ea8f407959bd92ba95b4e8b952d1"
+}

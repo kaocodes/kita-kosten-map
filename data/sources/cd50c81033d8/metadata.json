@@ -1,0 +1,13 @@
+{
+  "id": "cd50c81033d8",
+  "municipality": "Korntal-Münchingen",
+  "title": "Additional official source",
+  "url": "https://www.korntal-muenchingen.de/kindertageseinrichtungen",
+  "retrieved_at": "2026-11-07T22:22:55.790501+00:00",
+  "http_status": 200,
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://www.korntal-muenchingen.de/kindertageseinrichtungen",
+  "error": null,
+  "local_path": "data/sources/cd50c81033d8/document.html",
+  "sha256": "08c0d025e7f8f46d73ea9da4cdbdf3596611cb0ce6433981116dbf20a91fb651"
+}

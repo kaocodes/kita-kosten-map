@@ -1,0 +1,13 @@
+{
+  "id": "923b8e4514fb",
+  "municipality": "Fellbach",
+  "title": "Additional official source",
+  "url": "https://www.fellbach.de/ceasy/serve/usage/main.php?view=publish&item=nursery&id=1013",
+  "retrieved_at": "2026-11-07T22:24:53.893246+00:00",
+  "http_status": 200,
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://www.fellbach.de/de/Leben-in-Fellbach/Kinder,Jugend,Familie/Kinderbetreuung-/Kinderbetreuung?view=publish&item=nursery&id=1013",
+  "error": null,
+  "local_path": "data/sources/923b8e4514fb/document.html",
+  "sha256": "37b6b802e5b45e9f7bea86a1923821d6ad03075b3be4b0734ff21c9166436d6d"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "535c7b4c86f8",
+  "municipality": "Stuttgart",
+  "title": "Anlage 1 ab 1. August 2026 (PDF)",
+  "url": "https://www.stuttgart.de/medien/ibs/4-6-anlage-1-ab-01-08-2026.pdf",
+  "retrieved_at": "2026-11-07T22:07:15.352622+00:00",
+  "http_status": 200,
+  "content_type": "application/pdf",
+  "final_url": "https://www.stuttgart.de/medien/ibs/4-6-anlage-1-ab-01-08-2026.pdf",
+  "error": null,
+  "local_path": "data/sources/535c7b4c86f8/document.pdf",
+  "sha256": "f4793073e7f86e2efad0e743a6776ea83bc5c26fda38382e6ec9f6bf0671f927"
+}

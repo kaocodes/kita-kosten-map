@@ -1,0 +1,1009 @@
+{
+  "schema_version": "1.0",
+  "id": "gerlingen",
+  "name": "Gerlingen",
+  "reviewed_at": "2026-11-07",
+  "reference_date": "2026-11-04",
+  "scope": {
+    "included": [
+      "municipal"
+    ],
+    "other_providers": "only_with_explicit_source_evidence",
+    "also_included": []
+  },
+  "family_basis": "child_benefit",
+  "family_evidence": {
+    "source_id": "f9eb066f5901",
+    "locator": "Gebührenmaßstab / Familienbegriff",
+    "original": null
+  },
+  "payment_months": 12,
+  "payment_evidence": {
+    "source_id": "f9eb066f5901",
+    "locator": "PDF Seite 6, Gebührenverzeichnis: zwölf Monate pro Jahr",
+    "original": null
+  },
+  "original_research": {
+    "path": "data/imported/research_2026-11-04.md",
+    "section": "Gerlingen",
+    "text": "\n### Quelle und Gültigkeit\n\n- [Gebührensatzung und Gebührenverzeichnis ab 1. September 2026 (PDF)](https://www.gerlingen.de/site/Gerlingen-Internet-2021/get/params_E621822343/25429607/Kindertagesst%C3%A4tten%20-%20Benutzungsgeb%C3%BChren%20ab%2001.09.2026_barrierefrei%20-%20freigegeben%20-%2003.07.2026.pdf)\n- [Ortsrecht der Stadt Gerlingen](https://www.gerlingen.de/start/Ortsrecht)\n\nDie Gebühren sind monatlich und werden zwölf Monate pro Jahr erhoben. Die Satzung enthält Gebührenermäßigungen, Kosten für Verpflegung und sowohl 2026- als auch 2027-Tarife für den Kindergarten. Die Krippentarife sind im Gebührenverzeichnis mit Stand ab 1. September 2025 ausgewiesen; die 2026-Änderung verändert die Ermäßigungsbedingungen, nennt aber keine neue Krippen-Grundtariftabelle. Deshalb ist für die Krippe der jüngste ausdrücklich ausgewiesene Tabellenstand dokumentiert und als vorläufig aktuell markiert.\n\n### Krippe, jüngster ausgewiesener Tarif ab 1. September 2025\n\n| Modell | 1 Kind | 2 Kinder | 3 Kinder | 4+ Kinder |\n|---|---:|---:|---:|---:|\n| VÖ, 7:30–14:00 Uhr | 544 € | 425 € | 300 € | 163 € |\n| Ganztag, 7:30–16:00 Uhr | 640 € | 520 € | 351 € | 191 € |\n\n### Kindergarten, gültig ab 1. September 2026\n\n| Modell | 1 Kind | 2 Kinder | 3 Kinder | 4+ Kinder |\n|---|---:|---:|---:|---:|\n| VÖ, 7:30–14:00 Uhr | 195 € | 148 € | 99 € | 51 € |\n| Ganztag, 7:30–16:00 Uhr | 379 € | 280 € | 208 € | 112 € |\n\nDie Satzung enthält bereits die künftigen Gebühren ab 1. September 2027: Kindergarten-VÖ 203/154/103/53 € und Ganztag 394/291/216/116 € (jeweils für 1/2/3/4+ Kinder). Diese Werte sind als zukünftige, nicht als aktuelle Tarife zu behandeln.\n\n**Verpflegung:** 69 € monatliche Pauschale bzw. 3,75 € Tagessatz für Krippe und Kindergarten; zusätzlich zu den Betreuungskosten.\n\n**Ermäßigung:** Nach Ablehnung vorrangiger Sozialleistungen kann bei einem Haushaltsjahreseinkommen unter 60.000 € ein Erlass von 10 %, unter 50.000 € von 20 % beantragt werden. Die Regel gilt für Krippe und Ganztagskindergarten; die Voraussetzungen sind in der Satzung beschrieben.\n\n"
+  },
+  "income_bands": [],
+  "offers": [
+    {
+      "id": "gerlingen-f07f3f9263",
+      "original_label": "VÖ, 7:30–14:00 Uhr",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2025-09-01",
+      "scope": "municipal",
+      "weekly_minutes": 1950,
+      "weekday_minutes": [
+        390,
+        390,
+        390,
+        390,
+        390
+      ],
+      "continuous": true,
+      "schedule_status": "published",
+      "schedule_evidence": {
+        "source_id": "f9eb066f5901",
+        "locator": "Gebührentabelle",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "f9eb066f5901",
+        "locator": "PDF Seite 6, Gebührenverzeichnis: zwölf Monate pro Jahr",
+        "original": null
+      },
+      "evidence": {
+        "source_id": "f9eb066f5901",
+        "locator": "PDF Seite 6, VÖ, 7:30–14:00 Uhr, u3",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "gerlingen-bcb543ded7",
+      "original_label": "Ganztag, 7:30–16:00 Uhr",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2025-09-01",
+      "scope": "municipal",
+      "weekly_minutes": 2550,
+      "weekday_minutes": [
+        510,
+        510,
+        510,
+        510,
+        510
+      ],
+      "continuous": true,
+      "schedule_status": "published",
+      "schedule_evidence": {
+        "source_id": "f9eb066f5901",
+        "locator": "Gebührentabelle",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "f9eb066f5901",
+        "locator": "PDF Seite 6, Gebührenverzeichnis: zwölf Monate pro Jahr",
+        "original": null
+      },
+      "evidence": {
+        "source_id": "f9eb066f5901",
+        "locator": "PDF Seite 6, Ganztag, 7:30–16:00 Uhr, u3",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "gerlingen-081cf67677",
+      "original_label": "VÖ, 7:30–14:00 Uhr",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": "2027-08-31",
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "weekly_minutes": 1950,
+      "weekday_minutes": [
+        390,
+        390,
+        390,
+        390,
+        390
+      ],
+      "continuous": true,
+      "schedule_status": "published",
+      "schedule_evidence": {
+        "source_id": "f9eb066f5901",
+        "locator": "Gebührentabelle",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "f9eb066f5901",
+        "locator": "PDF Seite 6, Gebührenverzeichnis: zwölf Monate pro Jahr",
+        "original": null
+      },
+      "evidence": {
+        "source_id": "f9eb066f5901",
+        "locator": "PDF Seite 6, VÖ, 7:30–14:00 Uhr, o3",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "gerlingen-98b12567fc",
+      "original_label": "Ganztag, 7:30–16:00 Uhr",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": "2027-08-31",
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "weekly_minutes": 2550,
+      "weekday_minutes": [
+        510,
+        510,
+        510,
+        510,
+        510
+      ],
+      "continuous": true,
+      "schedule_status": "published",
+      "schedule_evidence": {
+        "source_id": "f9eb066f5901",
+        "locator": "Gebührentabelle",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "f9eb066f5901",
+        "locator": "PDF Seite 6, Gebührenverzeichnis: zwölf Monate pro Jahr",
+        "original": null
+      },
+      "evidence": {
+        "source_id": "f9eb066f5901",
+        "locator": "PDF Seite 6, Ganztag, 7:30–16:00 Uhr, o3",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "gerlingen-47407dcf38",
+      "original_label": "VÖ, 7:30–14:00 Uhr",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2027-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2027-09-01",
+      "scope": "municipal",
+      "weekly_minutes": 1950,
+      "weekday_minutes": [
+        390,
+        390,
+        390,
+        390,
+        390
+      ],
+      "continuous": true,
+      "schedule_status": "published",
+      "schedule_evidence": {
+        "source_id": "f9eb066f5901",
+        "locator": "Gebührentabelle",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "f9eb066f5901",
+        "locator": "PDF Seite 6, Gebührenverzeichnis: zwölf Monate pro Jahr",
+        "original": null
+      },
+      "evidence": {
+        "source_id": "f9eb066f5901",
+        "locator": "PDF Seite 6, VÖ, 7:30–14:00 Uhr, o3",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "gerlingen-1ca607aaf4",
+      "original_label": "Ganztag, 7:30–16:00 Uhr",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2027-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2027-09-01",
+      "scope": "municipal",
+      "weekly_minutes": 2550,
+      "weekday_minutes": [
+        510,
+        510,
+        510,
+        510,
+        510
+      ],
+      "continuous": true,
+      "schedule_status": "published",
+      "schedule_evidence": {
+        "source_id": "f9eb066f5901",
+        "locator": "Gebührentabelle",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "f9eb066f5901",
+        "locator": "PDF Seite 6, Gebührenverzeichnis: zwölf Monate pro Jahr",
+        "original": null
+      },
+      "evidence": {
+        "source_id": "f9eb066f5901",
+        "locator": "PDF Seite 6, Ganztag, 7:30–16:00 Uhr, o3",
+        "original": null
+      },
+      "formula": null
+    }
+  ],
+  "prices": [
+    {
+      "id": "gerlingen-price-0001",
+      "offer_id": "gerlingen-f07f3f9263",
+      "amount_cents": 54400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f9eb066f5901",
+        "locator": "PDF Seite 6, VÖ, 7:30–14:00 Uhr, u3",
+        "original": {
+          "research_line": 201,
+          "heading": "Krippe, jüngster ausgewiesener Tarif ab 1. September 2025",
+          "row": [
+            "VÖ, 7:30–14:00 Uhr",
+            "544 €",
+            "425 €",
+            "300 €",
+            "163 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "gerlingen-price-0002",
+      "offer_id": "gerlingen-f07f3f9263",
+      "amount_cents": 42500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f9eb066f5901",
+        "locator": "PDF Seite 6, VÖ, 7:30–14:00 Uhr, u3",
+        "original": {
+          "research_line": 201,
+          "heading": "Krippe, jüngster ausgewiesener Tarif ab 1. September 2025",
+          "row": [
+            "VÖ, 7:30–14:00 Uhr",
+            "544 €",
+            "425 €",
+            "300 €",
+            "163 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "gerlingen-price-0003",
+      "offer_id": "gerlingen-f07f3f9263",
+      "amount_cents": 30000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f9eb066f5901",
+        "locator": "PDF Seite 6, VÖ, 7:30–14:00 Uhr, u3",
+        "original": {
+          "research_line": 201,
+          "heading": "Krippe, jüngster ausgewiesener Tarif ab 1. September 2025",
+          "row": [
+            "VÖ, 7:30–14:00 Uhr",
+            "544 €",
+            "425 €",
+            "300 €",
+            "163 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "gerlingen-price-0004",
+      "offer_id": "gerlingen-f07f3f9263",
+      "amount_cents": 16300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f9eb066f5901",
+        "locator": "PDF Seite 6, VÖ, 7:30–14:00 Uhr, u3",
+        "original": {
+          "research_line": 201,
+          "heading": "Krippe, jüngster ausgewiesener Tarif ab 1. September 2025",
+          "row": [
+            "VÖ, 7:30–14:00 Uhr",
+            "544 €",
+            "425 €",
+            "300 €",
+            "163 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "gerlingen-price-0005",
+      "offer_id": "gerlingen-bcb543ded7",
+      "amount_cents": 64000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f9eb066f5901",
+        "locator": "PDF Seite 6, Ganztag, 7:30–16:00 Uhr, u3",
+        "original": {
+          "research_line": 201,
+          "heading": "Krippe, jüngster ausgewiesener Tarif ab 1. September 2025",
+          "row": [
+            "Ganztag, 7:30–16:00 Uhr",
+            "640 €",
+            "520 €",
+            "351 €",
+            "191 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "gerlingen-price-0006",
+      "offer_id": "gerlingen-bcb543ded7",
+      "amount_cents": 52000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f9eb066f5901",
+        "locator": "PDF Seite 6, Ganztag, 7:30–16:00 Uhr, u3",
+        "original": {
+          "research_line": 201,
+          "heading": "Krippe, jüngster ausgewiesener Tarif ab 1. September 2025",
+          "row": [
+            "Ganztag, 7:30–16:00 Uhr",
+            "640 €",
+            "520 €",
+            "351 €",
+            "191 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "gerlingen-price-0007",
+      "offer_id": "gerlingen-bcb543ded7",
+      "amount_cents": 35100,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f9eb066f5901",
+        "locator": "PDF Seite 6, Ganztag, 7:30–16:00 Uhr, u3",
+        "original": {
+          "research_line": 201,
+          "heading": "Krippe, jüngster ausgewiesener Tarif ab 1. September 2025",
+          "row": [
+            "Ganztag, 7:30–16:00 Uhr",
+            "640 €",
+            "520 €",
+            "351 €",
+            "191 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "gerlingen-price-0008",
+      "offer_id": "gerlingen-bcb543ded7",
+      "amount_cents": 19100,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f9eb066f5901",
+        "locator": "PDF Seite 6, Ganztag, 7:30–16:00 Uhr, u3",
+        "original": {
+          "research_line": 201,
+          "heading": "Krippe, jüngster ausgewiesener Tarif ab 1. September 2025",
+          "row": [
+            "Ganztag, 7:30–16:00 Uhr",
+            "640 €",
+            "520 €",
+            "351 €",
+            "191 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "gerlingen-price-0009",
+      "offer_id": "gerlingen-081cf67677",
+      "amount_cents": 19500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f9eb066f5901",
+        "locator": "PDF Seite 6, VÖ, 7:30–14:00 Uhr, o3",
+        "original": {
+          "research_line": 208,
+          "heading": "Kindergarten, gültig ab 1. September 2026",
+          "row": [
+            "VÖ, 7:30–14:00 Uhr",
+            "195 €",
+            "148 €",
+            "99 €",
+            "51 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "gerlingen-price-0010",
+      "offer_id": "gerlingen-081cf67677",
+      "amount_cents": 14800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f9eb066f5901",
+        "locator": "PDF Seite 6, VÖ, 7:30–14:00 Uhr, o3",
+        "original": {
+          "research_line": 208,
+          "heading": "Kindergarten, gültig ab 1. September 2026",
+          "row": [
+            "VÖ, 7:30–14:00 Uhr",
+            "195 €",
+            "148 €",
+            "99 €",
+            "51 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "gerlingen-price-0011",
+      "offer_id": "gerlingen-081cf67677",
+      "amount_cents": 9900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f9eb066f5901",
+        "locator": "PDF Seite 6, VÖ, 7:30–14:00 Uhr, o3",
+        "original": {
+          "research_line": 208,
+          "heading": "Kindergarten, gültig ab 1. September 2026",
+          "row": [
+            "VÖ, 7:30–14:00 Uhr",
+            "195 €",
+            "148 €",
+            "99 €",
+            "51 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "gerlingen-price-0012",
+      "offer_id": "gerlingen-081cf67677",
+      "amount_cents": 5100,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f9eb066f5901",
+        "locator": "PDF Seite 6, VÖ, 7:30–14:00 Uhr, o3",
+        "original": {
+          "research_line": 208,
+          "heading": "Kindergarten, gültig ab 1. September 2026",
+          "row": [
+            "VÖ, 7:30–14:00 Uhr",
+            "195 €",
+            "148 €",
+            "99 €",
+            "51 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "gerlingen-price-0013",
+      "offer_id": "gerlingen-98b12567fc",
+      "amount_cents": 37900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f9eb066f5901",
+        "locator": "PDF Seite 6, Ganztag, 7:30–16:00 Uhr, o3",
+        "original": {
+          "research_line": 208,
+          "heading": "Kindergarten, gültig ab 1. September 2026",
+          "row": [
+            "Ganztag, 7:30–16:00 Uhr",
+            "379 €",
+            "280 €",
+            "208 €",
+            "112 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "gerlingen-price-0014",
+      "offer_id": "gerlingen-98b12567fc",
+      "amount_cents": 28000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f9eb066f5901",
+        "locator": "PDF Seite 6, Ganztag, 7:30–16:00 Uhr, o3",
+        "original": {
+          "research_line": 208,
+          "heading": "Kindergarten, gültig ab 1. September 2026",
+          "row": [
+            "Ganztag, 7:30–16:00 Uhr",
+            "379 €",
+            "280 €",
+            "208 €",
+            "112 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "gerlingen-price-0015",
+      "offer_id": "gerlingen-98b12567fc",
+      "amount_cents": 20800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f9eb066f5901",
+        "locator": "PDF Seite 6, Ganztag, 7:30–16:00 Uhr, o3",
+        "original": {
+          "research_line": 208,
+          "heading": "Kindergarten, gültig ab 1. September 2026",
+          "row": [
+            "Ganztag, 7:30–16:00 Uhr",
+            "379 €",
+            "280 €",
+            "208 €",
+            "112 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "gerlingen-price-0016",
+      "offer_id": "gerlingen-98b12567fc",
+      "amount_cents": 11200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f9eb066f5901",
+        "locator": "PDF Seite 6, Ganztag, 7:30–16:00 Uhr, o3",
+        "original": {
+          "research_line": 208,
+          "heading": "Kindergarten, gültig ab 1. September 2026",
+          "row": [
+            "Ganztag, 7:30–16:00 Uhr",
+            "379 €",
+            "280 €",
+            "208 €",
+            "112 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "gerlingen-price-0017",
+      "offer_id": "gerlingen-47407dcf38",
+      "amount_cents": 20300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f9eb066f5901",
+        "locator": "PDF Seite 6, VÖ, 7:30–14:00 Uhr, o3",
+        "original": "Gebührenverzeichnis, Seite 6: ab 1. September 2027"
+      }
+    },
+    {
+      "id": "gerlingen-price-0018",
+      "offer_id": "gerlingen-47407dcf38",
+      "amount_cents": 15400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f9eb066f5901",
+        "locator": "PDF Seite 6, VÖ, 7:30–14:00 Uhr, o3",
+        "original": "Gebührenverzeichnis, Seite 6: ab 1. September 2027"
+      }
+    },
+    {
+      "id": "gerlingen-price-0019",
+      "offer_id": "gerlingen-47407dcf38",
+      "amount_cents": 10300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f9eb066f5901",
+        "locator": "PDF Seite 6, VÖ, 7:30–14:00 Uhr, o3",
+        "original": "Gebührenverzeichnis, Seite 6: ab 1. September 2027"
+      }
+    },
+    {
+      "id": "gerlingen-price-0020",
+      "offer_id": "gerlingen-47407dcf38",
+      "amount_cents": 5300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f9eb066f5901",
+        "locator": "PDF Seite 6, VÖ, 7:30–14:00 Uhr, o3",
+        "original": "Gebührenverzeichnis, Seite 6: ab 1. September 2027"
+      }
+    },
+    {
+      "id": "gerlingen-price-0021",
+      "offer_id": "gerlingen-1ca607aaf4",
+      "amount_cents": 39400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f9eb066f5901",
+        "locator": "PDF Seite 6, Ganztag, 7:30–16:00 Uhr, o3",
+        "original": "Gebührenverzeichnis, Seite 6: ab 1. September 2027"
+      }
+    },
+    {
+      "id": "gerlingen-price-0022",
+      "offer_id": "gerlingen-1ca607aaf4",
+      "amount_cents": 29100,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f9eb066f5901",
+        "locator": "PDF Seite 6, Ganztag, 7:30–16:00 Uhr, o3",
+        "original": "Gebührenverzeichnis, Seite 6: ab 1. September 2027"
+      }
+    },
+    {
+      "id": "gerlingen-price-0023",
+      "offer_id": "gerlingen-1ca607aaf4",
+      "amount_cents": 21600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f9eb066f5901",
+        "locator": "PDF Seite 6, Ganztag, 7:30–16:00 Uhr, o3",
+        "original": "Gebührenverzeichnis, Seite 6: ab 1. September 2027"
+      }
+    },
+    {
+      "id": "gerlingen-price-0024",
+      "offer_id": "gerlingen-1ca607aaf4",
+      "amount_cents": 11600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f9eb066f5901",
+        "locator": "PDF Seite 6, Ganztag, 7:30–16:00 Uhr, o3",
+        "original": "Gebührenverzeichnis, Seite 6: ab 1. September 2027"
+      }
+    }
+  ],
+  "components": [
+    {
+      "id": "gerlingen-component-001",
+      "kind": "meal",
+      "original_label": "Verpflegungspauschale",
+      "amount_cents": 6900,
+      "unit": "per_month",
+      "age_group": null,
+      "offer_ids": null,
+      "required": null,
+      "payment_months": 12,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "f9eb066f5901",
+        "locator": "Verpflegung",
+        "original": null
+      }
+    },
+    {
+      "id": "gerlingen-component-002",
+      "kind": "meal",
+      "original_label": "Verpflegung Tagessatz",
+      "amount_cents": 375,
+      "unit": "per_meal",
+      "age_group": null,
+      "offer_ids": null,
+      "required": null,
+      "payment_months": null,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "f9eb066f5901",
+        "locator": "Verpflegung",
+        "original": null
+      },
+      "alternative_to": "monthly_meal"
+    }
+  ],
+  "rules": [
+    {
+      "id": "income_reduction",
+      "kind": "income_discount",
+      "parameters": {
+        "bands": [
+          {
+            "below_cents": 5000000,
+            "percent": 20
+          },
+          {
+            "below_cents": 6000000,
+            "percent": 10
+          }
+        ],
+        "income_basis": "gerlingen_household_income",
+        "income_period": "year",
+        "components": [
+          "care"
+        ],
+        "offer_groups": [
+          "u3",
+          "gt"
+        ]
+      },
+      "requires": [
+        "priority_benefits_denied"
+      ],
+      "stackable": false,
+      "execution_status": "supported",
+      "evidence": {
+        "source_id": "f9eb066f5901",
+        "locator": "Gebührenermäßigung",
+        "original": null
+      }
+    }
+  ],
+  "issues": [
+    {
+      "code": "older_u3_price_date",
+      "detail": "Current consolidated ordinance preserves the explicitly dated September 2025 U3 table."
+    }
+  ],
+  "source_text_archive": "data/sources/f9eb066f5901/text.txt",
+  "coverage": {
+    "care_tables": "transferred",
+    "income_tables": "transferred_or_not_applicable",
+    "family_tables": "transferred",
+    "rules": "source_text_preserved_with_supported_subset",
+    "exceptions": "source_text_preserved",
+    "reviewed_at": "2026-11-07"
+  },
+  "age_transition": "age_group_at_reference_date",
+  "supporting_source_ids": [
+    "7d43ca4c6397",
+    "b87d78be66a3",
+    "f9eb066f5901"
+  ]
+}

@@ -1,0 +1,5784 @@
+{
+  "schema_version": "1.0",
+  "id": "ditzingen",
+  "name": "Ditzingen",
+  "reviewed_at": "2026-11-07",
+  "reference_date": "2026-11-04",
+  "scope": {
+    "included": [
+      "municipal"
+    ],
+    "other_providers": "only_with_explicit_source_evidence",
+    "also_included": []
+  },
+  "family_basis": "child_benefit",
+  "family_evidence": {
+    "source_id": "e3a01305341e",
+    "locator": "Gebührenmaßstab / Familienbegriff",
+    "original": null
+  },
+  "payment_months": 12,
+  "payment_evidence": {
+    "source_id": "e3a01305341e",
+    "locator": "§3 Abs. 3 und §5: monatliche Erhebung auch ohne tatsächlichen Besuch, keine Ferienausnahme",
+    "original": null
+  },
+  "original_research": {
+    "path": "data/imported/research_2026-11-04.md",
+    "section": "Ditzingen",
+    "text": "\n### Quellen und Gültigkeit\n\n- [Gebührenseite der Stadt Ditzingen](https://www.ditzingen.de/leben-wohnen/familien/kindertageseinrichtungen-1), abgerufen am 4. November 2026.\n- [Gebührensatzung mit Anlagen](https://www.ditzingen.de/fileadmin/Dateien/Cross7/Startseite/Service_%26_Rathaus/Ortsrecht/4.02_Gebuhrensatzung_fur_die_stadtischen_Kindertageseinrichtungen.pdf). Die Satzung verweist auf eine Änderung vom 29. Juli 2025, gültig ab 1. September 2025; die Anlagen enthalten Tabellenstände ab 1. Januar 2026.\n- [Kommunale Gebührenwebseite mit Tarifen ab 1. Januar 2027](https://www.ditzingen.de/leben-wohnen/familien/kindertageseinrichtungen-1). Die dort verlinkte [Änderungssatzung ab 1. Januar 2027](https://www.ditzingen.de/fileadmin/Dateien/Cross7/Startseite/Service_%26_Rathaus/Ortsrecht/Anderungssatzung_Kita_01.01.2027.pdf) ließ sich über den PDF-Viewer nicht abrufen; die Stadt veröffentlicht jedoch die vollständigen neuen Gebührentabellen direkt auf ihrer Gebührenseite.\n\nDie Stadt weist darauf hin, dass sich die Benutzungsgebühr aus Betreuung und Verpflegung zusammensetzt. Die Satzung gilt für städtische Kindertageseinrichtungen. Ganztagsbeiträge sind nach zu versteuerndem Einkommen des Vorjahres gestaffelt. Die nachfolgenden Beträge entsprechen den auf der kommunalen Seite bzw. in den Anlagen ausgewiesenen Tabellen für 2026.\n\n### Kinder ab 3 Jahren – gültig ab 1. Januar 2026\n\n| Betreuungsmodell | Einkommensstufe (Ganztag) | 1 Kind | 2 Kinder | 3 Kinder | 4+ Kinder | Essen je Kind/Monat |\n|---|---:|---:|---:|---:|---:|---:|\n| Regelbetreuung, max. 30 Std./Woche | – | 145 € | 110 € | 74 € | 30 € | 0 € |\n| VÖ, max. 30 Std./Woche | – | 154 € | 120 € | 79 € | 32 € | 58 € |\n| VÖ, max. 35 Std./Woche | – | 178 € | 136 € | 92 € | 37 € | 58 € |\n| Ganztag, 45 Std./Woche | bis 35.000 € | 318 € | 245 € | 162 € | 66 € | 88 € |\n| Ganztag, 45 Std./Woche | 35.001–50.000 € | 357 € | 275 € | 182 € | 75 € | 88 € |\n| Ganztag, 45 Std./Woche | 50.001–70.000 € | 397 € | 306 € | 202 € | 83 € | 88 € |\n| Ganztag, 45 Std./Woche | über 70.001 € | 437 € | 337 € | 222 € | 91 € | 88 € |\n| Ganztag, 50 Std./Woche | bis 35.000 € | 354 € | 272 € | 179 € | 73 € | 88 € |\n| Ganztag, 50 Std./Woche | 35.001–50.000 € | 398 € | 306 € | 202 € | 82 € | 88 € |\n| Ganztag, 50 Std./Woche | 50.001–70.000 € | 442 € | 340 € | 224 € | 91 € | 88 € |\n| Ganztag, 50 Std./Woche | über 70.001 € | 486 € | 374 € | 246 € | 100 € | 88 € |\n\n### Kinder von 1 bis 3 Jahren – gültig ab 1. Januar 2026\n\n| Betreuungsmodell | Einkommensstufe (Ganztag) | 1 Kind | 2 Kinder | 3 Kinder | 4+ Kinder | Essen je Kind/Monat |\n|---|---:|---:|---:|---:|---:|---:|\n| VÖ, max. 30 Std./Woche | – | 331 € | 254 € | 167 € | 67 € | 58 € |\n| VÖ, max. 35 Std./Woche | – | 386 € | 295 € | 196 € | 80 € | 58 € |\n| Ganztag, 45 Std./Woche | bis 35.000 € | 462 € | 356 € | 235 € | 96 € | 88 € |\n| Ganztag, 45 Std./Woche | 35.001–50.000 € | 520 € | 401 € | 265 € | 108 € | 88 € |\n| Ganztag, 45 Std./Woche | 50.001–70.000 € | 578 € | 445 € | 294 € | 120 € | 88 € |\n| Ganztag, 45 Std./Woche | über 70.001 € | 636 € | 490 € | 323 € | 132 € | 88 € |\n| Ganztag, 50 Std./Woche | bis 35.000 € | 513 € | 394 € | 262 € | 107 € | 88 € |\n| Ganztag, 50 Std./Woche | 35.001–50.000 € | 577 € | 444 € | 294 € | 121 € | 88 € |\n| Ganztag, 50 Std./Woche | 50.001–70.000 € | 641 € | 493 € | 327 € | 134 € | 88 € |\n| Ganztag, 50 Std./Woche | über 70.001 € | 705 € | 542 € | 360 € | 147 € | 88 € |\n\n### Künftige Tarife ab 1. Januar 2027\n\nDie Stadt hat die folgenden Werte auf ihrer offiziellen Gebührenseite veröffentlicht. Sie sind **künftige**, nicht am Prüfdatum (4. November 2026) geltende Tarife. Die Tabelle 2027 führt Ganztag mit 45 Std./Woche auf; ein 50-Stunden-Tarif ist dort nicht ausgewiesen.\n\n| Ü3-Modell / Einkommensstufe | 1 Kind | 2 Kinder | 3 Kinder | 4+ Kinder | Essen/Kind/Monat |\n|---|---:|---:|---:|---:|---:|\n| RG, max. 30 Std./Woche | 154 € | 117 € | 78 € | 32 € | 0 € |\n| VÖ, max. 30 Std./Woche | 166 € | 130 € | 85 € | 35 € | 58 € |\n| VÖ, max. 35 Std./Woche | 192 € | 147 € | 99 € | 40 € | 58 € |\n| GT, 45 Std./Woche, zvE bis 35.000 € | 332 € | 256 € | 169 € | 69 € | 88 € |\n| GT, 45 Std./Woche, zvE 35.001–50.000 € | 373 € | 288 € | 190 € | 78 € | 88 € |\n| GT, 45 Std./Woche, zvE 50.001–70.000 € | 415 € | 320 € | 211 € | 87 € | 88 € |\n| GT, 45 Std./Woche, wörtlich: „mehr als 70.001 €“ | 456 € | 352 € | 232 € | 95 € | 88 € |\n\n| U3-Modell / Einkommensstufe | 1 Kind | 2 Kinder | 3 Kinder | 4+ Kinder | Essen/Kind/Monat |\n|---|---:|---:|---:|---:|---:|\n| VÖ, max. 30 Std./Woche | 361 € | 277 € | 182 € | 73 € | 58 € |\n| VÖ, max. 35 Std./Woche | 421 € | 322 € | 214 € | 87 € | 58 € |\n| GT, 45 Std./Woche, zvE bis 35.000 € | 496 € | 382 € | 252 € | 103 € | 88 € |\n| GT, 45 Std./Woche, zvE 35.001–50.000 € | 558 € | 430 € | 284 € | 116 € | 88 € |\n| GT, 45 Std./Woche, zvE 50.001–70.000 € | 620 € | 477 € | 315 € | 129 € | 88 € |\n| GT, 45 Std./Woche, wörtlich: „mehr als 70.001 €“ | 682 € | 525 € | 347 € | 142 € | 88 € |\n\n**Quellenhinweis zur Einkommensgrenze:** Die Stadtseite verwendet wörtlich „mehr als 70.001 €“, wodurch der Grenzfall 70.001 € nicht eindeutig eingeordnet ist. Die veröffentlichte Intervallformulierung wird nicht eigenmächtig korrigiert; vor einer automatischen Berechnung muss sie mit der Änderungssatzung oder der Stadt geklärt werden.\n\n### Ditzingen: dokumentierte Bedingungen und offene Prüfung\n\n- Die Gebühren beziehen sich auf einen Kalendermonat und werden monatlich eingezogen.\n- Für Ganztag ist die Einkommensgrundlage laut Satzung das zu versteuernde Einkommen des Vorjahres.\n- Die Betreuungspreise sind nach der Zahl der Kinder in der Familie gestaffelt. Die genaue Definition der berücksichtigten Kinder ist in der Satzung geregelt.\n- Die Satzung sieht eine Ermäßigung über den Ditzinger Familienpass vor; Verpflegungsgebühren sind davon ausgenommen.\n- Die 2027-Tarifwerte sind der städtischen Webseite entnommen. Die Änderungssatzung selbst bleibt wegen eines nicht ladenden PDF-Links ungeprüft; die missverständliche Einkommensgrenze „mehr als 70.001 €“ ist eine dokumentierte Klärungsfrage.\n- Der Eintrag zur Ganztagsgebühr „über 70.001 €“ ist wörtlich aus der Tabelle übernommen; die Intervallgrenze muss beim PDF-Abgleich auf mögliche Rundungs-/Grenzformulierungen geprüft werden.\n\n"
+  },
+  "income_bands": [
+    {
+      "id": "tax-0",
+      "basis": "taxable_income",
+      "period": "year",
+      "reference_period": "previous_year",
+      "lower_cents": null,
+      "upper_cents": 3500000,
+      "lower_inclusive": true,
+      "upper_inclusive": true,
+      "is_highest": false,
+      "single_parent": null,
+      "original_label": "bis 35.000 €",
+      "evidence": {
+        "source_id": "e3a01305341e",
+        "locator": "Einkommensstaffel",
+        "original": "bis 35.000 €"
+      }
+    },
+    {
+      "id": "tax-1",
+      "basis": "taxable_income",
+      "period": "year",
+      "reference_period": "previous_year",
+      "lower_cents": 3500100,
+      "upper_cents": 5000000,
+      "lower_inclusive": true,
+      "upper_inclusive": true,
+      "is_highest": false,
+      "single_parent": null,
+      "original_label": "35.001–50.000 €",
+      "evidence": {
+        "source_id": "e3a01305341e",
+        "locator": "Einkommensstaffel",
+        "original": "35.001–50.000 €"
+      }
+    },
+    {
+      "id": "tax-2",
+      "basis": "taxable_income",
+      "period": "year",
+      "reference_period": "previous_year",
+      "lower_cents": 5000100,
+      "upper_cents": 7000000,
+      "lower_inclusive": true,
+      "upper_inclusive": true,
+      "is_highest": false,
+      "single_parent": null,
+      "original_label": "50.001–70.000 €",
+      "evidence": {
+        "source_id": "e3a01305341e",
+        "locator": "Einkommensstaffel",
+        "original": "50.001–70.000 €"
+      }
+    },
+    {
+      "id": "tax-3",
+      "basis": "taxable_income",
+      "period": "year",
+      "reference_period": "previous_year",
+      "lower_cents": 7000100,
+      "upper_cents": null,
+      "lower_inclusive": false,
+      "upper_inclusive": true,
+      "is_highest": true,
+      "single_parent": null,
+      "original_label": "über 70.001 €",
+      "evidence": {
+        "source_id": "e3a01305341e",
+        "locator": "Einkommensstaffel",
+        "original": "über 70.001 €"
+      }
+    }
+  ],
+  "offers": [
+    {
+      "id": "ditzingen-664f24bb6d",
+      "original_label": "Regelbetreuung, max. 30 Std./Woche",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-01-01",
+      "valid_to": "2026-12-31",
+      "original_price_valid_from": "2026-01-01",
+      "scope": "municipal",
+      "weekly_minutes": 1800,
+      "weekday_minutes": [
+        360,
+        360,
+        360,
+        360,
+        360
+      ],
+      "continuous": false,
+      "schedule_status": "published",
+      "schedule_evidence": {
+        "source_id": "e3a01305341e",
+        "locator": "Gebührentabelle",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "e3a01305341e",
+        "locator": "§3 Abs. 3 und §5: monatliche Erhebung auch ohne tatsächlichen Besuch, keine Ferienausnahme",
+        "original": null
+      },
+      "evidence": {
+        "source_id": "e3a01305341e",
+        "locator": "PDF Seite 10, Regelbetreuung, max. 30 Std./Woche, o3",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "ditzingen-28491a8e01",
+      "original_label": "VÖ, max. 30 Std./Woche",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-01-01",
+      "valid_to": "2026-12-31",
+      "original_price_valid_from": "2026-01-01",
+      "scope": "municipal",
+      "weekly_minutes": 1800,
+      "weekday_minutes": [
+        360,
+        360,
+        360,
+        360,
+        360
+      ],
+      "continuous": true,
+      "schedule_status": "published",
+      "schedule_evidence": {
+        "source_id": "e3a01305341e",
+        "locator": "Gebührentabelle",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "e3a01305341e",
+        "locator": "§3 Abs. 3 und §5: monatliche Erhebung auch ohne tatsächlichen Besuch, keine Ferienausnahme",
+        "original": null
+      },
+      "evidence": {
+        "source_id": "e3a01305341e",
+        "locator": "PDF Seite 10, VÖ, max. 30 Std./Woche, o3",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "ditzingen-56f1026223",
+      "original_label": "VÖ, max. 35 Std./Woche",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-01-01",
+      "valid_to": "2026-12-31",
+      "original_price_valid_from": "2026-01-01",
+      "scope": "municipal",
+      "weekly_minutes": 2100,
+      "weekday_minutes": [
+        420,
+        420,
+        420,
+        420,
+        420
+      ],
+      "continuous": true,
+      "schedule_status": "published",
+      "schedule_evidence": {
+        "source_id": "e3a01305341e",
+        "locator": "Gebührentabelle",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "e3a01305341e",
+        "locator": "§3 Abs. 3 und §5: monatliche Erhebung auch ohne tatsächlichen Besuch, keine Ferienausnahme",
+        "original": null
+      },
+      "evidence": {
+        "source_id": "e3a01305341e",
+        "locator": "PDF Seite 10, VÖ, max. 35 Std./Woche, o3",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "ditzingen-78b2c4cb91",
+      "original_label": "GT 45 Std./Woche",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-01-01",
+      "valid_to": "2026-12-31",
+      "original_price_valid_from": "2026-01-01",
+      "scope": "municipal",
+      "weekly_minutes": 2700,
+      "weekday_minutes": [
+        540,
+        540,
+        540,
+        540,
+        540
+      ],
+      "continuous": true,
+      "schedule_status": "published",
+      "schedule_evidence": {
+        "source_id": "e3a01305341e",
+        "locator": "Gebührentabelle",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "e3a01305341e",
+        "locator": "§3 Abs. 3 und §5: monatliche Erhebung auch ohne tatsächlichen Besuch, keine Ferienausnahme",
+        "original": null
+      },
+      "evidence": {
+        "source_id": "e3a01305341e",
+        "locator": "PDF Seite 10, GT 45 Std./Woche, o3",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "ditzingen-a15bb78d59",
+      "original_label": "GT 50 Std./Woche",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-01-01",
+      "valid_to": "2026-12-31",
+      "original_price_valid_from": "2026-01-01",
+      "scope": "municipal",
+      "weekly_minutes": 3000,
+      "weekday_minutes": [
+        600,
+        600,
+        600,
+        600,
+        600
+      ],
+      "continuous": true,
+      "schedule_status": "published",
+      "schedule_evidence": {
+        "source_id": "e3a01305341e",
+        "locator": "Gebührentabelle",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "e3a01305341e",
+        "locator": "§3 Abs. 3 und §5: monatliche Erhebung auch ohne tatsächlichen Besuch, keine Ferienausnahme",
+        "original": null
+      },
+      "evidence": {
+        "source_id": "e3a01305341e",
+        "locator": "PDF Seite 10, GT 50 Std./Woche, o3",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "ditzingen-b4af77f520",
+      "original_label": "VÖ, max. 30 Std./Woche",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-01-01",
+      "valid_to": "2026-12-31",
+      "original_price_valid_from": "2026-01-01",
+      "scope": "municipal",
+      "weekly_minutes": 1800,
+      "weekday_minutes": [
+        360,
+        360,
+        360,
+        360,
+        360
+      ],
+      "continuous": true,
+      "schedule_status": "published",
+      "schedule_evidence": {
+        "source_id": "e3a01305341e",
+        "locator": "Gebührentabelle",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "e3a01305341e",
+        "locator": "§3 Abs. 3 und §5: monatliche Erhebung auch ohne tatsächlichen Besuch, keine Ferienausnahme",
+        "original": null
+      },
+      "evidence": {
+        "source_id": "e3a01305341e",
+        "locator": "PDF Seite 11, VÖ, max. 30 Std./Woche, u3",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "ditzingen-55280dfdbd",
+      "original_label": "VÖ, max. 35 Std./Woche",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-01-01",
+      "valid_to": "2026-12-31",
+      "original_price_valid_from": "2026-01-01",
+      "scope": "municipal",
+      "weekly_minutes": 2100,
+      "weekday_minutes": [
+        420,
+        420,
+        420,
+        420,
+        420
+      ],
+      "continuous": true,
+      "schedule_status": "published",
+      "schedule_evidence": {
+        "source_id": "e3a01305341e",
+        "locator": "Gebührentabelle",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "e3a01305341e",
+        "locator": "§3 Abs. 3 und §5: monatliche Erhebung auch ohne tatsächlichen Besuch, keine Ferienausnahme",
+        "original": null
+      },
+      "evidence": {
+        "source_id": "e3a01305341e",
+        "locator": "PDF Seite 11, VÖ, max. 35 Std./Woche, u3",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "ditzingen-364e50ed1d",
+      "original_label": "GT 45 Std./Woche",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-01-01",
+      "valid_to": "2026-12-31",
+      "original_price_valid_from": "2026-01-01",
+      "scope": "municipal",
+      "weekly_minutes": 2700,
+      "weekday_minutes": [
+        540,
+        540,
+        540,
+        540,
+        540
+      ],
+      "continuous": true,
+      "schedule_status": "published",
+      "schedule_evidence": {
+        "source_id": "e3a01305341e",
+        "locator": "Gebührentabelle",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "e3a01305341e",
+        "locator": "§3 Abs. 3 und §5: monatliche Erhebung auch ohne tatsächlichen Besuch, keine Ferienausnahme",
+        "original": null
+      },
+      "evidence": {
+        "source_id": "e3a01305341e",
+        "locator": "PDF Seite 11, GT 45 Std./Woche, u3",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "ditzingen-36855bd004",
+      "original_label": "GT 50 Std./Woche",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-01-01",
+      "valid_to": "2026-12-31",
+      "original_price_valid_from": "2026-01-01",
+      "scope": "municipal",
+      "weekly_minutes": 3000,
+      "weekday_minutes": [
+        600,
+        600,
+        600,
+        600,
+        600
+      ],
+      "continuous": true,
+      "schedule_status": "published",
+      "schedule_evidence": {
+        "source_id": "e3a01305341e",
+        "locator": "Gebührentabelle",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "e3a01305341e",
+        "locator": "§3 Abs. 3 und §5: monatliche Erhebung auch ohne tatsächlichen Besuch, keine Ferienausnahme",
+        "original": null
+      },
+      "evidence": {
+        "source_id": "e3a01305341e",
+        "locator": "PDF Seite 11, GT 50 Std./Woche, u3",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "ditzingen-1c83bf4d71",
+      "original_label": "RG, max. 30 Std./Woche",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2027-01-01",
+      "valid_to": null,
+      "original_price_valid_from": "2027-01-01",
+      "scope": "municipal",
+      "weekly_minutes": 1800,
+      "weekday_minutes": [
+        360,
+        360,
+        360,
+        360,
+        360
+      ],
+      "continuous": false,
+      "schedule_status": "published",
+      "schedule_evidence": {
+        "source_id": "55caf2cb4eb8",
+        "locator": "Gebührentabelle",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "e3a01305341e",
+        "locator": "§3 Abs. 3 und §5: monatliche Erhebung auch ohne tatsächlichen Besuch, keine Ferienausnahme",
+        "original": null
+      },
+      "evidence": {
+        "source_id": "ad138a5bccc4",
+        "locator": "PDF Seite 2, Anlage 1 ab 01.01.2027, visuell geprüft",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "ditzingen-1c66f7dd7e",
+      "original_label": "VÖ, max. 30 Std./Woche",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2027-01-01",
+      "valid_to": null,
+      "original_price_valid_from": "2027-01-01",
+      "scope": "municipal",
+      "weekly_minutes": 1800,
+      "weekday_minutes": [
+        360,
+        360,
+        360,
+        360,
+        360
+      ],
+      "continuous": true,
+      "schedule_status": "published",
+      "schedule_evidence": {
+        "source_id": "55caf2cb4eb8",
+        "locator": "Gebührentabelle",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "e3a01305341e",
+        "locator": "§3 Abs. 3 und §5: monatliche Erhebung auch ohne tatsächlichen Besuch, keine Ferienausnahme",
+        "original": null
+      },
+      "evidence": {
+        "source_id": "ad138a5bccc4",
+        "locator": "PDF Seite 2, Anlage 1 ab 01.01.2027, visuell geprüft",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "ditzingen-1e7d048b08",
+      "original_label": "VÖ, max. 35 Std./Woche",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2027-01-01",
+      "valid_to": null,
+      "original_price_valid_from": "2027-01-01",
+      "scope": "municipal",
+      "weekly_minutes": 2100,
+      "weekday_minutes": [
+        420,
+        420,
+        420,
+        420,
+        420
+      ],
+      "continuous": true,
+      "schedule_status": "published",
+      "schedule_evidence": {
+        "source_id": "55caf2cb4eb8",
+        "locator": "Gebührentabelle",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "e3a01305341e",
+        "locator": "§3 Abs. 3 und §5: monatliche Erhebung auch ohne tatsächlichen Besuch, keine Ferienausnahme",
+        "original": null
+      },
+      "evidence": {
+        "source_id": "ad138a5bccc4",
+        "locator": "PDF Seite 2, Anlage 1 ab 01.01.2027, visuell geprüft",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "ditzingen-d28b6f0c5b",
+      "original_label": "GT 45 Std./Woche",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2027-01-01",
+      "valid_to": null,
+      "original_price_valid_from": "2027-01-01",
+      "scope": "municipal",
+      "weekly_minutes": 2700,
+      "weekday_minutes": [
+        540,
+        540,
+        540,
+        540,
+        540
+      ],
+      "continuous": true,
+      "schedule_status": "published",
+      "schedule_evidence": {
+        "source_id": "55caf2cb4eb8",
+        "locator": "Gebührentabelle",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "e3a01305341e",
+        "locator": "§3 Abs. 3 und §5: monatliche Erhebung auch ohne tatsächlichen Besuch, keine Ferienausnahme",
+        "original": null
+      },
+      "evidence": {
+        "source_id": "ad138a5bccc4",
+        "locator": "PDF Seite 2, Anlage 1 ab 01.01.2027, visuell geprüft",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "ditzingen-9abf5a26c2",
+      "original_label": "VÖ, max. 30 Std./Woche",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2027-01-01",
+      "valid_to": null,
+      "original_price_valid_from": "2027-01-01",
+      "scope": "municipal",
+      "weekly_minutes": 1800,
+      "weekday_minutes": [
+        360,
+        360,
+        360,
+        360,
+        360
+      ],
+      "continuous": true,
+      "schedule_status": "published",
+      "schedule_evidence": {
+        "source_id": "55caf2cb4eb8",
+        "locator": "Gebührentabelle",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "e3a01305341e",
+        "locator": "§3 Abs. 3 und §5: monatliche Erhebung auch ohne tatsächlichen Besuch, keine Ferienausnahme",
+        "original": null
+      },
+      "evidence": {
+        "source_id": "ad138a5bccc4",
+        "locator": "PDF Seite 3, Anlage 2 ab 01.01.2027, visuell geprüft",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "ditzingen-f6c8c01f42",
+      "original_label": "VÖ, max. 35 Std./Woche",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2027-01-01",
+      "valid_to": null,
+      "original_price_valid_from": "2027-01-01",
+      "scope": "municipal",
+      "weekly_minutes": 2100,
+      "weekday_minutes": [
+        420,
+        420,
+        420,
+        420,
+        420
+      ],
+      "continuous": true,
+      "schedule_status": "published",
+      "schedule_evidence": {
+        "source_id": "55caf2cb4eb8",
+        "locator": "Gebührentabelle",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "e3a01305341e",
+        "locator": "§3 Abs. 3 und §5: monatliche Erhebung auch ohne tatsächlichen Besuch, keine Ferienausnahme",
+        "original": null
+      },
+      "evidence": {
+        "source_id": "ad138a5bccc4",
+        "locator": "PDF Seite 3, Anlage 2 ab 01.01.2027, visuell geprüft",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "ditzingen-55eccb52be",
+      "original_label": "GT 45 Std./Woche",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2027-01-01",
+      "valid_to": null,
+      "original_price_valid_from": "2027-01-01",
+      "scope": "municipal",
+      "weekly_minutes": 2700,
+      "weekday_minutes": [
+        540,
+        540,
+        540,
+        540,
+        540
+      ],
+      "continuous": true,
+      "schedule_status": "published",
+      "schedule_evidence": {
+        "source_id": "55caf2cb4eb8",
+        "locator": "Gebührentabelle",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "e3a01305341e",
+        "locator": "§3 Abs. 3 und §5: monatliche Erhebung auch ohne tatsächlichen Besuch, keine Ferienausnahme",
+        "original": null
+      },
+      "evidence": {
+        "source_id": "ad138a5bccc4",
+        "locator": "PDF Seite 3, Anlage 2 ab 01.01.2027, visuell geprüft",
+        "original": null
+      },
+      "formula": null
+    }
+  ],
+  "prices": [
+    {
+      "id": "ditzingen-price-0001",
+      "offer_id": "ditzingen-664f24bb6d",
+      "amount_cents": 14500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "e3a01305341e",
+        "locator": "PDF Seite 10, Regelbetreuung, max. 30 Std./Woche, o3",
+        "original": {
+          "research_line": 21,
+          "heading": "Kinder ab 3 Jahren – gültig ab 1. Januar 2026",
+          "row": [
+            "Regelbetreuung, max. 30 Std./Woche",
+            "–",
+            "145 €",
+            "110 €",
+            "74 €",
+            "30 €",
+            "0 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ditzingen-price-0002",
+      "offer_id": "ditzingen-664f24bb6d",
+      "amount_cents": 11000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "e3a01305341e",
+        "locator": "PDF Seite 10, Regelbetreuung, max. 30 Std./Woche, o3",
+        "original": {
+          "research_line": 21,
+          "heading": "Kinder ab 3 Jahren – gültig ab 1. Januar 2026",
+          "row": [
+            "Regelbetreuung, max. 30 Std./Woche",
+            "–",
+            "145 €",
+            "110 €",
+            "74 €",
+            "30 €",
+            "0 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ditzingen-price-0003",
+      "offer_id": "ditzingen-664f24bb6d",
+      "amount_cents": 7400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "e3a01305341e",
+        "locator": "PDF Seite 10, Regelbetreuung, max. 30 Std./Woche, o3",
+        "original": {
+          "research_line": 21,
+          "heading": "Kinder ab 3 Jahren – gültig ab 1. Januar 2026",
+          "row": [
+            "Regelbetreuung, max. 30 Std./Woche",
+            "–",
+            "145 €",
+            "110 €",
+            "74 €",
+            "30 €",
+            "0 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ditzingen-price-0004",
+      "offer_id": "ditzingen-664f24bb6d",
+      "amount_cents": 3000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "e3a01305341e",
+        "locator": "PDF Seite 10, Regelbetreuung, max. 30 Std./Woche, o3",
+        "original": {
+          "research_line": 21,
+          "heading": "Kinder ab 3 Jahren – gültig ab 1. Januar 2026",
+          "row": [
+            "Regelbetreuung, max. 30 Std./Woche",
+            "–",
+            "145 €",
+            "110 €",
+            "74 €",
+            "30 €",
+            "0 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ditzingen-price-0005",
+      "offer_id": "ditzingen-28491a8e01",
+      "amount_cents": 15400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "e3a01305341e",
+        "locator": "PDF Seite 10, VÖ, max. 30 Std./Woche, o3",
+        "original": {
+          "research_line": 21,
+          "heading": "Kinder ab 3 Jahren – gültig ab 1. Januar 2026",
+          "row": [
+            "VÖ, max. 30 Std./Woche",
+            "–",
+            "154 €",
+            "120 €",
+            "79 €",
+            "32 €",
+            "58 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ditzingen-price-0006",
+      "offer_id": "ditzingen-28491a8e01",
+      "amount_cents": 12000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "e3a01305341e",
+        "locator": "PDF Seite 10, VÖ, max. 30 Std./Woche, o3",
+        "original": {
+          "research_line": 21,
+          "heading": "Kinder ab 3 Jahren – gültig ab 1. Januar 2026",
+          "row": [
+            "VÖ, max. 30 Std./Woche",
+            "–",
+            "154 €",
+            "120 €",
+            "79 €",
+            "32 €",
+            "58 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ditzingen-price-0007",
+      "offer_id": "ditzingen-28491a8e01",
+      "amount_cents": 7900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "e3a01305341e",
+        "locator": "PDF Seite 10, VÖ, max. 30 Std./Woche, o3",
+        "original": {
+          "research_line": 21,
+          "heading": "Kinder ab 3 Jahren – gültig ab 1. Januar 2026",
+          "row": [
+            "VÖ, max. 30 Std./Woche",
+            "–",
+            "154 €",
+            "120 €",
+            "79 €",
+            "32 €",
+            "58 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ditzingen-price-0008",
+      "offer_id": "ditzingen-28491a8e01",
+      "amount_cents": 3200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "e3a01305341e",
+        "locator": "PDF Seite 10, VÖ, max. 30 Std./Woche, o3",
+        "original": {
+          "research_line": 21,
+          "heading": "Kinder ab 3 Jahren – gültig ab 1. Januar 2026",
+          "row": [
+            "VÖ, max. 30 Std./Woche",
+            "–",
+            "154 €",
+            "120 €",
+            "79 €",
+            "32 €",
+            "58 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ditzingen-price-0009",
+      "offer_id": "ditzingen-56f1026223",
+      "amount_cents": 17800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "e3a01305341e",
+        "locator": "PDF Seite 10, VÖ, max. 35 Std./Woche, o3",
+        "original": {
+          "research_line": 21,
+          "heading": "Kinder ab 3 Jahren – gültig ab 1. Januar 2026",
+          "row": [
+            "VÖ, max. 35 Std./Woche",
+            "–",
+            "178 €",
+            "136 €",
+            "92 €",
+            "37 €",
+            "58 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ditzingen-price-0010",
+      "offer_id": "ditzingen-56f1026223",
+      "amount_cents": 13600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "e3a01305341e",
+        "locator": "PDF Seite 10, VÖ, max. 35 Std./Woche, o3",
+        "original": {
+          "research_line": 21,
+          "heading": "Kinder ab 3 Jahren – gültig ab 1. Januar 2026",
+          "row": [
+            "VÖ, max. 35 Std./Woche",
+            "–",
+            "178 €",
+            "136 €",
+            "92 €",
+            "37 €",
+            "58 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ditzingen-price-0011",
+      "offer_id": "ditzingen-56f1026223",
+      "amount_cents": 9200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "e3a01305341e",
+        "locator": "PDF Seite 10, VÖ, max. 35 Std./Woche, o3",
+        "original": {
+          "research_line": 21,
+          "heading": "Kinder ab 3 Jahren – gültig ab 1. Januar 2026",
+          "row": [
+            "VÖ, max. 35 Std./Woche",
+            "–",
+            "178 €",
+            "136 €",
+            "92 €",
+            "37 €",
+            "58 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ditzingen-price-0012",
+      "offer_id": "ditzingen-56f1026223",
+      "amount_cents": 3700,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "e3a01305341e",
+        "locator": "PDF Seite 10, VÖ, max. 35 Std./Woche, o3",
+        "original": {
+          "research_line": 21,
+          "heading": "Kinder ab 3 Jahren – gültig ab 1. Januar 2026",
+          "row": [
+            "VÖ, max. 35 Std./Woche",
+            "–",
+            "178 €",
+            "136 €",
+            "92 €",
+            "37 €",
+            "58 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ditzingen-price-0013",
+      "offer_id": "ditzingen-78b2c4cb91",
+      "amount_cents": 31800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": "tax-0",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "e3a01305341e",
+        "locator": "PDF Seite 10, GT 45 Std./Woche, o3",
+        "original": {
+          "research_line": 21,
+          "heading": "Kinder ab 3 Jahren – gültig ab 1. Januar 2026",
+          "row": [
+            "Ganztag, 45 Std./Woche",
+            "bis 35.000 €",
+            "318 €",
+            "245 €",
+            "162 €",
+            "66 €",
+            "88 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ditzingen-price-0014",
+      "offer_id": "ditzingen-78b2c4cb91",
+      "amount_cents": 24500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": "tax-0",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "e3a01305341e",
+        "locator": "PDF Seite 10, GT 45 Std./Woche, o3",
+        "original": {
+          "research_line": 21,
+          "heading": "Kinder ab 3 Jahren – gültig ab 1. Januar 2026",
+          "row": [
+            "Ganztag, 45 Std./Woche",
+            "bis 35.000 €",
+            "318 €",
+            "245 €",
+            "162 €",
+            "66 €",
+            "88 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ditzingen-price-0015",
+      "offer_id": "ditzingen-78b2c4cb91",
+      "amount_cents": 16200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": "tax-0",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "e3a01305341e",
+        "locator": "PDF Seite 10, GT 45 Std./Woche, o3",
+        "original": {
+          "research_line": 21,
+          "heading": "Kinder ab 3 Jahren – gültig ab 1. Januar 2026",
+          "row": [
+            "Ganztag, 45 Std./Woche",
+            "bis 35.000 €",
+            "318 €",
+            "245 €",
+            "162 €",
+            "66 €",
+            "88 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ditzingen-price-0016",
+      "offer_id": "ditzingen-78b2c4cb91",
+      "amount_cents": 6600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": "tax-0",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "e3a01305341e",
+        "locator": "PDF Seite 10, GT 45 Std./Woche, o3",
+        "original": {
+          "research_line": 21,
+          "heading": "Kinder ab 3 Jahren – gültig ab 1. Januar 2026",
+          "row": [
+            "Ganztag, 45 Std./Woche",
+            "bis 35.000 €",
+            "318 €",
+            "245 €",
+            "162 €",
+            "66 €",
+            "88 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ditzingen-price-0017",
+      "offer_id": "ditzingen-78b2c4cb91",
+      "amount_cents": 35700,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": "tax-1",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "e3a01305341e",
+        "locator": "PDF Seite 10, GT 45 Std./Woche, o3",
+        "original": {
+          "research_line": 21,
+          "heading": "Kinder ab 3 Jahren – gültig ab 1. Januar 2026",
+          "row": [
+            "Ganztag, 45 Std./Woche",
+            "35.001–50.000 €",
+            "357 €",
+            "275 €",
+            "182 €",
+            "75 €",
+            "88 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ditzingen-price-0018",
+      "offer_id": "ditzingen-78b2c4cb91",
+      "amount_cents": 27500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": "tax-1",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "e3a01305341e",
+        "locator": "PDF Seite 10, GT 45 Std./Woche, o3",
+        "original": {
+          "research_line": 21,
+          "heading": "Kinder ab 3 Jahren – gültig ab 1. Januar 2026",
+          "row": [
+            "Ganztag, 45 Std./Woche",
+            "35.001–50.000 €",
+            "357 €",
+            "275 €",
+            "182 €",
+            "75 €",
+            "88 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ditzingen-price-0019",
+      "offer_id": "ditzingen-78b2c4cb91",
+      "amount_cents": 18200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": "tax-1",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "e3a01305341e",
+        "locator": "PDF Seite 10, GT 45 Std./Woche, o3",
+        "original": {
+          "research_line": 21,
+          "heading": "Kinder ab 3 Jahren – gültig ab 1. Januar 2026",
+          "row": [
+            "Ganztag, 45 Std./Woche",
+            "35.001–50.000 €",
+            "357 €",
+            "275 €",
+            "182 €",
+            "75 €",
+            "88 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ditzingen-price-0020",
+      "offer_id": "ditzingen-78b2c4cb91",
+      "amount_cents": 7500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": "tax-1",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "e3a01305341e",
+        "locator": "PDF Seite 10, GT 45 Std./Woche, o3",
+        "original": {
+          "research_line": 21,
+          "heading": "Kinder ab 3 Jahren – gültig ab 1. Januar 2026",
+          "row": [
+            "Ganztag, 45 Std./Woche",
+            "35.001–50.000 €",
+            "357 €",
+            "275 €",
+            "182 €",
+            "75 €",
+            "88 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ditzingen-price-0021",
+      "offer_id": "ditzingen-78b2c4cb91",
+      "amount_cents": 39700,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": "tax-2",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "e3a01305341e",
+        "locator": "PDF Seite 10, GT 45 Std./Woche, o3",
+        "original": {
+          "research_line": 21,
+          "heading": "Kinder ab 3 Jahren – gültig ab 1. Januar 2026",
+          "row": [
+            "Ganztag, 45 Std./Woche",
+            "50.001–70.000 €",
+            "397 €",
+            "306 €",
+            "202 €",
+            "83 €",
+            "88 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ditzingen-price-0022",
+      "offer_id": "ditzingen-78b2c4cb91",
+      "amount_cents": 30600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": "tax-2",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "e3a01305341e",
+        "locator": "PDF Seite 10, GT 45 Std./Woche, o3",
+        "original": {
+          "research_line": 21,
+          "heading": "Kinder ab 3 Jahren – gültig ab 1. Januar 2026",
+          "row": [
+            "Ganztag, 45 Std./Woche",
+            "50.001–70.000 €",
+            "397 €",
+            "306 €",
+            "202 €",
+            "83 €",
+            "88 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ditzingen-price-0023",
+      "offer_id": "ditzingen-78b2c4cb91",
+      "amount_cents": 20200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": "tax-2",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "e3a01305341e",
+        "locator": "PDF Seite 10, GT 45 Std./Woche, o3",
+        "original": {
+          "research_line": 21,
+          "heading": "Kinder ab 3 Jahren – gültig ab 1. Januar 2026",
+          "row": [
+            "Ganztag, 45 Std./Woche",
+            "50.001–70.000 €",
+            "397 €",
+            "306 €",
+            "202 €",
+            "83 €",
+            "88 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ditzingen-price-0024",
+      "offer_id": "ditzingen-78b2c4cb91",
+      "amount_cents": 8300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": "tax-2",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "e3a01305341e",
+        "locator": "PDF Seite 10, GT 45 Std./Woche, o3",
+        "original": {
+          "research_line": 21,
+          "heading": "Kinder ab 3 Jahren – gültig ab 1. Januar 2026",
+          "row": [
+            "Ganztag, 45 Std./Woche",
+            "50.001–70.000 €",
+            "397 €",
+            "306 €",
+            "202 €",
+            "83 €",
+            "88 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ditzingen-price-0025",
+      "offer_id": "ditzingen-78b2c4cb91",
+      "amount_cents": 43700,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": "tax-3",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "e3a01305341e",
+        "locator": "PDF Seite 10, GT 45 Std./Woche, o3",
+        "original": {
+          "research_line": 21,
+          "heading": "Kinder ab 3 Jahren – gültig ab 1. Januar 2026",
+          "row": [
+            "Ganztag, 45 Std./Woche",
+            "über 70.001 €",
+            "437 €",
+            "337 €",
+            "222 €",
+            "91 €",
+            "88 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ditzingen-price-0026",
+      "offer_id": "ditzingen-78b2c4cb91",
+      "amount_cents": 33700,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": "tax-3",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "e3a01305341e",
+        "locator": "PDF Seite 10, GT 45 Std./Woche, o3",
+        "original": {
+          "research_line": 21,
+          "heading": "Kinder ab 3 Jahren – gültig ab 1. Januar 2026",
+          "row": [
+            "Ganztag, 45 Std./Woche",
+            "über 70.001 €",
+            "437 €",
+            "337 €",
+            "222 €",
+            "91 €",
+            "88 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ditzingen-price-0027",
+      "offer_id": "ditzingen-78b2c4cb91",
+      "amount_cents": 22200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": "tax-3",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "e3a01305341e",
+        "locator": "PDF Seite 10, GT 45 Std./Woche, o3",
+        "original": {
+          "research_line": 21,
+          "heading": "Kinder ab 3 Jahren – gültig ab 1. Januar 2026",
+          "row": [
+            "Ganztag, 45 Std./Woche",
+            "über 70.001 €",
+            "437 €",
+            "337 €",
+            "222 €",
+            "91 €",
+            "88 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ditzingen-price-0028",
+      "offer_id": "ditzingen-78b2c4cb91",
+      "amount_cents": 9100,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": "tax-3",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "e3a01305341e",
+        "locator": "PDF Seite 10, GT 45 Std./Woche, o3",
+        "original": {
+          "research_line": 21,
+          "heading": "Kinder ab 3 Jahren – gültig ab 1. Januar 2026",
+          "row": [
+            "Ganztag, 45 Std./Woche",
+            "über 70.001 €",
+            "437 €",
+            "337 €",
+            "222 €",
+            "91 €",
+            "88 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ditzingen-price-0029",
+      "offer_id": "ditzingen-a15bb78d59",
+      "amount_cents": 35400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": "tax-0",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "e3a01305341e",
+        "locator": "PDF Seite 10, GT 50 Std./Woche, o3",
+        "original": {
+          "research_line": 21,
+          "heading": "Kinder ab 3 Jahren – gültig ab 1. Januar 2026",
+          "row": [
+            "Ganztag, 50 Std./Woche",
+            "bis 35.000 €",
+            "354 €",
+            "272 €",
+            "179 €",
+            "73 €",
+            "88 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ditzingen-price-0030",
+      "offer_id": "ditzingen-a15bb78d59",
+      "amount_cents": 27200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": "tax-0",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "e3a01305341e",
+        "locator": "PDF Seite 10, GT 50 Std./Woche, o3",
+        "original": {
+          "research_line": 21,
+          "heading": "Kinder ab 3 Jahren – gültig ab 1. Januar 2026",
+          "row": [
+            "Ganztag, 50 Std./Woche",
+            "bis 35.000 €",
+            "354 €",
+            "272 €",
+            "179 €",
+            "73 €",
+            "88 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ditzingen-price-0031",
+      "offer_id": "ditzingen-a15bb78d59",
+      "amount_cents": 17900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": "tax-0",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "e3a01305341e",
+        "locator": "PDF Seite 10, GT 50 Std./Woche, o3",
+        "original": {
+          "research_line": 21,
+          "heading": "Kinder ab 3 Jahren – gültig ab 1. Januar 2026",
+          "row": [
+            "Ganztag, 50 Std./Woche",
+            "bis 35.000 €",
+            "354 €",
+            "272 €",
+            "179 €",
+            "73 €",
+            "88 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ditzingen-price-0032",
+      "offer_id": "ditzingen-a15bb78d59",
+      "amount_cents": 7300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": "tax-0",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "e3a01305341e",
+        "locator": "PDF Seite 10, GT 50 Std./Woche, o3",
+        "original": {
+          "research_line": 21,
+          "heading": "Kinder ab 3 Jahren – gültig ab 1. Januar 2026",
+          "row": [
+            "Ganztag, 50 Std./Woche",
+            "bis 35.000 €",
+            "354 €",
+            "272 €",
+            "179 €",
+            "73 €",
+            "88 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ditzingen-price-0033",
+      "offer_id": "ditzingen-a15bb78d59",
+      "amount_cents": 39800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": "tax-1",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "e3a01305341e",
+        "locator": "PDF Seite 10, GT 50 Std./Woche, o3",
+        "original": {
+          "research_line": 21,
+          "heading": "Kinder ab 3 Jahren – gültig ab 1. Januar 2026",
+          "row": [
+            "Ganztag, 50 Std./Woche",
+            "35.001–50.000 €",
+            "398 €",
+            "306 €",
+            "202 €",
+            "82 €",
+            "88 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ditzingen-price-0034",
+      "offer_id": "ditzingen-a15bb78d59",
+      "amount_cents": 30600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": "tax-1",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "e3a01305341e",
+        "locator": "PDF Seite 10, GT 50 Std./Woche, o3",
+        "original": {
+          "research_line": 21,
+          "heading": "Kinder ab 3 Jahren – gültig ab 1. Januar 2026",
+          "row": [
+            "Ganztag, 50 Std./Woche",
+            "35.001–50.000 €",
+            "398 €",
+            "306 €",
+            "202 €",
+            "82 €",
+            "88 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ditzingen-price-0035",
+      "offer_id": "ditzingen-a15bb78d59",
+      "amount_cents": 20200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": "tax-1",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "e3a01305341e",
+        "locator": "PDF Seite 10, GT 50 Std./Woche, o3",
+        "original": {
+          "research_line": 21,
+          "heading": "Kinder ab 3 Jahren – gültig ab 1. Januar 2026",
+          "row": [
+            "Ganztag, 50 Std./Woche",
+            "35.001–50.000 €",
+            "398 €",
+            "306 €",
+            "202 €",
+            "82 €",
+            "88 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ditzingen-price-0036",
+      "offer_id": "ditzingen-a15bb78d59",
+      "amount_cents": 8200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": "tax-1",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "e3a01305341e",
+        "locator": "PDF Seite 10, GT 50 Std./Woche, o3",
+        "original": {
+          "research_line": 21,
+          "heading": "Kinder ab 3 Jahren – gültig ab 1. Januar 2026",
+          "row": [
+            "Ganztag, 50 Std./Woche",
+            "35.001–50.000 €",
+            "398 €",
+            "306 €",
+            "202 €",
+            "82 €",
+            "88 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ditzingen-price-0037",
+      "offer_id": "ditzingen-a15bb78d59",
+      "amount_cents": 44200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": "tax-2",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "e3a01305341e",
+        "locator": "PDF Seite 10, GT 50 Std./Woche, o3",
+        "original": {
+          "research_line": 21,
+          "heading": "Kinder ab 3 Jahren – gültig ab 1. Januar 2026",
+          "row": [
+            "Ganztag, 50 Std./Woche",
+            "50.001–70.000 €",
+            "442 €",
+            "340 €",
+            "224 €",
+            "91 €",
+            "88 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ditzingen-price-0038",
+      "offer_id": "ditzingen-a15bb78d59",
+      "amount_cents": 34000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": "tax-2",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "e3a01305341e",
+        "locator": "PDF Seite 10, GT 50 Std./Woche, o3",
+        "original": {
+          "research_line": 21,
+          "heading": "Kinder ab 3 Jahren – gültig ab 1. Januar 2026",
+          "row": [
+            "Ganztag, 50 Std./Woche",
+            "50.001–70.000 €",
+            "442 €",
+            "340 €",
+            "224 €",
+            "91 €",
+            "88 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ditzingen-price-0039",
+      "offer_id": "ditzingen-a15bb78d59",
+      "amount_cents": 22400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": "tax-2",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "e3a01305341e",
+        "locator": "PDF Seite 10, GT 50 Std./Woche, o3",
+        "original": {
+          "research_line": 21,
+          "heading": "Kinder ab 3 Jahren – gültig ab 1. Januar 2026",
+          "row": [
+            "Ganztag, 50 Std./Woche",
+            "50.001–70.000 €",
+            "442 €",
+            "340 €",
+            "224 €",
+            "91 €",
+            "88 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ditzingen-price-0040",
+      "offer_id": "ditzingen-a15bb78d59",
+      "amount_cents": 9100,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": "tax-2",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "e3a01305341e",
+        "locator": "PDF Seite 10, GT 50 Std./Woche, o3",
+        "original": {
+          "research_line": 21,
+          "heading": "Kinder ab 3 Jahren – gültig ab 1. Januar 2026",
+          "row": [
+            "Ganztag, 50 Std./Woche",
+            "50.001–70.000 €",
+            "442 €",
+            "340 €",
+            "224 €",
+            "91 €",
+            "88 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ditzingen-price-0041",
+      "offer_id": "ditzingen-a15bb78d59",
+      "amount_cents": 48600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": "tax-3",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "e3a01305341e",
+        "locator": "PDF Seite 10, GT 50 Std./Woche, o3",
+        "original": {
+          "research_line": 21,
+          "heading": "Kinder ab 3 Jahren – gültig ab 1. Januar 2026",
+          "row": [
+            "Ganztag, 50 Std./Woche",
+            "über 70.001 €",
+            "486 €",
+            "374 €",
+            "246 €",
+            "100 €",
+            "88 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ditzingen-price-0042",
+      "offer_id": "ditzingen-a15bb78d59",
+      "amount_cents": 37400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": "tax-3",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "e3a01305341e",
+        "locator": "PDF Seite 10, GT 50 Std./Woche, o3",
+        "original": {
+          "research_line": 21,
+          "heading": "Kinder ab 3 Jahren – gültig ab 1. Januar 2026",
+          "row": [
+            "Ganztag, 50 Std./Woche",
+            "über 70.001 €",
+            "486 €",
+            "374 €",
+            "246 €",
+            "100 €",
+            "88 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ditzingen-price-0043",
+      "offer_id": "ditzingen-a15bb78d59",
+      "amount_cents": 24600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": "tax-3",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "e3a01305341e",
+        "locator": "PDF Seite 10, GT 50 Std./Woche, o3",
+        "original": {
+          "research_line": 21,
+          "heading": "Kinder ab 3 Jahren – gültig ab 1. Januar 2026",
+          "row": [
+            "Ganztag, 50 Std./Woche",
+            "über 70.001 €",
+            "486 €",
+            "374 €",
+            "246 €",
+            "100 €",
+            "88 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ditzingen-price-0044",
+      "offer_id": "ditzingen-a15bb78d59",
+      "amount_cents": 10000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": "tax-3",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "e3a01305341e",
+        "locator": "PDF Seite 10, GT 50 Std./Woche, o3",
+        "original": {
+          "research_line": 21,
+          "heading": "Kinder ab 3 Jahren – gültig ab 1. Januar 2026",
+          "row": [
+            "Ganztag, 50 Std./Woche",
+            "über 70.001 €",
+            "486 €",
+            "374 €",
+            "246 €",
+            "100 €",
+            "88 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ditzingen-price-0045",
+      "offer_id": "ditzingen-b4af77f520",
+      "amount_cents": 33100,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "e3a01305341e",
+        "locator": "PDF Seite 11, VÖ, max. 30 Std./Woche, u3",
+        "original": {
+          "research_line": 37,
+          "heading": "Kinder von 1 bis 3 Jahren – gültig ab 1. Januar 2026",
+          "row": [
+            "VÖ, max. 30 Std./Woche",
+            "–",
+            "331 €",
+            "254 €",
+            "167 €",
+            "67 €",
+            "58 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ditzingen-price-0046",
+      "offer_id": "ditzingen-b4af77f520",
+      "amount_cents": 25400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "e3a01305341e",
+        "locator": "PDF Seite 11, VÖ, max. 30 Std./Woche, u3",
+        "original": {
+          "research_line": 37,
+          "heading": "Kinder von 1 bis 3 Jahren – gültig ab 1. Januar 2026",
+          "row": [
+            "VÖ, max. 30 Std./Woche",
+            "–",
+            "331 €",
+            "254 €",
+            "167 €",
+            "67 €",
+            "58 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ditzingen-price-0047",
+      "offer_id": "ditzingen-b4af77f520",
+      "amount_cents": 16700,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "e3a01305341e",
+        "locator": "PDF Seite 11, VÖ, max. 30 Std./Woche, u3",
+        "original": {
+          "research_line": 37,
+          "heading": "Kinder von 1 bis 3 Jahren – gültig ab 1. Januar 2026",
+          "row": [
+            "VÖ, max. 30 Std./Woche",
+            "–",
+            "331 €",
+            "254 €",
+            "167 €",
+            "67 €",
+            "58 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ditzingen-price-0048",
+      "offer_id": "ditzingen-b4af77f520",
+      "amount_cents": 6700,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "e3a01305341e",
+        "locator": "PDF Seite 11, VÖ, max. 30 Std./Woche, u3",
+        "original": {
+          "research_line": 37,
+          "heading": "Kinder von 1 bis 3 Jahren – gültig ab 1. Januar 2026",
+          "row": [
+            "VÖ, max. 30 Std./Woche",
+            "–",
+            "331 €",
+            "254 €",
+            "167 €",
+            "67 €",
+            "58 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ditzingen-price-0049",
+      "offer_id": "ditzingen-55280dfdbd",
+      "amount_cents": 38600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "e3a01305341e",
+        "locator": "PDF Seite 11, VÖ, max. 35 Std./Woche, u3",
+        "original": {
+          "research_line": 37,
+          "heading": "Kinder von 1 bis 3 Jahren – gültig ab 1. Januar 2026",
+          "row": [
+            "VÖ, max. 35 Std./Woche",
+            "–",
+            "386 €",
+            "295 €",
+            "196 €",
+            "80 €",
+            "58 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ditzingen-price-0050",
+      "offer_id": "ditzingen-55280dfdbd",
+      "amount_cents": 29500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "e3a01305341e",
+        "locator": "PDF Seite 11, VÖ, max. 35 Std./Woche, u3",
+        "original": {
+          "research_line": 37,
+          "heading": "Kinder von 1 bis 3 Jahren – gültig ab 1. Januar 2026",
+          "row": [
+            "VÖ, max. 35 Std./Woche",
+            "–",
+            "386 €",
+            "295 €",
+            "196 €",
+            "80 €",
+            "58 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ditzingen-price-0051",
+      "offer_id": "ditzingen-55280dfdbd",
+      "amount_cents": 19600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "e3a01305341e",
+        "locator": "PDF Seite 11, VÖ, max. 35 Std./Woche, u3",
+        "original": {
+          "research_line": 37,
+          "heading": "Kinder von 1 bis 3 Jahren – gültig ab 1. Januar 2026",
+          "row": [
+            "VÖ, max. 35 Std./Woche",
+            "–",
+            "386 €",
+            "295 €",
+            "196 €",
+            "80 €",
+            "58 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ditzingen-price-0052",
+      "offer_id": "ditzingen-55280dfdbd",
+      "amount_cents": 8000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "e3a01305341e",
+        "locator": "PDF Seite 11, VÖ, max. 35 Std./Woche, u3",
+        "original": {
+          "research_line": 37,
+          "heading": "Kinder von 1 bis 3 Jahren – gültig ab 1. Januar 2026",
+          "row": [
+            "VÖ, max. 35 Std./Woche",
+            "–",
+            "386 €",
+            "295 €",
+            "196 €",
+            "80 €",
+            "58 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ditzingen-price-0053",
+      "offer_id": "ditzingen-364e50ed1d",
+      "amount_cents": 46200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": "tax-0",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "e3a01305341e",
+        "locator": "PDF Seite 11, GT 45 Std./Woche, u3",
+        "original": {
+          "research_line": 37,
+          "heading": "Kinder von 1 bis 3 Jahren – gültig ab 1. Januar 2026",
+          "row": [
+            "Ganztag, 45 Std./Woche",
+            "bis 35.000 €",
+            "462 €",
+            "356 €",
+            "235 €",
+            "96 €",
+            "88 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ditzingen-price-0054",
+      "offer_id": "ditzingen-364e50ed1d",
+      "amount_cents": 35600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": "tax-0",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "e3a01305341e",
+        "locator": "PDF Seite 11, GT 45 Std./Woche, u3",
+        "original": {
+          "research_line": 37,
+          "heading": "Kinder von 1 bis 3 Jahren – gültig ab 1. Januar 2026",
+          "row": [
+            "Ganztag, 45 Std./Woche",
+            "bis 35.000 €",
+            "462 €",
+            "356 €",
+            "235 €",
+            "96 €",
+            "88 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ditzingen-price-0055",
+      "offer_id": "ditzingen-364e50ed1d",
+      "amount_cents": 23500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": "tax-0",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "e3a01305341e",
+        "locator": "PDF Seite 11, GT 45 Std./Woche, u3",
+        "original": {
+          "research_line": 37,
+          "heading": "Kinder von 1 bis 3 Jahren – gültig ab 1. Januar 2026",
+          "row": [
+            "Ganztag, 45 Std./Woche",
+            "bis 35.000 €",
+            "462 €",
+            "356 €",
+            "235 €",
+            "96 €",
+            "88 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ditzingen-price-0056",
+      "offer_id": "ditzingen-364e50ed1d",
+      "amount_cents": 9600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": "tax-0",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "e3a01305341e",
+        "locator": "PDF Seite 11, GT 45 Std./Woche, u3",
+        "original": {
+          "research_line": 37,
+          "heading": "Kinder von 1 bis 3 Jahren – gültig ab 1. Januar 2026",
+          "row": [
+            "Ganztag, 45 Std./Woche",
+            "bis 35.000 €",
+            "462 €",
+            "356 €",
+            "235 €",
+            "96 €",
+            "88 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ditzingen-price-0057",
+      "offer_id": "ditzingen-364e50ed1d",
+      "amount_cents": 52000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": "tax-1",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "e3a01305341e",
+        "locator": "PDF Seite 11, GT 45 Std./Woche, u3",
+        "original": {
+          "research_line": 37,
+          "heading": "Kinder von 1 bis 3 Jahren – gültig ab 1. Januar 2026",
+          "row": [
+            "Ganztag, 45 Std./Woche",
+            "35.001–50.000 €",
+            "520 €",
+            "401 €",
+            "265 €",
+            "108 €",
+            "88 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ditzingen-price-0058",
+      "offer_id": "ditzingen-364e50ed1d",
+      "amount_cents": 40100,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": "tax-1",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "e3a01305341e",
+        "locator": "PDF Seite 11, GT 45 Std./Woche, u3",
+        "original": {
+          "research_line": 37,
+          "heading": "Kinder von 1 bis 3 Jahren – gültig ab 1. Januar 2026",
+          "row": [
+            "Ganztag, 45 Std./Woche",
+            "35.001–50.000 €",
+            "520 €",
+            "401 €",
+            "265 €",
+            "108 €",
+            "88 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ditzingen-price-0059",
+      "offer_id": "ditzingen-364e50ed1d",
+      "amount_cents": 26500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": "tax-1",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "e3a01305341e",
+        "locator": "PDF Seite 11, GT 45 Std./Woche, u3",
+        "original": {
+          "research_line": 37,
+          "heading": "Kinder von 1 bis 3 Jahren – gültig ab 1. Januar 2026",
+          "row": [
+            "Ganztag, 45 Std./Woche",
+            "35.001–50.000 €",
+            "520 €",
+            "401 €",
+            "265 €",
+            "108 €",
+            "88 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ditzingen-price-0060",
+      "offer_id": "ditzingen-364e50ed1d",
+      "amount_cents": 10800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": "tax-1",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "e3a01305341e",
+        "locator": "PDF Seite 11, GT 45 Std./Woche, u3",
+        "original": {
+          "research_line": 37,
+          "heading": "Kinder von 1 bis 3 Jahren – gültig ab 1. Januar 2026",
+          "row": [
+            "Ganztag, 45 Std./Woche",
+            "35.001–50.000 €",
+            "520 €",
+            "401 €",
+            "265 €",
+            "108 €",
+            "88 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ditzingen-price-0061",
+      "offer_id": "ditzingen-364e50ed1d",
+      "amount_cents": 57800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": "tax-2",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "e3a01305341e",
+        "locator": "PDF Seite 11, GT 45 Std./Woche, u3",
+        "original": {
+          "research_line": 37,
+          "heading": "Kinder von 1 bis 3 Jahren – gültig ab 1. Januar 2026",
+          "row": [
+            "Ganztag, 45 Std./Woche",
+            "50.001–70.000 €",
+            "578 €",
+            "445 €",
+            "294 €",
+            "120 €",
+            "88 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ditzingen-price-0062",
+      "offer_id": "ditzingen-364e50ed1d",
+      "amount_cents": 44500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": "tax-2",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "e3a01305341e",
+        "locator": "PDF Seite 11, GT 45 Std./Woche, u3",
+        "original": {
+          "research_line": 37,
+          "heading": "Kinder von 1 bis 3 Jahren – gültig ab 1. Januar 2026",
+          "row": [
+            "Ganztag, 45 Std./Woche",
+            "50.001–70.000 €",
+            "578 €",
+            "445 €",
+            "294 €",
+            "120 €",
+            "88 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ditzingen-price-0063",
+      "offer_id": "ditzingen-364e50ed1d",
+      "amount_cents": 29400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": "tax-2",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "e3a01305341e",
+        "locator": "PDF Seite 11, GT 45 Std./Woche, u3",
+        "original": {
+          "research_line": 37,
+          "heading": "Kinder von 1 bis 3 Jahren – gültig ab 1. Januar 2026",
+          "row": [
+            "Ganztag, 45 Std./Woche",
+            "50.001–70.000 €",
+            "578 €",
+            "445 €",
+            "294 €",
+            "120 €",
+            "88 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ditzingen-price-0064",
+      "offer_id": "ditzingen-364e50ed1d",
+      "amount_cents": 12000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": "tax-2",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "e3a01305341e",
+        "locator": "PDF Seite 11, GT 45 Std./Woche, u3",
+        "original": {
+          "research_line": 37,
+          "heading": "Kinder von 1 bis 3 Jahren – gültig ab 1. Januar 2026",
+          "row": [
+            "Ganztag, 45 Std./Woche",
+            "50.001–70.000 €",
+            "578 €",
+            "445 €",
+            "294 €",
+            "120 €",
+            "88 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ditzingen-price-0065",
+      "offer_id": "ditzingen-364e50ed1d",
+      "amount_cents": 63600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": "tax-3",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "e3a01305341e",
+        "locator": "PDF Seite 11, GT 45 Std./Woche, u3",
+        "original": {
+          "research_line": 37,
+          "heading": "Kinder von 1 bis 3 Jahren – gültig ab 1. Januar 2026",
+          "row": [
+            "Ganztag, 45 Std./Woche",
+            "über 70.001 €",
+            "636 €",
+            "490 €",
+            "323 €",
+            "132 €",
+            "88 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ditzingen-price-0066",
+      "offer_id": "ditzingen-364e50ed1d",
+      "amount_cents": 49000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": "tax-3",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "e3a01305341e",
+        "locator": "PDF Seite 11, GT 45 Std./Woche, u3",
+        "original": {
+          "research_line": 37,
+          "heading": "Kinder von 1 bis 3 Jahren – gültig ab 1. Januar 2026",
+          "row": [
+            "Ganztag, 45 Std./Woche",
+            "über 70.001 €",
+            "636 €",
+            "490 €",
+            "323 €",
+            "132 €",
+            "88 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ditzingen-price-0067",
+      "offer_id": "ditzingen-364e50ed1d",
+      "amount_cents": 32300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": "tax-3",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "e3a01305341e",
+        "locator": "PDF Seite 11, GT 45 Std./Woche, u3",
+        "original": {
+          "research_line": 37,
+          "heading": "Kinder von 1 bis 3 Jahren – gültig ab 1. Januar 2026",
+          "row": [
+            "Ganztag, 45 Std./Woche",
+            "über 70.001 €",
+            "636 €",
+            "490 €",
+            "323 €",
+            "132 €",
+            "88 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ditzingen-price-0068",
+      "offer_id": "ditzingen-364e50ed1d",
+      "amount_cents": 13200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": "tax-3",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "e3a01305341e",
+        "locator": "PDF Seite 11, GT 45 Std./Woche, u3",
+        "original": {
+          "research_line": 37,
+          "heading": "Kinder von 1 bis 3 Jahren – gültig ab 1. Januar 2026",
+          "row": [
+            "Ganztag, 45 Std./Woche",
+            "über 70.001 €",
+            "636 €",
+            "490 €",
+            "323 €",
+            "132 €",
+            "88 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ditzingen-price-0069",
+      "offer_id": "ditzingen-36855bd004",
+      "amount_cents": 51300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": "tax-0",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "e3a01305341e",
+        "locator": "PDF Seite 11, GT 50 Std./Woche, u3",
+        "original": {
+          "research_line": 37,
+          "heading": "Kinder von 1 bis 3 Jahren – gültig ab 1. Januar 2026",
+          "row": [
+            "Ganztag, 50 Std./Woche",
+            "bis 35.000 €",
+            "513 €",
+            "394 €",
+            "262 €",
+            "107 €",
+            "88 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ditzingen-price-0070",
+      "offer_id": "ditzingen-36855bd004",
+      "amount_cents": 39400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": "tax-0",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "e3a01305341e",
+        "locator": "PDF Seite 11, GT 50 Std./Woche, u3",
+        "original": {
+          "research_line": 37,
+          "heading": "Kinder von 1 bis 3 Jahren – gültig ab 1. Januar 2026",
+          "row": [
+            "Ganztag, 50 Std./Woche",
+            "bis 35.000 €",
+            "513 €",
+            "394 €",
+            "262 €",
+            "107 €",
+            "88 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ditzingen-price-0071",
+      "offer_id": "ditzingen-36855bd004",
+      "amount_cents": 26200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": "tax-0",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "e3a01305341e",
+        "locator": "PDF Seite 11, GT 50 Std./Woche, u3",
+        "original": {
+          "research_line": 37,
+          "heading": "Kinder von 1 bis 3 Jahren – gültig ab 1. Januar 2026",
+          "row": [
+            "Ganztag, 50 Std./Woche",
+            "bis 35.000 €",
+            "513 €",
+            "394 €",
+            "262 €",
+            "107 €",
+            "88 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ditzingen-price-0072",
+      "offer_id": "ditzingen-36855bd004",
+      "amount_cents": 10700,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": "tax-0",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "e3a01305341e",
+        "locator": "PDF Seite 11, GT 50 Std./Woche, u3",
+        "original": {
+          "research_line": 37,
+          "heading": "Kinder von 1 bis 3 Jahren – gültig ab 1. Januar 2026",
+          "row": [
+            "Ganztag, 50 Std./Woche",
+            "bis 35.000 €",
+            "513 €",
+            "394 €",
+            "262 €",
+            "107 €",
+            "88 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ditzingen-price-0073",
+      "offer_id": "ditzingen-36855bd004",
+      "amount_cents": 57700,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": "tax-1",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "e3a01305341e",
+        "locator": "PDF Seite 11, GT 50 Std./Woche, u3",
+        "original": {
+          "research_line": 37,
+          "heading": "Kinder von 1 bis 3 Jahren – gültig ab 1. Januar 2026",
+          "row": [
+            "Ganztag, 50 Std./Woche",
+            "35.001–50.000 €",
+            "577 €",
+            "444 €",
+            "294 €",
+            "121 €",
+            "88 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ditzingen-price-0074",
+      "offer_id": "ditzingen-36855bd004",
+      "amount_cents": 44400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": "tax-1",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "e3a01305341e",
+        "locator": "PDF Seite 11, GT 50 Std./Woche, u3",
+        "original": {
+          "research_line": 37,
+          "heading": "Kinder von 1 bis 3 Jahren – gültig ab 1. Januar 2026",
+          "row": [
+            "Ganztag, 50 Std./Woche",
+            "35.001–50.000 €",
+            "577 €",
+            "444 €",
+            "294 €",
+            "121 €",
+            "88 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ditzingen-price-0075",
+      "offer_id": "ditzingen-36855bd004",
+      "amount_cents": 29400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": "tax-1",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "e3a01305341e",
+        "locator": "PDF Seite 11, GT 50 Std./Woche, u3",
+        "original": {
+          "research_line": 37,
+          "heading": "Kinder von 1 bis 3 Jahren – gültig ab 1. Januar 2026",
+          "row": [
+            "Ganztag, 50 Std./Woche",
+            "35.001–50.000 €",
+            "577 €",
+            "444 €",
+            "294 €",
+            "121 €",
+            "88 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ditzingen-price-0076",
+      "offer_id": "ditzingen-36855bd004",
+      "amount_cents": 12100,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": "tax-1",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "e3a01305341e",
+        "locator": "PDF Seite 11, GT 50 Std./Woche, u3",
+        "original": {
+          "research_line": 37,
+          "heading": "Kinder von 1 bis 3 Jahren – gültig ab 1. Januar 2026",
+          "row": [
+            "Ganztag, 50 Std./Woche",
+            "35.001–50.000 €",
+            "577 €",
+            "444 €",
+            "294 €",
+            "121 €",
+            "88 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ditzingen-price-0077",
+      "offer_id": "ditzingen-36855bd004",
+      "amount_cents": 64100,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": "tax-2",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "e3a01305341e",
+        "locator": "PDF Seite 11, GT 50 Std./Woche, u3",
+        "original": {
+          "research_line": 37,
+          "heading": "Kinder von 1 bis 3 Jahren – gültig ab 1. Januar 2026",
+          "row": [
+            "Ganztag, 50 Std./Woche",
+            "50.001–70.000 €",
+            "641 €",
+            "493 €",
+            "327 €",
+            "134 €",
+            "88 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ditzingen-price-0078",
+      "offer_id": "ditzingen-36855bd004",
+      "amount_cents": 49300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": "tax-2",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "e3a01305341e",
+        "locator": "PDF Seite 11, GT 50 Std./Woche, u3",
+        "original": {
+          "research_line": 37,
+          "heading": "Kinder von 1 bis 3 Jahren – gültig ab 1. Januar 2026",
+          "row": [
+            "Ganztag, 50 Std./Woche",
+            "50.001–70.000 €",
+            "641 €",
+            "493 €",
+            "327 €",
+            "134 €",
+            "88 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ditzingen-price-0079",
+      "offer_id": "ditzingen-36855bd004",
+      "amount_cents": 32700,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": "tax-2",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "e3a01305341e",
+        "locator": "PDF Seite 11, GT 50 Std./Woche, u3",
+        "original": {
+          "research_line": 37,
+          "heading": "Kinder von 1 bis 3 Jahren – gültig ab 1. Januar 2026",
+          "row": [
+            "Ganztag, 50 Std./Woche",
+            "50.001–70.000 €",
+            "641 €",
+            "493 €",
+            "327 €",
+            "134 €",
+            "88 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ditzingen-price-0080",
+      "offer_id": "ditzingen-36855bd004",
+      "amount_cents": 13400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": "tax-2",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "e3a01305341e",
+        "locator": "PDF Seite 11, GT 50 Std./Woche, u3",
+        "original": {
+          "research_line": 37,
+          "heading": "Kinder von 1 bis 3 Jahren – gültig ab 1. Januar 2026",
+          "row": [
+            "Ganztag, 50 Std./Woche",
+            "50.001–70.000 €",
+            "641 €",
+            "493 €",
+            "327 €",
+            "134 €",
+            "88 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ditzingen-price-0081",
+      "offer_id": "ditzingen-36855bd004",
+      "amount_cents": 70500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": "tax-3",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "e3a01305341e",
+        "locator": "PDF Seite 11, GT 50 Std./Woche, u3",
+        "original": {
+          "research_line": 37,
+          "heading": "Kinder von 1 bis 3 Jahren – gültig ab 1. Januar 2026",
+          "row": [
+            "Ganztag, 50 Std./Woche",
+            "über 70.001 €",
+            "705 €",
+            "542 €",
+            "360 €",
+            "147 €",
+            "88 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ditzingen-price-0082",
+      "offer_id": "ditzingen-36855bd004",
+      "amount_cents": 54200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": "tax-3",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "e3a01305341e",
+        "locator": "PDF Seite 11, GT 50 Std./Woche, u3",
+        "original": {
+          "research_line": 37,
+          "heading": "Kinder von 1 bis 3 Jahren – gültig ab 1. Januar 2026",
+          "row": [
+            "Ganztag, 50 Std./Woche",
+            "über 70.001 €",
+            "705 €",
+            "542 €",
+            "360 €",
+            "147 €",
+            "88 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ditzingen-price-0083",
+      "offer_id": "ditzingen-36855bd004",
+      "amount_cents": 36000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": "tax-3",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "e3a01305341e",
+        "locator": "PDF Seite 11, GT 50 Std./Woche, u3",
+        "original": {
+          "research_line": 37,
+          "heading": "Kinder von 1 bis 3 Jahren – gültig ab 1. Januar 2026",
+          "row": [
+            "Ganztag, 50 Std./Woche",
+            "über 70.001 €",
+            "705 €",
+            "542 €",
+            "360 €",
+            "147 €",
+            "88 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ditzingen-price-0084",
+      "offer_id": "ditzingen-36855bd004",
+      "amount_cents": 14700,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": "tax-3",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "e3a01305341e",
+        "locator": "PDF Seite 11, GT 50 Std./Woche, u3",
+        "original": {
+          "research_line": 37,
+          "heading": "Kinder von 1 bis 3 Jahren – gültig ab 1. Januar 2026",
+          "row": [
+            "Ganztag, 50 Std./Woche",
+            "über 70.001 €",
+            "705 €",
+            "542 €",
+            "360 €",
+            "147 €",
+            "88 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ditzingen-price-0085",
+      "offer_id": "ditzingen-1c83bf4d71",
+      "amount_cents": 15400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ad138a5bccc4",
+        "locator": "PDF Seite 2, Anlage 1 ab 01.01.2027, visuell geprüft",
+        "original": {
+          "research_line": 54,
+          "heading": "Künftige Tarife ab 1. Januar 2027",
+          "row": [
+            "RG, max. 30 Std./Woche",
+            "154 €",
+            "117 €",
+            "78 €",
+            "32 €",
+            "0 €"
+          ]
+        }
+      },
+      "corroborating_evidence": [
+        {
+          "source_id": "55caf2cb4eb8",
+          "locator": "HTML-Tabelle ab 01.01.2027",
+          "original": null
+        }
+      ]
+    },
+    {
+      "id": "ditzingen-price-0086",
+      "offer_id": "ditzingen-1c83bf4d71",
+      "amount_cents": 11700,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ad138a5bccc4",
+        "locator": "PDF Seite 2, Anlage 1 ab 01.01.2027, visuell geprüft",
+        "original": {
+          "research_line": 54,
+          "heading": "Künftige Tarife ab 1. Januar 2027",
+          "row": [
+            "RG, max. 30 Std./Woche",
+            "154 €",
+            "117 €",
+            "78 €",
+            "32 €",
+            "0 €"
+          ]
+        }
+      },
+      "corroborating_evidence": [
+        {
+          "source_id": "55caf2cb4eb8",
+          "locator": "HTML-Tabelle ab 01.01.2027",
+          "original": null
+        }
+      ]
+    },
+    {
+      "id": "ditzingen-price-0087",
+      "offer_id": "ditzingen-1c83bf4d71",
+      "amount_cents": 7800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ad138a5bccc4",
+        "locator": "PDF Seite 2, Anlage 1 ab 01.01.2027, visuell geprüft",
+        "original": {
+          "research_line": 54,
+          "heading": "Künftige Tarife ab 1. Januar 2027",
+          "row": [
+            "RG, max. 30 Std./Woche",
+            "154 €",
+            "117 €",
+            "78 €",
+            "32 €",
+            "0 €"
+          ]
+        }
+      },
+      "corroborating_evidence": [
+        {
+          "source_id": "55caf2cb4eb8",
+          "locator": "HTML-Tabelle ab 01.01.2027",
+          "original": null
+        }
+      ]
+    },
+    {
+      "id": "ditzingen-price-0088",
+      "offer_id": "ditzingen-1c83bf4d71",
+      "amount_cents": 3200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ad138a5bccc4",
+        "locator": "PDF Seite 2, Anlage 1 ab 01.01.2027, visuell geprüft",
+        "original": {
+          "research_line": 54,
+          "heading": "Künftige Tarife ab 1. Januar 2027",
+          "row": [
+            "RG, max. 30 Std./Woche",
+            "154 €",
+            "117 €",
+            "78 €",
+            "32 €",
+            "0 €"
+          ]
+        }
+      },
+      "corroborating_evidence": [
+        {
+          "source_id": "55caf2cb4eb8",
+          "locator": "HTML-Tabelle ab 01.01.2027",
+          "original": null
+        }
+      ]
+    },
+    {
+      "id": "ditzingen-price-0089",
+      "offer_id": "ditzingen-1c66f7dd7e",
+      "amount_cents": 16600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ad138a5bccc4",
+        "locator": "PDF Seite 2, Anlage 1 ab 01.01.2027, visuell geprüft",
+        "original": {
+          "research_line": 54,
+          "heading": "Künftige Tarife ab 1. Januar 2027",
+          "row": [
+            "VÖ, max. 30 Std./Woche",
+            "166 €",
+            "130 €",
+            "85 €",
+            "35 €",
+            "58 €"
+          ]
+        }
+      },
+      "corroborating_evidence": [
+        {
+          "source_id": "55caf2cb4eb8",
+          "locator": "HTML-Tabelle ab 01.01.2027",
+          "original": null
+        }
+      ]
+    },
+    {
+      "id": "ditzingen-price-0090",
+      "offer_id": "ditzingen-1c66f7dd7e",
+      "amount_cents": 13000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ad138a5bccc4",
+        "locator": "PDF Seite 2, Anlage 1 ab 01.01.2027, visuell geprüft",
+        "original": {
+          "research_line": 54,
+          "heading": "Künftige Tarife ab 1. Januar 2027",
+          "row": [
+            "VÖ, max. 30 Std./Woche",
+            "166 €",
+            "130 €",
+            "85 €",
+            "35 €",
+            "58 €"
+          ]
+        }
+      },
+      "corroborating_evidence": [
+        {
+          "source_id": "55caf2cb4eb8",
+          "locator": "HTML-Tabelle ab 01.01.2027",
+          "original": null
+        }
+      ]
+    },
+    {
+      "id": "ditzingen-price-0091",
+      "offer_id": "ditzingen-1c66f7dd7e",
+      "amount_cents": 8500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ad138a5bccc4",
+        "locator": "PDF Seite 2, Anlage 1 ab 01.01.2027, visuell geprüft",
+        "original": {
+          "research_line": 54,
+          "heading": "Künftige Tarife ab 1. Januar 2027",
+          "row": [
+            "VÖ, max. 30 Std./Woche",
+            "166 €",
+            "130 €",
+            "85 €",
+            "35 €",
+            "58 €"
+          ]
+        }
+      },
+      "corroborating_evidence": [
+        {
+          "source_id": "55caf2cb4eb8",
+          "locator": "HTML-Tabelle ab 01.01.2027",
+          "original": null
+        }
+      ]
+    },
+    {
+      "id": "ditzingen-price-0092",
+      "offer_id": "ditzingen-1c66f7dd7e",
+      "amount_cents": 3500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ad138a5bccc4",
+        "locator": "PDF Seite 2, Anlage 1 ab 01.01.2027, visuell geprüft",
+        "original": {
+          "research_line": 54,
+          "heading": "Künftige Tarife ab 1. Januar 2027",
+          "row": [
+            "VÖ, max. 30 Std./Woche",
+            "166 €",
+            "130 €",
+            "85 €",
+            "35 €",
+            "58 €"
+          ]
+        }
+      },
+      "corroborating_evidence": [
+        {
+          "source_id": "55caf2cb4eb8",
+          "locator": "HTML-Tabelle ab 01.01.2027",
+          "original": null
+        }
+      ]
+    },
+    {
+      "id": "ditzingen-price-0093",
+      "offer_id": "ditzingen-1e7d048b08",
+      "amount_cents": 19200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ad138a5bccc4",
+        "locator": "PDF Seite 2, Anlage 1 ab 01.01.2027, visuell geprüft",
+        "original": {
+          "research_line": 54,
+          "heading": "Künftige Tarife ab 1. Januar 2027",
+          "row": [
+            "VÖ, max. 35 Std./Woche",
+            "192 €",
+            "147 €",
+            "99 €",
+            "40 €",
+            "58 €"
+          ]
+        }
+      },
+      "corroborating_evidence": [
+        {
+          "source_id": "55caf2cb4eb8",
+          "locator": "HTML-Tabelle ab 01.01.2027",
+          "original": null
+        }
+      ]
+    },
+    {
+      "id": "ditzingen-price-0094",
+      "offer_id": "ditzingen-1e7d048b08",
+      "amount_cents": 14700,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ad138a5bccc4",
+        "locator": "PDF Seite 2, Anlage 1 ab 01.01.2027, visuell geprüft",
+        "original": {
+          "research_line": 54,
+          "heading": "Künftige Tarife ab 1. Januar 2027",
+          "row": [
+            "VÖ, max. 35 Std./Woche",
+            "192 €",
+            "147 €",
+            "99 €",
+            "40 €",
+            "58 €"
+          ]
+        }
+      },
+      "corroborating_evidence": [
+        {
+          "source_id": "55caf2cb4eb8",
+          "locator": "HTML-Tabelle ab 01.01.2027",
+          "original": null
+        }
+      ]
+    },
+    {
+      "id": "ditzingen-price-0095",
+      "offer_id": "ditzingen-1e7d048b08",
+      "amount_cents": 9900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ad138a5bccc4",
+        "locator": "PDF Seite 2, Anlage 1 ab 01.01.2027, visuell geprüft",
+        "original": {
+          "research_line": 54,
+          "heading": "Künftige Tarife ab 1. Januar 2027",
+          "row": [
+            "VÖ, max. 35 Std./Woche",
+            "192 €",
+            "147 €",
+            "99 €",
+            "40 €",
+            "58 €"
+          ]
+        }
+      },
+      "corroborating_evidence": [
+        {
+          "source_id": "55caf2cb4eb8",
+          "locator": "HTML-Tabelle ab 01.01.2027",
+          "original": null
+        }
+      ]
+    },
+    {
+      "id": "ditzingen-price-0096",
+      "offer_id": "ditzingen-1e7d048b08",
+      "amount_cents": 4000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ad138a5bccc4",
+        "locator": "PDF Seite 2, Anlage 1 ab 01.01.2027, visuell geprüft",
+        "original": {
+          "research_line": 54,
+          "heading": "Künftige Tarife ab 1. Januar 2027",
+          "row": [
+            "VÖ, max. 35 Std./Woche",
+            "192 €",
+            "147 €",
+            "99 €",
+            "40 €",
+            "58 €"
+          ]
+        }
+      },
+      "corroborating_evidence": [
+        {
+          "source_id": "55caf2cb4eb8",
+          "locator": "HTML-Tabelle ab 01.01.2027",
+          "original": null
+        }
+      ]
+    },
+    {
+      "id": "ditzingen-price-0097",
+      "offer_id": "ditzingen-d28b6f0c5b",
+      "amount_cents": 33200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": "tax-0",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ad138a5bccc4",
+        "locator": "PDF Seite 2, Anlage 1 ab 01.01.2027, visuell geprüft",
+        "original": {
+          "research_line": 54,
+          "heading": "Künftige Tarife ab 1. Januar 2027",
+          "row": [
+            "GT, 45 Std./Woche, zvE bis 35.000 €",
+            "332 €",
+            "256 €",
+            "169 €",
+            "69 €",
+            "88 €"
+          ]
+        }
+      },
+      "corroborating_evidence": [
+        {
+          "source_id": "55caf2cb4eb8",
+          "locator": "HTML-Tabelle ab 01.01.2027",
+          "original": null
+        }
+      ]
+    },
+    {
+      "id": "ditzingen-price-0098",
+      "offer_id": "ditzingen-d28b6f0c5b",
+      "amount_cents": 25600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": "tax-0",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ad138a5bccc4",
+        "locator": "PDF Seite 2, Anlage 1 ab 01.01.2027, visuell geprüft",
+        "original": {
+          "research_line": 54,
+          "heading": "Künftige Tarife ab 1. Januar 2027",
+          "row": [
+            "GT, 45 Std./Woche, zvE bis 35.000 €",
+            "332 €",
+            "256 €",
+            "169 €",
+            "69 €",
+            "88 €"
+          ]
+        }
+      },
+      "corroborating_evidence": [
+        {
+          "source_id": "55caf2cb4eb8",
+          "locator": "HTML-Tabelle ab 01.01.2027",
+          "original": null
+        }
+      ]
+    },
+    {
+      "id": "ditzingen-price-0099",
+      "offer_id": "ditzingen-d28b6f0c5b",
+      "amount_cents": 16900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": "tax-0",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ad138a5bccc4",
+        "locator": "PDF Seite 2, Anlage 1 ab 01.01.2027, visuell geprüft",
+        "original": {
+          "research_line": 54,
+          "heading": "Künftige Tarife ab 1. Januar 2027",
+          "row": [
+            "GT, 45 Std./Woche, zvE bis 35.000 €",
+            "332 €",
+            "256 €",
+            "169 €",
+            "69 €",
+            "88 €"
+          ]
+        }
+      },
+      "corroborating_evidence": [
+        {
+          "source_id": "55caf2cb4eb8",
+          "locator": "HTML-Tabelle ab 01.01.2027",
+          "original": null
+        }
+      ]
+    },
+    {
+      "id": "ditzingen-price-0100",
+      "offer_id": "ditzingen-d28b6f0c5b",
+      "amount_cents": 6900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": "tax-0",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ad138a5bccc4",
+        "locator": "PDF Seite 2, Anlage 1 ab 01.01.2027, visuell geprüft",
+        "original": {
+          "research_line": 54,
+          "heading": "Künftige Tarife ab 1. Januar 2027",
+          "row": [
+            "GT, 45 Std./Woche, zvE bis 35.000 €",
+            "332 €",
+            "256 €",
+            "169 €",
+            "69 €",
+            "88 €"
+          ]
+        }
+      },
+      "corroborating_evidence": [
+        {
+          "source_id": "55caf2cb4eb8",
+          "locator": "HTML-Tabelle ab 01.01.2027",
+          "original": null
+        }
+      ]
+    },
+    {
+      "id": "ditzingen-price-0101",
+      "offer_id": "ditzingen-d28b6f0c5b",
+      "amount_cents": 37300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": "tax-1",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ad138a5bccc4",
+        "locator": "PDF Seite 2, Anlage 1 ab 01.01.2027, visuell geprüft",
+        "original": {
+          "research_line": 54,
+          "heading": "Künftige Tarife ab 1. Januar 2027",
+          "row": [
+            "GT, 45 Std./Woche, zvE 35.001–50.000 €",
+            "373 €",
+            "288 €",
+            "190 €",
+            "78 €",
+            "88 €"
+          ]
+        }
+      },
+      "corroborating_evidence": [
+        {
+          "source_id": "55caf2cb4eb8",
+          "locator": "HTML-Tabelle ab 01.01.2027",
+          "original": null
+        }
+      ]
+    },
+    {
+      "id": "ditzingen-price-0102",
+      "offer_id": "ditzingen-d28b6f0c5b",
+      "amount_cents": 28800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": "tax-1",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ad138a5bccc4",
+        "locator": "PDF Seite 2, Anlage 1 ab 01.01.2027, visuell geprüft",
+        "original": {
+          "research_line": 54,
+          "heading": "Künftige Tarife ab 1. Januar 2027",
+          "row": [
+            "GT, 45 Std./Woche, zvE 35.001–50.000 €",
+            "373 €",
+            "288 €",
+            "190 €",
+            "78 €",
+            "88 €"
+          ]
+        }
+      },
+      "corroborating_evidence": [
+        {
+          "source_id": "55caf2cb4eb8",
+          "locator": "HTML-Tabelle ab 01.01.2027",
+          "original": null
+        }
+      ]
+    },
+    {
+      "id": "ditzingen-price-0103",
+      "offer_id": "ditzingen-d28b6f0c5b",
+      "amount_cents": 19000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": "tax-1",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ad138a5bccc4",
+        "locator": "PDF Seite 2, Anlage 1 ab 01.01.2027, visuell geprüft",
+        "original": {
+          "research_line": 54,
+          "heading": "Künftige Tarife ab 1. Januar 2027",
+          "row": [
+            "GT, 45 Std./Woche, zvE 35.001–50.000 €",
+            "373 €",
+            "288 €",
+            "190 €",
+            "78 €",
+            "88 €"
+          ]
+        }
+      },
+      "corroborating_evidence": [
+        {
+          "source_id": "55caf2cb4eb8",
+          "locator": "HTML-Tabelle ab 01.01.2027",
+          "original": null
+        }
+      ]
+    },
+    {
+      "id": "ditzingen-price-0104",
+      "offer_id": "ditzingen-d28b6f0c5b",
+      "amount_cents": 7800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": "tax-1",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ad138a5bccc4",
+        "locator": "PDF Seite 2, Anlage 1 ab 01.01.2027, visuell geprüft",
+        "original": {
+          "research_line": 54,
+          "heading": "Künftige Tarife ab 1. Januar 2027",
+          "row": [
+            "GT, 45 Std./Woche, zvE 35.001–50.000 €",
+            "373 €",
+            "288 €",
+            "190 €",
+            "78 €",
+            "88 €"
+          ]
+        }
+      },
+      "corroborating_evidence": [
+        {
+          "source_id": "55caf2cb4eb8",
+          "locator": "HTML-Tabelle ab 01.01.2027",
+          "original": null
+        }
+      ]
+    },
+    {
+      "id": "ditzingen-price-0105",
+      "offer_id": "ditzingen-d28b6f0c5b",
+      "amount_cents": 41500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": "tax-2",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ad138a5bccc4",
+        "locator": "PDF Seite 2, Anlage 1 ab 01.01.2027, visuell geprüft",
+        "original": {
+          "research_line": 54,
+          "heading": "Künftige Tarife ab 1. Januar 2027",
+          "row": [
+            "GT, 45 Std./Woche, zvE 50.001–70.000 €",
+            "415 €",
+            "320 €",
+            "211 €",
+            "87 €",
+            "88 €"
+          ]
+        }
+      },
+      "corroborating_evidence": [
+        {
+          "source_id": "55caf2cb4eb8",
+          "locator": "HTML-Tabelle ab 01.01.2027",
+          "original": null
+        }
+      ]
+    },
+    {
+      "id": "ditzingen-price-0106",
+      "offer_id": "ditzingen-d28b6f0c5b",
+      "amount_cents": 32000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": "tax-2",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ad138a5bccc4",
+        "locator": "PDF Seite 2, Anlage 1 ab 01.01.2027, visuell geprüft",
+        "original": {
+          "research_line": 54,
+          "heading": "Künftige Tarife ab 1. Januar 2027",
+          "row": [
+            "GT, 45 Std./Woche, zvE 50.001–70.000 €",
+            "415 €",
+            "320 €",
+            "211 €",
+            "87 €",
+            "88 €"
+          ]
+        }
+      },
+      "corroborating_evidence": [
+        {
+          "source_id": "55caf2cb4eb8",
+          "locator": "HTML-Tabelle ab 01.01.2027",
+          "original": null
+        }
+      ]
+    },
+    {
+      "id": "ditzingen-price-0107",
+      "offer_id": "ditzingen-d28b6f0c5b",
+      "amount_cents": 21100,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": "tax-2",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ad138a5bccc4",
+        "locator": "PDF Seite 2, Anlage 1 ab 01.01.2027, visuell geprüft",
+        "original": {
+          "research_line": 54,
+          "heading": "Künftige Tarife ab 1. Januar 2027",
+          "row": [
+            "GT, 45 Std./Woche, zvE 50.001–70.000 €",
+            "415 €",
+            "320 €",
+            "211 €",
+            "87 €",
+            "88 €"
+          ]
+        }
+      },
+      "corroborating_evidence": [
+        {
+          "source_id": "55caf2cb4eb8",
+          "locator": "HTML-Tabelle ab 01.01.2027",
+          "original": null
+        }
+      ]
+    },
+    {
+      "id": "ditzingen-price-0108",
+      "offer_id": "ditzingen-d28b6f0c5b",
+      "amount_cents": 8700,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": "tax-2",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ad138a5bccc4",
+        "locator": "PDF Seite 2, Anlage 1 ab 01.01.2027, visuell geprüft",
+        "original": {
+          "research_line": 54,
+          "heading": "Künftige Tarife ab 1. Januar 2027",
+          "row": [
+            "GT, 45 Std./Woche, zvE 50.001–70.000 €",
+            "415 €",
+            "320 €",
+            "211 €",
+            "87 €",
+            "88 €"
+          ]
+        }
+      },
+      "corroborating_evidence": [
+        {
+          "source_id": "55caf2cb4eb8",
+          "locator": "HTML-Tabelle ab 01.01.2027",
+          "original": null
+        }
+      ]
+    },
+    {
+      "id": "ditzingen-price-0109",
+      "offer_id": "ditzingen-d28b6f0c5b",
+      "amount_cents": 45600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": "tax-3",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ad138a5bccc4",
+        "locator": "PDF Seite 2, Anlage 1 ab 01.01.2027, visuell geprüft",
+        "original": {
+          "research_line": 54,
+          "heading": "Künftige Tarife ab 1. Januar 2027",
+          "row": [
+            "GT, 45 Std./Woche, wörtlich: „mehr als 70.001 €“",
+            "456 €",
+            "352 €",
+            "232 €",
+            "95 €",
+            "88 €"
+          ]
+        }
+      },
+      "corroborating_evidence": [
+        {
+          "source_id": "55caf2cb4eb8",
+          "locator": "HTML-Tabelle ab 01.01.2027",
+          "original": null
+        }
+      ]
+    },
+    {
+      "id": "ditzingen-price-0110",
+      "offer_id": "ditzingen-d28b6f0c5b",
+      "amount_cents": 35200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": "tax-3",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ad138a5bccc4",
+        "locator": "PDF Seite 2, Anlage 1 ab 01.01.2027, visuell geprüft",
+        "original": {
+          "research_line": 54,
+          "heading": "Künftige Tarife ab 1. Januar 2027",
+          "row": [
+            "GT, 45 Std./Woche, wörtlich: „mehr als 70.001 €“",
+            "456 €",
+            "352 €",
+            "232 €",
+            "95 €",
+            "88 €"
+          ]
+        }
+      },
+      "corroborating_evidence": [
+        {
+          "source_id": "55caf2cb4eb8",
+          "locator": "HTML-Tabelle ab 01.01.2027",
+          "original": null
+        }
+      ]
+    },
+    {
+      "id": "ditzingen-price-0111",
+      "offer_id": "ditzingen-d28b6f0c5b",
+      "amount_cents": 23200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": "tax-3",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ad138a5bccc4",
+        "locator": "PDF Seite 2, Anlage 1 ab 01.01.2027, visuell geprüft",
+        "original": {
+          "research_line": 54,
+          "heading": "Künftige Tarife ab 1. Januar 2027",
+          "row": [
+            "GT, 45 Std./Woche, wörtlich: „mehr als 70.001 €“",
+            "456 €",
+            "352 €",
+            "232 €",
+            "95 €",
+            "88 €"
+          ]
+        }
+      },
+      "corroborating_evidence": [
+        {
+          "source_id": "55caf2cb4eb8",
+          "locator": "HTML-Tabelle ab 01.01.2027",
+          "original": null
+        }
+      ]
+    },
+    {
+      "id": "ditzingen-price-0112",
+      "offer_id": "ditzingen-d28b6f0c5b",
+      "amount_cents": 9500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": "tax-3",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ad138a5bccc4",
+        "locator": "PDF Seite 2, Anlage 1 ab 01.01.2027, visuell geprüft",
+        "original": {
+          "research_line": 54,
+          "heading": "Künftige Tarife ab 1. Januar 2027",
+          "row": [
+            "GT, 45 Std./Woche, wörtlich: „mehr als 70.001 €“",
+            "456 €",
+            "352 €",
+            "232 €",
+            "95 €",
+            "88 €"
+          ]
+        }
+      },
+      "corroborating_evidence": [
+        {
+          "source_id": "55caf2cb4eb8",
+          "locator": "HTML-Tabelle ab 01.01.2027",
+          "original": null
+        }
+      ]
+    },
+    {
+      "id": "ditzingen-price-0113",
+      "offer_id": "ditzingen-9abf5a26c2",
+      "amount_cents": 36100,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ad138a5bccc4",
+        "locator": "PDF Seite 3, Anlage 2 ab 01.01.2027, visuell geprüft",
+        "original": {
+          "research_line": 64,
+          "heading": "Künftige Tarife ab 1. Januar 2027",
+          "row": [
+            "VÖ, max. 30 Std./Woche",
+            "361 €",
+            "277 €",
+            "182 €",
+            "73 €",
+            "58 €"
+          ]
+        }
+      },
+      "corroborating_evidence": [
+        {
+          "source_id": "55caf2cb4eb8",
+          "locator": "HTML-Tabelle ab 01.01.2027",
+          "original": null
+        }
+      ]
+    },
+    {
+      "id": "ditzingen-price-0114",
+      "offer_id": "ditzingen-9abf5a26c2",
+      "amount_cents": 27700,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ad138a5bccc4",
+        "locator": "PDF Seite 3, Anlage 2 ab 01.01.2027, visuell geprüft",
+        "original": {
+          "research_line": 64,
+          "heading": "Künftige Tarife ab 1. Januar 2027",
+          "row": [
+            "VÖ, max. 30 Std./Woche",
+            "361 €",
+            "277 €",
+            "182 €",
+            "73 €",
+            "58 €"
+          ]
+        }
+      },
+      "corroborating_evidence": [
+        {
+          "source_id": "55caf2cb4eb8",
+          "locator": "HTML-Tabelle ab 01.01.2027",
+          "original": null
+        }
+      ]
+    },
+    {
+      "id": "ditzingen-price-0115",
+      "offer_id": "ditzingen-9abf5a26c2",
+      "amount_cents": 18200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ad138a5bccc4",
+        "locator": "PDF Seite 3, Anlage 2 ab 01.01.2027, visuell geprüft",
+        "original": {
+          "research_line": 64,
+          "heading": "Künftige Tarife ab 1. Januar 2027",
+          "row": [
+            "VÖ, max. 30 Std./Woche",
+            "361 €",
+            "277 €",
+            "182 €",
+            "73 €",
+            "58 €"
+          ]
+        }
+      },
+      "corroborating_evidence": [
+        {
+          "source_id": "55caf2cb4eb8",
+          "locator": "HTML-Tabelle ab 01.01.2027",
+          "original": null
+        }
+      ]
+    },
+    {
+      "id": "ditzingen-price-0116",
+      "offer_id": "ditzingen-9abf5a26c2",
+      "amount_cents": 7300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ad138a5bccc4",
+        "locator": "PDF Seite 3, Anlage 2 ab 01.01.2027, visuell geprüft",
+        "original": {
+          "research_line": 64,
+          "heading": "Künftige Tarife ab 1. Januar 2027",
+          "row": [
+            "VÖ, max. 30 Std./Woche",
+            "361 €",
+            "277 €",
+            "182 €",
+            "73 €",
+            "58 €"
+          ]
+        }
+      },
+      "corroborating_evidence": [
+        {
+          "source_id": "55caf2cb4eb8",
+          "locator": "HTML-Tabelle ab 01.01.2027",
+          "original": null
+        }
+      ]
+    },
+    {
+      "id": "ditzingen-price-0117",
+      "offer_id": "ditzingen-f6c8c01f42",
+      "amount_cents": 42100,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ad138a5bccc4",
+        "locator": "PDF Seite 3, Anlage 2 ab 01.01.2027, visuell geprüft",
+        "original": {
+          "research_line": 64,
+          "heading": "Künftige Tarife ab 1. Januar 2027",
+          "row": [
+            "VÖ, max. 35 Std./Woche",
+            "421 €",
+            "322 €",
+            "214 €",
+            "87 €",
+            "58 €"
+          ]
+        }
+      },
+      "corroborating_evidence": [
+        {
+          "source_id": "55caf2cb4eb8",
+          "locator": "HTML-Tabelle ab 01.01.2027",
+          "original": null
+        }
+      ]
+    },
+    {
+      "id": "ditzingen-price-0118",
+      "offer_id": "ditzingen-f6c8c01f42",
+      "amount_cents": 32200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ad138a5bccc4",
+        "locator": "PDF Seite 3, Anlage 2 ab 01.01.2027, visuell geprüft",
+        "original": {
+          "research_line": 64,
+          "heading": "Künftige Tarife ab 1. Januar 2027",
+          "row": [
+            "VÖ, max. 35 Std./Woche",
+            "421 €",
+            "322 €",
+            "214 €",
+            "87 €",
+            "58 €"
+          ]
+        }
+      },
+      "corroborating_evidence": [
+        {
+          "source_id": "55caf2cb4eb8",
+          "locator": "HTML-Tabelle ab 01.01.2027",
+          "original": null
+        }
+      ]
+    },
+    {
+      "id": "ditzingen-price-0119",
+      "offer_id": "ditzingen-f6c8c01f42",
+      "amount_cents": 21400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ad138a5bccc4",
+        "locator": "PDF Seite 3, Anlage 2 ab 01.01.2027, visuell geprüft",
+        "original": {
+          "research_line": 64,
+          "heading": "Künftige Tarife ab 1. Januar 2027",
+          "row": [
+            "VÖ, max. 35 Std./Woche",
+            "421 €",
+            "322 €",
+            "214 €",
+            "87 €",
+            "58 €"
+          ]
+        }
+      },
+      "corroborating_evidence": [
+        {
+          "source_id": "55caf2cb4eb8",
+          "locator": "HTML-Tabelle ab 01.01.2027",
+          "original": null
+        }
+      ]
+    },
+    {
+      "id": "ditzingen-price-0120",
+      "offer_id": "ditzingen-f6c8c01f42",
+      "amount_cents": 8700,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ad138a5bccc4",
+        "locator": "PDF Seite 3, Anlage 2 ab 01.01.2027, visuell geprüft",
+        "original": {
+          "research_line": 64,
+          "heading": "Künftige Tarife ab 1. Januar 2027",
+          "row": [
+            "VÖ, max. 35 Std./Woche",
+            "421 €",
+            "322 €",
+            "214 €",
+            "87 €",
+            "58 €"
+          ]
+        }
+      },
+      "corroborating_evidence": [
+        {
+          "source_id": "55caf2cb4eb8",
+          "locator": "HTML-Tabelle ab 01.01.2027",
+          "original": null
+        }
+      ]
+    },
+    {
+      "id": "ditzingen-price-0121",
+      "offer_id": "ditzingen-55eccb52be",
+      "amount_cents": 49600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": "tax-0",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ad138a5bccc4",
+        "locator": "PDF Seite 3, Anlage 2 ab 01.01.2027, visuell geprüft",
+        "original": {
+          "research_line": 64,
+          "heading": "Künftige Tarife ab 1. Januar 2027",
+          "row": [
+            "GT, 45 Std./Woche, zvE bis 35.000 €",
+            "496 €",
+            "382 €",
+            "252 €",
+            "103 €",
+            "88 €"
+          ]
+        }
+      },
+      "corroborating_evidence": [
+        {
+          "source_id": "55caf2cb4eb8",
+          "locator": "HTML-Tabelle ab 01.01.2027",
+          "original": null
+        }
+      ]
+    },
+    {
+      "id": "ditzingen-price-0122",
+      "offer_id": "ditzingen-55eccb52be",
+      "amount_cents": 38200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": "tax-0",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ad138a5bccc4",
+        "locator": "PDF Seite 3, Anlage 2 ab 01.01.2027, visuell geprüft",
+        "original": {
+          "research_line": 64,
+          "heading": "Künftige Tarife ab 1. Januar 2027",
+          "row": [
+            "GT, 45 Std./Woche, zvE bis 35.000 €",
+            "496 €",
+            "382 €",
+            "252 €",
+            "103 €",
+            "88 €"
+          ]
+        }
+      },
+      "corroborating_evidence": [
+        {
+          "source_id": "55caf2cb4eb8",
+          "locator": "HTML-Tabelle ab 01.01.2027",
+          "original": null
+        }
+      ]
+    },
+    {
+      "id": "ditzingen-price-0123",
+      "offer_id": "ditzingen-55eccb52be",
+      "amount_cents": 25200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": "tax-0",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ad138a5bccc4",
+        "locator": "PDF Seite 3, Anlage 2 ab 01.01.2027, visuell geprüft",
+        "original": {
+          "research_line": 64,
+          "heading": "Künftige Tarife ab 1. Januar 2027",
+          "row": [
+            "GT, 45 Std./Woche, zvE bis 35.000 €",
+            "496 €",
+            "382 €",
+            "252 €",
+            "103 €",
+            "88 €"
+          ]
+        }
+      },
+      "corroborating_evidence": [
+        {
+          "source_id": "55caf2cb4eb8",
+          "locator": "HTML-Tabelle ab 01.01.2027",
+          "original": null
+        }
+      ]
+    },
+    {
+      "id": "ditzingen-price-0124",
+      "offer_id": "ditzingen-55eccb52be",
+      "amount_cents": 10300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": "tax-0",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ad138a5bccc4",
+        "locator": "PDF Seite 3, Anlage 2 ab 01.01.2027, visuell geprüft",
+        "original": {
+          "research_line": 64,
+          "heading": "Künftige Tarife ab 1. Januar 2027",
+          "row": [
+            "GT, 45 Std./Woche, zvE bis 35.000 €",
+            "496 €",
+            "382 €",
+            "252 €",
+            "103 €",
+            "88 €"
+          ]
+        }
+      },
+      "corroborating_evidence": [
+        {
+          "source_id": "55caf2cb4eb8",
+          "locator": "HTML-Tabelle ab 01.01.2027",
+          "original": null
+        }
+      ]
+    },
+    {
+      "id": "ditzingen-price-0125",
+      "offer_id": "ditzingen-55eccb52be",
+      "amount_cents": 55800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": "tax-1",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ad138a5bccc4",
+        "locator": "PDF Seite 3, Anlage 2 ab 01.01.2027, visuell geprüft",
+        "original": {
+          "research_line": 64,
+          "heading": "Künftige Tarife ab 1. Januar 2027",
+          "row": [
+            "GT, 45 Std./Woche, zvE 35.001–50.000 €",
+            "558 €",
+            "430 €",
+            "284 €",
+            "116 €",
+            "88 €"
+          ]
+        }
+      },
+      "corroborating_evidence": [
+        {
+          "source_id": "55caf2cb4eb8",
+          "locator": "HTML-Tabelle ab 01.01.2027",
+          "original": null
+        }
+      ]
+    },
+    {
+      "id": "ditzingen-price-0126",
+      "offer_id": "ditzingen-55eccb52be",
+      "amount_cents": 43000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": "tax-1",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ad138a5bccc4",
+        "locator": "PDF Seite 3, Anlage 2 ab 01.01.2027, visuell geprüft",
+        "original": {
+          "research_line": 64,
+          "heading": "Künftige Tarife ab 1. Januar 2027",
+          "row": [
+            "GT, 45 Std./Woche, zvE 35.001–50.000 €",
+            "558 €",
+            "430 €",
+            "284 €",
+            "116 €",
+            "88 €"
+          ]
+        }
+      },
+      "corroborating_evidence": [
+        {
+          "source_id": "55caf2cb4eb8",
+          "locator": "HTML-Tabelle ab 01.01.2027",
+          "original": null
+        }
+      ]
+    },
+    {
+      "id": "ditzingen-price-0127",
+      "offer_id": "ditzingen-55eccb52be",
+      "amount_cents": 28400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": "tax-1",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ad138a5bccc4",
+        "locator": "PDF Seite 3, Anlage 2 ab 01.01.2027, visuell geprüft",
+        "original": {
+          "research_line": 64,
+          "heading": "Künftige Tarife ab 1. Januar 2027",
+          "row": [
+            "GT, 45 Std./Woche, zvE 35.001–50.000 €",
+            "558 €",
+            "430 €",
+            "284 €",
+            "116 €",
+            "88 €"
+          ]
+        }
+      },
+      "corroborating_evidence": [
+        {
+          "source_id": "55caf2cb4eb8",
+          "locator": "HTML-Tabelle ab 01.01.2027",
+          "original": null
+        }
+      ]
+    },
+    {
+      "id": "ditzingen-price-0128",
+      "offer_id": "ditzingen-55eccb52be",
+      "amount_cents": 11600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": "tax-1",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ad138a5bccc4",
+        "locator": "PDF Seite 3, Anlage 2 ab 01.01.2027, visuell geprüft",
+        "original": {
+          "research_line": 64,
+          "heading": "Künftige Tarife ab 1. Januar 2027",
+          "row": [
+            "GT, 45 Std./Woche, zvE 35.001–50.000 €",
+            "558 €",
+            "430 €",
+            "284 €",
+            "116 €",
+            "88 €"
+          ]
+        }
+      },
+      "corroborating_evidence": [
+        {
+          "source_id": "55caf2cb4eb8",
+          "locator": "HTML-Tabelle ab 01.01.2027",
+          "original": null
+        }
+      ]
+    },
+    {
+      "id": "ditzingen-price-0129",
+      "offer_id": "ditzingen-55eccb52be",
+      "amount_cents": 62000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": "tax-2",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ad138a5bccc4",
+        "locator": "PDF Seite 3, Anlage 2 ab 01.01.2027, visuell geprüft",
+        "original": {
+          "research_line": 64,
+          "heading": "Künftige Tarife ab 1. Januar 2027",
+          "row": [
+            "GT, 45 Std./Woche, zvE 50.001–70.000 €",
+            "620 €",
+            "477 €",
+            "315 €",
+            "129 €",
+            "88 €"
+          ]
+        }
+      },
+      "corroborating_evidence": [
+        {
+          "source_id": "55caf2cb4eb8",
+          "locator": "HTML-Tabelle ab 01.01.2027",
+          "original": null
+        }
+      ]
+    },
+    {
+      "id": "ditzingen-price-0130",
+      "offer_id": "ditzingen-55eccb52be",
+      "amount_cents": 47700,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": "tax-2",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ad138a5bccc4",
+        "locator": "PDF Seite 3, Anlage 2 ab 01.01.2027, visuell geprüft",
+        "original": {
+          "research_line": 64,
+          "heading": "Künftige Tarife ab 1. Januar 2027",
+          "row": [
+            "GT, 45 Std./Woche, zvE 50.001–70.000 €",
+            "620 €",
+            "477 €",
+            "315 €",
+            "129 €",
+            "88 €"
+          ]
+        }
+      },
+      "corroborating_evidence": [
+        {
+          "source_id": "55caf2cb4eb8",
+          "locator": "HTML-Tabelle ab 01.01.2027",
+          "original": null
+        }
+      ]
+    },
+    {
+      "id": "ditzingen-price-0131",
+      "offer_id": "ditzingen-55eccb52be",
+      "amount_cents": 31500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": "tax-2",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ad138a5bccc4",
+        "locator": "PDF Seite 3, Anlage 2 ab 01.01.2027, visuell geprüft",
+        "original": {
+          "research_line": 64,
+          "heading": "Künftige Tarife ab 1. Januar 2027",
+          "row": [
+            "GT, 45 Std./Woche, zvE 50.001–70.000 €",
+            "620 €",
+            "477 €",
+            "315 €",
+            "129 €",
+            "88 €"
+          ]
+        }
+      },
+      "corroborating_evidence": [
+        {
+          "source_id": "55caf2cb4eb8",
+          "locator": "HTML-Tabelle ab 01.01.2027",
+          "original": null
+        }
+      ]
+    },
+    {
+      "id": "ditzingen-price-0132",
+      "offer_id": "ditzingen-55eccb52be",
+      "amount_cents": 12900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": "tax-2",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ad138a5bccc4",
+        "locator": "PDF Seite 3, Anlage 2 ab 01.01.2027, visuell geprüft",
+        "original": {
+          "research_line": 64,
+          "heading": "Künftige Tarife ab 1. Januar 2027",
+          "row": [
+            "GT, 45 Std./Woche, zvE 50.001–70.000 €",
+            "620 €",
+            "477 €",
+            "315 €",
+            "129 €",
+            "88 €"
+          ]
+        }
+      },
+      "corroborating_evidence": [
+        {
+          "source_id": "55caf2cb4eb8",
+          "locator": "HTML-Tabelle ab 01.01.2027",
+          "original": null
+        }
+      ]
+    },
+    {
+      "id": "ditzingen-price-0133",
+      "offer_id": "ditzingen-55eccb52be",
+      "amount_cents": 68200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": "tax-3",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ad138a5bccc4",
+        "locator": "PDF Seite 3, Anlage 2 ab 01.01.2027, visuell geprüft",
+        "original": {
+          "research_line": 64,
+          "heading": "Künftige Tarife ab 1. Januar 2027",
+          "row": [
+            "GT, 45 Std./Woche, wörtlich: „mehr als 70.001 €“",
+            "682 €",
+            "525 €",
+            "347 €",
+            "142 €",
+            "88 €"
+          ]
+        }
+      },
+      "corroborating_evidence": [
+        {
+          "source_id": "55caf2cb4eb8",
+          "locator": "HTML-Tabelle ab 01.01.2027",
+          "original": null
+        }
+      ]
+    },
+    {
+      "id": "ditzingen-price-0134",
+      "offer_id": "ditzingen-55eccb52be",
+      "amount_cents": 52500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": "tax-3",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ad138a5bccc4",
+        "locator": "PDF Seite 3, Anlage 2 ab 01.01.2027, visuell geprüft",
+        "original": {
+          "research_line": 64,
+          "heading": "Künftige Tarife ab 1. Januar 2027",
+          "row": [
+            "GT, 45 Std./Woche, wörtlich: „mehr als 70.001 €“",
+            "682 €",
+            "525 €",
+            "347 €",
+            "142 €",
+            "88 €"
+          ]
+        }
+      },
+      "corroborating_evidence": [
+        {
+          "source_id": "55caf2cb4eb8",
+          "locator": "HTML-Tabelle ab 01.01.2027",
+          "original": null
+        }
+      ]
+    },
+    {
+      "id": "ditzingen-price-0135",
+      "offer_id": "ditzingen-55eccb52be",
+      "amount_cents": 34700,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": "tax-3",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ad138a5bccc4",
+        "locator": "PDF Seite 3, Anlage 2 ab 01.01.2027, visuell geprüft",
+        "original": {
+          "research_line": 64,
+          "heading": "Künftige Tarife ab 1. Januar 2027",
+          "row": [
+            "GT, 45 Std./Woche, wörtlich: „mehr als 70.001 €“",
+            "682 €",
+            "525 €",
+            "347 €",
+            "142 €",
+            "88 €"
+          ]
+        }
+      },
+      "corroborating_evidence": [
+        {
+          "source_id": "55caf2cb4eb8",
+          "locator": "HTML-Tabelle ab 01.01.2027",
+          "original": null
+        }
+      ]
+    },
+    {
+      "id": "ditzingen-price-0136",
+      "offer_id": "ditzingen-55eccb52be",
+      "amount_cents": 14200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": "tax-3",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "ad138a5bccc4",
+        "locator": "PDF Seite 3, Anlage 2 ab 01.01.2027, visuell geprüft",
+        "original": {
+          "research_line": 64,
+          "heading": "Künftige Tarife ab 1. Januar 2027",
+          "row": [
+            "GT, 45 Std./Woche, wörtlich: „mehr als 70.001 €“",
+            "682 €",
+            "525 €",
+            "347 €",
+            "142 €",
+            "88 €"
+          ]
+        }
+      },
+      "corroborating_evidence": [
+        {
+          "source_id": "55caf2cb4eb8",
+          "locator": "HTML-Tabelle ab 01.01.2027",
+          "original": null
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "id": "ditzingen-component-001",
+      "kind": "meal",
+      "original_label": "Verpflegung",
+      "amount_cents": 0,
+      "unit": "per_month",
+      "age_group": null,
+      "offer_ids": [
+        "ditzingen-664f24bb6d"
+      ],
+      "required": false,
+      "payment_months": 12,
+      "valid_from": "2026-01-01",
+      "valid_to": "2026-12-31",
+      "value_status": "known",
+      "evidence": {
+        "source_id": "e3a01305341e",
+        "locator": "Verpflegung",
+        "original": null
+      }
+    },
+    {
+      "id": "ditzingen-component-002",
+      "kind": "meal",
+      "original_label": "Verpflegung",
+      "amount_cents": 5800,
+      "unit": "per_month",
+      "age_group": null,
+      "offer_ids": [
+        "ditzingen-28491a8e01"
+      ],
+      "required": true,
+      "payment_months": 12,
+      "valid_from": "2026-01-01",
+      "valid_to": "2026-12-31",
+      "value_status": "known",
+      "evidence": {
+        "source_id": "e3a01305341e",
+        "locator": "Verpflegung",
+        "original": null
+      }
+    },
+    {
+      "id": "ditzingen-component-003",
+      "kind": "meal",
+      "original_label": "Verpflegung",
+      "amount_cents": 5800,
+      "unit": "per_month",
+      "age_group": null,
+      "offer_ids": [
+        "ditzingen-56f1026223"
+      ],
+      "required": true,
+      "payment_months": 12,
+      "valid_from": "2026-01-01",
+      "valid_to": "2026-12-31",
+      "value_status": "known",
+      "evidence": {
+        "source_id": "e3a01305341e",
+        "locator": "Verpflegung",
+        "original": null
+      }
+    },
+    {
+      "id": "ditzingen-component-004",
+      "kind": "meal",
+      "original_label": "Verpflegung",
+      "amount_cents": 8800,
+      "unit": "per_month",
+      "age_group": null,
+      "offer_ids": [
+        "ditzingen-78b2c4cb91"
+      ],
+      "required": true,
+      "payment_months": 12,
+      "valid_from": "2026-01-01",
+      "valid_to": "2026-12-31",
+      "value_status": "known",
+      "evidence": {
+        "source_id": "e3a01305341e",
+        "locator": "Verpflegung",
+        "original": null
+      }
+    },
+    {
+      "id": "ditzingen-component-005",
+      "kind": "meal",
+      "original_label": "Verpflegung",
+      "amount_cents": 8800,
+      "unit": "per_month",
+      "age_group": null,
+      "offer_ids": [
+        "ditzingen-a15bb78d59"
+      ],
+      "required": true,
+      "payment_months": 12,
+      "valid_from": "2026-01-01",
+      "valid_to": "2026-12-31",
+      "value_status": "known",
+      "evidence": {
+        "source_id": "e3a01305341e",
+        "locator": "Verpflegung",
+        "original": null
+      }
+    },
+    {
+      "id": "ditzingen-component-006",
+      "kind": "meal",
+      "original_label": "Verpflegung",
+      "amount_cents": 5800,
+      "unit": "per_month",
+      "age_group": null,
+      "offer_ids": [
+        "ditzingen-b4af77f520"
+      ],
+      "required": true,
+      "payment_months": 12,
+      "valid_from": "2026-01-01",
+      "valid_to": "2026-12-31",
+      "value_status": "known",
+      "evidence": {
+        "source_id": "e3a01305341e",
+        "locator": "Verpflegung",
+        "original": null
+      }
+    },
+    {
+      "id": "ditzingen-component-007",
+      "kind": "meal",
+      "original_label": "Verpflegung",
+      "amount_cents": 5800,
+      "unit": "per_month",
+      "age_group": null,
+      "offer_ids": [
+        "ditzingen-55280dfdbd"
+      ],
+      "required": true,
+      "payment_months": 12,
+      "valid_from": "2026-01-01",
+      "valid_to": "2026-12-31",
+      "value_status": "known",
+      "evidence": {
+        "source_id": "e3a01305341e",
+        "locator": "Verpflegung",
+        "original": null
+      }
+    },
+    {
+      "id": "ditzingen-component-008",
+      "kind": "meal",
+      "original_label": "Verpflegung",
+      "amount_cents": 8800,
+      "unit": "per_month",
+      "age_group": null,
+      "offer_ids": [
+        "ditzingen-364e50ed1d"
+      ],
+      "required": true,
+      "payment_months": 12,
+      "valid_from": "2026-01-01",
+      "valid_to": "2026-12-31",
+      "value_status": "known",
+      "evidence": {
+        "source_id": "e3a01305341e",
+        "locator": "Verpflegung",
+        "original": null
+      }
+    },
+    {
+      "id": "ditzingen-component-009",
+      "kind": "meal",
+      "original_label": "Verpflegung",
+      "amount_cents": 8800,
+      "unit": "per_month",
+      "age_group": null,
+      "offer_ids": [
+        "ditzingen-36855bd004"
+      ],
+      "required": true,
+      "payment_months": 12,
+      "valid_from": "2026-01-01",
+      "valid_to": "2026-12-31",
+      "value_status": "known",
+      "evidence": {
+        "source_id": "e3a01305341e",
+        "locator": "Verpflegung",
+        "original": null
+      }
+    },
+    {
+      "id": "ditzingen-component-010",
+      "kind": "meal",
+      "original_label": "Verpflegung",
+      "amount_cents": 0,
+      "unit": "per_month",
+      "age_group": null,
+      "offer_ids": [
+        "ditzingen-1c83bf4d71"
+      ],
+      "required": false,
+      "payment_months": 12,
+      "valid_from": "2027-01-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "e3a01305341e",
+        "locator": "Verpflegung",
+        "original": null
+      }
+    },
+    {
+      "id": "ditzingen-component-011",
+      "kind": "meal",
+      "original_label": "Verpflegung",
+      "amount_cents": 5800,
+      "unit": "per_month",
+      "age_group": null,
+      "offer_ids": [
+        "ditzingen-1c66f7dd7e"
+      ],
+      "required": true,
+      "payment_months": 12,
+      "valid_from": "2027-01-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "e3a01305341e",
+        "locator": "Verpflegung",
+        "original": null
+      }
+    },
+    {
+      "id": "ditzingen-component-012",
+      "kind": "meal",
+      "original_label": "Verpflegung",
+      "amount_cents": 5800,
+      "unit": "per_month",
+      "age_group": null,
+      "offer_ids": [
+        "ditzingen-1e7d048b08"
+      ],
+      "required": true,
+      "payment_months": 12,
+      "valid_from": "2027-01-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "e3a01305341e",
+        "locator": "Verpflegung",
+        "original": null
+      }
+    },
+    {
+      "id": "ditzingen-component-013",
+      "kind": "meal",
+      "original_label": "Verpflegung",
+      "amount_cents": 8800,
+      "unit": "per_month",
+      "age_group": null,
+      "offer_ids": [
+        "ditzingen-d28b6f0c5b"
+      ],
+      "required": true,
+      "payment_months": 12,
+      "valid_from": "2027-01-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "e3a01305341e",
+        "locator": "Verpflegung",
+        "original": null
+      }
+    },
+    {
+      "id": "ditzingen-component-014",
+      "kind": "meal",
+      "original_label": "Verpflegung",
+      "amount_cents": 5800,
+      "unit": "per_month",
+      "age_group": null,
+      "offer_ids": [
+        "ditzingen-9abf5a26c2"
+      ],
+      "required": true,
+      "payment_months": 12,
+      "valid_from": "2027-01-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "e3a01305341e",
+        "locator": "Verpflegung",
+        "original": null
+      }
+    },
+    {
+      "id": "ditzingen-component-015",
+      "kind": "meal",
+      "original_label": "Verpflegung",
+      "amount_cents": 5800,
+      "unit": "per_month",
+      "age_group": null,
+      "offer_ids": [
+        "ditzingen-f6c8c01f42"
+      ],
+      "required": true,
+      "payment_months": 12,
+      "valid_from": "2027-01-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "e3a01305341e",
+        "locator": "Verpflegung",
+        "original": null
+      }
+    },
+    {
+      "id": "ditzingen-component-016",
+      "kind": "meal",
+      "original_label": "Verpflegung",
+      "amount_cents": 8800,
+      "unit": "per_month",
+      "age_group": null,
+      "offer_ids": [
+        "ditzingen-55eccb52be"
+      ],
+      "required": true,
+      "payment_months": 12,
+      "valid_from": "2027-01-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "e3a01305341e",
+        "locator": "Verpflegung",
+        "original": null
+      }
+    }
+  ],
+  "rules": [
+    {
+      "id": "family_pass",
+      "kind": "percent_discount",
+      "parameters": {
+        "percent": 30,
+        "rounding": "whole_euro_half_up",
+        "components": [
+          "care"
+        ]
+      },
+      "requires": [
+        "family_pass"
+      ],
+      "stackable": false,
+      "execution_status": "supported",
+      "evidence": {
+        "source_id": "e3a01305341e",
+        "locator": "Gebührenermäßigung",
+        "original": null
+      }
+    }
+  ],
+  "issues": [
+    {
+      "code": "income_interval_gaps",
+      "detail": "Published boundaries include 'mehr als 70.001 €'; do not fill uncovered boundary values."
+    },
+    {
+      "code": "unpriced_gt50_2027",
+      "detail": "The 2027 appendices do not list GT50. Do not infer abolition or continue the 2026 fee as a confirmed 2027 amount."
+    }
+  ],
+  "source_text_archive": "data/sources/e3a01305341e/text.txt",
+  "coverage": {
+    "care_tables": "transferred",
+    "income_tables": "transferred_or_not_applicable",
+    "family_tables": "transferred",
+    "rules": "source_text_preserved_with_supported_subset",
+    "exceptions": "source_text_preserved",
+    "reviewed_at": "2026-11-07"
+  },
+  "age_transition": "age_group_at_reference_date",
+  "supporting_source_ids": [
+    "55caf2cb4eb8",
+    "5de0ca13ee41",
+    "ad138a5bccc4",
+    "e3a01305341e"
+  ]
+}

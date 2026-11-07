@@ -1,0 +1,13 @@
+{
+  "id": "0b1f1a179aba",
+  "municipality": "Ludwigsburg",
+  "title": "Kinderbetreuung und Elternbeiträge",
+  "url": "https://www.ludwigsburg.de/%2CLde/leben%2Bin%2Bludwigsburg/bildung%2Bund%2Bfamilie/kinderbetreuung/",
+  "retrieved_at": "2026-11-07T22:07:18.380724+00:00",
+  "http_status": 200,
+  "content_type": "text/html;charset=UTF-8",
+  "final_url": "https://www.ludwigsburg.de/%2CLde/leben%2Bin%2Bludwigsburg/bildung%2Bund%2Bfamilie/kinderbetreuung/",
+  "error": null,
+  "local_path": "data/sources/0b1f1a179aba/document.html",
+  "sha256": "a11042f96e7861be3b0ec2ac41965befe1d2a85dc030d190c56691157cdb0414"
+}

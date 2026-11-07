@@ -1,0 +1,13 @@
+{
+  "id": "95bc452daed1",
+  "municipality": "Stuttgart",
+  "title": "Elternbeiträge für städtische Kitas",
+  "url": "https://www.stuttgart.de/elternbeitraege-staedtische-kitas",
+  "retrieved_at": "2026-11-07T22:07:15.451460+00:00",
+  "http_status": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "final_url": "https://www.stuttgart.de/elternbeitraege-staedtische-kitas",
+  "error": null,
+  "local_path": "data/sources/95bc452daed1/document.html",
+  "sha256": "1f1cbad670127ac1e0d6d4bb55cacf52ceb2e3099e4f6a399dbed5d094e818d1"
+}

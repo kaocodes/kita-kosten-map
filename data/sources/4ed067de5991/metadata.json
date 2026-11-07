@@ -1,0 +1,13 @@
+{
+  "id": "4ed067de5991",
+  "municipality": "Korntal-Münchingen",
+  "title": "Ortsrecht und Satzungen",
+  "url": "https://www.korntal-muenchingen.de/de/Rathaus/Stadtverwaltung/Ortsrecht-Satzungen",
+  "retrieved_at": "2026-11-07T22:07:17.234752+00:00",
+  "http_status": 200,
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://www.korntal-muenchingen.de/de/Rathaus/Stadtverwaltung/Ortsrecht-Satzungen",
+  "error": null,
+  "local_path": "data/sources/4ed067de5991/document.html",
+  "sha256": "f12beb156a452337c4e0685f136998837447671f402191d5eb176c952e1f229e"
+}

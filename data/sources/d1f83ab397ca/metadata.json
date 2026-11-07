@@ -1,0 +1,13 @@
+{
+  "id": "d1f83ab397ca",
+  "municipality": "Böblingen",
+  "title": "Gebührenverzeichnis ab 1. September 2026 (PDF)",
+  "url": "https://www.boeblingen.de/site/Boeblingen-Internet/get/params_E-1808561047/25368744/460.1331%20-%20Geb%C3%BChrenverzeichnis%20ab%2001.09.2026%20-%20Anlage%20%28neue%20Schriftart%29.pdf",
+  "retrieved_at": "2026-11-07T22:07:18.920752+00:00",
+  "http_status": 200,
+  "content_type": "application/pdf",
+  "final_url": "https://www.boeblingen.de/site/Boeblingen-Internet/get/params_E-1808561047/25368744/460.1331%20-%20Geb%C3%BChrenverzeichnis%20ab%2001.09.2026%20-%20Anlage%20%28neue%20Schriftart%29.pdf",
+  "error": null,
+  "local_path": "data/sources/d1f83ab397ca/document.pdf",
+  "sha256": "4d97e82b0e9662087592f77bab63087247374038f6d41a50a51d01b8c69d0466"
+}

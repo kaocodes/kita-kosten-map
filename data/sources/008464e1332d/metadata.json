@@ -1,0 +1,13 @@
+{
+  "id": "008464e1332d",
+  "municipality": "Sindelfingen",
+  "title": "Städtische Betreuungsangebote – neue Satzung",
+  "url": "https://www.sindelfingen.de/bildung-betreuung/aktuelles/satzung-betreuungsangebote",
+  "retrieved_at": "2026-11-07T22:07:19.697813+00:00",
+  "http_status": 200,
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://www.sindelfingen.de/bildung-betreuung/aktuelles/satzung-betreuungsangebote",
+  "error": null,
+  "local_path": "data/sources/008464e1332d/document.html",
+  "sha256": "186fcf15f4c3ae275333750b95bafcf06c3734a65c0f07dce6ec5b4b2f76c5f3"
+}

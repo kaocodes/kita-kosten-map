@@ -1,0 +1,2734 @@
+{
+  "schema_version": "1.0",
+  "id": "boeblingen",
+  "name": "Böblingen",
+  "reviewed_at": "2026-11-07",
+  "reference_date": "2026-11-04",
+  "scope": {
+    "included": [
+      "municipal"
+    ],
+    "other_providers": "only_with_explicit_source_evidence",
+    "also_included": []
+  },
+  "family_basis": "under_18_or_child_benefit",
+  "family_evidence": {
+    "source_id": "4b99e2929828",
+    "locator": "§14 Abs. 2c: Haushaltskinder unter 18 und kindergeldberechtigte ältere Kinder",
+    "original": null
+  },
+  "payment_months": 12,
+  "payment_evidence": {
+    "source_id": "4b99e2929828",
+    "locator": "§§ 14,16: ganzjährig monatlich, auch Ferien; nur Essen im August ausgenommen",
+    "original": null
+  },
+  "original_research": {
+    "path": "data/imported/research_2026-11-04.md",
+    "section": "Böblingen",
+    "text": "\n### Quelle und Gültigkeit\n\n- [Gebührenverzeichnis ab 1. September 2026 (PDF)](https://www.boeblingen.de/site/Boeblingen-Internet/get/params_E-1808561047/25368744/460.1331%20-%20Geb%C3%BChrenverzeichnis%20ab%2001.09.2026%20-%20Anlage%20%28neue%20Schriftart%29.pdf)\n- [Städtische Einrichtungen und Satzung](https://www.boeblingen.de/leben--lernen/bildung--betreuung/Kinderbetreuung/Einrichtungen)\n\nDie Tabelle gilt für städtische Einrichtungen ab **1. September 2026**. Sie bemisst sich nach Alter, maximaler Betreuungszeit pro Woche und Zahl der Kinder im Haushalt. Für Betreuung und Verpflegung gibt es separate Gebühren.\n\n### Monatliche Betreuungsgebühren ab 1. September 2026\n\nDie Quelle weist für 15 Stunden/Woche „kein Angebot“ aus; die folgenden Beträge gelten für 25, 30, 35, 40, 45, 50 und 55 Stunden/Woche.\n\n| Altersgruppe | Familiengröße | 25 Std. | 30 Std. | 35 Std. | 40 Std. | 45 Std. | 50 Std. | 55 Std. |\n|---|---:|---:|---:|---:|---:|---:|---:|---:|\n| ab 3 Jahren | 1 Kind | 55 € | 83 € | 116 € | 155 € | 199 € | 249 € | 304 € |\n| ab 3 Jahren | 2 Kinder | 43 € | 65 € | 91 € | 120 € | 155 € | 194 € | 237 € |\n| ab 3 Jahren | 3 Kinder | 29 € | 44 € | 62 € | 82 € | 106 € | 132 € | 161 € |\n| ab 3 Jahren | 4+ Kinder | 10 € | 15 € | 20 € | 27 € | 35 € | 43 € | 53 € |\n| unter 3 Jahren | 1 Kind | 110 € | 166 € | 232 € | 310 € | 398 € | 498 € | 608 € |\n| unter 3 Jahren | 2 Kinder | 86 € | 130 € | 182 € | 240 € | 310 € | 388 € | 474 € |\n| unter 3 Jahren | 3 Kinder | 58 € | 88 € | 124 € | 164 € | 212 € | 264 € | 322 € |\n| unter 3 Jahren | 4+ Kinder | 20 € | 30 € | 40 € | 54 € | 70 € | 86 € | 106 € |\n\n**Verpflegung:** 100 €/Monat ab 3 Jahren, 90 €/Monat unter 3 Jahren. Für August wird grundsätzlich keine Verpflegungsgebühr erhoben. Die Satzung sieht außerdem optionale Ferienbetreuung mit separater Wochenpauschale vor; diese gehört nicht zu den regulären Monatstarifen.\n"
+  },
+  "income_bands": [],
+  "offers": [
+    {
+      "id": "boeblingen-7db912886d",
+      "original_label": "bis 25 Std./Woche",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "weekly_minutes": 1500,
+      "weekday_minutes": [
+        300,
+        300,
+        300,
+        300,
+        300
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "6d67ccd75002",
+        "locator": "PDF Seite 1: Betreuungsformen; Seite 2: städtische Angebote",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "4b99e2929828",
+        "locator": "§§ 14,16: ganzjährig monatlich, auch Ferien; nur Essen im August ausgenommen",
+        "original": null
+      },
+      "evidence": {
+        "source_id": "d1f83ab397ca",
+        "locator": "PDF Seite 1, bis 25 Std./Woche, o3",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "boeblingen-40ff1a98cc",
+      "original_label": "bis 30 Std./Woche",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "weekly_minutes": 1800,
+      "weekday_minutes": [
+        360,
+        360,
+        360,
+        360,
+        360
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "6d67ccd75002",
+        "locator": "PDF Seite 1: Betreuungsformen; Seite 2: städtische Angebote",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "4b99e2929828",
+        "locator": "§§ 14,16: ganzjährig monatlich, auch Ferien; nur Essen im August ausgenommen",
+        "original": null
+      },
+      "evidence": {
+        "source_id": "d1f83ab397ca",
+        "locator": "PDF Seite 1, bis 30 Std./Woche, o3",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "boeblingen-4a1bb0d0bf",
+      "original_label": "bis 35 Std./Woche",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "weekly_minutes": 2100,
+      "weekday_minutes": [
+        420,
+        420,
+        420,
+        420,
+        420
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "6d67ccd75002",
+        "locator": "PDF Seite 1: Betreuungsformen; Seite 2: städtische Angebote",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "4b99e2929828",
+        "locator": "§§ 14,16: ganzjährig monatlich, auch Ferien; nur Essen im August ausgenommen",
+        "original": null
+      },
+      "evidence": {
+        "source_id": "d1f83ab397ca",
+        "locator": "PDF Seite 1, bis 35 Std./Woche, o3",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "boeblingen-7221222b3e",
+      "original_label": "bis 40 Std./Woche",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "weekly_minutes": 2400,
+      "weekday_minutes": [
+        480,
+        480,
+        480,
+        480,
+        480
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "6d67ccd75002",
+        "locator": "PDF Seite 1: Betreuungsformen; Seite 2: städtische Angebote",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "4b99e2929828",
+        "locator": "§§ 14,16: ganzjährig monatlich, auch Ferien; nur Essen im August ausgenommen",
+        "original": null
+      },
+      "evidence": {
+        "source_id": "d1f83ab397ca",
+        "locator": "PDF Seite 1, bis 40 Std./Woche, o3",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "boeblingen-6fc544ae16",
+      "original_label": "bis 45 Std./Woche",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "weekly_minutes": 2700,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "weekly_only",
+      "schedule_evidence": {
+        "source_id": "d1f83ab397ca",
+        "locator": "Gebührentabelle",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "4b99e2929828",
+        "locator": "§§ 14,16: ganzjährig monatlich, auch Ferien; nur Essen im August ausgenommen",
+        "original": null
+      },
+      "evidence": {
+        "source_id": "d1f83ab397ca",
+        "locator": "PDF Seite 1, bis 45 Std./Woche, o3",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "boeblingen-ba09cfd45f",
+      "original_label": "bis 50 Std./Woche",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "weekly_minutes": 3000,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "weekly_only",
+      "schedule_evidence": {
+        "source_id": "d1f83ab397ca",
+        "locator": "Gebührentabelle",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "4b99e2929828",
+        "locator": "§§ 14,16: ganzjährig monatlich, auch Ferien; nur Essen im August ausgenommen",
+        "original": null
+      },
+      "evidence": {
+        "source_id": "d1f83ab397ca",
+        "locator": "PDF Seite 1, bis 50 Std./Woche, o3",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "boeblingen-3a65a2af10",
+      "original_label": "bis 55 Std./Woche",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "weekly_minutes": 3300,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "weekly_only",
+      "schedule_evidence": {
+        "source_id": "d1f83ab397ca",
+        "locator": "Gebührentabelle",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "4b99e2929828",
+        "locator": "§§ 14,16: ganzjährig monatlich, auch Ferien; nur Essen im August ausgenommen",
+        "original": null
+      },
+      "evidence": {
+        "source_id": "d1f83ab397ca",
+        "locator": "PDF Seite 1, bis 55 Std./Woche, o3",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "boeblingen-bb6bb28f86",
+      "original_label": "bis 25 Std./Woche",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "weekly_minutes": 1500,
+      "weekday_minutes": [
+        300,
+        300,
+        300,
+        300,
+        300
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "6d67ccd75002",
+        "locator": "PDF Seite 1: Betreuungsformen; Seite 2: städtische Angebote",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "4b99e2929828",
+        "locator": "§§ 14,16: ganzjährig monatlich, auch Ferien; nur Essen im August ausgenommen",
+        "original": null
+      },
+      "evidence": {
+        "source_id": "d1f83ab397ca",
+        "locator": "PDF Seite 1, bis 25 Std./Woche, u3",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "boeblingen-357238be47",
+      "original_label": "bis 30 Std./Woche",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "weekly_minutes": 1800,
+      "weekday_minutes": [
+        360,
+        360,
+        360,
+        360,
+        360
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "6d67ccd75002",
+        "locator": "PDF Seite 1: Betreuungsformen; Seite 2: städtische Angebote",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "4b99e2929828",
+        "locator": "§§ 14,16: ganzjährig monatlich, auch Ferien; nur Essen im August ausgenommen",
+        "original": null
+      },
+      "evidence": {
+        "source_id": "d1f83ab397ca",
+        "locator": "PDF Seite 1, bis 30 Std./Woche, u3",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "boeblingen-3aca58b6f5",
+      "original_label": "bis 35 Std./Woche",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "weekly_minutes": 2100,
+      "weekday_minutes": [
+        420,
+        420,
+        420,
+        420,
+        420
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "6d67ccd75002",
+        "locator": "PDF Seite 1: Betreuungsformen; Seite 2: städtische Angebote",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "4b99e2929828",
+        "locator": "§§ 14,16: ganzjährig monatlich, auch Ferien; nur Essen im August ausgenommen",
+        "original": null
+      },
+      "evidence": {
+        "source_id": "d1f83ab397ca",
+        "locator": "PDF Seite 1, bis 35 Std./Woche, u3",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "boeblingen-690132b244",
+      "original_label": "bis 40 Std./Woche",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "weekly_minutes": 2400,
+      "weekday_minutes": [
+        480,
+        480,
+        480,
+        480,
+        480
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "6d67ccd75002",
+        "locator": "PDF Seite 1: Betreuungsformen; Seite 2: städtische Angebote",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "4b99e2929828",
+        "locator": "§§ 14,16: ganzjährig monatlich, auch Ferien; nur Essen im August ausgenommen",
+        "original": null
+      },
+      "evidence": {
+        "source_id": "d1f83ab397ca",
+        "locator": "PDF Seite 1, bis 40 Std./Woche, u3",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "boeblingen-71fb090660",
+      "original_label": "bis 45 Std./Woche",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "weekly_minutes": 2700,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "weekly_only",
+      "schedule_evidence": {
+        "source_id": "d1f83ab397ca",
+        "locator": "Gebührentabelle",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "4b99e2929828",
+        "locator": "§§ 14,16: ganzjährig monatlich, auch Ferien; nur Essen im August ausgenommen",
+        "original": null
+      },
+      "evidence": {
+        "source_id": "d1f83ab397ca",
+        "locator": "PDF Seite 1, bis 45 Std./Woche, u3",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "boeblingen-be12989e62",
+      "original_label": "bis 50 Std./Woche",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "weekly_minutes": 3000,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "weekly_only",
+      "schedule_evidence": {
+        "source_id": "d1f83ab397ca",
+        "locator": "Gebührentabelle",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "4b99e2929828",
+        "locator": "§§ 14,16: ganzjährig monatlich, auch Ferien; nur Essen im August ausgenommen",
+        "original": null
+      },
+      "evidence": {
+        "source_id": "d1f83ab397ca",
+        "locator": "PDF Seite 1, bis 50 Std./Woche, u3",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "boeblingen-9a53412fae",
+      "original_label": "bis 55 Std./Woche",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "weekly_minutes": 3300,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "weekly_only",
+      "schedule_evidence": {
+        "source_id": "d1f83ab397ca",
+        "locator": "Gebührentabelle",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "4b99e2929828",
+        "locator": "§§ 14,16: ganzjährig monatlich, auch Ferien; nur Essen im August ausgenommen",
+        "original": null
+      },
+      "evidence": {
+        "source_id": "d1f83ab397ca",
+        "locator": "PDF Seite 1, bis 55 Std./Woche, u3",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "boeblingen-c81641b9e0",
+      "original_label": "15 Std./Woche: kein Angebot",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "weekly_minutes": 900,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "not_offered",
+      "schedule_evidence": {
+        "source_id": "d1f83ab397ca",
+        "locator": "PDF Seite 1: Spalte 15 Stunden, kein Angebot",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "4b99e2929828",
+        "locator": "§§ 14,16: ganzjährig monatlich, auch Ferien; nur Essen im August ausgenommen",
+        "original": null
+      },
+      "evidence": {
+        "source_id": "d1f83ab397ca",
+        "locator": "PDF Seite 1: Spalte 15 Stunden, kein Angebot",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "boeblingen-82f003acb1",
+      "original_label": "15 Std./Woche: kein Angebot",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "weekly_minutes": 900,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "not_offered",
+      "schedule_evidence": {
+        "source_id": "d1f83ab397ca",
+        "locator": "PDF Seite 1: Spalte 15 Stunden, kein Angebot",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "4b99e2929828",
+        "locator": "§§ 14,16: ganzjährig monatlich, auch Ferien; nur Essen im August ausgenommen",
+        "original": null
+      },
+      "evidence": {
+        "source_id": "d1f83ab397ca",
+        "locator": "PDF Seite 1: Spalte 15 Stunden, kein Angebot",
+        "original": null
+      },
+      "formula": null
+    }
+  ],
+  "prices": [
+    {
+      "id": "boeblingen-price-0001",
+      "offer_id": "boeblingen-7db912886d",
+      "amount_cents": 5500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "d1f83ab397ca",
+        "locator": "PDF Seite 1, bis 25 Std./Woche, o3",
+        "original": {
+          "research_line": 518,
+          "heading": "Monatliche Betreuungsgebühren ab 1. September 2026",
+          "row": [
+            "ab 3 Jahren",
+            "1 Kind",
+            "55 €",
+            "83 €",
+            "116 €",
+            "155 €",
+            "199 €",
+            "249 €",
+            "304 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "boeblingen-price-0002",
+      "offer_id": "boeblingen-40ff1a98cc",
+      "amount_cents": 8300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "d1f83ab397ca",
+        "locator": "PDF Seite 1, bis 30 Std./Woche, o3",
+        "original": {
+          "research_line": 518,
+          "heading": "Monatliche Betreuungsgebühren ab 1. September 2026",
+          "row": [
+            "ab 3 Jahren",
+            "1 Kind",
+            "55 €",
+            "83 €",
+            "116 €",
+            "155 €",
+            "199 €",
+            "249 €",
+            "304 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "boeblingen-price-0003",
+      "offer_id": "boeblingen-4a1bb0d0bf",
+      "amount_cents": 11600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "d1f83ab397ca",
+        "locator": "PDF Seite 1, bis 35 Std./Woche, o3",
+        "original": {
+          "research_line": 518,
+          "heading": "Monatliche Betreuungsgebühren ab 1. September 2026",
+          "row": [
+            "ab 3 Jahren",
+            "1 Kind",
+            "55 €",
+            "83 €",
+            "116 €",
+            "155 €",
+            "199 €",
+            "249 €",
+            "304 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "boeblingen-price-0004",
+      "offer_id": "boeblingen-7221222b3e",
+      "amount_cents": 15500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "d1f83ab397ca",
+        "locator": "PDF Seite 1, bis 40 Std./Woche, o3",
+        "original": {
+          "research_line": 518,
+          "heading": "Monatliche Betreuungsgebühren ab 1. September 2026",
+          "row": [
+            "ab 3 Jahren",
+            "1 Kind",
+            "55 €",
+            "83 €",
+            "116 €",
+            "155 €",
+            "199 €",
+            "249 €",
+            "304 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "boeblingen-price-0005",
+      "offer_id": "boeblingen-6fc544ae16",
+      "amount_cents": 19900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "d1f83ab397ca",
+        "locator": "PDF Seite 1, bis 45 Std./Woche, o3",
+        "original": {
+          "research_line": 518,
+          "heading": "Monatliche Betreuungsgebühren ab 1. September 2026",
+          "row": [
+            "ab 3 Jahren",
+            "1 Kind",
+            "55 €",
+            "83 €",
+            "116 €",
+            "155 €",
+            "199 €",
+            "249 €",
+            "304 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "boeblingen-price-0006",
+      "offer_id": "boeblingen-ba09cfd45f",
+      "amount_cents": 24900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "d1f83ab397ca",
+        "locator": "PDF Seite 1, bis 50 Std./Woche, o3",
+        "original": {
+          "research_line": 518,
+          "heading": "Monatliche Betreuungsgebühren ab 1. September 2026",
+          "row": [
+            "ab 3 Jahren",
+            "1 Kind",
+            "55 €",
+            "83 €",
+            "116 €",
+            "155 €",
+            "199 €",
+            "249 €",
+            "304 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "boeblingen-price-0007",
+      "offer_id": "boeblingen-3a65a2af10",
+      "amount_cents": 30400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "d1f83ab397ca",
+        "locator": "PDF Seite 1, bis 55 Std./Woche, o3",
+        "original": {
+          "research_line": 518,
+          "heading": "Monatliche Betreuungsgebühren ab 1. September 2026",
+          "row": [
+            "ab 3 Jahren",
+            "1 Kind",
+            "55 €",
+            "83 €",
+            "116 €",
+            "155 €",
+            "199 €",
+            "249 €",
+            "304 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "boeblingen-price-0008",
+      "offer_id": "boeblingen-7db912886d",
+      "amount_cents": 4300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "d1f83ab397ca",
+        "locator": "PDF Seite 1, bis 25 Std./Woche, o3",
+        "original": {
+          "research_line": 518,
+          "heading": "Monatliche Betreuungsgebühren ab 1. September 2026",
+          "row": [
+            "ab 3 Jahren",
+            "2 Kinder",
+            "43 €",
+            "65 €",
+            "91 €",
+            "120 €",
+            "155 €",
+            "194 €",
+            "237 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "boeblingen-price-0009",
+      "offer_id": "boeblingen-40ff1a98cc",
+      "amount_cents": 6500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "d1f83ab397ca",
+        "locator": "PDF Seite 1, bis 30 Std./Woche, o3",
+        "original": {
+          "research_line": 518,
+          "heading": "Monatliche Betreuungsgebühren ab 1. September 2026",
+          "row": [
+            "ab 3 Jahren",
+            "2 Kinder",
+            "43 €",
+            "65 €",
+            "91 €",
+            "120 €",
+            "155 €",
+            "194 €",
+            "237 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "boeblingen-price-0010",
+      "offer_id": "boeblingen-4a1bb0d0bf",
+      "amount_cents": 9100,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "d1f83ab397ca",
+        "locator": "PDF Seite 1, bis 35 Std./Woche, o3",
+        "original": {
+          "research_line": 518,
+          "heading": "Monatliche Betreuungsgebühren ab 1. September 2026",
+          "row": [
+            "ab 3 Jahren",
+            "2 Kinder",
+            "43 €",
+            "65 €",
+            "91 €",
+            "120 €",
+            "155 €",
+            "194 €",
+            "237 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "boeblingen-price-0011",
+      "offer_id": "boeblingen-7221222b3e",
+      "amount_cents": 12000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "d1f83ab397ca",
+        "locator": "PDF Seite 1, bis 40 Std./Woche, o3",
+        "original": {
+          "research_line": 518,
+          "heading": "Monatliche Betreuungsgebühren ab 1. September 2026",
+          "row": [
+            "ab 3 Jahren",
+            "2 Kinder",
+            "43 €",
+            "65 €",
+            "91 €",
+            "120 €",
+            "155 €",
+            "194 €",
+            "237 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "boeblingen-price-0012",
+      "offer_id": "boeblingen-6fc544ae16",
+      "amount_cents": 15500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "d1f83ab397ca",
+        "locator": "PDF Seite 1, bis 45 Std./Woche, o3",
+        "original": {
+          "research_line": 518,
+          "heading": "Monatliche Betreuungsgebühren ab 1. September 2026",
+          "row": [
+            "ab 3 Jahren",
+            "2 Kinder",
+            "43 €",
+            "65 €",
+            "91 €",
+            "120 €",
+            "155 €",
+            "194 €",
+            "237 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "boeblingen-price-0013",
+      "offer_id": "boeblingen-ba09cfd45f",
+      "amount_cents": 19400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "d1f83ab397ca",
+        "locator": "PDF Seite 1, bis 50 Std./Woche, o3",
+        "original": {
+          "research_line": 518,
+          "heading": "Monatliche Betreuungsgebühren ab 1. September 2026",
+          "row": [
+            "ab 3 Jahren",
+            "2 Kinder",
+            "43 €",
+            "65 €",
+            "91 €",
+            "120 €",
+            "155 €",
+            "194 €",
+            "237 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "boeblingen-price-0014",
+      "offer_id": "boeblingen-3a65a2af10",
+      "amount_cents": 23700,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "d1f83ab397ca",
+        "locator": "PDF Seite 1, bis 55 Std./Woche, o3",
+        "original": {
+          "research_line": 518,
+          "heading": "Monatliche Betreuungsgebühren ab 1. September 2026",
+          "row": [
+            "ab 3 Jahren",
+            "2 Kinder",
+            "43 €",
+            "65 €",
+            "91 €",
+            "120 €",
+            "155 €",
+            "194 €",
+            "237 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "boeblingen-price-0015",
+      "offer_id": "boeblingen-7db912886d",
+      "amount_cents": 2900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "d1f83ab397ca",
+        "locator": "PDF Seite 1, bis 25 Std./Woche, o3",
+        "original": {
+          "research_line": 518,
+          "heading": "Monatliche Betreuungsgebühren ab 1. September 2026",
+          "row": [
+            "ab 3 Jahren",
+            "3 Kinder",
+            "29 €",
+            "44 €",
+            "62 €",
+            "82 €",
+            "106 €",
+            "132 €",
+            "161 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "boeblingen-price-0016",
+      "offer_id": "boeblingen-40ff1a98cc",
+      "amount_cents": 4400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "d1f83ab397ca",
+        "locator": "PDF Seite 1, bis 30 Std./Woche, o3",
+        "original": {
+          "research_line": 518,
+          "heading": "Monatliche Betreuungsgebühren ab 1. September 2026",
+          "row": [
+            "ab 3 Jahren",
+            "3 Kinder",
+            "29 €",
+            "44 €",
+            "62 €",
+            "82 €",
+            "106 €",
+            "132 €",
+            "161 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "boeblingen-price-0017",
+      "offer_id": "boeblingen-4a1bb0d0bf",
+      "amount_cents": 6200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "d1f83ab397ca",
+        "locator": "PDF Seite 1, bis 35 Std./Woche, o3",
+        "original": {
+          "research_line": 518,
+          "heading": "Monatliche Betreuungsgebühren ab 1. September 2026",
+          "row": [
+            "ab 3 Jahren",
+            "3 Kinder",
+            "29 €",
+            "44 €",
+            "62 €",
+            "82 €",
+            "106 €",
+            "132 €",
+            "161 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "boeblingen-price-0018",
+      "offer_id": "boeblingen-7221222b3e",
+      "amount_cents": 8200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "d1f83ab397ca",
+        "locator": "PDF Seite 1, bis 40 Std./Woche, o3",
+        "original": {
+          "research_line": 518,
+          "heading": "Monatliche Betreuungsgebühren ab 1. September 2026",
+          "row": [
+            "ab 3 Jahren",
+            "3 Kinder",
+            "29 €",
+            "44 €",
+            "62 €",
+            "82 €",
+            "106 €",
+            "132 €",
+            "161 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "boeblingen-price-0019",
+      "offer_id": "boeblingen-6fc544ae16",
+      "amount_cents": 10600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "d1f83ab397ca",
+        "locator": "PDF Seite 1, bis 45 Std./Woche, o3",
+        "original": {
+          "research_line": 518,
+          "heading": "Monatliche Betreuungsgebühren ab 1. September 2026",
+          "row": [
+            "ab 3 Jahren",
+            "3 Kinder",
+            "29 €",
+            "44 €",
+            "62 €",
+            "82 €",
+            "106 €",
+            "132 €",
+            "161 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "boeblingen-price-0020",
+      "offer_id": "boeblingen-ba09cfd45f",
+      "amount_cents": 13200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "d1f83ab397ca",
+        "locator": "PDF Seite 1, bis 50 Std./Woche, o3",
+        "original": {
+          "research_line": 518,
+          "heading": "Monatliche Betreuungsgebühren ab 1. September 2026",
+          "row": [
+            "ab 3 Jahren",
+            "3 Kinder",
+            "29 €",
+            "44 €",
+            "62 €",
+            "82 €",
+            "106 €",
+            "132 €",
+            "161 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "boeblingen-price-0021",
+      "offer_id": "boeblingen-3a65a2af10",
+      "amount_cents": 16100,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "d1f83ab397ca",
+        "locator": "PDF Seite 1, bis 55 Std./Woche, o3",
+        "original": {
+          "research_line": 518,
+          "heading": "Monatliche Betreuungsgebühren ab 1. September 2026",
+          "row": [
+            "ab 3 Jahren",
+            "3 Kinder",
+            "29 €",
+            "44 €",
+            "62 €",
+            "82 €",
+            "106 €",
+            "132 €",
+            "161 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "boeblingen-price-0022",
+      "offer_id": "boeblingen-7db912886d",
+      "amount_cents": 1000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "d1f83ab397ca",
+        "locator": "PDF Seite 1, bis 25 Std./Woche, o3",
+        "original": {
+          "research_line": 518,
+          "heading": "Monatliche Betreuungsgebühren ab 1. September 2026",
+          "row": [
+            "ab 3 Jahren",
+            "4+ Kinder",
+            "10 €",
+            "15 €",
+            "20 €",
+            "27 €",
+            "35 €",
+            "43 €",
+            "53 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "boeblingen-price-0023",
+      "offer_id": "boeblingen-40ff1a98cc",
+      "amount_cents": 1500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "d1f83ab397ca",
+        "locator": "PDF Seite 1, bis 30 Std./Woche, o3",
+        "original": {
+          "research_line": 518,
+          "heading": "Monatliche Betreuungsgebühren ab 1. September 2026",
+          "row": [
+            "ab 3 Jahren",
+            "4+ Kinder",
+            "10 €",
+            "15 €",
+            "20 €",
+            "27 €",
+            "35 €",
+            "43 €",
+            "53 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "boeblingen-price-0024",
+      "offer_id": "boeblingen-4a1bb0d0bf",
+      "amount_cents": 2000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "d1f83ab397ca",
+        "locator": "PDF Seite 1, bis 35 Std./Woche, o3",
+        "original": {
+          "research_line": 518,
+          "heading": "Monatliche Betreuungsgebühren ab 1. September 2026",
+          "row": [
+            "ab 3 Jahren",
+            "4+ Kinder",
+            "10 €",
+            "15 €",
+            "20 €",
+            "27 €",
+            "35 €",
+            "43 €",
+            "53 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "boeblingen-price-0025",
+      "offer_id": "boeblingen-7221222b3e",
+      "amount_cents": 2700,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "d1f83ab397ca",
+        "locator": "PDF Seite 1, bis 40 Std./Woche, o3",
+        "original": {
+          "research_line": 518,
+          "heading": "Monatliche Betreuungsgebühren ab 1. September 2026",
+          "row": [
+            "ab 3 Jahren",
+            "4+ Kinder",
+            "10 €",
+            "15 €",
+            "20 €",
+            "27 €",
+            "35 €",
+            "43 €",
+            "53 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "boeblingen-price-0026",
+      "offer_id": "boeblingen-6fc544ae16",
+      "amount_cents": 3500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "d1f83ab397ca",
+        "locator": "PDF Seite 1, bis 45 Std./Woche, o3",
+        "original": {
+          "research_line": 518,
+          "heading": "Monatliche Betreuungsgebühren ab 1. September 2026",
+          "row": [
+            "ab 3 Jahren",
+            "4+ Kinder",
+            "10 €",
+            "15 €",
+            "20 €",
+            "27 €",
+            "35 €",
+            "43 €",
+            "53 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "boeblingen-price-0027",
+      "offer_id": "boeblingen-ba09cfd45f",
+      "amount_cents": 4300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "d1f83ab397ca",
+        "locator": "PDF Seite 1, bis 50 Std./Woche, o3",
+        "original": {
+          "research_line": 518,
+          "heading": "Monatliche Betreuungsgebühren ab 1. September 2026",
+          "row": [
+            "ab 3 Jahren",
+            "4+ Kinder",
+            "10 €",
+            "15 €",
+            "20 €",
+            "27 €",
+            "35 €",
+            "43 €",
+            "53 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "boeblingen-price-0028",
+      "offer_id": "boeblingen-3a65a2af10",
+      "amount_cents": 5300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "d1f83ab397ca",
+        "locator": "PDF Seite 1, bis 55 Std./Woche, o3",
+        "original": {
+          "research_line": 518,
+          "heading": "Monatliche Betreuungsgebühren ab 1. September 2026",
+          "row": [
+            "ab 3 Jahren",
+            "4+ Kinder",
+            "10 €",
+            "15 €",
+            "20 €",
+            "27 €",
+            "35 €",
+            "43 €",
+            "53 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "boeblingen-price-0029",
+      "offer_id": "boeblingen-bb6bb28f86",
+      "amount_cents": 11000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "d1f83ab397ca",
+        "locator": "PDF Seite 1, bis 25 Std./Woche, u3",
+        "original": {
+          "research_line": 518,
+          "heading": "Monatliche Betreuungsgebühren ab 1. September 2026",
+          "row": [
+            "unter 3 Jahren",
+            "1 Kind",
+            "110 €",
+            "166 €",
+            "232 €",
+            "310 €",
+            "398 €",
+            "498 €",
+            "608 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "boeblingen-price-0030",
+      "offer_id": "boeblingen-357238be47",
+      "amount_cents": 16600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "d1f83ab397ca",
+        "locator": "PDF Seite 1, bis 30 Std./Woche, u3",
+        "original": {
+          "research_line": 518,
+          "heading": "Monatliche Betreuungsgebühren ab 1. September 2026",
+          "row": [
+            "unter 3 Jahren",
+            "1 Kind",
+            "110 €",
+            "166 €",
+            "232 €",
+            "310 €",
+            "398 €",
+            "498 €",
+            "608 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "boeblingen-price-0031",
+      "offer_id": "boeblingen-3aca58b6f5",
+      "amount_cents": 23200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "d1f83ab397ca",
+        "locator": "PDF Seite 1, bis 35 Std./Woche, u3",
+        "original": {
+          "research_line": 518,
+          "heading": "Monatliche Betreuungsgebühren ab 1. September 2026",
+          "row": [
+            "unter 3 Jahren",
+            "1 Kind",
+            "110 €",
+            "166 €",
+            "232 €",
+            "310 €",
+            "398 €",
+            "498 €",
+            "608 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "boeblingen-price-0032",
+      "offer_id": "boeblingen-690132b244",
+      "amount_cents": 31000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "d1f83ab397ca",
+        "locator": "PDF Seite 1, bis 40 Std./Woche, u3",
+        "original": {
+          "research_line": 518,
+          "heading": "Monatliche Betreuungsgebühren ab 1. September 2026",
+          "row": [
+            "unter 3 Jahren",
+            "1 Kind",
+            "110 €",
+            "166 €",
+            "232 €",
+            "310 €",
+            "398 €",
+            "498 €",
+            "608 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "boeblingen-price-0033",
+      "offer_id": "boeblingen-71fb090660",
+      "amount_cents": 39800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "d1f83ab397ca",
+        "locator": "PDF Seite 1, bis 45 Std./Woche, u3",
+        "original": {
+          "research_line": 518,
+          "heading": "Monatliche Betreuungsgebühren ab 1. September 2026",
+          "row": [
+            "unter 3 Jahren",
+            "1 Kind",
+            "110 €",
+            "166 €",
+            "232 €",
+            "310 €",
+            "398 €",
+            "498 €",
+            "608 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "boeblingen-price-0034",
+      "offer_id": "boeblingen-be12989e62",
+      "amount_cents": 49800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "d1f83ab397ca",
+        "locator": "PDF Seite 1, bis 50 Std./Woche, u3",
+        "original": {
+          "research_line": 518,
+          "heading": "Monatliche Betreuungsgebühren ab 1. September 2026",
+          "row": [
+            "unter 3 Jahren",
+            "1 Kind",
+            "110 €",
+            "166 €",
+            "232 €",
+            "310 €",
+            "398 €",
+            "498 €",
+            "608 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "boeblingen-price-0035",
+      "offer_id": "boeblingen-9a53412fae",
+      "amount_cents": 60800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "d1f83ab397ca",
+        "locator": "PDF Seite 1, bis 55 Std./Woche, u3",
+        "original": {
+          "research_line": 518,
+          "heading": "Monatliche Betreuungsgebühren ab 1. September 2026",
+          "row": [
+            "unter 3 Jahren",
+            "1 Kind",
+            "110 €",
+            "166 €",
+            "232 €",
+            "310 €",
+            "398 €",
+            "498 €",
+            "608 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "boeblingen-price-0036",
+      "offer_id": "boeblingen-bb6bb28f86",
+      "amount_cents": 8600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "d1f83ab397ca",
+        "locator": "PDF Seite 1, bis 25 Std./Woche, u3",
+        "original": {
+          "research_line": 518,
+          "heading": "Monatliche Betreuungsgebühren ab 1. September 2026",
+          "row": [
+            "unter 3 Jahren",
+            "2 Kinder",
+            "86 €",
+            "130 €",
+            "182 €",
+            "240 €",
+            "310 €",
+            "388 €",
+            "474 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "boeblingen-price-0037",
+      "offer_id": "boeblingen-357238be47",
+      "amount_cents": 13000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "d1f83ab397ca",
+        "locator": "PDF Seite 1, bis 30 Std./Woche, u3",
+        "original": {
+          "research_line": 518,
+          "heading": "Monatliche Betreuungsgebühren ab 1. September 2026",
+          "row": [
+            "unter 3 Jahren",
+            "2 Kinder",
+            "86 €",
+            "130 €",
+            "182 €",
+            "240 €",
+            "310 €",
+            "388 €",
+            "474 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "boeblingen-price-0038",
+      "offer_id": "boeblingen-3aca58b6f5",
+      "amount_cents": 18200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "d1f83ab397ca",
+        "locator": "PDF Seite 1, bis 35 Std./Woche, u3",
+        "original": {
+          "research_line": 518,
+          "heading": "Monatliche Betreuungsgebühren ab 1. September 2026",
+          "row": [
+            "unter 3 Jahren",
+            "2 Kinder",
+            "86 €",
+            "130 €",
+            "182 €",
+            "240 €",
+            "310 €",
+            "388 €",
+            "474 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "boeblingen-price-0039",
+      "offer_id": "boeblingen-690132b244",
+      "amount_cents": 24000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "d1f83ab397ca",
+        "locator": "PDF Seite 1, bis 40 Std./Woche, u3",
+        "original": {
+          "research_line": 518,
+          "heading": "Monatliche Betreuungsgebühren ab 1. September 2026",
+          "row": [
+            "unter 3 Jahren",
+            "2 Kinder",
+            "86 €",
+            "130 €",
+            "182 €",
+            "240 €",
+            "310 €",
+            "388 €",
+            "474 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "boeblingen-price-0040",
+      "offer_id": "boeblingen-71fb090660",
+      "amount_cents": 31000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "d1f83ab397ca",
+        "locator": "PDF Seite 1, bis 45 Std./Woche, u3",
+        "original": {
+          "research_line": 518,
+          "heading": "Monatliche Betreuungsgebühren ab 1. September 2026",
+          "row": [
+            "unter 3 Jahren",
+            "2 Kinder",
+            "86 €",
+            "130 €",
+            "182 €",
+            "240 €",
+            "310 €",
+            "388 €",
+            "474 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "boeblingen-price-0041",
+      "offer_id": "boeblingen-be12989e62",
+      "amount_cents": 38800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "d1f83ab397ca",
+        "locator": "PDF Seite 1, bis 50 Std./Woche, u3",
+        "original": {
+          "research_line": 518,
+          "heading": "Monatliche Betreuungsgebühren ab 1. September 2026",
+          "row": [
+            "unter 3 Jahren",
+            "2 Kinder",
+            "86 €",
+            "130 €",
+            "182 €",
+            "240 €",
+            "310 €",
+            "388 €",
+            "474 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "boeblingen-price-0042",
+      "offer_id": "boeblingen-9a53412fae",
+      "amount_cents": 47400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "d1f83ab397ca",
+        "locator": "PDF Seite 1, bis 55 Std./Woche, u3",
+        "original": {
+          "research_line": 518,
+          "heading": "Monatliche Betreuungsgebühren ab 1. September 2026",
+          "row": [
+            "unter 3 Jahren",
+            "2 Kinder",
+            "86 €",
+            "130 €",
+            "182 €",
+            "240 €",
+            "310 €",
+            "388 €",
+            "474 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "boeblingen-price-0043",
+      "offer_id": "boeblingen-bb6bb28f86",
+      "amount_cents": 5800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "d1f83ab397ca",
+        "locator": "PDF Seite 1, bis 25 Std./Woche, u3",
+        "original": {
+          "research_line": 518,
+          "heading": "Monatliche Betreuungsgebühren ab 1. September 2026",
+          "row": [
+            "unter 3 Jahren",
+            "3 Kinder",
+            "58 €",
+            "88 €",
+            "124 €",
+            "164 €",
+            "212 €",
+            "264 €",
+            "322 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "boeblingen-price-0044",
+      "offer_id": "boeblingen-357238be47",
+      "amount_cents": 8800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "d1f83ab397ca",
+        "locator": "PDF Seite 1, bis 30 Std./Woche, u3",
+        "original": {
+          "research_line": 518,
+          "heading": "Monatliche Betreuungsgebühren ab 1. September 2026",
+          "row": [
+            "unter 3 Jahren",
+            "3 Kinder",
+            "58 €",
+            "88 €",
+            "124 €",
+            "164 €",
+            "212 €",
+            "264 €",
+            "322 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "boeblingen-price-0045",
+      "offer_id": "boeblingen-3aca58b6f5",
+      "amount_cents": 12400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "d1f83ab397ca",
+        "locator": "PDF Seite 1, bis 35 Std./Woche, u3",
+        "original": {
+          "research_line": 518,
+          "heading": "Monatliche Betreuungsgebühren ab 1. September 2026",
+          "row": [
+            "unter 3 Jahren",
+            "3 Kinder",
+            "58 €",
+            "88 €",
+            "124 €",
+            "164 €",
+            "212 €",
+            "264 €",
+            "322 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "boeblingen-price-0046",
+      "offer_id": "boeblingen-690132b244",
+      "amount_cents": 16400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "d1f83ab397ca",
+        "locator": "PDF Seite 1, bis 40 Std./Woche, u3",
+        "original": {
+          "research_line": 518,
+          "heading": "Monatliche Betreuungsgebühren ab 1. September 2026",
+          "row": [
+            "unter 3 Jahren",
+            "3 Kinder",
+            "58 €",
+            "88 €",
+            "124 €",
+            "164 €",
+            "212 €",
+            "264 €",
+            "322 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "boeblingen-price-0047",
+      "offer_id": "boeblingen-71fb090660",
+      "amount_cents": 21200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "d1f83ab397ca",
+        "locator": "PDF Seite 1, bis 45 Std./Woche, u3",
+        "original": {
+          "research_line": 518,
+          "heading": "Monatliche Betreuungsgebühren ab 1. September 2026",
+          "row": [
+            "unter 3 Jahren",
+            "3 Kinder",
+            "58 €",
+            "88 €",
+            "124 €",
+            "164 €",
+            "212 €",
+            "264 €",
+            "322 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "boeblingen-price-0048",
+      "offer_id": "boeblingen-be12989e62",
+      "amount_cents": 26400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "d1f83ab397ca",
+        "locator": "PDF Seite 1, bis 50 Std./Woche, u3",
+        "original": {
+          "research_line": 518,
+          "heading": "Monatliche Betreuungsgebühren ab 1. September 2026",
+          "row": [
+            "unter 3 Jahren",
+            "3 Kinder",
+            "58 €",
+            "88 €",
+            "124 €",
+            "164 €",
+            "212 €",
+            "264 €",
+            "322 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "boeblingen-price-0049",
+      "offer_id": "boeblingen-9a53412fae",
+      "amount_cents": 32200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "d1f83ab397ca",
+        "locator": "PDF Seite 1, bis 55 Std./Woche, u3",
+        "original": {
+          "research_line": 518,
+          "heading": "Monatliche Betreuungsgebühren ab 1. September 2026",
+          "row": [
+            "unter 3 Jahren",
+            "3 Kinder",
+            "58 €",
+            "88 €",
+            "124 €",
+            "164 €",
+            "212 €",
+            "264 €",
+            "322 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "boeblingen-price-0050",
+      "offer_id": "boeblingen-bb6bb28f86",
+      "amount_cents": 2000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "d1f83ab397ca",
+        "locator": "PDF Seite 1, bis 25 Std./Woche, u3",
+        "original": {
+          "research_line": 518,
+          "heading": "Monatliche Betreuungsgebühren ab 1. September 2026",
+          "row": [
+            "unter 3 Jahren",
+            "4+ Kinder",
+            "20 €",
+            "30 €",
+            "40 €",
+            "54 €",
+            "70 €",
+            "86 €",
+            "106 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "boeblingen-price-0051",
+      "offer_id": "boeblingen-357238be47",
+      "amount_cents": 3000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "d1f83ab397ca",
+        "locator": "PDF Seite 1, bis 30 Std./Woche, u3",
+        "original": {
+          "research_line": 518,
+          "heading": "Monatliche Betreuungsgebühren ab 1. September 2026",
+          "row": [
+            "unter 3 Jahren",
+            "4+ Kinder",
+            "20 €",
+            "30 €",
+            "40 €",
+            "54 €",
+            "70 €",
+            "86 €",
+            "106 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "boeblingen-price-0052",
+      "offer_id": "boeblingen-3aca58b6f5",
+      "amount_cents": 4000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "d1f83ab397ca",
+        "locator": "PDF Seite 1, bis 35 Std./Woche, u3",
+        "original": {
+          "research_line": 518,
+          "heading": "Monatliche Betreuungsgebühren ab 1. September 2026",
+          "row": [
+            "unter 3 Jahren",
+            "4+ Kinder",
+            "20 €",
+            "30 €",
+            "40 €",
+            "54 €",
+            "70 €",
+            "86 €",
+            "106 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "boeblingen-price-0053",
+      "offer_id": "boeblingen-690132b244",
+      "amount_cents": 5400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "d1f83ab397ca",
+        "locator": "PDF Seite 1, bis 40 Std./Woche, u3",
+        "original": {
+          "research_line": 518,
+          "heading": "Monatliche Betreuungsgebühren ab 1. September 2026",
+          "row": [
+            "unter 3 Jahren",
+            "4+ Kinder",
+            "20 €",
+            "30 €",
+            "40 €",
+            "54 €",
+            "70 €",
+            "86 €",
+            "106 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "boeblingen-price-0054",
+      "offer_id": "boeblingen-71fb090660",
+      "amount_cents": 7000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "d1f83ab397ca",
+        "locator": "PDF Seite 1, bis 45 Std./Woche, u3",
+        "original": {
+          "research_line": 518,
+          "heading": "Monatliche Betreuungsgebühren ab 1. September 2026",
+          "row": [
+            "unter 3 Jahren",
+            "4+ Kinder",
+            "20 €",
+            "30 €",
+            "40 €",
+            "54 €",
+            "70 €",
+            "86 €",
+            "106 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "boeblingen-price-0055",
+      "offer_id": "boeblingen-be12989e62",
+      "amount_cents": 8600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "d1f83ab397ca",
+        "locator": "PDF Seite 1, bis 50 Std./Woche, u3",
+        "original": {
+          "research_line": 518,
+          "heading": "Monatliche Betreuungsgebühren ab 1. September 2026",
+          "row": [
+            "unter 3 Jahren",
+            "4+ Kinder",
+            "20 €",
+            "30 €",
+            "40 €",
+            "54 €",
+            "70 €",
+            "86 €",
+            "106 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "boeblingen-price-0056",
+      "offer_id": "boeblingen-9a53412fae",
+      "amount_cents": 10600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "d1f83ab397ca",
+        "locator": "PDF Seite 1, bis 55 Std./Woche, u3",
+        "original": {
+          "research_line": 518,
+          "heading": "Monatliche Betreuungsgebühren ab 1. September 2026",
+          "row": [
+            "unter 3 Jahren",
+            "4+ Kinder",
+            "20 €",
+            "30 €",
+            "40 €",
+            "54 €",
+            "70 €",
+            "86 €",
+            "106 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "boeblingen-price-0057",
+      "offer_id": "boeblingen-c81641b9e0",
+      "amount_cents": null,
+      "unit": "per_month",
+      "value_status": "not_offered",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "d1f83ab397ca",
+        "locator": "PDF Seite 1: Spalte 15 Stunden, kein Angebot",
+        "original": "kein Angebot"
+      }
+    },
+    {
+      "id": "boeblingen-price-0058",
+      "offer_id": "boeblingen-c81641b9e0",
+      "amount_cents": null,
+      "unit": "per_month",
+      "value_status": "not_offered",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "d1f83ab397ca",
+        "locator": "PDF Seite 1: Spalte 15 Stunden, kein Angebot",
+        "original": "kein Angebot"
+      }
+    },
+    {
+      "id": "boeblingen-price-0059",
+      "offer_id": "boeblingen-c81641b9e0",
+      "amount_cents": null,
+      "unit": "per_month",
+      "value_status": "not_offered",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "d1f83ab397ca",
+        "locator": "PDF Seite 1: Spalte 15 Stunden, kein Angebot",
+        "original": "kein Angebot"
+      }
+    },
+    {
+      "id": "boeblingen-price-0060",
+      "offer_id": "boeblingen-c81641b9e0",
+      "amount_cents": null,
+      "unit": "per_month",
+      "value_status": "not_offered",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "d1f83ab397ca",
+        "locator": "PDF Seite 1: Spalte 15 Stunden, kein Angebot",
+        "original": "kein Angebot"
+      }
+    },
+    {
+      "id": "boeblingen-price-0061",
+      "offer_id": "boeblingen-82f003acb1",
+      "amount_cents": null,
+      "unit": "per_month",
+      "value_status": "not_offered",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "d1f83ab397ca",
+        "locator": "PDF Seite 1: Spalte 15 Stunden, kein Angebot",
+        "original": "kein Angebot"
+      }
+    },
+    {
+      "id": "boeblingen-price-0062",
+      "offer_id": "boeblingen-82f003acb1",
+      "amount_cents": null,
+      "unit": "per_month",
+      "value_status": "not_offered",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "d1f83ab397ca",
+        "locator": "PDF Seite 1: Spalte 15 Stunden, kein Angebot",
+        "original": "kein Angebot"
+      }
+    },
+    {
+      "id": "boeblingen-price-0063",
+      "offer_id": "boeblingen-82f003acb1",
+      "amount_cents": null,
+      "unit": "per_month",
+      "value_status": "not_offered",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "d1f83ab397ca",
+        "locator": "PDF Seite 1: Spalte 15 Stunden, kein Angebot",
+        "original": "kein Angebot"
+      }
+    },
+    {
+      "id": "boeblingen-price-0064",
+      "offer_id": "boeblingen-82f003acb1",
+      "amount_cents": null,
+      "unit": "per_month",
+      "value_status": "not_offered",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "d1f83ab397ca",
+        "locator": "PDF Seite 1: Spalte 15 Stunden, kein Angebot",
+        "original": "kein Angebot"
+      }
+    }
+  ],
+  "components": [
+    {
+      "id": "boeblingen-component-001",
+      "kind": "meal",
+      "original_label": "Verpflegung",
+      "amount_cents": 9000,
+      "unit": "per_month",
+      "age_group": "u3",
+      "offer_ids": null,
+      "required": null,
+      "payment_months": 11,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "d1f83ab397ca",
+        "locator": "Verpflegung",
+        "original": null
+      }
+    },
+    {
+      "id": "boeblingen-component-002",
+      "kind": "meal",
+      "original_label": "Verpflegung",
+      "amount_cents": 10000,
+      "unit": "per_month",
+      "age_group": "o3",
+      "offer_ids": null,
+      "required": null,
+      "payment_months": 11,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "d1f83ab397ca",
+        "locator": "Verpflegung",
+        "original": null
+      }
+    }
+  ],
+  "rules": [],
+  "issues": [],
+  "source_text_archive": "data/sources/d1f83ab397ca/text.txt",
+  "coverage": {
+    "care_tables": "transferred",
+    "income_tables": "transferred_or_not_applicable",
+    "family_tables": "transferred",
+    "rules": "source_text_preserved_with_supported_subset",
+    "exceptions": "source_text_preserved",
+    "reviewed_at": "2026-11-07"
+  },
+  "age_transition": "age_group_at_reference_date",
+  "supporting_source_ids": [
+    "494c1a026cb0",
+    "4b99e2929828",
+    "6d67ccd75002",
+    "d1f83ab397ca"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "67f1f67c34eb",
+  "municipality": "Korntal-Münchingen",
+  "title": "Additional official source",
+  "url": "https://www.korntal-muenchingen.de/ceasy/resource/?id=1483&download=1",
+  "retrieved_at": "2026-11-07T22:24:00.441340+00:00",
+  "http_status": 200,
+  "content_type": "application/pdf",
+  "final_url": "https://www.korntal-muenchingen.de/ceasy/resource/?id=1483&download=1",
+  "error": null,
+  "local_path": "data/sources/67f1f67c34eb/document.pdf",
+  "sha256": "9828e34934a8e92f9e4d5c66059a393d585278b377c08dbf5bbbf37834f6c8d5"
+}

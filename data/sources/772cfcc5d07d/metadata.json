@@ -1,0 +1,13 @@
+{
+  "id": "772cfcc5d07d",
+  "municipality": "Fellbach",
+  "title": "Gebührensatzung für städtische Einrichtungen, Stand September 2025 (PDF)",
+  "url": "https://www.fellbach.de/ceasy/resource/?download=1&id=1414",
+  "retrieved_at": "2026-11-07T22:07:20.614831+00:00",
+  "http_status": 200,
+  "content_type": "application/pdf",
+  "final_url": "https://www.fellbach.de/ceasy/resource/?download=1&id=1414",
+  "error": null,
+  "local_path": "data/sources/772cfcc5d07d/document.pdf",
+  "sha256": "26d3b187831782b5f092fd3b83ec81e642328857306d8d9ad24e1d9df33ac0ea"
+}

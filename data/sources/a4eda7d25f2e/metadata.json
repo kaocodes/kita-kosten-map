@@ -1,0 +1,13 @@
+{
+  "id": "a4eda7d25f2e",
+  "municipality": "Korntal-Münchingen",
+  "title": "Kinderbetreuung",
+  "url": "https://www.korntal-muenchingen.de/de/Leben-Lernen/Kinderbetreuung",
+  "retrieved_at": "2026-11-07T22:07:17.407484+00:00",
+  "http_status": 200,
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://www.korntal-muenchingen.de/de/Leben-Lernen/Kinderbetreuung",
+  "error": null,
+  "local_path": "data/sources/a4eda7d25f2e/document.html",
+  "sha256": "210dbe2c6c51e6c9eda018a80b002424a28ea03ae647c2aa9562c2945df0a67c"
+}

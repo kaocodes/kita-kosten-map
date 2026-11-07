@@ -1,0 +1,2028 @@
+{
+  "schema_version": "1.0",
+  "id": "ludwigsburg",
+  "name": "Ludwigsburg",
+  "reviewed_at": "2026-11-07",
+  "reference_date": "2026-11-04",
+  "scope": {
+    "included": [
+      "municipal"
+    ],
+    "other_providers": "only_with_explicit_source_evidence",
+    "also_included": [
+      "evangelische Kirche",
+      "katholische Kirche",
+      "Charlottenkrippe",
+      "AWO Ludwigsburg gGmbH",
+      "MAHALE gGmbH",
+      "ausdrücklich vereinbarte städtisch belegte Betriebsplätze"
+    ],
+    "evidence": {
+      "source_id": "29969ba83249",
+      "locator": "§1, PDF Seite 1",
+      "original": null
+    }
+  },
+  "family_basis": "under_18",
+  "family_evidence": {
+    "source_id": "29969ba83249",
+    "locator": "Gebührenmaßstab / Familienbegriff",
+    "original": null
+  },
+  "payment_months": 11,
+  "payment_evidence": {
+    "source_id": "29969ba83249",
+    "locator": "PDF Seite 2, §4 Abs. 1: elf Monate, August gebührenfrei",
+    "original": null
+  },
+  "original_research": {
+    "path": "data/imported/research_2026-11-04.md",
+    "section": "Ludwigsburg",
+    "text": "\n### Quelle und Gültigkeit\n\n- [Satzung über Benutzungsgebühren, einschließlich Anlage A](https://www.ludwigsburg.de/site/Ludwigsburg-Internet-2020/get/params_E-995498330/24269351/Stammsatzung_Kitageb%C3%BChren_2026_August_07.pdf)\n- [Kommunale Elternbeitragsseite](https://www.ludwigsburg.de/%2CLde/leben%2Bin%2Bludwigsburg/bildung%2Bund%2Bfamilie/kinderbetreuung/)\n- Anlage A ist für das Kindergartenjahr **2026/2027** ausgewiesen. Die Satzung gilt ausdrücklich auch für evangelische und katholische Einrichtungen, Charlottenkrippe, Einrichtungen der AWO Ludwigsburg gGmbH und MAHALE gGmbH sowie bestimmte von der Stadt belegte Betriebsplätze.\n\nDie Betreuungstarife unterscheiden Alter und Betreuungsumfang. Familienermäßigungen: ein Kind 0 %, zwei Kinder 25 %, drei Kinder 50 %, vier oder mehr Kinder 75 %. Für Ganztag ist Essen verpflichtend und kostet 80 € monatlich. Bei RG/VÖ wird Essen nach Teilnahme mit 4 € je Essen abgerechnet. August ist beitragsfrei; es werden elf Monatsbeiträge erhoben.\n\n### Monatliche Betreuungstarife 2026/2027\n\n| Modell | Altersgruppe | 1 Kind | 2 Kinder | 3 Kinder | 4+ Kinder | Verpflegung |\n|---|---|---:|---:|---:|---:|---|\n| VÖ6, 6 Std. durchgehend | ab 3 bis Schuleintritt | 190 € | 142,50 € | 95 € | 47,50 € | 4 € je Essen |\n| VÖ6, 6 Std. durchgehend | unter 3 Jahren | 348 € | 261 € | 174 € | 87 € | 4 € je Essen |\n| VÖ7, 7 Std. durchgehend | ab 3 bis Schuleintritt | 235 € | 176,25 € | 117,50 € | 58,75 € | 4 € je Essen |\n| VÖ7, 7 Std. durchgehend | unter 3 Jahren | 429 € | 321,75 € | 214,50 € | 107,25 € | 4 € je Essen |\n| GT8, 8 Std. durchgehend | ab 3 bis Schuleintritt | 301 € | 225,75 € | 150,50 € | 75,25 € | +80 €/Monat |\n| GT8, 8 Std. durchgehend | unter 3 Jahren | 499 € | 374,25 € | 249,50 € | 124,75 € | +80 €/Monat |\n| GT9, 9 Std. durchgehend | ab 3 bis Schuleintritt | 338 € | 253,50 € | 169 € | 84,50 € | +80 €/Monat |\n| GT9, 9 Std. durchgehend | unter 3 Jahren | 563 € | 422,25 € | 281,50 € | 140,75 € | +80 €/Monat |\n| GT10, 10 Std. durchgehend | ab 3 bis Schuleintritt | 351 € | 263,25 € | 175,50 € | 87,75 € | +80 €/Monat |\n| GT10, 10 Std. durchgehend | unter 3 Jahren | 578 € | 433,50 € | 289 € | 144,50 € | +80 €/Monat |\n\nDie Satzung definiert GT11 als Betreuungsform; die von der Stadt verlinkte Satzung mit Anlage A für 2026/2027 enthält jedoch keine GT11-Gebührentabelle. Es wird deshalb kein GT11-Betrag interpoliert. Die Kategorie ist als „definiert, aber kein Tarif in der veröffentlichten Anlage“ erfasst.\n\n"
+  },
+  "income_bands": [],
+  "offers": [
+    {
+      "id": "ludwigsburg-2d5e6c8c73",
+      "original_label": "VÖ6, 6 Std. durchgehend",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "weekly_minutes": 1800,
+      "weekday_minutes": [
+        360,
+        360,
+        360,
+        360,
+        360
+      ],
+      "continuous": true,
+      "schedule_status": "published",
+      "schedule_evidence": {
+        "source_id": "29969ba83249",
+        "locator": "Gebührentabelle",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "29969ba83249",
+        "locator": "PDF Seite 2, §4 Abs. 1: elf Monate, August gebührenfrei",
+        "original": null
+      },
+      "evidence": {
+        "source_id": "29969ba83249",
+        "locator": "PDF Seite 6, VÖ6, 6 Std. durchgehend, o3",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "ludwigsburg-e60544e705",
+      "original_label": "VÖ6, 6 Std. durchgehend",
+      "age_group": "u3",
+      "age_min_months": 0,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "weekly_minutes": 1800,
+      "weekday_minutes": [
+        360,
+        360,
+        360,
+        360,
+        360
+      ],
+      "continuous": true,
+      "schedule_status": "published",
+      "schedule_evidence": {
+        "source_id": "29969ba83249",
+        "locator": "Gebührentabelle",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "29969ba83249",
+        "locator": "PDF Seite 2, §4 Abs. 1: elf Monate, August gebührenfrei",
+        "original": null
+      },
+      "evidence": {
+        "source_id": "29969ba83249",
+        "locator": "PDF Seite 6, VÖ6, 6 Std. durchgehend, u3",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "ludwigsburg-960c3e57df",
+      "original_label": "VÖ7, 7 Std. durchgehend",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "weekly_minutes": 2100,
+      "weekday_minutes": [
+        420,
+        420,
+        420,
+        420,
+        420
+      ],
+      "continuous": true,
+      "schedule_status": "published",
+      "schedule_evidence": {
+        "source_id": "29969ba83249",
+        "locator": "Gebührentabelle",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "29969ba83249",
+        "locator": "PDF Seite 2, §4 Abs. 1: elf Monate, August gebührenfrei",
+        "original": null
+      },
+      "evidence": {
+        "source_id": "29969ba83249",
+        "locator": "PDF Seite 6, VÖ7, 7 Std. durchgehend, o3",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "ludwigsburg-474adfe1ae",
+      "original_label": "VÖ7, 7 Std. durchgehend",
+      "age_group": "u3",
+      "age_min_months": 0,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "weekly_minutes": 2100,
+      "weekday_minutes": [
+        420,
+        420,
+        420,
+        420,
+        420
+      ],
+      "continuous": true,
+      "schedule_status": "published",
+      "schedule_evidence": {
+        "source_id": "29969ba83249",
+        "locator": "Gebührentabelle",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "29969ba83249",
+        "locator": "PDF Seite 2, §4 Abs. 1: elf Monate, August gebührenfrei",
+        "original": null
+      },
+      "evidence": {
+        "source_id": "29969ba83249",
+        "locator": "PDF Seite 6, VÖ7, 7 Std. durchgehend, u3",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "ludwigsburg-d58382de89",
+      "original_label": "GT8, 8 Std. durchgehend",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "weekly_minutes": 2400,
+      "weekday_minutes": [
+        480,
+        480,
+        480,
+        480,
+        480
+      ],
+      "continuous": true,
+      "schedule_status": "published",
+      "schedule_evidence": {
+        "source_id": "29969ba83249",
+        "locator": "Gebührentabelle",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "29969ba83249",
+        "locator": "PDF Seite 2, §4 Abs. 1: elf Monate, August gebührenfrei",
+        "original": null
+      },
+      "evidence": {
+        "source_id": "29969ba83249",
+        "locator": "PDF Seite 6, GT8, 8 Std. durchgehend, o3",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "ludwigsburg-4ac8d8426f",
+      "original_label": "GT8, 8 Std. durchgehend",
+      "age_group": "u3",
+      "age_min_months": 0,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "weekly_minutes": 2400,
+      "weekday_minutes": [
+        480,
+        480,
+        480,
+        480,
+        480
+      ],
+      "continuous": true,
+      "schedule_status": "published",
+      "schedule_evidence": {
+        "source_id": "29969ba83249",
+        "locator": "Gebührentabelle",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "29969ba83249",
+        "locator": "PDF Seite 2, §4 Abs. 1: elf Monate, August gebührenfrei",
+        "original": null
+      },
+      "evidence": {
+        "source_id": "29969ba83249",
+        "locator": "PDF Seite 6, GT8, 8 Std. durchgehend, u3",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "ludwigsburg-7b007b7f1d",
+      "original_label": "GT9, 9 Std. durchgehend",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "weekly_minutes": 2700,
+      "weekday_minutes": [
+        540,
+        540,
+        540,
+        540,
+        540
+      ],
+      "continuous": true,
+      "schedule_status": "published",
+      "schedule_evidence": {
+        "source_id": "29969ba83249",
+        "locator": "Gebührentabelle",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "29969ba83249",
+        "locator": "PDF Seite 2, §4 Abs. 1: elf Monate, August gebührenfrei",
+        "original": null
+      },
+      "evidence": {
+        "source_id": "29969ba83249",
+        "locator": "PDF Seite 7, GT9, 9 Std. durchgehend, o3",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "ludwigsburg-ed4e54a5ea",
+      "original_label": "GT9, 9 Std. durchgehend",
+      "age_group": "u3",
+      "age_min_months": 0,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "weekly_minutes": 2700,
+      "weekday_minutes": [
+        540,
+        540,
+        540,
+        540,
+        540
+      ],
+      "continuous": true,
+      "schedule_status": "published",
+      "schedule_evidence": {
+        "source_id": "29969ba83249",
+        "locator": "Gebührentabelle",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "29969ba83249",
+        "locator": "PDF Seite 2, §4 Abs. 1: elf Monate, August gebührenfrei",
+        "original": null
+      },
+      "evidence": {
+        "source_id": "29969ba83249",
+        "locator": "PDF Seite 7, GT9, 9 Std. durchgehend, u3",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "ludwigsburg-3c454c3266",
+      "original_label": "GT10, 10 Std. durchgehend",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "weekly_minutes": 3000,
+      "weekday_minutes": [
+        600,
+        600,
+        600,
+        600,
+        600
+      ],
+      "continuous": true,
+      "schedule_status": "published",
+      "schedule_evidence": {
+        "source_id": "29969ba83249",
+        "locator": "Gebührentabelle",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "29969ba83249",
+        "locator": "PDF Seite 2, §4 Abs. 1: elf Monate, August gebührenfrei",
+        "original": null
+      },
+      "evidence": {
+        "source_id": "29969ba83249",
+        "locator": "PDF Seite 7, GT10, 10 Std. durchgehend, o3",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "ludwigsburg-da7f223429",
+      "original_label": "GT10, 10 Std. durchgehend",
+      "age_group": "u3",
+      "age_min_months": 0,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "weekly_minutes": 3000,
+      "weekday_minutes": [
+        600,
+        600,
+        600,
+        600,
+        600
+      ],
+      "continuous": true,
+      "schedule_status": "published",
+      "schedule_evidence": {
+        "source_id": "29969ba83249",
+        "locator": "Gebührentabelle",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "29969ba83249",
+        "locator": "PDF Seite 2, §4 Abs. 1: elf Monate, August gebührenfrei",
+        "original": null
+      },
+      "evidence": {
+        "source_id": "29969ba83249",
+        "locator": "PDF Seite 7, GT10, 10 Std. durchgehend, u3",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "ludwigsburg-4448f78647",
+      "original_label": "GT11",
+      "age_group": "u3",
+      "age_min_months": 0,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "weekly_minutes": 3300,
+      "weekday_minutes": [
+        660,
+        660,
+        660,
+        660,
+        660
+      ],
+      "continuous": true,
+      "schedule_status": "published",
+      "schedule_evidence": {
+        "source_id": "29969ba83249",
+        "locator": "Gebührentabelle",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "29969ba83249",
+        "locator": "PDF Seite 2, §4 Abs. 1: elf Monate, August gebührenfrei",
+        "original": null
+      },
+      "evidence": {
+        "source_id": "29969ba83249",
+        "locator": "PDF Seite 7, GT11, u3",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "ludwigsburg-51431c876c",
+      "original_label": "GT11",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "weekly_minutes": 3300,
+      "weekday_minutes": [
+        660,
+        660,
+        660,
+        660,
+        660
+      ],
+      "continuous": true,
+      "schedule_status": "published",
+      "schedule_evidence": {
+        "source_id": "29969ba83249",
+        "locator": "Gebührentabelle",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "29969ba83249",
+        "locator": "PDF Seite 2, §4 Abs. 1: elf Monate, August gebührenfrei",
+        "original": null
+      },
+      "evidence": {
+        "source_id": "29969ba83249",
+        "locator": "PDF Seite 7, GT11, o3",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "ludwigsburg-be4eca99f5",
+      "original_label": "Regelgruppe RG: definiert, kein Preis in Anlage A",
+      "age_group": "u3",
+      "age_min_months": 0,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "weekly_minutes": 1800,
+      "weekday_minutes": [
+        360,
+        360,
+        360,
+        360,
+        360
+      ],
+      "continuous": false,
+      "schedule_status": "defined_only",
+      "schedule_evidence": {
+        "source_id": "29969ba83249",
+        "locator": "§2 Ziff. 1; Anlage A",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "29969ba83249",
+        "locator": "PDF Seite 2, §4 Abs. 1: elf Monate, August gebührenfrei",
+        "original": null
+      },
+      "evidence": {
+        "source_id": "29969ba83249",
+        "locator": "§2 Ziff. 1; Anlage A",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "ludwigsburg-3d3f36ddc4",
+      "original_label": "Regelgruppe RG: definiert, kein Preis in Anlage A",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "weekly_minutes": 1800,
+      "weekday_minutes": [
+        360,
+        360,
+        360,
+        360,
+        360
+      ],
+      "continuous": false,
+      "schedule_status": "defined_only",
+      "schedule_evidence": {
+        "source_id": "29969ba83249",
+        "locator": "§2 Ziff. 1; Anlage A",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "29969ba83249",
+        "locator": "PDF Seite 2, §4 Abs. 1: elf Monate, August gebührenfrei",
+        "original": null
+      },
+      "evidence": {
+        "source_id": "29969ba83249",
+        "locator": "§2 Ziff. 1; Anlage A",
+        "original": null
+      },
+      "formula": null
+    }
+  ],
+  "prices": [
+    {
+      "id": "ludwigsburg-price-0001",
+      "offer_id": "ludwigsburg-2d5e6c8c73",
+      "amount_cents": 19000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "29969ba83249",
+        "locator": "PDF Seite 6, VÖ6, 6 Std. durchgehend, o3",
+        "original": {
+          "research_line": 466,
+          "heading": "Monatliche Betreuungstarife 2026/2027",
+          "row": [
+            "VÖ6, 6 Std. durchgehend",
+            "ab 3 bis Schuleintritt",
+            "190 €",
+            "142,50 €",
+            "95 €",
+            "47,50 €",
+            "4 € je Essen"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ludwigsburg-price-0002",
+      "offer_id": "ludwigsburg-2d5e6c8c73",
+      "amount_cents": 14250,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "29969ba83249",
+        "locator": "PDF Seite 6, VÖ6, 6 Std. durchgehend, o3",
+        "original": {
+          "research_line": 466,
+          "heading": "Monatliche Betreuungstarife 2026/2027",
+          "row": [
+            "VÖ6, 6 Std. durchgehend",
+            "ab 3 bis Schuleintritt",
+            "190 €",
+            "142,50 €",
+            "95 €",
+            "47,50 €",
+            "4 € je Essen"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ludwigsburg-price-0003",
+      "offer_id": "ludwigsburg-2d5e6c8c73",
+      "amount_cents": 9500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "29969ba83249",
+        "locator": "PDF Seite 6, VÖ6, 6 Std. durchgehend, o3",
+        "original": {
+          "research_line": 466,
+          "heading": "Monatliche Betreuungstarife 2026/2027",
+          "row": [
+            "VÖ6, 6 Std. durchgehend",
+            "ab 3 bis Schuleintritt",
+            "190 €",
+            "142,50 €",
+            "95 €",
+            "47,50 €",
+            "4 € je Essen"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ludwigsburg-price-0004",
+      "offer_id": "ludwigsburg-2d5e6c8c73",
+      "amount_cents": 4750,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "29969ba83249",
+        "locator": "PDF Seite 6, VÖ6, 6 Std. durchgehend, o3",
+        "original": {
+          "research_line": 466,
+          "heading": "Monatliche Betreuungstarife 2026/2027",
+          "row": [
+            "VÖ6, 6 Std. durchgehend",
+            "ab 3 bis Schuleintritt",
+            "190 €",
+            "142,50 €",
+            "95 €",
+            "47,50 €",
+            "4 € je Essen"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ludwigsburg-price-0005",
+      "offer_id": "ludwigsburg-e60544e705",
+      "amount_cents": 34800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "29969ba83249",
+        "locator": "PDF Seite 6, VÖ6, 6 Std. durchgehend, u3",
+        "original": {
+          "research_line": 466,
+          "heading": "Monatliche Betreuungstarife 2026/2027",
+          "row": [
+            "VÖ6, 6 Std. durchgehend",
+            "unter 3 Jahren",
+            "348 €",
+            "261 €",
+            "174 €",
+            "87 €",
+            "4 € je Essen"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ludwigsburg-price-0006",
+      "offer_id": "ludwigsburg-e60544e705",
+      "amount_cents": 26100,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "29969ba83249",
+        "locator": "PDF Seite 6, VÖ6, 6 Std. durchgehend, u3",
+        "original": {
+          "research_line": 466,
+          "heading": "Monatliche Betreuungstarife 2026/2027",
+          "row": [
+            "VÖ6, 6 Std. durchgehend",
+            "unter 3 Jahren",
+            "348 €",
+            "261 €",
+            "174 €",
+            "87 €",
+            "4 € je Essen"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ludwigsburg-price-0007",
+      "offer_id": "ludwigsburg-e60544e705",
+      "amount_cents": 17400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "29969ba83249",
+        "locator": "PDF Seite 6, VÖ6, 6 Std. durchgehend, u3",
+        "original": {
+          "research_line": 466,
+          "heading": "Monatliche Betreuungstarife 2026/2027",
+          "row": [
+            "VÖ6, 6 Std. durchgehend",
+            "unter 3 Jahren",
+            "348 €",
+            "261 €",
+            "174 €",
+            "87 €",
+            "4 € je Essen"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ludwigsburg-price-0008",
+      "offer_id": "ludwigsburg-e60544e705",
+      "amount_cents": 8700,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "29969ba83249",
+        "locator": "PDF Seite 6, VÖ6, 6 Std. durchgehend, u3",
+        "original": {
+          "research_line": 466,
+          "heading": "Monatliche Betreuungstarife 2026/2027",
+          "row": [
+            "VÖ6, 6 Std. durchgehend",
+            "unter 3 Jahren",
+            "348 €",
+            "261 €",
+            "174 €",
+            "87 €",
+            "4 € je Essen"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ludwigsburg-price-0009",
+      "offer_id": "ludwigsburg-960c3e57df",
+      "amount_cents": 23500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "29969ba83249",
+        "locator": "PDF Seite 6, VÖ7, 7 Std. durchgehend, o3",
+        "original": {
+          "research_line": 466,
+          "heading": "Monatliche Betreuungstarife 2026/2027",
+          "row": [
+            "VÖ7, 7 Std. durchgehend",
+            "ab 3 bis Schuleintritt",
+            "235 €",
+            "176,25 €",
+            "117,50 €",
+            "58,75 €",
+            "4 € je Essen"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ludwigsburg-price-0010",
+      "offer_id": "ludwigsburg-960c3e57df",
+      "amount_cents": 17625,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "29969ba83249",
+        "locator": "PDF Seite 6, VÖ7, 7 Std. durchgehend, o3",
+        "original": {
+          "research_line": 466,
+          "heading": "Monatliche Betreuungstarife 2026/2027",
+          "row": [
+            "VÖ7, 7 Std. durchgehend",
+            "ab 3 bis Schuleintritt",
+            "235 €",
+            "176,25 €",
+            "117,50 €",
+            "58,75 €",
+            "4 € je Essen"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ludwigsburg-price-0011",
+      "offer_id": "ludwigsburg-960c3e57df",
+      "amount_cents": 11750,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "29969ba83249",
+        "locator": "PDF Seite 6, VÖ7, 7 Std. durchgehend, o3",
+        "original": {
+          "research_line": 466,
+          "heading": "Monatliche Betreuungstarife 2026/2027",
+          "row": [
+            "VÖ7, 7 Std. durchgehend",
+            "ab 3 bis Schuleintritt",
+            "235 €",
+            "176,25 €",
+            "117,50 €",
+            "58,75 €",
+            "4 € je Essen"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ludwigsburg-price-0012",
+      "offer_id": "ludwigsburg-960c3e57df",
+      "amount_cents": 5875,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "29969ba83249",
+        "locator": "PDF Seite 6, VÖ7, 7 Std. durchgehend, o3",
+        "original": {
+          "research_line": 466,
+          "heading": "Monatliche Betreuungstarife 2026/2027",
+          "row": [
+            "VÖ7, 7 Std. durchgehend",
+            "ab 3 bis Schuleintritt",
+            "235 €",
+            "176,25 €",
+            "117,50 €",
+            "58,75 €",
+            "4 € je Essen"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ludwigsburg-price-0013",
+      "offer_id": "ludwigsburg-474adfe1ae",
+      "amount_cents": 42900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "29969ba83249",
+        "locator": "PDF Seite 6, VÖ7, 7 Std. durchgehend, u3",
+        "original": {
+          "research_line": 466,
+          "heading": "Monatliche Betreuungstarife 2026/2027",
+          "row": [
+            "VÖ7, 7 Std. durchgehend",
+            "unter 3 Jahren",
+            "429 €",
+            "321,75 €",
+            "214,50 €",
+            "107,25 €",
+            "4 € je Essen"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ludwigsburg-price-0014",
+      "offer_id": "ludwigsburg-474adfe1ae",
+      "amount_cents": 32175,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "29969ba83249",
+        "locator": "PDF Seite 6, VÖ7, 7 Std. durchgehend, u3",
+        "original": {
+          "research_line": 466,
+          "heading": "Monatliche Betreuungstarife 2026/2027",
+          "row": [
+            "VÖ7, 7 Std. durchgehend",
+            "unter 3 Jahren",
+            "429 €",
+            "321,75 €",
+            "214,50 €",
+            "107,25 €",
+            "4 € je Essen"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ludwigsburg-price-0015",
+      "offer_id": "ludwigsburg-474adfe1ae",
+      "amount_cents": 21450,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "29969ba83249",
+        "locator": "PDF Seite 6, VÖ7, 7 Std. durchgehend, u3",
+        "original": {
+          "research_line": 466,
+          "heading": "Monatliche Betreuungstarife 2026/2027",
+          "row": [
+            "VÖ7, 7 Std. durchgehend",
+            "unter 3 Jahren",
+            "429 €",
+            "321,75 €",
+            "214,50 €",
+            "107,25 €",
+            "4 € je Essen"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ludwigsburg-price-0016",
+      "offer_id": "ludwigsburg-474adfe1ae",
+      "amount_cents": 10725,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "29969ba83249",
+        "locator": "PDF Seite 6, VÖ7, 7 Std. durchgehend, u3",
+        "original": {
+          "research_line": 466,
+          "heading": "Monatliche Betreuungstarife 2026/2027",
+          "row": [
+            "VÖ7, 7 Std. durchgehend",
+            "unter 3 Jahren",
+            "429 €",
+            "321,75 €",
+            "214,50 €",
+            "107,25 €",
+            "4 € je Essen"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ludwigsburg-price-0017",
+      "offer_id": "ludwigsburg-d58382de89",
+      "amount_cents": 30100,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "29969ba83249",
+        "locator": "PDF Seite 6, GT8, 8 Std. durchgehend, o3",
+        "original": {
+          "research_line": 466,
+          "heading": "Monatliche Betreuungstarife 2026/2027",
+          "row": [
+            "GT8, 8 Std. durchgehend",
+            "ab 3 bis Schuleintritt",
+            "301 €",
+            "225,75 €",
+            "150,50 €",
+            "75,25 €",
+            "+80 €/Monat"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ludwigsburg-price-0018",
+      "offer_id": "ludwigsburg-d58382de89",
+      "amount_cents": 22575,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "29969ba83249",
+        "locator": "PDF Seite 6, GT8, 8 Std. durchgehend, o3",
+        "original": {
+          "research_line": 466,
+          "heading": "Monatliche Betreuungstarife 2026/2027",
+          "row": [
+            "GT8, 8 Std. durchgehend",
+            "ab 3 bis Schuleintritt",
+            "301 €",
+            "225,75 €",
+            "150,50 €",
+            "75,25 €",
+            "+80 €/Monat"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ludwigsburg-price-0019",
+      "offer_id": "ludwigsburg-d58382de89",
+      "amount_cents": 15050,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "29969ba83249",
+        "locator": "PDF Seite 6, GT8, 8 Std. durchgehend, o3",
+        "original": {
+          "research_line": 466,
+          "heading": "Monatliche Betreuungstarife 2026/2027",
+          "row": [
+            "GT8, 8 Std. durchgehend",
+            "ab 3 bis Schuleintritt",
+            "301 €",
+            "225,75 €",
+            "150,50 €",
+            "75,25 €",
+            "+80 €/Monat"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ludwigsburg-price-0020",
+      "offer_id": "ludwigsburg-d58382de89",
+      "amount_cents": 7525,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "29969ba83249",
+        "locator": "PDF Seite 6, GT8, 8 Std. durchgehend, o3",
+        "original": {
+          "research_line": 466,
+          "heading": "Monatliche Betreuungstarife 2026/2027",
+          "row": [
+            "GT8, 8 Std. durchgehend",
+            "ab 3 bis Schuleintritt",
+            "301 €",
+            "225,75 €",
+            "150,50 €",
+            "75,25 €",
+            "+80 €/Monat"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ludwigsburg-price-0021",
+      "offer_id": "ludwigsburg-4ac8d8426f",
+      "amount_cents": 49900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "29969ba83249",
+        "locator": "PDF Seite 6, GT8, 8 Std. durchgehend, u3",
+        "original": {
+          "research_line": 466,
+          "heading": "Monatliche Betreuungstarife 2026/2027",
+          "row": [
+            "GT8, 8 Std. durchgehend",
+            "unter 3 Jahren",
+            "499 €",
+            "374,25 €",
+            "249,50 €",
+            "124,75 €",
+            "+80 €/Monat"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ludwigsburg-price-0022",
+      "offer_id": "ludwigsburg-4ac8d8426f",
+      "amount_cents": 37425,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "29969ba83249",
+        "locator": "PDF Seite 6, GT8, 8 Std. durchgehend, u3",
+        "original": {
+          "research_line": 466,
+          "heading": "Monatliche Betreuungstarife 2026/2027",
+          "row": [
+            "GT8, 8 Std. durchgehend",
+            "unter 3 Jahren",
+            "499 €",
+            "374,25 €",
+            "249,50 €",
+            "124,75 €",
+            "+80 €/Monat"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ludwigsburg-price-0023",
+      "offer_id": "ludwigsburg-4ac8d8426f",
+      "amount_cents": 24950,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "29969ba83249",
+        "locator": "PDF Seite 6, GT8, 8 Std. durchgehend, u3",
+        "original": {
+          "research_line": 466,
+          "heading": "Monatliche Betreuungstarife 2026/2027",
+          "row": [
+            "GT8, 8 Std. durchgehend",
+            "unter 3 Jahren",
+            "499 €",
+            "374,25 €",
+            "249,50 €",
+            "124,75 €",
+            "+80 €/Monat"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ludwigsburg-price-0024",
+      "offer_id": "ludwigsburg-4ac8d8426f",
+      "amount_cents": 12475,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "29969ba83249",
+        "locator": "PDF Seite 6, GT8, 8 Std. durchgehend, u3",
+        "original": {
+          "research_line": 466,
+          "heading": "Monatliche Betreuungstarife 2026/2027",
+          "row": [
+            "GT8, 8 Std. durchgehend",
+            "unter 3 Jahren",
+            "499 €",
+            "374,25 €",
+            "249,50 €",
+            "124,75 €",
+            "+80 €/Monat"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ludwigsburg-price-0025",
+      "offer_id": "ludwigsburg-7b007b7f1d",
+      "amount_cents": 33800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "29969ba83249",
+        "locator": "PDF Seite 7, GT9, 9 Std. durchgehend, o3",
+        "original": {
+          "research_line": 466,
+          "heading": "Monatliche Betreuungstarife 2026/2027",
+          "row": [
+            "GT9, 9 Std. durchgehend",
+            "ab 3 bis Schuleintritt",
+            "338 €",
+            "253,50 €",
+            "169 €",
+            "84,50 €",
+            "+80 €/Monat"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ludwigsburg-price-0026",
+      "offer_id": "ludwigsburg-7b007b7f1d",
+      "amount_cents": 25350,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "29969ba83249",
+        "locator": "PDF Seite 7, GT9, 9 Std. durchgehend, o3",
+        "original": {
+          "research_line": 466,
+          "heading": "Monatliche Betreuungstarife 2026/2027",
+          "row": [
+            "GT9, 9 Std. durchgehend",
+            "ab 3 bis Schuleintritt",
+            "338 €",
+            "253,50 €",
+            "169 €",
+            "84,50 €",
+            "+80 €/Monat"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ludwigsburg-price-0027",
+      "offer_id": "ludwigsburg-7b007b7f1d",
+      "amount_cents": 16900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "29969ba83249",
+        "locator": "PDF Seite 7, GT9, 9 Std. durchgehend, o3",
+        "original": {
+          "research_line": 466,
+          "heading": "Monatliche Betreuungstarife 2026/2027",
+          "row": [
+            "GT9, 9 Std. durchgehend",
+            "ab 3 bis Schuleintritt",
+            "338 €",
+            "253,50 €",
+            "169 €",
+            "84,50 €",
+            "+80 €/Monat"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ludwigsburg-price-0028",
+      "offer_id": "ludwigsburg-7b007b7f1d",
+      "amount_cents": 8450,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "29969ba83249",
+        "locator": "PDF Seite 7, GT9, 9 Std. durchgehend, o3",
+        "original": {
+          "research_line": 466,
+          "heading": "Monatliche Betreuungstarife 2026/2027",
+          "row": [
+            "GT9, 9 Std. durchgehend",
+            "ab 3 bis Schuleintritt",
+            "338 €",
+            "253,50 €",
+            "169 €",
+            "84,50 €",
+            "+80 €/Monat"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ludwigsburg-price-0029",
+      "offer_id": "ludwigsburg-ed4e54a5ea",
+      "amount_cents": 56300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "29969ba83249",
+        "locator": "PDF Seite 7, GT9, 9 Std. durchgehend, u3",
+        "original": {
+          "research_line": 466,
+          "heading": "Monatliche Betreuungstarife 2026/2027",
+          "row": [
+            "GT9, 9 Std. durchgehend",
+            "unter 3 Jahren",
+            "563 €",
+            "422,25 €",
+            "281,50 €",
+            "140,75 €",
+            "+80 €/Monat"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ludwigsburg-price-0030",
+      "offer_id": "ludwigsburg-ed4e54a5ea",
+      "amount_cents": 42225,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "29969ba83249",
+        "locator": "PDF Seite 7, GT9, 9 Std. durchgehend, u3",
+        "original": {
+          "research_line": 466,
+          "heading": "Monatliche Betreuungstarife 2026/2027",
+          "row": [
+            "GT9, 9 Std. durchgehend",
+            "unter 3 Jahren",
+            "563 €",
+            "422,25 €",
+            "281,50 €",
+            "140,75 €",
+            "+80 €/Monat"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ludwigsburg-price-0031",
+      "offer_id": "ludwigsburg-ed4e54a5ea",
+      "amount_cents": 28150,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "29969ba83249",
+        "locator": "PDF Seite 7, GT9, 9 Std. durchgehend, u3",
+        "original": {
+          "research_line": 466,
+          "heading": "Monatliche Betreuungstarife 2026/2027",
+          "row": [
+            "GT9, 9 Std. durchgehend",
+            "unter 3 Jahren",
+            "563 €",
+            "422,25 €",
+            "281,50 €",
+            "140,75 €",
+            "+80 €/Monat"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ludwigsburg-price-0032",
+      "offer_id": "ludwigsburg-ed4e54a5ea",
+      "amount_cents": 14075,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "29969ba83249",
+        "locator": "PDF Seite 7, GT9, 9 Std. durchgehend, u3",
+        "original": {
+          "research_line": 466,
+          "heading": "Monatliche Betreuungstarife 2026/2027",
+          "row": [
+            "GT9, 9 Std. durchgehend",
+            "unter 3 Jahren",
+            "563 €",
+            "422,25 €",
+            "281,50 €",
+            "140,75 €",
+            "+80 €/Monat"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ludwigsburg-price-0033",
+      "offer_id": "ludwigsburg-3c454c3266",
+      "amount_cents": 35100,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "29969ba83249",
+        "locator": "PDF Seite 7, GT10, 10 Std. durchgehend, o3",
+        "original": {
+          "research_line": 466,
+          "heading": "Monatliche Betreuungstarife 2026/2027",
+          "row": [
+            "GT10, 10 Std. durchgehend",
+            "ab 3 bis Schuleintritt",
+            "351 €",
+            "263,25 €",
+            "175,50 €",
+            "87,75 €",
+            "+80 €/Monat"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ludwigsburg-price-0034",
+      "offer_id": "ludwigsburg-3c454c3266",
+      "amount_cents": 26325,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "29969ba83249",
+        "locator": "PDF Seite 7, GT10, 10 Std. durchgehend, o3",
+        "original": {
+          "research_line": 466,
+          "heading": "Monatliche Betreuungstarife 2026/2027",
+          "row": [
+            "GT10, 10 Std. durchgehend",
+            "ab 3 bis Schuleintritt",
+            "351 €",
+            "263,25 €",
+            "175,50 €",
+            "87,75 €",
+            "+80 €/Monat"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ludwigsburg-price-0035",
+      "offer_id": "ludwigsburg-3c454c3266",
+      "amount_cents": 17550,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "29969ba83249",
+        "locator": "PDF Seite 7, GT10, 10 Std. durchgehend, o3",
+        "original": {
+          "research_line": 466,
+          "heading": "Monatliche Betreuungstarife 2026/2027",
+          "row": [
+            "GT10, 10 Std. durchgehend",
+            "ab 3 bis Schuleintritt",
+            "351 €",
+            "263,25 €",
+            "175,50 €",
+            "87,75 €",
+            "+80 €/Monat"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ludwigsburg-price-0036",
+      "offer_id": "ludwigsburg-3c454c3266",
+      "amount_cents": 8775,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "29969ba83249",
+        "locator": "PDF Seite 7, GT10, 10 Std. durchgehend, o3",
+        "original": {
+          "research_line": 466,
+          "heading": "Monatliche Betreuungstarife 2026/2027",
+          "row": [
+            "GT10, 10 Std. durchgehend",
+            "ab 3 bis Schuleintritt",
+            "351 €",
+            "263,25 €",
+            "175,50 €",
+            "87,75 €",
+            "+80 €/Monat"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ludwigsburg-price-0037",
+      "offer_id": "ludwigsburg-da7f223429",
+      "amount_cents": 57800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "29969ba83249",
+        "locator": "PDF Seite 7, GT10, 10 Std. durchgehend, u3",
+        "original": {
+          "research_line": 466,
+          "heading": "Monatliche Betreuungstarife 2026/2027",
+          "row": [
+            "GT10, 10 Std. durchgehend",
+            "unter 3 Jahren",
+            "578 €",
+            "433,50 €",
+            "289 €",
+            "144,50 €",
+            "+80 €/Monat"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ludwigsburg-price-0038",
+      "offer_id": "ludwigsburg-da7f223429",
+      "amount_cents": 43350,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "29969ba83249",
+        "locator": "PDF Seite 7, GT10, 10 Std. durchgehend, u3",
+        "original": {
+          "research_line": 466,
+          "heading": "Monatliche Betreuungstarife 2026/2027",
+          "row": [
+            "GT10, 10 Std. durchgehend",
+            "unter 3 Jahren",
+            "578 €",
+            "433,50 €",
+            "289 €",
+            "144,50 €",
+            "+80 €/Monat"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ludwigsburg-price-0039",
+      "offer_id": "ludwigsburg-da7f223429",
+      "amount_cents": 28900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "29969ba83249",
+        "locator": "PDF Seite 7, GT10, 10 Std. durchgehend, u3",
+        "original": {
+          "research_line": 466,
+          "heading": "Monatliche Betreuungstarife 2026/2027",
+          "row": [
+            "GT10, 10 Std. durchgehend",
+            "unter 3 Jahren",
+            "578 €",
+            "433,50 €",
+            "289 €",
+            "144,50 €",
+            "+80 €/Monat"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ludwigsburg-price-0040",
+      "offer_id": "ludwigsburg-da7f223429",
+      "amount_cents": 14450,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "29969ba83249",
+        "locator": "PDF Seite 7, GT10, 10 Std. durchgehend, u3",
+        "original": {
+          "research_line": 466,
+          "heading": "Monatliche Betreuungstarife 2026/2027",
+          "row": [
+            "GT10, 10 Std. durchgehend",
+            "unter 3 Jahren",
+            "578 €",
+            "433,50 €",
+            "289 €",
+            "144,50 €",
+            "+80 €/Monat"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ludwigsburg-price-0041",
+      "offer_id": "ludwigsburg-4448f78647",
+      "amount_cents": null,
+      "unit": "per_month",
+      "value_status": "not_published",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "29969ba83249",
+        "locator": "PDF Seite 7, GT11, u3",
+        "original": "GT11 defined in §2, no price in Anlage A"
+      }
+    },
+    {
+      "id": "ludwigsburg-price-0042",
+      "offer_id": "ludwigsburg-51431c876c",
+      "amount_cents": null,
+      "unit": "per_month",
+      "value_status": "not_published",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "29969ba83249",
+        "locator": "PDF Seite 7, GT11, o3",
+        "original": "GT11 defined in §2, no price in Anlage A"
+      }
+    },
+    {
+      "id": "ludwigsburg-price-0043",
+      "offer_id": "ludwigsburg-be4eca99f5",
+      "amount_cents": null,
+      "unit": "per_month",
+      "value_status": "not_published",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "29969ba83249",
+        "locator": "§2 Ziff. 1; Anlage A",
+        "original": "Definition ohne separat ausgewiesenen Tarif"
+      }
+    },
+    {
+      "id": "ludwigsburg-price-0044",
+      "offer_id": "ludwigsburg-3d3f36ddc4",
+      "amount_cents": null,
+      "unit": "per_month",
+      "value_status": "not_published",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "29969ba83249",
+        "locator": "§2 Ziff. 1; Anlage A",
+        "original": "Definition ohne separat ausgewiesenen Tarif"
+      }
+    }
+  ],
+  "components": [
+    {
+      "id": "ludwigsburg-component-001",
+      "kind": "meal",
+      "original_label": "Ganztagsverpflegung",
+      "amount_cents": 8000,
+      "unit": "per_month",
+      "age_group": null,
+      "offer_ids": [
+        "ludwigsburg-d58382de89",
+        "ludwigsburg-4ac8d8426f",
+        "ludwigsburg-7b007b7f1d",
+        "ludwigsburg-ed4e54a5ea",
+        "ludwigsburg-3c454c3266",
+        "ludwigsburg-da7f223429"
+      ],
+      "required": true,
+      "payment_months": null,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "29969ba83249",
+        "locator": "Verpflegung",
+        "original": null
+      }
+    },
+    {
+      "id": "ludwigsburg-component-002",
+      "kind": "meal",
+      "original_label": "Mittagessen RG/VÖ nach Teilnahme",
+      "amount_cents": 400,
+      "unit": "per_meal",
+      "age_group": null,
+      "offer_ids": [
+        "ludwigsburg-2d5e6c8c73",
+        "ludwigsburg-e60544e705",
+        "ludwigsburg-960c3e57df",
+        "ludwigsburg-474adfe1ae"
+      ],
+      "required": false,
+      "payment_months": null,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "29969ba83249",
+        "locator": "Verpflegung",
+        "original": null
+      }
+    }
+  ],
+  "rules": [],
+  "issues": [
+    {
+      "code": "unpriced_gt11",
+      "detail": "GT11 is defined without a price in Anlage A."
+    }
+  ],
+  "source_text_archive": "data/sources/29969ba83249/text.txt",
+  "coverage": {
+    "care_tables": "transferred",
+    "income_tables": "transferred_or_not_applicable",
+    "family_tables": "transferred",
+    "rules": "source_text_preserved_with_supported_subset",
+    "exceptions": "source_text_preserved",
+    "reviewed_at": "2026-11-07"
+  },
+  "age_transition": "age_group_at_reference_date",
+  "supporting_source_ids": [
+    "0b1f1a179aba",
+    "29969ba83249",
+    "e51a24457510"
+  ]
+}

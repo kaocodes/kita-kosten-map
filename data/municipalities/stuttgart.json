@@ -1,0 +1,3031 @@
+{
+  "schema_version": "1.0",
+  "id": "stuttgart",
+  "name": "Stuttgart",
+  "reviewed_at": "2026-11-07",
+  "reference_date": "2026-11-04",
+  "scope": {
+    "included": [
+      "municipal"
+    ],
+    "other_providers": "only_with_explicit_source_evidence",
+    "also_included": []
+  },
+  "family_basis": "under_18",
+  "family_evidence": {
+    "source_id": "95bc452daed1",
+    "locator": "Welche Regelungen gibt es für den Elternbeitrag? Kinder im Haushalt bis zum vollendeten 18. Lebensjahr",
+    "original": null
+  },
+  "payment_months": 11,
+  "payment_evidence": {
+    "source_id": "535c7b4c86f8",
+    "locator": "PDF Seite 1: elf Monatsbeiträge, August beitragsfrei",
+    "original": null
+  },
+  "original_research": {
+    "path": "data/imported/research_2026-11-04.md",
+    "section": "Stuttgart",
+    "text": "\n### Quelle und Gültigkeit\n\n- [Stuttgarter Stadtrecht: Anlage 1 zu 4/6 (PDF)](https://www.stuttgart.de/medien/ibs/4-6-anlage-1-ab-01-08-2026.pdf)\n- [Übersichtsseite der Anlagen 1 bis 5](https://www.stuttgart.de/rathaus/verwaltung/stadtrecht/4/anlagen-1-bis-5-zu-4-6-verzeichnis-der-kostenbeitraege-und-des-essensgeldes-pro-monat)\n- Gültigkeit der Anlage 1: **1. August 2026 bis 31. Juli 2027**. Die Stadt veröffentlicht weitere Anlagen für Folgejahre bis einschließlich einer Anlage ab 1. August 2030.\n\nDie nachfolgenden Werte sind Monatsbeiträge für städtische Tageseinrichtungen. Die Tabellenstaffel berücksichtigt FamilienCard und Vollzahlerstatus; in der Krippentabelle ist der Kleinkindzuschlag bereits im Beitrag enthalten. Essensgeld wird separat erhoben. Für ein Betreuungsjahr werden elf Monatsbeiträge erhoben; August ist beitragsfrei.\n\n### Kinder unter 3 Jahren – gültig 1. August 2026 bis 31. Juli 2027\n\n| Modell | Familiengröße | FamilienCard | Vollzahler | Kleinkindzuschlag darin enthalten: FamilienCard / Vollzahler |\n|---|---:|---:|---:|---:|\n| VÖ, 6 Std./Tag | 1 Kind | 104 € | 195 € | 43 € / 75 € |\n| VÖ, 6 Std./Tag | 2 Kinder | 76 € | 165 € | 43 € / 75 € |\n| VÖ, 6 Std./Tag | 3 Kinder | 0 € | 119 € | 43 € / 75 € |\n| VÖ, 6 Std./Tag | 4+ Kinder | 0 € | 114 € | 43 € / 75 € |\n| VÖ, 7 Std./Tag | 1 Kind | 122 € | 215 € | 43 € / 75 € |\n| VÖ, 7 Std./Tag | 2 Kinder | 90 € | 180 € | 43 € / 75 € |\n| VÖ, 7 Std./Tag | 3 Kinder | 0 € | 126 € | 43 € / 75 € |\n| VÖ, 7 Std./Tag | 4+ Kinder | 0 € | 120 € | 43 € / 75 € |\n| GT, 8 Std./Tag | 1 Kind | 146 € | 243 € | 44 € / 78 € |\n| GT, 8 Std./Tag | 2 Kinder | 108 € | 202 € | 44 € / 78 € |\n| GT, 8 Std./Tag | 3 Kinder | 0 € | 138 € | 44 € / 78 € |\n| GT, 8 Std./Tag | 4+ Kinder | 0 € | 131 € | 44 € / 78 € |\n| GT, 8 Std. + Früh- oder Spätbetreuung bis 1 Std. | 1 Kind | 165 € | 264 € | 44 € / 78 € |\n| GT, 8 Std. + Früh- oder Spätbetreuung bis 1 Std. | 2 Kinder | 123 € | 218 € | 44 € / 78 € |\n| GT, 8 Std. + Früh- oder Spätbetreuung bis 1 Std. | 3 Kinder | 0 € | 145 € | 44 € / 78 € |\n| GT, 8 Std. + Früh- oder Spätbetreuung bis 1 Std. | 4+ Kinder | 0 € | 138 € | 44 € / 78 € |\n| GT, 8 Std. + Früh- und Spätbetreuung bis 2 Std. | 1 Kind | 184 € | 284 € | 44 € / 78 € |\n| GT, 8 Std. + Früh- und Spätbetreuung bis 2 Std. | 2 Kinder | 137 € | 233 € | 44 € / 78 € |\n| GT, 8 Std. + Früh- und Spätbetreuung bis 2 Std. | 3 Kinder | 0 € | 153 € | 44 € / 78 € |\n| GT, 8 Std. + Früh- und Spätbetreuung bis 2 Std. | 4+ Kinder | 0 € | 144 € | 44 € / 78 € |\n\n**Essensgeld:** 77 € pro Monat.\n\n### Kinder ab 3 Jahren bis Schuleintritt – gültig 1. August 2026 bis 31. Juli 2027\n\n| Modell | Familiengröße | FamilienCard | Vollzahler |\n|---|---:|---:|---:|\n| VÖ, 6 Std./Tag | 1 Kind | 57 € | 117 € |\n| VÖ, 6 Std./Tag | 2 Kinder | 31 € | 88 € |\n| VÖ, 6 Std./Tag | 3 Kinder | 0 € | 42 € |\n| VÖ, 6 Std./Tag | 4+ Kinder | 0 € | 38 € |\n| VÖ, 7 Std./Tag | 1 Kind | 75 € | 136 € |\n| VÖ, 7 Std./Tag | 2 Kinder | 44 € | 102 € |\n| VÖ, 7 Std./Tag | 3 Kinder | 0 € | 49 € |\n| VÖ, 7 Std./Tag | 4+ Kinder | 0 € | 44 € |\n| GT, 8 Std./Tag | 1 Kind | 98 € | 160 € |\n| GT, 8 Std./Tag | 2 Kinder | 61 € | 120 € |\n| GT, 8 Std./Tag | 3 Kinder | 0 € | 58 € |\n| GT, 8 Std./Tag | 4+ Kinder | 0 € | 52 € |\n| GT, 8 Std. + Früh- oder Spätbetreuung bis 1 Std. | 1 Kind | 116 € | 180 € |\n| GT, 8 Std. + Früh- oder Spätbetreuung bis 1 Std. | 2 Kinder | 75 € | 135 € |\n| GT, 8 Std. + Früh- oder Spätbetreuung bis 1 Std. | 3 Kinder | 0 € | 65 € |\n| GT, 8 Std. + Früh- oder Spätbetreuung bis 1 Std. | 4+ Kinder | 0 € | 58 € |\n| GT, 8 Std. + Früh- und Spätbetreuung bis 2 Std. | 1 Kind | 134 € | 200 € |\n| GT, 8 Std. + Früh- und Spätbetreuung bis 2 Std. | 2 Kinder | 88 € | 150 € |\n| GT, 8 Std. + Früh- und Spätbetreuung bis 2 Std. | 3 Kinder | 0 € | 72 € |\n| GT, 8 Std. + Früh- und Spätbetreuung bis 2 Std. | 4+ Kinder | 0 € | 64 € |\n\n**Essensgeld:** 77 € pro Monat.\n\n"
+  },
+  "income_bands": [],
+  "offers": [
+    {
+      "id": "stuttgart-53027ff7a1",
+      "original_label": "VÖ, 6 Std./Tag",
+      "age_group": "u3",
+      "age_min_months": 0,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-08-01",
+      "valid_to": "2027-07-31",
+      "original_price_valid_from": "2026-08-01",
+      "scope": "municipal",
+      "weekly_minutes": 1800,
+      "weekday_minutes": [
+        360,
+        360,
+        360,
+        360,
+        360
+      ],
+      "continuous": true,
+      "schedule_status": "published",
+      "schedule_evidence": {
+        "source_id": "535c7b4c86f8",
+        "locator": "Gebührentabelle",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "535c7b4c86f8",
+        "locator": "PDF Seite 1: elf Monatsbeiträge, August beitragsfrei",
+        "original": null
+      },
+      "evidence": {
+        "source_id": "535c7b4c86f8",
+        "locator": "PDF Seite 1, VÖ, 6 Std./Tag, u3",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "stuttgart-0eab6fac61",
+      "original_label": "VÖ, 7 Std./Tag",
+      "age_group": "u3",
+      "age_min_months": 0,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-08-01",
+      "valid_to": "2027-07-31",
+      "original_price_valid_from": "2026-08-01",
+      "scope": "municipal",
+      "weekly_minutes": 2100,
+      "weekday_minutes": [
+        420,
+        420,
+        420,
+        420,
+        420
+      ],
+      "continuous": true,
+      "schedule_status": "published",
+      "schedule_evidence": {
+        "source_id": "535c7b4c86f8",
+        "locator": "Gebührentabelle",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "535c7b4c86f8",
+        "locator": "PDF Seite 1: elf Monatsbeiträge, August beitragsfrei",
+        "original": null
+      },
+      "evidence": {
+        "source_id": "535c7b4c86f8",
+        "locator": "PDF Seite 1, VÖ, 7 Std./Tag, u3",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "stuttgart-cd11b5ddfc",
+      "original_label": "GT, 8 Std./Tag",
+      "age_group": "u3",
+      "age_min_months": 0,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-08-01",
+      "valid_to": "2027-07-31",
+      "original_price_valid_from": "2026-08-01",
+      "scope": "municipal",
+      "weekly_minutes": 2400,
+      "weekday_minutes": [
+        480,
+        480,
+        480,
+        480,
+        480
+      ],
+      "continuous": true,
+      "schedule_status": "published",
+      "schedule_evidence": {
+        "source_id": "535c7b4c86f8",
+        "locator": "Gebührentabelle",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "535c7b4c86f8",
+        "locator": "PDF Seite 1: elf Monatsbeiträge, August beitragsfrei",
+        "original": null
+      },
+      "evidence": {
+        "source_id": "535c7b4c86f8",
+        "locator": "PDF Seite 1, GT, 8 Std./Tag, u3",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "stuttgart-95dea50444",
+      "original_label": "GT, 8 Std. + Früh- oder Spätbetreuung bis 1 Std.",
+      "age_group": "u3",
+      "age_min_months": 0,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-08-01",
+      "valid_to": "2027-07-31",
+      "original_price_valid_from": "2026-08-01",
+      "scope": "municipal",
+      "weekly_minutes": 2700,
+      "weekday_minutes": [
+        540,
+        540,
+        540,
+        540,
+        540
+      ],
+      "continuous": true,
+      "schedule_status": "published",
+      "schedule_evidence": {
+        "source_id": "535c7b4c86f8",
+        "locator": "Gebührentabelle",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "535c7b4c86f8",
+        "locator": "PDF Seite 1: elf Monatsbeiträge, August beitragsfrei",
+        "original": null
+      },
+      "evidence": {
+        "source_id": "535c7b4c86f8",
+        "locator": "PDF Seite 1, GT, 8 Std. + Früh- oder Spätbetreuung bis 1 Std., u3",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "stuttgart-b992bae17c",
+      "original_label": "GT, 8 Std. + Früh- und Spätbetreuung bis 2 Std.",
+      "age_group": "u3",
+      "age_min_months": 0,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-08-01",
+      "valid_to": "2027-07-31",
+      "original_price_valid_from": "2026-08-01",
+      "scope": "municipal",
+      "weekly_minutes": 3000,
+      "weekday_minutes": [
+        600,
+        600,
+        600,
+        600,
+        600
+      ],
+      "continuous": true,
+      "schedule_status": "published",
+      "schedule_evidence": {
+        "source_id": "535c7b4c86f8",
+        "locator": "Gebührentabelle",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "535c7b4c86f8",
+        "locator": "PDF Seite 1: elf Monatsbeiträge, August beitragsfrei",
+        "original": null
+      },
+      "evidence": {
+        "source_id": "535c7b4c86f8",
+        "locator": "PDF Seite 1, GT, 8 Std. + Früh- und Spätbetreuung bis 2 Std., u3",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "stuttgart-36896b1050",
+      "original_label": "VÖ, 6 Std./Tag",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-08-01",
+      "valid_to": "2027-07-31",
+      "original_price_valid_from": "2026-08-01",
+      "scope": "municipal",
+      "weekly_minutes": 1800,
+      "weekday_minutes": [
+        360,
+        360,
+        360,
+        360,
+        360
+      ],
+      "continuous": true,
+      "schedule_status": "published",
+      "schedule_evidence": {
+        "source_id": "535c7b4c86f8",
+        "locator": "Gebührentabelle",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "535c7b4c86f8",
+        "locator": "PDF Seite 1: elf Monatsbeiträge, August beitragsfrei",
+        "original": null
+      },
+      "evidence": {
+        "source_id": "535c7b4c86f8",
+        "locator": "PDF Seite 2, VÖ, 6 Std./Tag, o3",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "stuttgart-db80b7407f",
+      "original_label": "VÖ, 7 Std./Tag",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-08-01",
+      "valid_to": "2027-07-31",
+      "original_price_valid_from": "2026-08-01",
+      "scope": "municipal",
+      "weekly_minutes": 2100,
+      "weekday_minutes": [
+        420,
+        420,
+        420,
+        420,
+        420
+      ],
+      "continuous": true,
+      "schedule_status": "published",
+      "schedule_evidence": {
+        "source_id": "535c7b4c86f8",
+        "locator": "Gebührentabelle",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "535c7b4c86f8",
+        "locator": "PDF Seite 1: elf Monatsbeiträge, August beitragsfrei",
+        "original": null
+      },
+      "evidence": {
+        "source_id": "535c7b4c86f8",
+        "locator": "PDF Seite 2, VÖ, 7 Std./Tag, o3",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "stuttgart-69e9f68323",
+      "original_label": "GT, 8 Std./Tag",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-08-01",
+      "valid_to": "2027-07-31",
+      "original_price_valid_from": "2026-08-01",
+      "scope": "municipal",
+      "weekly_minutes": 2400,
+      "weekday_minutes": [
+        480,
+        480,
+        480,
+        480,
+        480
+      ],
+      "continuous": true,
+      "schedule_status": "published",
+      "schedule_evidence": {
+        "source_id": "535c7b4c86f8",
+        "locator": "Gebührentabelle",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "535c7b4c86f8",
+        "locator": "PDF Seite 1: elf Monatsbeiträge, August beitragsfrei",
+        "original": null
+      },
+      "evidence": {
+        "source_id": "535c7b4c86f8",
+        "locator": "PDF Seite 2, GT, 8 Std./Tag, o3",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "stuttgart-e5f4733f3b",
+      "original_label": "GT, 8 Std. + Früh- oder Spätbetreuung bis 1 Std.",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-08-01",
+      "valid_to": "2027-07-31",
+      "original_price_valid_from": "2026-08-01",
+      "scope": "municipal",
+      "weekly_minutes": 2700,
+      "weekday_minutes": [
+        540,
+        540,
+        540,
+        540,
+        540
+      ],
+      "continuous": true,
+      "schedule_status": "published",
+      "schedule_evidence": {
+        "source_id": "535c7b4c86f8",
+        "locator": "Gebührentabelle",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "535c7b4c86f8",
+        "locator": "PDF Seite 1: elf Monatsbeiträge, August beitragsfrei",
+        "original": null
+      },
+      "evidence": {
+        "source_id": "535c7b4c86f8",
+        "locator": "PDF Seite 2, GT, 8 Std. + Früh- oder Spätbetreuung bis 1 Std., o3",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "stuttgart-a086b51780",
+      "original_label": "GT, 8 Std. + Früh- und Spätbetreuung bis 2 Std.",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-08-01",
+      "valid_to": "2027-07-31",
+      "original_price_valid_from": "2026-08-01",
+      "scope": "municipal",
+      "weekly_minutes": 3000,
+      "weekday_minutes": [
+        600,
+        600,
+        600,
+        600,
+        600
+      ],
+      "continuous": true,
+      "schedule_status": "published",
+      "schedule_evidence": {
+        "source_id": "535c7b4c86f8",
+        "locator": "Gebührentabelle",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "535c7b4c86f8",
+        "locator": "PDF Seite 1: elf Monatsbeiträge, August beitragsfrei",
+        "original": null
+      },
+      "evidence": {
+        "source_id": "535c7b4c86f8",
+        "locator": "PDF Seite 2, GT, 8 Std. + Früh- und Spätbetreuung bis 2 Std., o3",
+        "original": null
+      },
+      "formula": null
+    }
+  ],
+  "prices": [
+    {
+      "id": "stuttgart-price-0001",
+      "offer_id": "stuttgart-53027ff7a1",
+      "amount_cents": 10400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "family_card",
+        "care_rank": null
+      },
+      "included_components": [
+        {
+          "kind": "infant_surcharge",
+          "amount_cents": 4300
+        }
+      ],
+      "evidence": {
+        "source_id": "535c7b4c86f8",
+        "locator": "PDF Seite 1, VÖ, 6 Std./Tag, u3",
+        "original": {
+          "research_line": 138,
+          "heading": "Kinder unter 3 Jahren – gültig 1. August 2026 bis 31. Juli 2027",
+          "row": [
+            "VÖ, 6 Std./Tag",
+            "1 Kind",
+            "104 €",
+            "195 €",
+            "43 € / 75 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "stuttgart-price-0002",
+      "offer_id": "stuttgart-53027ff7a1",
+      "amount_cents": 19500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [
+        {
+          "kind": "infant_surcharge",
+          "amount_cents": 7500
+        }
+      ],
+      "evidence": {
+        "source_id": "535c7b4c86f8",
+        "locator": "PDF Seite 1, VÖ, 6 Std./Tag, u3",
+        "original": {
+          "research_line": 138,
+          "heading": "Kinder unter 3 Jahren – gültig 1. August 2026 bis 31. Juli 2027",
+          "row": [
+            "VÖ, 6 Std./Tag",
+            "1 Kind",
+            "104 €",
+            "195 €",
+            "43 € / 75 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "stuttgart-price-0003",
+      "offer_id": "stuttgart-53027ff7a1",
+      "amount_cents": 7600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "family_card",
+        "care_rank": null
+      },
+      "included_components": [
+        {
+          "kind": "infant_surcharge",
+          "amount_cents": 4300
+        }
+      ],
+      "evidence": {
+        "source_id": "535c7b4c86f8",
+        "locator": "PDF Seite 1, VÖ, 6 Std./Tag, u3",
+        "original": {
+          "research_line": 138,
+          "heading": "Kinder unter 3 Jahren – gültig 1. August 2026 bis 31. Juli 2027",
+          "row": [
+            "VÖ, 6 Std./Tag",
+            "2 Kinder",
+            "76 €",
+            "165 €",
+            "43 € / 75 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "stuttgart-price-0004",
+      "offer_id": "stuttgart-53027ff7a1",
+      "amount_cents": 16500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [
+        {
+          "kind": "infant_surcharge",
+          "amount_cents": 7500
+        }
+      ],
+      "evidence": {
+        "source_id": "535c7b4c86f8",
+        "locator": "PDF Seite 1, VÖ, 6 Std./Tag, u3",
+        "original": {
+          "research_line": 138,
+          "heading": "Kinder unter 3 Jahren – gültig 1. August 2026 bis 31. Juli 2027",
+          "row": [
+            "VÖ, 6 Std./Tag",
+            "2 Kinder",
+            "76 €",
+            "165 €",
+            "43 € / 75 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "stuttgart-price-0005",
+      "offer_id": "stuttgart-53027ff7a1",
+      "amount_cents": 0,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "family_card",
+        "care_rank": null
+      },
+      "included_components": [
+        {
+          "kind": "infant_surcharge",
+          "amount_cents": 4300
+        }
+      ],
+      "evidence": {
+        "source_id": "535c7b4c86f8",
+        "locator": "PDF Seite 1, VÖ, 6 Std./Tag, u3",
+        "original": {
+          "research_line": 138,
+          "heading": "Kinder unter 3 Jahren – gültig 1. August 2026 bis 31. Juli 2027",
+          "row": [
+            "VÖ, 6 Std./Tag",
+            "3 Kinder",
+            "0 €",
+            "119 €",
+            "43 € / 75 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "stuttgart-price-0006",
+      "offer_id": "stuttgart-53027ff7a1",
+      "amount_cents": 11900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [
+        {
+          "kind": "infant_surcharge",
+          "amount_cents": 7500
+        }
+      ],
+      "evidence": {
+        "source_id": "535c7b4c86f8",
+        "locator": "PDF Seite 1, VÖ, 6 Std./Tag, u3",
+        "original": {
+          "research_line": 138,
+          "heading": "Kinder unter 3 Jahren – gültig 1. August 2026 bis 31. Juli 2027",
+          "row": [
+            "VÖ, 6 Std./Tag",
+            "3 Kinder",
+            "0 €",
+            "119 €",
+            "43 € / 75 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "stuttgart-price-0007",
+      "offer_id": "stuttgart-53027ff7a1",
+      "amount_cents": 0,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "family_card",
+        "care_rank": null
+      },
+      "included_components": [
+        {
+          "kind": "infant_surcharge",
+          "amount_cents": 4300
+        }
+      ],
+      "evidence": {
+        "source_id": "535c7b4c86f8",
+        "locator": "PDF Seite 1, VÖ, 6 Std./Tag, u3",
+        "original": {
+          "research_line": 138,
+          "heading": "Kinder unter 3 Jahren – gültig 1. August 2026 bis 31. Juli 2027",
+          "row": [
+            "VÖ, 6 Std./Tag",
+            "4+ Kinder",
+            "0 €",
+            "114 €",
+            "43 € / 75 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "stuttgart-price-0008",
+      "offer_id": "stuttgart-53027ff7a1",
+      "amount_cents": 11400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [
+        {
+          "kind": "infant_surcharge",
+          "amount_cents": 7500
+        }
+      ],
+      "evidence": {
+        "source_id": "535c7b4c86f8",
+        "locator": "PDF Seite 1, VÖ, 6 Std./Tag, u3",
+        "original": {
+          "research_line": 138,
+          "heading": "Kinder unter 3 Jahren – gültig 1. August 2026 bis 31. Juli 2027",
+          "row": [
+            "VÖ, 6 Std./Tag",
+            "4+ Kinder",
+            "0 €",
+            "114 €",
+            "43 € / 75 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "stuttgart-price-0009",
+      "offer_id": "stuttgart-0eab6fac61",
+      "amount_cents": 12200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "family_card",
+        "care_rank": null
+      },
+      "included_components": [
+        {
+          "kind": "infant_surcharge",
+          "amount_cents": 4300
+        }
+      ],
+      "evidence": {
+        "source_id": "535c7b4c86f8",
+        "locator": "PDF Seite 1, VÖ, 7 Std./Tag, u3",
+        "original": {
+          "research_line": 138,
+          "heading": "Kinder unter 3 Jahren – gültig 1. August 2026 bis 31. Juli 2027",
+          "row": [
+            "VÖ, 7 Std./Tag",
+            "1 Kind",
+            "122 €",
+            "215 €",
+            "43 € / 75 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "stuttgart-price-0010",
+      "offer_id": "stuttgart-0eab6fac61",
+      "amount_cents": 21500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [
+        {
+          "kind": "infant_surcharge",
+          "amount_cents": 7500
+        }
+      ],
+      "evidence": {
+        "source_id": "535c7b4c86f8",
+        "locator": "PDF Seite 1, VÖ, 7 Std./Tag, u3",
+        "original": {
+          "research_line": 138,
+          "heading": "Kinder unter 3 Jahren – gültig 1. August 2026 bis 31. Juli 2027",
+          "row": [
+            "VÖ, 7 Std./Tag",
+            "1 Kind",
+            "122 €",
+            "215 €",
+            "43 € / 75 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "stuttgart-price-0011",
+      "offer_id": "stuttgart-0eab6fac61",
+      "amount_cents": 9000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "family_card",
+        "care_rank": null
+      },
+      "included_components": [
+        {
+          "kind": "infant_surcharge",
+          "amount_cents": 4300
+        }
+      ],
+      "evidence": {
+        "source_id": "535c7b4c86f8",
+        "locator": "PDF Seite 1, VÖ, 7 Std./Tag, u3",
+        "original": {
+          "research_line": 138,
+          "heading": "Kinder unter 3 Jahren – gültig 1. August 2026 bis 31. Juli 2027",
+          "row": [
+            "VÖ, 7 Std./Tag",
+            "2 Kinder",
+            "90 €",
+            "180 €",
+            "43 € / 75 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "stuttgart-price-0012",
+      "offer_id": "stuttgart-0eab6fac61",
+      "amount_cents": 18000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [
+        {
+          "kind": "infant_surcharge",
+          "amount_cents": 7500
+        }
+      ],
+      "evidence": {
+        "source_id": "535c7b4c86f8",
+        "locator": "PDF Seite 1, VÖ, 7 Std./Tag, u3",
+        "original": {
+          "research_line": 138,
+          "heading": "Kinder unter 3 Jahren – gültig 1. August 2026 bis 31. Juli 2027",
+          "row": [
+            "VÖ, 7 Std./Tag",
+            "2 Kinder",
+            "90 €",
+            "180 €",
+            "43 € / 75 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "stuttgart-price-0013",
+      "offer_id": "stuttgart-0eab6fac61",
+      "amount_cents": 0,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "family_card",
+        "care_rank": null
+      },
+      "included_components": [
+        {
+          "kind": "infant_surcharge",
+          "amount_cents": 4300
+        }
+      ],
+      "evidence": {
+        "source_id": "535c7b4c86f8",
+        "locator": "PDF Seite 1, VÖ, 7 Std./Tag, u3",
+        "original": {
+          "research_line": 138,
+          "heading": "Kinder unter 3 Jahren – gültig 1. August 2026 bis 31. Juli 2027",
+          "row": [
+            "VÖ, 7 Std./Tag",
+            "3 Kinder",
+            "0 €",
+            "126 €",
+            "43 € / 75 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "stuttgart-price-0014",
+      "offer_id": "stuttgart-0eab6fac61",
+      "amount_cents": 12600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [
+        {
+          "kind": "infant_surcharge",
+          "amount_cents": 7500
+        }
+      ],
+      "evidence": {
+        "source_id": "535c7b4c86f8",
+        "locator": "PDF Seite 1, VÖ, 7 Std./Tag, u3",
+        "original": {
+          "research_line": 138,
+          "heading": "Kinder unter 3 Jahren – gültig 1. August 2026 bis 31. Juli 2027",
+          "row": [
+            "VÖ, 7 Std./Tag",
+            "3 Kinder",
+            "0 €",
+            "126 €",
+            "43 € / 75 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "stuttgart-price-0015",
+      "offer_id": "stuttgart-0eab6fac61",
+      "amount_cents": 0,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "family_card",
+        "care_rank": null
+      },
+      "included_components": [
+        {
+          "kind": "infant_surcharge",
+          "amount_cents": 4300
+        }
+      ],
+      "evidence": {
+        "source_id": "535c7b4c86f8",
+        "locator": "PDF Seite 1, VÖ, 7 Std./Tag, u3",
+        "original": {
+          "research_line": 138,
+          "heading": "Kinder unter 3 Jahren – gültig 1. August 2026 bis 31. Juli 2027",
+          "row": [
+            "VÖ, 7 Std./Tag",
+            "4+ Kinder",
+            "0 €",
+            "120 €",
+            "43 € / 75 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "stuttgart-price-0016",
+      "offer_id": "stuttgart-0eab6fac61",
+      "amount_cents": 12000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [
+        {
+          "kind": "infant_surcharge",
+          "amount_cents": 7500
+        }
+      ],
+      "evidence": {
+        "source_id": "535c7b4c86f8",
+        "locator": "PDF Seite 1, VÖ, 7 Std./Tag, u3",
+        "original": {
+          "research_line": 138,
+          "heading": "Kinder unter 3 Jahren – gültig 1. August 2026 bis 31. Juli 2027",
+          "row": [
+            "VÖ, 7 Std./Tag",
+            "4+ Kinder",
+            "0 €",
+            "120 €",
+            "43 € / 75 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "stuttgart-price-0017",
+      "offer_id": "stuttgart-cd11b5ddfc",
+      "amount_cents": 14600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "family_card",
+        "care_rank": null
+      },
+      "included_components": [
+        {
+          "kind": "infant_surcharge",
+          "amount_cents": 4400
+        }
+      ],
+      "evidence": {
+        "source_id": "535c7b4c86f8",
+        "locator": "PDF Seite 1, GT, 8 Std./Tag, u3",
+        "original": {
+          "research_line": 138,
+          "heading": "Kinder unter 3 Jahren – gültig 1. August 2026 bis 31. Juli 2027",
+          "row": [
+            "GT, 8 Std./Tag",
+            "1 Kind",
+            "146 €",
+            "243 €",
+            "44 € / 78 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "stuttgart-price-0018",
+      "offer_id": "stuttgart-cd11b5ddfc",
+      "amount_cents": 24300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [
+        {
+          "kind": "infant_surcharge",
+          "amount_cents": 7800
+        }
+      ],
+      "evidence": {
+        "source_id": "535c7b4c86f8",
+        "locator": "PDF Seite 1, GT, 8 Std./Tag, u3",
+        "original": {
+          "research_line": 138,
+          "heading": "Kinder unter 3 Jahren – gültig 1. August 2026 bis 31. Juli 2027",
+          "row": [
+            "GT, 8 Std./Tag",
+            "1 Kind",
+            "146 €",
+            "243 €",
+            "44 € / 78 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "stuttgart-price-0019",
+      "offer_id": "stuttgart-cd11b5ddfc",
+      "amount_cents": 10800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "family_card",
+        "care_rank": null
+      },
+      "included_components": [
+        {
+          "kind": "infant_surcharge",
+          "amount_cents": 4400
+        }
+      ],
+      "evidence": {
+        "source_id": "535c7b4c86f8",
+        "locator": "PDF Seite 1, GT, 8 Std./Tag, u3",
+        "original": {
+          "research_line": 138,
+          "heading": "Kinder unter 3 Jahren – gültig 1. August 2026 bis 31. Juli 2027",
+          "row": [
+            "GT, 8 Std./Tag",
+            "2 Kinder",
+            "108 €",
+            "202 €",
+            "44 € / 78 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "stuttgart-price-0020",
+      "offer_id": "stuttgart-cd11b5ddfc",
+      "amount_cents": 20200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [
+        {
+          "kind": "infant_surcharge",
+          "amount_cents": 7800
+        }
+      ],
+      "evidence": {
+        "source_id": "535c7b4c86f8",
+        "locator": "PDF Seite 1, GT, 8 Std./Tag, u3",
+        "original": {
+          "research_line": 138,
+          "heading": "Kinder unter 3 Jahren – gültig 1. August 2026 bis 31. Juli 2027",
+          "row": [
+            "GT, 8 Std./Tag",
+            "2 Kinder",
+            "108 €",
+            "202 €",
+            "44 € / 78 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "stuttgart-price-0021",
+      "offer_id": "stuttgart-cd11b5ddfc",
+      "amount_cents": 0,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "family_card",
+        "care_rank": null
+      },
+      "included_components": [
+        {
+          "kind": "infant_surcharge",
+          "amount_cents": 4400
+        }
+      ],
+      "evidence": {
+        "source_id": "535c7b4c86f8",
+        "locator": "PDF Seite 1, GT, 8 Std./Tag, u3",
+        "original": {
+          "research_line": 138,
+          "heading": "Kinder unter 3 Jahren – gültig 1. August 2026 bis 31. Juli 2027",
+          "row": [
+            "GT, 8 Std./Tag",
+            "3 Kinder",
+            "0 €",
+            "138 €",
+            "44 € / 78 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "stuttgart-price-0022",
+      "offer_id": "stuttgart-cd11b5ddfc",
+      "amount_cents": 13800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [
+        {
+          "kind": "infant_surcharge",
+          "amount_cents": 7800
+        }
+      ],
+      "evidence": {
+        "source_id": "535c7b4c86f8",
+        "locator": "PDF Seite 1, GT, 8 Std./Tag, u3",
+        "original": {
+          "research_line": 138,
+          "heading": "Kinder unter 3 Jahren – gültig 1. August 2026 bis 31. Juli 2027",
+          "row": [
+            "GT, 8 Std./Tag",
+            "3 Kinder",
+            "0 €",
+            "138 €",
+            "44 € / 78 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "stuttgart-price-0023",
+      "offer_id": "stuttgart-cd11b5ddfc",
+      "amount_cents": 0,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "family_card",
+        "care_rank": null
+      },
+      "included_components": [
+        {
+          "kind": "infant_surcharge",
+          "amount_cents": 4400
+        }
+      ],
+      "evidence": {
+        "source_id": "535c7b4c86f8",
+        "locator": "PDF Seite 1, GT, 8 Std./Tag, u3",
+        "original": {
+          "research_line": 138,
+          "heading": "Kinder unter 3 Jahren – gültig 1. August 2026 bis 31. Juli 2027",
+          "row": [
+            "GT, 8 Std./Tag",
+            "4+ Kinder",
+            "0 €",
+            "131 €",
+            "44 € / 78 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "stuttgart-price-0024",
+      "offer_id": "stuttgart-cd11b5ddfc",
+      "amount_cents": 13100,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [
+        {
+          "kind": "infant_surcharge",
+          "amount_cents": 7800
+        }
+      ],
+      "evidence": {
+        "source_id": "535c7b4c86f8",
+        "locator": "PDF Seite 1, GT, 8 Std./Tag, u3",
+        "original": {
+          "research_line": 138,
+          "heading": "Kinder unter 3 Jahren – gültig 1. August 2026 bis 31. Juli 2027",
+          "row": [
+            "GT, 8 Std./Tag",
+            "4+ Kinder",
+            "0 €",
+            "131 €",
+            "44 € / 78 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "stuttgart-price-0025",
+      "offer_id": "stuttgart-95dea50444",
+      "amount_cents": 16500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "family_card",
+        "care_rank": null
+      },
+      "included_components": [
+        {
+          "kind": "infant_surcharge",
+          "amount_cents": 4400
+        }
+      ],
+      "evidence": {
+        "source_id": "535c7b4c86f8",
+        "locator": "PDF Seite 1, GT, 8 Std. + Früh- oder Spätbetreuung bis 1 Std., u3",
+        "original": {
+          "research_line": 138,
+          "heading": "Kinder unter 3 Jahren – gültig 1. August 2026 bis 31. Juli 2027",
+          "row": [
+            "GT, 8 Std. + Früh- oder Spätbetreuung bis 1 Std.",
+            "1 Kind",
+            "165 €",
+            "264 €",
+            "44 € / 78 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "stuttgart-price-0026",
+      "offer_id": "stuttgart-95dea50444",
+      "amount_cents": 26400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [
+        {
+          "kind": "infant_surcharge",
+          "amount_cents": 7800
+        }
+      ],
+      "evidence": {
+        "source_id": "535c7b4c86f8",
+        "locator": "PDF Seite 1, GT, 8 Std. + Früh- oder Spätbetreuung bis 1 Std., u3",
+        "original": {
+          "research_line": 138,
+          "heading": "Kinder unter 3 Jahren – gültig 1. August 2026 bis 31. Juli 2027",
+          "row": [
+            "GT, 8 Std. + Früh- oder Spätbetreuung bis 1 Std.",
+            "1 Kind",
+            "165 €",
+            "264 €",
+            "44 € / 78 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "stuttgart-price-0027",
+      "offer_id": "stuttgart-95dea50444",
+      "amount_cents": 12300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "family_card",
+        "care_rank": null
+      },
+      "included_components": [
+        {
+          "kind": "infant_surcharge",
+          "amount_cents": 4400
+        }
+      ],
+      "evidence": {
+        "source_id": "535c7b4c86f8",
+        "locator": "PDF Seite 1, GT, 8 Std. + Früh- oder Spätbetreuung bis 1 Std., u3",
+        "original": {
+          "research_line": 138,
+          "heading": "Kinder unter 3 Jahren – gültig 1. August 2026 bis 31. Juli 2027",
+          "row": [
+            "GT, 8 Std. + Früh- oder Spätbetreuung bis 1 Std.",
+            "2 Kinder",
+            "123 €",
+            "218 €",
+            "44 € / 78 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "stuttgart-price-0028",
+      "offer_id": "stuttgart-95dea50444",
+      "amount_cents": 21800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [
+        {
+          "kind": "infant_surcharge",
+          "amount_cents": 7800
+        }
+      ],
+      "evidence": {
+        "source_id": "535c7b4c86f8",
+        "locator": "PDF Seite 1, GT, 8 Std. + Früh- oder Spätbetreuung bis 1 Std., u3",
+        "original": {
+          "research_line": 138,
+          "heading": "Kinder unter 3 Jahren – gültig 1. August 2026 bis 31. Juli 2027",
+          "row": [
+            "GT, 8 Std. + Früh- oder Spätbetreuung bis 1 Std.",
+            "2 Kinder",
+            "123 €",
+            "218 €",
+            "44 € / 78 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "stuttgart-price-0029",
+      "offer_id": "stuttgart-95dea50444",
+      "amount_cents": 0,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "family_card",
+        "care_rank": null
+      },
+      "included_components": [
+        {
+          "kind": "infant_surcharge",
+          "amount_cents": 4400
+        }
+      ],
+      "evidence": {
+        "source_id": "535c7b4c86f8",
+        "locator": "PDF Seite 1, GT, 8 Std. + Früh- oder Spätbetreuung bis 1 Std., u3",
+        "original": {
+          "research_line": 138,
+          "heading": "Kinder unter 3 Jahren – gültig 1. August 2026 bis 31. Juli 2027",
+          "row": [
+            "GT, 8 Std. + Früh- oder Spätbetreuung bis 1 Std.",
+            "3 Kinder",
+            "0 €",
+            "145 €",
+            "44 € / 78 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "stuttgart-price-0030",
+      "offer_id": "stuttgart-95dea50444",
+      "amount_cents": 14500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [
+        {
+          "kind": "infant_surcharge",
+          "amount_cents": 7800
+        }
+      ],
+      "evidence": {
+        "source_id": "535c7b4c86f8",
+        "locator": "PDF Seite 1, GT, 8 Std. + Früh- oder Spätbetreuung bis 1 Std., u3",
+        "original": {
+          "research_line": 138,
+          "heading": "Kinder unter 3 Jahren – gültig 1. August 2026 bis 31. Juli 2027",
+          "row": [
+            "GT, 8 Std. + Früh- oder Spätbetreuung bis 1 Std.",
+            "3 Kinder",
+            "0 €",
+            "145 €",
+            "44 € / 78 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "stuttgart-price-0031",
+      "offer_id": "stuttgart-95dea50444",
+      "amount_cents": 0,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "family_card",
+        "care_rank": null
+      },
+      "included_components": [
+        {
+          "kind": "infant_surcharge",
+          "amount_cents": 4400
+        }
+      ],
+      "evidence": {
+        "source_id": "535c7b4c86f8",
+        "locator": "PDF Seite 1, GT, 8 Std. + Früh- oder Spätbetreuung bis 1 Std., u3",
+        "original": {
+          "research_line": 138,
+          "heading": "Kinder unter 3 Jahren – gültig 1. August 2026 bis 31. Juli 2027",
+          "row": [
+            "GT, 8 Std. + Früh- oder Spätbetreuung bis 1 Std.",
+            "4+ Kinder",
+            "0 €",
+            "138 €",
+            "44 € / 78 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "stuttgart-price-0032",
+      "offer_id": "stuttgart-95dea50444",
+      "amount_cents": 13800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [
+        {
+          "kind": "infant_surcharge",
+          "amount_cents": 7800
+        }
+      ],
+      "evidence": {
+        "source_id": "535c7b4c86f8",
+        "locator": "PDF Seite 1, GT, 8 Std. + Früh- oder Spätbetreuung bis 1 Std., u3",
+        "original": {
+          "research_line": 138,
+          "heading": "Kinder unter 3 Jahren – gültig 1. August 2026 bis 31. Juli 2027",
+          "row": [
+            "GT, 8 Std. + Früh- oder Spätbetreuung bis 1 Std.",
+            "4+ Kinder",
+            "0 €",
+            "138 €",
+            "44 € / 78 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "stuttgart-price-0033",
+      "offer_id": "stuttgart-b992bae17c",
+      "amount_cents": 18400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "family_card",
+        "care_rank": null
+      },
+      "included_components": [
+        {
+          "kind": "infant_surcharge",
+          "amount_cents": 4400
+        }
+      ],
+      "evidence": {
+        "source_id": "535c7b4c86f8",
+        "locator": "PDF Seite 1, GT, 8 Std. + Früh- und Spätbetreuung bis 2 Std., u3",
+        "original": {
+          "research_line": 138,
+          "heading": "Kinder unter 3 Jahren – gültig 1. August 2026 bis 31. Juli 2027",
+          "row": [
+            "GT, 8 Std. + Früh- und Spätbetreuung bis 2 Std.",
+            "1 Kind",
+            "184 €",
+            "284 €",
+            "44 € / 78 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "stuttgart-price-0034",
+      "offer_id": "stuttgart-b992bae17c",
+      "amount_cents": 28400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [
+        {
+          "kind": "infant_surcharge",
+          "amount_cents": 7800
+        }
+      ],
+      "evidence": {
+        "source_id": "535c7b4c86f8",
+        "locator": "PDF Seite 1, GT, 8 Std. + Früh- und Spätbetreuung bis 2 Std., u3",
+        "original": {
+          "research_line": 138,
+          "heading": "Kinder unter 3 Jahren – gültig 1. August 2026 bis 31. Juli 2027",
+          "row": [
+            "GT, 8 Std. + Früh- und Spätbetreuung bis 2 Std.",
+            "1 Kind",
+            "184 €",
+            "284 €",
+            "44 € / 78 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "stuttgart-price-0035",
+      "offer_id": "stuttgart-b992bae17c",
+      "amount_cents": 13700,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "family_card",
+        "care_rank": null
+      },
+      "included_components": [
+        {
+          "kind": "infant_surcharge",
+          "amount_cents": 4400
+        }
+      ],
+      "evidence": {
+        "source_id": "535c7b4c86f8",
+        "locator": "PDF Seite 1, GT, 8 Std. + Früh- und Spätbetreuung bis 2 Std., u3",
+        "original": {
+          "research_line": 138,
+          "heading": "Kinder unter 3 Jahren – gültig 1. August 2026 bis 31. Juli 2027",
+          "row": [
+            "GT, 8 Std. + Früh- und Spätbetreuung bis 2 Std.",
+            "2 Kinder",
+            "137 €",
+            "233 €",
+            "44 € / 78 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "stuttgart-price-0036",
+      "offer_id": "stuttgart-b992bae17c",
+      "amount_cents": 23300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [
+        {
+          "kind": "infant_surcharge",
+          "amount_cents": 7800
+        }
+      ],
+      "evidence": {
+        "source_id": "535c7b4c86f8",
+        "locator": "PDF Seite 1, GT, 8 Std. + Früh- und Spätbetreuung bis 2 Std., u3",
+        "original": {
+          "research_line": 138,
+          "heading": "Kinder unter 3 Jahren – gültig 1. August 2026 bis 31. Juli 2027",
+          "row": [
+            "GT, 8 Std. + Früh- und Spätbetreuung bis 2 Std.",
+            "2 Kinder",
+            "137 €",
+            "233 €",
+            "44 € / 78 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "stuttgart-price-0037",
+      "offer_id": "stuttgart-b992bae17c",
+      "amount_cents": 0,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "family_card",
+        "care_rank": null
+      },
+      "included_components": [
+        {
+          "kind": "infant_surcharge",
+          "amount_cents": 4400
+        }
+      ],
+      "evidence": {
+        "source_id": "535c7b4c86f8",
+        "locator": "PDF Seite 1, GT, 8 Std. + Früh- und Spätbetreuung bis 2 Std., u3",
+        "original": {
+          "research_line": 138,
+          "heading": "Kinder unter 3 Jahren – gültig 1. August 2026 bis 31. Juli 2027",
+          "row": [
+            "GT, 8 Std. + Früh- und Spätbetreuung bis 2 Std.",
+            "3 Kinder",
+            "0 €",
+            "153 €",
+            "44 € / 78 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "stuttgart-price-0038",
+      "offer_id": "stuttgart-b992bae17c",
+      "amount_cents": 15300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [
+        {
+          "kind": "infant_surcharge",
+          "amount_cents": 7800
+        }
+      ],
+      "evidence": {
+        "source_id": "535c7b4c86f8",
+        "locator": "PDF Seite 1, GT, 8 Std. + Früh- und Spätbetreuung bis 2 Std., u3",
+        "original": {
+          "research_line": 138,
+          "heading": "Kinder unter 3 Jahren – gültig 1. August 2026 bis 31. Juli 2027",
+          "row": [
+            "GT, 8 Std. + Früh- und Spätbetreuung bis 2 Std.",
+            "3 Kinder",
+            "0 €",
+            "153 €",
+            "44 € / 78 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "stuttgart-price-0039",
+      "offer_id": "stuttgart-b992bae17c",
+      "amount_cents": 0,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "family_card",
+        "care_rank": null
+      },
+      "included_components": [
+        {
+          "kind": "infant_surcharge",
+          "amount_cents": 4400
+        }
+      ],
+      "evidence": {
+        "source_id": "535c7b4c86f8",
+        "locator": "PDF Seite 1, GT, 8 Std. + Früh- und Spätbetreuung bis 2 Std., u3",
+        "original": {
+          "research_line": 138,
+          "heading": "Kinder unter 3 Jahren – gültig 1. August 2026 bis 31. Juli 2027",
+          "row": [
+            "GT, 8 Std. + Früh- und Spätbetreuung bis 2 Std.",
+            "4+ Kinder",
+            "0 €",
+            "144 €",
+            "44 € / 78 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "stuttgart-price-0040",
+      "offer_id": "stuttgart-b992bae17c",
+      "amount_cents": 14400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [
+        {
+          "kind": "infant_surcharge",
+          "amount_cents": 7800
+        }
+      ],
+      "evidence": {
+        "source_id": "535c7b4c86f8",
+        "locator": "PDF Seite 1, GT, 8 Std. + Früh- und Spätbetreuung bis 2 Std., u3",
+        "original": {
+          "research_line": 138,
+          "heading": "Kinder unter 3 Jahren – gültig 1. August 2026 bis 31. Juli 2027",
+          "row": [
+            "GT, 8 Std. + Früh- und Spätbetreuung bis 2 Std.",
+            "4+ Kinder",
+            "0 €",
+            "144 €",
+            "44 € / 78 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "stuttgart-price-0041",
+      "offer_id": "stuttgart-36896b1050",
+      "amount_cents": 5700,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "family_card",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "535c7b4c86f8",
+        "locator": "PDF Seite 2, VÖ, 6 Std./Tag, o3",
+        "original": {
+          "research_line": 165,
+          "heading": "Kinder ab 3 Jahren bis Schuleintritt – gültig 1. August 2026 bis 31. Juli 2027",
+          "row": [
+            "VÖ, 6 Std./Tag",
+            "1 Kind",
+            "57 €",
+            "117 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "stuttgart-price-0042",
+      "offer_id": "stuttgart-36896b1050",
+      "amount_cents": 11700,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "535c7b4c86f8",
+        "locator": "PDF Seite 2, VÖ, 6 Std./Tag, o3",
+        "original": {
+          "research_line": 165,
+          "heading": "Kinder ab 3 Jahren bis Schuleintritt – gültig 1. August 2026 bis 31. Juli 2027",
+          "row": [
+            "VÖ, 6 Std./Tag",
+            "1 Kind",
+            "57 €",
+            "117 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "stuttgart-price-0043",
+      "offer_id": "stuttgart-36896b1050",
+      "amount_cents": 3100,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "family_card",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "535c7b4c86f8",
+        "locator": "PDF Seite 2, VÖ, 6 Std./Tag, o3",
+        "original": {
+          "research_line": 165,
+          "heading": "Kinder ab 3 Jahren bis Schuleintritt – gültig 1. August 2026 bis 31. Juli 2027",
+          "row": [
+            "VÖ, 6 Std./Tag",
+            "2 Kinder",
+            "31 €",
+            "88 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "stuttgart-price-0044",
+      "offer_id": "stuttgart-36896b1050",
+      "amount_cents": 8800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "535c7b4c86f8",
+        "locator": "PDF Seite 2, VÖ, 6 Std./Tag, o3",
+        "original": {
+          "research_line": 165,
+          "heading": "Kinder ab 3 Jahren bis Schuleintritt – gültig 1. August 2026 bis 31. Juli 2027",
+          "row": [
+            "VÖ, 6 Std./Tag",
+            "2 Kinder",
+            "31 €",
+            "88 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "stuttgart-price-0045",
+      "offer_id": "stuttgart-36896b1050",
+      "amount_cents": 0,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "family_card",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "535c7b4c86f8",
+        "locator": "PDF Seite 2, VÖ, 6 Std./Tag, o3",
+        "original": {
+          "research_line": 165,
+          "heading": "Kinder ab 3 Jahren bis Schuleintritt – gültig 1. August 2026 bis 31. Juli 2027",
+          "row": [
+            "VÖ, 6 Std./Tag",
+            "3 Kinder",
+            "0 €",
+            "42 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "stuttgart-price-0046",
+      "offer_id": "stuttgart-36896b1050",
+      "amount_cents": 4200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "535c7b4c86f8",
+        "locator": "PDF Seite 2, VÖ, 6 Std./Tag, o3",
+        "original": {
+          "research_line": 165,
+          "heading": "Kinder ab 3 Jahren bis Schuleintritt – gültig 1. August 2026 bis 31. Juli 2027",
+          "row": [
+            "VÖ, 6 Std./Tag",
+            "3 Kinder",
+            "0 €",
+            "42 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "stuttgart-price-0047",
+      "offer_id": "stuttgart-36896b1050",
+      "amount_cents": 0,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "family_card",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "535c7b4c86f8",
+        "locator": "PDF Seite 2, VÖ, 6 Std./Tag, o3",
+        "original": {
+          "research_line": 165,
+          "heading": "Kinder ab 3 Jahren bis Schuleintritt – gültig 1. August 2026 bis 31. Juli 2027",
+          "row": [
+            "VÖ, 6 Std./Tag",
+            "4+ Kinder",
+            "0 €",
+            "38 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "stuttgart-price-0048",
+      "offer_id": "stuttgart-36896b1050",
+      "amount_cents": 3800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "535c7b4c86f8",
+        "locator": "PDF Seite 2, VÖ, 6 Std./Tag, o3",
+        "original": {
+          "research_line": 165,
+          "heading": "Kinder ab 3 Jahren bis Schuleintritt – gültig 1. August 2026 bis 31. Juli 2027",
+          "row": [
+            "VÖ, 6 Std./Tag",
+            "4+ Kinder",
+            "0 €",
+            "38 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "stuttgart-price-0049",
+      "offer_id": "stuttgart-db80b7407f",
+      "amount_cents": 7500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "family_card",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "535c7b4c86f8",
+        "locator": "PDF Seite 2, VÖ, 7 Std./Tag, o3",
+        "original": {
+          "research_line": 165,
+          "heading": "Kinder ab 3 Jahren bis Schuleintritt – gültig 1. August 2026 bis 31. Juli 2027",
+          "row": [
+            "VÖ, 7 Std./Tag",
+            "1 Kind",
+            "75 €",
+            "136 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "stuttgart-price-0050",
+      "offer_id": "stuttgart-db80b7407f",
+      "amount_cents": 13600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "535c7b4c86f8",
+        "locator": "PDF Seite 2, VÖ, 7 Std./Tag, o3",
+        "original": {
+          "research_line": 165,
+          "heading": "Kinder ab 3 Jahren bis Schuleintritt – gültig 1. August 2026 bis 31. Juli 2027",
+          "row": [
+            "VÖ, 7 Std./Tag",
+            "1 Kind",
+            "75 €",
+            "136 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "stuttgart-price-0051",
+      "offer_id": "stuttgart-db80b7407f",
+      "amount_cents": 4400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "family_card",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "535c7b4c86f8",
+        "locator": "PDF Seite 2, VÖ, 7 Std./Tag, o3",
+        "original": {
+          "research_line": 165,
+          "heading": "Kinder ab 3 Jahren bis Schuleintritt – gültig 1. August 2026 bis 31. Juli 2027",
+          "row": [
+            "VÖ, 7 Std./Tag",
+            "2 Kinder",
+            "44 €",
+            "102 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "stuttgart-price-0052",
+      "offer_id": "stuttgart-db80b7407f",
+      "amount_cents": 10200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "535c7b4c86f8",
+        "locator": "PDF Seite 2, VÖ, 7 Std./Tag, o3",
+        "original": {
+          "research_line": 165,
+          "heading": "Kinder ab 3 Jahren bis Schuleintritt – gültig 1. August 2026 bis 31. Juli 2027",
+          "row": [
+            "VÖ, 7 Std./Tag",
+            "2 Kinder",
+            "44 €",
+            "102 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "stuttgart-price-0053",
+      "offer_id": "stuttgart-db80b7407f",
+      "amount_cents": 0,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "family_card",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "535c7b4c86f8",
+        "locator": "PDF Seite 2, VÖ, 7 Std./Tag, o3",
+        "original": {
+          "research_line": 165,
+          "heading": "Kinder ab 3 Jahren bis Schuleintritt – gültig 1. August 2026 bis 31. Juli 2027",
+          "row": [
+            "VÖ, 7 Std./Tag",
+            "3 Kinder",
+            "0 €",
+            "49 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "stuttgart-price-0054",
+      "offer_id": "stuttgart-db80b7407f",
+      "amount_cents": 4900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "535c7b4c86f8",
+        "locator": "PDF Seite 2, VÖ, 7 Std./Tag, o3",
+        "original": {
+          "research_line": 165,
+          "heading": "Kinder ab 3 Jahren bis Schuleintritt – gültig 1. August 2026 bis 31. Juli 2027",
+          "row": [
+            "VÖ, 7 Std./Tag",
+            "3 Kinder",
+            "0 €",
+            "49 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "stuttgart-price-0055",
+      "offer_id": "stuttgart-db80b7407f",
+      "amount_cents": 0,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "family_card",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "535c7b4c86f8",
+        "locator": "PDF Seite 2, VÖ, 7 Std./Tag, o3",
+        "original": {
+          "research_line": 165,
+          "heading": "Kinder ab 3 Jahren bis Schuleintritt – gültig 1. August 2026 bis 31. Juli 2027",
+          "row": [
+            "VÖ, 7 Std./Tag",
+            "4+ Kinder",
+            "0 €",
+            "44 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "stuttgart-price-0056",
+      "offer_id": "stuttgart-db80b7407f",
+      "amount_cents": 4400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "535c7b4c86f8",
+        "locator": "PDF Seite 2, VÖ, 7 Std./Tag, o3",
+        "original": {
+          "research_line": 165,
+          "heading": "Kinder ab 3 Jahren bis Schuleintritt – gültig 1. August 2026 bis 31. Juli 2027",
+          "row": [
+            "VÖ, 7 Std./Tag",
+            "4+ Kinder",
+            "0 €",
+            "44 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "stuttgart-price-0057",
+      "offer_id": "stuttgart-69e9f68323",
+      "amount_cents": 9800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "family_card",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "535c7b4c86f8",
+        "locator": "PDF Seite 2, GT, 8 Std./Tag, o3",
+        "original": {
+          "research_line": 165,
+          "heading": "Kinder ab 3 Jahren bis Schuleintritt – gültig 1. August 2026 bis 31. Juli 2027",
+          "row": [
+            "GT, 8 Std./Tag",
+            "1 Kind",
+            "98 €",
+            "160 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "stuttgart-price-0058",
+      "offer_id": "stuttgart-69e9f68323",
+      "amount_cents": 16000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "535c7b4c86f8",
+        "locator": "PDF Seite 2, GT, 8 Std./Tag, o3",
+        "original": {
+          "research_line": 165,
+          "heading": "Kinder ab 3 Jahren bis Schuleintritt – gültig 1. August 2026 bis 31. Juli 2027",
+          "row": [
+            "GT, 8 Std./Tag",
+            "1 Kind",
+            "98 €",
+            "160 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "stuttgart-price-0059",
+      "offer_id": "stuttgart-69e9f68323",
+      "amount_cents": 6100,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "family_card",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "535c7b4c86f8",
+        "locator": "PDF Seite 2, GT, 8 Std./Tag, o3",
+        "original": {
+          "research_line": 165,
+          "heading": "Kinder ab 3 Jahren bis Schuleintritt – gültig 1. August 2026 bis 31. Juli 2027",
+          "row": [
+            "GT, 8 Std./Tag",
+            "2 Kinder",
+            "61 €",
+            "120 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "stuttgart-price-0060",
+      "offer_id": "stuttgart-69e9f68323",
+      "amount_cents": 12000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "535c7b4c86f8",
+        "locator": "PDF Seite 2, GT, 8 Std./Tag, o3",
+        "original": {
+          "research_line": 165,
+          "heading": "Kinder ab 3 Jahren bis Schuleintritt – gültig 1. August 2026 bis 31. Juli 2027",
+          "row": [
+            "GT, 8 Std./Tag",
+            "2 Kinder",
+            "61 €",
+            "120 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "stuttgart-price-0061",
+      "offer_id": "stuttgart-69e9f68323",
+      "amount_cents": 0,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "family_card",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "535c7b4c86f8",
+        "locator": "PDF Seite 2, GT, 8 Std./Tag, o3",
+        "original": {
+          "research_line": 165,
+          "heading": "Kinder ab 3 Jahren bis Schuleintritt – gültig 1. August 2026 bis 31. Juli 2027",
+          "row": [
+            "GT, 8 Std./Tag",
+            "3 Kinder",
+            "0 €",
+            "58 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "stuttgart-price-0062",
+      "offer_id": "stuttgart-69e9f68323",
+      "amount_cents": 5800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "535c7b4c86f8",
+        "locator": "PDF Seite 2, GT, 8 Std./Tag, o3",
+        "original": {
+          "research_line": 165,
+          "heading": "Kinder ab 3 Jahren bis Schuleintritt – gültig 1. August 2026 bis 31. Juli 2027",
+          "row": [
+            "GT, 8 Std./Tag",
+            "3 Kinder",
+            "0 €",
+            "58 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "stuttgart-price-0063",
+      "offer_id": "stuttgart-69e9f68323",
+      "amount_cents": 0,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "family_card",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "535c7b4c86f8",
+        "locator": "PDF Seite 2, GT, 8 Std./Tag, o3",
+        "original": {
+          "research_line": 165,
+          "heading": "Kinder ab 3 Jahren bis Schuleintritt – gültig 1. August 2026 bis 31. Juli 2027",
+          "row": [
+            "GT, 8 Std./Tag",
+            "4+ Kinder",
+            "0 €",
+            "52 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "stuttgart-price-0064",
+      "offer_id": "stuttgart-69e9f68323",
+      "amount_cents": 5200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "535c7b4c86f8",
+        "locator": "PDF Seite 2, GT, 8 Std./Tag, o3",
+        "original": {
+          "research_line": 165,
+          "heading": "Kinder ab 3 Jahren bis Schuleintritt – gültig 1. August 2026 bis 31. Juli 2027",
+          "row": [
+            "GT, 8 Std./Tag",
+            "4+ Kinder",
+            "0 €",
+            "52 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "stuttgart-price-0065",
+      "offer_id": "stuttgart-e5f4733f3b",
+      "amount_cents": 11600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "family_card",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "535c7b4c86f8",
+        "locator": "PDF Seite 2, GT, 8 Std. + Früh- oder Spätbetreuung bis 1 Std., o3",
+        "original": {
+          "research_line": 165,
+          "heading": "Kinder ab 3 Jahren bis Schuleintritt – gültig 1. August 2026 bis 31. Juli 2027",
+          "row": [
+            "GT, 8 Std. + Früh- oder Spätbetreuung bis 1 Std.",
+            "1 Kind",
+            "116 €",
+            "180 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "stuttgart-price-0066",
+      "offer_id": "stuttgart-e5f4733f3b",
+      "amount_cents": 18000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "535c7b4c86f8",
+        "locator": "PDF Seite 2, GT, 8 Std. + Früh- oder Spätbetreuung bis 1 Std., o3",
+        "original": {
+          "research_line": 165,
+          "heading": "Kinder ab 3 Jahren bis Schuleintritt – gültig 1. August 2026 bis 31. Juli 2027",
+          "row": [
+            "GT, 8 Std. + Früh- oder Spätbetreuung bis 1 Std.",
+            "1 Kind",
+            "116 €",
+            "180 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "stuttgart-price-0067",
+      "offer_id": "stuttgart-e5f4733f3b",
+      "amount_cents": 7500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "family_card",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "535c7b4c86f8",
+        "locator": "PDF Seite 2, GT, 8 Std. + Früh- oder Spätbetreuung bis 1 Std., o3",
+        "original": {
+          "research_line": 165,
+          "heading": "Kinder ab 3 Jahren bis Schuleintritt – gültig 1. August 2026 bis 31. Juli 2027",
+          "row": [
+            "GT, 8 Std. + Früh- oder Spätbetreuung bis 1 Std.",
+            "2 Kinder",
+            "75 €",
+            "135 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "stuttgart-price-0068",
+      "offer_id": "stuttgart-e5f4733f3b",
+      "amount_cents": 13500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "535c7b4c86f8",
+        "locator": "PDF Seite 2, GT, 8 Std. + Früh- oder Spätbetreuung bis 1 Std., o3",
+        "original": {
+          "research_line": 165,
+          "heading": "Kinder ab 3 Jahren bis Schuleintritt – gültig 1. August 2026 bis 31. Juli 2027",
+          "row": [
+            "GT, 8 Std. + Früh- oder Spätbetreuung bis 1 Std.",
+            "2 Kinder",
+            "75 €",
+            "135 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "stuttgart-price-0069",
+      "offer_id": "stuttgart-e5f4733f3b",
+      "amount_cents": 0,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "family_card",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "535c7b4c86f8",
+        "locator": "PDF Seite 2, GT, 8 Std. + Früh- oder Spätbetreuung bis 1 Std., o3",
+        "original": {
+          "research_line": 165,
+          "heading": "Kinder ab 3 Jahren bis Schuleintritt – gültig 1. August 2026 bis 31. Juli 2027",
+          "row": [
+            "GT, 8 Std. + Früh- oder Spätbetreuung bis 1 Std.",
+            "3 Kinder",
+            "0 €",
+            "65 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "stuttgart-price-0070",
+      "offer_id": "stuttgart-e5f4733f3b",
+      "amount_cents": 6500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "535c7b4c86f8",
+        "locator": "PDF Seite 2, GT, 8 Std. + Früh- oder Spätbetreuung bis 1 Std., o3",
+        "original": {
+          "research_line": 165,
+          "heading": "Kinder ab 3 Jahren bis Schuleintritt – gültig 1. August 2026 bis 31. Juli 2027",
+          "row": [
+            "GT, 8 Std. + Früh- oder Spätbetreuung bis 1 Std.",
+            "3 Kinder",
+            "0 €",
+            "65 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "stuttgart-price-0071",
+      "offer_id": "stuttgart-e5f4733f3b",
+      "amount_cents": 0,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "family_card",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "535c7b4c86f8",
+        "locator": "PDF Seite 2, GT, 8 Std. + Früh- oder Spätbetreuung bis 1 Std., o3",
+        "original": {
+          "research_line": 165,
+          "heading": "Kinder ab 3 Jahren bis Schuleintritt – gültig 1. August 2026 bis 31. Juli 2027",
+          "row": [
+            "GT, 8 Std. + Früh- oder Spätbetreuung bis 1 Std.",
+            "4+ Kinder",
+            "0 €",
+            "58 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "stuttgart-price-0072",
+      "offer_id": "stuttgart-e5f4733f3b",
+      "amount_cents": 5800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "535c7b4c86f8",
+        "locator": "PDF Seite 2, GT, 8 Std. + Früh- oder Spätbetreuung bis 1 Std., o3",
+        "original": {
+          "research_line": 165,
+          "heading": "Kinder ab 3 Jahren bis Schuleintritt – gültig 1. August 2026 bis 31. Juli 2027",
+          "row": [
+            "GT, 8 Std. + Früh- oder Spätbetreuung bis 1 Std.",
+            "4+ Kinder",
+            "0 €",
+            "58 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "stuttgart-price-0073",
+      "offer_id": "stuttgart-a086b51780",
+      "amount_cents": 13400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "family_card",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "535c7b4c86f8",
+        "locator": "PDF Seite 2, GT, 8 Std. + Früh- und Spätbetreuung bis 2 Std., o3",
+        "original": {
+          "research_line": 165,
+          "heading": "Kinder ab 3 Jahren bis Schuleintritt – gültig 1. August 2026 bis 31. Juli 2027",
+          "row": [
+            "GT, 8 Std. + Früh- und Spätbetreuung bis 2 Std.",
+            "1 Kind",
+            "134 €",
+            "200 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "stuttgart-price-0074",
+      "offer_id": "stuttgart-a086b51780",
+      "amount_cents": 20000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "535c7b4c86f8",
+        "locator": "PDF Seite 2, GT, 8 Std. + Früh- und Spätbetreuung bis 2 Std., o3",
+        "original": {
+          "research_line": 165,
+          "heading": "Kinder ab 3 Jahren bis Schuleintritt – gültig 1. August 2026 bis 31. Juli 2027",
+          "row": [
+            "GT, 8 Std. + Früh- und Spätbetreuung bis 2 Std.",
+            "1 Kind",
+            "134 €",
+            "200 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "stuttgart-price-0075",
+      "offer_id": "stuttgart-a086b51780",
+      "amount_cents": 8800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "family_card",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "535c7b4c86f8",
+        "locator": "PDF Seite 2, GT, 8 Std. + Früh- und Spätbetreuung bis 2 Std., o3",
+        "original": {
+          "research_line": 165,
+          "heading": "Kinder ab 3 Jahren bis Schuleintritt – gültig 1. August 2026 bis 31. Juli 2027",
+          "row": [
+            "GT, 8 Std. + Früh- und Spätbetreuung bis 2 Std.",
+            "2 Kinder",
+            "88 €",
+            "150 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "stuttgart-price-0076",
+      "offer_id": "stuttgart-a086b51780",
+      "amount_cents": 15000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "535c7b4c86f8",
+        "locator": "PDF Seite 2, GT, 8 Std. + Früh- und Spätbetreuung bis 2 Std., o3",
+        "original": {
+          "research_line": 165,
+          "heading": "Kinder ab 3 Jahren bis Schuleintritt – gültig 1. August 2026 bis 31. Juli 2027",
+          "row": [
+            "GT, 8 Std. + Früh- und Spätbetreuung bis 2 Std.",
+            "2 Kinder",
+            "88 €",
+            "150 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "stuttgart-price-0077",
+      "offer_id": "stuttgart-a086b51780",
+      "amount_cents": 0,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "family_card",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "535c7b4c86f8",
+        "locator": "PDF Seite 2, GT, 8 Std. + Früh- und Spätbetreuung bis 2 Std., o3",
+        "original": {
+          "research_line": 165,
+          "heading": "Kinder ab 3 Jahren bis Schuleintritt – gültig 1. August 2026 bis 31. Juli 2027",
+          "row": [
+            "GT, 8 Std. + Früh- und Spätbetreuung bis 2 Std.",
+            "3 Kinder",
+            "0 €",
+            "72 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "stuttgart-price-0078",
+      "offer_id": "stuttgart-a086b51780",
+      "amount_cents": 7200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "535c7b4c86f8",
+        "locator": "PDF Seite 2, GT, 8 Std. + Früh- und Spätbetreuung bis 2 Std., o3",
+        "original": {
+          "research_line": 165,
+          "heading": "Kinder ab 3 Jahren bis Schuleintritt – gültig 1. August 2026 bis 31. Juli 2027",
+          "row": [
+            "GT, 8 Std. + Früh- und Spätbetreuung bis 2 Std.",
+            "3 Kinder",
+            "0 €",
+            "72 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "stuttgart-price-0079",
+      "offer_id": "stuttgart-a086b51780",
+      "amount_cents": 0,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "family_card",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "535c7b4c86f8",
+        "locator": "PDF Seite 2, GT, 8 Std. + Früh- und Spätbetreuung bis 2 Std., o3",
+        "original": {
+          "research_line": 165,
+          "heading": "Kinder ab 3 Jahren bis Schuleintritt – gültig 1. August 2026 bis 31. Juli 2027",
+          "row": [
+            "GT, 8 Std. + Früh- und Spätbetreuung bis 2 Std.",
+            "4+ Kinder",
+            "0 €",
+            "64 €"
+          ]
+        }
+      }
+    },
+    {
+      "id": "stuttgart-price-0080",
+      "offer_id": "stuttgart-a086b51780",
+      "amount_cents": 6400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "535c7b4c86f8",
+        "locator": "PDF Seite 2, GT, 8 Std. + Früh- und Spätbetreuung bis 2 Std., o3",
+        "original": {
+          "research_line": 165,
+          "heading": "Kinder ab 3 Jahren bis Schuleintritt – gültig 1. August 2026 bis 31. Juli 2027",
+          "row": [
+            "GT, 8 Std. + Früh- und Spätbetreuung bis 2 Std.",
+            "4+ Kinder",
+            "0 €",
+            "64 €"
+          ]
+        }
+      }
+    }
+  ],
+  "components": [
+    {
+      "id": "stuttgart-component-001",
+      "kind": "meal",
+      "original_label": "Essensgeld",
+      "amount_cents": 7700,
+      "unit": "per_month",
+      "age_group": null,
+      "offer_ids": [
+        "stuttgart-cd11b5ddfc",
+        "stuttgart-95dea50444",
+        "stuttgart-b992bae17c",
+        "stuttgart-69e9f68323",
+        "stuttgart-e5f4733f3b",
+        "stuttgart-a086b51780"
+      ],
+      "required": true,
+      "payment_months": null,
+      "valid_from": "2026-08-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "535c7b4c86f8",
+        "locator": "Verpflegung",
+        "original": null
+      }
+    }
+  ],
+  "rules": [],
+  "issues": [],
+  "source_text_archive": "data/sources/535c7b4c86f8/text.txt",
+  "coverage": {
+    "care_tables": "transferred",
+    "income_tables": "transferred_or_not_applicable",
+    "family_tables": "transferred",
+    "rules": "source_text_preserved_with_supported_subset",
+    "exceptions": "source_text_preserved",
+    "reviewed_at": "2026-11-07"
+  },
+  "age_transition": "age_group_at_reference_date",
+  "supporting_source_ids": [
+    "535c7b4c86f8",
+    "95bc452daed1",
+    "e48091da782d"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "b87d78be66a3",
+  "municipality": "Gerlingen",
+  "title": "Bekanntmachungen",
+  "url": "https://www.gerlingen.de/start/bekanntmachungen",
+  "retrieved_at": "2026-11-07T22:07:16.577111+00:00",
+  "http_status": 200,
+  "content_type": "text/html;charset=UTF-8",
+  "final_url": "https://www.gerlingen.de/start/bekanntmachungen",
+  "error": null,
+  "local_path": "data/sources/b87d78be66a3/document.html",
+  "sha256": "9136d07c1f80a85354d673e9b95b2599e3ad92d2fb8f97434ebdd10619edaf1b"
+}

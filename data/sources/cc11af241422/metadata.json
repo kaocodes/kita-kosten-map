@@ -1,0 +1,13 @@
+{
+  "id": "cc11af241422",
+  "municipality": "Sindelfingen",
+  "title": "Anmeldung und Gebührenverzeichnisse",
+  "url": "https://www.sindelfingen.de/bildung-betreuung/kindertagesstaetten/anmeldung-vormerkung",
+  "retrieved_at": "2026-11-07T22:07:19.758309+00:00",
+  "http_status": 200,
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://www.sindelfingen.de/bildung-betreuung/kindertagesstaetten/anmeldung-vormerkung",
+  "error": null,
+  "local_path": "data/sources/cc11af241422/document.html",
+  "sha256": "c03d6c3c93d37119999577d5f7edfd0f37272fdef80489da6f8266d7c7105acb"
+}

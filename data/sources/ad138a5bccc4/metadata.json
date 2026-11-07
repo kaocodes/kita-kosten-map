@@ -1,0 +1,13 @@
+{
+  "id": "ad138a5bccc4",
+  "municipality": "Ditzingen",
+  "title": "Additional official source",
+  "url": "https://www.ditzingen.de/fileadmin/Dateien/Cross7/Startseite/Service_%26_Rathaus/Ortsrecht/Anderungssatzung_Kita_01.01.2027.pdf",
+  "retrieved_at": "2026-11-07T22:45:27.608915+00:00",
+  "http_status": 200,
+  "content_type": "application/pdf",
+  "final_url": "https://www.ditzingen.de/fileadmin/Dateien/Cross7/Startseite/Service_%26_Rathaus/Ortsrecht/Anderungssatzung_Kita_01.01.2027.pdf",
+  "error": null,
+  "local_path": "data/sources/ad138a5bccc4/document.pdf",
+  "sha256": "66baa181d6bf37a584e110cf1f61a1650b2035cd0020279900a6d926967fb695"
+}

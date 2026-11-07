@@ -1,0 +1,13 @@
+{
+  "id": "4cd9ee779b78",
+  "municipality": "Leinfelden-Echterdingen",
+  "title": "städtische Mitteilung zur Anpassung 2026/27",
+  "url": "https://www.leinfelden-echterdingen.de/Startseite/kurz%2Bgefasst/ab%2Bschuljahr%2B2026_27_%2Bklare%2Bstaffelung%2Bund%2Bangepasste%2Bbeitraege%2Bin%2Bder%2Bkinderbetreuung.html",
+  "retrieved_at": "2026-11-07T22:07:18.885032+00:00",
+  "http_status": 200,
+  "content_type": "text/html;charset=UTF-8",
+  "final_url": "https://www.leinfelden-echterdingen.de/Startseite/kurz%2Bgefasst/ab%2Bschuljahr%2B2026_27_%2Bklare%2Bstaffelung%2Bund%2Bangepasste%2Bbeitraege%2Bin%2Bder%2Bkinderbetreuung.html",
+  "error": null,
+  "local_path": "data/sources/4cd9ee779b78/document.html",
+  "sha256": "09a0daa93aba196d43ec49243a3d2eee9a24668161655cd1b0307890ff97d06e"
+}

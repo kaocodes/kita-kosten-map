@@ -1,0 +1,13 @@
+{
+  "id": "e534e1399550",
+  "municipality": "Korntal-Münchingen",
+  "title": "Kindergarten- und Gebührenordnung für städtische Kitas (PDF)",
+  "url": "https://www.korntal-muenchingen.de/ceasy/serve/usage/main.php?id=1111&item=statute&view=publish",
+  "retrieved_at": "2026-11-07T22:07:17.183272+00:00",
+  "http_status": 200,
+  "content_type": "application/pdf",
+  "final_url": "https://www.korntal-muenchingen.de/ceasy/resource/?id=1483",
+  "error": null,
+  "local_path": "data/sources/e534e1399550/document.pdf",
+  "sha256": "9828e34934a8e92f9e4d5c66059a393d585278b377c08dbf5bbbf37834f6c8d5"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "adc2c4902240",
+  "municipality": "Leonberg",
+  "title": "Additional official source",
+  "url": "https://www.leonberg.de/output/download.php?fid=2691.7659.1.PDF",
+  "retrieved_at": "2026-11-07T22:08:25.542761+00:00",
+  "http_status": 200,
+  "content_type": "application/pdf",
+  "final_url": "https://www.leonberg.de/output/download.php?fid=2691.7659.1.PDF",
+  "error": null,
+  "local_path": "data/sources/adc2c4902240/document.pdf",
+  "sha256": "df9491966a9803b3f84fa9be42e04124d18f79213f77f0b1444dabb8e6835295"
+}

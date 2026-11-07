@@ -1,0 +1,13 @@
+{
+  "id": "55caf2cb4eb8",
+  "municipality": "Ditzingen",
+  "title": "Kindertageseinrichtungen",
+  "url": "https://www.ditzingen.de/leben-wohnen/familien/kindertageseinrichtungen-1",
+  "retrieved_at": "2026-11-07T22:07:16.755760+00:00",
+  "http_status": 200,
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://www.ditzingen.de/leben-wohnen/familien/kindertageseinrichtungen-1",
+  "error": null,
+  "local_path": "data/sources/55caf2cb4eb8/document.html",
+  "sha256": "162e27c1ad15e3a5c102b6961ee1bef9b6090dcfc6360ff812eab97872fd806b"
+}

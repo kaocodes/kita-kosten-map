@@ -1,0 +1,13 @@
+{
+  "id": "d9080549f5ae",
+  "municipality": "Korntal-Münchingen",
+  "title": "Additional official source",
+  "url": "https://www.korntal-muenchingen.de/de/Leben-Lernen/Kindertageseinrichtungnen/Alle-KITAs/Kindertageseinrichtungen?view=publish&item=nursery&id=1009",
+  "retrieved_at": "2026-11-07T22:24:26.443392+00:00",
+  "http_status": 200,
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://www.korntal-muenchingen.de/de/Leben-Lernen/Kindertageseinrichtungnen/Alle-KITAs/Kindertageseinrichtungen?view=publish&item=nursery&id=1009",
+  "error": null,
+  "local_path": "data/sources/d9080549f5ae/document.html",
+  "sha256": "c4be053183311ac21a72737e544efa9a4687ee978582d8e1c1f5de8a56f820f1"
+}

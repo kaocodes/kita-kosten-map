@@ -1,0 +1,13 @@
+{
+  "id": "ecb1d09b1939",
+  "municipality": "Kornwestheim",
+  "title": "Gebührensatzung und Gebührenverzeichnis ab 1. September 2026 (PDF)",
+  "url": "https://www.kornwestheim.de/site/Kornwestheim_Internet/get/params_E-1204246672/25201515/Satzung%20mit%20Geb%C3%BChren%20ab%201.9.2026.pdf",
+  "retrieved_at": "2026-11-07T22:07:17.688383+00:00",
+  "http_status": 200,
+  "content_type": "application/pdf",
+  "final_url": "https://www.kornwestheim.de/site/Kornwestheim_Internet/get/params_E-1204246672/25201515/Satzung%20mit%20Geb%C3%BChren%20ab%201.9.2026.pdf",
+  "error": null,
+  "local_path": "data/sources/ecb1d09b1939/document.pdf",
+  "sha256": "36f1211d598265d4038b2b27f3bb8b59834afbac17328de03d25e415be160ede"
+}

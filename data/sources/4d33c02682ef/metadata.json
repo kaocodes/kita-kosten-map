@@ -1,0 +1,13 @@
+{
+  "id": "4d33c02682ef",
+  "municipality": "Esslingen am Neckar",
+  "title": "Entgeltordnung Ganztag",
+  "url": "https://www.esslingen.de/%2CLde/leben-und-lernen/familie-und-bildung/kinderbetreuung/entgeltordnung-gt",
+  "retrieved_at": "2026-11-07T22:07:20.444845+00:00",
+  "http_status": 200,
+  "content_type": "text/html;charset=UTF-8",
+  "final_url": "https://www.esslingen.de/%2CLde/leben-und-lernen/familie-und-bildung/kinderbetreuung/entgeltordnung-gt",
+  "error": null,
+  "local_path": "data/sources/4d33c02682ef/document.html",
+  "sha256": "1f726d97ff8e3757cb06d4c474daca999f7b9ba57eb63e6093ad3021d54cbfd0"
+}

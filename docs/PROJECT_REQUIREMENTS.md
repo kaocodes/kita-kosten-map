@@ -1,0 +1,212 @@
+# Projektanforderungen: Kita- und Kindergartengebühren in der Region Stuttgart
+
+**Status:** Datenmodell und bisheriger Höchsttarifvergleich umgesetzt; einstellbare Modellfamilie und Erweiterungsarchitektur dokumentiert; Website ausstehend  
+**Stand:** 8. November 2026
+
+## 1. Projektziel
+
+Das Projekt sammelt, dokumentiert und vergleicht öffentlich verfügbare Gebühren für Krippen- und Kindergartenbetreuung in ausgewählten Städten und Gemeinden der Region Stuttgart. Die Ergebnisse sollen Eltern und politischen Entscheidungsträgern einen nachvollziehbaren Vergleich der Gebühren ermöglichen.
+
+Die Gebühren werden von den Städten bzw. Gemeinden festgelegt. Nach bisherigem Kenntnisstand gelten die kommunalen Gebührenordnungen häufig auch für kirchliche und weitere Träger. Erfasst werden daher zunächst die kommunalen Gebührenregelungen und nicht einzelne Einrichtungen. Die tatsächliche Gültigkeit und mögliche Ausnahmen sind je Kommune anhand der Quellen zu prüfen und zu dokumentieren.
+
+Die spätere Anwendung soll Gebühren auf einer interaktiven, flächigen Karte der Städte und Gemeinden darstellen. Sie soll möglichst leichtgewichtig und einfach zu betreiben sein. Bevorzugt wird eine statische Website auf GitHub Pages. Architekturvorschlag, Bedienkonzept und die Darstellungsentscheidung sind in [WEBSITE_KONZEPT.md](WEBSITE_KONZEPT.md) dokumentiert.
+
+## 2. Projektstatus und Leitlinien
+
+- Aktuelle Gebührenquellen sind recherchiert und als lokale Quellenkopien gesichert. Das strukturierte JSON-Datenmodell und die Vergleichsberechnung sind umgesetzt; Dokumentation: `DATENMODELL.md`, Ergebnis: `STANDARDVERGLEICH.md`.
+- Die Datenerhebung umfasst zuerst eine Quellenübersicht und danach die Sammlung der verfügbaren Tarifinformationen.
+- Es werden alle auffindbaren relevanten Informationen erfasst. Der Standardvergleich und seine Berechnungsregeln sind inzwischen festgelegt; zusätzliche Ansichten bleiben zu bestimmen.
+- Der bisherige Requirement-Entwurf enthielt konkrete Vorgaben zu Frameworks, Bibliotheken und UI-Verhalten. Diese Vorgaben gelten nicht als beschlossen. Aktuelle Empfehlungen und ausdrücklich bestätigte Entscheidungen werden im Websitekonzept getrennt dokumentiert.
+- Projektkommunikation kann auf Deutsch oder Englisch erfolgen. Projektdokumentation wird auf Deutsch geschrieben; Bezeichner und Kommentare im Code werden auf Englisch geschrieben.
+
+## 3. Geografischer Umfang
+
+Der erste Erhebungsumfang umfasst die zwölf Gebiete aus dem bisherigen Requirement-Dokument:
+
+1. Leonberg
+2. Gerlingen
+3. Ditzingen
+4. Stuttgart
+5. Korntal-Münchingen
+6. Kornwestheim
+7. Ludwigsburg
+8. Leinfelden-Echterdingen
+9. Böblingen
+10. Sindelfingen
+11. Esslingen am Neckar
+12. Fellbach
+
+Diese Liste ist für den ersten Umfang maßgeblich. Sie ist keine Zusage, sämtliche Kommunen des Landkreises Ludwigsburg oder der gesamten Region Stuttgart abzudecken.
+
+### 3.1 Geografische Einheiten für die Karte
+
+- Die Karte bildet Stadt- bzw. Gemeindegebiete als Flächen ab.
+- Einzelne Kitas werden nicht als Kartenpunkte erfasst oder dargestellt.
+- Stuttgart wird als ein Gebiet behandelt; die geprüfte kommunale Tarifquelle weist keine Bezirksstaffel aus.
+- Korntal-Münchingen und Esslingen am Neckar sind die amtlichen Vergleichseinheiten. Geeignete Kartengrenzen sind noch auszuwählen.
+- Für den visuellen Vergleich wurden vereinfachte BKG-VG250-Gemeindegrenzen verwendet. Endgültige Datenquelle, Grenzstand, Lizenzdokumentation und Detailstufe bleiben vor der produktiven Umsetzung festzulegen. Ein im alten Dokument genannter OpenStreetMap-Polygon-Endpunkt ist lediglich ein Recherchehinweis und keine verbindliche technische Vorgabe.
+
+## 4. Umfang der Gebührenerhebung
+
+### 4.1 Betreuungsangebote
+
+Für jede Kommune sollen die verfügbaren kommunalen Tarife für folgende Bereiche erfasst werden:
+
+- Krippenbetreuung
+- Kindergartenbetreuung
+- alle in den Quellen aufgeführten Betreuungszeitmodelle, insbesondere Halbtag und Ganztag sowie abweichende Stunden- oder Zeitmodelle
+
+Weitere Betreuungsarten werden nur aufgenommen, wenn sie in den für diese Untersuchung relevanten kommunalen Gebührenunterlagen enthalten sind. Die Abgrenzung von Altersgruppen und Angebotsarten folgt zunächst der jeweiligen kommunalen Quelle und wird zusätzlich in normalisierter Form dokumentiert.
+
+### 4.2 Gebühren und Einflussfaktoren
+
+Erfasst werden alle veröffentlichten gebührenbezogenen Angaben, soweit sie aus offiziellen Quellen verfügbar sind. Dazu gehören insbesondere:
+
+- Betreuungskosten
+- Essensgeld bzw. Verpflegungskosten, getrennt von den Betreuungskosten, falls separat ausgewiesen
+- weitere verpflichtende oder regelmäßig anfallende Kosten, sofern sie in den Gebührenunterlagen genannt werden
+- Alters- bzw. Angebotsgruppen und Betreuungsumfang
+- Einkommensstufen oder sonstige einkommensabhängige Berechnungsregeln
+- Ermäßigungen oder Zuschläge, zum Beispiel aufgrund der Zahl der Kinder bzw. Geschwister
+- Anspruchsvoraussetzungen, Ausnahmen, Befreiungen und Berechnungsbedingungen
+- Abrechnungsweise und Zahlungsrhythmus, soweit angegeben
+
+Die Erhebung soll die veröffentlichten Tarifstaffeln und Bedingungen vollständig abbilden, nicht nur einen daraus abgeleiteten Einzelbetrag. Originalbezeichnungen und Originalwerte der Quelle bleiben nachvollziehbar erhalten. Normalisierte Felder dürfen ergänzend verwendet werden, müssen aber auf die jeweilige Quelle zurückführbar sein.
+
+### 4.3 Geltung nach Träger
+
+- Primäre Quellen sind Gebührenordnungen und Tarifinformationen der jeweiligen Stadt bzw. Gemeinde.
+- Erfasst wird, für welche Träger und Einrichtungen die kommunale Regelung laut Quelle gilt.
+- Wenn die Kommune angibt, dass der Tarif auch für kirchliche oder freie Träger gilt, wird diese Aussage mit Quelle dokumentiert.
+- Abweichende Gebührenregeln einzelner nicht-städtischer Träger sind nicht Teil des anfänglichen Erhebungsumfangs, sofern sie nicht nötig sind, um den Geltungsbereich der kommunalen Regelung zu beschreiben.
+
+## 5. Quellen, Erfassungsdatum und Gebührenhistorie
+
+### 5.1 Quellenanforderungen
+
+Bevorzugt werden offizielle und möglichst aktuelle Quellen der Stadt bzw. Gemeinde, darunter:
+
+- Gebührenordnungen und Satzungen
+- offizielle Gebührentabellen und Elterninformationen
+- Rats- oder Gemeinderatsunterlagen, sofern sie Gebührenänderungen oder historische Tarife belegen
+- offizielle PDF-Dokumente und Webseiten
+
+PDF-Dokumente sind ausdrücklich als mögliche Primärquellen vorgesehen. Wenn eine Angabe aus einer PDF-Datei stammt, soll die konkrete Seite oder der relevante Abschnitt festgehalten werden, sofern er bestimmbar ist.
+
+### 5.2 Herkunftsnachweis
+
+Für jede Quelle und jeden daraus übernommenen Tarifstand sind nach Möglichkeit folgende Angaben zu erfassen:
+
+- Kommune
+- Titel des Dokuments oder der Webseite
+- herausgebende Stelle
+- direkte URL
+- Dokument- oder Veröffentlichungsdatum, falls angegeben
+- Gültig-ab- und Gültig-bis-Datum des Tarifs, soweit ermittelbar
+- Datum des Abrufs bzw. der Erfassung
+- Seite, Abschnitt, Tabellenzeile oder sonstige Fundstelle
+- Hinweise zu Extraktion, Mehrdeutigkeit oder manueller Prüfung
+
+### 5.3 Historische Preisentwicklung
+
+**Zurückgestellt:** Historische Preisreihen werden auf Nutzerwunsch derzeit nicht weiter recherchiert. Bereits erhobene Angaben bleiben erhalten; die folgenden Anforderungen gelten für eine spätere Erweiterung.
+
+- Zusätzlich zu aktuellen Tarifen sollen Gebührenstände der vergangenen fünf Jahre gesammelt werden, soweit sie in offiziellen Quellen auffindbar und ausreichend belegbar sind.
+- Änderungen sollen mit ihrem Gültigkeitszeitraum und ihrer Quelle getrennt erfasst werden, damit spätere Preisvergleiche möglich sind.
+- Historische Werte dürfen nicht aus einer späteren Tabelle zurückgerechnet oder geschätzt werden. Nicht auffindbare Zeiträume werden als fehlende Daten gekennzeichnet.
+- Ob und wie Preissteigerungen oder Zeitreihen in der Anwendung visualisiert werden, wird nach der Erhebung entschieden.
+
+## 6. Datenqualität und Aufbereitung
+
+- Unklare oder fehlende Werte werden als unbekannt bzw. nicht verfügbar gekennzeichnet und nicht als Nullbetrag interpretiert.
+- Originalangaben aus der Quelle und aufbereitete Vergleichswerte sind unterscheidbar zu halten.
+- Ein aufbereiteter Betrag muss seine Berechnungsgrundlage erkennen lassen, etwa Monatsbetrag, Zahlungsmonate, Betreuungsumfang, Altersgruppe und anwendbare Ermäßigungen.
+- Unterschiedliche Gebührenmodelle dürfen nicht ohne dokumentierte Regel zu einem scheinbar vergleichbaren Einzelwert zusammengezogen werden.
+- Extraktionen aus PDFs, insbesondere Tabellen, sind auf Vollständigkeit und korrekte Zuordnung zu Tarifmerkmalen zu prüfen.
+- Bei widersprüchlichen Quellen werden die Quellen und der Umgang mit dem Widerspruch dokumentiert.
+
+## 7. Geplante Kartenanwendung
+
+### 7.1 Zweck und Darstellung
+
+- Die Anwendung stellt die erhobenen Gebühren auf einer interaktiven Karte mit Gemeinde- bzw. Stadtgebieten als Flächen dar.
+- **Darstellungsentscheidung vom 8. November 2026:** Nach dem visuellen Vergleich mit proportionalen Kreisen sind eingefärbte Gemeindeflächen als Hauptdarstellung beschlossen. Die Gebühren werden über die Flächenfarbe vermittelt.
+- Es gibt keine Darstellung einzelner Einrichtungspunkte.
+- Zielgruppen sind Eltern und politische Entscheidungsträger.
+- Der Schwerpunkt liegt auf der Höhe und Vergleichbarkeit der Gebühren.
+- Öffnungszeiten und Kontaktdaten einzelner Kitas sind nicht erforderlich.
+
+### 7.2 Startprofil und individuelle Einstellungen
+
+Die Website soll mit einer einstellbaren Modellfamilie starten:
+
+- zwei zusammenlebende Eltern, ein 24 Monate altes Kind in Krippenbetreuung und keine Geschwister;
+- Montag bis Freitag mindestens acht Stunden durchgehende Betreuung, jeweils das kleinste belegte ausreichende Paket;
+- 80.000 € Bruttojahreseinkommen des Haushalts und unabhängig davon angenommene 60.000 € zu versteuerndes Jahreseinkommen;
+- unverändertes Einkommen im Vorjahr und laufenden Jahr; keine weiteren Einkünfte;
+- reguläre Einkommensstaffeln; zusätzliche Pass- und Sozialermäßigungen nur bei bestätigten Voraussetzungen;
+- Betreuungskosten als Monatsäquivalent: ursprünglicher Monatsbeitrag × Beitragsmonate ÷ 12; Essen und andere Kosten separat.
+
+Das Profil ist eine transparente Referenzannahme und kein statistisch belegter Durchschnittshaushalt. Die beiden Einkommenswerte sind keine steuerliche Umrechnung. Kommunal abweichende Einkommensdefinitionen bleiben zu berücksichtigen.
+
+Nutzer sollen Kinderzahl und Alter, Haushaltszugehörigkeit und -konstellation, gleichzeitig betreute Geschwister, Brutto- und steuerliches Einkommen, Betreuungstage und Tagesstunden sowie vorhandene Pässe oder bewilligte Vergünstigungen einstellen können. Karte, Liste und Details verwenden dasselbe Profil. Eine Aktion stellt die Modellfamilie wieder her. Fehlende lokale Pflichtangaben ergeben eine eigene Kennzeichnung statt einer Schätzung. Eine geänderte persönliche Einkommenseingabe darf nicht unbemerkt mit einer alten steuerlichen Modellannahme kombiniert werden.
+
+**Bestehender Implementierungsstand:** Der bisherige Vergleich mit der höchsten regulären Einkommensstufe ist für alle zwölf Kommunen umgesetzt. `data/profiles/default.json` und die Exporte verwenden weiterhin dieses Profil. Bei der Umstellung wird die Modellfamilie als neues geprüftes Startprofil eingeführt; der Höchsttarifvergleich bleibt als zusätzliche Auswahl und nachvollziehbare Referenz erhalten.
+
+Originalbeiträge, tatsächlicher Buchungsumfang, Mehrstunden und Beitragsmonate bleiben sichtbar. Das Jahresäquivalent hält den Tarif am Stichtag konstant und bildet keine tatsächliche Jahresabrechnung mit unterjährigen Änderungen ab.
+
+### 7.3 Vergleichbarkeit und Karteneinfärbung
+
+- Die Karte soll Gebühren zwischen den erfassten Gebieten vergleichbar machen.
+- Eine Kartenfarbe basiert standardmäßig auf dem beschlossenen monatlichen Betreuungsäquivalent. Tarifstichtag und Profil müssen sichtbar sein.
+- Farbschema und Legende sind noch zu gestalten. Fehlende und mehrdeutige Ergebnisse bekommen keine aus null Euro abgeleitete Kartenfarbe.
+- Einstellbare Modellfamilie und Höchsttarifvergleich sind für die Oberfläche vorgesehen. Weitere Komfortprofile bleiben optional.
+
+## 8. Technische Leitplanken
+
+- Die Anwendung soll leichtgewichtig, einfach zu bedienen und wartbar sein.
+- Eine statische Website auf GitHub Pages ohne Backend ist die bevorzugte Betriebsform. Datenprüfung und Export können vor dem Website-Build erfolgen.
+- Ein kleines Backend bleibt möglich, falls es für Datenpflege, Datenprüfung oder Bereitstellung tatsächlich erforderlich ist.
+- React, TypeScript, Vite, CSS Modules und Leaflet sind die aktuelle Empfehlung für die Website. Die endgültige Bibliotheksauswahl ist noch offen; die bestehende Python-Berechnung und die JSON-Daten bleiben Grundlage.
+- Eine interaktive Karte mit Gemeindegrenzen ist vorgesehen; die konkrete Quelle für Grenzdaten und deren Lizenz müssen vor der Umsetzung geklärt werden.
+- Grenzdaten werden vor der Veröffentlichung räumlich ausgewählt und topologiebewusst vereinfacht. Nur die benötigte Webfassung wird ausgeliefert. GeoJSON ist die vorgeschlagene Ausgangslösung; TopoJSON bleibt eine Optimierungsoption.
+- Die Anwendung soll auf üblichen Desktop- und Mobilbildschirmen nutzbar sein. Weitere Anforderungen an Barrierefreiheit und Sprachunterstützung sind noch zu konkretisieren.
+- Technischer Datenfluss, vorgeschlagene Oberfläche, geprüfte Entwürfe und offene Umsetzungsfragen stehen in [WEBSITE_KONZEPT.md](WEBSITE_KONZEPT.md).
+- Die Zahl der aktiven Kommunen wird über ein zentrales Register bestimmt. Die bisherige feste Prüfung auf zwölf Kommunen ist bei dessen Einführung abzulösen; Oberflächenkomponenten dürfen keine eigene feste Gebietsliste pflegen.
+- Kartenflächen und Gebührenordnungen bleiben getrennt. Zusätzliche Stadtbezirke können dieselbe kommunale Gebührenordnung referenzieren. AGS, interne Gebietskennung und gegebenenfalls übergeordnete Kommune werden ausdrücklich zugeordnet.
+- Die Browserberechnung wird unabhängig von React und Leaflet entwickelt und anhand gemeinsamer Referenzfälle gegen Python geprüft. Eine Erweiterung der Datenmenge allein erfordert kein Backend.
+- Bei wachsendem Umfang können Daten nach Region nachgeladen werden. Dateigröße, Geometriekomplexität und tatsächliche Lade- und Bedienzeiten bestimmen die Optimierung; die Kartenansicht bleibt von den fachlichen Daten unabhängig.
+
+## 9. Geplante Arbeitsschritte
+
+1. **Quelleninventar:** Für die zwölf Gebiete vorhanden; Pflege bei neuen Quellen fortführen.
+2. **Datenverfügbarkeit prüfen:** Aktuelle Tarife und bekannte Einschränkungen sind dokumentiert; historische Preisreihen bleiben zurückgestellt.
+3. **Datenmodell festlegen:** Strukturiertes JSON-Schema und ausführbare Validierung sind umgesetzt.
+4. **Datenerhebung:** Aktuelle Tarife sind strukturiert übertragen und geprüft; Änderungen künftig versioniert ergänzen.
+5. **Vergleichsregeln bestimmen:** Höchsttarifreferenz und Vergleichsberechnung sind umgesetzt. Modellfamilie und persönliche Einstellungen sind dokumentiert; Profilumstellung und Browserberechnung folgen.
+6. **Technische Umsetzung planen:** Gemeindeflächen sind beschlossen, statisches Hosting ist bevorzugt und Entwürfe sind vorhanden. Die verbleibenden Entscheidungen stehen im Websitekonzept.
+7. **Anwendung umsetzen:** Produktive Website, Browserprüfung und Deployment stehen aus.
+
+## 10. Erste Abnahmekriterien für den Datensatz
+
+Der Erhebungsdatensatz gilt als fachlich prüfbar, wenn:
+
+- alle zwölf Gebiete im Quelleninventar enthalten sind;
+- für jede Kommune dokumentiert ist, welche offiziellen Tarifquellen gefunden wurden;
+- verfügbare Gebühren für Krippe, Kindergarten und die jeweils veröffentlichten Betreuungszeitmodelle erfasst sind;
+- Essensgeld und weitere ausgewiesene Kosten getrennt erfasst oder als nicht veröffentlicht gekennzeichnet sind;
+- Bedingungen wie Einkommensstaffeln und Ermäßigungen aus den Quellen nachvollziehbar übernommen sind;
+- jede erfasste Tarifangabe auf eine Quelle und möglichst eine konkrete Fundstelle zurückgeführt werden kann;
+- bei einer später beauftragten historischen Erweiterung verfügbare Tarifstände der vergangenen fünf Jahre dokumentiert sind und Lücken als solche kenntlich bleiben;
+- offene Mehrdeutigkeiten und notwendige manuelle Prüfungen sichtbar dokumentiert sind.
+
+## 11. Noch offene Entscheidungen
+
+- Werden die im Entwurf erprobten BKG-Grenzen produktiv übernommen? Grenzstand, Detailstufe, Vereinfachung, Umgebungskontext und Lizenzdokumentation sind abschließend festzulegen.
+- Wie werden die vorgesehenen persönlichen Eingaben, die Modellfamilie, der Höchsttarifvergleich und die Zusatzkostenansicht im endgültigen Layout angeordnet?
+- Welche Farbpalette, Klassengrenzen und Legende erhalten die beschlossenen Gemeindeflächen? Wie werden Mehrstunden und fehlende oder mehrdeutige Ergebnisse gekennzeichnet?
+- Welche Sprachversionen benötigt die Anwendung? Deutsch ist die Projektsprache; eine englische UI ist noch nicht beschlossen.
+- Wie wird der dokumentierte Pflegeprozess aus Quellenkopie, JSON-Aktualisierung, Prüfung und Export künftig organisatorisch betrieben?
+- Welche konkreten Paketversionen und Details der empfohlenen Frontend-Bibliotheken werden bei der Umsetzung verwendet? Individuelle Profile sind für die Berechnung im Browser vorgesehen.
+- Welches GitHub-Pages-Ziel und welcher Veröffentlichungsprozess werden eingerichtet?
+- Wie oft sollen die Gebühren nach dem ersten Erhebungsstand überprüft und aktualisiert werden?

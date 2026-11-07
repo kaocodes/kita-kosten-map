@@ -1,0 +1,13 @@
+{
+  "id": "4b99e2929828",
+  "municipality": "Böblingen",
+  "title": "Additional official source",
+  "url": "https://www.boeblingen.de/site/Boeblingen-Internet/get/params_E-1401717129/24731773/Satzung%20%C3%BCber%20die%20Benutzung%20der%20st%C3%A4dtischen%20Kindertageseinrichtungen%20der%20Stadt%20B%C3%B6blingen,%20g%C3%BCltig%20ab%2001.01.2026.pdf",
+  "retrieved_at": "2026-11-07T22:08:27.463397+00:00",
+  "http_status": 200,
+  "content_type": "application/pdf",
+  "final_url": "https://www.boeblingen.de/site/Boeblingen-Internet/get/params_E-1401717129/24731773/Satzung%20%C3%BCber%20die%20Benutzung%20der%20st%C3%A4dtischen%20Kindertageseinrichtungen%20der%20Stadt%20B%C3%B6blingen,%20g%C3%BCltig%20ab%2001.01.2026.pdf",
+  "error": null,
+  "local_path": "data/sources/4b99e2929828/document.pdf",
+  "sha256": "d115880179c01313fed58e06dbe10bdce0c8937ca7dc29532b7e1544a4442977"
+}

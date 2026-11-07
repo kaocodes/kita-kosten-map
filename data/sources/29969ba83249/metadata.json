@@ -1,0 +1,13 @@
+{
+  "id": "29969ba83249",
+  "municipality": "Ludwigsburg",
+  "title": "Satzung und Anlage A ab 1. September 2026 (PDF)",
+  "url": "https://www.ludwigsburg.de/site/Ludwigsburg-Internet-2020/get/params_E-995498330/24269351/Stammsatzung_Kitageb%C3%BChren_2026_August_07.pdf",
+  "retrieved_at": "2026-11-07T22:07:18.147621+00:00",
+  "http_status": 200,
+  "content_type": "application/pdf",
+  "final_url": "https://www.ludwigsburg.de/site/Ludwigsburg-Internet-2020/get/params_E-995498330/24269351/Stammsatzung_Kitageb%C3%BChren_2026_August_07.pdf",
+  "error": null,
+  "local_path": "data/sources/29969ba83249/document.pdf",
+  "sha256": "fc7b5489b224a7a451c5eb60fcd13d839bb10735ecb0497f48279a0ca5ab5d93"
+}

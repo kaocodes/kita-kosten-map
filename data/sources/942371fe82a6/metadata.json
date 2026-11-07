@@ -1,0 +1,13 @@
+{
+  "id": "942371fe82a6",
+  "municipality": "Leonberg",
+  "title": "Gebührenseite",
+  "url": "https://www.leonberg.de/Familie-Bildung/Kindertages-einrichtungen/Geb%C3%BChren",
+  "retrieved_at": "2026-11-07T22:07:15.627851+00:00",
+  "http_status": 200,
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://www.leonberg.de/Familie-Bildung/Kindertages-einrichtungen/Geb%C3%BChren",
+  "error": null,
+  "local_path": "data/sources/942371fe82a6/document.html",
+  "sha256": "e0f2a9875070265e030c0956a027bf75e754f4d723f296e8349e8751ba29f7b6"
+}

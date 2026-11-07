@@ -1,0 +1,13 @@
+{
+  "id": "03bd8c4fc8b1",
+  "municipality": "Leinfelden-Echterdingen",
+  "title": "Additional official source",
+  "url": "https://www.leinfelden-echterdingen.de/site/Leinfelden-Echterdingen-Internet/get/params_E920696249/25379400/Stadtrecht-4_1_2.pdf",
+  "retrieved_at": "2026-11-07T22:30:20.809033+00:00",
+  "http_status": 200,
+  "content_type": "application/pdf",
+  "final_url": "https://www.leinfelden-echterdingen.de/site/Leinfelden-Echterdingen-Internet/get/params_E920696249/25379400/Stadtrecht-4_1_2.pdf",
+  "error": null,
+  "local_path": "data/sources/03bd8c4fc8b1/document.pdf",
+  "sha256": "bc475620baf977d9364e275947796e4af2844af3667a0f6fd332e36b91b034f2"
+}

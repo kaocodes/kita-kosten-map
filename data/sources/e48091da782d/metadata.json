@@ -1,0 +1,13 @@
+{
+  "id": "e48091da782d",
+  "municipality": "Stuttgart",
+  "title": "Anlagen mit Kostenbeiträgen und Essensgeld",
+  "url": "https://www.stuttgart.de/rathaus/verwaltung/stadtrecht/4/anlagen-1-bis-5-zu-4-6-verzeichnis-der-kostenbeitraege-und-des-essensgeldes-pro-monat",
+  "retrieved_at": "2026-11-07T22:07:15.400533+00:00",
+  "http_status": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "final_url": "https://www.stuttgart.de/rathaus/verwaltung/stadtrecht/4/anlagen-1-bis-5-zu-4-6-verzeichnis-der-kostenbeitraege-und-des-essensgeldes-pro-monat",
+  "error": null,
+  "local_path": "data/sources/e48091da782d/document.html",
+  "sha256": "9314b15154338e3e727d095e7d6eadef14fb3cc3f7ce294b3e67779f9cf6663a"
+}

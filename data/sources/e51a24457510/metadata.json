@@ -1,0 +1,13 @@
+{
+  "id": "e51a24457510",
+  "municipality": "Ludwigsburg",
+  "title": "städtisches Ratsinformationssystem – Gebührenanpassung",
+  "url": "https://ris.ludwigsburg.de/bi/vo0050.php?__kvonr=1013776",
+  "retrieved_at": "2026-11-07T22:07:18.184935+00:00",
+  "http_status": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "final_url": "https://ris.ludwigsburg.de/bi/vo0050.php?__kvonr=1013776",
+  "error": null,
+  "local_path": "data/sources/e51a24457510/document.html",
+  "sha256": "8afd2cc8c93a5e02389120c332ff7ab79ac072d4801362e1a21ef44ccd1f5372"
+}

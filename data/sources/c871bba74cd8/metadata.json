@@ -1,0 +1,13 @@
+{
+  "id": "c871bba74cd8",
+  "municipality": "Leinfelden-Echterdingen",
+  "title": "Additional official source",
+  "url": "https://www.leinfelden-echterdingen.de/site/Leinfelden-Echterdingen-Internet/get/params_E-1350074636/25495835/Entgeltregelung%20Verpflegung%20in%20den%20Tageseinrichtungen.pdf",
+  "retrieved_at": "2026-11-07T22:30:20.802011+00:00",
+  "http_status": 200,
+  "content_type": "application/pdf",
+  "final_url": "https://www.leinfelden-echterdingen.de/site/Leinfelden-Echterdingen-Internet/get/params_E-1350074636/25495835/Entgeltregelung%20Verpflegung%20in%20den%20Tageseinrichtungen.pdf",
+  "error": null,
+  "local_path": "data/sources/c871bba74cd8/document.pdf",
+  "sha256": "c9ab86c062954753a9ba47774b175f54863072882fa67508d3630a6a9428bc1f"
+}

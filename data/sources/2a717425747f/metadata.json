@@ -1,0 +1,13 @@
+{
+  "id": "2a717425747f",
+  "municipality": "Leinfelden-Echterdingen",
+  "title": "Additional official source",
+  "url": "https://www.leinfelden-echterdingen.de/Startseite/Buerger/Betreuungsangebote.html",
+  "retrieved_at": "2026-11-07T22:30:20.979069+00:00",
+  "http_status": 200,
+  "content_type": "text/html;charset=UTF-8",
+  "final_url": "https://www.leinfelden-echterdingen.de/Startseite/Buerger/Betreuungsangebote.html",
+  "error": null,
+  "local_path": "data/sources/2a717425747f/document.html",
+  "sha256": "83a9b09a47f4c37cb3bfa2b81ebcf8c141e853a875cdc084fc3f04364ab5aa0b"
+}

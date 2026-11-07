@@ -1,0 +1,89 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:kita-costs-map:municipality:1.0",
+  "title": "Municipal childcare tariff catalog",
+  "type": "object",
+  "required": ["schema_version", "id", "name", "reviewed_at", "reference_date", "scope", "family_basis", "offers", "prices", "income_bands", "components", "rules", "issues", "coverage"],
+  "properties": {
+    "schema_version": {"const": "1.0"},
+    "id": {"type": "string", "pattern": "^[a-z-]+$"},
+    "name": {"type": "string", "minLength": 1},
+    "reviewed_at": {"type": "string", "format": "date"},
+    "reference_date": {"type": "string", "format": "date"},
+    "family_basis": {"enum": ["under_18", "child_benefit", "under_18_or_child_benefit", "resident_children"]},
+    "scope": {"type": "object", "required": ["included", "other_providers"]},
+    "supporting_source_ids": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+    "income_bands": {"type": "array", "items": {"$ref": "#/$defs/income_band"}},
+    "offers": {"type": "array", "items": {"$ref": "#/$defs/offer"}},
+    "prices": {"type": "array", "items": {"$ref": "#/$defs/price"}},
+    "components": {"type": "array", "items": {"$ref": "#/$defs/component"}},
+    "rules": {"type": "array", "items": {"type": "object", "required": ["id", "execution_status", "evidence"]}},
+    "issues": {"type": "array", "items": {"type": "object", "required": ["code", "detail"]}},
+    "coverage": {"type": "object"},
+    "original_research": {"type": "object", "required": ["path", "section", "text"]}
+  },
+  "$defs": {
+    "money": {"type": ["integer", "null"], "minimum": 0},
+    "date_or_null": {"type": ["string", "null"], "format": "date"},
+    "evidence": {
+      "type": "object", "required": ["source_id", "locator"],
+      "properties": {"source_id": {"type": "string"}, "locator": {"type": "string", "minLength": 1}, "original": {}}
+    },
+    "selectors": {
+      "type": "object", "required": ["family_count", "income_band_id"],
+      "properties": {
+        "family_count": {"type": "integer", "minimum": 1},
+        "family_count_is_minimum": {"type": "boolean"},
+        "income_band_id": {"type": ["string", "null"]},
+        "pass_id": {"type": "string"},
+        "care_rank": {"type": ["integer", "null"], "minimum": 1},
+        "care_rank_is_minimum": {"type": "boolean"}
+      }
+    },
+    "income_band": {
+      "type": "object",
+      "required": ["id", "basis", "period", "reference_period", "lower_cents", "upper_cents", "lower_inclusive", "upper_inclusive", "is_highest", "evidence"],
+      "properties": {
+        "id": {"type": "string"}, "basis": {"type": "string"}, "period": {"enum": ["month", "year"]},
+        "lower_cents": {"$ref": "#/$defs/money"}, "upper_cents": {"$ref": "#/$defs/money"},
+        "lower_inclusive": {"type": "boolean"}, "upper_inclusive": {"type": "boolean"},
+        "is_highest": {"type": "boolean"}, "single_parent": {"type": ["boolean", "null"]},
+        "evidence": {"$ref": "#/$defs/evidence"}
+      }
+    },
+    "offer": {
+      "type": "object",
+      "required": ["id", "original_label", "age_group", "age_min_months", "age_max_months_exclusive", "valid_from", "valid_to", "original_price_valid_from", "weekly_minutes", "weekday_minutes", "continuous", "schedule_status", "schedule_evidence", "payment_months", "payment_evidence", "evidence", "formula"],
+      "properties": {
+        "id": {"type": "string"}, "original_label": {"type": "string"}, "age_group": {"enum": ["u3", "o3"]},
+        "age_min_months": {"type": "integer", "minimum": 0},
+        "age_max_months_exclusive": {"type": ["integer", "null"], "minimum": 1},
+        "valid_from": {"type": "string", "format": "date"}, "valid_to": {"$ref": "#/$defs/date_or_null"},
+        "original_price_valid_from": {"type": "string", "format": "date"},
+        "weekly_minutes": {"type": ["integer", "null"], "minimum": 0},
+        "weekday_minutes": {"type": ["array", "null"], "minItems": 5, "maxItems": 5, "items": {"type": "integer", "minimum": 0, "maximum": 1440}},
+        "continuous": {"type": "boolean"}, "payment_months": {"type": ["integer", "null"], "minimum": 1, "maximum": 12},
+        "evidence": {"$ref": "#/$defs/evidence"}, "schedule_evidence": {"$ref": "#/$defs/evidence"},
+        "payment_evidence": {"$ref": "#/$defs/evidence"},
+        "formula": {"type": ["object", "null"]}
+      }
+    },
+    "price": {
+      "type": "object", "required": ["id", "offer_id", "amount_cents", "unit", "value_status", "selectors", "included_components", "evidence"],
+      "properties": {
+        "id": {"type": "string"}, "offer_id": {"type": "string"}, "amount_cents": {"$ref": "#/$defs/money"},
+        "unit": {"const": "per_month"}, "value_status": {"enum": ["known", "not_offered", "not_published", "unknown", "conflicting"]},
+        "selectors": {"$ref": "#/$defs/selectors"}, "included_components": {"type": "array"}, "evidence": {"$ref": "#/$defs/evidence"}
+      },
+      "allOf": [{"if": {"properties": {"value_status": {"const": "known"}}}, "then": {"properties": {"amount_cents": {"type": "integer", "minimum": 0}}}}]
+    },
+    "component": {
+      "type": "object", "required": ["id", "kind", "original_label", "amount_cents", "unit", "required", "payment_months", "value_status", "evidence"],
+      "properties": {
+        "amount_cents": {"$ref": "#/$defs/money"}, "required": {"type": ["boolean", "null"]},
+        "payment_months": {"type": ["integer", "null"], "minimum": 1, "maximum": 12},
+        "evidence": {"$ref": "#/$defs/evidence"}
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "reviewed_at": "2026-11-07",
+  "as_of": "2026-11-04",
+  "method": "Manual reference cells from archived official sources; frozen-tariff annual equivalent; no meal costs in the primary metric.",
+  "expected": {
+    "boeblingen": {"monthly_cents": 31000, "payment_months": 12, "weekly_minutes": 2400, "equivalent_cents": 31000, "source_id": "d1f83ab397ca", "source_tokens": ["310 €"], "locator": "PDF page 1, U3, one child, 40 hours; schedule brochure page 1; ordinance sections 14/16"},
+    "ditzingen": {"monthly_cents": 63600, "payment_months": 12, "weekly_minutes": 2700, "equivalent_cents": 63600, "source_id": "e3a01305341e", "source_tokens": ["636 €"], "locator": "PDF page 11, Anlage 4, GT45, highest income band, one child; sections 3/5"},
+    "esslingen": {"monthly_cents": 117000, "payment_months": 12, "weekly_minutes": 2400, "equivalent_cents": 117000, "source_id": "55d9e28a62d7", "source_tokens": ["1170"], "locator": "PDF page 1, U3, above EUR 160000 gross, one child; GT ordinance III"},
+    "fellbach": {"monthly_cents": 70200, "payment_months": 12, "weekly_minutes": 2700, "equivalent_cents": 70200, "source_id": "772cfcc5d07d", "source_tokens": ["15,60 €"], "locator": "PDF page 3, section 3(1): 45 hours times EUR 15.60; daily schedule on municipal site e0f7ae696e98"},
+    "gerlingen": {"monthly_cents": 64000, "payment_months": 12, "weekly_minutes": 2550, "equivalent_cents": 64000, "source_id": "f9eb066f5901", "source_tokens": ["640 €", "12 Monate"], "locator": "PDF page 6, U3 GT7:30–16:00, one child, retained 2025 tariff"},
+    "korntal-muenchingen": {"monthly_cents": 39875, "payment_months": 11, "weekly_minutes": 2400, "equivalent_cents": 36552, "source_id": "e534e1399550", "source_tokens": ["398,75 €", "11 gleichen Monatsbeiträgen"], "locator": "PDF page 8, U3 40 hours, one child, highest income column; Anlage 1 payment rule; municipal schedule d9080549f5ae"},
+    "kornwestheim": {"monthly_cents": 43600, "payment_months": 11, "weekly_minutes": 2700, "equivalent_cents": 39967, "source_id": "ecb1d09b1939", "source_tokens": ["436 €", "11 Monate"], "locator": "PDF page 6, U3 GT9/5 days, one child; section 3(2)"},
+    "leinfelden-echterdingen": {"monthly_cents": 58720, "payment_months": 11, "weekly_minutes": 2400, "equivalent_cents": 53827, "source_id": "3edbd30ca2f4", "source_tokens": ["587,20 €", "11 Monate"], "locator": "PDF page 6, U3 GT40 until 16:00, one child; section 3.4"},
+    "leonberg": {"monthly_cents": 53700, "payment_months": 12, "weekly_minutes": 2550, "equivalent_cents": 53700, "source_id": "ca8ce11d0b8f", "source_tokens": ["537,00 €"], "locator": "PDF page 1, U3 KK8.5, one child; October 2026 ordinance section 5"},
+    "ludwigsburg": {"monthly_cents": 49900, "payment_months": 11, "weekly_minutes": 2400, "equivalent_cents": 45742, "source_id": "29969ba83249", "source_tokens": ["499,00 Euro", "11 Monate"], "locator": "PDF page 6, U3 GT8, one child; section 4(1)"},
+    "sindelfingen": {"monthly_cents": 33180, "payment_months": 12, "weekly_minutes": 2400, "equivalent_cents": 33180, "source_id": "8552e155f7fe", "source_tokens": ["331,80"], "locator": "PDF page 13, U3 GT8, one household child / first child in care; section 11"},
+    "stuttgart": {"monthly_cents": 24300, "payment_months": 11, "weekly_minutes": 2400, "equivalent_cents": 22275, "source_id": "535c7b4c86f8", "source_tokens": ["243 €"], "locator": "PDF page 1, U3 GT8, one child, full payer; municipal fee webpage specifies eleven months"}
+  }
+}

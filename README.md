@@ -37,7 +37,7 @@ npm ci
 npm run dev
 ```
 
-Danach **http://127.0.0.1:5173/** öffnen. Die Website zeigt Gemeindeflächen, beide Vergleichsprofile, eine Gebührenliste und Gemeindedetails mit Quellen. „Eigene Familie“ ist vorerst ausgeblendet; Formular, Rechenkern und Tests bleiben erhalten. Die sichtbare Auswahl umfasst die geprüfte Modellfamilie und die Höchsttarifreferenz.
+Danach **http://127.0.0.1:5173/** öffnen. Die Website zeigt Gemeindeflächen für die Standard-Modellfamilie, eine Gebührenliste und Gemeindedetails mit Quellen. „Eigene Familie“ ist vorerst ausgeblendet; Formular, Rechenkern und Tests bleiben erhalten. Auch der separate Höchsttarif-Reiter ist ausgeblendet; das Referenzprofil bleibt für Berechnungen und Tests erhalten.
 
 Prüfen und statisch bauen:
 
@@ -81,7 +81,7 @@ Als Hauptdarstellung sind seit 8. November 2026 **eingefärbte Gemeindeflächen*
 
 Die Webgeometrie wird reproduzierbar aus den archivierten BKG-Grenzen aufbereitet. Sie enthält die zwölf Vergleichskommunen und 128 Umgebungsgebiete und umfasst rund 132 kB. Grenzstand 1. Januar 2025, Quellen, Lizenz und Prüfsummen sind gesichert; die aktuelle Verarbeitung steht in [WEBANWENDUNG.md](docs/WEBANWENDUNG.md). Die älteren HTML-Entwürfe in `output/` bleiben Gesprächsvorschauen mit Höchsttarifwerten.
 
-Die Modellfamilie ist das Standardprofil in Python, Exporten und der Website. Die Höchsttarifreferenz ist als zweite Ansicht auswählbar. Die individuelle Eingabe ist über `web/src/site/features.ts` vorerst deaktiviert. Code und Tests bleiben für eine spätere fachlich geprüfte Reaktivierung erhalten. Einfache Modellfamilien mit wenigen Auswahlmöglichkeiten sollen die Hauptbedienung bilden; zusätzliche Varianten sind noch nicht freigegeben.
+Die Modellfamilie ist das Standardprofil in Python, Exporten und der Website. Der separate Höchsttarif-Reiter ist über `FEATURES.highestBandReference` ausgeblendet; Profil, Exporte und Tests bleiben erhalten. Die individuelle Eingabe ist über `web/src/site/features.ts` vorerst deaktiviert. Code und Tests bleiben für eine spätere fachlich geprüfte Reaktivierung erhalten. Einfache Modellfamilien mit wenigen Auswahlmöglichkeiten sollen die Hauptbedienung bilden; die vereinbarte Konfiguration ist noch nicht umgesetzt.
 
 Die Erweiterungsstrategie ist im Websitekonzept festgehalten: ein zentrales Kommunenregister, getrennte Kartenflächen und Gebührenordnungen, eine eigenständige Tarifberechnung, bedarfsgerecht geladene regionale Daten und eine austauschbare Kartenansicht. Neue Kommunen benötigen Register-, Tarif- und Geometriedaten sowie Referenzfälle; neue Abrechnungsregeln können zusätzliche Berechnungslogik erfordern.
 

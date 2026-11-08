@@ -86,12 +86,12 @@ export function App() {
       </section> : <>
         <section className={styles.profileCard} aria-label="Vergleichsprofil">
           <div className={styles.profileTitle}><span className={styles.profileIcon} aria-hidden="true">↔</span><div><strong>Gleiche Familie. Gleicher Bedarf.</strong><span>Die Kommune macht den Unterschied.</span></div></div>
-          <fieldset className={styles.profileSwitch}>
+          {(FEATURES.personalProfiles || FEATURES.highestBandReference) && <fieldset className={styles.profileSwitch}>
             <legend className={styles.visuallyHidden}>Vergleichsprofil wählen</legend>
             <label><input type="radio" name="profile" value="default" checked={profileName === "default"} onChange={() => setProfileName("default")} /><span>Modellfamilie</span></label>
-            <label><input type="radio" name="profile" value="highest_band" checked={profileName === "highest_band"} onChange={() => setProfileName("highest_band")} /><span>Höchsttarif</span></label>
+            {FEATURES.highestBandReference && <label><input type="radio" name="profile" value="highest_band" checked={profileName === "highest_band"} onChange={() => setProfileName("highest_band")} /><span>Höchsttarif</span></label>}
             {FEATURES.personalProfiles && <label><input type="radio" name="profile" value="personal" checked={profileName === "personal"} onChange={enterPersonal} /><span>Eigene Familie</span></label>}
-          </fieldset>
+          </fieldset>}
           {profileName !== "personal" && <><div className={styles.profileFacts}><span><strong>1 Kind, 2 Jahre</strong>Krippenbetreuung</span><span><strong>Mo–Fr, mind. 8 Std.</strong>Durchgehend pro Tag</span><span><strong>{profileName === "default" ? "80.000 € Brutto / Jahr" : "Höchste Einkommensstufe"}</strong>{profileName === "default" ? "60.000 € steuerlich, separat angenommen" : "Ohne Pass- und Sozialermäßigung"}</span></div>
           <details className={styles.assumptions}><summary>Vergleichsannahmen ansehen</summary>
             <p>{profileName === "default"

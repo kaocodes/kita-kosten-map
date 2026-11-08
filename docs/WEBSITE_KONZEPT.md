@@ -150,13 +150,13 @@ Die Quelle verlangt Namensnennung nach **Datenlizenz Deutschland – Namensnennu
 
 **Mobil:** Karte und Liste können über einen Umschalter erreichbar sein; Gemeindedetails stehen darunter. Alle wesentlichen Informationen sollen per Tastatur und ohne Hover erreichbar bleiben. Die Liste bietet Zugang zu den Werten unabhängig von der Kartenbedienung. Das genaue Layout und die Abnahmekriterien zur Barrierefreiheit sind noch zu bestimmen.
 
-**Aktuelle Bedienentscheidung (8. November 2026):** „Eigene Familie“ ist über `FEATURES.personalProfiles` deaktiviert. Die bestehenden Referenzprofile bleiben sichtbar. Zusätzliche Modellfamilien mit wenigen Auswahlmöglichkeiten werden zunächst abgestimmt; sie sind noch nicht eingebaut.
+**Aktuelle Bedienentscheidung (8. November 2026):** „Eigene Familie“ ist über `FEATURES.personalProfiles` deaktiviert. Auch der separate Höchsttarif-Reiter ist über `FEATURES.highestBandReference` ausgeblendet. Die bisherige Standard-Modellfamilie bleibt sichtbar. Die vereinbarte Konfiguration mit Kinderkategorien, 6/8 Stunden Betreuung und sechs Einkommensszenarien ist noch nicht eingebaut; Einzelheiten stehen in `WEBANWENDUNG.md`.
 
 Das bereits implementierte, vorerst deaktivierte Familienformular kann ein einstellbares Familienprofil bieten. Nutzer können Kinder mit Alter und Haushaltszugehörigkeit, das zu vergleichende Kind, gleichzeitig betreute Geschwister, Haushaltskonstellation, Bruttojahreseinkommen, zu versteuerndes Einkommen, Betreuungstage und Tagesstunden sowie vorhandene Pässe oder bewilligte Vergünstigungen angeben. Karte, Liste und Gemeindedetails verwenden dasselbe Profil. Die genaue Anordnung der Eingaben bleibt Teil der Oberflächengestaltung.
 
 Dabei gelten folgende Verhaltensregeln:
 
-- Die Modellfamilie kann mit einer Aktion wiederhergestellt werden. Zusätzlich bleibt ein ausdrücklich benannter Höchsttarifvergleich auswählbar.
+- Die Modellfamilie kann mit einer Aktion wiederhergestellt werden. Die Höchsttarifreferenz bleibt für Datenprüfung und Exporte erhalten; ihr separater Reiter entfällt.
 - Zusammenleben und Alleinerziehen werden als Haushaltsmerkmale erfasst. Bei getrennten Haushalten sind die Zugehörigkeit der Kinder und die nach der jeweiligen Quelle relevanten Einkünfte ausdrücklich zu klären; der Familienstand allein legt keinen Tarif fest.
 - Familiengröße, Kindergeldberechtigung und Rang in gleichzeitiger Betreuung bleiben getrennte Merkmale.
 - Bruttoeinkommen, steuerliches Einkommen und davon abweichende kommunale Einkommensbegriffe werden nicht stillschweigend gleichgesetzt. Weitere Angaben werden dort abgefragt, wo sie für die lokale Einkommensdefinition erforderlich sind.

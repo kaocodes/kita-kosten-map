@@ -27,7 +27,7 @@ Die Build-Vorschau läuft unter **http://127.0.0.1:4173/**. `dist/` enthält die
 ## 2. Sichtbare Funktionen
 
 - Gemeindekarte mit zwölf auswählbaren Gebührenflächen und 128 umliegenden Gemeindegebieten als räumlichem Kontext.
-- Umschalten zwischen Modellfamilie und Höchsttarifreferenz; Karte, Vergleichsliste und Detailbereich verwenden dasselbe Ergebnis.
+- Vergleich für die bisherige Standard-Modellfamilie; Karte, Vergleichsliste und Detailbereich verwenden dasselbe Ergebnis. „Eigene Familie“ und der separate Höchsttarif-Reiter sind ausgeblendet.
 - Monatsäquivalent, ursprünglicher Monatsbeitrag, Beitragsmonate, gebuchte Wochenstunden, zusätzliche Buchungszeit und Tarifbeginn je Kommune.
 - Verpflegung und Zusatzkosten als gesonderte Varianten; fehlende Beitragsmonate bleiben ausdrücklich unbekannt.
 - Direkte Links zu offiziellen Gebührenquellen und aufklappbare Fundstellen.
@@ -38,7 +38,9 @@ Die Build-Vorschau läuft unter **http://127.0.0.1:4173/**. `dist/` enthält die
 
 **Aktuelle Entscheidung vom 8. November 2026:** „Eigene Familie“ wird nicht mehr angeboten. `web/src/site/features.ts` setzt `FEATURES.personalProfiles` auf `false` und entfernt damit Auswahl und Formular aus der Oberfläche. Formular, Integration, Rechenkern und alle Tests bleiben erhalten. Die folgende Beschreibung dokumentiert das deaktivierte Verhalten. Eine spätere Reaktivierung benötigt eine fachliche Prüfung der örtlichen Einkommensdefinitionen und bekannten Sonderregeln; der Schalter allein ist keine fachliche Freigabe.
 
-Stattdessen sollen leicht konfigurierbare Modellfamilien angeboten werden. Vorgeschlagen sind wenige Familienmodelle sowie feste Betreuungs- und Einkommensszenarien. Diese zusätzlichen Varianten sind noch nicht beschlossen oder eingebaut. Bis dahin bleiben die vorhandene Modellfamilie und die Höchsttarifreferenz unverändert.
+Die vereinbarte Modellkonfiguration ist noch nicht umgesetzt: Haushaltskonstellation, Kinderzahl, je Kind Krippe/Kindergarten/Schulkind/zu Hause betreut, sechs Haushaltseinkommen (40.000/60.000/80.000/100.000/140.000/180.000 € jährlich) und je betreutem Kind 6 oder 8 Stunden täglich. Die Karte soll die vollständigen Betreuungskosten aller betreuten Kinder zeigen. Örtliche Einkommensannahmen und Geschwisterzuordnungen müssen dafür fachlich geprüft werden. Der bisherige Standard bleibt vorbelegt.
+
+Der separate Höchsttarif-Reiter ist ebenfalls über `FEATURES.highestBandReference: false` ausgeblendet. Ist keine zusätzliche Profilansicht aktiv, entfällt der gesamte Profilumschalter. Referenzdatei, Browserkatalog, Exporte, Berechnung und Tests des Höchsttarifs bleiben erhalten. Ein hohes Bruttoszenario entspricht nicht zwangsläufig in jeder Gemeinde dem Höchsttarif; die tatsächliche Abdeckung muss anhand der örtlichen Modellwerte geprüft werden.
 
 „Eigene Familie“ übernimmt zunächst Familienstruktur und Betreuungszeiten der Modellfamilie. Einkommen, Betreuungsrang, Pässe, Ermäßigungen und deren Bestätigungen bleiben leer. Ein Wechsel zu einer Referenz und zurück erhält die persönlichen Eingaben innerhalb dieses Browserfensters. „Modellfamilie wiederherstellen“ setzt den persönlichen Entwurf zurück und aktiviert die Referenz. Neuladen verwirft persönliche Eingaben; es gibt keine Speicherung in URL, Local Storage oder Backend.
 

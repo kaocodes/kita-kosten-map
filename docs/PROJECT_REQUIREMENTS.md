@@ -138,7 +138,7 @@ Für jede Quelle und jeden daraus übernommenen Tarifstand sind nach Möglichkei
 
 ### 7.2 Startprofil und individuelle Einstellungen
 
-**Aktuelle Bedienentscheidung (8. November 2026):** Die individuelle Eingabe „Eigene Familie“ ist vorerst ausgeblendet; Code und Tests bleiben erhalten. Die Hauptbedienung soll auf einfach auswählbaren Modellfamilien beruhen. Zusätzliche Familien-, Betreuungs- und Einkommensszenarien werden zunächst abgestimmt und müssen vollständige, ausdrücklich dokumentierte Modellannahmen erhalten. Der bestehende Standard und die Höchsttarifreferenz bleiben bis dahin unverändert. Die weiter unten beschriebenen persönlichen Eingaben sind eine zurückgestellte Funktion.
+**Aktuelle Bedienentscheidung (8. November 2026):** Die individuelle Eingabe „Eigene Familie“ ist vorerst ausgeblendet; Code und Tests bleiben erhalten. Die Hauptbedienung soll auf einfach auswählbaren Modellfamilien beruhen. Vereinbart sind Haushaltskonstellation, Anzahl der Kinder, Kategorien Krippe/Kindergarten/Schulkind/zu Hause betreut, Einkommen 40.000/60.000/80.000/100.000/140.000/180.000 € und je betreutem Kind 6 oder 8 Stunden täglich. Die künftige Karte zeigt die vollständigen Betreuungskosten der Familie. Diese Konfiguration ist noch nicht umgesetzt und benötigt geprüfte örtliche Modellannahmen. Der bisherige Standard bleibt unverändert. Der separate Höchsttarif-Reiter ist ausgeblendet; Referenzprofil und Tests bleiben erhalten. Die weiter unten beschriebenen persönlichen Eingaben sind eine zurückgestellte Funktion.
 
 Die Website soll mit einer einstellbaren Modellfamilie starten:
 
@@ -153,7 +153,7 @@ Das Profil ist eine transparente Referenzannahme und kein statistisch belegter D
 
 Nutzer sollen Kinderzahl und Alter, Haushaltszugehörigkeit und -konstellation, gleichzeitig betreute Geschwister, Brutto- und steuerliches Einkommen, Betreuungstage und Tagesstunden sowie vorhandene Pässe oder bewilligte Vergünstigungen einstellen können. Karte, Liste und Details verwenden dasselbe Profil. Eine Aktion stellt die Modellfamilie wieder her. Fehlende lokale Pflichtangaben ergeben eine eigene Kennzeichnung statt einer Schätzung. Eine geänderte persönliche Einkommenseingabe darf nicht unbemerkt mit einer alten steuerlichen Modellannahme kombiniert werden.
 
-**Implementierungsstand nach Paket 4:** `data/profiles/default.json`, Standardexporte und Website verwenden die Modellfamilie. `data/profiles/highest_band.json` erhält die Höchsttarifreferenz, die auf der Website als zweites Profil auswählbar ist. Beide Profile sind für alle zwölf Kommunen gegen belegte Sollwerte geprüft. Lokale Einkommensgrundlagen sind ausdrücklich erfasst; ein Snapshot schützt gegen unbemerkt veränderte Modellannahmen. Esslingen wird im Modell ohne den optionalen Arbeitnehmer-Pauschbetrag berechnet. Die persönliche Eingabeoberfläche ist als drittes Profil „Eigene Familie“ umgesetzt. Sie entfernt Modell-Einkommen und Berechtigungen, hält Einkommensdefinitionen getrennt und aktualisiert Karte, Liste und Details. Fehlerhafte Eingaben entfernen alle bisherigen Gebühren; fehlende Angaben sperren nur die betroffenen Berechnungen. Persönliche Angaben werden nicht gespeichert oder übertragen. Details und Abnahme stehen in [WEBANWENDUNG.md](WEBANWENDUNG.md).
+**Implementierungsstand nach Paket 4:** `data/profiles/default.json`, Standardexporte und Website verwenden die Modellfamilie. `data/profiles/highest_band.json` erhält die Höchsttarifreferenz, deren separater Reiter inzwischen ausgeblendet ist; Profil und Tests bleiben erhalten. Beide Profile sind für alle zwölf Kommunen gegen belegte Sollwerte geprüft. Lokale Einkommensgrundlagen sind ausdrücklich erfasst; ein Snapshot schützt gegen unbemerkt veränderte Modellannahmen. Esslingen wird im Modell ohne den optionalen Arbeitnehmer-Pauschbetrag berechnet. Die persönliche Eingabeoberfläche ist als drittes Profil „Eigene Familie“ umgesetzt. Sie entfernt Modell-Einkommen und Berechtigungen, hält Einkommensdefinitionen getrennt und aktualisiert Karte, Liste und Details. Fehlerhafte Eingaben entfernen alle bisherigen Gebühren; fehlende Angaben sperren nur die betroffenen Berechnungen. Persönliche Angaben werden nicht gespeichert oder übertragen. Details und Abnahme stehen in [WEBANWENDUNG.md](WEBANWENDUNG.md).
 
 Originalbeiträge, tatsächlicher Buchungsumfang, Mehrstunden und Beitragsmonate bleiben sichtbar. Das Jahresäquivalent hält den Tarif am Stichtag konstant und bildet keine tatsächliche Jahresabrechnung mit unterjährigen Änderungen ab.
 
@@ -162,7 +162,7 @@ Originalbeiträge, tatsächlicher Buchungsumfang, Mehrstunden und Beitragsmonate
 - Die Karte soll Gebühren zwischen den erfassten Gebieten vergleichbar machen.
 - Eine Kartenfarbe basiert standardmäßig auf dem beschlossenen monatlichen Betreuungsäquivalent. Tarifstichtag und Profil müssen sichtbar sein.
 - Farbschema und Legende sind noch zu gestalten. Fehlende und mehrdeutige Ergebnisse bekommen keine aus null Euro abgeleitete Kartenfarbe.
-- Einstellbare Modellfamilie und Höchsttarifvergleich sind für die Oberfläche vorgesehen. Weitere Komfortprofile bleiben optional.
+- Die konfigurierbare Modellfamilie bildet die künftige Hauptbedienung. Ein separater Höchsttarif-Reiter entfällt. Weitere Komfortprofile bleiben optional.
 
 ## 8. Technische Leitplanken
 

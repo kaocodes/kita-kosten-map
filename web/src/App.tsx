@@ -2,6 +2,7 @@ import { lazy, Suspense, useEffect, useMemo, useState } from "react";
 import { compareMunicipalities } from "./domain/index.js";
 import { createPersonalDraft, personalResults } from "./site/personal-profile.js";
 import type { PersonalDraft } from "./site/personal-profile.js";
+import { FEATURES } from "./site/features.js";
 import { MunicipalityMap } from "./components/MunicipalityMap.js";
 import { MunicipalityDetails } from "./components/MunicipalityDetails.js";
 import { loadSiteData } from "./site/data.js";
@@ -89,7 +90,7 @@ export function App() {
             <legend className={styles.visuallyHidden}>Vergleichsprofil wählen</legend>
             <label><input type="radio" name="profile" value="default" checked={profileName === "default"} onChange={() => setProfileName("default")} /><span>Modellfamilie</span></label>
             <label><input type="radio" name="profile" value="highest_band" checked={profileName === "highest_band"} onChange={() => setProfileName("highest_band")} /><span>Höchsttarif</span></label>
-            <label><input type="radio" name="profile" value="personal" checked={profileName === "personal"} onChange={enterPersonal} /><span>Eigene Familie</span></label>
+            {FEATURES.personalProfiles && <label><input type="radio" name="profile" value="personal" checked={profileName === "personal"} onChange={enterPersonal} /><span>Eigene Familie</span></label>}
           </fieldset>
           {profileName !== "personal" && <><div className={styles.profileFacts}><span><strong>1 Kind, 2 Jahre</strong>Krippenbetreuung</span><span><strong>Mo–Fr, mind. 8 Std.</strong>Durchgehend pro Tag</span><span><strong>{profileName === "default" ? "80.000 € Brutto / Jahr" : "Höchste Einkommensstufe"}</strong>{profileName === "default" ? "60.000 € steuerlich, separat angenommen" : "Ohne Pass- und Sozialermäßigung"}</span></div>
           <details className={styles.assumptions}><summary>Vergleichsannahmen ansehen</summary>
@@ -98,7 +99,7 @@ export function App() {
               : "Ein zweijähriges Kind ohne Geschwister, höchste reguläre Einkommensstufe. Pässe und zusätzliche Sozialermäßigungen sind nicht berücksichtigt. Dieses Profil ist eine Vollzahlerreferenz und kein durchschnittlicher Haushalt."}</p>
             <p>Gewählt wird das kleinste belegte Paket, das an jedem Wochentag mindestens acht Stunden durchgehende Betreuung abdeckt. Ein veröffentlichtes Angebot garantiert keinen freien Platz.</p>
           </details></>}
-          {profileName === "personal" && personalDraft && personal && <details open className={styles.personalPanel}>
+          {FEATURES.personalProfiles && profileName === "personal" && personalDraft && personal && <details open className={styles.personalPanel}>
             <summary>Eigene Angaben bearbeiten <span>{personalDraft.children.length} {personalDraft.children.length === 1 ? "Kind" : "Kinder"} · {comparable.length} von {results.length} Kommunen berechenbar</span></summary>
             <Suspense fallback={<p role="status">Familienformular wird geladen …</p>}><FamilyForm draft={personalDraft} errors={personal.errors}
             tariffs={data.bundle.tariffs} registry={data.bundle.registry} selectedId={selected?.municipality_id ?? ""}

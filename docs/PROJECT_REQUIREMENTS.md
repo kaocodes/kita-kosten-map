@@ -1,6 +1,6 @@
 # Projektanforderungen: Kita- und Kindergartengebühren in der Region Stuttgart
 
-**Status:** Datenmodell, Kommunenregister, Rechenkern und lokale Webkarte umgesetzt; Pages-Veröffentlichung automatisiert; individuelles Familienformular umgesetzt
+**Status:** Datenmodell, Kommunenregister, Rechenkern und lokale Webkarte umgesetzt; Pages-Veröffentlichung automatisiert; individuelles Familienformular erhalten, vorerst ausgeblendet
 **Stand:** 8. November 2026
 
 ## 1. Projektziel
@@ -137,6 +137,8 @@ Für jede Quelle und jeden daraus übernommenen Tarifstand sind nach Möglichkei
 - Öffnungszeiten und Kontaktdaten einzelner Kitas sind nicht erforderlich.
 
 ### 7.2 Startprofil und individuelle Einstellungen
+
+**Aktuelle Bedienentscheidung (8. November 2026):** Die individuelle Eingabe „Eigene Familie“ ist vorerst ausgeblendet; Code und Tests bleiben erhalten. Die Hauptbedienung soll auf einfach auswählbaren Modellfamilien beruhen. Zusätzliche Familien-, Betreuungs- und Einkommensszenarien werden zunächst abgestimmt und müssen vollständige, ausdrücklich dokumentierte Modellannahmen erhalten. Der bestehende Standard und die Höchsttarifreferenz bleiben bis dahin unverändert. Die weiter unten beschriebenen persönlichen Eingaben sind eine zurückgestellte Funktion.
 
 Die Website soll mit einer einstellbaren Modellfamilie starten:
 

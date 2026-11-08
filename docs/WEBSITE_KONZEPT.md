@@ -1,7 +1,7 @@
 # Website: Architektur, Karte und Bedienung
 
 **Stand:** 8. November 2026  
-**Status:** Pakete 1 bis 4 umgesetzt: Register, Profile, TypeScript-Rechenkern und lokal aufrufbare React-/Leaflet-Website. Pages-Veröffentlichung ist automatisiert; das individuelle Formular mit Einkommensprüfung, örtlichen Vergünstigungen und gemeinsamer Aktualisierung aller Ansichten ist umgesetzt.
+**Status:** Pakete 1 bis 4 umgesetzt: Register, Profile, TypeScript-Rechenkern und lokal aufrufbare React-/Leaflet-Website. Pages-Veröffentlichung ist automatisiert. Das individuelle Formular bleibt im Code erhalten, ist aber vorerst ausgeblendet; leicht konfigurierbare Modellfamilien sollen die Hauptbedienung bilden.
 
 Dieses Dokument bündelt die technische Beratung, die gezeigten Entwürfe und die daraus getroffenen Entscheidungen. Die fachlichen Anforderungen stehen in [PROJECT_REQUIREMENTS.md](PROJECT_REQUIREMENTS.md), die verbindliche Berechnung in [DATENMODELL.md](DATENMODELL.md) und das Referenzprofil in [STANDARDVERGLEICH.md](STANDARDVERGLEICH.md).
 
@@ -150,7 +150,9 @@ Die Quelle verlangt Namensnennung nach **Datenlizenz Deutschland – Namensnennu
 
 **Mobil:** Karte und Liste können über einen Umschalter erreichbar sein; Gemeindedetails stehen darunter. Alle wesentlichen Informationen sollen per Tastatur und ohne Hover erreichbar bleiben. Die Liste bietet Zugang zu den Werten unabhängig von der Kartenbedienung. Das genaue Layout und die Abnahmekriterien zur Barrierefreiheit sind noch zu bestimmen.
 
-Die erste Oberfläche soll ein einstellbares Familienprofil bieten. Nutzer können Kinder mit Alter und Haushaltszugehörigkeit, das zu vergleichende Kind, gleichzeitig betreute Geschwister, Haushaltskonstellation, Bruttojahreseinkommen, zu versteuerndes Einkommen, Betreuungstage und Tagesstunden sowie vorhandene Pässe oder bewilligte Vergünstigungen angeben. Karte, Liste und Gemeindedetails verwenden dasselbe Profil. Die genaue Anordnung der Eingaben bleibt Teil der Oberflächengestaltung.
+**Aktuelle Bedienentscheidung (8. November 2026):** „Eigene Familie“ ist über `FEATURES.personalProfiles` deaktiviert. Die bestehenden Referenzprofile bleiben sichtbar. Zusätzliche Modellfamilien mit wenigen Auswahlmöglichkeiten werden zunächst abgestimmt; sie sind noch nicht eingebaut.
+
+Das bereits implementierte, vorerst deaktivierte Familienformular kann ein einstellbares Familienprofil bieten. Nutzer können Kinder mit Alter und Haushaltszugehörigkeit, das zu vergleichende Kind, gleichzeitig betreute Geschwister, Haushaltskonstellation, Bruttojahreseinkommen, zu versteuerndes Einkommen, Betreuungstage und Tagesstunden sowie vorhandene Pässe oder bewilligte Vergünstigungen angeben. Karte, Liste und Gemeindedetails verwenden dasselbe Profil. Die genaue Anordnung der Eingaben bleibt Teil der Oberflächengestaltung.
 
 Dabei gelten folgende Verhaltensregeln:
 

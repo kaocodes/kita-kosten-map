@@ -27,14 +27,18 @@ Die Build-Vorschau läuft unter **http://127.0.0.1:4173/**. `dist/` enthält die
 ## 2. Sichtbare Funktionen
 
 - Gemeindekarte mit zwölf auswählbaren Gebührenflächen und 128 umliegenden Gemeindegebieten als räumlichem Kontext.
-- Umschalten zwischen Modellfamilie, Höchsttarifreferenz und eigener Familie; Karte, Vergleichsliste und Detailbereich verwenden dasselbe Ergebnis.
+- Umschalten zwischen Modellfamilie und Höchsttarifreferenz; Karte, Vergleichsliste und Detailbereich verwenden dasselbe Ergebnis.
 - Monatsäquivalent, ursprünglicher Monatsbeitrag, Beitragsmonate, gebuchte Wochenstunden, zusätzliche Buchungszeit und Tarifbeginn je Kommune.
 - Verpflegung und Zusatzkosten als gesonderte Varianten; fehlende Beitragsmonate bleiben ausdrücklich unbekannt.
 - Direkte Links zu offiziellen Gebührenquellen und aufklappbare Fundstellen.
 - Feste Gebührenlegende, Zoom, Verschieben und Zurücksetzen auf die gesamte Vergleichsregion.
 - Gemeindewahl per Maus, Tastatur oder Liste; auf schmalen Bildschirmen stehen Karte und Details untereinander. Die Detailansicht wird bei der Auswahl erreicht.
 
-### Persönliches Profil (Paket 4)
+### Persönliches Profil (Paket 4, vorerst deaktiviert)
+
+**Aktuelle Entscheidung vom 8. November 2026:** „Eigene Familie“ wird nicht mehr angeboten. `web/src/site/features.ts` setzt `FEATURES.personalProfiles` auf `false` und entfernt damit Auswahl und Formular aus der Oberfläche. Formular, Integration, Rechenkern und alle Tests bleiben erhalten. Die folgende Beschreibung dokumentiert das deaktivierte Verhalten. Eine spätere Reaktivierung benötigt eine fachliche Prüfung der örtlichen Einkommensdefinitionen und bekannten Sonderregeln; der Schalter allein ist keine fachliche Freigabe.
+
+Stattdessen sollen leicht konfigurierbare Modellfamilien angeboten werden. Vorgeschlagen sind wenige Familienmodelle sowie feste Betreuungs- und Einkommensszenarien. Diese zusätzlichen Varianten sind noch nicht beschlossen oder eingebaut. Bis dahin bleiben die vorhandene Modellfamilie und die Höchsttarifreferenz unverändert.
 
 „Eigene Familie“ übernimmt zunächst Familienstruktur und Betreuungszeiten der Modellfamilie. Einkommen, Betreuungsrang, Pässe, Ermäßigungen und deren Bestätigungen bleiben leer. Ein Wechsel zu einer Referenz und zurück erhält die persönlichen Eingaben innerhalb dieses Browserfensters. „Modellfamilie wiederherstellen“ setzt den persönlichen Entwurf zurück und aktiviert die Referenz. Neuladen verwirft persönliche Eingaben; es gibt keine Speicherung in URL, Local Storage oder Backend.
 
@@ -99,7 +103,7 @@ Messstand dieser Umsetzung:
 | JavaScript-Bundle | rund 508 kB | rund 154 kB |
 | CSS-Bundle | rund 34 kB | rund 11 kB |
 
-Das persönliche Formular wird erst bei Auswahl als zusätzliches Modul geladen (rund 11 kB JavaScript und 3 kB CSS, zusammen ungefähr 5 kB gzip). Der Haupt-Build liegt knapp über der Vite-Hinweisschwelle von 500 kB unkomprimiert; die Datenbudgets bleiben erfüllt.
+Das vorerst deaktivierte persönliche Formular ist als zusätzliches Modul angelegt und wird bei ausgeschaltetem Feature nicht angefordert; bei einer Reaktivierung würde es erst bei Auswahl geladen (rund 11 kB JavaScript und 3 kB CSS, zusammen ungefähr 5 kB gzip). Der Haupt-Build liegt knapp über der Vite-Hinweisschwelle von 500 kB unkomprimiert; die Datenbudgets bleiben erfüllt.
 
 Die rechnerische gzip-Summe aus HTML, CSS, JavaScript, Geometrie und Browserkatalog liegt bei ungefähr **240 kB**. Tatsächlicher Transfer und Ladezeit hängen von Serverkomprimierung, Verbindung und Cache ab. Die lokale einfache HTTP-Vorschau liefert Dateien unkomprimiert aus. Quellen-PDFs und das vollständige Forschungsarchiv gehören nicht zum Website-Build.
 

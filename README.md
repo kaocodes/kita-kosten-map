@@ -37,7 +37,7 @@ npm ci
 npm run dev
 ```
 
-Danach **http://127.0.0.1:5173/** öffnen. Die Website zeigt Gemeindeflächen, beide Vergleichsprofile, eine Gebührenliste und Gemeindedetails mit Quellen. Unter „Eigene Familie“ lassen sich Kinder, Haushalt, tägliche Betreuungszeiten, getrennte Einkommensgrundlagen und bestätigte örtliche Ermäßigungen einstellen.
+Danach **http://127.0.0.1:5173/** öffnen. Die Website zeigt Gemeindeflächen, beide Vergleichsprofile, eine Gebührenliste und Gemeindedetails mit Quellen. „Eigene Familie“ ist vorerst ausgeblendet; Formular, Rechenkern und Tests bleiben erhalten. Die sichtbare Auswahl umfasst die geprüfte Modellfamilie und die Höchsttarifreferenz.
 
 Prüfen und statisch bauen:
 
@@ -81,11 +81,11 @@ Als Hauptdarstellung sind seit 8. November 2026 **eingefärbte Gemeindeflächen*
 
 Die Webgeometrie wird reproduzierbar aus den archivierten BKG-Grenzen aufbereitet. Sie enthält die zwölf Vergleichskommunen und 128 Umgebungsgebiete und umfasst rund 132 kB. Grenzstand 1. Januar 2025, Quellen, Lizenz und Prüfsummen sind gesichert; die aktuelle Verarbeitung steht in [WEBANWENDUNG.md](docs/WEBANWENDUNG.md). Die älteren HTML-Entwürfe in `output/` bleiben Gesprächsvorschauen mit Höchsttarifwerten.
 
-Die Modellfamilie ist das Standardprofil in Python, Exporten und der Website. Die Höchsttarifreferenz ist als zweite Ansicht auswählbar. Kinder, Haushalt, Einkommen, Betreuungsbedarf und nachgewiesene Vergünstigungen sind über „Eigene Familie“ einstellbar. Modell-Einkommen werden beim ersten Wechsel entfernt; persönliche Angaben bleiben ausschließlich im Arbeitsspeicher des Browserfensters.
+Die Modellfamilie ist das Standardprofil in Python, Exporten und der Website. Die Höchsttarifreferenz ist als zweite Ansicht auswählbar. Die individuelle Eingabe ist über `web/src/site/features.ts` vorerst deaktiviert. Code und Tests bleiben für eine spätere fachlich geprüfte Reaktivierung erhalten. Einfache Modellfamilien mit wenigen Auswahlmöglichkeiten sollen die Hauptbedienung bilden; zusätzliche Varianten sind noch nicht freigegeben.
 
 Die Erweiterungsstrategie ist im Websitekonzept festgehalten: ein zentrales Kommunenregister, getrennte Kartenflächen und Gebührenordnungen, eine eigenständige Tarifberechnung, bedarfsgerecht geladene regionale Daten und eine austauschbare Kartenansicht. Neue Kommunen benötigen Register-, Tarif- und Geometriedaten sowie Referenzfälle; neue Abrechnungsregeln können zusätzliche Berechnungslogik erfordern.
 
-**Pakete 1 bis 4 umgesetzt:** Register, beide Referenzprofile, unabhängige TypeScript-Berechnung sowie die lokal aufrufbare Website mit Gemeindekarte und reproduzierbarer Geodatenaufbereitung. Die Gegenprüfung umfasst 104 gemeinsame Szenarien; zusätzliche Webtests sichern Geometriezuordnung, Gebührenwerte und Datenbudgets. Das Familienformular aktualisiert Karte, Liste und Details gemeinsam; Eingabeprüfung, Mobilansicht und Tastaturbedienung sind geprüft. Die statische Veröffentlichung auf GitHub Pages ist automatisiert. Als Nächstes sind eine fachliche Nutzerabnahme weiterer persönlicher Konstellationen und die planmäßige Tarifpflege sinnvoll.
+**Pakete 1 bis 4 umgesetzt:** Register, beide Referenzprofile, unabhängige TypeScript-Berechnung sowie die lokal aufrufbare Website mit Gemeindekarte und reproduzierbarer Geodatenaufbereitung. Die Gegenprüfung umfasst 104 gemeinsame Szenarien; zusätzliche Webtests sichern Geometriezuordnung, Gebührenwerte und Datenbudgets. Das Familienformular aktualisiert Karte, Liste und Details gemeinsam; Eingabeprüfung, Mobilansicht und Tastaturbedienung sind geprüft. Die statische Veröffentlichung auf GitHub Pages ist automatisiert. Als Nächstes werden die auswählbaren Modellfamilien und deren ausdrücklich dokumentierte Annahmen festgelegt. Die planmäßige Tarifpflege bleibt ein weiterer Ausbauschritt.
 
 ## Veröffentlichung und Aktualisierung
 

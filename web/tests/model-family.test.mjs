@@ -85,22 +85,28 @@ test("A family without Kita children has explicitly zero Kita fees and no invent
   }
 });
 
-test("Equal Sindelfingen packages have an invariant sum across all sibling rank allocations", () => {
+test("Equal Sindelfingen categories follow input order and retain the reviewed sum", () => {
   const row = city(compare({ ...base(), children: [child("nursery"), child("nursery")] }), "sindelfingen");
   assert.equal(row.status, "comparable");
   assert.equal(row.monthly_equivalent_cents, 28200 + 21150);
-  assert.deepEqual(row.children[0].possible_monthly_cents, [21150, 28200]);
+  assert.equal(row.children[0].result.monthly_care_cents, 28200);
+  assert.equal(row.children[1].result.monthly_care_cents, 21150);
+  assert.equal(row.children[0].possible_monthly_cents, undefined);
 });
 
-test("Unequal Sindelfingen packages never publish an arbitrary rank-dependent household sum", () => {
+test("Sindelfingen assigns the older Kindergarten child first regardless of input position", () => {
   const selection = { ...base(), children: [child("nursery"), child("kindergarten")] };
   const row = city(compare(selection), "sindelfingen");
-  assert.equal(row.status, "ambiguous");
-  assert.equal(row.monthly_equivalent_cents, null);
-  assert.ok(row.reasons.includes("care_rank_allocation_unresolved"));
-  assert.deepEqual(row.children[0].possible_monthly_cents, [21150, 28200]);
+  assert.equal(row.status, "comparable");
+  assert.equal(row.monthly_equivalent_cents, 35420);
+  assert.equal(row.children[0].result.monthly_care_cents, 21150);
+  assert.equal(row.children[1].result.monthly_care_cents, 14270);
+  assert.deepEqual(row.reasons, []);
+  assert.ok(row.children.every(child => child.possible_monthly_cents === undefined));
   const reverse = city(compare({ ...selection, children: [...selection.children].reverse() }), "sindelfingen");
-  assert.equal(reverse.monthly_equivalent_cents, null);
+  assert.equal(reverse.monthly_equivalent_cents, 35420);
+  assert.equal(reverse.children[0].result.monthly_care_cents, 14270);
+  assert.equal(reverse.children[1].result.monthly_care_cents, 21150);
 });
 
 test("An unavailable child retains known sibling results but never a partial total", () => {
@@ -114,13 +120,45 @@ test("An unavailable child retains known sibling results but never a partial tot
   assert.equal(row.children[1].result.monthly_equivalent_cents, null);
 });
 
-test("An incomplete sibling-rank table never exposes an assumed first-child fee", () => {
+test("A missing assigned rank retains known sibling fees without publishing a partial total", () => {
   const tariffs = structuredClone(bundle.tariffs);
   const tariff = tariffs.find(item => item.id === "sindelfingen");
   tariff.prices = tariff.prices.filter(item => item.selectors.care_rank !== 2);
   const row = city(compare({ ...base(), children: [child("nursery"), child("nursery")] }, tariffs), "sindelfingen");
   assert.equal(row.monthly_equivalent_cents, null);
-  assert.ok(row.children.every(child => child.result.monthly_equivalent_cents === null));
+  assert.equal(row.status, "unavailable");
+  assert.equal(row.children[0].result.monthly_equivalent_cents, 28200);
+  assert.equal(row.children[1].result.monthly_equivalent_cents, null);
+});
+
+test("Sindelfingen ranks only Kita children while home and school children still count for family size", () => {
+  const row = city(compare({ ...base(), children: [child("school"), child("nursery"), child("home"), child("kindergarten")] }), "sindelfingen");
+  assert.equal(row.status, "comparable");
+  assert.equal(row.children[0].result, null);
+  assert.equal(row.children[2].result, null);
+  assert.equal(row.children[1].result.care_rank, 2);
+  assert.equal(row.children[3].result.care_rank, 1);
+  assert.equal(row.children[1].result.family_count, 4);
+});
+
+test("Same-category Sindelfingen children use input order even with different care durations", () => {
+  const row = city(compare({ ...base(), children: [child("nursery", 360), child("nursery", 480)] }), "sindelfingen");
+  assert.equal(row.children[0].result.monthly_care_cents, 19070);
+  assert.equal(row.children[1].result.monthly_care_cents, 21150);
+  assert.equal(row.monthly_equivalent_cents, 40220);
+  const reverse = city(compare({ ...base(), children: [child("nursery", 480), child("nursery", 360)] }), "sindelfingen");
+  assert.equal(reverse.children[0].result.monthly_care_cents, 28200);
+  assert.equal(reverse.children[1].result.monthly_care_cents, 14300);
+  assert.equal(reverse.monthly_equivalent_cents, 42500);
+});
+
+test("Geographic aliases sharing the Sindelfingen tariff use the same age-based ranking", () => {
+  const registry = structuredClone(bundle.registry);
+  const original = registry.municipalities.find(item => item.tariff_id === "sindelfingen");
+  registry.municipalities.push({ ...original, id: "synthetic-sindelfingen", ags: "99999998", area_id: "synthetic-sindelfingen" });
+  const rows = compare({ ...base(), children: [child("nursery"), child("kindergarten")] }, bundle.tariffs, registry);
+  assert.equal(city(rows, "synthetic-sindelfingen").monthly_equivalent_cents, 35420);
+  assert.equal(city(rows, "sindelfingen").monthly_equivalent_cents, 35420);
 });
 
 test("Annual totals are rounded once and never reconstructed from rounded monthly child values", () => {

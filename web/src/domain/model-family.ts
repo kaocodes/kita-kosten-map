@@ -98,7 +98,15 @@ export function compareModelFamily(tariffs: MunicipalityCatalog[], reference: Pr
       in_care: evaluated.has(index), result: evaluated.get(index)?.find(row => row.municipality_id === municipality.id) ?? null }));
     const rows = children.filter(child => child.in_care).map(child => child.result!);
     let rankAmbiguous = false;
-    if (rows.length > 1 && tariff.prices.some(row => row.selectors?.care_rank != null)) {
+    if (rows.length > 1 && tariff.id === "sindelfingen") {
+      // Model convention: oldest Kita child first; equal model ages follow input order.
+      const oldestFirst = [...activeChildren].sort((first, second) =>
+        profile.children[second.index].age_months - profile.children[first.index].age_months || first.index - second.index);
+      oldestFirst.forEach((child, rank) => {
+        children[child.index].result = compareMunicipalities([tariff], { ...profile, target_child: child.index,
+          weekday_minutes: Array(5).fill(child.daily_minutes), care_rank: rank + 1, school_entry: false }, registry, municipality.id)[0];
+      });
+    } else if (rows.length > 1 && tariff.prices.some(row => row.selectors?.care_rank != null)) {
       const matrix = activeChildren.map(child => Array.from({ length: rows.length }, (_, rank) =>
         compareMunicipalities([tariff], { ...profile, target_child: child.index, weekday_minutes: Array(5).fill(child.daily_minutes),
           care_rank: rank + 1, school_entry: false }, registry, municipality.id)[0]));

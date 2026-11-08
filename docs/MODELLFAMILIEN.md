@@ -50,14 +50,21 @@ Die Sortierung und feste Gebührenlegende verwenden denselben Familienwert wie d
 
 ## Sindelfinger Geschwisterränge
 
-Die Satzung vom 1. August 2026, § 11 Abs. 7 und Anlagen Seiten 12–13, unterscheidet Haushaltskinder und den Rang in städtischer Betreuung. Die vorliegende Quelle legt keine eindeutige Rangzuordnung bei unterschiedlichen Alters-/Betreuungspaketen fest. Daher wird keine Reihenfolge nach Alter, Eingabeposition oder Gebührenhöhe erfunden.
+Die Satzung vom 1. August 2026, § 11 Abs. 7 und Anlagen Seiten 12–13, unterscheidet Haushaltskinder und den Rang in städtischer Betreuung. Für den Modellvergleich gilt auf ausdrücklichen Nutzerwunsch folgende Festlegung:
 
-Die Berechnung prüft die möglichen Zuordnungen von Kindern zu den veröffentlichten Rängen. Eine dynamische Zuordnungsberechnung ermittelt die kleinste und größte mögliche Jahressumme. Sind diese gleich, ist der Familienbetrag unabhängig von der Zuordnung bekannt. Mögliche Einzelbeiträge werden gegebenenfalls als Spanne gekennzeichnet. Unterscheiden sich die Jahressummen oder fehlt eine erforderliche Tarifzelle, bleibt die Familiensumme `ambiguous`; ein Hinweis und Quellen bleiben sichtbar. Die Anzahlprüfung ist auf zwölf Kinder begrenzt.
+1. Ausschließlich gleichzeitig in einer Kita betreute Kinder erhalten einen Betreuungsrang. Schul- und zu Hause betreute Kinder zählen weiterhin nach örtlicher Regel zur Familiengröße, erhalten aber keinen Betreuungsrang.
+2. Das ältere betreute Kind erhält Rang 1, danach folgen die jüngeren. Entscheidend ist das festgelegte Modellalter der Kategorie: Kindergarten vor Krippe.
+3. Innerhalb derselben Kategorie entscheidet die Eingabereihenfolge. Der Betreuungsumfang ändert diese Reihenfolge nicht.
 
-Beispiele aus den veröffentlichten Zwei-Kind-GT8-Spalten:
+Dies ist eine festgelegte Modellkonvention und keine neu belegte amtliche Altersregel. Auf der Website wird auf ausdrücklichen Nutzerwunsch kein zusätzlicher Vermerk dazu ergänzt. Die Festlegung bleibt ausschließlich hier und im Code dokumentiert. Tarifkatalog und allgemeiner Rechenkern mit explizitem `care_rank` bleiben unverändert; die Modellberechnung setzt den Rang vor der jeweiligen Sindelfinger Auswertung.
 
-- Zwei Krippenkinder: 282,00 + 211,50 = **493,50 € monatlich**, unabhängig von der Zuordnung.
-- Krippe und Kindergarten: mögliche Summen **389,00 €** bzw. **354,20 €**. Ohne belegte Zuordnung wird keiner der Beträge als gesicherte Familiensumme veröffentlicht.
+Beispiele aus den veröffentlichten Zwei-Kind-Spalten:
+
+- Zwei Krippenkinder mit acht Stunden: 282,00 + 211,50 = **493,50 € monatlich**.
+- Krippe und Kindergarten mit acht Stunden: Kindergarten Rang 1 **142,70 €**, Krippe Rang 2 **211,50 €**, zusammen **354,20 € monatlich**. Ein Vertauschen dieser beiden Kategorien im Formular ändert die Summe nicht.
+- Zwei Krippenkinder, zuerst sechs und danach acht Stunden: **190,70 + 211,50 = 402,20 €**. Bei umgekehrter Eingabereihenfolge: **282,00 + 143,00 = 425,00 €**.
+
+Fehlt eine für den zugewiesenen Rang benötigte Tarifzelle, bleibt die vollständige Familiensumme weiterhin leer; bekannte Einzelbeiträge bleiben sichtbar. Für andere künftige Tarife ohne festgelegte Rangkonvention bleibt die bisherige Prüfung möglicher Zuordnungen erhalten.
 
 ## Korrekturen und Prüfung
 

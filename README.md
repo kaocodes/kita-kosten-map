@@ -49,7 +49,7 @@ npm run build
 npm run preview
 ```
 
-`npm test` prüft Rechenkern und Webdaten mit 148 JavaScript-Tests, einschließlich der gemeinsamen Szenarien gegen Python. `build` erzeugt die statische Website unter `dist/`; `preview` zeigt diesen Build unter **http://127.0.0.1:4173/**. Der Workflow unter `.github/workflows/pages.yml` prüft Änderungen und veröffentlicht erfolgreiche Builds von `main` auf GitHub Pages. Die Python-Datenpipeline benötigt weiterhin keine externen Python-Pakete.
+`npm test` prüft Rechenkern und Webdaten mit 151 JavaScript-Tests, einschließlich der gemeinsamen Szenarien gegen Python. `build` erzeugt die statische Website unter `dist/`; `preview` zeigt diesen Build unter **http://127.0.0.1:4173/**. Der Workflow unter `.github/workflows/pages.yml` prüft Änderungen und veröffentlicht erfolgreiche Builds von `main` auf GitHub Pages. Die Python-Datenpipeline benötigt weiterhin keine externen Python-Pakete.
 
 `export` erzeugt `data/exports/default_comparison.json` für die Modellfamilie und `highest_band_comparison.json` für die Höchsttarifreferenz, jeweils mit CSV-Datei. Dazu kommen Register, Katalog der aktiven Tarife sowie CSV-Tabellen für Tarife, Angebote, Einkommensstufen und Zusatzkosten. Beide deutschen Vergleichsberichte werden aktualisiert. Die CSV-Dateien sind abgeleitete Ansichten; ihre Geldbeträge stehen in **Cent**, Zeitangaben in **Minuten**. Verschachtelte Felder enthalten JSON. Das vollständige Quellenarchiv wird nicht in diese Exporte kopiert.
 

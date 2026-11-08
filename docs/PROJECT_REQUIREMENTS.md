@@ -1,6 +1,6 @@
 # Projektanforderungen: Kita- und Kindergartengebühren in der Region Stuttgart
 
-**Status:** Datenmodell, Kommunenregister, Rechenkern und lokale Webkarte umgesetzt; individuelles Formular und Veröffentlichung ausstehend  
+**Status:** Datenmodell, Kommunenregister, Rechenkern und lokale Webkarte umgesetzt; Pages-Veröffentlichung automatisiert; individuelles Formular ausstehend  
 **Stand:** 8. November 2026
 
 ## 1. Projektziel
@@ -185,7 +185,7 @@ Originalbeiträge, tatsächlicher Buchungsumfang, Mehrstunden und Beitragsmonate
 4. **Datenerhebung:** Aktuelle Tarife sind strukturiert übertragen und geprüft; Änderungen künftig versioniert ergänzen.
 5. **Vergleichsregeln bestimmen:** Höchsttarifreferenz, Modellfamilie und registergestützter Vergleich sind in Python und TypeScript umgesetzt und geprüft. Der Wechsel zum persönlichen Profil verwirft unbestätigte Modell-Einkommen. Browserintegration und Formular folgen.
 6. **Technische Umsetzung planen:** Gemeindeflächen sind beschlossen, statisches Hosting ist bevorzugt und Entwürfe sind vorhanden. Die verbleibenden Entscheidungen stehen im Websitekonzept.
-7. **Anwendung umsetzen:** Lokale Website, Gemeindekarte, Referenzprofilwahl und Grunddetails sind umgesetzt und im Browser geprüft. Individuelles Formular, vollständige Bedienabnahme und Deployment stehen aus.
+7. **Anwendung umsetzen:** Lokale Website, Gemeindekarte, Referenzprofilwahl und Grunddetails sind umgesetzt und im Browser geprüft. Pages-Deployment und automatische Prüfungen sind eingerichtet. Individuelles Formular und vollständige Bedienabnahme stehen aus.
 
 ## 10. Erste Abnahmekriterien für den Datensatz
 
@@ -208,5 +208,5 @@ Der Erhebungsdatensatz gilt als fachlich prüfbar, wenn:
 - Welche Sprachversionen benötigt die Anwendung? Deutsch ist die Projektsprache; eine englische UI ist noch nicht beschlossen.
 - Wie wird der dokumentierte Pflegeprozess aus Quellenkopie, JSON-Aktualisierung, Prüfung und Export künftig organisatorisch betrieben?
 - Welche konkreten Paketversionen und Details der empfohlenen Frontend-Bibliotheken werden bei der Umsetzung verwendet? Individuelle Profile sind für die Berechnung im Browser vorgesehen.
-- Welches GitHub-Pages-Ziel und welcher Veröffentlichungsprozess werden eingerichtet?
+- In welchem Rhythmus werden fachlich geprüfte Tarifänderungen veröffentlicht? Ziel und technischer Prozess stehen fest: https://kaocodes.github.io/kita-kosten-map/ über GitHub Actions.
 - Wie oft sollen die Gebühren nach dem ersten Erhebungsstand überprüft und aktualisiert werden?

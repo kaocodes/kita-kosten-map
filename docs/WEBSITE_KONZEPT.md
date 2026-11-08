@@ -1,7 +1,7 @@
 # Website: Architektur, Karte und Bedienung
 
 **Stand:** 8. November 2026  
-**Status:** Pakete 1 bis 3 umgesetzt: Register, Profile, TypeScript-Rechenkern und lokal aufrufbare React-/Leaflet-Website. Veröffentlichung und individuelles Formular stehen aus.
+**Status:** Pakete 1 bis 3 umgesetzt: Register, Profile, TypeScript-Rechenkern und lokal aufrufbare React-/Leaflet-Website. Pages-Veröffentlichung ist automatisiert; das individuelle Formular steht aus.
 
 Dieses Dokument bündelt die technische Beratung, die gezeigten Entwürfe und die daraus getroffenen Entscheidungen. Die fachlichen Anforderungen stehen in [PROJECT_REQUIREMENTS.md](PROJECT_REQUIREMENTS.md), die verbindliche Berechnung in [DATENMODELL.md](DATENMODELL.md) und das Referenzprofil in [STANDARDVERGLEICH.md](STANDARDVERGLEICH.md).
 
@@ -10,7 +10,7 @@ Dieses Dokument bündelt die technische Beratung, die gezeigten Entwürfe und di
 | Thema | Stand |
 |---|---|
 | Hauptdarstellung der Gebühren | **Beschlossen am 8. November 2026:** eingefärbte Gemeinde- bzw. Stadtflächen. Die Entscheidung fiel nach dem direkten Vergleich mit proportionalen Kreisen. |
-| Hosting und Betrieb | **Bevorzugte Richtung:** statische Website auf GitHub Pages. Der Nutzer hat dies als zunächst passende Lösung bestätigt. Konkretes Repository, URL und Deployment sind noch offen. |
+| Hosting und Betrieb | **Umgesetzt:** statische Website auf GitHub Pages unter https://kaocodes.github.io/kita-kosten-map/. Das öffentliche Repository ist `kaocodes/kita-kosten-map`; GitHub Actions prüft, baut und veröffentlicht erfolgreiche Änderungen von `main`. |
 | Backend | Für die vorgeschlagene erste Website nicht erforderlich. Ein Backend bleibt eine spätere Option bei tatsächlichem Bedarf, beispielsweise einer Redaktionsoberfläche. |
 | Datenbasis und Standardprofil | Kommunenregister und AGS-Zuordnung sind umgesetzt. Die Modellfamilie ist der Standard in Python und den aktuellen Exporten; die Höchsttarifreferenz bleibt separat erhalten. Das Browserformular folgt. |
 | Frontend und Kartenbibliothek | React 19.3.1, Vite 8.3.6, CSS Modules und Leaflet 1.9.4 sind in Paket 3 umgesetzt; der unabhängige TypeScript-Rechenkern und Zod bleiben die Berechnungsgrundlage. |
@@ -55,7 +55,7 @@ Der Browser lädt nur die für die Darstellung benötigten Exporte und Geometrie
 
 Der bestehende Höchsttarifvergleich lässt sich vollständig vorberechnen. Die frei einstellbaren Familienprofile benötigen zusätzlich eine Auswertung der Tarifregeln im Browser. Dafür ist seit Paket 2 eine von React und Leaflet unabhängige TypeScript-Berechnung mit Zod-Eingabeprüfung umgesetzt. 104 gemeinsame Szenarien stimmen mit Python überein; der Vergleich umfasst vollständige Ergebnisse einschließlich Quellen, Zusatzkosten und Fehlerzuständen. Python bleibt die Referenz für Datenprüfung und Export. Schnittstelle und Grenzen stehen in [BROWSERBERECHNUNG.md](BROWSERBERECHNUNG.md). Vorberechnete Ergebnisse können den Start der Website ergänzen; sie ersetzen die Auswertung individueller Eingaben nicht.
 
-Geplante Gebührenaktualisierung: neue Quellenkopie sichern, JSON-Tarife prüfen und ergänzen, bestehende Validierung und Tests ausführen, Exporte erzeugen, Website neu bauen und veröffentlichen. Aktualisierungsrhythmus, Zuständigkeiten und automatische Veröffentlichung sind noch festzulegen. Eine Veröffentlichung wurde im Rahmen der Entwürfe nicht durchgeführt.
+Geplante Gebührenaktualisierung: neue Quellenkopie sichern, JSON-Tarife prüfen und ergänzen, bestehende Validierung und Tests ausführen, Exporte erzeugen, Website neu bauen und veröffentlichen. Die automatische Veröffentlichung über GitHub Actions ist eingerichtet. Fachlicher Aktualisierungsrhythmus und Zuständigkeiten bleiben festzulegen.
 
 ### 3.1 Erweiterbarkeit auf weitere Kommunen und Bezirke
 
@@ -233,9 +233,9 @@ Die statischen PNGs stellen die Karten nebeneinander dar; die interaktive Darste
 2. **Browserberechnung aufbauen — umgesetzt:** Profileingaben normalisieren, Tarifregeln im unabhängigen TypeScript-Modul auswerten und gemeinsame Referenzfälle gegen Python prüfen. Abnahme: 104 gemeinsame Szenarien mit gleichen vollständigen Ergebnissen, beide Referenzprofile zusätzlich gegen Quellen-Sollwerte geprüft; keine stillschweigende Brutto-/Steuerumrechnung. TypeScript 7.0.2 und Zod 4.6.7 sind im Lockfile festgehalten. Website-Bündelung und tatsächliche Browserintegration folgen in Paket 3.
 3. **Frontend und Geodaten integrieren — umgesetzt:** React/Vite, CSS Modules und Leaflet mit festgelegten Paketversionen und Lockfile eingerichtet. BKG-Grenzstand, Lizenz und Quellen sind gesichert; Geometrien werden gemeinsam vereinfacht und anhand von AGS/Flächen-ID zugeordnet. Abnahme: eigenständige lokale Anwendung mit zwölf Vergleichsflächen, beiden Profilen, Quellen und acht zusätzlichen Webdaten-Prüfungen. Desktop, 390/320 Pixel und der statische Projekt-Unterpfad wurden im Browser geprüft. Größenbudget und Zoomgrenzen sind dokumentiert.
 4. **Bedienbare erste Version fertigstellen:** Familienformular, Gebührenfarben, Legende, Liste und Gemeindedetails zusammenführen. Farbpalette und Klassengrenzen im Rahmen dieses Pakets festlegen; die bisherigen Vorschauklassen sind keine verbindliche Vorgabe. Abnahme: Eingaben aktualisieren alle Ansichten konsistent; fehlende Werte, Essen, Mehrstunden und Modellannahmen bleiben sichtbar; Desktop, Mobilgeräte und Tastaturbedienung sind geprüft.
-5. **Bereitstellung vorbereiten:** GitHub-Pages-Ziel, Projektpfade und Veröffentlichungsablauf konkret einrichten. Abnahme: erfolgreiche Datenprüfung und Referenztests, reproduzierbarer Website-Build und lokal prüfbare Vorschau mit den richtigen Projektpfaden für das festgelegte Ziel. Zuständigkeiten und Aktualisierungsrhythmus werden für den Betrieb dokumentiert.
+5. **Bereitstellung vorgezogen:** GitHub-Pages-Ziel und Actions-Workflow sind eingerichtet. Python- und JavaScript-Tests sowie Build laufen automatisch; ausschließlich erfolgreiche Builds von `main` werden veröffentlicht. Pull Requests erhalten dieselben Prüfungen ohne Deployment. Fachliche Zuständigkeiten und Aktualisierungsrhythmus bleiben offen.
 
-Das unmittelbar nächste Arbeitspaket ist **Bedienbare erste Version fertigstellen**: vor allem das individuelle Familien-/Einkommensformular und die vollständige mobile und per Tastatur bedienbare Vergleichsansicht. Karte, Referenzprofilwahl, Grundliste und Gemeindedetails bestehen bereits. Die Veröffentlichung folgt anschließend.
+Das unmittelbar nächste Arbeitspaket ist **Bedienbare erste Version fertigstellen**: vor allem das individuelle Familien-/Einkommensformular und die vollständige mobile und per Tastatur bedienbare Vergleichsansicht. Karte, Referenzprofilwahl, Grundliste und Gemeindedetails bestehen bereits. Die automatische Veröffentlichung ist vorgezogen und unabhängig davon eingerichtet.
 
 Historische Preisreihen bleiben zurückgestellt. Eine englische Oberfläche, eine Redaktionsoberfläche und zusätzliche Kartenmodi sind nicht beschlossen.
 

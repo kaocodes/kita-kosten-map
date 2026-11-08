@@ -2,7 +2,7 @@
 
 **Stand:** 8. November 2026 · **Umsetzungspaket:** 3
 
-Es gibt eine eigenständige React-Anwendung mit Leaflet-Karte. Sie stellt die zwölf Vergleichskommunen als Gebührenflächen dar und verwendet den geprüften TypeScript-Rechenkern. Die Anwendung läuft vollständig mit statischen Dateien; ein Backend wird nicht benötigt. Eine Veröffentlichung auf GitHub Pages ist noch nicht eingerichtet.
+Es gibt eine eigenständige React-Anwendung mit Leaflet-Karte. Sie stellt die zwölf Vergleichskommunen als Gebührenflächen dar und verwendet den geprüften TypeScript-Rechenkern. Die Anwendung läuft vollständig mit statischen Dateien; ein Backend wird nicht benötigt. Die Veröffentlichung auf GitHub Pages erfolgt über den Workflow `.github/workflows/pages.yml`.
 
 ## 1. Lokal starten
 
@@ -105,6 +105,12 @@ Im Browser wurden Desktop sowie 390 und 320 Pixel Breite geprüft. Profilwechsel
 
 Gesicherte Ansichten der tatsächlichen Anwendung: [Desktop](../output/website-preview-desktop.jpg) und [Mobil](../output/website-preview-mobile.jpg). Die Bilder zeigen das Modellfamilienprofil; die älteren Entwürfe in `output/` bleiben separat erhalten.
 
-`vite.config.ts` verwendet `base: "./"`. Die Anwendung hat keine serverseitigen Routen; interne Verweise sind Seitenanker. Dadurch funktionieren die gebauten Dateien im Stammverzeichnis und in einem GitHub-Pages-Projektverzeichnis. Der konkrete GitHub-Repository-/Pages-Workflow wird erst in Paket 5 eingerichtet. Es wurde keine Website veröffentlicht.
+`vite.config.ts` verwendet `base: "./"`. Die Anwendung hat keine serverseitigen Routen; interne Verweise sind Seitenanker. Dadurch funktionieren die gebauten Dateien im Stammverzeichnis und in einem GitHub-Pages-Projektverzeichnis. Der Pages-Workflow ist eingerichtet; die Zieladresse lautet https://kaocodes.github.io/kita-kosten-map/.
 
 Technische Referenzen: [Vite und GitHub Pages](https://vite.dev/guide/static-deploy.html), [Leaflet und GeoJSON](https://leafletjs.com/examples/geojson/), [Mapshaper-Schnittstelle](https://mapshaper.org/docs/guides/programmatic.html), [Mapshaper-Vereinfachung](https://mapshaper.org/docs/guides/simplification.html).
+
+## 7. Veröffentlichung über GitHub Actions
+
+Der Workflow unter `.github/workflows/pages.yml` läuft bei Pushes nach `main`, Pull Requests gegen `main` und auf manuellen Aufruf. Unter Ubuntu 24.04 mit Node.js 22 und Python 3.11 werden `npm ci`, die Python-Tests, `npm test` und `npm run build` ausgeführt. Nur erfolgreiche Builds von `main` werden als Pages-Artefakt hochgeladen und veröffentlicht. Der Deployment-Schritt hat ausschließlich die erforderlichen Pages-/OIDC-Schreibrechte; der Build erhält nur Lesezugriff auf das Repository. Action-Versionen sind auf geprüfte Commit-SHAs festgelegt.
+
+GitHub Pages verwendet den Build-Typ `workflow`. Die relative Vite-Basis bleibt erhalten und ist für das Projektverzeichnis geprüft. Der aktuelle Veröffentlichungsstand und mögliche Fehler stehen in den GitHub-Actions-Läufen. Nach einem erfolgreichen neuen Push aktualisiert sich die Website automatisch; die fachliche Pflege und Freigabe neuer Tarife bleibt erforderlich.

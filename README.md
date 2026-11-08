@@ -1,5 +1,7 @@
 # Kita-Gebührenvergleich Region Stuttgart
 
+**Website:** [kaocodes.github.io/kita-kosten-map](https://kaocodes.github.io/kita-kosten-map/)
+
 Strukturierte Gebühren für zwölf Kommunen, mit archivierten offiziellen Quellen und einer nachvollziehbaren Vergleichsberechnung. Tarifstichtag des Standardprofils: **4. November 2026**; ergänzende Quellenprüfung: **7. November 2026**.
 
 Der Datenbestand enthält Krippen- und Kindergartentarife, Einkommens- und Familienstaffeln, Betreuungsmodelle, Ermäßigungen sowie gesonderte Kostenbausteine. Die Python-Datenpipeline benötigt Python ab Version 3.11 und ausschließlich die Standardbibliothek. Die lokale React-/Leaflet-Website verwendet den TypeScript-Rechenkern direkt im Browser.
@@ -46,7 +48,7 @@ npm run build
 npm run preview
 ```
 
-`npm test` prüft Rechenkern und Webdaten mit 119 JavaScript-Tests, einschließlich der gemeinsamen Szenarien gegen Python. `build` erzeugt die statische Website unter `dist/`; `preview` zeigt diesen Build unter **http://127.0.0.1:4173/**. Eine Veröffentlichung ist noch nicht eingerichtet. Die Python-Datenpipeline benötigt weiterhin keine externen Python-Pakete.
+`npm test` prüft Rechenkern und Webdaten mit 119 JavaScript-Tests, einschließlich der gemeinsamen Szenarien gegen Python. `build` erzeugt die statische Website unter `dist/`; `preview` zeigt diesen Build unter **http://127.0.0.1:4173/**. Der Workflow unter `.github/workflows/pages.yml` prüft Änderungen und veröffentlicht erfolgreiche Builds von `main` auf GitHub Pages. Die Python-Datenpipeline benötigt weiterhin keine externen Python-Pakete.
 
 `export` erzeugt `data/exports/default_comparison.json` für die Modellfamilie und `highest_band_comparison.json` für die Höchsttarifreferenz, jeweils mit CSV-Datei. Dazu kommen Register, Katalog der aktiven Tarife sowie CSV-Tabellen für Tarife, Angebote, Einkommensstufen und Zusatzkosten. Beide deutschen Vergleichsberichte werden aktualisiert. Die CSV-Dateien sind abgeleitete Ansichten; ihre Geldbeträge stehen in **Cent**, Zeitangaben in **Minuten**. Verschachtelte Felder enthalten JSON. Das vollständige Quellenarchiv wird nicht in diese Exporte kopiert.
 
@@ -75,7 +77,7 @@ Historische Preisreihen sind zurückgestellt. Die Webkarte verwendet diese Daten
 
 ## Website und weitere Umsetzung
 
-Als Hauptdarstellung sind seit 8. November 2026 **eingefärbte Gemeindeflächen** beschlossen und mit React, Vite, CSS Modules und Leaflet umgesetzt. TypeScript und Zod bilden den Rechenkern und die Eingabeprüfung. Eine statische Website auf **GitHub Pages** ist die bevorzugte Betriebsform; der konkrete Veröffentlichungsablauf folgt in Paket 5.
+Als Hauptdarstellung sind seit 8. November 2026 **eingefärbte Gemeindeflächen** beschlossen und mit React, Vite, CSS Modules und Leaflet umgesetzt. TypeScript und Zod bilden den Rechenkern und die Eingabeprüfung. Eine statische Website auf **GitHub Pages** ist die bevorzugte Betriebsform; Tests, Build und Veröffentlichung werden durch GitHub Actions automatisiert.
 
 Die Webgeometrie wird reproduzierbar aus den archivierten BKG-Grenzen aufbereitet. Sie enthält die zwölf Vergleichskommunen und 128 Umgebungsgebiete und umfasst rund 132 kB. Grenzstand 1. Januar 2025, Quellen, Lizenz und Prüfsummen sind gesichert; die aktuelle Verarbeitung steht in [WEBANWENDUNG.md](docs/WEBANWENDUNG.md). Die älteren HTML-Entwürfe in `output/` bleiben Gesprächsvorschauen mit Höchsttarifwerten.
 
@@ -84,3 +86,9 @@ Die Modellfamilie ist das Standardprofil in Python, Exporten und der Website. Di
 Die Erweiterungsstrategie ist im Websitekonzept festgehalten: ein zentrales Kommunenregister, getrennte Kartenflächen und Gebührenordnungen, eine eigenständige Tarifberechnung, bedarfsgerecht geladene regionale Daten und eine austauschbare Kartenansicht. Neue Kommunen benötigen Register-, Tarif- und Geometriedaten sowie Referenzfälle; neue Abrechnungsregeln können zusätzliche Berechnungslogik erfordern.
 
 **Pakete 1 bis 3 umgesetzt:** Register, beide Referenzprofile, unabhängige TypeScript-Berechnung sowie die lokal aufrufbare Website mit Gemeindekarte und reproduzierbarer Geodatenaufbereitung. Die Gegenprüfung umfasst 104 gemeinsame Szenarien; zusätzliche Webtests sichern Geometriezuordnung, Gebührenwerte und Datenbudgets. **Nächstes Arbeitspaket:** individuelles Familienformular und vollständige Bedienung fertigstellen. Danach folgt die Einrichtung der statischen Veröffentlichung.
+
+## Veröffentlichung und Aktualisierung
+
+Der [Pages-Workflow](.github/workflows/pages.yml) installiert die festgelegten npm-Abhängigkeiten, führt die Python- und JavaScript-Tests aus und baut die Website. Auf `main` wird anschließend ausschließlich `dist/` veröffentlicht. Pull Requests durchlaufen dieselben Prüfungen ohne Deployment. Der Workflow kann auch manuell über GitHub Actions gestartet werden. Schlägt ein Schritt fehl, wird der neue Stand nicht veröffentlicht.
+
+Gebührenänderungen werden weiterhin anhand neuer Quellen geprüft und in den kanonischen Daten gepflegt. Ein Push nach `main` baut die Browserdaten neu und aktualisiert die Website. Es gibt keinen automatischen Abruf kommunaler Quellen beim Seitenbesuch oder Deployment.

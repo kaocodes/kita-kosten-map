@@ -1,6 +1,6 @@
 # Lokale Webanwendung und Geodaten
 
-**Stand:** 8. November 2026 · **Umsetzungspaket:** 4
+**Stand:** 8. November 2026 · **Umsetzungspaket:** Modellfamilien
 
 Es gibt eine eigenständige React-Anwendung mit Leaflet-Karte. Sie stellt die zwölf Vergleichskommunen als Gebührenflächen dar und verwendet den geprüften TypeScript-Rechenkern. Die Anwendung läuft vollständig mit statischen Dateien; ein Backend wird nicht benötigt. Die Veröffentlichung auf GitHub Pages erfolgt über den Workflow `.github/workflows/pages.yml`.
 
@@ -27,7 +27,7 @@ Die Build-Vorschau läuft unter **http://127.0.0.1:4173/**. `dist/` enthält die
 ## 2. Sichtbare Funktionen
 
 - Gemeindekarte mit zwölf auswählbaren Gebührenflächen und 128 umliegenden Gemeindegebieten als räumlichem Kontext.
-- Vergleich für die bisherige Standard-Modellfamilie; Karte, Vergleichsliste und Detailbereich verwenden dasselbe Ergebnis. „Eigene Familie“ und der separate Höchsttarif-Reiter sind ausgeblendet.
+- Modellfamilien-Konfigurator mit Haushaltskonstellation, Kinderkategorien, sechs Einkommensszenarien und 6/8 Stunden täglich je Kita-Kind. Karte, Liste und Details verwenden dieselbe Familiensumme. „Eigene Familie“ und der separate Höchsttarif-Reiter sind ausgeblendet.
 - Monatsäquivalent, ursprünglicher Monatsbeitrag, Beitragsmonate, gebuchte Wochenstunden, zusätzliche Buchungszeit und Tarifbeginn je Kommune.
 - Verpflegung und Zusatzkosten als gesonderte Varianten; fehlende Beitragsmonate bleiben ausdrücklich unbekannt.
 - Direkte Links zu offiziellen Gebührenquellen und aufklappbare Fundstellen.
@@ -36,9 +36,9 @@ Die Build-Vorschau läuft unter **http://127.0.0.1:4173/**. `dist/` enthält die
 
 ### Persönliches Profil (Paket 4, vorerst deaktiviert)
 
-**Aktuelle Entscheidung vom 8. November 2026:** „Eigene Familie“ wird nicht mehr angeboten. `web/src/site/features.ts` setzt `FEATURES.personalProfiles` auf `false` und entfernt damit Auswahl und Formular aus der Oberfläche. Formular, Integration, Rechenkern und alle Tests bleiben erhalten. Die folgende Beschreibung dokumentiert das deaktivierte Verhalten. Eine spätere Reaktivierung benötigt eine fachliche Prüfung der örtlichen Einkommensdefinitionen und bekannten Sonderregeln; der Schalter allein ist keine fachliche Freigabe.
+**Aktuelle Entscheidung vom 8. November 2026:** „Eigene Familie“ wird nicht mehr angeboten. Die frühere Oberfläche liegt in `web/src/LegacyProfileApp.tsx` mit `FEATURES.personalProfiles: false`; sie wird von der aktiven Anwendung nicht importiert. Formular, Integration, Rechenkern und alle Tests bleiben erhalten. Die folgende Beschreibung dokumentiert das deaktivierte Verhalten. Eine spätere Reaktivierung benötigt eine fachliche Prüfung der örtlichen Einkommensdefinitionen und bekannten Sonderregeln; der Schalter allein ist keine fachliche Freigabe.
 
-Die vereinbarte Modellkonfiguration ist noch nicht umgesetzt: Haushaltskonstellation, Kinderzahl, je Kind Krippe/Kindergarten/Schulkind/zu Hause betreut, sechs Haushaltseinkommen (40.000/60.000/80.000/100.000/140.000/180.000 € jährlich) und je betreutem Kind 6 oder 8 Stunden täglich. Die Karte soll die vollständigen Betreuungskosten aller betreuten Kinder zeigen. Örtliche Einkommensannahmen und Geschwisterzuordnungen müssen dafür fachlich geprüft werden. Der bisherige Standard bleibt vorbelegt.
+Die vereinbarte Modellkonfiguration ist umgesetzt; verbindliche Beschreibung und Einschränkungen stehen in [MODELLFAMILIEN.md](MODELLFAMILIEN.md): Haushaltskonstellation, Kinderzahl, je Kind Krippe/Kindergarten/Schulkind/zu Hause betreut, sechs Haushaltseinkommen (40.000/60.000/80.000/100.000/140.000/180.000 € jährlich) und je betreutem Kind 6 oder 8 Stunden täglich. Die Karte soll die vollständigen Betreuungskosten aller betreuten Kinder zeigen. Örtliche Einkommensannahmen sind offengelegt; ungeklärte Geschwisterzuordnungen ergeben keine geschätzte Gesamtsumme. Der bisherige Standard bleibt vorbelegt.
 
 Der separate Höchsttarif-Reiter ist ebenfalls über `FEATURES.highestBandReference: false` ausgeblendet. Ist keine zusätzliche Profilansicht aktiv, entfällt der gesamte Profilumschalter. Referenzdatei, Browserkatalog, Exporte, Berechnung und Tests des Höchsttarifs bleiben erhalten. Ein hohes Bruttoszenario entspricht nicht zwangsläufig in jeder Gemeinde dem Höchsttarif; die tatsächliche Abdeckung muss anhand der örtlichen Modellwerte geprüft werden.
 
@@ -63,6 +63,7 @@ Die Referenzprofile bleiben unverändert. Historien, freie Tarifstichtage, Schul
 | `web/src/components/MunicipalityMap.tsx` | Leaflet-Anbindung für Geometrie, Farben und Gemeindewahl |
 | `web/src/components/MunicipalityDetails.tsx` | Originalbeitrag, Zusatzkosten und Quellen |
 | `web/src/site/data.ts` | Laden der erzeugten lokalen JSON-Dateien und Prüfung ihrer geografischen Zuordnung |
+| `web/src/components/ModelConfigurator.tsx`, `web/src/domain/model-family.ts`, `data/models/configuration.json` | Aktiver Modellkonfigurator, Familienberechnung und zentrale Szenarien |
 | `web/src/components/FamilyForm.tsx`, `web/src/site/personal-profile.ts` | Formular, exakte Textauswertung und sichere persönliche Profile |
 | `web/src/site/presentation.ts` | Deutsche Formatierung und Gebührenklassen |
 | `web/src/domain/` | Unabhängiger Rechenkern aus Paket 2 |
@@ -101,11 +102,11 @@ Messstand dieser Umsetzung:
 |---|---:|---:|
 | Ursprünglicher regionaler Geometrieabruf | 391.188 Byte | – |
 | Vereinfachte Webgeometrie mit Zuordnung | 132.114 Byte | 28.358 Byte |
-| Browserkatalog, Profile und Quellenindex | 1.108.900 Byte | 46.943 Byte |
-| JavaScript-Bundle | rund 508 kB | rund 154 kB |
-| CSS-Bundle | rund 34 kB | rund 11 kB |
+| Browserkatalog, Profile und Quellenindex | rund 1,12 MB | rund 48 kB |
+| JavaScript-Bundle | rund 510 kB | rund 154 kB |
+| CSS-Bundle | rund 37 kB | rund 11 kB |
 
-Das vorerst deaktivierte persönliche Formular ist als zusätzliches Modul angelegt und wird bei ausgeschaltetem Feature nicht angefordert; bei einer Reaktivierung würde es erst bei Auswahl geladen (rund 11 kB JavaScript und 3 kB CSS, zusammen ungefähr 5 kB gzip). Der Haupt-Build liegt knapp über der Vite-Hinweisschwelle von 500 kB unkomprimiert; die Datenbudgets bleiben erfüllt.
+Die frühere Oberfläche einschließlich des persönlichen Formulars wird von der aktiven Anwendung nicht importiert und nicht in deren Produktionsbundle aufgenommen. Der Haupt-Build liegt knapp über der Vite-Hinweisschwelle von 500 kB unkomprimiert; die Datenbudgets bleiben erfüllt.
 
 Die rechnerische gzip-Summe aus HTML, CSS, JavaScript, Geometrie und Browserkatalog liegt bei ungefähr **240 kB**. Tatsächlicher Transfer und Ladezeit hängen von Serverkomprimierung, Verbindung und Cache ab. Die lokale einfache HTTP-Vorschau liefert Dateien unkomprimiert aus. Quellen-PDFs und das vollständige Forschungsarchiv gehören nicht zum Website-Build.
 
@@ -120,7 +121,7 @@ npm run build
 python3 -m unittest discover -s tests
 ```
 
-`npm test` bereitet die Webdaten vor und führt **132 JavaScript-Prüfungen** aus: die bisherigen 111 Rechenkern-/Paritätsprüfungen sowie acht Prüfungen für die Website-Daten und Darstellungskonventionen und dreizehn für persönliche Profile, exakte Eingaben, Fehlerzustände und örtliche Ermäßigungen. Die Python-Suite umfasst 70 Tests. Die acht zusätzlichen Prüfungen decken Register-/Geometriezuordnung, Umgebungskontext, Polygone, gemeinsame Grenzen, unveränderte Vergleichswerte, Herkunft, Datenbudgets und die Unterscheidung von null Euro gegenüber fehlenden Werten ab. Sie lassen sich auch eigenständig mit `npm run test:web` ausführen.
+`npm test` bereitet die Webdaten vor und führt **148 JavaScript-Prüfungen** aus: die bisherigen 113 Rechenkern-/Paritätsprüfungen sowie acht Prüfungen für die Website-Daten und Darstellungskonventionen und dreizehn für persönliche Profile, exakte Eingaben, Fehlerzustände und örtliche Ermäßigungen sowie vierzehn für Modellfamilien und Familiengesamtkosten. Die Python-Suite umfasst 70 Tests. Die acht zusätzlichen Prüfungen decken Register-/Geometriezuordnung, Umgebungskontext, Polygone, gemeinsame Grenzen, unveränderte Vergleichswerte, Herkunft, Datenbudgets und die Unterscheidung von null Euro gegenüber fehlenden Werten ab. Sie lassen sich auch eigenständig mit `npm run test:web` ausführen.
 
 Im Browser wurden Desktop sowie 390 und 320 Pixel Breite geprüft. Profilwechsel, Flächenwahl, Tastaturwahl, Zusatzkosten und die schmale Darstellung funktionieren. Ein bei 320 Pixeln beobachteter horizontaler Überlauf wurde behoben. Der fertige Build wurde zusätzlich durch einen einfachen statischen HTTP-Server unter `/kita-costs-map/` geladen; Karte, Daten, Profile und lokale Lizenzverweise funktionieren auch dort. Paket 4 ergänzt Browserprüfungen für leere und fehlerhafte Einkommen, bestätigte und unbestätigte Pässe/Sozialermäßigungen, Kindergartenkinder mit Geschwistern, abweichende Tageszeiten, Profilwechsel, Zurücksetzen, Einklappen und Auswahl per Tastatur. Bei 390 und 320 Pixeln bleibt auch das Formular ohne horizontalen Überlauf. Die Prüfung ist keine formale WCAG-Zertifizierung.
 

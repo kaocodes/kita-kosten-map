@@ -3004,7 +3004,8 @@
             "source_id": "e3a01305341e",
             "locator": "Einkommensstaffel",
             "original": "bis 35.000 €"
-          }
+          },
+          "definition": "Örtlicher Bemessungswert nach § 7 Abs. 4: positive Einkünfte und genannte Ersatz-/Sozialleistungen; trotz Tabellenbezeichnung nicht ungeprüft der Steuerbescheidwert."
         },
         {
           "id": "tax-1",
@@ -3022,7 +3023,8 @@
             "source_id": "e3a01305341e",
             "locator": "Einkommensstaffel",
             "original": "35.001–50.000 €"
-          }
+          },
+          "definition": "Örtlicher Bemessungswert nach § 7 Abs. 4: positive Einkünfte und genannte Ersatz-/Sozialleistungen; trotz Tabellenbezeichnung nicht ungeprüft der Steuerbescheidwert."
         },
         {
           "id": "tax-2",
@@ -3040,7 +3042,8 @@
             "source_id": "e3a01305341e",
             "locator": "Einkommensstaffel",
             "original": "50.001–70.000 €"
-          }
+          },
+          "definition": "Örtlicher Bemessungswert nach § 7 Abs. 4: positive Einkünfte und genannte Ersatz-/Sozialleistungen; trotz Tabellenbezeichnung nicht ungeprüft der Steuerbescheidwert."
         },
         {
           "id": "tax-3",
@@ -3058,7 +3061,8 @@
             "source_id": "e3a01305341e",
             "locator": "Einkommensstaffel",
             "original": "über 70.001 €"
-          }
+          },
+          "definition": "Örtlicher Bemessungswert nach § 7 Abs. 4: positive Einkünfte und genannte Ersatz-/Sozialleistungen; trotz Tabellenbezeichnung nicht ungeprüft der Steuerbescheidwert."
         }
       ],
       "offers": [
@@ -8697,19 +8701,20 @@
           "kind": "percent_discount",
           "parameters": {
             "percent": 30,
-            "rounding": "whole_euro_half_up",
+            "rounding": "whole_euro_up",
             "components": [
               "care"
             ]
           },
           "requires": [
-            "family_pass"
+            "family_pass",
+            "no_priority_benefit"
           ],
           "stackable": false,
           "execution_status": "supported",
           "evidence": {
             "source_id": "e3a01305341e",
-            "locator": "Gebührenermäßigung",
+            "locator": "§ 8 Abs. 1: Familienpass, kein vorrangiger Anspruch; Ermäßigung auf volle Euro aufrunden",
             "original": null
           }
         }

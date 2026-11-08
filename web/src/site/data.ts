@@ -1,6 +1,8 @@
 import type { FeatureCollection, MultiPolygon, Polygon } from "geojson";
 import { normalizeProfile } from "../domain/index.js";
 import type { MunicipalityCatalog, Profile, Registry } from "../domain/index.js";
+import { validateModelCatalog } from "../domain/model-family.js";
+import type { ModelCatalog } from "../domain/model-family.js";
 
 export interface AreaProperties {
   ags: string;
@@ -16,6 +18,7 @@ export interface SiteBundle {
   schema_version: string;
   registry: Registry;
   profiles: { default: Profile; highest_band: Profile };
+  models: ModelCatalog;
   tariffs: MunicipalityCatalog[];
   sources: Record<string, SourceReference>;
   geography: {
@@ -48,6 +51,7 @@ export async function loadSiteData(signal: AbortSignal): Promise<SiteData> {
       !Array.isArray(geometry.features)) throw new Error("Unsupported generated site data.");
   bundle.profiles.default = normalizeProfile(bundle.profiles.default);
   bundle.profiles.highest_band = normalizeProfile(bundle.profiles.highest_band);
+  bundle.models = validateModelCatalog(bundle.models);
   for (const municipality of bundle.registry.municipalities.filter(entry => entry.active)) {
     const matches = geometry.features.filter(feature => feature.properties.municipality_id === municipality.id);
     if (matches.length !== 1 || matches[0].properties.ags !== municipality.ags ||

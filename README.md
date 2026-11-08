@@ -12,6 +12,7 @@ Der Datenbestand enthält Krippen- und Kindergartentarife, Einkommens- und Famil
 - [Höchsttarifvergleich](docs/HOECHSTTARIFVERGLEICH.md): die erhaltene Vollzahlerreferenz.
 - [Datenmodell und Berechnung](docs/DATENMODELL.md): Struktur, Eingaben, Regeln und Pflegeablauf.
 - [TypeScript-Berechnung](docs/BROWSERBERECHNUNG.md): Schnittstelle, Entwicklung und Python-Gegenprüfung für den Browser-Rechenkern.
+- [Konfigurierbare Modellfamilien](docs/MODELLFAMILIEN.md): Auswahlmöglichkeiten, Einkommensannahmen, Familiengesamtkosten und Geschwisterregeln.
 - [Lokale Webanwendung](docs/WEBANWENDUNG.md): Startbefehle, Bedienung, Geodaten, Größenbudget und statischer Build.
 - [Aktuelle Projektanforderungen](docs/PROJECT_REQUIREMENTS.md): fachlicher Umfang des Gesamtprojekts.
 - [Websitekonzept und Entscheidungen](docs/WEBSITE_KONZEPT.md): statische Architektur, Stackempfehlung, Gemeindeflächen, Geodatenaufbereitung, Bedienkonzept und Entwürfe.
@@ -37,7 +38,7 @@ npm ci
 npm run dev
 ```
 
-Danach **http://127.0.0.1:5173/** öffnen. Die Website zeigt Gemeindeflächen für die Standard-Modellfamilie, eine Gebührenliste und Gemeindedetails mit Quellen. „Eigene Familie“ ist vorerst ausgeblendet; Formular, Rechenkern und Tests bleiben erhalten. Auch der separate Höchsttarif-Reiter ist ausgeblendet; das Referenzprofil bleibt für Berechnungen und Tests erhalten.
+Danach **http://127.0.0.1:5173/** öffnen. Die Website bietet den Modellfamilien-Konfigurator mit Haushaltskonstellation, Kinderkategorien, sechs Einkommensszenarien und 6/8 Stunden Betreuung je Kita-Kind. Karte und Liste zeigen die vollständigen Betreuungskosten der Familie; die Details erhalten Einzelbeiträge, Essen und Quellen. Der frühere persönliche Rechner und die Höchsttarifreferenz bleiben im Code bzw. Datenbestand ohne öffentlichen Reiter erhalten.
 
 Prüfen und statisch bauen:
 
@@ -48,7 +49,7 @@ npm run build
 npm run preview
 ```
 
-`npm test` prüft Rechenkern und Webdaten mit 132 JavaScript-Tests, einschließlich der gemeinsamen Szenarien gegen Python. `build` erzeugt die statische Website unter `dist/`; `preview` zeigt diesen Build unter **http://127.0.0.1:4173/**. Der Workflow unter `.github/workflows/pages.yml` prüft Änderungen und veröffentlicht erfolgreiche Builds von `main` auf GitHub Pages. Die Python-Datenpipeline benötigt weiterhin keine externen Python-Pakete.
+`npm test` prüft Rechenkern und Webdaten mit 148 JavaScript-Tests, einschließlich der gemeinsamen Szenarien gegen Python. `build` erzeugt die statische Website unter `dist/`; `preview` zeigt diesen Build unter **http://127.0.0.1:4173/**. Der Workflow unter `.github/workflows/pages.yml` prüft Änderungen und veröffentlicht erfolgreiche Builds von `main` auf GitHub Pages. Die Python-Datenpipeline benötigt weiterhin keine externen Python-Pakete.
 
 `export` erzeugt `data/exports/default_comparison.json` für die Modellfamilie und `highest_band_comparison.json` für die Höchsttarifreferenz, jeweils mit CSV-Datei. Dazu kommen Register, Katalog der aktiven Tarife sowie CSV-Tabellen für Tarife, Angebote, Einkommensstufen und Zusatzkosten. Beide deutschen Vergleichsberichte werden aktualisiert. Die CSV-Dateien sind abgeleitete Ansichten; ihre Geldbeträge stehen in **Cent**, Zeitangaben in **Minuten**. Verschachtelte Felder enthalten JSON. Das vollständige Quellenarchiv wird nicht in diese Exporte kopiert.
 
@@ -81,11 +82,11 @@ Als Hauptdarstellung sind seit 8. November 2026 **eingefärbte Gemeindeflächen*
 
 Die Webgeometrie wird reproduzierbar aus den archivierten BKG-Grenzen aufbereitet. Sie enthält die zwölf Vergleichskommunen und 128 Umgebungsgebiete und umfasst rund 132 kB. Grenzstand 1. Januar 2025, Quellen, Lizenz und Prüfsummen sind gesichert; die aktuelle Verarbeitung steht in [WEBANWENDUNG.md](docs/WEBANWENDUNG.md). Die älteren HTML-Entwürfe in `output/` bleiben Gesprächsvorschauen mit Höchsttarifwerten.
 
-Die Modellfamilie ist das Standardprofil in Python, Exporten und der Website. Der separate Höchsttarif-Reiter ist über `FEATURES.highestBandReference` ausgeblendet; Profil, Exporte und Tests bleiben erhalten. Die individuelle Eingabe ist über `web/src/site/features.ts` vorerst deaktiviert. Code und Tests bleiben für eine spätere fachlich geprüfte Reaktivierung erhalten. Einfache Modellfamilien mit wenigen Auswahlmöglichkeiten sollen die Hauptbedienung bilden; die vereinbarte Konfiguration ist noch nicht umgesetzt.
+Die bisherige Modellfamilie bleibt der Startwert des neuen Konfigurators. `data/models/configuration.json` definiert dessen Szenarien und feste Einkommensannahmen. Die alten Reiter „Eigene Familie“ und „Höchsttarif“ entfallen. Die frühere Oberfläche ist unter `web/src/LegacyProfileApp.tsx` erhalten und wird nicht öffentlich gebündelt. Einzelheiten einschließlich Aussagegrenzen stehen in [MODELLFAMILIEN.md](docs/MODELLFAMILIEN.md).
 
 Die Erweiterungsstrategie ist im Websitekonzept festgehalten: ein zentrales Kommunenregister, getrennte Kartenflächen und Gebührenordnungen, eine eigenständige Tarifberechnung, bedarfsgerecht geladene regionale Daten und eine austauschbare Kartenansicht. Neue Kommunen benötigen Register-, Tarif- und Geometriedaten sowie Referenzfälle; neue Abrechnungsregeln können zusätzliche Berechnungslogik erfordern.
 
-**Pakete 1 bis 4 umgesetzt:** Register, beide Referenzprofile, unabhängige TypeScript-Berechnung sowie die lokal aufrufbare Website mit Gemeindekarte und reproduzierbarer Geodatenaufbereitung. Die Gegenprüfung umfasst 104 gemeinsame Szenarien; zusätzliche Webtests sichern Geometriezuordnung, Gebührenwerte und Datenbudgets. Das Familienformular aktualisiert Karte, Liste und Details gemeinsam; Eingabeprüfung, Mobilansicht und Tastaturbedienung sind geprüft. Die statische Veröffentlichung auf GitHub Pages ist automatisiert. Als Nächstes werden die auswählbaren Modellfamilien und deren ausdrücklich dokumentierte Annahmen festgelegt. Die planmäßige Tarifpflege bleibt ein weiterer Ausbauschritt.
+**Pakete 1 bis 4 umgesetzt:** Register, beide Referenzprofile, unabhängige TypeScript-Berechnung sowie die lokal aufrufbare Website mit Gemeindekarte und reproduzierbarer Geodatenaufbereitung. Die Gegenprüfung umfasst 106 gemeinsame Szenarien; zusätzliche Webtests sichern Geometriezuordnung, Gebührenwerte und Datenbudgets. Das Familienformular aktualisiert Karte, Liste und Details gemeinsam; Eingabeprüfung, Mobilansicht und Tastaturbedienung sind geprüft. Die statische Veröffentlichung auf GitHub Pages ist automatisiert. Der Modellfamilien-Konfigurator mit dokumentierten Szenarien und Familiengesamtkosten ist umgesetzt. Die planmäßige Tarifpflege bleibt ein weiterer Ausbauschritt.
 
 ## Veröffentlichung und Aktualisierung
 

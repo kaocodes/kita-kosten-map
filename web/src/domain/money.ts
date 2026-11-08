@@ -50,10 +50,12 @@ export function safeInteger(value: bigint): number {
 
 export function roundMoney(value: Fraction | number, rule = "cent_half_up"): number {
   const amount = fraction(value);
-  const quantum = rule === "whole_euro_half_up" ? 100n : 1n;
+  const quantum = ["whole_euro_half_up", "whole_euro_up"].includes(rule) ? 100n : 1n;
   const sign = amount.numerator < 0n ? -1n : 1n;
   const absolute = amount.numerator * sign;
   const denominator = amount.denominator * quantum;
-  const rounded = (2n * absolute + denominator) / (2n * denominator);
+  const rounded = rule === "whole_euro_up"
+    ? sign > 0 ? (absolute + denominator - 1n) / denominator : absolute / denominator
+    : (2n * absolute + denominator) / (2n * denominator);
   return safeInteger(sign * rounded * quantum);
 }

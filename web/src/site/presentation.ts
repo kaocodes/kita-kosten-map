@@ -30,6 +30,7 @@ export function feeColor(result?: Pick<ComparisonResult, "status" | "monthly_equ
 }
 
 const reasonLabels: Record<string, string> = {
+  care_rank_allocation_unresolved: "Die Quelle legt die Zuordnung der Geschwisterränge bei diesen Betreuungsmodellen nicht eindeutig fest. Daher wird keine Familiensumme geschätzt.",
   invalid_profile_input: "Die markierten persönlichen Eingaben müssen korrigiert werden. Vorherige Gebühren werden nicht weiter angezeigt.",
   target_outside_scope: "Das Vergleichskind muss im Haushalt leben und darf noch nicht eingeschult sein.",
   birthday_month_required_for_age_transition: "Bitte angeben, ob der dritte Geburtstag im Monat des Tarifstichtags liegt. Hier wechselt der Tarif erst im Folgemonat.",

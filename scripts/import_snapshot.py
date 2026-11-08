@@ -416,7 +416,7 @@ def supplement_components(cities):
 
 def supplement_rules(cities):
     policies = {
-        "ditzingen": [("family_pass", "percent_discount", {"percent": 30, "rounding": "whole_euro_half_up", "components": ["care"]}, ["family_pass"])],
+        "ditzingen": [("family_pass", "percent_discount", {"percent": 30, "rounding": "whole_euro_up", "components": ["care"]}, ["family_pass", "no_priority_benefit"])],
         "kornwestheim": [("social_reduction", "percent_discount", {"percent": 50, "income_below_cents": 400000, "income_basis": "gross_income", "income_period": "month", "components": ["care", "meal"]}, ["priority_benefits_denied"])],
         "gerlingen": [("income_reduction", "income_discount", {"bands": [{"below_cents": 5000000, "percent": 20}, {"below_cents": 6000000, "percent": 10}], "income_basis": "gerlingen_household_income", "income_period": "year", "components": ["care"], "offer_groups": ["u3", "gt"]}, ["priority_benefits_denied"])],
         "leinfelden-echterdingen": [("city_pass_a", "percent_discount", {"percent": 60, "components": ["care"]}, ["city_pass_a"]), ("city_pass_b", "percent_discount", {"percent": 35, "components": ["care"]}, ["city_pass_b"]), ("city_pass_c", "percent_discount", {"percent": 25, "components": ["care"]}, ["city_pass_c"])],

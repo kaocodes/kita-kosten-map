@@ -2,7 +2,7 @@
 
 from copy import deepcopy
 from datetime import date
-from decimal import Decimal, ROUND_HALF_UP
+from decimal import Decimal, ROUND_HALF_UP, ROUND_CEILING
 import json
 from pathlib import Path
 
@@ -55,8 +55,8 @@ def valid_on(record, as_of):
 
 
 def round_money(value, rule="cent_half_up"):
-    quantum = Decimal(100) if rule == "whole_euro_half_up" else Decimal(1)
-    return int((Decimal(value) / quantum).quantize(Decimal(1), rounding=ROUND_HALF_UP) * quantum)
+    quantum = Decimal(100) if rule in {"whole_euro_half_up", "whole_euro_up"} else Decimal(1)
+    return int((Decimal(value) / quantum).quantize(Decimal(1), rounding=ROUND_CEILING if rule == "whole_euro_up" else ROUND_HALF_UP) * quantum)
 
 
 def _is_integer(value, minimum=0, maximum=MAX_SAFE_INTEGER):

@@ -98,6 +98,7 @@ function browserProjection(value) {
 const tariffIDs = [...new Set(active.map(entry => entry.tariff_id))].sort();
 const tariffs = await Promise.all(tariffIDs.map(async id => browserProjection(await read(`data/municipalities/${id}.json`))));
 const profiles = { default: await read("data/profiles/default.json"), highest_band: await read("data/profiles/highest_band.json") };
+const models = await read("data/models/configuration.json");
 const sourceIDs = new Set();
 function collectSources(value) {
   if (Array.isArray(value)) value.forEach(collectSources);
@@ -115,7 +116,7 @@ const sources = Object.fromEntries(manifest.filter(source => sourceIDs.has(sourc
 assert.equal(Object.keys(sources).length, sourceIDs.size, "Evidence source missing from the browser index");
 
 const bundle = {
-  schema_version: "1.0", registry, profiles, tariffs, sources,
+  schema_version: "1.0", registry, profiles, models, tariffs, sources,
   geography: {
     boundary_status_date: provenance.boundary_status_date,
     retrieved_at: provenance.geometry_retrieved_at,

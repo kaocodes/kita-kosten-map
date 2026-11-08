@@ -97,7 +97,7 @@
         "basis": "taxable_income",
         "reference_period": "previous_year",
         "source_id": "e3a01305341e",
-        "locator": "§ 4, income definition; Anlage 4, income bands"
+        "locator": "§ 7 Abs. 4: örtliche Einkommensdefinition; Anlage 4: Einkommensstaffeln"
       },
       {
         "basis": "esslingen_gross_income",

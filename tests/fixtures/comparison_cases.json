@@ -818,13 +818,14 @@
           "family_pass"
         ],
         "eligibility": [
-          "family_pass"
+          "family_pass",
+          "no_priority_benefit"
         ]
       },
       "municipality_id": "ditzingen",
       "expected": {
         "status": "comparable",
-        "monthly_care_cents": 44500
+        "monthly_care_cents": 44600
       }
     },
     {
@@ -874,7 +875,8 @@
           "second-family-pass"
         ],
         "eligibility": [
-          "family_pass"
+          "family_pass",
+          "no_priority_benefit"
         ]
       },
       "municipality_id": "ditzingen",
@@ -1817,6 +1819,33 @@
         "status": "comparable",
         "monthly_care_cents": 5900,
         "monthly_equivalent_cents": 5900
+      }
+    },
+    {
+      "id": "whole-euro-ceiling-keeps-full-euros",
+      "operation": "round_money",
+      "numerator": 44500,
+      "denominator": 1,
+      "rounding": "whole_euro_up",
+      "expected_value": 44500
+    },
+    {
+      "id": "ditzingen-family-pass-requires-no-priority-benefit",
+      "municipality_id": "ditzingen",
+      "profile_updates": {
+        "approved_rules": [
+          "family_pass"
+        ],
+        "eligibility": [
+          "family_pass"
+        ]
+      },
+      "expected": {
+        "status": "unavailable",
+        "monthly_equivalent_cents": null,
+        "reasons_include": [
+          "eligibility_not_confirmed"
+        ]
       }
     }
   ]

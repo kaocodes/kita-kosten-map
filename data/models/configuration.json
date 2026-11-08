@@ -1,0 +1,225 @@
+{
+  "schema_version": "1.0",
+  "default": {
+    "household": "couple",
+    "income_id": "income-80000",
+    "children": [
+      {
+        "category": "nursery",
+        "daily_minutes": 480
+      }
+    ]
+  },
+  "max_children": 12,
+  "categories": [
+    {
+      "id": "nursery",
+      "label": "Krippenkind",
+      "description": "1 bis unter 3 Jahre",
+      "age_months": 24,
+      "care_enabled": true
+    },
+    {
+      "id": "kindergarten",
+      "label": "Kindergartenkind",
+      "description": "Ab 3 Jahren bis zur Einschulung",
+      "age_months": 48,
+      "care_enabled": true
+    },
+    {
+      "id": "school",
+      "label": "Schulkind",
+      "description": "Ohne Schul- oder Hortkosten im Vergleich",
+      "age_months": 96,
+      "care_enabled": false
+    },
+    {
+      "id": "home",
+      "label": "Zu Hause betreut",
+      "description": "Zählt als Geschwisterkind, ohne Betreuungskosten",
+      "age_months": 24,
+      "care_enabled": false
+    }
+  ],
+  "care_options": [
+    {
+      "minutes": 360,
+      "label": "6 Stunden täglich"
+    },
+    {
+      "minutes": 480,
+      "label": "8 Stunden täglich"
+    }
+  ],
+  "income_scenarios": [
+    {
+      "id": "income-40000",
+      "gross_annual_cents": 4000000,
+      "incomes": [
+        {
+          "basis": "gross_income",
+          "period": "year",
+          "amount_cents": 4000000
+        },
+        {
+          "basis": "taxable_income",
+          "period": "year",
+          "amount_cents": 3000000
+        },
+        {
+          "basis": "esslingen_gross_income",
+          "period": "year",
+          "amount_cents": 4000000
+        },
+        {
+          "basis": "adjusted_taxable_income",
+          "period": "year",
+          "amount_cents": 3000000
+        }
+      ],
+      "assumption": "Eigenständiges Rechenszenario. Die steuerlich bezeichneten Modellwerte führen die bisherige Referenz 80.000/60.000 € proportional fort; dies ist keine steuerliche Umrechnung. Esslingen ohne Arbeitnehmer-Pauschbetrag. Ditzingen verwendet den örtlichen Bemessungswert nach § 7, nicht ungeprüft den Steuerbescheid."
+    },
+    {
+      "id": "income-60000",
+      "gross_annual_cents": 6000000,
+      "incomes": [
+        {
+          "basis": "gross_income",
+          "period": "year",
+          "amount_cents": 6000000
+        },
+        {
+          "basis": "taxable_income",
+          "period": "year",
+          "amount_cents": 4500000
+        },
+        {
+          "basis": "esslingen_gross_income",
+          "period": "year",
+          "amount_cents": 6000000
+        },
+        {
+          "basis": "adjusted_taxable_income",
+          "period": "year",
+          "amount_cents": 4500000
+        }
+      ],
+      "assumption": "Eigenständiges Rechenszenario. Die steuerlich bezeichneten Modellwerte führen die bisherige Referenz 80.000/60.000 € proportional fort; dies ist keine steuerliche Umrechnung. Esslingen ohne Arbeitnehmer-Pauschbetrag. Ditzingen verwendet den örtlichen Bemessungswert nach § 7, nicht ungeprüft den Steuerbescheid."
+    },
+    {
+      "id": "income-80000",
+      "gross_annual_cents": 8000000,
+      "incomes": [
+        {
+          "basis": "gross_income",
+          "period": "year",
+          "amount_cents": 8000000
+        },
+        {
+          "basis": "taxable_income",
+          "period": "year",
+          "amount_cents": 6000000
+        },
+        {
+          "basis": "esslingen_gross_income",
+          "period": "year",
+          "amount_cents": 8000000
+        },
+        {
+          "basis": "adjusted_taxable_income",
+          "period": "year",
+          "amount_cents": 6000000
+        }
+      ],
+      "assumption": "Eigenständiges Rechenszenario. Die steuerlich bezeichneten Modellwerte führen die bisherige Referenz 80.000/60.000 € proportional fort; dies ist keine steuerliche Umrechnung. Esslingen ohne Arbeitnehmer-Pauschbetrag. Ditzingen verwendet den örtlichen Bemessungswert nach § 7, nicht ungeprüft den Steuerbescheid."
+    },
+    {
+      "id": "income-100000",
+      "gross_annual_cents": 10000000,
+      "incomes": [
+        {
+          "basis": "gross_income",
+          "period": "year",
+          "amount_cents": 10000000
+        },
+        {
+          "basis": "taxable_income",
+          "period": "year",
+          "amount_cents": 7500000
+        },
+        {
+          "basis": "esslingen_gross_income",
+          "period": "year",
+          "amount_cents": 10000000
+        },
+        {
+          "basis": "adjusted_taxable_income",
+          "period": "year",
+          "amount_cents": 7500000
+        }
+      ],
+      "assumption": "Eigenständiges Rechenszenario. Die steuerlich bezeichneten Modellwerte führen die bisherige Referenz 80.000/60.000 € proportional fort; dies ist keine steuerliche Umrechnung. Esslingen ohne Arbeitnehmer-Pauschbetrag. Ditzingen verwendet den örtlichen Bemessungswert nach § 7, nicht ungeprüft den Steuerbescheid."
+    },
+    {
+      "id": "income-140000",
+      "gross_annual_cents": 14000000,
+      "incomes": [
+        {
+          "basis": "gross_income",
+          "period": "year",
+          "amount_cents": 14000000
+        },
+        {
+          "basis": "taxable_income",
+          "period": "year",
+          "amount_cents": 10500000
+        },
+        {
+          "basis": "esslingen_gross_income",
+          "period": "year",
+          "amount_cents": 14000000
+        },
+        {
+          "basis": "adjusted_taxable_income",
+          "period": "year",
+          "amount_cents": 10500000
+        }
+      ],
+      "assumption": "Eigenständiges Rechenszenario. Die steuerlich bezeichneten Modellwerte führen die bisherige Referenz 80.000/60.000 € proportional fort; dies ist keine steuerliche Umrechnung. Esslingen ohne Arbeitnehmer-Pauschbetrag. Ditzingen verwendet den örtlichen Bemessungswert nach § 7, nicht ungeprüft den Steuerbescheid."
+    },
+    {
+      "id": "income-180000",
+      "gross_annual_cents": 18000000,
+      "incomes": [
+        {
+          "basis": "gross_income",
+          "period": "year",
+          "amount_cents": 18000000
+        },
+        {
+          "basis": "taxable_income",
+          "period": "year",
+          "amount_cents": 13500000
+        },
+        {
+          "basis": "esslingen_gross_income",
+          "period": "year",
+          "amount_cents": 18000000
+        },
+        {
+          "basis": "adjusted_taxable_income",
+          "period": "year",
+          "amount_cents": 13500000
+        }
+      ],
+      "assumption": "Eigenständiges Rechenszenario. Die steuerlich bezeichneten Modellwerte führen die bisherige Referenz 80.000/60.000 € proportional fort; dies ist keine steuerliche Umrechnung. Esslingen ohne Arbeitnehmer-Pauschbetrag. Ditzingen verwendet den örtlichen Bemessungswert nach § 7, nicht ungeprüft den Steuerbescheid."
+    }
+  ],
+  "assumptions": [
+    "Alle Kinder sind minderjährig, leben im Haushalt und sind kindergeldberechtigt.",
+    "Betreuung findet Montag bis Freitag durchgehend statt.",
+    "Keine Pässe oder zusätzlichen antragsabhängigen Sozialermäßigungen.",
+    "Vorjahr und laufendes Jahr haben im Modell dieselben Einkommenswerte; keine weiteren Einkünfte oder Vermietungsverluste.",
+    "Die örtlichen Bemessungswerte sind feste Vergleichsannahmen, keine berechneten persönlichen Steuerwerte."
+  ]
+}

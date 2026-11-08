@@ -3,6 +3,9 @@
 **Status:** Datenmodell, Kommunenregister, Rechenkern und lokale Webkarte umgesetzt; Pages-Veröffentlichung automatisiert; individuelles Familienformular erhalten, vorerst ausgeblendet
 **Stand:** 8. November 2026
 
+**Aktueller Modellvergleich:** Die vereinbarte Konfiguration ist umgesetzt. Haushaltskonstellation, Kinderzahl, vier Kinderkategorien, sechs Einkommensszenarien und 6/8 Stunden je Kita-Kind bestimmen die Familiengesamtkosten. Feste Einkommensannahmen und Einschränkungen stehen in [MODELLFAMILIEN.md](MODELLFAMILIEN.md). Die bisherigen persönlichen Eingaben und der Höchsttarif-Reiter bleiben öffentlich ausgeblendet.
+
+
 ## 1. Projektziel
 
 Das Projekt sammelt, dokumentiert und vergleicht öffentlich verfügbare Gebühren für Krippen- und Kindergartenbetreuung in ausgewählten Städten und Gemeinden der Region Stuttgart. Die Ergebnisse sollen Eltern und politischen Entscheidungsträgern einen nachvollziehbaren Vergleich der Gebühren ermöglichen.
@@ -138,7 +141,7 @@ Für jede Quelle und jeden daraus übernommenen Tarifstand sind nach Möglichkei
 
 ### 7.2 Startprofil und individuelle Einstellungen
 
-**Aktuelle Bedienentscheidung (8. November 2026):** Die individuelle Eingabe „Eigene Familie“ ist vorerst ausgeblendet; Code und Tests bleiben erhalten. Die Hauptbedienung soll auf einfach auswählbaren Modellfamilien beruhen. Vereinbart sind Haushaltskonstellation, Anzahl der Kinder, Kategorien Krippe/Kindergarten/Schulkind/zu Hause betreut, Einkommen 40.000/60.000/80.000/100.000/140.000/180.000 € und je betreutem Kind 6 oder 8 Stunden täglich. Die künftige Karte zeigt die vollständigen Betreuungskosten der Familie. Diese Konfiguration ist noch nicht umgesetzt und benötigt geprüfte örtliche Modellannahmen. Der bisherige Standard bleibt unverändert. Der separate Höchsttarif-Reiter ist ausgeblendet; Referenzprofil und Tests bleiben erhalten. Die weiter unten beschriebenen persönlichen Eingaben sind eine zurückgestellte Funktion.
+**Aktuelle Bedienentscheidung (8. November 2026):** Die individuelle Eingabe „Eigene Familie“ ist vorerst ausgeblendet; Code und Tests bleiben erhalten. Die Hauptbedienung soll auf einfach auswählbaren Modellfamilien beruhen. Vereinbart sind Haushaltskonstellation, Anzahl der Kinder, Kategorien Krippe/Kindergarten/Schulkind/zu Hause betreut, Einkommen 40.000/60.000/80.000/100.000/140.000/180.000 € und je betreutem Kind 6 oder 8 Stunden täglich. Die künftige Karte zeigt die vollständigen Betreuungskosten der Familie. Diese Konfiguration ist umgesetzt; örtliche Werte sind ausdrücklich dokumentierte Modellannahmen. Der bisherige Standard bleibt unverändert. Der separate Höchsttarif-Reiter ist ausgeblendet; Referenzprofil und Tests bleiben erhalten. Die weiter unten beschriebenen persönlichen Eingaben sind eine zurückgestellte Funktion.
 
 Die Website soll mit einer einstellbaren Modellfamilie starten:
 

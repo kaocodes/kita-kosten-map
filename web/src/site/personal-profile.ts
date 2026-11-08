@@ -15,7 +15,7 @@ export interface PersonalDraft {
 }
 export interface IncomeField { basis: string; period: "year" | "month"; label: string; help: string }
 export const INCOME_FIELDS: IncomeField[] = [
-  { basis: "taxable_income", period: "year", label: "Ditzingen: zu versteuerndes Jahreseinkommen", help: "Vorjahr des Tarifstichtags. Aus dem Steuerbescheid; keine Umrechnung aus Brutto." },
+  { basis: "taxable_income", period: "year", label: "Ditzingen: örtliches maßgebliches Jahreseinkommen", help: "Vorjahr des Tarifstichtags, Definition nach § 7: positive Einkünfte einschließlich der genannten Ersatz- und Sozialleistungen. Steuerbescheidwert nicht ungeprüft übernehmen." },
   { basis: "esslingen_gross_income", period: "year", label: "Esslingen: jährliches Familienbrutto nach örtlicher Definition", help: "Laufendes Kalenderjahr des Tarifstichtags, ohne Kindergeld. Einen zulässigen Arbeitnehmer-Pauschbetrag nur nach eigener Prüfung abziehen." },
   { basis: "adjusted_taxable_income", period: "year", label: "Korntal-Münchingen: bereinigtes steuerliches Jahreseinkommen", help: "Vorjahr des Tarifstichtags: zu versteuerndes Einkommen zuzüglich Verlusten aus Vermietung und Verpachtung." },
   { basis: "gross_income", period: "year", label: "Haushaltsbrutto pro Jahr", help: "Für die freiwillige Sozialermäßigung in Kornwestheim. Ersetzt keine der anderen Einkommensdefinitionen." },

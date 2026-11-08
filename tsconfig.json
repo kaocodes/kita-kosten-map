@@ -13,5 +13,5 @@
     "rootDir": "web/src",
     "outDir": "build"
   },
-  "include": ["web/src/domain/**/*.ts", "web/src/site/presentation.ts"]
+  "include": ["web/src/domain/**/*.ts", "web/src/site/presentation.ts", "web/src/site/personal-profile.ts"]
 }

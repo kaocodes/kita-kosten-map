@@ -1,6 +1,6 @@
 # Projektanforderungen: Kita- und Kindergartengebühren in der Region Stuttgart
 
-**Status:** Datenmodell, Kommunenregister, Rechenkern und lokale Webkarte umgesetzt; Pages-Veröffentlichung automatisiert; individuelles Formular ausstehend  
+**Status:** Datenmodell, Kommunenregister, Rechenkern und lokale Webkarte umgesetzt; Pages-Veröffentlichung automatisiert; individuelles Familienformular umgesetzt
 **Stand:** 8. November 2026
 
 ## 1. Projektziel
@@ -151,7 +151,7 @@ Das Profil ist eine transparente Referenzannahme und kein statistisch belegter D
 
 Nutzer sollen Kinderzahl und Alter, Haushaltszugehörigkeit und -konstellation, gleichzeitig betreute Geschwister, Brutto- und steuerliches Einkommen, Betreuungstage und Tagesstunden sowie vorhandene Pässe oder bewilligte Vergünstigungen einstellen können. Karte, Liste und Details verwenden dasselbe Profil. Eine Aktion stellt die Modellfamilie wieder her. Fehlende lokale Pflichtangaben ergeben eine eigene Kennzeichnung statt einer Schätzung. Eine geänderte persönliche Einkommenseingabe darf nicht unbemerkt mit einer alten steuerlichen Modellannahme kombiniert werden.
 
-**Implementierungsstand nach Paket 3:** `data/profiles/default.json`, Standardexporte und Website verwenden die Modellfamilie. `data/profiles/highest_band.json` erhält die Höchsttarifreferenz, die auf der Website als zweites Profil auswählbar ist. Beide Profile sind für alle zwölf Kommunen gegen belegte Sollwerte geprüft. Lokale Einkommensgrundlagen sind ausdrücklich erfasst; ein Snapshot schützt gegen unbemerkt veränderte Modellannahmen. Esslingen wird im Modell ohne den optionalen Arbeitnehmer-Pauschbetrag berechnet. Die persönliche Eingabeoberfläche folgt in Paket 4.
+**Implementierungsstand nach Paket 4:** `data/profiles/default.json`, Standardexporte und Website verwenden die Modellfamilie. `data/profiles/highest_band.json` erhält die Höchsttarifreferenz, die auf der Website als zweites Profil auswählbar ist. Beide Profile sind für alle zwölf Kommunen gegen belegte Sollwerte geprüft. Lokale Einkommensgrundlagen sind ausdrücklich erfasst; ein Snapshot schützt gegen unbemerkt veränderte Modellannahmen. Esslingen wird im Modell ohne den optionalen Arbeitnehmer-Pauschbetrag berechnet. Die persönliche Eingabeoberfläche ist als drittes Profil „Eigene Familie“ umgesetzt. Sie entfernt Modell-Einkommen und Berechtigungen, hält Einkommensdefinitionen getrennt und aktualisiert Karte, Liste und Details. Fehlerhafte Eingaben entfernen alle bisherigen Gebühren; fehlende Angaben sperren nur die betroffenen Berechnungen. Persönliche Angaben werden nicht gespeichert oder übertragen. Details und Abnahme stehen in [WEBANWENDUNG.md](WEBANWENDUNG.md).
 
 Originalbeiträge, tatsächlicher Buchungsumfang, Mehrstunden und Beitragsmonate bleiben sichtbar. Das Jahresäquivalent hält den Tarif am Stichtag konstant und bildet keine tatsächliche Jahresabrechnung mit unterjährigen Änderungen ab.
 

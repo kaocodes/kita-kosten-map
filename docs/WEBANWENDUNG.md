@@ -1,6 +1,6 @@
 # Lokale Webanwendung und Geodaten
 
-**Stand:** 8. November 2026 · **Umsetzungspaket:** 3
+**Stand:** 8. November 2026 · **Umsetzungspaket:** 4
 
 Es gibt eine eigenständige React-Anwendung mit Leaflet-Karte. Sie stellt die zwölf Vergleichskommunen als Gebührenflächen dar und verwendet den geprüften TypeScript-Rechenkern. Die Anwendung läuft vollständig mit statischen Dateien; ein Backend wird nicht benötigt. Die Veröffentlichung auf GitHub Pages erfolgt über den Workflow `.github/workflows/pages.yml`.
 
@@ -27,14 +27,26 @@ Die Build-Vorschau läuft unter **http://127.0.0.1:4173/**. `dist/` enthält die
 ## 2. Sichtbare Funktionen
 
 - Gemeindekarte mit zwölf auswählbaren Gebührenflächen und 128 umliegenden Gemeindegebieten als räumlichem Kontext.
-- Umschalten zwischen Modellfamilie und Höchsttarifreferenz; Karte, Vergleichsliste und Detailbereich verwenden dasselbe Ergebnis.
+- Umschalten zwischen Modellfamilie, Höchsttarifreferenz und eigener Familie; Karte, Vergleichsliste und Detailbereich verwenden dasselbe Ergebnis.
 - Monatsäquivalent, ursprünglicher Monatsbeitrag, Beitragsmonate, gebuchte Wochenstunden, zusätzliche Buchungszeit und Tarifbeginn je Kommune.
 - Verpflegung und Zusatzkosten als gesonderte Varianten; fehlende Beitragsmonate bleiben ausdrücklich unbekannt.
 - Direkte Links zu offiziellen Gebührenquellen und aufklappbare Fundstellen.
 - Feste Gebührenlegende, Zoom, Verschieben und Zurücksetzen auf die gesamte Vergleichsregion.
 - Gemeindewahl per Maus, Tastatur oder Liste; auf schmalen Bildschirmen stehen Karte und Details untereinander. Die Detailansicht wird bei der Auswahl erreicht.
 
-Die individuellen Familien- und Einkommenseingaben sowie die vollständige Formular- und Bedienabnahme folgen in Paket 4. Die jetzigen beiden Profile sind feste, geprüfte Referenzen. Die aufsteigende Vergleichsliste und die Grundgestaltung sind bereits als bedienbare Grundlage vorhanden.
+### Persönliches Profil (Paket 4)
+
+„Eigene Familie“ übernimmt zunächst Familienstruktur und Betreuungszeiten der Modellfamilie. Einkommen, Betreuungsrang, Pässe, Ermäßigungen und deren Bestätigungen bleiben leer. Ein Wechsel zu einer Referenz und zurück erhält die persönlichen Eingaben innerhalb dieses Browserfensters. „Modellfamilie wiederherstellen“ setzt den persönlichen Entwurf zurück und aktiviert die Referenz. Neuladen verwirft persönliche Eingaben; es gibt keine Speicherung in URL, Local Storage oder Backend.
+
+Erfasst werden alle Haushaltskinder mit Alter in Jahren/Monaten, Haushaltszugehörigkeit und Kindergeldberechtigung, das Vergleichskind, Einschulung, Haushaltskonstellation, täglicher durchgehender Betreuungsbedarf und der gesonderte Sindelfinger Betreuungsrang. Bei genau 36 Monaten wird für Städte mit Tarifwechsel im Folgemonat der Geburtstagsmonat abgefragt. Die drei Haushaltsoptionen unterscheiden zusammenlebende Eltern, Alleinerziehende und getrennt lebende, nicht alleinerziehende Eltern. Relevante Einkünfte und Haushaltszugehörigkeit müssen nach örtlicher Regel selbst angegeben werden. Beim Wechsel des Vergleichskindes werden Betreuungsrang und Einschulungsangabe zurückgesetzt.
+
+Ditzinger steuerliches Vorjahreseinkommen, Esslinger örtliches Familienbrutto des laufenden Jahres, Korntaler bereinigtes steuerliches Vorjahreseinkommen und allgemeines Haushaltsbrutto sind unabhängige Felder. Der Tarifstichtag bleibt der geprüfte 4. November 2026. Ein bestätigter Abzug in Esslingen ist vor Eingabe selbst zu berücksichtigen; die Anwendung schätzt weder Steuern noch Pauschbeträge. Deutsche Geldbeträge wie `80.000,01` werden exakt in Cent gelesen. Leer bedeutet unbekannt, `0` einen ausdrücklich angegebenen Nullbetrag.
+
+Örtliche Pässe und ausführbare Ermäßigungen werden aus den aktiven Tarifkatalogen angeboten. Jede erforderliche Berechtigung muss ausdrücklich bestätigt werden. Fellbacher und Gerlinger Ermäßigungseinkommen werden separat erfasst. Änderungen an Pass oder Regelauswahl löschen bisherige Bestätigungen. Angaben gelten nur für die gewählte Kommune; Einkommensgrenzen begründen keine automatische Berechtigung.
+
+Fehlende Einkommen lassen die übrigen Kommunen berechenbar. Ungültige Beträge, Altersangaben oder Zeiten entfernen dagegen alle vorherigen Preise, Pakete, Zusatzkosten und Rechenspuren. Inline-Fehler und eine Fehlerübersicht verweisen auf die Eingaben; Gemeindedetails bieten Links zu fehlenden Einkommen bzw. Betreuungsrang. Nicht berechenbare Ergebnisse bleiben grau. Quellen sind auch dann erreichbar. Formular und Ergebnisübersicht sind per Anker verbunden; das gesamte Formular lässt sich einklappen. Die Gemeindewahl bleibt bei Ergebnisänderungen stabil, und eine Auswahl aus Karte oder Liste setzt den Fokus auf die Detailüberschrift.
+
+Die Referenzprofile bleiben unverändert. Historien, freie Tarifstichtage, Schulkinder und nicht im Rechenkern ausführbare Sonderregelungen sind weiterhin nicht Bestandteil der persönlichen Berechnung.
 
 ## 3. Dateien und Architektur
 
@@ -45,6 +57,7 @@ Die individuellen Familien- und Einkommenseingaben sowie die vollständige Formu
 | `web/src/components/MunicipalityMap.tsx` | Leaflet-Anbindung für Geometrie, Farben und Gemeindewahl |
 | `web/src/components/MunicipalityDetails.tsx` | Originalbeitrag, Zusatzkosten und Quellen |
 | `web/src/site/data.ts` | Laden der erzeugten lokalen JSON-Dateien und Prüfung ihrer geografischen Zuordnung |
+| `web/src/components/FamilyForm.tsx`, `web/src/site/personal-profile.ts` | Formular, exakte Textauswertung und sichere persönliche Profile |
 | `web/src/site/presentation.ts` | Deutsche Formatierung und Gebührenklassen |
 | `web/src/domain/` | Unabhängiger Rechenkern aus Paket 2 |
 | `scripts/prepare_web_data.mjs` | Reproduzierbare Vorbereitung von Browserkatalog, Geometrie, Quellenindex und Lizenztexten |
@@ -83,10 +96,12 @@ Messstand dieser Umsetzung:
 | Ursprünglicher regionaler Geometrieabruf | 391.188 Byte | – |
 | Vereinfachte Webgeometrie mit Zuordnung | 132.114 Byte | 28.358 Byte |
 | Browserkatalog, Profile und Quellenindex | 1.108.900 Byte | 46.943 Byte |
-| JavaScript-Bundle | rund 496 kB | rund 150 kB |
-| CSS-Bundle | rund 33 kB | rund 11 kB |
+| JavaScript-Bundle | rund 508 kB | rund 154 kB |
+| CSS-Bundle | rund 34 kB | rund 11 kB |
 
-Die rechnerische gzip-Summe aus HTML, CSS, JavaScript, Geometrie und Browserkatalog liegt bei ungefähr **236 kB**. Tatsächlicher Transfer und Ladezeit hängen von Serverkomprimierung, Verbindung und Cache ab. Die lokale einfache HTTP-Vorschau liefert Dateien unkomprimiert aus. Quellen-PDFs und das vollständige Forschungsarchiv gehören nicht zum Website-Build.
+Das persönliche Formular wird erst bei Auswahl als zusätzliches Modul geladen (rund 11 kB JavaScript und 3 kB CSS, zusammen ungefähr 5 kB gzip). Der Haupt-Build liegt knapp über der Vite-Hinweisschwelle von 500 kB unkomprimiert; die Datenbudgets bleiben erfüllt.
+
+Die rechnerische gzip-Summe aus HTML, CSS, JavaScript, Geometrie und Browserkatalog liegt bei ungefähr **240 kB**. Tatsächlicher Transfer und Ladezeit hängen von Serverkomprimierung, Verbindung und Cache ab. Die lokale einfache HTTP-Vorschau liefert Dateien unkomprimiert aus. Quellen-PDFs und das vollständige Forschungsarchiv gehören nicht zum Website-Build.
 
 Das Vorverarbeitungsskript prüft feste Ausgangsbudgets: höchstens **200 kB** Webgeometrie, **1,5 MB** Browserkatalog und zusammen höchstens **150 kB gzip** für die beiden Datenressourcen. Die aktuellen Werte und Hashes werden unter `web/public/data/build-metrics.json` neu erzeugt. Größere Erweiterungen können eine regionale Aufteilung erfordern; die Grenzen werden dann bewusst überprüft.
 
@@ -99,11 +114,13 @@ npm run build
 python3 -m unittest discover -s tests
 ```
 
-`npm test` bereitet die Webdaten vor und führt **119 JavaScript-Prüfungen** aus: die bisherigen 111 Rechenkern-/Paritätsprüfungen sowie acht Prüfungen für die Website-Daten und Darstellungskonventionen. Die Python-Suite umfasst 70 Tests. Die acht zusätzlichen Prüfungen decken Register-/Geometriezuordnung, Umgebungskontext, Polygone, gemeinsame Grenzen, unveränderte Vergleichswerte, Herkunft, Datenbudgets und die Unterscheidung von null Euro gegenüber fehlenden Werten ab. Sie lassen sich auch eigenständig mit `npm run test:web` ausführen.
+`npm test` bereitet die Webdaten vor und führt **132 JavaScript-Prüfungen** aus: die bisherigen 111 Rechenkern-/Paritätsprüfungen sowie acht Prüfungen für die Website-Daten und Darstellungskonventionen und dreizehn für persönliche Profile, exakte Eingaben, Fehlerzustände und örtliche Ermäßigungen. Die Python-Suite umfasst 70 Tests. Die acht zusätzlichen Prüfungen decken Register-/Geometriezuordnung, Umgebungskontext, Polygone, gemeinsame Grenzen, unveränderte Vergleichswerte, Herkunft, Datenbudgets und die Unterscheidung von null Euro gegenüber fehlenden Werten ab. Sie lassen sich auch eigenständig mit `npm run test:web` ausführen.
 
-Im Browser wurden Desktop sowie 390 und 320 Pixel Breite geprüft. Profilwechsel, Flächenwahl, Tastaturwahl, Zusatzkosten und die schmale Darstellung funktionieren. Ein bei 320 Pixeln beobachteter horizontaler Überlauf wurde behoben. Der fertige Build wurde zusätzlich durch einen einfachen statischen HTTP-Server unter `/kita-costs-map/` geladen; Karte, Daten, Profile und lokale Lizenzverweise funktionieren auch dort. Die endgültige Formular- und umfassende Bedienprüfung gehört zu Paket 4.
+Im Browser wurden Desktop sowie 390 und 320 Pixel Breite geprüft. Profilwechsel, Flächenwahl, Tastaturwahl, Zusatzkosten und die schmale Darstellung funktionieren. Ein bei 320 Pixeln beobachteter horizontaler Überlauf wurde behoben. Der fertige Build wurde zusätzlich durch einen einfachen statischen HTTP-Server unter `/kita-costs-map/` geladen; Karte, Daten, Profile und lokale Lizenzverweise funktionieren auch dort. Paket 4 ergänzt Browserprüfungen für leere und fehlerhafte Einkommen, bestätigte und unbestätigte Pässe/Sozialermäßigungen, Kindergartenkinder mit Geschwistern, abweichende Tageszeiten, Profilwechsel, Zurücksetzen, Einklappen und Auswahl per Tastatur. Bei 390 und 320 Pixeln bleibt auch das Formular ohne horizontalen Überlauf. Die Prüfung ist keine formale WCAG-Zertifizierung.
 
-Gesicherte Ansichten der tatsächlichen Anwendung: [Desktop](../output/website-preview-desktop.jpg) und [Mobil](../output/website-preview-mobile.jpg). Die Bilder zeigen das Modellfamilienprofil; die älteren Entwürfe in `output/` bleiben separat erhalten.
+Gesicherte Formularansichten aus Paket 4: [Desktop](../output/website-family-form-desktop.jpg) und [Mobil](../output/website-family-form-mobile.jpg). Die Eingaben in den Bildern sind synthetische Prüfdaten.
+
+Gesicherte Ansichten der tatsächlichen Anwendung aus Paket 3: [Desktop](../output/website-preview-desktop.jpg) und [Mobil](../output/website-preview-mobile.jpg). Die Bilder zeigen das Modellfamilienprofil; die älteren Entwürfe in `output/` bleiben separat erhalten.
 
 `vite.config.ts` verwendet `base: "./"`. Die Anwendung hat keine serverseitigen Routen; interne Verweise sind Seitenanker. Dadurch funktionieren die gebauten Dateien im Stammverzeichnis und in einem GitHub-Pages-Projektverzeichnis. Der Pages-Workflow ist eingerichtet; die Zieladresse lautet https://kaocodes.github.io/kita-kosten-map/.
 

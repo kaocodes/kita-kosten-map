@@ -168,6 +168,18 @@ interface Candidate {
   weekly: number;
 }
 
+/** Eligibility confirmations for published local pass tariffs. */
+export function passRequirements(city: MunicipalityCatalog, passId: string): string[] {
+  const requirements: Record<string, string[]> = {
+    "stuttgart:family_card": ["valid_family_card"],
+    "sindelfingen:social_card": ["valid_social_card"],
+    "esslingen:city_pass": ["valid_city_pass", "priority_benefits_denied"],
+  };
+  let required = requirements[`${city.id}:${passId}`] ?? [];
+  if (city.id === "leinfelden-echterdingen" && passId.startsWith("city_pass_")) required = ["valid_city_pass", "no_priority_benefit"];
+  return [...required];
+}
+
 /** Evaluate a validated canonical catalog using only local JSON data. */
 export function evaluateCity(catalog: MunicipalityCatalog, input: unknown): ComparisonResult {
   const city = structuredClone(catalog);
@@ -201,13 +213,7 @@ export function evaluateCity(catalog: MunicipalityCatalog, input: unknown): Comp
   if (!count) return unavailable("family_definition_not_satisfied");
   if (city.id === "stuttgart" && profile.pass_id === "family_card" &&
       profile.children.filter(entry => entry.age_months < 36).length > 1) return unavailable("infant_surcharge_allocation_required");
-  const requirements: Record<string, string[]> = {
-    "stuttgart:family_card": ["valid_family_card"],
-    "sindelfingen:social_card": ["valid_social_card"],
-    "esslingen:city_pass": ["valid_city_pass", "priority_benefits_denied"],
-  };
-  let required = requirements[`${city.id}:${profile.pass_id}`] ?? [];
-  if (city.id === "leinfelden-echterdingen" && profile.pass_id.startsWith("city_pass_")) required = ["valid_city_pass", "no_priority_benefit"];
+  const required = passRequirements(city, profile.pass_id);
   if (!required.every(condition => (profile.eligibility ?? []).includes(condition))) return unavailable("pass_eligibility_not_confirmed");
   const localPasses = new Set(["none", ...city.prices.map(row => row.selectors?.pass_id ?? "none")]);
   if (!localPasses.has(profile.pass_id)) return unavailable("pass_not_supported_for_municipality");

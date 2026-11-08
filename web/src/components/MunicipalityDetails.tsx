@@ -1,4 +1,6 @@
-import type { ComparisonResult, MunicipalityCatalog } from "../domain/index.js";
+import { incomeValue } from "../domain/index.js";
+import type { ComparisonResult, MunicipalityCatalog, Profile } from "../domain/index.js";
+import { INCOME_FIELDS } from "../site/personal-profile.js";
 import type { SourceReference } from "../site/data.js";
 import { formatDate, formatHours, formatMoney, reasonLabel } from "../site/presentation.js";
 import styles from "../App.module.css";
@@ -7,6 +9,8 @@ interface Props {
   result: ComparisonResult;
   tariff: MunicipalityCatalog;
   sources: Record<string, SourceReference>;
+  profile: Profile | null;
+  personal: boolean;
 }
 
 const unitLabels: Record<string, string> = {
@@ -14,18 +18,23 @@ const unitLabels: Record<string, string> = {
   per_started_quarter_hour: " / angefangene Viertelstunde",
 };
 
-export function MunicipalityDetails({ result, tariff, sources }: Props) {
+export function MunicipalityDetails({ result, tariff, sources, profile, personal }: Props) {
   const offer = tariff.offers.find(item => item.id === result.offer_id);
-  const references = [...new Set(result.evidence.map(reference => reference.source_id))]
+  const evidence = result.evidence.length ? result.evidence : tariff.offers.map(item => item.evidence);
+  const references = [...new Set(evidence.map(reference => reference.source_id))]
     .map(id => sources[id]).filter(Boolean);
   const firstSource = references[0];
+  const child = profile?.children[profile.target_child];
+  const localProfile = profile ? { ...profile, ...profile.municipality_overrides?.[result.municipality_id] } : null;
+  const missingIncome = localProfile && localProfile.pass_id === "none" ? INCOME_FIELDS.filter(field =>
+    tariff.income_bands.some(band => band.basis === field.basis) && incomeValue(localProfile, field.basis, field.period) === null) : [];
   return <section className={styles.detailsCard} id="gemeindedetails" aria-labelledby="municipality-title">
     <div className={styles.detailHeader}>
       <span className={styles.eyebrow}>Ausgewählte Kommune</span>
       <span className={styles.locationIcon} aria-hidden="true">↗</span>
     </div>
-    <h2 id="municipality-title">{result.municipality}</h2>
-    <p className={styles.detailLocation}>Kommunale Krippenbetreuung</p>
+    <h2 id="municipality-title" tabIndex={-1}>{result.municipality}</h2>
+    <p className={styles.detailLocation}>{!child ? "Kommunale Betreuung" : child.age_months < 36 ? "Kommunale Krippenbetreuung" : "Kommunale Kindergartenbetreuung"}</p>
     <div className={styles.priceBlock}>
       <strong className={result.monthly_equivalent_cents === null ? styles.missingPrice : styles.price}>
         {formatMoney(result.monthly_equivalent_cents)}
@@ -36,6 +45,11 @@ export function MunicipalityDetails({ result, tariff, sources }: Props) {
     {result.reasons.length > 0 && <ul className={styles.reasonList}>
       {result.reasons.map(reason => <li key={reason}>{reasonLabel(reason)}</li>)}
     </ul>}
+    {personal && result.status !== "comparable" && <div className={styles.inputHints}>
+      {missingIncome.map(field => <a key={field.basis} href={"#income-" + field.basis}>{field.label} ergänzen</a>)}
+      {localProfile?.care_rank == null && tariff.prices.some(price => price.selectors?.care_rank != null) && <a href="#care-rank">Betreuungsrang ergänzen</a>}
+      <a href="#family-heading">Familienangaben und örtliche Voraussetzungen prüfen</a>
+    </div>}
     <dl className={styles.breakdown}>
       <div><dt>Monatsbeitrag laut Tarif</dt><dd>{formatMoney(result.monthly_care_cents)}</dd></div>
       <div><dt>Beitragsmonate im Jahr</dt><dd>{result.payment_months ?? "Nicht belegt"}</dd></div>
@@ -70,7 +84,7 @@ export function MunicipalityDetails({ result, tariff, sources }: Props) {
         <summary>Alle Quellen und Fundstellen ({references.length})</summary>
         <ul>{references.map(source => <li key={source.id}>
           <a href={source.url} target="_blank" rel="noreferrer">{source.title} ↗</a>
-          <ul>{[...new Set(result.evidence.filter(reference => reference.source_id === source.id).map(reference => reference.locator))]
+          <ul>{[...new Set(evidence.filter(reference => reference.source_id === source.id).map(reference => reference.locator))]
             .map(locator => <li key={locator}>{locator}</li>)}</ul>
         </li>)}</ul>
       </details>}

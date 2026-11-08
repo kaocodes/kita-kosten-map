@@ -30,6 +30,17 @@ export function feeColor(result?: Pick<ComparisonResult, "status" | "monthly_equ
 }
 
 const reasonLabels: Record<string, string> = {
+  invalid_profile_input: "Die markierten persönlichen Eingaben müssen korrigiert werden. Vorherige Gebühren werden nicht weiter angezeigt.",
+  target_outside_scope: "Das Vergleichskind muss im Haushalt leben und darf noch nicht eingeschult sein.",
+  birthday_month_required_for_age_transition: "Bitte angeben, ob der dritte Geburtstag im Monat des Tarifstichtags liegt. Hier wechselt der Tarif erst im Folgemonat.",
+  family_definition_not_satisfied: "Die Familie erfüllt die hinterlegte örtliche Definition nicht.",
+  pass_eligibility_not_confirmed: "Die Voraussetzungen für den ausgewählten Pass sind noch nicht vollständig bestätigt.",
+  eligibility_not_confirmed: "Die Voraussetzungen für die ausgewählte Ermäßigung sind noch nicht vollständig bestätigt.",
+  discount_income_limit_not_met: "Das angegebene Einkommen erfüllt die Grenze der ausgewählten Ermäßigung nicht.",
+  discount_not_applicable: "Die ausgewählte Ermäßigung gilt nicht für dieses Betreuungsmodell.",
+  discounts_not_stackable: "Die ausgewählten Ermäßigungen dürfen nicht kombiniert werden.",
+  infant_surcharge_allocation_required: "Bei mehreren Kindern unter drei Jahren mit FamilienCard muss die Zuordnung des Zuschlags geklärt werden.",
+  tariff_not_offered: "Für diese Konstellation wird kein entsprechender Tarif angeboten.",
   price_or_income_input_missing: "Eine passende Tarif- oder Einkommensangabe fehlt.",
   income_definition_missing: "Die örtlich erforderliche Einkommensgrundlage fehlt.",
   payment_months_unknown: "Die Zahl der Beitragsmonate ist nicht belegt.",

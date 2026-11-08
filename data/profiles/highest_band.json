@@ -1,0 +1,30 @@
+{
+  "id": "u3-single-child-full-payer-40h",
+  "label": "Krippe · Einzelkind · mindestens 8 Stunden täglich · Vollzahler",
+  "as_of": "2026-11-04",
+  "children": [
+    {
+      "age_months": 24,
+      "resident": true,
+      "child_benefit": true
+    }
+  ],
+  "target_child": 0,
+  "school_entry": false,
+  "care_rank": 1,
+  "weekday_minutes": [
+    480,
+    480,
+    480,
+    480,
+    480
+  ],
+  "income_mode": "highest_band",
+  "incomes": [],
+  "pass_id": "none",
+  "approved_rules": [],
+  "eligibility": [],
+  "single_parent": false,
+  "scope": "municipal",
+  "metric": "care_annual_equivalent_divided_by_12"
+}

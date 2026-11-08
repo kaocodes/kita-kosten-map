@@ -1,6 +1,6 @@
 {
-  "id": "u3-single-child-full-payer-40h",
-  "label": "Krippe · Einzelkind · mindestens 8 Stunden täglich · Vollzahler",
+  "id": "u3-model-family-40h",
+  "label": "Krippe · Modellfamilie · mindestens 8 Stunden täglich",
   "as_of": "2026-11-04",
   "children": [
     {
@@ -19,12 +19,95 @@
     480,
     480
   ],
-  "income_mode": "highest_band",
-  "incomes": [],
+  "income_mode": "specified",
+  "incomes": [
+    {
+      "basis": "gross_income",
+      "period": "year",
+      "amount_cents": 8000000
+    },
+    {
+      "basis": "taxable_income",
+      "period": "year",
+      "amount_cents": 6000000
+    },
+    {
+      "basis": "esslingen_gross_income",
+      "period": "year",
+      "amount_cents": 8000000
+    },
+    {
+      "basis": "adjusted_taxable_income",
+      "period": "year",
+      "amount_cents": 6000000
+    }
+  ],
   "pass_id": "none",
   "approved_rules": [],
   "eligibility": [],
   "single_parent": false,
   "scope": "municipal",
-  "metric": "care_annual_equivalent_divided_by_12"
+  "metric": "care_annual_equivalent_divided_by_12",
+  "household": {
+    "parent_count": 2,
+    "parents_living_together": true
+  },
+  "assumptions": {
+    "income_unchanged_since_previous_year": true,
+    "no_other_income": true,
+    "no_letting_losses": true,
+    "gross_and_taxable_income_are_independent": true,
+    "esslingen_employee_allowance_deduction_cents": 0
+  },
+  "model_income_snapshot": {
+    "incomes": [
+      {
+        "basis": "gross_income",
+        "period": "year",
+        "amount_cents": 8000000
+      },
+      {
+        "basis": "taxable_income",
+        "period": "year",
+        "amount_cents": 6000000
+      },
+      {
+        "basis": "esslingen_gross_income",
+        "period": "year",
+        "amount_cents": 8000000
+      },
+      {
+        "basis": "adjusted_taxable_income",
+        "period": "year",
+        "amount_cents": 6000000
+      }
+    ],
+    "assumptions": {
+      "income_unchanged_since_previous_year": true,
+      "no_other_income": true,
+      "no_letting_losses": true,
+      "gross_and_taxable_income_are_independent": true,
+      "esslingen_employee_allowance_deduction_cents": 0
+    }
+  },
+  "income_assumption_evidence": [
+    {
+      "basis": "taxable_income",
+      "reference_period": "previous_year",
+      "source_id": "e3a01305341e",
+      "locator": "§ 4, income definition; Anlage 4, income bands"
+    },
+    {
+      "basis": "esslingen_gross_income",
+      "reference_period": "current_calendar_year",
+      "source_id": "4d33c02682ef",
+      "locator": "IV. Höhe der Entgelte: current-year family gross income, child benefit excluded, optional employee allowance"
+    },
+    {
+      "basis": "adjusted_taxable_income",
+      "reference_period": "previous_year",
+      "source_id": "e534e1399550",
+      "locator": "Anlage 1, Ziff. 2.1–2.6, taxable income plus losses from letting"
+    }
+  ]
 }

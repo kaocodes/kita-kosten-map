@@ -5,7 +5,9 @@ import csv
 import json
 from pathlib import Path
 
-from .engine import ROOT, evaluate_city, load_cities, load_default_profile
+from .engine import (ROOT, compare_municipalities, load_cities, load_default_profile,
+                     load_highest_band_profile)
+from .registry import active_municipalities, load_registry
 from .validation import validate_dataset
 
 
@@ -31,9 +33,16 @@ def euro(cents):
 
 def write_report(path, cities, profile, results):
     sources = {s["id"]: s for s in json.loads((ROOT / "data/source_manifest.json").read_text())}
-    lines = ["# Standardvergleich und Vollständigkeitsprüfung", "",
+    if profile["income_mode"] == "highest_band":
+        description = "Profil: 24 Monate altes Einzelkind, kommunale Betreuung, höchster regulärer Einkommenstarif, ohne Pass- oder Sozialermäßigung; Montag bis Freitag jeweils mindestens acht Stunden durchgehend."
+        reference = "Zusätzliche Höchsttarifreferenz: `data/profiles/highest_band.json`, Sollwerte in `data/reviews/highest_band_review.json`. Die Modellfamilie ist der Standard; diese Referenz erhält die bisherigen Vollzahlerwerte."
+    else:
+        description = "Profil: zwei zusammenlebende Eltern, ein 24 Monate altes Kind ohne Geschwister; 80.000 € Haushaltsbrutto und unabhängig angenommene 60.000 € zu versteuerndes Jahreseinkommen, im Vorjahr und laufenden Jahr unverändert, keine weiteren Einkünfte oder Vermietungsverluste; kommunale Betreuung ohne Pass- oder Sozialermäßigung; Montag bis Freitag jeweils mindestens acht Stunden durchgehend."
+        reference = "Modellannahmen: Esslingens gesonderte Einkommensgrundlage wird mit 80.000 € angesetzt; ein möglicher Arbeitnehmer-Pauschbetrag wird im Modell nicht abgezogen. Korntal-Münchingens bereinigte steuerliche Grundlage beträgt ohne Vermietungsverluste 60.000 € jährlich bzw. 5.000 € monatlich. Das ist keine Brutto-/Steuerumrechnung und kein statistischer Durchschnittshaushalt. Die lokalen Grundlagen sind ausdrücklich im Profil erfasst."
+    title = "# Höchsttarifvergleich und Vollständigkeitsprüfung" if profile["income_mode"] == "highest_band" else "# Standardvergleich und Vollständigkeitsprüfung"
+    lines = [title, "",
              f"**Tarifstichtag:** {profile['as_of']} · **Quellenprüfung:** 7. November 2026", "",
-             "Profil: 24 Monate altes Einzelkind, kommunale Betreuung, höchster regulärer Einkommenstarif, ohne Pass- oder Sozialermäßigung; Montag bis Freitag jeweils mindestens acht Stunden durchgehend.", "",
+             description, "", reference, "",
              "Der Vergleichswert ist der am Stichtag geltende Monatsbeitrag × Beitragsmonate ÷ 12. Das Jahresäquivalent hält diesen Tarif konstant und bildet keine tatsächliche Jahresabrechnung mit unterjährigen Änderungen ab. Die Kennzahl enthält Betreuung; Zusatzkosten stehen separat im JSON-Export. Ein veröffentlichtes Angebot garantiert keinen freien Platz.", "",
              "| Kommune | Gewähltes Paket | Wochenstunden | Mehrstunden | Monatsbeitrag | Beitragsmonate | Monatsäquivalent | Status |",
              "|---|---|---:|---:|---:|---:|---:|---|"]
@@ -75,7 +84,15 @@ def write_report(path, cities, profile, results):
                 source = sources[ref["source_id"]]
                 lines.append(f"- [Originalquelle {ref['source_id']}]({source['url']}): {ref['locator']}")
         lines.append("")
-    path.write_text("\n".join(lines) + "\n")
+    path.write_text("\n".join(lines).rstrip() + "\n")
+
+
+def export_comparison(output, name, profile, results):
+    dump(output / (name + ".json"), {"schema_version": "1.0", "profile": profile, "results": results})
+    write_csv(output / (name + ".csv"), results, [
+        "municipality_id", "municipality", "ags", "area_id", "tariff_id", "status", "as_of", "offer_label",
+        "booked_weekly_minutes", "extra_weekly_minutes", "monthly_care_cents", "payment_months",
+        "annual_care_cents", "monthly_equivalent_cents", "reasons", "evidence", "components"])
 
 
 def main():
@@ -88,24 +105,31 @@ def main():
     if args.command == "export" and (args.profile or args.municipality):
         parser.error("Export publishes the complete default catalog. Use compare for personal profiles or a single municipality.")
     cities = load_cities()
+    registry = load_registry()
     errors = validate_dataset(cities)
     if errors:
         parser.exit(1, "\n".join(errors) + "\n")
+    entries = active_municipalities(registry)
     if args.command == "validate":
-        print(f"Valid: {len(cities)} municipalities; {sum(len(c['offers']) for c in cities)} offers; {sum(len(c['prices']) for c in cities)} prices; archived source hashes verified.")
+        print(f"Valid: {len(entries)} active municipalities; {len(cities)} tariff catalogs; {sum(len(c['offers']) for c in cities)} offers; {sum(len(c['prices']) for c in cities)} prices; registry, profiles and archived hashes verified.")
         return
-    profile = json.loads(args.profile.read_text()) if args.profile else load_default_profile()
-    if args.municipality:
-        cities = [c for c in cities if c["id"] == args.municipality]
-        if not cities:
-            parser.error("Unknown municipality")
-    results = [evaluate_city(city, profile) for city in cities]
+    try:
+        profile = json.loads(args.profile.read_text()) if args.profile else load_default_profile()
+        results = compare_municipalities(cities, profile, registry, args.municipality)
+    except (ValueError, KeyError, TypeError, OSError) as error:
+        parser.error(str(error))
     if args.command == "compare":
         print(json.dumps(results, ensure_ascii=False, indent=2))
         return
+    active_tariffs = {entry["tariff_id"] for entry in entries}
+    cities = [city for city in cities if city["id"] in active_tariffs]
+    by_id = {city["id"]: city for city in cities}
+    report_cities = [dict(by_id[entry["tariff_id"]], name=entry["name"]) for entry in entries]
     args.output.mkdir(parents=True, exist_ok=True)
-    dump(args.output / "default_comparison.json", {"schema_version": "1.0", "profile": profile, "results": results})
-    write_csv(args.output / "default_comparison.csv", results, ["municipality_id", "municipality", "status", "as_of", "offer_label", "booked_weekly_minutes", "extra_weekly_minutes", "monthly_care_cents", "payment_months", "annual_care_cents", "monthly_equivalent_cents", "reasons", "evidence", "components"])
+    export_comparison(args.output, "default_comparison", profile, results)
+    highest_profile = load_highest_band_profile()
+    highest_results = compare_municipalities(cities, highest_profile, registry)
+    export_comparison(args.output, "highest_band_comparison", highest_profile, highest_results)
     prices = [dict(row, municipality_id=city["id"]) for city in cities for row in city["prices"]]
     write_csv(args.output / "tariffs.csv", prices, ["municipality_id", "id", "offer_id", "amount_cents", "unit", "value_status", "selectors", "included_components", "evidence"])
     for collection, columns in [
@@ -115,9 +139,11 @@ def main():
     ]:
         records = [dict(row, municipality_id=city["id"]) for city in cities for row in city[collection]]
         write_csv(args.output / (collection + ".csv"), records, columns)
-    dump(args.output / "catalog.json", {"schema_version": "1.0", "municipalities": cities})
-    write_report(ROOT / "docs/STANDARDVERGLEICH.md", cities, profile, results)
-    print(f"Exported {len(results)} results ({sum(r['status'] == 'comparable' for r in results)} comparable) to {args.output}.")
+    dump(args.output / "municipality_registry.json", registry)
+    dump(args.output / "catalog.json", {"schema_version": "1.0", "registry": registry, "municipalities": cities})
+    write_report(ROOT / "docs/STANDARDVERGLEICH.md", report_cities, profile, results)
+    write_report(ROOT / "docs/HOECHSTTARIFVERGLEICH.md", report_cities, highest_profile, highest_results)
+    print(f"Exported {len(results)} default results ({sum(r['status'] == 'comparable' for r in results)} comparable) and {len(highest_results)} highest-band results to {args.output}.")
 
 
 if __name__ == "__main__":

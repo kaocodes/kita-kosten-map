@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0",
+  "product": "BKG VG250, municipalities, 1:250000",
+  "boundary_status_date": "2025-01-01",
+  "boundary_status_locator": "Product page: Aktualitätsstand: 01.01.2025; change dated 13.02.2026",
+  "product_url": "https://gdz.bkg.bund.de/index.php/default/open-data/wfs-verwaltungsgebiete-1-250-000-stand-01-01-wfs-vg250.html",
+  "service_url": "https://sgx.geodatenzentrum.de/wfs_vg250",
+  "source_page_path": "data/geodata/bkg-product-page.html",
+  "source_page_sha256": "b01bd1688f9ef55e3a958d16ed188128a6e0e637d0ec6b878f25a7dee2931a15",
+  "retrieved_at": "2026-11-08T09:03:15.610908+00:00",
+  "license_name": "Datenlizenz Deutschland – Namensnennung 2.0",
+  "license_url": "https://www.govdata.de/dl-de/by-2-0",
+  "attribution_url": "https://www.bkg.bund.de",
+  "data_sources_url": "https://sgx.geodatenzentrum.de/web_public/gdz/datenquellen/datenquellen_vg_nuts.pdf",
+  "geometry_archive_path": "output/municipalities-original.geojson",
+  "geometry_retrieved_at": "2026-11-07",
+  "geometry_archive_sha256": "866a3e4f7285ecaa033c541766b93c79096b3b2900063218978301787dd34c77",
+  "geometry_crs": "OGC:CRS84",
+  "request_parameters": {
+    "service": "WFS",
+    "version": "2.0.0",
+    "request": "GetFeature",
+    "typeNames": "vg250:vg250_gem",
+    "outputFormat": "application/json",
+    "srsName": "urn:ogc:def:crs:OGC:1.3:CRS84",
+    "bbox": "8.8,48.6,9.5,49.0,urn:ogc:def:crs:OGC:1.3:CRS84"
+  },
+  "processing": {
+    "tool": "mapshaper",
+    "version": "0.7.101",
+    "simplification": "30% weighted Visvalingam, keep-shapes",
+    "coordinate_precision": 1e-05,
+    "process_all_features_together": true,
+    "max_map_zoom": 11
+  }
+}

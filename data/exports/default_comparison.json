@@ -1,8 +1,8 @@
 {
   "schema_version": "1.0",
   "profile": {
-    "id": "u3-single-child-full-payer-40h",
-    "label": "Krippe · Einzelkind · mindestens 8 Stunden täglich · Vollzahler",
+    "id": "u3-model-family-40h",
+    "label": "Krippe · Modellfamilie · mindestens 8 Stunden täglich",
     "as_of": "2026-11-04",
     "children": [
       {
@@ -21,20 +21,103 @@
       480,
       480
     ],
-    "income_mode": "highest_band",
-    "incomes": [],
+    "income_mode": "specified",
+    "incomes": [
+      {
+        "basis": "gross_income",
+        "period": "year",
+        "amount_cents": 8000000
+      },
+      {
+        "basis": "taxable_income",
+        "period": "year",
+        "amount_cents": 6000000
+      },
+      {
+        "basis": "esslingen_gross_income",
+        "period": "year",
+        "amount_cents": 8000000
+      },
+      {
+        "basis": "adjusted_taxable_income",
+        "period": "year",
+        "amount_cents": 6000000
+      }
+    ],
     "pass_id": "none",
     "approved_rules": [],
     "eligibility": [],
     "single_parent": false,
     "scope": "municipal",
-    "metric": "care_annual_equivalent_divided_by_12"
+    "metric": "care_annual_equivalent_divided_by_12",
+    "household": {
+      "parent_count": 2,
+      "parents_living_together": true
+    },
+    "assumptions": {
+      "income_unchanged_since_previous_year": true,
+      "no_other_income": true,
+      "no_letting_losses": true,
+      "gross_and_taxable_income_are_independent": true,
+      "esslingen_employee_allowance_deduction_cents": 0
+    },
+    "model_income_snapshot": {
+      "incomes": [
+        {
+          "basis": "gross_income",
+          "period": "year",
+          "amount_cents": 8000000
+        },
+        {
+          "basis": "taxable_income",
+          "period": "year",
+          "amount_cents": 6000000
+        },
+        {
+          "basis": "esslingen_gross_income",
+          "period": "year",
+          "amount_cents": 8000000
+        },
+        {
+          "basis": "adjusted_taxable_income",
+          "period": "year",
+          "amount_cents": 6000000
+        }
+      ],
+      "assumptions": {
+        "income_unchanged_since_previous_year": true,
+        "no_other_income": true,
+        "no_letting_losses": true,
+        "gross_and_taxable_income_are_independent": true,
+        "esslingen_employee_allowance_deduction_cents": 0
+      }
+    },
+    "income_assumption_evidence": [
+      {
+        "basis": "taxable_income",
+        "reference_period": "previous_year",
+        "source_id": "e3a01305341e",
+        "locator": "§ 4, income definition; Anlage 4, income bands"
+      },
+      {
+        "basis": "esslingen_gross_income",
+        "reference_period": "current_calendar_year",
+        "source_id": "4d33c02682ef",
+        "locator": "IV. Höhe der Entgelte: current-year family gross income, child benefit excluded, optional employee allowance"
+      },
+      {
+        "basis": "adjusted_taxable_income",
+        "reference_period": "previous_year",
+        "source_id": "e534e1399550",
+        "locator": "Anlage 1, Ziff. 2.1–2.6, taxable income plus losses from letting"
+      }
+    ]
   },
   "results": [
     {
       "municipality_id": "boeblingen",
       "municipality": "Böblingen",
-      "profile_id": "u3-single-child-full-payer-40h",
+      "profile_id": "u3-model-family-40h",
       "as_of": "2026-11-04",
       "reviewed_at": "2026-11-07",
       "status": "comparable",
@@ -144,19 +227,22 @@
       "care_rank": 1,
       "selected_price_id": "boeblingen-price-0032",
       "total_mandatory_monthly_equivalent_cents": null,
-      "total_status": "incomplete_or_variant_costs"
+      "total_status": "incomplete_or_variant_costs",
+      "ags": "08115003",
+      "area_id": "municipality-08115003",
+      "tariff_id": "boeblingen"
     },
     {
       "municipality_id": "ditzingen",
       "municipality": "Ditzingen",
-      "profile_id": "u3-single-child-full-payer-40h",
+      "profile_id": "u3-model-family-40h",
       "as_of": "2026-11-04",
       "reviewed_at": "2026-11-07",
       "status": "comparable",
       "reasons": [],
-      "monthly_care_cents": 63600,
-      "annual_care_cents": 763200,
-      "monthly_equivalent_cents": 63600,
+      "monthly_care_cents": 57800,
+      "annual_care_cents": 693600,
+      "monthly_equivalent_cents": 57800,
       "offer_id": "ditzingen-364e50ed1d",
       "offer_label": "GT 45 Std./Woche",
       "booked_weekly_minutes": 2700,
@@ -190,8 +276,8 @@
       "calculation": [
         {
           "operation": "table_lookup",
-          "price_id": "ditzingen-price-0065",
-          "amount_cents": 63600,
+          "price_id": "ditzingen-price-0061",
+          "amount_cents": 57800,
           "evidence": {
             "source_id": "e3a01305341e",
             "locator": "PDF Seite 11, GT 45 Std./Woche, u3",
@@ -200,11 +286,11 @@
               "heading": "Kinder von 1 bis 3 Jahren – gültig ab 1. Januar 2026",
               "row": [
                 "Ganztag, 45 Std./Woche",
-                "über 70.001 €",
-                "636 €",
-                "490 €",
-                "323 €",
-                "132 €",
+                "50.001–70.000 €",
+                "578 €",
+                "445 €",
+                "294 €",
+                "120 €",
                 "88 €"
               ]
             }
@@ -212,9 +298,9 @@
         },
         {
           "operation": "annual_equivalent_divided_by_12",
-          "monthly_cents": 63600,
+          "monthly_cents": 57800,
           "payment_months": 12,
-          "result_cents": 63600
+          "result_cents": 57800
         }
       ],
       "evidence": [
@@ -231,11 +317,11 @@
             "heading": "Kinder von 1 bis 3 Jahren – gültig ab 1. Januar 2026",
             "row": [
               "Ganztag, 45 Std./Woche",
-              "über 70.001 €",
-              "636 €",
-              "490 €",
-              "323 €",
-              "132 €",
+              "50.001–70.000 €",
+              "578 €",
+              "445 €",
+              "294 €",
+              "120 €",
               "88 €"
             ]
           }
@@ -264,21 +350,24 @@
       "alternatives": [],
       "family_count": 1,
       "care_rank": 1,
-      "selected_price_id": "ditzingen-price-0065",
-      "total_mandatory_monthly_equivalent_cents": 72400,
-      "total_status": "known_for_selected_components"
+      "selected_price_id": "ditzingen-price-0061",
+      "total_mandatory_monthly_equivalent_cents": 66600,
+      "total_status": "known_for_selected_components",
+      "ags": "08118011",
+      "area_id": "municipality-08118011",
+      "tariff_id": "ditzingen"
     },
     {
       "municipality_id": "esslingen",
       "municipality": "Esslingen am Neckar",
-      "profile_id": "u3-single-child-full-payer-40h",
+      "profile_id": "u3-model-family-40h",
       "as_of": "2026-11-04",
       "reviewed_at": "2026-11-07",
       "status": "comparable",
       "reasons": [],
-      "monthly_care_cents": 117000,
-      "annual_care_cents": 1404000,
-      "monthly_equivalent_cents": 117000,
+      "monthly_care_cents": 55100,
+      "annual_care_cents": 661200,
+      "monthly_equivalent_cents": 55100,
       "offer_id": "esslingen-dfa9673594",
       "offer_label": "Ganztag 40 Std./Woche",
       "booked_weekly_minutes": 2400,
@@ -313,8 +402,8 @@
       "calculation": [
         {
           "operation": "table_lookup",
-          "price_id": "esslingen-price-0073",
-          "amount_cents": 117000,
+          "price_id": "esslingen-price-0025",
+          "amount_cents": 55100,
           "evidence": {
             "source_id": "55d9e28a62d7",
             "locator": "PDF Seite 1, Ganztag 40 Std./Woche, u3",
@@ -322,18 +411,18 @@
               "research_line": 332,
               "heading": "Ganztag, Grundmodell 40 Stunden/Woche, 5 Tage, ab 1. März 2026",
               "row": [
-                "über 160.000 €",
-                "1.170 / 878 / 585 / 211 €",
-                "688 / 516 / 344 / 124 €"
+                "bis 80.000 €",
+                "551 / 413 / 276 / 99 €",
+                "324 / 243 / 162 / 58 €"
               ]
             }
           }
         },
         {
           "operation": "annual_equivalent_divided_by_12",
-          "monthly_cents": 117000,
+          "monthly_cents": 55100,
           "payment_months": 12,
-          "result_cents": 117000
+          "result_cents": 55100
         }
       ],
       "evidence": [
@@ -349,9 +438,9 @@
             "research_line": 332,
             "heading": "Ganztag, Grundmodell 40 Stunden/Woche, 5 Tage, ab 1. März 2026",
             "row": [
-              "über 160.000 €",
-              "1.170 / 878 / 585 / 211 €",
-              "688 / 516 / 344 / 124 €"
+              "bis 80.000 €",
+              "551 / 413 / 276 / 99 €",
+              "324 / 243 / 162 / 58 €"
             ]
           }
         },
@@ -370,14 +459,17 @@
       "alternatives": [],
       "family_count": 1,
       "care_rank": 1,
-      "selected_price_id": "esslingen-price-0073",
-      "total_mandatory_monthly_equivalent_cents": 124900,
-      "total_status": "known_for_selected_components"
+      "selected_price_id": "esslingen-price-0025",
+      "total_mandatory_monthly_equivalent_cents": 63000,
+      "total_status": "known_for_selected_components",
+      "ags": "08116019",
+      "area_id": "municipality-08116019",
+      "tariff_id": "esslingen"
     },
     {
       "municipality_id": "fellbach",
       "municipality": "Fellbach",
-      "profile_id": "u3-single-child-full-payer-40h",
+      "profile_id": "u3-model-family-40h",
       "as_of": "2026-11-04",
       "reviewed_at": "2026-11-07",
       "status": "comparable",
@@ -476,12 +568,15 @@
       "care_rank": 1,
       "selected_price_id": null,
       "total_mandatory_monthly_equivalent_cents": null,
-      "total_status": "incomplete_or_variant_costs"
+      "total_status": "incomplete_or_variant_costs",
+      "ags": "08119020",
+      "area_id": "municipality-08119020",
+      "tariff_id": "fellbach"
     },
     {
       "municipality_id": "gerlingen",
       "municipality": "Gerlingen",
-      "profile_id": "u3-single-child-full-payer-40h",
+      "profile_id": "u3-model-family-40h",
       "as_of": "2026-11-04",
       "reviewed_at": "2026-11-07",
       "status": "comparable",
@@ -610,19 +705,22 @@
       "care_rank": 1,
       "selected_price_id": "gerlingen-price-0005",
       "total_mandatory_monthly_equivalent_cents": null,
-      "total_status": "incomplete_or_variant_costs"
+      "total_status": "incomplete_or_variant_costs",
+      "ags": "08118019",
+      "area_id": "municipality-08118019",
+      "tariff_id": "gerlingen"
     },
     {
       "municipality_id": "korntal-muenchingen",
       "municipality": "Korntal-Münchingen",
-      "profile_id": "u3-single-child-full-payer-40h",
+      "profile_id": "u3-model-family-40h",
       "as_of": "2026-11-04",
       "reviewed_at": "2026-11-07",
       "status": "comparable",
       "reasons": [],
-      "monthly_care_cents": 39875,
-      "annual_care_cents": 438625,
-      "monthly_equivalent_cents": 36552,
+      "monthly_care_cents": 31625,
+      "annual_care_cents": 347875,
+      "monthly_equivalent_cents": 28990,
       "offer_id": "korntal-muenchingen-7decf2a528",
       "offer_label": "Krippe 40 Std./Woche",
       "booked_weekly_minutes": 2400,
@@ -655,8 +753,8 @@
       "calculation": [
         {
           "operation": "table_lookup",
-          "price_id": "korntal-muenchingen-price-0063",
-          "amount_cents": 39875,
+          "price_id": "korntal-muenchingen-price-0060",
+          "amount_cents": 31625,
           "evidence": {
             "source_id": "e534e1399550",
             "locator": "PDF Seite 8, Anlage 1, 2.7",
@@ -665,9 +763,9 @@
         },
         {
           "operation": "annual_equivalent_divided_by_12",
-          "monthly_cents": 39875,
+          "monthly_cents": 31625,
           "payment_months": 11,
-          "result_cents": 36552
+          "result_cents": 28990
         }
       ],
       "evidence": [
@@ -701,14 +799,17 @@
       "alternatives": [],
       "family_count": 1,
       "care_rank": 1,
-      "selected_price_id": "korntal-muenchingen-price-0063",
+      "selected_price_id": "korntal-muenchingen-price-0060",
       "total_mandatory_monthly_equivalent_cents": null,
-      "total_status": "incomplete_or_variant_costs"
+      "total_status": "incomplete_or_variant_costs",
+      "ags": "08118080",
+      "area_id": "municipality-08118080",
+      "tariff_id": "korntal-muenchingen"
     },
     {
       "municipality_id": "kornwestheim",
       "municipality": "Kornwestheim",
-      "profile_id": "u3-single-child-full-payer-40h",
+      "profile_id": "u3-model-family-40h",
       "as_of": "2026-11-04",
       "reviewed_at": "2026-11-07",
       "status": "comparable",
@@ -847,12 +948,15 @@
       "care_rank": 1,
       "selected_price_id": "kornwestheim-price-0029",
       "total_mandatory_monthly_equivalent_cents": null,
-      "total_status": "incomplete_or_variant_costs"
+      "total_status": "incomplete_or_variant_costs",
+      "ags": "08118046",
+      "area_id": "municipality-08118046",
+      "tariff_id": "kornwestheim"
     },
     {
       "municipality_id": "leinfelden-echterdingen",
       "municipality": "Leinfelden-Echterdingen",
-      "profile_id": "u3-single-child-full-payer-40h",
+      "profile_id": "u3-model-family-40h",
       "as_of": "2026-11-04",
       "reviewed_at": "2026-11-07",
       "status": "comparable",
@@ -972,12 +1076,15 @@
       "care_rank": 1,
       "selected_price_id": "leinfelden-echterdingen-price-0024",
       "total_mandatory_monthly_equivalent_cents": null,
-      "total_status": "incomplete_or_variant_costs"
+      "total_status": "incomplete_or_variant_costs",
+      "ags": "08116078",
+      "area_id": "municipality-08116078",
+      "tariff_id": "leinfelden-echterdingen"
     },
     {
       "municipality_id": "leonberg",
       "municipality": "Leonberg",
-      "profile_id": "u3-single-child-full-payer-40h",
+      "profile_id": "u3-model-family-40h",
       "as_of": "2026-11-04",
       "reviewed_at": "2026-11-07",
       "status": "comparable",
@@ -1109,12 +1216,15 @@
       "care_rank": 1,
       "selected_price_id": "leonberg-price-0003",
       "total_mandatory_monthly_equivalent_cents": 63380,
-      "total_status": "known_for_selected_components"
+      "total_status": "known_for_selected_components",
+      "ags": "08115028",
+      "area_id": "municipality-08115028",
+      "tariff_id": "leonberg"
     },
     {
       "municipality_id": "ludwigsburg",
       "municipality": "Ludwigsburg",
-      "profile_id": "u3-single-child-full-payer-40h",
+      "profile_id": "u3-model-family-40h",
       "as_of": "2026-11-04",
       "reviewed_at": "2026-11-07",
       "status": "comparable",
@@ -1232,12 +1342,15 @@
       "care_rank": 1,
       "selected_price_id": "ludwigsburg-price-0021",
       "total_mandatory_monthly_equivalent_cents": null,
-      "total_status": "incomplete_or_variant_costs"
+      "total_status": "incomplete_or_variant_costs",
+      "ags": "08118048",
+      "area_id": "municipality-08118048",
+      "tariff_id": "ludwigsburg"
     },
     {
       "municipality_id": "sindelfingen",
       "municipality": "Sindelfingen",
-      "profile_id": "u3-single-child-full-payer-40h",
+      "profile_id": "u3-model-family-40h",
       "as_of": "2026-11-04",
       "reviewed_at": "2026-11-07",
       "status": "comparable",
@@ -1344,12 +1457,15 @@
       "care_rank": 1,
       "selected_price_id": "sindelfingen-price-0127",
       "total_mandatory_monthly_equivalent_cents": null,
-      "total_status": "incomplete_or_variant_costs"
+      "total_status": "incomplete_or_variant_costs",
+      "ags": "08115045",
+      "area_id": "municipality-08115045",
+      "tariff_id": "sindelfingen"
     },
     {
       "municipality_id": "stuttgart",
       "municipality": "Stuttgart",
-      "profile_id": "u3-single-child-full-payer-40h",
+      "profile_id": "u3-model-family-40h",
       "as_of": "2026-11-04",
       "reviewed_at": "2026-11-07",
       "status": "comparable",
@@ -1458,7 +1574,10 @@
       "care_rank": 1,
       "selected_price_id": "stuttgart-price-0018",
       "total_mandatory_monthly_equivalent_cents": null,
-      "total_status": "incomplete_or_variant_costs"
+      "total_status": "incomplete_or_variant_costs",
+      "ags": "08111000",
+      "area_id": "municipality-08111000",
+      "tariff_id": "stuttgart"
     }
   ]
 }

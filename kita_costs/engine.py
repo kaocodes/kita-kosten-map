@@ -6,8 +6,12 @@ from decimal import Decimal, ROUND_HALF_UP
 import json
 from pathlib import Path
 
+from .registry import active_municipalities
+
 ROOT = Path(__file__).resolve().parents[1]
 KNOWN_PASSES = {"none", "family_card", "city_pass", "social_card", "city_pass_a", "city_pass_b", "city_pass_c"}
+MAX_SAFE_INTEGER = 2**53 - 1
+LOCAL_INPUT_FIELDS = {"incomes", "income_mode", "pass_id", "approved_rules", "eligibility", "care_rank"}
 
 
 def load_cities(root=ROOT):
@@ -16,6 +20,33 @@ def load_cities(root=ROOT):
 
 def load_default_profile(root=ROOT):
     return json.loads((Path(root) / "data/profiles/default.json").read_text())
+
+
+def load_highest_band_profile(root=ROOT):
+    return json.loads((Path(root) / "data/profiles/highest_band.json").read_text())
+
+
+def compare_municipalities(cities, profile, registry, municipality_id=None):
+    """Bind active geographic entries to tariffs without copying tariff records."""
+    profile = normalize_profile(profile)
+    catalogs = {city["id"]: city for city in cities}
+    entries = active_municipalities(registry)
+    if municipality_id is not None:
+        entries = [entry for entry in entries if entry["id"] == municipality_id]
+        if not entries:
+            raise ValueError("Unknown or inactive municipality.")
+    results = []
+    for entry in entries:
+        local_profile = deepcopy(profile)
+        overrides = local_profile.get("municipality_overrides", {})
+        # Geographic inputs take precedence when municipalities share a tariff catalog.
+        local_profile["municipality_overrides"] = {
+            entry["tariff_id"]: overrides.get(entry["id"], {})}
+        row = evaluate_city(catalogs[entry["tariff_id"]], local_profile)
+        row.update(municipality_id=entry["id"], municipality=entry["name"], ags=entry["ags"],
+                   area_id=entry["area_id"], tariff_id=entry["tariff_id"])
+        results.append(row)
+    return results
 
 
 def valid_on(record, as_of):
@@ -28,14 +59,55 @@ def round_money(value, rule="cent_half_up"):
     return int((Decimal(value) / quantum).quantize(Decimal(1), rounding=ROUND_HALF_UP) * quantum)
 
 
+def _is_integer(value, minimum=0, maximum=MAX_SAFE_INTEGER):
+    return type(value) is int and minimum <= value <= maximum
+
+
+def _validate_local_inputs(inputs):
+    if "income_mode" in inputs and (not isinstance(inputs["income_mode"], str) or inputs["income_mode"] not in {"highest_band", "specified"}):
+        raise ValueError("Invalid income mode.")
+    if "pass_id" in inputs and (not isinstance(inputs["pass_id"], str) or inputs["pass_id"] not in KNOWN_PASSES):
+        raise ValueError("Unknown pass identifier.")
+    if inputs.get("care_rank") is not None and not _is_integer(inputs["care_rank"], 1):
+        raise ValueError("Care rank must be positive or explicitly unknown.")
+    for field in ("approved_rules", "eligibility"):
+        if field in inputs and (not isinstance(inputs[field], list) or
+                                any(not isinstance(value, str) for value in inputs[field])):
+            raise ValueError(f"{field} must be a list of strings.")
+    incomes = inputs.get("incomes", [])
+    if not isinstance(incomes, list):
+        raise ValueError("Income entries must be a list.")
+    seen = set()
+    for income in incomes:
+        if not isinstance(income, dict) or not isinstance(income.get("basis"), str) or not income["basis"]:
+            raise ValueError("A non-empty statutory income definition is required.")
+        if not isinstance(income.get("period"), str) or income["period"] not in {"year", "month"}:
+            raise ValueError("Income definitions must be unique and have an explicit period.")
+        key = (income["basis"], income["period"])
+        if key in seen:
+            raise ValueError("Income definitions must be unique and have an explicit period.")
+        if not _is_integer(income.get("amount_cents")):
+            raise ValueError("Income must be a non-negative safe integer number of cents.")
+        seen.add(key)
+    for basis in {entry["basis"] for entry in incomes}:
+        entries = {entry["period"]: entry["amount_cents"] for entry in incomes if entry["basis"] == basis}
+        if set(entries) == {"month", "year"} and entries["month"] * 12 != entries["year"]:
+            raise ValueError("Monthly and annual values for the same income definition disagree.")
+
+
 def validate_profile(profile):
+    required = {"as_of", "children", "target_child", "weekday_minutes", "income_mode", "pass_id", "single_parent", "scope"}
+    if not isinstance(profile, dict) or required - profile.keys():
+        raise ValueError("A profile object with all required tariff inputs is required.")
+    if not isinstance(profile["as_of"], str):
+        raise ValueError("The reference date must use YYYY-MM-DD.")
     if date.fromisoformat(profile["as_of"]).isoformat() != profile["as_of"]:
         raise ValueError("The reference date must use YYYY-MM-DD.")
     children = profile["children"]
-    if not children or type(profile["target_child"]) is not int or not 0 <= profile["target_child"] < len(children):
+    if not isinstance(children, list) or not children or not _is_integer(profile["target_child"], 0, len(children) - 1):
         raise ValueError("A valid target child is required.")
     for child in children:
-        if type(child["age_months"]) is not int or child["age_months"] < 0:
+        if not isinstance(child, dict) or not _is_integer(child.get("age_months")):
             raise ValueError("Child age must be a non-negative integer number of months.")
         for field in ("resident", "child_benefit"):
             if not isinstance(child.get(field), bool):
@@ -43,26 +115,60 @@ def validate_profile(profile):
         if "birthday_in_reference_month" in child and type(child["birthday_in_reference_month"]) is not bool:
             raise ValueError("Birthday-month confirmation must be boolean.")
     minutes = profile["weekday_minutes"]
-    if len(minutes) != 5 or any(type(v) is not int or not 0 <= v <= 1440 for v in minutes) or not sum(minutes):
+    if not isinstance(minutes, list) or len(minutes) != 5 or any(not _is_integer(v, 0, 1440) for v in minutes) or not sum(minutes):
         raise ValueError("Five daily durations in integer minutes are required.")
-    if profile["income_mode"] not in {"highest_band", "specified"}:
-        raise ValueError("Invalid income mode.")
-    if profile["pass_id"] not in KNOWN_PASSES:
-        raise ValueError("Unknown pass identifier.")
-    if profile.get("care_rank") is not None and (type(profile["care_rank"]) is not int or profile["care_rank"] < 1):
-        raise ValueError("Care rank must be positive or explicitly unknown.")
-    seen = set()
-    for income in profile.get("incomes", []):
-        key = (income["basis"], income["period"])
-        if key in seen or income["period"] not in {"year", "month"}:
-            raise ValueError("Income definitions must be unique and have an explicit period.")
-        if type(income["amount_cents"]) is not int or income["amount_cents"] < 0:
-            raise ValueError("Income must be a non-negative integer number of cents.")
-        seen.add(key)
-    for basis in {entry["basis"] for entry in profile.get("incomes", [])}:
-        entries = {entry["period"]: entry["amount_cents"] for entry in profile["incomes"] if entry["basis"] == basis}
-        if set(entries) == {"month", "year"} and entries["month"] * 12 != entries["year"]:
-            raise ValueError("Monthly and annual values for the same income definition disagree.")
+    _validate_local_inputs(profile)
+    if not isinstance(profile["scope"], str):
+        raise ValueError("Scope must be a string.")
+    for field in ("id", "label", "metric"):
+        if field in profile and not isinstance(profile[field], str):
+            raise ValueError(f"{field} must be a string.")
+    for field in ("school_entry", "allow_published_future"):
+        if field in profile and type(profile[field]) is not bool:
+            raise ValueError(f"{field} must be explicitly true or false.")
+    if "meal_days_per_week" in profile and not _is_integer(profile["meal_days_per_week"], 0, 5):
+        raise ValueError("Meal days must be an integer between zero and five.")
+    overrides = profile.get("municipality_overrides", {})
+    if not isinstance(overrides, dict):
+        raise ValueError("Municipality overrides must be keyed by municipality identifier.")
+    for city_id, local in overrides.items():
+        if not isinstance(city_id, str) or not city_id or not isinstance(local, dict) or set(local) - LOCAL_INPUT_FIELDS:
+            raise ValueError("Municipality overrides may only change local tariff inputs.")
+        _validate_local_inputs(local)
+    if "assumptions" in profile and not isinstance(profile["assumptions"], dict):
+        raise ValueError("Model assumptions must be an object.")
+    snapshot = profile.get("model_income_snapshot")
+    actual_assumptions = {"incomes": profile.get("incomes", []), "assumptions": profile.get("assumptions", {})}
+    if snapshot is not None and json.dumps(snapshot, sort_keys=True) != json.dumps(actual_assumptions, sort_keys=True):
+        raise ValueError("Model income assumptions have changed. Use a personal profile with independently confirmed income definitions.")
+    if not isinstance(profile.get("single_parent"), bool):
+        raise ValueError("Single-parent status must be explicitly true or false.")
+    household = profile.get("household")
+    if "household" in profile:
+        if not isinstance(household, dict) or not _is_integer(household.get("parent_count"), 1):
+            raise ValueError("Parent count must be a positive integer.")
+        if type(household.get("parents_living_together")) is not bool:
+            raise ValueError("Parent cohabitation must be explicitly true or false.")
+        if household["parents_living_together"] and (household["parent_count"] < 2 or profile["single_parent"]):
+            raise ValueError("Cohabiting parents conflict with the stated household composition.")
+
+
+def normalize_profile(profile):
+    """Validate explicit inputs and supply empty optional lists without estimating values."""
+    validate_profile(profile)
+    result = deepcopy(profile)
+    for field in ("incomes", "approved_rules", "eligibility"):
+        result.setdefault(field, [])
+    return result
+
+
+def create_personal_profile(profile):
+    """Retain family and schedule while discarding unconfirmed model income inputs."""
+    result = normalize_profile(profile)
+    result.update(id="personal", income_mode="specified", incomes=[])
+    for field in ("label", "model_income_snapshot", "assumptions", "income_assumption_evidence", "municipality_overrides"):
+        result.pop(field, None)
+    return result
 
 
 def family_count(city, profile):
@@ -153,7 +259,8 @@ def apply_rules(city, item, value, profile, trace, component_kind="care"):
             if rule["kind"] == "income_ratio":
                 if income >= params["threshold_cents"]:
                     return None, "discount_income_limit_not_met"
-                value *= income / Decimal(params["threshold_cents"])
+                # Multiply before dividing so an exact half-euro cannot drift below the tie.
+                value = value * income / Decimal(params["threshold_cents"])
                 trace.append({"operation": "income_ratio", "rule_id": rule["id"], "evidence": rule["evidence"]})
                 continue
         value *= Decimal(100 - percent) / 100
@@ -220,13 +327,17 @@ def meal_details(city, item, profile, count):
 
 def evaluate_city(city, profile):
     """Return a comparable price, or a specific reason; never guess missing inputs."""
-    profile = deepcopy(profile)
+    profile = normalize_profile(profile)
     overrides = profile.get("municipality_overrides", {}).get(city["id"], {})
-    allowed = {"incomes", "income_mode", "pass_id", "approved_rules", "eligibility", "care_rank"}
-    if set(overrides) - allowed:
+    if set(overrides) - LOCAL_INPUT_FIELDS:
         raise ValueError("Municipality overrides may only change local tariff inputs.")
-    profile.update(overrides)
     validate_profile(profile)
+    if overrides:
+        # Explicit local inputs replace the model assumptions for this calculation only.
+        if "incomes" in overrides or "income_mode" in overrides:
+            profile.pop("model_income_snapshot", None)
+        profile.update(overrides)
+        validate_profile(profile)
     result = {"municipality_id": city["id"], "municipality": city["name"],
               "profile_id": profile.get("id"), "as_of": profile["as_of"],
               "reviewed_at": city["reviewed_at"], "status": "unavailable", "reasons": [],

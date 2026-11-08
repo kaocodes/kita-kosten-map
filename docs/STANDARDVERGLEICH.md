@@ -2,18 +2,20 @@
 
 **Tarifstichtag:** 2026-11-04 · **Quellenprüfung:** 7. November 2026
 
-Profil: 24 Monate altes Einzelkind, kommunale Betreuung, höchster regulärer Einkommenstarif, ohne Pass- oder Sozialermäßigung; Montag bis Freitag jeweils mindestens acht Stunden durchgehend.
+Profil: zwei zusammenlebende Eltern, ein 24 Monate altes Kind ohne Geschwister; 80.000 € Haushaltsbrutto und unabhängig angenommene 60.000 € zu versteuerndes Jahreseinkommen, im Vorjahr und laufenden Jahr unverändert, keine weiteren Einkünfte oder Vermietungsverluste; kommunale Betreuung ohne Pass- oder Sozialermäßigung; Montag bis Freitag jeweils mindestens acht Stunden durchgehend.
+
+Modellannahmen: Esslingens gesonderte Einkommensgrundlage wird mit 80.000 € angesetzt; ein möglicher Arbeitnehmer-Pauschbetrag wird im Modell nicht abgezogen. Korntal-Münchingens bereinigte steuerliche Grundlage beträgt ohne Vermietungsverluste 60.000 € jährlich bzw. 5.000 € monatlich. Das ist keine Brutto-/Steuerumrechnung und kein statistischer Durchschnittshaushalt. Die lokalen Grundlagen sind ausdrücklich im Profil erfasst.
 
 Der Vergleichswert ist der am Stichtag geltende Monatsbeitrag × Beitragsmonate ÷ 12. Das Jahresäquivalent hält diesen Tarif konstant und bildet keine tatsächliche Jahresabrechnung mit unterjährigen Änderungen ab. Die Kennzahl enthält Betreuung; Zusatzkosten stehen separat im JSON-Export. Ein veröffentlichtes Angebot garantiert keinen freien Platz.
 
 | Kommune | Gewähltes Paket | Wochenstunden | Mehrstunden | Monatsbeitrag | Beitragsmonate | Monatsäquivalent | Status |
 |---|---|---:|---:|---:|---:|---:|---|
 | Böblingen | bis 40 Std./Woche | 40 | 0 | 310,00 € | 12 | 310,00 € | vergleichbar |
-| Ditzingen | GT 45 Std./Woche | 45 | 5 | 636,00 € | 12 | 636,00 € | vergleichbar |
-| Esslingen am Neckar | Ganztag 40 Std./Woche | 40 | 0 | 1.170,00 € | 12 | 1.170,00 € | vergleichbar |
+| Ditzingen | GT 45 Std./Woche | 45 | 5 | 578,00 € | 12 | 578,00 € | vergleichbar |
+| Esslingen am Neckar | Ganztag 40 Std./Woche | 40 | 0 | 551,00 € | 12 | 551,00 € | vergleichbar |
 | Fellbach | GT 45 Std., Mo–Do 9,25 Std./Fr 8 Std. | 45 | 5 | 702,00 € | 12 | 702,00 € | vergleichbar |
 | Gerlingen | Ganztag, 7:30–16:00 Uhr | 42,5 | 2,5 | 640,00 € | 12 | 640,00 € | vergleichbar |
-| Korntal-Münchingen | Krippe 40 Std./Woche | 40 | 0 | 398,75 € | 11 | 365,52 € | vergleichbar |
+| Korntal-Münchingen | Krippe 40 Std./Woche | 40 | 0 | 316,25 € | 11 | 289,90 € | vergleichbar |
 | Kornwestheim | GT U3, 9 Std./Tag, 5 Tage | 45 | 5 | 436,00 € | 11 | 399,67 € | vergleichbar |
 | Leinfelden-Echterdingen | GT bis 40 Std. | 40 | 0 | 587,20 € | 11 | 538,27 € | vergleichbar |
 | Leonberg | verkürzte Krippe 8,5 Std. | 42,5 | 2,5 | 537,00 € | 12 | 537,00 € | vergleichbar |
@@ -140,4 +142,3 @@ Die Zahlen beziehen sich auf gespeicherte Tarifzellen und Angebotsdefinitionen e
 - [Originalquelle 535c7b4c86f8](https://www.stuttgart.de/medien/ibs/4-6-anlage-1-ab-01-08-2026.pdf): PDF Seite 1, GT, 8 Std./Tag, u3
 - [Originalquelle 535c7b4c86f8](https://www.stuttgart.de/medien/ibs/4-6-anlage-1-ab-01-08-2026.pdf): PDF Seite 1: elf Monatsbeiträge, August beitragsfrei
 - [Originalquelle 535c7b4c86f8](https://www.stuttgart.de/medien/ibs/4-6-anlage-1-ab-01-08-2026.pdf): Gebührentabelle
-

@@ -12,7 +12,7 @@ Die strukturierte Übertragung umfasst alle zwölf Kommunen. Dabei wurden die vo
 
 Wesentliche Korrekturen: Korntal-Münchingens Gebührenanlage enthält bereits Essenspauschalen von 85 € bei mehr als sieben Betreuungsstunden und 80 € im VÖ-Bereich. Leonbergs Satzungsdokumente sind unter den aktuellen Downloadlinks abrufbar; die Gebührenstaffel richtet sich nach Familienkindern im Haushalt. Fellbachs tatsächliche Tagesverteilungen erfordern für das Standardprofil ein 45-Stunden-Paket. Leinfelden-Echterdingens Stadtpassbeträge werden wegen der veröffentlichten Rundung direkt aus der Tabelle übernommen.
 
-Die zwölf Defaulttarife wurden am Original geprüft, einschließlich visueller PDF-Prüfung der ausgewählten Tarifzellen. Zusätzlich sind sämtliche 800 Esslinger Zusatzzeitbeträge gegen das Original-PDF abgeglichen. Einzelne Sonderfälle bleiben dokumentiert und liefern bei unzureichenden Angaben keinen geschätzten Betrag. Details: [Datenmodell](DATENMODELL.md).
+Die zwölf bisherigen Höchsttarif-Referenzwerte wurden am Original geprüft, einschließlich visueller PDF-Prüfung der ausgewählten Tarifzellen. Die seit Paket 1 verwendete Modellfamilie hat eigene Sollwerte; ihre abweichenden Vergleichszellen für Ditzingen, Esslingen und Korntal-Münchingen sind gegen die archivierten Originaltabellen geprüft. Zusätzlich sind sämtliche 800 Esslinger Zusatzzeitbeträge gegen das Original-PDF abgeglichen. Einzelne Sonderfälle bleiben dokumentiert und liefern bei unzureichenden Angaben keinen geschätzten Betrag. Details: [Datenmodell](DATENMODELL.md).
 
 ## Ditzingen
 

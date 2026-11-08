@@ -12,7 +12,7 @@ import tempfile
 import unittest
 
 from kita_costs.engine import (ROOT, band_matches, evaluate_city, family_count, formula_price,
-                               income_value, load_cities, load_default_profile, round_money)
+                               income_value, load_cities, load_highest_band_profile, round_money)
 from kita_costs.validation import validate_dataset
 
 
@@ -20,10 +20,10 @@ class TariffTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         cls.cities = {c["id"]: c for c in load_cities()}
-        cls.review = json.loads((ROOT / "data/reviews/default_review.json").read_text())
+        cls.review = json.loads((ROOT / "data/reviews/highest_band_review.json").read_text())
 
     def setUp(self):
-        self.profile = load_default_profile()
+        self.profile = load_highest_band_profile()
 
     def result(self, city_id, **updates):
         self.profile.update(updates)
@@ -33,7 +33,7 @@ class TariffTests(unittest.TestCase):
         self.profile.update(income_mode="specified", incomes=[{"basis": basis, "period": period,
                                                               "amount_cents": amount}])
 
-    def test_all_twelve_defaults_against_independent_source_review(self):
+    def test_all_highest_band_results_against_independent_source_review(self):
         self.assertEqual(set(self.review["expected"]), set(self.cities))
         for city_id, expected in self.review["expected"].items():
             with self.subTest(municipality=city_id):

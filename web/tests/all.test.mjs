@@ -1,0 +1,3 @@
+/** Run both suites in one process, including restricted development environments. */
+import "./conformance.test.mjs";
+import "./site-data.test.mjs";

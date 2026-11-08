@@ -1,7 +1,7 @@
 # Website: Architektur, Karte und Bedienung
 
 **Stand:** 8. November 2026  
-**Status:** Planung und visuelle Erprobung; die produktive Website ist noch nicht umgesetzt oder veröffentlicht.
+**Status:** Pakete 1 bis 3 umgesetzt: Register, Profile, TypeScript-Rechenkern und lokal aufrufbare React-/Leaflet-Website. Veröffentlichung und individuelles Formular stehen aus.
 
 Dieses Dokument bündelt die technische Beratung, die gezeigten Entwürfe und die daraus getroffenen Entscheidungen. Die fachlichen Anforderungen stehen in [PROJECT_REQUIREMENTS.md](PROJECT_REQUIREMENTS.md), die verbindliche Berechnung in [DATENMODELL.md](DATENMODELL.md) und das Referenzprofil in [STANDARDVERGLEICH.md](STANDARDVERGLEICH.md).
 
@@ -12,9 +12,9 @@ Dieses Dokument bündelt die technische Beratung, die gezeigten Entwürfe und di
 | Hauptdarstellung der Gebühren | **Beschlossen am 8. November 2026:** eingefärbte Gemeinde- bzw. Stadtflächen. Die Entscheidung fiel nach dem direkten Vergleich mit proportionalen Kreisen. |
 | Hosting und Betrieb | **Bevorzugte Richtung:** statische Website auf GitHub Pages. Der Nutzer hat dies als zunächst passende Lösung bestätigt. Konkretes Repository, URL und Deployment sind noch offen. |
 | Backend | Für die vorgeschlagene erste Website nicht erforderlich. Ein Backend bleibt eine spätere Option bei tatsächlichem Bedarf, beispielsweise einer Redaktionsoberfläche. |
-| Datenbasis und Standardprofil | Daten und Höchsttarif-Referenz sind umgesetzt. Für die Website wurde inzwischen eine einstellbare Modellfamilie als Startprofil besprochen; diese Umstellung ist in Berechnung und Export noch umzusetzen. |
-| Frontend und Kartenbibliothek | React, TypeScript, Vite und Leaflet sind die **Empfehlung**, noch keine ausdrücklich bestätigte Bibliotheksentscheidung. |
-| Grenzdaten | BKG VG250 wurden für den visuellen Vergleich tatsächlich verwendet. Ihre endgültige Übernahme, der geeignete Grenzstand und die Detailstufe sind noch zu entscheiden. |
+| Datenbasis und Standardprofil | Kommunenregister und AGS-Zuordnung sind umgesetzt. Die Modellfamilie ist der Standard in Python und den aktuellen Exporten; die Höchsttarifreferenz bleibt separat erhalten. Das Browserformular folgt. |
+| Frontend und Kartenbibliothek | React 19.3.1, Vite 8.3.6, CSS Modules und Leaflet 1.9.4 sind in Paket 3 umgesetzt; der unabhängige TypeScript-Rechenkern und Zod bleiben die Berechnungsgrundlage. |
+| Grenzdaten | BKG VG250 mit Grenzstand 01.01.2025 sind für die regionale Webkarte übernommen. Quelle, Abruf, Lizenz und Hashwerte sind unter `data/geodata/` gesichert; die Verarbeitung ist reproduzierbar. |
 | Gestaltung und weitere Bedienfunktionen | Die unten beschriebenen Funktionen und Farben sind Vorschläge. Die Auswahl der Gemeindeflächen bestätigt nicht automatisch sämtliche Einzelheiten der Entwürfe. |
 
 Die früheren konkreten Technikvorgaben in `PROJECT_REQUIREMENTS_LEGACY.md` bleiben historische Planung und werden durch diese Beratung nicht nachträglich verbindlich.
@@ -33,7 +33,7 @@ Die früheren konkreten Technikvorgaben in `PROJECT_REQUIREMENTS_LEGACY.md` blei
 | Quellen und Berechnung | Bestehende Python-Werkzeuge einschließlich `scripts/fetch_sources.py` und `kita_costs` weiterverwenden. |
 | Hosting | **GitHub Pages**, ohne eigenen Anwendungs- oder Kartenserver. |
 
-Ein Framework mit Serverbetrieb oder eine Datenbank sind für die vorgeschlagene erste Version nicht notwendig. Die JavaScript-Versionen, Paketverwaltung und dauerhaften Entwicklungsabhängigkeiten werden bei der Umsetzung festgelegt.
+Ein Framework mit Serverbetrieb oder eine Datenbank sind für die erste Version nicht notwendig. Paketversionen und Entwicklungsabhängigkeiten sind im npm-Lockfile festgehalten. Die laufende Architektur und Startbefehle stehen in [WEBANWENDUNG.md](WEBANWENDUNG.md).
 
 ## 3. Datenfluss und Betrieb ohne Backend
 
@@ -53,7 +53,7 @@ Offizielle Grenzdaten
 
 Der Browser lädt nur die für die Darstellung benötigten Exporte und Geometrien. Das Quellenarchiv und der vollständige Ausgangsdatensatz müssen nicht Teil der Website sein. Die großen Grenzdaten werden vor der Veröffentlichung verarbeitet, nicht bei jedem Seitenaufruf.
 
-Der bestehende Höchsttarifvergleich lässt sich vollständig vorberechnen. Die inzwischen besprochenen frei einstellbaren Familienprofile benötigen zusätzlich eine Auswertung der Tarifregeln im Browser. Dafür ist eine von React und Leaflet unabhängige TypeScript-Berechnung vorgesehen. Sie muss anhand gemeinsamer fachlicher Referenzfälle mit der vorhandenen Python-Berechnung übereinstimmen. Die Python-Berechnung bleibt bis dahin maßgeblich. Vorberechnete Ergebnisse können den Start der Website ergänzen; sie ersetzen die Auswertung individueller Eingaben nicht.
+Der bestehende Höchsttarifvergleich lässt sich vollständig vorberechnen. Die frei einstellbaren Familienprofile benötigen zusätzlich eine Auswertung der Tarifregeln im Browser. Dafür ist seit Paket 2 eine von React und Leaflet unabhängige TypeScript-Berechnung mit Zod-Eingabeprüfung umgesetzt. 104 gemeinsame Szenarien stimmen mit Python überein; der Vergleich umfasst vollständige Ergebnisse einschließlich Quellen, Zusatzkosten und Fehlerzuständen. Python bleibt die Referenz für Datenprüfung und Export. Schnittstelle und Grenzen stehen in [BROWSERBERECHNUNG.md](BROWSERBERECHNUNG.md). Vorberechnete Ergebnisse können den Start der Website ergänzen; sie ersetzen die Auswertung individueller Eingaben nicht.
 
 Geplante Gebührenaktualisierung: neue Quellenkopie sichern, JSON-Tarife prüfen und ergänzen, bestehende Validierung und Tests ausführen, Exporte erzeugen, Website neu bauen und veröffentlichen. Aktualisierungsrhythmus, Zuständigkeiten und automatische Veröffentlichung sind noch festzulegen. Eine Veröffentlichung wurde im Rahmen der Entwürfe nicht durchgeführt.
 
@@ -61,7 +61,7 @@ Geplante Gebührenaktualisierung: neue Quellenkopie sichern, JSON-Tarife prüfen
 
 Die Stackbewertung vom 8. November 2026 bestätigt React, TypeScript, Vite, CSS Modules, Leaflet und statische JSON-Daten als passende Arbeitsgrundlage auch für weitere Kommunen. Mehr Vergleichsgebiete allein erfordern kein Backend. Für die Umsetzung gelten folgende Architekturregeln:
 
-1. **Kommunenregister:** Aktive Kommunen, stabile Kennungen, amtliche Namen, AGS, Geometrie- und Tarifverweise werden zentral als Daten geführt. Oberfläche, Export und Vollständigkeitsprüfung lesen dieses Register. Die derzeitige feste Prüfung auf zwölf Kommunen in `kita_costs/validation.py` wird durch einen Abgleich mit den registrierten aktiven Kommunen ersetzt.
+1. **Kommunenregister:** Aktive Kommunen, stabile Kennungen, amtliche Namen, AGS, Geometrie- und Tarifverweise werden zentral als Daten geführt. `data/municipality_registry.json` ist umgesetzt; Vergleich, Export und Vollständigkeitsprüfung lesen dieses Register. Die feste Prüfung auf zwölf Kommunen wurde durch den Abgleich mit registrierten aktiven Kommunen ersetzt. Auch die spätere Oberfläche liest das Register.
 2. **Gebiet und Gebührenordnung:** Eine Kartenfläche bekommt eine eigene stabile Gebietskennung. Für Gemeinden wird der AGS gepflegt; Stadtbezirke erhalten eigene Kennungen und eine Referenz auf die übergeordnete Kommune. Mehrere Flächen können dieselbe Gebührenordnung verwenden. Eine neue Bezirksgeometrie begründet keinen neuen Tarif und keine Tarifkopie.
 3. **Eigenständige Tarifberechnung:** Datenzugriff, lokale Tarifregeln und Berechnung bleiben unabhängig von Karte und Formular. Neue Kommunen mit bereits unterstützten Regeln werden über Daten, Geometriezuordnung und Referenzfälle ergänzt. Neue Abrechnungsregeln erfordern gegebenenfalls eine Erweiterung und Prüfung beider Berechnungen; die bestehende Python-Logik enthält noch kommunenspezifische Sonderfälle.
 4. **Bedarfsgerechtes Laden:** Zunächst werden die benötigten Daten der zwölf Kommunen ausgeliefert. Bei wachsendem Umfang können Tarif- und Geometriedateien nach Region aufgeteilt und bei Bedarf nachgeladen werden. Das vollständige Quellenarchiv gehört nicht in den initialen Website-Download. Dateigrößen, Grenzpunkte, Ladezeit und Bedienung auf Mobilgeräten werden gemessen.
@@ -75,7 +75,7 @@ Eine Gemeinde wird als **Polygon** gespeichert: Koordinaten beschreiben einen ge
 
 Gebogene Grenzen werden durch ausreichend viele kurze Liniensegmente angenähert. Individuell gezeichnete Bézierkurven sind nicht erforderlich. Leaflet projiziert geografische Koordinaten auf Bildschirmpositionen und zeichnet daraus interaktive Flächen, beispielsweise mit SVG.
 
-Für die produktive Verbindung zwischen Gebühren und Geometrie ist der **amtliche Gemeindeschlüssel (AGS)** vorgesehen. Stabile interne Kommune-IDs bleiben erhalten; ihre Zuordnung zu den AGS muss explizit gepflegt werden. Der visuelle Vergleich verbindet die Daten bislang über die geprüften amtlichen Namen.
+Für die produktive Verbindung zwischen Gebühren und Geometrie ist der **amtliche Gemeindeschlüssel (AGS)** vorgesehen. Stabile interne Kommune-IDs bleiben erhalten; ihre Zuordnung zu den AGS ist seit Paket 1 im Register gepflegt und gegen die archivierten BKG-Daten geprüft. Die alten visuellen Entwürfe verbinden ihre eingebetteten Daten weiterhin über die damals geprüften amtlichen Namen; die neue Website übernimmt die Registerzuordnung.
 
 Die Karte kann aus zwei getrennten Ebenen bestehen:
 
@@ -97,9 +97,11 @@ Für die vorgeschlagene Architektur wird eine kleine Webfassung der Grenzen vorb
 
 Als Werkzeug wurde **Mapshaper** empfohlen und für den Vergleich verwendet. Zunächst genügt vereinfachtes GeoJSON. TopoJSON speichert gemeinsame Grenzabschnitte nur einmal; für Leaflet wäre eine Konvertierung in GeoJSON im Browser nötig. Dies ist eine Option, keine Voraussetzung.
 
-Als Planungsziel wurden wenige hundert Kilobyte für die benötigte Kartengeometrie genannt. Das ist keine garantierte Größe und kein bereits abgenommenes Budget. Die zulässige maximale Zoomstufe ist ebenfalls noch offen.
+Für Paket 3 ist das Budget der Webgeometrie auf höchstens 200 kB festgelegt. Die erzeugte Fassung umfasst 132.114 Byte einschließlich Zuordnung und Kontext. Die maximale Zoomstufe ist 11. Verarbeitung, weitere Datenbudgets und aktuelle Prüfungen stehen in [WEBANWENDUNG.md](WEBANWENDUNG.md).
 
 ## 6. Erprobte Datenquelle und Aufbereitung
+
+Die folgenden Angaben beschreiben den früheren visuellen Entwurf. Die seit Paket 3 verwendete Website verarbeitet denselben archivierten Ausgangsabruf mit Mapshaper 0.7.101 über ein festes Skript. Grenzstand 01.01.2025 und BKG-Produktseite sind inzwischen archiviert; die aktuelle Webfassung und deren Maße stehen in [WEBANWENDUNG.md](WEBANWENDUNG.md).
 
 Für den visuellen Vergleich wurden die Verwaltungsgebiete **VG250 des Bundesamts für Kartographie und Geodäsie (BKG)** verwendet. Der Dienst bietet Gemeindegrenzen und amtliche Schlüssel. Er ist für eine regionale Übersicht ein Kandidat; die Eignung für eine detaillierte Nahansicht bleibt zu prüfen.
 
@@ -166,7 +168,7 @@ Vorgeschlagene Gestaltung: ruhige Flächen, gut lesbare Schrift und Beträge, ei
 
 ## 8. Kennzahl und Vergleichbarkeit
 
-Beide gezeigten Karten verwenden dieselben Werte aus `data/exports/default_comparison.json`:
+Beide gezeigten Karten enthalten einen eingebetteten Auszug der bisherigen Höchsttarifwerte. Diese werden jetzt unter `data/exports/highest_band_comparison.json` erhalten; `default_comparison.json` verwendet seit Paket 1 die Modellfamilie. Das Profil der alten Vorschauen lautet:
 
 - 24 Monate altes Einzelkind, kommunale Betreuung;
 - Montag bis Freitag mindestens acht Stunden durchgehende Betreuung;
@@ -194,7 +196,9 @@ Nach der Diskussion über Esslingens höchste Einkommensstufe soll die Website m
 
 Die beiden Einkommenswerte sind keine behauptete steuerliche Umrechnung und kein statistisch belegter Durchschnittshaushalt. Besondere kommunale Einkommensdefinitionen bleiben zu berücksichtigen.
 
-**Umsetzungsstand:** `data/profiles/default.json`, die bisherigen Exporte und Vorschauen verwenden weiterhin die höchste Einkommensstufe. Die Modellfamilie wird als eigenes geprüftes Profil eingeführt und anschließend als Website-Startprofil verwendet. Die bestehenden Höchsttarifdaten und zugehörigen Referenzfälle bleiben nachvollziehbar erhalten. Bereits abgelegte Ergebnisse werden erst nach der Profilumstellung neu erzeugt und entsprechend bezeichnet.
+**Umsetzungsstand nach Paket 1:** `data/profiles/default.json` und `data/exports/default_comparison.json` verwenden die Modellfamilie. Das unveränderte alte Profil liegt unter `data/profiles/highest_band.json`, sein Ergebnis unter `data/exports/highest_band_comparison.json`. Beide Profile haben unabhängige Sollwerte für alle zwölf Kommunen und eigene Berichte. Die alten HTML-/Bildvorschauen werden nicht automatisch aktualisiert und zeigen weiterhin die Höchsttarifreferenz.
+
+Die lokalen Einkommensannahmen sind ausdrücklich erfasst: für Esslingen 80.000 € nach örtlicher Definition, ohne den möglichen Arbeitnehmer-Pauschbetrag abzuziehen; für Korntal-Münchingen 60.000 € bereinigtes steuerliches Jahreseinkommen ohne Vermietungsverluste. Der Modell-Snapshot verhindert, dass geändertes Brutto oder veränderte Bedingungen unbemerkt mit unveränderten steuerlichen bzw. lokalen Modellwerten weiterberechnet werden. Die persönliche Eingabe im Browser muss später ein eigenes Profil mit bestätigten Grundlagen bilden. Details stehen im [Datenmodell](DATENMODELL.md).
 
 ## 9. Besprochene Darstellungsalternativen
 
@@ -213,7 +217,7 @@ Bei proportionalen Kreisen müsste die Fläche dem Betrag entsprechen, also der 
 | Datei | Einordnung |
 |---|---|
 | [Detailentwurf](../output/kita-detail-concept.html) | Frühe isolierte Ditzinger Detailansicht mit interaktiven Tarifauswahlen; verwendet einen eingebetteten Auszug der damals erfassten Tabellen. Kein kanonischer Datenbestand und kein vollständiger Gebührenrechner. |
-| [Kartenvergleich](../output/kita-map-comparison.html) | Zwei synchron auswählbare Karten mit tatsächlichen Standardvergleichswerten für zwölf Kommunen und regionalen Gemeindegrenzen. |
+| [Kartenvergleich](../output/kita-map-comparison.html) | Zwei synchron auswählbare Karten mit den bisherigen Höchsttarifwerten für zwölf Kommunen und regionalen Gemeindegrenzen. |
 | [Vorschau bei 500 Pixel Kartenbreite](../output/kita-maps-preview-500.png) | Statische Kontrollansicht beider Karten. |
 | [Vorschau bei 320 Pixel Kartenbreite](../output/kita-maps-preview-320.png) | Statische Kontrollansicht mit angepassten Beschriftungspositionen. |
 
@@ -225,13 +229,13 @@ Die statischen PNGs stellen die Karten nebeneinander dar; die interaktive Darste
 
 ## 11. Nächste Umsetzungspakete und Abnahme
 
-1. **Register und Profile vorbereiten:** Aktive Kommunen und AGS zentral erfassen, die feste Zwölferprüfung ablösen und die Modellfamilie neben dem Höchsttarifprofil einführen. Abnahme: Die tatsächlichen Kommunen werden gegen das Register geprüft; ein weiteres registriertes Testgebiet erfordert keine Änderung der Kartenkomponenten; beide Profile liefern für die zwölf Bestandskommunen belegte Werte oder einen konkreten Grund für fehlende Angaben.
-2. **Browserberechnung aufbauen:** Eingaben normalisieren, Tarifregeln in einem unabhängigen TypeScript-Modul auswerten und gemeinsame Referenzfälle gegen Python prüfen. Abnahme: gleiche Beträge, Paketwahl, Beitragsmonate und Fehlerzustände für beide Referenzprofile sowie ausgewählte Familien-, Einkommens- und Grenzfälle; keine stillschweigende Brutto-/Steuerumrechnung.
-3. **Frontend und Geodaten integrieren:** React/TypeScript/Vite, CSS Modules und Leaflet entsprechend der Stackempfehlung einrichten; stabile Paketversionen und eine Lockdatei festhalten. BKG-Grenzstand und Lizenzangaben sichern, AGS-Zuordnung umsetzen, eine reproduzierbare Webfassung der Grenzen erzeugen und das erforderliche Zoom-/Größenbudget bestimmen. Abnahme: eine selbstständige lokale Browseranwendung mit allen zwölf Flächen, eindeutigen Datenverknüpfungen und Quellenangaben.
+1. **Register und Profile vorbereiten — umgesetzt:** Aktive Kommunen und AGS sind zentral erfasst, die feste Zwölferprüfung ist abgelöst und die Modellfamilie neben dem Höchsttarifprofil eingeführt. Abnahme in Daten und Python: Register-/Tarif-/Geometrieverweise werden geprüft; ein synthetisches dreizehntes Gebiet funktioniert allein mit weiteren Daten; beide Profile liefern für die zwölf Bestandskommunen belegte Werte. Die späteren Kartenkomponenten dürfen ebenfalls keine feste Gebietsliste enthalten; eine solche Oberfläche existiert noch nicht.
+2. **Browserberechnung aufbauen — umgesetzt:** Profileingaben normalisieren, Tarifregeln im unabhängigen TypeScript-Modul auswerten und gemeinsame Referenzfälle gegen Python prüfen. Abnahme: 104 gemeinsame Szenarien mit gleichen vollständigen Ergebnissen, beide Referenzprofile zusätzlich gegen Quellen-Sollwerte geprüft; keine stillschweigende Brutto-/Steuerumrechnung. TypeScript 7.0.2 und Zod 4.6.7 sind im Lockfile festgehalten. Website-Bündelung und tatsächliche Browserintegration folgen in Paket 3.
+3. **Frontend und Geodaten integrieren — umgesetzt:** React/Vite, CSS Modules und Leaflet mit festgelegten Paketversionen und Lockfile eingerichtet. BKG-Grenzstand, Lizenz und Quellen sind gesichert; Geometrien werden gemeinsam vereinfacht und anhand von AGS/Flächen-ID zugeordnet. Abnahme: eigenständige lokale Anwendung mit zwölf Vergleichsflächen, beiden Profilen, Quellen und acht zusätzlichen Webdaten-Prüfungen. Desktop, 390/320 Pixel und der statische Projekt-Unterpfad wurden im Browser geprüft. Größenbudget und Zoomgrenzen sind dokumentiert.
 4. **Bedienbare erste Version fertigstellen:** Familienformular, Gebührenfarben, Legende, Liste und Gemeindedetails zusammenführen. Farbpalette und Klassengrenzen im Rahmen dieses Pakets festlegen; die bisherigen Vorschauklassen sind keine verbindliche Vorgabe. Abnahme: Eingaben aktualisieren alle Ansichten konsistent; fehlende Werte, Essen, Mehrstunden und Modellannahmen bleiben sichtbar; Desktop, Mobilgeräte und Tastaturbedienung sind geprüft.
 5. **Bereitstellung vorbereiten:** GitHub-Pages-Ziel, Projektpfade und Veröffentlichungsablauf konkret einrichten. Abnahme: erfolgreiche Datenprüfung und Referenztests, reproduzierbarer Website-Build und lokal prüfbare Vorschau mit den richtigen Projektpfaden für das festgelegte Ziel. Zuständigkeiten und Aktualisierungsrhythmus werden für den Betrieb dokumentiert.
 
-Das unmittelbar nächste Arbeitspaket ist **Register und Profile vorbereiten**. Es schafft die Grundlage für zusätzliche Kommunen und den neuen einstellbaren Standardvergleich. Die produktive Website ist mit dieser Dokumentationsaktualisierung noch nicht implementiert.
+Das unmittelbar nächste Arbeitspaket ist **Bedienbare erste Version fertigstellen**: vor allem das individuelle Familien-/Einkommensformular und die vollständige mobile und per Tastatur bedienbare Vergleichsansicht. Karte, Referenzprofilwahl, Grundliste und Gemeindedetails bestehen bereits. Die Veröffentlichung folgt anschließend.
 
 Historische Preisreihen bleiben zurückgestellt. Eine englische Oberfläche, eine Redaktionsoberfläche und zusätzliche Kartenmodi sind nicht beschlossen.
 

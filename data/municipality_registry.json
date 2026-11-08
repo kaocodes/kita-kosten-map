@@ -1,0 +1,222 @@
+{
+  "schema_version": "1.0",
+  "geometry_reference": {
+    "path": "output/municipalities-original.geojson",
+    "sha256": "866a3e4f7285ecaa033c541766b93c79096b3b2900063218978301787dd34c77",
+    "key_property": "ags",
+    "name_property": "gen",
+    "dataset": "BKG VG250 municipal boundaries",
+    "source_url": "https://sgx.geodatenzentrum.de/wfs_vg250",
+    "license_url": "https://www.govdata.de/dl-de/by-2-0",
+    "role": "archived_assignment_reference",
+    "retrieved_at": "2026-11-07"
+  },
+  "municipalities": [
+    {
+      "id": "boeblingen",
+      "name": "Böblingen",
+      "ags": "08115003",
+      "active": true,
+      "region_id": "stuttgart-region",
+      "tariff_id": "boeblingen",
+      "area_id": "municipality-08115003"
+    },
+    {
+      "id": "ditzingen",
+      "name": "Ditzingen",
+      "ags": "08118011",
+      "active": true,
+      "region_id": "stuttgart-region",
+      "tariff_id": "ditzingen",
+      "area_id": "municipality-08118011"
+    },
+    {
+      "id": "esslingen",
+      "name": "Esslingen am Neckar",
+      "ags": "08116019",
+      "active": true,
+      "region_id": "stuttgart-region",
+      "tariff_id": "esslingen",
+      "area_id": "municipality-08116019"
+    },
+    {
+      "id": "fellbach",
+      "name": "Fellbach",
+      "ags": "08119020",
+      "active": true,
+      "region_id": "stuttgart-region",
+      "tariff_id": "fellbach",
+      "area_id": "municipality-08119020"
+    },
+    {
+      "id": "gerlingen",
+      "name": "Gerlingen",
+      "ags": "08118019",
+      "active": true,
+      "region_id": "stuttgart-region",
+      "tariff_id": "gerlingen",
+      "area_id": "municipality-08118019"
+    },
+    {
+      "id": "korntal-muenchingen",
+      "name": "Korntal-Münchingen",
+      "ags": "08118080",
+      "active": true,
+      "region_id": "stuttgart-region",
+      "tariff_id": "korntal-muenchingen",
+      "area_id": "municipality-08118080"
+    },
+    {
+      "id": "kornwestheim",
+      "name": "Kornwestheim",
+      "ags": "08118046",
+      "active": true,
+      "region_id": "stuttgart-region",
+      "tariff_id": "kornwestheim",
+      "area_id": "municipality-08118046"
+    },
+    {
+      "id": "leinfelden-echterdingen",
+      "name": "Leinfelden-Echterdingen",
+      "ags": "08116078",
+      "active": true,
+      "region_id": "stuttgart-region",
+      "tariff_id": "leinfelden-echterdingen",
+      "area_id": "municipality-08116078"
+    },
+    {
+      "id": "leonberg",
+      "name": "Leonberg",
+      "ags": "08115028",
+      "active": true,
+      "region_id": "stuttgart-region",
+      "tariff_id": "leonberg",
+      "area_id": "municipality-08115028"
+    },
+    {
+      "id": "ludwigsburg",
+      "name": "Ludwigsburg",
+      "ags": "08118048",
+      "active": true,
+      "region_id": "stuttgart-region",
+      "tariff_id": "ludwigsburg",
+      "area_id": "municipality-08118048"
+    },
+    {
+      "id": "sindelfingen",
+      "name": "Sindelfingen",
+      "ags": "08115045",
+      "active": true,
+      "region_id": "stuttgart-region",
+      "tariff_id": "sindelfingen",
+      "area_id": "municipality-08115045"
+    },
+    {
+      "id": "stuttgart",
+      "name": "Stuttgart",
+      "ags": "08111000",
+      "active": true,
+      "region_id": "stuttgart-region",
+      "tariff_id": "stuttgart",
+      "area_id": "municipality-08111000"
+    }
+  ],
+  "areas": [
+    {
+      "id": "municipality-08115003",
+      "kind": "municipality",
+      "municipality_id": "boeblingen",
+      "parent_id": null,
+      "tariff_id": "boeblingen",
+      "geometry_key": "08115003"
+    },
+    {
+      "id": "municipality-08118011",
+      "kind": "municipality",
+      "municipality_id": "ditzingen",
+      "parent_id": null,
+      "tariff_id": "ditzingen",
+      "geometry_key": "08118011"
+    },
+    {
+      "id": "municipality-08116019",
+      "kind": "municipality",
+      "municipality_id": "esslingen",
+      "parent_id": null,
+      "tariff_id": "esslingen",
+      "geometry_key": "08116019"
+    },
+    {
+      "id": "municipality-08119020",
+      "kind": "municipality",
+      "municipality_id": "fellbach",
+      "parent_id": null,
+      "tariff_id": "fellbach",
+      "geometry_key": "08119020"
+    },
+    {
+      "id": "municipality-08118019",
+      "kind": "municipality",
+      "municipality_id": "gerlingen",
+      "parent_id": null,
+      "tariff_id": "gerlingen",
+      "geometry_key": "08118019"
+    },
+    {
+      "id": "municipality-08118080",
+      "kind": "municipality",
+      "municipality_id": "korntal-muenchingen",
+      "parent_id": null,
+      "tariff_id": "korntal-muenchingen",
+      "geometry_key": "08118080"
+    },
+    {
+      "id": "municipality-08118046",
+      "kind": "municipality",
+      "municipality_id": "kornwestheim",
+      "parent_id": null,
+      "tariff_id": "kornwestheim",
+      "geometry_key": "08118046"
+    },
+    {
+      "id": "municipality-08116078",
+      "kind": "municipality",
+      "municipality_id": "leinfelden-echterdingen",
+      "parent_id": null,
+      "tariff_id": "leinfelden-echterdingen",
+      "geometry_key": "08116078"
+    },
+    {
+      "id": "municipality-08115028",
+      "kind": "municipality",
+      "municipality_id": "leonberg",
+      "parent_id": null,
+      "tariff_id": "leonberg",
+      "geometry_key": "08115028"
+    },
+    {
+      "id": "municipality-08118048",
+      "kind": "municipality",
+      "municipality_id": "ludwigsburg",
+      "parent_id": null,
+      "tariff_id": "ludwigsburg",
+      "geometry_key": "08118048"
+    },
+    {
+      "id": "municipality-08115045",
+      "kind": "municipality",
+      "municipality_id": "sindelfingen",
+      "parent_id": null,
+      "tariff_id": "sindelfingen",
+      "geometry_key": "08115045"
+    },
+    {
+      "id": "municipality-08111000",
+      "kind": "municipality",
+      "municipality_id": "stuttgart",
+      "parent_id": null,
+      "tariff_id": "stuttgart",
+      "geometry_key": "08111000"
+    }
+  ]
+}

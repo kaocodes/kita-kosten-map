@@ -1,0 +1,56 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:kita-costs-map:municipality-registry:1.0",
+  "title": "Municipality, map area and tariff registry",
+  "type": "object",
+  "required": ["schema_version", "geometry_reference", "municipalities", "areas"],
+  "properties": {
+    "schema_version": {"const": "1.0"},
+    "geometry_reference": {
+      "type": "object",
+      "required": ["path", "sha256", "key_property", "name_property", "source_url", "license_url"],
+      "properties": {
+        "path": {"type": "string", "minLength": 1},
+        "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+        "key_property": {"type": "string", "minLength": 1},
+        "name_property": {"type": "string", "minLength": 1},
+        "source_url": {"type": "string", "format": "uri"},
+        "license_url": {"type": "string", "format": "uri"}
+      }
+    },
+    "municipalities": {
+      "type": "array", "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["id", "name", "ags", "active", "region_id", "tariff_id", "area_id"],
+        "properties": {
+          "id": {"$ref": "#/$defs/identifier"},
+          "name": {"type": "string", "minLength": 1},
+          "ags": {"type": "string", "pattern": "^[0-9]{8}$"},
+          "active": {"type": "boolean"},
+          "region_id": {"$ref": "#/$defs/identifier"},
+          "tariff_id": {"$ref": "#/$defs/identifier"},
+          "area_id": {"$ref": "#/$defs/identifier"}
+        }
+      }
+    },
+    "areas": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "kind", "municipality_id", "parent_id", "tariff_id", "geometry_key"],
+        "properties": {
+          "id": {"$ref": "#/$defs/identifier"},
+          "kind": {"enum": ["municipality", "district"]},
+          "municipality_id": {"$ref": "#/$defs/identifier"},
+          "parent_id": {"type": ["string", "null"]},
+          "tariff_id": {"$ref": "#/$defs/identifier"},
+          "geometry_key": {"type": "string", "minLength": 1}
+        }
+      }
+    }
+  },
+  "$defs": {
+    "identifier": {"type": "string", "pattern": "^[a-z][a-z0-9-]*$"}
+  }
+}

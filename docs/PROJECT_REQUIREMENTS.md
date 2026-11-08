@@ -1,6 +1,6 @@
 # Projektanforderungen: Kita- und Kindergartengebühren in der Region Stuttgart
 
-**Status:** Datenmodell und bisheriger Höchsttarifvergleich umgesetzt; einstellbare Modellfamilie und Erweiterungsarchitektur dokumentiert; Website ausstehend  
+**Status:** Datenmodell, Kommunenregister, Rechenkern und lokale Webkarte umgesetzt; individuelles Formular und Veröffentlichung ausstehend  
 **Stand:** 8. November 2026
 
 ## 1. Projektziel
@@ -43,8 +43,8 @@ Diese Liste ist für den ersten Umfang maßgeblich. Sie ist keine Zusage, sämtl
 - Die Karte bildet Stadt- bzw. Gemeindegebiete als Flächen ab.
 - Einzelne Kitas werden nicht als Kartenpunkte erfasst oder dargestellt.
 - Stuttgart wird als ein Gebiet behandelt; die geprüfte kommunale Tarifquelle weist keine Bezirksstaffel aus.
-- Korntal-Münchingen und Esslingen am Neckar sind die amtlichen Vergleichseinheiten. Geeignete Kartengrenzen sind noch auszuwählen.
-- Für den visuellen Vergleich wurden vereinfachte BKG-VG250-Gemeindegrenzen verwendet. Endgültige Datenquelle, Grenzstand, Lizenzdokumentation und Detailstufe bleiben vor der produktiven Umsetzung festzulegen. Ein im alten Dokument genannter OpenStreetMap-Polygon-Endpunkt ist lediglich ein Recherchehinweis und keine verbindliche technische Vorgabe.
+- Korntal-Münchingen und Esslingen am Neckar sind die amtlichen Vergleichseinheiten. Das Register ordnet alle zwölf Kommunen anhand ihres AGS den archivierten BKG-Grenzen zu; die produktive Aufbereitung folgt.
+- Für die lokale Webkarte werden vereinfachte BKG-VG250-Gemeindegrenzen mit Stand 01.01.2025 verwendet. Quelle, Lizenz, Abruf und Hashwerte sind gesichert; die Verarbeitung ist reproduzierbar. Zoom- und Größenbudgets stehen in `WEBANWENDUNG.md`. Ein im alten Dokument genannter OpenStreetMap-Polygon-Endpunkt ist lediglich ein historischer Recherchehinweis.
 
 ## 4. Umfang der Gebührenerhebung
 
@@ -151,7 +151,7 @@ Das Profil ist eine transparente Referenzannahme und kein statistisch belegter D
 
 Nutzer sollen Kinderzahl und Alter, Haushaltszugehörigkeit und -konstellation, gleichzeitig betreute Geschwister, Brutto- und steuerliches Einkommen, Betreuungstage und Tagesstunden sowie vorhandene Pässe oder bewilligte Vergünstigungen einstellen können. Karte, Liste und Details verwenden dasselbe Profil. Eine Aktion stellt die Modellfamilie wieder her. Fehlende lokale Pflichtangaben ergeben eine eigene Kennzeichnung statt einer Schätzung. Eine geänderte persönliche Einkommenseingabe darf nicht unbemerkt mit einer alten steuerlichen Modellannahme kombiniert werden.
 
-**Bestehender Implementierungsstand:** Der bisherige Vergleich mit der höchsten regulären Einkommensstufe ist für alle zwölf Kommunen umgesetzt. `data/profiles/default.json` und die Exporte verwenden weiterhin dieses Profil. Bei der Umstellung wird die Modellfamilie als neues geprüftes Startprofil eingeführt; der Höchsttarifvergleich bleibt als zusätzliche Auswahl und nachvollziehbare Referenz erhalten.
+**Implementierungsstand nach Paket 3:** `data/profiles/default.json`, Standardexporte und Website verwenden die Modellfamilie. `data/profiles/highest_band.json` erhält die Höchsttarifreferenz, die auf der Website als zweites Profil auswählbar ist. Beide Profile sind für alle zwölf Kommunen gegen belegte Sollwerte geprüft. Lokale Einkommensgrundlagen sind ausdrücklich erfasst; ein Snapshot schützt gegen unbemerkt veränderte Modellannahmen. Esslingen wird im Modell ohne den optionalen Arbeitnehmer-Pauschbetrag berechnet. Die persönliche Eingabeoberfläche folgt in Paket 4.
 
 Originalbeiträge, tatsächlicher Buchungsumfang, Mehrstunden und Beitragsmonate bleiben sichtbar. Das Jahresäquivalent hält den Tarif am Stichtag konstant und bildet keine tatsächliche Jahresabrechnung mit unterjährigen Änderungen ab.
 
@@ -167,14 +167,14 @@ Originalbeiträge, tatsächlicher Buchungsumfang, Mehrstunden und Beitragsmonate
 - Die Anwendung soll leichtgewichtig, einfach zu bedienen und wartbar sein.
 - Eine statische Website auf GitHub Pages ohne Backend ist die bevorzugte Betriebsform. Datenprüfung und Export können vor dem Website-Build erfolgen.
 - Ein kleines Backend bleibt möglich, falls es für Datenpflege, Datenprüfung oder Bereitstellung tatsächlich erforderlich ist.
-- React, TypeScript, Vite, CSS Modules und Leaflet sind die aktuelle Empfehlung für die Website. Die endgültige Bibliotheksauswahl ist noch offen; die bestehende Python-Berechnung und die JSON-Daten bleiben Grundlage.
+- TypeScript und Zod sind für das Rechenmodul umgesetzt; React, Vite, CSS Modules und Leaflet für die lokale Website. Konkrete Versionen stehen im Lockfile. Python-Berechnung und kanonische JSON-Daten bleiben Grundlage der Datenpflege.
 - Eine interaktive Karte mit Gemeindegrenzen ist vorgesehen; die konkrete Quelle für Grenzdaten und deren Lizenz müssen vor der Umsetzung geklärt werden.
 - Grenzdaten werden vor der Veröffentlichung räumlich ausgewählt und topologiebewusst vereinfacht. Nur die benötigte Webfassung wird ausgeliefert. GeoJSON ist die vorgeschlagene Ausgangslösung; TopoJSON bleibt eine Optimierungsoption.
 - Die Anwendung soll auf üblichen Desktop- und Mobilbildschirmen nutzbar sein. Weitere Anforderungen an Barrierefreiheit und Sprachunterstützung sind noch zu konkretisieren.
 - Technischer Datenfluss, vorgeschlagene Oberfläche, geprüfte Entwürfe und offene Umsetzungsfragen stehen in [WEBSITE_KONZEPT.md](WEBSITE_KONZEPT.md).
-- Die Zahl der aktiven Kommunen wird über ein zentrales Register bestimmt. Die bisherige feste Prüfung auf zwölf Kommunen ist bei dessen Einführung abzulösen; Oberflächenkomponenten dürfen keine eigene feste Gebietsliste pflegen.
+- Die Zahl der aktiven Kommunen wird über `data/municipality_registry.json` bestimmt. Die feste Prüfung auf zwölf Kommunen ist abgelöst; Oberflächenkomponenten dürfen keine eigene feste Gebietsliste pflegen.
 - Kartenflächen und Gebührenordnungen bleiben getrennt. Zusätzliche Stadtbezirke können dieselbe kommunale Gebührenordnung referenzieren. AGS, interne Gebietskennung und gegebenenfalls übergeordnete Kommune werden ausdrücklich zugeordnet.
-- Die Browserberechnung wird unabhängig von React und Leaflet entwickelt und anhand gemeinsamer Referenzfälle gegen Python geprüft. Eine Erweiterung der Datenmenge allein erfordert kein Backend.
+- Die Browserberechnung ist unabhängig von React und Leaflet als TypeScript-Modul umgesetzt und anhand von 104 gemeinsamen Szenarien gegen Python geprüft. Zod prüft Profileingaben; exakte Bruchrechnung sichert Beträge und Grenzen. Die Browserintegration folgt. Eine Erweiterung der Datenmenge allein erfordert kein Backend.
 - Bei wachsendem Umfang können Daten nach Region nachgeladen werden. Dateigröße, Geometriekomplexität und tatsächliche Lade- und Bedienzeiten bestimmen die Optimierung; die Kartenansicht bleibt von den fachlichen Daten unabhängig.
 
 ## 9. Geplante Arbeitsschritte
@@ -183,9 +183,9 @@ Originalbeiträge, tatsächlicher Buchungsumfang, Mehrstunden und Beitragsmonate
 2. **Datenverfügbarkeit prüfen:** Aktuelle Tarife und bekannte Einschränkungen sind dokumentiert; historische Preisreihen bleiben zurückgestellt.
 3. **Datenmodell festlegen:** Strukturiertes JSON-Schema und ausführbare Validierung sind umgesetzt.
 4. **Datenerhebung:** Aktuelle Tarife sind strukturiert übertragen und geprüft; Änderungen künftig versioniert ergänzen.
-5. **Vergleichsregeln bestimmen:** Höchsttarifreferenz und Vergleichsberechnung sind umgesetzt. Modellfamilie und persönliche Einstellungen sind dokumentiert; Profilumstellung und Browserberechnung folgen.
+5. **Vergleichsregeln bestimmen:** Höchsttarifreferenz, Modellfamilie und registergestützter Vergleich sind in Python und TypeScript umgesetzt und geprüft. Der Wechsel zum persönlichen Profil verwirft unbestätigte Modell-Einkommen. Browserintegration und Formular folgen.
 6. **Technische Umsetzung planen:** Gemeindeflächen sind beschlossen, statisches Hosting ist bevorzugt und Entwürfe sind vorhanden. Die verbleibenden Entscheidungen stehen im Websitekonzept.
-7. **Anwendung umsetzen:** Produktive Website, Browserprüfung und Deployment stehen aus.
+7. **Anwendung umsetzen:** Lokale Website, Gemeindekarte, Referenzprofilwahl und Grunddetails sind umgesetzt und im Browser geprüft. Individuelles Formular, vollständige Bedienabnahme und Deployment stehen aus.
 
 ## 10. Erste Abnahmekriterien für den Datensatz
 
@@ -202,7 +202,7 @@ Der Erhebungsdatensatz gilt als fachlich prüfbar, wenn:
 
 ## 11. Noch offene Entscheidungen
 
-- Werden die im Entwurf erprobten BKG-Grenzen produktiv übernommen? Grenzstand, Detailstufe, Vereinfachung, Umgebungskontext und Lizenzdokumentation sind abschließend festzulegen.
+- Werden für spätere zusätzliche Gebiete oder andere Zoomansichten detailliertere Grenzdaten benötigt? Die jetzige regionale Karte verwendet dokumentierte BKG-VG250-Daten.
 - Wie werden die vorgesehenen persönlichen Eingaben, die Modellfamilie, der Höchsttarifvergleich und die Zusatzkostenansicht im endgültigen Layout angeordnet?
 - Welche Farbpalette, Klassengrenzen und Legende erhalten die beschlossenen Gemeindeflächen? Wie werden Mehrstunden und fehlende oder mehrdeutige Ergebnisse gekennzeichnet?
 - Welche Sprachversionen benötigt die Anwendung? Deutsch ist die Projektsprache; eine englische UI ist noch nicht beschlossen.

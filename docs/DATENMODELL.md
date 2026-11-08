@@ -1,6 +1,6 @@
 # Datenmodell und Vergleichsberechnung
 
-**Stand:** 7. November 2026 · **Schema:** 1.0 · **Tarifstichtag des Defaultprofils:** 4. November 2026
+**Stand:** 8. November 2026 · **Schema:** 1.0 · **Tarifstichtag beider Referenzprofile:** 4. November 2026
 
 ## 1. Fachliche Trennung
 
@@ -35,9 +35,29 @@ Einkommensgrundlagen sind eigenständig: `taxable_income` in Ditzingen, `adjuste
 
 Die Familienstaffel wird anhand der Haushaltskinder nach der jeweiligen Kommune bestimmt. Die Eingabe führt Alter, Haushaltszugehörigkeit und Kindergeldberechtigung getrennt. Der Rang gleichzeitig betreuter Kinder ist ein weiterer Parameter und wird nicht aus der Familiengröße abgeleitet. Eine Spalte „4 Kinder“ wird nur dann als „4 oder mehr“ behandelt, wenn die Quelle das ausdrücklich ausweist.
 
+### 2.1 Kommunenregister und geografische Zuordnung
+
+`data/municipality_registry.json` führt die geografischen Metadaten getrennt von den Tarifen. Das zugehörige Schema ist `data/municipality_registry.schema.json`.
+
+- `municipalities`: stabile `id`, amtlicher `name`, achtstelliger `ags` als Zeichenkette einschließlich führender Null, `active`, `region_id`, `tariff_id` und primäre `area_id`.
+- `areas`: eigene Flächenkennung, `kind` (`municipality` oder `district`), `municipality_id`, `parent_id`, `tariff_id` und `geometry_key`. Ein Bezirk verweist auf die übergeordnete Gemeindefläche und denselben kommunalen Tarif; zusätzliche Tarifkopien sind dafür nicht erforderlich.
+- `geometry_reference`: Pfad, SHA-256-Prüfsumme, Schlüssel-/Namensfelder, Abrufdatum, Quelle und Lizenz der archivierten Geodaten. Die vorhandene BKG-Datei dient als Zuordnungsbeleg; die produktive Geodatenaufbereitung folgt in Paket 3.
+
+Die Validierung verlangt die Tarifkataloge aller aktiven Kommunen und meldet nicht registrierte Kataloge. Registrierte inaktive Kommunen dürfen ihre Daten behalten oder noch keinen Katalog haben; sie erscheinen nicht im Vergleich. Doppelte Kennungen oder AGS, falsche Verweise, fehlende Geometrien und widersprüchliche amtliche Namen werden beanstandet. Es gibt keine feste Sollanzahl von Kommunen mehr. Die zwölf aktuellen Zuordnungen werden gegen die archivierten BKG-Attribute geprüft; Namensgleichheit allein wird nicht als laufende Verknüpfung verwendet.
+
+`load_cities()` liest absichtlich alle kanonischen Tarifdateien, damit unregistrierte Daten bei der Prüfung auffallen. `compare_municipalities(cities, profile, registry)` wählt anschließend die aktiven Registereinträge aus. Es liefert geografische Kennung, AGS, Fläche und Tarifkennung getrennt und übernimmt lokale Profilabweichungen für die jeweilige Kommune. Mehrere Gebiete können denselben Katalog referenzieren. Ein Bezirksvergleich braucht zusätzlich die entsprechenden belegten Bezirksgeometrien; im Register sind derzeit ausschließlich Gemeindeflächen enthalten.
+
+Eine weitere Kommune wird durch Register-/Flächeneintrag, belegte Tarifdaten, passende Geometrie und Referenzfälle ergänzt. Eine neue Abrechnungsregel kann weiterhin zusätzliche Berechnungslogik erfordern. Ein synthetisches dreizehntes Testgebiet prüft die Erweiterung, ohne reale Gebühren einer weiteren Stadt zu behaupten.
+
 ## 3. Profil und Berechnungsschnittstelle
 
-`load_cities()` und `load_default_profile()` lesen die JSON-Daten. `evaluate_city(city, profile)` verändert weder Quelle noch Profil und liefert ein reproduzierbares Ergebnis.
+`load_cities()`, `load_registry()`, `load_default_profile()` und `load_highest_band_profile()` lesen die JSON-Daten. `evaluate_city(city, profile)` wertet einen Tarifkatalog aus; `compare_municipalities()` ordnet ihn den aktiven Kommunen zu. Beide Berechnungen verändern weder Daten noch Profil und liefern reproduzierbare Ergebnisse.
+
+Seit Paket 2 bestehen dieselben Fachfunktionen zusätzlich als TypeScript-Modul für die spätere Browseranwendung. Schnittstelle, exakte Bruchrechnung und Gegenprüfung stehen in [BROWSERBERECHNUNG.md](BROWSERBERECHNUNG.md). Beide Laufzeiten prüfen dieselben 104 Szenarien. Die kanonischen Tarife und Python bleiben für Datenpflege und Export maßgeblich.
+
+Seit Paket 3 ist der Rechenkern in die lokale React-/Leaflet-Website eingebunden. Dafür wird ein abgeleiteter Browserkatalog erzeugt; Originaldaten und Quellenarchive bleiben unverändert. Datenprojektion, Geodatenaufbereitung und Startbefehle sind in [WEBANWENDUNG.md](WEBANWENDUNG.md) beschrieben.
+
+`normalize_profile()` prüft Eingaben und ergänzt ausschließlich fehlende optionale Listen. `create_personal_profile()` übernimmt Familie und Betreuungsbedarf, entfernt aber alle Einkommen, Modellannahmen, Modell-Quellenhinweise und lokalen Profilabweichungen. Damit werden persönliche Angaben nicht mit alten steuerlichen Modellwerten vermischt. In TypeScript heißen diese Funktionen `normalizeProfile()` und `createPersonalProfile()`.
 
 Wesentliche Profileingaben:
 
@@ -46,6 +66,7 @@ Wesentliche Profileingaben:
 - `care_rank`: ausdrücklich angegebener Rang im betreffenden städtischen Betreuungssystem, falls benötigt.
 - `meal_days_per_week`: ausdrücklich gewählte Essenstage, falls abweichend vom gebuchten Zeitpaket; ein Mahlzeitenpreis wird ohne tatsächliche Zahl der Essenstage nicht auf ein Jahr hochgerechnet.
 - `income_mode`: `highest_band` oder `specified`; `incomes`: Einträge mit lokaler `basis`, `period` und `amount_cents`.
+- `single_parent`: ausdrücklich angegebener Status. Das Modell ergänzt `household.parent_count` und `household.parents_living_together`; zusammenlebende Eltern dürfen nicht gleichzeitig als alleinerziehend angegeben sein.
 - `pass_id`, `approved_rules`, `eligibility`: nachgewiesener Pass und ausdrücklich bestätigte Anspruchsvoraussetzungen. Einkommen allein löst keine antragsabhängige Sozialermäßigung aus.
 - `municipality_overrides`: lokale Abweichungen für Einkommenswerte, Pass, bewilligte Regeln, Voraussetzungen und Betreuungsrang; Kindesalter und Betreuungsbedarf bleiben gemeinsam.
 - `allow_published_future`: ausdrücklich gewählte Nutzung veröffentlichter künftiger Tarife. Ohne diese Auswahl wird kein Datum nach dem Prüfstand bewertet.
@@ -56,15 +77,21 @@ Die Berechnung wählt gültige Tarife für Alter und Geltungsbereich, wendet lok
 
 Reguläre Ergebnisse verwenden `status: comparable`. Bei fehlenden Angaben wird `status: unavailable` mit konkreten `reasons` geliefert. Ein Ergebnis kann den bekannten Originalmonatsbeitrag enthalten, während das Monatsäquivalent wegen unbekannter Beitragsmonate leer bleibt.
 
-Wesentliche Ergebnisfelder sind `monthly_care_cents`, `payment_months`, `annual_care_cents`, `monthly_equivalent_cents`, `booked_weekly_minutes`, `extra_weekly_minutes`, `selected_price_id`, `components`, `evidence` und `calculation`. Zusatzkosten ändern die Hauptkennzahl nicht. Eine zusätzliche Pflichtkostensumme wird nur bei ausreichend bekannten und eindeutigen ausgewählten Komponenten gebildet; `total_status` nennt deren Umfang.
+Wesentliche Ergebnisfelder sind `monthly_care_cents`, `payment_months`, `annual_care_cents`, `monthly_equivalent_cents`, `booked_weekly_minutes`, `extra_weekly_minutes`, `selected_price_id`, `components`, `evidence` und `calculation`. Der registergestützte Vergleich ergänzt `ags`, `area_id` und `tariff_id`. Zusatzkosten ändern die Hauptkennzahl nicht. Eine zusätzliche Pflichtkostensumme wird nur bei ausreichend bekannten und eindeutigen ausgewählten Komponenten gebildet; `total_status` nennt deren Umfang.
 
 ## 4. Vergleichsregeln und Default
 
-Der Default ist ein 24 Monate altes Einzelkind ohne Geschwister, Montag bis Freitag mindestens acht Stunden durchgehend, städtischer Tarif, höchste reguläre Einkommensstufe ohne Sozial- oder Passermäßigung.
+Das Standardprofil `data/profiles/default.json` ist die Modellfamilie: zwei zusammenlebende Eltern, ein 24 Monate altes Kind ohne Geschwister, Montag bis Freitag mindestens acht Stunden durchgehend, städtischer Tarif. Das Haushaltsbrutto beträgt 80.000 € jährlich; das zu versteuernde Einkommen wird unabhängig davon mit 60.000 € angenommen. Einkommen bleibt im Vorjahr und laufenden Jahr gleich; andere Einkünfte und Vermietungsverluste werden ausgeschlossen. Pass- und zusätzliche Sozialermäßigungen sind nicht bestätigt und werden nicht automatisch angewendet.
+
+Die Einkommensgrundlagen stehen ausdrücklich im Profil: `gross_income` 80.000 €, `taxable_income` 60.000 €, `esslingen_gross_income` 80.000 € und `adjusted_taxable_income` 60.000 € jährlich. Esslingen schließt insbesondere Kindergeld aus und erlaubt einen Arbeitnehmer-Pauschbetrag. Das Modell nimmt keinen solchen Abzug vor. Korntals lokale Grundlage entspricht nur wegen der Modellannahme ohne Vermietungsverluste den 60.000 €; für die Monatstabelle werden daraus 5.000 €. Diese Werte sind gesonderte Modellannahmen, keine allgemeine Gleichsetzung verschiedener Einkommensdefinitionen. `income_assumption_evidence` verknüpft die lokalen Definitionen mit den archivierten Quellen.
+
+`model_income_snapshot` hält Einkommen und zugehörige Bedingungen fest. Wird ein Einkommen oder eine dieser Bedingungen geändert, meldet die Validierung einen Fehler, statt alte steuerliche oder lokale Modellwerte weiterzuverwenden. Für persönliche Angaben wird ein eigenes Profil mit unabhängig bestätigten Einkommensgrundlagen erstellt; Modell-Snapshot und unbestätigte Modellwerte werden nicht übernommen. Die geplante Browseroberfläche muss diesen Wechsel ausdrücklich umsetzen. Lokale `municipality_overrides.incomes` ersetzen bewusst nur die Eingaben der betreffenden Kommune; dabei wird der Snapshot nur für diese lokale Berechnung aufgehoben. Fehlende örtliche Grundlagen bleiben fehlend.
+
+Das bisherige Profil bleibt unter `data/profiles/highest_band.json` unverändert als zusätzliche Höchsttarifreferenz erhalten. Beide Profile haben eigene Sollwerte, JSON-/CSV-Ergebnisse und deutsche Berichte. Die vorhandenen Vorschauen in `output/` enthalten weiterhin die alten Höchsttarifwerte und werden durch den Export nicht aktualisiert.
 
 **Vergleichswert = ursprünglicher Monatsbeitrag × jährliche Beitragsmonate ÷ 12.**
 
-Der Tarif wird für dieses Jahresäquivalent am Stichtag konstant gehalten. Unterjährige Änderungen werden nicht in eine vermeintliche tatsächliche Jahresrechnung eingemischt. Die Auswahl ist ein Vollzahler-Referenzprofil und keine Aussage über den Durchschnittshaushalt. Originalpreis, Beitragsmonate, Mehrstunden und Zusatzkosten bleiben sichtbar.
+Der Tarif wird für dieses Jahresäquivalent am Stichtag konstant gehalten. Unterjährige Änderungen werden nicht in eine vermeintliche tatsächliche Jahresrechnung eingemischt. Beide Profile sind Referenzannahmen und keine Aussage über den Durchschnittshaushalt. Originalpreis, Beitragsmonate, Mehrstunden und Zusatzkosten bleiben sichtbar.
 
 Es wird nicht zwischen Pauschalen interpoliert. Leonbergs bzw. Gerlingens 8,5 Stunden täglich bleiben zum veröffentlichten Preis erhalten. Ditzingens kleinstes passendes Paket umfasst 45 Wochenstunden. Bei Fellbach entscheidet die **angebotene Tagesverteilung**, nicht eine frei gewählte Wochenstundenzahl: Das geprüfte 40-Stunden-Modell endet donnerstags und freitags nach sieben Stunden. Der Default verwendet deshalb ein belegtes 45-Stunden-Modell mit acht Stunden am Freitag. Die U3-Gebühr beträgt dafür 45 × 15,60 € = 702 € je Monat. Die ganze Wochenstundenzahl wird mit dem Tarif oberhalb der 35-Stunden-Schwelle bewertet.
 
@@ -72,11 +99,13 @@ Leinfelden-Echterdingens Passpreise werden direkt aus den veröffentlichten Tabe
 
 Die Berechnung verwendet exakte Dezimalrechnung und rundet das fertige Vergleichsergebnis kaufmännisch auf Cent. Fellbachs Gebühren und Ditzingens Familienpassregel verwenden die satzungsgemäße Rundung auf volle Euro. Bereits veröffentlichte gerundete Werte werden unverändert übernommen.
 
+Der TypeScript-Kern verwendet dafür exakte Bruchrechnung mit `bigint` und gibt ausschließlich ganzzahlige Centbeträge zurück. Die Python-Quotientenberechnung einer Fellbacher Sozialermäßigung wurde im Rahmen der Gegenprüfung so umgeordnet, dass eine exakte Halb-Euro-Grenze nicht durch vorzeitige Division unterschritten wird. Die Referenzprofile ändern sich dadurch nicht; der Grenzfall ist gemeinsam abgesichert.
+
 ## 5. Prüfung, Pflege und verbleibende Einschränkungen
 
-Der [Standardvergleich](STANDARDVERGLEICH.md) wird aus den Daten erzeugt. Die unabhängigen Sollwerte des Defaultprofils stehen in `data/reviews/default_review.json`, mit Fundstellen für alle zwölf Kommunen. Die ausgewählten PDF-Tarifzellen wurden zusätzlich visuell geprüft; Fellbachs Formel wurde mit den offiziellen Tageszeiten abgeglichen. Alle 800 Esslinger Zusatzzeitbeträge werden außerdem automatisiert gegen die archivierte Original-PDF-Tabelle geprüft.
+Der [Standardvergleich](STANDARDVERGLEICH.md) und der [Höchsttarifvergleich](HOECHSTTARIFVERGLEICH.md) werden aus den Daten erzeugt. Die unabhängigen Sollwerte stehen in `data/reviews/model_family_review.json` und `data/reviews/highest_band_review.json`, mit Fundstellen für alle zwölf Kommunen. Die bisherige `default_review.json` wurde in `highest_band_review.json` umbenannt. Für die Modellfamilie ändern sich Ditzingen, Esslingen und Korntal-Münchingen; deren neue Zellen wurden gegen die archivierten Originaltabellen geprüft. Die zuvor ausgewählten Höchsttarifzellen wurden auch visuell geprüft; Fellbachs Formel wurde mit den offiziellen Tageszeiten abgeglichen. Alle 800 Esslinger Zusatzzeitbeträge werden außerdem automatisiert gegen die archivierte Original-PDF-Tabelle geprüft.
 
-Die Tests decken die zwölf Defaultwerte, Zahlungsmonate, Paketgrenzen, Tagesverteilung, Einkommensarten und Grenzwerte, Alleinerziehende, Familiengröße und Betreuungsrang, Passvoraussetzungen, Rundung, Zusatzzeiten, eingeschlossene Zuschläge, künftige Tarife und fehlende Angaben ab. Die Datenvalidierung kontrolliert auch die SHA-256-Prüfsummen aller archivierten Antworten.
+Die Tests decken beide Referenzprofile, Registererweiterung, inaktive Kommunen, AGS-Zuordnung, geteilte Tarifverweise, Schutz der Modellannahmen, Zahlungsmonate, Paketgrenzen, Tagesverteilung, Einkommensarten und Grenzwerte, Alleinerziehende, Familiengröße und Betreuungsrang, Passvoraussetzungen, Rundung, Zusatzzeiten, eingeschlossene Zuschläge, künftige Tarife und fehlende Angaben ab. Die Datenvalidierung kontrolliert außerdem die kanonischen Profile, deren Quellenverweise und die SHA-256-Prüfsummen aller archivierten Antworten und der Geometrie-Referenzdatei.
 
 Für Aktualisierungen wird zuerst eine neue Quellenkopie mit `scripts/fetch_sources.py --refresh` gesichert. Bestehende Quellenkennungen bleiben erhalten. Danach werden neue Tarifversionen ergänzt, alte Intervalle begrenzt, Quellen- und Prüfdaten aktualisiert sowie Tests, Validierung und Export ausgeführt. Quellen mit unterschiedlichen Abrufzeitpunkten werden nicht als identische historische Fassungen ausgegeben.
 

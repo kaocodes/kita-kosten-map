@@ -689,7 +689,7 @@ def main():
         for key in ["_source", "_from"]:
             del city[key]
         write_json(target / f"{city_id}.json", city)
-    write_json(ROOT / "data/profiles/default.json", {
+    write_json(ROOT / "data/profiles/highest_band.json", {
         "id": "u3-single-child-full-payer-40h", "label": "Krippe · Einzelkind · mindestens 8 Stunden täglich · Vollzahler",
         "as_of": "2026-11-04", "children": [{"age_months": 24, "resident": True, "child_benefit": True}],
         "target_child": 0, "school_entry": False, "care_rank": 1,

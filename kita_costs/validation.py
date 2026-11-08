@@ -5,10 +5,11 @@ import hashlib
 import json
 from pathlib import Path
 
-from .engine import ROOT
+from .engine import ROOT, validate_profile
+from .registry import load_registry, validate_registry
 
 
-def validate_dataset(cities, root=ROOT):
+def validate_dataset(cities, root=ROOT, registry=None):
     errors = []
     sources = {s["id"]: s for s in json.loads((Path(root) / "data/source_manifest.json").read_text())}
     city_ids = set()
@@ -91,8 +92,21 @@ def validate_dataset(cities, root=ROOT):
                 if offer_id not in offers:
                     fail(part["id"], "Unknown component offer")
         visit(city, city_id)
-    if len(city_ids) != 12:
-        fail("dataset", f"Expected twelve municipalities, found {len(city_ids)}")
+    errors.extend(validate_registry(load_registry(root) if registry is None else registry, cities, root))
+    profile_ids = set()
+    profile_paths = sorted((Path(root) / "data/profiles").glob("*.json"))
+    for name in {"default.json", "highest_band.json"} - {path.name for path in profile_paths}:
+        fail(name, "Missing canonical reference profile")
+    for path in profile_paths:
+        try:
+            profile = json.loads(path.read_text())
+            validate_profile(profile)
+            if not profile.get("id") or profile["id"] in profile_ids:
+                fail(path.name, "Missing or duplicate canonical profile identifier")
+            profile_ids.add(profile.get("id"))
+            visit(profile, path.name)
+        except (ValueError, KeyError, TypeError) as error:
+            fail(path.name, f"Invalid canonical profile: {error}")
     for source_id, source in sources.items():
         if source.get("local_path"):
             path = Path(root) / source["local_path"]

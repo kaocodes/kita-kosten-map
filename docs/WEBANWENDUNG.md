@@ -1,0 +1,110 @@
+# Lokale Webanwendung und Geodaten
+
+**Stand:** 8. November 2026 · **Umsetzungspaket:** 3
+
+Es gibt eine eigenständige React-Anwendung mit Leaflet-Karte. Sie stellt die zwölf Vergleichskommunen als Gebührenflächen dar und verwendet den geprüften TypeScript-Rechenkern. Die Anwendung läuft vollständig mit statischen Dateien; ein Backend wird nicht benötigt. Eine Veröffentlichung auf GitHub Pages ist noch nicht eingerichtet.
+
+## 1. Lokal starten
+
+Benötigt werden Node.js **ab 22.12**, npm und Python **ab 3.11** für Datenprüfung und Vorbereitung. Nach der Installation der npm-Pakete werden beim Start keine externen Geodienste oder Gebührenquellen abgerufen.
+
+```bash
+npm ci
+npm run dev
+```
+
+Die lokale Website erscheint unter **http://127.0.0.1:5173/**. Der Start prüft zuerst die kanonischen Daten und Quellenprüfsummen und erzeugt die Browserdaten. Port 5173 ist fest eingestellt; ein bereits belegter Port wird ausdrücklich gemeldet.
+
+Für den fertigen statischen Build:
+
+```bash
+npm run build
+npm run preview
+```
+
+Die Build-Vorschau läuft unter **http://127.0.0.1:4173/**. `dist/` enthält die veröffentlichbaren Dateien. Die Server können im jeweiligen Terminal mit `Ctrl+C` beendet werden. Python und Node.js sind Werkzeuge für Vorbereitung, Entwicklung und Build; die ausgelieferte Anwendung benötigt sie nicht.
+
+## 2. Sichtbare Funktionen
+
+- Gemeindekarte mit zwölf auswählbaren Gebührenflächen und 128 umliegenden Gemeindegebieten als räumlichem Kontext.
+- Umschalten zwischen Modellfamilie und Höchsttarifreferenz; Karte, Vergleichsliste und Detailbereich verwenden dasselbe Ergebnis.
+- Monatsäquivalent, ursprünglicher Monatsbeitrag, Beitragsmonate, gebuchte Wochenstunden, zusätzliche Buchungszeit und Tarifbeginn je Kommune.
+- Verpflegung und Zusatzkosten als gesonderte Varianten; fehlende Beitragsmonate bleiben ausdrücklich unbekannt.
+- Direkte Links zu offiziellen Gebührenquellen und aufklappbare Fundstellen.
+- Feste Gebührenlegende, Zoom, Verschieben und Zurücksetzen auf die gesamte Vergleichsregion.
+- Gemeindewahl per Maus, Tastatur oder Liste; auf schmalen Bildschirmen stehen Karte und Details untereinander. Die Detailansicht wird bei der Auswahl erreicht.
+
+Die individuellen Familien- und Einkommenseingaben sowie die vollständige Formular- und Bedienabnahme folgen in Paket 4. Die jetzigen beiden Profile sind feste, geprüfte Referenzen. Die aufsteigende Vergleichsliste und die Grundgestaltung sind bereits als bedienbare Grundlage vorhanden.
+
+## 3. Dateien und Architektur
+
+| Bereich | Zweck |
+|---|---|
+| `web/index.html`, `web/src/main.tsx` | Einstieg und React-Start |
+| `web/src/App.tsx`, `web/src/App.module.css` | Gemeinsamer Profil-/Auswahlzustand, Oberfläche und responsives Layout |
+| `web/src/components/MunicipalityMap.tsx` | Leaflet-Anbindung für Geometrie, Farben und Gemeindewahl |
+| `web/src/components/MunicipalityDetails.tsx` | Originalbeitrag, Zusatzkosten und Quellen |
+| `web/src/site/data.ts` | Laden der erzeugten lokalen JSON-Dateien und Prüfung ihrer geografischen Zuordnung |
+| `web/src/site/presentation.ts` | Deutsche Formatierung und Gebührenklassen |
+| `web/src/domain/` | Unabhängiger Rechenkern aus Paket 2 |
+| `scripts/prepare_web_data.mjs` | Reproduzierbare Vorbereitung von Browserkatalog, Geometrie, Quellenindex und Lizenztexten |
+| `data/geodata/` | Archivierte BKG-Produktseite und dauerhaft belegte Herkunft der Geometrien |
+| `web/public/data/`, `dist/` | Erzeugte Dateien; werden nicht versioniert |
+
+Verwendete Pakete sind React und React DOM **19.3.1**, Vite **8.3.6**, Leaflet **1.9.4**, Mapshaper **0.7.101**, TypeScript **7.0.2** und Zod **4.6.7**. CSS Modules sind in den Build integriert. Exakte Versionen und Abhängigkeiten stehen im Lockfile. Mapshaper und Vite sind Entwicklungswerkzeuge und werden nicht als Bibliotheken in den Browser geladen.
+
+Die Oberfläche erhält weder eine eigene feste Kommunenliste noch eine zweite Berechnungsimplementierung. Das Register bestimmt die aktiven Kommunen; AGS und `area_id` verbinden sie mit den Geometrien, `tariff_id` mit den Gebühren. Die Map-Komponente erhält nur Geometrie, Ergebnisse und Auswahl. Sie kann später ausgetauscht werden, ohne die Tariflogik zu ändern.
+
+## 4. Geodaten und Herkunft
+
+Ausgangspunkt ist der archivierte regionale WFS-Abruf unter `output/municipalities-original.geojson` mit 140 Geometrien. Seine Prüfsumme bleibt über das Kommunenregister gesichert. Die [BKG-Produktseite](https://gdz.bkg.bund.de/index.php/default/open-data/wfs-verwaltungsgebiete-1-250-000-stand-01-01-wfs-vg250.html) nennt den **Grenzstand 1. Januar 2025**; sie wurde am 8. November 2026 unter `data/geodata/bkg-product-page.html` archiviert. `data/geodata/source.json` hält Quelle, Fundstelle, Grenzstand, Abrufdaten, Hashwerte, ursprüngliche WFS-Parameter, Lizenz und Verarbeitung fest. Der Geometrieabruf am 7. November 2026 und der fachliche Grenzstand sind getrennte Angaben.
+
+Die Verarbeitung läuft mit `npm run prepare:web` vollständig lokal:
+
+1. Kanonische Tarife, Register und Quellenarchive prüfen.
+2. Hashwerte der originalen Geometrie und der BKG-Produktseite kontrollieren.
+3. Alle 140 Nachbargemeinden gemeinsam mit Mapshaper vereinfachen: gewichtetes Visvalingam-Verfahren, 30 % Punktbeibehaltung, `keep-shapes`, Koordinatenpräzision `0.00001` Grad.
+4. Attribute reduzieren und aktive Vergleichsgebiete anhand des AGS zuordnen. Namensgleichheit wird nicht zur Verknüpfung verwendet.
+5. Interne Flächen- und Kommune-IDs ergänzen; Beschriftungspunkte innerhalb der größten Polygonteile bestimmen.
+6. Browserdaten, Größen-/Hashbericht und verwendete Laufzeit-Lizenztexte schreiben.
+
+Gemeinsame Grenzen werden zusammen verarbeitet. Prüfungen sichern insbesondere die erhaltenen Gemeindefeatures, geschlossenen Ringe und gemeinsam genutzten Grenzen zwischen bekannten Nachbarn. Die ursprünglichen 18.350 Koordinatenpunkte werden auf 6.240 reduziert. Die Karte dient der regionalen Übersicht; die maximale Zoomstufe ist **11**, die minimale **8**. Die Beschriftung vermeidet Überlagerungen; jede Kommune bleibt zusätzlich in der Liste und als fokussierbare Fläche erreichbar.
+
+Quellenvermerk und Änderungshinweis stehen direkt in der Karte und ausführlich im Fußbereich: **© BKG 2026, dl-de/by-2-0, Grenzen vereinfacht**. BKG, Lizenz, Datenprodukt und die Aufstellung der Datenquellen sind verlinkt. Die Lizenztexte von React, React DOM, Leaflet und Zod werden unter `THIRD_PARTY_NOTICES.txt` mit ausgeliefert. Die Anwendung verwendet lokale Schriftarten und keine externen Kartenkacheln.
+
+## 5. Browserdaten und Größenbudget
+
+`web/public/data/region-stuttgart.json` enthält die benötigten aktiven Tarifkataloge, Register, beide Profile, örtliche Regeln und einen Quellenindex. Verbatim-Recherchetexte (`original_research`) sowie Kopien der Originalzellen innerhalb von Quellenbelegen (`evidence.original`) werden ausschließlich in diesem abgeleiteten Browserexport weggelassen. Originaldaten und Quellenarchive bleiben vollständig erhalten. Quellenkennung, URL, Fundstelle, Tarifdaten und Rechenregeln bleiben verfügbar. Prüfungen vergleichen die Beträge, Pakete, Zusatzkosten und Quellenfundstellen beider Profile mit den kanonischen Katalogen.
+
+Messstand dieser Umsetzung:
+
+| Bestandteil | Unkomprimiert | Mit gzip |
+|---|---:|---:|
+| Ursprünglicher regionaler Geometrieabruf | 391.188 Byte | – |
+| Vereinfachte Webgeometrie mit Zuordnung | 132.114 Byte | 28.358 Byte |
+| Browserkatalog, Profile und Quellenindex | 1.108.900 Byte | 46.943 Byte |
+| JavaScript-Bundle | rund 496 kB | rund 150 kB |
+| CSS-Bundle | rund 33 kB | rund 11 kB |
+
+Die rechnerische gzip-Summe aus HTML, CSS, JavaScript, Geometrie und Browserkatalog liegt bei ungefähr **236 kB**. Tatsächlicher Transfer und Ladezeit hängen von Serverkomprimierung, Verbindung und Cache ab. Die lokale einfache HTTP-Vorschau liefert Dateien unkomprimiert aus. Quellen-PDFs und das vollständige Forschungsarchiv gehören nicht zum Website-Build.
+
+Das Vorverarbeitungsskript prüft feste Ausgangsbudgets: höchstens **200 kB** Webgeometrie, **1,5 MB** Browserkatalog und zusammen höchstens **150 kB gzip** für die beiden Datenressourcen. Die aktuellen Werte und Hashes werden unter `web/public/data/build-metrics.json` neu erzeugt. Größere Erweiterungen können eine regionale Aufteilung erfordern; die Grenzen werden dann bewusst überprüft.
+
+## 6. Prüfung und statische Bereitstellung
+
+```bash
+npm test
+npm run typecheck
+npm run build
+python3 -m unittest discover -s tests
+```
+
+`npm test` bereitet die Webdaten vor und führt **119 JavaScript-Prüfungen** aus: die bisherigen 111 Rechenkern-/Paritätsprüfungen sowie acht Prüfungen für die Website-Daten und Darstellungskonventionen. Die Python-Suite umfasst 70 Tests. Die acht zusätzlichen Prüfungen decken Register-/Geometriezuordnung, Umgebungskontext, Polygone, gemeinsame Grenzen, unveränderte Vergleichswerte, Herkunft, Datenbudgets und die Unterscheidung von null Euro gegenüber fehlenden Werten ab. Sie lassen sich auch eigenständig mit `npm run test:web` ausführen.
+
+Im Browser wurden Desktop sowie 390 und 320 Pixel Breite geprüft. Profilwechsel, Flächenwahl, Tastaturwahl, Zusatzkosten und die schmale Darstellung funktionieren. Ein bei 320 Pixeln beobachteter horizontaler Überlauf wurde behoben. Der fertige Build wurde zusätzlich durch einen einfachen statischen HTTP-Server unter `/kita-costs-map/` geladen; Karte, Daten, Profile und lokale Lizenzverweise funktionieren auch dort. Die endgültige Formular- und umfassende Bedienprüfung gehört zu Paket 4.
+
+Gesicherte Ansichten der tatsächlichen Anwendung: [Desktop](../output/website-preview-desktop.jpg) und [Mobil](../output/website-preview-mobile.jpg). Die Bilder zeigen das Modellfamilienprofil; die älteren Entwürfe in `output/` bleiben separat erhalten.
+
+`vite.config.ts` verwendet `base: "./"`. Die Anwendung hat keine serverseitigen Routen; interne Verweise sind Seitenanker. Dadurch funktionieren die gebauten Dateien im Stammverzeichnis und in einem GitHub-Pages-Projektverzeichnis. Der konkrete GitHub-Repository-/Pages-Workflow wird erst in Paket 5 eingerichtet. Es wurde keine Website veröffentlicht.
+
+Technische Referenzen: [Vite und GitHub Pages](https://vite.dev/guide/static-deploy.html), [Leaflet und GeoJSON](https://leafletjs.com/examples/geojson/), [Mapshaper-Schnittstelle](https://mapshaper.org/docs/guides/programmatic.html), [Mapshaper-Vereinfachung](https://mapshaper.org/docs/guides/simplification.html).

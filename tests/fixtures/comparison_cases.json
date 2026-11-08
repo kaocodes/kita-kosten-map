@@ -1,0 +1,1823 @@
+{
+  "schema_version": "1.0",
+  "cases": [
+    {
+      "id": "model-family-all-municipalities",
+      "profile": "default"
+    },
+    {
+      "id": "highest-band-all-municipalities"
+    },
+    {
+      "id": "esslingen-income-4999999",
+      "profile_updates": {
+        "income_mode": "specified",
+        "incomes": [
+          {
+            "basis": "esslingen_gross_income",
+            "period": "year",
+            "amount_cents": 4999999
+          }
+        ]
+      },
+      "municipality_id": "esslingen",
+      "expected": {
+        "status": "comparable",
+        "monthly_care_cents": 36600
+      }
+    },
+    {
+      "id": "esslingen-income-5000000",
+      "profile_updates": {
+        "income_mode": "specified",
+        "incomes": [
+          {
+            "basis": "esslingen_gross_income",
+            "period": "year",
+            "amount_cents": 5000000
+          }
+        ]
+      },
+      "municipality_id": "esslingen",
+      "expected": {
+        "status": "comparable",
+        "monthly_care_cents": 36600
+      }
+    },
+    {
+      "id": "esslingen-income-5000001",
+      "profile_updates": {
+        "income_mode": "specified",
+        "incomes": [
+          {
+            "basis": "esslingen_gross_income",
+            "period": "year",
+            "amount_cents": 5000001
+          }
+        ]
+      },
+      "municipality_id": "esslingen",
+      "expected": {
+        "status": "comparable",
+        "monthly_care_cents": 42500
+      }
+    },
+    {
+      "id": "esslingen-income-8000000",
+      "profile_updates": {
+        "income_mode": "specified",
+        "incomes": [
+          {
+            "basis": "esslingen_gross_income",
+            "period": "year",
+            "amount_cents": 8000000
+          }
+        ]
+      },
+      "municipality_id": "esslingen",
+      "expected": {
+        "status": "comparable",
+        "monthly_care_cents": 55100
+      }
+    },
+    {
+      "id": "esslingen-income-8000001",
+      "profile_updates": {
+        "income_mode": "specified",
+        "incomes": [
+          {
+            "basis": "esslingen_gross_income",
+            "period": "year",
+            "amount_cents": 8000001
+          }
+        ]
+      },
+      "municipality_id": "esslingen",
+      "expected": {
+        "status": "comparable",
+        "monthly_care_cents": 61000
+      }
+    },
+    {
+      "id": "ditzingen-income-6000000",
+      "profile_updates": {
+        "income_mode": "specified",
+        "incomes": [
+          {
+            "basis": "taxable_income",
+            "period": "year",
+            "amount_cents": 6000000
+          }
+        ]
+      },
+      "municipality_id": "ditzingen",
+      "expected": {
+        "status": "comparable",
+        "monthly_care_cents": 57800
+      }
+    },
+    {
+      "id": "ditzingen-income-7000000",
+      "profile_updates": {
+        "income_mode": "specified",
+        "incomes": [
+          {
+            "basis": "taxable_income",
+            "period": "year",
+            "amount_cents": 7000000
+          }
+        ]
+      },
+      "municipality_id": "ditzingen",
+      "expected": {
+        "status": "comparable",
+        "monthly_care_cents": 57800
+      }
+    },
+    {
+      "id": "ditzingen-income-7000001",
+      "profile_updates": {
+        "income_mode": "specified",
+        "incomes": [
+          {
+            "basis": "taxable_income",
+            "period": "year",
+            "amount_cents": 7000001
+          }
+        ]
+      },
+      "municipality_id": "ditzingen",
+      "expected": {
+        "status": "unavailable",
+        "monthly_equivalent_cents": null,
+        "reasons_include": [
+          "price_or_income_input_missing"
+        ]
+      }
+    },
+    {
+      "id": "ditzingen-income-7000100",
+      "profile_updates": {
+        "income_mode": "specified",
+        "incomes": [
+          {
+            "basis": "taxable_income",
+            "period": "year",
+            "amount_cents": 7000100
+          }
+        ]
+      },
+      "municipality_id": "ditzingen",
+      "expected": {
+        "status": "unavailable",
+        "monthly_equivalent_cents": null,
+        "reasons_include": [
+          "price_or_income_input_missing"
+        ]
+      }
+    },
+    {
+      "id": "ditzingen-income-7000101",
+      "profile_updates": {
+        "income_mode": "specified",
+        "incomes": [
+          {
+            "basis": "taxable_income",
+            "period": "year",
+            "amount_cents": 7000101
+          }
+        ]
+      },
+      "municipality_id": "ditzingen",
+      "expected": {
+        "status": "comparable",
+        "monthly_care_cents": 63600
+      }
+    },
+    {
+      "id": "korntal-monthly-250000-single-False",
+      "profile_updates": {
+        "income_mode": "specified",
+        "incomes": [
+          {
+            "basis": "adjusted_taxable_income",
+            "period": "month",
+            "amount_cents": 250000
+          }
+        ],
+        "single_parent": false
+      },
+      "municipality_id": "korntal-muenchingen",
+      "expected": {
+        "status": "comparable",
+        "monthly_care_cents": 23375
+      }
+    },
+    {
+      "id": "korntal-monthly-250000-single-True",
+      "profile_updates": {
+        "income_mode": "specified",
+        "incomes": [
+          {
+            "basis": "adjusted_taxable_income",
+            "period": "month",
+            "amount_cents": 250000
+          }
+        ],
+        "single_parent": true
+      },
+      "municipality_id": "korntal-muenchingen",
+      "expected": {
+        "status": "comparable",
+        "monthly_care_cents": 19250
+      }
+    },
+    {
+      "id": "korntal-monthly-500000-single-False",
+      "profile_updates": {
+        "income_mode": "specified",
+        "incomes": [
+          {
+            "basis": "adjusted_taxable_income",
+            "period": "month",
+            "amount_cents": 500000
+          }
+        ],
+        "single_parent": false
+      },
+      "municipality_id": "korntal-muenchingen",
+      "expected": {
+        "status": "comparable",
+        "monthly_care_cents": 31625
+      }
+    },
+    {
+      "id": "korntal-monthly-450050-single-False",
+      "profile_updates": {
+        "income_mode": "specified",
+        "incomes": [
+          {
+            "basis": "adjusted_taxable_income",
+            "period": "month",
+            "amount_cents": 450050
+          }
+        ],
+        "single_parent": false
+      },
+      "municipality_id": "korntal-muenchingen",
+      "expected": {
+        "status": "unavailable",
+        "monthly_equivalent_cents": null
+      }
+    },
+    {
+      "id": "korntal-annual-model-income",
+      "profile_updates": {
+        "income_mode": "specified",
+        "incomes": [
+          {
+            "basis": "adjusted_taxable_income",
+            "period": "year",
+            "amount_cents": 6000000
+          }
+        ]
+      },
+      "municipality_id": "korntal-muenchingen",
+      "expected": {
+        "status": "comparable",
+        "monthly_care_cents": 31625,
+        "monthly_equivalent_cents": 28990
+      }
+    },
+    {
+      "id": "ditzingen-monthly-taxable-income",
+      "profile_updates": {
+        "income_mode": "specified",
+        "incomes": [
+          {
+            "basis": "taxable_income",
+            "period": "month",
+            "amount_cents": 500000
+          }
+        ]
+      },
+      "municipality_id": "ditzingen",
+      "expected": {
+        "status": "comparable",
+        "monthly_care_cents": 57800
+      }
+    },
+    {
+      "id": "ditzingen-gross-alone-is-insufficient",
+      "profile_updates": {
+        "income_mode": "specified",
+        "incomes": [
+          {
+            "basis": "gross_income",
+            "period": "year",
+            "amount_cents": 8000000
+          }
+        ]
+      },
+      "municipality_id": "ditzingen",
+      "expected": {
+        "status": "unavailable",
+        "monthly_equivalent_cents": null,
+        "reasons_include": [
+          "price_or_income_input_missing"
+        ]
+      }
+    },
+    {
+      "id": "esslingen-gross-alone-is-insufficient",
+      "profile_updates": {
+        "income_mode": "specified",
+        "incomes": [
+          {
+            "basis": "gross_income",
+            "period": "year",
+            "amount_cents": 8000000
+          }
+        ]
+      },
+      "municipality_id": "esslingen",
+      "expected": {
+        "status": "unavailable",
+        "monthly_equivalent_cents": null,
+        "reasons_include": [
+          "price_or_income_input_missing"
+        ]
+      }
+    },
+    {
+      "id": "korntal-muenchingen-gross-alone-is-insufficient",
+      "profile_updates": {
+        "income_mode": "specified",
+        "incomes": [
+          {
+            "basis": "gross_income",
+            "period": "year",
+            "amount_cents": 8000000
+          }
+        ]
+      },
+      "municipality_id": "korntal-muenchingen",
+      "expected": {
+        "status": "unavailable",
+        "monthly_equivalent_cents": null,
+        "reasons_include": [
+          "price_or_income_input_missing"
+        ]
+      }
+    },
+    {
+      "id": "korntal-unadjusted-taxable-is-insufficient",
+      "profile_updates": {
+        "income_mode": "specified",
+        "incomes": [
+          {
+            "basis": "taxable_income",
+            "period": "year",
+            "amount_cents": 6000000
+          }
+        ]
+      },
+      "municipality_id": "korntal-muenchingen",
+      "expected": {
+        "status": "unavailable",
+        "monthly_equivalent_cents": null
+      }
+    },
+    {
+      "id": "sindelfingen-second-household-child-rank-1",
+      "profile_updates": {
+        "children": [
+          {
+            "age_months": 24,
+            "resident": true,
+            "child_benefit": true
+          },
+          {
+            "age_months": 48,
+            "resident": true,
+            "child_benefit": true
+          }
+        ],
+        "care_rank": 1
+      },
+      "municipality_id": "sindelfingen",
+      "expected": {
+        "status": "comparable",
+        "monthly_care_cents": 28200
+      }
+    },
+    {
+      "id": "sindelfingen-second-household-child-rank-2",
+      "profile_updates": {
+        "children": [
+          {
+            "age_months": 24,
+            "resident": true,
+            "child_benefit": true
+          },
+          {
+            "age_months": 48,
+            "resident": true,
+            "child_benefit": true
+          }
+        ],
+        "care_rank": 2
+      },
+      "municipality_id": "sindelfingen",
+      "expected": {
+        "status": "comparable",
+        "monthly_care_cents": 21150
+      }
+    },
+    {
+      "id": "sindelfingen-fifth-care-child-is-free",
+      "profile_updates": {
+        "children": [
+          {
+            "age_months": 24,
+            "resident": true,
+            "child_benefit": true
+          },
+          {
+            "age_months": 24,
+            "resident": true,
+            "child_benefit": true
+          },
+          {
+            "age_months": 24,
+            "resident": true,
+            "child_benefit": true
+          },
+          {
+            "age_months": 24,
+            "resident": true,
+            "child_benefit": true
+          },
+          {
+            "age_months": 24,
+            "resident": true,
+            "child_benefit": true
+          }
+        ],
+        "care_rank": 5
+      },
+      "municipality_id": "sindelfingen",
+      "expected": {
+        "status": "comparable",
+        "monthly_care_cents": 0
+      }
+    },
+    {
+      "id": "kornwestheim-five-is-not-exact-four",
+      "profile_updates": {
+        "children": [
+          {
+            "age_months": 24,
+            "resident": true,
+            "child_benefit": true
+          },
+          {
+            "age_months": 24,
+            "resident": true,
+            "child_benefit": true
+          },
+          {
+            "age_months": 24,
+            "resident": true,
+            "child_benefit": true
+          },
+          {
+            "age_months": 24,
+            "resident": true,
+            "child_benefit": true
+          },
+          {
+            "age_months": 24,
+            "resident": true,
+            "child_benefit": true
+          }
+        ]
+      },
+      "municipality_id": "kornwestheim",
+      "expected": {
+        "status": "unavailable",
+        "monthly_equivalent_cents": null
+      }
+    },
+    {
+      "id": "sindelfingen-missing-care-rank",
+      "profile_updates": {
+        "care_rank": null
+      },
+      "municipality_id": "sindelfingen",
+      "expected": {
+        "status": "unavailable",
+        "monthly_equivalent_cents": null
+      }
+    },
+    {
+      "id": "stuttgart-adult-child-benefit-definition",
+      "profile_updates": {
+        "children": [
+          {
+            "age_months": 24,
+            "resident": true,
+            "child_benefit": true
+          },
+          {
+            "age_months": 240,
+            "resident": true,
+            "child_benefit": true
+          }
+        ]
+      },
+      "municipality_id": "stuttgart",
+      "expected": {
+        "status": "comparable",
+        "family_count": 1
+      }
+    },
+    {
+      "id": "gerlingen-adult-child-benefit-definition",
+      "profile_updates": {
+        "children": [
+          {
+            "age_months": 24,
+            "resident": true,
+            "child_benefit": true
+          },
+          {
+            "age_months": 240,
+            "resident": true,
+            "child_benefit": true
+          }
+        ]
+      },
+      "municipality_id": "gerlingen",
+      "expected": {
+        "status": "comparable",
+        "family_count": 2
+      }
+    },
+    {
+      "id": "ludwigsburg-adult-child-benefit-definition",
+      "profile_updates": {
+        "children": [
+          {
+            "age_months": 24,
+            "resident": true,
+            "child_benefit": true
+          },
+          {
+            "age_months": 240,
+            "resident": true,
+            "child_benefit": true
+          }
+        ]
+      },
+      "municipality_id": "ludwigsburg",
+      "expected": {
+        "status": "comparable",
+        "family_count": 1
+      }
+    },
+    {
+      "id": "kornwestheim-adult-child-benefit-definition",
+      "profile_updates": {
+        "children": [
+          {
+            "age_months": 24,
+            "resident": true,
+            "child_benefit": true
+          },
+          {
+            "age_months": 240,
+            "resident": true,
+            "child_benefit": true
+          }
+        ]
+      },
+      "municipality_id": "kornwestheim",
+      "expected": {
+        "status": "comparable",
+        "family_count": 2
+      }
+    },
+    {
+      "id": "stuttgart-card-needs-confirmation",
+      "profile_updates": {
+        "pass_id": "family_card"
+      },
+      "municipality_id": "stuttgart",
+      "expected": {
+        "status": "unavailable",
+        "monthly_equivalent_cents": null,
+        "reasons_include": [
+          "pass_eligibility_not_confirmed"
+        ]
+      }
+    },
+    {
+      "id": "stuttgart-valid-card",
+      "profile_updates": {
+        "pass_id": "family_card",
+        "eligibility": [
+          "valid_family_card"
+        ]
+      },
+      "municipality_id": "stuttgart",
+      "expected": {
+        "status": "comparable",
+        "monthly_care_cents": 14600
+      }
+    },
+    {
+      "id": "stuttgart-multiple-infant-surcharge-unresolved",
+      "profile_updates": {
+        "children": [
+          {
+            "age_months": 24,
+            "resident": true,
+            "child_benefit": true
+          },
+          {
+            "age_months": 24,
+            "resident": true,
+            "child_benefit": true
+          }
+        ],
+        "pass_id": "family_card",
+        "eligibility": [
+          "valid_family_card"
+        ]
+      },
+      "municipality_id": "stuttgart",
+      "expected": {
+        "status": "unavailable",
+        "monthly_equivalent_cents": null,
+        "reasons_include": [
+          "infant_surcharge_allocation_required"
+        ]
+      }
+    },
+    {
+      "id": "leinfelden-published-pass-rounding",
+      "profile_updates": {
+        "pass_id": "city_pass_a",
+        "eligibility": [
+          "valid_city_pass",
+          "no_priority_benefit"
+        ]
+      },
+      "municipality_id": "leinfelden-echterdingen",
+      "expected": {
+        "status": "comparable",
+        "monthly_care_cents": 23490
+      }
+    },
+    {
+      "id": "ludwigsburg-pass-is-not-supported",
+      "profile_updates": {
+        "pass_id": "family_card"
+      },
+      "municipality_id": "ludwigsburg",
+      "expected": {
+        "status": "unavailable",
+        "monthly_equivalent_cents": null,
+        "reasons_include": [
+          "pass_not_supported_for_municipality"
+        ]
+      }
+    },
+    {
+      "id": "gerlingen-reduction-not-automatic",
+      "profile_updates": {
+        "income_mode": "specified",
+        "incomes": [
+          {
+            "basis": "gerlingen_household_income",
+            "period": "year",
+            "amount_cents": 4000000
+          }
+        ]
+      },
+      "municipality_id": "gerlingen",
+      "expected": {
+        "status": "comparable",
+        "monthly_care_cents": 64000
+      }
+    },
+    {
+      "id": "gerlingen-confirmed-reduction-4000000",
+      "profile_updates": {
+        "income_mode": "specified",
+        "incomes": [
+          {
+            "basis": "gerlingen_household_income",
+            "period": "year",
+            "amount_cents": 4000000
+          }
+        ],
+        "approved_rules": [
+          "income_reduction"
+        ],
+        "eligibility": [
+          "priority_benefits_denied"
+        ]
+      },
+      "municipality_id": "gerlingen",
+      "expected": {
+        "status": "comparable",
+        "monthly_care_cents": 51200
+      }
+    },
+    {
+      "id": "gerlingen-confirmed-reduction-5000000",
+      "profile_updates": {
+        "income_mode": "specified",
+        "incomes": [
+          {
+            "basis": "gerlingen_household_income",
+            "period": "year",
+            "amount_cents": 5000000
+          }
+        ],
+        "approved_rules": [
+          "income_reduction"
+        ],
+        "eligibility": [
+          "priority_benefits_denied"
+        ]
+      },
+      "municipality_id": "gerlingen",
+      "expected": {
+        "status": "comparable",
+        "monthly_care_cents": 57600
+      }
+    },
+    {
+      "id": "gerlingen-confirmed-reduction-6000000",
+      "profile_updates": {
+        "income_mode": "specified",
+        "incomes": [
+          {
+            "basis": "gerlingen_household_income",
+            "period": "year",
+            "amount_cents": 6000000
+          }
+        ],
+        "approved_rules": [
+          "income_reduction"
+        ],
+        "eligibility": [
+          "priority_benefits_denied"
+        ]
+      },
+      "municipality_id": "gerlingen",
+      "expected": {
+        "status": "unavailable",
+        "monthly_equivalent_cents": null,
+        "reasons_include": [
+          "discount_income_limit_not_met"
+        ]
+      }
+    },
+    {
+      "id": "gerlingen-missing-discount-eligibility",
+      "profile_updates": {
+        "income_mode": "specified",
+        "incomes": [
+          {
+            "basis": "gerlingen_household_income",
+            "period": "year",
+            "amount_cents": 4000000
+          }
+        ],
+        "approved_rules": [
+          "income_reduction"
+        ]
+      },
+      "municipality_id": "gerlingen",
+      "expected": {
+        "status": "unavailable",
+        "monthly_equivalent_cents": null,
+        "reasons_include": [
+          "eligibility_not_confirmed"
+        ]
+      }
+    },
+    {
+      "id": "ditzingen-family-pass-rounds-to-whole-euro",
+      "profile_updates": {
+        "approved_rules": [
+          "family_pass"
+        ],
+        "eligibility": [
+          "family_pass"
+        ]
+      },
+      "municipality_id": "ditzingen",
+      "expected": {
+        "status": "comparable",
+        "monthly_care_cents": 44500
+      }
+    },
+    {
+      "id": "unknown-rule-is-explicit",
+      "profile_updates": {
+        "approved_rules": [
+          "unknown-rule"
+        ]
+      },
+      "municipality_id": "ditzingen",
+      "expected": {
+        "status": "unavailable",
+        "monthly_equivalent_cents": null,
+        "reasons_include": [
+          "unknown_rule"
+        ]
+      }
+    },
+    {
+      "id": "documented-rule-is-not-executable",
+      "profile_updates": {
+        "approved_rules": [
+          "income_definition"
+        ]
+      },
+      "municipality_id": "korntal-muenchingen",
+      "expected": {
+        "status": "unavailable",
+        "monthly_equivalent_cents": null,
+        "reasons_include": [
+          "rule_not_executable"
+        ]
+      }
+    },
+    {
+      "id": "discounts-cannot-be-stacked",
+      "duplicates": [
+        {
+          "collection": "rules",
+          "id": "family_pass",
+          "new_id": "second-family-pass"
+        }
+      ],
+      "profile_updates": {
+        "approved_rules": [
+          "family_pass",
+          "second-family-pass"
+        ],
+        "eligibility": [
+          "family_pass"
+        ]
+      },
+      "municipality_id": "ditzingen",
+      "expected": {
+        "status": "unavailable",
+        "monthly_equivalent_cents": null,
+        "reasons_include": [
+          "discounts_not_stackable"
+        ]
+      }
+    },
+    {
+      "id": "fellbach-needs-45h-for-friday",
+      "municipality_id": "fellbach",
+      "expected": {
+        "status": "comparable",
+        "monthly_care_cents": 70200,
+        "booked_weekly_minutes": 2700,
+        "extra_weekly_minutes": 300
+      }
+    },
+    {
+      "id": "fellbach-formula-threshold-2100",
+      "operation": "formula_price",
+      "family_count": 1,
+      "offered_minutes": 2100,
+      "expected_amount": 45500,
+      "municipality_id": "fellbach"
+    },
+    {
+      "id": "fellbach-formula-threshold-2160",
+      "operation": "formula_price",
+      "family_count": 1,
+      "offered_minutes": 2160,
+      "expected_amount": 56200,
+      "municipality_id": "fellbach"
+    },
+    {
+      "id": "fellbach-formula-sibling-discount",
+      "operation": "formula_price",
+      "family_count": 2,
+      "offered_minutes": 2700,
+      "expected_amount": 56200,
+      "municipality_id": "fellbach"
+    },
+    {
+      "id": "fellbach-social-minimum",
+      "profile_updates": {
+        "income_mode": "specified",
+        "incomes": [
+          {
+            "basis": "fellbach_gross_income",
+            "period": "month",
+            "amount_cents": 10000
+          }
+        ],
+        "children": [
+          {
+            "age_months": 24,
+            "resident": true,
+            "child_benefit": true
+          },
+          {
+            "age_months": 24,
+            "resident": true,
+            "child_benefit": true
+          },
+          {
+            "age_months": 24,
+            "resident": true,
+            "child_benefit": true
+          },
+          {
+            "age_months": 24,
+            "resident": true,
+            "child_benefit": true
+          }
+        ],
+        "approved_rules": [
+          "social_income_ratio"
+        ],
+        "eligibility": [
+          "approved_social_reduction",
+          "resident",
+          "no_priority_benefit"
+        ]
+      },
+      "municipality_id": "fellbach",
+      "expected": {
+        "status": "comparable",
+        "monthly_care_cents": 1000
+      }
+    },
+    {
+      "id": "fellbach-social-limit-excluded",
+      "profile_updates": {
+        "income_mode": "specified",
+        "incomes": [
+          {
+            "basis": "fellbach_gross_income",
+            "period": "month",
+            "amount_cents": 582000
+          }
+        ],
+        "approved_rules": [
+          "social_income_ratio"
+        ],
+        "eligibility": [
+          "approved_social_reduction",
+          "resident",
+          "no_priority_benefit"
+        ]
+      },
+      "municipality_id": "fellbach",
+      "expected": {
+        "status": "unavailable",
+        "monthly_equivalent_cents": null,
+        "reasons_include": [
+          "discount_income_limit_not_met"
+        ]
+      }
+    },
+    {
+      "id": "esslingen-extension-on-three-days",
+      "profile_updates": {
+        "weekday_minutes": [
+          510,
+          510,
+          510,
+          480,
+          480
+        ]
+      },
+      "municipality_id": "esslingen",
+      "expected": {
+        "status": "comparable",
+        "monthly_care_cents": 121400,
+        "booked_weekly_minutes": 2490
+      }
+    },
+    {
+      "id": "esslingen-six-hour-model",
+      "profile_updates": {
+        "weekday_minutes": [
+          360,
+          360,
+          360,
+          360,
+          360
+        ]
+      },
+      "municipality_id": "esslingen",
+      "expected": {
+        "status": "comparable",
+        "monthly_care_cents": 28400,
+        "offer_label": "VÖ6"
+      }
+    },
+    {
+      "id": "leonberg-package-is-not-interpolated",
+      "municipality_id": "leonberg",
+      "expected": {
+        "status": "comparable",
+        "monthly_care_cents": 53700,
+        "extra_weekly_minutes": 150
+      }
+    },
+    {
+      "id": "ludwigsburg-unpublished-gt11",
+      "profile_updates": {
+        "weekday_minutes": [
+          660,
+          660,
+          660,
+          660,
+          660
+        ]
+      },
+      "municipality_id": "ludwigsburg",
+      "expected": {
+        "status": "unavailable",
+        "monthly_equivalent_cents": null,
+        "reasons_include": [
+          "tariff_not_published"
+        ]
+      }
+    },
+    {
+      "id": "future-tariff-needs-opt-in",
+      "profile_updates": {
+        "as_of": "2027-01-01"
+      },
+      "municipality_id": "ditzingen",
+      "expected": {
+        "status": "unavailable",
+        "monthly_equivalent_cents": null,
+        "reasons_include": [
+          "date_not_reviewed"
+        ]
+      }
+    },
+    {
+      "id": "future-published-tariff",
+      "profile_updates": {
+        "as_of": "2027-01-01",
+        "allow_published_future": true
+      },
+      "municipality_id": "ditzingen",
+      "expected": {
+        "status": "comparable",
+        "monthly_care_cents": 68200
+      }
+    },
+    {
+      "id": "future-unpriced-gt50-not-carried-forward",
+      "profile_updates": {
+        "as_of": "2027-01-01",
+        "allow_published_future": true,
+        "weekday_minutes": [
+          600,
+          600,
+          600,
+          600,
+          600
+        ]
+      },
+      "municipality_id": "ditzingen",
+      "expected": {
+        "status": "unavailable",
+        "monthly_equivalent_cents": null
+      }
+    },
+    {
+      "id": "leinfelden-age-transition-needs-month",
+      "child_updates": {
+        "age_months": 36
+      },
+      "municipality_id": "leinfelden-echterdingen",
+      "expected": {
+        "status": "unavailable",
+        "monthly_equivalent_cents": null,
+        "reasons_include": [
+          "birthday_month_required_for_age_transition"
+        ]
+      }
+    },
+    {
+      "id": "leinfelden-third-birthday-month-True",
+      "child_updates": {
+        "age_months": 36,
+        "birthday_in_reference_month": true
+      },
+      "municipality_id": "leinfelden-echterdingen",
+      "expected": {
+        "status": "comparable",
+        "monthly_care_cents": 58720
+      }
+    },
+    {
+      "id": "leinfelden-third-birthday-month-False",
+      "child_updates": {
+        "age_months": 36,
+        "birthday_in_reference_month": false
+      },
+      "municipality_id": "leinfelden-echterdingen",
+      "expected": {
+        "status": "comparable",
+        "monthly_care_cents": 25920
+      }
+    },
+    {
+      "id": "ditzingen-meals-remain-separate",
+      "municipality_id": "ditzingen",
+      "expected": {
+        "status": "comparable",
+        "monthly_care_cents": 63600,
+        "total_mandatory_monthly_equivalent_cents": 72400
+      }
+    },
+    {
+      "id": "kornwestheim-meal-variants",
+      "municipality_id": "kornwestheim",
+      "expected": {
+        "status": "comparable",
+        "monthly_care_cents": 43600,
+        "total_mandatory_monthly_equivalent_cents": null
+      }
+    },
+    {
+      "id": "korntal-unknown-meal-billing-months",
+      "municipality_id": "korntal-muenchingen",
+      "expected": {
+        "status": "comparable",
+        "monthly_care_cents": 39875,
+        "total_mandatory_monthly_equivalent_cents": null
+      }
+    },
+    {
+      "id": "kornwestheim-confirmed-care-and-meal-discount",
+      "profile_updates": {
+        "income_mode": "specified",
+        "incomes": [
+          {
+            "basis": "gross_income",
+            "period": "month",
+            "amount_cents": 350000
+          }
+        ],
+        "approved_rules": [
+          "social_reduction"
+        ],
+        "eligibility": [
+          "priority_benefits_denied"
+        ]
+      },
+      "municipality_id": "kornwestheim",
+      "expected": {
+        "status": "comparable",
+        "monthly_care_cents": 21800,
+        "monthly_equivalent_cents": 19983
+      }
+    },
+    {
+      "id": "stuttgart-unknown-care-billing-months",
+      "catalog_updates": [
+        {
+          "collection": "offers",
+          "id": "*",
+          "values": {
+            "payment_months": null
+          }
+        }
+      ],
+      "municipality_id": "stuttgart",
+      "expected": {
+        "status": "unavailable",
+        "monthly_care_cents": 24300,
+        "monthly_equivalent_cents": null,
+        "reasons_include": [
+          "payment_months_unknown"
+        ]
+      }
+    },
+    {
+      "id": "stuttgart-unpublished-smallest-package",
+      "catalog_updates": [
+        {
+          "collection": "prices",
+          "id": "stuttgart-price-0018",
+          "values": {
+            "amount_cents": null,
+            "value_status": "not_published"
+          }
+        }
+      ],
+      "municipality_id": "stuttgart",
+      "expected": {
+        "status": "unavailable",
+        "monthly_equivalent_cents": null,
+        "reasons_include": [
+          "tariff_not_published"
+        ]
+      }
+    },
+    {
+      "id": "stuttgart-equal-prices-are-ambiguous",
+      "duplicates": [
+        {
+          "collection": "prices",
+          "id": "stuttgart-price-0018",
+          "new_id": "separate-unresolved-variant"
+        }
+      ],
+      "municipality_id": "stuttgart",
+      "expected": {
+        "status": "ambiguous",
+        "reasons_include": [
+          "multiple_equivalent_tariffs_require_scope_clarification"
+        ]
+      }
+    },
+    {
+      "id": "stuttgart-no-confirmed-schedules",
+      "catalog_updates": [
+        {
+          "collection": "offers",
+          "id": "*",
+          "values": {
+            "weekday_minutes": null
+          }
+        }
+      ],
+      "municipality_id": "stuttgart",
+      "expected": {
+        "status": "unavailable",
+        "monthly_equivalent_cents": null,
+        "reasons_include": [
+          "schedule_not_confirmed"
+        ]
+      }
+    },
+    {
+      "id": "unsupported-provider-scope",
+      "profile_updates": {
+        "scope": "private"
+      },
+      "municipality_id": "stuttgart",
+      "expected": {
+        "status": "unavailable",
+        "monthly_equivalent_cents": null,
+        "reasons_include": [
+          "scope_not_supported"
+        ]
+      }
+    },
+    {
+      "id": "target-outside-household",
+      "child_updates": {
+        "resident": false
+      },
+      "municipality_id": "stuttgart",
+      "expected": {
+        "status": "unavailable",
+        "monthly_equivalent_cents": null,
+        "reasons_include": [
+          "target_outside_scope"
+        ]
+      }
+    },
+    {
+      "id": "school-entry-outside-scope",
+      "profile_updates": {
+        "school_entry": true
+      },
+      "municipality_id": "stuttgart",
+      "expected": {
+        "status": "unavailable",
+        "monthly_equivalent_cents": null,
+        "reasons_include": [
+          "target_outside_scope"
+        ]
+      }
+    },
+    {
+      "id": "personal-profile-discards-model-income",
+      "profile": "default",
+      "personal": true,
+      "municipality_id": "esslingen",
+      "expected": {
+        "status": "unavailable",
+        "monthly_equivalent_cents": null,
+        "reasons_include": [
+          "price_or_income_input_missing"
+        ]
+      }
+    },
+    {
+      "id": "personal-profile-accepts-explicit-local-income",
+      "profile": "default",
+      "personal": true,
+      "profile_updates": {
+        "income_mode": "specified",
+        "incomes": [
+          {
+            "basis": "esslingen_gross_income",
+            "period": "year",
+            "amount_cents": 6000000
+          }
+        ]
+      },
+      "municipality_id": "esslingen",
+      "expected": {
+        "status": "comparable",
+        "monthly_care_cents": 42500
+      }
+    },
+    {
+      "id": "model-local-override-replaces-only-local-incomes",
+      "profile": "default",
+      "profile_updates": {
+        "municipality_overrides": {
+          "esslingen": {
+            "incomes": [
+              {
+                "basis": "esslingen_gross_income",
+                "period": "year",
+                "amount_cents": 5000000
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "normalization-fills-only-empty-lists",
+      "operation": "normalize",
+      "remove_fields": [
+        "incomes",
+        "approved_rules",
+        "eligibility"
+      ]
+    },
+    {
+      "id": "personal-profile-helper",
+      "operation": "personalize",
+      "profile": "default"
+    },
+    {
+      "id": "invalid-duration-length",
+      "profile_updates": {
+        "weekday_minutes": [
+          480,
+          480
+        ]
+      },
+      "expected_error": "invalid_profile",
+      "municipality_id": "stuttgart"
+    },
+    {
+      "id": "boolean-duration",
+      "profile_updates": {
+        "weekday_minutes": [
+          true,
+          480,
+          480,
+          480,
+          480
+        ]
+      },
+      "expected_error": "invalid_profile",
+      "municipality_id": "stuttgart"
+    },
+    {
+      "id": "numeric-string-duration",
+      "profile_updates": {
+        "weekday_minutes": [
+          "480",
+          480,
+          480,
+          480,
+          480
+        ]
+      },
+      "expected_error": "invalid_profile",
+      "municipality_id": "stuttgart"
+    },
+    {
+      "id": "all-zero-durations",
+      "profile_updates": {
+        "weekday_minutes": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "expected_error": "invalid_profile",
+      "municipality_id": "stuttgart"
+    },
+    {
+      "id": "invalid-calendar-date",
+      "profile_updates": {
+        "as_of": "2026-02-30"
+      },
+      "expected_error": "invalid_profile",
+      "municipality_id": "stuttgart"
+    },
+    {
+      "id": "invalid-target-child",
+      "profile_updates": {
+        "target_child": 1
+      },
+      "expected_error": "invalid_profile",
+      "municipality_id": "stuttgart"
+    },
+    {
+      "id": "unsafe-income-integer",
+      "profile_updates": {
+        "income_mode": "specified",
+        "incomes": [
+          {
+            "basis": "taxable_income",
+            "period": "year",
+            "amount_cents": 9007199254740992
+          }
+        ]
+      },
+      "expected_error": "invalid_profile",
+      "municipality_id": "stuttgart"
+    },
+    {
+      "id": "conflicting-income-periods",
+      "profile_updates": {
+        "income_mode": "specified",
+        "incomes": [
+          {
+            "basis": "taxable_income",
+            "period": "year",
+            "amount_cents": 6000000
+          },
+          {
+            "basis": "taxable_income",
+            "period": "month",
+            "amount_cents": 100000
+          }
+        ]
+      },
+      "expected_error": "invalid_profile",
+      "municipality_id": "stuttgart"
+    },
+    {
+      "id": "duplicate-income-definition",
+      "profile_updates": {
+        "income_mode": "specified",
+        "incomes": [
+          {
+            "basis": "taxable_income",
+            "period": "year",
+            "amount_cents": 6000000
+          },
+          {
+            "basis": "taxable_income",
+            "period": "year",
+            "amount_cents": 6000000
+          }
+        ]
+      },
+      "expected_error": "invalid_profile",
+      "municipality_id": "stuttgart"
+    },
+    {
+      "id": "negative-income",
+      "profile_updates": {
+        "income_mode": "specified",
+        "incomes": [
+          {
+            "basis": "gross_income",
+            "period": "year",
+            "amount_cents": -1
+          }
+        ]
+      },
+      "expected_error": "invalid_profile",
+      "municipality_id": "stuttgart"
+    },
+    {
+      "id": "invalid-pass",
+      "profile_updates": {
+        "pass_id": "invented-pass"
+      },
+      "expected_error": "invalid_profile",
+      "municipality_id": "stuttgart"
+    },
+    {
+      "id": "invalid-boolean-option",
+      "profile_updates": {
+        "allow_published_future": "true"
+      },
+      "expected_error": "invalid_profile",
+      "municipality_id": "stuttgart"
+    },
+    {
+      "id": "invalid-meal-day-count",
+      "profile_updates": {
+        "meal_days_per_week": 6
+      },
+      "expected_error": "invalid_profile",
+      "municipality_id": "stuttgart"
+    },
+    {
+      "id": "forbidden-local-override",
+      "profile_updates": {
+        "municipality_overrides": {
+          "stuttgart": {
+            "weekday_minutes": [
+              480,
+              480,
+              480,
+              480,
+              480
+            ]
+          }
+        }
+      },
+      "expected_error": "invalid_profile",
+      "municipality_id": "stuttgart"
+    },
+    {
+      "id": "contradictory-local-income-periods",
+      "profile_updates": {
+        "municipality_overrides": {
+          "esslingen": {
+            "incomes": [
+              {
+                "basis": "esslingen_gross_income",
+                "period": "year",
+                "amount_cents": 8000000
+              },
+              {
+                "basis": "esslingen_gross_income",
+                "period": "month",
+                "amount_cents": 1
+              }
+            ]
+          }
+        }
+      },
+      "expected_error": "invalid_profile",
+      "municipality_id": "stuttgart"
+    },
+    {
+      "id": "stale-model-gross_income",
+      "profile": "default",
+      "profile_updates": {
+        "incomes": [
+          {
+            "basis": "gross_income",
+            "period": "year",
+            "amount_cents": 8000100
+          },
+          {
+            "basis": "taxable_income",
+            "period": "year",
+            "amount_cents": 6000000
+          },
+          {
+            "basis": "esslingen_gross_income",
+            "period": "year",
+            "amount_cents": 8000000
+          },
+          {
+            "basis": "adjusted_taxable_income",
+            "period": "year",
+            "amount_cents": 6000000
+          }
+        ]
+      },
+      "expected_error": "invalid_profile",
+      "municipality_id": "stuttgart"
+    },
+    {
+      "id": "stale-model-taxable_income",
+      "profile": "default",
+      "profile_updates": {
+        "incomes": [
+          {
+            "basis": "gross_income",
+            "period": "year",
+            "amount_cents": 8000000
+          },
+          {
+            "basis": "taxable_income",
+            "period": "year",
+            "amount_cents": 6000100
+          },
+          {
+            "basis": "esslingen_gross_income",
+            "period": "year",
+            "amount_cents": 8000000
+          },
+          {
+            "basis": "adjusted_taxable_income",
+            "period": "year",
+            "amount_cents": 6000000
+          }
+        ]
+      },
+      "expected_error": "invalid_profile",
+      "municipality_id": "stuttgart"
+    },
+    {
+      "id": "stale-model-esslingen_gross_income",
+      "profile": "default",
+      "profile_updates": {
+        "incomes": [
+          {
+            "basis": "gross_income",
+            "period": "year",
+            "amount_cents": 8000000
+          },
+          {
+            "basis": "taxable_income",
+            "period": "year",
+            "amount_cents": 6000000
+          },
+          {
+            "basis": "esslingen_gross_income",
+            "period": "year",
+            "amount_cents": 8000100
+          },
+          {
+            "basis": "adjusted_taxable_income",
+            "period": "year",
+            "amount_cents": 6000000
+          }
+        ]
+      },
+      "expected_error": "invalid_profile",
+      "municipality_id": "stuttgart"
+    },
+    {
+      "id": "stale-model-adjusted_taxable_income",
+      "profile": "default",
+      "profile_updates": {
+        "incomes": [
+          {
+            "basis": "gross_income",
+            "period": "year",
+            "amount_cents": 8000000
+          },
+          {
+            "basis": "taxable_income",
+            "period": "year",
+            "amount_cents": 6000000
+          },
+          {
+            "basis": "esslingen_gross_income",
+            "period": "year",
+            "amount_cents": 8000000
+          },
+          {
+            "basis": "adjusted_taxable_income",
+            "period": "year",
+            "amount_cents": 6000100
+          }
+        ]
+      },
+      "expected_error": "invalid_profile",
+      "municipality_id": "stuttgart"
+    },
+    {
+      "id": "stale-model-letting-loss-condition",
+      "profile": "default",
+      "profile_updates": {
+        "assumptions": {
+          "income_unchanged_since_previous_year": true,
+          "no_other_income": true,
+          "no_letting_losses": false,
+          "gross_and_taxable_income_are_independent": true,
+          "esslingen_employee_allowance_deduction_cents": 0
+        }
+      },
+      "expected_error": "invalid_profile",
+      "municipality_id": "korntal-muenchingen"
+    },
+    {
+      "id": "contradictory-household",
+      "profile": "default",
+      "profile_updates": {
+        "single_parent": true
+      },
+      "expected_error": "invalid_profile",
+      "municipality_id": "stuttgart"
+    },
+    {
+      "id": "half-cent-up",
+      "operation": "round_money",
+      "numerator": 201,
+      "denominator": 2,
+      "rounding": "cent_half_up",
+      "expected_value": 101
+    },
+    {
+      "id": "below-half-cent",
+      "operation": "round_money",
+      "numerator": 2009999,
+      "denominator": 20000,
+      "rounding": "cent_half_up",
+      "expected_value": 100
+    },
+    {
+      "id": "negative-half-cent",
+      "operation": "round_money",
+      "numerator": -201,
+      "denominator": 2,
+      "rounding": "cent_half_up",
+      "expected_value": -101
+    },
+    {
+      "id": "whole-euro-half-up",
+      "operation": "round_money",
+      "numerator": 250,
+      "denominator": 1,
+      "rounding": "whole_euro_half_up",
+      "expected_value": 300
+    },
+    {
+      "id": "eleven-month-equivalent",
+      "operation": "round_money",
+      "numerator": 267300,
+      "denominator": 12,
+      "rounding": "cent_half_up",
+      "expected_value": 22275
+    },
+    {
+      "id": "fellbach-exact-half-euro-social-reduction",
+      "municipality_id": "fellbach",
+      "profile_updates": {
+        "income_mode": "specified",
+        "incomes": [
+          {
+            "basis": "fellbach_gross_income",
+            "period": "month",
+            "amount_cents": 121250
+          }
+        ],
+        "children": [
+          {
+            "age_months": 24,
+            "resident": true,
+            "child_benefit": true
+          },
+          {
+            "age_months": 24,
+            "resident": true,
+            "child_benefit": true
+          },
+          {
+            "age_months": 24,
+            "resident": true,
+            "child_benefit": true
+          },
+          {
+            "age_months": 24,
+            "resident": true,
+            "child_benefit": true
+          }
+        ],
+        "approved_rules": [
+          "social_income_ratio"
+        ],
+        "eligibility": [
+          "approved_social_reduction",
+          "resident",
+          "no_priority_benefit"
+        ]
+      },
+      "expected": {
+        "status": "comparable",
+        "monthly_care_cents": 5900,
+        "monthly_equivalent_cents": 5900
+      }
+    }
+  ]
+}

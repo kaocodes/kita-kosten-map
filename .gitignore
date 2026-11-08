@@ -2,3 +2,9 @@ __pycache__/
 *.py[cod]
 .pytest_cache/
 .venv/
+node_modules/
+build/
+dist/
+web/public/data/
+web/public/THIRD_PARTY_NOTICES.txt
+.sites-runtime/

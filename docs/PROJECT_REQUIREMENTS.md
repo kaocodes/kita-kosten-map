@@ -184,6 +184,10 @@ Originalbeiträge, tatsächlicher Buchungsumfang, Mehrstunden und Beitragsmonate
 
 ## 9. Geplante Arbeitsschritte
 
+**Priorität vor zusätzlichen Kommunen:** Zuerst muss die Website mit den bestehenden zwölf Vergleichskommunen stabil laufen und die vollständige UI/UX-Prüfung abgeschlossen und dokumentiert sein. Anschließend können die 33 direkt angrenzenden Kommunen aus [DATENERWEITERUNG.md](DATENERWEITERUNG.md) schrittweise aufgenommen werden. Sie sind vorgemerkte Kandidaten; Quellenrecherche, Tarifübertragung und Aktivierung sind bis zum Abschluss dieser Voraussetzungen zurückgestellt.
+
+**Geplante UI-Neugestaltung, Entscheidung vom 9. November 2026:** Maßgeblich ist der Familienatlas-Entwurf aus [UI_REDESIGN.md](UI_REDESIGN.md): große Karte mit vollständigen Kommunendetails darunter, auswählbare Modellfamilienkarten und eine Kommunenliste von teuer bis günstig mit denselben vollständigen Details direkt am Auswahlort. Kinderdetails sind aufklappbar; darin sind Verpflegung und Zusatzkosten direkt sichtbar. Die Ausgangsfamilie heißt Modellfamilie und ist kein Durchschnitts-/Medianhaushalt. Die Gestaltung verwendet helles Flieder, warme weiße Inhaltsbereiche, pastellhellblauen Kartenhintergrund und neutrale graue Umgebungsflächen. Diese Anforderungen sind dokumentiert, aber noch nicht in die produktive Anwendung übertragen.
+
 1. **Quelleninventar:** Für die zwölf Gebiete vorhanden; Pflege bei neuen Quellen fortführen.
 2. **Datenverfügbarkeit prüfen:** Aktuelle Tarife und bekannte Einschränkungen sind dokumentiert; historische Preisreihen bleiben zurückgestellt.
 3. **Datenmodell festlegen:** Strukturiertes JSON-Schema und ausführbare Validierung sind umgesetzt.

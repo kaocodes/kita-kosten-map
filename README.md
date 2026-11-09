@@ -16,7 +16,9 @@ Der Datenbestand enthält Krippen- und Kindergartentarife, Einkommens- und Famil
 - [Lokale Webanwendung](docs/WEBANWENDUNG.md): Startbefehle, Bedienung, Geodaten, Größenbudget und statischer Build.
 - [Aktuelle Projektanforderungen](docs/PROJECT_REQUIREMENTS.md): fachlicher Umfang des Gesamtprojekts.
 - [Websitekonzept und Entscheidungen](docs/WEBSITE_KONZEPT.md): statische Architektur, Stackempfehlung, Gemeindeflächen, Geodatenaufbereitung, Bedienkonzept und Entwürfe.
+- [Geplante UI-Neugestaltung: Familienatlas](docs/UI_REDESIGN.md): ausgewähltes Layout, überarbeitete Vorschau und vollständige Kommunen-/Kinderdetails; noch keine Änderung der produktiven Website.
 - [Quellenübersicht](docs/QUELLENUEBERSICHT.md): kommunale Einstiegsseiten und Prüfhinweise.
+- [Mögliche Datenerweiterung](docs/DATENERWEITERUNG.md): 33 direkt angrenzende Kommunen, vorgemerkt für die Zeit nach Stabilisierung und vollständiger UI/UX-Prüfung.
 
 Maßgeblicher Tarifbestand: `data/municipalities/*.json`. Das JSON-Schema steht in `data/municipality.schema.json`. Das neue `data/municipality_registry.json` bestimmt aktive Kommunen, amtliche Gemeindeschlüssel (AGS), Kartenflächen, Regionen und Tarifverweise. Es ersetzt die feste Prüfung auf zwölf Kommunen. `data/source_manifest.json` verknüpft Quellenkennungen mit URLs, Abrufzeitpunkten, lokalen Kopien und SHA-256-Prüfsummen. Ursprüngliche PDFs, Webseiten und Textauszüge liegen in `data/sources/`. Die ursprüngliche Recherchefassung bleibt in `data/imported/` erhalten.
 
@@ -85,6 +87,8 @@ Die Webgeometrie wird reproduzierbar aus den archivierten BKG-Grenzen aufbereite
 Die bisherige Modellfamilie bleibt der Startwert des neuen Konfigurators. `data/models/configuration.json` definiert dessen Szenarien und feste Einkommensannahmen. Die alten Reiter „Eigene Familie“ und „Höchsttarif“ entfallen. Die frühere Oberfläche ist unter `web/src/LegacyProfileApp.tsx` erhalten und wird nicht öffentlich gebündelt. Einzelheiten einschließlich Aussagegrenzen stehen in [MODELLFAMILIEN.md](docs/MODELLFAMILIEN.md).
 
 Die Erweiterungsstrategie ist im Websitekonzept festgehalten: ein zentrales Kommunenregister, getrennte Kartenflächen und Gebührenordnungen, eine eigenständige Tarifberechnung, bedarfsgerecht geladene regionale Daten und eine austauschbare Kartenansicht. Neue Kommunen benötigen Register-, Tarif- und Geometriedaten sowie Referenzfälle; neue Abrechnungsregeln können zusätzliche Berechnungslogik erfordern.
+
+Vor einer Datenerweiterung haben der stabile Betrieb der bestehenden Website und die vollständige, dokumentierte UI/UX-Prüfung Vorrang. Die 33 direkt angrenzenden Kandidaten stehen in [DATENERWEITERUNG.md](docs/DATENERWEITERUNG.md); ihre Aufnahme ist bis dahin zurückgestellt.
 
 **Pakete 1 bis 4 umgesetzt:** Register, beide Referenzprofile, unabhängige TypeScript-Berechnung sowie die lokal aufrufbare Website mit Gemeindekarte und reproduzierbarer Geodatenaufbereitung. Die Gegenprüfung umfasst 106 gemeinsame Szenarien; zusätzliche Webtests sichern Geometriezuordnung, Gebührenwerte und Datenbudgets. Das Familienformular aktualisiert Karte, Liste und Details gemeinsam; Eingabeprüfung, Mobilansicht und Tastaturbedienung sind geprüft. Die statische Veröffentlichung auf GitHub Pages ist automatisiert. Der Modellfamilien-Konfigurator mit dokumentierten Szenarien und Familiengesamtkosten ist umgesetzt. Die planmäßige Tarifpflege bleibt ein weiterer Ausbauschritt.
 

@@ -321,10 +321,13 @@ def render(register, sources):
     lines += [
         "## Nächster Umsetzungsschritt",
         "",
-        "Die belastbaren Tarifbasen werden anschließend in getrennte kanonische Kommunen-JSONs übertragen und mit "
-        f"Referenzfällen gegen die Originalquellen geprüft. Die {counts['clarification_required']} verbleibenden Klärungsfälle bleiben bis zur Lösung ihrer jeweiligen "
-        "Blockade eingeschränkt. Neue Einkommens-/Geschwisterregeln, getrennte Verpflegung und belegte Tagesverteilungen "
-        "werden vor einer Aktivierung im Register berücksichtigt. Diese Normalisierung ist in dieser Recherche noch nicht erfolgt. "
+        "Die Tarifbasen wurden inzwischen in 33 getrennte Kommunen-JSONs im vorhandenen Schema übertragen; "
+        "sie liegen isoliert unter `data/expansion/municipalities/`. Mengen, Umfang und technische Prüfung stehen in der "
+        "[Aufbereitungsübersicht](ERWEITERUNGSDATEN.md). Die [Kompatibilitätsprüfung der bestehenden Engine](ERWEITERUNGSBERECHNUNG.md) "
+        "ist inzwischen abgeschlossen und weist unterstützte sowie nicht berechenbare Konfigurationen aus. Die vertiefte fachliche Quellenabnahme bleibt ein weiterer Schritt. "
+        f"Die {counts['clarification_required']} verbleibenden Klärungsfälle bleiben für ihre betroffenen Konfigurationen eingeschränkt. "
+        "Neue Einkommens-/Geschwisterregeln, Verpflegung und belegte Tagesverteilungen werden vor einer Aktivierung berücksichtigt. "
+        "Die gemeinsame Engine und das produktive Register wurden nicht geändert. "
         "Die Website-Freischaltung bleibt ein eigener Schritt; historische Preisreihen bleiben zurückgestellt.",
         "",
         "Erneut prüfen und Bericht aus den Bewertungen erzeugen:",
@@ -352,7 +355,7 @@ def main():
         "http_200_sources": sum(source["http_status"] == 200 for source in sources.values()),
         "failed_attempts": sum(source["http_status"] != 200 for source in sources.values()),
         "checksum_verification": "passed",
-        "canonical_tariff_normalization": "not_performed",
+        "canonical_tariff_normalization": register["tariff_normalization_status"],
         "production_activation": "not_performed",
     }
     if not args.check:

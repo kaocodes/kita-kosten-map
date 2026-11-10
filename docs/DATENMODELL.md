@@ -1,6 +1,6 @@
 # Datenmodell und Vergleichsberechnung
 
-**Stand:** 8. November 2026 · **Schema:** 1.0 · **Tarifstichtag beider Referenzprofile:** 4. November 2026
+**Stand:** 10. November 2026 · **Schema:** 1.0 · **Tarifstichtag beider Referenzprofile:** 4. November 2026
 
 ## 1. Fachliche Trennung
 
@@ -13,6 +13,10 @@ Der Datenbestand besteht aus drei nachvollziehbaren Ebenen:
 3. **Vergleichsergebnisse:** Ein Profil wird auf die lokalen Regeln angewendet. Das Ergebnis enthält den ausgewählten Tarif, Buchungsumfang, Originalbeitrag, Beitragsmonate, Vergleichsbetrag und Rechenweg.
 
 Die kanonischen Daten stehen in `data/municipalities/`. Quellenkennungen werden über `data/source_manifest.json` aufgelöst. Die frühere Markdown-Recherche ist unter `data/imported/` eingefroren; sie wird nicht als aktuelle Gebühren-API gelesen. CSV-Dateien und der gemeinsame Katalog in `data/exports/` entstehen aus den kanonischen JSON-Dateien.
+
+**Erweiterungsimport vom 10. November 2026:** Die 33 neuen Kommunen sind im selben Schema unter `data/expansion/municipalities/` aufbereitet. Dieser getrennte Importbereich wird noch nicht vom Rechner, regulären Export oder Webbuild geladen. Das [Manifest](../data/expansion/manifest.json) enthält Dateiprüfsummen und Erfassungsumfang; die [Aufbereitungsübersicht](ERWEITERUNGSDATEN.md) erläutert Formeltarife, Quellengrenzen und ausstehende Rechenprüfung. Die ursprünglichen Monatsbeträge bleiben auch bei enthaltenem Essen erhalten; bekannte reine Betreuungsanteile werden ergänzend mit `care_only_amount_cents` und Herleitung gespeichert. Gebührenklauseln sind mit Fundstellen dokumentiert; noch nicht ausführbare Regeln bleiben ausdrücklich gekennzeichnet. Die vorhandene Berechnungsengine und das produktive Register bleiben unverändert.
+
+**Kompatibilitätsprüfung aus Schritt 2:** Der separate [Prüfindex](../data/expansion/calculation_review.json) ist anhand von Eingabe- und Codeprüfsummen an die geprüften Kataloge und Modellprofile gebunden. Er enthält die unterstützten Konfigurationen und Fallgruppen mit `unavailable` und konkreten Gründen. Die [Prüfdokumentation](ERWEITERUNGSBERECHNUNG.md) grenzt den Umfang auf die aktuellen Modelloptionen mit maximal vier Kindern ein. Der Index ist ein Offline-Ergebnis und noch keine Laufzeitänderung; bei einer späteren Integration muss die Ablehnung wirksam übernommen werden. Nicht ausgeführte kommunale Regeln werden nicht durch eine Änderung der gemeinsamen Engine umgangen.
 
 ## 2. Vertrag des Datenformats
 
@@ -31,7 +35,7 @@ Das formale Schema ist `data/municipality.schema.json`. Die ausführbare Prüfun
 
 Alle Geldwerte sind ganzzahlige Eurocent. Zeitangaben sind Minuten. Unbekannte Beträge sind `null`; nur belegte Gebührenfreiheit ist `0`. Statuswerte unterscheiden `known`, `unknown`, `not_published`, `not_offered` und `conflicting`. Ein nicht anwendbarer Tarif wird durch seine Selektoren bzw. Angebotszuordnung ausgeschlossen und nicht mit null Euro dargestellt.
 
-**Festlegungen für die Gebietserweiterung vom 10. November 2026:** Das [Recherche-JSON](../data/research/neighbor_expansion_2026-11-10.json) hält Nutzerentscheidungen mit Kennung, Datum, betroffener Kommune und Herkunft getrennt von Quellenbelegen fest. Steinenbronns zwölf Beitragsmonate sind eine Nutzerannahme; Möglingens zwölf Monate und Aichwalds U3-Essen mit 53 € über zwölf Monate sind Nutzerangaben. Diese Herkunft darf bei der späteren Normalisierung nicht als amtlicher Quellenbeleg umgeschrieben werden. Für Freiberg ist die U3-Gebührenordnung des Freiberger Zwergenstüble e.V. ausdrücklich zugelassen; der tatsächliche Vereinsträger bleibt erhalten. U3 hat laut dieser Quelle zwölf Beitragsmonate, kommunales Ü3 elf. Zahlungsmonate werden daher am jeweiligen Angebot und Kostenbaustein geführt. Die Erweiterung ist noch nicht in das kanonische Schema und den Rechner integriert.
+**Festlegungen für die Gebietserweiterung vom 10. November 2026:** Das [Recherche-JSON](../data/research/neighbor_expansion_2026-11-10.json) hält Nutzerentscheidungen mit Kennung, Datum, betroffener Kommune und Herkunft getrennt von Quellenbelegen fest. Steinenbronns zwölf Beitragsmonate sind eine Nutzerannahme; Möglingens zwölf Monate und Aichwalds U3-Essen mit 53 € über zwölf Monate sind Nutzerangaben. Diese Herkunft darf bei der späteren Normalisierung nicht als amtlicher Quellenbeleg umgeschrieben werden. Für Freiberg ist die U3-Gebührenordnung des Freiberger Zwergenstüble e.V. ausdrücklich zugelassen; der tatsächliche Vereinsträger bleibt erhalten. U3 hat laut dieser Quelle zwölf Beitragsmonate, kommunales Ü3 elf. Zahlungsmonate werden daher am jeweiligen Angebot und Kostenbaustein geführt. Die Erweiterung liegt inzwischen im kanonischen Schema im getrennten Importbereich; sie ist noch nicht in den produktiven Rechner integriert.
 
 Einkommensgrundlagen sind eigenständig: `taxable_income` in Ditzingen, `adjusted_taxable_income` in Korntal-Münchingen, `esslingen_gross_income`, `fellbach_gross_income` und `gerlingen_household_income`. Der Korntaler Begriff umfasst auch die satzungsgemäße Hinzurechnung von Vermietungsverlusten. Esslingen verwendet Einkommen des aktuellen Kalenderjahres mit eigenen Ein-/Ausschlüssen. Es gibt keine automatische Umrechnung von Brutto in steuerliches Einkommen. Monats- und Jahreswerte derselben Definition werden exakt durch zwölf geteilt bzw. multipliziert.
 

@@ -1,0 +1,1541 @@
+{
+  "schema_version": "1.0",
+  "id": "hemmingen",
+  "name": "Hemmingen",
+  "reviewed_at": "2026-11-10",
+  "reference_date": "2026-11-10",
+  "scope": {
+    "included": [
+      "municipal"
+    ],
+    "other_providers": "only_with_explicit_source_evidence"
+  },
+  "family_basis": "under_18",
+  "family_evidence": {
+    "source_id": "6125abe78891",
+    "locator": "Familienbegriff und Fußnoten der Gebührenunterlagen",
+    "original": null
+  },
+  "supporting_source_ids": [
+    "6125abe78891",
+    "eae265451c02"
+  ],
+  "offers": [
+    {
+      "id": "hemmingen-offer-455cc3fccb4c",
+      "original_label": "Regelgruppe bis 30 Wochenstunden",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 1800,
+      "weekday_minutes": null,
+      "continuous": false,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "6125abe78891",
+        "locator": "§ 3 Abs. 2 a–d",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "6125abe78891",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "6125abe78891",
+        "locator": "§ 3 Abs. 2 a–d",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "hemmingen-offer-38fc8882c9be",
+      "original_label": "Regelgruppe bis 30 Wochenstunden",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 1800,
+      "weekday_minutes": null,
+      "continuous": false,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "6125abe78891",
+        "locator": "§ 3 Abs. 2 a–d",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "6125abe78891",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "6125abe78891",
+        "locator": "§ 3 Abs. 2 a–d",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "hemmingen-offer-fb65d8aa3653",
+      "original_label": "VÖ bis 35 Wochenstunden",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2100,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "6125abe78891",
+        "locator": "§ 3 Abs. 2 a–d",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "6125abe78891",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "6125abe78891",
+        "locator": "§ 3 Abs. 2 a–d",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "hemmingen-offer-f85d7b13810c",
+      "original_label": "VÖ bis 35 Wochenstunden",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2100,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "6125abe78891",
+        "locator": "§ 3 Abs. 2 a–d",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "6125abe78891",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "6125abe78891",
+        "locator": "§ 3 Abs. 2 a–d",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "hemmingen-offer-0dcc09d17162",
+      "original_label": "GT bis 45 Wochenstunden",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2700,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "6125abe78891",
+        "locator": "§ 3 Abs. 2 a–d",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "6125abe78891",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "6125abe78891",
+        "locator": "§ 3 Abs. 2 a–d",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "hemmingen-offer-0a7c148f212f",
+      "original_label": "GT bis 45 Wochenstunden",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2700,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "6125abe78891",
+        "locator": "§ 3 Abs. 2 a–d",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "6125abe78891",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "6125abe78891",
+        "locator": "§ 3 Abs. 2 a–d",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "hemmingen-offer-7a9c642fe80b",
+      "original_label": "Spielgruppe und VÖ bis 45 Wochenstunden",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2700,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "6125abe78891",
+        "locator": "§ 3 Abs. 2 a–d",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "6125abe78891",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "6125abe78891",
+        "locator": "§ 3 Abs. 2 a–d",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "hemmingen-offer-a9c10538e188",
+      "original_label": "Spielgruppe und VÖ bis 45 Wochenstunden",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2700,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "6125abe78891",
+        "locator": "§ 3 Abs. 2 a–d",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "6125abe78891",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "6125abe78891",
+        "locator": "§ 3 Abs. 2 a–d",
+        "original": null
+      },
+      "formula": null
+    }
+  ],
+  "prices": [
+    {
+      "id": "hemmingen-price-8a8ff5352826",
+      "offer_id": "hemmingen-offer-455cc3fccb4c",
+      "amount_cents": 16600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null,
+        "single_parent": false
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "6125abe78891",
+        "locator": "§ 3 Abs. 2 a–d",
+        "original": 166
+      }
+    },
+    {
+      "id": "hemmingen-price-48907524f5a8",
+      "offer_id": "hemmingen-offer-455cc3fccb4c",
+      "amount_cents": 12450,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "6125abe78891",
+        "locator": "§ 3 Abs. 2 a–d",
+        "original": "124,50"
+      }
+    },
+    {
+      "id": "hemmingen-price-a252d78b966b",
+      "offer_id": "hemmingen-offer-455cc3fccb4c",
+      "amount_cents": 8300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "6125abe78891",
+        "locator": "§ 3 Abs. 2 a–d",
+        "original": 83
+      }
+    },
+    {
+      "id": "hemmingen-price-acaa192bd858",
+      "offer_id": "hemmingen-offer-455cc3fccb4c",
+      "amount_cents": 2900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "6125abe78891",
+        "locator": "§ 3 Abs. 2 a–d",
+        "original": 29
+      }
+    },
+    {
+      "id": "hemmingen-price-60332f9080f2",
+      "offer_id": "hemmingen-offer-455cc3fccb4c",
+      "amount_cents": 13280,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null,
+        "single_parent": true
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "6125abe78891",
+        "locator": "§ 3 Abs. 2 a–d",
+        "original": "132,80"
+      }
+    },
+    {
+      "id": "hemmingen-price-243887560d03",
+      "offer_id": "hemmingen-offer-38fc8882c9be",
+      "amount_cents": 30680,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null,
+        "single_parent": false
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "6125abe78891",
+        "locator": "§ 3 Abs. 2 a–d",
+        "original": "306,80"
+      }
+    },
+    {
+      "id": "hemmingen-price-f94886eb41e3",
+      "offer_id": "hemmingen-offer-38fc8882c9be",
+      "amount_cents": 23010,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "6125abe78891",
+        "locator": "§ 3 Abs. 2 a–d",
+        "original": "230,10"
+      }
+    },
+    {
+      "id": "hemmingen-price-bfacc36a9ba9",
+      "offer_id": "hemmingen-offer-38fc8882c9be",
+      "amount_cents": 15340,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "6125abe78891",
+        "locator": "§ 3 Abs. 2 a–d",
+        "original": "153,40"
+      }
+    },
+    {
+      "id": "hemmingen-price-e2d669785002",
+      "offer_id": "hemmingen-offer-38fc8882c9be",
+      "amount_cents": 7670,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "6125abe78891",
+        "locator": "§ 3 Abs. 2 a–d",
+        "original": "76,70"
+      }
+    },
+    {
+      "id": "hemmingen-price-3b5b6b738277",
+      "offer_id": "hemmingen-offer-38fc8882c9be",
+      "amount_cents": 24540,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null,
+        "single_parent": true
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "6125abe78891",
+        "locator": "§ 3 Abs. 2 a–d",
+        "original": "245,40"
+      }
+    },
+    {
+      "id": "hemmingen-price-d9789fe63eeb",
+      "offer_id": "hemmingen-offer-fb65d8aa3653",
+      "amount_cents": 19910,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null,
+        "single_parent": false
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "6125abe78891",
+        "locator": "§ 3 Abs. 2 a–d",
+        "original": "199,10"
+      }
+    },
+    {
+      "id": "hemmingen-price-7e4bbd6e81c5",
+      "offer_id": "hemmingen-offer-fb65d8aa3653",
+      "amount_cents": 14930,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "6125abe78891",
+        "locator": "§ 3 Abs. 2 a–d",
+        "original": "149,30"
+      }
+    },
+    {
+      "id": "hemmingen-price-e8f6d462ceeb",
+      "offer_id": "hemmingen-offer-fb65d8aa3653",
+      "amount_cents": 9960,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "6125abe78891",
+        "locator": "§ 3 Abs. 2 a–d",
+        "original": "99,60"
+      }
+    },
+    {
+      "id": "hemmingen-price-c9d5b0059d3a",
+      "offer_id": "hemmingen-offer-fb65d8aa3653",
+      "amount_cents": 4980,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "6125abe78891",
+        "locator": "§ 3 Abs. 2 a–d",
+        "original": "49,80"
+      }
+    },
+    {
+      "id": "hemmingen-price-77b92e4bcdc6",
+      "offer_id": "hemmingen-offer-fb65d8aa3653",
+      "amount_cents": 15930,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null,
+        "single_parent": true
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "6125abe78891",
+        "locator": "§ 3 Abs. 2 a–d",
+        "original": "159,30"
+      }
+    },
+    {
+      "id": "hemmingen-price-72575964e6fd",
+      "offer_id": "hemmingen-offer-f85d7b13810c",
+      "amount_cents": 34270,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null,
+        "single_parent": false
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "6125abe78891",
+        "locator": "§ 3 Abs. 2 a–d",
+        "original": "342,70"
+      }
+    },
+    {
+      "id": "hemmingen-price-4becb02d6118",
+      "offer_id": "hemmingen-offer-f85d7b13810c",
+      "amount_cents": 25700,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "6125abe78891",
+        "locator": "§ 3 Abs. 2 a–d",
+        "original": 257
+      }
+    },
+    {
+      "id": "hemmingen-price-26ccea850a52",
+      "offer_id": "hemmingen-offer-f85d7b13810c",
+      "amount_cents": 17140,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "6125abe78891",
+        "locator": "§ 3 Abs. 2 a–d",
+        "original": "171,40"
+      }
+    },
+    {
+      "id": "hemmingen-price-4bf01a327fcb",
+      "offer_id": "hemmingen-offer-f85d7b13810c",
+      "amount_cents": 8570,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "6125abe78891",
+        "locator": "§ 3 Abs. 2 a–d",
+        "original": "85,70"
+      }
+    },
+    {
+      "id": "hemmingen-price-559ca30fedf8",
+      "offer_id": "hemmingen-offer-f85d7b13810c",
+      "amount_cents": 27420,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null,
+        "single_parent": true
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "6125abe78891",
+        "locator": "§ 3 Abs. 2 a–d",
+        "original": "274,20"
+      }
+    },
+    {
+      "id": "hemmingen-price-aa9defcdd7df",
+      "offer_id": "hemmingen-offer-0dcc09d17162",
+      "amount_cents": 43160,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null,
+        "single_parent": false
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "6125abe78891",
+        "locator": "§ 3 Abs. 2 a–d",
+        "original": "431,60"
+      }
+    },
+    {
+      "id": "hemmingen-price-1b802f18093a",
+      "offer_id": "hemmingen-offer-0dcc09d17162",
+      "amount_cents": 39190,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "6125abe78891",
+        "locator": "§ 3 Abs. 2 a–d",
+        "original": "391,90"
+      }
+    },
+    {
+      "id": "hemmingen-price-331a3d689c13",
+      "offer_id": "hemmingen-offer-0dcc09d17162",
+      "amount_cents": 34880,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "6125abe78891",
+        "locator": "§ 3 Abs. 2 a–d",
+        "original": "348,80"
+      }
+    },
+    {
+      "id": "hemmingen-price-35635a9fc90f",
+      "offer_id": "hemmingen-offer-0dcc09d17162",
+      "amount_cents": 29380,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "6125abe78891",
+        "locator": "§ 3 Abs. 2 a–d",
+        "original": "293,80"
+      }
+    },
+    {
+      "id": "hemmingen-price-9a57e2531f0c",
+      "offer_id": "hemmingen-offer-0dcc09d17162",
+      "amount_cents": 34530,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null,
+        "single_parent": true
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "6125abe78891",
+        "locator": "§ 3 Abs. 2 a–d",
+        "original": "345,30"
+      }
+    },
+    {
+      "id": "hemmingen-price-5a52700ac13f",
+      "offer_id": "hemmingen-offer-0a7c148f212f",
+      "amount_cents": 59540,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null,
+        "single_parent": false
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "6125abe78891",
+        "locator": "§ 3 Abs. 2 a–d",
+        "original": "595,40"
+      }
+    },
+    {
+      "id": "hemmingen-price-cdc8c4089f04",
+      "offer_id": "hemmingen-offer-0a7c148f212f",
+      "amount_cents": 54930,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "6125abe78891",
+        "locator": "§ 3 Abs. 2 a–d",
+        "original": "549,30"
+      }
+    },
+    {
+      "id": "hemmingen-price-6e54c3ec7798",
+      "offer_id": "hemmingen-offer-0a7c148f212f",
+      "amount_cents": 50550,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "6125abe78891",
+        "locator": "§ 3 Abs. 2 a–d",
+        "original": "505,50"
+      }
+    },
+    {
+      "id": "hemmingen-price-7238be1d54c3",
+      "offer_id": "hemmingen-offer-0a7c148f212f",
+      "amount_cents": 42620,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "6125abe78891",
+        "locator": "§ 3 Abs. 2 a–d",
+        "original": "426,20"
+      }
+    },
+    {
+      "id": "hemmingen-price-c8fd38974453",
+      "offer_id": "hemmingen-offer-0a7c148f212f",
+      "amount_cents": 47630,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null,
+        "single_parent": true
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "6125abe78891",
+        "locator": "§ 3 Abs. 2 a–d",
+        "original": "476,30"
+      }
+    },
+    {
+      "id": "hemmingen-price-ff08e0dc13e9",
+      "offer_id": "hemmingen-offer-7a9c642fe80b",
+      "amount_cents": 30350,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null,
+        "single_parent": false
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "6125abe78891",
+        "locator": "§ 3 Abs. 2 a–d",
+        "original": "303,50"
+      }
+    },
+    {
+      "id": "hemmingen-price-266527678862",
+      "offer_id": "hemmingen-offer-7a9c642fe80b",
+      "amount_cents": 25370,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "6125abe78891",
+        "locator": "§ 3 Abs. 2 a–d",
+        "original": "253,70"
+      }
+    },
+    {
+      "id": "hemmingen-price-df3a911822f4",
+      "offer_id": "hemmingen-offer-7a9c642fe80b",
+      "amount_cents": 20400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "6125abe78891",
+        "locator": "§ 3 Abs. 2 a–d",
+        "original": 204
+      }
+    },
+    {
+      "id": "hemmingen-price-574b5e10a081",
+      "offer_id": "hemmingen-offer-7a9c642fe80b",
+      "amount_cents": 15420,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "6125abe78891",
+        "locator": "§ 3 Abs. 2 a–d",
+        "original": "154,20"
+      }
+    },
+    {
+      "id": "hemmingen-price-9db22d56b396",
+      "offer_id": "hemmingen-offer-7a9c642fe80b",
+      "amount_cents": 26370,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null,
+        "single_parent": true
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "6125abe78891",
+        "locator": "§ 3 Abs. 2 a–d",
+        "original": "263,70"
+      }
+    },
+    {
+      "id": "hemmingen-price-20a094975b54",
+      "offer_id": "hemmingen-offer-a9c10538e188",
+      "amount_cents": 44710,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null,
+        "single_parent": false
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "6125abe78891",
+        "locator": "§ 3 Abs. 2 a–d",
+        "original": "447,10"
+      }
+    },
+    {
+      "id": "hemmingen-price-6192f919dd98",
+      "offer_id": "hemmingen-offer-a9c10538e188",
+      "amount_cents": 36140,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "6125abe78891",
+        "locator": "§ 3 Abs. 2 a–d",
+        "original": "361,40"
+      }
+    },
+    {
+      "id": "hemmingen-price-2aba2dfd39e4",
+      "offer_id": "hemmingen-offer-a9c10538e188",
+      "amount_cents": 27580,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "6125abe78891",
+        "locator": "§ 3 Abs. 2 a–d",
+        "original": "275,80"
+      }
+    },
+    {
+      "id": "hemmingen-price-0c5fed99ff29",
+      "offer_id": "hemmingen-offer-a9c10538e188",
+      "amount_cents": 19010,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "6125abe78891",
+        "locator": "§ 3 Abs. 2 a–d",
+        "original": "190,10"
+      }
+    },
+    {
+      "id": "hemmingen-price-b0fdd6058a3f",
+      "offer_id": "hemmingen-offer-a9c10538e188",
+      "amount_cents": 37860,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null,
+        "single_parent": true
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "6125abe78891",
+        "locator": "§ 3 Abs. 2 a–d",
+        "original": "378,60"
+      }
+    }
+  ],
+  "income_bands": [],
+  "components": [],
+  "rules": [
+    {
+      "id": "hemmingen-rule-19d6f9338c22",
+      "kind": "rounding",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "unit_cents": 10,
+        "mode": "source_does_not_specify_direction"
+      },
+      "evidence": {
+        "source_id": "6125abe78891",
+        "locator": "§ 3 Abs. 7",
+        "original": null
+      }
+    },
+    {
+      "id": "hemmingen-rule-df86b8d2633d",
+      "kind": "source_provisions_6125abe78891",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "archive_text_path": "data/sources/6125abe78891/text.txt",
+        "text_sha256": "ef025a4353eff95a9ea724ff843daad5d2818a8cfb0047a93018dfe400f8fe82",
+        "review_status": "archived_provisions_preserved"
+      },
+      "evidence": {
+        "source_id": "6125abe78891",
+        "locator": "Vollständiger archivierter Dokumenttext einschließlich Fußnoten",
+        "original": null
+      }
+    },
+    {
+      "id": "hemmingen-rule-a2cf5964cfca",
+      "kind": "source_clause_6125abe78891_3_1",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 0,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "6125abe78891",
+        "locator": "PDF-/Textseite 3, Absatzblock 1",
+        "original": null
+      }
+    },
+    {
+      "id": "hemmingen-rule-4445a1096d71",
+      "kind": "source_clause_6125abe78891_3_2",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 1,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "6125abe78891",
+        "locator": "PDF-/Textseite 3, Absatzblock 2",
+        "original": null
+      }
+    },
+    {
+      "id": "hemmingen-rule-90a028c16068",
+      "kind": "source_clause_6125abe78891_3_3",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 2,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "6125abe78891",
+        "locator": "PDF-/Textseite 3, Absatzblock 3",
+        "original": null
+      }
+    },
+    {
+      "id": "hemmingen-rule-a30aa2ab1530",
+      "kind": "source_clause_6125abe78891_4_5",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 3,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "6125abe78891",
+        "locator": "PDF-/Textseite 4, Absatzblock 5",
+        "original": null
+      }
+    },
+    {
+      "id": "hemmingen-rule-92fd1f9f9a9f",
+      "kind": "source_clause_6125abe78891_4_6",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 4,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "6125abe78891",
+        "locator": "PDF-/Textseite 4, Absatzblock 6",
+        "original": null
+      }
+    },
+    {
+      "id": "hemmingen-rule-d52a574c6353",
+      "kind": "source_clause_6125abe78891_4_7",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 5,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "6125abe78891",
+        "locator": "PDF-/Textseite 4, Absatzblock 7",
+        "original": null
+      }
+    },
+    {
+      "id": "hemmingen-rule-e0f73281e9c9",
+      "kind": "source_clause_6125abe78891_4_8",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 6,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "6125abe78891",
+        "locator": "PDF-/Textseite 4, Absatzblock 8",
+        "original": null
+      }
+    },
+    {
+      "id": "hemmingen-rule-723cd9530818",
+      "kind": "source_clause_6125abe78891_4_9",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 7,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "6125abe78891",
+        "locator": "PDF-/Textseite 4, Absatzblock 9",
+        "original": null
+      }
+    },
+    {
+      "id": "hemmingen-rule-f752bbd5af44",
+      "kind": "source_clause_6125abe78891_5_1",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 8,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "6125abe78891",
+        "locator": "PDF-/Textseite 5, Absatzblock 1",
+        "original": null
+      }
+    },
+    {
+      "id": "hemmingen-rule-9c4c8b7e5a7c",
+      "kind": "source_clause_6125abe78891_5_2",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 9,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "6125abe78891",
+        "locator": "PDF-/Textseite 5, Absatzblock 2",
+        "original": null
+      }
+    },
+    {
+      "id": "hemmingen-rule-96c45ddc4610",
+      "kind": "source_clause_6125abe78891_5_3",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 10,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "6125abe78891",
+        "locator": "PDF-/Textseite 5, Absatzblock 3",
+        "original": null
+      }
+    },
+    {
+      "id": "hemmingen-rule-eba913e3ae3d",
+      "kind": "source_provisions_eae265451c02",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "archive_text_path": "data/sources/eae265451c02/text.txt",
+        "text_sha256": "c5c1266964f5f7759db8b35c3aac0a23090b6ade92cafacf6040df3a06fc476e",
+        "review_status": "archived_provisions_preserved"
+      },
+      "evidence": {
+        "source_id": "eae265451c02",
+        "locator": "Vollständiger archivierter Dokumenttext einschließlich Fußnoten",
+        "original": null
+      }
+    },
+    {
+      "id": "hemmingen-rule-1c3f4fa97f7c",
+      "kind": "source_clause_eae265451c02_4_1",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 11,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "eae265451c02",
+        "locator": "PDF-/Textseite 4, Absatzblock 1",
+        "original": null
+      }
+    },
+    {
+      "id": "hemmingen-rule-a6d43f1b7cb5",
+      "kind": "source_clause_eae265451c02_4_7",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 12,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "eae265451c02",
+        "locator": "PDF-/Textseite 4, Absatzblock 7",
+        "original": null
+      }
+    },
+    {
+      "id": "hemmingen-rule-5d9b033f5459",
+      "kind": "source_clause_eae265451c02_6_2",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 13,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "eae265451c02",
+        "locator": "PDF-/Textseite 6, Absatzblock 2",
+        "original": null
+      }
+    },
+    {
+      "id": "hemmingen-rule-a67667b4f0a6",
+      "kind": "source_clause_eae265451c02_7_5",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 14,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "eae265451c02",
+        "locator": "PDF-/Textseite 7, Absatzblock 5",
+        "original": null
+      }
+    }
+  ],
+  "issues": [
+    {
+      "code": "pending_calculation_review",
+      "detail": "Strukturierter Import; noch keine Freigabe des Rechners oder der Website."
+    },
+    {
+      "code": "research_limitation_1",
+      "detail": "Tagesverteilung der 45-Stunden-Woche und Mittagessensbetrag vor Vergleichsfreigabe bestätigen."
+    }
+  ],
+  "coverage": {
+    "publication_status": "not_active",
+    "integration_status": "normalized_pending_calculation_review",
+    "history_in_scope": false,
+    "source_register": "data/research/neighbor_expansion_2026-11-10.json",
+    "research_id": "hemmingen",
+    "unavailable_configurations": [],
+    "offers": 8,
+    "price_cells": 40,
+    "income_bands": 0,
+    "components": 0,
+    "rule_records": 18,
+    "tariff_table_transcription": "complete_for_declared_scope",
+    "declared_scope": "Aktuelle und bereits veröffentlichte künftige Krippen- und Kindergartentarife; Zusatzkosten und Gebührenregeln.",
+    "excluded_from_regular_price_rows": [
+      "superseded_historical_tariffs",
+      "school_childcare",
+      "takki_and_childminding",
+      "separate_playgroups"
+    ],
+    "calculation_engine_changed": false,
+    "rule_transcription": "typed_parameters_and_source_clauses_with_explicit_unimplemented_status"
+  },
+  "original_research": {
+    "path": "data/research/neighbor_expansion_2026-11-10.json",
+    "section": "Hemmingen",
+    "text": "Die ausdrücklich gedruckte Alleinerziehendenzeile nicht ohne Rechtsbeleg auf jede Familiengröße ausdehnen.\nTagesverteilung der 45-Stunden-Woche und Mittagessensbetrag vor Vergleichsfreigabe bestätigen.",
+    "source_clauses": [
+      {
+        "text": "§1\n                                       Grundsatz\n1. Die Gemeinde betreibt ihre Kindergärten als öffentliche Einrichtung.\n2. Zur teilweisen Deckung des entstehenden Aufwandes werden für die Benutzung der\n   Kindergärten Gebühren nach dieser Satzung erhoben.",
+        "evidence": {
+          "source_id": "6125abe78891",
+          "locator": "PDF-/Textseite 3, Absatzblock 1",
+          "original": null
+        }
+      },
+      {
+        "text": "§2\n                                 Gebührenschuldner\n1. Gebührenschuldner sind die gesetzlichen Vertreter bzw. Erziehungsberechtigten der Kinder.\n2. Mehrere Gebührenschuldner haften als Gesamtschuldner.",
+        "evidence": {
+          "source_id": "6125abe78891",
+          "locator": "PDF-/Textseite 3, Absatzblock 2",
+          "original": null
+        }
+      },
+      {
+        "text": "§3\n                Bemessungsgrundlage und Höhe der Gebühr\n1. Die Gebühren werden je Kind und Betreuungsplatz erhoben. Die Höhe der Gebühr bestimmt\n   sich nach der Anzahl der Kinder, die noch nicht das 18. Lebensjahr vollendet haben und die\n   nicht nur vorübergehend im Haushalt des Gebührenschuldners leben.",
+        "evidence": {
+          "source_id": "6125abe78891",
+          "locator": "PDF-/Textseite 3, Absatzblock 3",
+          "original": null
+        }
+      },
+      {
+        "text": "3. Die Kindergartengebühr wird in 12 Monatsraten erhoben.",
+        "evidence": {
+          "source_id": "6125abe78891",
+          "locator": "PDF-/Textseite 4, Absatzblock 5",
+          "original": null
+        }
+      },
+      {
+        "text": "4. Die Gebühren sind für alle angemeldeten und im Kindergarten aufgenommenen Kinder zu\n   entrichten, gleichgültig ob sie im Erhebungszeitraum den Kindergarten besuchen oder nicht.\n   Da die Gebühr eine Beteiligung an den gesamten Betriebskosten der Einrichtung darstellt,\n   ist diese grundsätzlich auch während der Ferien, bei vorübergehender Schließung, bei\n   längerem Fehlen des Kindes und bis zur Wirksamkeit einer Abmeldung voll zu bezahlen. Bei\n   behördlicher Schließung des Kindergartens von mehr als 1 Monat wird für den Zeitraum der\n   Schließung keine Gebühr erhoben.",
+        "evidence": {
+          "source_id": "6125abe78891",
+          "locator": "PDF-/Textseite 4, Absatzblock 6",
+          "original": null
+        }
+      },
+      {
+        "text": "5.   Die Anmeldung gilt für die gewählte Gruppe mindestens 3 Monate. Bei Wechsel in eine\n     höhere Gebührenstaffel ist die neue Gebühr ab sofort zu zahlen und für mindestens 3\n     Monate beizubehalten.",
+        "evidence": {
+          "source_id": "6125abe78891",
+          "locator": "PDF-/Textseite 4, Absatzblock 7",
+          "original": null
+        }
+      },
+      {
+        "text": "6. Sollte es Erziehungsberechtigten trotz öffentlicher Hilfen (Übernahme der Gebühren durch\n   das Jugendamt/Sozialamt gemäß dem Kinder- und Jugendhilfegesetz) nicht möglich sein,\n   die Gebühren zu leisten, kann die Gebühr in begründeten Fällen vom Träger ermäßigt\n   werden.",
+        "evidence": {
+          "source_id": "6125abe78891",
+          "locator": "PDF-/Textseite 4, Absatzblock 8",
+          "original": null
+        }
+      },
+      {
+        "text": "7. Die Gebühren sind auf volle 0,10 € zu runden. Änderungen, die sich während des Jahres\n   ergeben, sind ab dem Ereignis folgenden Monatsersten zu berücksichtigen. Stichtag für die\n   Feststellung der Kinderzahl in der Familie ist jeweils der 1.9. eines Jahres. Bei Geburten\n   bedarf es hierzu eines Antrags an den Kindergarten, der von den Erziehungsberechtigten\n   innerhalb von 2 Monaten zu stellen ist. Später eingehende Mitteilungen werden erst zum\n   darauffolgenden Monatsersten berücksichtigt.",
+        "evidence": {
+          "source_id": "6125abe78891",
+          "locator": "PDF-/Textseite 4, Absatzblock 9",
+          "original": null
+        }
+      },
+      {
+        "text": "§4\n                               Entstehung und Fälligkeit\n1. Die Gebührenschuld entsteht jeweils zu Beginn des Monats.",
+        "evidence": {
+          "source_id": "6125abe78891",
+          "locator": "PDF-/Textseite 5, Absatzblock 1",
+          "original": null
+        }
+      },
+      {
+        "text": "2. Die Gebühr ist mit ihrer Entstehung zahlungsfällig.",
+        "evidence": {
+          "source_id": "6125abe78891",
+          "locator": "PDF-/Textseite 5, Absatzblock 2",
+          "original": null
+        }
+      },
+      {
+        "text": "3. Die Gemeindekasse zieht, sofern eine Abbuchungsermächtigung erteilt ist, die Gebühr vom\n   Konto des Gebührenschuldners ein. Ansonsten ist die Gebühr ohne Aufforderung unbar auf\n   ein Konto der Gemeinde einzuzahlen.",
+        "evidence": {
+          "source_id": "6125abe78891",
+          "locator": "PDF-/Textseite 5, Absatzblock 3",
+          "original": null
+        }
+      },
+      {
+        "text": "Die Anmeldung für die gewählte Betreuungszeit gilt für mindestens 3 Monate. Bei\n          einem Wechsel in eine höhere Gebührenstaffel ist die neue Gebühr ab sofort zu\n          zahlen und für mindestens 3 Monate beizubehalten.",
+        "evidence": {
+          "source_id": "eae265451c02",
+          "locator": "PDF-/Textseite 4, Absatzblock 1",
+          "original": null
+        }
+      },
+      {
+        "text": "1.9       Mit der Aufnahme in die Einrichtung gilt die Benutzung als in Anspruch genommen und\n          berechtigt zur Erhebung der Benutzungsgebühren nach § 7 durch Gebührenbescheid.",
+        "evidence": {
+          "source_id": "eae265451c02",
+          "locator": "PDF-/Textseite 4, Absatzblock 7",
+          "original": null
+        }
+      },
+      {
+        "text": "§ 3 Benutzungsgebühr\n3.1   Für den Besuch der Einrichtungen wird eine Betreuungsgebühr. Diese richtet sich nach\n      der jeweiligen Gebührensatzung in der jeweils gültigen Fassung.",
+        "evidence": {
+          "source_id": "eae265451c02",
+          "locator": "PDF-/Textseite 6, Absatzblock 2",
+          "original": null
+        }
+      },
+      {
+        "text": "a) das unentschuldigte Fehlen eines Kindes über einen zusammenhängenden\n                 Zeitraum von mehr als vier Wochen,\n              b) die wiederholte Nichtbeachtung der in dieser Satzung aufgeführten Eltern-\n                 pflichten trotz schriftlicher Abmahnung,\n              c) ein Zahlungsrückstand der Benutzungsgebühr über zwei Monate, trotz\n                 schriftlicher Mahnung,\n              d) falls ein Kind wiederholt in grober Weise gegen die Ordnung in der Einrich-\n                 tung verstößt oder den Anordnungen des pädagogischen Fachpersonals\n                 zuwiderhandelt.\n              e) nicht ausgeräumte erhebliche Auffassungsunterschiede zwischen Sorgebe-\n                 rechtigten und der Einrichtung über die veröffentlichte Konzeption der Ein-\n                 richtung und/ oder eine dem Kind angemessene Förderung trotz eines vom\n                 Träger anberaumten Einigungsgespräches.",
+        "evidence": {
+          "source_id": "eae265451c02",
+          "locator": "PDF-/Textseite 7, Absatzblock 5",
+          "original": null
+        }
+      }
+    ]
+  }
+}

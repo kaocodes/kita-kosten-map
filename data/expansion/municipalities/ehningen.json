@@ -1,0 +1,4996 @@
+{
+  "schema_version": "1.0",
+  "id": "ehningen",
+  "name": "Ehningen",
+  "reviewed_at": "2026-11-10",
+  "reference_date": "2026-11-10",
+  "scope": {
+    "included": [
+      "municipal"
+    ],
+    "other_providers": "only_with_explicit_source_evidence"
+  },
+  "family_basis": "under_18",
+  "family_evidence": {
+    "source_id": "1e9f8dc795b7",
+    "locator": "Familienbegriff und Fußnoten der Gebührenunterlagen",
+    "original": null
+  },
+  "supporting_source_ids": [
+    "1e9f8dc795b7",
+    "da4b793532b5"
+  ],
+  "offers": [
+    {
+      "id": "ehningen-offer-879771506d3f",
+      "original_label": "Grundbetreuung",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 1800,
+      "weekday_minutes": [
+        360,
+        360,
+        360,
+        360,
+        360
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "ehningen-offer-a9c57c15a9fa",
+      "original_label": "Zusätzliche Stunde bis 14:30 Uhr, 1 lange Tage",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 1860,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": null
+      },
+      "formula": null,
+      "weekday_pattern": {
+        "long_days": 1,
+        "long_day_minutes": 420,
+        "other_day_minutes": 360
+      }
+    },
+    {
+      "id": "ehningen-offer-46bf77b1c585",
+      "original_label": "Zusätzliche Stunde bis 14:30 Uhr, 2 lange Tage",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 1920,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": null
+      },
+      "formula": null,
+      "weekday_pattern": {
+        "long_days": 2,
+        "long_day_minutes": 420,
+        "other_day_minutes": 360
+      }
+    },
+    {
+      "id": "ehningen-offer-b69841bb58aa",
+      "original_label": "Zusätzliche Stunde bis 14:30 Uhr, 3 lange Tage",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 1980,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": null
+      },
+      "formula": null,
+      "weekday_pattern": {
+        "long_days": 3,
+        "long_day_minutes": 420,
+        "other_day_minutes": 360
+      }
+    },
+    {
+      "id": "ehningen-offer-faafe469cc6f",
+      "original_label": "Zusätzliche Stunde bis 14:30 Uhr, 4 lange Tage",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2040,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": null
+      },
+      "formula": null,
+      "weekday_pattern": {
+        "long_days": 4,
+        "long_day_minutes": 420,
+        "other_day_minutes": 360
+      }
+    },
+    {
+      "id": "ehningen-offer-2e27aa85268b",
+      "original_label": "Zusätzliche Stunde bis 14:30 Uhr, 5 lange Tage",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2100,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": null
+      },
+      "formula": null,
+      "weekday_pattern": {
+        "long_days": 5,
+        "long_day_minutes": 420,
+        "other_day_minutes": 360
+      }
+    },
+    {
+      "id": "ehningen-offer-2ba63d123204",
+      "original_label": "Kombi 7:30–16:30 Uhr, 1 lange Tage",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 1980,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": null
+      },
+      "formula": null,
+      "weekday_pattern": {
+        "long_days": 1,
+        "long_day_minutes": 540,
+        "other_day_minutes": 360
+      }
+    },
+    {
+      "id": "ehningen-offer-314f682b7710",
+      "original_label": "Kombi 7:30–16:30 Uhr, 2 lange Tage",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2160,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": null
+      },
+      "formula": null,
+      "weekday_pattern": {
+        "long_days": 2,
+        "long_day_minutes": 540,
+        "other_day_minutes": 360
+      }
+    },
+    {
+      "id": "ehningen-offer-91c198f55c20",
+      "original_label": "Kombi 7:30–16:30 Uhr, 3 lange Tage",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2340,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": null
+      },
+      "formula": null,
+      "weekday_pattern": {
+        "long_days": 3,
+        "long_day_minutes": 540,
+        "other_day_minutes": 360
+      }
+    },
+    {
+      "id": "ehningen-offer-9f7ef3358e30",
+      "original_label": "Kombi 7:30–16:30 Uhr, 4 lange Tage",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2520,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": null
+      },
+      "formula": null,
+      "weekday_pattern": {
+        "long_days": 4,
+        "long_day_minutes": 540,
+        "other_day_minutes": 360
+      }
+    },
+    {
+      "id": "ehningen-offer-6a1029434052",
+      "original_label": "Kombi 7:00–17:00 Uhr, 1 lange Tage",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2040,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": null
+      },
+      "formula": null,
+      "weekday_pattern": {
+        "long_days": 1,
+        "long_day_minutes": 600,
+        "other_day_minutes": 360
+      }
+    },
+    {
+      "id": "ehningen-offer-04a793e17e05",
+      "original_label": "Kombi 7:00–17:00 Uhr, 2 lange Tage",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2280,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": null
+      },
+      "formula": null,
+      "weekday_pattern": {
+        "long_days": 2,
+        "long_day_minutes": 600,
+        "other_day_minutes": 360
+      }
+    },
+    {
+      "id": "ehningen-offer-d123eb18fd89",
+      "original_label": "Kombi 7:00–17:00 Uhr, 3 lange Tage",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2520,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": null
+      },
+      "formula": null,
+      "weekday_pattern": {
+        "long_days": 3,
+        "long_day_minutes": 600,
+        "other_day_minutes": 360
+      }
+    },
+    {
+      "id": "ehningen-offer-753f1c715dbd",
+      "original_label": "Kombi 7:00–17:00 Uhr, 4 lange Tage",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2760,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": null
+      },
+      "formula": null,
+      "weekday_pattern": {
+        "long_days": 4,
+        "long_day_minutes": 600,
+        "other_day_minutes": 360
+      }
+    },
+    {
+      "id": "ehningen-offer-c36a9356ed3d",
+      "original_label": "GT 5 Tage 7:00–17:00 Uhr",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 3000,
+      "weekday_minutes": [
+        600,
+        600,
+        600,
+        600,
+        600
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "ehningen-offer-d91e2792795a",
+      "original_label": "Grundbetreuung",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 1800,
+      "weekday_minutes": [
+        360,
+        360,
+        360,
+        360,
+        360
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "ehningen-offer-ed43f3fd75e2",
+      "original_label": "Zusätzliche Stunde bis 14:30 Uhr, 1 lange Tage",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 1860,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": null
+      },
+      "formula": null,
+      "weekday_pattern": {
+        "long_days": 1,
+        "long_day_minutes": 420,
+        "other_day_minutes": 360
+      }
+    },
+    {
+      "id": "ehningen-offer-7d3933d6bc88",
+      "original_label": "Zusätzliche Stunde bis 14:30 Uhr, 2 lange Tage",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 1920,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": null
+      },
+      "formula": null,
+      "weekday_pattern": {
+        "long_days": 2,
+        "long_day_minutes": 420,
+        "other_day_minutes": 360
+      }
+    },
+    {
+      "id": "ehningen-offer-207b72e6dda8",
+      "original_label": "Zusätzliche Stunde bis 14:30 Uhr, 3 lange Tage",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 1980,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": null
+      },
+      "formula": null,
+      "weekday_pattern": {
+        "long_days": 3,
+        "long_day_minutes": 420,
+        "other_day_minutes": 360
+      }
+    },
+    {
+      "id": "ehningen-offer-5971aea94b7d",
+      "original_label": "Zusätzliche Stunde bis 14:30 Uhr, 4 lange Tage",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2040,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": null
+      },
+      "formula": null,
+      "weekday_pattern": {
+        "long_days": 4,
+        "long_day_minutes": 420,
+        "other_day_minutes": 360
+      }
+    },
+    {
+      "id": "ehningen-offer-7c4d9455c53d",
+      "original_label": "Zusätzliche Stunde bis 14:30 Uhr, 5 lange Tage",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2100,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": null
+      },
+      "formula": null,
+      "weekday_pattern": {
+        "long_days": 5,
+        "long_day_minutes": 420,
+        "other_day_minutes": 360
+      }
+    },
+    {
+      "id": "ehningen-offer-e01a4be697bd",
+      "original_label": "Kombi 7:30–16:30 Uhr, 1 lange Tage",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 1980,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": null
+      },
+      "formula": null,
+      "weekday_pattern": {
+        "long_days": 1,
+        "long_day_minutes": 540,
+        "other_day_minutes": 360
+      }
+    },
+    {
+      "id": "ehningen-offer-0b40a1de916e",
+      "original_label": "Kombi 7:30–16:30 Uhr, 2 lange Tage",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2160,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": null
+      },
+      "formula": null,
+      "weekday_pattern": {
+        "long_days": 2,
+        "long_day_minutes": 540,
+        "other_day_minutes": 360
+      }
+    },
+    {
+      "id": "ehningen-offer-7fc03d700303",
+      "original_label": "Kombi 7:30–16:30 Uhr, 3 lange Tage",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2340,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": null
+      },
+      "formula": null,
+      "weekday_pattern": {
+        "long_days": 3,
+        "long_day_minutes": 540,
+        "other_day_minutes": 360
+      }
+    },
+    {
+      "id": "ehningen-offer-d5786bf0f00e",
+      "original_label": "Kombi 7:30–16:30 Uhr, 4 lange Tage",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2520,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": null
+      },
+      "formula": null,
+      "weekday_pattern": {
+        "long_days": 4,
+        "long_day_minutes": 540,
+        "other_day_minutes": 360
+      }
+    },
+    {
+      "id": "ehningen-offer-d8842c9d888c",
+      "original_label": "Kombi 7:00–17:00 Uhr, 1 lange Tage",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2040,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": null
+      },
+      "formula": null,
+      "weekday_pattern": {
+        "long_days": 1,
+        "long_day_minutes": 600,
+        "other_day_minutes": 360
+      }
+    },
+    {
+      "id": "ehningen-offer-911e5666447f",
+      "original_label": "Kombi 7:00–17:00 Uhr, 2 lange Tage",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2280,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": null
+      },
+      "formula": null,
+      "weekday_pattern": {
+        "long_days": 2,
+        "long_day_minutes": 600,
+        "other_day_minutes": 360
+      }
+    },
+    {
+      "id": "ehningen-offer-b3b5cf3238d2",
+      "original_label": "Kombi 7:00–17:00 Uhr, 3 lange Tage",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2520,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": null
+      },
+      "formula": null,
+      "weekday_pattern": {
+        "long_days": 3,
+        "long_day_minutes": 600,
+        "other_day_minutes": 360
+      }
+    },
+    {
+      "id": "ehningen-offer-e27a4bfc5219",
+      "original_label": "Kombi 7:00–17:00 Uhr, 4 lange Tage",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2760,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": null
+      },
+      "formula": null,
+      "weekday_pattern": {
+        "long_days": 4,
+        "long_day_minutes": 600,
+        "other_day_minutes": 360
+      }
+    },
+    {
+      "id": "ehningen-offer-5764b4493ac0",
+      "original_label": "GT 5 Tage 7:00–17:00 Uhr",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 3000,
+      "weekday_minutes": [
+        600,
+        600,
+        600,
+        600,
+        600
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": null
+      },
+      "formula": null
+    }
+  ],
+  "prices": [
+    {
+      "id": "ehningen-price-2c2364f61680",
+      "offer_id": "ehningen-offer-879771506d3f",
+      "amount_cents": 49300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": 49300
+      },
+      "derivation": {
+        "base_cents": 49300,
+        "additional_weekly_hours": 0,
+        "per_weekly_hour_cents": 2500,
+        "published_final_cell": false
+      }
+    },
+    {
+      "id": "ehningen-price-18e334a77e12",
+      "offer_id": "ehningen-offer-879771506d3f",
+      "amount_cents": 39800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": 39800
+      },
+      "derivation": {
+        "base_cents": 39800,
+        "additional_weekly_hours": 0,
+        "per_weekly_hour_cents": 2000,
+        "published_final_cell": false
+      }
+    },
+    {
+      "id": "ehningen-price-62ba147e7816",
+      "offer_id": "ehningen-offer-879771506d3f",
+      "amount_cents": 30300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": 30300
+      },
+      "derivation": {
+        "base_cents": 30300,
+        "additional_weekly_hours": 0,
+        "per_weekly_hour_cents": 1600,
+        "published_final_cell": false
+      }
+    },
+    {
+      "id": "ehningen-price-9ff2a676a5cf",
+      "offer_id": "ehningen-offer-879771506d3f",
+      "amount_cents": 19900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": 19900
+      },
+      "derivation": {
+        "base_cents": 19900,
+        "additional_weekly_hours": 0,
+        "per_weekly_hour_cents": 1000,
+        "published_final_cell": false
+      }
+    },
+    {
+      "id": "ehningen-price-b66a97339ed8",
+      "offer_id": "ehningen-offer-a9c57c15a9fa",
+      "amount_cents": 51800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": 51800
+      },
+      "derivation": {
+        "base_cents": 49300,
+        "additional_weekly_hours": 1,
+        "per_weekly_hour_cents": 2500,
+        "published_final_cell": false
+      }
+    },
+    {
+      "id": "ehningen-price-0f188ec31ee9",
+      "offer_id": "ehningen-offer-a9c57c15a9fa",
+      "amount_cents": 41800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": 41800
+      },
+      "derivation": {
+        "base_cents": 39800,
+        "additional_weekly_hours": 1,
+        "per_weekly_hour_cents": 2000,
+        "published_final_cell": false
+      }
+    },
+    {
+      "id": "ehningen-price-b9026635b75f",
+      "offer_id": "ehningen-offer-a9c57c15a9fa",
+      "amount_cents": 31900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": 31900
+      },
+      "derivation": {
+        "base_cents": 30300,
+        "additional_weekly_hours": 1,
+        "per_weekly_hour_cents": 1600,
+        "published_final_cell": false
+      }
+    },
+    {
+      "id": "ehningen-price-59b392ac9215",
+      "offer_id": "ehningen-offer-a9c57c15a9fa",
+      "amount_cents": 20900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": 20900
+      },
+      "derivation": {
+        "base_cents": 19900,
+        "additional_weekly_hours": 1,
+        "per_weekly_hour_cents": 1000,
+        "published_final_cell": false
+      }
+    },
+    {
+      "id": "ehningen-price-73f015bea565",
+      "offer_id": "ehningen-offer-46bf77b1c585",
+      "amount_cents": 54300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": 54300
+      },
+      "derivation": {
+        "base_cents": 49300,
+        "additional_weekly_hours": 2,
+        "per_weekly_hour_cents": 2500,
+        "published_final_cell": false
+      }
+    },
+    {
+      "id": "ehningen-price-e12c2d7d9b00",
+      "offer_id": "ehningen-offer-46bf77b1c585",
+      "amount_cents": 43800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": 43800
+      },
+      "derivation": {
+        "base_cents": 39800,
+        "additional_weekly_hours": 2,
+        "per_weekly_hour_cents": 2000,
+        "published_final_cell": false
+      }
+    },
+    {
+      "id": "ehningen-price-6db28d7ddcd1",
+      "offer_id": "ehningen-offer-46bf77b1c585",
+      "amount_cents": 33500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": 33500
+      },
+      "derivation": {
+        "base_cents": 30300,
+        "additional_weekly_hours": 2,
+        "per_weekly_hour_cents": 1600,
+        "published_final_cell": false
+      }
+    },
+    {
+      "id": "ehningen-price-bf101461c758",
+      "offer_id": "ehningen-offer-46bf77b1c585",
+      "amount_cents": 21900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": 21900
+      },
+      "derivation": {
+        "base_cents": 19900,
+        "additional_weekly_hours": 2,
+        "per_weekly_hour_cents": 1000,
+        "published_final_cell": false
+      }
+    },
+    {
+      "id": "ehningen-price-72a6837010bd",
+      "offer_id": "ehningen-offer-b69841bb58aa",
+      "amount_cents": 56800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": 56800
+      },
+      "derivation": {
+        "base_cents": 49300,
+        "additional_weekly_hours": 3,
+        "per_weekly_hour_cents": 2500,
+        "published_final_cell": false
+      }
+    },
+    {
+      "id": "ehningen-price-831d482733a8",
+      "offer_id": "ehningen-offer-b69841bb58aa",
+      "amount_cents": 45800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": 45800
+      },
+      "derivation": {
+        "base_cents": 39800,
+        "additional_weekly_hours": 3,
+        "per_weekly_hour_cents": 2000,
+        "published_final_cell": false
+      }
+    },
+    {
+      "id": "ehningen-price-e834ce599006",
+      "offer_id": "ehningen-offer-b69841bb58aa",
+      "amount_cents": 35100,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": 35100
+      },
+      "derivation": {
+        "base_cents": 30300,
+        "additional_weekly_hours": 3,
+        "per_weekly_hour_cents": 1600,
+        "published_final_cell": false
+      }
+    },
+    {
+      "id": "ehningen-price-430ca915ea7d",
+      "offer_id": "ehningen-offer-b69841bb58aa",
+      "amount_cents": 22900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": 22900
+      },
+      "derivation": {
+        "base_cents": 19900,
+        "additional_weekly_hours": 3,
+        "per_weekly_hour_cents": 1000,
+        "published_final_cell": false
+      }
+    },
+    {
+      "id": "ehningen-price-c0512a86ff9c",
+      "offer_id": "ehningen-offer-faafe469cc6f",
+      "amount_cents": 59300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": 59300
+      },
+      "derivation": {
+        "base_cents": 49300,
+        "additional_weekly_hours": 4,
+        "per_weekly_hour_cents": 2500,
+        "published_final_cell": false
+      }
+    },
+    {
+      "id": "ehningen-price-de348bf94c83",
+      "offer_id": "ehningen-offer-faafe469cc6f",
+      "amount_cents": 47800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": 47800
+      },
+      "derivation": {
+        "base_cents": 39800,
+        "additional_weekly_hours": 4,
+        "per_weekly_hour_cents": 2000,
+        "published_final_cell": false
+      }
+    },
+    {
+      "id": "ehningen-price-4d69c6a18114",
+      "offer_id": "ehningen-offer-faafe469cc6f",
+      "amount_cents": 36700,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": 36700
+      },
+      "derivation": {
+        "base_cents": 30300,
+        "additional_weekly_hours": 4,
+        "per_weekly_hour_cents": 1600,
+        "published_final_cell": false
+      }
+    },
+    {
+      "id": "ehningen-price-50e9a08e08ee",
+      "offer_id": "ehningen-offer-faafe469cc6f",
+      "amount_cents": 23900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": 23900
+      },
+      "derivation": {
+        "base_cents": 19900,
+        "additional_weekly_hours": 4,
+        "per_weekly_hour_cents": 1000,
+        "published_final_cell": false
+      }
+    },
+    {
+      "id": "ehningen-price-0f45938853e4",
+      "offer_id": "ehningen-offer-2e27aa85268b",
+      "amount_cents": 61800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": 61800
+      },
+      "derivation": {
+        "base_cents": 49300,
+        "additional_weekly_hours": 5,
+        "per_weekly_hour_cents": 2500,
+        "published_final_cell": false
+      }
+    },
+    {
+      "id": "ehningen-price-64964fd878c3",
+      "offer_id": "ehningen-offer-2e27aa85268b",
+      "amount_cents": 49800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": 49800
+      },
+      "derivation": {
+        "base_cents": 39800,
+        "additional_weekly_hours": 5,
+        "per_weekly_hour_cents": 2000,
+        "published_final_cell": false
+      }
+    },
+    {
+      "id": "ehningen-price-fbf4bbef9f24",
+      "offer_id": "ehningen-offer-2e27aa85268b",
+      "amount_cents": 38300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": 38300
+      },
+      "derivation": {
+        "base_cents": 30300,
+        "additional_weekly_hours": 5,
+        "per_weekly_hour_cents": 1600,
+        "published_final_cell": false
+      }
+    },
+    {
+      "id": "ehningen-price-0bdec07aaddf",
+      "offer_id": "ehningen-offer-2e27aa85268b",
+      "amount_cents": 24900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": 24900
+      },
+      "derivation": {
+        "base_cents": 19900,
+        "additional_weekly_hours": 5,
+        "per_weekly_hour_cents": 1000,
+        "published_final_cell": false
+      }
+    },
+    {
+      "id": "ehningen-price-06a44effff63",
+      "offer_id": "ehningen-offer-2ba63d123204",
+      "amount_cents": 56800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": 56800
+      },
+      "derivation": {
+        "base_cents": 49300,
+        "additional_weekly_hours": 3,
+        "per_weekly_hour_cents": 2500,
+        "published_final_cell": false
+      }
+    },
+    {
+      "id": "ehningen-price-e76a572e69cc",
+      "offer_id": "ehningen-offer-2ba63d123204",
+      "amount_cents": 45800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": 45800
+      },
+      "derivation": {
+        "base_cents": 39800,
+        "additional_weekly_hours": 3,
+        "per_weekly_hour_cents": 2000,
+        "published_final_cell": false
+      }
+    },
+    {
+      "id": "ehningen-price-64cd274f5b84",
+      "offer_id": "ehningen-offer-2ba63d123204",
+      "amount_cents": 35100,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": 35100
+      },
+      "derivation": {
+        "base_cents": 30300,
+        "additional_weekly_hours": 3,
+        "per_weekly_hour_cents": 1600,
+        "published_final_cell": false
+      }
+    },
+    {
+      "id": "ehningen-price-df3a6e2e95b1",
+      "offer_id": "ehningen-offer-2ba63d123204",
+      "amount_cents": 22900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": 22900
+      },
+      "derivation": {
+        "base_cents": 19900,
+        "additional_weekly_hours": 3,
+        "per_weekly_hour_cents": 1000,
+        "published_final_cell": false
+      }
+    },
+    {
+      "id": "ehningen-price-fd2d480d7682",
+      "offer_id": "ehningen-offer-314f682b7710",
+      "amount_cents": 64300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": 64300
+      },
+      "derivation": {
+        "base_cents": 49300,
+        "additional_weekly_hours": 6,
+        "per_weekly_hour_cents": 2500,
+        "published_final_cell": false
+      }
+    },
+    {
+      "id": "ehningen-price-ea101e6bf888",
+      "offer_id": "ehningen-offer-314f682b7710",
+      "amount_cents": 51800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": 51800
+      },
+      "derivation": {
+        "base_cents": 39800,
+        "additional_weekly_hours": 6,
+        "per_weekly_hour_cents": 2000,
+        "published_final_cell": false
+      }
+    },
+    {
+      "id": "ehningen-price-6ce03558f65b",
+      "offer_id": "ehningen-offer-314f682b7710",
+      "amount_cents": 39900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": 39900
+      },
+      "derivation": {
+        "base_cents": 30300,
+        "additional_weekly_hours": 6,
+        "per_weekly_hour_cents": 1600,
+        "published_final_cell": false
+      }
+    },
+    {
+      "id": "ehningen-price-a3f3ac01534c",
+      "offer_id": "ehningen-offer-314f682b7710",
+      "amount_cents": 25900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": 25900
+      },
+      "derivation": {
+        "base_cents": 19900,
+        "additional_weekly_hours": 6,
+        "per_weekly_hour_cents": 1000,
+        "published_final_cell": false
+      }
+    },
+    {
+      "id": "ehningen-price-d294e3cb290e",
+      "offer_id": "ehningen-offer-91c198f55c20",
+      "amount_cents": 71800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": 71800
+      },
+      "derivation": {
+        "base_cents": 49300,
+        "additional_weekly_hours": 9,
+        "per_weekly_hour_cents": 2500,
+        "published_final_cell": false
+      }
+    },
+    {
+      "id": "ehningen-price-b9ccf75b538a",
+      "offer_id": "ehningen-offer-91c198f55c20",
+      "amount_cents": 57800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": 57800
+      },
+      "derivation": {
+        "base_cents": 39800,
+        "additional_weekly_hours": 9,
+        "per_weekly_hour_cents": 2000,
+        "published_final_cell": false
+      }
+    },
+    {
+      "id": "ehningen-price-56c6b5ab1842",
+      "offer_id": "ehningen-offer-91c198f55c20",
+      "amount_cents": 44700,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": 44700
+      },
+      "derivation": {
+        "base_cents": 30300,
+        "additional_weekly_hours": 9,
+        "per_weekly_hour_cents": 1600,
+        "published_final_cell": false
+      }
+    },
+    {
+      "id": "ehningen-price-13e7a83ac22e",
+      "offer_id": "ehningen-offer-91c198f55c20",
+      "amount_cents": 28900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": 28900
+      },
+      "derivation": {
+        "base_cents": 19900,
+        "additional_weekly_hours": 9,
+        "per_weekly_hour_cents": 1000,
+        "published_final_cell": false
+      }
+    },
+    {
+      "id": "ehningen-price-9f13aad29ca7",
+      "offer_id": "ehningen-offer-9f7ef3358e30",
+      "amount_cents": 79300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": 79300
+      },
+      "derivation": {
+        "base_cents": 49300,
+        "additional_weekly_hours": 12,
+        "per_weekly_hour_cents": 2500,
+        "published_final_cell": false
+      }
+    },
+    {
+      "id": "ehningen-price-89d68100d455",
+      "offer_id": "ehningen-offer-9f7ef3358e30",
+      "amount_cents": 63800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": 63800
+      },
+      "derivation": {
+        "base_cents": 39800,
+        "additional_weekly_hours": 12,
+        "per_weekly_hour_cents": 2000,
+        "published_final_cell": false
+      }
+    },
+    {
+      "id": "ehningen-price-881706145319",
+      "offer_id": "ehningen-offer-9f7ef3358e30",
+      "amount_cents": 49500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": 49500
+      },
+      "derivation": {
+        "base_cents": 30300,
+        "additional_weekly_hours": 12,
+        "per_weekly_hour_cents": 1600,
+        "published_final_cell": false
+      }
+    },
+    {
+      "id": "ehningen-price-5580270da0d1",
+      "offer_id": "ehningen-offer-9f7ef3358e30",
+      "amount_cents": 31900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": 31900
+      },
+      "derivation": {
+        "base_cents": 19900,
+        "additional_weekly_hours": 12,
+        "per_weekly_hour_cents": 1000,
+        "published_final_cell": false
+      }
+    },
+    {
+      "id": "ehningen-price-1cc9a3de1b2b",
+      "offer_id": "ehningen-offer-6a1029434052",
+      "amount_cents": 59300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": 59300
+      },
+      "derivation": {
+        "base_cents": 49300,
+        "additional_weekly_hours": 4,
+        "per_weekly_hour_cents": 2500,
+        "published_final_cell": false
+      }
+    },
+    {
+      "id": "ehningen-price-de89ec235fc4",
+      "offer_id": "ehningen-offer-6a1029434052",
+      "amount_cents": 47800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": 47800
+      },
+      "derivation": {
+        "base_cents": 39800,
+        "additional_weekly_hours": 4,
+        "per_weekly_hour_cents": 2000,
+        "published_final_cell": false
+      }
+    },
+    {
+      "id": "ehningen-price-77f56c8ca5d4",
+      "offer_id": "ehningen-offer-6a1029434052",
+      "amount_cents": 36700,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": 36700
+      },
+      "derivation": {
+        "base_cents": 30300,
+        "additional_weekly_hours": 4,
+        "per_weekly_hour_cents": 1600,
+        "published_final_cell": false
+      }
+    },
+    {
+      "id": "ehningen-price-3c95df6ca0a4",
+      "offer_id": "ehningen-offer-6a1029434052",
+      "amount_cents": 23900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": 23900
+      },
+      "derivation": {
+        "base_cents": 19900,
+        "additional_weekly_hours": 4,
+        "per_weekly_hour_cents": 1000,
+        "published_final_cell": false
+      }
+    },
+    {
+      "id": "ehningen-price-cbb270acecb2",
+      "offer_id": "ehningen-offer-04a793e17e05",
+      "amount_cents": 69300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": 69300
+      },
+      "derivation": {
+        "base_cents": 49300,
+        "additional_weekly_hours": 8,
+        "per_weekly_hour_cents": 2500,
+        "published_final_cell": false
+      }
+    },
+    {
+      "id": "ehningen-price-9b179e5be868",
+      "offer_id": "ehningen-offer-04a793e17e05",
+      "amount_cents": 55800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": 55800
+      },
+      "derivation": {
+        "base_cents": 39800,
+        "additional_weekly_hours": 8,
+        "per_weekly_hour_cents": 2000,
+        "published_final_cell": false
+      }
+    },
+    {
+      "id": "ehningen-price-4013d54d135b",
+      "offer_id": "ehningen-offer-04a793e17e05",
+      "amount_cents": 43100,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": 43100
+      },
+      "derivation": {
+        "base_cents": 30300,
+        "additional_weekly_hours": 8,
+        "per_weekly_hour_cents": 1600,
+        "published_final_cell": false
+      }
+    },
+    {
+      "id": "ehningen-price-325765959071",
+      "offer_id": "ehningen-offer-04a793e17e05",
+      "amount_cents": 27900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": 27900
+      },
+      "derivation": {
+        "base_cents": 19900,
+        "additional_weekly_hours": 8,
+        "per_weekly_hour_cents": 1000,
+        "published_final_cell": false
+      }
+    },
+    {
+      "id": "ehningen-price-0d2b99708da5",
+      "offer_id": "ehningen-offer-d123eb18fd89",
+      "amount_cents": 79300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": 79300
+      },
+      "derivation": {
+        "base_cents": 49300,
+        "additional_weekly_hours": 12,
+        "per_weekly_hour_cents": 2500,
+        "published_final_cell": false
+      }
+    },
+    {
+      "id": "ehningen-price-9f56eec21e99",
+      "offer_id": "ehningen-offer-d123eb18fd89",
+      "amount_cents": 63800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": 63800
+      },
+      "derivation": {
+        "base_cents": 39800,
+        "additional_weekly_hours": 12,
+        "per_weekly_hour_cents": 2000,
+        "published_final_cell": false
+      }
+    },
+    {
+      "id": "ehningen-price-f6af6b5e575d",
+      "offer_id": "ehningen-offer-d123eb18fd89",
+      "amount_cents": 49500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": 49500
+      },
+      "derivation": {
+        "base_cents": 30300,
+        "additional_weekly_hours": 12,
+        "per_weekly_hour_cents": 1600,
+        "published_final_cell": false
+      }
+    },
+    {
+      "id": "ehningen-price-a0cdf45b20f6",
+      "offer_id": "ehningen-offer-d123eb18fd89",
+      "amount_cents": 31900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": 31900
+      },
+      "derivation": {
+        "base_cents": 19900,
+        "additional_weekly_hours": 12,
+        "per_weekly_hour_cents": 1000,
+        "published_final_cell": false
+      }
+    },
+    {
+      "id": "ehningen-price-688aaa824108",
+      "offer_id": "ehningen-offer-753f1c715dbd",
+      "amount_cents": 89300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": 89300
+      },
+      "derivation": {
+        "base_cents": 49300,
+        "additional_weekly_hours": 16,
+        "per_weekly_hour_cents": 2500,
+        "published_final_cell": false
+      }
+    },
+    {
+      "id": "ehningen-price-f64acc1003f8",
+      "offer_id": "ehningen-offer-753f1c715dbd",
+      "amount_cents": 71800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": 71800
+      },
+      "derivation": {
+        "base_cents": 39800,
+        "additional_weekly_hours": 16,
+        "per_weekly_hour_cents": 2000,
+        "published_final_cell": false
+      }
+    },
+    {
+      "id": "ehningen-price-1d60536808b6",
+      "offer_id": "ehningen-offer-753f1c715dbd",
+      "amount_cents": 55900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": 55900
+      },
+      "derivation": {
+        "base_cents": 30300,
+        "additional_weekly_hours": 16,
+        "per_weekly_hour_cents": 1600,
+        "published_final_cell": false
+      }
+    },
+    {
+      "id": "ehningen-price-788c47ce623b",
+      "offer_id": "ehningen-offer-753f1c715dbd",
+      "amount_cents": 35900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": 35900
+      },
+      "derivation": {
+        "base_cents": 19900,
+        "additional_weekly_hours": 16,
+        "per_weekly_hour_cents": 1000,
+        "published_final_cell": false
+      }
+    },
+    {
+      "id": "ehningen-price-fa6ead3c9632",
+      "offer_id": "ehningen-offer-c36a9356ed3d",
+      "amount_cents": 99300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": 99300
+      },
+      "derivation": {
+        "base_cents": 49300,
+        "additional_weekly_hours": 20,
+        "per_weekly_hour_cents": 2500,
+        "published_final_cell": true
+      }
+    },
+    {
+      "id": "ehningen-price-b97aabc530e9",
+      "offer_id": "ehningen-offer-c36a9356ed3d",
+      "amount_cents": 79800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": 79800
+      },
+      "derivation": {
+        "base_cents": 39800,
+        "additional_weekly_hours": 20,
+        "per_weekly_hour_cents": 2000,
+        "published_final_cell": true
+      }
+    },
+    {
+      "id": "ehningen-price-653a1f7b46d1",
+      "offer_id": "ehningen-offer-c36a9356ed3d",
+      "amount_cents": 62300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": 62300
+      },
+      "derivation": {
+        "base_cents": 30300,
+        "additional_weekly_hours": 20,
+        "per_weekly_hour_cents": 1600,
+        "published_final_cell": true
+      }
+    },
+    {
+      "id": "ehningen-price-9151bed2935c",
+      "offer_id": "ehningen-offer-c36a9356ed3d",
+      "amount_cents": 39900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": 39900
+      },
+      "derivation": {
+        "base_cents": 19900,
+        "additional_weekly_hours": 20,
+        "per_weekly_hour_cents": 1000,
+        "published_final_cell": true
+      }
+    },
+    {
+      "id": "ehningen-price-2af4dcd57ab4",
+      "offer_id": "ehningen-offer-d91e2792795a",
+      "amount_cents": 19000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": 19000
+      },
+      "derivation": {
+        "base_cents": 19000,
+        "additional_weekly_hours": 0,
+        "per_weekly_hour_cents": 2500,
+        "published_final_cell": false
+      }
+    },
+    {
+      "id": "ehningen-price-26a907c08973",
+      "offer_id": "ehningen-offer-d91e2792795a",
+      "amount_cents": 15200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": 15200
+      },
+      "derivation": {
+        "base_cents": 15200,
+        "additional_weekly_hours": 0,
+        "per_weekly_hour_cents": 2000,
+        "published_final_cell": false
+      }
+    },
+    {
+      "id": "ehningen-price-8e9256f2362c",
+      "offer_id": "ehningen-offer-d91e2792795a",
+      "amount_cents": 11400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": 11400
+      },
+      "derivation": {
+        "base_cents": 11400,
+        "additional_weekly_hours": 0,
+        "per_weekly_hour_cents": 1600,
+        "published_final_cell": false
+      }
+    },
+    {
+      "id": "ehningen-price-3fc5535de9c7",
+      "offer_id": "ehningen-offer-d91e2792795a",
+      "amount_cents": 7700,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": 7700
+      },
+      "derivation": {
+        "base_cents": 7700,
+        "additional_weekly_hours": 0,
+        "per_weekly_hour_cents": 1000,
+        "published_final_cell": false
+      }
+    },
+    {
+      "id": "ehningen-price-5be22f388e6d",
+      "offer_id": "ehningen-offer-ed43f3fd75e2",
+      "amount_cents": 21500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": 21500
+      },
+      "derivation": {
+        "base_cents": 19000,
+        "additional_weekly_hours": 1,
+        "per_weekly_hour_cents": 2500,
+        "published_final_cell": false
+      }
+    },
+    {
+      "id": "ehningen-price-a23bff0491eb",
+      "offer_id": "ehningen-offer-ed43f3fd75e2",
+      "amount_cents": 17200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": 17200
+      },
+      "derivation": {
+        "base_cents": 15200,
+        "additional_weekly_hours": 1,
+        "per_weekly_hour_cents": 2000,
+        "published_final_cell": false
+      }
+    },
+    {
+      "id": "ehningen-price-9ca845ed21a2",
+      "offer_id": "ehningen-offer-ed43f3fd75e2",
+      "amount_cents": 13000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": 13000
+      },
+      "derivation": {
+        "base_cents": 11400,
+        "additional_weekly_hours": 1,
+        "per_weekly_hour_cents": 1600,
+        "published_final_cell": false
+      }
+    },
+    {
+      "id": "ehningen-price-ff9d83dec260",
+      "offer_id": "ehningen-offer-ed43f3fd75e2",
+      "amount_cents": 8700,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": 8700
+      },
+      "derivation": {
+        "base_cents": 7700,
+        "additional_weekly_hours": 1,
+        "per_weekly_hour_cents": 1000,
+        "published_final_cell": false
+      }
+    },
+    {
+      "id": "ehningen-price-043fb18e0d37",
+      "offer_id": "ehningen-offer-7d3933d6bc88",
+      "amount_cents": 24000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": 24000
+      },
+      "derivation": {
+        "base_cents": 19000,
+        "additional_weekly_hours": 2,
+        "per_weekly_hour_cents": 2500,
+        "published_final_cell": false
+      }
+    },
+    {
+      "id": "ehningen-price-8dc4115966e1",
+      "offer_id": "ehningen-offer-7d3933d6bc88",
+      "amount_cents": 19200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": 19200
+      },
+      "derivation": {
+        "base_cents": 15200,
+        "additional_weekly_hours": 2,
+        "per_weekly_hour_cents": 2000,
+        "published_final_cell": false
+      }
+    },
+    {
+      "id": "ehningen-price-14fe6fab026a",
+      "offer_id": "ehningen-offer-7d3933d6bc88",
+      "amount_cents": 14600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": 14600
+      },
+      "derivation": {
+        "base_cents": 11400,
+        "additional_weekly_hours": 2,
+        "per_weekly_hour_cents": 1600,
+        "published_final_cell": false
+      }
+    },
+    {
+      "id": "ehningen-price-5b98e93c27a1",
+      "offer_id": "ehningen-offer-7d3933d6bc88",
+      "amount_cents": 9700,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": 9700
+      },
+      "derivation": {
+        "base_cents": 7700,
+        "additional_weekly_hours": 2,
+        "per_weekly_hour_cents": 1000,
+        "published_final_cell": false
+      }
+    },
+    {
+      "id": "ehningen-price-03a9af0f7233",
+      "offer_id": "ehningen-offer-207b72e6dda8",
+      "amount_cents": 26500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": 26500
+      },
+      "derivation": {
+        "base_cents": 19000,
+        "additional_weekly_hours": 3,
+        "per_weekly_hour_cents": 2500,
+        "published_final_cell": false
+      }
+    },
+    {
+      "id": "ehningen-price-67fa2f9f74c7",
+      "offer_id": "ehningen-offer-207b72e6dda8",
+      "amount_cents": 21200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": 21200
+      },
+      "derivation": {
+        "base_cents": 15200,
+        "additional_weekly_hours": 3,
+        "per_weekly_hour_cents": 2000,
+        "published_final_cell": false
+      }
+    },
+    {
+      "id": "ehningen-price-1b53f68f77e1",
+      "offer_id": "ehningen-offer-207b72e6dda8",
+      "amount_cents": 16200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": 16200
+      },
+      "derivation": {
+        "base_cents": 11400,
+        "additional_weekly_hours": 3,
+        "per_weekly_hour_cents": 1600,
+        "published_final_cell": false
+      }
+    },
+    {
+      "id": "ehningen-price-10a6c18c2381",
+      "offer_id": "ehningen-offer-207b72e6dda8",
+      "amount_cents": 10700,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": 10700
+      },
+      "derivation": {
+        "base_cents": 7700,
+        "additional_weekly_hours": 3,
+        "per_weekly_hour_cents": 1000,
+        "published_final_cell": false
+      }
+    },
+    {
+      "id": "ehningen-price-f57b3ec55431",
+      "offer_id": "ehningen-offer-5971aea94b7d",
+      "amount_cents": 29000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": 29000
+      },
+      "derivation": {
+        "base_cents": 19000,
+        "additional_weekly_hours": 4,
+        "per_weekly_hour_cents": 2500,
+        "published_final_cell": false
+      }
+    },
+    {
+      "id": "ehningen-price-3bc65a199727",
+      "offer_id": "ehningen-offer-5971aea94b7d",
+      "amount_cents": 23200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": 23200
+      },
+      "derivation": {
+        "base_cents": 15200,
+        "additional_weekly_hours": 4,
+        "per_weekly_hour_cents": 2000,
+        "published_final_cell": false
+      }
+    },
+    {
+      "id": "ehningen-price-9b76e8f05211",
+      "offer_id": "ehningen-offer-5971aea94b7d",
+      "amount_cents": 17800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": 17800
+      },
+      "derivation": {
+        "base_cents": 11400,
+        "additional_weekly_hours": 4,
+        "per_weekly_hour_cents": 1600,
+        "published_final_cell": false
+      }
+    },
+    {
+      "id": "ehningen-price-140ffd68cea6",
+      "offer_id": "ehningen-offer-5971aea94b7d",
+      "amount_cents": 11700,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": 11700
+      },
+      "derivation": {
+        "base_cents": 7700,
+        "additional_weekly_hours": 4,
+        "per_weekly_hour_cents": 1000,
+        "published_final_cell": false
+      }
+    },
+    {
+      "id": "ehningen-price-f52da887401f",
+      "offer_id": "ehningen-offer-7c4d9455c53d",
+      "amount_cents": 31500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": 31500
+      },
+      "derivation": {
+        "base_cents": 19000,
+        "additional_weekly_hours": 5,
+        "per_weekly_hour_cents": 2500,
+        "published_final_cell": false
+      }
+    },
+    {
+      "id": "ehningen-price-8e535eca9c2f",
+      "offer_id": "ehningen-offer-7c4d9455c53d",
+      "amount_cents": 25200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": 25200
+      },
+      "derivation": {
+        "base_cents": 15200,
+        "additional_weekly_hours": 5,
+        "per_weekly_hour_cents": 2000,
+        "published_final_cell": false
+      }
+    },
+    {
+      "id": "ehningen-price-68d783f6e4ce",
+      "offer_id": "ehningen-offer-7c4d9455c53d",
+      "amount_cents": 19400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": 19400
+      },
+      "derivation": {
+        "base_cents": 11400,
+        "additional_weekly_hours": 5,
+        "per_weekly_hour_cents": 1600,
+        "published_final_cell": false
+      }
+    },
+    {
+      "id": "ehningen-price-defc17015e73",
+      "offer_id": "ehningen-offer-7c4d9455c53d",
+      "amount_cents": 12700,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": 12700
+      },
+      "derivation": {
+        "base_cents": 7700,
+        "additional_weekly_hours": 5,
+        "per_weekly_hour_cents": 1000,
+        "published_final_cell": false
+      }
+    },
+    {
+      "id": "ehningen-price-506ff7a58dc3",
+      "offer_id": "ehningen-offer-e01a4be697bd",
+      "amount_cents": 26500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": 26500
+      },
+      "derivation": {
+        "base_cents": 19000,
+        "additional_weekly_hours": 3,
+        "per_weekly_hour_cents": 2500,
+        "published_final_cell": false
+      }
+    },
+    {
+      "id": "ehningen-price-a06818f3f93d",
+      "offer_id": "ehningen-offer-e01a4be697bd",
+      "amount_cents": 21200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": 21200
+      },
+      "derivation": {
+        "base_cents": 15200,
+        "additional_weekly_hours": 3,
+        "per_weekly_hour_cents": 2000,
+        "published_final_cell": false
+      }
+    },
+    {
+      "id": "ehningen-price-61a113846f09",
+      "offer_id": "ehningen-offer-e01a4be697bd",
+      "amount_cents": 16200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": 16200
+      },
+      "derivation": {
+        "base_cents": 11400,
+        "additional_weekly_hours": 3,
+        "per_weekly_hour_cents": 1600,
+        "published_final_cell": false
+      }
+    },
+    {
+      "id": "ehningen-price-13e63e055b62",
+      "offer_id": "ehningen-offer-e01a4be697bd",
+      "amount_cents": 10700,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": 10700
+      },
+      "derivation": {
+        "base_cents": 7700,
+        "additional_weekly_hours": 3,
+        "per_weekly_hour_cents": 1000,
+        "published_final_cell": false
+      }
+    },
+    {
+      "id": "ehningen-price-25dccf792960",
+      "offer_id": "ehningen-offer-0b40a1de916e",
+      "amount_cents": 34000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": 34000
+      },
+      "derivation": {
+        "base_cents": 19000,
+        "additional_weekly_hours": 6,
+        "per_weekly_hour_cents": 2500,
+        "published_final_cell": false
+      }
+    },
+    {
+      "id": "ehningen-price-4006c2661565",
+      "offer_id": "ehningen-offer-0b40a1de916e",
+      "amount_cents": 27200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": 27200
+      },
+      "derivation": {
+        "base_cents": 15200,
+        "additional_weekly_hours": 6,
+        "per_weekly_hour_cents": 2000,
+        "published_final_cell": false
+      }
+    },
+    {
+      "id": "ehningen-price-f39c20a91061",
+      "offer_id": "ehningen-offer-0b40a1de916e",
+      "amount_cents": 21000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": 21000
+      },
+      "derivation": {
+        "base_cents": 11400,
+        "additional_weekly_hours": 6,
+        "per_weekly_hour_cents": 1600,
+        "published_final_cell": false
+      }
+    },
+    {
+      "id": "ehningen-price-b03408720ded",
+      "offer_id": "ehningen-offer-0b40a1de916e",
+      "amount_cents": 13700,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": 13700
+      },
+      "derivation": {
+        "base_cents": 7700,
+        "additional_weekly_hours": 6,
+        "per_weekly_hour_cents": 1000,
+        "published_final_cell": false
+      }
+    },
+    {
+      "id": "ehningen-price-f1467658e929",
+      "offer_id": "ehningen-offer-7fc03d700303",
+      "amount_cents": 41500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": 41500
+      },
+      "derivation": {
+        "base_cents": 19000,
+        "additional_weekly_hours": 9,
+        "per_weekly_hour_cents": 2500,
+        "published_final_cell": false
+      }
+    },
+    {
+      "id": "ehningen-price-43bef08d74b3",
+      "offer_id": "ehningen-offer-7fc03d700303",
+      "amount_cents": 33200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": 33200
+      },
+      "derivation": {
+        "base_cents": 15200,
+        "additional_weekly_hours": 9,
+        "per_weekly_hour_cents": 2000,
+        "published_final_cell": false
+      }
+    },
+    {
+      "id": "ehningen-price-f077e6a1a519",
+      "offer_id": "ehningen-offer-7fc03d700303",
+      "amount_cents": 25800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": 25800
+      },
+      "derivation": {
+        "base_cents": 11400,
+        "additional_weekly_hours": 9,
+        "per_weekly_hour_cents": 1600,
+        "published_final_cell": false
+      }
+    },
+    {
+      "id": "ehningen-price-c5754c7db0a8",
+      "offer_id": "ehningen-offer-7fc03d700303",
+      "amount_cents": 16700,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": 16700
+      },
+      "derivation": {
+        "base_cents": 7700,
+        "additional_weekly_hours": 9,
+        "per_weekly_hour_cents": 1000,
+        "published_final_cell": false
+      }
+    },
+    {
+      "id": "ehningen-price-706abc2faf5e",
+      "offer_id": "ehningen-offer-d5786bf0f00e",
+      "amount_cents": 49000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": 49000
+      },
+      "derivation": {
+        "base_cents": 19000,
+        "additional_weekly_hours": 12,
+        "per_weekly_hour_cents": 2500,
+        "published_final_cell": false
+      }
+    },
+    {
+      "id": "ehningen-price-a1bb491af21d",
+      "offer_id": "ehningen-offer-d5786bf0f00e",
+      "amount_cents": 39200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": 39200
+      },
+      "derivation": {
+        "base_cents": 15200,
+        "additional_weekly_hours": 12,
+        "per_weekly_hour_cents": 2000,
+        "published_final_cell": false
+      }
+    },
+    {
+      "id": "ehningen-price-fe94c15e456f",
+      "offer_id": "ehningen-offer-d5786bf0f00e",
+      "amount_cents": 30600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": 30600
+      },
+      "derivation": {
+        "base_cents": 11400,
+        "additional_weekly_hours": 12,
+        "per_weekly_hour_cents": 1600,
+        "published_final_cell": false
+      }
+    },
+    {
+      "id": "ehningen-price-96d9e266315d",
+      "offer_id": "ehningen-offer-d5786bf0f00e",
+      "amount_cents": 19700,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": 19700
+      },
+      "derivation": {
+        "base_cents": 7700,
+        "additional_weekly_hours": 12,
+        "per_weekly_hour_cents": 1000,
+        "published_final_cell": false
+      }
+    },
+    {
+      "id": "ehningen-price-98b295b1ca39",
+      "offer_id": "ehningen-offer-d8842c9d888c",
+      "amount_cents": 29000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": 29000
+      },
+      "derivation": {
+        "base_cents": 19000,
+        "additional_weekly_hours": 4,
+        "per_weekly_hour_cents": 2500,
+        "published_final_cell": false
+      }
+    },
+    {
+      "id": "ehningen-price-b09dce5da76b",
+      "offer_id": "ehningen-offer-d8842c9d888c",
+      "amount_cents": 23200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": 23200
+      },
+      "derivation": {
+        "base_cents": 15200,
+        "additional_weekly_hours": 4,
+        "per_weekly_hour_cents": 2000,
+        "published_final_cell": false
+      }
+    },
+    {
+      "id": "ehningen-price-f92a3291e8e6",
+      "offer_id": "ehningen-offer-d8842c9d888c",
+      "amount_cents": 17800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": 17800
+      },
+      "derivation": {
+        "base_cents": 11400,
+        "additional_weekly_hours": 4,
+        "per_weekly_hour_cents": 1600,
+        "published_final_cell": false
+      }
+    },
+    {
+      "id": "ehningen-price-27568d1c90b1",
+      "offer_id": "ehningen-offer-d8842c9d888c",
+      "amount_cents": 11700,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": 11700
+      },
+      "derivation": {
+        "base_cents": 7700,
+        "additional_weekly_hours": 4,
+        "per_weekly_hour_cents": 1000,
+        "published_final_cell": false
+      }
+    },
+    {
+      "id": "ehningen-price-b3d3dabff5d0",
+      "offer_id": "ehningen-offer-911e5666447f",
+      "amount_cents": 39000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": 39000
+      },
+      "derivation": {
+        "base_cents": 19000,
+        "additional_weekly_hours": 8,
+        "per_weekly_hour_cents": 2500,
+        "published_final_cell": false
+      }
+    },
+    {
+      "id": "ehningen-price-5bf28ae8126c",
+      "offer_id": "ehningen-offer-911e5666447f",
+      "amount_cents": 31200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": 31200
+      },
+      "derivation": {
+        "base_cents": 15200,
+        "additional_weekly_hours": 8,
+        "per_weekly_hour_cents": 2000,
+        "published_final_cell": false
+      }
+    },
+    {
+      "id": "ehningen-price-f3b0113d7a6b",
+      "offer_id": "ehningen-offer-911e5666447f",
+      "amount_cents": 24200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": 24200
+      },
+      "derivation": {
+        "base_cents": 11400,
+        "additional_weekly_hours": 8,
+        "per_weekly_hour_cents": 1600,
+        "published_final_cell": false
+      }
+    },
+    {
+      "id": "ehningen-price-f09170c96483",
+      "offer_id": "ehningen-offer-911e5666447f",
+      "amount_cents": 15700,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": 15700
+      },
+      "derivation": {
+        "base_cents": 7700,
+        "additional_weekly_hours": 8,
+        "per_weekly_hour_cents": 1000,
+        "published_final_cell": false
+      }
+    },
+    {
+      "id": "ehningen-price-4e0e4c0bbd00",
+      "offer_id": "ehningen-offer-b3b5cf3238d2",
+      "amount_cents": 49000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": 49000
+      },
+      "derivation": {
+        "base_cents": 19000,
+        "additional_weekly_hours": 12,
+        "per_weekly_hour_cents": 2500,
+        "published_final_cell": false
+      }
+    },
+    {
+      "id": "ehningen-price-ee025f7ec9be",
+      "offer_id": "ehningen-offer-b3b5cf3238d2",
+      "amount_cents": 39200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": 39200
+      },
+      "derivation": {
+        "base_cents": 15200,
+        "additional_weekly_hours": 12,
+        "per_weekly_hour_cents": 2000,
+        "published_final_cell": false
+      }
+    },
+    {
+      "id": "ehningen-price-0dd300264fc2",
+      "offer_id": "ehningen-offer-b3b5cf3238d2",
+      "amount_cents": 30600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": 30600
+      },
+      "derivation": {
+        "base_cents": 11400,
+        "additional_weekly_hours": 12,
+        "per_weekly_hour_cents": 1600,
+        "published_final_cell": false
+      }
+    },
+    {
+      "id": "ehningen-price-ba6f963dd52d",
+      "offer_id": "ehningen-offer-b3b5cf3238d2",
+      "amount_cents": 19700,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": 19700
+      },
+      "derivation": {
+        "base_cents": 7700,
+        "additional_weekly_hours": 12,
+        "per_weekly_hour_cents": 1000,
+        "published_final_cell": false
+      }
+    },
+    {
+      "id": "ehningen-price-eaaa274a02f8",
+      "offer_id": "ehningen-offer-e27a4bfc5219",
+      "amount_cents": 59000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": 59000
+      },
+      "derivation": {
+        "base_cents": 19000,
+        "additional_weekly_hours": 16,
+        "per_weekly_hour_cents": 2500,
+        "published_final_cell": false
+      }
+    },
+    {
+      "id": "ehningen-price-d86d56a0a955",
+      "offer_id": "ehningen-offer-e27a4bfc5219",
+      "amount_cents": 47200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": 47200
+      },
+      "derivation": {
+        "base_cents": 15200,
+        "additional_weekly_hours": 16,
+        "per_weekly_hour_cents": 2000,
+        "published_final_cell": false
+      }
+    },
+    {
+      "id": "ehningen-price-794517d1532e",
+      "offer_id": "ehningen-offer-e27a4bfc5219",
+      "amount_cents": 37000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": 37000
+      },
+      "derivation": {
+        "base_cents": 11400,
+        "additional_weekly_hours": 16,
+        "per_weekly_hour_cents": 1600,
+        "published_final_cell": false
+      }
+    },
+    {
+      "id": "ehningen-price-192d082264e3",
+      "offer_id": "ehningen-offer-e27a4bfc5219",
+      "amount_cents": 23700,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": 23700
+      },
+      "derivation": {
+        "base_cents": 7700,
+        "additional_weekly_hours": 16,
+        "per_weekly_hour_cents": 1000,
+        "published_final_cell": false
+      }
+    },
+    {
+      "id": "ehningen-price-31b082be8d83",
+      "offer_id": "ehningen-offer-5764b4493ac0",
+      "amount_cents": 69000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": 69000
+      },
+      "derivation": {
+        "base_cents": 19000,
+        "additional_weekly_hours": 20,
+        "per_weekly_hour_cents": 2500,
+        "published_final_cell": true
+      }
+    },
+    {
+      "id": "ehningen-price-84e127e4bb8e",
+      "offer_id": "ehningen-offer-5764b4493ac0",
+      "amount_cents": 55200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": 55200
+      },
+      "derivation": {
+        "base_cents": 15200,
+        "additional_weekly_hours": 20,
+        "per_weekly_hour_cents": 2000,
+        "published_final_cell": true
+      }
+    },
+    {
+      "id": "ehningen-price-c7de1c74e642",
+      "offer_id": "ehningen-offer-5764b4493ac0",
+      "amount_cents": 43400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": 43400
+      },
+      "derivation": {
+        "base_cents": 11400,
+        "additional_weekly_hours": 20,
+        "per_weekly_hour_cents": 1600,
+        "published_final_cell": true
+      }
+    },
+    {
+      "id": "ehningen-price-1a9db919d1b8",
+      "offer_id": "ehningen-offer-5764b4493ac0",
+      "amount_cents": 27700,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+        "original": 27700
+      },
+      "derivation": {
+        "base_cents": 7700,
+        "additional_weekly_hours": 20,
+        "per_weekly_hour_cents": 1000,
+        "published_final_cell": true
+      }
+    }
+  ],
+  "income_bands": [],
+  "components": [
+    {
+      "id": "ehningen-component-a91649f2552d",
+      "kind": "meal",
+      "original_label": "Mittagessen",
+      "amount_cents": null,
+      "unit": "per_month",
+      "age_group": null,
+      "required": null,
+      "payment_months": null,
+      "offer_ids": null,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "value_status": "unknown",
+      "evidence": {
+        "source_id": "da4b793532b5",
+        "locator": "Verpflegung gesondert",
+        "original": null
+      }
+    }
+  ],
+  "rules": [
+    {
+      "id": "ehningen-rule-3936a032ac63",
+      "kind": "weekly_hour_formula_u3",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "base_weekly_minutes": 1800,
+        "base_amounts": [
+          {
+            "amount_cents": 49300
+          },
+          {
+            "amount_cents": 39800
+          },
+          {
+            "amount_cents": 30300
+          },
+          {
+            "amount_cents": 19900
+          }
+        ],
+        "additional_weekly_hour_monthly_amounts": [
+          {
+            "amount_cents": 2500
+          },
+          {
+            "amount_cents": 2000
+          },
+          {
+            "amount_cents": 1600
+          },
+          {
+            "amount_cents": 1000
+          }
+        ]
+      },
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "Grundbeitrag und Zuschlag je weiterer Wochenstunde",
+        "original": null
+      }
+    },
+    {
+      "id": "ehningen-rule-30b28050aba2",
+      "kind": "weekly_hour_formula_o3",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "base_weekly_minutes": 1800,
+        "base_amounts": [
+          {
+            "amount_cents": 19000
+          },
+          {
+            "amount_cents": 15200
+          },
+          {
+            "amount_cents": 11400
+          },
+          {
+            "amount_cents": 7700
+          }
+        ],
+        "additional_weekly_hour_monthly_amounts": [
+          {
+            "amount_cents": 2500
+          },
+          {
+            "amount_cents": 2000
+          },
+          {
+            "amount_cents": 1600
+          },
+          {
+            "amount_cents": 1000
+          }
+        ]
+      },
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "Grundbeitrag und Zuschlag je weiterer Wochenstunde",
+        "original": null
+      }
+    },
+    {
+      "id": "ehningen-rule-f5cb8110cc83",
+      "kind": "source_provisions_da4b793532b5",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "archive_text_path": "data/sources/da4b793532b5/text.txt",
+        "text_sha256": "bbe64aa99c8d89328dea3b5f85743fab8635b480b1c13a1d7a8fad0f7f28b1fd",
+        "review_status": "archived_provisions_preserved"
+      },
+      "evidence": {
+        "source_id": "da4b793532b5",
+        "locator": "Vollständiger archivierter Dokumenttext einschließlich Fußnoten",
+        "original": null
+      }
+    },
+    {
+      "id": "ehningen-rule-cef59dbf6e13",
+      "kind": "source_clause_da4b793532b5_1_3",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 0,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "da4b793532b5",
+        "locator": "PDF-/Textseite 1, Absatzblock 3",
+        "original": null
+      }
+    },
+    {
+      "id": "ehningen-rule-366e7f9eddf8",
+      "kind": "source_clause_da4b793532b5_1_8",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 1,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "da4b793532b5",
+        "locator": "PDF-/Textseite 1, Absatzblock 8",
+        "original": null
+      }
+    },
+    {
+      "id": "ehningen-rule-a70dda67c476",
+      "kind": "source_clause_da4b793532b5_1_9",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 2,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "da4b793532b5",
+        "locator": "PDF-/Textseite 1, Absatzblock 9",
+        "original": null
+      }
+    },
+    {
+      "id": "ehningen-rule-c423708c6f60",
+      "kind": "source_clause_da4b793532b5_1_10",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 3,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "da4b793532b5",
+        "locator": "PDF-/Textseite 1, Absatzblock 10",
+        "original": null
+      }
+    },
+    {
+      "id": "ehningen-rule-309a6c5db5f8",
+      "kind": "source_clause_da4b793532b5_1_11",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 4,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "da4b793532b5",
+        "locator": "PDF-/Textseite 1, Absatzblock 11",
+        "original": null
+      }
+    },
+    {
+      "id": "ehningen-rule-3796c0d2178a",
+      "kind": "source_clause_da4b793532b5_1_12",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 5,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "da4b793532b5",
+        "locator": "PDF-/Textseite 1, Absatzblock 12",
+        "original": null
+      }
+    },
+    {
+      "id": "ehningen-rule-d7cc494c800d",
+      "kind": "source_clause_da4b793532b5_1_14",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 6,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "da4b793532b5",
+        "locator": "PDF-/Textseite 1, Absatzblock 14",
+        "original": null
+      }
+    },
+    {
+      "id": "ehningen-rule-4b23587b5f8a",
+      "kind": "source_clause_da4b793532b5_2_2",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 7,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "da4b793532b5",
+        "locator": "PDF-/Textseite 2, Absatzblock 2",
+        "original": null
+      }
+    },
+    {
+      "id": "ehningen-rule-49ae303c21ef",
+      "kind": "source_clause_da4b793532b5_2_3",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 8,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "da4b793532b5",
+        "locator": "PDF-/Textseite 2, Absatzblock 3",
+        "original": null
+      }
+    },
+    {
+      "id": "ehningen-rule-8bf4f9b6ce0c",
+      "kind": "source_clause_da4b793532b5_2_5",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 9,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "da4b793532b5",
+        "locator": "PDF-/Textseite 2, Absatzblock 5",
+        "original": null
+      }
+    },
+    {
+      "id": "ehningen-rule-bfce285b6485",
+      "kind": "source_clause_da4b793532b5_2_6",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 10,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "da4b793532b5",
+        "locator": "PDF-/Textseite 2, Absatzblock 6",
+        "original": null
+      }
+    },
+    {
+      "id": "ehningen-rule-cbfb51b37a70",
+      "kind": "source_clause_da4b793532b5_2_11",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 11,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "da4b793532b5",
+        "locator": "PDF-/Textseite 2, Absatzblock 11",
+        "original": null
+      }
+    },
+    {
+      "id": "ehningen-rule-ebbc5382055f",
+      "kind": "source_clause_da4b793532b5_3_1",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 12,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "da4b793532b5",
+        "locator": "PDF-/Textseite 3, Absatzblock 1",
+        "original": null
+      }
+    },
+    {
+      "id": "ehningen-rule-da3701ad98b6",
+      "kind": "source_clause_da4b793532b5_3_3",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 13,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "da4b793532b5",
+        "locator": "PDF-/Textseite 3, Absatzblock 3",
+        "original": null
+      }
+    },
+    {
+      "id": "ehningen-rule-06a5d1998bcd",
+      "kind": "source_clause_da4b793532b5_3_4",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 14,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "da4b793532b5",
+        "locator": "PDF-/Textseite 3, Absatzblock 4",
+        "original": null
+      }
+    },
+    {
+      "id": "ehningen-rule-1983f2c67a62",
+      "kind": "source_clause_da4b793532b5_3_5",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 15,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "da4b793532b5",
+        "locator": "PDF-/Textseite 3, Absatzblock 5",
+        "original": null
+      }
+    },
+    {
+      "id": "ehningen-rule-e231b0e366cb",
+      "kind": "source_clause_da4b793532b5_3_7",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 16,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "da4b793532b5",
+        "locator": "PDF-/Textseite 3, Absatzblock 7",
+        "original": null
+      }
+    },
+    {
+      "id": "ehningen-rule-ffbdfba1bb92",
+      "kind": "source_clause_da4b793532b5_3_9",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 17,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "da4b793532b5",
+        "locator": "PDF-/Textseite 3, Absatzblock 9",
+        "original": null
+      }
+    },
+    {
+      "id": "ehningen-rule-558f821348e8",
+      "kind": "source_clause_da4b793532b5_4_2",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 18,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "da4b793532b5",
+        "locator": "PDF-/Textseite 4, Absatzblock 2",
+        "original": null
+      }
+    },
+    {
+      "id": "ehningen-rule-d41bf7bd452e",
+      "kind": "source_clause_da4b793532b5_4_3",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 19,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "da4b793532b5",
+        "locator": "PDF-/Textseite 4, Absatzblock 3",
+        "original": null
+      }
+    },
+    {
+      "id": "ehningen-rule-14eca41a0e14",
+      "kind": "source_clause_da4b793532b5_4_4",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 20,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "da4b793532b5",
+        "locator": "PDF-/Textseite 4, Absatzblock 4",
+        "original": null
+      }
+    },
+    {
+      "id": "ehningen-rule-fb6650f2d543",
+      "kind": "source_clause_da4b793532b5_4_5",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 21,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "da4b793532b5",
+        "locator": "PDF-/Textseite 4, Absatzblock 5",
+        "original": null
+      }
+    }
+  ],
+  "issues": [
+    {
+      "code": "pending_calculation_review",
+      "detail": "Strukturierter Import; noch keine Freigabe des Rechners oder der Website."
+    },
+    {
+      "code": "research_limitation_1",
+      "detail": "Für fünfmal mindestens acht Stunden belegt die aktuelle Modulliste GT10; kein nicht veröffentlichtes 5×9-Modul erfinden. Essen separat nachprüfen."
+    }
+  ],
+  "coverage": {
+    "publication_status": "not_active",
+    "integration_status": "normalized_pending_calculation_review",
+    "history_in_scope": false,
+    "source_register": "data/research/neighbor_expansion_2026-11-10.json",
+    "research_id": "ehningen",
+    "unavailable_configurations": [],
+    "offers": 30,
+    "price_cells": 120,
+    "income_bands": 0,
+    "components": 1,
+    "rule_records": 25,
+    "tariff_table_transcription": "complete_for_declared_scope",
+    "declared_scope": "Aktuelle und bereits veröffentlichte künftige Krippen- und Kindergartentarife; Zusatzkosten und Gebührenregeln.",
+    "excluded_from_regular_price_rows": [
+      "superseded_historical_tariffs",
+      "school_childcare",
+      "takki_and_childminding",
+      "separate_playgroups"
+    ],
+    "calculation_engine_changed": false,
+    "rule_transcription": "typed_parameters_and_source_clauses_with_explicit_unimplemented_status"
+  },
+  "original_research": {
+    "path": "data/research/neighbor_expansion_2026-11-10.json",
+    "section": "Ehningen",
+    "text": "Ein Tabellen-Stundensatz ist der monatliche Preis einer zusätzlich gebuchten Wochenstunde; nicht mit einem tatsächlich geleisteten Einzelstundensatz verwechseln.\nFür fünfmal mindestens acht Stunden belegt die aktuelle Modulliste GT10; kein nicht veröffentlichtes 5×9-Modul erfinden. Essen separat nachprüfen.",
+    "source_clauses": [
+      {
+        "text": "über die Erhebung von Benutzungsgebühren für Tageseinrichtungen für\n                         Kinder bis zum Schuleintritt",
+        "evidence": {
+          "source_id": "da4b793532b5",
+          "locator": "PDF-/Textseite 1, Absatzblock 3",
+          "original": null
+        }
+      },
+      {
+        "text": "(1) Für die Benutzung von Kinderbetreuungseinrichtungen werden Benutzungsgebühren gem.\n   § 3 erhoben. Sie sind für 11 Monate zu entrichten; der Monat August ist gebührenfrei.\n   Die Gebührenpflicht besteht auch während der Ferien und Schließzeiten sowie bei\n   Nichtbenutzung oder vorübergehender Schließung der Einrichtung.",
+        "evidence": {
+          "source_id": "da4b793532b5",
+          "locator": "PDF-/Textseite 1, Absatzblock 8",
+          "original": null
+        }
+      },
+      {
+        "text": "(2) Gebührenmaßstab ist die Anzahl der belegten Betreuungsplätze.",
+        "evidence": {
+          "source_id": "da4b793532b5",
+          "locator": "PDF-/Textseite 1, Absatzblock 9",
+          "original": null
+        }
+      },
+      {
+        "text": "(3) Die Gebühren werden jeweils für einen Kalendermonat (Veranlagungszeitraum) erhoben.\n   Sie sind in voller Höhe zu entrichten, wenn das Kind vor dem 16. des jeweiligen Monats\n   eintritt bzw. nach dem 15. des jeweiligen Monats ausscheidet. Bei Ausscheiden vor dem\n   16. des jeweiligen Monats bzw. bei Eintritt ab dem 16. des jeweiligen Monats sind 50% der\n   Gebühr zu entrichten.",
+        "evidence": {
+          "source_id": "da4b793532b5",
+          "locator": "PDF-/Textseite 1, Absatzblock 10",
+          "original": null
+        }
+      },
+      {
+        "text": "(4) Wird ein Kind bereits im Alter von 2 Jahren und 9 Monaten im Kindergarten betreut, wird\n   bis einschließlich des Monats in dem das Kind das dritte Lebensjahr vollendet, der doppelte\n   Gebührensatz für die Betreuung in den Kindergärten (Ü3), höchstens jedoch die Gebühr\n   für die Kleinkindbetreuung, erhoben.\n   Vollendet das Kind bis einschließlich zum 15. des laufenden Monats das 3. Lebensjahr,\n   wird der Gebührensatz für die Kindergärten (Ü3) erhoben.",
+        "evidence": {
+          "source_id": "da4b793532b5",
+          "locator": "PDF-/Textseite 1, Absatzblock 11",
+          "original": null
+        }
+      },
+      {
+        "text": "(5) Wird ein Kind über den dritten Geburtstag hinaus in einer Ehninger Kleinkindgruppe (U3)\n    betreut, wird die Gebühr für den Kindergarten (Ü3) erhoben. § 2 Abs. 4 Satz findet hierbei\n    Anwendung.        Freiwillige  Verzögerungen,      die    auf    dem     Wunsch        der\n    Personensorgeberechtigten beruhen, sind von dieser Regelung ausgenommen.",
+        "evidence": {
+          "source_id": "da4b793532b5",
+          "locator": "PDF-/Textseite 1, Absatzblock 12",
+          "original": null
+        }
+      },
+      {
+        "text": "(1) Die Höhe der Gebühr wird gestaffelt nach der Anzahl der Kinder, die noch nicht das 18.\n   Lebensjahr vollendet haben und die nicht nur vorübergehend im Haushalt des\n   Gebührenschuldners gemeldet sind. Unterhaltspflichtige Kinder, die nicht im Haushalt des\n   Gebührenschuldners gemeldet sind, werden nicht berücksichtigt. Besuchen mehrere",
+        "evidence": {
+          "source_id": "da4b793532b5",
+          "locator": "PDF-/Textseite 1, Absatzblock 14",
+          "original": null
+        }
+      },
+      {
+        "text": "(3) Höhe der Gebührensätze je Betreuungsplatz im Einzelnen (in Euro pro Monat) für die\n   Kindergärten (Ü3):",
+        "evidence": {
+          "source_id": "da4b793532b5",
+          "locator": "PDF-/Textseite 2, Absatzblock 2",
+          "original": null
+        }
+      },
+      {
+        "text": "Benutzungsgebühren für die Kindergärten (Ü3) pro Monat\n                                       ab dem 01.09.2025\n        Betreuungs-        Kind aus         Kind aus      Kind aus        Kind aus\n                                                                       Familien mit 4\n        umfang            Familien mit    Familien mit   Familien mit\n                                                                         und mehr\n        pro Woche           1 Kind         2 Kindern      3 Kindern        Kindern",
+        "evidence": {
+          "source_id": "da4b793532b5",
+          "locator": "PDF-/Textseite 2, Absatzblock 3",
+          "original": null
+        }
+      },
+      {
+        "text": "Höhe der Gebührensätze je Betreuungsplatz im Einzelnen (in Euro pro Monat) für die\n   Kleinkindbetreuung (U3):",
+        "evidence": {
+          "source_id": "da4b793532b5",
+          "locator": "PDF-/Textseite 2, Absatzblock 5",
+          "original": null
+        }
+      },
+      {
+        "text": "Benutzungsgebühren für die Kleinkindbetreuung (U3) pro Monat\n                                      ab dem 01.09.2025\n        Betreuungs-       Kind aus         Kind aus      Kind aus        Kind aus\n                                                                       Familien mit 4\n        umfang           Familien mit    Familien mit   Familien mit\n                                                                         und mehr\n        pro Woche          1 Kind         2 Kindern      3 Kindern        Kindern",
+        "evidence": {
+          "source_id": "da4b793532b5",
+          "locator": "PDF-/Textseite 2, Absatzblock 6",
+          "original": null
+        }
+      },
+      {
+        "text": "Benutzungsgebühren zusätzliche Betreuungsstunde pro Woche\n                                       ab dem 01.09.2025\n                           Kind aus        Kind aus       Kind aus      Kind aus\n                                                                      Familien mit 4\n                          Familien mit   Familien mit    Familien mit\n                                                                        und mehr\n                            1 Kind        2 Kindern       3 Kindern      Kindern\n           1 Stunde          24,00 €          19,00 €          15,00 €           10,00 €",
+        "evidence": {
+          "source_id": "da4b793532b5",
+          "locator": "PDF-/Textseite 2, Absatzblock 11",
+          "original": null
+        }
+      },
+      {
+        "text": "(4) Gebühren für die Kleinkindbetreuung im Rahmen von TAKKI (Tagespflege für Kleinkinder)\n   für Kinder vor Vollendung des 3. Lebensjahres:\n   Die TAKKI-Gebühren werden auf Basis der Kleinkindbetreuung (U3 – 30 Stunden/Woche)\n   berechnet. Bei mehr als 30 Betreuungsstunden pro Woche wird die Gebühr pro\n   Wochenstunde um den Stundensatz für weitere Betreuungsstunden laut Gebührentabelle\n   erhöht. Bei weniger als 30 Betreuungsstunden pro Woche wird die Gebühr durch 30\n   Stunden dividiert und anschließend mit der tatsächlichen Wochenstundenzahl multipliziert.",
+        "evidence": {
+          "source_id": "da4b793532b5",
+          "locator": "PDF-/Textseite 3, Absatzblock 1",
+          "original": null
+        }
+      },
+      {
+        "text": "(5) Gebühren für die Betreuung von Kindern vom vollendeten dritten Lebensjahr bis zum\n   Schuleintritt im Rahmen von TAKKIplus (Tagespflege für Kinder vom vollendeten dritten\n   Lebensjahr bis zum Schuleintritt):\n   Die TAKKIplus-Gebühren werden auf Basis der Kindergartenbetreuung (Ü3 – 30\n   Stunden/Woche) berechnet. Bei mehr als 30 Betreuungsstunden pro Woche wird die\n   Gebühr pro Wochenstunde um den Stundensatz für weitere Betreuungsstunden laut\n   Gebührentabelle erhöht. Bei weniger als 30 Betreuungsstunden pro Woche wird die\n   Gebühr durch 30 Stunden dividiert und anschließend mit der tatsächlichen\n   Wochenstundenzahl multipliziert.",
+        "evidence": {
+          "source_id": "da4b793532b5",
+          "locator": "PDF-/Textseite 3, Absatzblock 3",
+          "original": null
+        }
+      },
+      {
+        "text": "(6) Die Kosten für das Mittagessen sind von den Personensorgeberechtigten zusätzlich zu\n   den Gebühren nach Abs. 3 zu übernehmen.",
+        "evidence": {
+          "source_id": "da4b793532b5",
+          "locator": "PDF-/Textseite 3, Absatzblock 4",
+          "original": null
+        }
+      },
+      {
+        "text": "(7) Für Kinder im Alter von drei Jahren bis zum Schuleintritt kann während der Schließzeit der\n   Kindertageseinrichtung in bestimmten Kindertageseinrichtungen eine Feriennotbetreuung\n   eingerichtet werden. Die Kinder, die die Feriennotbetreuung in Anspruch nehmen, müssen\n   die Eingewöhnungszeit für den Kindergarten bereits abgeschlossen haben. Für die\n   zusätzliche Feriennotbetreuung während der Schließzeit wird eine separate Gebühr\n   erhoben.",
+        "evidence": {
+          "source_id": "da4b793532b5",
+          "locator": "PDF-/Textseite 3, Absatzblock 5",
+          "original": null
+        }
+      },
+      {
+        "text": "(8) Ändert sich die Anzahl der berücksichtigungsfähigen Kinder gem. Absatz 1, ist die\n   Änderung der Gemeindeverwaltung unverzüglich unter Angabe des Kalendermonats, in\n   dem die Änderung eintritt, anzuzeigen. Die Benutzungsgebühren werden ab dem Monat\n   neu festgesetzt, in dem die Änderung eingetreten ist, sofern die Anzeige der Änderung\n   innerhalb von 2 Monaten erfolgte. Bei einer späteren Anzeige erfolgt die Änderung der\n   Benutzungsgebühr ab dem Monat, in welcher die Änderung angezeigt wurde.",
+        "evidence": {
+          "source_id": "da4b793532b5",
+          "locator": "PDF-/Textseite 3, Absatzblock 7",
+          "original": null
+        }
+      },
+      {
+        "text": "(1) Gebührenschuldner       sind     die     gesetzlichen    Vertreter    bzw.     die\n       Personensorgeberechtigten in deren Haushalt das Kind lebt, das den Betreuungsplatz\n       und die Verpflegung in Anspruch nimmt. Als sorgeberechtigte Personen im Sinne\n       dieser Satzung gelten auch Pflegeeltern.",
+        "evidence": {
+          "source_id": "da4b793532b5",
+          "locator": "PDF-/Textseite 3, Absatzblock 9",
+          "original": null
+        }
+      },
+      {
+        "text": "(1) Die Gebührenschuld entsteht zu Beginn des Veranlagungszeitraumes (§ 2 Abs. 3), für den\n   der Betreuungsplatz belegt ist.",
+        "evidence": {
+          "source_id": "da4b793532b5",
+          "locator": "PDF-/Textseite 4, Absatzblock 2",
+          "original": null
+        }
+      },
+      {
+        "text": "(2) Die Benutzungsgebühren werden bei der erstmaligen Benutzung durch schriftlichen\n   Bescheid festgesetzt. Die Festsetzung gilt so lange weiter, bis ein neuer Bescheid oder\n   Änderungsbescheid ergeht.",
+        "evidence": {
+          "source_id": "da4b793532b5",
+          "locator": "PDF-/Textseite 4, Absatzblock 3",
+          "original": null
+        }
+      },
+      {
+        "text": "(3) Die Gebührenschuld ist jeweils für einen vollen Kalendermonat zum ersten Werktag des\n   Monats im Voraus zu entrichten. Dasselbe gilt für den Fall, dass ein neuer\n   Gebührenbescheid oder Änderungsbescheid ergeht oder wenn Gebühren für\n   zurückliegende Zeiträume zu entrichten sind.",
+        "evidence": {
+          "source_id": "da4b793532b5",
+          "locator": "PDF-/Textseite 4, Absatzblock 4",
+          "original": null
+        }
+      },
+      {
+        "text": "§6   Inkrafttreten\nDiese Satzung tritt am 01. September 2025 in Kraft. Gleichzeitig tritt die „Satzung über die\nErhebung von Benutzungsgebühren für Tageseinrichtungen für Kinder bis zum Schuleintritt“\nvom 03. Dezember 2024 außer Kraft.",
+        "evidence": {
+          "source_id": "da4b793532b5",
+          "locator": "PDF-/Textseite 4, Absatzblock 5",
+          "original": null
+        }
+      }
+    ]
+  }
+}

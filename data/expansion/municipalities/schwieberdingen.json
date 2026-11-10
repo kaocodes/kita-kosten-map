@@ -1,0 +1,1842 @@
+{
+  "schema_version": "1.0",
+  "id": "schwieberdingen",
+  "name": "Schwieberdingen",
+  "reviewed_at": "2026-11-10",
+  "reference_date": "2026-11-10",
+  "scope": {
+    "included": [
+      "municipal"
+    ],
+    "other_providers": "only_with_explicit_source_evidence"
+  },
+  "family_basis": "under_18",
+  "family_evidence": {
+    "source_id": "4816bf4b07a7",
+    "locator": "Familienbegriff und Fußnoten der Gebührenunterlagen",
+    "original": null
+  },
+  "supporting_source_ids": [
+    "4816bf4b07a7"
+  ],
+  "offers": [
+    {
+      "id": "schwieberdingen-offer-64c1eeda538e",
+      "original_label": "U3 bis 6 Stunden",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 1800,
+      "weekday_minutes": [
+        360,
+        360,
+        360,
+        360,
+        360
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "483de900d001",
+        "locator": "Gemeindeseite: Sonnenschein Krippe VÖ 7:30–13:30 / GT 7:30–15:30; Herrenwiesenweg Kindergarten VÖ 8–14 / GT 7–15 Uhr",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "4816bf4b07a7",
+        "locator": "Nutzer bestätigt elf Monate September bis Juli mit Verweis auf die Ordnung. Die aktuell gesicherte Beitragstabelle enthält diese Passage nicht; kein Quellenfundort erfunden und keine Schulkindordnung als Kita-Beleg verwendet.",
+        "original": null,
+        "verification": "user_confirmed",
+        "provenance": "user_instruction",
+        "decision_id": "2026-11-10-schwieberdingen-payments-and-family-rules"
+      },
+      "evidence": {
+        "source_id": "4816bf4b07a7",
+        "locator": "PDF S. 1, U3-Tabelle",
+        "original": null
+      },
+      "formula": null,
+      "provider_restriction": null
+    },
+    {
+      "id": "schwieberdingen-offer-7119222b0a70",
+      "original_label": "U3 bis 7 Stunden",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2100,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "4816bf4b07a7",
+        "locator": "PDF S. 1, U3-Tabelle",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "4816bf4b07a7",
+        "locator": "Nutzer bestätigt elf Monate September bis Juli mit Verweis auf die Ordnung. Die aktuell gesicherte Beitragstabelle enthält diese Passage nicht; kein Quellenfundort erfunden und keine Schulkindordnung als Kita-Beleg verwendet.",
+        "original": null,
+        "verification": "user_confirmed",
+        "provenance": "user_instruction",
+        "decision_id": "2026-11-10-schwieberdingen-payments-and-family-rules"
+      },
+      "evidence": {
+        "source_id": "4816bf4b07a7",
+        "locator": "PDF S. 1, U3-Tabelle",
+        "original": null
+      },
+      "formula": null,
+      "provider_restriction": "catholic_only"
+    },
+    {
+      "id": "schwieberdingen-offer-5747ec75da5e",
+      "original_label": "U3 bis 8 Stunden",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2400,
+      "weekday_minutes": [
+        480,
+        480,
+        480,
+        480,
+        480
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "483de900d001",
+        "locator": "Gemeindeseite: Sonnenschein Krippe VÖ 7:30–13:30 / GT 7:30–15:30; Herrenwiesenweg Kindergarten VÖ 8–14 / GT 7–15 Uhr",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "4816bf4b07a7",
+        "locator": "Nutzer bestätigt elf Monate September bis Juli mit Verweis auf die Ordnung. Die aktuell gesicherte Beitragstabelle enthält diese Passage nicht; kein Quellenfundort erfunden und keine Schulkindordnung als Kita-Beleg verwendet.",
+        "original": null,
+        "verification": "user_confirmed",
+        "provenance": "user_instruction",
+        "decision_id": "2026-11-10-schwieberdingen-payments-and-family-rules"
+      },
+      "evidence": {
+        "source_id": "4816bf4b07a7",
+        "locator": "PDF S. 1, U3-Tabelle",
+        "original": null
+      },
+      "formula": null,
+      "provider_restriction": null
+    },
+    {
+      "id": "schwieberdingen-offer-92a7ac0facf9",
+      "original_label": "U3 bis 9 Stunden",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2700,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "4816bf4b07a7",
+        "locator": "PDF S. 1, U3-Tabelle",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "4816bf4b07a7",
+        "locator": "Nutzer bestätigt elf Monate September bis Juli mit Verweis auf die Ordnung. Die aktuell gesicherte Beitragstabelle enthält diese Passage nicht; kein Quellenfundort erfunden und keine Schulkindordnung als Kita-Beleg verwendet.",
+        "original": null,
+        "verification": "user_confirmed",
+        "provenance": "user_instruction",
+        "decision_id": "2026-11-10-schwieberdingen-payments-and-family-rules"
+      },
+      "evidence": {
+        "source_id": "4816bf4b07a7",
+        "locator": "PDF S. 1, U3-Tabelle",
+        "original": null
+      },
+      "formula": null,
+      "provider_restriction": null
+    },
+    {
+      "id": "schwieberdingen-offer-33adef0ccdbf",
+      "original_label": "U3 bis 10 Stunden",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 3000,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "4816bf4b07a7",
+        "locator": "PDF S. 1, U3-Tabelle",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "4816bf4b07a7",
+        "locator": "Nutzer bestätigt elf Monate September bis Juli mit Verweis auf die Ordnung. Die aktuell gesicherte Beitragstabelle enthält diese Passage nicht; kein Quellenfundort erfunden und keine Schulkindordnung als Kita-Beleg verwendet.",
+        "original": null,
+        "verification": "user_confirmed",
+        "provenance": "user_instruction",
+        "decision_id": "2026-11-10-schwieberdingen-payments-and-family-rules"
+      },
+      "evidence": {
+        "source_id": "4816bf4b07a7",
+        "locator": "PDF S. 1, U3-Tabelle",
+        "original": null
+      },
+      "formula": null,
+      "provider_restriction": null
+    },
+    {
+      "id": "schwieberdingen-offer-a12e5afeba6e",
+      "original_label": "VÖ",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 1800,
+      "weekday_minutes": [
+        360,
+        360,
+        360,
+        360,
+        360
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "483de900d001",
+        "locator": "Gemeindeseite: Sonnenschein Krippe VÖ 7:30–13:30 / GT 7:30–15:30; Herrenwiesenweg Kindergarten VÖ 8–14 / GT 7–15 Uhr",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "4816bf4b07a7",
+        "locator": "Nutzer bestätigt elf Monate September bis Juli mit Verweis auf die Ordnung. Die aktuell gesicherte Beitragstabelle enthält diese Passage nicht; kein Quellenfundort erfunden und keine Schulkindordnung als Kita-Beleg verwendet.",
+        "original": null,
+        "verification": "user_confirmed",
+        "provenance": "user_instruction",
+        "decision_id": "2026-11-10-schwieberdingen-payments-and-family-rules"
+      },
+      "evidence": {
+        "source_id": "4816bf4b07a7",
+        "locator": "PDF S. 2, Ü3-Tabelle",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "schwieberdingen-offer-be2333132196",
+      "original_label": "VÖ mit MeKi",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2400,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "483de900d001",
+        "locator": "Pusteblume: MeKi 7:30–15:30, bis acht Stunden; konkrete Einrichtungsvariante separat dokumentiert",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "4816bf4b07a7",
+        "locator": "Nutzer bestätigt elf Monate September bis Juli mit Verweis auf die Ordnung. Die aktuell gesicherte Beitragstabelle enthält diese Passage nicht; kein Quellenfundort erfunden und keine Schulkindordnung als Kita-Beleg verwendet.",
+        "original": null,
+        "verification": "user_confirmed",
+        "provenance": "user_instruction",
+        "decision_id": "2026-11-10-schwieberdingen-payments-and-family-rules"
+      },
+      "evidence": {
+        "source_id": "4816bf4b07a7",
+        "locator": "PDF S. 2, Ü3-Tabelle",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "schwieberdingen-offer-a04b5637ff2e",
+      "original_label": "8 Stunden",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2400,
+      "weekday_minutes": [
+        480,
+        480,
+        480,
+        480,
+        480
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "483de900d001",
+        "locator": "Gemeindeseite: Sonnenschein Krippe VÖ 7:30–13:30 / GT 7:30–15:30; Herrenwiesenweg Kindergarten VÖ 8–14 / GT 7–15 Uhr",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "4816bf4b07a7",
+        "locator": "Nutzer bestätigt elf Monate September bis Juli mit Verweis auf die Ordnung. Die aktuell gesicherte Beitragstabelle enthält diese Passage nicht; kein Quellenfundort erfunden und keine Schulkindordnung als Kita-Beleg verwendet.",
+        "original": null,
+        "verification": "user_confirmed",
+        "provenance": "user_instruction",
+        "decision_id": "2026-11-10-schwieberdingen-payments-and-family-rules"
+      },
+      "evidence": {
+        "source_id": "4816bf4b07a7",
+        "locator": "PDF S. 2, Ü3-Tabelle",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "schwieberdingen-offer-8560890562d3",
+      "original_label": "9 Stunden",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2700,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "4816bf4b07a7",
+        "locator": "PDF S. 2, Ü3-Tabelle",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "4816bf4b07a7",
+        "locator": "Nutzer bestätigt elf Monate September bis Juli mit Verweis auf die Ordnung. Die aktuell gesicherte Beitragstabelle enthält diese Passage nicht; kein Quellenfundort erfunden und keine Schulkindordnung als Kita-Beleg verwendet.",
+        "original": null,
+        "verification": "user_confirmed",
+        "provenance": "user_instruction",
+        "decision_id": "2026-11-10-schwieberdingen-payments-and-family-rules"
+      },
+      "evidence": {
+        "source_id": "4816bf4b07a7",
+        "locator": "PDF S. 2, Ü3-Tabelle",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "schwieberdingen-offer-1a0df09bc5f8",
+      "original_label": "10 Stunden",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 3000,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "4816bf4b07a7",
+        "locator": "PDF S. 2, Ü3-Tabelle",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "4816bf4b07a7",
+        "locator": "Nutzer bestätigt elf Monate September bis Juli mit Verweis auf die Ordnung. Die aktuell gesicherte Beitragstabelle enthält diese Passage nicht; kein Quellenfundort erfunden und keine Schulkindordnung als Kita-Beleg verwendet.",
+        "original": null,
+        "verification": "user_confirmed",
+        "provenance": "user_instruction",
+        "decision_id": "2026-11-10-schwieberdingen-payments-and-family-rules"
+      },
+      "evidence": {
+        "source_id": "4816bf4b07a7",
+        "locator": "PDF S. 2, Ü3-Tabelle",
+        "original": null
+      },
+      "formula": null
+    }
+  ],
+  "prices": [
+    {
+      "id": "schwieberdingen-price-a70b474f9973",
+      "offer_id": "schwieberdingen-offer-64c1eeda538e",
+      "amount_cents": 49200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "4816bf4b07a7",
+        "locator": "PDF S. 1, U3-Tabelle",
+        "original": 492
+      }
+    },
+    {
+      "id": "schwieberdingen-price-09ba9fd6e0df",
+      "offer_id": "schwieberdingen-offer-64c1eeda538e",
+      "amount_cents": 36600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "4816bf4b07a7",
+        "locator": "PDF S. 1, U3-Tabelle",
+        "original": 366
+      }
+    },
+    {
+      "id": "schwieberdingen-price-c19ce0428163",
+      "offer_id": "schwieberdingen-offer-64c1eeda538e",
+      "amount_cents": 24700,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "4816bf4b07a7",
+        "locator": "PDF S. 1, U3-Tabelle",
+        "original": 247
+      }
+    },
+    {
+      "id": "schwieberdingen-price-1a130614c6fb",
+      "offer_id": "schwieberdingen-offer-64c1eeda538e",
+      "amount_cents": 9700,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "4816bf4b07a7",
+        "locator": "PDF S. 1, U3-Tabelle",
+        "original": 97
+      }
+    },
+    {
+      "id": "schwieberdingen-price-1f35d060ec1b",
+      "offer_id": "schwieberdingen-offer-7119222b0a70",
+      "amount_cents": 52600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "4816bf4b07a7",
+        "locator": "PDF S. 1, U3-Tabelle",
+        "original": 526
+      }
+    },
+    {
+      "id": "schwieberdingen-price-d708506b3b1b",
+      "offer_id": "schwieberdingen-offer-7119222b0a70",
+      "amount_cents": 39500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "4816bf4b07a7",
+        "locator": "PDF S. 1, U3-Tabelle",
+        "original": 395
+      }
+    },
+    {
+      "id": "schwieberdingen-price-1df249d89c0e",
+      "offer_id": "schwieberdingen-offer-7119222b0a70",
+      "amount_cents": 27300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "4816bf4b07a7",
+        "locator": "PDF S. 1, U3-Tabelle",
+        "original": 273
+      }
+    },
+    {
+      "id": "schwieberdingen-price-3e1d143906c8",
+      "offer_id": "schwieberdingen-offer-7119222b0a70",
+      "amount_cents": 11800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "4816bf4b07a7",
+        "locator": "PDF S. 1, U3-Tabelle",
+        "original": 118
+      }
+    },
+    {
+      "id": "schwieberdingen-price-a517da146ab4",
+      "offer_id": "schwieberdingen-offer-5747ec75da5e",
+      "amount_cents": 55900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "4816bf4b07a7",
+        "locator": "PDF S. 1, U3-Tabelle",
+        "original": 559
+      }
+    },
+    {
+      "id": "schwieberdingen-price-c47d71637db2",
+      "offer_id": "schwieberdingen-offer-5747ec75da5e",
+      "amount_cents": 42400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "4816bf4b07a7",
+        "locator": "PDF S. 1, U3-Tabelle",
+        "original": 424
+      }
+    },
+    {
+      "id": "schwieberdingen-price-da0f472b8217",
+      "offer_id": "schwieberdingen-offer-5747ec75da5e",
+      "amount_cents": 29900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "4816bf4b07a7",
+        "locator": "PDF S. 1, U3-Tabelle",
+        "original": 299
+      }
+    },
+    {
+      "id": "schwieberdingen-price-199cb2d2e369",
+      "offer_id": "schwieberdingen-offer-5747ec75da5e",
+      "amount_cents": 13900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "4816bf4b07a7",
+        "locator": "PDF S. 1, U3-Tabelle",
+        "original": 139
+      }
+    },
+    {
+      "id": "schwieberdingen-price-2fe2c18b365b",
+      "offer_id": "schwieberdingen-offer-92a7ac0facf9",
+      "amount_cents": 59300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "4816bf4b07a7",
+        "locator": "PDF S. 1, U3-Tabelle",
+        "original": 593
+      }
+    },
+    {
+      "id": "schwieberdingen-price-d2765f9656fa",
+      "offer_id": "schwieberdingen-offer-92a7ac0facf9",
+      "amount_cents": 45400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "4816bf4b07a7",
+        "locator": "PDF S. 1, U3-Tabelle",
+        "original": 454
+      }
+    },
+    {
+      "id": "schwieberdingen-price-b8483204bf1b",
+      "offer_id": "schwieberdingen-offer-92a7ac0facf9",
+      "amount_cents": 32500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "4816bf4b07a7",
+        "locator": "PDF S. 1, U3-Tabelle",
+        "original": 325
+      }
+    },
+    {
+      "id": "schwieberdingen-price-08ab765dde68",
+      "offer_id": "schwieberdingen-offer-92a7ac0facf9",
+      "amount_cents": 16000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "4816bf4b07a7",
+        "locator": "PDF S. 1, U3-Tabelle",
+        "original": 160
+      }
+    },
+    {
+      "id": "schwieberdingen-price-7880e156be54",
+      "offer_id": "schwieberdingen-offer-33adef0ccdbf",
+      "amount_cents": 62600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "4816bf4b07a7",
+        "locator": "PDF S. 1, U3-Tabelle",
+        "original": 626
+      }
+    },
+    {
+      "id": "schwieberdingen-price-26afa08b6a8c",
+      "offer_id": "schwieberdingen-offer-33adef0ccdbf",
+      "amount_cents": 48300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "4816bf4b07a7",
+        "locator": "PDF S. 1, U3-Tabelle",
+        "original": 483
+      }
+    },
+    {
+      "id": "schwieberdingen-price-d76e09e17250",
+      "offer_id": "schwieberdingen-offer-33adef0ccdbf",
+      "amount_cents": 35100,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "4816bf4b07a7",
+        "locator": "PDF S. 1, U3-Tabelle",
+        "original": 351
+      }
+    },
+    {
+      "id": "schwieberdingen-price-865f4b34b661",
+      "offer_id": "schwieberdingen-offer-33adef0ccdbf",
+      "amount_cents": 18100,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "4816bf4b07a7",
+        "locator": "PDF S. 1, U3-Tabelle",
+        "original": 181
+      }
+    },
+    {
+      "id": "schwieberdingen-price-70d6415a394a",
+      "offer_id": "schwieberdingen-offer-a12e5afeba6e",
+      "amount_cents": 17600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "4816bf4b07a7",
+        "locator": "PDF S. 2, Ü3-Tabelle",
+        "original": 176
+      }
+    },
+    {
+      "id": "schwieberdingen-price-13899942de21",
+      "offer_id": "schwieberdingen-offer-a12e5afeba6e",
+      "amount_cents": 13900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": 1
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "4816bf4b07a7",
+        "locator": "PDF S. 2, Ü3-Tabelle",
+        "original": 139
+      }
+    },
+    {
+      "id": "schwieberdingen-price-a0e61aa15763",
+      "offer_id": "schwieberdingen-offer-a12e5afeba6e",
+      "amount_cents": 7000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": 2
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "4816bf4b07a7",
+        "locator": "PDF S. 2, Ü3-Tabelle",
+        "original": 70
+      }
+    },
+    {
+      "id": "schwieberdingen-price-377e60f2f991",
+      "offer_id": "schwieberdingen-offer-a12e5afeba6e",
+      "amount_cents": 9800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": 1
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "4816bf4b07a7",
+        "locator": "PDF S. 2, Ü3-Tabelle",
+        "original": 98
+      }
+    },
+    {
+      "id": "schwieberdingen-price-9f3cbaf15c7c",
+      "offer_id": "schwieberdingen-offer-a12e5afeba6e",
+      "amount_cents": 4900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": 2
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "4816bf4b07a7",
+        "locator": "PDF S. 2, Ü3-Tabelle",
+        "original": 49
+      }
+    },
+    {
+      "id": "schwieberdingen-price-2dccecee77d2",
+      "offer_id": "schwieberdingen-offer-a12e5afeba6e",
+      "amount_cents": 4000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "4816bf4b07a7",
+        "locator": "PDF S. 2, Ü3-Tabelle",
+        "original": 40
+      }
+    },
+    {
+      "id": "schwieberdingen-price-903770a0ba14",
+      "offer_id": "schwieberdingen-offer-be2333132196",
+      "amount_cents": 18600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "4816bf4b07a7",
+        "locator": "PDF S. 2, Ü3-Tabelle",
+        "original": 186
+      }
+    },
+    {
+      "id": "schwieberdingen-price-06eac7bdba0a",
+      "offer_id": "schwieberdingen-offer-be2333132196",
+      "amount_cents": 14900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": 1
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "4816bf4b07a7",
+        "locator": "PDF S. 2, Ü3-Tabelle",
+        "original": 149
+      }
+    },
+    {
+      "id": "schwieberdingen-price-ee43582b81b5",
+      "offer_id": "schwieberdingen-offer-be2333132196",
+      "amount_cents": 7500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": 2
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "4816bf4b07a7",
+        "locator": "PDF S. 2, Ü3-Tabelle",
+        "original": 75
+      }
+    },
+    {
+      "id": "schwieberdingen-price-2f2ee4c92a13",
+      "offer_id": "schwieberdingen-offer-be2333132196",
+      "amount_cents": 10800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": 1
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "4816bf4b07a7",
+        "locator": "PDF S. 2, Ü3-Tabelle",
+        "original": 108
+      }
+    },
+    {
+      "id": "schwieberdingen-price-c7bbf4143cac",
+      "offer_id": "schwieberdingen-offer-be2333132196",
+      "amount_cents": 5400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": 2
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "4816bf4b07a7",
+        "locator": "PDF S. 2, Ü3-Tabelle",
+        "original": 54
+      }
+    },
+    {
+      "id": "schwieberdingen-price-a1c60b57493d",
+      "offer_id": "schwieberdingen-offer-be2333132196",
+      "amount_cents": 4900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "4816bf4b07a7",
+        "locator": "PDF S. 2, Ü3-Tabelle",
+        "original": 49
+      }
+    },
+    {
+      "id": "schwieberdingen-price-8b4f8941053e",
+      "offer_id": "schwieberdingen-offer-a04b5637ff2e",
+      "amount_cents": 18600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "4816bf4b07a7",
+        "locator": "PDF S. 2, Ü3-Tabelle",
+        "original": 186
+      }
+    },
+    {
+      "id": "schwieberdingen-price-4494cef961d2",
+      "offer_id": "schwieberdingen-offer-a04b5637ff2e",
+      "amount_cents": 14900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": 1
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "4816bf4b07a7",
+        "locator": "PDF S. 2, Ü3-Tabelle",
+        "original": 149
+      }
+    },
+    {
+      "id": "schwieberdingen-price-b36891919a45",
+      "offer_id": "schwieberdingen-offer-a04b5637ff2e",
+      "amount_cents": 7500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": 2
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "4816bf4b07a7",
+        "locator": "PDF S. 2, Ü3-Tabelle",
+        "original": 75
+      }
+    },
+    {
+      "id": "schwieberdingen-price-609a9ba7c34f",
+      "offer_id": "schwieberdingen-offer-a04b5637ff2e",
+      "amount_cents": 10800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": 1
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "4816bf4b07a7",
+        "locator": "PDF S. 2, Ü3-Tabelle",
+        "original": 108
+      }
+    },
+    {
+      "id": "schwieberdingen-price-371acd15e76c",
+      "offer_id": "schwieberdingen-offer-a04b5637ff2e",
+      "amount_cents": 5400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": 2
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "4816bf4b07a7",
+        "locator": "PDF S. 2, Ü3-Tabelle",
+        "original": 54
+      }
+    },
+    {
+      "id": "schwieberdingen-price-410f4d57bef6",
+      "offer_id": "schwieberdingen-offer-a04b5637ff2e",
+      "amount_cents": 4900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "4816bf4b07a7",
+        "locator": "PDF S. 2, Ü3-Tabelle",
+        "original": 49
+      }
+    },
+    {
+      "id": "schwieberdingen-price-49145716190b",
+      "offer_id": "schwieberdingen-offer-8560890562d3",
+      "amount_cents": 19600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "4816bf4b07a7",
+        "locator": "PDF S. 2, Ü3-Tabelle",
+        "original": 196
+      }
+    },
+    {
+      "id": "schwieberdingen-price-53deb335edc2",
+      "offer_id": "schwieberdingen-offer-8560890562d3",
+      "amount_cents": 15900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": 1
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "4816bf4b07a7",
+        "locator": "PDF S. 2, Ü3-Tabelle",
+        "original": 159
+      }
+    },
+    {
+      "id": "schwieberdingen-price-74b9fbc6da5c",
+      "offer_id": "schwieberdingen-offer-8560890562d3",
+      "amount_cents": 8000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": 2
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "4816bf4b07a7",
+        "locator": "PDF S. 2, Ü3-Tabelle",
+        "original": 80
+      }
+    },
+    {
+      "id": "schwieberdingen-price-534095491b31",
+      "offer_id": "schwieberdingen-offer-8560890562d3",
+      "amount_cents": 11800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": 1
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "4816bf4b07a7",
+        "locator": "PDF S. 2, Ü3-Tabelle",
+        "original": 118
+      }
+    },
+    {
+      "id": "schwieberdingen-price-8d78df9f00ce",
+      "offer_id": "schwieberdingen-offer-8560890562d3",
+      "amount_cents": 5900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": 2
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "4816bf4b07a7",
+        "locator": "PDF S. 2, Ü3-Tabelle",
+        "original": 59
+      }
+    },
+    {
+      "id": "schwieberdingen-price-6d5e71ce6240",
+      "offer_id": "schwieberdingen-offer-8560890562d3",
+      "amount_cents": 5900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "4816bf4b07a7",
+        "locator": "PDF S. 2, Ü3-Tabelle",
+        "original": 59
+      }
+    },
+    {
+      "id": "schwieberdingen-price-2ac52f8ae595",
+      "offer_id": "schwieberdingen-offer-1a0df09bc5f8",
+      "amount_cents": 20600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "4816bf4b07a7",
+        "locator": "PDF S. 2, Ü3-Tabelle",
+        "original": 206
+      }
+    },
+    {
+      "id": "schwieberdingen-price-07ca8b7da753",
+      "offer_id": "schwieberdingen-offer-1a0df09bc5f8",
+      "amount_cents": 16900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": 1
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "4816bf4b07a7",
+        "locator": "PDF S. 2, Ü3-Tabelle",
+        "original": 169
+      }
+    },
+    {
+      "id": "schwieberdingen-price-3ef1b1d56d2d",
+      "offer_id": "schwieberdingen-offer-1a0df09bc5f8",
+      "amount_cents": 8500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": 2
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "4816bf4b07a7",
+        "locator": "PDF S. 2, Ü3-Tabelle",
+        "original": 85
+      }
+    },
+    {
+      "id": "schwieberdingen-price-add891eb4165",
+      "offer_id": "schwieberdingen-offer-1a0df09bc5f8",
+      "amount_cents": 12800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": 1
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "4816bf4b07a7",
+        "locator": "PDF S. 2, Ü3-Tabelle",
+        "original": 128
+      }
+    },
+    {
+      "id": "schwieberdingen-price-61cea23b594c",
+      "offer_id": "schwieberdingen-offer-1a0df09bc5f8",
+      "amount_cents": 6400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": 2
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "4816bf4b07a7",
+        "locator": "PDF S. 2, Ü3-Tabelle",
+        "original": 64
+      }
+    },
+    {
+      "id": "schwieberdingen-price-9226dd873f30",
+      "offer_id": "schwieberdingen-offer-1a0df09bc5f8",
+      "amount_cents": 6900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "4816bf4b07a7",
+        "locator": "PDF S. 2, Ü3-Tabelle",
+        "original": 69
+      }
+    }
+  ],
+  "income_bands": [],
+  "components": [
+    {
+      "id": "schwieberdingen-component-6109855267f2",
+      "kind": "supplies",
+      "original_label": "U3 Pflegeartikel",
+      "amount_cents": 700,
+      "unit": "per_month",
+      "age_group": "u3",
+      "required": true,
+      "payment_months": null,
+      "offer_ids": null,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "4816bf4b07a7",
+        "locator": "Verpflegung / Zusatzkosten",
+        "original": null
+      }
+    },
+    {
+      "id": "schwieberdingen-component-9244436c8d5a",
+      "kind": "supplies",
+      "original_label": "U3 Windeln bei Bedarf",
+      "amount_cents": 700,
+      "unit": "per_month",
+      "age_group": "u3",
+      "required": null,
+      "payment_months": null,
+      "offer_ids": null,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "4816bf4b07a7",
+        "locator": "Verpflegung / Zusatzkosten",
+        "original": null
+      },
+      "condition": "diapers_needed"
+    },
+    {
+      "id": "schwieberdingen-component-adbfc549c9ef",
+      "kind": "meal",
+      "original_label": "U3 Verpflegung",
+      "amount_cents": 8500,
+      "unit": "per_month",
+      "age_group": "u3",
+      "required": null,
+      "payment_months": null,
+      "offer_ids": null,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "4816bf4b07a7",
+        "locator": "Verpflegung / Zusatzkosten",
+        "original": null
+      }
+    },
+    {
+      "id": "schwieberdingen-component-37bc12d24019",
+      "kind": "meal",
+      "original_label": "Ü3 Mittagessen",
+      "amount_cents": null,
+      "unit": "per_meal",
+      "age_group": "o3",
+      "required": null,
+      "payment_months": null,
+      "offer_ids": null,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "value_status": "unknown",
+      "evidence": {
+        "source_id": "4816bf4b07a7",
+        "locator": "Verpflegung / Zusatzkosten",
+        "original": null
+      }
+    },
+    {
+      "id": "schwieberdingen-component-d5b5552b89f2",
+      "kind": "meal",
+      "original_label": "Ü3 Frühstück falls angeboten",
+      "amount_cents": 1500,
+      "unit": "per_month",
+      "age_group": "o3",
+      "required": null,
+      "payment_months": null,
+      "offer_ids": null,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "4816bf4b07a7",
+        "locator": "Verpflegung / Zusatzkosten",
+        "original": null
+      },
+      "condition": "breakfast_offered"
+    }
+  ],
+  "rules": [
+    {
+      "id": "schwieberdingen-rule-315aaff1adf2",
+      "kind": "family_rules",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "source_id": "4816bf4b07a7",
+        "valid_from": "2026-09-01",
+        "household_children_basis": "children_under_18_in_family",
+        "u3": {
+          "verification": "user_assumption",
+          "decision_id": "2026-11-10-schwieberdingen-u3-cumulative-reductions",
+          "base_band": "household_children_under_18",
+          "band_shift_per_condition": 1,
+          "conditions": [
+            "single_parent",
+            "at_least_two_children_in_simultaneous_u3_care"
+          ],
+          "combination": "sum_condition_shifts",
+          "lowest_published_band": 4,
+          "overflow_handling": "cap_at_lowest_published_band_without_further_discount",
+          "apply_to_each_u3_child": true,
+          "notes": "Kumulation und Begrenzung sind Modellregeln. Kein zusätzlicher Prozentrabatt und keine erfundene fünfte Beitragsstufe."
+        },
+        "o3": {
+          "verification": "source_and_user_clarification",
+          "decision_id": "2026-11-10-schwieberdingen-payments-and-family-rules",
+          "base_band": "household_children_under_18",
+          "single_parent_band_shift": 1,
+          "one_attending_child_rank": 1,
+          "two_attending_children_ranks": [
+            1,
+            2
+          ],
+          "uniform_rank_band_from": 4,
+          "use_published_cells": true,
+          "rank_order_for_different_care_hours": "unresolved",
+          "supported_without_rank_order": [
+            "one_child_in_o3_care",
+            "two_children_with_rank_invariant_total",
+            "uniform_rank_band"
+          ],
+          "notes": "Originaltabellenbeträge statt freier Halbierung verwenden. Gleichzeitiger U3-Besuch erzeugt keinen zusätzlichen Ü3-Rangrabatt. Eine dritte Ü3-Rangzelle ist für die Drei-Kinder-Stufe nicht veröffentlicht und darf nicht erfunden werden."
+        },
+        "locator": "Quellenzuordnung aus dem dokumentierten Recherche-Datensatz"
+      },
+      "evidence": {
+        "source_id": "4816bf4b07a7",
+        "locator": "Dokumentierte Forschungs- und Nutzerfestlegungen",
+        "original": null
+      },
+      "provenance": "research_and_user_decisions"
+    },
+    {
+      "id": "schwieberdingen-rule-aaa74d211dc6",
+      "kind": "2026-11-10-schwieberdingen-payments-and-family-rules",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "id": "2026-11-10-schwieberdingen-payments-and-family-rules",
+        "municipality_id": "schwieberdingen",
+        "kind": "user_supplied_parameters",
+        "instruction": "Elf Beitragsmonate September bis Juli verwenden. Ü3: Haushaltskinderzahl bestimmt die Stufe; ein betreutes Kind erhält den ersten Satz, zwei gleichzeitig betreute Kinder den ersten und zweiten Satz. Alleinerziehung verschiebt um eine Stufe; ab vier Kindern keine Rangaufteilung. Beispiele aus 2025/2026 nicht als aktuelle Preise übernehmen. Rang bei unterschiedlichen Betreuungszeiten anhand der Satzung prüfen.",
+        "recorded_at": "2026-11-10",
+        "provenance": "user_instruction"
+      },
+      "evidence": {
+        "source_id": "4816bf4b07a7",
+        "locator": "Nutzerfestlegung; keine zusätzliche amtliche Quellenbestätigung",
+        "original": null
+      },
+      "provenance": "user_instruction"
+    },
+    {
+      "id": "schwieberdingen-rule-9cc6ace1516e",
+      "kind": "2026-11-10-schwieberdingen-u3-cumulative-reductions",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "id": "2026-11-10-schwieberdingen-u3-cumulative-reductions",
+        "municipality_id": "schwieberdingen",
+        "kind": "model_assumption",
+        "instruction": "U3: Tatsächliche Kinderzahl als Basis; pro Ermäßigungsgrund eine weitere Rabattstufe. Alleinerziehung und gleichzeitiger U3-Besuch von mindestens zwei Kindern kumulieren im Modell.",
+        "recorded_at": "2026-11-10",
+        "provenance": "user_instruction"
+      },
+      "evidence": {
+        "source_id": "4816bf4b07a7",
+        "locator": "Nutzerfestlegung; keine zusätzliche amtliche Quellenbestätigung",
+        "original": null
+      },
+      "provenance": "user_instruction"
+    },
+    {
+      "id": "schwieberdingen-rule-a671dbf933d5",
+      "kind": "source_provisions_4816bf4b07a7",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "archive_text_path": "data/sources/4816bf4b07a7/text.txt",
+        "text_sha256": "77b8e8f5fb3544515d9a2d08e3ef771d0f7bbc81148a8b45209d2626bfb40905",
+        "review_status": "archived_provisions_preserved"
+      },
+      "evidence": {
+        "source_id": "4816bf4b07a7",
+        "locator": "Vollständiger archivierter Dokumenttext einschließlich Fußnoten",
+        "original": null
+      }
+    },
+    {
+      "id": "schwieberdingen-rule-2f8b9b0b8986",
+      "kind": "source_clause_4816bf4b07a7_1_1",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 0,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "4816bf4b07a7",
+        "locator": "PDF-/Textseite 1, Absatzblock 1",
+        "original": null
+      }
+    },
+    {
+      "id": "schwieberdingen-rule-e98d383549eb",
+      "kind": "source_clause_4816bf4b07a7_1_3",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 1,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "4816bf4b07a7",
+        "locator": "PDF-/Textseite 1, Absatzblock 3",
+        "original": null
+      }
+    },
+    {
+      "id": "schwieberdingen-rule-c8b37e4c664e",
+      "kind": "source_clause_4816bf4b07a7_1_4",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 2,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "4816bf4b07a7",
+        "locator": "PDF-/Textseite 1, Absatzblock 4",
+        "original": null
+      }
+    },
+    {
+      "id": "schwieberdingen-rule-418bad526327",
+      "kind": "source_clause_4816bf4b07a7_1_5",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 3,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "4816bf4b07a7",
+        "locator": "PDF-/Textseite 1, Absatzblock 5",
+        "original": null
+      }
+    },
+    {
+      "id": "schwieberdingen-rule-f4f841fa40e4",
+      "kind": "source_clause_4816bf4b07a7_1_11",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 4,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "4816bf4b07a7",
+        "locator": "PDF-/Textseite 1, Absatzblock 11",
+        "original": null
+      }
+    },
+    {
+      "id": "schwieberdingen-rule-38a4f05da05f",
+      "kind": "source_clause_4816bf4b07a7_1_12",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 5,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "4816bf4b07a7",
+        "locator": "PDF-/Textseite 1, Absatzblock 12",
+        "original": null
+      }
+    }
+  ],
+  "issues": [
+    {
+      "code": "pending_calculation_review",
+      "detail": "Strukturierter Import; noch keine Freigabe des Rechners oder der Website."
+    },
+    {
+      "code": "research_limitation_1",
+      "detail": "Ü3-Rangzuordnung bei gleichzeitig betreuten Kindern mit unterschiedlichen Betreuungszeiten öffentlich nicht belegt. Ohne belegte oder ausdrücklich gewählte Rangregel keine willkürliche Alters- oder Preisreihenfolge verwenden; nur betroffene Konfigurationen bleiben offen."
+    },
+    {
+      "code": "research_limitation_2",
+      "detail": "Für drei gleichzeitig betreute Ü3-Kinder in der Drei-Kinder-Stufe ist keine dritte Rangzelle veröffentlicht; vor einer Berechnung gesondert klären. Fälle ohne Einfluss der Rangfolge und die einheitliche Stufe vier sind hiervon unabhängig."
+    },
+    {
+      "code": "research_limitation_3",
+      "detail": "Ü3-Essenspreis unbekannt; zusätzliche Essens- und Verpflegungs-Beitragsmonate nicht automatisch aus den elf Betreuungsmonaten ableiten."
+    }
+  ],
+  "coverage": {
+    "publication_status": "not_active",
+    "integration_status": "normalized_pending_calculation_review",
+    "history_in_scope": false,
+    "source_register": "data/research/neighbor_expansion_2026-11-10.json",
+    "research_id": "schwieberdingen",
+    "unavailable_configurations": [
+      {
+        "id": "o3_rank_changes_family_total",
+        "conditions": {
+          "simultaneous_o3_children_min": 2,
+          "selected_band_in": [
+            2,
+            3
+          ],
+          "different_care_hours": true,
+          "rank_changes_family_total": true
+        },
+        "result_status": "unavailable",
+        "reasons": [
+          "Rangzuordnung für gleichzeitig betreute Ü3-Kinder mit unterschiedlichen Betreuungszeiten nicht belegt."
+        ],
+        "do_not_guess_rank": true
+      },
+      {
+        "id": "o3_missing_third_rank",
+        "conditions": {
+          "simultaneous_o3_children_min": 3,
+          "selected_band": 3
+        },
+        "result_status": "unavailable",
+        "reasons": [
+          "Kein veröffentlichter dritter Ü3-Tabellensatz für die Drei-Kinder-Stufe."
+        ],
+        "do_not_invent_price_cell": true
+      }
+    ],
+    "offers": 10,
+    "price_cells": 50,
+    "income_bands": 0,
+    "components": 5,
+    "rule_records": 10,
+    "tariff_table_transcription": "complete_for_declared_scope",
+    "declared_scope": "Aktuelle und bereits veröffentlichte künftige Krippen- und Kindergartentarife; Zusatzkosten und Gebührenregeln.",
+    "excluded_from_regular_price_rows": [
+      "superseded_historical_tariffs",
+      "school_childcare",
+      "takki_and_childminding",
+      "separate_playgroups"
+    ],
+    "calculation_engine_changed": false,
+    "rule_transcription": "typed_parameters_and_source_clauses_with_explicit_unimplemented_status"
+  },
+  "original_research": {
+    "path": "data/research/neighbor_expansion_2026-11-10.json",
+    "section": "Schwieberdingen",
+    "text": "Elf Beitragsmonate September bis Juli gemäß Nutzerbestätigung übernommen; Herkunft getrennt von der aktuellen Gebührentabelle erhalten.\nU3 verwendet die Haushaltskinderzahl mit einer zusätzlichen Stufe je zutreffendem Ermäßigungsgrund: Alleinerziehung sowie mindestens zwei gleichzeitig U3-betreute Kinder. Die ausdrücklich gewählte kumulative Modellregel ist keine nachgewiesene amtliche Auslegung.\nÜ3 unterscheidet bei zwei und drei Haushaltskindern veröffentlichte erste und zweite Sätze für gleichzeitig betreute Kinder. Bei Alleinerziehung gilt die nächstgünstigere Familienstufe; ab Stufe vier entfällt die Rangaufteilung. Verwendet werden die Tabellen ab September 2026, keine älteren Beispielbeträge.\nU3-Pflegeartikel 7 €, Windeln bei Bedarf 7 € und Essen 85 € sind separat veröffentlicht. Ü3-Essen je Mahlzeit ohne Betrag; Frühstück, falls angeboten, 15 €/Monat.\nÜ3-Rangzuordnung bei gleichzeitig betreuten Kindern mit unterschiedlichen Betreuungszeiten öffentlich nicht belegt. Ohne belegte oder ausdrücklich gewählte Rangregel keine willkürliche Alters- oder Preisreihenfolge verwenden; nur betroffene Konfigurationen bleiben offen.\nFür drei gleichzeitig betreute Ü3-Kinder in der Drei-Kinder-Stufe ist keine dritte Rangzelle veröffentlicht; vor einer Berechnung gesondert klären. Fälle ohne Einfluss der Rangfolge und die einheitliche Stufe vier sind hiervon unabhängig.\nÜ3-Essenspreis unbekannt; zusätzliche Essens- und Verpflegungs-Beitragsmonate nicht automatisch aus den elf Betreuungsmonaten ableiten.",
+    "source_clauses": [
+      {
+        "text": "Monatliche Elternbeiträge in den KiTas/Krippen (U3) ab September 2026",
+        "evidence": {
+          "source_id": "4816bf4b07a7",
+          "locator": "PDF-/Textseite 1, Absatzblock 1",
+          "original": null
+        }
+      },
+      {
+        "text": "* Kinder unter 18 Jahre in der Familie, bei Alleinerziehenden und beim gleichzeitigen Besuch der KiTa/Krippe (U3) von zwei\noder mehr Kindern gilt die nächstniedrige Beitragsstufe",
+        "evidence": {
+          "source_id": "4816bf4b07a7",
+          "locator": "PDF-/Textseite 1, Absatzblock 3",
+          "original": null
+        }
+      },
+      {
+        "text": "Zusätzliche Kosten:\nPflegeartikel (Hygienebetrag): Wird pauschal in Höhe von 7€/Monat abgerechnet.\nWindeln: Wird pauschal bei Bedarf in Höhe von 7€/Monat abgerechnet.\nVerpflegung: Wird pauschal in Höhe von 85€/Monat abgerechnet.",
+        "evidence": {
+          "source_id": "4816bf4b07a7",
+          "locator": "PDF-/Textseite 1, Absatzblock 4",
+          "original": null
+        }
+      },
+      {
+        "text": "Monatliche Elternbeiträge in den Kindergärten (Ü3) ab September 2026",
+        "evidence": {
+          "source_id": "4816bf4b07a7",
+          "locator": "PDF-/Textseite 1, Absatzblock 5",
+          "original": null
+        }
+      },
+      {
+        "text": "* Kinder unter 18 Jahre in der Familie, bei Alleinerziehenden gilt die nächstniedrige Beitragsstufe\n** Kinder unter 18 Jahre, die gleichzeitig einen gemeindlichen Kindergarten (Ü3) besuchen",
+        "evidence": {
+          "source_id": "4816bf4b07a7",
+          "locator": "PDF-/Textseite 1, Absatzblock 11",
+          "original": null
+        }
+      },
+      {
+        "text": "Verpflegung: Wird pro Essen abgerechnet. Wenn Frühstück angeboten wird, werden hierfür 15€/Monat\nabgerechnet.",
+        "evidence": {
+          "source_id": "4816bf4b07a7",
+          "locator": "PDF-/Textseite 1, Absatzblock 12",
+          "original": null
+        }
+      }
+    ]
+  }
+}

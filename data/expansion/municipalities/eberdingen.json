@@ -1,0 +1,1593 @@
+{
+  "schema_version": "1.0",
+  "id": "eberdingen",
+  "name": "Eberdingen",
+  "reviewed_at": "2026-11-10",
+  "reference_date": "2026-11-10",
+  "scope": {
+    "included": [
+      "municipal"
+    ],
+    "other_providers": "only_with_explicit_source_evidence"
+  },
+  "family_basis": "under_18",
+  "family_evidence": {
+    "source_id": "5637db02621e",
+    "locator": "Familienbegriff und Fußnoten der Gebührenunterlagen",
+    "original": null
+  },
+  "supporting_source_ids": [
+    "5637db02621e",
+    "96de4f4a4e57"
+  ],
+  "offers": [
+    {
+      "id": "eberdingen-offer-65fa7e17b58e",
+      "original_label": "Krippengruppe VÖ (6 Std)",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2025-11-01",
+      "valid_to": null,
+      "original_price_valid_from": "2025-11-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 1800,
+      "weekday_minutes": [
+        360,
+        360,
+        360,
+        360,
+        360
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "5637db02621e",
+        "locator": "PDF S. 6–7 und 14–15, neues Beitragssystem ab November 2025",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "5637db02621e",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "5637db02621e",
+        "locator": "PDF S. 6–7 und 14–15, neues Beitragssystem ab November 2025",
+        "original": null
+      },
+      "formula": null,
+      "contract_regime": "new_contribution_system"
+    },
+    {
+      "id": "eberdingen-offer-69ae2eb35f31",
+      "original_label": "Krippengruppe GT (7,5 Std)",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2025-11-01",
+      "valid_to": null,
+      "original_price_valid_from": "2025-11-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2250,
+      "weekday_minutes": [
+        450,
+        450,
+        450,
+        450,
+        450
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "5637db02621e",
+        "locator": "PDF S. 6–7 und 14–15, neues Beitragssystem ab November 2025",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "5637db02621e",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "5637db02621e",
+        "locator": "PDF S. 6–7 und 14–15, neues Beitragssystem ab November 2025",
+        "original": null
+      },
+      "formula": null,
+      "contract_regime": "new_contribution_system"
+    },
+    {
+      "id": "eberdingen-offer-6f419f687964",
+      "original_label": "VÖ (6 Std)",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2025-11-01",
+      "valid_to": null,
+      "original_price_valid_from": "2025-11-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 1800,
+      "weekday_minutes": [
+        360,
+        360,
+        360,
+        360,
+        360
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "5637db02621e",
+        "locator": "PDF S. 6–7 und 14–15, neues Beitragssystem ab November 2025",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "5637db02621e",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "5637db02621e",
+        "locator": "PDF S. 6–7 und 14–15, neues Beitragssystem ab November 2025",
+        "original": null
+      },
+      "formula": null,
+      "contract_regime": "new_contribution_system"
+    },
+    {
+      "id": "eberdingen-offer-4a9ce6c94061",
+      "original_label": "GT (7,5 Std)",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2025-11-01",
+      "valid_to": null,
+      "original_price_valid_from": "2025-11-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2250,
+      "weekday_minutes": [
+        450,
+        450,
+        450,
+        450,
+        450
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "5637db02621e",
+        "locator": "PDF S. 6–7 und 14–15, neues Beitragssystem ab November 2025",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "5637db02621e",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "5637db02621e",
+        "locator": "PDF S. 6–7 und 14–15, neues Beitragssystem ab November 2025",
+        "original": null
+      },
+      "formula": null,
+      "contract_regime": "new_contribution_system"
+    }
+  ],
+  "prices": [
+    {
+      "id": "eberdingen-price-668aae249230",
+      "offer_id": "eberdingen-offer-65fa7e17b58e",
+      "amount_cents": 36600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": 1,
+        "care_rank_is_minimum": false,
+        "rank_basis": "simultaneous_care_youngest_first"
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "5637db02621e",
+        "locator": "PDF S. 6–7 und 14–15, neues Beitragssystem ab November 2025",
+        "original": 36600
+      }
+    },
+    {
+      "id": "eberdingen-price-2f0aa7c87cb3",
+      "offer_id": "eberdingen-offer-65fa7e17b58e",
+      "amount_cents": 18300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": 2,
+        "care_rank_is_minimum": false,
+        "rank_basis": "simultaneous_care_youngest_first"
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "5637db02621e",
+        "locator": "PDF S. 6–7 und 14–15, neues Beitragssystem ab November 2025",
+        "original": 18300
+      }
+    },
+    {
+      "id": "eberdingen-price-6b4945f2a834",
+      "offer_id": "eberdingen-offer-65fa7e17b58e",
+      "amount_cents": 0,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": 3,
+        "care_rank_is_minimum": true,
+        "rank_basis": "simultaneous_care_youngest_first"
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "5637db02621e",
+        "locator": "PDF S. 6–7 und 14–15, neues Beitragssystem ab November 2025",
+        "original": 0
+      }
+    },
+    {
+      "id": "eberdingen-price-a3c7deeb4d56",
+      "offer_id": "eberdingen-offer-69ae2eb35f31",
+      "amount_cents": 45700,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": 1,
+        "care_rank_is_minimum": false,
+        "rank_basis": "simultaneous_care_youngest_first"
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "5637db02621e",
+        "locator": "PDF S. 6–7 und 14–15, neues Beitragssystem ab November 2025",
+        "original": 45700
+      }
+    },
+    {
+      "id": "eberdingen-price-9756edf07c2f",
+      "offer_id": "eberdingen-offer-69ae2eb35f31",
+      "amount_cents": 22900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": 2,
+        "care_rank_is_minimum": false,
+        "rank_basis": "simultaneous_care_youngest_first"
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "5637db02621e",
+        "locator": "PDF S. 6–7 und 14–15, neues Beitragssystem ab November 2025",
+        "original": 22900
+      }
+    },
+    {
+      "id": "eberdingen-price-2becaaf0f411",
+      "offer_id": "eberdingen-offer-69ae2eb35f31",
+      "amount_cents": 0,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": 3,
+        "care_rank_is_minimum": true,
+        "rank_basis": "simultaneous_care_youngest_first"
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "5637db02621e",
+        "locator": "PDF S. 6–7 und 14–15, neues Beitragssystem ab November 2025",
+        "original": 0
+      }
+    },
+    {
+      "id": "eberdingen-price-25dff2250443",
+      "offer_id": "eberdingen-offer-6f419f687964",
+      "amount_cents": 15600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": 1,
+        "care_rank_is_minimum": false,
+        "rank_basis": "simultaneous_care_youngest_first"
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "5637db02621e",
+        "locator": "PDF S. 6–7 und 14–15, neues Beitragssystem ab November 2025",
+        "original": 15600
+      }
+    },
+    {
+      "id": "eberdingen-price-f34e25bc23f3",
+      "offer_id": "eberdingen-offer-6f419f687964",
+      "amount_cents": 7800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": 2,
+        "care_rank_is_minimum": false,
+        "rank_basis": "simultaneous_care_youngest_first"
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "5637db02621e",
+        "locator": "PDF S. 6–7 und 14–15, neues Beitragssystem ab November 2025",
+        "original": 7800
+      }
+    },
+    {
+      "id": "eberdingen-price-39bbc8967ee5",
+      "offer_id": "eberdingen-offer-6f419f687964",
+      "amount_cents": 0,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": 3,
+        "care_rank_is_minimum": true,
+        "rank_basis": "simultaneous_care_youngest_first"
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "5637db02621e",
+        "locator": "PDF S. 6–7 und 14–15, neues Beitragssystem ab November 2025",
+        "original": 0
+      }
+    },
+    {
+      "id": "eberdingen-price-3b84dbbb75eb",
+      "offer_id": "eberdingen-offer-4a9ce6c94061",
+      "amount_cents": 25300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": 1,
+        "care_rank_is_minimum": false,
+        "rank_basis": "simultaneous_care_youngest_first"
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "5637db02621e",
+        "locator": "PDF S. 6–7 und 14–15, neues Beitragssystem ab November 2025",
+        "original": 25300
+      }
+    },
+    {
+      "id": "eberdingen-price-f896f7ccc948",
+      "offer_id": "eberdingen-offer-4a9ce6c94061",
+      "amount_cents": 12600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": 2,
+        "care_rank_is_minimum": false,
+        "rank_basis": "simultaneous_care_youngest_first"
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "5637db02621e",
+        "locator": "PDF S. 6–7 und 14–15, neues Beitragssystem ab November 2025",
+        "original": 12600
+      }
+    },
+    {
+      "id": "eberdingen-price-4a858078fdd3",
+      "offer_id": "eberdingen-offer-4a9ce6c94061",
+      "amount_cents": 0,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": 3,
+        "care_rank_is_minimum": true,
+        "rank_basis": "simultaneous_care_youngest_first"
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "5637db02621e",
+        "locator": "PDF S. 6–7 und 14–15, neues Beitragssystem ab November 2025",
+        "original": 0
+      }
+    }
+  ],
+  "income_bands": [
+    {
+      "id": "eberdingen-income-5dcc614659fa",
+      "basis": "gross_income",
+      "period": "year",
+      "reference_period": "not_specified",
+      "lower_cents": null,
+      "upper_cents": 2500000,
+      "lower_inclusive": true,
+      "upper_inclusive": false,
+      "is_highest": false,
+      "original_label": "unter 25.000 Euro",
+      "evidence": {
+        "source_id": "5637db02621e",
+        "locator": "Einkommensstaffel: unter 25.000 Euro",
+        "original": null
+      }
+    },
+    {
+      "id": "eberdingen-income-2f17be88a77e",
+      "basis": "gross_income",
+      "period": "year",
+      "reference_period": "not_specified",
+      "lower_cents": 2500001,
+      "upper_cents": 3500000,
+      "lower_inclusive": true,
+      "upper_inclusive": true,
+      "is_highest": false,
+      "original_label": "25.000,01–35.000 Euro",
+      "evidence": {
+        "source_id": "5637db02621e",
+        "locator": "Einkommensstaffel: 25.000,01–35.000 Euro",
+        "original": null
+      }
+    }
+  ],
+  "components": [
+    {
+      "id": "eberdingen-component-081481ac5714",
+      "kind": "meal",
+      "original_label": "Einrichtungsabhängiges Mittagessen zum Selbstkostenpreis",
+      "amount_cents": null,
+      "unit": "per_month",
+      "age_group": null,
+      "required": null,
+      "payment_months": null,
+      "offer_ids": null,
+      "valid_from": "2025-11-01",
+      "valid_to": null,
+      "value_status": "unknown",
+      "evidence": {
+        "source_id": "5637db02621e",
+        "locator": "Satzung: Verpflegung",
+        "original": null
+      }
+    }
+  ],
+  "rules": [
+    {
+      "id": "eberdingen-rule-52a24e7ebf88",
+      "kind": "income_reduction_50",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "income_band_id": "eberdingen-income-5dcc614659fa",
+        "discount_percent": 50,
+        "condition": "Nur nach abgelehntem vorrangigem Leistungsantrag und für die in § 6 Abs. 9 genannten GT-Beiträge; Grenzwert 25.000,00 Euro nicht automatisch zuordnen."
+      },
+      "evidence": {
+        "source_id": "5637db02621e",
+        "locator": "§ 6 Abs. 9",
+        "original": null
+      }
+    },
+    {
+      "id": "eberdingen-rule-39eccc4105c3",
+      "kind": "income_reduction_25",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "income_band_id": "eberdingen-income-2f17be88a77e",
+        "discount_percent": 25,
+        "condition": "Nur nach abgelehntem vorrangigem Leistungsantrag und für die in § 6 Abs. 9 genannten GT-Beiträge; Grenzwert 25.000,00 Euro nicht automatisch zuordnen."
+      },
+      "evidence": {
+        "source_id": "5637db02621e",
+        "locator": "§ 6 Abs. 9",
+        "original": null
+      }
+    },
+    {
+      "id": "eberdingen-rule-ca748a1e1d72",
+      "kind": "contract_regime",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "scope": "new_contribution_system",
+        "legacy_contracts": "preserved_in_original_not_automatically_reclassified"
+      },
+      "evidence": {
+        "source_id": "5637db02621e",
+        "locator": "Übergangsregelungen und alte Vertragssystematik",
+        "original": null
+      }
+    },
+    {
+      "id": "eberdingen-rule-ff2915738003",
+      "kind": "source_provisions_96de4f4a4e57",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "archive_text_path": "data/sources/96de4f4a4e57/text.txt",
+        "text_sha256": "7e8d088eb8111629346894e040f4e9ddd49d5560987dc6aefdee53228e110083",
+        "review_status": "archived_provisions_preserved"
+      },
+      "evidence": {
+        "source_id": "96de4f4a4e57",
+        "locator": "Vollständiger archivierter Dokumenttext einschließlich Fußnoten",
+        "original": null
+      }
+    },
+    {
+      "id": "eberdingen-rule-c7f68447f0d0",
+      "kind": "source_clause_96de4f4a4e57_2_9",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 0,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "96de4f4a4e57",
+        "locator": "PDF-/Textseite 2, Absatzblock 9",
+        "original": null
+      }
+    },
+    {
+      "id": "eberdingen-rule-80a7839c1ff8",
+      "kind": "source_clause_96de4f4a4e57_2_10",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 1,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "96de4f4a4e57",
+        "locator": "PDF-/Textseite 2, Absatzblock 10",
+        "original": null
+      }
+    },
+    {
+      "id": "eberdingen-rule-1a37b291f149",
+      "kind": "source_clause_96de4f4a4e57_4_5",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 2,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "96de4f4a4e57",
+        "locator": "PDF-/Textseite 4, Absatzblock 5",
+        "original": null
+      }
+    },
+    {
+      "id": "eberdingen-rule-fceb04bef569",
+      "kind": "source_clause_96de4f4a4e57_4_6",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 3,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "96de4f4a4e57",
+        "locator": "PDF-/Textseite 4, Absatzblock 6",
+        "original": null
+      }
+    },
+    {
+      "id": "eberdingen-rule-f3e749940ab3",
+      "kind": "source_clause_96de4f4a4e57_4_7",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 4,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "96de4f4a4e57",
+        "locator": "PDF-/Textseite 4, Absatzblock 7",
+        "original": null
+      }
+    },
+    {
+      "id": "eberdingen-rule-1ff7e346a529",
+      "kind": "source_clause_96de4f4a4e57_4_8",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 5,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "96de4f4a4e57",
+        "locator": "PDF-/Textseite 4, Absatzblock 8",
+        "original": null
+      }
+    },
+    {
+      "id": "eberdingen-rule-5e1d660d5164",
+      "kind": "source_clause_96de4f4a4e57_5_1",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 6,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "96de4f4a4e57",
+        "locator": "PDF-/Textseite 5, Absatzblock 1",
+        "original": null
+      }
+    },
+    {
+      "id": "eberdingen-rule-fdebb8b84b8d",
+      "kind": "source_clause_96de4f4a4e57_5_2",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 7,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "96de4f4a4e57",
+        "locator": "PDF-/Textseite 5, Absatzblock 2",
+        "original": null
+      }
+    },
+    {
+      "id": "eberdingen-rule-bd231fdbdee7",
+      "kind": "source_clause_96de4f4a4e57_5_3",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 8,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "96de4f4a4e57",
+        "locator": "PDF-/Textseite 5, Absatzblock 3",
+        "original": null
+      }
+    },
+    {
+      "id": "eberdingen-rule-ca23e01f0341",
+      "kind": "source_clause_96de4f4a4e57_5_4",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 9,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "96de4f4a4e57",
+        "locator": "PDF-/Textseite 5, Absatzblock 4",
+        "original": null
+      }
+    },
+    {
+      "id": "eberdingen-rule-88d081a95390",
+      "kind": "source_clause_96de4f4a4e57_5_5",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 10,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "96de4f4a4e57",
+        "locator": "PDF-/Textseite 5, Absatzblock 5",
+        "original": null
+      }
+    },
+    {
+      "id": "eberdingen-rule-8830ec8c8c2f",
+      "kind": "source_clause_96de4f4a4e57_5_6",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 11,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "96de4f4a4e57",
+        "locator": "PDF-/Textseite 5, Absatzblock 6",
+        "original": null
+      }
+    },
+    {
+      "id": "eberdingen-rule-271841c47677",
+      "kind": "source_clause_96de4f4a4e57_6_4",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 12,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "96de4f4a4e57",
+        "locator": "PDF-/Textseite 6, Absatzblock 4",
+        "original": null
+      }
+    },
+    {
+      "id": "eberdingen-rule-f80244db052e",
+      "kind": "source_clause_96de4f4a4e57_6_6",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 13,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "96de4f4a4e57",
+        "locator": "PDF-/Textseite 6, Absatzblock 6",
+        "original": null
+      }
+    },
+    {
+      "id": "eberdingen-rule-2fea0870dbb9",
+      "kind": "source_clause_96de4f4a4e57_9_9",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 14,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "96de4f4a4e57",
+        "locator": "PDF-/Textseite 9, Absatzblock 9",
+        "original": null
+      }
+    },
+    {
+      "id": "eberdingen-rule-09bd9c945e32",
+      "kind": "source_clause_96de4f4a4e57_11_1",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 15,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "96de4f4a4e57",
+        "locator": "PDF-/Textseite 11, Absatzblock 1",
+        "original": null
+      }
+    },
+    {
+      "id": "eberdingen-rule-a158a2b1a737",
+      "kind": "source_clause_96de4f4a4e57_11_2",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 16,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "96de4f4a4e57",
+        "locator": "PDF-/Textseite 11, Absatzblock 2",
+        "original": null
+      }
+    },
+    {
+      "id": "eberdingen-rule-88fa55c2da01",
+      "kind": "source_clause_96de4f4a4e57_11_3",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 17,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "96de4f4a4e57",
+        "locator": "PDF-/Textseite 11, Absatzblock 3",
+        "original": null
+      }
+    },
+    {
+      "id": "eberdingen-rule-c6e4eaf6544f",
+      "kind": "source_clause_96de4f4a4e57_11_4",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 18,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "96de4f4a4e57",
+        "locator": "PDF-/Textseite 11, Absatzblock 4",
+        "original": null
+      }
+    },
+    {
+      "id": "eberdingen-rule-d43ac4d7c59c",
+      "kind": "source_clause_96de4f4a4e57_11_7",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 19,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "96de4f4a4e57",
+        "locator": "PDF-/Textseite 11, Absatzblock 7",
+        "original": null
+      }
+    },
+    {
+      "id": "eberdingen-rule-4442fb3526de",
+      "kind": "source_clause_96de4f4a4e57_11_8",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 20,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "96de4f4a4e57",
+        "locator": "PDF-/Textseite 11, Absatzblock 8",
+        "original": null
+      }
+    },
+    {
+      "id": "eberdingen-rule-d5551ecb554c",
+      "kind": "source_clause_96de4f4a4e57_12_1",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 21,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "96de4f4a4e57",
+        "locator": "PDF-/Textseite 12, Absatzblock 1",
+        "original": null
+      }
+    },
+    {
+      "id": "eberdingen-rule-11e57e1612a4",
+      "kind": "source_clause_96de4f4a4e57_12_5",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 22,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "96de4f4a4e57",
+        "locator": "PDF-/Textseite 12, Absatzblock 5",
+        "original": null
+      }
+    },
+    {
+      "id": "eberdingen-rule-ea6add95838e",
+      "kind": "source_clause_96de4f4a4e57_12_6",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 23,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "96de4f4a4e57",
+        "locator": "PDF-/Textseite 12, Absatzblock 6",
+        "original": null
+      }
+    },
+    {
+      "id": "eberdingen-rule-8577946fca1b",
+      "kind": "source_clause_96de4f4a4e57_12_7",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 24,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "96de4f4a4e57",
+        "locator": "PDF-/Textseite 12, Absatzblock 7",
+        "original": null
+      }
+    },
+    {
+      "id": "eberdingen-rule-ac2ce45171b8",
+      "kind": "source_clause_96de4f4a4e57_12_8",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 25,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "96de4f4a4e57",
+        "locator": "PDF-/Textseite 12, Absatzblock 8",
+        "original": null
+      }
+    },
+    {
+      "id": "eberdingen-rule-e4d2db34f18a",
+      "kind": "source_clause_96de4f4a4e57_12_9",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 26,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "96de4f4a4e57",
+        "locator": "PDF-/Textseite 12, Absatzblock 9",
+        "original": null
+      }
+    },
+    {
+      "id": "eberdingen-rule-e617982f15ca",
+      "kind": "source_clause_96de4f4a4e57_14_6",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 27,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "96de4f4a4e57",
+        "locator": "PDF-/Textseite 14, Absatzblock 6",
+        "original": null
+      }
+    },
+    {
+      "id": "eberdingen-rule-a587a600f169",
+      "kind": "source_clause_96de4f4a4e57_15_7",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 28,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "96de4f4a4e57",
+        "locator": "PDF-/Textseite 15, Absatzblock 7",
+        "original": null
+      }
+    },
+    {
+      "id": "eberdingen-rule-34da37f41b83",
+      "kind": "source_clause_96de4f4a4e57_27_2",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 29,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "96de4f4a4e57",
+        "locator": "PDF-/Textseite 27, Absatzblock 2",
+        "original": null
+      }
+    },
+    {
+      "id": "eberdingen-rule-2d2a3831e086",
+      "kind": "source_clause_96de4f4a4e57_28_2",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 30,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "96de4f4a4e57",
+        "locator": "PDF-/Textseite 28, Absatzblock 2",
+        "original": null
+      }
+    },
+    {
+      "id": "eberdingen-rule-5be1b9a4a7a9",
+      "kind": "source_clause_96de4f4a4e57_29_2",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 31,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "96de4f4a4e57",
+        "locator": "PDF-/Textseite 29, Absatzblock 2",
+        "original": null
+      }
+    },
+    {
+      "id": "eberdingen-rule-f76f98ba1d31",
+      "kind": "source_clause_96de4f4a4e57_29_3",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 32,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "96de4f4a4e57",
+        "locator": "PDF-/Textseite 29, Absatzblock 3",
+        "original": null
+      }
+    },
+    {
+      "id": "eberdingen-rule-ce46fbaca1ba",
+      "kind": "source_clause_96de4f4a4e57_29_6",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 33,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "96de4f4a4e57",
+        "locator": "PDF-/Textseite 29, Absatzblock 6",
+        "original": null
+      }
+    },
+    {
+      "id": "eberdingen-rule-c46f14f2ea0b",
+      "kind": "source_clause_96de4f4a4e57_29_7",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 34,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "96de4f4a4e57",
+        "locator": "PDF-/Textseite 29, Absatzblock 7",
+        "original": null
+      }
+    },
+    {
+      "id": "eberdingen-rule-bafb42285240",
+      "kind": "source_clause_96de4f4a4e57_29_8",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 35,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "96de4f4a4e57",
+        "locator": "PDF-/Textseite 29, Absatzblock 8",
+        "original": null
+      }
+    },
+    {
+      "id": "eberdingen-rule-a5286d159ee3",
+      "kind": "source_clause_96de4f4a4e57_29_9",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 36,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "96de4f4a4e57",
+        "locator": "PDF-/Textseite 29, Absatzblock 9",
+        "original": null
+      }
+    },
+    {
+      "id": "eberdingen-rule-aebfce735625",
+      "kind": "source_clause_96de4f4a4e57_29_11",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 37,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "96de4f4a4e57",
+        "locator": "PDF-/Textseite 29, Absatzblock 11",
+        "original": null
+      }
+    },
+    {
+      "id": "eberdingen-rule-9a45b9c0c7f5",
+      "kind": "source_clause_96de4f4a4e57_30_2",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 38,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "96de4f4a4e57",
+        "locator": "PDF-/Textseite 30, Absatzblock 2",
+        "original": null
+      }
+    },
+    {
+      "id": "eberdingen-rule-6dcd4823dd85",
+      "kind": "source_clause_96de4f4a4e57_30_3",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 39,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "96de4f4a4e57",
+        "locator": "PDF-/Textseite 30, Absatzblock 3",
+        "original": null
+      }
+    },
+    {
+      "id": "eberdingen-rule-39ea5fe99e19",
+      "kind": "source_clause_96de4f4a4e57_30_4",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 40,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "96de4f4a4e57",
+        "locator": "PDF-/Textseite 30, Absatzblock 4",
+        "original": null
+      }
+    },
+    {
+      "id": "eberdingen-rule-2ae1776185b5",
+      "kind": "source_clause_96de4f4a4e57_30_6",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 41,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "96de4f4a4e57",
+        "locator": "PDF-/Textseite 30, Absatzblock 6",
+        "original": null
+      }
+    },
+    {
+      "id": "eberdingen-rule-c05c97d466de",
+      "kind": "source_clause_96de4f4a4e57_30_10",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 42,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "96de4f4a4e57",
+        "locator": "PDF-/Textseite 30, Absatzblock 10",
+        "original": null
+      }
+    },
+    {
+      "id": "eberdingen-rule-590f8e26f504",
+      "kind": "source_clause_96de4f4a4e57_30_12",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 43,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "96de4f4a4e57",
+        "locator": "PDF-/Textseite 30, Absatzblock 12",
+        "original": null
+      }
+    }
+  ],
+  "issues": [
+    {
+      "code": "pending_calculation_review",
+      "detail": "Strukturierter Import; noch keine Freigabe des Rechners oder der Website."
+    },
+    {
+      "code": "research_limitation_1",
+      "detail": "Vertrags-/Übergangsregime muss bei der späteren Modellierung ausdrücklich gewählt werden."
+    },
+    {
+      "code": "research_limitation_2",
+      "detail": "Im neuen U3-Katalog kein 8-Stunden-Angebot. Essensgeld laut Anlage einrichtungsbezogener Selbstkostenpreis."
+    },
+    {
+      "code": "research_limitation_3",
+      "detail": "Das alte Vertragssystem ist archiviert, aber nicht vollständig visuell übertragen oder rechnerisch geprüft; die Bewertung bezieht sich auf die belegte neue Beitragstabelle."
+    }
+  ],
+  "coverage": {
+    "publication_status": "not_active",
+    "integration_status": "normalized_pending_calculation_review",
+    "history_in_scope": false,
+    "source_register": "data/research/neighbor_expansion_2026-11-10.json",
+    "research_id": "eberdingen",
+    "unavailable_configurations": [],
+    "offers": 4,
+    "price_cells": 12,
+    "income_bands": 2,
+    "components": 1,
+    "rule_records": 48,
+    "tariff_table_transcription": "complete_for_declared_scope",
+    "declared_scope": "Aktuelle und bereits veröffentlichte künftige Krippen- und Kindergartentarife; Zusatzkosten und Gebührenregeln.",
+    "excluded_from_regular_price_rows": [
+      "superseded_historical_tariffs",
+      "school_childcare",
+      "takki_and_childminding",
+      "separate_playgroups"
+    ],
+    "calculation_engine_changed": false,
+    "rule_transcription": "typed_parameters_and_source_clauses_with_explicit_unimplemented_status"
+  },
+  "original_research": {
+    "path": "data/research/neighbor_expansion_2026-11-10.json",
+    "section": "Eberdingen",
+    "text": "Jüngstes betreutes Kind zahlt den Grundbetrag, älteres den zweiten, ab drittem entfällt beim ältesten der Beitrag. Haushaltskinderzahl allein reicht nicht.\nVertrags-/Übergangsregime muss bei der späteren Modellierung ausdrücklich gewählt werden.\nIm neuen U3-Katalog kein 8-Stunden-Angebot. Essensgeld laut Anlage einrichtungsbezogener Selbstkostenpreis.\nDas alte Vertragssystem ist archiviert, aber nicht vollständig visuell übertragen oder rechnerisch geprüft; die Bewertung bezieht sich auf die belegte neue Beitragstabelle.",
+    "source_clauses": [
+      {
+        "text": "Anlage 1 – Neue Benutzungsordnung mit neuem Beitragssystem",
+        "evidence": {
+          "source_id": "96de4f4a4e57",
+          "locator": "PDF-/Textseite 2, Absatzblock 9",
+          "original": null
+        }
+      },
+      {
+        "text": "Anlage 2 – Anpassung der Beiträge des bestehenden Beitragssystems",
+        "evidence": {
+          "source_id": "96de4f4a4e57",
+          "locator": "PDF-/Textseite 2, Absatzblock 10",
+          "original": null
+        }
+      },
+      {
+        "text": "Zuverlässigkeit, Strukturiertheit, Transparenz, Attraktivität und Bedarfs- & Beitragsgerechtigkeit",
+        "evidence": {
+          "source_id": "96de4f4a4e57",
+          "locator": "PDF-/Textseite 4, Absatzblock 5",
+          "original": null
+        }
+      },
+      {
+        "text": "Zuverlässigkeit\nKinderbetreuung in der Gemeinde Eberdingen soll wieder zu einer verlässlichen Instanz werden. Allzu\nhäufig waren die Kolleginnen und Kollegen durch externe Faktoren gezwungen, das Betreuungsange-\nbote einzuschränken. Hier verfolgen wir das Ziel, durch eine bedarfsgerechte Bündelung der Ressour-\ncen zu einer soliden und zuverlässigen Basisbetreuung für alle Eltern der Gemeinde zu gelangen. Durch\ndie Fokussierung auf ein Basisangebot gelingt es, bei Einhaltung des für die Betriebserlaubnis notwen-\ndigen Betreuungsschlüssels, zusätzliche Betreuungsangebote „in der Fläche“ zu schaffen. Dadurch\nwerden gleichermaßen Reservekapazitäten geschaffen, welche zu einer weiteren Erhöhung der Zuver-\nlässigkeit maßgeblich beitragen werden.",
+        "evidence": {
+          "source_id": "96de4f4a4e57",
+          "locator": "PDF-/Textseite 4, Absatzblock 6",
+          "original": null
+        }
+      },
+      {
+        "text": "Strukturiertheit\nDie Reformen sollen dazu beitragen, klare Struktur im Bereich der Kinderbetreuung zu etablieren. Dazu\nzählt die Abschaffung händisch geführter Anmeldelisten durch Einführung eines zentralen Online-An-\nmeldesystems. Dieses soll zentral bei der Gemeindeverwaltung angesiedelt sein, sodass die dezentra-\nlen Einrichtungen von der Verwaltungsabwicklung entlastet sind. Ferner wird das zentrale Anmelde-\nsystem durch die Einführung klar strukturierter Vergabekriterien flankiert.",
+        "evidence": {
+          "source_id": "96de4f4a4e57",
+          "locator": "PDF-/Textseite 4, Absatzblock 7",
+          "original": null
+        }
+      },
+      {
+        "text": "Über die Zeit der Reform hinaus sollen regelmäßige Austauschtreffen zwischen Verwaltung und den\nKolleginnen und Kollegen in den Kinderbetreuungseinrichtungen einen ungehinderten Informations-\nfluss sicherstellen und zu einer fortlaufenden Überprüfung der neuen Strukturen beitragen. Darüber\nhinaus schlägt die Verwaltung vor, perspektivisch und in enger Abstimmung mit den Kolleginnen und\nKollegen der Kinderbetreuungseinrichtungen wieder in die Ausbildung von eigenem Betreuungsperso-\nnal einzusteigen.",
+        "evidence": {
+          "source_id": "96de4f4a4e57",
+          "locator": "PDF-/Textseite 4, Absatzblock 8",
+          "original": null
+        }
+      },
+      {
+        "text": "Attraktivität\nDie Reform der Kinderbetreuung in der Gemeinde Eberdingen soll zu einer Erhöhung der Attraktivität\nin mehrfacher Hinsicht beitragen: sie soll die Gemeinde als attraktiven Wohnort für Familien sowie als\nattraktiven Gewerbestandort kennzeichnen. Darüber hinaus soll die Reform dazu beitragen, die Ge-\nmeinde Eberdingen als attraktiven Arbeitgeber im Kinderbetreuungsbereich wettbewerbsfähig zu ma-\nchen. Durch die Reform der Betreuungsangebote sollen die Kolleginnen und Kollegen mehr Zeit für\nVor-und Nachbereitung der pädagogischen Angebote bekommen. Ferner soll dies perspektivisch dazu\nbeitragen, auch die eigene Ausbildung von Betreuungspersonal wieder zu ermöglichen.",
+        "evidence": {
+          "source_id": "96de4f4a4e57",
+          "locator": "PDF-/Textseite 5, Absatzblock 1",
+          "original": null
+        }
+      },
+      {
+        "text": "Flankiert wird die Reform durch die Einführung eines betrieblichen Gesundheitsmanagements für die\nKolleginnen und Kollegen. Dazu zählen insbesondere das Jobradprogramm, die Einführung von kosten-\nlosen Getränken (Wasserspender) oder etwa auch die Zurverfügungstellung von Mitarbeiterwohnun-\ngen. Die Maßnahmen sollen dazu beitragen, die Gemeinde Eberdingen als einen wettbewerbsfähigen\nund attraktiven Arbeitgeber zu qualifizieren.",
+        "evidence": {
+          "source_id": "96de4f4a4e57",
+          "locator": "PDF-/Textseite 5, Absatzblock 2",
+          "original": null
+        }
+      },
+      {
+        "text": "Bedarfs- & Beitragsgerechtigkeit\nIn einer Zeit wachsender Gemengelagen konzentrieren wir uns auf das Wesentliche, auf das, was jetzt\nnotwendig ist und differenzieren Leistbares von Wünschenswertem. Dazu fokussieren wir den zukünf-\ntigen tatsächlichen Betreuungsbedarf, wie er sich auf Basis der durchgeführten Kindergartenbedarfs-\numfrage unter Berücksichtigung des Kindeswohls ergibt. Die Datenlage der Kindergartenbedarfsum-\nfrage zeigt deutlich, dass der zukünftige Bedarf im Bereich einer soliden Basisbetreuung besteht; Ganz-\ntagesangebote werden weniger nachgefragt. Dies bedeutet im Kern – unter ausdrücklicher Berücksich-\ntigung des Kindeswohls und des jeweiligen pädagogischen Konzepts der Kinderbetreuungseinrich-\ntung – eine Fokussierung auf tatsächlich erforderliche Betreuungsangebote. Dies wird für den Ü-3 wie\nU-3 Bereich das Angebot von 6 Std. sowie ein Ganztagsangebot (GT) in Form von 7,5 Std. bedeuten.",
+        "evidence": {
+          "source_id": "96de4f4a4e57",
+          "locator": "PDF-/Textseite 5, Absatzblock 3",
+          "original": null
+        }
+      },
+      {
+        "text": "Ziel der Reform der Kindergartenbeiträge ist die Erreichung einer bisher nicht bestehenden Beitrags-\ngerechtigkeit. Die bisherige Berechnungsgrundlage, wonach sich die Beiträge zur Kinderbetreuung an\nder Anzahl der Kinder im Familienhaushalt bemessen, führt einerseits zu einer überproportionalen Be-\ngünstigung weniger Nutzer, andererseits zu einem immer weiter ansteigenden Kostenanteil für den\nGemeindehaushalt.",
+        "evidence": {
+          "source_id": "96de4f4a4e57",
+          "locator": "PDF-/Textseite 5, Absatzblock 4",
+          "original": null
+        }
+      },
+      {
+        "text": "Im „alten System“ war es unbedeutend, wie viele Kinder einer Familie tatsächlich in Betreuung waren.\nJe weniger Kinder eine Familie hatte, umso mehr Beiträge mussten im „alten System“ von dieser Fa-\nmilie geschultert werden. Mit Einführung des neuen Beitragssystems wird sichergestellt, dass jede Fa-\nmilie, unabhängig von der Kinderzahl, dieselben Beiträge für das jüngste in Betreuung befindliche Kind\nbezahlt. Bereits ab dem zweiten in Betreuung befindlichen Kind erfolgt eine Halbierung der Beiträge\nfür dieses Kind. Für das dritte und jedes weitere gleichzeitig in Betreuung befindliche Kind werden\nkeine Beiträge mehr erhoben. Mit dieser Regelung werden wir den Vorgaben des Kitagesetzes BW\ngerecht, wonach der wirtschaftlichen Belastung durch den Besuch der Einrichtung sowie der Zahl der\nKinder in der Familie angemessen Rechnung zu tragen ist.",
+        "evidence": {
+          "source_id": "96de4f4a4e57",
+          "locator": "PDF-/Textseite 5, Absatzblock 5",
+          "original": null
+        }
+      },
+      {
+        "text": "Die deutliche Unwucht im Beitragsgefüge des alten Systems wurden mit dieser Neuregelung korrigiert.",
+        "evidence": {
+          "source_id": "96de4f4a4e57",
+          "locator": "PDF-/Textseite 5, Absatzblock 6",
+          "original": null
+        }
+      },
+      {
+        "text": "-     die Beibehaltung der derzeitigen Belegungspraxis bei stärkerer Nutzung der Altersmischung\n-     sukzessiver Ausbau der Betreuungskapazitäten bei Fokussierung der Altersmischung in Gruppen\n-     eine jährliche Bedarfsplanfortschreibung\n-     ein zentrales Belegungsmanagement\n-     die Einführung eines einheitlichen Anmeldestichtags, einheitlicher Aufnahmekriterien & eines On-\n      line-Anmeldesystem\n-     die Flexibilisierung der Öffnungszeiten durch Anpassung der Betreuungszeiten\n-     die Fokussierung der Personalausstattung\n-     Flexibilisierung des Personalschlüssels hinsichtlich der Schaffung von „Springkräften“\n-     Schaffung eines ausreichenden Stellenanteils für Hauswirtschaftskräfte\n-     die Anpassung der Gebühren",
+        "evidence": {
+          "source_id": "96de4f4a4e57",
+          "locator": "PDF-/Textseite 6, Absatzblock 4",
+          "original": null
+        }
+      },
+      {
+        "text": "bei zukünftig in Betreuung befindlichen Teilnehmern („Suchende“):\n           bei ca. 1/3: Keine Relevanz des Ortsteils der Einrichtung, keine Kritik an den vorgeschlagenen\n           Betreuungszeiten, ggf. Wechselbereitschaft von einem 6,5 Std. in ein 7,5 Std. Modell\nAuf dieser Basis hat der Arbeitskreis dem Gemeinderat vorgeschlagen, die Betreuungszeiten für den\nÜ-3 wie U-3 Bereich in Form einer 6-Std. Betreuung sowie eines Ganztagsangebotes (GT) Gebot in Form\neiner 7,5-Std. Betreuung, einheitlich aufzustellen.\nDer Vorschlag wurde vom Gemeinderat in der Sitzung vom 27.04.2023 angenommen, mit den Erzie-\nherinnen und Erziehern am 17.04.2023 final abgestimmt und vom Gemeinderat am 29.06.2023 zur\nAnhörung freigegeben. Flankiert wird die vorliegende Reform der Betreuungszeiten durch eine Reform\nder Beitragsordnung.",
+        "evidence": {
+          "source_id": "96de4f4a4e57",
+          "locator": "PDF-/Textseite 6, Absatzblock 6",
+          "original": null
+        }
+      },
+      {
+        "text": "-   Was bedeuten „Anmeldung“, „Zusage“, „bestehendes Betreuungsverhältnis“?\n    Anmeldung:      beschreibt den Tag der Meldung des Kindes beim Träger der Kinderbetreu-\n                    ungseinrichtung.\n                    Sie begründet noch kein Betreuungsverhältnis, einen Anspruch auf eine be-\n                    stimmte Betreuungsform oder einen bestimmten Beitragssatz.",
+        "evidence": {
+          "source_id": "96de4f4a4e57",
+          "locator": "PDF-/Textseite 9, Absatzblock 9",
+          "original": null
+        }
+      },
+      {
+        "text": "Novellierung der Beitragsmodelle:\nAnpassung des bestehenden Beitragsmodells & Einführung eines neuen Bei-\ntragsmodells\nFlankiert wird die vorliegende Reform der Betreuungszeiten durch eine Reform der Beitragsordnung.\nDer Gemeinderat greift damit eine Ursprungsforderung aus dem ‚Masterplan für die Weiterentwick-\nlung der Kindertages- und Schulkindbetreuung der Gemeinde Eberdingen‘ auf. Diese hat auf die unter-\ndurchschnittliche Beitragserhebung bereits im Jahre 2021 Bezug genommen.",
+        "evidence": {
+          "source_id": "96de4f4a4e57",
+          "locator": "PDF-/Textseite 11, Absatzblock 1",
+          "original": null
+        }
+      },
+      {
+        "text": "Die Gesamtaufwendungen im Kindertagesstättenbereich belaufen sich auf 3,9 Mio. Euro (Stand: 2022).\nDem stehen Erträge durch Elternbeiträge i.H.v. 437.300,00 € gegenüber. Der Kostendeckungsgrad\n(durch Elternbeiträge) in der Gemeinde Eberdingen beläuft sich auf 11% (Stand: 2022).",
+        "evidence": {
+          "source_id": "96de4f4a4e57",
+          "locator": "PDF-/Textseite 11, Absatzblock 2",
+          "original": null
+        }
+      },
+      {
+        "text": "Anpassung der Elternbeiträge im bestehenden Beitragsmodell (KiTa-Jahre 2023/2024/2025)\nDer Gemeinderat hat – zuletzt auch durch die Auswirkungen der Covid-19-Pandemie – die kontinuier-\nliche Beitragsanpassung, wie sie mit öffentlichem Beschluss vom 21.06.2018 festgelegt wurde, fort-\nwährend ausgesetzt. Dies sollte zugunsten der Eltern zu einer spürbaren finanziellen Entlastung bei-\ntragen. Darüber hinaus hat der Gemeinderat aufgrund seiner Bestrebungen, ein grundlegend neues\nBeitragssystem zu etablieren, zugleich von einer vorschnellen Beitragsanpassung im bestehenden Bei-\ntragssystem abgesehen. Erst, soweit die zukünftige Entwicklung absehbar ist, sollten auch im beste-\nhenden Beitragssystem Anpassungen erfolgen.",
+        "evidence": {
+          "source_id": "96de4f4a4e57",
+          "locator": "PDF-/Textseite 11, Absatzblock 3",
+          "original": null
+        }
+      },
+      {
+        "text": "Diesem Grundsatz folgend, hat der Gemeinderat mit Beschluss vom 29.06.2023 die Vorschläge zur\nAnpassung der Elternbeiträge im bestehenden Beitragssystem in die Elternanhörung am 05.07.2023\ngegeben.",
+        "evidence": {
+          "source_id": "96de4f4a4e57",
+          "locator": "PDF-/Textseite 11, Absatzblock 4",
+          "original": null
+        }
+      },
+      {
+        "text": "Der Gemeinderat hat die Vorschläge zur Anpassung der Elternbeiträge im bestehenden Beitragsmodell\nnach Anhörung der Elternschaft und unter Berücksichtigung der eingegangenen Stellungnahmen in\nöffentlicher Sitzung am 27.07.2023 angenommen.",
+        "evidence": {
+          "source_id": "96de4f4a4e57",
+          "locator": "PDF-/Textseite 11, Absatzblock 7",
+          "original": null
+        }
+      },
+      {
+        "text": "Neues Beitragsmodell ab 01.09.2023\nDer Gemeinderat hat sich – aufbauend auf den Empfehlungen des Masterplans – intensiv mit einer\nVeränderung der Beitragsordnung auseinandergesetzt. Von der pauschalen Beitragserhebung, welche\ndie Landesempfehlung Baden-Württemberg vorsieht, soll Abstand genommen und ein eigenständiges\nBeitragssystem auf den Weg gebracht werden.\nZiel dessen ist, eine ausgewogenere Beitragserhebung zu erreichen. Dies soll dadurch erreicht werden,\ndass die starke Staffelung der Beiträge zurückgeführt wird. Die Einzelheiten können Sie der in Anlage\n1 beigefügten Beitragstabelle entnehmen. Überdies werden im neuen Beitragsmodell 12 Monatsbei-\nträge erhoben.",
+        "evidence": {
+          "source_id": "96de4f4a4e57",
+          "locator": "PDF-/Textseite 11, Absatzblock 8",
+          "original": null
+        }
+      },
+      {
+        "text": "-     Wen betrifft die Neuregelung?\n      Im Gleichlauf mit der Neuausrichtung des Betreuungsangebotes ergibt sich die Betroffenheit aus\n      dem Rechtsverhältnis zum Träger der Kinderbetreuungseinrichtung besteht.\n      Die individuelle Betroffenheit vom neuen Beitragsmodell kann durch nachfolgende Tabelle er-\n      mittelt werden:",
+        "evidence": {
+          "source_id": "96de4f4a4e57",
+          "locator": "PDF-/Textseite 12, Absatzblock 1",
+          "original": null
+        }
+      },
+      {
+        "text": "Zusage                                                                      Ab 01.07.2023\n                                          Bis 30.06.2023\n    (erhalten)\n                                                                            Neues Beitragsmodell\n                               Altes Beitragsmodell („auslaufend\")",
+        "evidence": {
+          "source_id": "96de4f4a4e57",
+          "locator": "PDF-/Textseite 12, Absatzblock 5",
+          "original": null
+        }
+      },
+      {
+        "text": "Aufgenommen\n    (= bestehendes Betreu-        Altes Beitragsmodell („auslaufend“; bis Übergang in die Schule)\n    ungsverhältnis)",
+        "evidence": {
+          "source_id": "96de4f4a4e57",
+          "locator": "PDF-/Textseite 12, Absatzblock 6",
+          "original": null
+        }
+      },
+      {
+        "text": "Diejenigen, welche unter die Übergangsregelung fallen, genießen weiterhin Bestandsschutz nach der\nalten Beitragsordnung. Die Höhe ihrer Beiträge orientiert sich auch weiterhin an der Zahl der Kinder in\nder Familie, sie unterliegen den Beiträgen aus der Anlage 1 der alten Benutzungsordnung, welche nach\nwie vor regelmäßigen Anhebungen durch Beschluss des Gemeinderates unterliegen. Für sie gelten\nauch die vereinbarten Betreuungszeiten weiter – bis einschl. 30.08.2025. Ab dem Stichtag 01.09.2025\nhaben Sie nur noch die Wahl zwischen der dann geltenden 6-Std. (VÖ) und 7,5-Std. (GT) Betreuung.\nHinsichtlich der zu entrichtenden Elternbeiträge wird die zum Stichtag Anwendung findende Beitrags-\nstufe individuell angepasst.",
+        "evidence": {
+          "source_id": "96de4f4a4e57",
+          "locator": "PDF-/Textseite 12, Absatzblock 7",
+          "original": null
+        }
+      },
+      {
+        "text": "Die Zugehörigkeit zu einer Beitragsstufe (z.B. VÖ 6,5-Std, 3 Kinder…) wird mit Eintritt in die Übergangs-\nregelung „eingefroren“. Kommen weitere Kinder hinzu, kann nicht in eine möglicherweise günstigere\nBeitragsgruppe gewechselt werden.",
+        "evidence": {
+          "source_id": "96de4f4a4e57",
+          "locator": "PDF-/Textseite 12, Absatzblock 8",
+          "original": null
+        }
+      },
+      {
+        "text": "Alternativ gilt aber in diesem Fall:\nAlle, die eine Übergangsregelung in Anspruch nehmen haben jederzeit die Möglichkeit, in das neue\nBetreuungs- & Beitragssystem zu wechseln. Für in Betreuung befindliche Eltern oder Eltern, die bis\n30.06.2023 eine Zusage erhalten haben, besteht nach dem „Günstigkeitsprinzip“ also jederzeit die\nMöglichkeit für einen Wechsel. Eine Rückkehr nach erfolgtem Wechsel ist jedoch nicht mehr möglich.",
+        "evidence": {
+          "source_id": "96de4f4a4e57",
+          "locator": "PDF-/Textseite 12, Absatzblock 9",
+          "original": null
+        }
+      },
+      {
+        "text": "ab 08/2023            Umsetzung des neuen Betreuungs- und Beitragsmodells\n                      Absprache mit den KiTa-Leiterinnen; Klärung eines personellen\n                      Mehrbedarfs innerhalb der Kernverwaltung zur Abwicklung des An-\n                      melde- und Vergabeverfahrens",
+        "evidence": {
+          "source_id": "96de4f4a4e57",
+          "locator": "PDF-/Textseite 14, Absatzblock 6",
+          "original": null
+        }
+      },
+      {
+        "text": "Zuverlässigkeit, Strukturiertheit, Transparenz, Attraktivität und Bedarfs- & Beitragsgerechtigkeit",
+        "evidence": {
+          "source_id": "96de4f4a4e57",
+          "locator": "PDF-/Textseite 15, Absatzblock 7",
+          "original": null
+        }
+      },
+      {
+        "text": "Elternbeiträge ab 01.09.2023                     1 Kind         2 Kinder       3 und mehr\n                                                                                  Kinder\nEs werden 12 Monatsbeiträge / Kindergar-\ntenjahr erhoben.\n                                             aus einer Fami- aus einer Fami- aus einer Fami-\n                                             lie in Betreu-  lie in Betreu-  lie in Betreu-\n                                             ung             ung             ung",
+        "evidence": {
+          "source_id": "96de4f4a4e57",
+          "locator": "PDF-/Textseite 27, Absatzblock 2",
+          "original": null
+        }
+      },
+      {
+        "text": "Anlage 2 – Anpassung der Beiträge des bestehenden Beitragssystems",
+        "evidence": {
+          "source_id": "96de4f4a4e57",
+          "locator": "PDF-/Textseite 28, Absatzblock 2",
+          "original": null
+        }
+      },
+      {
+        "text": "Anlage 2 – Anpassung der Beiträge des bestehenden Beitragssystems",
+        "evidence": {
+          "source_id": "96de4f4a4e57",
+          "locator": "PDF-/Textseite 29, Absatzblock 2",
+          "original": null
+        }
+      },
+      {
+        "text": "Benutzungsentgelt (Elternbeitrag)              Kindertageseinrichtungen                  Anlage 1\ngültig bis 31.08.2023 und ab 01.09.2023 bis 31.08.2025",
+        "evidence": {
+          "source_id": "96de4f4a4e57",
+          "locator": "PDF-/Textseite 29, Absatzblock 3",
+          "original": null
+        }
+      },
+      {
+        "text": "Für die Kita-Jahre       2019/20        01.09.23\n                                                                            bis            bis\n 1.1 für Kinder über 3 Jahre (Ü3):                                          31.08.23       31.08.25\n     ÖZ = 6,5 Std/Tag                                                       Beitrag        Beitrag\n 1 für das Kind aus einer Familie mit einem Kind unter 18 Jahren             158,00 €        174,00 €\n 2 ..mit 2 Kindern …                                                         119,00 €        131,00 €\n 3 ..mit 3 Kindern …                                                           79,00 €         87,00 €\n 4 ..mit 4 u. mehr Kindern..                                                   26,00 €         29,00 €",
+        "evidence": {
+          "source_id": "96de4f4a4e57",
+          "locator": "PDF-/Textseite 29, Absatzblock 6",
+          "original": null
+        }
+      },
+      {
+        "text": "1.2 für Kinder unter 3 Jahre (u3) in Altersmischung:\n     ÖZ = 6,5 Std/Tag                                                       Beitrag        Beitrag\n 1 für das Kind aus einer Familie mit einem Kind unter 18 Jahren             315,00 €       331,00 €\n 2 ..mit 2 Kindern …                                                         240,00 €       252,00 €\n 3 ..mit 3 Kindern …                                                         160,00 €       168,00 €\n 4 ..mit 4 u. mehr Kindern..                                                  53,00 €        56,00 €",
+        "evidence": {
+          "source_id": "96de4f4a4e57",
+          "locator": "PDF-/Textseite 29, Absatzblock 7",
+          "original": null
+        }
+      },
+      {
+        "text": "1.3 für Kinder in der Krippe (Kr):\n     ÖZ = 6,5 Std/Tag                                                       Beitrag        Beitrag\n 1 für das Kind aus einer Familie mit einem Kind unter 18 Jahren             408,00 €       428,00 €\n 2 ..mit 2 Kindern …                                                         305,00 €       320,00 €\n 3 ..mit 3 Kindern …                                                         206,00 €       216,00 €\n 4 ..mit 4 u. mehr Kindern..                                                  82,00 €        86,00 €",
+        "evidence": {
+          "source_id": "96de4f4a4e57",
+          "locator": "PDF-/Textseite 29, Absatzblock 8",
+          "original": null
+        }
+      },
+      {
+        "text": "Dazu addiert sich ggf. ein Verpflegungsgeld gemäß Ziffer 3 dieser Anlage.",
+        "evidence": {
+          "source_id": "96de4f4a4e57",
+          "locator": "PDF-/Textseite 29, Absatzblock 9",
+          "original": null
+        }
+      },
+      {
+        "text": "Für die Kita-Jahre       2019/20        01.09.23\n                                                                            bis            bis\n 2.1 für Kinder über 3 Jahre (GTÜ3)                                         31.08.23       31.08.25\n      ÖZ = 9,5 Std/Tag                                                      Beitrag        Beitrag\n 1 für das Kind aus einer Familie mit einem Kind unter 18 Jahren             231,00 €        254,00 €\n 2 ..mit 2 Kindern …                                                         176,00 €        194,00 €\n 3 ..mit 3 Kindern …                                                         115,00 €        126,00 €\n 4 ..mit 4 u. mehr Kindern..                                                   38,00 €         42,00 €\n 2.2 für Kinder unter 3 Jahre (GTu3) in Altersmischung:",
+        "evidence": {
+          "source_id": "96de4f4a4e57",
+          "locator": "PDF-/Textseite 29, Absatzblock 11",
+          "original": null
+        }
+      },
+      {
+        "text": "ÖZ = 9,5 Std/Tag                                                    Beitrag        Beitrag\n 1    für das Kind aus einer Familie mit einem Kind unter 18 Jahren        460,00 €       483,00 €\n 2    ..mit 2 Kindern …                                                    349,00 €       366,00 €\n 3    ..mit 3 Kindern …                                                    233,00 €       245,00 €\n 4    ..mit 4 u. mehr Kindern..                                             76,00 €        80,00 €",
+        "evidence": {
+          "source_id": "96de4f4a4e57",
+          "locator": "PDF-/Textseite 30, Absatzblock 2",
+          "original": null
+        }
+      },
+      {
+        "text": "2.3 für Kinder in der Krippe (GTKr):\n     ÖZ = 9,5 Std/Tag                                                     Beitrag        Beitrag\n 1 für das Kind aus einer Familie mit einem Kind unter 18 Jahren           596,00 €       626,00 €\n 2 ..mit 2 Kindern …                                                       444,00 €       466,00 €\n 3 ..mit 3 Kindern …                                                       302,00 €       317,00 €\n 4 ..mit 4 u. mehr Kindern..                                               119,00 €       125,00 €",
+        "evidence": {
+          "source_id": "96de4f4a4e57",
+          "locator": "PDF-/Textseite 30, Absatzblock 3",
+          "original": null
+        }
+      },
+      {
+        "text": "Dazu addiert sich ein Verpflegungsgeld gemäß Ziffer 3 dieser Anlage.",
+        "evidence": {
+          "source_id": "96de4f4a4e57",
+          "locator": "PDF-/Textseite 30, Absatzblock 4",
+          "original": null
+        }
+      },
+      {
+        "text": "Ausgehend von den GT Beiträgen kann auf Antrag und Nachweis ein sozialer Abschlag auf das jeweilige\nBesuchsgeld bei Ganztagsbetreuung erfolgen. Bei einem jährlichen Bruttoeinkommen pro Familie/\nHaushaltsgemeinschaft von:",
+        "evidence": {
+          "source_id": "96de4f4a4e57",
+          "locator": "PDF-/Textseite 30, Absatzblock 6",
+          "original": null
+        }
+      },
+      {
+        "text": "Für Kinder in der Regelbetreuung kann eine tägliche Verpflegung (warmes Mittagessen) gebucht wer-\nden, wenn in der Einrichtung ein Verpflegungsangebot besteht.\nDas Verpflegungsgeld für geliefertes Essen wird entsprechend der Kosten des Lieferanten je bestelltem\nEssen einzeln abgerechnet. Der Preis bei Zubereitung von Tiefkühlkost beträgt 3,50 € je Essen oder\npauschal 65 € pro Monat. Das Verpflegungsgeld wird auch im August erhoben, sofern gegessen wird.",
+        "evidence": {
+          "source_id": "96de4f4a4e57",
+          "locator": "PDF-/Textseite 30, Absatzblock 10",
+          "original": null
+        }
+      },
+      {
+        "text": "Für alle Kinder in der Ganztagesbetreuung ist grundsätzlich das Verpflegungsangebot verpflichtend zu\nbuchen. Es gelten die Preise nach Ziffer 3.1.",
+        "evidence": {
+          "source_id": "96de4f4a4e57",
+          "locator": "PDF-/Textseite 30, Absatzblock 12",
+          "original": null
+        }
+      }
+    ]
+  }
+}

@@ -2,7 +2,7 @@
 
 **Stand:** 10. November 2026
 
-**Status:** Quellenrecherche und Bewertung der 33 Kandidaten auf ausdrücklichen Nutzerwunsch vorgezogen. Ergebnisse und verbleibende Lücken stehen in der [Erweiterungsrecherche](ERWEITERUNGSRECHERCHE.md). Noch keine Aktivierung auf der Website und keine Übertragung in die kanonischen Tarifkataloge.
+**Status:** Quellenrecherche und Bewertung der 33 Kandidaten auf ausdrücklichen Nutzerwunsch vorgezogen. Die Tarife liegen als 33 getrennte JSON-Kataloge im gemeinsamen Schema unter `data/expansion/municipalities/` vor. Umfang und technische Prüfung stehen in der [Aufbereitungsübersicht](ERWEITERUNGSDATEN.md), Quellenbewertungen in der [Erweiterungsrecherche](ERWEITERUNGSRECHERCHE.md). Die [Kompatibilitätsprüfung der bestehenden Engine](ERWEITERUNGSBERECHNUNG.md) ist abgeschlossen und weist unterstützte sowie nicht berechenbare Konfigurationen aus. Vertiefte fachliche Quellenabnahme, Übernahme in den produktiven Bestand und Website-Aktivierung stehen noch aus.
 
 ## Voraussetzung und Reihenfolge
 

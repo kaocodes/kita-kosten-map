@@ -66,10 +66,11 @@
         "locator": "§ 3, U3-Ganztag; § 6 Inkrafttreten",
         "is_default_comparison": false
       },
-      "integration_status": "not_normalized_not_active",
+      "integration_status": "normalized_pending_calculation_review",
       "id": "affalterbach",
       "current_tariff_period": null,
-      "publication_status": "not_active"
+      "publication_status": "not_active",
+      "normalized_catalog_path": "data/expansion/municipalities/affalterbach.json"
     },
     {
       "name": "Aichwald",
@@ -174,7 +175,7 @@
         "locator": "§ 6 Abs. 7; Beitragsdauer aus § 6 Abs. 9–12 abgeleitet",
         "is_default_comparison": false
       },
-      "integration_status": "not_normalized_not_active",
+      "integration_status": "normalized_pending_calculation_review",
       "id": "aichwald",
       "current_tariff_period": null,
       "publication_status": "not_active",
@@ -203,7 +204,8 @@
         "source_id": "d9055ebd6801",
         "decision_id": "2026-11-10-aichwald-u3-meals",
         "is_default_comparison": false
-      }
+      },
+      "normalized_catalog_path": "data/expansion/municipalities/aichwald.json"
     },
     {
       "name": "Aidlingen",
@@ -267,10 +269,11 @@
         "locator": "PDF S. 1; Gültigkeit S. 2; zwölf Monate: alte Satzung § 12 Abs. 3",
         "is_default_comparison": false
       },
-      "integration_status": "not_normalized_not_active",
+      "integration_status": "normalized_pending_calculation_review",
       "id": "aidlingen",
       "current_tariff_period": null,
-      "publication_status": "not_active"
+      "publication_status": "not_active",
+      "normalized_catalog_path": "data/expansion/municipalities/aidlingen.json"
     },
     {
       "name": "Altbach",
@@ -347,10 +350,11 @@
         "locator": "PDF S. 1–2; Abschnitt Kinderkrippe Nr. 4 und Mittagessen Nr. 5",
         "is_default_comparison": false
       },
-      "integration_status": "not_normalized_not_active",
+      "integration_status": "normalized_pending_calculation_review",
       "id": "altbach",
       "current_tariff_period": "2026/2027",
-      "publication_status": "not_active"
+      "publication_status": "not_active",
+      "normalized_catalog_path": "data/expansion/municipalities/altbach.json"
     },
     {
       "name": "Asperg",
@@ -421,10 +425,11 @@
         "locator": "§ 5 Abs. 5 Buchst. e, letzte Spalte; zwölf Monate § 1 Abs. 3",
         "is_default_comparison": false
       },
-      "integration_status": "not_normalized_not_active",
+      "integration_status": "normalized_pending_calculation_review",
       "id": "asperg",
       "current_tariff_period": null,
-      "publication_status": "not_active"
+      "publication_status": "not_active",
+      "normalized_catalog_path": "data/expansion/municipalities/asperg.json"
     },
     {
       "name": "Baltmannsweiler",
@@ -487,10 +492,11 @@
         "locator": "PDF S. 1–2, Abschnitt I; zwölf Monate im Schlusshinweis",
         "is_default_comparison": false
       },
-      "integration_status": "not_normalized_not_active",
+      "integration_status": "normalized_pending_calculation_review",
       "id": "baltmannsweiler",
       "current_tariff_period": null,
-      "publication_status": "not_active"
+      "publication_status": "not_active",
+      "normalized_catalog_path": "data/expansion/municipalities/baltmannsweiler.json"
     },
     {
       "name": "Benningen am Neckar",
@@ -591,10 +597,11 @@
         "locator": "PDF S. 1, Altersgruppe ab zweitem Geburtstag; Zeitangaben am Seitenende",
         "is_default_comparison": false
       },
-      "integration_status": "not_normalized_not_active",
+      "integration_status": "normalized_pending_calculation_review",
       "id": "benningen",
       "current_tariff_period": "2026/2027",
-      "publication_status": "not_active"
+      "publication_status": "not_active",
+      "normalized_catalog_path": "data/expansion/municipalities/benningen.json"
     },
     {
       "name": "Deizisau",
@@ -667,10 +674,11 @@
         "locator": "PDF S. 1, GT-Tabelle; elf Monate im Vorspann",
         "is_default_comparison": false
       },
-      "integration_status": "not_normalized_not_active",
+      "integration_status": "normalized_pending_calculation_review",
       "id": "deizisau",
       "current_tariff_period": null,
-      "publication_status": "not_active"
+      "publication_status": "not_active",
+      "normalized_catalog_path": "data/expansion/municipalities/deizisau.json"
     },
     {
       "name": "Denkendorf",
@@ -754,7 +762,7 @@
         "locator": "PDF S. 1, zweite Tabelle; elf Monate und Zeitverteilung im Dokument",
         "is_default_comparison": false
       },
-      "integration_status": "not_normalized_not_active",
+      "integration_status": "normalized_pending_calculation_review",
       "id": "denkendorf",
       "current_tariff_period": null,
       "publication_status": "not_active",
@@ -791,7 +799,8 @@
         "show_schedule_shortfall": true,
         "schedule_display_label": "Freitags kürzere Betreuung; tatsächliche Zeiten siehe Betreuungsumfang.",
         "meal_handling": "separate_unknown_amount"
-      }
+      },
+      "normalized_catalog_path": "data/expansion/municipalities/denkendorf.json"
     },
     {
       "name": "Eberdingen",
@@ -885,10 +894,11 @@
         "locator": "Bildbasierte PDF S. 14; Geschwisterregel S. 7; zwölf Monate S. 6/14",
         "is_default_comparison": false
       },
-      "integration_status": "not_normalized_not_active",
+      "integration_status": "normalized_pending_calculation_review",
       "id": "eberdingen",
       "current_tariff_period": null,
-      "publication_status": "not_active"
+      "publication_status": "not_active",
+      "normalized_catalog_path": "data/expansion/municipalities/eberdingen.json"
     },
     {
       "name": "Ehningen",
@@ -960,10 +970,11 @@
         "locator": "Bildbasierte PDF S. 1–3; Modultabelle GT5 S. 3; elf Monate Stammsatzung § 2",
         "is_default_comparison": false
       },
-      "integration_status": "not_normalized_not_active",
+      "integration_status": "normalized_pending_calculation_review",
       "id": "ehningen",
       "current_tariff_period": null,
-      "publication_status": "not_active"
+      "publication_status": "not_active",
+      "normalized_catalog_path": "data/expansion/municipalities/ehningen.json"
     },
     {
       "name": "Erdmannhausen",
@@ -1064,10 +1075,11 @@
         "locator": "Bildbasierte PDF S. 7; Grundpreis 500,60 €, GT-Zuschlag 150 €, Essen 84 €; Zahlung § 6 der Benutzungsordnung",
         "is_default_comparison": false
       },
-      "integration_status": "not_normalized_not_active",
+      "integration_status": "normalized_pending_calculation_review",
       "id": "erdmannhausen",
       "current_tariff_period": null,
-      "publication_status": "not_active"
+      "publication_status": "not_active",
+      "normalized_catalog_path": "data/expansion/municipalities/erdmannhausen.json"
     },
     {
       "name": "Filderstadt",
@@ -1136,10 +1148,11 @@
         "locator": "PDF S. 14, U3-Tabelle; elf Teilzahlungen § 15 Abs. 4",
         "is_default_comparison": false
       },
-      "integration_status": "not_normalized_not_active",
+      "integration_status": "normalized_pending_calculation_review",
       "id": "filderstadt",
       "current_tariff_period": null,
-      "publication_status": "not_active"
+      "publication_status": "not_active",
+      "normalized_catalog_path": "data/expansion/municipalities/filderstadt.json"
     },
     {
       "name": "Freiberg am Neckar",
@@ -1272,7 +1285,7 @@
         "locator": "Gebührenordnung S. 2, Flattichstraße, ganztags 40 bis 15 Uhr; Stufe 1. U3 zwölf Monate S. 1; Gültigkeit ab 01.06.2026 S. 5",
         "is_default_comparison": false
       },
-      "integration_status": "not_normalized_not_active",
+      "integration_status": "normalized_pending_calculation_review",
       "id": "freiberg",
       "current_tariff_period": "U3 ab 01.06.2026 / Ü3 ab 01.09.2026",
       "publication_status": "not_active",
@@ -1302,7 +1315,8 @@
           "locator": "PDF S. 2; U3-Abgrenzung Satzung § 2; elf Monate § 5",
           "is_default_comparison": false
         }
-      ]
+      ],
+      "normalized_catalog_path": "data/expansion/municipalities/freiberg.json"
     },
     {
       "name": "Grafenau",
@@ -1358,10 +1372,11 @@
         "locator": "Gebührenverzeichnis 2026/27, Ziffer 2; zwölf Monate § 2",
         "is_default_comparison": false
       },
-      "integration_status": "not_normalized_not_active",
+      "integration_status": "normalized_pending_calculation_review",
       "id": "grafenau",
       "current_tariff_period": null,
-      "publication_status": "not_active"
+      "publication_status": "not_active",
+      "normalized_catalog_path": "data/expansion/municipalities/grafenau.json"
     },
     {
       "name": "Hemmingen",
@@ -1447,10 +1462,11 @@
         "locator": "§ 3 Nr. 2c, PDF S. 4; zwölf Monatsraten Nr. 3",
         "is_default_comparison": false
       },
-      "integration_status": "not_normalized_not_active",
+      "integration_status": "normalized_pending_calculation_review",
       "id": "hemmingen",
       "current_tariff_period": null,
-      "publication_status": "not_active"
+      "publication_status": "not_active",
+      "normalized_catalog_path": "data/expansion/municipalities/hemmingen.json"
     },
     {
       "name": "Holzgerlingen",
@@ -1513,10 +1529,11 @@
         "locator": "§ 3 Abs. 7 Nr. 4a; zwölf Monatsgebühren Abs. 7",
         "is_default_comparison": false
       },
-      "integration_status": "not_normalized_not_active",
+      "integration_status": "normalized_pending_calculation_review",
       "id": "holzgerlingen",
       "current_tariff_period": null,
-      "publication_status": "not_active"
+      "publication_status": "not_active",
+      "normalized_catalog_path": "data/expansion/municipalities/holzgerlingen.json"
     },
     {
       "name": "Kernen im Remstal",
@@ -1572,10 +1589,11 @@
         "locator": "PDF S. 7; Einkommensbegriff S. 10–12; laufende Kalendermonatsgebühr § 7 Abs. 1",
         "is_default_comparison": false
       },
-      "integration_status": "not_normalized_not_active",
+      "integration_status": "normalized_pending_calculation_review",
       "id": "kernen",
       "current_tariff_period": null,
-      "publication_status": "not_active"
+      "publication_status": "not_active",
+      "normalized_catalog_path": "data/expansion/municipalities/kernen.json"
     },
     {
       "name": "Magstadt",
@@ -1662,10 +1680,11 @@
         "locator": "PDF S. 1, U3-GT8; zwölf Monate Benutzungsordnung § 6",
         "is_default_comparison": false
       },
-      "integration_status": "not_normalized_not_active",
+      "integration_status": "normalized_pending_calculation_review",
       "id": "magstadt",
       "current_tariff_period": null,
-      "publication_status": "not_active"
+      "publication_status": "not_active",
+      "normalized_catalog_path": "data/expansion/municipalities/magstadt.json"
     },
     {
       "name": "Marbach am Neckar",
@@ -1721,10 +1740,11 @@
         "locator": "§ 5, Tabelle 2026/27; elf Monate § 2; Essen § 6",
         "is_default_comparison": false
       },
-      "integration_status": "not_normalized_not_active",
+      "integration_status": "normalized_pending_calculation_review",
       "id": "marbach",
       "current_tariff_period": null,
-      "publication_status": "not_active"
+      "publication_status": "not_active",
+      "normalized_catalog_path": "data/expansion/municipalities/marbach.json"
     },
     {
       "name": "Möglingen",
@@ -1814,13 +1834,14 @@
         "locator": "PDF S. 1, U3-Tabelle; Familienpass Richtlinie II Nr. 4",
         "is_default_comparison": false
       },
-      "integration_status": "not_normalized_not_active",
+      "integration_status": "normalized_pending_calculation_review",
       "id": "moeglingen",
       "current_tariff_period": null,
       "publication_status": "not_active",
       "decision_ids": [
         "2026-11-10-moeglingen-payment-months"
-      ]
+      ],
+      "normalized_catalog_path": "data/expansion/municipalities/moeglingen.json"
     },
     {
       "name": "Ostfildern",
@@ -1876,10 +1897,11 @@
         "locator": "PDF S. 10, Tabelle gültig 2026/27; zwölf Monate § 6 Abs. 3",
         "is_default_comparison": false
       },
-      "integration_status": "not_normalized_not_active",
+      "integration_status": "normalized_pending_calculation_review",
       "id": "ostfildern",
       "current_tariff_period": null,
-      "publication_status": "not_active"
+      "publication_status": "not_active",
+      "normalized_catalog_path": "data/expansion/municipalities/ostfildern.json"
     },
     {
       "name": "Plochingen",
@@ -1942,10 +1964,11 @@
         "locator": "PDF S. 1; zwölf Monate und Essensabrechnung im Hinweisblock",
         "is_default_comparison": false
       },
-      "integration_status": "not_normalized_not_active",
+      "integration_status": "normalized_pending_calculation_review",
       "id": "plochingen",
       "current_tariff_period": null,
-      "publication_status": "not_active"
+      "publication_status": "not_active",
+      "normalized_catalog_path": "data/expansion/municipalities/plochingen.json"
     },
     {
       "name": "Remseck am Neckar",
@@ -2025,10 +2048,11 @@
         "locator": "Anlage 1, PDF S. 6; Betreuung elf, Essen zehn Monate",
         "is_default_comparison": false
       },
-      "integration_status": "not_normalized_not_active",
+      "integration_status": "normalized_pending_calculation_review",
       "id": "remseck",
       "current_tariff_period": null,
-      "publication_status": "not_active"
+      "publication_status": "not_active",
+      "normalized_catalog_path": "data/expansion/municipalities/remseck.json"
     },
     {
       "name": "Renningen",
@@ -2085,10 +2109,11 @@
         "locator": "Bildtabelle PDF S. 9; Tagesdauer § 3; zwölf Monate kommunale Gebührenseite",
         "is_default_comparison": false
       },
-      "integration_status": "not_normalized_not_active",
+      "integration_status": "normalized_pending_calculation_review",
       "id": "renningen",
       "current_tariff_period": null,
-      "publication_status": "not_active"
+      "publication_status": "not_active",
+      "normalized_catalog_path": "data/expansion/municipalities/renningen.json"
     },
     {
       "name": "Rutesheim",
@@ -2151,7 +2176,7 @@
       },
       "gaps": [
         "Gemeinsame Nutzung von Krippe/GT/Hort und Zuordnung des 50-Euro-Abzugs fachlich abbilden.",
-        "Familienpass nennt 10 % Einkommenseigenanteil; Bemessungsdefinition vor automatischer Ermäßigung ergänzen. Essensbetrag fehlt."
+        "Familienpass nennt 10 % Einkommenseigenanteil; Bemessungsdefinition vor automatischer Ermäßigung ergänzen. Essensstaffeln stehen auf Seite 2 der Gebührenübersicht und sind im Import erfasst."
       ],
       "reference_price": {
         "description": "490,00 € U3-Krippe Vollzeit bis 15 Uhr, ein Kind",
@@ -2160,10 +2185,11 @@
         "locator": "PDF S. 1; zwölf Monate im Kopf; Änderungsfassung Juni 2026 separat",
         "is_default_comparison": false
       },
-      "integration_status": "not_normalized_not_active",
+      "integration_status": "normalized_pending_calculation_review",
       "id": "rutesheim",
       "current_tariff_period": null,
-      "publication_status": "not_active"
+      "publication_status": "not_active",
+      "normalized_catalog_path": "data/expansion/municipalities/rutesheim.json"
     },
     {
       "name": "Schönaich",
@@ -2227,10 +2253,11 @@
         "locator": "PDF S. 2, Buchst. d; monatliche Ferienpflicht § 4 der Satzung",
         "is_default_comparison": false
       },
-      "integration_status": "not_normalized_not_active",
+      "integration_status": "normalized_pending_calculation_review",
       "id": "schoenaich",
       "current_tariff_period": null,
-      "publication_status": "not_active"
+      "publication_status": "not_active",
+      "normalized_catalog_path": "data/expansion/municipalities/schoenaich.json"
     },
     {
       "name": "Schwieberdingen",
@@ -2299,7 +2326,7 @@
         "locator": "PDF S. 1, obere Tabelle und Fußnoten",
         "is_default_comparison": false
       },
-      "integration_status": "not_normalized_not_active",
+      "integration_status": "normalized_pending_calculation_review",
       "id": "schwieberdingen",
       "current_tariff_period": null,
       "publication_status": "not_active",
@@ -2426,7 +2453,8 @@
           ],
           "do_not_invent_price_cell": true
         }
-      ]
+      ],
+      "normalized_catalog_path": "data/expansion/municipalities/schwieberdingen.json"
     },
     {
       "name": "Steinenbronn",
@@ -2492,13 +2520,14 @@
         "locator": "PDF S. 1; alternative Monatsraten Satzung § 6 Abs. 1",
         "is_default_comparison": false
       },
-      "integration_status": "not_normalized_not_active",
+      "integration_status": "normalized_pending_calculation_review",
       "id": "steinenbronn",
       "current_tariff_period": null,
       "publication_status": "not_active",
       "decision_ids": [
         "2026-11-10-steinenbronn-payment-months"
-      ]
+      ],
+      "normalized_catalog_path": "data/expansion/municipalities/steinenbronn.json"
     },
     {
       "name": "Tamm",
@@ -2553,10 +2582,11 @@
         "locator": "HTML Abschnitt Elternbeiträge ab 01.09.2025 und folgende Zahlungs-/Verpflegungshinweise",
         "is_default_comparison": false
       },
-      "integration_status": "not_normalized_not_active",
+      "integration_status": "normalized_pending_calculation_review",
       "id": "tamm",
       "current_tariff_period": null,
-      "publication_status": "not_active"
+      "publication_status": "not_active",
+      "normalized_catalog_path": "data/expansion/municipalities/tamm.json"
     },
     {
       "name": "Waiblingen",
@@ -2647,7 +2677,7 @@
         "locator": "PDF S. 1; Einkommensbegriff § 4, Rang § 5, Essen § 6 Nr. 9 der Satzung",
         "is_default_comparison": false
       },
-      "integration_status": "not_normalized_not_active",
+      "integration_status": "normalized_pending_calculation_review",
       "id": "waiblingen",
       "current_tariff_period": null,
       "publication_status": "not_active",
@@ -2663,7 +2693,8 @@
         "derive_inclusion_from_offer": true,
         "prevent_double_counting": true,
         "decision_id": "2026-11-10-waiblingen-included-meals"
-      }
+      },
+      "normalized_catalog_path": "data/expansion/municipalities/waiblingen.json"
     },
     {
       "name": "Waldenbuch",
@@ -2735,10 +2766,11 @@
         "locator": "§ 3 Angebotsstruktur; § 4 Abs. 2f Tarif; zwölf Monate Abs. 4",
         "is_default_comparison": false
       },
-      "integration_status": "not_normalized_not_active",
+      "integration_status": "normalized_pending_calculation_review",
       "id": "waldenbuch",
       "current_tariff_period": null,
-      "publication_status": "not_active"
+      "publication_status": "not_active",
+      "normalized_catalog_path": "data/expansion/municipalities/waldenbuch.json"
     },
     {
       "name": "Weissach",
@@ -2793,14 +2825,15 @@
         "locator": "PDF S. 12, Spalte 01.09.2026; zwölf Monate § 5 Abs. 5",
         "is_default_comparison": false
       },
-      "integration_status": "not_normalized_not_active",
+      "integration_status": "normalized_pending_calculation_review",
       "id": "weissach",
       "current_tariff_period": null,
-      "publication_status": "not_active"
+      "publication_status": "not_active",
+      "normalized_catalog_path": "data/expansion/municipalities/weissach.json"
     }
   ],
   "status": "research_completed_with_documented_gaps",
-  "tariff_normalization_status": "not_started",
+  "tariff_normalization_status": "completed_pending_calculation_review",
   "active_municipalities_unchanged": 12,
   "history_in_scope": false,
   "transcriptions_path": "data/research/scanned_tariff_transcriptions_2026-11-10.json",
@@ -2886,5 +2919,6 @@
     "unresolved_configuration_display_label": "Nicht berechenbar",
     "preserve_current_engine": true,
     "notes": "Recherche- und Integrationsdaten dürfen ergänzt werden. Keine kommunale Unklarheit durch stillschweigende Anpassung der gemeinsamen Rechenlogik oder geratenen Ersatzpreis lösen."
-  }
+  },
+  "normalized_catalog_manifest_path": "data/expansion/manifest.json"
 }

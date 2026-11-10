@@ -1,0 +1,1852 @@
+{
+  "schema_version": "1.0",
+  "id": "remseck",
+  "name": "Remseck am Neckar",
+  "reviewed_at": "2026-11-10",
+  "reference_date": "2026-11-10",
+  "scope": {
+    "included": [
+      "municipal"
+    ],
+    "other_providers": "only_with_explicit_source_evidence"
+  },
+  "family_basis": "under_18",
+  "family_evidence": {
+    "source_id": "5ebe63b06876",
+    "locator": "Familienbegriff und Fußnoten der Gebührenunterlagen",
+    "original": null
+  },
+  "supporting_source_ids": [
+    "5ebe63b06876",
+    "fe83dd3d20d8"
+  ],
+  "offers": [
+    {
+      "id": "remseck-offer-ee6f92973200",
+      "original_label": "VÖ6",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 1800,
+      "weekday_minutes": [
+        360,
+        360,
+        360,
+        360,
+        360
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "5ebe63b06876",
+        "locator": "Anlage 1 S. 6, Nr. 1",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "5ebe63b06876",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "5ebe63b06876",
+        "locator": "Anlage 1 S. 6, Nr. 1",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "remseck-offer-e7ba9381d3ec",
+      "original_label": "GT7,5",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2250,
+      "weekday_minutes": [
+        450,
+        450,
+        450,
+        450,
+        450
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "5ebe63b06876",
+        "locator": "Anlage 1 S. 6, Nr. 1",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "5ebe63b06876",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "5ebe63b06876",
+        "locator": "Anlage 1 S. 6, Nr. 1",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "remseck-offer-2beb94274218",
+      "original_label": "GT10",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 3000,
+      "weekday_minutes": [
+        600,
+        600,
+        600,
+        600,
+        600
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "5ebe63b06876",
+        "locator": "Anlage 1 S. 6, Nr. 1",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "5ebe63b06876",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "5ebe63b06876",
+        "locator": "Anlage 1 S. 6, Nr. 1",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "remseck-offer-52d186c0febb",
+      "original_label": "VÖ6 Altersmischung",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 1800,
+      "weekday_minutes": [
+        360,
+        360,
+        360,
+        360,
+        360
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "5ebe63b06876",
+        "locator": "Anlage 1 S. 6, Nr. 1",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "5ebe63b06876",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "5ebe63b06876",
+        "locator": "Anlage 1 S. 6, Nr. 1",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "remseck-offer-c82b2d8734b8",
+      "original_label": "VÖ6 Kinderkrippe",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 1800,
+      "weekday_minutes": [
+        360,
+        360,
+        360,
+        360,
+        360
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "5ebe63b06876",
+        "locator": "Anlage 1 S. 6, Nr. 1",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "5ebe63b06876",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "5ebe63b06876",
+        "locator": "Anlage 1 S. 6, Nr. 1",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "remseck-offer-19b7c45eddb9",
+      "original_label": "GT7,5",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2250,
+      "weekday_minutes": [
+        450,
+        450,
+        450,
+        450,
+        450
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "5ebe63b06876",
+        "locator": "Anlage 1 S. 6, Nr. 1",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "5ebe63b06876",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "5ebe63b06876",
+        "locator": "Anlage 1 S. 6, Nr. 1",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "remseck-offer-f5deb9a1f8b4",
+      "original_label": "GT10",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 3000,
+      "weekday_minutes": [
+        600,
+        600,
+        600,
+        600,
+        600
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "5ebe63b06876",
+        "locator": "Anlage 1 S. 6, Nr. 1",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "5ebe63b06876",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "5ebe63b06876",
+        "locator": "Anlage 1 S. 6, Nr. 1",
+        "original": null
+      },
+      "formula": null
+    }
+  ],
+  "prices": [
+    {
+      "id": "remseck-price-09de001d0a4a",
+      "offer_id": "remseck-offer-ee6f92973200",
+      "amount_cents": 22500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "5ebe63b06876",
+        "locator": "Anlage 1 S. 6, Nr. 1",
+        "original": 225
+      }
+    },
+    {
+      "id": "remseck-price-30996950bcc0",
+      "offer_id": "remseck-offer-ee6f92973200",
+      "amount_cents": 17300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "5ebe63b06876",
+        "locator": "Anlage 1 S. 6, Nr. 1",
+        "original": 173
+      }
+    },
+    {
+      "id": "remseck-price-5ffd2f6a8f54",
+      "offer_id": "remseck-offer-ee6f92973200",
+      "amount_cents": 11600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "5ebe63b06876",
+        "locator": "Anlage 1 S. 6, Nr. 1",
+        "original": 116
+      }
+    },
+    {
+      "id": "remseck-price-b464b6b4a00f",
+      "offer_id": "remseck-offer-ee6f92973200",
+      "amount_cents": 3900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "5ebe63b06876",
+        "locator": "Anlage 1 S. 6, Nr. 1",
+        "original": 39
+      }
+    },
+    {
+      "id": "remseck-price-e9f4625dc5ee",
+      "offer_id": "remseck-offer-ee6f92973200",
+      "amount_cents": 0,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 5,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "5ebe63b06876",
+        "locator": "Anlage 1 Fußnote: ab fünftem Kind gebührenfrei",
+        "original": 0
+      }
+    },
+    {
+      "id": "remseck-price-82f9ecfaa015",
+      "offer_id": "remseck-offer-e7ba9381d3ec",
+      "amount_cents": 30400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "5ebe63b06876",
+        "locator": "Anlage 1 S. 6, Nr. 1",
+        "original": 304
+      }
+    },
+    {
+      "id": "remseck-price-c2588d456691",
+      "offer_id": "remseck-offer-e7ba9381d3ec",
+      "amount_cents": 23400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "5ebe63b06876",
+        "locator": "Anlage 1 S. 6, Nr. 1",
+        "original": 234
+      }
+    },
+    {
+      "id": "remseck-price-ea2ca3646901",
+      "offer_id": "remseck-offer-e7ba9381d3ec",
+      "amount_cents": 15300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "5ebe63b06876",
+        "locator": "Anlage 1 S. 6, Nr. 1",
+        "original": 153
+      }
+    },
+    {
+      "id": "remseck-price-5de72970ca9e",
+      "offer_id": "remseck-offer-e7ba9381d3ec",
+      "amount_cents": 4900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "5ebe63b06876",
+        "locator": "Anlage 1 S. 6, Nr. 1",
+        "original": 49
+      }
+    },
+    {
+      "id": "remseck-price-7b4ff24a4099",
+      "offer_id": "remseck-offer-e7ba9381d3ec",
+      "amount_cents": 0,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 5,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "5ebe63b06876",
+        "locator": "Anlage 1 Fußnote: ab fünftem Kind gebührenfrei",
+        "original": 0
+      }
+    },
+    {
+      "id": "remseck-price-45e45221b7f5",
+      "offer_id": "remseck-offer-2beb94274218",
+      "amount_cents": 40600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "5ebe63b06876",
+        "locator": "Anlage 1 S. 6, Nr. 1",
+        "original": 406
+      }
+    },
+    {
+      "id": "remseck-price-3b670812de47",
+      "offer_id": "remseck-offer-2beb94274218",
+      "amount_cents": 31300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "5ebe63b06876",
+        "locator": "Anlage 1 S. 6, Nr. 1",
+        "original": 313
+      }
+    },
+    {
+      "id": "remseck-price-7e0a94a90d64",
+      "offer_id": "remseck-offer-2beb94274218",
+      "amount_cents": 20300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "5ebe63b06876",
+        "locator": "Anlage 1 S. 6, Nr. 1",
+        "original": 203
+      }
+    },
+    {
+      "id": "remseck-price-1ec8ae45e17e",
+      "offer_id": "remseck-offer-2beb94274218",
+      "amount_cents": 6400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "5ebe63b06876",
+        "locator": "Anlage 1 S. 6, Nr. 1",
+        "original": 64
+      }
+    },
+    {
+      "id": "remseck-price-954f238a0cac",
+      "offer_id": "remseck-offer-2beb94274218",
+      "amount_cents": 0,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 5,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "5ebe63b06876",
+        "locator": "Anlage 1 Fußnote: ab fünftem Kind gebührenfrei",
+        "original": 0
+      }
+    },
+    {
+      "id": "remseck-price-45de3816a825",
+      "offer_id": "remseck-offer-52d186c0febb",
+      "amount_cents": 35600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "5ebe63b06876",
+        "locator": "Anlage 1 S. 6, Nr. 1",
+        "original": 356
+      }
+    },
+    {
+      "id": "remseck-price-cf21de9767c9",
+      "offer_id": "remseck-offer-52d186c0febb",
+      "amount_cents": 27700,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "5ebe63b06876",
+        "locator": "Anlage 1 S. 6, Nr. 1",
+        "original": 277
+      }
+    },
+    {
+      "id": "remseck-price-79d9c4127782",
+      "offer_id": "remseck-offer-52d186c0febb",
+      "amount_cents": 18400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "5ebe63b06876",
+        "locator": "Anlage 1 S. 6, Nr. 1",
+        "original": 184
+      }
+    },
+    {
+      "id": "remseck-price-fba644a24366",
+      "offer_id": "remseck-offer-52d186c0febb",
+      "amount_cents": 6100,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "5ebe63b06876",
+        "locator": "Anlage 1 S. 6, Nr. 1",
+        "original": 61
+      }
+    },
+    {
+      "id": "remseck-price-43ff507a3954",
+      "offer_id": "remseck-offer-52d186c0febb",
+      "amount_cents": 0,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 5,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "5ebe63b06876",
+        "locator": "Anlage 1 Fußnote: ab fünftem Kind gebührenfrei",
+        "original": 0
+      }
+    },
+    {
+      "id": "remseck-price-ccfbb9b28180",
+      "offer_id": "remseck-offer-c82b2d8734b8",
+      "amount_cents": 46800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "5ebe63b06876",
+        "locator": "Anlage 1 S. 6, Nr. 1",
+        "original": 468
+      }
+    },
+    {
+      "id": "remseck-price-3a376ee62469",
+      "offer_id": "remseck-offer-c82b2d8734b8",
+      "amount_cents": 35900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "5ebe63b06876",
+        "locator": "Anlage 1 S. 6, Nr. 1",
+        "original": 359
+      }
+    },
+    {
+      "id": "remseck-price-50c32b2d846e",
+      "offer_id": "remseck-offer-c82b2d8734b8",
+      "amount_cents": 23400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "5ebe63b06876",
+        "locator": "Anlage 1 S. 6, Nr. 1",
+        "original": 234
+      }
+    },
+    {
+      "id": "remseck-price-de649c0df30b",
+      "offer_id": "remseck-offer-c82b2d8734b8",
+      "amount_cents": 7400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "5ebe63b06876",
+        "locator": "Anlage 1 S. 6, Nr. 1",
+        "original": 74
+      }
+    },
+    {
+      "id": "remseck-price-3c058dca78fd",
+      "offer_id": "remseck-offer-c82b2d8734b8",
+      "amount_cents": 0,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 5,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "5ebe63b06876",
+        "locator": "Anlage 1 Fußnote: ab fünftem Kind gebührenfrei",
+        "original": 0
+      }
+    },
+    {
+      "id": "remseck-price-a0d199dd9a06",
+      "offer_id": "remseck-offer-19b7c45eddb9",
+      "amount_cents": 60900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "5ebe63b06876",
+        "locator": "Anlage 1 S. 6, Nr. 1",
+        "original": 609
+      }
+    },
+    {
+      "id": "remseck-price-9ae8e761700e",
+      "offer_id": "remseck-offer-19b7c45eddb9",
+      "amount_cents": 46900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "5ebe63b06876",
+        "locator": "Anlage 1 S. 6, Nr. 1",
+        "original": 469
+      }
+    },
+    {
+      "id": "remseck-price-376f399c4de6",
+      "offer_id": "remseck-offer-19b7c45eddb9",
+      "amount_cents": 30600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "5ebe63b06876",
+        "locator": "Anlage 1 S. 6, Nr. 1",
+        "original": 306
+      }
+    },
+    {
+      "id": "remseck-price-e4a5e4c36fd9",
+      "offer_id": "remseck-offer-19b7c45eddb9",
+      "amount_cents": 9700,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "5ebe63b06876",
+        "locator": "Anlage 1 S. 6, Nr. 1",
+        "original": 97
+      }
+    },
+    {
+      "id": "remseck-price-862d8574035d",
+      "offer_id": "remseck-offer-19b7c45eddb9",
+      "amount_cents": 0,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 5,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "5ebe63b06876",
+        "locator": "Anlage 1 Fußnote: ab fünftem Kind gebührenfrei",
+        "original": 0
+      }
+    },
+    {
+      "id": "remseck-price-3c2af9557527",
+      "offer_id": "remseck-offer-f5deb9a1f8b4",
+      "amount_cents": 81300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "5ebe63b06876",
+        "locator": "Anlage 1 S. 6, Nr. 1",
+        "original": 813
+      }
+    },
+    {
+      "id": "remseck-price-6e64bb5b2559",
+      "offer_id": "remseck-offer-f5deb9a1f8b4",
+      "amount_cents": 62300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "5ebe63b06876",
+        "locator": "Anlage 1 S. 6, Nr. 1",
+        "original": 623
+      }
+    },
+    {
+      "id": "remseck-price-575a4e505f5c",
+      "offer_id": "remseck-offer-f5deb9a1f8b4",
+      "amount_cents": 40600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "5ebe63b06876",
+        "locator": "Anlage 1 S. 6, Nr. 1",
+        "original": 406
+      }
+    },
+    {
+      "id": "remseck-price-d0e72787f5c5",
+      "offer_id": "remseck-offer-f5deb9a1f8b4",
+      "amount_cents": 12000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "5ebe63b06876",
+        "locator": "Anlage 1 S. 6, Nr. 1",
+        "original": 120
+      }
+    },
+    {
+      "id": "remseck-price-dbf526615932",
+      "offer_id": "remseck-offer-f5deb9a1f8b4",
+      "amount_cents": 0,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 5,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "5ebe63b06876",
+        "locator": "Anlage 1 Fußnote: ab fünftem Kind gebührenfrei",
+        "original": 0
+      }
+    }
+  ],
+  "income_bands": [],
+  "components": [
+    {
+      "id": "remseck-component-80e6ce92f8af",
+      "kind": "meal",
+      "original_label": "Mittagessen ein bis zwei Jahre",
+      "amount_cents": 4500,
+      "unit": "per_month",
+      "age_group": "u3",
+      "required": true,
+      "payment_months": 10,
+      "offer_ids": null,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "5ebe63b06876",
+        "locator": "Anlage 1 Nr. 2",
+        "original": null
+      },
+      "age_max_months_exclusive": 24
+    },
+    {
+      "id": "remseck-component-1c17590dffd6",
+      "kind": "meal",
+      "original_label": "Mittagessen über zwei Jahre",
+      "amount_cents": 9000,
+      "unit": "per_month",
+      "age_group": null,
+      "required": true,
+      "payment_months": 10,
+      "offer_ids": null,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "5ebe63b06876",
+        "locator": "Anlage 1 Nr. 2",
+        "original": null
+      },
+      "age_min_months": 24
+    }
+  ],
+  "rules": [
+    {
+      "id": "remseck-rule-748fd1e04f83",
+      "kind": "family_pass",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "pass": "remseck_family_pass",
+        "meal_discount": false,
+        "rate": "see_current_pass_rules"
+      },
+      "evidence": {
+        "source_id": "5ebe63b06876",
+        "locator": "§ 6",
+        "original": null
+      }
+    },
+    {
+      "id": "remseck-rule-bec40817d155",
+      "kind": "source_provisions_5ebe63b06876",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "archive_text_path": "data/sources/5ebe63b06876/text.txt",
+        "text_sha256": "3e44fa667f944d5eb9f3e27b81c63aaec049f96c7b79fb9b9f23bfe368415e0c",
+        "review_status": "archived_provisions_preserved"
+      },
+      "evidence": {
+        "source_id": "5ebe63b06876",
+        "locator": "Vollständiger archivierter Dokumenttext einschließlich Fußnoten",
+        "original": null
+      }
+    },
+    {
+      "id": "remseck-rule-2a5658029dcb",
+      "kind": "source_clause_5ebe63b06876_1_3",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 0,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "5ebe63b06876",
+        "locator": "PDF-/Textseite 1, Absatzblock 3",
+        "original": null
+      }
+    },
+    {
+      "id": "remseck-rule-a3d55a91093f",
+      "kind": "source_clause_5ebe63b06876_1_9",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 1,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "5ebe63b06876",
+        "locator": "PDF-/Textseite 1, Absatzblock 9",
+        "original": null
+      }
+    },
+    {
+      "id": "remseck-rule-f3ea9ccc3164",
+      "kind": "source_clause_5ebe63b06876_1_14",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 2,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "5ebe63b06876",
+        "locator": "PDF-/Textseite 1, Absatzblock 14",
+        "original": null
+      }
+    },
+    {
+      "id": "remseck-rule-5694cdfa754a",
+      "kind": "source_clause_5ebe63b06876_2_8",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 3,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "5ebe63b06876",
+        "locator": "PDF-/Textseite 2, Absatzblock 8",
+        "original": null
+      }
+    },
+    {
+      "id": "remseck-rule-0d61dacf7b19",
+      "kind": "source_clause_5ebe63b06876_2_9",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 4,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "5ebe63b06876",
+        "locator": "PDF-/Textseite 2, Absatzblock 9",
+        "original": null
+      }
+    },
+    {
+      "id": "remseck-rule-d93aa26ce893",
+      "kind": "source_clause_5ebe63b06876_2_10",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 5,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "5ebe63b06876",
+        "locator": "PDF-/Textseite 2, Absatzblock 10",
+        "original": null
+      }
+    },
+    {
+      "id": "remseck-rule-bcf89d51025d",
+      "kind": "source_clause_5ebe63b06876_2_11",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 6,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "5ebe63b06876",
+        "locator": "PDF-/Textseite 2, Absatzblock 11",
+        "original": null
+      }
+    },
+    {
+      "id": "remseck-rule-36d39fac0096",
+      "kind": "source_clause_5ebe63b06876_2_12",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 7,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "5ebe63b06876",
+        "locator": "PDF-/Textseite 2, Absatzblock 12",
+        "original": null
+      }
+    },
+    {
+      "id": "remseck-rule-2a2fe0ad2a8b",
+      "kind": "source_clause_5ebe63b06876_3_2",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 8,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "5ebe63b06876",
+        "locator": "PDF-/Textseite 3, Absatzblock 2",
+        "original": null
+      }
+    },
+    {
+      "id": "remseck-rule-52e53e9f3332",
+      "kind": "source_clause_5ebe63b06876_3_5",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 9,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "5ebe63b06876",
+        "locator": "PDF-/Textseite 3, Absatzblock 5",
+        "original": null
+      }
+    },
+    {
+      "id": "remseck-rule-16c4b4a40cd5",
+      "kind": "source_clause_5ebe63b06876_3_6",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 10,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "5ebe63b06876",
+        "locator": "PDF-/Textseite 3, Absatzblock 6",
+        "original": null
+      }
+    },
+    {
+      "id": "remseck-rule-c95f69804e73",
+      "kind": "source_clause_5ebe63b06876_3_7",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 11,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "5ebe63b06876",
+        "locator": "PDF-/Textseite 3, Absatzblock 7",
+        "original": null
+      }
+    },
+    {
+      "id": "remseck-rule-556383589846",
+      "kind": "source_clause_5ebe63b06876_3_8",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 12,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "5ebe63b06876",
+        "locator": "PDF-/Textseite 3, Absatzblock 8",
+        "original": null
+      }
+    },
+    {
+      "id": "remseck-rule-6ee286361f6a",
+      "kind": "source_clause_5ebe63b06876_3_9",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 13,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "5ebe63b06876",
+        "locator": "PDF-/Textseite 3, Absatzblock 9",
+        "original": null
+      }
+    },
+    {
+      "id": "remseck-rule-5c1324a12b67",
+      "kind": "source_clause_5ebe63b06876_3_11",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 14,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "5ebe63b06876",
+        "locator": "PDF-/Textseite 3, Absatzblock 11",
+        "original": null
+      }
+    },
+    {
+      "id": "remseck-rule-bf17ca90124c",
+      "kind": "source_clause_5ebe63b06876_3_12",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 15,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "5ebe63b06876",
+        "locator": "PDF-/Textseite 3, Absatzblock 12",
+        "original": null
+      }
+    },
+    {
+      "id": "remseck-rule-fb8a9bb8355d",
+      "kind": "source_clause_5ebe63b06876_3_13",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 16,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "5ebe63b06876",
+        "locator": "PDF-/Textseite 3, Absatzblock 13",
+        "original": null
+      }
+    },
+    {
+      "id": "remseck-rule-00304ae08915",
+      "kind": "source_clause_5ebe63b06876_3_14",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 17,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "5ebe63b06876",
+        "locator": "PDF-/Textseite 3, Absatzblock 14",
+        "original": null
+      }
+    },
+    {
+      "id": "remseck-rule-bb1f45712700",
+      "kind": "source_clause_5ebe63b06876_3_15",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 18,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "5ebe63b06876",
+        "locator": "PDF-/Textseite 3, Absatzblock 15",
+        "original": null
+      }
+    },
+    {
+      "id": "remseck-rule-81628493dd81",
+      "kind": "source_clause_5ebe63b06876_4_2",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 19,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "5ebe63b06876",
+        "locator": "PDF-/Textseite 4, Absatzblock 2",
+        "original": null
+      }
+    },
+    {
+      "id": "remseck-rule-4bdd0132c1e8",
+      "kind": "source_clause_5ebe63b06876_4_5",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 20,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "5ebe63b06876",
+        "locator": "PDF-/Textseite 4, Absatzblock 5",
+        "original": null
+      }
+    },
+    {
+      "id": "remseck-rule-47f5d7154688",
+      "kind": "source_clause_5ebe63b06876_4_6",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 21,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "5ebe63b06876",
+        "locator": "PDF-/Textseite 4, Absatzblock 6",
+        "original": null
+      }
+    },
+    {
+      "id": "remseck-rule-a9acc71901dd",
+      "kind": "source_clause_5ebe63b06876_4_7",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 22,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "5ebe63b06876",
+        "locator": "PDF-/Textseite 4, Absatzblock 7",
+        "original": null
+      }
+    },
+    {
+      "id": "remseck-rule-7a9112e454e1",
+      "kind": "source_clause_5ebe63b06876_4_9",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 23,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "5ebe63b06876",
+        "locator": "PDF-/Textseite 4, Absatzblock 9",
+        "original": null
+      }
+    },
+    {
+      "id": "remseck-rule-0ab0bfd27427",
+      "kind": "source_clause_5ebe63b06876_4_11",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 24,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "5ebe63b06876",
+        "locator": "PDF-/Textseite 4, Absatzblock 11",
+        "original": null
+      }
+    },
+    {
+      "id": "remseck-rule-d3f3f520a80e",
+      "kind": "source_clause_5ebe63b06876_5_4",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 25,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "5ebe63b06876",
+        "locator": "PDF-/Textseite 5, Absatzblock 4",
+        "original": null
+      }
+    },
+    {
+      "id": "remseck-rule-9520540cfa17",
+      "kind": "source_clause_5ebe63b06876_6_2",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 26,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "5ebe63b06876",
+        "locator": "PDF-/Textseite 6, Absatzblock 2",
+        "original": null
+      }
+    },
+    {
+      "id": "remseck-rule-9d48cb25c091",
+      "kind": "source_clause_5ebe63b06876_6_3",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 27,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "5ebe63b06876",
+        "locator": "PDF-/Textseite 6, Absatzblock 3",
+        "original": null
+      }
+    },
+    {
+      "id": "remseck-rule-c6cb2dbeb41c",
+      "kind": "source_clause_5ebe63b06876_6_15",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 28,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "5ebe63b06876",
+        "locator": "PDF-/Textseite 6, Absatzblock 15",
+        "original": null
+      }
+    },
+    {
+      "id": "remseck-rule-0c9c7b2987a9",
+      "kind": "source_clause_5ebe63b06876_6_16",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 29,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "5ebe63b06876",
+        "locator": "PDF-/Textseite 6, Absatzblock 16",
+        "original": null
+      }
+    },
+    {
+      "id": "remseck-rule-170415a9d9e8",
+      "kind": "source_provisions_fe83dd3d20d8",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "archive_text_path": "data/sources/fe83dd3d20d8/text.txt",
+        "text_sha256": "2ab7cd8059a279821d004e8839e444e91acf6219b4ce738d30a795fcf64a2069",
+        "review_status": "archived_provisions_preserved"
+      },
+      "evidence": {
+        "source_id": "fe83dd3d20d8",
+        "locator": "Vollständiger archivierter Dokumenttext einschließlich Fußnoten",
+        "original": null
+      }
+    },
+    {
+      "id": "remseck-rule-095239a152db",
+      "kind": "source_clause_fe83dd3d20d8_5_9",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 30,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "fe83dd3d20d8",
+        "locator": "PDF-/Textseite 5, Absatzblock 9",
+        "original": null
+      }
+    },
+    {
+      "id": "remseck-rule-d711e01f3716",
+      "kind": "source_clause_fe83dd3d20d8_9_5",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 31,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "fe83dd3d20d8",
+        "locator": "PDF-/Textseite 9, Absatzblock 5",
+        "original": null
+      }
+    }
+  ],
+  "issues": [
+    {
+      "code": "pending_calculation_review",
+      "detail": "Strukturierter Import; noch keine Freigabe des Rechners oder der Website."
+    },
+    {
+      "code": "research_limitation_1",
+      "detail": "Pattonville/Zweckverband besitzt eigene Entgelte; den kommunalen Tarif nicht ungeprüft auf alle Einrichtungen im Stadtgebiet ausdehnen."
+    },
+    {
+      "code": "research_limitation_2",
+      "detail": "Künftige Familienauswahl muss das fünfte Kind berücksichtigen."
+    }
+  ],
+  "coverage": {
+    "publication_status": "not_active",
+    "integration_status": "normalized_pending_calculation_review",
+    "history_in_scope": false,
+    "source_register": "data/research/neighbor_expansion_2026-11-10.json",
+    "research_id": "remseck",
+    "unavailable_configurations": [],
+    "offers": 7,
+    "price_cells": 35,
+    "income_bands": 0,
+    "components": 2,
+    "rule_records": 35,
+    "tariff_table_transcription": "complete_for_declared_scope",
+    "declared_scope": "Aktuelle und bereits veröffentlichte künftige Krippen- und Kindergartentarife; Zusatzkosten und Gebührenregeln.",
+    "excluded_from_regular_price_rows": [
+      "superseded_historical_tariffs",
+      "school_childcare",
+      "takki_and_childminding",
+      "separate_playgroups"
+    ],
+    "calculation_engine_changed": false,
+    "rule_transcription": "typed_parameters_and_source_clauses_with_explicit_unimplemented_status"
+  },
+  "original_research": {
+    "path": "data/research/neighbor_expansion_2026-11-10.json",
+    "section": "Remseck am Neckar",
+    "text": "Essen wird nur zehn Monate erhoben, Betreuung elf. Für Essen Grenze 1–2 Jahre/über zwei Jahre, nicht U3/Ü3.\nPattonville/Zweckverband besitzt eigene Entgelte; den kommunalen Tarif nicht ungeprüft auf alle Einrichtungen im Stadtgebiet ausdehnen.\nKünftige Familienauswahl muss das fünfte Kind berücksichtigen.",
+    "source_clauses": [
+      {
+        "text": "Satzung über die Erhebung von Gebühren der Stadt Remseck am\nNeckar für die Betreuung in Tageseinrichtungen gem. § 1 KiTaG\n- Gebührensatzung für Tageseinrichtungen gem. § 1 KiTaG -\nFassung vom 01. September 2026",
+        "evidence": {
+          "source_id": "5ebe63b06876",
+          "locator": "PDF-/Textseite 1, Absatzblock 3",
+          "original": null
+        }
+      },
+      {
+        "text": "§5    Benutzungsgebühr für die Teilnahme am Mittagessen                               3",
+        "evidence": {
+          "source_id": "5ebe63b06876",
+          "locator": "PDF-/Textseite 1, Absatzblock 9",
+          "original": null
+        }
+      },
+      {
+        "text": "Anlage 1\nBenutzungsgebühren für Tageseinrichtungen gem. § 1 KiTaG, gültig ab 01.09.2026",
+        "evidence": {
+          "source_id": "5ebe63b06876",
+          "locator": "PDF-/Textseite 1, Absatzblock 14",
+          "original": null
+        }
+      },
+      {
+        "text": "(1) Die Stadt Remseck am Neckar erhebt für die Benutzung der Tageseinrichtungen für Kinder\nBetreuungsgebühren nach Maßgabe dieser Satzung. Die Betreuungsgebühren sind für 11 Monate zu\nentrichten. Der Monat August ist gebührenfrei.",
+        "evidence": {
+          "source_id": "5ebe63b06876",
+          "locator": "PDF-/Textseite 2, Absatzblock 8",
+          "original": null
+        }
+      },
+      {
+        "text": "(2) Gebührenmaßstab für die Benutzung der Betreuungseinrichtungen ist die Art der\nEinrichtung, der Umfang der Betreuungszeit, das Alter des Kindes und die Anzahl der Kinder\nunter 18 Jahren im Haushalt des Gebührenschuldners.",
+        "evidence": {
+          "source_id": "5ebe63b06876",
+          "locator": "PDF-/Textseite 2, Absatzblock 9",
+          "original": null
+        }
+      },
+      {
+        "text": "(3) Die Gebühren werden jeweils für einen Kalendermonat (Veranlagungszeitraum) erhoben.\nWird das Kind nach dem 15. des jeweiligen Monats aufgenommen, ermäßigt sich der\nGebührensatz auf 50 % für diesen Monat.",
+        "evidence": {
+          "source_id": "5ebe63b06876",
+          "locator": "PDF-/Textseite 2, Absatzblock 10",
+          "original": null
+        }
+      },
+      {
+        "text": "(4) Die Gebühren sind auch während der Ferien sowie bei Nichtbenutzung oder\nvorübergehender Schließung der Einrichtung zu entrichten.",
+        "evidence": {
+          "source_id": "5ebe63b06876",
+          "locator": "PDF-/Textseite 2, Absatzblock 11",
+          "original": null
+        }
+      },
+      {
+        "text": "(5) Wird das Betreuungsangebot seitens der Stadt nicht aufrechterhalten, werden ab dem\nsechsten aufeinanderfolgenden Öffnungstag der Einschränkungen die Gebühren\nentsprechend der Reduzierung erstattet.",
+        "evidence": {
+          "source_id": "5ebe63b06876",
+          "locator": "PDF-/Textseite 2, Absatzblock 12",
+          "original": null
+        }
+      },
+      {
+        "text": "(1) Gebührenschuldner sind die Personensorgeberechtigten des Kindes, in deren Haushalt das\n Kind lebt sowie diejenigen, die die Aufnahme in die Betreuungseinrichtung beantragt haben.",
+        "evidence": {
+          "source_id": "5ebe63b06876",
+          "locator": "PDF-/Textseite 3, Absatzblock 2",
+          "original": null
+        }
+      },
+      {
+        "text": "(1) Die Gebühren werden je Kind und Betreuungsplatz erhoben.",
+        "evidence": {
+          "source_id": "5ebe63b06876",
+          "locator": "PDF-/Textseite 3, Absatzblock 5",
+          "original": null
+        }
+      },
+      {
+        "text": "(2) Die Höhe der Gebühr für die Benutzung der Einrichtung bestimmt sich nach dem Alter des\n Kindes und der Anzahl der Kinder, die noch nicht das 18. Lebensjahr vollendet haben und\n nicht nur vorübergehend im Haushalt des Gebührenschuldners (§3) leben. Unterhaltsberechtigte\n Kinder, die nicht im Haushalt des Gebührenschuldners leben, werden nicht berücksichtigt. Ändert sich\n die Anzahl der berücksichtigungsfähigen Kinder, ist die Änderung der Stadtverwaltung unter Angabe\n des Kalendermonats, in dem die Änderung eingetreten ist, anzuzeigen. Die Gebühren werden für den\n Kalendermonat neu festgesetzt, der auf den Monat folgt, in dem der Stadtverwaltung eine Änderung\n der Anzahl der Kinder unter 18 Jahren nachweislich mitgeteilt wurde.",
+        "evidence": {
+          "source_id": "5ebe63b06876",
+          "locator": "PDF-/Textseite 3, Absatzblock 6",
+          "original": null
+        }
+      },
+      {
+        "text": "(3) Die Höhe des Essensgeldes bestimmt sich nach dem Alter des Kindes. Die Gebühren werden\n für den Kalendermonat neu festgesetzt, der auf den Monat folgt, in der das Kind einer neuen\n Altersgruppe zugehörig ist.",
+        "evidence": {
+          "source_id": "5ebe63b06876",
+          "locator": "PDF-/Textseite 3, Absatzblock 7",
+          "original": null
+        }
+      },
+      {
+        "text": "(4) Die Höhe der Gebührensätze im Einzelnen ist der Anlage 1 zu entnehmen.",
+        "evidence": {
+          "source_id": "5ebe63b06876",
+          "locator": "PDF-/Textseite 3, Absatzblock 8",
+          "original": null
+        }
+      },
+      {
+        "text": "(5) Inhaber des Remsecker Familienpasses erhalten auf die Gebühr für die Benutzung der\n Einrichtungen 50 % Ermäßigung. Das Essensgeld wird nicht ermäßigt.",
+        "evidence": {
+          "source_id": "5ebe63b06876",
+          "locator": "PDF-/Textseite 3, Absatzblock 9",
+          "original": null
+        }
+      },
+      {
+        "text": "(1) Für die Teilnahme am Mittagstisch werden Benutzungsgebühren erhoben (Essensgeld). Sie sind für\n 10 Monate zu entrichten. Eine Rückerstattung des Essensgeldes auf Grund von Fehltagen oder\n Krankheit des Kindes erfolgt nicht.",
+        "evidence": {
+          "source_id": "5ebe63b06876",
+          "locator": "PDF-/Textseite 3, Absatzblock 11",
+          "original": null
+        }
+      },
+      {
+        "text": "(2) Gebührenmaßstab für das Verpflegungsangebot sind die wöchentlichen Betreuungstage.",
+        "evidence": {
+          "source_id": "5ebe63b06876",
+          "locator": "PDF-/Textseite 3, Absatzblock 12",
+          "original": null
+        }
+      },
+      {
+        "text": "(3) Für die Teilnahme am Mittagessen in den Ferien werden ebenfalls Essensgebühren erhoben. Diese\n werden jeweils für die angemeldeten Tage erhoben.",
+        "evidence": {
+          "source_id": "5ebe63b06876",
+          "locator": "PDF-/Textseite 3, Absatzblock 13",
+          "original": null
+        }
+      },
+      {
+        "text": "(4) Die Höhe der Gebührensätze im Einzelnen ist der Anlage 1 zu entnehmen.",
+        "evidence": {
+          "source_id": "5ebe63b06876",
+          "locator": "PDF-/Textseite 3, Absatzblock 14",
+          "original": null
+        }
+      },
+      {
+        "text": "(5) Wird die Essensteilnahme seitens der Stadt nicht aufrechterhalten, werden ab dem\n sechsten aufeinanderfolgenden Öffnungstag der Einschränkungen die Benutzungsgebühren\n pro ausgefallenem Mittagessen erstattet.",
+        "evidence": {
+          "source_id": "5ebe63b06876",
+          "locator": "PDF-/Textseite 3, Absatzblock 15",
+          "original": null
+        }
+      },
+      {
+        "text": "(1) Inhaber des Remsecker Familien-Passes erhalten auf die Gebühr für die Benutzung der\nEinrichtungen die jeweils gültige Ermäßigung.",
+        "evidence": {
+          "source_id": "5ebe63b06876",
+          "locator": "PDF-/Textseite 4, Absatzblock 2",
+          "original": null
+        }
+      },
+      {
+        "text": "(1) Die Gebührenschuld entsteht zu Beginn des Veranlagungszeitraumes, in dem das Kind für\ndie Betreuungseinrichtung angemeldet ist.",
+        "evidence": {
+          "source_id": "5ebe63b06876",
+          "locator": "PDF-/Textseite 4, Absatzblock 5",
+          "original": null
+        }
+      },
+      {
+        "text": "(2) Die Benutzungsgebühren werden bei der erstmaligen Benutzung durch schriftlichen\nBescheid festgesetzt. Die Festsetzung gilt so lange weiter, bis ein neuer Bescheid oder\nÄnderungsbescheid ergeht.",
+        "evidence": {
+          "source_id": "5ebe63b06876",
+          "locator": "PDF-/Textseite 4, Absatzblock 6",
+          "original": null
+        }
+      },
+      {
+        "text": "(3) Die Gebührenschuld wird jeweils am 1. Tag des Veranlagungszeitraumes nach § 8 (3) fällig.\nFür den Monat des erstmaligen Besuchs der Einrichtung wird die Gebührenschuld 2 Wochen\nnach Bekanntgabe des Gebührenbescheids fällig. Dasselbe gilt für den Fall, dass ein neuer\nGebührenbescheid oder Änderungsbescheid ergeht.",
+        "evidence": {
+          "source_id": "5ebe63b06876",
+          "locator": "PDF-/Textseite 4, Absatzblock 7",
+          "original": null
+        }
+      },
+      {
+        "text": "In medizinisch begründeten Einzelfällen können aufgrund eines ruhenden Betreuungs-\nverhältnisses bereits entrichtete Beträge ganz oder teilweise rückerstattet werden.",
+        "evidence": {
+          "source_id": "5ebe63b06876",
+          "locator": "PDF-/Textseite 4, Absatzblock 9",
+          "original": null
+        }
+      },
+      {
+        "text": "Diese Gebührensatzung tritt am 1. September 2026 in Kraft",
+        "evidence": {
+          "source_id": "5ebe63b06876",
+          "locator": "PDF-/Textseite 4, Absatzblock 11",
+          "original": null
+        }
+      },
+      {
+        "text": "Anlage 1:\nBenutzungsgebühren für Tageseinrichtungen gem. § 1 KiTaG, gültig ab 01.09.2026",
+        "evidence": {
+          "source_id": "5ebe63b06876",
+          "locator": "PDF-/Textseite 5, Absatzblock 4",
+          "original": null
+        }
+      },
+      {
+        "text": "Benutzungsgebühren für Tageseinrichtungen gem. § 1 KiTaG, gültig ab 01.09.2026",
+        "evidence": {
+          "source_id": "5ebe63b06876",
+          "locator": "PDF-/Textseite 6, Absatzblock 2",
+          "original": null
+        }
+      },
+      {
+        "text": "1.   Benutzungsgebühr\n           durchgehende Monatsgebühr für 11 Monate, der Monat August ist beitragsfrei",
+        "evidence": {
+          "source_id": "5ebe63b06876",
+          "locator": "PDF-/Textseite 6, Absatzblock 3",
+          "original": null
+        }
+      },
+      {
+        "text": "* Ab dem 5. Kind unter 18 Jahre in einer Familie werden keine Gebühren erhoben.",
+        "evidence": {
+          "source_id": "5ebe63b06876",
+          "locator": "PDF-/Textseite 6, Absatzblock 15",
+          "original": null
+        }
+      },
+      {
+        "text": "2.   Benutzungsgebühr für die Teilnahme am Mittagessen (Essensgeld) gem. § 10\n           Die Gebühr wird für 10 Monate im Jahr erhoben. Für die Monate Juli und August werden keine Gebühren\n           erhoben. Für die Teilnahme am Mittagessen wird folgende Gebühr pro Monat erhoben:",
+        "evidence": {
+          "source_id": "5ebe63b06876",
+          "locator": "PDF-/Textseite 6, Absatzblock 16",
+          "original": null
+        }
+      },
+      {
+        "text": "(5) Der Träger der Einrichtung kann die Benutzung der Einrichtung mit einer Frist von 4\nWochen zum Monatsende schriftlich untersagen, insbesondere wenn\n      a) das Kind die Einrichtung länger als vier Wochen unentschuldigt nicht besucht hat,\n      b) die Personensorgeberechtigten die in dieser Ordnung aufgeführten Pflichten,\n      insbesondere § 3 (6) (Öffnungszeiten), wiederholt nicht beachten,\n      c) die Personensorgeberechtigten mit der Zahlung der Gebühr länger als 3 Monate im\n      Rückstand sind,\n      d) die Aufnahme durch falsche Angaben erreicht wurde.",
+        "evidence": {
+          "source_id": "fe83dd3d20d8",
+          "locator": "PDF-/Textseite 5, Absatzblock 9",
+          "original": null
+        }
+      },
+      {
+        "text": "a. Geschwisterkinder in einer Kindertagesstätte der Stadt 1 Punkt\n              b. alleinerziehend 2 Punkte\n              c. Vorschulkinder, die noch keinen Ü3 Betreuungsplatz in Remseck erhalten\n              haben 4 Punkte\n              d. soziale Notfälle 10 Punkte\n              e. Empfehlungen des Jugendamtes 10 Punkte",
+        "evidence": {
+          "source_id": "fe83dd3d20d8",
+          "locator": "PDF-/Textseite 9, Absatzblock 5",
+          "original": null
+        }
+      }
+    ]
+  }
+}

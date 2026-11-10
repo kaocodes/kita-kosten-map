@@ -1,0 +1,2130 @@
+{
+  "schema_version": "1.0",
+  "id": "aidlingen",
+  "name": "Aidlingen",
+  "reviewed_at": "2026-11-10",
+  "reference_date": "2026-11-10",
+  "scope": {
+    "included": [
+      "municipal"
+    ],
+    "other_providers": "only_with_explicit_source_evidence"
+  },
+  "family_basis": "under_18",
+  "family_evidence": {
+    "source_id": "eafbe25e6e6e",
+    "locator": "Familienbegriff und Fußnoten der Gebührenunterlagen",
+    "original": null
+  },
+  "supporting_source_ids": [
+    "eafbe25e6e6e",
+    "f990b6b54a41"
+  ],
+  "offers": [
+    {
+      "id": "aidlingen-offer-06dc17f813ec",
+      "original_label": "VÖ",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": "2027-08-31",
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 1800,
+      "weekday_minutes": [
+        360,
+        360,
+        360,
+        360,
+        360
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "f990b6b54a41",
+        "locator": "§ 2 Abs. 2: VÖ sechs, VÖ+ sechseinhalb und GT8 acht Stunden täglich",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "eafbe25e6e6e",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "eafbe25e6e6e",
+        "locator": "Bildbasierte Änderungssatzung S. 1–2, 2026-09-01",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "aidlingen-offer-f157955c023d",
+      "original_label": "VÖ+",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": "2027-08-31",
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 1950,
+      "weekday_minutes": [
+        390,
+        390,
+        390,
+        390,
+        390
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "f990b6b54a41",
+        "locator": "§ 2 Abs. 2: VÖ sechs, VÖ+ sechseinhalb und GT8 acht Stunden täglich",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "eafbe25e6e6e",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "eafbe25e6e6e",
+        "locator": "Bildbasierte Änderungssatzung S. 1–2, 2026-09-01",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "aidlingen-offer-9a4436f62973",
+      "original_label": "GT8",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": "2027-08-31",
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2400,
+      "weekday_minutes": [
+        480,
+        480,
+        480,
+        480,
+        480
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "f990b6b54a41",
+        "locator": "§ 2 Abs. 2: VÖ sechs, VÖ+ sechseinhalb und GT8 acht Stunden täglich",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "eafbe25e6e6e",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "eafbe25e6e6e",
+        "locator": "Bildbasierte Änderungssatzung S. 1–2, 2026-09-01",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "aidlingen-offer-a12e5afeba6e",
+      "original_label": "VÖ",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": "2027-08-31",
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 1800,
+      "weekday_minutes": [
+        360,
+        360,
+        360,
+        360,
+        360
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "f990b6b54a41",
+        "locator": "§ 2 Abs. 2: VÖ sechs, VÖ+ sechseinhalb und GT8 acht Stunden täglich",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "eafbe25e6e6e",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "eafbe25e6e6e",
+        "locator": "Bildbasierte Änderungssatzung S. 1–2, 2026-09-01",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "aidlingen-offer-0c38802f3add",
+      "original_label": "VÖ+",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": "2027-08-31",
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 1950,
+      "weekday_minutes": [
+        390,
+        390,
+        390,
+        390,
+        390
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "f990b6b54a41",
+        "locator": "§ 2 Abs. 2: VÖ sechs, VÖ+ sechseinhalb und GT8 acht Stunden täglich",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "eafbe25e6e6e",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "eafbe25e6e6e",
+        "locator": "Bildbasierte Änderungssatzung S. 1–2, 2026-09-01",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "aidlingen-offer-b2e8616d48b9",
+      "original_label": "GT8",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": "2027-08-31",
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2400,
+      "weekday_minutes": [
+        480,
+        480,
+        480,
+        480,
+        480
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "f990b6b54a41",
+        "locator": "§ 2 Abs. 2: VÖ sechs, VÖ+ sechseinhalb und GT8 acht Stunden täglich",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "eafbe25e6e6e",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "eafbe25e6e6e",
+        "locator": "Bildbasierte Änderungssatzung S. 1–2, 2026-09-01",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "aidlingen-offer-d3cb80bec5ee",
+      "original_label": "VÖ",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2027-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2027-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 1800,
+      "weekday_minutes": [
+        360,
+        360,
+        360,
+        360,
+        360
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "f990b6b54a41",
+        "locator": "§ 2 Abs. 2: VÖ sechs, VÖ+ sechseinhalb und GT8 acht Stunden täglich",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "eafbe25e6e6e",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "eafbe25e6e6e",
+        "locator": "Bildbasierte Änderungssatzung S. 1–2, 2027-09-01",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "aidlingen-offer-4f7380b83271",
+      "original_label": "VÖ+",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2027-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2027-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 1950,
+      "weekday_minutes": [
+        390,
+        390,
+        390,
+        390,
+        390
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "f990b6b54a41",
+        "locator": "§ 2 Abs. 2: VÖ sechs, VÖ+ sechseinhalb und GT8 acht Stunden täglich",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "eafbe25e6e6e",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "eafbe25e6e6e",
+        "locator": "Bildbasierte Änderungssatzung S. 1–2, 2027-09-01",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "aidlingen-offer-8934f1b1b24f",
+      "original_label": "GT8",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2027-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2027-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2400,
+      "weekday_minutes": [
+        480,
+        480,
+        480,
+        480,
+        480
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "f990b6b54a41",
+        "locator": "§ 2 Abs. 2: VÖ sechs, VÖ+ sechseinhalb und GT8 acht Stunden täglich",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "eafbe25e6e6e",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "eafbe25e6e6e",
+        "locator": "Bildbasierte Änderungssatzung S. 1–2, 2027-09-01",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "aidlingen-offer-9a7ebc245542",
+      "original_label": "VÖ",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2027-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2027-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 1800,
+      "weekday_minutes": [
+        360,
+        360,
+        360,
+        360,
+        360
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "f990b6b54a41",
+        "locator": "§ 2 Abs. 2: VÖ sechs, VÖ+ sechseinhalb und GT8 acht Stunden täglich",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "eafbe25e6e6e",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "eafbe25e6e6e",
+        "locator": "Bildbasierte Änderungssatzung S. 1–2, 2027-09-01",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "aidlingen-offer-1da7e0e82a81",
+      "original_label": "VÖ+",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2027-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2027-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 1950,
+      "weekday_minutes": [
+        390,
+        390,
+        390,
+        390,
+        390
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "f990b6b54a41",
+        "locator": "§ 2 Abs. 2: VÖ sechs, VÖ+ sechseinhalb und GT8 acht Stunden täglich",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "eafbe25e6e6e",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "eafbe25e6e6e",
+        "locator": "Bildbasierte Änderungssatzung S. 1–2, 2027-09-01",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "aidlingen-offer-2473716644ce",
+      "original_label": "GT8",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2027-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2027-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2400,
+      "weekday_minutes": [
+        480,
+        480,
+        480,
+        480,
+        480
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "f990b6b54a41",
+        "locator": "§ 2 Abs. 2: VÖ sechs, VÖ+ sechseinhalb und GT8 acht Stunden täglich",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "eafbe25e6e6e",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "eafbe25e6e6e",
+        "locator": "Bildbasierte Änderungssatzung S. 1–2, 2027-09-01",
+        "original": null
+      },
+      "formula": null
+    }
+  ],
+  "prices": [
+    {
+      "id": "aidlingen-price-afb8d2ec642e",
+      "offer_id": "aidlingen-offer-06dc17f813ec",
+      "amount_cents": 36500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "eafbe25e6e6e",
+        "locator": "Bildbasierte Änderungssatzung S. 1–2, 2026-09-01",
+        "original": 36500
+      }
+    },
+    {
+      "id": "aidlingen-price-e239cf7f6f2f",
+      "offer_id": "aidlingen-offer-06dc17f813ec",
+      "amount_cents": 29200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "eafbe25e6e6e",
+        "locator": "Bildbasierte Änderungssatzung S. 1–2, 2026-09-01",
+        "original": 29200
+      }
+    },
+    {
+      "id": "aidlingen-price-23e5ad458c37",
+      "offer_id": "aidlingen-offer-06dc17f813ec",
+      "amount_cents": 21900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "eafbe25e6e6e",
+        "locator": "Bildbasierte Änderungssatzung S. 1–2, 2026-09-01",
+        "original": 21900
+      }
+    },
+    {
+      "id": "aidlingen-price-c5226e0d9b35",
+      "offer_id": "aidlingen-offer-06dc17f813ec",
+      "amount_cents": 14600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "eafbe25e6e6e",
+        "locator": "Bildbasierte Änderungssatzung S. 1–2, 2026-09-01",
+        "original": 14600
+      }
+    },
+    {
+      "id": "aidlingen-price-cbd3a3da2219",
+      "offer_id": "aidlingen-offer-f157955c023d",
+      "amount_cents": 45000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "eafbe25e6e6e",
+        "locator": "Bildbasierte Änderungssatzung S. 1–2, 2026-09-01",
+        "original": 45000
+      }
+    },
+    {
+      "id": "aidlingen-price-16da94e93fcb",
+      "offer_id": "aidlingen-offer-f157955c023d",
+      "amount_cents": 36000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "eafbe25e6e6e",
+        "locator": "Bildbasierte Änderungssatzung S. 1–2, 2026-09-01",
+        "original": 36000
+      }
+    },
+    {
+      "id": "aidlingen-price-a672c2455133",
+      "offer_id": "aidlingen-offer-f157955c023d",
+      "amount_cents": 27000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "eafbe25e6e6e",
+        "locator": "Bildbasierte Änderungssatzung S. 1–2, 2026-09-01",
+        "original": 27000
+      }
+    },
+    {
+      "id": "aidlingen-price-887df0c138c0",
+      "offer_id": "aidlingen-offer-f157955c023d",
+      "amount_cents": 18000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "eafbe25e6e6e",
+        "locator": "Bildbasierte Änderungssatzung S. 1–2, 2026-09-01",
+        "original": 18000
+      }
+    },
+    {
+      "id": "aidlingen-price-5ef3b26eafa5",
+      "offer_id": "aidlingen-offer-9a4436f62973",
+      "amount_cents": 70000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "eafbe25e6e6e",
+        "locator": "Bildbasierte Änderungssatzung S. 1–2, 2026-09-01",
+        "original": 70000
+      }
+    },
+    {
+      "id": "aidlingen-price-8cd2890929cc",
+      "offer_id": "aidlingen-offer-9a4436f62973",
+      "amount_cents": 56000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "eafbe25e6e6e",
+        "locator": "Bildbasierte Änderungssatzung S. 1–2, 2026-09-01",
+        "original": 56000
+      }
+    },
+    {
+      "id": "aidlingen-price-744b071ab132",
+      "offer_id": "aidlingen-offer-9a4436f62973",
+      "amount_cents": 42000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "eafbe25e6e6e",
+        "locator": "Bildbasierte Änderungssatzung S. 1–2, 2026-09-01",
+        "original": 42000
+      }
+    },
+    {
+      "id": "aidlingen-price-c90850cc4dc8",
+      "offer_id": "aidlingen-offer-9a4436f62973",
+      "amount_cents": 28000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "eafbe25e6e6e",
+        "locator": "Bildbasierte Änderungssatzung S. 1–2, 2026-09-01",
+        "original": 28000
+      }
+    },
+    {
+      "id": "aidlingen-price-f783f8a3494c",
+      "offer_id": "aidlingen-offer-a12e5afeba6e",
+      "amount_cents": 22000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "eafbe25e6e6e",
+        "locator": "Bildbasierte Änderungssatzung S. 1–2, 2026-09-01",
+        "original": 22000
+      }
+    },
+    {
+      "id": "aidlingen-price-a64f034771a9",
+      "offer_id": "aidlingen-offer-a12e5afeba6e",
+      "amount_cents": 17600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "eafbe25e6e6e",
+        "locator": "Bildbasierte Änderungssatzung S. 1–2, 2026-09-01",
+        "original": 17600
+      }
+    },
+    {
+      "id": "aidlingen-price-7c1f96f418c9",
+      "offer_id": "aidlingen-offer-a12e5afeba6e",
+      "amount_cents": 13200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "eafbe25e6e6e",
+        "locator": "Bildbasierte Änderungssatzung S. 1–2, 2026-09-01",
+        "original": 13200
+      }
+    },
+    {
+      "id": "aidlingen-price-7c2d449fcac0",
+      "offer_id": "aidlingen-offer-a12e5afeba6e",
+      "amount_cents": 8800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "eafbe25e6e6e",
+        "locator": "Bildbasierte Änderungssatzung S. 1–2, 2026-09-01",
+        "original": 8800
+      }
+    },
+    {
+      "id": "aidlingen-price-886958edca22",
+      "offer_id": "aidlingen-offer-0c38802f3add",
+      "amount_cents": 26500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "eafbe25e6e6e",
+        "locator": "Bildbasierte Änderungssatzung S. 1–2, 2026-09-01",
+        "original": 26500
+      }
+    },
+    {
+      "id": "aidlingen-price-e767be6cbcf5",
+      "offer_id": "aidlingen-offer-0c38802f3add",
+      "amount_cents": 21200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "eafbe25e6e6e",
+        "locator": "Bildbasierte Änderungssatzung S. 1–2, 2026-09-01",
+        "original": 21200
+      }
+    },
+    {
+      "id": "aidlingen-price-b007cc327382",
+      "offer_id": "aidlingen-offer-0c38802f3add",
+      "amount_cents": 15900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "eafbe25e6e6e",
+        "locator": "Bildbasierte Änderungssatzung S. 1–2, 2026-09-01",
+        "original": 15900
+      }
+    },
+    {
+      "id": "aidlingen-price-aceb8a1769a9",
+      "offer_id": "aidlingen-offer-0c38802f3add",
+      "amount_cents": 10600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "eafbe25e6e6e",
+        "locator": "Bildbasierte Änderungssatzung S. 1–2, 2026-09-01",
+        "original": 10600
+      }
+    },
+    {
+      "id": "aidlingen-price-2d71d7704c27",
+      "offer_id": "aidlingen-offer-b2e8616d48b9",
+      "amount_cents": 40000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "eafbe25e6e6e",
+        "locator": "Bildbasierte Änderungssatzung S. 1–2, 2026-09-01",
+        "original": 40000
+      }
+    },
+    {
+      "id": "aidlingen-price-a882ccae651a",
+      "offer_id": "aidlingen-offer-b2e8616d48b9",
+      "amount_cents": 32000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "eafbe25e6e6e",
+        "locator": "Bildbasierte Änderungssatzung S. 1–2, 2026-09-01",
+        "original": 32000
+      }
+    },
+    {
+      "id": "aidlingen-price-fb1a9447fa44",
+      "offer_id": "aidlingen-offer-b2e8616d48b9",
+      "amount_cents": 24000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "eafbe25e6e6e",
+        "locator": "Bildbasierte Änderungssatzung S. 1–2, 2026-09-01",
+        "original": 24000
+      }
+    },
+    {
+      "id": "aidlingen-price-2a038701b720",
+      "offer_id": "aidlingen-offer-b2e8616d48b9",
+      "amount_cents": 16000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "eafbe25e6e6e",
+        "locator": "Bildbasierte Änderungssatzung S. 1–2, 2026-09-01",
+        "original": 16000
+      }
+    },
+    {
+      "id": "aidlingen-price-a3158836ddc1",
+      "offer_id": "aidlingen-offer-d3cb80bec5ee",
+      "amount_cents": 40000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "eafbe25e6e6e",
+        "locator": "Bildbasierte Änderungssatzung S. 1–2, 2027-09-01",
+        "original": 40000
+      }
+    },
+    {
+      "id": "aidlingen-price-c2d82500f8b2",
+      "offer_id": "aidlingen-offer-d3cb80bec5ee",
+      "amount_cents": 32000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "eafbe25e6e6e",
+        "locator": "Bildbasierte Änderungssatzung S. 1–2, 2027-09-01",
+        "original": 32000
+      }
+    },
+    {
+      "id": "aidlingen-price-d9467f505e38",
+      "offer_id": "aidlingen-offer-d3cb80bec5ee",
+      "amount_cents": 24000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "eafbe25e6e6e",
+        "locator": "Bildbasierte Änderungssatzung S. 1–2, 2027-09-01",
+        "original": 24000
+      }
+    },
+    {
+      "id": "aidlingen-price-09cb641f69b8",
+      "offer_id": "aidlingen-offer-d3cb80bec5ee",
+      "amount_cents": 16000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "eafbe25e6e6e",
+        "locator": "Bildbasierte Änderungssatzung S. 1–2, 2027-09-01",
+        "original": 16000
+      }
+    },
+    {
+      "id": "aidlingen-price-971f4e25f0a2",
+      "offer_id": "aidlingen-offer-4f7380b83271",
+      "amount_cents": 49000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "eafbe25e6e6e",
+        "locator": "Bildbasierte Änderungssatzung S. 1–2, 2027-09-01",
+        "original": 49000
+      }
+    },
+    {
+      "id": "aidlingen-price-fbf9f83c30c4",
+      "offer_id": "aidlingen-offer-4f7380b83271",
+      "amount_cents": 39200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "eafbe25e6e6e",
+        "locator": "Bildbasierte Änderungssatzung S. 1–2, 2027-09-01",
+        "original": 39200
+      }
+    },
+    {
+      "id": "aidlingen-price-2f622379cfb9",
+      "offer_id": "aidlingen-offer-4f7380b83271",
+      "amount_cents": 29400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "eafbe25e6e6e",
+        "locator": "Bildbasierte Änderungssatzung S. 1–2, 2027-09-01",
+        "original": 29400
+      }
+    },
+    {
+      "id": "aidlingen-price-1b635f3cebfd",
+      "offer_id": "aidlingen-offer-4f7380b83271",
+      "amount_cents": 19600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "eafbe25e6e6e",
+        "locator": "Bildbasierte Änderungssatzung S. 1–2, 2027-09-01",
+        "original": 19600
+      }
+    },
+    {
+      "id": "aidlingen-price-fae0d1d87f52",
+      "offer_id": "aidlingen-offer-8934f1b1b24f",
+      "amount_cents": 76000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "eafbe25e6e6e",
+        "locator": "Bildbasierte Änderungssatzung S. 1–2, 2027-09-01",
+        "original": 76000
+      }
+    },
+    {
+      "id": "aidlingen-price-9457272f978f",
+      "offer_id": "aidlingen-offer-8934f1b1b24f",
+      "amount_cents": 60800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "eafbe25e6e6e",
+        "locator": "Bildbasierte Änderungssatzung S. 1–2, 2027-09-01",
+        "original": 60800
+      }
+    },
+    {
+      "id": "aidlingen-price-8dda2c05c74c",
+      "offer_id": "aidlingen-offer-8934f1b1b24f",
+      "amount_cents": 45600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "eafbe25e6e6e",
+        "locator": "Bildbasierte Änderungssatzung S. 1–2, 2027-09-01",
+        "original": 45600
+      }
+    },
+    {
+      "id": "aidlingen-price-9057bc6e90d0",
+      "offer_id": "aidlingen-offer-8934f1b1b24f",
+      "amount_cents": 30400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "eafbe25e6e6e",
+        "locator": "Bildbasierte Änderungssatzung S. 1–2, 2027-09-01",
+        "original": 30400
+      }
+    },
+    {
+      "id": "aidlingen-price-31ee76e50cbb",
+      "offer_id": "aidlingen-offer-9a7ebc245542",
+      "amount_cents": 23500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "eafbe25e6e6e",
+        "locator": "Bildbasierte Änderungssatzung S. 1–2, 2027-09-01",
+        "original": 23500
+      }
+    },
+    {
+      "id": "aidlingen-price-21155bd3b145",
+      "offer_id": "aidlingen-offer-9a7ebc245542",
+      "amount_cents": 18800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "eafbe25e6e6e",
+        "locator": "Bildbasierte Änderungssatzung S. 1–2, 2027-09-01",
+        "original": 18800
+      }
+    },
+    {
+      "id": "aidlingen-price-779bb989f1b5",
+      "offer_id": "aidlingen-offer-9a7ebc245542",
+      "amount_cents": 14100,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "eafbe25e6e6e",
+        "locator": "Bildbasierte Änderungssatzung S. 1–2, 2027-09-01",
+        "original": 14100
+      }
+    },
+    {
+      "id": "aidlingen-price-b696c0901d90",
+      "offer_id": "aidlingen-offer-9a7ebc245542",
+      "amount_cents": 9400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "eafbe25e6e6e",
+        "locator": "Bildbasierte Änderungssatzung S. 1–2, 2027-09-01",
+        "original": 9400
+      }
+    },
+    {
+      "id": "aidlingen-price-5c715c7d72a1",
+      "offer_id": "aidlingen-offer-1da7e0e82a81",
+      "amount_cents": 28000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "eafbe25e6e6e",
+        "locator": "Bildbasierte Änderungssatzung S. 1–2, 2027-09-01",
+        "original": 28000
+      }
+    },
+    {
+      "id": "aidlingen-price-c1326c2fb1f7",
+      "offer_id": "aidlingen-offer-1da7e0e82a81",
+      "amount_cents": 22400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "eafbe25e6e6e",
+        "locator": "Bildbasierte Änderungssatzung S. 1–2, 2027-09-01",
+        "original": 22400
+      }
+    },
+    {
+      "id": "aidlingen-price-9cb9c398e973",
+      "offer_id": "aidlingen-offer-1da7e0e82a81",
+      "amount_cents": 16800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "eafbe25e6e6e",
+        "locator": "Bildbasierte Änderungssatzung S. 1–2, 2027-09-01",
+        "original": 16800
+      }
+    },
+    {
+      "id": "aidlingen-price-27ad3c032e9b",
+      "offer_id": "aidlingen-offer-1da7e0e82a81",
+      "amount_cents": 11200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "eafbe25e6e6e",
+        "locator": "Bildbasierte Änderungssatzung S. 1–2, 2027-09-01",
+        "original": 11200
+      }
+    },
+    {
+      "id": "aidlingen-price-9af8ac55aae7",
+      "offer_id": "aidlingen-offer-2473716644ce",
+      "amount_cents": 43000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "eafbe25e6e6e",
+        "locator": "Bildbasierte Änderungssatzung S. 1–2, 2027-09-01",
+        "original": 43000
+      }
+    },
+    {
+      "id": "aidlingen-price-5d056d0af385",
+      "offer_id": "aidlingen-offer-2473716644ce",
+      "amount_cents": 34400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "eafbe25e6e6e",
+        "locator": "Bildbasierte Änderungssatzung S. 1–2, 2027-09-01",
+        "original": 34400
+      }
+    },
+    {
+      "id": "aidlingen-price-0ff06a40af76",
+      "offer_id": "aidlingen-offer-2473716644ce",
+      "amount_cents": 25800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "eafbe25e6e6e",
+        "locator": "Bildbasierte Änderungssatzung S. 1–2, 2027-09-01",
+        "original": 25800
+      }
+    },
+    {
+      "id": "aidlingen-price-d3a5fd322d4d",
+      "offer_id": "aidlingen-offer-2473716644ce",
+      "amount_cents": 17200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "eafbe25e6e6e",
+        "locator": "Bildbasierte Änderungssatzung S. 1–2, 2027-09-01",
+        "original": 17200
+      }
+    }
+  ],
+  "income_bands": [],
+  "components": [
+    {
+      "id": "aidlingen-component-1ed42a7434b7",
+      "kind": "meal",
+      "original_label": "Essensgeld",
+      "amount_cents": null,
+      "unit": "per_month",
+      "age_group": null,
+      "required": null,
+      "payment_months": null,
+      "offer_ids": null,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "value_status": "unknown",
+      "evidence": {
+        "source_id": "f990b6b54a41",
+        "locator": "Benutzungsordnung: zusätzliche Verpflegung",
+        "original": null
+      }
+    }
+  ],
+  "rules": [
+    {
+      "id": "aidlingen-rule-01783d91c9fc",
+      "kind": "source_provisions_f990b6b54a41",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "archive_text_path": "data/sources/f990b6b54a41/text.txt",
+        "text_sha256": "5ffc99a3810fa0609ff066290566a244f4f359b1f686e87ade9fd48215caaefc",
+        "review_status": "archived_provisions_preserved"
+      },
+      "evidence": {
+        "source_id": "f990b6b54a41",
+        "locator": "Vollständiger archivierter Dokumenttext einschließlich Fußnoten",
+        "original": null
+      }
+    },
+    {
+      "id": "aidlingen-rule-4fd2dfb57968",
+      "kind": "source_clause_f990b6b54a41_2_11",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 0,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "f990b6b54a41",
+        "locator": "PDF-/Textseite 2, Absatzblock 11",
+        "original": null
+      }
+    },
+    {
+      "id": "aidlingen-rule-4925ba3b5ec2",
+      "kind": "source_clause_f990b6b54a41_7_7",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 1,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "f990b6b54a41",
+        "locator": "PDF-/Textseite 7, Absatzblock 7",
+        "original": null
+      }
+    },
+    {
+      "id": "aidlingen-rule-e90407b8ef38",
+      "kind": "source_clause_f990b6b54a41_7_8",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 2,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "f990b6b54a41",
+        "locator": "PDF-/Textseite 7, Absatzblock 8",
+        "original": null
+      }
+    },
+    {
+      "id": "aidlingen-rule-ebd379c0234a",
+      "kind": "source_clause_f990b6b54a41_7_9",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 3,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "f990b6b54a41",
+        "locator": "PDF-/Textseite 7, Absatzblock 9",
+        "original": null
+      }
+    },
+    {
+      "id": "aidlingen-rule-d468cb3a104b",
+      "kind": "source_clause_f990b6b54a41_7_10",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 4,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "f990b6b54a41",
+        "locator": "PDF-/Textseite 7, Absatzblock 10",
+        "original": null
+      }
+    },
+    {
+      "id": "aidlingen-rule-3919ff28eda3",
+      "kind": "source_clause_f990b6b54a41_7_11",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 5,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "f990b6b54a41",
+        "locator": "PDF-/Textseite 7, Absatzblock 11",
+        "original": null
+      }
+    },
+    {
+      "id": "aidlingen-rule-15223c74d3d7",
+      "kind": "source_clause_f990b6b54a41_7_12",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 6,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "f990b6b54a41",
+        "locator": "PDF-/Textseite 7, Absatzblock 12",
+        "original": null
+      }
+    },
+    {
+      "id": "aidlingen-rule-3feca270fc5b",
+      "kind": "source_clause_f990b6b54a41_8_2",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 7,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "f990b6b54a41",
+        "locator": "PDF-/Textseite 8, Absatzblock 2",
+        "original": null
+      }
+    },
+    {
+      "id": "aidlingen-rule-7f6c04a96137",
+      "kind": "source_clause_f990b6b54a41_8_3",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 8,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "f990b6b54a41",
+        "locator": "PDF-/Textseite 8, Absatzblock 3",
+        "original": null
+      }
+    },
+    {
+      "id": "aidlingen-rule-cfc127d3213d",
+      "kind": "source_clause_f990b6b54a41_8_4",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 9,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "f990b6b54a41",
+        "locator": "PDF-/Textseite 8, Absatzblock 4",
+        "original": null
+      }
+    },
+    {
+      "id": "aidlingen-rule-fc1aa0205481",
+      "kind": "source_clause_f990b6b54a41_8_5",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 10,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "f990b6b54a41",
+        "locator": "PDF-/Textseite 8, Absatzblock 5",
+        "original": null
+      }
+    },
+    {
+      "id": "aidlingen-rule-c2d2b9703b20",
+      "kind": "source_clause_f990b6b54a41_8_7",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 11,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "f990b6b54a41",
+        "locator": "PDF-/Textseite 8, Absatzblock 7",
+        "original": null
+      }
+    },
+    {
+      "id": "aidlingen-rule-f4ad68996309",
+      "kind": "source_clause_f990b6b54a41_9_3",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 12,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "f990b6b54a41",
+        "locator": "PDF-/Textseite 9, Absatzblock 3",
+        "original": null
+      }
+    },
+    {
+      "id": "aidlingen-rule-9f7dc9334224",
+      "kind": "source_clause_f990b6b54a41_9_4",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 13,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "f990b6b54a41",
+        "locator": "PDF-/Textseite 9, Absatzblock 4",
+        "original": null
+      }
+    },
+    {
+      "id": "aidlingen-rule-b6a3e15688aa",
+      "kind": "source_clause_f990b6b54a41_9_6",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 14,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "f990b6b54a41",
+        "locator": "PDF-/Textseite 9, Absatzblock 6",
+        "original": null
+      }
+    },
+    {
+      "id": "aidlingen-rule-09217a2a593b",
+      "kind": "source_clause_f990b6b54a41_9_7",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 15,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "f990b6b54a41",
+        "locator": "PDF-/Textseite 9, Absatzblock 7",
+        "original": null
+      }
+    },
+    {
+      "id": "aidlingen-rule-e570ae74e861",
+      "kind": "source_clause_f990b6b54a41_9_8",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 16,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "f990b6b54a41",
+        "locator": "PDF-/Textseite 9, Absatzblock 8",
+        "original": null
+      }
+    },
+    {
+      "id": "aidlingen-rule-f401e9724476",
+      "kind": "source_clause_f990b6b54a41_10_2",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 17,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "f990b6b54a41",
+        "locator": "PDF-/Textseite 10, Absatzblock 2",
+        "original": null
+      }
+    },
+    {
+      "id": "aidlingen-rule-2608f4df954a",
+      "kind": "source_clause_f990b6b54a41_10_3",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 18,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "f990b6b54a41",
+        "locator": "PDF-/Textseite 10, Absatzblock 3",
+        "original": null
+      }
+    },
+    {
+      "id": "aidlingen-rule-a17af1c9a1bd",
+      "kind": "source_clause_f990b6b54a41_10_4",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 19,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "f990b6b54a41",
+        "locator": "PDF-/Textseite 10, Absatzblock 4",
+        "original": null
+      }
+    },
+    {
+      "id": "aidlingen-rule-850a47caf96f",
+      "kind": "source_clause_f990b6b54a41_10_5",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 20,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "f990b6b54a41",
+        "locator": "PDF-/Textseite 10, Absatzblock 5",
+        "original": null
+      }
+    },
+    {
+      "id": "aidlingen-rule-026c86ab677d",
+      "kind": "source_clause_f990b6b54a41_10_6",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 21,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "f990b6b54a41",
+        "locator": "PDF-/Textseite 10, Absatzblock 6",
+        "original": null
+      }
+    },
+    {
+      "id": "aidlingen-rule-449608438f53",
+      "kind": "source_clause_f990b6b54a41_10_7",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 22,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "f990b6b54a41",
+        "locator": "PDF-/Textseite 10, Absatzblock 7",
+        "original": null
+      }
+    },
+    {
+      "id": "aidlingen-rule-db13e0133201",
+      "kind": "source_clause_f990b6b54a41_10_8",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 23,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "f990b6b54a41",
+        "locator": "PDF-/Textseite 10, Absatzblock 8",
+        "original": null
+      }
+    },
+    {
+      "id": "aidlingen-rule-501b023922d0",
+      "kind": "source_clause_f990b6b54a41_10_9",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 24,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "f990b6b54a41",
+        "locator": "PDF-/Textseite 10, Absatzblock 9",
+        "original": null
+      }
+    },
+    {
+      "id": "aidlingen-rule-f8fd0348dc29",
+      "kind": "source_clause_f990b6b54a41_10_10",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 25,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "f990b6b54a41",
+        "locator": "PDF-/Textseite 10, Absatzblock 10",
+        "original": null
+      }
+    }
+  ],
+  "issues": [
+    {
+      "code": "pending_calculation_review",
+      "detail": "Strukturierter Import; noch keine Freigabe des Rechners oder der Website."
+    },
+    {
+      "code": "research_limitation_1",
+      "detail": "Die Essenspauschale und genaue VÖ-/VÖ+-Zeiten sind ergänzend zu belegen; keine alten GT10-Preise in den aktuellen Tarif übernehmen."
+    }
+  ],
+  "coverage": {
+    "publication_status": "not_active",
+    "integration_status": "normalized_pending_calculation_review",
+    "history_in_scope": false,
+    "source_register": "data/research/neighbor_expansion_2026-11-10.json",
+    "research_id": "aidlingen",
+    "unavailable_configurations": [],
+    "offers": 12,
+    "price_cells": 48,
+    "income_bands": 0,
+    "components": 1,
+    "rule_records": 27,
+    "tariff_table_transcription": "complete_for_declared_scope",
+    "declared_scope": "Aktuelle und bereits veröffentlichte künftige Krippen- und Kindergartentarife; Zusatzkosten und Gebührenregeln.",
+    "excluded_from_regular_price_rows": [
+      "superseded_historical_tariffs",
+      "school_childcare",
+      "takki_and_childminding",
+      "separate_playgroups"
+    ],
+    "calculation_engine_changed": false,
+    "rule_transcription": "typed_parameters_and_source_clauses_with_explicit_unimplemented_status"
+  },
+  "original_research": {
+    "path": "data/research/neighbor_expansion_2026-11-10.json",
+    "section": "Aidlingen",
+    "text": "Aktuelle Beträge stehen ausschließlich in der bildbasierten Änderungssatzung; die alte konsolidierte Satzung allein genügt nicht.\nDie Essenspauschale und genaue VÖ-/VÖ+-Zeiten sind ergänzend zu belegen; keine alten GT10-Preise in den aktuellen Tarif übernehmen.",
+    "source_clauses": [
+      {
+        "text": "c)    ein Zahlungsrückstand des Elternbeitrages oder Teile hiervon über drei Monate, trotz\n           schriftlicher Mahnung,",
+        "evidence": {
+          "source_id": "f990b6b54a41",
+          "locator": "PDF-/Textseite 2, Absatzblock 11",
+          "original": null
+        }
+      },
+      {
+        "text": "(1) Für die Benutzung der Kinderbetreuungseinrichtungen wird gemäß § 15 eine monatliche\n    Benutzungsgebühr und für die Inanspruchnahme des Mittagessensangebots eine Es­\n    sensgeldpauschale erhoben.",
+        "evidence": {
+          "source_id": "f990b6b54a41",
+          "locator": "PDF-/Textseite 7, Absatzblock 7",
+          "original": null
+        }
+      },
+      {
+        "text": "Änderungen der Gebühren und der Essensgeldpauschalen, auch die Umstellung auf ein\n     anderes Gebührensystem, bleiben dem Träger vorbehalten.",
+        "evidence": {
+          "source_id": "f990b6b54a41",
+          "locator": "PDF-/Textseite 7, Absatzblock 8",
+          "original": null
+        }
+      },
+      {
+        "text": "(2) Die Benutzungsgebühren für den Kindergarten und die Gebühren für das Mittagessen\n    werden pauschal festgesetzt.",
+        "evidence": {
+          "source_id": "f990b6b54a41",
+          "locator": "PDF-/Textseite 7, Absatzblock 9",
+          "original": null
+        }
+      },
+      {
+        "text": "(3) Die Kindergartengebühr und die Essensgeldpauschale sind eine Beteiligung an den ge­\n    samten Betriebskosten sowie Ausgaben der Einrichtung und werden jährlich für 12 Mo­\n    nate erhoben. Sie sind deshalb auch während der Ferien und Schließtage sowie bei vo­\n    rübergehender Schließung (gemäß Teil A, § 4 Abs. 8), bei längerem Fehlen des Kindes\n    und bis zur Wirksamkeit einer Kündigung zu bezahlen.",
+        "evidence": {
+          "source_id": "f990b6b54a41",
+          "locator": "PDF-/Textseite 7, Absatzblock 10",
+          "original": null
+        }
+      },
+      {
+        "text": "(4) Familien, die innerhalb eines Kindergartenjahres an mindestens 10 Tagen mindestens 2\n    Stunden je Tag der gebuchten Betreuungszeit Betreuungseinbußen aufgrund Verschul­\n    dens durch die Gemeinde zu verzeichnen hatten, können eine Rückerstattung über ei­\n    nen halben Monatsbeitrag beantragen. Der Antrag muss durch die Eltern erfolgen und in\n    schriftlicher Form, bis 30.11. des darauffolgenden Kindergartenjahres an die Gesamtlei­\n    tung gerichtet werden. Die Rückerstattung erfolgt basierend auf der Betreuungsform, die\n    die meisten Monate des betroffenen Kindergartenjahres gebucht wurde.",
+        "evidence": {
+          "source_id": "f990b6b54a41",
+          "locator": "PDF-/Textseite 7, Absatzblock 11",
+          "original": null
+        }
+      },
+      {
+        "text": "(5) Sollte es Personensorgeberechtigten trotz öffentlicher Hilfen (Übernahme der Kindergar­\n    tengebühren durch das Jugendamt/Sozialamt gemäß dem Kinder- und Jugendhilfege-\n    setz/Sozialgesetzbuch XII) nicht möglich sein, die Kindergartengebühr und/oder die Es­\n    sensgeldpauschale zu leisten, können die Gebühr und die Essensgeldpauschale in be­\n    gründeten Fällen (Härtefälle) vom Träger ermäßigt werden.",
+        "evidence": {
+          "source_id": "f990b6b54a41",
+          "locator": "PDF-/Textseite 7, Absatzblock 12",
+          "original": null
+        }
+      },
+      {
+        "text": "(7) Bei Neuaufnahme eines Kindes bis zum 15. Kalendertag des laufenden Monats sind die\n    Gebühren und die Essensgeldpauschale für den ganzen Monat und ab dem 16. Kalen­\n    dertag für den halben Monat zu entrichten.\n    Bei Austritt eines Kindes bis zum 15. Kalendertag des laufenden Monats sind die Gebüh­\n    ren und die Essensgeldpauschale für den halben Monat und ab dem 16. Kalendertag für\n    den ganzen Monat zu entrichten.\n    Bei einem Wechsel der Betreuungsform während eines Kalendermonats ist die jeweils\n    höhere Gebühr vorrangig zu entrichten. Wird die gebührenmäßig höherwertige Betreuung\n    nur bis zum 15. Kalendertag oder erst ab dem 16. Kalendertag eines Kalendermonats in\n    Anspruch genommen, so werden die Gebühren hälftig kombiniert.",
+        "evidence": {
+          "source_id": "f990b6b54a41",
+          "locator": "PDF-/Textseite 8, Absatzblock 2",
+          "original": null
+        }
+      },
+      {
+        "text": "(8) Der vollständige Wechsel von einer U3-Gruppe in eine Ü3-Gruppe kann frühestens 6 Wo­\n    chen vor Vollendung des 3. Lebensjahres erfolgen. Ein Anspruch auf einen Wechsel vor\n    Vollendung des 3. Lebensjahres besteht jedoch nicht. Bei einem vollständigen Wechsel,\n    spätestens jedoch bei Vollendung des 3. Lebensjahres, werden die U3-Gebühren in Ü3-\n    Gebühren umgestellt, nach Maßgabe von Abs. 5.\n    Sollte das Kind auf Wunsch der Eltern nach Vollendung des 3. Lebensjahres noch eine\n    gewisse Zeit in einer U3-Gruppe bleiben - soweit dort ein Platz vorhanden ist und die\n    Gemeinde dem zustimmt - so werden die Gebühren erst mit dem tatsächlichen Wechsel\n    in eine Ü3-Gruppe umgestellt.",
+        "evidence": {
+          "source_id": "f990b6b54a41",
+          "locator": "PDF-/Textseite 8, Absatzblock 3",
+          "original": null
+        }
+      },
+      {
+        "text": "(9) Die Gebühren werden je Kind und Betreuungsplatz erhoben. Die Höhe der Gebühren be­\n    stimmt sich nach der Anzahl der Kinder unter 18 Jahren, die nicht nur vorübergehend im\n    Haushalt des Gebührenschuldners leben.\n    Beitragssenkungen aufgrund einer Erhöhung der Anzahl der Kinder unter 18 Jahren in\n    der Familie (z.B. Geburt eines 2. Kindes) werden erst mit dem Folgemonat nach der Mit­\n    teilung durch die Eltern an die Gemeinde Aidlingen wirksam.\n    Sollte ein Kind in der Familie das 18. Lebensjahr vollenden, so ist dies der Gemeinde\n    Aidlingen unverzüglich mitzuteilen. Die Beitragserhöhung wird ab dem Folgemonat nach\n    der Vollendung des 18. Lebensjahres des betreffenden Kindes wirksam.",
+        "evidence": {
+          "source_id": "f990b6b54a41",
+          "locator": "PDF-/Textseite 8, Absatzblock 4",
+          "original": null
+        }
+      },
+      {
+        "text": "(10) Werden Schulanfänger mit dem letzten Tag vor den dem Schuleintritt vorausgehenden\n     Kindergartenschließtagen abgemeldet und werden anschließend lediglich noch die weni­\n     gen Betreuungstage nach den Schulferien (Sommerferien) bis zur Einschulung genutzt,\n     so ist keine durchgehende Gebühr, sondern für diese Tage lediglich eine halbe Monats­\n     gebühr für den Monat September zu entrichten.\n     Auch bei einer Einschulung wenige Tage nach dem 15.09. wird für die Nutzung des Kin­\n     dergartens lediglich eine halbe Monatsgebühr für den Monat September fällig.",
+        "evidence": {
+          "source_id": "f990b6b54a41",
+          "locator": "PDF-/Textseite 8, Absatzblock 5",
+          "original": null
+        }
+      },
+      {
+        "text": "Gebühren- bzw. Kostenschuldner sind die Sorgeberechtigten des Kindes, das die Einrichtung\nbesucht, sowie diejenigen, die die Aufnahme in die Betreuungseinrichtung beantragt haben.\nMehrere Gebühren- bzw. Kostenschuldner haften als Gesamtschuldner.",
+        "evidence": {
+          "source_id": "f990b6b54a41",
+          "locator": "PDF-/Textseite 8, Absatzblock 7",
+          "original": null
+        }
+      },
+      {
+        "text": "Krippen-Gebühren                                                    2023/2024\n      Stundensatz für weitere Betreuungsstunde                            16,50 €/Std.\n                                                                          U3 - Krippe\n                                                              VÖ        VÖ+         GT8       GT10\n      Ein Kind in der Familie                               350,00 €   408,50 €   584,50 €   819,00 €\n      Zwei Kinder in der Familie unter 18 Jahren            280,00 €   327,00 €   468,00 €   655,50 €\n      Drei Kinder in der Familie unter 18 Jahren            210,00 €   245,50 €   351,00 €   491,50 €\n      Vier und mehr Kinder in der Familie unter 18 Jahren   140,00 €   163,50 €   234,00 €   328,00 €",
+        "evidence": {
+          "source_id": "f990b6b54a41",
+          "locator": "PDF-/Textseite 9, Absatzblock 3",
+          "original": null
+        }
+      },
+      {
+        "text": "Krippen-Gebühren                                                    2024/2025\n      Stundensatz für weitere Betreuungsstunde                            16,50 €/Std.\n                                                                          U3 - Krippe\n                                                              VÖ        VÖ+         GT8       GT10\n      Ein Kind in der Familie                               337,00 €   414,00 €   644,50 €   951,50 €\n      Zwei Kinder in der Familie unter 18 Jahren            270,00 €   331,50 €   515,50 €   761,50 €\n      Drei Kinder in der Familie unter 18 Jahren            202,50 €   248,50 €   387,00 €   571,00 €\n      Vier und mehr Kinder in der Familie unter 18 Jahren   135,00 €   165,50 €   258,00 €   381,00 €",
+        "evidence": {
+          "source_id": "f990b6b54a41",
+          "locator": "PDF-/Textseite 9, Absatzblock 4",
+          "original": null
+        }
+      },
+      {
+        "text": "Kindergarten-Gebühren                                                2023/2024\n      Stundensatz für weitere Betreuungsstunde                            16,50 €/Std.\n                                                                              Ü3\n                                                              VÖ        VÖ+         GT8       GT10\n      Ein Kind in der Familie                               181,00 €   222,50 €   344,00 €   506,50 €\n      Zwei Kinder in der Familie unter 18 Jahren            145,00 €   178,00 €   276,00 €   405,50 €\n      Drei Kinder in der Familie unter 18 Jahren            109,00 €   133,50 €   206,50 €   304,00 €\n      Vier und mehr Kinder in der Familie unter 18 Jahren   73,00 €    89,00 €    138,00 €   203,00 €",
+        "evidence": {
+          "source_id": "f990b6b54a41",
+          "locator": "PDF-/Textseite 9, Absatzblock 6",
+          "original": null
+        }
+      },
+      {
+        "text": "Kindergarten-Gebühren                                               2024/2025\n      Stundensatz für weitere Betreuungsstunde                            16,50 €/Std.\n                                                                              Ü3\n                                                              VÖ        VÖ+         GT8       GT10\n      Ein Kind in der Familie                               207,50 €   248,50 €   371,00 €   534,50 €\n      Zwei Kinder in der Familie unter 18 Jahren            166,00 €   199,00 €   297,00 €   427,50 €\n      Drei Kinder in der Familie unter 18 Jahren            124,50 €   149,00 €   222,50 €   320,50 €\n      Vier und mehr Kinder in der Familie unter 18 Jahren   83,00 €    99,50 €    148,50 €   214,00 €",
+        "evidence": {
+          "source_id": "f990b6b54a41",
+          "locator": "PDF-/Textseite 9, Absatzblock 7",
+          "original": null
+        }
+      },
+      {
+        "text": "(3) Die pauschalen Gebühren für das Mittagessen (U3 und Ü3) betragen pro Monat 58,00 €.",
+        "evidence": {
+          "source_id": "f990b6b54a41",
+          "locator": "PDF-/Textseite 9, Absatzblock 8",
+          "original": null
+        }
+      },
+      {
+        "text": "2023 und Folgejahre                    Kinder unter 18 Jahren in der Familie\n                                                                                              4 Kinder\n       Gebühr pro Betreuungsstunde                      1 Kind       2 Kinder     3 Kinder\n                                                                                              und mehr\n                                                        2,42 €        1,92 €       1,43 €        0,96 €",
+        "evidence": {
+          "source_id": "f990b6b54a41",
+          "locator": "PDF-/Textseite 10, Absatzblock 2",
+          "original": null
+        }
+      },
+      {
+        "text": "(6) Gebühren für die Kleinkindbetreuung im Rahmen von TAKKI (Tagespflege für Kleinkin­\n    der).",
+        "evidence": {
+          "source_id": "f990b6b54a41",
+          "locator": "PDF-/Textseite 10, Absatzblock 3",
+          "original": null
+        }
+      },
+      {
+        "text": "Die TAKKI-Gebühren werden auf Basis der U3-VÖ Gebühren (§ 15 Abs. 1, Kinder unter\n     drei Jahren, verlängerte Öffnungszeiten, 30 Stunden/Woche) berechnet. Bei mehr als\n     30 Betreuungsstunden pro Woche wird die Gebühr pro Wochenstunde um den Stunden­\n     satz für weitere Betreuungsstunden laut Gebührentabelle erhöht. Bei weniger als 30 Be­\n     treuungsstunden pro Woche wird die Gebühr durch 30 Stunden dividiert und anschließend\n     mit der tatsächlichen Wochenstundenzahl multipliziert.",
+        "evidence": {
+          "source_id": "f990b6b54a41",
+          "locator": "PDF-/Textseite 10, Absatzblock 4",
+          "original": null
+        }
+      },
+      {
+        "text": "§ 15\n                        Entstehen und Fälligkeit der Kindergartengebühren\n                                 sowie der Essensgeldpauschale",
+        "evidence": {
+          "source_id": "f990b6b54a41",
+          "locator": "PDF-/Textseite 10, Absatzblock 5",
+          "original": null
+        }
+      },
+      {
+        "text": "(1) Die Gebührenschuld entsteht ab dem ersten Tag der Eingewöhnung in der Kinderbetreu­\n    ungseinrichtung. Die Zahlungspflicht für die Essensgeldpauschale sowie für Zusatzbe­\n    treuungsleistungen wird ab der Nutzung bzw. im Rahmen der Eingewöhnung in der Regel\n    erst ab der 5. Woche erhoben, nach Maßgabe von § 12 Abs. 5.",
+        "evidence": {
+          "source_id": "f990b6b54a41",
+          "locator": "PDF-/Textseite 10, Absatzblock 6",
+          "original": null
+        }
+      },
+      {
+        "text": "(2) Die Gebühren und die Essensgeldpauschale sind monatlich im Voraus bis spätestens\n    zum 1. des Monats zu bezahlen.",
+        "evidence": {
+          "source_id": "f990b6b54a41",
+          "locator": "PDF-/Textseite 10, Absatzblock 7",
+          "original": null
+        }
+      },
+      {
+        "text": "(3) Die Gebührenschuld und die Zahlungspflicht für die Essensgeldpauschale enden spä­\n    testens mit Ablauf des Monats, in dem die Benutzung der Kinderbetreuungseinrichtun­\n    gen beendet wird.",
+        "evidence": {
+          "source_id": "f990b6b54a41",
+          "locator": "PDF-/Textseite 10, Absatzblock 8",
+          "original": null
+        }
+      },
+      {
+        "text": "§ 16\n                       Einzug der Gebühren und der Essensgeldpauschale",
+        "evidence": {
+          "source_id": "f990b6b54a41",
+          "locator": "PDF-/Textseite 10, Absatzblock 9",
+          "original": null
+        }
+      },
+      {
+        "text": "Die Gebühren und die Essengeldpauschale werden von der Gemeindekasse im Abbuchungs­\nverfahren erhoben und jeweils zu Beginn eines jeden Monats im Voraus abgebucht.",
+        "evidence": {
+          "source_id": "f990b6b54a41",
+          "locator": "PDF-/Textseite 10, Absatzblock 10",
+          "original": null
+        }
+      }
+    ]
+  }
+}

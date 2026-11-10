@@ -1,0 +1,2713 @@
+{
+  "schema_version": "1.0",
+  "id": "baltmannsweiler",
+  "name": "Baltmannsweiler",
+  "reviewed_at": "2026-11-10",
+  "reference_date": "2026-11-10",
+  "scope": {
+    "included": [
+      "municipal"
+    ],
+    "other_providers": "only_with_explicit_source_evidence"
+  },
+  "family_basis": "under_18",
+  "family_evidence": {
+    "source_id": "dbe696bf2305",
+    "locator": "Familienbegriff und Fußnoten der Gebührenunterlagen",
+    "original": null
+  },
+  "supporting_source_ids": [
+    "dbe696bf2305"
+  ],
+  "offers": [
+    {
+      "id": "baltmannsweiler-offer-3a85cd8cee1d",
+      "original_label": "25 Stunden/Woche",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": "2027-08-31",
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 1500,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "Abschnitt I, 25 Wochenstunden; Spalte ab 01.09.2026",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "Abschnitt I, 25 Wochenstunden; Spalte ab 01.09.2026",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "baltmannsweiler-offer-34014bffe0c7",
+      "original_label": "25 Stunden/Woche",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2027-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2027-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 1500,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "Abschnitt I, 25 Wochenstunden; Spalte ab 01.09.2027",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "Abschnitt I, 25 Wochenstunden; Spalte ab 01.09.2027",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "baltmannsweiler-offer-5f4504e93f08",
+      "original_label": "30 Stunden/Woche",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": "2027-08-31",
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 1800,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "Abschnitt I, 30 Wochenstunden; Spalte ab 01.09.2026",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "Abschnitt I, 30 Wochenstunden; Spalte ab 01.09.2026",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "baltmannsweiler-offer-d40a14a0052b",
+      "original_label": "30 Stunden/Woche",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2027-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2027-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 1800,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "Abschnitt I, 30 Wochenstunden; Spalte ab 01.09.2027",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "Abschnitt I, 30 Wochenstunden; Spalte ab 01.09.2027",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "baltmannsweiler-offer-c83b0a0d7233",
+      "original_label": "35 Stunden/Woche",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": "2027-08-31",
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2100,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "Abschnitt I, 35 Wochenstunden; Spalte ab 01.09.2026",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "Abschnitt I, 35 Wochenstunden; Spalte ab 01.09.2026",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "baltmannsweiler-offer-f054201268ff",
+      "original_label": "35 Stunden/Woche",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2027-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2027-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2100,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "Abschnitt I, 35 Wochenstunden; Spalte ab 01.09.2027",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "Abschnitt I, 35 Wochenstunden; Spalte ab 01.09.2027",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "baltmannsweiler-offer-6bfd90f0bbb3",
+      "original_label": "25 Stunden/Woche",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": "2027-08-31",
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 1500,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "Abschnitt II, 25 Wochenstunden; Spalte ab 01.09.2026",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "Abschnitt II, 25 Wochenstunden; Spalte ab 01.09.2026",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "baltmannsweiler-offer-551f8b4d871d",
+      "original_label": "25 Stunden/Woche",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2027-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2027-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 1500,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "Abschnitt II, 25 Wochenstunden; Spalte ab 01.09.2027",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "Abschnitt II, 25 Wochenstunden; Spalte ab 01.09.2027",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "baltmannsweiler-offer-911849fb104e",
+      "original_label": "30 Stunden/Woche",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": "2027-08-31",
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 1800,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "Abschnitt II, 30 Wochenstunden; Spalte ab 01.09.2026",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "Abschnitt II, 30 Wochenstunden; Spalte ab 01.09.2026",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "baltmannsweiler-offer-26254b9f58b8",
+      "original_label": "30 Stunden/Woche",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2027-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2027-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 1800,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "Abschnitt II, 30 Wochenstunden; Spalte ab 01.09.2027",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "Abschnitt II, 30 Wochenstunden; Spalte ab 01.09.2027",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "baltmannsweiler-offer-35e93b259ef1",
+      "original_label": "35 Stunden/Woche",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": "2027-08-31",
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2100,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "Abschnitt II, 35 Wochenstunden; Spalte ab 01.09.2026",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "Abschnitt II, 35 Wochenstunden; Spalte ab 01.09.2026",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "baltmannsweiler-offer-2b6117af1659",
+      "original_label": "35 Stunden/Woche",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2027-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2027-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2100,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "Abschnitt II, 35 Wochenstunden; Spalte ab 01.09.2027",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "Abschnitt II, 35 Wochenstunden; Spalte ab 01.09.2027",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "baltmannsweiler-offer-dbcc4eda3bfc",
+      "original_label": "40.5 Stunden/Woche",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": "2027-08-31",
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2430,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "Abschnitt II, 40.5 Wochenstunden; Spalte ab 01.09.2026",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "Abschnitt II, 40.5 Wochenstunden; Spalte ab 01.09.2026",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "baltmannsweiler-offer-f6275597738e",
+      "original_label": "40.5 Stunden/Woche",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2027-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2027-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2430,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "Abschnitt II, 40.5 Wochenstunden; Spalte ab 01.09.2027",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "Abschnitt II, 40.5 Wochenstunden; Spalte ab 01.09.2027",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "baltmannsweiler-offer-6111f6a1dce9",
+      "original_label": "44.5 Stunden/Woche",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": "2027-08-31",
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2670,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "Abschnitt II, 44.5 Wochenstunden; Spalte ab 01.09.2026",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "Abschnitt II, 44.5 Wochenstunden; Spalte ab 01.09.2026",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "baltmannsweiler-offer-f783c633159d",
+      "original_label": "44.5 Stunden/Woche",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2027-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2027-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2670,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "Abschnitt II, 44.5 Wochenstunden; Spalte ab 01.09.2027",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "Abschnitt II, 44.5 Wochenstunden; Spalte ab 01.09.2027",
+        "original": null
+      },
+      "formula": null
+    }
+  ],
+  "prices": [
+    {
+      "id": "baltmannsweiler-price-7febef33db53",
+      "offer_id": "baltmannsweiler-offer-3a85cd8cee1d",
+      "amount_cents": 29938,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "Abschnitt I, 25 Wochenstunden; Spalte ab 01.09.2026",
+        "original": 29938
+      }
+    },
+    {
+      "id": "baltmannsweiler-price-62f9cf8bf5b1",
+      "offer_id": "baltmannsweiler-offer-3a85cd8cee1d",
+      "amount_cents": 22453,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "Abschnitt I, 25 Wochenstunden; Spalte ab 01.09.2026",
+        "original": 22453
+      }
+    },
+    {
+      "id": "baltmannsweiler-price-bfb9e70d2fc7",
+      "offer_id": "baltmannsweiler-offer-3a85cd8cee1d",
+      "amount_cents": 14969,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "Abschnitt I, 25 Wochenstunden; Spalte ab 01.09.2026",
+        "original": 14969
+      }
+    },
+    {
+      "id": "baltmannsweiler-price-0f45e4c11c96",
+      "offer_id": "baltmannsweiler-offer-3a85cd8cee1d",
+      "amount_cents": 5988,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "Abschnitt I, 25 Wochenstunden; Spalte ab 01.09.2026",
+        "original": 5988
+      }
+    },
+    {
+      "id": "baltmannsweiler-price-1ca126b1e460",
+      "offer_id": "baltmannsweiler-offer-34014bffe0c7",
+      "amount_cents": 31136,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "Abschnitt I, 25 Wochenstunden; Spalte ab 01.09.2027",
+        "original": 31136
+      }
+    },
+    {
+      "id": "baltmannsweiler-price-2c14a883bb08",
+      "offer_id": "baltmannsweiler-offer-34014bffe0c7",
+      "amount_cents": 23351,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "Abschnitt I, 25 Wochenstunden; Spalte ab 01.09.2027",
+        "original": 23351
+      }
+    },
+    {
+      "id": "baltmannsweiler-price-01a41ac50c8e",
+      "offer_id": "baltmannsweiler-offer-34014bffe0c7",
+      "amount_cents": 15567,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "Abschnitt I, 25 Wochenstunden; Spalte ab 01.09.2027",
+        "original": 15567
+      }
+    },
+    {
+      "id": "baltmannsweiler-price-2b304a47e873",
+      "offer_id": "baltmannsweiler-offer-34014bffe0c7",
+      "amount_cents": 6227,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "Abschnitt I, 25 Wochenstunden; Spalte ab 01.09.2027",
+        "original": 6227
+      }
+    },
+    {
+      "id": "baltmannsweiler-price-4f650f235464",
+      "offer_id": "baltmannsweiler-offer-5f4504e93f08",
+      "amount_cents": 37483,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "Abschnitt I, 30 Wochenstunden; Spalte ab 01.09.2026",
+        "original": 37483
+      }
+    },
+    {
+      "id": "baltmannsweiler-price-e46b49279047",
+      "offer_id": "baltmannsweiler-offer-5f4504e93f08",
+      "amount_cents": 28112,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "Abschnitt I, 30 Wochenstunden; Spalte ab 01.09.2026",
+        "original": 28112
+      }
+    },
+    {
+      "id": "baltmannsweiler-price-eea5c3f863cd",
+      "offer_id": "baltmannsweiler-offer-5f4504e93f08",
+      "amount_cents": 18742,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "Abschnitt I, 30 Wochenstunden; Spalte ab 01.09.2026",
+        "original": 18742
+      }
+    },
+    {
+      "id": "baltmannsweiler-price-19c53ec6a968",
+      "offer_id": "baltmannsweiler-offer-5f4504e93f08",
+      "amount_cents": 7497,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "Abschnitt I, 30 Wochenstunden; Spalte ab 01.09.2026",
+        "original": 7497
+      }
+    },
+    {
+      "id": "baltmannsweiler-price-e49ece910ab7",
+      "offer_id": "baltmannsweiler-offer-d40a14a0052b",
+      "amount_cents": 38982,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "Abschnitt I, 30 Wochenstunden; Spalte ab 01.09.2027",
+        "original": 38982
+      }
+    },
+    {
+      "id": "baltmannsweiler-price-f6ab2fa399ff",
+      "offer_id": "baltmannsweiler-offer-d40a14a0052b",
+      "amount_cents": 29236,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "Abschnitt I, 30 Wochenstunden; Spalte ab 01.09.2027",
+        "original": 29236
+      }
+    },
+    {
+      "id": "baltmannsweiler-price-3ca8e292a155",
+      "offer_id": "baltmannsweiler-offer-d40a14a0052b",
+      "amount_cents": 19492,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "Abschnitt I, 30 Wochenstunden; Spalte ab 01.09.2027",
+        "original": 19492
+      }
+    },
+    {
+      "id": "baltmannsweiler-price-54509dd925bd",
+      "offer_id": "baltmannsweiler-offer-d40a14a0052b",
+      "amount_cents": 7797,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "Abschnitt I, 30 Wochenstunden; Spalte ab 01.09.2027",
+        "original": 7797
+      }
+    },
+    {
+      "id": "baltmannsweiler-price-74bfd6bb2142",
+      "offer_id": "baltmannsweiler-offer-c83b0a0d7233",
+      "amount_cents": 45029,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "Abschnitt I, 35 Wochenstunden; Spalte ab 01.09.2026",
+        "original": 45029
+      }
+    },
+    {
+      "id": "baltmannsweiler-price-f85144bdc7e9",
+      "offer_id": "baltmannsweiler-offer-c83b0a0d7233",
+      "amount_cents": 33771,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "Abschnitt I, 35 Wochenstunden; Spalte ab 01.09.2026",
+        "original": 33771
+      }
+    },
+    {
+      "id": "baltmannsweiler-price-826ccc6a6610",
+      "offer_id": "baltmannsweiler-offer-c83b0a0d7233",
+      "amount_cents": 22515,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "Abschnitt I, 35 Wochenstunden; Spalte ab 01.09.2026",
+        "original": 22515
+      }
+    },
+    {
+      "id": "baltmannsweiler-price-ec56de4e96da",
+      "offer_id": "baltmannsweiler-offer-c83b0a0d7233",
+      "amount_cents": 9006,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "Abschnitt I, 35 Wochenstunden; Spalte ab 01.09.2026",
+        "original": 9006
+      }
+    },
+    {
+      "id": "baltmannsweiler-price-cdd218833231",
+      "offer_id": "baltmannsweiler-offer-f054201268ff",
+      "amount_cents": 46830,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "Abschnitt I, 35 Wochenstunden; Spalte ab 01.09.2027",
+        "original": 46830
+      }
+    },
+    {
+      "id": "baltmannsweiler-price-840bcefecf1f",
+      "offer_id": "baltmannsweiler-offer-f054201268ff",
+      "amount_cents": 35122,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "Abschnitt I, 35 Wochenstunden; Spalte ab 01.09.2027",
+        "original": 35122
+      }
+    },
+    {
+      "id": "baltmannsweiler-price-1d5b5723b4bc",
+      "offer_id": "baltmannsweiler-offer-f054201268ff",
+      "amount_cents": 23415,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "Abschnitt I, 35 Wochenstunden; Spalte ab 01.09.2027",
+        "original": 23415
+      }
+    },
+    {
+      "id": "baltmannsweiler-price-e960ffdd4a8b",
+      "offer_id": "baltmannsweiler-offer-f054201268ff",
+      "amount_cents": 9366,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "Abschnitt I, 35 Wochenstunden; Spalte ab 01.09.2027",
+        "original": 9366
+      }
+    },
+    {
+      "id": "baltmannsweiler-price-090638ddf52a",
+      "offer_id": "baltmannsweiler-offer-6bfd90f0bbb3",
+      "amount_cents": 11752,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "Abschnitt II, 25 Wochenstunden; Spalte ab 01.09.2026",
+        "original": 11752
+      }
+    },
+    {
+      "id": "baltmannsweiler-price-52b74a22b40f",
+      "offer_id": "baltmannsweiler-offer-6bfd90f0bbb3",
+      "amount_cents": 8814,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "Abschnitt II, 25 Wochenstunden; Spalte ab 01.09.2026",
+        "original": 8814
+      }
+    },
+    {
+      "id": "baltmannsweiler-price-e4b991947743",
+      "offer_id": "baltmannsweiler-offer-6bfd90f0bbb3",
+      "amount_cents": 5876,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "Abschnitt II, 25 Wochenstunden; Spalte ab 01.09.2026",
+        "original": 5876
+      }
+    },
+    {
+      "id": "baltmannsweiler-price-95f5137752cd",
+      "offer_id": "baltmannsweiler-offer-6bfd90f0bbb3",
+      "amount_cents": 2351,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "Abschnitt II, 25 Wochenstunden; Spalte ab 01.09.2026",
+        "original": 2351
+      }
+    },
+    {
+      "id": "baltmannsweiler-price-339865777ea2",
+      "offer_id": "baltmannsweiler-offer-551f8b4d871d",
+      "amount_cents": 12222,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "Abschnitt II, 25 Wochenstunden; Spalte ab 01.09.2027",
+        "original": 12222
+      }
+    },
+    {
+      "id": "baltmannsweiler-price-55940f3b5bdb",
+      "offer_id": "baltmannsweiler-offer-551f8b4d871d",
+      "amount_cents": 9166,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "Abschnitt II, 25 Wochenstunden; Spalte ab 01.09.2027",
+        "original": 9166
+      }
+    },
+    {
+      "id": "baltmannsweiler-price-954b9fd2322e",
+      "offer_id": "baltmannsweiler-offer-551f8b4d871d",
+      "amount_cents": 6111,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "Abschnitt II, 25 Wochenstunden; Spalte ab 01.09.2027",
+        "original": 6111
+      }
+    },
+    {
+      "id": "baltmannsweiler-price-764d64edb4f9",
+      "offer_id": "baltmannsweiler-offer-551f8b4d871d",
+      "amount_cents": 2445,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "Abschnitt II, 25 Wochenstunden; Spalte ab 01.09.2027",
+        "original": 2445
+      }
+    },
+    {
+      "id": "baltmannsweiler-price-37b0863f4a12",
+      "offer_id": "baltmannsweiler-offer-911849fb104e",
+      "amount_cents": 14927,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "Abschnitt II, 30 Wochenstunden; Spalte ab 01.09.2026",
+        "original": 14927
+      }
+    },
+    {
+      "id": "baltmannsweiler-price-fa8da1c2dae8",
+      "offer_id": "baltmannsweiler-offer-911849fb104e",
+      "amount_cents": 11195,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "Abschnitt II, 30 Wochenstunden; Spalte ab 01.09.2026",
+        "original": 11195
+      }
+    },
+    {
+      "id": "baltmannsweiler-price-adf603942395",
+      "offer_id": "baltmannsweiler-offer-911849fb104e",
+      "amount_cents": 7464,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "Abschnitt II, 30 Wochenstunden; Spalte ab 01.09.2026",
+        "original": 7464
+      }
+    },
+    {
+      "id": "baltmannsweiler-price-7ab7815dfda2",
+      "offer_id": "baltmannsweiler-offer-911849fb104e",
+      "amount_cents": 2986,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "Abschnitt II, 30 Wochenstunden; Spalte ab 01.09.2026",
+        "original": 2986
+      }
+    },
+    {
+      "id": "baltmannsweiler-price-b4964f31e15a",
+      "offer_id": "baltmannsweiler-offer-26254b9f58b8",
+      "amount_cents": 15524,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "Abschnitt II, 30 Wochenstunden; Spalte ab 01.09.2027",
+        "original": 15524
+      }
+    },
+    {
+      "id": "baltmannsweiler-price-685d603b204c",
+      "offer_id": "baltmannsweiler-offer-26254b9f58b8",
+      "amount_cents": 11643,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "Abschnitt II, 30 Wochenstunden; Spalte ab 01.09.2027",
+        "original": 11643
+      }
+    },
+    {
+      "id": "baltmannsweiler-price-d7cdae89c9bc",
+      "offer_id": "baltmannsweiler-offer-26254b9f58b8",
+      "amount_cents": 7763,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "Abschnitt II, 30 Wochenstunden; Spalte ab 01.09.2027",
+        "original": 7763
+      }
+    },
+    {
+      "id": "baltmannsweiler-price-3a1d9a82d574",
+      "offer_id": "baltmannsweiler-offer-26254b9f58b8",
+      "amount_cents": 3105,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "Abschnitt II, 30 Wochenstunden; Spalte ab 01.09.2027",
+        "original": 3105
+      }
+    },
+    {
+      "id": "baltmannsweiler-price-204bcf2a6b27",
+      "offer_id": "baltmannsweiler-offer-35e93b259ef1",
+      "amount_cents": 18101,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "Abschnitt II, 35 Wochenstunden; Spalte ab 01.09.2026",
+        "original": 18101
+      }
+    },
+    {
+      "id": "baltmannsweiler-price-e54aca16d5bf",
+      "offer_id": "baltmannsweiler-offer-35e93b259ef1",
+      "amount_cents": 13577,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "Abschnitt II, 35 Wochenstunden; Spalte ab 01.09.2026",
+        "original": 13577
+      }
+    },
+    {
+      "id": "baltmannsweiler-price-5336b835ab53",
+      "offer_id": "baltmannsweiler-offer-35e93b259ef1",
+      "amount_cents": 9051,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "Abschnitt II, 35 Wochenstunden; Spalte ab 01.09.2026",
+        "original": 9051
+      }
+    },
+    {
+      "id": "baltmannsweiler-price-dd09cfc1d141",
+      "offer_id": "baltmannsweiler-offer-35e93b259ef1",
+      "amount_cents": 3621,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "Abschnitt II, 35 Wochenstunden; Spalte ab 01.09.2026",
+        "original": 3621
+      }
+    },
+    {
+      "id": "baltmannsweiler-price-63d2886ddb41",
+      "offer_id": "baltmannsweiler-offer-2b6117af1659",
+      "amount_cents": 18826,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "Abschnitt II, 35 Wochenstunden; Spalte ab 01.09.2027",
+        "original": 18826
+      }
+    },
+    {
+      "id": "baltmannsweiler-price-aafdf019944a",
+      "offer_id": "baltmannsweiler-offer-2b6117af1659",
+      "amount_cents": 14120,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "Abschnitt II, 35 Wochenstunden; Spalte ab 01.09.2027",
+        "original": 14120
+      }
+    },
+    {
+      "id": "baltmannsweiler-price-10dd3c9805fc",
+      "offer_id": "baltmannsweiler-offer-2b6117af1659",
+      "amount_cents": 9413,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "Abschnitt II, 35 Wochenstunden; Spalte ab 01.09.2027",
+        "original": 9413
+      }
+    },
+    {
+      "id": "baltmannsweiler-price-424afb1dac03",
+      "offer_id": "baltmannsweiler-offer-2b6117af1659",
+      "amount_cents": 3766,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "Abschnitt II, 35 Wochenstunden; Spalte ab 01.09.2027",
+        "original": 3766
+      }
+    },
+    {
+      "id": "baltmannsweiler-price-cb6c433e07ff",
+      "offer_id": "baltmannsweiler-offer-dbcc4eda3bfc",
+      "amount_cents": 29796,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "Abschnitt II, 40.5 Wochenstunden; Spalte ab 01.09.2026",
+        "original": 29796
+      }
+    },
+    {
+      "id": "baltmannsweiler-price-be5c8c722ebb",
+      "offer_id": "baltmannsweiler-offer-dbcc4eda3bfc",
+      "amount_cents": 22347,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "Abschnitt II, 40.5 Wochenstunden; Spalte ab 01.09.2026",
+        "original": 22347
+      }
+    },
+    {
+      "id": "baltmannsweiler-price-f5f1bd85283e",
+      "offer_id": "baltmannsweiler-offer-dbcc4eda3bfc",
+      "amount_cents": 14899,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "Abschnitt II, 40.5 Wochenstunden; Spalte ab 01.09.2026",
+        "original": 14899
+      }
+    },
+    {
+      "id": "baltmannsweiler-price-40352097b8eb",
+      "offer_id": "baltmannsweiler-offer-dbcc4eda3bfc",
+      "amount_cents": 5960,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "Abschnitt II, 40.5 Wochenstunden; Spalte ab 01.09.2026",
+        "original": 5960
+      }
+    },
+    {
+      "id": "baltmannsweiler-price-73d78ced9279",
+      "offer_id": "baltmannsweiler-offer-f6275597738e",
+      "amount_cents": 30988,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "Abschnitt II, 40.5 Wochenstunden; Spalte ab 01.09.2027",
+        "original": 30988
+      }
+    },
+    {
+      "id": "baltmannsweiler-price-17ab74c95029",
+      "offer_id": "baltmannsweiler-offer-f6275597738e",
+      "amount_cents": 23241,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "Abschnitt II, 40.5 Wochenstunden; Spalte ab 01.09.2027",
+        "original": 23241
+      }
+    },
+    {
+      "id": "baltmannsweiler-price-cfb2a48cc11f",
+      "offer_id": "baltmannsweiler-offer-f6275597738e",
+      "amount_cents": 15495,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "Abschnitt II, 40.5 Wochenstunden; Spalte ab 01.09.2027",
+        "original": 15495
+      }
+    },
+    {
+      "id": "baltmannsweiler-price-34bcdacdf1dd",
+      "offer_id": "baltmannsweiler-offer-f6275597738e",
+      "amount_cents": 6198,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "Abschnitt II, 40.5 Wochenstunden; Spalte ab 01.09.2027",
+        "original": 6198
+      }
+    },
+    {
+      "id": "baltmannsweiler-price-71d0d0408407",
+      "offer_id": "baltmannsweiler-offer-6111f6a1dce9",
+      "amount_cents": 34454,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "Abschnitt II, 44.5 Wochenstunden; Spalte ab 01.09.2026",
+        "original": 34454
+      }
+    },
+    {
+      "id": "baltmannsweiler-price-ce155b7898bc",
+      "offer_id": "baltmannsweiler-offer-6111f6a1dce9",
+      "amount_cents": 25840,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "Abschnitt II, 44.5 Wochenstunden; Spalte ab 01.09.2026",
+        "original": 25840
+      }
+    },
+    {
+      "id": "baltmannsweiler-price-5ce8680cc986",
+      "offer_id": "baltmannsweiler-offer-6111f6a1dce9",
+      "amount_cents": 17226,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "Abschnitt II, 44.5 Wochenstunden; Spalte ab 01.09.2026",
+        "original": 17226
+      }
+    },
+    {
+      "id": "baltmannsweiler-price-fc754d86c909",
+      "offer_id": "baltmannsweiler-offer-6111f6a1dce9",
+      "amount_cents": 6891,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "Abschnitt II, 44.5 Wochenstunden; Spalte ab 01.09.2026",
+        "original": 6891
+      }
+    },
+    {
+      "id": "baltmannsweiler-price-a937599da310",
+      "offer_id": "baltmannsweiler-offer-f783c633159d",
+      "amount_cents": 35832,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "Abschnitt II, 44.5 Wochenstunden; Spalte ab 01.09.2027",
+        "original": 35832
+      }
+    },
+    {
+      "id": "baltmannsweiler-price-1698aa93291e",
+      "offer_id": "baltmannsweiler-offer-f783c633159d",
+      "amount_cents": 26873,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "Abschnitt II, 44.5 Wochenstunden; Spalte ab 01.09.2027",
+        "original": 26873
+      }
+    },
+    {
+      "id": "baltmannsweiler-price-4cd8d7cf316c",
+      "offer_id": "baltmannsweiler-offer-f783c633159d",
+      "amount_cents": 17915,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "Abschnitt II, 44.5 Wochenstunden; Spalte ab 01.09.2027",
+        "original": 17915
+      }
+    },
+    {
+      "id": "baltmannsweiler-price-c878c636beb4",
+      "offer_id": "baltmannsweiler-offer-f783c633159d",
+      "amount_cents": 7166,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "Abschnitt II, 44.5 Wochenstunden; Spalte ab 01.09.2027",
+        "original": 7166
+      }
+    }
+  ],
+  "income_bands": [],
+  "components": [
+    {
+      "id": "baltmannsweiler-component-40e7f306ef2b",
+      "kind": "meal",
+      "original_label": "Mittagessen u3 1 Tage/Woche",
+      "amount_cents": 1600,
+      "unit": "per_month",
+      "age_group": "u3",
+      "required": null,
+      "payment_months": null,
+      "offer_ids": null,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "Abschnitt V, aktuelle Essensbeiträge (nicht Klammerwerte)",
+        "original": null
+      },
+      "days_per_week": 1
+    },
+    {
+      "id": "baltmannsweiler-component-6af316d29708",
+      "kind": "meal",
+      "original_label": "Mittagessen u3 2 Tage/Woche",
+      "amount_cents": 3100,
+      "unit": "per_month",
+      "age_group": "u3",
+      "required": null,
+      "payment_months": null,
+      "offer_ids": null,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "Abschnitt V, aktuelle Essensbeiträge (nicht Klammerwerte)",
+        "original": null
+      },
+      "days_per_week": 2
+    },
+    {
+      "id": "baltmannsweiler-component-5fc624f866e2",
+      "kind": "meal",
+      "original_label": "Mittagessen u3 3 Tage/Woche",
+      "amount_cents": 4600,
+      "unit": "per_month",
+      "age_group": "u3",
+      "required": null,
+      "payment_months": null,
+      "offer_ids": null,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "Abschnitt V, aktuelle Essensbeiträge (nicht Klammerwerte)",
+        "original": null
+      },
+      "days_per_week": 3
+    },
+    {
+      "id": "baltmannsweiler-component-3c4237d6f910",
+      "kind": "meal",
+      "original_label": "Mittagessen u3 4 Tage/Woche",
+      "amount_cents": 6100,
+      "unit": "per_month",
+      "age_group": "u3",
+      "required": null,
+      "payment_months": null,
+      "offer_ids": null,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "Abschnitt V, aktuelle Essensbeiträge (nicht Klammerwerte)",
+        "original": null
+      },
+      "days_per_week": 4
+    },
+    {
+      "id": "baltmannsweiler-component-1519a7c915a8",
+      "kind": "meal",
+      "original_label": "Mittagessen u3 5 Tage/Woche",
+      "amount_cents": 7700,
+      "unit": "per_month",
+      "age_group": "u3",
+      "required": null,
+      "payment_months": null,
+      "offer_ids": null,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "Abschnitt V, aktuelle Essensbeiträge (nicht Klammerwerte)",
+        "original": null
+      },
+      "days_per_week": 5
+    },
+    {
+      "id": "baltmannsweiler-component-494cd744a085",
+      "kind": "meal",
+      "original_label": "Mittagessen o3 1 Tage/Woche",
+      "amount_cents": 1900,
+      "unit": "per_month",
+      "age_group": "o3",
+      "required": null,
+      "payment_months": null,
+      "offer_ids": null,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "Abschnitt V, aktuelle Essensbeiträge (nicht Klammerwerte)",
+        "original": null
+      },
+      "days_per_week": 1
+    },
+    {
+      "id": "baltmannsweiler-component-9998ad7939a1",
+      "kind": "meal",
+      "original_label": "Mittagessen o3 2 Tage/Woche",
+      "amount_cents": 3700,
+      "unit": "per_month",
+      "age_group": "o3",
+      "required": null,
+      "payment_months": null,
+      "offer_ids": null,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "Abschnitt V, aktuelle Essensbeiträge (nicht Klammerwerte)",
+        "original": null
+      },
+      "days_per_week": 2
+    },
+    {
+      "id": "baltmannsweiler-component-88f87d337ce8",
+      "kind": "meal",
+      "original_label": "Mittagessen o3 3 Tage/Woche",
+      "amount_cents": 5500,
+      "unit": "per_month",
+      "age_group": "o3",
+      "required": null,
+      "payment_months": null,
+      "offer_ids": null,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "Abschnitt V, aktuelle Essensbeiträge (nicht Klammerwerte)",
+        "original": null
+      },
+      "days_per_week": 3
+    },
+    {
+      "id": "baltmannsweiler-component-1a0ecb82c81d",
+      "kind": "meal",
+      "original_label": "Mittagessen o3 4 Tage/Woche",
+      "amount_cents": 7300,
+      "unit": "per_month",
+      "age_group": "o3",
+      "required": null,
+      "payment_months": null,
+      "offer_ids": null,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "Abschnitt V, aktuelle Essensbeiträge (nicht Klammerwerte)",
+        "original": null
+      },
+      "days_per_week": 4
+    },
+    {
+      "id": "baltmannsweiler-component-f7cad79a91f0",
+      "kind": "meal",
+      "original_label": "Mittagessen o3 5 Tage/Woche",
+      "amount_cents": 9100,
+      "unit": "per_month",
+      "age_group": "o3",
+      "required": null,
+      "payment_months": null,
+      "offer_ids": null,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "Abschnitt V, aktuelle Essensbeiträge (nicht Klammerwerte)",
+        "original": null
+      },
+      "days_per_week": 5
+    }
+  ],
+  "rules": [
+    {
+      "id": "baltmannsweiler-rule-c58400abd0bb",
+      "kind": "mandatory_meals",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "u3_all_models": true,
+        "o3_vo_xl_and_gt": true,
+        "u3_meal_days": 5
+      },
+      "evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "Abschnitte I und II",
+        "original": null
+      }
+    },
+    {
+      "id": "baltmannsweiler-rule-1571efd02f1b",
+      "kind": "source_provisions_dbe696bf2305",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "archive_text_path": "data/sources/dbe696bf2305/text.txt",
+        "text_sha256": "d08e81a4d229839f47030400843c4db611e07effcb4fee58c1e1eee6885162b4",
+        "review_status": "archived_provisions_preserved"
+      },
+      "evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "Vollständiger archivierter Dokumenttext einschließlich Fußnoten",
+        "original": null
+      }
+    },
+    {
+      "id": "baltmannsweiler-rule-72740a21ffd1",
+      "kind": "source_clause_dbe696bf2305_1_3",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 0,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "PDF-/Textseite 1, Absatzblock 3",
+        "original": null
+      }
+    },
+    {
+      "id": "baltmannsweiler-rule-afb308132270",
+      "kind": "source_clause_dbe696bf2305_1_4",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 1,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "PDF-/Textseite 1, Absatzblock 4",
+        "original": null
+      }
+    },
+    {
+      "id": "baltmannsweiler-rule-d32cb0fa691c",
+      "kind": "source_clause_dbe696bf2305_1_5",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 2,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "PDF-/Textseite 1, Absatzblock 5",
+        "original": null
+      }
+    },
+    {
+      "id": "baltmannsweiler-rule-d4156d9d297e",
+      "kind": "source_clause_dbe696bf2305_1_6",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 3,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "PDF-/Textseite 1, Absatzblock 6",
+        "original": null
+      }
+    },
+    {
+      "id": "baltmannsweiler-rule-83093afdfc4b",
+      "kind": "source_clause_dbe696bf2305_2_2",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 4,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "PDF-/Textseite 2, Absatzblock 2",
+        "original": null
+      }
+    },
+    {
+      "id": "baltmannsweiler-rule-29ae33caa1aa",
+      "kind": "source_clause_dbe696bf2305_2_3",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 5,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "PDF-/Textseite 2, Absatzblock 3",
+        "original": null
+      }
+    },
+    {
+      "id": "baltmannsweiler-rule-272da0ccdeeb",
+      "kind": "source_clause_dbe696bf2305_2_4",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 6,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "PDF-/Textseite 2, Absatzblock 4",
+        "original": null
+      }
+    },
+    {
+      "id": "baltmannsweiler-rule-b966b3eccf80",
+      "kind": "source_clause_dbe696bf2305_2_6",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 7,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "PDF-/Textseite 2, Absatzblock 6",
+        "original": null
+      }
+    },
+    {
+      "id": "baltmannsweiler-rule-860294b2472b",
+      "kind": "source_clause_dbe696bf2305_3_1",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 8,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "PDF-/Textseite 3, Absatzblock 1",
+        "original": null
+      }
+    },
+    {
+      "id": "baltmannsweiler-rule-4e148832b78a",
+      "kind": "source_clause_dbe696bf2305_3_3",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 9,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "PDF-/Textseite 3, Absatzblock 3",
+        "original": null
+      }
+    },
+    {
+      "id": "baltmannsweiler-rule-904a061567ec",
+      "kind": "source_clause_dbe696bf2305_3_6",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 10,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "PDF-/Textseite 3, Absatzblock 6",
+        "original": null
+      }
+    },
+    {
+      "id": "baltmannsweiler-rule-cf7ef00421f4",
+      "kind": "source_clause_dbe696bf2305_3_7",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 11,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "PDF-/Textseite 3, Absatzblock 7",
+        "original": null
+      }
+    },
+    {
+      "id": "baltmannsweiler-rule-4b067fc19762",
+      "kind": "source_clause_dbe696bf2305_4_1",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 12,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "PDF-/Textseite 4, Absatzblock 1",
+        "original": null
+      }
+    },
+    {
+      "id": "baltmannsweiler-rule-9d6aab425ed1",
+      "kind": "source_clause_dbe696bf2305_4_2",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 13,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "PDF-/Textseite 4, Absatzblock 2",
+        "original": null
+      }
+    },
+    {
+      "id": "baltmannsweiler-rule-9618e9c0969d",
+      "kind": "source_clause_dbe696bf2305_4_4",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 14,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "PDF-/Textseite 4, Absatzblock 4",
+        "original": null
+      }
+    },
+    {
+      "id": "baltmannsweiler-rule-30bdb761ed4e",
+      "kind": "source_clause_dbe696bf2305_4_6",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 15,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "PDF-/Textseite 4, Absatzblock 6",
+        "original": null
+      }
+    },
+    {
+      "id": "baltmannsweiler-rule-1b54dc46eff4",
+      "kind": "source_clause_dbe696bf2305_5_1",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 16,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "PDF-/Textseite 5, Absatzblock 1",
+        "original": null
+      }
+    },
+    {
+      "id": "baltmannsweiler-rule-940a2247b2db",
+      "kind": "source_clause_dbe696bf2305_5_3",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 17,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "PDF-/Textseite 5, Absatzblock 3",
+        "original": null
+      }
+    },
+    {
+      "id": "baltmannsweiler-rule-ab8fda8ada02",
+      "kind": "source_clause_dbe696bf2305_5_5",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 18,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "PDF-/Textseite 5, Absatzblock 5",
+        "original": null
+      }
+    },
+    {
+      "id": "baltmannsweiler-rule-c9923ecb9c79",
+      "kind": "source_clause_dbe696bf2305_6_1",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 19,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "PDF-/Textseite 6, Absatzblock 1",
+        "original": null
+      }
+    },
+    {
+      "id": "baltmannsweiler-rule-2ec55061c619",
+      "kind": "source_clause_dbe696bf2305_6_3",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 20,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "PDF-/Textseite 6, Absatzblock 3",
+        "original": null
+      }
+    },
+    {
+      "id": "baltmannsweiler-rule-c8751db08672",
+      "kind": "source_clause_dbe696bf2305_6_6",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 21,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "PDF-/Textseite 6, Absatzblock 6",
+        "original": null
+      }
+    },
+    {
+      "id": "baltmannsweiler-rule-d8474de11ea6",
+      "kind": "source_clause_dbe696bf2305_9_5",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 22,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "PDF-/Textseite 9, Absatzblock 5",
+        "original": null
+      }
+    },
+    {
+      "id": "baltmannsweiler-rule-34611b7d2ebb",
+      "kind": "source_clause_dbe696bf2305_10_5",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 23,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "PDF-/Textseite 10, Absatzblock 5",
+        "original": null
+      }
+    },
+    {
+      "id": "baltmannsweiler-rule-71eee6a78254",
+      "kind": "source_clause_dbe696bf2305_10_6",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 24,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "PDF-/Textseite 10, Absatzblock 6",
+        "original": null
+      }
+    },
+    {
+      "id": "baltmannsweiler-rule-a1fdc4e7ddb6",
+      "kind": "source_clause_dbe696bf2305_10_7",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 25,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "PDF-/Textseite 10, Absatzblock 7",
+        "original": null
+      }
+    }
+  ],
+  "issues": [
+    {
+      "code": "pending_calculation_review",
+      "detail": "Strukturierter Import; noch keine Freigabe des Rechners oder der Website."
+    },
+    {
+      "code": "research_limitation_1",
+      "detail": "Kein U3-8-Stunden-Tarif im veröffentlichten Katalog. Dies ist eine Angebotsgrenze und kein fehlender Preis."
+    }
+  ],
+  "coverage": {
+    "publication_status": "not_active",
+    "integration_status": "normalized_pending_calculation_review",
+    "history_in_scope": false,
+    "source_register": "data/research/neighbor_expansion_2026-11-10.json",
+    "research_id": "baltmannsweiler",
+    "unavailable_configurations": [],
+    "offers": 16,
+    "price_cells": 64,
+    "income_bands": 0,
+    "components": 10,
+    "rule_records": 28,
+    "tariff_table_transcription": "complete_for_declared_scope",
+    "declared_scope": "Aktuelle und bereits veröffentlichte künftige Krippen- und Kindergartentarife; Zusatzkosten und Gebührenregeln.",
+    "excluded_from_regular_price_rows": [
+      "superseded_historical_tariffs",
+      "school_childcare",
+      "takki_and_childminding",
+      "separate_playgroups"
+    ],
+    "calculation_engine_changed": false,
+    "rule_transcription": "typed_parameters_and_source_clauses_with_explicit_unimplemented_status"
+  },
+  "original_research": {
+    "path": "data/research/neighbor_expansion_2026-11-10.json",
+    "section": "Baltmannsweiler",
+    "text": "Die U3-Tarifliste endet bei 35 Stunden. Ein achtstündiges U3-Angebot darf daraus nicht erzeugt werden.\nKein U3-8-Stunden-Tarif im veröffentlichten Katalog. Dies ist eine Angebotsgrenze und kein fehlender Preis.",
+    "source_clauses": [
+      {
+        "text": "Im Bereich der Kinderkrippe (Kinder unter 3 Jahren) ist unabhängig vom jeweiligen Betreuungsmodell zusätzlich ein warmes Mittagessen zu buchen (an 5\nTagen/Woche). Das Essensgeld ist zusätzlich zum Elternbeitrag zu entrichten und bemisst sich nach Ziffer V. dieser Übersicht. Zudem bietet die Gemeinde\nhier auch weiterhin die Möglichkeit einer tageweisen Buchung an. Der Monatsbeitrag ist in diesem Fall mit einem Verteilungsschlüssel auf die einzelnen\nBetreuungstage umzulegen.",
+        "evidence": {
+          "source_id": "dbe696bf2305",
+          "locator": "PDF-/Textseite 1, Absatzblock 3",
+          "original": null
+        }
+      },
+      {
+        "text": "Kinder unter 3          Betreuung 25 Stunden/Woche          Betreuung 25 Stunden/Woche           Betreuung 25 Stunden/Woche\nJahre                               (HT)                                (HT)                                 (HT)\n                               Ab 01.09.2026                       Ab 01.09.2027                   Bisherige Beitragssätze\n1 Kind unter 18 J.                299,38 €                            311,36 €                             286,49 €\n2 Kinder unter 18 J.              224,53 €                            233,51 €                             214,86 €\n3 Kinder unter 18 J.              149,69 €                            155,67 €                             143,24 €\n4 Kinder unter 18 J.               59,88 €                             62,27 €                              57,30 €",
+        "evidence": {
+          "source_id": "dbe696bf2305",
+          "locator": "PDF-/Textseite 1, Absatzblock 4",
+          "original": null
+        }
+      },
+      {
+        "text": "Kinder unter 3          Betreuung 30 Stunden/Woche          Betreuung 30 Stunden/Woche           Betreuung 30 Stunden/Woche\nJahre                              (VÖ)                                (VÖ)                                 (VÖ)\n                               Ab 01.09.2026                       Ab 01.09.2027                   Bisherige Beitragssätze\n1 Kind unter 18 J.                  374,83 €                            389,82 €                            358,69 €\n2 Kinder unter 18 J.                281,12 €                            292,36 €                            269,01 €\n3 Kinder unter 18 J.                187,42 €                            194,92 €                            179,35 €\n4 Kinder unter 18 J.                 74,97 €                             77,97 €                             71,74 €",
+        "evidence": {
+          "source_id": "dbe696bf2305",
+          "locator": "PDF-/Textseite 1, Absatzblock 5",
+          "original": null
+        }
+      },
+      {
+        "text": "Kinder unter 3          Betreuung 35 Stunden/Woche          Betreuung 35 Stunden/Woche           Betreuung 35 Stunden/Woche\nJahre                             (VÖ XL)                             (VÖ XL)                              (VÖ XL)\n                               Ab 01.09.2026                       Ab 01.09.2027                   Bisherige Beitragssätze\n1 Kind unter 18 J.                  450,29 €                            468,30 €                            430,90 €\n2 Kinder unter 18 J.                337,71 €                            351,22 €                            323,17 €\n3 Kinder unter 18 J.                225,15 €                            234,15 €                            215,45 €\n4 Kinder unter 18 J.                 90,06 €                             93,66 €                             86,18 €",
+        "evidence": {
+          "source_id": "dbe696bf2305",
+          "locator": "PDF-/Textseite 1, Absatzblock 6",
+          "original": null
+        }
+      },
+      {
+        "text": "Bei dem Betreuungsmodell „VÖ XL“ sowie im Bereich der Ganztagesbetreuung ist zusätzlich ein warmes Mittagessen zu buchen. Das Essensgeld ist\nzusätzlich zum Elternbeitrag zu entrichten und bemisst sich nach Ziffer V. dieser Übersicht.",
+        "evidence": {
+          "source_id": "dbe696bf2305",
+          "locator": "PDF-/Textseite 2, Absatzblock 2",
+          "original": null
+        }
+      },
+      {
+        "text": "Kinder über 3          Betreuung 25 Stunden/Woche        Betreuung 25 Stunden/Woche           Betreuung 25 Stunden/Woche\nJahren                             (HT)                              (HT)                                 (HT)\n                              Ab 01.09.2026                     Ab 01.09.2027                   Bisherige Beitragssätze\n1 Kind unter 18 J.               117,52 €                          122,22 €                             112,46 €\n2 Kinder unter 18 J.              88,14 €                           91,66 €                             84,34 €\n3 Kinder unter 18 J.              58,76 €                           61,11 €                             56,23 €\n4 Kinder unter 18 J.              23,51 €                           24,45 €                             22,50 €",
+        "evidence": {
+          "source_id": "dbe696bf2305",
+          "locator": "PDF-/Textseite 2, Absatzblock 3",
+          "original": null
+        }
+      },
+      {
+        "text": "Kinder über 3          Betreuung 30 Stunden/Woche         Betreuung 30 Stunden/Woche          Betreuung 30 Stunden/Woche\nJahren                            (VÖ)                               (VÖ)                                (VÖ)\n                              Ab 01.09.2026                      Ab 01.09.2027                  Bisherige Beitragssätze",
+        "evidence": {
+          "source_id": "dbe696bf2305",
+          "locator": "PDF-/Textseite 2, Absatzblock 4",
+          "original": null
+        }
+      },
+      {
+        "text": "Kinder über 3          Betreuung 35 Stunden/Woche         Betreuung 35 Stunden/Woche          Betreuung 35 Stunden/Woche\nJahren                           (VÖ XL)                            (VÖ XL)                             (VÖ XL)\n                              Ab 01.09.2026                      Ab 01.09.2027                  Bisherige Beitragssätze",
+        "evidence": {
+          "source_id": "dbe696bf2305",
+          "locator": "PDF-/Textseite 2, Absatzblock 6",
+          "original": null
+        }
+      },
+      {
+        "text": "Kinder über 3          Betreuung 40,5 Stunden/Woche       Betreuung 40,5 Stunden/Woche          Betreuung 40,5 Stunden/Woche\nJahren                       (GT 3 Nachmittage)                 (GT 3 Nachmittage)                    (GT 3 Nachmittage)\n                               Ab 01.09.2026                      Ab 01.09.2027                     Bisherige Beitragssätze",
+        "evidence": {
+          "source_id": "dbe696bf2305",
+          "locator": "PDF-/Textseite 3, Absatzblock 1",
+          "original": null
+        }
+      },
+      {
+        "text": "Kinder über 3          Betreuung 44,5 Stunden/Woche       Betreuung 44,5 Stunden/Woche          Betreuung 44,5 Stunden/Woche\nJahren                       (GT 4 Nachmittage)                 (GT 4 Nachmittage)                    (GT 4 Nachmittage)\n                               Ab 01.09.2026                      Ab 01.09.2027                     Bisherige Beitragssätze",
+        "evidence": {
+          "source_id": "dbe696bf2305",
+          "locator": "PDF-/Textseite 3, Absatzblock 3",
+          "original": null
+        }
+      },
+      {
+        "text": "Bei der Betreuung im Rahmen der verlässlichen Grundschule (Modelle A und B) ist keine Mittagsverpflegung integriert. Bei den Modellen mit flexibler\nNachmittagsbetreuung ist zusätzlich ein warmes Mittagessen zu buchen. Das Essensgeld ist zusätzlich zum Elternbeitrag zu entrichten und bemisst sich nach\nZiffer V. dieser Übersicht.",
+        "evidence": {
+          "source_id": "dbe696bf2305",
+          "locator": "PDF-/Textseite 3, Absatzblock 6",
+          "original": null
+        }
+      },
+      {
+        "text": "Modell A                             Verlässliche Grundschule\n                                           3 Tage/Woche\n                       Ab 01.09.2026    Ab 01.09.2027        Bisherige\n                                                           Beitragssätze\n1 Kind unter 18 J.        49,05 €           51,01 €           46,94 €\n2 Kinder unter 18 J.      36,79 €           38,27 €           35,21 €\n3 Kinder unter 18 J.      24,54 €           25,52 €           23,48 €\n4 Kinder unter 18 J.       9,81 €           10,21 €            9,39 €",
+        "evidence": {
+          "source_id": "dbe696bf2305",
+          "locator": "PDF-/Textseite 3, Absatzblock 7",
+          "original": null
+        }
+      },
+      {
+        "text": "Modell B                             Verlässliche Grundschule\n                                           5 Tage/Woche\n                       Ab 01.09.2026    Ab 01.09.2027        Bisherige\n                                                           Beitragssätze\n1 Kind unter 18 J.        74,73 €           77,72 €           71,51 €\n2 Kinder unter 18 J.      56,05 €           58,30 €           53,64 €\n3 Kinder unter 18 J.      37,37 €           38,86 €           35,76 €\n4 Kinder unter 18 J.      14,94 €           15,54 €           14,30 €",
+        "evidence": {
+          "source_id": "dbe696bf2305",
+          "locator": "PDF-/Textseite 4, Absatzblock 1",
+          "original": null
+        }
+      },
+      {
+        "text": "Modell A + Flex.       Flex. Nachmittagsbetreuung an     Flex. Nachmittagsbetreuung an   Flex. Nachmittagsbetreuung an\nNachmittagsbetreu              2 Nachmittagen                    2 Nachmittagen                  2 Nachmittagen\nung bis 14 Uhr\n                               Ab 01.09.2026                     Ab 01.09.2027              Bisherige Beitragssätze",
+        "evidence": {
+          "source_id": "dbe696bf2305",
+          "locator": "PDF-/Textseite 4, Absatzblock 2",
+          "original": null
+        }
+      },
+      {
+        "text": "Modell A + Flex.       Flex. Nachmittagsbetreuung an     Flex. Nachmittagsbetreuung an   Flex. Nachmittagsbetreuung an\nNachmittagsbetreu              3 Nachmittagen                    3 Nachmittagen                  3 Nachmittagen\nung bis 14 Uhr\n                               Ab 01.09.2026                     Ab 01.09.2027              Bisherige Beitragssätze",
+        "evidence": {
+          "source_id": "dbe696bf2305",
+          "locator": "PDF-/Textseite 4, Absatzblock 4",
+          "original": null
+        }
+      },
+      {
+        "text": "Modell A + Flex.       Flex. Nachmittagsbetreuung an     Flex. Nachmittagsbetreuung an   Flex. Nachmittagsbetreuung an\nNachmittagsbetreu              2 Nachmittagen                    2 Nachmittagen                  2 Nachmittagen\nung bis 16.30 Uhr\n                               Ab 01.09.2026                     Ab 01.09.2027              Bisherige Beitragssätze",
+        "evidence": {
+          "source_id": "dbe696bf2305",
+          "locator": "PDF-/Textseite 4, Absatzblock 6",
+          "original": null
+        }
+      },
+      {
+        "text": "Modell A + Flex.       Flex. Nachmittagsbetreuung an   Flex. Nachmittagsbetreuung an   Flex. Nachmittagsbetreuung an\nNachmittagsbetreu              3 Nachmittagen                  3 Nachmittagen                  3 Nachmittagen\nung bis 16.30 Uhr\n                               Ab 01.09.2026                   Ab 01.09.2027              Bisherige Beitragssätze",
+        "evidence": {
+          "source_id": "dbe696bf2305",
+          "locator": "PDF-/Textseite 5, Absatzblock 1",
+          "original": null
+        }
+      },
+      {
+        "text": "Modell B + Flex.       Flex. Nachmittagsbetreuung an   Flex. Nachmittagsbetreuung an   Flex. Nachmittagsbetreuung an\nNachmittagsbetreu              3 Nachmittagen                  3 Nachmittagen                  3 Nachmittagen\nung bis 14 Uhr\n                               Ab 01.09.2026                   Ab 01.09.2027              Bisherige Beitragssätze",
+        "evidence": {
+          "source_id": "dbe696bf2305",
+          "locator": "PDF-/Textseite 5, Absatzblock 3",
+          "original": null
+        }
+      },
+      {
+        "text": "Modell B + Flex.       Flex. Nachmittagsbetreuung an   Flex. Nachmittagsbetreuung an   Flex. Nachmittagsbetreuung an\nNachmittagsbetreu              4 Nachmittagen                  4 Nachmittagen                  4 Nachmittagen\nung bis 14 Uhr\n                               Ab 01.09.2026                   Ab 01.09.2027              Bisherige Beitragssätze",
+        "evidence": {
+          "source_id": "dbe696bf2305",
+          "locator": "PDF-/Textseite 5, Absatzblock 5",
+          "original": null
+        }
+      },
+      {
+        "text": "Modell B + Flex.       Flex. Nachmittagsbetreuung an        Flex. Nachmittagsbetreuung an         Flex. Nachmittagsbetreuung an\nNachmittagsbetreu              3 Nachmittagen                       3 Nachmittagen                        3 Nachmittagen\nung bis 16.30 Uhr\n                                Ab 01.09.2026                        Ab 01.09.2027                    Bisherige Beitragssätze",
+        "evidence": {
+          "source_id": "dbe696bf2305",
+          "locator": "PDF-/Textseite 6, Absatzblock 1",
+          "original": null
+        }
+      },
+      {
+        "text": "Modell B + Flex.       Flex. Nachmittagsbetreuung an        Flex. Nachmittagsbetreuung an         Flex. Nachmittagsbetreuung an\nNachmittagsbetreu              4 Nachmittagen                       4 Nachmittagen                        4 Nachmittagen\nung bis 16.30 Uhr\n                                Ab 01.09.2026                        Ab 01.09.2027                    Bisherige Beitragssätze",
+        "evidence": {
+          "source_id": "dbe696bf2305",
+          "locator": "PDF-/Textseite 6, Absatzblock 3",
+          "original": null
+        }
+      },
+      {
+        "text": "Kinder, welche die Ganztagesschule in Wahlform regulär besuchen, haben auch weiterhin die Möglichkeit einer ergänzenden Betreuung in der\nSchulkindbetreuung in den Randzeiten. Die Betreuung besteht aus einem Grundgerüst (3 bzw. 5 Vormittage/Woche) und kann ergänzend mit einer Betreuung\nam Nachmittag gebucht werden. Sofern das Kind an der Mittagsverpflegung teilnimmt, ist zusätzlich zum Elternbeitrag ein Essensgeld nach Ziffer V. dieser\nÜbersicht zu entrichten.",
+        "evidence": {
+          "source_id": "dbe696bf2305",
+          "locator": "PDF-/Textseite 6, Absatzblock 6",
+          "original": null
+        }
+      },
+      {
+        "text": "Für angemeldete Mittagessen wird zusätzlich zum Elternbeitrag im Bereich der Kinderkrippe (unabhängig vom jeweiligen Betreuungsmodell) sowie im Bereich\nder „VÖ XL“-Betreuung und bei der Ganztagesbetreuung/flexiblen Nachmittagsbetreuung ein pauschales monatliches Entgelt in Rechnung gestellt. In\nKlammern finden Sie die bisherigen Beitragssätze.",
+        "evidence": {
+          "source_id": "dbe696bf2305",
+          "locator": "PDF-/Textseite 9, Absatzblock 5",
+          "original": null
+        }
+      },
+      {
+        "text": "Der Elternbeitrag ist grundsätzlich auf 12 Monate ausgelegt, da er eine Beteiligung an den gesamten Betriebskosten der Einrichtung darstellt und daher auch\nwährend der Ferien und für Zeiten zu entrichten ist, in denen die Einrichtungen aus besonderem Anlass geschlossen sind. Besucht ein Kind die Einrichtung\nwährend Krankheit längere Zeit nicht, so wird auf Antrag und Nachweis ab der Fehlzeit von vier Wochen ein Monatsbeitrag erstattet.\nDie Kosten für die Mittagsverpflegung werden auf Antrag ab einer Fehlzeit von einer Woche erstattet, sofern die Abmeldung spätestens drei Tage vorher\nerfolgt. Dies gilt auch bei Fehlzeiten aus anderen Gründen als Krankheit.",
+        "evidence": {
+          "source_id": "dbe696bf2305",
+          "locator": "PDF-/Textseite 10, Absatzblock 5",
+          "original": null
+        }
+      },
+      {
+        "text": "Beitrag für den Aufnahmemonat bei Aufnahme während eines Monats",
+        "evidence": {
+          "source_id": "dbe696bf2305",
+          "locator": "PDF-/Textseite 10, Absatzblock 6",
+          "original": null
+        }
+      },
+      {
+        "text": "Wird ein Kind vor dem 15. eines Monats aufgenommen, fällt der vollständige Monatsbeitrag an. Wird ein Kind ab dem 15. eines Monats aufgenommen,\nreduziert sich der Monatsbeitrag um 50 %. Ein Anspruch auf Aufnahme an einem bestimmten Tag besteht nicht. Die Aufnahme erfolgt in Abstimmung\nzwischen Träger, Einrichtungsleitung sowie Eltern.",
+        "evidence": {
+          "source_id": "dbe696bf2305",
+          "locator": "PDF-/Textseite 10, Absatzblock 7",
+          "original": null
+        }
+      }
+    ]
+  }
+}

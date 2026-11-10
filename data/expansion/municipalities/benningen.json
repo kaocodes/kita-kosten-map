@@ -1,0 +1,1699 @@
+{
+  "schema_version": "1.0",
+  "id": "benningen",
+  "name": "Benningen am Neckar",
+  "reviewed_at": "2026-11-10",
+  "reference_date": "2026-11-10",
+  "scope": {
+    "included": [
+      "municipal"
+    ],
+    "other_providers": "only_with_explicit_source_evidence"
+  },
+  "family_basis": "resident_children",
+  "family_evidence": {
+    "source_id": "e12b8b803da5",
+    "locator": "Familienbegriff und Fußnoten der Gebührenunterlagen",
+    "original": null
+  },
+  "supporting_source_ids": [
+    "e12b8b803da5",
+    "bd4dc531ae2b"
+  ],
+  "offers": [
+    {
+      "id": "benningen-offer-0aa4fd9a3ad1",
+      "original_label": "Ab 3. Geburtstag: VÖ",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": "2027-08-31",
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": null,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "e12b8b803da5",
+        "locator": "Elternbeiträge 2026/2027; Zeile der Altersgruppe",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "e12b8b803da5",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "e12b8b803da5",
+        "locator": "Elternbeiträge 2026/2027; Zeile der Altersgruppe",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "benningen-offer-e5f11d2c6e26",
+      "original_label": "Ab 3. Geburtstag: GT fünf Tage",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": "2027-08-31",
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2730,
+      "weekday_minutes": [
+        570,
+        570,
+        570,
+        570,
+        450
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "e12b8b803da5",
+        "locator": "Elternbeiträge 2026/2027; Zeile der Altersgruppe",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "e12b8b803da5",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "e12b8b803da5",
+        "locator": "Elternbeiträge 2026/2027; Zeile der Altersgruppe",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "benningen-offer-7bc121d4f63d",
+      "original_label": "Ab 3. Geburtstag: GT drei Tage",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": "2027-08-31",
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": null,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "e12b8b803da5",
+        "locator": "Elternbeiträge 2026/2027; Zeile der Altersgruppe",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "e12b8b803da5",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "e12b8b803da5",
+        "locator": "Elternbeiträge 2026/2027; Zeile der Altersgruppe",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "benningen-offer-4fad29953783",
+      "original_label": "Ab 2. Geburtstag: VÖ",
+      "age_group": "u3",
+      "age_min_months": 24,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": "2027-08-31",
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": null,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "e12b8b803da5",
+        "locator": "Elternbeiträge 2026/2027; Zeile der Altersgruppe",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "e12b8b803da5",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "e12b8b803da5",
+        "locator": "Elternbeiträge 2026/2027; Zeile der Altersgruppe",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "benningen-offer-6dc861f19add",
+      "original_label": "Ab 2. Geburtstag: GT fünf Tage",
+      "age_group": "u3",
+      "age_min_months": 24,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": "2027-08-31",
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2730,
+      "weekday_minutes": [
+        570,
+        570,
+        570,
+        570,
+        450
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "e12b8b803da5",
+        "locator": "Elternbeiträge 2026/2027; Zeile der Altersgruppe",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "e12b8b803da5",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "e12b8b803da5",
+        "locator": "Elternbeiträge 2026/2027; Zeile der Altersgruppe",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "benningen-offer-2a2c5de75e5f",
+      "original_label": "Ab 2. Geburtstag: GT drei Tage",
+      "age_group": "u3",
+      "age_min_months": 24,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": "2027-08-31",
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": null,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "e12b8b803da5",
+        "locator": "Elternbeiträge 2026/2027; Zeile der Altersgruppe",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "e12b8b803da5",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "e12b8b803da5",
+        "locator": "Elternbeiträge 2026/2027; Zeile der Altersgruppe",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "benningen-offer-eeef3f39aa9a",
+      "original_label": "Ab 1. Geburtstag: VÖ",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 24,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": "2027-08-31",
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": null,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "e12b8b803da5",
+        "locator": "Elternbeiträge 2026/2027; Zeile der Altersgruppe",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "e12b8b803da5",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "e12b8b803da5",
+        "locator": "Elternbeiträge 2026/2027; Zeile der Altersgruppe",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "benningen-offer-5ef849f30d03",
+      "original_label": "Ab 1. Geburtstag: GT fünf Tage",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 24,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": "2027-08-31",
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2730,
+      "weekday_minutes": [
+        570,
+        570,
+        570,
+        570,
+        450
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "e12b8b803da5",
+        "locator": "Elternbeiträge 2026/2027; Zeile der Altersgruppe",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "e12b8b803da5",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "e12b8b803da5",
+        "locator": "Elternbeiträge 2026/2027; Zeile der Altersgruppe",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "benningen-offer-d057f4745c13",
+      "original_label": "Ab 1. Geburtstag: GT drei Tage",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 24,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": "2027-08-31",
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": null,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "e12b8b803da5",
+        "locator": "Elternbeiträge 2026/2027; Zeile der Altersgruppe",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "e12b8b803da5",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "e12b8b803da5",
+        "locator": "Elternbeiträge 2026/2027; Zeile der Altersgruppe",
+        "original": null
+      },
+      "formula": null
+    }
+  ],
+  "prices": [
+    {
+      "id": "benningen-price-4a82639ac4d5",
+      "offer_id": "benningen-offer-0aa4fd9a3ad1",
+      "amount_cents": 21700,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "e12b8b803da5",
+        "locator": "Elternbeiträge 2026/2027; Zeile der Altersgruppe",
+        "original": 217
+      }
+    },
+    {
+      "id": "benningen-price-1d9bc9d112dc",
+      "offer_id": "benningen-offer-0aa4fd9a3ad1",
+      "amount_cents": 16900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "e12b8b803da5",
+        "locator": "Elternbeiträge 2026/2027; Zeile der Altersgruppe",
+        "original": 169
+      }
+    },
+    {
+      "id": "benningen-price-781aafe20bbc",
+      "offer_id": "benningen-offer-0aa4fd9a3ad1",
+      "amount_cents": 11500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "e12b8b803da5",
+        "locator": "Elternbeiträge 2026/2027; Zeile der Altersgruppe",
+        "original": 115
+      }
+    },
+    {
+      "id": "benningen-price-01617b57060d",
+      "offer_id": "benningen-offer-0aa4fd9a3ad1",
+      "amount_cents": 3800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "e12b8b803da5",
+        "locator": "Elternbeiträge 2026/2027; Zeile der Altersgruppe",
+        "original": 38
+      }
+    },
+    {
+      "id": "benningen-price-97cc5c1344a1",
+      "offer_id": "benningen-offer-e5f11d2c6e26",
+      "amount_cents": 41700,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "e12b8b803da5",
+        "locator": "Elternbeiträge 2026/2027; Zeile der Altersgruppe",
+        "original": 417
+      }
+    },
+    {
+      "id": "benningen-price-3d56df9bde6f",
+      "offer_id": "benningen-offer-e5f11d2c6e26",
+      "amount_cents": 32500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "e12b8b803da5",
+        "locator": "Elternbeiträge 2026/2027; Zeile der Altersgruppe",
+        "original": 325
+      }
+    },
+    {
+      "id": "benningen-price-19a719c7d1fd",
+      "offer_id": "benningen-offer-e5f11d2c6e26",
+      "amount_cents": 22100,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "e12b8b803da5",
+        "locator": "Elternbeiträge 2026/2027; Zeile der Altersgruppe",
+        "original": 221
+      }
+    },
+    {
+      "id": "benningen-price-81ded3d09e48",
+      "offer_id": "benningen-offer-e5f11d2c6e26",
+      "amount_cents": 7300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "e12b8b803da5",
+        "locator": "Elternbeiträge 2026/2027; Zeile der Altersgruppe",
+        "original": 73
+      }
+    },
+    {
+      "id": "benningen-price-2ca36238a44b",
+      "offer_id": "benningen-offer-7bc121d4f63d",
+      "amount_cents": 35600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "e12b8b803da5",
+        "locator": "Elternbeiträge 2026/2027; Zeile der Altersgruppe",
+        "original": 356
+      }
+    },
+    {
+      "id": "benningen-price-fc594553ff17",
+      "offer_id": "benningen-offer-7bc121d4f63d",
+      "amount_cents": 27700,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "e12b8b803da5",
+        "locator": "Elternbeiträge 2026/2027; Zeile der Altersgruppe",
+        "original": 277
+      }
+    },
+    {
+      "id": "benningen-price-401d7d7f3ee4",
+      "offer_id": "benningen-offer-7bc121d4f63d",
+      "amount_cents": 18900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "e12b8b803da5",
+        "locator": "Elternbeiträge 2026/2027; Zeile der Altersgruppe",
+        "original": 189
+      }
+    },
+    {
+      "id": "benningen-price-80525f7f5fd2",
+      "offer_id": "benningen-offer-7bc121d4f63d",
+      "amount_cents": 6200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "e12b8b803da5",
+        "locator": "Elternbeiträge 2026/2027; Zeile der Altersgruppe",
+        "original": 62
+      }
+    },
+    {
+      "id": "benningen-price-5bdb77d87c52",
+      "offer_id": "benningen-offer-4fad29953783",
+      "amount_cents": 43400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "e12b8b803da5",
+        "locator": "Elternbeiträge 2026/2027; Zeile der Altersgruppe",
+        "original": 434
+      }
+    },
+    {
+      "id": "benningen-price-d5323d8405f7",
+      "offer_id": "benningen-offer-4fad29953783",
+      "amount_cents": 33800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "e12b8b803da5",
+        "locator": "Elternbeiträge 2026/2027; Zeile der Altersgruppe",
+        "original": 338
+      }
+    },
+    {
+      "id": "benningen-price-b2dd43820bc3",
+      "offer_id": "benningen-offer-4fad29953783",
+      "amount_cents": 23000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "e12b8b803da5",
+        "locator": "Elternbeiträge 2026/2027; Zeile der Altersgruppe",
+        "original": 230
+      }
+    },
+    {
+      "id": "benningen-price-653d02873f08",
+      "offer_id": "benningen-offer-4fad29953783",
+      "amount_cents": 7600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "e12b8b803da5",
+        "locator": "Elternbeiträge 2026/2027; Zeile der Altersgruppe",
+        "original": 76
+      }
+    },
+    {
+      "id": "benningen-price-eadfe499e737",
+      "offer_id": "benningen-offer-6dc861f19add",
+      "amount_cents": 83400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "e12b8b803da5",
+        "locator": "Elternbeiträge 2026/2027; Zeile der Altersgruppe",
+        "original": 834
+      }
+    },
+    {
+      "id": "benningen-price-c02dfb3eb3e3",
+      "offer_id": "benningen-offer-6dc861f19add",
+      "amount_cents": 65000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "e12b8b803da5",
+        "locator": "Elternbeiträge 2026/2027; Zeile der Altersgruppe",
+        "original": 650
+      }
+    },
+    {
+      "id": "benningen-price-e4ac153173b2",
+      "offer_id": "benningen-offer-6dc861f19add",
+      "amount_cents": 44200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "e12b8b803da5",
+        "locator": "Elternbeiträge 2026/2027; Zeile der Altersgruppe",
+        "original": 442
+      }
+    },
+    {
+      "id": "benningen-price-d865a3d0143c",
+      "offer_id": "benningen-offer-6dc861f19add",
+      "amount_cents": 14600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "e12b8b803da5",
+        "locator": "Elternbeiträge 2026/2027; Zeile der Altersgruppe",
+        "original": 146
+      }
+    },
+    {
+      "id": "benningen-price-69ea37ce211e",
+      "offer_id": "benningen-offer-2a2c5de75e5f",
+      "amount_cents": 71200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "e12b8b803da5",
+        "locator": "Elternbeiträge 2026/2027; Zeile der Altersgruppe",
+        "original": 712
+      }
+    },
+    {
+      "id": "benningen-price-80e6fec9c1bb",
+      "offer_id": "benningen-offer-2a2c5de75e5f",
+      "amount_cents": 55400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "e12b8b803da5",
+        "locator": "Elternbeiträge 2026/2027; Zeile der Altersgruppe",
+        "original": 554
+      }
+    },
+    {
+      "id": "benningen-price-e36a261e4108",
+      "offer_id": "benningen-offer-2a2c5de75e5f",
+      "amount_cents": 37800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "e12b8b803da5",
+        "locator": "Elternbeiträge 2026/2027; Zeile der Altersgruppe",
+        "original": 378
+      }
+    },
+    {
+      "id": "benningen-price-5ecd16195849",
+      "offer_id": "benningen-offer-2a2c5de75e5f",
+      "amount_cents": 12400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "e12b8b803da5",
+        "locator": "Elternbeiträge 2026/2027; Zeile der Altersgruppe",
+        "original": 124
+      }
+    },
+    {
+      "id": "benningen-price-6a089787945d",
+      "offer_id": "benningen-offer-eeef3f39aa9a",
+      "amount_cents": 58200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "e12b8b803da5",
+        "locator": "Elternbeiträge 2026/2027; Zeile der Altersgruppe",
+        "original": 582
+      }
+    },
+    {
+      "id": "benningen-price-0eb45f9a31e5",
+      "offer_id": "benningen-offer-eeef3f39aa9a",
+      "amount_cents": 43200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "e12b8b803da5",
+        "locator": "Elternbeiträge 2026/2027; Zeile der Altersgruppe",
+        "original": 432
+      }
+    },
+    {
+      "id": "benningen-price-83c2ad14768e",
+      "offer_id": "benningen-offer-eeef3f39aa9a",
+      "amount_cents": 29100,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "e12b8b803da5",
+        "locator": "Elternbeiträge 2026/2027; Zeile der Altersgruppe",
+        "original": 291
+      }
+    },
+    {
+      "id": "benningen-price-651cc2597fdc",
+      "offer_id": "benningen-offer-eeef3f39aa9a",
+      "amount_cents": 11500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "e12b8b803da5",
+        "locator": "Elternbeiträge 2026/2027; Zeile der Altersgruppe",
+        "original": 115
+      }
+    },
+    {
+      "id": "benningen-price-b5424536a533",
+      "offer_id": "benningen-offer-5ef849f30d03",
+      "amount_cents": 89500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "e12b8b803da5",
+        "locator": "Elternbeiträge 2026/2027; Zeile der Altersgruppe",
+        "original": 895
+      }
+    },
+    {
+      "id": "benningen-price-1a875be785a7",
+      "offer_id": "benningen-offer-5ef849f30d03",
+      "amount_cents": 66500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "e12b8b803da5",
+        "locator": "Elternbeiträge 2026/2027; Zeile der Altersgruppe",
+        "original": 665
+      }
+    },
+    {
+      "id": "benningen-price-87094bd208da",
+      "offer_id": "benningen-offer-5ef849f30d03",
+      "amount_cents": 44800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "e12b8b803da5",
+        "locator": "Elternbeiträge 2026/2027; Zeile der Altersgruppe",
+        "original": 448
+      }
+    },
+    {
+      "id": "benningen-price-08662c00eed5",
+      "offer_id": "benningen-offer-5ef849f30d03",
+      "amount_cents": 17700,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "e12b8b803da5",
+        "locator": "Elternbeiträge 2026/2027; Zeile der Altersgruppe",
+        "original": 177
+      }
+    },
+    {
+      "id": "benningen-price-1ab7c5c87a34",
+      "offer_id": "benningen-offer-d057f4745c13",
+      "amount_cents": null,
+      "unit": "per_month",
+      "value_status": "not_offered",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "e12b8b803da5",
+        "locator": "Elternbeiträge 2026/2027; Zeile der Altersgruppe",
+        "original": null
+      }
+    },
+    {
+      "id": "benningen-price-27d334b1c843",
+      "offer_id": "benningen-offer-d057f4745c13",
+      "amount_cents": null,
+      "unit": "per_month",
+      "value_status": "not_offered",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "e12b8b803da5",
+        "locator": "Elternbeiträge 2026/2027; Zeile der Altersgruppe",
+        "original": null
+      }
+    },
+    {
+      "id": "benningen-price-4b5834f51a3b",
+      "offer_id": "benningen-offer-d057f4745c13",
+      "amount_cents": null,
+      "unit": "per_month",
+      "value_status": "not_offered",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "e12b8b803da5",
+        "locator": "Elternbeiträge 2026/2027; Zeile der Altersgruppe",
+        "original": null
+      }
+    },
+    {
+      "id": "benningen-price-2df201f61ef1",
+      "offer_id": "benningen-offer-d057f4745c13",
+      "amount_cents": null,
+      "unit": "per_month",
+      "value_status": "not_offered",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "e12b8b803da5",
+        "locator": "Elternbeiträge 2026/2027; Zeile der Altersgruppe",
+        "original": null
+      }
+    }
+  ],
+  "income_bands": [],
+  "components": [
+    {
+      "id": "benningen-component-80398391cf79",
+      "kind": "meal",
+      "original_label": "Mittagessen ab zwei Jahren, 1 Tage",
+      "amount_cents": 1300,
+      "unit": "per_month",
+      "age_group": null,
+      "required": null,
+      "payment_months": null,
+      "offer_ids": null,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "e12b8b803da5",
+        "locator": "Mittagessen neben den Altersgruppentabellen",
+        "original": null
+      },
+      "days_per_week": 1
+    },
+    {
+      "id": "benningen-component-9559e968b245",
+      "kind": "meal",
+      "original_label": "Mittagessen ab zwei Jahren, 2 Tage",
+      "amount_cents": 2500,
+      "unit": "per_month",
+      "age_group": null,
+      "required": null,
+      "payment_months": null,
+      "offer_ids": null,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "e12b8b803da5",
+        "locator": "Mittagessen neben den Altersgruppentabellen",
+        "original": null
+      },
+      "days_per_week": 2
+    },
+    {
+      "id": "benningen-component-44e1e1ec95f4",
+      "kind": "meal",
+      "original_label": "Mittagessen ab zwei Jahren, 3 Tage",
+      "amount_cents": 3700,
+      "unit": "per_month",
+      "age_group": null,
+      "required": null,
+      "payment_months": null,
+      "offer_ids": null,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "e12b8b803da5",
+        "locator": "Mittagessen neben den Altersgruppentabellen",
+        "original": null
+      },
+      "days_per_week": 3
+    },
+    {
+      "id": "benningen-component-9b49d4516fa0",
+      "kind": "meal",
+      "original_label": "Mittagessen ab zwei Jahren, 4 Tage",
+      "amount_cents": 4800,
+      "unit": "per_month",
+      "age_group": null,
+      "required": null,
+      "payment_months": null,
+      "offer_ids": null,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "e12b8b803da5",
+        "locator": "Mittagessen neben den Altersgruppentabellen",
+        "original": null
+      },
+      "days_per_week": 4
+    },
+    {
+      "id": "benningen-component-d8e74ace8680",
+      "kind": "meal",
+      "original_label": "Mittagessen ab zwei Jahren, 5 Tage",
+      "amount_cents": 6100,
+      "unit": "per_month",
+      "age_group": null,
+      "required": null,
+      "payment_months": null,
+      "offer_ids": null,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "e12b8b803da5",
+        "locator": "Mittagessen neben den Altersgruppentabellen",
+        "original": null
+      },
+      "days_per_week": 5
+    },
+    {
+      "id": "benningen-component-dc5fb8c5cd7b",
+      "kind": "meal",
+      "original_label": "Mittagessen ab einem Jahr, 1 Tage",
+      "amount_cents": 600,
+      "unit": "per_month",
+      "age_group": null,
+      "required": null,
+      "payment_months": null,
+      "offer_ids": null,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "e12b8b803da5",
+        "locator": "Mittagessen neben den Altersgruppentabellen",
+        "original": null
+      },
+      "days_per_week": 1
+    },
+    {
+      "id": "benningen-component-39c07782f75e",
+      "kind": "meal",
+      "original_label": "Mittagessen ab einem Jahr, 2 Tage",
+      "amount_cents": 1400,
+      "unit": "per_month",
+      "age_group": null,
+      "required": null,
+      "payment_months": null,
+      "offer_ids": null,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "e12b8b803da5",
+        "locator": "Mittagessen neben den Altersgruppentabellen",
+        "original": null
+      },
+      "days_per_week": 2
+    },
+    {
+      "id": "benningen-component-86a9f6536c45",
+      "kind": "meal",
+      "original_label": "Mittagessen ab einem Jahr, 3 Tage",
+      "amount_cents": 2000,
+      "unit": "per_month",
+      "age_group": null,
+      "required": null,
+      "payment_months": null,
+      "offer_ids": null,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "e12b8b803da5",
+        "locator": "Mittagessen neben den Altersgruppentabellen",
+        "original": null
+      },
+      "days_per_week": 3
+    },
+    {
+      "id": "benningen-component-e00528afb75e",
+      "kind": "meal",
+      "original_label": "Mittagessen ab einem Jahr, 4 Tage",
+      "amount_cents": 2700,
+      "unit": "per_month",
+      "age_group": null,
+      "required": null,
+      "payment_months": null,
+      "offer_ids": null,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "e12b8b803da5",
+        "locator": "Mittagessen neben den Altersgruppentabellen",
+        "original": null
+      },
+      "days_per_week": 4
+    },
+    {
+      "id": "benningen-component-f2f168c9eb6c",
+      "kind": "meal",
+      "original_label": "Mittagessen ab einem Jahr, 5 Tage",
+      "amount_cents": 3300,
+      "unit": "per_month",
+      "age_group": null,
+      "required": null,
+      "payment_months": null,
+      "offer_ids": null,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "e12b8b803da5",
+        "locator": "Mittagessen neben den Altersgruppentabellen",
+        "original": null
+      },
+      "days_per_week": 5
+    },
+    {
+      "id": "benningen-component-7f38d508403e",
+      "kind": "late_pickup",
+      "original_label": "Verspätetes Abholen ab drittem Verstoß",
+      "amount_cents": 5000,
+      "unit": "per_started_half_hour",
+      "age_group": null,
+      "required": false,
+      "payment_months": null,
+      "offer_ids": null,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "e12b8b803da5",
+        "locator": "Verpflegung / Zusatzkosten",
+        "original": null
+      }
+    }
+  ],
+  "rules": [
+    {
+      "id": "benningen-rule-ad24d9ad870e",
+      "kind": "conflicting_vo_hours",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "printed_daily_hours": "6,5",
+        "printed_opening_times": "7:00–14:30",
+        "resolved_daily_minutes": null
+      },
+      "evidence": {
+        "source_id": "e12b8b803da5",
+        "locator": "Fußzeile der Gebührentabelle",
+        "original": null
+      }
+    },
+    {
+      "id": "benningen-rule-a76bc1eebb82",
+      "kind": "source_provisions_e12b8b803da5",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "archive_text_path": "data/sources/e12b8b803da5/text.txt",
+        "text_sha256": "77eba1a99451b71406c03bae046768babbb60f288c7c019e71f3c1f9b7db5e08",
+        "review_status": "archived_provisions_preserved"
+      },
+      "evidence": {
+        "source_id": "e12b8b803da5",
+        "locator": "Vollständiger archivierter Dokumenttext einschließlich Fußnoten",
+        "original": null
+      }
+    },
+    {
+      "id": "benningen-rule-42022ffbec76",
+      "kind": "source_clause_e12b8b803da5_1_3",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 0,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "e12b8b803da5",
+        "locator": "PDF-/Textseite 1, Absatzblock 3",
+        "original": null
+      }
+    },
+    {
+      "id": "benningen-rule-6f91823d9287",
+      "kind": "source_provisions_bd4dc531ae2b",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "archive_text_path": "data/sources/bd4dc531ae2b/text.txt",
+        "text_sha256": "1c478a14ef2a16918e3695bf687f46505813706e986c0a2f8893ee48f8324369",
+        "review_status": "archived_provisions_preserved"
+      },
+      "evidence": {
+        "source_id": "bd4dc531ae2b",
+        "locator": "Vollständiger archivierter Dokumenttext einschließlich Fußnoten",
+        "original": null
+      }
+    },
+    {
+      "id": "benningen-rule-85d18e02dfb0",
+      "kind": "source_clause_bd4dc531ae2b_2_9",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 1,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "bd4dc531ae2b",
+        "locator": "PDF-/Textseite 2, Absatzblock 9",
+        "original": null
+      }
+    },
+    {
+      "id": "benningen-rule-969bb31902f7",
+      "kind": "source_clause_bd4dc531ae2b_2_10",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 2,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "bd4dc531ae2b",
+        "locator": "PDF-/Textseite 2, Absatzblock 10",
+        "original": null
+      }
+    },
+    {
+      "id": "benningen-rule-449d96a2faa7",
+      "kind": "source_clause_bd4dc531ae2b_3_3",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 3,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "bd4dc531ae2b",
+        "locator": "PDF-/Textseite 3, Absatzblock 3",
+        "original": null
+      }
+    },
+    {
+      "id": "benningen-rule-b4f648994893",
+      "kind": "source_clause_bd4dc531ae2b_3_9",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 4,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "bd4dc531ae2b",
+        "locator": "PDF-/Textseite 3, Absatzblock 9",
+        "original": null
+      }
+    },
+    {
+      "id": "benningen-rule-2a0b415a417a",
+      "kind": "source_clause_bd4dc531ae2b_3_10",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 5,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "bd4dc531ae2b",
+        "locator": "PDF-/Textseite 3, Absatzblock 10",
+        "original": null
+      }
+    },
+    {
+      "id": "benningen-rule-6a79331292f2",
+      "kind": "source_clause_bd4dc531ae2b_3_12",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 6,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "bd4dc531ae2b",
+        "locator": "PDF-/Textseite 3, Absatzblock 12",
+        "original": null
+      }
+    },
+    {
+      "id": "benningen-rule-31bd6fb88113",
+      "kind": "source_clause_bd4dc531ae2b_4_2",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 7,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "bd4dc531ae2b",
+        "locator": "PDF-/Textseite 4, Absatzblock 2",
+        "original": null
+      }
+    },
+    {
+      "id": "benningen-rule-14aeebb97c87",
+      "kind": "source_clause_bd4dc531ae2b_4_3",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 8,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "bd4dc531ae2b",
+        "locator": "PDF-/Textseite 4, Absatzblock 3",
+        "original": null
+      }
+    },
+    {
+      "id": "benningen-rule-7951846cf570",
+      "kind": "source_clause_bd4dc531ae2b_4_4",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 9,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "bd4dc531ae2b",
+        "locator": "PDF-/Textseite 4, Absatzblock 4",
+        "original": null
+      }
+    },
+    {
+      "id": "benningen-rule-ae8abb37ea46",
+      "kind": "source_clause_bd4dc531ae2b_4_5",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 10,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "bd4dc531ae2b",
+        "locator": "PDF-/Textseite 4, Absatzblock 5",
+        "original": null
+      }
+    },
+    {
+      "id": "benningen-rule-82c2164e535c",
+      "kind": "source_clause_bd4dc531ae2b_4_6",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 11,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "bd4dc531ae2b",
+        "locator": "PDF-/Textseite 4, Absatzblock 6",
+        "original": null
+      }
+    },
+    {
+      "id": "benningen-rule-50d061e021ce",
+      "kind": "source_clause_bd4dc531ae2b_4_7",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 12,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "bd4dc531ae2b",
+        "locator": "PDF-/Textseite 4, Absatzblock 7",
+        "original": null
+      }
+    },
+    {
+      "id": "benningen-rule-875238066569",
+      "kind": "source_clause_bd4dc531ae2b_4_8",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 13,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "bd4dc531ae2b",
+        "locator": "PDF-/Textseite 4, Absatzblock 8",
+        "original": null
+      }
+    }
+  ],
+  "issues": [
+    {
+      "code": "pending_calculation_review",
+      "detail": "Strukturierter Import; noch keine Freigabe des Rechners oder der Website."
+    },
+    {
+      "code": "research_limitation_1",
+      "detail": "Beschriftung nennt VÖ 6,5 Stunden, gedruckte Uhrzeiten ergeben 7,5 Stunden. Nicht stillschweigend korrigieren. Freitag ermöglicht nach dieser Quelle keine acht Stunden."
+    }
+  ],
+  "coverage": {
+    "publication_status": "not_active",
+    "integration_status": "normalized_pending_calculation_review",
+    "history_in_scope": false,
+    "source_register": "data/research/neighbor_expansion_2026-11-10.json",
+    "research_id": "benningen",
+    "unavailable_configurations": [],
+    "validity_basis": "published_school_year_2026_2027",
+    "validity_start_verification": "derived_school_year_start_not_independently_dated",
+    "offers": 9,
+    "price_cells": 36,
+    "income_bands": 0,
+    "components": 11,
+    "rule_records": 17,
+    "tariff_table_transcription": "complete_for_declared_scope",
+    "declared_scope": "Aktuelle und bereits veröffentlichte künftige Krippen- und Kindergartentarife; Zusatzkosten und Gebührenregeln.",
+    "excluded_from_regular_price_rows": [
+      "superseded_historical_tariffs",
+      "school_childcare",
+      "takki_and_childminding",
+      "separate_playgroups"
+    ],
+    "calculation_engine_changed": false,
+    "rule_transcription": "typed_parameters_and_source_clauses_with_explicit_unimplemented_status"
+  },
+  "original_research": {
+    "path": "data/research/neighbor_expansion_2026-11-10.json",
+    "section": "Benningen am Neckar",
+    "text": "Der Tarif unterscheidet den ersten vom zweiten Geburtstag. GT endet laut Tabelle freitags 14:30 bei Beginn 7 Uhr.\nBeschriftung nennt VÖ 6,5 Stunden, gedruckte Uhrzeiten ergeben 7,5 Stunden. Nicht stillschweigend korrigieren. Freitag ermöglicht nach dieser Quelle keine acht Stunden.",
+    "source_clauses": [
+      {
+        "text": "Die Beiträge werden an 11 Monaten im Jahr fällig.\nEs zählen nur im Haushalt lebende Kinder.\nAb 3. zu spätem Abholen im Kindergartenjahr in erheblichem Maße je angefangene 1/2 Stunde: 50 €",
+        "evidence": {
+          "source_id": "e12b8b803da5",
+          "locator": "PDF-/Textseite 1, Absatzblock 3",
+          "original": null
+        }
+      },
+      {
+        "text": "-   wenn das Kind die Einrichtung länger als vier Wochen unentschuldigt nicht mehr\n       besucht hat,\n   -   wenn die Eltern in dieser Ordnung aufgeführten Pflichten wiederholt nicht beachteten,\n   -   wenn der zu entrichtende Elternbeitrag für zwei aufeinanderfolgende Monate nicht\n       bezahlt wurde.\n   -   wenn das Verhalten des Kindes die Sicherheit der anderen Kinder und des\n       Betreuungspersonals der Einrichtung gefährdet.",
+        "evidence": {
+          "source_id": "bd4dc531ae2b",
+          "locator": "PDF-/Textseite 2, Absatzblock 9",
+          "original": null
+        }
+      },
+      {
+        "text": "(4) Eine Kündigung durch den Träger entbindet nicht von der Verpflichtung, die Beiträge für\n    vertraglich vereinbarte Leistungen zu entrichten.",
+        "evidence": {
+          "source_id": "bd4dc531ae2b",
+          "locator": "PDF-/Textseite 2, Absatzblock 10",
+          "original": null
+        }
+      },
+      {
+        "text": "(6) Die Kinder sind frühestens mit Beginn der Öffnung der Einrichtung, jedoch keinen Falls\n    vor der Öffnung zu bringen und pünktlich zum Ende der vereinbarten Betreuungszeit\n    abzuholen.\n(7) Werden Kinder regelmäßig zu spät abgeholt, wird eine zusätzliche Gebühr verlangt.\n    Näheres regelt die Gebührenübersicht des aktuellen Kindergartenjahres.",
+        "evidence": {
+          "source_id": "bd4dc531ae2b",
+          "locator": "PDF-/Textseite 3, Absatzblock 3",
+          "original": null
+        }
+      },
+      {
+        "text": "(1) Für den Besuch der Einrichtung wird ein Elternbeitrag für 11 Monate, erhoben. Der\n    Beitrag ist in der jeweils festgesetzten Höhe von Beginn des Monats an zu entrichten, in\n    dem das Kind in die Einrichtung aufgenommen wird. Er ist jeweils im Voraus bis zum 1.\n    des Monats zu zahlen. Es wird immer der volle Monatsbeitrag unabhängig vom\n    tatsächlichen Besuch berechnet.",
+        "evidence": {
+          "source_id": "bd4dc531ae2b",
+          "locator": "PDF-/Textseite 3, Absatzblock 9",
+          "original": null
+        }
+      },
+      {
+        "text": "(2) Die Elternbeiträge orientieren sich am „Landesrichtsatz“ der kommunalen\n    Spitzenverbände und der Kirchen. Ergänzend gelten folgende Beitragsregelungen:",
+        "evidence": {
+          "source_id": "bd4dc531ae2b",
+          "locator": "PDF-/Textseite 3, Absatzblock 10",
+          "original": null
+        }
+      },
+      {
+        "text": "Stichtag für den Wechsel in einen neuen altersorientierten Beitragsabschnitt ist der\n   Geburtstag des betroffenen Kindes. Das (dann) neu geltende Benutzungsentgelt wird\n   zum 1. des Folgemonats nach dem Geburtstag fällig.",
+        "evidence": {
+          "source_id": "bd4dc531ae2b",
+          "locator": "PDF-/Textseite 3, Absatzblock 12",
+          "original": null
+        }
+      },
+      {
+        "text": "(3) Das Betreuungsangebot umfasst ein warmes Mittagessen, für das ein zusätzlicher\n       Beitrag entrichtet werden muss. Dafür wird eine monatliche Pauschale entsprechend\n       der gebuchten Wochentage fällig. Die Kündigungsmodalitäten zu den Elternbeiträgen\n       gelten analog, wenn nicht weiteres geregelt ist. Eine Änderung der Betreuungsform\n       (VÖ/GT), der Anzahl der Betreuungstage, der Essenstage und eine Kündigung des\n       Essens ohne gleichzeitige Kündigung des Einrichtungsbesuchs ist nur zum 01.01.,\n       01.04., 01.07. und 01.10. eines jeden Jahres mit einer Frist von vier Wochen zum\n       Stichtag möglich. In Ausnahmefällen kann nach Rücksprache zwischen Träger und\n       Einrichtungsleitung nach Ermessen im Einzelfall entschieden werden. Eine Erstattung\n       des Essenbeitrags ist nur unter der Vorlage eines ärztlichen Attests bei einem Ausfall\n       von mehr als vier aufeinanderfolgenden Wochen möglich. Wird das warme\n       Mittagessen nicht benötigt, ist eine schriftliche Meldung beim Träger erforderlich. Eine\n       Rückerstattung der Essensbeiträge ist bei Vorliegen einer Meldung maximal für einen\n       Monat rückwirkend möglich.",
+        "evidence": {
+          "source_id": "bd4dc531ae2b",
+          "locator": "PDF-/Textseite 4, Absatzblock 2",
+          "original": null
+        }
+      },
+      {
+        "text": "(4) Beitragsreduzierungen können nur für im Haushalt lebende Kinder unter 18 Jahren\n       berücksichtigt werden. Eine Anpassung des monatlichen Beitrags erfolgt zum 01. des\n       Folgemonats nach Eintritt des Ereignisses (z.B. Geburt eines Kindes).",
+        "evidence": {
+          "source_id": "bd4dc531ae2b",
+          "locator": "PDF-/Textseite 4, Absatzblock 3",
+          "original": null
+        }
+      },
+      {
+        "text": "(5) Bei der Abmeldung eines Kindes ist der Elternbeitrag/das Essensgeld bis zum Ende\n       des Monats zu entrichten, in dem das Kind abgemeldet wurde.",
+        "evidence": {
+          "source_id": "bd4dc531ae2b",
+          "locator": "PDF-/Textseite 4, Absatzblock 4",
+          "original": null
+        }
+      },
+      {
+        "text": "(6) Der Elternbeitrag/das Essensgeld ist auch für die Ferien der Einrichtung und für\n       Zeiten, in denen die Einrichtung aus besonderem Anlass geschlossen ist, zu\n       entrichten. Der August ist dabei beitragsfrei.",
+        "evidence": {
+          "source_id": "bd4dc531ae2b",
+          "locator": "PDF-/Textseite 4, Absatzblock 5",
+          "original": null
+        }
+      },
+      {
+        "text": "(7) Wenn die Eingewöhnung in der Einrichtung zwischen dem ersten und dem 15. Tag\n       eines Monats beginnt, wird der volle Monatsbeitrag fällig. Für Eingewöhnungen, die\n       zwischen dem 16. und dem letzten Tag eines Monats beginnen, wird der halbe\n       Elternbeitrag fällig. Der Start der Eingewöhnung wird zwischen Einrichtungsleitung\n       und den Eltern festgelegt. Der Essensbeitrag wird im Folgemonat nach Beginn der\n       Eingewöhnung fällig. Sollte sich die Eingewöhnung auf Grund von Krankheit\n       verzögern, ist im Einzelfall zu entscheiden.",
+        "evidence": {
+          "source_id": "bd4dc531ae2b",
+          "locator": "PDF-/Textseite 4, Absatzblock 6",
+          "original": null
+        }
+      },
+      {
+        "text": "(8) Im Fall einer Notbetreuung aufgrund von Personalnotstand oder Betreuungsausfall\n       durch Streik des Einrichtungspersonals, besteht ein Recht auf Rückerstattung der\n       Hälfte des monatlichen Benutzungsentgelts, wenn die Betreuung an mehr als zehn\n       aufeinanderfolgenden Betreuungstagen nicht oder nicht vollumfänglich angeboten\n       werden kann. Beim Beitrag für das tägliche Mittagessen wird analog zum\n       Benutzungsentgelt verfahren.",
+        "evidence": {
+          "source_id": "bd4dc531ae2b",
+          "locator": "PDF-/Textseite 4, Absatzblock 7",
+          "original": null
+        }
+      },
+      {
+        "text": "(9) Bei medizinisch begründeten Abwesenheiten mit einer Dauer von vier Wochen\n       oder länger, ist nur Hälfte des monatlichen Benutzungsentgelts zu entrichten. Der\n       Beitrag für das tägliche Mittagessen entfällt in diesem Fall für die Dauer der\n       Abwesenheit, nachdem ein ärztliches Attest vorliegt.",
+        "evidence": {
+          "source_id": "bd4dc531ae2b",
+          "locator": "PDF-/Textseite 4, Absatzblock 8",
+          "original": null
+        }
+      }
+    ]
+  }
+}

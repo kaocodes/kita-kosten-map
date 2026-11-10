@@ -19,7 +19,9 @@ Der Datenbestand enthält Krippen- und Kindergartentarife, Einkommens- und Famil
 - [Websitekonzept und Entscheidungen](docs/WEBSITE_KONZEPT.md): statische Architektur, Stackempfehlung, Gemeindeflächen, Geodatenaufbereitung, Bedienkonzept und Entwürfe.
 - [UI-Neugestaltung: Familienatlas](docs/UI_REDESIGN.md): lokal umgesetztes Layout mit vollständigen Kommunen-/Kinderdetails, Familienillustrationen und animierter Überschrift; noch nicht veröffentlicht.
 - [Quellenübersicht](docs/QUELLENUEBERSICHT.md): kommunale Einstiegsseiten und Prüfhinweise.
-- [Erweiterungsrecherche](docs/ERWEITERUNGSRECHERCHE.md): Quellen und Bewertung der 33 Nachbarkommunen vom 10. November 2026; noch keine Aktivierung oder kanonische Tarifübernahme.
+- [Erweiterungsrecherche](docs/ERWEITERUNGSRECHERCHE.md): Quellen und Bewertung der 33 Nachbarkommunen vom 10. November 2026.
+- [Aufbereitete Erweiterungsdaten](docs/ERWEITERUNGSDATEN.md): 33 getrennte Kataloge im gemeinsamen Schema, isoliert im Importbereich; Berechnungsprüfung und Veröffentlichung ausstehend.
+- [Berechenbarkeit der Erweiterung](docs/ERWEITERUNGSBERECHNUNG.md): Prüfung der bestehenden Engine für alle 33 Kommunen, unterstützte Modellkonfigurationen und ausdrückliche Ablehnungsgründe; keine Website-Aktivierung.
 - [Mögliche Datenerweiterung](docs/DATENERWEITERUNG.md): geografisch belegte Kandidatenliste und Voraussetzungen für die öffentliche Aufnahme.
 
 Maßgeblicher Tarifbestand: `data/municipalities/*.json`. Das JSON-Schema steht in `data/municipality.schema.json`. Das neue `data/municipality_registry.json` bestimmt aktive Kommunen, amtliche Gemeindeschlüssel (AGS), Kartenflächen, Regionen und Tarifverweise. Es ersetzt die feste Prüfung auf zwölf Kommunen. `data/source_manifest.json` verknüpft Quellenkennungen mit URLs, Abrufzeitpunkten, lokalen Kopien und SHA-256-Prüfsummen. Ursprüngliche PDFs, Webseiten und Textauszüge liegen in `data/sources/`. Die ursprüngliche Recherchefassung bleibt in `data/imported/` erhalten.

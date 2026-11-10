@@ -348,7 +348,7 @@ Die PDF-URL klingt älter; der heruntergeladene Inhalt ist ab September 2026 gü
 
 **Kontrollzelle:** 490,00 € U3-Krippe Vollzeit bis 15 Uhr, ein Kind. [Originalquelle](https://www.rutesheim.de/site/Rutesheim-Internet-2021/get/params_E814195716/21552104/240819_Geb%C3%BChren%20Kindertagesst%C3%A4tten.pdf); PDF S. 1; zwölf Monate im Kopf; Änderungsfassung Juni 2026 separat.
 
-**Grenzen / nächste fachliche Prüfung:** Gemeinsame Nutzung von Krippe/GT/Hort und Zuordnung des 50-Euro-Abzugs fachlich abbilden. Familienpass nennt 10 % Einkommenseigenanteil; Bemessungsdefinition vor automatischer Ermäßigung ergänzen. Essensbetrag fehlt.
+**Grenzen / nächste fachliche Prüfung:** Gemeinsame Nutzung von Krippe/GT/Hort und Zuordnung des 50-Euro-Abzugs fachlich abbilden. Familienpass nennt 10 % Einkommenseigenanteil; Bemessungsdefinition vor automatischer Ermäßigung ergänzen. Essensstaffeln stehen auf Seite 2 der Gebührenübersicht und sind im Import erfasst.
 
 ### Schönaich (08115044)
 
@@ -422,7 +422,7 @@ Original-Stundenpakete erhalten; TAKKI und Schulkindbetreuung im selben Dokument
 
 ## Nächster Umsetzungsschritt
 
-Die belastbaren Tarifbasen werden anschließend in getrennte kanonische Kommunen-JSONs übertragen und mit Referenzfällen gegen die Originalquellen geprüft. Die 1 verbleibenden Klärungsfälle bleiben bis zur Lösung ihrer jeweiligen Blockade eingeschränkt. Neue Einkommens-/Geschwisterregeln, getrennte Verpflegung und belegte Tagesverteilungen werden vor einer Aktivierung im Register berücksichtigt. Diese Normalisierung ist in dieser Recherche noch nicht erfolgt. Die Website-Freischaltung bleibt ein eigener Schritt; historische Preisreihen bleiben zurückgestellt.
+Die Tarifbasen wurden inzwischen in 33 getrennte Kommunen-JSONs im vorhandenen Schema übertragen; sie liegen isoliert unter `data/expansion/municipalities/`. Mengen, Umfang und technische Prüfung stehen in der [Aufbereitungsübersicht](ERWEITERUNGSDATEN.md). Die [Kompatibilitätsprüfung der bestehenden Engine](ERWEITERUNGSBERECHNUNG.md) ist inzwischen abgeschlossen und weist unterstützte sowie nicht berechenbare Konfigurationen aus. Die vertiefte fachliche Quellenabnahme bleibt ein weiterer Schritt. Die 1 verbleibenden Klärungsfälle bleiben für ihre betroffenen Konfigurationen eingeschränkt. Neue Einkommens-/Geschwisterregeln, Verpflegung und belegte Tagesverteilungen werden vor einer Aktivierung berücksichtigt. Die gemeinsame Engine und das produktive Register wurden nicht geändert. Die Website-Freischaltung bleibt ein eigener Schritt; historische Preisreihen bleiben zurückgestellt.
 
 Erneut prüfen und Bericht aus den Bewertungen erzeugen:
 

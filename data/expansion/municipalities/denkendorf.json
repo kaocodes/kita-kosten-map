@@ -1,0 +1,3198 @@
+{
+  "schema_version": "1.0",
+  "id": "denkendorf",
+  "name": "Denkendorf",
+  "reviewed_at": "2026-11-10",
+  "reference_date": "2026-11-10",
+  "scope": {
+    "included": [
+      "municipally_published_shared_tariff"
+    ],
+    "other_providers": "evangelical_and_catholic_providers_listed_by_municipality"
+  },
+  "family_basis": "under_18",
+  "family_evidence": {
+    "source_id": "08b47127170a",
+    "locator": "Familienbegriff und Fußnoten der Gebührenunterlagen",
+    "original": null
+  },
+  "supporting_source_ids": [
+    "a19eb9cb9cf3",
+    "08b47127170a",
+    "d6ab5549d759",
+    "cbc61ce3e909"
+  ],
+  "offers": [
+    {
+      "id": "denkendorf-offer-457548230e9b",
+      "original_label": "VÖ30",
+      "age_group": "u3",
+      "age_min_months": 0,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 1800,
+      "weekday_minutes": [
+        360,
+        360,
+        360,
+        360,
+        360
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "08b47127170a",
+        "locator": "PDF S. 1, VÖ30; Bruttoeinkommensgruppen",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "08b47127170a",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "08b47127170a",
+        "locator": "PDF S. 1, VÖ30; Bruttoeinkommensgruppen",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "denkendorf-offer-530d80984195",
+      "original_label": "Vier GT-Tage und Freitag VÖ, 45 Wochenstunden",
+      "age_group": "u3",
+      "age_min_months": 0,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2700,
+      "weekday_minutes": [
+        570,
+        570,
+        570,
+        570,
+        420
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "08b47127170a",
+        "locator": "PDF S. 1, Vier GT-Tage und Freitag VÖ, 45 Wochenstunden; Bruttoeinkommensgruppen",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "08b47127170a",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "08b47127170a",
+        "locator": "PDF S. 1, Vier GT-Tage und Freitag VÖ, 45 Wochenstunden; Bruttoeinkommensgruppen",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "denkendorf-offer-0ae960d686b5",
+      "original_label": "VÖ30",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 1800,
+      "weekday_minutes": [
+        360,
+        360,
+        360,
+        360,
+        360
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "a19eb9cb9cf3",
+        "locator": "PDF S. 1, VÖ30; Bruttoeinkommensgruppen",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "08b47127170a",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "a19eb9cb9cf3",
+        "locator": "PDF S. 1, VÖ30; Bruttoeinkommensgruppen",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "denkendorf-offer-7714d514eba3",
+      "original_label": "VÖ35",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2100,
+      "weekday_minutes": [
+        420,
+        420,
+        420,
+        420,
+        420
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "a19eb9cb9cf3",
+        "locator": "PDF S. 1, VÖ35; Bruttoeinkommensgruppen",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "08b47127170a",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "a19eb9cb9cf3",
+        "locator": "PDF S. 1, VÖ35; Bruttoeinkommensgruppen",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "denkendorf-offer-1492435134f8",
+      "original_label": "Vier GT-Tage und Freitag VÖ, 45 Wochenstunden",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2700,
+      "weekday_minutes": [
+        570,
+        570,
+        570,
+        570,
+        420
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "a19eb9cb9cf3",
+        "locator": "PDF S. 1, Vier GT-Tage und Freitag VÖ, 45 Wochenstunden; Bruttoeinkommensgruppen",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "08b47127170a",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "a19eb9cb9cf3",
+        "locator": "PDF S. 1, Vier GT-Tage und Freitag VÖ, 45 Wochenstunden; Bruttoeinkommensgruppen",
+        "original": null
+      },
+      "formula": null
+    }
+  ],
+  "prices": [
+    {
+      "id": "denkendorf-price-b7f9b98b9ff7",
+      "offer_id": "denkendorf-offer-457548230e9b",
+      "amount_cents": 37600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": "denkendorf-income-2179739de81a",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "08b47127170a",
+        "locator": "PDF S. 1, VÖ30; Bruttoeinkommensgruppen",
+        "original": 376
+      }
+    },
+    {
+      "id": "denkendorf-price-3c4ceadba067",
+      "offer_id": "denkendorf-offer-457548230e9b",
+      "amount_cents": 27900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": "denkendorf-income-2179739de81a",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "08b47127170a",
+        "locator": "PDF S. 1, VÖ30; Bruttoeinkommensgruppen",
+        "original": 279
+      }
+    },
+    {
+      "id": "denkendorf-price-711515a13e55",
+      "offer_id": "denkendorf-offer-457548230e9b",
+      "amount_cents": 18800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": "denkendorf-income-2179739de81a",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "08b47127170a",
+        "locator": "PDF S. 1, VÖ30; Bruttoeinkommensgruppen",
+        "original": 188
+      }
+    },
+    {
+      "id": "denkendorf-price-f8cdf3e7e306",
+      "offer_id": "denkendorf-offer-457548230e9b",
+      "amount_cents": 7400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": "denkendorf-income-2179739de81a",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "08b47127170a",
+        "locator": "PDF S. 1, VÖ30; Bruttoeinkommensgruppen",
+        "original": 74
+      }
+    },
+    {
+      "id": "denkendorf-price-b875df095ca1",
+      "offer_id": "denkendorf-offer-457548230e9b",
+      "amount_cents": 43000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": "denkendorf-income-fa678d9cbce0",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "08b47127170a",
+        "locator": "PDF S. 1, VÖ30; Bruttoeinkommensgruppen",
+        "original": 430
+      }
+    },
+    {
+      "id": "denkendorf-price-38dd0228cac0",
+      "offer_id": "denkendorf-offer-457548230e9b",
+      "amount_cents": 31900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": "denkendorf-income-fa678d9cbce0",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "08b47127170a",
+        "locator": "PDF S. 1, VÖ30; Bruttoeinkommensgruppen",
+        "original": 319
+      }
+    },
+    {
+      "id": "denkendorf-price-abf900079565",
+      "offer_id": "denkendorf-offer-457548230e9b",
+      "amount_cents": 21500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": "denkendorf-income-fa678d9cbce0",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "08b47127170a",
+        "locator": "PDF S. 1, VÖ30; Bruttoeinkommensgruppen",
+        "original": 215
+      }
+    },
+    {
+      "id": "denkendorf-price-e8f904a127b1",
+      "offer_id": "denkendorf-offer-457548230e9b",
+      "amount_cents": 8500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": "denkendorf-income-fa678d9cbce0",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "08b47127170a",
+        "locator": "PDF S. 1, VÖ30; Bruttoeinkommensgruppen",
+        "original": 85
+      }
+    },
+    {
+      "id": "denkendorf-price-493bdea86211",
+      "offer_id": "denkendorf-offer-457548230e9b",
+      "amount_cents": 48300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": "denkendorf-income-da258d072604",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "08b47127170a",
+        "locator": "PDF S. 1, VÖ30; Bruttoeinkommensgruppen",
+        "original": 483
+      }
+    },
+    {
+      "id": "denkendorf-price-6b6534fdf1b3",
+      "offer_id": "denkendorf-offer-457548230e9b",
+      "amount_cents": 35900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": "denkendorf-income-da258d072604",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "08b47127170a",
+        "locator": "PDF S. 1, VÖ30; Bruttoeinkommensgruppen",
+        "original": 359
+      }
+    },
+    {
+      "id": "denkendorf-price-cf6e3a054e6e",
+      "offer_id": "denkendorf-offer-457548230e9b",
+      "amount_cents": 24200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": "denkendorf-income-da258d072604",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "08b47127170a",
+        "locator": "PDF S. 1, VÖ30; Bruttoeinkommensgruppen",
+        "original": 242
+      }
+    },
+    {
+      "id": "denkendorf-price-ae2bdcb5fcd9",
+      "offer_id": "denkendorf-offer-457548230e9b",
+      "amount_cents": 9500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": "denkendorf-income-da258d072604",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "08b47127170a",
+        "locator": "PDF S. 1, VÖ30; Bruttoeinkommensgruppen",
+        "original": 95
+      }
+    },
+    {
+      "id": "denkendorf-price-4c14647f12bc",
+      "offer_id": "denkendorf-offer-457548230e9b",
+      "amount_cents": 53700,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": "denkendorf-income-472a81015934",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "08b47127170a",
+        "locator": "PDF S. 1, VÖ30; Bruttoeinkommensgruppen",
+        "original": 537
+      }
+    },
+    {
+      "id": "denkendorf-price-24ce106fd24f",
+      "offer_id": "denkendorf-offer-457548230e9b",
+      "amount_cents": 39900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": "denkendorf-income-472a81015934",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "08b47127170a",
+        "locator": "PDF S. 1, VÖ30; Bruttoeinkommensgruppen",
+        "original": 399
+      }
+    },
+    {
+      "id": "denkendorf-price-7e8d2b0639bf",
+      "offer_id": "denkendorf-offer-457548230e9b",
+      "amount_cents": 26900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": "denkendorf-income-472a81015934",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "08b47127170a",
+        "locator": "PDF S. 1, VÖ30; Bruttoeinkommensgruppen",
+        "original": 269
+      }
+    },
+    {
+      "id": "denkendorf-price-3039ed623175",
+      "offer_id": "denkendorf-offer-457548230e9b",
+      "amount_cents": 10600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": "denkendorf-income-472a81015934",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "08b47127170a",
+        "locator": "PDF S. 1, VÖ30; Bruttoeinkommensgruppen",
+        "original": 106
+      }
+    },
+    {
+      "id": "denkendorf-price-b37ce127e607",
+      "offer_id": "denkendorf-offer-457548230e9b",
+      "amount_cents": 59100,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": "denkendorf-income-1628cf85c88c",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "08b47127170a",
+        "locator": "PDF S. 1, VÖ30; Bruttoeinkommensgruppen",
+        "original": 591
+      }
+    },
+    {
+      "id": "denkendorf-price-7dfc392ffc59",
+      "offer_id": "denkendorf-offer-457548230e9b",
+      "amount_cents": 43900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": "denkendorf-income-1628cf85c88c",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "08b47127170a",
+        "locator": "PDF S. 1, VÖ30; Bruttoeinkommensgruppen",
+        "original": 439
+      }
+    },
+    {
+      "id": "denkendorf-price-2622cef5b507",
+      "offer_id": "denkendorf-offer-457548230e9b",
+      "amount_cents": 29600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": "denkendorf-income-1628cf85c88c",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "08b47127170a",
+        "locator": "PDF S. 1, VÖ30; Bruttoeinkommensgruppen",
+        "original": 296
+      }
+    },
+    {
+      "id": "denkendorf-price-c42e28a3bfd1",
+      "offer_id": "denkendorf-offer-457548230e9b",
+      "amount_cents": 11700,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": "denkendorf-income-1628cf85c88c",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "08b47127170a",
+        "locator": "PDF S. 1, VÖ30; Bruttoeinkommensgruppen",
+        "original": 117
+      }
+    },
+    {
+      "id": "denkendorf-price-78ce0ad73f32",
+      "offer_id": "denkendorf-offer-457548230e9b",
+      "amount_cents": 64400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": "denkendorf-income-65679689bfda",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "08b47127170a",
+        "locator": "PDF S. 1, VÖ30; Bruttoeinkommensgruppen",
+        "original": 644
+      }
+    },
+    {
+      "id": "denkendorf-price-cc0b643de149",
+      "offer_id": "denkendorf-offer-457548230e9b",
+      "amount_cents": 47900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": "denkendorf-income-65679689bfda",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "08b47127170a",
+        "locator": "PDF S. 1, VÖ30; Bruttoeinkommensgruppen",
+        "original": 479
+      }
+    },
+    {
+      "id": "denkendorf-price-49032e6887fe",
+      "offer_id": "denkendorf-offer-457548230e9b",
+      "amount_cents": 32300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": "denkendorf-income-65679689bfda",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "08b47127170a",
+        "locator": "PDF S. 1, VÖ30; Bruttoeinkommensgruppen",
+        "original": 323
+      }
+    },
+    {
+      "id": "denkendorf-price-37c1ab05f0fe",
+      "offer_id": "denkendorf-offer-457548230e9b",
+      "amount_cents": 12700,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": "denkendorf-income-65679689bfda",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "08b47127170a",
+        "locator": "PDF S. 1, VÖ30; Bruttoeinkommensgruppen",
+        "original": 127
+      }
+    },
+    {
+      "id": "denkendorf-price-9a14dbe87358",
+      "offer_id": "denkendorf-offer-530d80984195",
+      "amount_cents": 54300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": "denkendorf-income-2179739de81a",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "08b47127170a",
+        "locator": "PDF S. 1, Vier GT-Tage und Freitag VÖ, 45 Wochenstunden; Bruttoeinkommensgruppen",
+        "original": 543
+      }
+    },
+    {
+      "id": "denkendorf-price-6f4fa22917d0",
+      "offer_id": "denkendorf-offer-530d80984195",
+      "amount_cents": 40200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": "denkendorf-income-2179739de81a",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "08b47127170a",
+        "locator": "PDF S. 1, Vier GT-Tage und Freitag VÖ, 45 Wochenstunden; Bruttoeinkommensgruppen",
+        "original": 402
+      }
+    },
+    {
+      "id": "denkendorf-price-cae7595838d1",
+      "offer_id": "denkendorf-offer-530d80984195",
+      "amount_cents": 27200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": "denkendorf-income-2179739de81a",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "08b47127170a",
+        "locator": "PDF S. 1, Vier GT-Tage und Freitag VÖ, 45 Wochenstunden; Bruttoeinkommensgruppen",
+        "original": 272
+      }
+    },
+    {
+      "id": "denkendorf-price-609290b67bfb",
+      "offer_id": "denkendorf-offer-530d80984195",
+      "amount_cents": 10900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": "denkendorf-income-2179739de81a",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "08b47127170a",
+        "locator": "PDF S. 1, Vier GT-Tage und Freitag VÖ, 45 Wochenstunden; Bruttoeinkommensgruppen",
+        "original": 109
+      }
+    },
+    {
+      "id": "denkendorf-price-9a6f715dd372",
+      "offer_id": "denkendorf-offer-530d80984195",
+      "amount_cents": 62100,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": "denkendorf-income-fa678d9cbce0",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "08b47127170a",
+        "locator": "PDF S. 1, Vier GT-Tage und Freitag VÖ, 45 Wochenstunden; Bruttoeinkommensgruppen",
+        "original": 621
+      }
+    },
+    {
+      "id": "denkendorf-price-85a796c6336a",
+      "offer_id": "denkendorf-offer-530d80984195",
+      "amount_cents": 45900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": "denkendorf-income-fa678d9cbce0",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "08b47127170a",
+        "locator": "PDF S. 1, Vier GT-Tage und Freitag VÖ, 45 Wochenstunden; Bruttoeinkommensgruppen",
+        "original": 459
+      }
+    },
+    {
+      "id": "denkendorf-price-b255ecf4a19e",
+      "offer_id": "denkendorf-offer-530d80984195",
+      "amount_cents": 31000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": "denkendorf-income-fa678d9cbce0",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "08b47127170a",
+        "locator": "PDF S. 1, Vier GT-Tage und Freitag VÖ, 45 Wochenstunden; Bruttoeinkommensgruppen",
+        "original": 310
+      }
+    },
+    {
+      "id": "denkendorf-price-3fc8be4aceaf",
+      "offer_id": "denkendorf-offer-530d80984195",
+      "amount_cents": 12400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": "denkendorf-income-fa678d9cbce0",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "08b47127170a",
+        "locator": "PDF S. 1, Vier GT-Tage und Freitag VÖ, 45 Wochenstunden; Bruttoeinkommensgruppen",
+        "original": 124
+      }
+    },
+    {
+      "id": "denkendorf-price-e267d82d62c8",
+      "offer_id": "denkendorf-offer-530d80984195",
+      "amount_cents": 69800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": "denkendorf-income-da258d072604",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "08b47127170a",
+        "locator": "PDF S. 1, Vier GT-Tage und Freitag VÖ, 45 Wochenstunden; Bruttoeinkommensgruppen",
+        "original": 698
+      }
+    },
+    {
+      "id": "denkendorf-price-8d569187e2b2",
+      "offer_id": "denkendorf-offer-530d80984195",
+      "amount_cents": 51700,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": "denkendorf-income-da258d072604",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "08b47127170a",
+        "locator": "PDF S. 1, Vier GT-Tage und Freitag VÖ, 45 Wochenstunden; Bruttoeinkommensgruppen",
+        "original": 517
+      }
+    },
+    {
+      "id": "denkendorf-price-bf3cddea904f",
+      "offer_id": "denkendorf-offer-530d80984195",
+      "amount_cents": 34900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": "denkendorf-income-da258d072604",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "08b47127170a",
+        "locator": "PDF S. 1, Vier GT-Tage und Freitag VÖ, 45 Wochenstunden; Bruttoeinkommensgruppen",
+        "original": 349
+      }
+    },
+    {
+      "id": "denkendorf-price-53943d370549",
+      "offer_id": "denkendorf-offer-530d80984195",
+      "amount_cents": 14000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": "denkendorf-income-da258d072604",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "08b47127170a",
+        "locator": "PDF S. 1, Vier GT-Tage und Freitag VÖ, 45 Wochenstunden; Bruttoeinkommensgruppen",
+        "original": 140
+      }
+    },
+    {
+      "id": "denkendorf-price-cae098335935",
+      "offer_id": "denkendorf-offer-530d80984195",
+      "amount_cents": 77600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": "denkendorf-income-472a81015934",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "08b47127170a",
+        "locator": "PDF S. 1, Vier GT-Tage und Freitag VÖ, 45 Wochenstunden; Bruttoeinkommensgruppen",
+        "original": 776
+      }
+    },
+    {
+      "id": "denkendorf-price-c73ca4d66b43",
+      "offer_id": "denkendorf-offer-530d80984195",
+      "amount_cents": 57400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": "denkendorf-income-472a81015934",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "08b47127170a",
+        "locator": "PDF S. 1, Vier GT-Tage und Freitag VÖ, 45 Wochenstunden; Bruttoeinkommensgruppen",
+        "original": 574
+      }
+    },
+    {
+      "id": "denkendorf-price-ec809a547159",
+      "offer_id": "denkendorf-offer-530d80984195",
+      "amount_cents": 38800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": "denkendorf-income-472a81015934",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "08b47127170a",
+        "locator": "PDF S. 1, Vier GT-Tage und Freitag VÖ, 45 Wochenstunden; Bruttoeinkommensgruppen",
+        "original": 388
+      }
+    },
+    {
+      "id": "denkendorf-price-c075f12b8d48",
+      "offer_id": "denkendorf-offer-530d80984195",
+      "amount_cents": 15500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": "denkendorf-income-472a81015934",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "08b47127170a",
+        "locator": "PDF S. 1, Vier GT-Tage und Freitag VÖ, 45 Wochenstunden; Bruttoeinkommensgruppen",
+        "original": 155
+      }
+    },
+    {
+      "id": "denkendorf-price-bfac47efe557",
+      "offer_id": "denkendorf-offer-530d80984195",
+      "amount_cents": 85400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": "denkendorf-income-1628cf85c88c",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "08b47127170a",
+        "locator": "PDF S. 1, Vier GT-Tage und Freitag VÖ, 45 Wochenstunden; Bruttoeinkommensgruppen",
+        "original": 854
+      }
+    },
+    {
+      "id": "denkendorf-price-4f391de67a65",
+      "offer_id": "denkendorf-offer-530d80984195",
+      "amount_cents": 63200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": "denkendorf-income-1628cf85c88c",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "08b47127170a",
+        "locator": "PDF S. 1, Vier GT-Tage und Freitag VÖ, 45 Wochenstunden; Bruttoeinkommensgruppen",
+        "original": 632
+      }
+    },
+    {
+      "id": "denkendorf-price-0b6d1e221650",
+      "offer_id": "denkendorf-offer-530d80984195",
+      "amount_cents": 42700,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": "denkendorf-income-1628cf85c88c",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "08b47127170a",
+        "locator": "PDF S. 1, Vier GT-Tage und Freitag VÖ, 45 Wochenstunden; Bruttoeinkommensgruppen",
+        "original": 427
+      }
+    },
+    {
+      "id": "denkendorf-price-fe0671e94d2c",
+      "offer_id": "denkendorf-offer-530d80984195",
+      "amount_cents": 17100,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": "denkendorf-income-1628cf85c88c",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "08b47127170a",
+        "locator": "PDF S. 1, Vier GT-Tage und Freitag VÖ, 45 Wochenstunden; Bruttoeinkommensgruppen",
+        "original": 171
+      }
+    },
+    {
+      "id": "denkendorf-price-e952b1f607ba",
+      "offer_id": "denkendorf-offer-530d80984195",
+      "amount_cents": 93100,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": "denkendorf-income-65679689bfda",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "08b47127170a",
+        "locator": "PDF S. 1, Vier GT-Tage und Freitag VÖ, 45 Wochenstunden; Bruttoeinkommensgruppen",
+        "original": 931
+      }
+    },
+    {
+      "id": "denkendorf-price-3d61ccf50a7f",
+      "offer_id": "denkendorf-offer-530d80984195",
+      "amount_cents": 68900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": "denkendorf-income-65679689bfda",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "08b47127170a",
+        "locator": "PDF S. 1, Vier GT-Tage und Freitag VÖ, 45 Wochenstunden; Bruttoeinkommensgruppen",
+        "original": 689
+      }
+    },
+    {
+      "id": "denkendorf-price-abd214772e29",
+      "offer_id": "denkendorf-offer-530d80984195",
+      "amount_cents": 46600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": "denkendorf-income-65679689bfda",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "08b47127170a",
+        "locator": "PDF S. 1, Vier GT-Tage und Freitag VÖ, 45 Wochenstunden; Bruttoeinkommensgruppen",
+        "original": 466
+      }
+    },
+    {
+      "id": "denkendorf-price-34ab75a51b78",
+      "offer_id": "denkendorf-offer-530d80984195",
+      "amount_cents": 18600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": "denkendorf-income-65679689bfda",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "08b47127170a",
+        "locator": "PDF S. 1, Vier GT-Tage und Freitag VÖ, 45 Wochenstunden; Bruttoeinkommensgruppen",
+        "original": 186
+      }
+    },
+    {
+      "id": "denkendorf-price-65180f3d6470",
+      "offer_id": "denkendorf-offer-0ae960d686b5",
+      "amount_cents": 12700,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": "denkendorf-income-2179739de81a",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "a19eb9cb9cf3",
+        "locator": "PDF S. 1, VÖ30; Bruttoeinkommensgruppen",
+        "original": 127
+      }
+    },
+    {
+      "id": "denkendorf-price-995004c0d4b7",
+      "offer_id": "denkendorf-offer-0ae960d686b5",
+      "amount_cents": 9900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": "denkendorf-income-2179739de81a",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "a19eb9cb9cf3",
+        "locator": "PDF S. 1, VÖ30; Bruttoeinkommensgruppen",
+        "original": 99
+      }
+    },
+    {
+      "id": "denkendorf-price-a0f85834c3f8",
+      "offer_id": "denkendorf-offer-0ae960d686b5",
+      "amount_cents": 6700,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": "denkendorf-income-2179739de81a",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "a19eb9cb9cf3",
+        "locator": "PDF S. 1, VÖ30; Bruttoeinkommensgruppen",
+        "original": 67
+      }
+    },
+    {
+      "id": "denkendorf-price-d519f57192fe",
+      "offer_id": "denkendorf-offer-0ae960d686b5",
+      "amount_cents": 2200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": "denkendorf-income-2179739de81a",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "a19eb9cb9cf3",
+        "locator": "PDF S. 1, VÖ30; Bruttoeinkommensgruppen",
+        "original": 22
+      }
+    },
+    {
+      "id": "denkendorf-price-c995f73a5010",
+      "offer_id": "denkendorf-offer-0ae960d686b5",
+      "amount_cents": 14500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": "denkendorf-income-fa678d9cbce0",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "a19eb9cb9cf3",
+        "locator": "PDF S. 1, VÖ30; Bruttoeinkommensgruppen",
+        "original": 145
+      }
+    },
+    {
+      "id": "denkendorf-price-7ff2af77fe82",
+      "offer_id": "denkendorf-offer-0ae960d686b5",
+      "amount_cents": 11300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": "denkendorf-income-fa678d9cbce0",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "a19eb9cb9cf3",
+        "locator": "PDF S. 1, VÖ30; Bruttoeinkommensgruppen",
+        "original": 113
+      }
+    },
+    {
+      "id": "denkendorf-price-45165005f630",
+      "offer_id": "denkendorf-offer-0ae960d686b5",
+      "amount_cents": 7700,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": "denkendorf-income-fa678d9cbce0",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "a19eb9cb9cf3",
+        "locator": "PDF S. 1, VÖ30; Bruttoeinkommensgruppen",
+        "original": 77
+      }
+    },
+    {
+      "id": "denkendorf-price-fb20003d3ce2",
+      "offer_id": "denkendorf-offer-0ae960d686b5",
+      "amount_cents": 2600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": "denkendorf-income-fa678d9cbce0",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "a19eb9cb9cf3",
+        "locator": "PDF S. 1, VÖ30; Bruttoeinkommensgruppen",
+        "original": 26
+      }
+    },
+    {
+      "id": "denkendorf-price-454ff5939f3e",
+      "offer_id": "denkendorf-offer-0ae960d686b5",
+      "amount_cents": 16300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": "denkendorf-income-da258d072604",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "a19eb9cb9cf3",
+        "locator": "PDF S. 1, VÖ30; Bruttoeinkommensgruppen",
+        "original": 163
+      }
+    },
+    {
+      "id": "denkendorf-price-7a5001ca2068",
+      "offer_id": "denkendorf-offer-0ae960d686b5",
+      "amount_cents": 12700,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": "denkendorf-income-da258d072604",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "a19eb9cb9cf3",
+        "locator": "PDF S. 1, VÖ30; Bruttoeinkommensgruppen",
+        "original": 127
+      }
+    },
+    {
+      "id": "denkendorf-price-a90e1c690116",
+      "offer_id": "denkendorf-offer-0ae960d686b5",
+      "amount_cents": 8600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": "denkendorf-income-da258d072604",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "a19eb9cb9cf3",
+        "locator": "PDF S. 1, VÖ30; Bruttoeinkommensgruppen",
+        "original": 86
+      }
+    },
+    {
+      "id": "denkendorf-price-2097f226ee1b",
+      "offer_id": "denkendorf-offer-0ae960d686b5",
+      "amount_cents": 2900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": "denkendorf-income-da258d072604",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "a19eb9cb9cf3",
+        "locator": "PDF S. 1, VÖ30; Bruttoeinkommensgruppen",
+        "original": 29
+      }
+    },
+    {
+      "id": "denkendorf-price-a28dde46510c",
+      "offer_id": "denkendorf-offer-0ae960d686b5",
+      "amount_cents": 18100,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": "denkendorf-income-472a81015934",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "a19eb9cb9cf3",
+        "locator": "PDF S. 1, VÖ30; Bruttoeinkommensgruppen",
+        "original": 181
+      }
+    },
+    {
+      "id": "denkendorf-price-ce5d4a4aa2d0",
+      "offer_id": "denkendorf-offer-0ae960d686b5",
+      "amount_cents": 14100,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": "denkendorf-income-472a81015934",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "a19eb9cb9cf3",
+        "locator": "PDF S. 1, VÖ30; Bruttoeinkommensgruppen",
+        "original": 141
+      }
+    },
+    {
+      "id": "denkendorf-price-5991b114114c",
+      "offer_id": "denkendorf-offer-0ae960d686b5",
+      "amount_cents": 9600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": "denkendorf-income-472a81015934",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "a19eb9cb9cf3",
+        "locator": "PDF S. 1, VÖ30; Bruttoeinkommensgruppen",
+        "original": 96
+      }
+    },
+    {
+      "id": "denkendorf-price-eb29972e224c",
+      "offer_id": "denkendorf-offer-0ae960d686b5",
+      "amount_cents": 3200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": "denkendorf-income-472a81015934",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "a19eb9cb9cf3",
+        "locator": "PDF S. 1, VÖ30; Bruttoeinkommensgruppen",
+        "original": 32
+      }
+    },
+    {
+      "id": "denkendorf-price-0114c8021090",
+      "offer_id": "denkendorf-offer-0ae960d686b5",
+      "amount_cents": 19900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": "denkendorf-income-1628cf85c88c",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "a19eb9cb9cf3",
+        "locator": "PDF S. 1, VÖ30; Bruttoeinkommensgruppen",
+        "original": 199
+      }
+    },
+    {
+      "id": "denkendorf-price-b52f140fa18c",
+      "offer_id": "denkendorf-offer-0ae960d686b5",
+      "amount_cents": 15500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": "denkendorf-income-1628cf85c88c",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "a19eb9cb9cf3",
+        "locator": "PDF S. 1, VÖ30; Bruttoeinkommensgruppen",
+        "original": 155
+      }
+    },
+    {
+      "id": "denkendorf-price-8b086d035d90",
+      "offer_id": "denkendorf-offer-0ae960d686b5",
+      "amount_cents": 10600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": "denkendorf-income-1628cf85c88c",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "a19eb9cb9cf3",
+        "locator": "PDF S. 1, VÖ30; Bruttoeinkommensgruppen",
+        "original": 106
+      }
+    },
+    {
+      "id": "denkendorf-price-958585803e88",
+      "offer_id": "denkendorf-offer-0ae960d686b5",
+      "amount_cents": 3500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": "denkendorf-income-1628cf85c88c",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "a19eb9cb9cf3",
+        "locator": "PDF S. 1, VÖ30; Bruttoeinkommensgruppen",
+        "original": 35
+      }
+    },
+    {
+      "id": "denkendorf-price-cdc142e176b5",
+      "offer_id": "denkendorf-offer-0ae960d686b5",
+      "amount_cents": 21700,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": "denkendorf-income-65679689bfda",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "a19eb9cb9cf3",
+        "locator": "PDF S. 1, VÖ30; Bruttoeinkommensgruppen",
+        "original": 217
+      }
+    },
+    {
+      "id": "denkendorf-price-13f2e9af3bcc",
+      "offer_id": "denkendorf-offer-0ae960d686b5",
+      "amount_cents": 16900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": "denkendorf-income-65679689bfda",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "a19eb9cb9cf3",
+        "locator": "PDF S. 1, VÖ30; Bruttoeinkommensgruppen",
+        "original": 169
+      }
+    },
+    {
+      "id": "denkendorf-price-fe884154e74b",
+      "offer_id": "denkendorf-offer-0ae960d686b5",
+      "amount_cents": 11500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": "denkendorf-income-65679689bfda",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "a19eb9cb9cf3",
+        "locator": "PDF S. 1, VÖ30; Bruttoeinkommensgruppen",
+        "original": 115
+      }
+    },
+    {
+      "id": "denkendorf-price-5a8be7681e98",
+      "offer_id": "denkendorf-offer-0ae960d686b5",
+      "amount_cents": 3800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": "denkendorf-income-65679689bfda",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "a19eb9cb9cf3",
+        "locator": "PDF S. 1, VÖ30; Bruttoeinkommensgruppen",
+        "original": 38
+      }
+    },
+    {
+      "id": "denkendorf-price-af93ee128a85",
+      "offer_id": "denkendorf-offer-7714d514eba3",
+      "amount_cents": 18500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": "denkendorf-income-2179739de81a",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "a19eb9cb9cf3",
+        "locator": "PDF S. 1, VÖ35; Bruttoeinkommensgruppen",
+        "original": 185
+      }
+    },
+    {
+      "id": "denkendorf-price-d135479aeae6",
+      "offer_id": "denkendorf-offer-7714d514eba3",
+      "amount_cents": 14200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": "denkendorf-income-2179739de81a",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "a19eb9cb9cf3",
+        "locator": "PDF S. 1, VÖ35; Bruttoeinkommensgruppen",
+        "original": 142
+      }
+    },
+    {
+      "id": "denkendorf-price-32e6ec2c8f29",
+      "offer_id": "denkendorf-offer-7714d514eba3",
+      "amount_cents": 9800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": "denkendorf-income-2179739de81a",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "a19eb9cb9cf3",
+        "locator": "PDF S. 1, VÖ35; Bruttoeinkommensgruppen",
+        "original": 98
+      }
+    },
+    {
+      "id": "denkendorf-price-82c58ba75ca7",
+      "offer_id": "denkendorf-offer-7714d514eba3",
+      "amount_cents": 3300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": "denkendorf-income-2179739de81a",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "a19eb9cb9cf3",
+        "locator": "PDF S. 1, VÖ35; Bruttoeinkommensgruppen",
+        "original": 33
+      }
+    },
+    {
+      "id": "denkendorf-price-031fbf8ef305",
+      "offer_id": "denkendorf-offer-7714d514eba3",
+      "amount_cents": 21100,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": "denkendorf-income-fa678d9cbce0",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "a19eb9cb9cf3",
+        "locator": "PDF S. 1, VÖ35; Bruttoeinkommensgruppen",
+        "original": 211
+      }
+    },
+    {
+      "id": "denkendorf-price-24d526f9f220",
+      "offer_id": "denkendorf-offer-7714d514eba3",
+      "amount_cents": 16300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": "denkendorf-income-fa678d9cbce0",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "a19eb9cb9cf3",
+        "locator": "PDF S. 1, VÖ35; Bruttoeinkommensgruppen",
+        "original": 163
+      }
+    },
+    {
+      "id": "denkendorf-price-311af302803a",
+      "offer_id": "denkendorf-offer-7714d514eba3",
+      "amount_cents": 11200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": "denkendorf-income-fa678d9cbce0",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "a19eb9cb9cf3",
+        "locator": "PDF S. 1, VÖ35; Bruttoeinkommensgruppen",
+        "original": 112
+      }
+    },
+    {
+      "id": "denkendorf-price-3c73972fe093",
+      "offer_id": "denkendorf-offer-7714d514eba3",
+      "amount_cents": 3800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": "denkendorf-income-fa678d9cbce0",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "a19eb9cb9cf3",
+        "locator": "PDF S. 1, VÖ35; Bruttoeinkommensgruppen",
+        "original": 38
+      }
+    },
+    {
+      "id": "denkendorf-price-8de154daaccb",
+      "offer_id": "denkendorf-offer-7714d514eba3",
+      "amount_cents": 23800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": "denkendorf-income-da258d072604",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "a19eb9cb9cf3",
+        "locator": "PDF S. 1, VÖ35; Bruttoeinkommensgruppen",
+        "original": 238
+      }
+    },
+    {
+      "id": "denkendorf-price-327a7f61f44a",
+      "offer_id": "denkendorf-offer-7714d514eba3",
+      "amount_cents": 18300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": "denkendorf-income-da258d072604",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "a19eb9cb9cf3",
+        "locator": "PDF S. 1, VÖ35; Bruttoeinkommensgruppen",
+        "original": 183
+      }
+    },
+    {
+      "id": "denkendorf-price-60ae4824504b",
+      "offer_id": "denkendorf-offer-7714d514eba3",
+      "amount_cents": 12600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": "denkendorf-income-da258d072604",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "a19eb9cb9cf3",
+        "locator": "PDF S. 1, VÖ35; Bruttoeinkommensgruppen",
+        "original": 126
+      }
+    },
+    {
+      "id": "denkendorf-price-34fc7dc5589a",
+      "offer_id": "denkendorf-offer-7714d514eba3",
+      "amount_cents": 4300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": "denkendorf-income-da258d072604",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "a19eb9cb9cf3",
+        "locator": "PDF S. 1, VÖ35; Bruttoeinkommensgruppen",
+        "original": 43
+      }
+    },
+    {
+      "id": "denkendorf-price-11a1c0d22b1a",
+      "offer_id": "denkendorf-offer-7714d514eba3",
+      "amount_cents": 26400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": "denkendorf-income-472a81015934",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "a19eb9cb9cf3",
+        "locator": "PDF S. 1, VÖ35; Bruttoeinkommensgruppen",
+        "original": 264
+      }
+    },
+    {
+      "id": "denkendorf-price-05c539a03f63",
+      "offer_id": "denkendorf-offer-7714d514eba3",
+      "amount_cents": 20300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": "denkendorf-income-472a81015934",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "a19eb9cb9cf3",
+        "locator": "PDF S. 1, VÖ35; Bruttoeinkommensgruppen",
+        "original": 203
+      }
+    },
+    {
+      "id": "denkendorf-price-eadb3b45f0fc",
+      "offer_id": "denkendorf-offer-7714d514eba3",
+      "amount_cents": 14000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": "denkendorf-income-472a81015934",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "a19eb9cb9cf3",
+        "locator": "PDF S. 1, VÖ35; Bruttoeinkommensgruppen",
+        "original": 140
+      }
+    },
+    {
+      "id": "denkendorf-price-eefcfc1b2ec1",
+      "offer_id": "denkendorf-offer-7714d514eba3",
+      "amount_cents": 4800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": "denkendorf-income-472a81015934",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "a19eb9cb9cf3",
+        "locator": "PDF S. 1, VÖ35; Bruttoeinkommensgruppen",
+        "original": 48
+      }
+    },
+    {
+      "id": "denkendorf-price-a46ae377cf5f",
+      "offer_id": "denkendorf-offer-7714d514eba3",
+      "amount_cents": 29000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": "denkendorf-income-1628cf85c88c",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "a19eb9cb9cf3",
+        "locator": "PDF S. 1, VÖ35; Bruttoeinkommensgruppen",
+        "original": 290
+      }
+    },
+    {
+      "id": "denkendorf-price-c5bc78597735",
+      "offer_id": "denkendorf-offer-7714d514eba3",
+      "amount_cents": 22400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": "denkendorf-income-1628cf85c88c",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "a19eb9cb9cf3",
+        "locator": "PDF S. 1, VÖ35; Bruttoeinkommensgruppen",
+        "original": 224
+      }
+    },
+    {
+      "id": "denkendorf-price-ba4b7a58f931",
+      "offer_id": "denkendorf-offer-7714d514eba3",
+      "amount_cents": 15400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": "denkendorf-income-1628cf85c88c",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "a19eb9cb9cf3",
+        "locator": "PDF S. 1, VÖ35; Bruttoeinkommensgruppen",
+        "original": 154
+      }
+    },
+    {
+      "id": "denkendorf-price-88343dfc87b7",
+      "offer_id": "denkendorf-offer-7714d514eba3",
+      "amount_cents": 5200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": "denkendorf-income-1628cf85c88c",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "a19eb9cb9cf3",
+        "locator": "PDF S. 1, VÖ35; Bruttoeinkommensgruppen",
+        "original": 52
+      }
+    },
+    {
+      "id": "denkendorf-price-e9e53df52e39",
+      "offer_id": "denkendorf-offer-7714d514eba3",
+      "amount_cents": 31700,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": "denkendorf-income-65679689bfda",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "a19eb9cb9cf3",
+        "locator": "PDF S. 1, VÖ35; Bruttoeinkommensgruppen",
+        "original": 317
+      }
+    },
+    {
+      "id": "denkendorf-price-21f5207e898e",
+      "offer_id": "denkendorf-offer-7714d514eba3",
+      "amount_cents": 24400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": "denkendorf-income-65679689bfda",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "a19eb9cb9cf3",
+        "locator": "PDF S. 1, VÖ35; Bruttoeinkommensgruppen",
+        "original": 244
+      }
+    },
+    {
+      "id": "denkendorf-price-0aef6e6d2215",
+      "offer_id": "denkendorf-offer-7714d514eba3",
+      "amount_cents": 16800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": "denkendorf-income-65679689bfda",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "a19eb9cb9cf3",
+        "locator": "PDF S. 1, VÖ35; Bruttoeinkommensgruppen",
+        "original": 168
+      }
+    },
+    {
+      "id": "denkendorf-price-a76e29248c7f",
+      "offer_id": "denkendorf-offer-7714d514eba3",
+      "amount_cents": 5700,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": "denkendorf-income-65679689bfda",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "a19eb9cb9cf3",
+        "locator": "PDF S. 1, VÖ35; Bruttoeinkommensgruppen",
+        "original": 57
+      }
+    },
+    {
+      "id": "denkendorf-price-02e4069543ba",
+      "offer_id": "denkendorf-offer-1492435134f8",
+      "amount_cents": 29300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": "denkendorf-income-2179739de81a",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "a19eb9cb9cf3",
+        "locator": "PDF S. 1, Vier GT-Tage und Freitag VÖ, 45 Wochenstunden; Bruttoeinkommensgruppen",
+        "original": 293
+      }
+    },
+    {
+      "id": "denkendorf-price-b53299320b5e",
+      "offer_id": "denkendorf-offer-1492435134f8",
+      "amount_cents": 22600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": "denkendorf-income-2179739de81a",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "a19eb9cb9cf3",
+        "locator": "PDF S. 1, Vier GT-Tage und Freitag VÖ, 45 Wochenstunden; Bruttoeinkommensgruppen",
+        "original": 226
+      }
+    },
+    {
+      "id": "denkendorf-price-0c475f55aeca",
+      "offer_id": "denkendorf-offer-1492435134f8",
+      "amount_cents": 15500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": "denkendorf-income-2179739de81a",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "a19eb9cb9cf3",
+        "locator": "PDF S. 1, Vier GT-Tage und Freitag VÖ, 45 Wochenstunden; Bruttoeinkommensgruppen",
+        "original": 155
+      }
+    },
+    {
+      "id": "denkendorf-price-cafcbbf64b0c",
+      "offer_id": "denkendorf-offer-1492435134f8",
+      "amount_cents": 5300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": "denkendorf-income-2179739de81a",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "a19eb9cb9cf3",
+        "locator": "PDF S. 1, Vier GT-Tage und Freitag VÖ, 45 Wochenstunden; Bruttoeinkommensgruppen",
+        "original": 53
+      }
+    },
+    {
+      "id": "denkendorf-price-46e50f33ecba",
+      "offer_id": "denkendorf-offer-1492435134f8",
+      "amount_cents": 33500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": "denkendorf-income-fa678d9cbce0",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "a19eb9cb9cf3",
+        "locator": "PDF S. 1, Vier GT-Tage und Freitag VÖ, 45 Wochenstunden; Bruttoeinkommensgruppen",
+        "original": 335
+      }
+    },
+    {
+      "id": "denkendorf-price-25dbc8e034bc",
+      "offer_id": "denkendorf-offer-1492435134f8",
+      "amount_cents": 25800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": "denkendorf-income-fa678d9cbce0",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "a19eb9cb9cf3",
+        "locator": "PDF S. 1, Vier GT-Tage und Freitag VÖ, 45 Wochenstunden; Bruttoeinkommensgruppen",
+        "original": 258
+      }
+    },
+    {
+      "id": "denkendorf-price-9a02591919af",
+      "offer_id": "denkendorf-offer-1492435134f8",
+      "amount_cents": 17700,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": "denkendorf-income-fa678d9cbce0",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "a19eb9cb9cf3",
+        "locator": "PDF S. 1, Vier GT-Tage und Freitag VÖ, 45 Wochenstunden; Bruttoeinkommensgruppen",
+        "original": 177
+      }
+    },
+    {
+      "id": "denkendorf-price-358d1065531d",
+      "offer_id": "denkendorf-offer-1492435134f8",
+      "amount_cents": 6000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": "denkendorf-income-fa678d9cbce0",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "a19eb9cb9cf3",
+        "locator": "PDF S. 1, Vier GT-Tage und Freitag VÖ, 45 Wochenstunden; Bruttoeinkommensgruppen",
+        "original": 60
+      }
+    },
+    {
+      "id": "denkendorf-price-e8ee442a5bc9",
+      "offer_id": "denkendorf-offer-1492435134f8",
+      "amount_cents": 37700,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": "denkendorf-income-da258d072604",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "a19eb9cb9cf3",
+        "locator": "PDF S. 1, Vier GT-Tage und Freitag VÖ, 45 Wochenstunden; Bruttoeinkommensgruppen",
+        "original": 377
+      }
+    },
+    {
+      "id": "denkendorf-price-63f97f15e729",
+      "offer_id": "denkendorf-offer-1492435134f8",
+      "amount_cents": 29000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": "denkendorf-income-da258d072604",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "a19eb9cb9cf3",
+        "locator": "PDF S. 1, Vier GT-Tage und Freitag VÖ, 45 Wochenstunden; Bruttoeinkommensgruppen",
+        "original": 290
+      }
+    },
+    {
+      "id": "denkendorf-price-433e2382b8fb",
+      "offer_id": "denkendorf-offer-1492435134f8",
+      "amount_cents": 20000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": "denkendorf-income-da258d072604",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "a19eb9cb9cf3",
+        "locator": "PDF S. 1, Vier GT-Tage und Freitag VÖ, 45 Wochenstunden; Bruttoeinkommensgruppen",
+        "original": 200
+      }
+    },
+    {
+      "id": "denkendorf-price-d20c15b50085",
+      "offer_id": "denkendorf-offer-1492435134f8",
+      "amount_cents": 6800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": "denkendorf-income-da258d072604",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "a19eb9cb9cf3",
+        "locator": "PDF S. 1, Vier GT-Tage und Freitag VÖ, 45 Wochenstunden; Bruttoeinkommensgruppen",
+        "original": 68
+      }
+    },
+    {
+      "id": "denkendorf-price-8ea128378b36",
+      "offer_id": "denkendorf-offer-1492435134f8",
+      "amount_cents": 41900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": "denkendorf-income-472a81015934",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "a19eb9cb9cf3",
+        "locator": "PDF S. 1, Vier GT-Tage und Freitag VÖ, 45 Wochenstunden; Bruttoeinkommensgruppen",
+        "original": 419
+      }
+    },
+    {
+      "id": "denkendorf-price-d13a491e5ee3",
+      "offer_id": "denkendorf-offer-1492435134f8",
+      "amount_cents": 32200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": "denkendorf-income-472a81015934",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "a19eb9cb9cf3",
+        "locator": "PDF S. 1, Vier GT-Tage und Freitag VÖ, 45 Wochenstunden; Bruttoeinkommensgruppen",
+        "original": 322
+      }
+    },
+    {
+      "id": "denkendorf-price-9940646cbc28",
+      "offer_id": "denkendorf-offer-1492435134f8",
+      "amount_cents": 22200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": "denkendorf-income-472a81015934",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "a19eb9cb9cf3",
+        "locator": "PDF S. 1, Vier GT-Tage und Freitag VÖ, 45 Wochenstunden; Bruttoeinkommensgruppen",
+        "original": 222
+      }
+    },
+    {
+      "id": "denkendorf-price-1e907bb36c2a",
+      "offer_id": "denkendorf-offer-1492435134f8",
+      "amount_cents": 7500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": "denkendorf-income-472a81015934",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "a19eb9cb9cf3",
+        "locator": "PDF S. 1, Vier GT-Tage und Freitag VÖ, 45 Wochenstunden; Bruttoeinkommensgruppen",
+        "original": 75
+      }
+    },
+    {
+      "id": "denkendorf-price-7ee86539d5a5",
+      "offer_id": "denkendorf-offer-1492435134f8",
+      "amount_cents": 46000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": "denkendorf-income-1628cf85c88c",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "a19eb9cb9cf3",
+        "locator": "PDF S. 1, Vier GT-Tage und Freitag VÖ, 45 Wochenstunden; Bruttoeinkommensgruppen",
+        "original": 460
+      }
+    },
+    {
+      "id": "denkendorf-price-31f2103adff0",
+      "offer_id": "denkendorf-offer-1492435134f8",
+      "amount_cents": 35400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": "denkendorf-income-1628cf85c88c",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "a19eb9cb9cf3",
+        "locator": "PDF S. 1, Vier GT-Tage und Freitag VÖ, 45 Wochenstunden; Bruttoeinkommensgruppen",
+        "original": 354
+      }
+    },
+    {
+      "id": "denkendorf-price-1055974faacc",
+      "offer_id": "denkendorf-offer-1492435134f8",
+      "amount_cents": 24400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": "denkendorf-income-1628cf85c88c",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "a19eb9cb9cf3",
+        "locator": "PDF S. 1, Vier GT-Tage und Freitag VÖ, 45 Wochenstunden; Bruttoeinkommensgruppen",
+        "original": 244
+      }
+    },
+    {
+      "id": "denkendorf-price-8626abf8325d",
+      "offer_id": "denkendorf-offer-1492435134f8",
+      "amount_cents": 8300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": "denkendorf-income-1628cf85c88c",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "a19eb9cb9cf3",
+        "locator": "PDF S. 1, Vier GT-Tage und Freitag VÖ, 45 Wochenstunden; Bruttoeinkommensgruppen",
+        "original": 83
+      }
+    },
+    {
+      "id": "denkendorf-price-49c0851ecf63",
+      "offer_id": "denkendorf-offer-1492435134f8",
+      "amount_cents": 50200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": "denkendorf-income-65679689bfda",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "a19eb9cb9cf3",
+        "locator": "PDF S. 1, Vier GT-Tage und Freitag VÖ, 45 Wochenstunden; Bruttoeinkommensgruppen",
+        "original": 502
+      }
+    },
+    {
+      "id": "denkendorf-price-a2c10c937769",
+      "offer_id": "denkendorf-offer-1492435134f8",
+      "amount_cents": 38700,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": "denkendorf-income-65679689bfda",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "a19eb9cb9cf3",
+        "locator": "PDF S. 1, Vier GT-Tage und Freitag VÖ, 45 Wochenstunden; Bruttoeinkommensgruppen",
+        "original": 387
+      }
+    },
+    {
+      "id": "denkendorf-price-37c2dadb0379",
+      "offer_id": "denkendorf-offer-1492435134f8",
+      "amount_cents": 26600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": "denkendorf-income-65679689bfda",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "a19eb9cb9cf3",
+        "locator": "PDF S. 1, Vier GT-Tage und Freitag VÖ, 45 Wochenstunden; Bruttoeinkommensgruppen",
+        "original": 266
+      }
+    },
+    {
+      "id": "denkendorf-price-3cb03ac6c5c5",
+      "offer_id": "denkendorf-offer-1492435134f8",
+      "amount_cents": 9000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": "denkendorf-income-65679689bfda",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "a19eb9cb9cf3",
+        "locator": "PDF S. 1, Vier GT-Tage und Freitag VÖ, 45 Wochenstunden; Bruttoeinkommensgruppen",
+        "original": 90
+      }
+    }
+  ],
+  "income_bands": [
+    {
+      "id": "denkendorf-income-2179739de81a",
+      "basis": "gross_income",
+      "period": "year",
+      "reference_period": "not_specified",
+      "lower_cents": null,
+      "upper_cents": 5270000,
+      "lower_inclusive": true,
+      "upper_inclusive": true,
+      "is_highest": false,
+      "original_label": "0–52700 Euro",
+      "evidence": {
+        "source_id": "08b47127170a",
+        "locator": "Einkommensstaffel: 0–52700 Euro",
+        "original": null
+      }
+    },
+    {
+      "id": "denkendorf-income-fa678d9cbce0",
+      "basis": "gross_income",
+      "period": "year",
+      "reference_period": "not_specified",
+      "lower_cents": 5270100,
+      "upper_cents": 6610000,
+      "lower_inclusive": true,
+      "upper_inclusive": true,
+      "is_highest": false,
+      "original_label": "52701–66100 Euro",
+      "evidence": {
+        "source_id": "08b47127170a",
+        "locator": "Einkommensstaffel: 52701–66100 Euro",
+        "original": null
+      }
+    },
+    {
+      "id": "denkendorf-income-da258d072604",
+      "basis": "gross_income",
+      "period": "year",
+      "reference_period": "not_specified",
+      "lower_cents": 6610100,
+      "upper_cents": 7960000,
+      "lower_inclusive": true,
+      "upper_inclusive": true,
+      "is_highest": false,
+      "original_label": "66101–79600 Euro",
+      "evidence": {
+        "source_id": "08b47127170a",
+        "locator": "Einkommensstaffel: 66101–79600 Euro",
+        "original": null
+      }
+    },
+    {
+      "id": "denkendorf-income-472a81015934",
+      "basis": "gross_income",
+      "period": "year",
+      "reference_period": "not_specified",
+      "lower_cents": 7960100,
+      "upper_cents": 9270000,
+      "lower_inclusive": true,
+      "upper_inclusive": true,
+      "is_highest": false,
+      "original_label": "79601–92700 Euro",
+      "evidence": {
+        "source_id": "08b47127170a",
+        "locator": "Einkommensstaffel: 79601–92700 Euro",
+        "original": null
+      }
+    },
+    {
+      "id": "denkendorf-income-1628cf85c88c",
+      "basis": "gross_income",
+      "period": "year",
+      "reference_period": "not_specified",
+      "lower_cents": 9270100,
+      "upper_cents": 10580000,
+      "lower_inclusive": true,
+      "upper_inclusive": true,
+      "is_highest": false,
+      "original_label": "92701–105800 Euro",
+      "evidence": {
+        "source_id": "08b47127170a",
+        "locator": "Einkommensstaffel: 92701–105800 Euro",
+        "original": null
+      }
+    },
+    {
+      "id": "denkendorf-income-65679689bfda",
+      "basis": "gross_income",
+      "period": "year",
+      "reference_period": "not_specified",
+      "lower_cents": 10580000,
+      "upper_cents": null,
+      "lower_inclusive": false,
+      "upper_inclusive": true,
+      "is_highest": true,
+      "original_label": "105800–offen Euro",
+      "evidence": {
+        "source_id": "08b47127170a",
+        "locator": "Einkommensstaffel: 105800–offen Euro",
+        "original": null
+      }
+    }
+  ],
+  "components": [
+    {
+      "id": "denkendorf-component-f7c6416c533a",
+      "kind": "meal",
+      "original_label": "Mittagessen bei Ganztag verpflichtend; Kosten nicht bekannt",
+      "amount_cents": null,
+      "unit": "per_month",
+      "age_group": null,
+      "required": true,
+      "payment_months": null,
+      "offer_ids": null,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "value_status": "unknown",
+      "evidence": {
+        "source_id": "08b47127170a",
+        "locator": "Verpflegung / Zusatzkosten",
+        "original": null
+      },
+      "applies_when": {
+        "care_type": "full_day"
+      },
+      "days_per_week": 5
+    }
+  ],
+  "rules": [
+    {
+      "id": "denkendorf-rule-f7a7bdec48c4",
+      "kind": "comparison_policy",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "decision_id": "2026-11-10-denkendorf-comparison",
+        "income_handling": "use_annual_household_gross_directly",
+        "additional_income_inputs": false,
+        "schedule_matching": "allow_friday_shortfall_when_monday_to_thursday_meet_daily_need",
+        "requires_documented_daily_schedule": true,
+        "allowed_shortfall_days": [
+          "friday"
+        ],
+        "retain_original_weekly_minutes": true,
+        "retain_original_price": true,
+        "show_schedule_shortfall": true,
+        "schedule_display_label": "Freitags kürzere Betreuung; tatsächliche Zeiten siehe Betreuungsumfang.",
+        "meal_handling": "separate_unknown_amount"
+      },
+      "evidence": {
+        "source_id": "08b47127170a",
+        "locator": "Dokumentierte Forschungs- und Nutzerfestlegungen",
+        "original": null
+      },
+      "provenance": "research_and_user_decisions"
+    },
+    {
+      "id": "denkendorf-rule-3b8d5bdcff42",
+      "kind": "provider_scope",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "basis": "municipally_published_shared_tariff",
+        "providers": [
+          "Evangelischer Kleinkinderpflegeverein e.V.",
+          "Katholische Kirchengemeinde"
+        ],
+        "different_provider_care_tariffs_found": false,
+        "verification": "shared_publication_no_separate_provider_rates_found",
+        "source_ids": [
+          "d6ab5549d759",
+          "cbc61ce3e909",
+          "a19eb9cb9cf3",
+          "08b47127170a"
+        ],
+        "notes": "Gemeinde veröffentlicht je eine gemeinsame U3-/Ü3-Tabelle für die genannten Träger; keine abweichenden Betreuungstarife nach Träger ausgewiesen. Keine Aussage über sämtliche privatwirtschaftlichen Angebote oder Zusatzkosten."
+      },
+      "evidence": {
+        "source_id": "08b47127170a",
+        "locator": "Dokumentierte Forschungs- und Nutzerfestlegungen",
+        "original": null
+      },
+      "provenance": "research_and_user_decisions"
+    },
+    {
+      "id": "denkendorf-rule-c850621777f1",
+      "kind": "2026-11-10-denkendorf-comparison",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "id": "2026-11-10-denkendorf-comparison",
+        "municipality_id": "denkendorf",
+        "kind": "comparison_and_display_policy",
+        "instruction": "Gemeinsame kommunal veröffentlichte Tarife verwenden. Jahresbrutto unverändert als Einkommen nutzen. Nur freitags kürzere Betreuung zulassen, wenn Montag bis Donnerstag der Bedarf gedeckt ist; tatsächliche Zeiten und Abweichung anzeigen. Verpflichtendes GT-Mittagessen mit unbekanntem Preis kennzeichnen.",
+        "recorded_at": "2026-11-10",
+        "provenance": "user_instruction"
+      },
+      "evidence": {
+        "source_id": "08b47127170a",
+        "locator": "Nutzerfestlegung; keine zusätzliche amtliche Quellenbestätigung",
+        "original": null
+      },
+      "provenance": "user_instruction"
+    },
+    {
+      "id": "denkendorf-rule-4a4495d2c2cb",
+      "kind": "proportional_care_time",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "basis": "actually_offered_hours",
+        "minimum_gt_afternoons": 2,
+        "no_fictitious_daily_schedule": true
+      },
+      "evidence": {
+        "source_id": "08b47127170a",
+        "locator": "Letzter Absatz der U3-/Ü3-Tabelle",
+        "original": null
+      }
+    },
+    {
+      "id": "denkendorf-rule-5bbd670a15f3",
+      "kind": "source_provisions_a19eb9cb9cf3",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "archive_text_path": "data/sources/a19eb9cb9cf3/text.txt",
+        "text_sha256": "64d8207111105eac68dc2d4ced7c6f5a01a03422e611254399d96c15ed325b39",
+        "review_status": "archived_provisions_preserved"
+      },
+      "evidence": {
+        "source_id": "a19eb9cb9cf3",
+        "locator": "Vollständiger archivierter Dokumenttext einschließlich Fußnoten",
+        "original": null
+      }
+    },
+    {
+      "id": "denkendorf-rule-8ee2bfc212bf",
+      "kind": "source_clause_a19eb9cb9cf3_1_1",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 0,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "a19eb9cb9cf3",
+        "locator": "PDF-/Textseite 1, Absatzblock 1",
+        "original": null
+      }
+    },
+    {
+      "id": "denkendorf-rule-b27d78efbaf5",
+      "kind": "source_clause_a19eb9cb9cf3_1_2",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 1,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "a19eb9cb9cf3",
+        "locator": "PDF-/Textseite 1, Absatzblock 2",
+        "original": null
+      }
+    },
+    {
+      "id": "denkendorf-rule-3b80910d3364",
+      "kind": "source_clause_a19eb9cb9cf3_1_3",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 2,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "a19eb9cb9cf3",
+        "locator": "PDF-/Textseite 1, Absatzblock 3",
+        "original": null
+      }
+    },
+    {
+      "id": "denkendorf-rule-deead5fd7b38",
+      "kind": "source_clause_a19eb9cb9cf3_1_4",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 3,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "a19eb9cb9cf3",
+        "locator": "PDF-/Textseite 1, Absatzblock 4",
+        "original": null
+      }
+    },
+    {
+      "id": "denkendorf-rule-24e697443d90",
+      "kind": "source_clause_a19eb9cb9cf3_1_5",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 4,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "a19eb9cb9cf3",
+        "locator": "PDF-/Textseite 1, Absatzblock 5",
+        "original": null
+      }
+    },
+    {
+      "id": "denkendorf-rule-d0175a4f7494",
+      "kind": "source_provisions_08b47127170a",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "archive_text_path": "data/sources/08b47127170a/text.txt",
+        "text_sha256": "30a83ef1f512f6e4a65b161a3716da96f6645b574597fb08a40bad3f48d6ebae",
+        "review_status": "archived_provisions_preserved"
+      },
+      "evidence": {
+        "source_id": "08b47127170a",
+        "locator": "Vollständiger archivierter Dokumenttext einschließlich Fußnoten",
+        "original": null
+      }
+    },
+    {
+      "id": "denkendorf-rule-70f35968921d",
+      "kind": "source_clause_08b47127170a_1_1",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 5,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "08b47127170a",
+        "locator": "PDF-/Textseite 1, Absatzblock 1",
+        "original": null
+      }
+    },
+    {
+      "id": "denkendorf-rule-500466180045",
+      "kind": "source_clause_08b47127170a_1_2",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 6,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "08b47127170a",
+        "locator": "PDF-/Textseite 1, Absatzblock 2",
+        "original": null
+      }
+    },
+    {
+      "id": "denkendorf-rule-6871467cf6f7",
+      "kind": "source_clause_08b47127170a_1_3",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 7,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "08b47127170a",
+        "locator": "PDF-/Textseite 1, Absatzblock 3",
+        "original": null
+      }
+    },
+    {
+      "id": "denkendorf-rule-1f25d9ef23d6",
+      "kind": "source_clause_08b47127170a_1_4",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 8,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "08b47127170a",
+        "locator": "PDF-/Textseite 1, Absatzblock 4",
+        "original": null
+      }
+    },
+    {
+      "id": "denkendorf-rule-b41a5fd46931",
+      "kind": "source_provisions_d6ab5549d759",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "archive_text_path": "data/sources/d6ab5549d759/text.txt",
+        "text_sha256": "290918bb9ede8f8405e20934b128c5aa6f18607ec9d4450eedd2c92317f14553",
+        "review_status": "archived_provisions_preserved"
+      },
+      "evidence": {
+        "source_id": "d6ab5549d759",
+        "locator": "Vollständiger archivierter Dokumenttext einschließlich Fußnoten",
+        "original": null
+      }
+    },
+    {
+      "id": "denkendorf-rule-bf47b87df260",
+      "kind": "source_clause_d6ab5549d759_1_1",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 9,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "d6ab5549d759",
+        "locator": "PDF-/Textseite 1, Absatzblock 1",
+        "original": null
+      }
+    },
+    {
+      "id": "denkendorf-rule-395b1734bff8",
+      "kind": "source_provisions_cbc61ce3e909",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "archive_text_path": "data/sources/cbc61ce3e909/text.txt",
+        "text_sha256": "201abac5ae3da06742252d6b2add247ac6c74595ca2465763eb484a7ce9c1550",
+        "review_status": "archived_provisions_preserved"
+      },
+      "evidence": {
+        "source_id": "cbc61ce3e909",
+        "locator": "Vollständiger archivierter Dokumenttext einschließlich Fußnoten",
+        "original": null
+      }
+    },
+    {
+      "id": "denkendorf-rule-4be54977d06b",
+      "kind": "source_clause_cbc61ce3e909_1_1",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 10,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "cbc61ce3e909",
+        "locator": "PDF-/Textseite 1, Absatzblock 1",
+        "original": null
+      }
+    }
+  ],
+  "issues": [
+    {
+      "code": "pending_calculation_review",
+      "detail": "Strukturierter Import; noch keine Freigabe des Rechners oder der Website."
+    },
+    {
+      "code": "research_limitation_1",
+      "detail": "Freitagsausnahme nur für belegte Tagesverteilungen verwenden, keine allgemeine Lockerung bei anderen Kommunen oder weiteren Wochentagen."
+    },
+    {
+      "code": "research_limitation_2",
+      "detail": "Weitere tatsächlich angebotene Stundenvarianten dürfen proportional berechnet werden, wenn Tagesverteilung und Tarifgrundlage belegt sind. Keine fiktive Acht-Stunden-Woche erzeugen."
+    }
+  ],
+  "coverage": {
+    "publication_status": "not_active",
+    "integration_status": "normalized_pending_calculation_review",
+    "history_in_scope": false,
+    "source_register": "data/research/neighbor_expansion_2026-11-10.json",
+    "research_id": "denkendorf",
+    "unavailable_configurations": [],
+    "offers": 5,
+    "price_cells": 120,
+    "income_bands": 6,
+    "components": 1,
+    "rule_records": 19,
+    "tariff_table_transcription": "complete_for_declared_scope",
+    "declared_scope": "Aktuelle und bereits veröffentlichte künftige Krippen- und Kindergartentarife; Zusatzkosten und Gebührenregeln.",
+    "excluded_from_regular_price_rows": [
+      "superseded_historical_tariffs",
+      "school_childcare",
+      "takki_and_childminding",
+      "separate_playgroups"
+    ],
+    "calculation_engine_changed": false,
+    "rule_transcription": "typed_parameters_and_source_clauses_with_explicit_unimplemented_status"
+  },
+  "original_research": {
+    "path": "data/research/neighbor_expansion_2026-11-10.json",
+    "section": "Denkendorf",
+    "text": "Die Gemeinde veröffentlicht gemeinsame U3-/Ü3-Beiträge für die evangelischen und katholischen Einrichtungen. Unterschiedliche Betreuungstarife nach Träger sind in diesen Unterlagen nicht ausgewiesen.\nJahresbrutto wird gemäß Nutzerfestlegung direkt aus der gemeinsamen Modellvariable übernommen; keine weiteren Einkommensangaben oder Abzüge erforderlich.\nNur die Freitagsabweichung wird für den Vergleich zugelassen: belegte GT-Woche Montag bis Donnerstag 7–16:30 Uhr, Freitag 7–14 Uhr. Einordnung nach Montag bis Donnerstag, Originalbeitrag und tatsächliche 45 Wochenstunden erhalten. Keine Aussage über fünfmal acht Stunden Betreuung.\nElf Beitragsmonate sind belegt. Ganztagskinder müssen an fünf Tagen am Mittagessen teilnehmen; Preis unbekannt und entsprechend anzuzeigen.\nFreitagsausnahme nur für belegte Tagesverteilungen verwenden, keine allgemeine Lockerung bei anderen Kommunen oder weiteren Wochentagen.\nWeitere tatsächlich angebotene Stundenvarianten dürfen proportional berechnet werden, wenn Tagesverteilung und Tarifgrundlage belegt sind. Keine fiktive Acht-Stunden-Woche erzeugen.",
+    "source_clauses": [
+      {
+        "text": "Elternbeiträge im Kindergarten (über 3-Jährige) ab 01.09.2026\nBetreuungsgebühren ohne Essen\nAb 01. September 2026 werden die Elternbeiträge entsprechend den Empfehlungen der kirchlichen und\nkommunalen Spitzenverbände angepasst. Die Gebühren beziehen sich auf 11 gebührenpflichtige Monate\n(Sept. 2026 - Juli 2027). Die Kinderzahl bezieht sich auf alle Kinder einer Familie bzw. auf alle Kinder einer\neheähnlichen Lebensgemeinschaft bis zum vollendeten 18. Lebensjahr, die im selben Haushalt leben,\nunabhängig wie viele das Betreuungsangebot wahrnehmen. Die Gebühren sind einkommensabhängig. Bei\nder Ganztagesbetreuung fallen zusätzlich Kosten für das Mittagessen an.",
+        "evidence": {
+          "source_id": "a19eb9cb9cf3",
+          "locator": "PDF-/Textseite 1, Absatzblock 1",
+          "original": null
+        }
+      },
+      {
+        "text": "Verlängerte Öffnungszeiten (VÖ) 30 h/Woche\n                                                                                                  4 Kinder\nEinkommensgruppe Jahresbruttoeinkommen* 1 Kind**                      2 Kinder      3 Kinder\n                                                                                                  und mehr\n           1                          über 105.800 €         217 €         169 €          115 €          38 €\n           2                      92.701 - 105.800 €         199 €         155 €          106 €          35 €\n           3                       79.601 - 92.700 €         181 €         141 €           96 €          32 €\n           4                       66.101 - 79.600 €         163 €         127 €           86 €          29 €\n           5                       52.701 - 66.100 €         145 €         113 €           77 €          26 €\n           6                            bis 52.700 €         127 €          99 €           67 €          22 €\n* Jahresbruttoeinkommen der Familie\n**Kinder unter 18 Jahren im selben Haushalt lebend",
+        "evidence": {
+          "source_id": "a19eb9cb9cf3",
+          "locator": "PDF-/Textseite 1, Absatzblock 2",
+          "original": null
+        }
+      },
+      {
+        "text": "Verlängerte Öffnungszeiten 35 h/Woche\n                                                                                                  4 Kinder\nEinkommensgruppe Jahresbruttoeinkommen* 1 Kind**                      2 Kinder      3 Kinder\n                                                                                                  und mehr\n           1                          über 105.800 €         317 €         244 €          168 €          57 €\n           2                      92.701 - 105.800 €         290 €         224 €          154 €          52 €\n           3                       79.601 - 92.700 €         264 €         203 €          140 €          48 €\n           4                       66.101 - 79.600 €         238 €         183 €          126 €          43 €\n           5                       52.701 - 66.100 €         211 €         163 €          112 €          38 €\n           6                            bis 52.700 €         185 €         142 €           98 €          33 €",
+        "evidence": {
+          "source_id": "a19eb9cb9cf3",
+          "locator": "PDF-/Textseite 1, Absatzblock 3",
+          "original": null
+        }
+      },
+      {
+        "text": "4 Tage GTB, 1 Tag VÖ - 45 h/Woche\n(z.B. Mo-Do.: 7-16:30 Uhr und Fr. 7-14 Uhr)\n                                                                                                4 Kinder\nEinkommensgruppe Jahresbruttoeinkommen* 1 Kind**                      2 Kinder      3 Kinder\n                                                                                                und mehr\n           1                          über 105.800 €          502 €         387 €         266 €         90 €\n           2                      92.701 - 105.800 €          460 €         354 €         244 €         83 €\n           3                       79.601 - 92.700 €          419 €         322 €         222 €         75 €\n           4                       66.101 - 79.600 €          377 €         290 €         200 €           68 €\n           5                       52.701 - 66.100 €          335 €         258 €         177 €           60 €\n           6                            bis 52.700 €          293 €         226 €         155 €           53 €",
+        "evidence": {
+          "source_id": "a19eb9cb9cf3",
+          "locator": "PDF-/Textseite 1, Absatzblock 4",
+          "original": null
+        }
+      },
+      {
+        "text": "Bitte beachten Sie, dass aufgrund der Vielzahl der verschiedenen Betreuungszeiten nicht alles\nabgebildet werden kann. Die Elternbeiträge können anhand der tatsächlich angebotenen\nBetreuungszeiten proportional zu den abgebildeten Betreuungszeiten berechnet werden. Grundsätzlich\nist bei allen Ganztageseinrichtungen eine Reduzierung auf 2 Nachmittage möglich. Auch bei der\nReduzierung der Nachmittage werden die Elternbeiträge proportional zu den angebotenen\nBetreuungsstunden berechnet. Alle Ganztageskinder müssen an 5 Tagen/Woche am Mittagessen\nteilnehmen, egal an wie vielen Nachmittagen sie betreut werden.",
+        "evidence": {
+          "source_id": "a19eb9cb9cf3",
+          "locator": "PDF-/Textseite 1, Absatzblock 5",
+          "original": null
+        }
+      },
+      {
+        "text": "Elternbeiträge für die Kinderkrippe (unter 3- Jährige) ab 01.09.2026\nBetreuungsgebühren ohne Essen\nAb 01. September 2026 erhöhen sich die Elternbeiträge für die Betreuung in der\nKinderkrippe. Die Gebühren beziehen sich auf 11 gebührenpflichtige Monate (Sept. 2026 -\nJuli 2027). Die Kinderzahl bezieht sich auf alle Kinder einer Familie bzw. auf alle Kinder\neiner eheähnlichen Lebensgemeinschaft bis zum vollendeten 18. Lebensjahr, die im selben\nHaushalt leben, unabhängig wie viele das Betreuungsangebot wahrnehmen. Die Gebühren\nsind einkommensabhängig. Bei der Ganztagesbetreuung fallen zusätzlich Kosten für das\nMittagessen an.",
+        "evidence": {
+          "source_id": "08b47127170a",
+          "locator": "PDF-/Textseite 1, Absatzblock 1",
+          "original": null
+        }
+      },
+      {
+        "text": "Verlängerte Öffnungszeiten (VÖ) 30 Std./Woche\n(Mo-Fr von 7:00 bis 13:00 Uhr bzw. 7:15 bis 13:15 Uhr)\nEinkommens- Jahresbrutto-         1 Kind**    2 Kinder    3 Kinder    4 Kinder\ngruppe      einkommen*                                                und mehr\n     1            über 105.800 €        644 €       479 €       323 €       127 €\n     2         92.701 - 105.800 €       591 €       439 €       296 €       117 €\n     3          79.601 - 92.700 €       537 €       399 €       269 €       106 €\n     4          66.101 - 79.600 €       483 €       359 €       242 €        95 €\n     5          52.701 - 66.100 €       430 €       319 €       215 €        85 €\n     6               bis 52.700 €       376 €       279 €       188 €        74 €\n* Jahresbruttoeinkommen der Familie\n**Kinder unter 18 Jahren im selben Haushalt lebend",
+        "evidence": {
+          "source_id": "08b47127170a",
+          "locator": "PDF-/Textseite 1, Absatzblock 2",
+          "original": null
+        }
+      },
+      {
+        "text": "4 Tage Ganztagesbetreuung 45 Std./Woche\n(z.B. Mo-Fr von 7:00 bis 16:30 Uhr und Fr von 7:00 bis 14:00 Uhr)\nEinkommens- Jahresbrutto-         1 Kind**    2 Kinder    3 Kinder    4 Kinder\ngruppe      einkommen*                                                und mehr\n     1            über 105.800 €        931 €       689 €       466 €       186 €\n     2         92.701 - 105.800 €       854 €       632 €       427 €       171 €\n     3          79.601 - 92.700 €       776 €       574 €       388 €       155 €\n     4          66.101 - 79.600 €       698 €       517 €       349 €       140 €\n     5          52.701 - 66.100 €       621 €       459 €       310 €       124 €\n     6               bis 52.700 €       543 €       402 €       272 €       109 €",
+        "evidence": {
+          "source_id": "08b47127170a",
+          "locator": "PDF-/Textseite 1, Absatzblock 3",
+          "original": null
+        }
+      },
+      {
+        "text": "Bitte beachten Sie, dass aufgrund der Vielzahl der verschiedenen Betreuungszeiten nicht\nalles abgebildet werden kann. Die Elternbeiträge können anhand der tatsächlich\nangebotenen Betreuungszeiten proportional zu den abgebildeten Betreuungszeiten\nberechnet werden. Grundsätzlich ist bei allen Ganztageseinrichtungen eine Reduzierung\nauf 2 Nachmittage möglich. Auch bei der Reduzierung der Nachmittage werden die\nElternbeiträge proportional zu den angebotenen Betreuungsstunden berechnet. Alle\nGanztageskinder müssen an 5 Tagen/Woche am Mittagessen teilnehmen, egal an wie\nvielen Nachmittagen sie betreut werden.",
+        "evidence": {
+          "source_id": "08b47127170a",
+          "locator": "PDF-/Textseite 1, Absatzblock 4",
+          "original": null
+        }
+      },
+      {
+        "text": "Kindergärten: Gemeinde Denkendorf\nKindergärten: Denkendorf\nSeitenbereiche\nZum Inhalt springen (Enter drücken)\nZur Inhaltsübersicht\nZum Kontakt\nSuchfeld fokusieren\nZur Startseite\nDiese Website benötigt einen Cookie zur Darstellung externer Inhalte\nUm unsere Website für Sie optimal gestalten und fortlaufend verbessern zu können, verwenden wir einwilligungspflichtige externe Dienste und geben dadurch Ihre personenbezogenen Daten an Dritte weiter. Über den Button „Mehr“ können Sie einzeln auswählen, welche Dienste Sie zulassen möchten. Sie können Ihre Zustimmung und Einwilligung jederzeit widerrufen.\nVerweigernMehr\nImpressumDatenschutzBarrierefreiheit\nCookie-Banner\nNavigation einblenden\nFunktionell\nYouTube\nEssentiell\nOnline-Formulare\nMedienbanner Wiedergabe oder Pausezustand\nFunktionell\nDiese Technologien ermöglichen es uns, die Nutzung der Website zu analysieren, um die Leistung zu messen und zu verbessern.\nYouTubeYouTube\nDies ist ein Dienst zum Anzeigen von Videoinhalten.\nVerarbeitungsunternehmen\nGoogle Ireland Limited\nGoogle Building Gordon House, 4 Barrow St, Dublin, D04 E5W5, Ireland\nDatenverarbeitungszwecke\nDiese Liste stellt die Zwecke der Datenerhebung und -verarbeitung dar. Eine Einwilligung gilt nur für die angegebenen Zwecke. Die gesammelten Daten können nicht für einen anderen als den unten aufgeführten Zweck verwendet oder gespeichert werden.\nVideos anzeigen\nEinwilligungshinweis\nBitte beachten Sie, dass bei Ihrer Einwilligung zu einem Dienst auch das Laden von externen Daten sowie die Weitergabe personenbezogener Daten an diesen Dienst erlaubt wird.\nGenutzte Technologien\nCookies (falls \"Privacy-Enhanced Mode\" nicht aktiviert ist)\nErhobene Daten\nDiese Liste enthält alle (persönlichen) Daten, die von oder durch die Nutzung dieses Dienstes gesammelt werden.\nIP-Adresse\nReferrer-URL\nGeräte-Informationen\nGesehene Videos\nRechtsgrundlage\nIm Folgenden wird die nach Art. 6 I 1 DSGVO geforderte Rechtsgrundlage für die Verarbeitung von personenbezogenen Daten genannt.\nArt. 6 Abs. 1 s. 1 lit. a DSGVO\nOrt der Verarbeitung\nEuropäische Union\nAufbewahrungsdauer\nDie Aufbewahrungsfrist ist die Zeitspanne, in der die gesammelten Daten für die Verarbeitung gespeichert werden. Die Daten müssen gelöscht werden, sobald sie für die angegebenen Verarbeitungszwecke nicht mehr benötigt werden.\nDie Daten werden gelöscht, sobald sie nicht mehr für die Verarbeitungszwecke benötigt werden.\nDatenempfänger\nAlphabet Inc.\nGoogle LLC\nGoogle Ireland Limited\nDatenschutzbeauftragter der verarbeitenden Firma\nNachfolgend finden Sie die E-Mail-Adresse des Datenschutzbeauftragten des verarbeitenden Unternehmens.\nhttps://support.google.com/policies/contact/general_privacy_form\nWeitergabe an Drittländer\nEinige Services leiten die erfassten Daten an ein anderes Land weiter. Nachfolgend finden Sie eine Liste der Länder, in die die Daten übertragen werden. Dies kann für verschiedene Zwecke der Fall sein, z. B. zum Speichern oder Verarbeiten.\nWeltweit\nKlicken Sie hier, um die Datenschutzbestimmungen des Datenverarbeiters zu lesen\nhttps://policies.google.com/privacy?hl=en\nKlicken Sie hier, um auf allen Domains des verarbeitenden Unternehmens zu widersprechen\nhttps://safety.google/privacy/privacy-controls/\nKlicken Sie hier, um die Cookie-Richtlinie des Datenverarbeiters zu lesen\nhttps://policies.google.com/technologies/cookies?hl=en\nZugehörige Cookies\nZu diesem Dienst gehören die folgenden Cookies:\nhwdatenschutz_cookie_youtube\nSetzt zusätzliche Cookies für eine andere Domain (youtube.com)\nEssentiell\nDiese Technologien sind erforderlich, um die Kernfunktionalität der Website zu ermöglichen.\nDie Cookies mit dem Präfix hwdatenschutz_cookie_ werden verwendet, um Ihre Auswahl aller auswählbaren Cookies zu speichern. Die essentiellen Cookies werden automatisch auf 1 gesetzt, da sie notwendig sind, um sicherzustellen, dass die entsprechende Funktion bei Bedarf geladen wird.\nDas Cookie namens hwdatenschutz_cookie_approved speichert den aktuellen Zustimmungsstatus des Cookie-Banners. Sollte es ein Update der Website geben, das Aspekte der Cookies verändert, würde dies zu einer Versionsdiskrepanz im Cookie-Banner führen. Folglich werden Sie aufgefordert, Ihre Zustimmung zu überprüfen und erneut zu erteilen.\nAlle hwdatenschutz_cookie_ haben eine Bestandsdauer von einem Monat und laufen nach diesem Zeitraum ab.\nBei jedem Dienst ist das entsprechende Cookie hwdatenschutz_cookie_ aufgeführt, um zu erkennen, welches Cookie welchen Dienst ermöglicht.\nOnline-FormulareOnline-Formulare\nErmöglicht die Bedienung von Online-Formularen.\nVerarbeitungsunternehmen\nGemeinde Denkendorf\nGenutzte Technologien\nCookies akzeptieren\nErhobene Daten\nDiese Liste enthält alle (persönlichen) Daten, die von oder durch die Nutzung dieses Dienstes gesammelt werden.\nIP-Adresse\nBrowser-Informationen\nRechtsgrundlage\nIm Folgenden wird die nach Art. 6 I 1 DSGVO geforderte Rechtsgrundlage für die Verarbeitung von personenbezogenen Daten genannt.\nArt. 6 Abs. 1 s. 1 lit. e DSGVO\nOrt der Verarbeitung\nEuropäische Union\nAufbewahrungsdauer\nDie Aufbewahrungsfrist ist die Zeitspanne, in der die gesammelten Daten für die Verarbeitung gespeichert werden. Die Daten müssen gelöscht werden, sobald sie für die angegebenen Verarbeitungszwecke nicht mehr benötigt werden.\nDie Daten werden gelöscht, sobald die Sitzung beendet ist.\nKlicken Sie hier, um die Datenschutzbestimmungen des Datenverarbeiters zu lesen\nhttps://www.denkendorf.de/rathaus-service/service-impressum/datenschutz\nZugehörige Cookies\nZu diesem Dienst gehören die folgenden Cookies:\nhwdatenschutz_cookie_powermail\nfe_typo_user\nMedienbanner Wiedergabe oder PausezustandMedienbanner Wiedergabe oder Pausezustand\nDies ist ein technisches Cookie und dient dazu, Ihre Präferenz bezüglich der automatischen Wiedergabe von wechselnden Bildern oder Videos zu respektieren.\nVerarbeitungsunternehmen\nGemeinde Denkendorf\nGenutzte Technologien\nCookies akzeptieren\nRechtsgrundlage\nIm Folgenden wird die nach Art. 6 I 1 DSGVO geforderte Rechtsgrundlage für die Verarbeitung von personenbezogenen Daten genannt.\nArt. 6 Abs. 1 s. 1 lit. e DSGVO\nOrt der Verarbeitung\nEuropäische Union\nAufbewahrungsdauer\nDie Aufbewahrungsfrist ist die Zeitspanne, in der die gesammelten Daten für die Verarbeitung gespeichert werden. Die Daten müssen gelöscht werden, sobald sie für die angegebenen Verarbeitungszwecke nicht mehr benötigt werden.\nDie Daten werden gelöscht, sobald die Sitzung beendet ist.\nKlicken Sie hier, um die Datenschutzbestimmungen des Datenverarbeiters zu lesen\nhttps://www.denkendorf.de/rathaus-service/service-impressum/datenschutz\nZugehörige Cookies\nZu diesem Dienst gehören die folgenden Cookies:\nhwdatenschutz_cookie_imagebanner\nhwbanner_cookie_banner_playstate\nKeine markieren\nSpeichern und schließen\nAlle markieren\nMenü öffnen\nKindergärtenMenü schließen\nMenü\nSuche starten\nMenü\nGemeinde & PolitikGemeinde & Politik\nGrußwort\nÜber uns\nPortrait\nGeschichte\nKloster\nBürgermeister\nZahlen, Daten & Fakten\nBürgerbroschüre\nLogo\nFotowettbewerb\nLage & Anfahrt\nOrtsplan\nInteraktive Karte\nKinder- & Schülerstadtplan\nWebcam\nPartnerschaft mit Meximieux\nAllgemeines zur Partnerschaft\nPartnerschaftskomitee\nAktuelles\nJahresterminübersicht\nAktivitäten\nBildergalerie\nStiftungen\nBürgerstiftung\nTSV-Stiftung\nFeuerwehr\nGemeinderat\nMitglieder\nRatsinformation\nSitzungstermine\nAusschüsse\nJugend entscheidet\nWahlen\nRathaus & ServiceRathaus & Service\nAktuelles aus der Gemeinde\nVerwaltung & Mitarbeiter\nKontakt & Öffnungszeiten\nMitarbeiter\nRückrufservice\nBankverbindungen\nVirtuelles Rathaus\nBürgerserviceportal\nAuskunftsservice Ausweis/Pass\nFormulare Rathaus\nMängelmeldung\nVirtuelle Poststelle\nPostkarte an BM Barth\nGemeindeanzeiger\nStellenangebote\nKommunal-App\nHeiraten\nFriedhof & Bestattungen\nOrtsrecht\nAusschreibungen\nVergaben\nService & Impressum\nSuche\nInhalt\nImpressum\nDatenschutz\nNutzungsbedingungen\nErklärung zur Barrierefreiheit\nLeben & WohnenLeben & Wohnen\nFörderung Breitband\nBauen & Wohnen\nGemeinsam Bauen\nWohnbaugebiet Wasserreute\nGemeindeentwicklungskonzept (GEK)\nBebauungspläne\nLaufende Planverfahren\nAbgeschlossene Planverfahren\nGewerbegebiet Nördlich Albstraße\nKinderhaus Alter Eichwald\nWohnen\nMietspiegel\nGutachterausschuss\nObere Ortsmitte\nVermietungen\nEnergielandkarte\nSanierungsgebiet\nFörderung für Familien\nFamilienpass\nBildung und Teilhabe\nFamilien in Not\nKinderbetreuung\nKleinkindbetreuung\nKindergärten\nKindertagespflege\nSchulen & Weiterbildung\nAlbert-Schweitzer-Schule\nLudwig-Uhland-Schule\nGymnasien\nFörderschule\nSchülerganztagsbetreuung\nSchülerferienbetreuung\nMusikschule\nVHS\nSommerferienprogramm\nMobilität\nÖPNV\nBürgerbus\nElektromobilität\nPflegestützpunkt\nÄlterwerden\nKoord.stelle Älterwerden\nVeranstaltungen\nWegweiser für Ältere\nHilfe & Pflege\nSpazierwege\nNette Bürgertoilette\nAsyl & Geflüchtete Menschen\nEhrenamtliche Unterstützung\nIntegrationsmanagement\nKirchen\nVer- & Entsorgung\nW-LAN in der Ortsmitte\nMüll & Entsorgung\nWasser\nAbwasser\nGesundheitsdienste\nÄrzte\nApotheken\nNotruftafel\nNotfalldose\nHelfer vor Ort\nFrühdefibrillation\nFreizeit & KulturFreizeit & Kultur\nVeranstaltungskalender\nVeranstaltungen melden\nRäume in Denkendorf\nBücherei\nAktuelles\nKontakt & Öffnungszeiten\nÜber uns\nAngebot & Service\nBenutzung & Gebühren\nVeranstaltungen\nFür Bildungseinrichtungen\nKinder & Jugendliche\nOnline-Katalog & Zugangskonto\nFreibad\nKinder & Jugendliche\nVeranstaltungen\nKinder- und Jugendzentrum Focus\nSpielplätze\nFeste & Märkte\nSchlehenfest\nWeihnachtstreff\nEhrenamtsfest\nKelter\nFesthalle\nAngebote für Senioren\nTreffpunkte zur Begegnung\nTreffpunkte zur Bewegung\nInteressensgruppen\nGenerationentreff\nÜber uns\nVeranstaltungen\nBürgertreff\nKulturangebote\nRolf-Deuschle-Heimatmuseum\nOpen-Air-Kino im Klosterhof\nVeranstaltungsring Denkendorf e. V.\nJazz in der Kelter\nKulturkalender Filder\nKunst im Rathaus\nNaherholung & Tourismus\nRad- und Wanderwege\nKlostersee\nErlachsee\nHölderlin-Brunnen\nStauferstele\nJakobsweg\nNaturerlebnisweg „Kugelpfad“\nSchickhardt Kulturstraße\nBarrierearme Angebote im Kreis\nÜbernachten\nEssen & Trinken\nSport\nSportstätten\nSportangebote\nLaufwege\nVereine\nVereinsliste\nBeteiligungsprozess #mit.Denkendorf.machen\nARGE Denkendorfer Vereine\nÜber uns\nNeues aus der ARGE\nSchlehenfest\nWeihnachtstreff\nVereins-Challenges\nFamilien in Not\nARGE-Chronik\nWirtschaft & UmweltWirtschaft & Umwelt\nKlimaschutz\nKlimaschutz aktuell\nKlimaschutz kommunal\nKlimaschutz für alle\nEnergie- & Wärmewende\nNatur & Umwelt\nBiotopverbundplanung\nKlimaschutzinitiative\nKlimaschutzagentur\nUmwelt\nRenaturierung Körsch\nHochwasserschutz\nStarkregengefahr\nLärmaktionsplanung\nLandschaftsraum Filder\nWaldbewirtschaftung\nStreuobstwiesen\nAktion \"Gelbes Band\"\nStadtjäger\nFirmenliste\nÜbernachten\nEssen & Trinken\nWirtschaftsförderung\nGewerbeimmobilien\nLokale Presse\nAusbildungsbörse\nBDS Denkendorf\nSuche starten\nMenü schließen\nGemeinde & Politik\nGrußwort\nÜber uns\nPortrait\nGeschichte\nKloster\nBürgermeister\nZahlen, Daten & Fakten\nBürgerbroschüre\nLogo\nFotowettbewerb\nLage & Anfahrt\nOrtsplan\nInteraktive Karte\nKinder- & Schülerstadtplan\nWebcam\nPartnerschaft mit Meximieux\nAllgemeines zur Partnerschaft\nPartnerschaftskomitee\nAktuelles\nJahresterminübersicht\nAktivitäten\nBildergalerie\nStiftungen\nBürgerstiftung\nTSV-Stiftung\nFeuerwehr\nGemeinderat\nMitglieder\nRatsinformation\nSitzungstermine\nAusschüsse\nJugend entscheidet\nWahlen\nMenü schließen\nMenü schließen\nRathaus & Service\nAktuelles aus der Gemeinde\nVerwaltung & Mitarbeiter\nKontakt & Öffnungszeiten\nMitarbeiter\nRückrufservice\nBankverbindungen\nVirtuelles Rathaus\nBürgerserviceportal\nAuskunftsservice Ausweis/Pass\nFormulare Rathaus\nMängelmeldung\nVirtuelle Poststelle\nPostkarte an BM Barth\nGemeindeanzeiger\nStellenangebote\nKommunal-App\nHeiraten\nFriedhof & Bestattungen\nOrtsrecht\nAusschreibungen\nVergaben\nService & Impressum\nSuche\nInhalt\nImpressum\nDatenschutz\nNutzungsbedingungen\nErklärung zur Barrierefreiheit\nMenü schließen\nMenü schließen\nLeben & Wohnen\nFörderung Breitband\nBauen & Wohnen\nGemeinsam Bauen\nWohnbaugebiet Wasserreute\nGemeindeentwicklungskonzept (GEK)\nBebauungspläne\nLaufende Planverfahren\nAbgeschlossene Planverfahren\nGewerbegebiet Nördlich Albstraße\nKinderhaus Alter Eichwald\nWohnen\nMietspiegel\nGutachterausschuss\nObere Ortsmitte\nVermietungen\nEnergielandkarte\nSanierungsgebiet\nFörderung für Familien\nFamilienpass\nBildung und Teilhabe\nFamilien in Not\nKinderbetreuung\nKleinkindbetreuung\nKindergärten\nKindertagespflege\nSchulen & Weiterbildung\nAlbert-Schweitzer-Schule\nLudwig-Uhland-Schule\nGymnasien\nFörderschule\nSchülerganztagsbetreuung\nSchülerferienbetreuung\nMusikschule\nVHS\nSommerferienprogramm\nMobilität\nÖPNV\nBürgerbus\nElektromobilität\nPflegestützpunkt\nÄlterwerden\nKoord.stelle Älterwerden\nVeranstaltungen\nWegweiser für Ältere\nHilfe & Pflege\nSpazierwege\nNette Bürgertoilette\nAsyl & Geflüchtete Menschen\nEhrenamtliche Unterstützung\nIntegrationsmanagement\nKirchen\nVer- & Entsorgung\nW-LAN in der Ortsmitte\nMüll & Entsorgung\nWasser\nAbwasser\nGesundheitsdienste\nÄrzte\nApotheken\nNotruftafel\nNotfalldose\nHelfer vor Ort\nFrühdefibrillation\nMenü schließen\nMenü schließen\nFreizeit & Kultur\nVeranstaltungskalender\nVeranstaltungen melden\nRäume in Denkendorf\nBücherei\nAktuelles\nKontakt & Öffnungszeiten\nÜber uns\nAngebot & Service\nBenutzung & Gebühren\nVeranstaltungen\nFür Bildungseinrichtungen\nKinder & Jugendliche\nOnline-Katalog & Zugangskonto\nFreibad\nKinder & Jugendliche\nVeranstaltungen\nKinder- und Jugendzentrum Focus\nSpielplätze\nFeste & Märkte\nSchlehenfest\nWeihnachtstreff\nEhrenamtsfest\nKelter\nFesthalle\nAngebote für Senioren\nTreffpunkte zur Begegnung\nTreffpunkte zur Bewegung\nInteressensgruppen\nGenerationentreff\nÜber uns\nVeranstaltungen\nBürgertreff\nKulturangebote\nRolf-Deuschle-Heimatmuseum\nOpen-Air-Kino im Klosterhof\nVeranstaltungsring Denkendorf e. V.\nJazz in der Kelter\nKulturkalender Filder\nKunst im Rathaus\nNaherholung & Tourismus\nRad- und Wanderwege\nKlostersee\nErlachsee\nHölderlin-Brunnen\nStauferstele\nJakobsweg\nNaturerlebnisweg „Kugelpfad“\nSchickhardt Kulturstraße\nBarrierearme Angebote im Kreis\nÜbernachten\nEssen & Trinken\nSport\nSportstätten\nSportangebote\nLaufwege\nVereine\nVereinsliste\nBeteiligungsprozess #mit.Denkendorf.machen\nARGE Denkendorfer Vereine\nÜber uns\nNeues aus der ARGE\nSchlehenfest\nWeihnachtstreff\nVereins-Challenges\nFamilien in Not\nARGE-Chronik\nMenü schließen\nMenü schließen\nWirtschaft & Umwelt\nKlimaschutz\nKlimaschutz aktuell\nKlimaschutz kommunal\nKlimaschutz für alle\nEnergie- & Wärmewende\nNatur & Umwelt\nBiotopverbundplanung\nKlimaschutzinitiative\nKlimaschutzagentur\nUmwelt\nRenaturierung Körsch\nHochwasserschutz\nStarkregengefahr\nLärmaktionsplanung\nLandschaftsraum Filder\nWaldbewirtschaftung\nStreuobstwiesen\nAktion \"Gelbes Band\"\nStadtjäger\nFirmenliste\nÜbernachten\nEssen & Trinken\nWirtschaftsförderung\nGewerbeimmobilien\nLokale Presse\nAusbildungsbörse\nBDS Denkendorf\nMenü schließen\nVorheriges Bannerbild\nNächstes Bannerbild\nWiedergabe startenWiedergabe pausieren\nUntermenü\nSie befinden sich im folgenden Menüpunkt:Leben & Wohnen\nFörderung Breitband\nBauen & Wohnen\nGemeinsam Bauen\nWohnbaugebiet Wasserreute\nGemeindeentwicklungskonzept (GEK)\nBebauungspläne\nLaufende Planverfahren\nAbgeschlossene Planverfahren\nGewerbegebiet Nördlich Albstraße\nKinderhaus Alter Eichwald\nWohnen\nMietspiegel\nGutachterausschuss\nObere Ortsmitte\nVermietungen\nEnergielandkarte\nSanierungsgebiet\nFörderung für Familien\nFamilienpass\nBildung und Teilhabe\nFamilien in Not\nKinderbetreuung\nKleinkindbetreuung\nKindergärten\nKindertagespflege\nSchulen & Weiterbildung\nAlbert-Schweitzer-Schule\nLudwig-Uhland-Schule\nGymnasien\nFörderschule\nSchülerganztagsbetreuung\nSchülerferienbetreuung\nMusikschule\nVHS\nSommerferienprogramm\nMobilität\nÖPNV\nBürgerbus\nElektromobilität\nPflegestützpunkt\nÄlterwerden\nKoord.stelle Älterwerden\nVeranstaltungen\nWegweiser für Ältere\nHilfe & Pflege\nSpazierwege\nNette Bürgertoilette\nAsyl & Geflüchtete Menschen\nEhrenamtliche Unterstützung\nIntegrationsmanagement\nKirchen\nVer- & Entsorgung\nW-LAN in der Ortsmitte\nMüll & Entsorgung\nWasser\nAbwasser\nGesundheitsdienste\nÄrzte\nApotheken\nNotruftafel\nNotfalldose\nHelfer vor Ort\nFrühdefibrillation\nDrucken\nStartseiteLeben & WohnenKinderbetreuungKindergärten\nKindergärten in Denkendorf\nIn Denkendorf gibt es insgesamt neun Kindergärten. Träger der Kindergartenarbeit sind der Evangelische Kleinkinderpflegeverein e.V. und die Katholische Kirchengemeinde.\nBesuchen Sie die Homepage des Evangelischen Kleinkinderpflegevereins.\nKinderhaus Lange Äcker\nGeorg-Weber Kindergarten\nEvangelische Kindergärten\nLeitung:\nEvangelischer Kleinkinderpflegeverein, Pfarrer Dr. Rolf Noormann\nKlosterhof 8\n73770 Denkendorf\nTelefonnummer: 0711 3461160\nPädagogische Gesamtleitung\nChristine Lehmann\nMaierhof 5\nTelefonnummer: 0711 88283062\nE-Mail schreiben\nKinderhaus Alter Eichwald\nLange Äcker 80\n73770 Denkendorf\nTelefonnummer: 0711 3464805\nKlingenacker- Kindergarten\nKurze Straße 6\n73770 Denkendorf\nTelefonnummer: 0711 3461124\nGeorg-Weber-Kindergarten\nHeydstraße 11\n73770 Denkendorf\nTelefonnummer: 0711 344212\nMühlhalden Kindergarten\nMühlhaldenstraße 28\n73770 Denkendorf\nTelefonnummer: 0711 3466668\nKinderhaus Lange Äcker\nLenaustraße 8\n73770 Denkendorf\nTelefonnummer: 0711 1205220\nKinderhaus Maierhof\nMaierhof 5\n73770 Denkendorf\nTelefonnummer: 0711 882830-60\nKinderhaus Berkheimer Straße\nBerkheimer Str. 43\n73770 Denkendorf\nTelefonnummer: 0711 30538780\nKatholischer Kindergarten\nLeitung:\nKath. Kirchengemeinde,\nPfarrer Alfred Kirsch\nSchillerstraße 38\n73770 Denkendorf\nTelefonnummer: 0711 3461176\nKath. Kindergarten St. Martin\nJohannes-Kepler-Straße 3-5\n73770 Denkendorf\nTelefonnummer: 0711 344517\nÖffnungszeiten der Kindergärten\nKlingenacker-Kindergarten\nMontag bis Freitag\n07:30 Uhr bis 13:30 Uhr\nGeorg-Weber-Kindergarten\nVeränderte Öffnungszeiten\nMontag - Freitag\n07:30 Uhr bis 13:30 Uhr\nGanztagesbetreuung (4 Tage)\nMontag - Donnerstag\n07:30 Uhr bis 16:00 Uhr\nFreitag\n07:30 Uhr bis 14:00 Uhr\nGanztagesbetreuung (2 Tage)\nMontag - Donnerstag\n07:30 Uhr bis 16:00 Uhr\nwahlweise an 2 Tagen, ansonsten VÖ\nFreitag\n07:30 Uhr bis 14:00 Uhr\nMühlhalden-Kindergarten\nVeränderte Öffnungszeiten\nMontag - Freitag\n07:30 Uhr bis 13:30 Uhr\nKinderhaus \"Lange Äcker\"\nÖffnungszeiten\nMontag - Freitag\n07:00 Uhr bis 13:00 Uhr oder\n07:30 Uhr bis 13:30 Uhr\nGanztagesbetreuung (4 Tage)\nMontag bis Donnerstag\n07:00 Uhr bis 16:30 Uhr\nFreitag\n07:00 Uhr bis 14:00 Uhr\nGanztagesbetreuung (2 Tage)\nMontag - Donnerstag\n07:00 Uhr bis 16:30 Uhr\nwahlweise an 2 Tagen, ansonsten VÖ\nFreitag\n07:00 Uhr bis 14:00 Uhr\nKinderhaus Maierhof\nGanztagesbetreuung (4 Tage)\nMontag bis Donnerstag\n07:00 Uhr bis 16:00 Uhr\nFreitag\n7:00 Uhr bis 13:00 Uhr\nGanztagesbetreuung (2 Tage)\nMontag bis Donnerstag\n07:00 Uhr bis 16:00 Uhr\nwahlweise an zwei Tagen, ansonsten VÖ\nFreitag\n07:00 Uhr bis 13:00 Uhr\nKinderhaus Berkheimer Straße\nGanztagesbetreuung (4 Tage)\nMontag bis Donnerstag\n07:00 Uhr bis 16:30 Uhr\nFreitag\n07:00 Uhr bis 14:00 Uhr\nGanztagesbetreuung (2 Tage)\nMontag bis Donnerstag\n07:00 Uhr bis 16:30 Uhr\nwahlweise an 2 Tagen, ansonsten veränderte Öffnungszeiten\nFreitag\n07:00 Uhr bis 14:00 Uhr\nKindergarten St. Martin\nVeränderte Öffnungszeiten\nMontag bis Freitag\n07:30 Uhr bis 13:30 Uhr\nVerlängerte Öffnungszeiten\nMontag bis Freitag\n07:00 Uhr bis 14:00 Uhr\nKinderhaus Alter Eichwald\nVeränderte Öffnungszeiten\nMontag bis Freitag\n07:30 Uhr bis 13:30 Uhr\nGanztagesbetreuung (4 Tage)\nMontag bis Donnerstag\n07:30 Uhr bis 16:00 Uhr\nFreitag\n07:30 Uhr bis 13:30 Uhr\nGanztagesbetreuung (2 Tage)\nMontag bis Donnerstag\n07:30 Uhr bis 16:00 Uhr\nwahlweise an 2 Tagen, ansonsten veränderte Öffnungszeiten\nFreitag\n07:30 Uhr bis 13:30 Uhr\nWaldgruppe\nVeränderte Öffnungszeiten\nMontag bis Freitag\n07:30 Uhr bis 13:30 Uhr\nAnmeldung für alle Kindergärten\nWie melde ich mein Kind für einen Betreuungsplatz an?\nVerfahren der Anmeldung für den Kindergarten (Ü3)\nMit Vollendung des ersten Lebensjahres hat jedes Kind einen gesetzlichen Anspruch auf einen Betreuungsplatz, nicht jedoch auf einen Platz in einer bestimmten Einrichtung.\nDie Gemeinde Denkendorf vergibt die Betreuungsplätze in Abstimmung mit den Trägern für Kinder von 0-6 Jahren zentral. Die Anmeldungen für Krippe und Kindergarten sind ausschließlich bei der Gemeindeverwaltung abzugeben.\nPrinzipiell kann eine Anmeldung das ganze Jahr erfolgen. Eltern, die zum jeweils neuen Kindergartenjahr einen Betreuungsplatz benötigen, müssen ihr Kind bis spätestens zum 15.03. des laufenden Jahres anmelden.\nWenn Sie Ihr Kind fristgerecht bis zum 15.03. des laufenden Jahres bei uns angemeldet haben, erhalten Sie:\nbis Mai/Juni des laufenden Jahres eine Rückmeldung, wenn Ihr Kind bis zum 28.02. des darauffolgenden Jahres drei Jahre alt wird oder\nim Dezember eine Rückmeldung, wenn Ihr Kind erst nach dem 01.03. des darauffolgenden Jahres drei Jahre alt wird.\nSofern kein Platz zur Verfügung steht, wird Ihr Kind in die Warteliste aufgenommen.\nEs ist jeweils eine separate Anmeldung für die Krippen- und ab 3 Jahren für den Kindergartenbesuch abzugeben.\nDie Vergabe der Betreuungsplätze erfolgt i.d.R. nach dem Geburtsdatum des Kindes und die Kinder werden nach Möglichkeit der Einrichtung ihres Wohnbezirkes zugeordnet (wohnortnahe Einrichtung). Wünsche für bestimmte Einrichtungen oder Betreuungszeiten können Eltern äußern. Ob diesen Wünschen entsprochen werden kann richtet sich nach der tatsächlichen Verfügbarkeit von Plätzen in der Wunscheinrichtung.\nBei der \"Ganztagesbetreuung\" ist für die Aufnahme ein Nachweis des Arbeitgebers erforderlich, der die Berufstätigkeit und die Arbeitszeit ab dem Monat, in dem das Kind in die Betreuung aufgenommen werden soll, bescheinigt. Diese Nachweise müssen vor der Aufnahme und zu Beginn jedes Kindergartenjahres bei der Gemeindeverwaltung abgegeben werden. Vorrang bei der Vergabe der Ganztagesplätze haben Kinder von alleinerziehenden und berufstätigen Eltern sowie Eltern in Ausbildung/Weiterbildung/Studium oder arbeitssuchende Eltern.\nDie Eltern erhalten nach der zentralen Betreuungsplatzvergabe durch die Gemeindeverwaltung eine Rückmeldung in welchen Kindergarten das Kind aufgenommen wird, sowie den Monat, in dem die Betreuung beginnt. Eine Aufnahmemitteilung mit den aktuellen Elternbeiträgen erhalten die Eltern zeitnah vor Betreuungsbeginn.\nDas Aufnahmegespräch sowie alle weiteren Verfahrensgänge wie Abschluss eines Betreuungssvertrages, Nachweis über die Masernschutzimpfung etc. werden direkt zwischen der jeweiligen Einrichtung und den Sorgeberechtigten geklärt. Die Betreuungsgebühren werden von den jeweiligen Trägern der Einrichtungen erhoben und eingezogen.\nSoll die Betreuungsform geändert werden, so geht dies nur, wenn in der gewünschten Betreuungsform ein Platz zur Verfügung steht; ansonsten wird dieser Wechselwunsch auf die Warteliste gesetzt.\nWurde ein Betreuungsverhältnis in einer Einrichtung bereits begonnen ist ein Wechsel in eine andere Einrichtung ausgeschlossen.\nDie Betreuungsgebühren/Elternbeiträge entnehmen Sie bitte den entsprechenden Gebührentabellen. Die Elternbeiträge werden einkommensabhängig erhoben, weshalb mit der Anmeldung derNachweis über das Familienbruttoeinkommen zu erbringen ist.\nWeitere Informationen erhalten Sie bei der\nGemeindeverwaltung\nOrdnungs- und Sozialwesen\nFurtstraße 1\nZimmer E.02\n73770 Denkendorf\nTelefonnummer: 0711 341680-36 oder -37\nAusfüllbarer Antrag für einen Kindergartenplatz (PDF-Dokument, August.2026)​​​​​​​\nFinanzielle Hilfe für Eltern\nWenn Sie sich als Eltern die Betreuung Ihres Kindes in einer Tageseinrichtung oder in Kindertagespflege aufgrund Ihrer finanziellen Verhältnisse nicht leisten können, können Sie sich an den örtlichen Träger der öffentlichen Jugendhilfe (Kreisjugendamt Esslingen) wenden. Je nach Einzelfall kann Ihnen der Teilnahmebetrag beziehungsweise die Gebühr auf Antrag ganz oder teilweise erlassen oder vom Träger der öffentlichen Jugendhilfe übernommen werden.\nAnmeldung zur Vorschulkindbetreuung\nIhr Kind wird im September 2026 eingeschult und Sie benötigen in den Tagen davor eine Betreuung? Dann haben Sie hier die Möglichkeit, Ihr Kind zur Vorschulkindbetreuung anzumelden.\nDie Betreuung findet zu den regulären Betreuungszeiten des jeweils besuchten Kindergartens statt und umfasst nur den Zeitraum vom 07.09. bis 11.09.2026.\nFür Kinder, die den katholischen Kindergarten besuchen, besteht zusätzlich die Möglichkeit, die Vorschulkindbetreuung für den erweiterten Zeitraum vom 01.09. bis 11.09.2026 in Anspruch zu nehmen.\nWeitere Informationen, insbesondere zu den anfallenden Kosten, entnehmen Sie bitte dem nachfolgenden Anmeldeformular (PDF-Dokument, 669 KB).\nBitte beachten Sie den Anmeldeschluss am 30.06.2026. Später eingehende Anmeldungen können leider nicht mehr berücksichtigt werden.\nBei Fragen wenden Sie sich bitte an Frau T. Bauer, Tel.: 0711/ 341680-236, t.bauer@denkendorf.de.\nHINWEIS: Betreuung von Schulanfängern in der ersten Schulwoche vor der Einschulung\nBenötigen Sie auch für den Zeitraum vom 14.09. bis 16.09.2026 eine Betreuung für Ihr Kind? Dann wenden Sie sich bitte an Frau S. Bauer, Tel. 341680-217 oder Frau Haubensak, Tel. 341680-216. Auch hier ist der Anmeldeschluss der 30.06.2026.\nGebühren\nElternbeiträge ab 1.9.2026 (PDF-Dokument)\nKontakt\nAnke Laukenmann\nicon.positionBürgeramt\nTelefonnummer+49711341680237\nFaxnummer+49711341680266\nE-Mail schreiben\nTräger\nEvangelischer Kleinkinderpflegeverein e. V.\nKlosterhof 8\n73770 Denkendorf\nTelefonnummer: 0711 3461160\nZur Homepage\nKatholische Kirchengemeinde St. Johann Baptist\n(für kath. Kinderkrippe)\nSchillerstraße 38\n73770 Denkendorf\nTelefonnummer: 0711 3461176\nZur Homepage\nKultur pur beim Veranstaltungsring\nEine attraktive und abwechslungsreiche Mischung aus Komödie, Krimi, Kabarett, Mundart und Musik in der Festhalle.Mehr Informationen\nBücherei\nOnline oder vor Ort schmökern und ausleihen.Mehr Informationen\nApp\nMitarbeiter\nInteraktive Karte\nGemeinde Denkendorf\nFurtstraße 1\n73770 Denkendorf\nTelefonnummer0711 341680-0\nFaxnummer0711 341680-266\nE-Mail schreiben\nÖffnungszeiten Rathaus inklusive Bürgerbüro\nMontag bis Freitag 08:00 Uhr bis 12:00 UhrMittwoch 14:00 Uhr bis 18:00 Uhr\nzusätzliche Öffnungszeiten BürgerbüroDienstag 07:00 Uhr bis 13:00 Uhr\nInhalt|Impressum | Cookies\nDatenschutz|Barrierefreiheit\nmade byHirsch & Wölfl GmbHbase.link.top",
+        "evidence": {
+          "source_id": "d6ab5549d759",
+          "locator": "PDF-/Textseite 1, Absatzblock 1",
+          "original": null
+        }
+      },
+      {
+        "text": "Kleinkindbetreuung: Gemeinde Denkendorf\nKleinkindbetreuung: Denkendorf\nSeitenbereiche\nZum Inhalt springen (Enter drücken)\nZur Inhaltsübersicht\nZum Kontakt\nSuchfeld fokusieren\nZur Startseite\nDiese Website benötigt einen Cookie zur Darstellung externer Inhalte\nUm unsere Website für Sie optimal gestalten und fortlaufend verbessern zu können, verwenden wir einwilligungspflichtige externe Dienste und geben dadurch Ihre personenbezogenen Daten an Dritte weiter. Über den Button „Mehr“ können Sie einzeln auswählen, welche Dienste Sie zulassen möchten. Sie können Ihre Zustimmung und Einwilligung jederzeit widerrufen.\nVerweigernMehr\nImpressumDatenschutzBarrierefreiheit\nCookie-Banner\nNavigation einblenden\nFunktionell\nYouTube\nEssentiell\nOnline-Formulare\nMedienbanner Wiedergabe oder Pausezustand\nFunktionell\nDiese Technologien ermöglichen es uns, die Nutzung der Website zu analysieren, um die Leistung zu messen und zu verbessern.\nYouTubeYouTube\nDies ist ein Dienst zum Anzeigen von Videoinhalten.\nVerarbeitungsunternehmen\nGoogle Ireland Limited\nGoogle Building Gordon House, 4 Barrow St, Dublin, D04 E5W5, Ireland\nDatenverarbeitungszwecke\nDiese Liste stellt die Zwecke der Datenerhebung und -verarbeitung dar. Eine Einwilligung gilt nur für die angegebenen Zwecke. Die gesammelten Daten können nicht für einen anderen als den unten aufgeführten Zweck verwendet oder gespeichert werden.\nVideos anzeigen\nEinwilligungshinweis\nBitte beachten Sie, dass bei Ihrer Einwilligung zu einem Dienst auch das Laden von externen Daten sowie die Weitergabe personenbezogener Daten an diesen Dienst erlaubt wird.\nGenutzte Technologien\nCookies (falls \"Privacy-Enhanced Mode\" nicht aktiviert ist)\nErhobene Daten\nDiese Liste enthält alle (persönlichen) Daten, die von oder durch die Nutzung dieses Dienstes gesammelt werden.\nIP-Adresse\nReferrer-URL\nGeräte-Informationen\nGesehene Videos\nRechtsgrundlage\nIm Folgenden wird die nach Art. 6 I 1 DSGVO geforderte Rechtsgrundlage für die Verarbeitung von personenbezogenen Daten genannt.\nArt. 6 Abs. 1 s. 1 lit. a DSGVO\nOrt der Verarbeitung\nEuropäische Union\nAufbewahrungsdauer\nDie Aufbewahrungsfrist ist die Zeitspanne, in der die gesammelten Daten für die Verarbeitung gespeichert werden. Die Daten müssen gelöscht werden, sobald sie für die angegebenen Verarbeitungszwecke nicht mehr benötigt werden.\nDie Daten werden gelöscht, sobald sie nicht mehr für die Verarbeitungszwecke benötigt werden.\nDatenempfänger\nAlphabet Inc.\nGoogle LLC\nGoogle Ireland Limited\nDatenschutzbeauftragter der verarbeitenden Firma\nNachfolgend finden Sie die E-Mail-Adresse des Datenschutzbeauftragten des verarbeitenden Unternehmens.\nhttps://support.google.com/policies/contact/general_privacy_form\nWeitergabe an Drittländer\nEinige Services leiten die erfassten Daten an ein anderes Land weiter. Nachfolgend finden Sie eine Liste der Länder, in die die Daten übertragen werden. Dies kann für verschiedene Zwecke der Fall sein, z. B. zum Speichern oder Verarbeiten.\nWeltweit\nKlicken Sie hier, um die Datenschutzbestimmungen des Datenverarbeiters zu lesen\nhttps://policies.google.com/privacy?hl=en\nKlicken Sie hier, um auf allen Domains des verarbeitenden Unternehmens zu widersprechen\nhttps://safety.google/privacy/privacy-controls/\nKlicken Sie hier, um die Cookie-Richtlinie des Datenverarbeiters zu lesen\nhttps://policies.google.com/technologies/cookies?hl=en\nZugehörige Cookies\nZu diesem Dienst gehören die folgenden Cookies:\nhwdatenschutz_cookie_youtube\nSetzt zusätzliche Cookies für eine andere Domain (youtube.com)\nEssentiell\nDiese Technologien sind erforderlich, um die Kernfunktionalität der Website zu ermöglichen.\nDie Cookies mit dem Präfix hwdatenschutz_cookie_ werden verwendet, um Ihre Auswahl aller auswählbaren Cookies zu speichern. Die essentiellen Cookies werden automatisch auf 1 gesetzt, da sie notwendig sind, um sicherzustellen, dass die entsprechende Funktion bei Bedarf geladen wird.\nDas Cookie namens hwdatenschutz_cookie_approved speichert den aktuellen Zustimmungsstatus des Cookie-Banners. Sollte es ein Update der Website geben, das Aspekte der Cookies verändert, würde dies zu einer Versionsdiskrepanz im Cookie-Banner führen. Folglich werden Sie aufgefordert, Ihre Zustimmung zu überprüfen und erneut zu erteilen.\nAlle hwdatenschutz_cookie_ haben eine Bestandsdauer von einem Monat und laufen nach diesem Zeitraum ab.\nBei jedem Dienst ist das entsprechende Cookie hwdatenschutz_cookie_ aufgeführt, um zu erkennen, welches Cookie welchen Dienst ermöglicht.\nOnline-FormulareOnline-Formulare\nErmöglicht die Bedienung von Online-Formularen.\nVerarbeitungsunternehmen\nGemeinde Denkendorf\nGenutzte Technologien\nCookies akzeptieren\nErhobene Daten\nDiese Liste enthält alle (persönlichen) Daten, die von oder durch die Nutzung dieses Dienstes gesammelt werden.\nIP-Adresse\nBrowser-Informationen\nRechtsgrundlage\nIm Folgenden wird die nach Art. 6 I 1 DSGVO geforderte Rechtsgrundlage für die Verarbeitung von personenbezogenen Daten genannt.\nArt. 6 Abs. 1 s. 1 lit. e DSGVO\nOrt der Verarbeitung\nEuropäische Union\nAufbewahrungsdauer\nDie Aufbewahrungsfrist ist die Zeitspanne, in der die gesammelten Daten für die Verarbeitung gespeichert werden. Die Daten müssen gelöscht werden, sobald sie für die angegebenen Verarbeitungszwecke nicht mehr benötigt werden.\nDie Daten werden gelöscht, sobald die Sitzung beendet ist.\nKlicken Sie hier, um die Datenschutzbestimmungen des Datenverarbeiters zu lesen\nhttps://www.denkendorf.de/rathaus-service/service-impressum/datenschutz\nZugehörige Cookies\nZu diesem Dienst gehören die folgenden Cookies:\nhwdatenschutz_cookie_powermail\nfe_typo_user\nMedienbanner Wiedergabe oder PausezustandMedienbanner Wiedergabe oder Pausezustand\nDies ist ein technisches Cookie und dient dazu, Ihre Präferenz bezüglich der automatischen Wiedergabe von wechselnden Bildern oder Videos zu respektieren.\nVerarbeitungsunternehmen\nGemeinde Denkendorf\nGenutzte Technologien\nCookies akzeptieren\nRechtsgrundlage\nIm Folgenden wird die nach Art. 6 I 1 DSGVO geforderte Rechtsgrundlage für die Verarbeitung von personenbezogenen Daten genannt.\nArt. 6 Abs. 1 s. 1 lit. e DSGVO\nOrt der Verarbeitung\nEuropäische Union\nAufbewahrungsdauer\nDie Aufbewahrungsfrist ist die Zeitspanne, in der die gesammelten Daten für die Verarbeitung gespeichert werden. Die Daten müssen gelöscht werden, sobald sie für die angegebenen Verarbeitungszwecke nicht mehr benötigt werden.\nDie Daten werden gelöscht, sobald die Sitzung beendet ist.\nKlicken Sie hier, um die Datenschutzbestimmungen des Datenverarbeiters zu lesen\nhttps://www.denkendorf.de/rathaus-service/service-impressum/datenschutz\nZugehörige Cookies\nZu diesem Dienst gehören die folgenden Cookies:\nhwdatenschutz_cookie_imagebanner\nhwbanner_cookie_banner_playstate\nKeine markieren\nSpeichern und schließen\nAlle markieren\nMenü öffnen\nKleinkindbetreuungMenü schließen\nMenü\nSuche starten\nMenü\nGemeinde & PolitikGemeinde & Politik\nGrußwort\nÜber uns\nPortrait\nGeschichte\nKloster\nBürgermeister\nZahlen, Daten & Fakten\nBürgerbroschüre\nLogo\nFotowettbewerb\nLage & Anfahrt\nOrtsplan\nInteraktive Karte\nKinder- & Schülerstadtplan\nWebcam\nPartnerschaft mit Meximieux\nAllgemeines zur Partnerschaft\nPartnerschaftskomitee\nAktuelles\nJahresterminübersicht\nAktivitäten\nBildergalerie\nStiftungen\nBürgerstiftung\nTSV-Stiftung\nFeuerwehr\nGemeinderat\nMitglieder\nRatsinformation\nSitzungstermine\nAusschüsse\nJugend entscheidet\nWahlen\nRathaus & ServiceRathaus & Service\nAktuelles aus der Gemeinde\nVerwaltung & Mitarbeiter\nKontakt & Öffnungszeiten\nMitarbeiter\nRückrufservice\nBankverbindungen\nVirtuelles Rathaus\nBürgerserviceportal\nAuskunftsservice Ausweis/Pass\nFormulare Rathaus\nMängelmeldung\nVirtuelle Poststelle\nPostkarte an BM Barth\nGemeindeanzeiger\nStellenangebote\nKommunal-App\nHeiraten\nFriedhof & Bestattungen\nOrtsrecht\nAusschreibungen\nVergaben\nService & Impressum\nSuche\nInhalt\nImpressum\nDatenschutz\nNutzungsbedingungen\nErklärung zur Barrierefreiheit\nLeben & WohnenLeben & Wohnen\nFörderung Breitband\nBauen & Wohnen\nGemeinsam Bauen\nWohnbaugebiet Wasserreute\nGemeindeentwicklungskonzept (GEK)\nBebauungspläne\nLaufende Planverfahren\nAbgeschlossene Planverfahren\nGewerbegebiet Nördlich Albstraße\nKinderhaus Alter Eichwald\nWohnen\nMietspiegel\nGutachterausschuss\nObere Ortsmitte\nVermietungen\nEnergielandkarte\nSanierungsgebiet\nFörderung für Familien\nFamilienpass\nBildung und Teilhabe\nFamilien in Not\nKinderbetreuung\nKleinkindbetreuung\nKindergärten\nKindertagespflege\nSchulen & Weiterbildung\nAlbert-Schweitzer-Schule\nLudwig-Uhland-Schule\nGymnasien\nFörderschule\nSchülerganztagsbetreuung\nSchülerferienbetreuung\nMusikschule\nVHS\nSommerferienprogramm\nMobilität\nÖPNV\nBürgerbus\nElektromobilität\nPflegestützpunkt\nÄlterwerden\nKoord.stelle Älterwerden\nVeranstaltungen\nWegweiser für Ältere\nHilfe & Pflege\nSpazierwege\nNette Bürgertoilette\nAsyl & Geflüchtete Menschen\nEhrenamtliche Unterstützung\nIntegrationsmanagement\nKirchen\nVer- & Entsorgung\nW-LAN in der Ortsmitte\nMüll & Entsorgung\nWasser\nAbwasser\nGesundheitsdienste\nÄrzte\nApotheken\nNotruftafel\nNotfalldose\nHelfer vor Ort\nFrühdefibrillation\nFreizeit & KulturFreizeit & Kultur\nVeranstaltungskalender\nVeranstaltungen melden\nRäume in Denkendorf\nBücherei\nAktuelles\nKontakt & Öffnungszeiten\nÜber uns\nAngebot & Service\nBenutzung & Gebühren\nVeranstaltungen\nFür Bildungseinrichtungen\nKinder & Jugendliche\nOnline-Katalog & Zugangskonto\nFreibad\nKinder & Jugendliche\nVeranstaltungen\nKinder- und Jugendzentrum Focus\nSpielplätze\nFeste & Märkte\nSchlehenfest\nWeihnachtstreff\nEhrenamtsfest\nKelter\nFesthalle\nAngebote für Senioren\nTreffpunkte zur Begegnung\nTreffpunkte zur Bewegung\nInteressensgruppen\nGenerationentreff\nÜber uns\nVeranstaltungen\nBürgertreff\nKulturangebote\nRolf-Deuschle-Heimatmuseum\nOpen-Air-Kino im Klosterhof\nVeranstaltungsring Denkendorf e. V.\nJazz in der Kelter\nKulturkalender Filder\nKunst im Rathaus\nNaherholung & Tourismus\nRad- und Wanderwege\nKlostersee\nErlachsee\nHölderlin-Brunnen\nStauferstele\nJakobsweg\nNaturerlebnisweg „Kugelpfad“\nSchickhardt Kulturstraße\nBarrierearme Angebote im Kreis\nÜbernachten\nEssen & Trinken\nSport\nSportstätten\nSportangebote\nLaufwege\nVereine\nVereinsliste\nBeteiligungsprozess #mit.Denkendorf.machen\nARGE Denkendorfer Vereine\nÜber uns\nNeues aus der ARGE\nSchlehenfest\nWeihnachtstreff\nVereins-Challenges\nFamilien in Not\nARGE-Chronik\nWirtschaft & UmweltWirtschaft & Umwelt\nKlimaschutz\nKlimaschutz aktuell\nKlimaschutz kommunal\nKlimaschutz für alle\nEnergie- & Wärmewende\nNatur & Umwelt\nBiotopverbundplanung\nKlimaschutzinitiative\nKlimaschutzagentur\nUmwelt\nRenaturierung Körsch\nHochwasserschutz\nStarkregengefahr\nLärmaktionsplanung\nLandschaftsraum Filder\nWaldbewirtschaftung\nStreuobstwiesen\nAktion \"Gelbes Band\"\nStadtjäger\nFirmenliste\nÜbernachten\nEssen & Trinken\nWirtschaftsförderung\nGewerbeimmobilien\nLokale Presse\nAusbildungsbörse\nBDS Denkendorf\nSuche starten\nMenü schließen\nGemeinde & Politik\nGrußwort\nÜber uns\nPortrait\nGeschichte\nKloster\nBürgermeister\nZahlen, Daten & Fakten\nBürgerbroschüre\nLogo\nFotowettbewerb\nLage & Anfahrt\nOrtsplan\nInteraktive Karte\nKinder- & Schülerstadtplan\nWebcam\nPartnerschaft mit Meximieux\nAllgemeines zur Partnerschaft\nPartnerschaftskomitee\nAktuelles\nJahresterminübersicht\nAktivitäten\nBildergalerie\nStiftungen\nBürgerstiftung\nTSV-Stiftung\nFeuerwehr\nGemeinderat\nMitglieder\nRatsinformation\nSitzungstermine\nAusschüsse\nJugend entscheidet\nWahlen\nMenü schließen\nMenü schließen\nRathaus & Service\nAktuelles aus der Gemeinde\nVerwaltung & Mitarbeiter\nKontakt & Öffnungszeiten\nMitarbeiter\nRückrufservice\nBankverbindungen\nVirtuelles Rathaus\nBürgerserviceportal\nAuskunftsservice Ausweis/Pass\nFormulare Rathaus\nMängelmeldung\nVirtuelle Poststelle\nPostkarte an BM Barth\nGemeindeanzeiger\nStellenangebote\nKommunal-App\nHeiraten\nFriedhof & Bestattungen\nOrtsrecht\nAusschreibungen\nVergaben\nService & Impressum\nSuche\nInhalt\nImpressum\nDatenschutz\nNutzungsbedingungen\nErklärung zur Barrierefreiheit\nMenü schließen\nMenü schließen\nLeben & Wohnen\nFörderung Breitband\nBauen & Wohnen\nGemeinsam Bauen\nWohnbaugebiet Wasserreute\nGemeindeentwicklungskonzept (GEK)\nBebauungspläne\nLaufende Planverfahren\nAbgeschlossene Planverfahren\nGewerbegebiet Nördlich Albstraße\nKinderhaus Alter Eichwald\nWohnen\nMietspiegel\nGutachterausschuss\nObere Ortsmitte\nVermietungen\nEnergielandkarte\nSanierungsgebiet\nFörderung für Familien\nFamilienpass\nBildung und Teilhabe\nFamilien in Not\nKinderbetreuung\nKleinkindbetreuung\nKindergärten\nKindertagespflege\nSchulen & Weiterbildung\nAlbert-Schweitzer-Schule\nLudwig-Uhland-Schule\nGymnasien\nFörderschule\nSchülerganztagsbetreuung\nSchülerferienbetreuung\nMusikschule\nVHS\nSommerferienprogramm\nMobilität\nÖPNV\nBürgerbus\nElektromobilität\nPflegestützpunkt\nÄlterwerden\nKoord.stelle Älterwerden\nVeranstaltungen\nWegweiser für Ältere\nHilfe & Pflege\nSpazierwege\nNette Bürgertoilette\nAsyl & Geflüchtete Menschen\nEhrenamtliche Unterstützung\nIntegrationsmanagement\nKirchen\nVer- & Entsorgung\nW-LAN in der Ortsmitte\nMüll & Entsorgung\nWasser\nAbwasser\nGesundheitsdienste\nÄrzte\nApotheken\nNotruftafel\nNotfalldose\nHelfer vor Ort\nFrühdefibrillation\nMenü schließen\nMenü schließen\nFreizeit & Kultur\nVeranstaltungskalender\nVeranstaltungen melden\nRäume in Denkendorf\nBücherei\nAktuelles\nKontakt & Öffnungszeiten\nÜber uns\nAngebot & Service\nBenutzung & Gebühren\nVeranstaltungen\nFür Bildungseinrichtungen\nKinder & Jugendliche\nOnline-Katalog & Zugangskonto\nFreibad\nKinder & Jugendliche\nVeranstaltungen\nKinder- und Jugendzentrum Focus\nSpielplätze\nFeste & Märkte\nSchlehenfest\nWeihnachtstreff\nEhrenamtsfest\nKelter\nFesthalle\nAngebote für Senioren\nTreffpunkte zur Begegnung\nTreffpunkte zur Bewegung\nInteressensgruppen\nGenerationentreff\nÜber uns\nVeranstaltungen\nBürgertreff\nKulturangebote\nRolf-Deuschle-Heimatmuseum\nOpen-Air-Kino im Klosterhof\nVeranstaltungsring Denkendorf e. V.\nJazz in der Kelter\nKulturkalender Filder\nKunst im Rathaus\nNaherholung & Tourismus\nRad- und Wanderwege\nKlostersee\nErlachsee\nHölderlin-Brunnen\nStauferstele\nJakobsweg\nNaturerlebnisweg „Kugelpfad“\nSchickhardt Kulturstraße\nBarrierearme Angebote im Kreis\nÜbernachten\nEssen & Trinken\nSport\nSportstätten\nSportangebote\nLaufwege\nVereine\nVereinsliste\nBeteiligungsprozess #mit.Denkendorf.machen\nARGE Denkendorfer Vereine\nÜber uns\nNeues aus der ARGE\nSchlehenfest\nWeihnachtstreff\nVereins-Challenges\nFamilien in Not\nARGE-Chronik\nMenü schließen\nMenü schließen\nWirtschaft & Umwelt\nKlimaschutz\nKlimaschutz aktuell\nKlimaschutz kommunal\nKlimaschutz für alle\nEnergie- & Wärmewende\nNatur & Umwelt\nBiotopverbundplanung\nKlimaschutzinitiative\nKlimaschutzagentur\nUmwelt\nRenaturierung Körsch\nHochwasserschutz\nStarkregengefahr\nLärmaktionsplanung\nLandschaftsraum Filder\nWaldbewirtschaftung\nStreuobstwiesen\nAktion \"Gelbes Band\"\nStadtjäger\nFirmenliste\nÜbernachten\nEssen & Trinken\nWirtschaftsförderung\nGewerbeimmobilien\nLokale Presse\nAusbildungsbörse\nBDS Denkendorf\nMenü schließen\nVorheriges Bannerbild\nNächstes Bannerbild\nWiedergabe startenWiedergabe pausieren\nUntermenü\nSie befinden sich im folgenden Menüpunkt:Leben & Wohnen\nFörderung Breitband\nBauen & Wohnen\nGemeinsam Bauen\nWohnbaugebiet Wasserreute\nGemeindeentwicklungskonzept (GEK)\nBebauungspläne\nLaufende Planverfahren\nAbgeschlossene Planverfahren\nGewerbegebiet Nördlich Albstraße\nKinderhaus Alter Eichwald\nWohnen\nMietspiegel\nGutachterausschuss\nObere Ortsmitte\nVermietungen\nEnergielandkarte\nSanierungsgebiet\nFörderung für Familien\nFamilienpass\nBildung und Teilhabe\nFamilien in Not\nKinderbetreuung\nKleinkindbetreuung\nKindergärten\nKindertagespflege\nSchulen & Weiterbildung\nAlbert-Schweitzer-Schule\nLudwig-Uhland-Schule\nGymnasien\nFörderschule\nSchülerganztagsbetreuung\nSchülerferienbetreuung\nMusikschule\nVHS\nSommerferienprogramm\nMobilität\nÖPNV\nBürgerbus\nElektromobilität\nPflegestützpunkt\nÄlterwerden\nKoord.stelle Älterwerden\nVeranstaltungen\nWegweiser für Ältere\nHilfe & Pflege\nSpazierwege\nNette Bürgertoilette\nAsyl & Geflüchtete Menschen\nEhrenamtliche Unterstützung\nIntegrationsmanagement\nKirchen\nVer- & Entsorgung\nW-LAN in der Ortsmitte\nMüll & Entsorgung\nWasser\nAbwasser\nGesundheitsdienste\nÄrzte\nApotheken\nNotruftafel\nNotfalldose\nHelfer vor Ort\nFrühdefibrillation\nDrucken\nStartseiteLeben & WohnenKinderbetreuungKleinkindbetreuung\nKinderkrippen\nDie Familie ist für die meisten Kinder der Ausgangspunkt des Aufwachsens und der Entwicklung eines eigenständigen Lebens. Darüber hinaus spielen Kindertagesstätten, Schulen, Jugendeinrichtungen und andere Bildungsanbieter eine wichtige Rolle für den Bildungserfolg. Der Gemeinde Denkendorf ist die Kinder- und Familienfreundlichkeit ein wichtiges Anliegen. Dies beginnt schon bei den Kleinsten mit zahlreichen Kinderkrippen.\nAnmeldung\nSollten Sie einen Krippenplatz benötigen, setzen Sie sich bitte mit der Gemeindeverwaltung in Verbindung. Das Anmeldeformular für die Betreuung in einer Kinderkrippe finden Sie hier.\nAnmeldeformular Kinderkrippe (PDF-Dokument, August 2026)\nGemeindeverwaltung\nOrdnungs- und Sozialwesen\nFurtstraße 1\nZimmer E.02\n73770 Denkendorf\nTelefonnummer: 0711 341680-36 oder -37\nGottlieb-Eppinger-Kinderkrippe\nKleinkindbetreuung in der Mullewappgrippe\nDas Angebot der Kinderkrippe gilt für 0- bis 3-Jährige.\nAlbrecht-Bengel-Strasse 26/1\n73770 Denkendorf\nTelefonnummer: 0711 30020662\nVeränderte Öffnungszeiten:\nMontag bis Freitag von 07:00 Uhr bis 13:00 Uhr\nKinderkrippe Mullewapp im Kinderhaus Lange Äcker\nLenaustasse 8\n73770 Denkendorf\nTelefonnummer: 0711 1205221\nVeränderte Öffnungszeiten:\nMontag bis Freitag von 07:00 Uhr bis 13:00 Uhr\nKinderkrippe im Kinderhaus Berkheimer Straße\nBerkheimer Straße 43\n73770 Denkendorf\nTelefonnummer: 0711 30538780\nGanztagsbetreuung:\nMontag bis Donnerstag: 07:00 Uhr bis 16:30 Uhr\nFreitag: 07:00 bis 14:00 Uhr\nGanztagsbetreuung zwei Tage:\nMontag bis Donnerstag: 07:00 Uhr bis 16:30 Uhr\nwahlweise an zwei Tagen, ansonsten VÖ\nFreitag: 07:00 bis 14:00 Uhr\nKinderkrippe im Kinderhaus Maierhof\nMaierhof 5\n73770 Denkendorf\nTelefonnummer: 0711 882830-60\nVeränderte Öffnungszeiten:\nMontag bis Freitag 07:00 Uhr bis 13:00 Uhr\nGanztagesbetreuung (4 Tage):\nMontag bis Donnerstag\n07:00 Uhr bis 16:30 Uhr\nFreitag\n07:00 Uhr bis 14:00 Uhr\nGanztagesbetreuung (2 Tage):\nMontag bis Donnerstag\n07:00 Uhr bis 16:30 Uhr wahlweise an 2 Tagen, ansonsten VÖ\nFreitag\n07:00 Uhr bis 14:00 Uhr\nKinderkrippe Klosterhof 2 (Fruchtkasten)\nKlosterhof 2\n73770 Denkendorf\nTelefonnummer: 0711 90039363\nVeränderte Öffnungszeiten:\nMontag bis Freitag von 07:00 Uhr bis 13:00 Uhr\nKatholische Kinderkrippe\nJohannes-Kepler-Straße 3-5\n73770 Denkendorf\nTelefonnummer: 0711 30020818\nVeränderte Öffnungszeiten:\nMontag bis Freitag: 07:15 Uhr bis 13:15 Uhr\nFinanzielle Hilfe für Eltern\nWenn Sie sich als Eltern die Betreuung Ihres Kindes in einer Tageseinrichtung oder in Kindertagespflege aufgrund Ihrer finanziellen Verhältnisse nicht leisten können, können Sie sich an den örtlichen Träger der öffentlichen Jugendhilfe (Kreisjugendamt Esslingen) wenden. Je nach Einzelfall kann Ihnen der Teilnahmebetrag beziehungsweise die Gebühr auf Antrag ganz oder teilweise erlassen oder vom Träger der öffentlichen Jugendhilfe übernommen werden.\nGebühren\nElternbeiträge ab 01.09.2026 (PDF-Dokument)\nInformationsveranstaltung Kinderbetreuung – Präsentationsfolien\nAm Dienstag, 18.04.2023 veranstalteten die beiden Träger, Evangelischer Kleinkinderpflegeverein und Katholische Kirchengemeinde, zusammen mit der Gemeinde eine Informationsveranstaltung zur Kinderbetreuung in Denkendorf. Die vorgestellten Präsentationsfolien sind nachfolgend abrufbar:\nInformationsveranstaltung Kinderbetreuung – Präsentationsfolien (PDF-Dokument, 2,46 MB, 21.04.2023)\nKontakt\nAnke Laukenmann\nicon.positionBürgeramt\nTelefonnummer+49711341680237\nFaxnummer+49711341680266\nE-Mail schreiben\nTräger\nEvangelischer Kleinkinderpflegeverein e. V.\nKlosterhof 8\n73770 Denkendorf\nTelefonnummer: 0711 3461160\nZur Homepage\nKatholische Kirchengemeinde St. Johann Baptist\n(für kath. Kinderkrippe)\nSchillerstraße 38\n73770 Denkendorf\nTelefonnummer: 0711 3461176\nZur Homepage\nKultur pur beim Veranstaltungsring\nEine attraktive und abwechslungsreiche Mischung aus Komödie, Krimi, Kabarett, Mundart und Musik in der Festhalle.Mehr Informationen\nBücherei\nOnline oder vor Ort schmökern und ausleihen.Mehr Informationen\nApp\nMitarbeiter\nInteraktive Karte\nGemeinde Denkendorf\nFurtstraße 1\n73770 Denkendorf\nTelefonnummer0711 341680-0\nFaxnummer0711 341680-266\nE-Mail schreiben\nÖffnungszeiten Rathaus inklusive Bürgerbüro\nMontag bis Freitag 08:00 Uhr bis 12:00 UhrMittwoch 14:00 Uhr bis 18:00 Uhr\nzusätzliche Öffnungszeiten BürgerbüroDienstag 07:00 Uhr bis 13:00 Uhr\nInhalt|Impressum | Cookies\nDatenschutz|Barrierefreiheit\nmade byHirsch & Wölfl GmbHbase.link.top",
+        "evidence": {
+          "source_id": "cbc61ce3e909",
+          "locator": "PDF-/Textseite 1, Absatzblock 1",
+          "original": null
+        }
+      }
+    ]
+  }
+}

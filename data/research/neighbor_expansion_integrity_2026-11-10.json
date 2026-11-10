@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-10T13:26:57.456867+00:00",
+  "checked_at": "2026-11-10T15:01:13.435281+00:00",
   "municipalities": 33,
   "status_counts": {
     "available": 32,
@@ -10,6 +10,6 @@
   "http_200_sources": 135,
   "failed_attempts": 3,
   "checksum_verification": "passed",
-  "canonical_tariff_normalization": "not_performed",
+  "canonical_tariff_normalization": "completed_pending_calculation_review",
   "production_activation": "not_performed"
 }

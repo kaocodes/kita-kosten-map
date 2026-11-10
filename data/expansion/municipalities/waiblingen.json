@@ -1,0 +1,1990 @@
+{
+  "schema_version": "1.0",
+  "id": "waiblingen",
+  "name": "Waiblingen",
+  "reviewed_at": "2026-11-10",
+  "reference_date": "2026-11-10",
+  "scope": {
+    "included": [
+      "municipal"
+    ],
+    "other_providers": "only_with_explicit_source_evidence"
+  },
+  "family_basis": "under_18",
+  "family_evidence": {
+    "source_id": "59ecf75191ad",
+    "locator": "Familienbegriff und Fußnoten der Gebührenunterlagen",
+    "original": null
+  },
+  "supporting_source_ids": [
+    "59ecf75191ad",
+    "dae7d9e3a67b",
+    "d437992cd414"
+  ],
+  "offers": [
+    {
+      "id": "waiblingen-offer-b3c115f42b91",
+      "original_label": "Bis 30 Stunden ohne Mittagessen",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-04-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-04-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 1800,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "published_tariff_limits_not_verified_booking",
+      "schedule_evidence": {
+        "source_id": "59ecf75191ad",
+        "locator": "Gebührentabelle ab April 2026, Bis 30 Stunden ohne Mittagessen",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "59ecf75191ad",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "59ecf75191ad",
+        "locator": "Gebührentabelle ab April 2026, Bis 30 Stunden ohne Mittagessen",
+        "original": null
+      },
+      "formula": {
+        "type": "percentage_of_annual_income",
+        "income_basis": "waiblingen_household_gross_including_child_benefit",
+        "percent": "0.25",
+        "income_floor_cents": 4000000,
+        "income_cap_cents": 12000000,
+        "minimum_monthly_cents": 10000,
+        "maximum_monthly_cents": 30000,
+        "published_min_max_before_child_discount": true,
+        "no_income_proof": "maximum_monthly_fee"
+      },
+      "weekly_minutes_is_upper_bound": true
+    },
+    {
+      "id": "waiblingen-offer-4a14eb25d9a2",
+      "original_label": "Bis 30 Stunden mit Mittagessen",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-04-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-04-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 1800,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "published_tariff_limits_not_verified_booking",
+      "schedule_evidence": {
+        "source_id": "59ecf75191ad",
+        "locator": "Gebührentabelle ab April 2026, Bis 30 Stunden mit Mittagessen",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "59ecf75191ad",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "59ecf75191ad",
+        "locator": "Gebührentabelle ab April 2026, Bis 30 Stunden mit Mittagessen",
+        "original": null
+      },
+      "formula": {
+        "type": "percentage_of_annual_income",
+        "income_basis": "waiblingen_household_gross_including_child_benefit",
+        "percent": "0.30",
+        "income_floor_cents": 4000000,
+        "income_cap_cents": 12000000,
+        "minimum_monthly_cents": 12000,
+        "maximum_monthly_cents": 36000,
+        "published_min_max_before_child_discount": true,
+        "no_income_proof": "maximum_monthly_fee"
+      },
+      "weekly_minutes_is_upper_bound": true,
+      "included_components": [
+        {
+          "component_id": "waiblingen-component-16a76ba36817",
+          "kind": "meal",
+          "amount_cents": null,
+          "additional_charge": false
+        }
+      ]
+    },
+    {
+      "id": "waiblingen-offer-c647628e6434",
+      "original_label": "31–35 Stunden mit Mittagessen",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-04-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-04-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2100,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "published_tariff_limits_not_verified_booking",
+      "schedule_evidence": {
+        "source_id": "59ecf75191ad",
+        "locator": "Gebührentabelle ab April 2026, 31–35 Stunden mit Mittagessen",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "59ecf75191ad",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "59ecf75191ad",
+        "locator": "Gebührentabelle ab April 2026, 31–35 Stunden mit Mittagessen",
+        "original": null
+      },
+      "formula": {
+        "type": "percentage_of_annual_income",
+        "income_basis": "waiblingen_household_gross_including_child_benefit",
+        "percent": "0.40",
+        "income_floor_cents": 4000000,
+        "income_cap_cents": 12000000,
+        "minimum_monthly_cents": 16000,
+        "maximum_monthly_cents": 48000,
+        "published_min_max_before_child_discount": true,
+        "no_income_proof": "maximum_monthly_fee"
+      },
+      "weekly_minutes_is_upper_bound": true,
+      "weekly_minutes_lower_exclusive": 1800,
+      "included_components": [
+        {
+          "component_id": "waiblingen-component-5238bddf5bdf",
+          "kind": "meal",
+          "amount_cents": null,
+          "additional_charge": false
+        }
+      ]
+    },
+    {
+      "id": "waiblingen-offer-909cf7049b3b",
+      "original_label": "36–40 Stunden mit Mittagessen",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-04-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-04-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2400,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "published_tariff_limits_not_verified_booking",
+      "schedule_evidence": {
+        "source_id": "59ecf75191ad",
+        "locator": "Gebührentabelle ab April 2026, 36–40 Stunden mit Mittagessen",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "59ecf75191ad",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "59ecf75191ad",
+        "locator": "Gebührentabelle ab April 2026, 36–40 Stunden mit Mittagessen",
+        "original": null
+      },
+      "formula": {
+        "type": "percentage_of_annual_income",
+        "income_basis": "waiblingen_household_gross_including_child_benefit",
+        "percent": "0.42",
+        "income_floor_cents": 4000000,
+        "income_cap_cents": 12000000,
+        "minimum_monthly_cents": 16800,
+        "maximum_monthly_cents": 50400,
+        "published_min_max_before_child_discount": true,
+        "no_income_proof": "maximum_monthly_fee"
+      },
+      "weekly_minutes_is_upper_bound": true,
+      "weekly_minutes_lower_exclusive": 2100,
+      "included_components": [
+        {
+          "component_id": "waiblingen-component-8885693eeadd",
+          "kind": "meal",
+          "amount_cents": null,
+          "additional_charge": false
+        }
+      ]
+    },
+    {
+      "id": "waiblingen-offer-9f2dc1499636",
+      "original_label": "41–50 Stunden mit Mittagessen",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-04-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-04-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 3000,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "published_tariff_limits_not_verified_booking",
+      "schedule_evidence": {
+        "source_id": "59ecf75191ad",
+        "locator": "Gebührentabelle ab April 2026, 41–50 Stunden mit Mittagessen",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "59ecf75191ad",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "59ecf75191ad",
+        "locator": "Gebührentabelle ab April 2026, 41–50 Stunden mit Mittagessen",
+        "original": null
+      },
+      "formula": {
+        "type": "percentage_of_annual_income",
+        "income_basis": "waiblingen_household_gross_including_child_benefit",
+        "percent": "0.50",
+        "income_floor_cents": 4000000,
+        "income_cap_cents": 12000000,
+        "minimum_monthly_cents": 20000,
+        "maximum_monthly_cents": 60000,
+        "published_min_max_before_child_discount": true,
+        "no_income_proof": "maximum_monthly_fee"
+      },
+      "weekly_minutes_is_upper_bound": true,
+      "weekly_minutes_lower_exclusive": 2400,
+      "included_components": [
+        {
+          "component_id": "waiblingen-component-9b52eeff056b",
+          "kind": "meal",
+          "amount_cents": null,
+          "additional_charge": false
+        }
+      ]
+    },
+    {
+      "id": "waiblingen-offer-cd6f661663f0",
+      "original_label": "Kombination 1: zwei Tage VÖ ohne Essen, drei GT",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-04-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-04-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2520,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "published_tariff_limits_not_verified_booking",
+      "schedule_evidence": {
+        "source_id": "59ecf75191ad",
+        "locator": "Gebührentabelle ab April 2026, Kombination 1: zwei Tage VÖ ohne Essen, drei GT",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "59ecf75191ad",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "59ecf75191ad",
+        "locator": "Gebührentabelle ab April 2026, Kombination 1: zwei Tage VÖ ohne Essen, drei GT",
+        "original": null
+      },
+      "formula": {
+        "type": "percentage_of_annual_income",
+        "income_basis": "waiblingen_household_gross_including_child_benefit",
+        "percent": "0.40",
+        "income_floor_cents": 4000000,
+        "income_cap_cents": 12000000,
+        "minimum_monthly_cents": 16000,
+        "maximum_monthly_cents": 48000,
+        "published_min_max_before_child_discount": true,
+        "no_income_proof": "maximum_monthly_fee"
+      },
+      "weekly_minutes_is_upper_bound": true,
+      "time_derivation": {
+        "short_days": 2,
+        "short_day_maximum_minutes": 360,
+        "long_days": 3,
+        "long_day_maximum_minutes": 600,
+        "result_is_upper_bound": true
+      },
+      "included_components": [
+        {
+          "component_id": "waiblingen-component-fb8f63c1f321",
+          "kind": "meal",
+          "amount_cents": null,
+          "additional_charge": false
+        }
+      ]
+    },
+    {
+      "id": "waiblingen-offer-f677b019ecd5",
+      "original_label": "Kombination 2: zwei Tage VÖ mit Essen, drei GT",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-04-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-04-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2520,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "published_tariff_limits_not_verified_booking",
+      "schedule_evidence": {
+        "source_id": "59ecf75191ad",
+        "locator": "Gebührentabelle ab April 2026, Kombination 2: zwei Tage VÖ mit Essen, drei GT",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "59ecf75191ad",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "59ecf75191ad",
+        "locator": "Gebührentabelle ab April 2026, Kombination 2: zwei Tage VÖ mit Essen, drei GT",
+        "original": null
+      },
+      "formula": {
+        "type": "percentage_of_annual_income",
+        "income_basis": "waiblingen_household_gross_including_child_benefit",
+        "percent": "0.42",
+        "income_floor_cents": 4000000,
+        "income_cap_cents": 12000000,
+        "minimum_monthly_cents": 16800,
+        "maximum_monthly_cents": 50400,
+        "published_min_max_before_child_discount": true,
+        "no_income_proof": "maximum_monthly_fee"
+      },
+      "weekly_minutes_is_upper_bound": true,
+      "time_derivation": {
+        "short_days": 2,
+        "short_day_maximum_minutes": 360,
+        "long_days": 3,
+        "long_day_maximum_minutes": 600,
+        "result_is_upper_bound": true
+      },
+      "included_components": [
+        {
+          "component_id": "waiblingen-component-cf78038ac031",
+          "kind": "meal",
+          "amount_cents": null,
+          "additional_charge": false
+        }
+      ]
+    },
+    {
+      "id": "waiblingen-offer-ae1a696bcd88",
+      "original_label": "Bis 20 Stunden ohne Mittagessen",
+      "age_group": "u3",
+      "age_min_months": 0,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-04-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-04-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 1200,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "published_tariff_limits_not_verified_booking",
+      "schedule_evidence": {
+        "source_id": "59ecf75191ad",
+        "locator": "Gebührentabelle ab April 2026, Bis 20 Stunden ohne Mittagessen",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "59ecf75191ad",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "59ecf75191ad",
+        "locator": "Gebührentabelle ab April 2026, Bis 20 Stunden ohne Mittagessen",
+        "original": null
+      },
+      "formula": {
+        "type": "percentage_of_annual_income",
+        "income_basis": "waiblingen_household_gross_including_child_benefit",
+        "percent": "0.25",
+        "income_floor_cents": 4000000,
+        "income_cap_cents": 12000000,
+        "minimum_monthly_cents": 10000,
+        "maximum_monthly_cents": 30000,
+        "published_min_max_before_child_discount": true,
+        "no_income_proof": "maximum_monthly_fee"
+      },
+      "weekly_minutes_is_upper_bound": true
+    },
+    {
+      "id": "waiblingen-offer-5319b4ab2a4b",
+      "original_label": "Bis 30 Stunden ohne Mittagessen",
+      "age_group": "u3",
+      "age_min_months": 0,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-04-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-04-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 1800,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "published_tariff_limits_not_verified_booking",
+      "schedule_evidence": {
+        "source_id": "59ecf75191ad",
+        "locator": "Gebührentabelle ab April 2026, Bis 30 Stunden ohne Mittagessen",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "59ecf75191ad",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "59ecf75191ad",
+        "locator": "Gebührentabelle ab April 2026, Bis 30 Stunden ohne Mittagessen",
+        "original": null
+      },
+      "formula": {
+        "type": "percentage_of_annual_income",
+        "income_basis": "waiblingen_household_gross_including_child_benefit",
+        "percent": "0.30",
+        "income_floor_cents": 4000000,
+        "income_cap_cents": 12000000,
+        "minimum_monthly_cents": 12000,
+        "maximum_monthly_cents": 36000,
+        "published_min_max_before_child_discount": true,
+        "no_income_proof": "maximum_monthly_fee"
+      },
+      "weekly_minutes_is_upper_bound": true,
+      "weekly_minutes_lower_exclusive": 1200
+    },
+    {
+      "id": "waiblingen-offer-cc100b8138cd",
+      "original_label": "Bis 30 Stunden mit Mittagessen",
+      "age_group": "u3",
+      "age_min_months": 0,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-04-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-04-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 1800,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "published_tariff_limits_not_verified_booking",
+      "schedule_evidence": {
+        "source_id": "59ecf75191ad",
+        "locator": "Gebührentabelle ab April 2026, Bis 30 Stunden mit Mittagessen",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "59ecf75191ad",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "59ecf75191ad",
+        "locator": "Gebührentabelle ab April 2026, Bis 30 Stunden mit Mittagessen",
+        "original": null
+      },
+      "formula": {
+        "type": "percentage_of_annual_income",
+        "income_basis": "waiblingen_household_gross_including_child_benefit",
+        "percent": "0.40",
+        "income_floor_cents": 4000000,
+        "income_cap_cents": 12000000,
+        "minimum_monthly_cents": 16000,
+        "maximum_monthly_cents": 48000,
+        "published_min_max_before_child_discount": true,
+        "no_income_proof": "maximum_monthly_fee"
+      },
+      "weekly_minutes_is_upper_bound": true,
+      "included_components": [
+        {
+          "component_id": "waiblingen-component-dbd1c337ab6a",
+          "kind": "meal",
+          "amount_cents": null,
+          "additional_charge": false
+        }
+      ]
+    },
+    {
+      "id": "waiblingen-offer-4926885e8c47",
+      "original_label": "31–35 Stunden mit Mittagessen",
+      "age_group": "u3",
+      "age_min_months": 0,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-04-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-04-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2100,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "published_tariff_limits_not_verified_booking",
+      "schedule_evidence": {
+        "source_id": "59ecf75191ad",
+        "locator": "Gebührentabelle ab April 2026, 31–35 Stunden mit Mittagessen",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "59ecf75191ad",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "59ecf75191ad",
+        "locator": "Gebührentabelle ab April 2026, 31–35 Stunden mit Mittagessen",
+        "original": null
+      },
+      "formula": {
+        "type": "percentage_of_annual_income",
+        "income_basis": "waiblingen_household_gross_including_child_benefit",
+        "percent": "0.50",
+        "income_floor_cents": 4000000,
+        "income_cap_cents": 12000000,
+        "minimum_monthly_cents": 20000,
+        "maximum_monthly_cents": 60000,
+        "published_min_max_before_child_discount": true,
+        "no_income_proof": "maximum_monthly_fee"
+      },
+      "weekly_minutes_is_upper_bound": true,
+      "weekly_minutes_lower_exclusive": 1800,
+      "included_components": [
+        {
+          "component_id": "waiblingen-component-1d5a3acc5f38",
+          "kind": "meal",
+          "amount_cents": null,
+          "additional_charge": false
+        }
+      ]
+    },
+    {
+      "id": "waiblingen-offer-1e0ec8046495",
+      "original_label": "36–40 Stunden mit Mittagessen",
+      "age_group": "u3",
+      "age_min_months": 0,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-04-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-04-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2400,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "published_tariff_limits_not_verified_booking",
+      "schedule_evidence": {
+        "source_id": "59ecf75191ad",
+        "locator": "Gebührentabelle ab April 2026, 36–40 Stunden mit Mittagessen",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "59ecf75191ad",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "59ecf75191ad",
+        "locator": "Gebührentabelle ab April 2026, 36–40 Stunden mit Mittagessen",
+        "original": null
+      },
+      "formula": {
+        "type": "percentage_of_annual_income",
+        "income_basis": "waiblingen_household_gross_including_child_benefit",
+        "percent": "0.52",
+        "income_floor_cents": 4000000,
+        "income_cap_cents": 12000000,
+        "minimum_monthly_cents": 20800,
+        "maximum_monthly_cents": 62400,
+        "published_min_max_before_child_discount": true,
+        "no_income_proof": "maximum_monthly_fee"
+      },
+      "weekly_minutes_is_upper_bound": true,
+      "weekly_minutes_lower_exclusive": 2100,
+      "included_components": [
+        {
+          "component_id": "waiblingen-component-78f8d8ddc3b0",
+          "kind": "meal",
+          "amount_cents": null,
+          "additional_charge": false
+        }
+      ]
+    },
+    {
+      "id": "waiblingen-offer-1b0d00389e8d",
+      "original_label": "41–50 Stunden mit Mittagessen",
+      "age_group": "u3",
+      "age_min_months": 0,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-04-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-04-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 3000,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "published_tariff_limits_not_verified_booking",
+      "schedule_evidence": {
+        "source_id": "59ecf75191ad",
+        "locator": "Gebührentabelle ab April 2026, 41–50 Stunden mit Mittagessen",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "59ecf75191ad",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "59ecf75191ad",
+        "locator": "Gebührentabelle ab April 2026, 41–50 Stunden mit Mittagessen",
+        "original": null
+      },
+      "formula": {
+        "type": "percentage_of_annual_income",
+        "income_basis": "waiblingen_household_gross_including_child_benefit",
+        "percent": "0.60",
+        "income_floor_cents": 4000000,
+        "income_cap_cents": 12000000,
+        "minimum_monthly_cents": 24000,
+        "maximum_monthly_cents": 72000,
+        "published_min_max_before_child_discount": true,
+        "no_income_proof": "maximum_monthly_fee"
+      },
+      "weekly_minutes_is_upper_bound": true,
+      "weekly_minutes_lower_exclusive": 2400,
+      "included_components": [
+        {
+          "component_id": "waiblingen-component-780b9c11c24b",
+          "kind": "meal",
+          "amount_cents": null,
+          "additional_charge": false
+        }
+      ]
+    },
+    {
+      "id": "waiblingen-offer-9c72c243dc52",
+      "original_label": "Kombination 3: zwei Tage VÖ ohne Essen, drei GT",
+      "age_group": "u3",
+      "age_min_months": 0,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-04-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-04-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2520,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "published_tariff_limits_not_verified_booking",
+      "schedule_evidence": {
+        "source_id": "59ecf75191ad",
+        "locator": "Gebührentabelle ab April 2026, Kombination 3: zwei Tage VÖ ohne Essen, drei GT",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "59ecf75191ad",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "59ecf75191ad",
+        "locator": "Gebührentabelle ab April 2026, Kombination 3: zwei Tage VÖ ohne Essen, drei GT",
+        "original": null
+      },
+      "formula": {
+        "type": "percentage_of_annual_income",
+        "income_basis": "waiblingen_household_gross_including_child_benefit",
+        "percent": "0.48",
+        "income_floor_cents": 4000000,
+        "income_cap_cents": 12000000,
+        "minimum_monthly_cents": 19200,
+        "maximum_monthly_cents": 57600,
+        "published_min_max_before_child_discount": true,
+        "no_income_proof": "maximum_monthly_fee"
+      },
+      "weekly_minutes_is_upper_bound": true,
+      "time_derivation": {
+        "short_days": 2,
+        "short_day_maximum_minutes": 360,
+        "long_days": 3,
+        "long_day_maximum_minutes": 600,
+        "result_is_upper_bound": true
+      },
+      "included_components": [
+        {
+          "component_id": "waiblingen-component-de51ec406944",
+          "kind": "meal",
+          "amount_cents": null,
+          "additional_charge": false
+        }
+      ]
+    },
+    {
+      "id": "waiblingen-offer-9c6a0de27f20",
+      "original_label": "Kombination 4: zwei Tage VÖ mit Essen, drei GT",
+      "age_group": "u3",
+      "age_min_months": 0,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-04-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-04-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2520,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "published_tariff_limits_not_verified_booking",
+      "schedule_evidence": {
+        "source_id": "59ecf75191ad",
+        "locator": "Gebührentabelle ab April 2026, Kombination 4: zwei Tage VÖ mit Essen, drei GT",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "59ecf75191ad",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "59ecf75191ad",
+        "locator": "Gebührentabelle ab April 2026, Kombination 4: zwei Tage VÖ mit Essen, drei GT",
+        "original": null
+      },
+      "formula": {
+        "type": "percentage_of_annual_income",
+        "income_basis": "waiblingen_household_gross_including_child_benefit",
+        "percent": "0.52",
+        "income_floor_cents": 4000000,
+        "income_cap_cents": 12000000,
+        "minimum_monthly_cents": 20800,
+        "maximum_monthly_cents": 62400,
+        "published_min_max_before_child_discount": true,
+        "no_income_proof": "maximum_monthly_fee"
+      },
+      "weekly_minutes_is_upper_bound": true,
+      "time_derivation": {
+        "short_days": 2,
+        "short_day_maximum_minutes": 360,
+        "long_days": 3,
+        "long_day_maximum_minutes": 600,
+        "result_is_upper_bound": true
+      },
+      "included_components": [
+        {
+          "component_id": "waiblingen-component-544ba12227f0",
+          "kind": "meal",
+          "amount_cents": null,
+          "additional_charge": false
+        }
+      ]
+    }
+  ],
+  "prices": [],
+  "income_bands": [],
+  "components": [
+    {
+      "id": "waiblingen-component-16a76ba36817",
+      "kind": "meal",
+      "original_label": "Im Tarif enthalten: o3 Bis 30 Stunden mit Mittagessen",
+      "amount_cents": null,
+      "unit": "per_month",
+      "age_group": "o3",
+      "required": true,
+      "payment_months": null,
+      "offer_ids": [
+        "waiblingen-offer-4a14eb25d9a2"
+      ],
+      "valid_from": "2026-04-01",
+      "valid_to": null,
+      "value_status": "included",
+      "evidence": {
+        "source_id": "dae7d9e3a67b",
+        "locator": "§ 6 Nr. 9; Nutzerfestlegung 2026-11-10-waiblingen-included-meals",
+        "original": null
+      },
+      "inclusion": "included",
+      "additional_charge": false,
+      "decision_id": "2026-11-10-waiblingen-included-meals"
+    },
+    {
+      "id": "waiblingen-component-5238bddf5bdf",
+      "kind": "meal",
+      "original_label": "Im Tarif enthalten: o3 31–35 Stunden mit Mittagessen",
+      "amount_cents": null,
+      "unit": "per_month",
+      "age_group": "o3",
+      "required": true,
+      "payment_months": null,
+      "offer_ids": [
+        "waiblingen-offer-c647628e6434"
+      ],
+      "valid_from": "2026-04-01",
+      "valid_to": null,
+      "value_status": "included",
+      "evidence": {
+        "source_id": "dae7d9e3a67b",
+        "locator": "§ 6 Nr. 9; Nutzerfestlegung 2026-11-10-waiblingen-included-meals",
+        "original": null
+      },
+      "inclusion": "included",
+      "additional_charge": false,
+      "decision_id": "2026-11-10-waiblingen-included-meals"
+    },
+    {
+      "id": "waiblingen-component-8885693eeadd",
+      "kind": "meal",
+      "original_label": "Im Tarif enthalten: o3 36–40 Stunden mit Mittagessen",
+      "amount_cents": null,
+      "unit": "per_month",
+      "age_group": "o3",
+      "required": true,
+      "payment_months": null,
+      "offer_ids": [
+        "waiblingen-offer-909cf7049b3b"
+      ],
+      "valid_from": "2026-04-01",
+      "valid_to": null,
+      "value_status": "included",
+      "evidence": {
+        "source_id": "dae7d9e3a67b",
+        "locator": "§ 6 Nr. 9; Nutzerfestlegung 2026-11-10-waiblingen-included-meals",
+        "original": null
+      },
+      "inclusion": "included",
+      "additional_charge": false,
+      "decision_id": "2026-11-10-waiblingen-included-meals"
+    },
+    {
+      "id": "waiblingen-component-9b52eeff056b",
+      "kind": "meal",
+      "original_label": "Im Tarif enthalten: o3 41–50 Stunden mit Mittagessen",
+      "amount_cents": null,
+      "unit": "per_month",
+      "age_group": "o3",
+      "required": true,
+      "payment_months": null,
+      "offer_ids": [
+        "waiblingen-offer-9f2dc1499636"
+      ],
+      "valid_from": "2026-04-01",
+      "valid_to": null,
+      "value_status": "included",
+      "evidence": {
+        "source_id": "dae7d9e3a67b",
+        "locator": "§ 6 Nr. 9; Nutzerfestlegung 2026-11-10-waiblingen-included-meals",
+        "original": null
+      },
+      "inclusion": "included",
+      "additional_charge": false,
+      "decision_id": "2026-11-10-waiblingen-included-meals"
+    },
+    {
+      "id": "waiblingen-component-fb8f63c1f321",
+      "kind": "meal",
+      "original_label": "Im Tarif enthalten: o3 Kombination 1: zwei Tage VÖ ohne Essen, drei GT",
+      "amount_cents": null,
+      "unit": "per_month",
+      "age_group": "o3",
+      "required": true,
+      "payment_months": null,
+      "offer_ids": [
+        "waiblingen-offer-cd6f661663f0"
+      ],
+      "valid_from": "2026-04-01",
+      "valid_to": null,
+      "value_status": "included",
+      "evidence": {
+        "source_id": "dae7d9e3a67b",
+        "locator": "§ 6 Nr. 9; Nutzerfestlegung 2026-11-10-waiblingen-included-meals",
+        "original": null
+      },
+      "inclusion": "included",
+      "additional_charge": false,
+      "decision_id": "2026-11-10-waiblingen-included-meals"
+    },
+    {
+      "id": "waiblingen-component-cf78038ac031",
+      "kind": "meal",
+      "original_label": "Im Tarif enthalten: o3 Kombination 2: zwei Tage VÖ mit Essen, drei GT",
+      "amount_cents": null,
+      "unit": "per_month",
+      "age_group": "o3",
+      "required": true,
+      "payment_months": null,
+      "offer_ids": [
+        "waiblingen-offer-f677b019ecd5"
+      ],
+      "valid_from": "2026-04-01",
+      "valid_to": null,
+      "value_status": "included",
+      "evidence": {
+        "source_id": "dae7d9e3a67b",
+        "locator": "§ 6 Nr. 9; Nutzerfestlegung 2026-11-10-waiblingen-included-meals",
+        "original": null
+      },
+      "inclusion": "included",
+      "additional_charge": false,
+      "decision_id": "2026-11-10-waiblingen-included-meals"
+    },
+    {
+      "id": "waiblingen-component-dbd1c337ab6a",
+      "kind": "meal",
+      "original_label": "Im Tarif enthalten: u3 Bis 30 Stunden mit Mittagessen",
+      "amount_cents": null,
+      "unit": "per_month",
+      "age_group": "u3",
+      "required": true,
+      "payment_months": null,
+      "offer_ids": [
+        "waiblingen-offer-cc100b8138cd"
+      ],
+      "valid_from": "2026-04-01",
+      "valid_to": null,
+      "value_status": "included",
+      "evidence": {
+        "source_id": "dae7d9e3a67b",
+        "locator": "§ 6 Nr. 9; Nutzerfestlegung 2026-11-10-waiblingen-included-meals",
+        "original": null
+      },
+      "inclusion": "included",
+      "additional_charge": false,
+      "decision_id": "2026-11-10-waiblingen-included-meals"
+    },
+    {
+      "id": "waiblingen-component-1d5a3acc5f38",
+      "kind": "meal",
+      "original_label": "Im Tarif enthalten: u3 31–35 Stunden mit Mittagessen",
+      "amount_cents": null,
+      "unit": "per_month",
+      "age_group": "u3",
+      "required": true,
+      "payment_months": null,
+      "offer_ids": [
+        "waiblingen-offer-4926885e8c47"
+      ],
+      "valid_from": "2026-04-01",
+      "valid_to": null,
+      "value_status": "included",
+      "evidence": {
+        "source_id": "dae7d9e3a67b",
+        "locator": "§ 6 Nr. 9; Nutzerfestlegung 2026-11-10-waiblingen-included-meals",
+        "original": null
+      },
+      "inclusion": "included",
+      "additional_charge": false,
+      "decision_id": "2026-11-10-waiblingen-included-meals"
+    },
+    {
+      "id": "waiblingen-component-78f8d8ddc3b0",
+      "kind": "meal",
+      "original_label": "Im Tarif enthalten: u3 36–40 Stunden mit Mittagessen",
+      "amount_cents": null,
+      "unit": "per_month",
+      "age_group": "u3",
+      "required": true,
+      "payment_months": null,
+      "offer_ids": [
+        "waiblingen-offer-1e0ec8046495"
+      ],
+      "valid_from": "2026-04-01",
+      "valid_to": null,
+      "value_status": "included",
+      "evidence": {
+        "source_id": "dae7d9e3a67b",
+        "locator": "§ 6 Nr. 9; Nutzerfestlegung 2026-11-10-waiblingen-included-meals",
+        "original": null
+      },
+      "inclusion": "included",
+      "additional_charge": false,
+      "decision_id": "2026-11-10-waiblingen-included-meals"
+    },
+    {
+      "id": "waiblingen-component-780b9c11c24b",
+      "kind": "meal",
+      "original_label": "Im Tarif enthalten: u3 41–50 Stunden mit Mittagessen",
+      "amount_cents": null,
+      "unit": "per_month",
+      "age_group": "u3",
+      "required": true,
+      "payment_months": null,
+      "offer_ids": [
+        "waiblingen-offer-1b0d00389e8d"
+      ],
+      "valid_from": "2026-04-01",
+      "valid_to": null,
+      "value_status": "included",
+      "evidence": {
+        "source_id": "dae7d9e3a67b",
+        "locator": "§ 6 Nr. 9; Nutzerfestlegung 2026-11-10-waiblingen-included-meals",
+        "original": null
+      },
+      "inclusion": "included",
+      "additional_charge": false,
+      "decision_id": "2026-11-10-waiblingen-included-meals"
+    },
+    {
+      "id": "waiblingen-component-de51ec406944",
+      "kind": "meal",
+      "original_label": "Im Tarif enthalten: u3 Kombination 3: zwei Tage VÖ ohne Essen, drei GT",
+      "amount_cents": null,
+      "unit": "per_month",
+      "age_group": "u3",
+      "required": true,
+      "payment_months": null,
+      "offer_ids": [
+        "waiblingen-offer-9c72c243dc52"
+      ],
+      "valid_from": "2026-04-01",
+      "valid_to": null,
+      "value_status": "included",
+      "evidence": {
+        "source_id": "dae7d9e3a67b",
+        "locator": "§ 6 Nr. 9; Nutzerfestlegung 2026-11-10-waiblingen-included-meals",
+        "original": null
+      },
+      "inclusion": "included",
+      "additional_charge": false,
+      "decision_id": "2026-11-10-waiblingen-included-meals"
+    },
+    {
+      "id": "waiblingen-component-544ba12227f0",
+      "kind": "meal",
+      "original_label": "Im Tarif enthalten: u3 Kombination 4: zwei Tage VÖ mit Essen, drei GT",
+      "amount_cents": null,
+      "unit": "per_month",
+      "age_group": "u3",
+      "required": true,
+      "payment_months": null,
+      "offer_ids": [
+        "waiblingen-offer-9c6a0de27f20"
+      ],
+      "valid_from": "2026-04-01",
+      "valid_to": null,
+      "value_status": "included",
+      "evidence": {
+        "source_id": "dae7d9e3a67b",
+        "locator": "§ 6 Nr. 9; Nutzerfestlegung 2026-11-10-waiblingen-included-meals",
+        "original": null
+      },
+      "inclusion": "included",
+      "additional_charge": false,
+      "decision_id": "2026-11-10-waiblingen-included-meals"
+    }
+  ],
+  "rules": [
+    {
+      "id": "waiblingen-rule-f7a7bdec48c4",
+      "kind": "comparison_policy",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "value_basis": "published_tariff_including_meals_when_included",
+        "meal_handling": "keep_included",
+        "subtract_meal_costs": false,
+        "meal_display_label": "Im Tarif enthalten",
+        "show_in_extra_costs": true,
+        "derive_inclusion_from_offer": true,
+        "prevent_double_counting": true,
+        "decision_id": "2026-11-10-waiblingen-included-meals"
+      },
+      "evidence": {
+        "source_id": "59ecf75191ad",
+        "locator": "Dokumentierte Forschungs- und Nutzerfestlegungen",
+        "original": null
+      },
+      "provenance": "research_and_user_decisions"
+    },
+    {
+      "id": "waiblingen-rule-6b8aebcddb56",
+      "kind": "2026-11-10-waiblingen-included-meals",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "id": "2026-11-10-waiblingen-included-meals",
+        "municipality_id": "waiblingen",
+        "kind": "comparison_and_display_policy",
+        "instruction": "Werte inklusive Mittagessen auf der Karte anzeigen; unter Verpflegung als inklusive kennzeichnen. Keinen Betrag abziehen.",
+        "recorded_at": "2026-11-10",
+        "provenance": "user_instruction"
+      },
+      "evidence": {
+        "source_id": "59ecf75191ad",
+        "locator": "Nutzerfestlegung; keine zusätzliche amtliche Quellenbestätigung",
+        "original": null
+      },
+      "provenance": "user_instruction"
+    },
+    {
+      "id": "waiblingen-rule-3edbc2f5c186",
+      "kind": "child_discount_by_birth_rank",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "discount_percent": [
+          0,
+          50,
+          75,
+          "87.5",
+          100
+        ],
+        "free_from_rank": 5,
+        "rank_basis": "birth_order_of_family_children_under_18",
+        "not_simultaneous_care_rank": true
+      },
+      "evidence": {
+        "source_id": "dae7d9e3a67b",
+        "locator": "§ 5",
+        "original": null
+      }
+    },
+    {
+      "id": "waiblingen-rule-c5487c86cb4a",
+      "kind": "income_definition",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "include_child_benefit": true,
+        "include_other_household_income": true,
+        "period": "year",
+        "formula_assessment": "source_defined_household_gross"
+      },
+      "evidence": {
+        "source_id": "dae7d9e3a67b",
+        "locator": "§ 4",
+        "original": null
+      }
+    },
+    {
+      "id": "waiblingen-rule-a56f0de42fdf",
+      "kind": "source_provisions_59ecf75191ad",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "archive_text_path": "data/sources/59ecf75191ad/text.txt",
+        "text_sha256": "e20502196b12915929dd035f0556f3736ac7db837859c1f418879327b05bd83f",
+        "review_status": "archived_provisions_preserved"
+      },
+      "evidence": {
+        "source_id": "59ecf75191ad",
+        "locator": "Vollständiger archivierter Dokumenttext einschließlich Fußnoten",
+        "original": null
+      }
+    },
+    {
+      "id": "waiblingen-rule-1f4c9daa65c5",
+      "kind": "source_clause_59ecf75191ad_1_3",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 0,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "59ecf75191ad",
+        "locator": "PDF-/Textseite 1, Absatzblock 3",
+        "original": null
+      }
+    },
+    {
+      "id": "waiblingen-rule-b355cd8d5487",
+      "kind": "source_clause_59ecf75191ad_1_5",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 1,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "59ecf75191ad",
+        "locator": "PDF-/Textseite 1, Absatzblock 5",
+        "original": null
+      }
+    },
+    {
+      "id": "waiblingen-rule-0d2725690496",
+      "kind": "source_clause_59ecf75191ad_1_7",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 2,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "59ecf75191ad",
+        "locator": "PDF-/Textseite 1, Absatzblock 7",
+        "original": null
+      }
+    },
+    {
+      "id": "waiblingen-rule-33d639435611",
+      "kind": "source_clause_59ecf75191ad_1_8",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 3,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "59ecf75191ad",
+        "locator": "PDF-/Textseite 1, Absatzblock 8",
+        "original": null
+      }
+    },
+    {
+      "id": "waiblingen-rule-667847e07be6",
+      "kind": "source_provisions_dae7d9e3a67b",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "archive_text_path": "data/sources/dae7d9e3a67b/text.txt",
+        "text_sha256": "7c29dff5354371425b7618f37f359351d5625042f7b728c7ee2b388767964e0a",
+        "review_status": "archived_provisions_preserved"
+      },
+      "evidence": {
+        "source_id": "dae7d9e3a67b",
+        "locator": "Vollständiger archivierter Dokumenttext einschließlich Fußnoten",
+        "original": null
+      }
+    },
+    {
+      "id": "waiblingen-rule-af5e26388945",
+      "kind": "source_clause_dae7d9e3a67b_1_1",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 4,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "dae7d9e3a67b",
+        "locator": "PDF-/Textseite 1, Absatzblock 1",
+        "original": null
+      }
+    },
+    {
+      "id": "waiblingen-rule-07858dd0e7f0",
+      "kind": "source_clause_dae7d9e3a67b_1_2",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 5,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "dae7d9e3a67b",
+        "locator": "PDF-/Textseite 1, Absatzblock 2",
+        "original": null
+      }
+    },
+    {
+      "id": "waiblingen-rule-2e948a11a9f8",
+      "kind": "source_clause_dae7d9e3a67b_1_5",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 6,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "dae7d9e3a67b",
+        "locator": "PDF-/Textseite 1, Absatzblock 5",
+        "original": null
+      }
+    },
+    {
+      "id": "waiblingen-rule-679c0651fb82",
+      "kind": "source_clause_dae7d9e3a67b_1_8",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 7,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "dae7d9e3a67b",
+        "locator": "PDF-/Textseite 1, Absatzblock 8",
+        "original": null
+      }
+    },
+    {
+      "id": "waiblingen-rule-feac80ceb12c",
+      "kind": "source_clause_dae7d9e3a67b_1_9",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 8,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "dae7d9e3a67b",
+        "locator": "PDF-/Textseite 1, Absatzblock 9",
+        "original": null
+      }
+    },
+    {
+      "id": "waiblingen-rule-f5a7643ccda6",
+      "kind": "source_clause_dae7d9e3a67b_2_2",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 9,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "dae7d9e3a67b",
+        "locator": "PDF-/Textseite 2, Absatzblock 2",
+        "original": null
+      }
+    },
+    {
+      "id": "waiblingen-rule-4b93ffa0aac6",
+      "kind": "source_clause_dae7d9e3a67b_2_3",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 10,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "dae7d9e3a67b",
+        "locator": "PDF-/Textseite 2, Absatzblock 3",
+        "original": null
+      }
+    },
+    {
+      "id": "waiblingen-rule-68eb7edab96c",
+      "kind": "source_clause_dae7d9e3a67b_2_4",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 11,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "dae7d9e3a67b",
+        "locator": "PDF-/Textseite 2, Absatzblock 4",
+        "original": null
+      }
+    },
+    {
+      "id": "waiblingen-rule-dd4ad05b107a",
+      "kind": "source_clause_dae7d9e3a67b_3_1",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 12,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "dae7d9e3a67b",
+        "locator": "PDF-/Textseite 3, Absatzblock 1",
+        "original": null
+      }
+    },
+    {
+      "id": "waiblingen-rule-00237209af3d",
+      "kind": "source_clause_dae7d9e3a67b_3_2",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 13,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "dae7d9e3a67b",
+        "locator": "PDF-/Textseite 3, Absatzblock 2",
+        "original": null
+      }
+    },
+    {
+      "id": "waiblingen-rule-db959133e5e0",
+      "kind": "source_clause_dae7d9e3a67b_4_1",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 14,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "dae7d9e3a67b",
+        "locator": "PDF-/Textseite 4, Absatzblock 1",
+        "original": null
+      }
+    },
+    {
+      "id": "waiblingen-rule-a6164d97d17c",
+      "kind": "source_clause_dae7d9e3a67b_4_2",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 15,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "dae7d9e3a67b",
+        "locator": "PDF-/Textseite 4, Absatzblock 2",
+        "original": null
+      }
+    },
+    {
+      "id": "waiblingen-rule-fc856451ad2b",
+      "kind": "source_clause_dae7d9e3a67b_4_4",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 16,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "dae7d9e3a67b",
+        "locator": "PDF-/Textseite 4, Absatzblock 4",
+        "original": null
+      }
+    },
+    {
+      "id": "waiblingen-rule-5a6aac5b0536",
+      "kind": "source_clause_dae7d9e3a67b_4_5",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 17,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "dae7d9e3a67b",
+        "locator": "PDF-/Textseite 4, Absatzblock 5",
+        "original": null
+      }
+    },
+    {
+      "id": "waiblingen-rule-c9f0b4fcbf59",
+      "kind": "source_clause_dae7d9e3a67b_5_1",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 18,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "dae7d9e3a67b",
+        "locator": "PDF-/Textseite 5, Absatzblock 1",
+        "original": null
+      }
+    },
+    {
+      "id": "waiblingen-rule-0c358f9fd7ee",
+      "kind": "source_clause_dae7d9e3a67b_6_1",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 19,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "dae7d9e3a67b",
+        "locator": "PDF-/Textseite 6, Absatzblock 1",
+        "original": null
+      }
+    },
+    {
+      "id": "waiblingen-rule-192a53b98010",
+      "kind": "source_clause_dae7d9e3a67b_6_2",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 20,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "dae7d9e3a67b",
+        "locator": "PDF-/Textseite 6, Absatzblock 2",
+        "original": null
+      }
+    },
+    {
+      "id": "waiblingen-rule-a12ee1522b7b",
+      "kind": "source_clause_dae7d9e3a67b_6_3",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 21,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "dae7d9e3a67b",
+        "locator": "PDF-/Textseite 6, Absatzblock 3",
+        "original": null
+      }
+    },
+    {
+      "id": "waiblingen-rule-cf188f01d72d",
+      "kind": "source_provisions_d437992cd414",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "archive_text_path": "data/sources/d437992cd414/text.txt",
+        "text_sha256": "cc7e332a8835fce03b9a51a63f01561e743afcec53571a9ae88c1701e9100250",
+        "review_status": "archived_provisions_preserved"
+      },
+      "evidence": {
+        "source_id": "d437992cd414",
+        "locator": "Vollständiger archivierter Dokumenttext einschließlich Fußnoten",
+        "original": null
+      }
+    },
+    {
+      "id": "waiblingen-rule-29ee8705c215",
+      "kind": "source_clause_d437992cd414_1_1",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 22,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "d437992cd414",
+        "locator": "PDF-/Textseite 1, Absatzblock 1",
+        "original": null
+      }
+    },
+    {
+      "id": "waiblingen-rule-ca011d5d517c",
+      "kind": "source_clause_d437992cd414_1_4",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 23,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "d437992cd414",
+        "locator": "PDF-/Textseite 1, Absatzblock 4",
+        "original": null
+      }
+    },
+    {
+      "id": "waiblingen-rule-235f742f867e",
+      "kind": "source_clause_d437992cd414_2_1",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 24,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "d437992cd414",
+        "locator": "PDF-/Textseite 2, Absatzblock 1",
+        "original": null
+      }
+    },
+    {
+      "id": "waiblingen-rule-fd089161f377",
+      "kind": "source_clause_d437992cd414_2_3",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 25,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "d437992cd414",
+        "locator": "PDF-/Textseite 2, Absatzblock 3",
+        "original": null
+      }
+    },
+    {
+      "id": "waiblingen-rule-c2f254c2b494",
+      "kind": "source_clause_d437992cd414_3_1",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 26,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "d437992cd414",
+        "locator": "PDF-/Textseite 3, Absatzblock 1",
+        "original": null
+      }
+    },
+    {
+      "id": "waiblingen-rule-57f5b7a9cfd9",
+      "kind": "source_clause_d437992cd414_3_3",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 27,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "d437992cd414",
+        "locator": "PDF-/Textseite 3, Absatzblock 3",
+        "original": null
+      }
+    },
+    {
+      "id": "waiblingen-rule-1886290357c7",
+      "kind": "source_clause_d437992cd414_4_1",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 28,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "d437992cd414",
+        "locator": "PDF-/Textseite 4, Absatzblock 1",
+        "original": null
+      }
+    },
+    {
+      "id": "waiblingen-rule-06f1b8fc0167",
+      "kind": "source_clause_d437992cd414_5_1",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 29,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "d437992cd414",
+        "locator": "PDF-/Textseite 5, Absatzblock 1",
+        "original": null
+      }
+    },
+    {
+      "id": "waiblingen-rule-fab40ea22bdc",
+      "kind": "source_clause_d437992cd414_5_3",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 30,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "d437992cd414",
+        "locator": "PDF-/Textseite 5, Absatzblock 3",
+        "original": null
+      }
+    }
+  ],
+  "issues": [
+    {
+      "code": "pending_calculation_review",
+      "detail": "Strukturierter Import; noch keine Freigabe des Rechners oder der Website."
+    },
+    {
+      "code": "research_limitation_1",
+      "detail": "Örtliches Brutto umfasst Kindergeld und weitere Einnahmen; die späteren Modellannahmen ausdrücklich ergänzen, keine stillschweigende Gleichsetzung mit Jahresbrutto."
+    },
+    {
+      "code": "research_limitation_2",
+      "detail": "Geburtsrang und Befreiung ab fünftem Kind berücksichtigen. Im Tarif enthaltene Verpflegung darf weder eine unbekannte Zusatzkostensumme noch einen zweiten Essensbetrag erzeugen."
+    }
+  ],
+  "coverage": {
+    "publication_status": "not_active",
+    "integration_status": "normalized_pending_calculation_review",
+    "history_in_scope": false,
+    "source_register": "data/research/neighbor_expansion_2026-11-10.json",
+    "research_id": "waiblingen",
+    "unavailable_configurations": [],
+    "offers": 15,
+    "price_cells": 0,
+    "income_bands": 0,
+    "components": 12,
+    "rule_records": 38,
+    "tariff_table_transcription": "complete_for_declared_scope",
+    "declared_scope": "Aktuelle und bereits veröffentlichte künftige Krippen- und Kindergartentarife; Zusatzkosten und Gebührenregeln.",
+    "excluded_from_regular_price_rows": [
+      "superseded_historical_tariffs",
+      "school_childcare",
+      "takki_and_childminding",
+      "separate_playgroups"
+    ],
+    "calculation_engine_changed": false,
+    "rule_transcription": "typed_parameters_and_source_clauses_with_explicit_unimplemented_status"
+  },
+  "original_research": {
+    "path": "data/research/neighbor_expansion_2026-11-10.json",
+    "section": "Waiblingen",
+    "text": "Der Kartenwert übernimmt gemäß Nutzerentscheidung den veröffentlichten Tarif einschließlich enthaltenem Mittagessen. Kein angenommener Essensanteil wird abgezogen oder zusätzlich addiert.\nBei passenden Angeboten erscheint unter Verpflegung: Im Tarif enthalten. Angebote ohne Essen erhalten diese Kennzeichnung nicht.\nÖrtliches Brutto umfasst Kindergeld und weitere Einnahmen; die späteren Modellannahmen ausdrücklich ergänzen, keine stillschweigende Gleichsetzung mit Jahresbrutto.\nGeburtsrang und Befreiung ab fünftem Kind berücksichtigen. Im Tarif enthaltene Verpflegung darf weder eine unbekannte Zusatzkostensumme noch einen zweiten Essensbetrag erzeugen.",
+    "source_clauses": [
+      {
+        "text": "Anlage 1 zur Benutzungs- und Gebührenordnung für Kindertageseinrichtungen der Stadt Waiblingen vom 01.04.2026",
+        "evidence": {
+          "source_id": "59ecf75191ad",
+          "locator": "PDF-/Textseite 1, Absatzblock 3",
+          "original": null
+        }
+      },
+      {
+        "text": "Betreuungsformen                                   Kinder über 3 Jahre                    Kinder unter 3 Jahre\n                                                    Prozentualer Anteil Mindest- Höchst-   Prozentualer Anteil Mindest- Höchst-\n                                                    vom Gesamtbrutto- gebühr     gebühr    vom Gesamtbrutto- gebühr     gebühr\n                                                    Jahreseinkommen gem.         gem. §7   Jahreseinkommen gem.         gem. §7\n                                                                        §6 Nr. 3                               §6 Nr. 3",
+        "evidence": {
+          "source_id": "59ecf75191ad",
+          "locator": "PDF-/Textseite 1, Absatzblock 5",
+          "original": null
+        }
+      },
+      {
+        "text": "Die Mindestgebühr gilt für alle Einkommen bis 40.000 €.\nDie Höchstgebühr gilt für alle Einkommen ab 120.000 € und wenn keine Einkommensnachweise vorgelegt wurden.",
+        "evidence": {
+          "source_id": "59ecf75191ad",
+          "locator": "PDF-/Textseite 1, Absatzblock 7",
+          "original": null
+        }
+      },
+      {
+        "text": "Kinderermäßigung gem. § 5\n für das 1. Kind                                           0%\n für das 2. Kind                                           50 %\n für das 3. Kind                                           75 %\n für das 4. Kind                                           87,5 %\n ab dem 5. Kind                                            100 %",
+        "evidence": {
+          "source_id": "59ecf75191ad",
+          "locator": "PDF-/Textseite 1, Absatzblock 8",
+          "original": null
+        }
+      },
+      {
+        "text": "Waiblinger Stadtrecht\n Satzung über die Benutzung und Gebühren für die Kindertageseinrichtungen der Stadt Waiblingen",
+        "evidence": {
+          "source_id": "dae7d9e3a67b",
+          "locator": "PDF-/Textseite 1, Absatzblock 1",
+          "original": null
+        }
+      },
+      {
+        "text": "Benutzungs- und Gebührenordnung\n                   für die städtischen Kindertageseinrichtungen\n                                der Stadt Waiblingen",
+        "evidence": {
+          "source_id": "dae7d9e3a67b",
+          "locator": "PDF-/Textseite 1, Absatzblock 2",
+          "original": null
+        }
+      },
+      {
+        "text": "Satzung über die Benutzung und Gebühren für die Kindertageseinrichtungen der\nStadt Waiblingen",
+        "evidence": {
+          "source_id": "dae7d9e3a67b",
+          "locator": "PDF-/Textseite 1, Absatzblock 5",
+          "original": null
+        }
+      },
+      {
+        "text": "Die Stadt Waiblingen betreibt Kinderbetreuungseinrichtungen im Sinne des Kindertagesbetreuungs-\ngesetzes (KiTaG) als öffentliche Einrichtungen. Daneben können weitere Kinderbetreuungseinrich-\ntungen durch kirchliche oder freie Träger betrieben werden, für die gesonderte Regelungen der je-\nweiligen Träger gelten. Für kirchliche Träger von Kindertageseinrichtungen sowie für Belegplätze\nder Stadt Waiblingen bei einzelnen anderen freien Trägern, werden die Regelungen dieser Benut-\nzungs- und Gebührenordnung entsprechend angewendet.",
+        "evidence": {
+          "source_id": "dae7d9e3a67b",
+          "locator": "PDF-/Textseite 1, Absatzblock 8",
+          "original": null
+        }
+      },
+      {
+        "text": "§2     Gebührenpflicht\n1.     Für die Benutzung der städtischen Kindertageseinrichtungen werden monatliche Benut-\n       zungsgebühren erhoben.\n2.     Die Gebühr wird auch dann fällig, wenn die Einrichtung wegen Ferien, Streik oder aus einem\n       dienstlichen oder anderen zwingenden Grund vorübergehend geschlossen wird, sowie bei\n       einem Wechsel in eine andere städtische oder konfessionelle Kindertageseinrichtung, oder\n       längerem Fehlen des Kindes.\n3.     Fehlt ein Kind infolge Krankheit, Erholungsverschickung oder aus ähnlichem zwingendem\n       Grund ununterbrochen mehr als 4 Wochen, so wird die monatliche Gebühr für den betreffen-\n       den Zeitraum auf Antrag und auf (ärztlichen) Nachweis um die Hälfte ermäßigt.\n4.     Beim Eintritt eines Kindes in die Kindertageseinrichtung im Laufe des Monats wird in der ers-\n       ten Hälfte die volle, in der zweiten Hälfte die halbe Monatsgebühr fällig. Beim Austritt aus der\n       Kindertageseinrichtung im Laufe des Monats ist in der ersten Hälfte eine halbe Monatsge-\n       bühr und in der zweiten Hälfte die volle Gebühr zu bezahlen. Dabei gehört der 15. eines Ka-\n       lendermonats zur ersten Hälfte und der 16. eines Kalendermonats zur zweiten Hälfte.\n5.     Die Abmeldefrist beträgt vier Wochen zum 15. und Ende eines Monats. Eine Beendigung\n       des Benutzungsverhältnisses ohne Einhaltung der Frist ist nur in besonders begründeten",
+        "evidence": {
+          "source_id": "dae7d9e3a67b",
+          "locator": "PDF-/Textseite 1, Absatzblock 9",
+          "original": null
+        }
+      },
+      {
+        "text": "§3   Bemessung der Benutzungsgebühr\n1.   Die monatliche Gebühr ist abhängig vom Gesamtbrutto-Jahreseinkommen zu entrichten.\n2.   Bei der Gebühr handelt es sich um eine Jahresgebühr, die auf 12 Monate umgelegt wird.",
+        "evidence": {
+          "source_id": "dae7d9e3a67b",
+          "locator": "PDF-/Textseite 2, Absatzblock 2",
+          "original": null
+        }
+      },
+      {
+        "text": "§4   Begriff des Gesamtbrutto-Jahreseinkommens\n1.   Maßgebend ist das Gesamtbrutto-Jahreseinkommen, d.h. die Summe aller positiven Ein-\n     künfte der im Haushalt lebenden Eltern, des sorgeberechtigten Elternteils oder der sonst\n     Sorgeberechtigten im Sinne des § 2 Abs. 1 u. 2 des Einkommensteuergesetzes (EStG) in\n     der jeweils gültigen Fassung, sowie alle übrigen Einkünfte und Bezüge neben den steuer-\n     pflichtigen Bezügen.\n     Zum Jahreseinkommen zählen auch Lohnersatzleistungen nach § 32b Abs. 1 Nr. 1 EStG,\n     pauschal versteuerte Entgelte nach § 40a EStG sowie Unterhaltsleistungen und Kindergeld.\n     Eine Verrechnung mit negativen Einkünften (Verlusten), auch mit denen anderer Familien-\n     angehöriger, ist nicht möglich.\n     Das maßgebliche Einkommen wird um Unterhaltsleistungen für nicht im Haushalt lebende\n     Kinder vermindert.\n2.   Maßgebend ist das aktuelle Gesamtbrutto-Jahreseinkommen nach Nr. 1.\n     Änderungen im Gesamt-Brutto-Jahreseinkommen im Laufe des Jahres sind der Verwaltung\n     unverzüglich mitzuteilen und werden ab dem Monat der Änderung der Gebühr zugrunde ge-\n     legt.\n     Ist das aktuelle Gesamtbrutto-Jahreseinkommen nicht zu ermitteln, kann hilfsweise bis zu\n     dessen Feststellung das zuletzt nachweisbare Gesamt-Brutto-Jahreseinkommen herange-\n     zogen werden.\n     Das Gesamtbrutto-Jahreseinkommen ist mindestens einmal im Jahr zur erneuten Prüfung\n     vorzulegen.\n3.   Lebt das Kind bei einem sorgeberechtigten Elternteil, der mit einem Nichtsorgeberechtigten\n     in einer Ehe oder einer eheähnlichen Gemeinschaft im gemeinsamen Haushalt zusammen-\n     lebt, gilt das Einkommen des Nichtsorgeberechtigten als Einkommen des zweiten sorgebe-\n     rechtigten Elternteils im Sinne von Nr. 1 und wird dem Gesamt-Brutto-Jahreseinkommen zu-\n     gerechnet.",
+        "evidence": {
+          "source_id": "dae7d9e3a67b",
+          "locator": "PDF-/Textseite 2, Absatzblock 3",
+          "original": null
+        }
+      },
+      {
+        "text": "§5   Kinderermäßigung\n1.   Für das 2. Kind, das in einem Haushalt lebt, wird eine Gebührenermäßigung in Höhe von 50\n     % gewährt.\n2.   Für das 3. Kind, das in einem Haushalt lebt, wird eine Gebührenermäßigung in Höhe von\n     75% gewährt.\n3.   Für das 4. Kind, das in einem Haushalt lebt, wird eine Gebührenermäßigung in Höhe von\n     87,5% gewährt.\n4.   Für alle weiteren Kinder, die in einem Haushalt leben, wird eine Gebührenermäßigung in\n     Höhe von 100 % gewährt.\n5.   Bei der Geburtenfolge in den Nr. 1 bis 4 werden nur die Kinder berücksichtigt, für die noch\n     Kindergeld bezogen wird. Auf Antrag kann ein Kind, das nicht im selben Haushalt lebt, aber\n     für das weiterhin Kindergeld bezogen wird, im Rahmen der Regelungen gemäß Nr. 1 bis 4\n     berücksichtigt werden. Der Nachweis des Kindergeldbezugs ist jährlich zu erbringen.",
+        "evidence": {
+          "source_id": "dae7d9e3a67b",
+          "locator": "PDF-/Textseite 2, Absatzblock 4",
+          "original": null
+        }
+      },
+      {
+        "text": "6.    Ändert sich die Anzahl der berücksichtigungsfähigen Kinder nach Nr. 1 bis 4, ist die Ände-\n      rung der Stadt unter Angabe des Kalendermonats in dem die Änderung eingetreten ist, an-\n      zuzeigen. Die Gebühren werden für den Kalendermonat neu festgesetzt, der auf den Kalen-\n      dermonat folgt, in dem die Änderung nachweislich eingetreten ist.",
+        "evidence": {
+          "source_id": "dae7d9e3a67b",
+          "locator": "PDF-/Textseite 3, Absatzblock 1",
+          "original": null
+        }
+      },
+      {
+        "text": "§6    Gebührenhöhe\n1.    Die monatliche Gebühr für den Besuch eines Kindes in einer Kindertageseinrichtung ermittelt\n      sich aus der Multiplikation des in der Gebührentabelle der Anlage 1 festgesetzten Prozent-\n      satzes je Betreuungsform mit dem nach § 4 ermittelten jährlichen Gesamtbrutto-\n      Jahreseinkommen.\n2.    Als Berechnungsobergrenze wird ein jährliches Bruttoeinkommen von 120.000 Euro festge-\n      setzt. Die daraus errechnete Gebühr gilt als Höchstbetrag.\n3.    Beträgt das Gesamtbrutto-Jahreseinkommen nach § 4 weniger oder gleich 40.000 Euro, wird\n      eine Mindestgebühr für die Kinderbetreuung nach § 2 Nr. 1 festgesetzt. Diese Mindestgebühr\n      wird mit einem Gesamtbrutto-Jahreseinkommen von 40.000 Euro pro Betreuungsform nach\n      Anlage 1 berechnet.\n4.    Inhaber des Stadtpass FAMILIE erhalten eine Ermäßigung der Gebühr nach den jeweils gel-\n      tenden Richtlinien für die Ausgabe des Stadtpass FAMILIE in Waiblingen.\n5.    Vor einer Ermäßigung nach Nr. 4 ist grundsätzlich vom Antragsteller die Prüfung beim Kreis-\n      jugendamt, bei der ARGE Rems-Murr-Kreis, beim Sozialamt des Landkreises und/oder beim\n      Jobcenter zu beantragen, ob Leistungen nach SGB II, SGB III, SGB VIII oder SGB XII bean-\n      sprucht werden können, bzw. eine Bildungskarte ausgestellt werden kann. Diese sind vor-\n      rangig zu beanspruchen.\n6.    In einzelnen Härtefällen, soweit keine Ermäßigungen nach Nr. 4 und 5 beansprucht werden\n      können, kann die Gebühr nach § 6 Nr. 1 bis 3 auf Antrag ermäßigt werden. Die Anträge sind\n      eingehend zu begründen. Die Stadtverwaltung kann entsprechende Nachweise verlangen.\n7.    In besonders gelagerten Fällen kann die Gebühr nach § 2 Nr. 2 ermäßigt oder erstattet wer-\n      den. Alles Nähere ist im Einzelfall durch Dienstanweisung zu regeln.\n8.    In dringenden Fällen kann eine zusätzliche Betreuung im Rahmen der Gesamtöffnungszeit\n      der Einrichtung zum gebuchten Betreuungsangebot zugebucht werden. Die Gebühr beträgt\n      pro Stunde 20,- Euro.\n9.    Die Kindertageseinrichtungen bieten verschiedene feststehende Betreuungsangebote an. Ab\n      einem Betreuungsangebot von mehr als 6 Stunden pro Tag ist verbindlich ein warmes Mit-\n      tagessen enthalten. 'LH\u0003.RVWHQ\u0003IU\u0003GDV\u00030LWWDJHVVHQ\u0003VLQG\u0003PLW\u0003HLQHP\u0003%HWUDJ\u0003YRQ\u0003\u0016\u000f\u0015\u0013\u0003¼\u0003MH\u00030LW\u0010\n      tagessen und Betreuungstag in den Gebühren nach Anlage 1 enthalten.\n10.   Eine Festlegung auf ein Betreuungsangebot im Voraus ist erforderlich. Für den Monat Au-\n      gust ist grundsätzlich kein Betreuungszeitenwechsel möglich. Bei einem Wechsel in ein an-\n      deres Betreuungsangebot ist die dafür geltende Gebühr ab dem Monat, in dem der Wechsel\n      stattfindet, zu entrichten. Für Kinder, die mit unter drei Jahren in die Einrichtung aufgenom-\n      men werden, gilt ab dem dritten Geburtstag die Gebühr für Kinder ab drei Jahren. Die Ge-\n      bührenänderung wird unter Berücksichtigung der aktuellen Betreuungszeit automatisch vor-\n      genommen mit dem Kalendermonat, der dem dritten Geburtstag folgt.\n11.   Mit den Gebühren sind die Kosten für Windeln und persönliche Pflegeartikel nicht abgegol-\n      ten. Diese sind der Kindertageseinrichtung zur Verfügung zu stellen.\n12.   Kinder, die in Waiblingen nicht mit erstem Wohnsitz, bzw. nicht bei einem Sorgeberechtigten\n      gemeldet, aber in eine Kindertageseinrichtung aufgenommen sind, zahlen den Höchstbetrag\n      nach § 6 Nr. 3 je nach wöchentlicher Betreuungszeit. Dies gilt auch für Geschwisterkinder.\n13.   Beinhaltet die Gebühr ein Essensangebot, das aus zwingendem Grund (z.B. Allergie u. ä.\n      mit ärztlichem Attest) nicht in Anspruch genommen werden, so ermäßigt sich die Gebühr um\n      15 %.",
+        "evidence": {
+          "source_id": "dae7d9e3a67b",
+          "locator": "PDF-/Textseite 3, Absatzblock 2",
+          "original": null
+        }
+      },
+      {
+        "text": "§7     Festsetzung der Benutzungsgebühr\n1.     Die Benutzungsgebühr wird zunächst gemäß § 6 Nr. 2 in der jeweiligen Höchstgebühr fest-\n       gesetzt. Wird ein Nachweis über das tatsächliche Gesamtbrutto-Jahreseinkommen, welches\n       unter 120.000 Euro liegt, fristgerecht und vollständig vorgelegt, erfolgt auf dieser Grundlage\n       eine neue Festsetzung der Benutzungsgebühr. Die neue Gebühr gilt erst ab dem Monat der\n       Vorlage der Nachweise. Zur Gebührenveranlagung sind die Eltern, der sorgeberechtigte El-\n       ternteil oder die sonst Sorgeberechtigten sowie der sorgeberechtigte Elternteil und der nicht-\n       sorgeberechtigte Haushaltsangehörige im Fall von § 4 Nr. 3 verpflichtet, eine wahrheitsge-\n       mäße Erklärung über das Einkommen nach § 4 abzugeben, falls eine Reduzierung der\n       Höchstgebühr erfolgen soll.\n2.     Die Angaben nach Nr. 1 werden von der Stadtverwaltung überprüft. Dazu müssen der Stadt\n       mit der Aufnahme Nachweise über das maßgebende Einkommen vorgelegt werden (z.B.\n       elektronische Lohnsteuerbescheinigung aus dem Vorjahr, bei Selbständigkeit betriebswirt-\n       schaftliche Auswertung). Nachweise sind darüber hinaus bei Veränderungen des Einkom-\n       mens, aber mindestens einmal jährlich vorzulegen.\n3.     Werden keine oder keine vollständigen bzw. fristgerechten Angaben nach Nr. 1 gemacht,\n       wird die Höchstgebühr festgesetzt. Im Falle einer aufgrund unrichtiger Einkommensangaben\n       zu niedrig festgesetzten Gebühr, erfolgt eine Korrektur der Gebührenveranlagung.",
+        "evidence": {
+          "source_id": "dae7d9e3a67b",
+          "locator": "PDF-/Textseite 4, Absatzblock 1",
+          "original": null
+        }
+      },
+      {
+        "text": "§8     Gebührenpflicht\n1.     Es sind folgende Personen zur Entrichtung der Gebühr verpflichtet:\n       - die Eltern\n       - der sorgeberechtigte Elternteil\n       - die sonst Sorgeberechtigten\n       - der nichtsorgeberechtigte Haushaltsangehörige im Fall von § 4 Nr. 3",
+        "evidence": {
+          "source_id": "dae7d9e3a67b",
+          "locator": "PDF-/Textseite 4, Absatzblock 2",
+          "original": null
+        }
+      },
+      {
+        "text": "§9     Entstehung der Benutzungsgebühr\n1.     Die Benutzungsgebühr entsteht mit Beginn der Aufnahme des Kindes.\n2.     Das Benutzungsverhältnis endet durch schriftliche Abmeldung des Kindes durch den Sorge-\n       berechtigten oder durch Ausschluss des Kindes durch den Einrichtungsträger.",
+        "evidence": {
+          "source_id": "dae7d9e3a67b",
+          "locator": "PDF-/Textseite 4, Absatzblock 4",
+          "original": null
+        }
+      },
+      {
+        "text": "§ 10 Fälligkeit der Benutzungsgebühr\nDer jeweilige Monatsbeitrag wird im Voraus zum Ersten des Monats fällig. Die Benutzungsgebühren\nwerden bei der erstmaligen Benutzung durch schriftlichen Bescheid festgesetzt. Die Festsetzung gilt\nso lange weiter, bis ein neuer Bescheid oder Änderungsbescheid ergeht.",
+        "evidence": {
+          "source_id": "dae7d9e3a67b",
+          "locator": "PDF-/Textseite 4, Absatzblock 5",
+          "original": null
+        }
+      },
+      {
+        "text": "§ 12 Inkrafttreten\nDiese Satzung über die Benutzung und Gebühren für die Kindertageseinrichtungen der Stadt Waib-\nlingen tritt am 01.04.2026 in Kraft. Die Satzung über die Betreuung und Gebühren für die Kinderta-\ngeseinrichtungen und die kommunalen Betreuungseinrichtungen an den Grundschulen der Stadt\nWaiblingen vom 01.09.2018, zuletzt geändert am 25.04.2024 tritt für den Geltungsbereich der Kin-\ndertageseinrichtungen zum 31.03.2026 außer Kraft und gilt ab dem 01.04.2026 nur noch für die\nkommunalen Betreuungseinrichtungen an den Grundschulen.",
+        "evidence": {
+          "source_id": "dae7d9e3a67b",
+          "locator": "PDF-/Textseite 5, Absatzblock 1",
+          "original": null
+        }
+      },
+      {
+        "text": "Gebührentabelle für die Kindertageseinrichtungen der Stadt Waiblingen\nAnlage 1 zur Benutzungs- und Gebührenordnung für Kindertageseinrichtungen der Stadt Waiblingen vom 01.04.2026",
+        "evidence": {
+          "source_id": "dae7d9e3a67b",
+          "locator": "PDF-/Textseite 6, Absatzblock 1",
+          "original": null
+        }
+      },
+      {
+        "text": "Kinder über 3 Jahre                                Kinder unter 3 Jahre\n            Betreuungsformen\n                                              Prozentualer Anteil                               Prozentualer Anteil\n                                                                  Mindestgebühr    Höchstgebühr                     Mindestgebühr Höchstgebühr\n                                              vom Gesamtbrutto-                                 vom Gesamtbrutto-\n                                                                  gem. §6 Nr. 3      gem. §7                        gem. §6 Nr. 3   gem. §7\n                                              Jahreseinkommen                                   Jahreseinkommen\nBis 20 Stunden wöchentlich ohne Mittagessen\n                                                      -                -                -             0,25%            100,- Euro      300,- Euro\n(max. 4 h täglich)\nBis 30 Stunden wöchentlich ohne Mittagessen\n                                                   0,25%           100,- Euro       300,- Euro        0,30%            120,- Euro      360,- Euro\n(max. 6 h täglich)\nBis 30 Stunden wöchentlich mit Mittagessen\n                                                   0,30%           120,- Euro       360,- Euro        0,40%            160,- Euro      480,- Euro\n(max. 6 h täglich)\n31-35 Stunden wöchentlich mit Mittagessen\n                                                   0,40%           160,- Euro       480,- Euro        0,50%            200,- Euro      600,- Euro\n(max. 7 h täglich)\n36-40 Stunden wöchentlich mit Mittagessen\n                                                   0,42%           168,- Euro       504,- Euro        0,52%            208,- Euro      624,- Euro\n(max. 8 h täglich)\n41-50 Stunden wöchentlich mit Mittagessen\n                                                   0,50%           200,- Euro       600,- Euro        0,60%            240,- Euro      720,- Euro\n(max. 10 h täglich)\nKombination 1: (nur für über 3-Jährige)\n\u0003\u0015\u00037DJH\u0003Ä%LV\u0003\u0016\u0013\u00036WXQGHQ\u0003RKQH\u00030LWWDJHVVHQ\u0005\u0003\u000e        0,40%           160,- Euro       480,- Euro           -                 -               -\n\u0016\u00037DJH\u0003Ä\u0017\u0014\u0010\u0018\u0013\u00036WXQGHQ\u0003PLW\u00030LWWDJHVVHQ³\nKombination 2: (nur für über 3-Jährige)\n\u0015\u00037DJH\u0003Ä%LV\u0003\u0016\u0013\u00036WXQGHQ\u0003\u0003PLW\u00030LWWDJHVVHQ\u0005\u0003\u000e         0,42%           168,- Euro       504,- Euro           -                 -               -\n\u0016\u00037DJH\u0003Ä\u0017\u0014\u0010\u0018\u0013\u00036WXQGHQ\u0003PLW\u00030LWWDJHVVHQ³\nKombination 3: (nur für unter 3-Jährige)\n\u0015\u00037DJH\u0003Ä\u0015\u0014\u0010\u0016\u0013\u00036WXQGHQ\u0003RKQH\u00030LWWDJHVVHQ\u0005\u0003\u000e             -                -                -             0,48%            192,- Euro      576,- Euro\n\u0016\u00037DJH\u0003Ä\u0017\u0014\u0010\u0018\u0013\u00036WXQGHQ\u0003PLW\u00030LWWDJHVVHQ³\nKombination 4: (nur für unter 3-Jährige)\n\u0015\u00037DJH\u0003Ä%LV\u0003\u0016\u0013\u00036WXQGHQ\u0003PLW\u00030LWWDJHVVHQ\u0005\u0003\u000e             -                -                -             0,52%            208,- Euro      624,- Euro\n\u0016\u00037DJH\u0003Ä\u0017\u0014\u0010\u0018\u0013\u00036WXQGHQ\u0003PLW\u00030LWWDJHVVHQ³",
+        "evidence": {
+          "source_id": "dae7d9e3a67b",
+          "locator": "PDF-/Textseite 6, Absatzblock 2",
+          "original": null
+        }
+      },
+      {
+        "text": "Kinderermäßigung gem. §5\nfür das 1. Kind                                               0%\nfür das 2. Kind                                              50%\nfür das 3. Kind                                              75%\nfür das 4. Kind                                           87,50%\nab dem 5. Kind                                              100%",
+        "evidence": {
+          "source_id": "dae7d9e3a67b",
+          "locator": "PDF-/Textseite 6, Absatzblock 3",
+          "original": null
+        }
+      },
+      {
+        "text": "Waiblinger Stadtrecht\n              Anlage 2 zur Benutzungs- und Gebührenordnung der Stadt Waiblingen\n                          vom 01.04.2026 für die Kindertageseinrichtungen",
+        "evidence": {
+          "source_id": "d437992cd414",
+          "locator": "PDF-/Textseite 1, Absatzblock 1",
+          "original": null
+        }
+      },
+      {
+        "text": "§1     Aufnahme in die Kindertageseinrichtungen\n1.1    Die Plätze in den städtischen Kindertageseinrichtungen stehen vorrangig Waiblinger Kin-\n       dern zur Verfügung.\n1.2    Auswärtige Kinder können auf freie Plätze nur aufgenommen werden, wenn diese nicht für\n       Waiblinger Kinder benötigt werden:\n       a.     In diesem Fall stehen die Plätze zunächst für Kinder zur Verfügung, die nachweis-\n              lich von Familienangehörigen in Waiblingen betreut werden oder deren Eltern in ei-\n              nem Unternehmen mit Sitz in Waiblingen arbeiten oder eine Ausbildung absolvieren.\n       b.     Sonstige auswärtige Kinder können nur auf darüber hinaus nicht benötigte, freie\n              Plätze aufgenommen werden.\n1.3    In den Kindertageseinrichtungen mit Öffnungszeiten bis zu 30 Stunden wöchentlich werden\n       Kinder vom vollendeten 3. Lebensjahr bis zum Eintritt der Schulpflicht aufgenommen.\n       In dafür vorgesehenen Einrichtungen werden auch jüngere Kinder und Kinder mit erweiter-\n       ten Betreuungszeiten und in Ganztagesbetreuung aufgenommen, soweit Plätze vorhanden\n       sind.\n       Kinder, die vom Besuch der Grundschule zurückgestellt sind, sollen eine Grund-\n       schulförderklasse besuchen.\n1.4    Kinder, die körperlich, seelisch oder geistig beeinträchtigt sind, sollen in die Einrichtung\n       aufgenommen werden, wenn sowohl ihren besonderen Bedürfnissen als auch den Belan-\n       gen der übrigen Kinder in der Einrichtung Rechnung getragen werden kann.\n1.5    Über die Aufnahme der Kinder entscheidet der Träger. Er kann die Entscheidung auf die\n       Kindergartenleitung übertragen. Mit der Anmeldung erkennen die Eltern die Bestimmungen\n       dieser Benutzungs- und Gebührenordnung an.\n1.6    Jedes Kind muss vor der Aufnahme in die Einrichtung ärztlich untersucht werden. Als ärztli-\n       che Untersuchung gilt auch die Vorsorgeuntersuchung.\n1.7    Die Aufnahme des Kindes erfolgt nach Vorlage der Bescheinigung über die ärztliche Unter-\n       suchung, nach der Unterzeichnung des Aufnahmebogens und der Erklärung der Eltern.\n1.8    Es wird empfohlen, vor der Aufnahme des Kindes in den Kindergarten die Schutzimpfungen\n       gegen Diphtherie, Wundstarrkrampf, Keuchhusten, Hepatitis B und Kinderlähmung vor-\n       nehmen zu lassen.\n1.9    Medikamente werden an Kinder vom pädagogischen Personal nur im Ausnahmefall verab-\n       reicht und nur, wenn eine ärztliche Bescheinigung und eine schriftliche Vereinbarung mit\n       der/den Personensorgeberechtigten vorliegt.\n1.10   Die Personensorgeberechtigten verpflichten sich, Änderungen in der Personensorge sowie\n       der Anschrift, der privaten und geschäftlichen Telefonnummern der Leitung der Einrichtung\n       unverzüglich mitzuteilen, um in Notfällen erreichbar zu sein.",
+        "evidence": {
+          "source_id": "d437992cd414",
+          "locator": "PDF-/Textseite 1, Absatzblock 4",
+          "original": null
+        }
+      },
+      {
+        "text": "Waiblinger Stadtrecht\n             Anlage 2 zur Benutzungs- und Gebührenordnung der Stadt Waiblingen\n                         vom 01.04.2026 für die Kindertageseinrichtungen",
+        "evidence": {
+          "source_id": "d437992cd414",
+          "locator": "PDF-/Textseite 2, Absatzblock 1",
+          "original": null
+        }
+      },
+      {
+        "text": "§3    Elternbeitrag\n3.1   Für den Besuch der Einrichtung ist ein Elternbeitrag zu entrichten. Die Gebühren sind vom\n      Gemeinderat der Stadt Waiblingen in der Benutzungs- und Gebührenordnung für die Kin-\n      dertageseinrichtungen festgelegt. Eine Anpassung des Beitrags an die Kostensteigerung\n      bleibt vorbehalten.",
+        "evidence": {
+          "source_id": "d437992cd414",
+          "locator": "PDF-/Textseite 2, Absatzblock 3",
+          "original": null
+        }
+      },
+      {
+        "text": "Waiblinger Stadtrecht\n              Anlage 2 zur Benutzungs- und Gebührenordnung der Stadt Waiblingen\n                          vom 01.04.2026 für die Kindertageseinrichtungen",
+        "evidence": {
+          "source_id": "d437992cd414",
+          "locator": "PDF-/Textseite 3, Absatzblock 1",
+          "original": null
+        }
+      },
+      {
+        "text": "§6     Ausschluss\n6.1    Sofern ein Kind länger als vier Wochen unentschuldigt fehlt, kann der Platz anderweitig\n       belegt werden.\n6.2    Bei einem Zahlungsrückstand von mehr als einer Monatsgebühr kann das Kind, nach vor-\n       heriger Mahnung bei den Eltern, vom Besuch der Betreuungseinrichtung ausgeschlossen\n       werden.\n6.3    Werden Kinder, entgegen Ziff. 2.4 Satz 2, wiederholt im Kindergartenjahr mindestens ½\n       Stunde nach Betreuungsende oder regelmäßig zu spät abgeholt, können den Eltern Ge-\n       bühren in Höhe von 10,00 ¼\u0003MH\u0003DQJHIDQJHQH\u00036WXQGH\u0003QDFK\u0003%HWUHXXQJVHQGH\u0003LQ\u00035HFKQXQJ\u0003\n       gestellt werden. Im Wiederholungsfall können die Kinder für zwei Tage vom Besuch der\n       Einrichtung ausgeschlossen werden. Die Betreuungsgebühren werden in diesem Fall nicht\n       zurückerstattet.\n6.4    Ein Ausschluss ist auch bei wiederholter Nichtbeachtung der sonst in dieser Ordnung auf-\n       geführten Elternpflicht möglich.\n6.5    Kinder, die permanent den geordneten Ablauf der Betreuungseinrichtung u. a. durch Beläs-\n       tigung und Gefährdung anderer Kinder stören und die Weisungen der Betreuungskraft nicht\n       befolgen, können nach vorheriger Abmahnung bei den Eltern vom Besuch der Einrichtung\n       ganz oder zeitweise ausgeschlossen werden. Bei Gefahr für die Gesundheit weiterer Kin-\n       der der Einrichtung ist auch ein fristloser Ausschluss möglich.",
+        "evidence": {
+          "source_id": "d437992cd414",
+          "locator": "PDF-/Textseite 3, Absatzblock 3",
+          "original": null
+        }
+      },
+      {
+        "text": "Waiblinger Stadtrecht\n              Anlage 2 zur Benutzungs- und Gebührenordnung der Stadt Waiblingen\n                          vom 01.04.2026 für die Kindertageseinrichtungen",
+        "evidence": {
+          "source_id": "d437992cd414",
+          "locator": "PDF-/Textseite 4, Absatzblock 1",
+          "original": null
+        }
+      },
+      {
+        "text": "Waiblinger Stadtrecht\n                Anlage 2 zur Benutzungs- und Gebührenordnung der Stadt Waiblingen\n                            vom 01.04.2026 für die Kindertageseinrichtungen",
+        "evidence": {
+          "source_id": "d437992cd414",
+          "locator": "PDF-/Textseite 5, Absatzblock 1",
+          "original": null
+        }
+      },
+      {
+        "text": "Regel/VÖ:\n                                                          Bedarfskriterien:\n Kriterien Platzvergabe:\n      x Geburtstag des Kindes                              x   Berufstätigkeit der Eltern\n                                                           x   Schulische oder berufliche Ausbildung der\n Besondere Betreuungsformen:                                   Eltern\n (GT 8, GT 10, Kombi)                                      x   Eingliederungsmaßnahme nach SGB II der\n                                                               Eltern\n Bedarfskriterien:                                         x   Arbeitsuchend (Eltern)\n     x Berufstätigkeit der Eltern                          x   Für die Entwicklung des Kindes geboten\n     x Schulische oder berufliche Ausbildung der Eltern\n        ganztags\n     x Eingliederungsmaßnahme nach SGB II der El-         Kriterien Platzvergabe:\n        tern ganztags                                     Ab 1 Jahr ist das Kriterium des Geburtstages allein\n     x Für die Entwicklung des Kindes geboten             wie ab 3 Jahren nur anwendbar, wenn genügend\n                                                          Plätze vorhanden sind, sonst kommen jüngere\n                                                          Kinder nie zum Zug.\n Kriterien Platzvergabe:\n      1. Geburtstag des Kindes\n      2. Tätigkeit/Maßnahme/Ausbildung der Eltern          1. Tätigkeit/Maßnahme/Ausbildung der Eltern\n            Dauerhaft                                         Dauerhaft\n            Langfristig                                       Langfristig\n            Kurzfristig /                                     Kurzfristig/übergangsweise\n             übergangsweise                                    Evtl. Umfang der Tätigkeit\n            Evtl. Umfang der Tätigkeit                    2. Soziale Dringlichkeit\n      3. Soziale Dringlichkeit                                 Alleinerziehende\n            Alleinerziehende                                  Beurteilung Jugendamt\n            Beurteilung Jugendamt                             Krankheit der Mutter, «\n            Krankheit der Mutter, «                       3. Altersmischung in der Einrichtung\n      4. Anmeldedatum                                      4. Anmeldedatum\n      5. Losverfahren                                      5. Losverfahren\n      6. Geschwisterkind besucht die gleiche               6. Geschwisterkind besucht die gleiche Betreu-\n      Betreuungseinrichtung                                   ungseinrichtung",
+        "evidence": {
+          "source_id": "d437992cd414",
+          "locator": "PDF-/Textseite 5, Absatzblock 3",
+          "original": null
+        }
+      }
+    ]
+  }
+}

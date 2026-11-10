@@ -1,0 +1,1439 @@
+{
+  "schema_version": "1.0",
+  "id": "magstadt",
+  "name": "Magstadt",
+  "reviewed_at": "2026-11-10",
+  "reference_date": "2026-11-10",
+  "scope": {
+    "included": [
+      "municipal"
+    ],
+    "other_providers": "only_with_explicit_source_evidence"
+  },
+  "family_basis": "under_18",
+  "family_evidence": {
+    "source_id": "b1a41a87c490",
+    "locator": "Familienbegriff und Fußnoten der Gebührenunterlagen",
+    "original": null
+  },
+  "supporting_source_ids": [
+    "b1a41a87c490",
+    "3452437844dc"
+  ],
+  "offers": [
+    {
+      "id": "magstadt-offer-ee6f92973200",
+      "original_label": "VÖ6",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 1800,
+      "weekday_minutes": [
+        360,
+        360,
+        360,
+        360,
+        360
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "b1a41a87c490",
+        "locator": "Gebührentabelle ab 01.09.2026",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "b1a41a87c490",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "b1a41a87c490",
+        "locator": "Gebührentabelle ab 01.09.2026",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "magstadt-offer-b2e8616d48b9",
+      "original_label": "GT8",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2400,
+      "weekday_minutes": [
+        480,
+        480,
+        480,
+        480,
+        480
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "b1a41a87c490",
+        "locator": "Gebührentabelle ab 01.09.2026",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "b1a41a87c490",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "b1a41a87c490",
+        "locator": "Gebührentabelle ab 01.09.2026",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "magstadt-offer-1482bb54e934",
+      "original_label": "GT9",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2700,
+      "weekday_minutes": [
+        540,
+        540,
+        540,
+        540,
+        540
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "b1a41a87c490",
+        "locator": "Gebührentabelle ab 01.09.2026",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "b1a41a87c490",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "b1a41a87c490",
+        "locator": "Gebührentabelle ab 01.09.2026",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "magstadt-offer-c01700449b7b",
+      "original_label": "VÖ6",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 1800,
+      "weekday_minutes": [
+        360,
+        360,
+        360,
+        360,
+        360
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "b1a41a87c490",
+        "locator": "Gebührentabelle ab 01.09.2026",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "b1a41a87c490",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "b1a41a87c490",
+        "locator": "Gebührentabelle ab 01.09.2026",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "magstadt-offer-9a4436f62973",
+      "original_label": "GT8",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2400,
+      "weekday_minutes": [
+        480,
+        480,
+        480,
+        480,
+        480
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "b1a41a87c490",
+        "locator": "Gebührentabelle ab 01.09.2026",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "b1a41a87c490",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "b1a41a87c490",
+        "locator": "Gebührentabelle ab 01.09.2026",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "magstadt-offer-e29deb255b47",
+      "original_label": "GT9",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2700,
+      "weekday_minutes": [
+        540,
+        540,
+        540,
+        540,
+        540
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "b1a41a87c490",
+        "locator": "Gebührentabelle ab 01.09.2026",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "b1a41a87c490",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "b1a41a87c490",
+        "locator": "Gebührentabelle ab 01.09.2026",
+        "original": null
+      },
+      "formula": null
+    }
+  ],
+  "prices": [
+    {
+      "id": "magstadt-price-7fba8d5d2392",
+      "offer_id": "magstadt-offer-ee6f92973200",
+      "amount_cents": 16600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b1a41a87c490",
+        "locator": "Gebührentabelle ab 01.09.2026",
+        "original": 166
+      }
+    },
+    {
+      "id": "magstadt-price-70a679ddc127",
+      "offer_id": "magstadt-offer-ee6f92973200",
+      "amount_cents": 12900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b1a41a87c490",
+        "locator": "Gebührentabelle ab 01.09.2026",
+        "original": 129
+      }
+    },
+    {
+      "id": "magstadt-price-65338d903c8b",
+      "offer_id": "magstadt-offer-ee6f92973200",
+      "amount_cents": 8800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b1a41a87c490",
+        "locator": "Gebührentabelle ab 01.09.2026",
+        "original": 88
+      }
+    },
+    {
+      "id": "magstadt-price-6b5e29c2122b",
+      "offer_id": "magstadt-offer-ee6f92973200",
+      "amount_cents": 8800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": 1,
+        "care_rank_is_minimum": false,
+        "rank_basis": "birth_order"
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b1a41a87c490",
+        "locator": "Gebührentabelle ab 01.09.2026",
+        "original": 88
+      }
+    },
+    {
+      "id": "magstadt-price-38636ba09c64",
+      "offer_id": "magstadt-offer-ee6f92973200",
+      "amount_cents": 8800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": 2,
+        "care_rank_is_minimum": false,
+        "rank_basis": "birth_order"
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b1a41a87c490",
+        "locator": "Gebührentabelle ab 01.09.2026",
+        "original": 88
+      }
+    },
+    {
+      "id": "magstadt-price-9238304c43f1",
+      "offer_id": "magstadt-offer-ee6f92973200",
+      "amount_cents": 8800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": 3,
+        "care_rank_is_minimum": false,
+        "rank_basis": "birth_order"
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b1a41a87c490",
+        "locator": "Gebührentabelle ab 01.09.2026",
+        "original": 88
+      }
+    },
+    {
+      "id": "magstadt-price-509511e5c7cc",
+      "offer_id": "magstadt-offer-ee6f92973200",
+      "amount_cents": 0,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": 4,
+        "care_rank_is_minimum": true,
+        "rank_basis": "birth_order"
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b1a41a87c490",
+        "locator": "Gebührentabelle ab 01.09.2026",
+        "original": 0
+      }
+    },
+    {
+      "id": "magstadt-price-a29248dee02e",
+      "offer_id": "magstadt-offer-b2e8616d48b9",
+      "amount_cents": 39400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b1a41a87c490",
+        "locator": "Gebührentabelle ab 01.09.2026",
+        "original": 394
+      }
+    },
+    {
+      "id": "magstadt-price-82f4f03e907a",
+      "offer_id": "magstadt-offer-b2e8616d48b9",
+      "amount_cents": 30500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b1a41a87c490",
+        "locator": "Gebührentabelle ab 01.09.2026",
+        "original": 305
+      }
+    },
+    {
+      "id": "magstadt-price-ee6bfb12df3c",
+      "offer_id": "magstadt-offer-b2e8616d48b9",
+      "amount_cents": 20100,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b1a41a87c490",
+        "locator": "Gebührentabelle ab 01.09.2026",
+        "original": 201
+      }
+    },
+    {
+      "id": "magstadt-price-b568f4894e69",
+      "offer_id": "magstadt-offer-b2e8616d48b9",
+      "amount_cents": 7900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b1a41a87c490",
+        "locator": "Gebührentabelle ab 01.09.2026",
+        "original": 79
+      }
+    },
+    {
+      "id": "magstadt-price-6934cbfbbb2d",
+      "offer_id": "magstadt-offer-1482bb54e934",
+      "amount_cents": 44300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b1a41a87c490",
+        "locator": "Gebührentabelle ab 01.09.2026",
+        "original": 443
+      }
+    },
+    {
+      "id": "magstadt-price-50572aae3cb5",
+      "offer_id": "magstadt-offer-1482bb54e934",
+      "amount_cents": 34300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b1a41a87c490",
+        "locator": "Gebührentabelle ab 01.09.2026",
+        "original": 343
+      }
+    },
+    {
+      "id": "magstadt-price-413e191ede5e",
+      "offer_id": "magstadt-offer-1482bb54e934",
+      "amount_cents": 22600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b1a41a87c490",
+        "locator": "Gebührentabelle ab 01.09.2026",
+        "original": 226
+      }
+    },
+    {
+      "id": "magstadt-price-8b68849adca3",
+      "offer_id": "magstadt-offer-1482bb54e934",
+      "amount_cents": 8900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b1a41a87c490",
+        "locator": "Gebührentabelle ab 01.09.2026",
+        "original": 89
+      }
+    },
+    {
+      "id": "magstadt-price-e90b18edcb97",
+      "offer_id": "magstadt-offer-c01700449b7b",
+      "amount_cents": 48200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b1a41a87c490",
+        "locator": "Gebührentabelle ab 01.09.2026",
+        "original": 482
+      }
+    },
+    {
+      "id": "magstadt-price-491d276f4bb6",
+      "offer_id": "magstadt-offer-c01700449b7b",
+      "amount_cents": 35600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b1a41a87c490",
+        "locator": "Gebührentabelle ab 01.09.2026",
+        "original": 356
+      }
+    },
+    {
+      "id": "magstadt-price-a9e91cc069a8",
+      "offer_id": "magstadt-offer-c01700449b7b",
+      "amount_cents": 24300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b1a41a87c490",
+        "locator": "Gebührentabelle ab 01.09.2026",
+        "original": 243
+      }
+    },
+    {
+      "id": "magstadt-price-aada5fe434db",
+      "offer_id": "magstadt-offer-c01700449b7b",
+      "amount_cents": 24300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": 1,
+        "care_rank_is_minimum": false,
+        "rank_basis": "birth_order"
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b1a41a87c490",
+        "locator": "Gebührentabelle ab 01.09.2026",
+        "original": 243
+      }
+    },
+    {
+      "id": "magstadt-price-96bbe905f108",
+      "offer_id": "magstadt-offer-c01700449b7b",
+      "amount_cents": 24300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": 2,
+        "care_rank_is_minimum": false,
+        "rank_basis": "birth_order"
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b1a41a87c490",
+        "locator": "Gebührentabelle ab 01.09.2026",
+        "original": 243
+      }
+    },
+    {
+      "id": "magstadt-price-727387366f10",
+      "offer_id": "magstadt-offer-c01700449b7b",
+      "amount_cents": 24300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": 3,
+        "care_rank_is_minimum": false,
+        "rank_basis": "birth_order"
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b1a41a87c490",
+        "locator": "Gebührentabelle ab 01.09.2026",
+        "original": 243
+      }
+    },
+    {
+      "id": "magstadt-price-971041ba4410",
+      "offer_id": "magstadt-offer-c01700449b7b",
+      "amount_cents": 0,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": 4,
+        "care_rank_is_minimum": true,
+        "rank_basis": "birth_order"
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b1a41a87c490",
+        "locator": "Gebührentabelle ab 01.09.2026",
+        "original": 0
+      }
+    },
+    {
+      "id": "magstadt-price-e1efe5fa1d18",
+      "offer_id": "magstadt-offer-9a4436f62973",
+      "amount_cents": 59500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b1a41a87c490",
+        "locator": "Gebührentabelle ab 01.09.2026",
+        "original": 595
+      }
+    },
+    {
+      "id": "magstadt-price-6041df2ec7c2",
+      "offer_id": "magstadt-offer-9a4436f62973",
+      "amount_cents": 44100,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b1a41a87c490",
+        "locator": "Gebührentabelle ab 01.09.2026",
+        "original": 441
+      }
+    },
+    {
+      "id": "magstadt-price-e2b9a3b8239b",
+      "offer_id": "magstadt-offer-9a4436f62973",
+      "amount_cents": 30000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b1a41a87c490",
+        "locator": "Gebührentabelle ab 01.09.2026",
+        "original": 300
+      }
+    },
+    {
+      "id": "magstadt-price-cd4bcd42367a",
+      "offer_id": "magstadt-offer-9a4436f62973",
+      "amount_cents": 11800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b1a41a87c490",
+        "locator": "Gebührentabelle ab 01.09.2026",
+        "original": 118
+      }
+    },
+    {
+      "id": "magstadt-price-13d72c60e0c7",
+      "offer_id": "magstadt-offer-e29deb255b47",
+      "amount_cents": 66900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b1a41a87c490",
+        "locator": "Gebührentabelle ab 01.09.2026",
+        "original": 669
+      }
+    },
+    {
+      "id": "magstadt-price-ca5aaf973148",
+      "offer_id": "magstadt-offer-e29deb255b47",
+      "amount_cents": 49600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b1a41a87c490",
+        "locator": "Gebührentabelle ab 01.09.2026",
+        "original": 496
+      }
+    },
+    {
+      "id": "magstadt-price-11f733b3087b",
+      "offer_id": "magstadt-offer-e29deb255b47",
+      "amount_cents": 33800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b1a41a87c490",
+        "locator": "Gebührentabelle ab 01.09.2026",
+        "original": 338
+      }
+    },
+    {
+      "id": "magstadt-price-71c7cdff5280",
+      "offer_id": "magstadt-offer-e29deb255b47",
+      "amount_cents": 13300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b1a41a87c490",
+        "locator": "Gebührentabelle ab 01.09.2026",
+        "original": 133
+      }
+    }
+  ],
+  "income_bands": [],
+  "components": [
+    {
+      "id": "magstadt-component-1efcf0610e33",
+      "kind": "meal",
+      "original_label": "Mittagessen je Portion",
+      "amount_cents": 395,
+      "unit": "per_meal",
+      "age_group": null,
+      "required": null,
+      "payment_months": null,
+      "offer_ids": null,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "b1a41a87c490",
+        "locator": "Verpflegung / Zusatzkosten",
+        "original": null
+      }
+    }
+  ],
+  "rules": [
+    {
+      "id": "magstadt-rule-f87da4d9b796",
+      "kind": "gt_day_combination",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "age_group": "o3",
+        "minimum_gt_days": 2,
+        "daily_fraction": "1/5",
+        "remaining_days": "vo"
+      },
+      "evidence": {
+        "source_id": "b1a41a87c490",
+        "locator": "Fußnote unter der Tabelle",
+        "original": null
+      }
+    },
+    {
+      "id": "magstadt-rule-898be86c1c86",
+      "kind": "source_provisions_b1a41a87c490",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "archive_text_path": "data/sources/b1a41a87c490/text.txt",
+        "text_sha256": "2ed822886d45cd12308589c8898c87972c357f79c179c48caee56c4af22d9a7e",
+        "review_status": "archived_provisions_preserved"
+      },
+      "evidence": {
+        "source_id": "b1a41a87c490",
+        "locator": "Vollständiger archivierter Dokumenttext einschließlich Fußnoten",
+        "original": null
+      }
+    },
+    {
+      "id": "magstadt-rule-d6befab16de7",
+      "kind": "source_clause_b1a41a87c490_1_3",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 0,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "b1a41a87c490",
+        "locator": "PDF-/Textseite 1, Absatzblock 3",
+        "original": null
+      }
+    },
+    {
+      "id": "magstadt-rule-889c6bf338a1",
+      "kind": "source_clause_b1a41a87c490_1_4",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 1,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "b1a41a87c490",
+        "locator": "PDF-/Textseite 1, Absatzblock 4",
+        "original": null
+      }
+    },
+    {
+      "id": "magstadt-rule-f0fb4f65a4f1",
+      "kind": "source_clause_b1a41a87c490_1_5",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 2,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "b1a41a87c490",
+        "locator": "PDF-/Textseite 1, Absatzblock 5",
+        "original": null
+      }
+    },
+    {
+      "id": "magstadt-rule-465d0b384521",
+      "kind": "source_clause_b1a41a87c490_1_7",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 3,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "b1a41a87c490",
+        "locator": "PDF-/Textseite 1, Absatzblock 7",
+        "original": null
+      }
+    },
+    {
+      "id": "magstadt-rule-a0ddbc62ad4f",
+      "kind": "source_clause_b1a41a87c490_1_8",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 4,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "b1a41a87c490",
+        "locator": "PDF-/Textseite 1, Absatzblock 8",
+        "original": null
+      }
+    },
+    {
+      "id": "magstadt-rule-25ef703aa95b",
+      "kind": "source_clause_b1a41a87c490_1_9",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 5,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "b1a41a87c490",
+        "locator": "PDF-/Textseite 1, Absatzblock 9",
+        "original": null
+      }
+    },
+    {
+      "id": "magstadt-rule-21d7087074ed",
+      "kind": "source_provisions_3452437844dc",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "archive_text_path": "data/sources/3452437844dc/text.txt",
+        "text_sha256": "6c222fc0911bae9eabb97ed5361f780acf56cbbd43ad4f7e645124b12aa435b1",
+        "review_status": "archived_provisions_preserved"
+      },
+      "evidence": {
+        "source_id": "3452437844dc",
+        "locator": "Vollständiger archivierter Dokumenttext einschließlich Fußnoten",
+        "original": null
+      }
+    },
+    {
+      "id": "magstadt-rule-255f9980e4b3",
+      "kind": "source_clause_3452437844dc_1_3",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 6,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "3452437844dc",
+        "locator": "PDF-/Textseite 1, Absatzblock 3",
+        "original": null
+      }
+    },
+    {
+      "id": "magstadt-rule-794d96fb0493",
+      "kind": "source_clause_3452437844dc_3_2",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 7,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "3452437844dc",
+        "locator": "PDF-/Textseite 3, Absatzblock 2",
+        "original": null
+      }
+    },
+    {
+      "id": "magstadt-rule-90e7881747c7",
+      "kind": "source_clause_3452437844dc_4_4",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 8,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "3452437844dc",
+        "locator": "PDF-/Textseite 4, Absatzblock 4",
+        "original": null
+      }
+    },
+    {
+      "id": "magstadt-rule-1e5923945c6c",
+      "kind": "source_clause_3452437844dc_5_5",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 9,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "3452437844dc",
+        "locator": "PDF-/Textseite 5, Absatzblock 5",
+        "original": null
+      }
+    },
+    {
+      "id": "magstadt-rule-f1ac9ae12797",
+      "kind": "source_clause_3452437844dc_5_6",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 10,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "3452437844dc",
+        "locator": "PDF-/Textseite 5, Absatzblock 6",
+        "original": null
+      }
+    },
+    {
+      "id": "magstadt-rule-18fdd3b4391c",
+      "kind": "source_clause_3452437844dc_5_8",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 11,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "3452437844dc",
+        "locator": "PDF-/Textseite 5, Absatzblock 8",
+        "original": null
+      }
+    },
+    {
+      "id": "magstadt-rule-220047779716",
+      "kind": "source_clause_3452437844dc_5_9",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 12,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "3452437844dc",
+        "locator": "PDF-/Textseite 5, Absatzblock 9",
+        "original": null
+      }
+    },
+    {
+      "id": "magstadt-rule-5cf3ce47b15d",
+      "kind": "source_clause_3452437844dc_5_10",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 13,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "3452437844dc",
+        "locator": "PDF-/Textseite 5, Absatzblock 10",
+        "original": null
+      }
+    },
+    {
+      "id": "magstadt-rule-ca4b01977385",
+      "kind": "source_clause_3452437844dc_6_5",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 14,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "3452437844dc",
+        "locator": "PDF-/Textseite 6, Absatzblock 5",
+        "original": null
+      }
+    },
+    {
+      "id": "magstadt-rule-33d0ad06346a",
+      "kind": "source_clause_3452437844dc_6_6",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 15,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "3452437844dc",
+        "locator": "PDF-/Textseite 6, Absatzblock 6",
+        "original": null
+      }
+    },
+    {
+      "id": "magstadt-rule-fe300cf9ec4a",
+      "kind": "source_clause_3452437844dc_6_8",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 16,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "3452437844dc",
+        "locator": "PDF-/Textseite 6, Absatzblock 8",
+        "original": null
+      }
+    },
+    {
+      "id": "magstadt-rule-6332f71e8b02",
+      "kind": "source_clause_3452437844dc_6_9",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 17,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "3452437844dc",
+        "locator": "PDF-/Textseite 6, Absatzblock 9",
+        "original": null
+      }
+    },
+    {
+      "id": "magstadt-rule-1236ad0f5d14",
+      "kind": "source_clause_3452437844dc_6_10",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 18,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "3452437844dc",
+        "locator": "PDF-/Textseite 6, Absatzblock 10",
+        "original": null
+      }
+    },
+    {
+      "id": "magstadt-rule-abb983cf8aae",
+      "kind": "source_clause_3452437844dc_7_1",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 19,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "3452437844dc",
+        "locator": "PDF-/Textseite 7, Absatzblock 1",
+        "original": null
+      }
+    }
+  ],
+  "issues": [
+    {
+      "code": "pending_calculation_review",
+      "detail": "Strukturierter Import; noch keine Freigabe des Rechners oder der Website."
+    },
+    {
+      "code": "research_limitation_1",
+      "detail": "Geburts-/Geschwisterrang bei der neuen Ü3-Regel abschließend für die Berechnung abbilden; kein pauschaler Vier-Kinder-Rabatt."
+    }
+  ],
+  "coverage": {
+    "publication_status": "not_active",
+    "integration_status": "normalized_pending_calculation_review",
+    "history_in_scope": false,
+    "source_register": "data/research/neighbor_expansion_2026-11-10.json",
+    "research_id": "magstadt",
+    "unavailable_configurations": [],
+    "offers": 6,
+    "price_cells": 30,
+    "income_bands": 0,
+    "components": 1,
+    "rule_records": 23,
+    "tariff_table_transcription": "complete_for_declared_scope",
+    "declared_scope": "Aktuelle und bereits veröffentlichte künftige Krippen- und Kindergartentarife; Zusatzkosten und Gebührenregeln.",
+    "excluded_from_regular_price_rows": [
+      "superseded_historical_tariffs",
+      "school_childcare",
+      "takki_and_childminding",
+      "separate_playgroups"
+    ],
+    "calculation_engine_changed": false,
+    "rule_transcription": "typed_parameters_and_source_clauses_with_explicit_unimplemented_status"
+  },
+  "original_research": {
+    "path": "data/research/neighbor_expansion_2026-11-10.json",
+    "section": "Magstadt",
+    "text": "Die vierte Familienstufe bedeutet bei Ü3 keine pauschale Befreiung aller Geschwister. Wortlaut zur Rangfolge erhalten.\nGeburts-/Geschwisterrang bei der neuen Ü3-Regel abschließend für die Berechnung abbilden; kein pauschaler Vier-Kinder-Rabatt.",
+    "source_clauses": [
+      {
+        "text": "Familien / Erziehende mit\n                              das 4. Kind und jedes                                                      das 4. Kind und jedes\n4 und mehr Kindern unter\n                               weitere Kind in der                                                       weitere Kind in der Fa-\n18 Jahren\n                             Familie ist beitragsfrei                                                     milie ist beitragsfrei",
+        "evidence": {
+          "source_id": "b1a41a87c490",
+          "locator": "PDF-/Textseite 1, Absatzblock 3",
+          "original": null
+        }
+      },
+      {
+        "text": "bis zum 3. Kind ist der          79,- Euro              89,- Euro           bis zum 3. Kind ist der         118,- Euro              133,- Euro\n                                   Beitrag für                                                                 Beitrag für\n                            Familien/Erziehende mit                                                     Familien/Erziehende mit\n                                 3 Kindern unter                                                             3 Kindern unter\n                             18 Jahren zu entrichten                                                     18 Jahren zu entrichten",
+        "evidence": {
+          "source_id": "b1a41a87c490",
+          "locator": "PDF-/Textseite 1, Absatzblock 4",
+          "original": null
+        }
+      },
+      {
+        "text": "Für Kinder, die an einzelnen Tagen in der Ganztagesbetreuung Ü3 angemeldet sind (mindestens 2 Tage) und ansonsten die Regelgruppe/Gruppe mit verlängerten Öffnungszeiten besuchen,\nwird für den jeweiligen Wochentag 1/5 der jeweiligen Gebühren berechnet.",
+        "evidence": {
+          "source_id": "b1a41a87c490",
+          "locator": "PDF-/Textseite 1, Absatzblock 5",
+          "original": null
+        }
+      },
+      {
+        "text": "Elternbeitrag für die Betreuung von Kindern unter 3 Jahren durch Tagespflegeeltern – TAKKI-Modell",
+        "evidence": {
+          "source_id": "b1a41a87c490",
+          "locator": "PDF-/Textseite 1, Absatzblock 7",
+          "original": null
+        }
+      },
+      {
+        "text": "Für die Betreuung von Kindern unter 3 Jahren bei einer Tagespflegeperson im Rahmen der Kooperation zwischen der Gemeinde und Tageskinder e.V. Leonberg werden die Beiträge (gültig\nab 01.09.2026) wie folgt erhoben:",
+        "evidence": {
+          "source_id": "b1a41a87c490",
+          "locator": "PDF-/Textseite 1, Absatzblock 8",
+          "original": null
+        }
+      },
+      {
+        "text": "Elternbeitrag: Beitrag U3 umgerechnet auf die tatsächliche Betreuungszeit",
+        "evidence": {
+          "source_id": "b1a41a87c490",
+          "locator": "PDF-/Textseite 1, Absatzblock 9",
+          "original": null
+        }
+      },
+      {
+        "text": "Inhaltsverzeichnis\n§ 1 Aufgabe der Einrichtung ................................................................................................... 2\n§ 2 Aufnahme ............................................................................................................................ 2\n§ 3 Abmeldung/Kündigung ..................................................................................................... 3\n§ 4 Besuch der Einrichtung und Öffnungszeiten................................................................... 4\n§ 5 Ferien und Schließung der Einrichtung aus besonderem Anlass .................................. 4\n§ 6 Benutzungsentgelt (Benutzungsgebühr) .......................................................................... 4\n§ 7 Versicherung ....................................................................................................................... 7\n§ 8 Regelungen in Krankheitsfällen ........................................................................................ 7\n§ 9 Aufsicht ............................................................................................................................... 8\n§ 10 Elternbeirat ....................................................................................................................... 8\n§ 11 Datenschutz ....................................................................................................................... 8\n§ 12 Inkrafttreten ..................................................................................................................... 9",
+        "evidence": {
+          "source_id": "3452437844dc",
+          "locator": "PDF-/Textseite 1, Absatzblock 3",
+          "original": null
+        }
+      },
+      {
+        "text": "§3\n                                 Abmeldung/Kündigung\n1. Das Betreuungsverhältnis kann von Personensorgeberechtigten mit einer Frist von vier\n   Wochen zum Monatsende schriftlich gekündigt und der Leitung der Einrichtung oder dem\n   Träger übermittelt werden.\n2. Einer Kündigung bedarf es nicht, wenn das Kind zum Ende des Kindergartenjahres in die\n   Schule überwechselt. Abweichend von Satz 1 kann das Betreuungsverhältnis eines Kindes,\n   das zum Ende des laufenden Kindergartenjahres in die Schule überwechselt, unter\n   Einhaltung der Kündigungsfrist nur bis spätestens zum Ende des Monats April gekündigt\n   werden. Ist eine Wiederbesetzung des freigewordenen Platzes sofort möglich, kann die\n   Kündigung auch später angenommen werden.\n3. Der Träger der Einrichtung kann den Aufnahmevertrag mit einer Frist von vier Wochen zum\n   Monatsende schriftlich kündigen,\n    - wenn das Kind die Einrichtung länger als vier Wochen unentschuldigt nicht mehr\n       besucht hat,\n    - wenn die Eltern die in dieser Ordnung aufgeführten Pflichten wiederholt nicht\n       beachteten, trotz schriftlicher Abmahnung,\n    - wenn der zu entrichtende Elternbeitrag für zwei aufeinanderfolgende Monate nicht\n       bezahlt wurde,",
+        "evidence": {
+          "source_id": "3452437844dc",
+          "locator": "PDF-/Textseite 3, Absatzblock 2",
+          "original": null
+        }
+      },
+      {
+        "text": "§6\n                          Benutzungsentgelt (Benutzungsgebühr)\n1. Für den Besuch der Einrichtung wird eine Betreuungsgebühr, gegebenenfalls zusätzliches\n   Essensgeld erhoben. Die Gebühr wird in der jeweils vom Gemeinderat festgesetzten Höhe\n   im Voraus zum Monatsanfang fällig, spätestens am 5. Tag des Monats. Beginnend mit dem\n   Monat, in dem das Kind in die Einrichtung aufgenommen wird. Die Betreuungsgebühr wird\n   monatlich im laufenden Kindergartenjahr für jeden Monat der Betreuung erhoben (12\n   Monate jährlich).\n2. Die monatliche Gebühr beträgt ab 01.01.2026 für",
+        "evidence": {
+          "source_id": "3452437844dc",
+          "locator": "PDF-/Textseite 4, Absatzblock 4",
+          "original": null
+        }
+      },
+      {
+        "text": "Familien / Erziehende mit\n                                das 4. Kind und jedes                                                           das 4. Kind und jedes\n4 und mehr Kindern unter\n                                 weitere Kind in der                                                             weitere Kind in der\n18 Jahren\n                               Familie ist beitragsfrei                                                       Familie ist beitragsfrei\n                               bis zum 3. Kind ist der                                                         bis zum 3. Kind ist der\n                                                                 79,- Euro                89,- Euro                                             118,- Euro               133,- Euro\n                                     Beitrag für                                                                     Beitrag für\n                              Familien/Erziehende mit 3                                                       Familien/Erziehende mit\n                                    Kindern unter                                                                  3 Kindern unter\n                               18 Jahren zu entrichten                                                         18 Jahren zu entrichten",
+        "evidence": {
+          "source_id": "3452437844dc",
+          "locator": "PDF-/Textseite 5, Absatzblock 5",
+          "original": null
+        }
+      },
+      {
+        "text": "Für Kinder, die an einzelnen Tagen in der Ganztagesbetreuung Ü3 angemeldet sind (mindestens 2 Tage) und ansonsten die Regelgruppe/Gruppe mit verlängerten Öffnungszeiten besuchen, wird für\nden jeweiligen Wochentag 1/5 der jeweiligen Gebühren berechnet.",
+        "evidence": {
+          "source_id": "3452437844dc",
+          "locator": "PDF-/Textseite 5, Absatzblock 6",
+          "original": null
+        }
+      },
+      {
+        "text": "Elternbeitrag für die Betreuung von Kindern unter 3 Jahren durch Tagespflegeeltern – TAKKI-Modell",
+        "evidence": {
+          "source_id": "3452437844dc",
+          "locator": "PDF-/Textseite 5, Absatzblock 8",
+          "original": null
+        }
+      },
+      {
+        "text": "Für die Betreuung von Kindern unter 3 Jahren bei einer Tagespflegeperson im Rahmen der Kooperation zwischen der Gemeinde und Tageskinder e.V. Leonberg werden die Beiträge (gültig ab\n01.09.2026) wie folgt erhoben:",
+        "evidence": {
+          "source_id": "3452437844dc",
+          "locator": "PDF-/Textseite 5, Absatzblock 9",
+          "original": null
+        }
+      },
+      {
+        "text": "Elternbeitrag: Beitrag U3 umgerechnet auf die tatsächliche Betreuungszeit",
+        "evidence": {
+          "source_id": "3452437844dc",
+          "locator": "PDF-/Textseite 5, Absatzblock 10",
+          "original": null
+        }
+      },
+      {
+        "text": "Familien / Erziehende mit\n                                das 4. Kind und jedes                                                             das 4. Kind und jedes\n4 und mehr Kindern unter\n                                 weitere Kind in der                                                               weitere Kind in der\n18 Jahren\n                               Familie ist beitragsfrei                                                         Familie ist beitragsfrei\n                               bis zum 3. Kind ist der                                                           bis zum 3. Kind ist der\n                                                                 82,- Euro                 93,- Euro                                              123,- Euro               138,- Euro\n                                     Beitrag für                                                                       Beitrag für\n                              Familien/Erziehende mit 3                                                         Familien/Erziehende mit\n                                    Kindern unter                                                                    3 Kindern unter\n                               18 Jahren zu entrichten                                                           18 Jahren zu entrichten",
+        "evidence": {
+          "source_id": "3452437844dc",
+          "locator": "PDF-/Textseite 6, Absatzblock 5",
+          "original": null
+        }
+      },
+      {
+        "text": "Für Kinder, die an einzelnen Tagen in der Ganztagesbetreuung Ü3 angemeldet sind (mindestens 2 Tage) und ansonsten die Regelgruppe/Gruppe mit verlängerten Öffnungszeiten besuchen, wird für\nden jeweiligen Wochentag 1/5 der jeweiligen Gebühren berechnet.",
+        "evidence": {
+          "source_id": "3452437844dc",
+          "locator": "PDF-/Textseite 6, Absatzblock 6",
+          "original": null
+        }
+      },
+      {
+        "text": "Elternbeitrag für die Betreuung von Kindern unter 3 Jahren durch Tagespflegeeltern – TAKKI-Modell",
+        "evidence": {
+          "source_id": "3452437844dc",
+          "locator": "PDF-/Textseite 6, Absatzblock 8",
+          "original": null
+        }
+      },
+      {
+        "text": "Für die Betreuung von Kindern unter 3 Jahren bei einer Tagespflegeperson im Rahmen der Kooperation zwischen der Gemeinde und Tageskinder e.V. Leonberg werden die Beiträge (gültig ab\n01.09.2026) wie folgt erhoben:",
+        "evidence": {
+          "source_id": "3452437844dc",
+          "locator": "PDF-/Textseite 6, Absatzblock 9",
+          "original": null
+        }
+      },
+      {
+        "text": "Elternbeitrag: Beitrag U3 umgerechnet auf die tatsächliche Betreuungszeit",
+        "evidence": {
+          "source_id": "3452437844dc",
+          "locator": "PDF-/Textseite 6, Absatzblock 10",
+          "original": null
+        }
+      },
+      {
+        "text": "3. Eine Änderung der Gebühren oder des Essensgeldes, auch die Umstellung auf ein anderes\n    Betriebssystem, bleibt dem Träger vorbehalten.\n4. Bei Abmeldung eines Kindes ist der Elternbeitrag bis zum Ende des Monats zu entrichten,\n    in dem das Kind abgemeldet wurde\n 5. Der Elternbeitrag ist auch für die Ferien der Einrichtung und für Zeiten, in denen die\n    Einrichtung aus besonderem Anlass geschlossen ist, zu entrichten.",
+        "evidence": {
+          "source_id": "3452437844dc",
+          "locator": "PDF-/Textseite 7, Absatzblock 1",
+          "original": null
+        }
+      }
+    ]
+  }
+}

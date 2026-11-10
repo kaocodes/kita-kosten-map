@@ -1,0 +1,3936 @@
+{
+  "schema_version": "1.0",
+  "id": "rutesheim",
+  "name": "Rutesheim",
+  "reviewed_at": "2026-11-10",
+  "reference_date": "2026-11-10",
+  "scope": {
+    "included": [
+      "municipal"
+    ],
+    "other_providers": "only_with_explicit_source_evidence"
+  },
+  "family_basis": "under_18",
+  "family_evidence": {
+    "source_id": "3ffe1980c0fd",
+    "locator": "Familienbegriff und Fußnoten der Gebührenunterlagen",
+    "original": null
+  },
+  "supporting_source_ids": [
+    "3ffe1980c0fd",
+    "2189c4f26a64"
+  ],
+  "offers": [
+    {
+      "id": "rutesheim-offer-89e649fa2355",
+      "original_label": "Kindergarten bis 13:30 Uhr",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": "2027-08-31",
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": null,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "3ffe1980c0fd",
+        "locator": "Gebühren Kindergarten 2026/2027",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "3ffe1980c0fd",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "3ffe1980c0fd",
+        "locator": "Gebühren Kindergarten 2026/2027",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "rutesheim-offer-fd753e78de00",
+      "original_label": "Kinderkrippe bis 13:30, 5 Tage",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": "2027-08-31",
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": null,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "3ffe1980c0fd",
+        "locator": "Kinderkrippe Vollzeit / Sharingplätze; Anteilsberechnung bei Sharing",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "3ffe1980c0fd",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "3ffe1980c0fd",
+        "locator": "Kinderkrippe Vollzeit / Sharingplätze; Anteilsberechnung bei Sharing",
+        "original": null
+      },
+      "formula": null,
+      "days_per_week": 5
+    },
+    {
+      "id": "rutesheim-offer-eb83775bc66a",
+      "original_label": "Kinderkrippe bis 13:30, 3 Tage",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": "2027-08-31",
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": null,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "3ffe1980c0fd",
+        "locator": "Kinderkrippe Vollzeit / Sharingplätze; Anteilsberechnung bei Sharing",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "3ffe1980c0fd",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "3ffe1980c0fd",
+        "locator": "Kinderkrippe Vollzeit / Sharingplätze; Anteilsberechnung bei Sharing",
+        "original": null
+      },
+      "formula": null,
+      "days_per_week": 3
+    },
+    {
+      "id": "rutesheim-offer-b44506bcbb79",
+      "original_label": "Kinderkrippe bis 13:30, 2 Tage",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": "2027-08-31",
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": null,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "3ffe1980c0fd",
+        "locator": "Kinderkrippe Vollzeit / Sharingplätze; Anteilsberechnung bei Sharing",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "3ffe1980c0fd",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "3ffe1980c0fd",
+        "locator": "Kinderkrippe Vollzeit / Sharingplätze; Anteilsberechnung bei Sharing",
+        "original": null
+      },
+      "formula": null,
+      "days_per_week": 2
+    },
+    {
+      "id": "rutesheim-offer-6eb146385744",
+      "original_label": "Kinderkrippe bis 15:00, 5 Tage",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": "2027-08-31",
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": null,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "3ffe1980c0fd",
+        "locator": "Kinderkrippe Vollzeit / Sharingplätze; Anteilsberechnung bei Sharing",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "3ffe1980c0fd",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "3ffe1980c0fd",
+        "locator": "Kinderkrippe Vollzeit / Sharingplätze; Anteilsberechnung bei Sharing",
+        "original": null
+      },
+      "formula": null,
+      "days_per_week": 5
+    },
+    {
+      "id": "rutesheim-offer-216387070a62",
+      "original_label": "Kinderkrippe bis 15:00, 3 Tage",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": "2027-08-31",
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": null,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "3ffe1980c0fd",
+        "locator": "Kinderkrippe Vollzeit / Sharingplätze; Anteilsberechnung bei Sharing",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "3ffe1980c0fd",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "3ffe1980c0fd",
+        "locator": "Kinderkrippe Vollzeit / Sharingplätze; Anteilsberechnung bei Sharing",
+        "original": null
+      },
+      "formula": null,
+      "days_per_week": 3
+    },
+    {
+      "id": "rutesheim-offer-066afe3ee784",
+      "original_label": "Kinderkrippe bis 15:00, 2 Tage",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": "2027-08-31",
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": null,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "3ffe1980c0fd",
+        "locator": "Kinderkrippe Vollzeit / Sharingplätze; Anteilsberechnung bei Sharing",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "3ffe1980c0fd",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "3ffe1980c0fd",
+        "locator": "Kinderkrippe Vollzeit / Sharingplätze; Anteilsberechnung bei Sharing",
+        "original": null
+      },
+      "formula": null,
+      "days_per_week": 2
+    },
+    {
+      "id": "rutesheim-offer-3756b4422691",
+      "original_label": "Kinderkrippe bis 17:00, 5 Tage",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": "2027-08-31",
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": null,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "3ffe1980c0fd",
+        "locator": "Kinderkrippe Vollzeit / Sharingplätze; Anteilsberechnung bei Sharing",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "3ffe1980c0fd",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "3ffe1980c0fd",
+        "locator": "Kinderkrippe Vollzeit / Sharingplätze; Anteilsberechnung bei Sharing",
+        "original": null
+      },
+      "formula": null,
+      "days_per_week": 5
+    },
+    {
+      "id": "rutesheim-offer-bf8874c3c96b",
+      "original_label": "Kinderkrippe bis 17:00, 3 Tage",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": "2027-08-31",
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": null,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "3ffe1980c0fd",
+        "locator": "Kinderkrippe Vollzeit / Sharingplätze; Anteilsberechnung bei Sharing",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "3ffe1980c0fd",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "3ffe1980c0fd",
+        "locator": "Kinderkrippe Vollzeit / Sharingplätze; Anteilsberechnung bei Sharing",
+        "original": null
+      },
+      "formula": null,
+      "days_per_week": 3
+    },
+    {
+      "id": "rutesheim-offer-b5c7f51250f7",
+      "original_label": "Kinderkrippe bis 17:00, 2 Tage",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": "2027-08-31",
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": null,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "3ffe1980c0fd",
+        "locator": "Kinderkrippe Vollzeit / Sharingplätze; Anteilsberechnung bei Sharing",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "3ffe1980c0fd",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "3ffe1980c0fd",
+        "locator": "Kinderkrippe Vollzeit / Sharingplätze; Anteilsberechnung bei Sharing",
+        "original": null
+      },
+      "formula": null,
+      "days_per_week": 2
+    },
+    {
+      "id": "rutesheim-offer-4570b57379b4",
+      "original_label": "GT bis 15:00, 5 Tage + übrige Tage Kindergarten",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": "2027-08-31",
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": null,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "3ffe1980c0fd",
+        "locator": "Ganztagesbetreuung; übrige Regelgruppentage zusätzlich anteilig",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "3ffe1980c0fd",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "3ffe1980c0fd",
+        "locator": "Ganztagesbetreuung; übrige Regelgruppentage zusätzlich anteilig",
+        "original": null
+      },
+      "formula": null,
+      "gt_days_per_week": 5
+    },
+    {
+      "id": "rutesheim-offer-7e24a14ee9ac",
+      "original_label": "GT bis 15:00, 4 Tage + übrige Tage Kindergarten",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": "2027-08-31",
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": null,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "3ffe1980c0fd",
+        "locator": "Ganztagesbetreuung; übrige Regelgruppentage zusätzlich anteilig",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "3ffe1980c0fd",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "3ffe1980c0fd",
+        "locator": "Ganztagesbetreuung; übrige Regelgruppentage zusätzlich anteilig",
+        "original": null
+      },
+      "formula": null,
+      "gt_days_per_week": 4
+    },
+    {
+      "id": "rutesheim-offer-1d31f55b4236",
+      "original_label": "GT bis 15:00, 3 Tage + übrige Tage Kindergarten",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": "2027-08-31",
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": null,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "3ffe1980c0fd",
+        "locator": "Ganztagesbetreuung; übrige Regelgruppentage zusätzlich anteilig",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "3ffe1980c0fd",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "3ffe1980c0fd",
+        "locator": "Ganztagesbetreuung; übrige Regelgruppentage zusätzlich anteilig",
+        "original": null
+      },
+      "formula": null,
+      "gt_days_per_week": 3
+    },
+    {
+      "id": "rutesheim-offer-e8be7a2d9c7d",
+      "original_label": "GT bis 15:00, 2 Tage + übrige Tage Kindergarten",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": "2027-08-31",
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": null,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "3ffe1980c0fd",
+        "locator": "Ganztagesbetreuung; übrige Regelgruppentage zusätzlich anteilig",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "3ffe1980c0fd",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "3ffe1980c0fd",
+        "locator": "Ganztagesbetreuung; übrige Regelgruppentage zusätzlich anteilig",
+        "original": null
+      },
+      "formula": null,
+      "gt_days_per_week": 2
+    },
+    {
+      "id": "rutesheim-offer-bfdb5ecdedeb",
+      "original_label": "GT bis 17:00, 5 Tage + übrige Tage Kindergarten",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": "2027-08-31",
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": null,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "3ffe1980c0fd",
+        "locator": "Ganztagesbetreuung; übrige Regelgruppentage zusätzlich anteilig",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "3ffe1980c0fd",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "3ffe1980c0fd",
+        "locator": "Ganztagesbetreuung; übrige Regelgruppentage zusätzlich anteilig",
+        "original": null
+      },
+      "formula": null,
+      "gt_days_per_week": 5
+    },
+    {
+      "id": "rutesheim-offer-87d0ea236239",
+      "original_label": "GT bis 17:00, 4 Tage + übrige Tage Kindergarten",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": "2027-08-31",
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": null,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "3ffe1980c0fd",
+        "locator": "Ganztagesbetreuung; übrige Regelgruppentage zusätzlich anteilig",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "3ffe1980c0fd",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "3ffe1980c0fd",
+        "locator": "Ganztagesbetreuung; übrige Regelgruppentage zusätzlich anteilig",
+        "original": null
+      },
+      "formula": null,
+      "gt_days_per_week": 4
+    },
+    {
+      "id": "rutesheim-offer-27501c61e479",
+      "original_label": "GT bis 17:00, 3 Tage + übrige Tage Kindergarten",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": "2027-08-31",
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": null,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "3ffe1980c0fd",
+        "locator": "Ganztagesbetreuung; übrige Regelgruppentage zusätzlich anteilig",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "3ffe1980c0fd",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "3ffe1980c0fd",
+        "locator": "Ganztagesbetreuung; übrige Regelgruppentage zusätzlich anteilig",
+        "original": null
+      },
+      "formula": null,
+      "gt_days_per_week": 3
+    },
+    {
+      "id": "rutesheim-offer-1d952b6dd821",
+      "original_label": "GT bis 17:00, 2 Tage + übrige Tage Kindergarten",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": "2027-08-31",
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": null,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "3ffe1980c0fd",
+        "locator": "Ganztagesbetreuung; übrige Regelgruppentage zusätzlich anteilig",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "3ffe1980c0fd",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "3ffe1980c0fd",
+        "locator": "Ganztagesbetreuung; übrige Regelgruppentage zusätzlich anteilig",
+        "original": null
+      },
+      "formula": null,
+      "gt_days_per_week": 2
+    },
+    {
+      "id": "rutesheim-offer-0cc5795c7d5f",
+      "original_label": "U3 Kindergarten Richard-Wagner bis 13:30, 1 Tage",
+      "age_group": "u3",
+      "age_min_months": 24,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": "2027-08-31",
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "mixed_age",
+      "weekly_minutes": null,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "3ffe1980c0fd",
+        "locator": "U3 im Kindergarten Richard-Wagner; § 3 Abs. 4",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "3ffe1980c0fd",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "3ffe1980c0fd",
+        "locator": "U3 im Kindergarten Richard-Wagner; § 3 Abs. 4",
+        "original": null
+      },
+      "formula": null,
+      "days_per_week": 1
+    },
+    {
+      "id": "rutesheim-offer-9b6938ea7f88",
+      "original_label": "U3 Kindergarten Richard-Wagner bis 13:30, 5 Tage",
+      "age_group": "u3",
+      "age_min_months": 24,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": "2027-08-31",
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "mixed_age",
+      "weekly_minutes": null,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "3ffe1980c0fd",
+        "locator": "U3 im Kindergarten Richard-Wagner; § 3 Abs. 4",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "3ffe1980c0fd",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "3ffe1980c0fd",
+        "locator": "U3 im Kindergarten Richard-Wagner; § 3 Abs. 4",
+        "original": null
+      },
+      "formula": null,
+      "days_per_week": 5
+    },
+    {
+      "id": "rutesheim-offer-47685225821e",
+      "original_label": "U3 Kindergarten Richard-Wagner bis 15:00, 1 Tage",
+      "age_group": "u3",
+      "age_min_months": 24,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": "2027-08-31",
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "mixed_age",
+      "weekly_minutes": null,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "3ffe1980c0fd",
+        "locator": "U3 im Kindergarten Richard-Wagner; § 3 Abs. 4",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "3ffe1980c0fd",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "3ffe1980c0fd",
+        "locator": "U3 im Kindergarten Richard-Wagner; § 3 Abs. 4",
+        "original": null
+      },
+      "formula": null,
+      "days_per_week": 1
+    },
+    {
+      "id": "rutesheim-offer-373ac0805e66",
+      "original_label": "U3 Kindergarten Richard-Wagner bis 15:00, 5 Tage",
+      "age_group": "u3",
+      "age_min_months": 24,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": "2027-08-31",
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "mixed_age",
+      "weekly_minutes": null,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "3ffe1980c0fd",
+        "locator": "U3 im Kindergarten Richard-Wagner; § 3 Abs. 4",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "3ffe1980c0fd",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "3ffe1980c0fd",
+        "locator": "U3 im Kindergarten Richard-Wagner; § 3 Abs. 4",
+        "original": null
+      },
+      "formula": null,
+      "days_per_week": 5
+    },
+    {
+      "id": "rutesheim-offer-bc870d187967",
+      "original_label": "Kindergarten bis 13:30 Uhr",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2027-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2027-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": null,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "2189c4f26a64",
+        "locator": "Gebühren Kindergarten 2027/2028",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "3ffe1980c0fd",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "2189c4f26a64",
+        "locator": "Gebühren Kindergarten 2027/2028",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "rutesheim-offer-e3ba3531cc65",
+      "original_label": "Kinderkrippe bis 13:30, 5 Tage",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2027-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2027-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": null,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "2189c4f26a64",
+        "locator": "Kinderkrippe Vollzeit / Sharingplätze; Anteilsberechnung bei Sharing",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "3ffe1980c0fd",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "2189c4f26a64",
+        "locator": "Kinderkrippe Vollzeit / Sharingplätze; Anteilsberechnung bei Sharing",
+        "original": null
+      },
+      "formula": null,
+      "days_per_week": 5
+    },
+    {
+      "id": "rutesheim-offer-33bb339f7c5c",
+      "original_label": "Kinderkrippe bis 13:30, 3 Tage",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2027-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2027-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": null,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "2189c4f26a64",
+        "locator": "Kinderkrippe Vollzeit / Sharingplätze; Anteilsberechnung bei Sharing",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "3ffe1980c0fd",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "2189c4f26a64",
+        "locator": "Kinderkrippe Vollzeit / Sharingplätze; Anteilsberechnung bei Sharing",
+        "original": null
+      },
+      "formula": null,
+      "days_per_week": 3
+    },
+    {
+      "id": "rutesheim-offer-9bf538dc1ef2",
+      "original_label": "Kinderkrippe bis 13:30, 2 Tage",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2027-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2027-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": null,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "2189c4f26a64",
+        "locator": "Kinderkrippe Vollzeit / Sharingplätze; Anteilsberechnung bei Sharing",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "3ffe1980c0fd",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "2189c4f26a64",
+        "locator": "Kinderkrippe Vollzeit / Sharingplätze; Anteilsberechnung bei Sharing",
+        "original": null
+      },
+      "formula": null,
+      "days_per_week": 2
+    },
+    {
+      "id": "rutesheim-offer-655c3f5a0d4e",
+      "original_label": "Kinderkrippe bis 15:00, 5 Tage",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2027-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2027-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": null,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "2189c4f26a64",
+        "locator": "Kinderkrippe Vollzeit / Sharingplätze; Anteilsberechnung bei Sharing",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "3ffe1980c0fd",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "2189c4f26a64",
+        "locator": "Kinderkrippe Vollzeit / Sharingplätze; Anteilsberechnung bei Sharing",
+        "original": null
+      },
+      "formula": null,
+      "days_per_week": 5
+    },
+    {
+      "id": "rutesheim-offer-e4bdb024bf69",
+      "original_label": "Kinderkrippe bis 15:00, 3 Tage",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2027-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2027-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": null,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "2189c4f26a64",
+        "locator": "Kinderkrippe Vollzeit / Sharingplätze; Anteilsberechnung bei Sharing",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "3ffe1980c0fd",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "2189c4f26a64",
+        "locator": "Kinderkrippe Vollzeit / Sharingplätze; Anteilsberechnung bei Sharing",
+        "original": null
+      },
+      "formula": null,
+      "days_per_week": 3
+    },
+    {
+      "id": "rutesheim-offer-d85c0fb00ccb",
+      "original_label": "Kinderkrippe bis 15:00, 2 Tage",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2027-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2027-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": null,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "2189c4f26a64",
+        "locator": "Kinderkrippe Vollzeit / Sharingplätze; Anteilsberechnung bei Sharing",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "3ffe1980c0fd",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "2189c4f26a64",
+        "locator": "Kinderkrippe Vollzeit / Sharingplätze; Anteilsberechnung bei Sharing",
+        "original": null
+      },
+      "formula": null,
+      "days_per_week": 2
+    },
+    {
+      "id": "rutesheim-offer-70ae73916bcd",
+      "original_label": "Kinderkrippe bis 17:00, 5 Tage",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2027-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2027-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": null,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "2189c4f26a64",
+        "locator": "Kinderkrippe Vollzeit / Sharingplätze; Anteilsberechnung bei Sharing",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "3ffe1980c0fd",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "2189c4f26a64",
+        "locator": "Kinderkrippe Vollzeit / Sharingplätze; Anteilsberechnung bei Sharing",
+        "original": null
+      },
+      "formula": null,
+      "days_per_week": 5
+    },
+    {
+      "id": "rutesheim-offer-41b8277bdbc7",
+      "original_label": "Kinderkrippe bis 17:00, 3 Tage",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2027-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2027-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": null,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "2189c4f26a64",
+        "locator": "Kinderkrippe Vollzeit / Sharingplätze; Anteilsberechnung bei Sharing",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "3ffe1980c0fd",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "2189c4f26a64",
+        "locator": "Kinderkrippe Vollzeit / Sharingplätze; Anteilsberechnung bei Sharing",
+        "original": null
+      },
+      "formula": null,
+      "days_per_week": 3
+    },
+    {
+      "id": "rutesheim-offer-9ed3bf0aae52",
+      "original_label": "Kinderkrippe bis 17:00, 2 Tage",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2027-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2027-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": null,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "2189c4f26a64",
+        "locator": "Kinderkrippe Vollzeit / Sharingplätze; Anteilsberechnung bei Sharing",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "3ffe1980c0fd",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "2189c4f26a64",
+        "locator": "Kinderkrippe Vollzeit / Sharingplätze; Anteilsberechnung bei Sharing",
+        "original": null
+      },
+      "formula": null,
+      "days_per_week": 2
+    },
+    {
+      "id": "rutesheim-offer-73dc82d2d374",
+      "original_label": "GT bis 15:00, 5 Tage + übrige Tage Kindergarten",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2027-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2027-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": null,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "2189c4f26a64",
+        "locator": "Ganztagesbetreuung; übrige Regelgruppentage zusätzlich anteilig",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "3ffe1980c0fd",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "2189c4f26a64",
+        "locator": "Ganztagesbetreuung; übrige Regelgruppentage zusätzlich anteilig",
+        "original": null
+      },
+      "formula": null,
+      "gt_days_per_week": 5
+    },
+    {
+      "id": "rutesheim-offer-1dbcb3b24c29",
+      "original_label": "GT bis 15:00, 4 Tage + übrige Tage Kindergarten",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2027-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2027-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": null,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "2189c4f26a64",
+        "locator": "Ganztagesbetreuung; übrige Regelgruppentage zusätzlich anteilig",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "3ffe1980c0fd",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "2189c4f26a64",
+        "locator": "Ganztagesbetreuung; übrige Regelgruppentage zusätzlich anteilig",
+        "original": null
+      },
+      "formula": null,
+      "gt_days_per_week": 4
+    },
+    {
+      "id": "rutesheim-offer-705d35c84c9c",
+      "original_label": "GT bis 15:00, 3 Tage + übrige Tage Kindergarten",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2027-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2027-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": null,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "2189c4f26a64",
+        "locator": "Ganztagesbetreuung; übrige Regelgruppentage zusätzlich anteilig",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "3ffe1980c0fd",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "2189c4f26a64",
+        "locator": "Ganztagesbetreuung; übrige Regelgruppentage zusätzlich anteilig",
+        "original": null
+      },
+      "formula": null,
+      "gt_days_per_week": 3
+    },
+    {
+      "id": "rutesheim-offer-a9be8f6f32e7",
+      "original_label": "GT bis 15:00, 2 Tage + übrige Tage Kindergarten",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2027-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2027-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": null,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "2189c4f26a64",
+        "locator": "Ganztagesbetreuung; übrige Regelgruppentage zusätzlich anteilig",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "3ffe1980c0fd",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "2189c4f26a64",
+        "locator": "Ganztagesbetreuung; übrige Regelgruppentage zusätzlich anteilig",
+        "original": null
+      },
+      "formula": null,
+      "gt_days_per_week": 2
+    },
+    {
+      "id": "rutesheim-offer-e7b8d13f72e9",
+      "original_label": "GT bis 17:00, 5 Tage + übrige Tage Kindergarten",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2027-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2027-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": null,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "2189c4f26a64",
+        "locator": "Ganztagesbetreuung; übrige Regelgruppentage zusätzlich anteilig",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "3ffe1980c0fd",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "2189c4f26a64",
+        "locator": "Ganztagesbetreuung; übrige Regelgruppentage zusätzlich anteilig",
+        "original": null
+      },
+      "formula": null,
+      "gt_days_per_week": 5
+    },
+    {
+      "id": "rutesheim-offer-d1d9700822ef",
+      "original_label": "GT bis 17:00, 4 Tage + übrige Tage Kindergarten",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2027-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2027-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": null,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "2189c4f26a64",
+        "locator": "Ganztagesbetreuung; übrige Regelgruppentage zusätzlich anteilig",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "3ffe1980c0fd",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "2189c4f26a64",
+        "locator": "Ganztagesbetreuung; übrige Regelgruppentage zusätzlich anteilig",
+        "original": null
+      },
+      "formula": null,
+      "gt_days_per_week": 4
+    },
+    {
+      "id": "rutesheim-offer-af3074167bea",
+      "original_label": "GT bis 17:00, 3 Tage + übrige Tage Kindergarten",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2027-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2027-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": null,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "2189c4f26a64",
+        "locator": "Ganztagesbetreuung; übrige Regelgruppentage zusätzlich anteilig",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "3ffe1980c0fd",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "2189c4f26a64",
+        "locator": "Ganztagesbetreuung; übrige Regelgruppentage zusätzlich anteilig",
+        "original": null
+      },
+      "formula": null,
+      "gt_days_per_week": 3
+    },
+    {
+      "id": "rutesheim-offer-9c7b3e8f48a1",
+      "original_label": "GT bis 17:00, 2 Tage + übrige Tage Kindergarten",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2027-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2027-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": null,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "2189c4f26a64",
+        "locator": "Ganztagesbetreuung; übrige Regelgruppentage zusätzlich anteilig",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "3ffe1980c0fd",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "2189c4f26a64",
+        "locator": "Ganztagesbetreuung; übrige Regelgruppentage zusätzlich anteilig",
+        "original": null
+      },
+      "formula": null,
+      "gt_days_per_week": 2
+    },
+    {
+      "id": "rutesheim-offer-c1b90b5457f3",
+      "original_label": "U3 Kindergarten Richard-Wagner bis 13:30, 1 Tage",
+      "age_group": "u3",
+      "age_min_months": 24,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2027-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2027-09-01",
+      "scope": "municipal",
+      "category": "mixed_age",
+      "weekly_minutes": null,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "2189c4f26a64",
+        "locator": "U3 im Kindergarten Richard-Wagner; § 3 Abs. 4",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "3ffe1980c0fd",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "2189c4f26a64",
+        "locator": "U3 im Kindergarten Richard-Wagner; § 3 Abs. 4",
+        "original": null
+      },
+      "formula": null,
+      "days_per_week": 1
+    },
+    {
+      "id": "rutesheim-offer-1d689e3275f6",
+      "original_label": "U3 Kindergarten Richard-Wagner bis 13:30, 5 Tage",
+      "age_group": "u3",
+      "age_min_months": 24,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2027-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2027-09-01",
+      "scope": "municipal",
+      "category": "mixed_age",
+      "weekly_minutes": null,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "2189c4f26a64",
+        "locator": "U3 im Kindergarten Richard-Wagner; § 3 Abs. 4",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "3ffe1980c0fd",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "2189c4f26a64",
+        "locator": "U3 im Kindergarten Richard-Wagner; § 3 Abs. 4",
+        "original": null
+      },
+      "formula": null,
+      "days_per_week": 5
+    },
+    {
+      "id": "rutesheim-offer-a0746e762533",
+      "original_label": "U3 Kindergarten Richard-Wagner bis 15:00, 1 Tage",
+      "age_group": "u3",
+      "age_min_months": 24,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2027-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2027-09-01",
+      "scope": "municipal",
+      "category": "mixed_age",
+      "weekly_minutes": null,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "2189c4f26a64",
+        "locator": "U3 im Kindergarten Richard-Wagner; § 3 Abs. 4",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "3ffe1980c0fd",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "2189c4f26a64",
+        "locator": "U3 im Kindergarten Richard-Wagner; § 3 Abs. 4",
+        "original": null
+      },
+      "formula": null,
+      "days_per_week": 1
+    },
+    {
+      "id": "rutesheim-offer-b350619974b6",
+      "original_label": "U3 Kindergarten Richard-Wagner bis 15:00, 5 Tage",
+      "age_group": "u3",
+      "age_min_months": 24,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2027-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2027-09-01",
+      "scope": "municipal",
+      "category": "mixed_age",
+      "weekly_minutes": null,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "2189c4f26a64",
+        "locator": "U3 im Kindergarten Richard-Wagner; § 3 Abs. 4",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "3ffe1980c0fd",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "2189c4f26a64",
+        "locator": "U3 im Kindergarten Richard-Wagner; § 3 Abs. 4",
+        "original": null
+      },
+      "formula": null,
+      "days_per_week": 5
+    }
+  ],
+  "prices": [
+    {
+      "id": "rutesheim-price-cb519023366c",
+      "offer_id": "rutesheim-offer-89e649fa2355",
+      "amount_cents": 16600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "3ffe1980c0fd",
+        "locator": "Gebühren Kindergarten 2026/2027",
+        "original": 166
+      }
+    },
+    {
+      "id": "rutesheim-price-355c1dc10980",
+      "offer_id": "rutesheim-offer-89e649fa2355",
+      "amount_cents": 12900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "3ffe1980c0fd",
+        "locator": "Gebühren Kindergarten 2026/2027",
+        "original": 129
+      }
+    },
+    {
+      "id": "rutesheim-price-2439ee4c8404",
+      "offer_id": "rutesheim-offer-89e649fa2355",
+      "amount_cents": 8800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "3ffe1980c0fd",
+        "locator": "Gebühren Kindergarten 2026/2027",
+        "original": 88
+      }
+    },
+    {
+      "id": "rutesheim-price-cfddb6b4d59b",
+      "offer_id": "rutesheim-offer-89e649fa2355",
+      "amount_cents": 2900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "3ffe1980c0fd",
+        "locator": "Gebühren Kindergarten 2026/2027",
+        "original": 29
+      }
+    },
+    {
+      "id": "rutesheim-price-36b452b0d89d",
+      "offer_id": "rutesheim-offer-fd753e78de00",
+      "amount_cents": 38000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "3ffe1980c0fd",
+        "locator": "Kinderkrippe Vollzeit / Sharingplätze; Anteilsberechnung bei Sharing",
+        "original": 38000
+      },
+      "derivation": {
+        "full_time_cents": 38000,
+        "days_numerator": 5,
+        "days_denominator": 5
+      }
+    },
+    {
+      "id": "rutesheim-price-a3c830508c4c",
+      "offer_id": "rutesheim-offer-eb83775bc66a",
+      "amount_cents": 22800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "3ffe1980c0fd",
+        "locator": "Kinderkrippe Vollzeit / Sharingplätze; Anteilsberechnung bei Sharing",
+        "original": 22800
+      },
+      "derivation": {
+        "full_time_cents": 38000,
+        "days_numerator": 3,
+        "days_denominator": 5
+      }
+    },
+    {
+      "id": "rutesheim-price-fad2f9dd70d7",
+      "offer_id": "rutesheim-offer-b44506bcbb79",
+      "amount_cents": 15200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "3ffe1980c0fd",
+        "locator": "Kinderkrippe Vollzeit / Sharingplätze; Anteilsberechnung bei Sharing",
+        "original": 15200
+      },
+      "derivation": {
+        "full_time_cents": 38000,
+        "days_numerator": 2,
+        "days_denominator": 5
+      }
+    },
+    {
+      "id": "rutesheim-price-f60bf1b635d9",
+      "offer_id": "rutesheim-offer-6eb146385744",
+      "amount_cents": 49000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "3ffe1980c0fd",
+        "locator": "Kinderkrippe Vollzeit / Sharingplätze; Anteilsberechnung bei Sharing",
+        "original": 49000
+      },
+      "derivation": {
+        "full_time_cents": 49000,
+        "days_numerator": 5,
+        "days_denominator": 5
+      }
+    },
+    {
+      "id": "rutesheim-price-9eedadb78c60",
+      "offer_id": "rutesheim-offer-216387070a62",
+      "amount_cents": 29400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "3ffe1980c0fd",
+        "locator": "Kinderkrippe Vollzeit / Sharingplätze; Anteilsberechnung bei Sharing",
+        "original": 29400
+      },
+      "derivation": {
+        "full_time_cents": 49000,
+        "days_numerator": 3,
+        "days_denominator": 5
+      }
+    },
+    {
+      "id": "rutesheim-price-b04c17064452",
+      "offer_id": "rutesheim-offer-066afe3ee784",
+      "amount_cents": 19600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "3ffe1980c0fd",
+        "locator": "Kinderkrippe Vollzeit / Sharingplätze; Anteilsberechnung bei Sharing",
+        "original": 19600
+      },
+      "derivation": {
+        "full_time_cents": 49000,
+        "days_numerator": 2,
+        "days_denominator": 5
+      }
+    },
+    {
+      "id": "rutesheim-price-1771164d61f1",
+      "offer_id": "rutesheim-offer-3756b4422691",
+      "amount_cents": 62000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "3ffe1980c0fd",
+        "locator": "Kinderkrippe Vollzeit / Sharingplätze; Anteilsberechnung bei Sharing",
+        "original": 62000
+      },
+      "derivation": {
+        "full_time_cents": 62000,
+        "days_numerator": 5,
+        "days_denominator": 5
+      }
+    },
+    {
+      "id": "rutesheim-price-e7a78c55f1b3",
+      "offer_id": "rutesheim-offer-bf8874c3c96b",
+      "amount_cents": 37200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "3ffe1980c0fd",
+        "locator": "Kinderkrippe Vollzeit / Sharingplätze; Anteilsberechnung bei Sharing",
+        "original": 37200
+      },
+      "derivation": {
+        "full_time_cents": 62000,
+        "days_numerator": 3,
+        "days_denominator": 5
+      }
+    },
+    {
+      "id": "rutesheim-price-bebdb7c07e44",
+      "offer_id": "rutesheim-offer-b5c7f51250f7",
+      "amount_cents": 24800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "3ffe1980c0fd",
+        "locator": "Kinderkrippe Vollzeit / Sharingplätze; Anteilsberechnung bei Sharing",
+        "original": 24800
+      },
+      "derivation": {
+        "full_time_cents": 62000,
+        "days_numerator": 2,
+        "days_denominator": 5
+      }
+    },
+    {
+      "id": "rutesheim-price-38da2bc6a82c",
+      "offer_id": "rutesheim-offer-4570b57379b4",
+      "amount_cents": 36500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": 1,
+        "care_rank_is_minimum": false,
+        "rank_basis": "simultaneous_krippe_gt_hort"
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "3ffe1980c0fd",
+        "locator": "Ganztagesbetreuung; übrige Regelgruppentage zusätzlich anteilig",
+        "original": 36500
+      },
+      "price_role": "full_month_total"
+    },
+    {
+      "id": "rutesheim-price-e7f6972f3d6f",
+      "offer_id": "rutesheim-offer-4570b57379b4",
+      "amount_cents": 31500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": 2,
+        "care_rank_is_minimum": true,
+        "rank_basis": "simultaneous_krippe_gt_hort"
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "3ffe1980c0fd",
+        "locator": "Ganztagesbetreuung; übrige Regelgruppentage zusätzlich anteilig",
+        "original": 31500
+      },
+      "price_role": "full_month_total"
+    },
+    {
+      "id": "rutesheim-price-90a9cf9981e8",
+      "offer_id": "rutesheim-offer-7e24a14ee9ac",
+      "amount_cents": 29200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": 1,
+        "care_rank_is_minimum": false,
+        "rank_basis": "simultaneous_krippe_gt_hort"
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "3ffe1980c0fd",
+        "locator": "Ganztagesbetreuung; übrige Regelgruppentage zusätzlich anteilig",
+        "original": 29200
+      },
+      "price_role": "gt_portion_requires_regular_fee_for_remaining_days"
+    },
+    {
+      "id": "rutesheim-price-d634ad52b624",
+      "offer_id": "rutesheim-offer-7e24a14ee9ac",
+      "amount_cents": 25200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": 2,
+        "care_rank_is_minimum": true,
+        "rank_basis": "simultaneous_krippe_gt_hort"
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "3ffe1980c0fd",
+        "locator": "Ganztagesbetreuung; übrige Regelgruppentage zusätzlich anteilig",
+        "original": 25200
+      },
+      "price_role": "gt_portion_requires_regular_fee_for_remaining_days"
+    },
+    {
+      "id": "rutesheim-price-d9d4c1e2eaa8",
+      "offer_id": "rutesheim-offer-1d31f55b4236",
+      "amount_cents": 21900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": 1,
+        "care_rank_is_minimum": false,
+        "rank_basis": "simultaneous_krippe_gt_hort"
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "3ffe1980c0fd",
+        "locator": "Ganztagesbetreuung; übrige Regelgruppentage zusätzlich anteilig",
+        "original": 21900
+      },
+      "price_role": "gt_portion_requires_regular_fee_for_remaining_days"
+    },
+    {
+      "id": "rutesheim-price-2591519bae41",
+      "offer_id": "rutesheim-offer-1d31f55b4236",
+      "amount_cents": 18900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": 2,
+        "care_rank_is_minimum": true,
+        "rank_basis": "simultaneous_krippe_gt_hort"
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "3ffe1980c0fd",
+        "locator": "Ganztagesbetreuung; übrige Regelgruppentage zusätzlich anteilig",
+        "original": 18900
+      },
+      "price_role": "gt_portion_requires_regular_fee_for_remaining_days"
+    },
+    {
+      "id": "rutesheim-price-3c397a3703d3",
+      "offer_id": "rutesheim-offer-e8be7a2d9c7d",
+      "amount_cents": 14600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": 1,
+        "care_rank_is_minimum": false,
+        "rank_basis": "simultaneous_krippe_gt_hort"
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "3ffe1980c0fd",
+        "locator": "Ganztagesbetreuung; übrige Regelgruppentage zusätzlich anteilig",
+        "original": 14600
+      },
+      "price_role": "gt_portion_requires_regular_fee_for_remaining_days"
+    },
+    {
+      "id": "rutesheim-price-6629a6a3c91a",
+      "offer_id": "rutesheim-offer-e8be7a2d9c7d",
+      "amount_cents": 12600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": 2,
+        "care_rank_is_minimum": true,
+        "rank_basis": "simultaneous_krippe_gt_hort"
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "3ffe1980c0fd",
+        "locator": "Ganztagesbetreuung; übrige Regelgruppentage zusätzlich anteilig",
+        "original": 12600
+      },
+      "price_role": "gt_portion_requires_regular_fee_for_remaining_days"
+    },
+    {
+      "id": "rutesheim-price-707da076b8e9",
+      "offer_id": "rutesheim-offer-bfdb5ecdedeb",
+      "amount_cents": 49000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": 1,
+        "care_rank_is_minimum": false,
+        "rank_basis": "simultaneous_krippe_gt_hort"
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "3ffe1980c0fd",
+        "locator": "Ganztagesbetreuung; übrige Regelgruppentage zusätzlich anteilig",
+        "original": 49000
+      },
+      "price_role": "full_month_total"
+    },
+    {
+      "id": "rutesheim-price-1528e423aa51",
+      "offer_id": "rutesheim-offer-bfdb5ecdedeb",
+      "amount_cents": 44000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": 2,
+        "care_rank_is_minimum": true,
+        "rank_basis": "simultaneous_krippe_gt_hort"
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "3ffe1980c0fd",
+        "locator": "Ganztagesbetreuung; übrige Regelgruppentage zusätzlich anteilig",
+        "original": 44000
+      },
+      "price_role": "full_month_total"
+    },
+    {
+      "id": "rutesheim-price-1276feffff04",
+      "offer_id": "rutesheim-offer-87d0ea236239",
+      "amount_cents": 39200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": 1,
+        "care_rank_is_minimum": false,
+        "rank_basis": "simultaneous_krippe_gt_hort"
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "3ffe1980c0fd",
+        "locator": "Ganztagesbetreuung; übrige Regelgruppentage zusätzlich anteilig",
+        "original": 39200
+      },
+      "price_role": "gt_portion_requires_regular_fee_for_remaining_days"
+    },
+    {
+      "id": "rutesheim-price-7cb70552063f",
+      "offer_id": "rutesheim-offer-87d0ea236239",
+      "amount_cents": 35200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": 2,
+        "care_rank_is_minimum": true,
+        "rank_basis": "simultaneous_krippe_gt_hort"
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "3ffe1980c0fd",
+        "locator": "Ganztagesbetreuung; übrige Regelgruppentage zusätzlich anteilig",
+        "original": 35200
+      },
+      "price_role": "gt_portion_requires_regular_fee_for_remaining_days"
+    },
+    {
+      "id": "rutesheim-price-e442acf7098a",
+      "offer_id": "rutesheim-offer-27501c61e479",
+      "amount_cents": 29400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": 1,
+        "care_rank_is_minimum": false,
+        "rank_basis": "simultaneous_krippe_gt_hort"
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "3ffe1980c0fd",
+        "locator": "Ganztagesbetreuung; übrige Regelgruppentage zusätzlich anteilig",
+        "original": 29400
+      },
+      "price_role": "gt_portion_requires_regular_fee_for_remaining_days"
+    },
+    {
+      "id": "rutesheim-price-dd01e93c9b44",
+      "offer_id": "rutesheim-offer-27501c61e479",
+      "amount_cents": 26400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": 2,
+        "care_rank_is_minimum": true,
+        "rank_basis": "simultaneous_krippe_gt_hort"
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "3ffe1980c0fd",
+        "locator": "Ganztagesbetreuung; übrige Regelgruppentage zusätzlich anteilig",
+        "original": 26400
+      },
+      "price_role": "gt_portion_requires_regular_fee_for_remaining_days"
+    },
+    {
+      "id": "rutesheim-price-b9058560d9ed",
+      "offer_id": "rutesheim-offer-1d952b6dd821",
+      "amount_cents": 19600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": 1,
+        "care_rank_is_minimum": false,
+        "rank_basis": "simultaneous_krippe_gt_hort"
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "3ffe1980c0fd",
+        "locator": "Ganztagesbetreuung; übrige Regelgruppentage zusätzlich anteilig",
+        "original": 19600
+      },
+      "price_role": "gt_portion_requires_regular_fee_for_remaining_days"
+    },
+    {
+      "id": "rutesheim-price-8a988bc4e1dc",
+      "offer_id": "rutesheim-offer-1d952b6dd821",
+      "amount_cents": 17600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": 2,
+        "care_rank_is_minimum": true,
+        "rank_basis": "simultaneous_krippe_gt_hort"
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "3ffe1980c0fd",
+        "locator": "Ganztagesbetreuung; übrige Regelgruppentage zusätzlich anteilig",
+        "original": 17600
+      },
+      "price_role": "gt_portion_requires_regular_fee_for_remaining_days"
+    },
+    {
+      "id": "rutesheim-price-dbe9ab187ea6",
+      "offer_id": "rutesheim-offer-0cc5795c7d5f",
+      "amount_cents": 4200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "3ffe1980c0fd",
+        "locator": "U3 im Kindergarten Richard-Wagner; § 3 Abs. 4",
+        "original": 4200
+      }
+    },
+    {
+      "id": "rutesheim-price-83d2b710e3ec",
+      "offer_id": "rutesheim-offer-9b6938ea7f88",
+      "amount_cents": 21000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "3ffe1980c0fd",
+        "locator": "U3 im Kindergarten Richard-Wagner; § 3 Abs. 4",
+        "original": 21000
+      }
+    },
+    {
+      "id": "rutesheim-price-d4189d32f726",
+      "offer_id": "rutesheim-offer-47685225821e",
+      "amount_cents": 7300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "3ffe1980c0fd",
+        "locator": "U3 im Kindergarten Richard-Wagner; § 3 Abs. 4",
+        "original": 7300
+      }
+    },
+    {
+      "id": "rutesheim-price-b14ac7f31608",
+      "offer_id": "rutesheim-offer-373ac0805e66",
+      "amount_cents": 36500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "3ffe1980c0fd",
+        "locator": "U3 im Kindergarten Richard-Wagner; § 3 Abs. 4",
+        "original": 36500
+      }
+    },
+    {
+      "id": "rutesheim-price-166fd742fd80",
+      "offer_id": "rutesheim-offer-bc870d187967",
+      "amount_cents": 17300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "2189c4f26a64",
+        "locator": "Gebühren Kindergarten 2027/2028",
+        "original": 173
+      }
+    },
+    {
+      "id": "rutesheim-price-b200c5354e3f",
+      "offer_id": "rutesheim-offer-bc870d187967",
+      "amount_cents": 13400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "2189c4f26a64",
+        "locator": "Gebühren Kindergarten 2027/2028",
+        "original": 134
+      }
+    },
+    {
+      "id": "rutesheim-price-177ee977780c",
+      "offer_id": "rutesheim-offer-bc870d187967",
+      "amount_cents": 9200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "2189c4f26a64",
+        "locator": "Gebühren Kindergarten 2027/2028",
+        "original": 92
+      }
+    },
+    {
+      "id": "rutesheim-price-c82819a9a4e2",
+      "offer_id": "rutesheim-offer-bc870d187967",
+      "amount_cents": 3000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "2189c4f26a64",
+        "locator": "Gebühren Kindergarten 2027/2028",
+        "original": 30
+      }
+    },
+    {
+      "id": "rutesheim-price-c870b27f24e2",
+      "offer_id": "rutesheim-offer-e3ba3531cc65",
+      "amount_cents": 39500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "2189c4f26a64",
+        "locator": "Kinderkrippe Vollzeit / Sharingplätze; Anteilsberechnung bei Sharing",
+        "original": 39500
+      },
+      "derivation": {
+        "full_time_cents": 39500,
+        "days_numerator": 5,
+        "days_denominator": 5
+      }
+    },
+    {
+      "id": "rutesheim-price-c4d251150c48",
+      "offer_id": "rutesheim-offer-33bb339f7c5c",
+      "amount_cents": 23700,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "2189c4f26a64",
+        "locator": "Kinderkrippe Vollzeit / Sharingplätze; Anteilsberechnung bei Sharing",
+        "original": 23700
+      },
+      "derivation": {
+        "full_time_cents": 39500,
+        "days_numerator": 3,
+        "days_denominator": 5
+      }
+    },
+    {
+      "id": "rutesheim-price-c108e4d37f7c",
+      "offer_id": "rutesheim-offer-9bf538dc1ef2",
+      "amount_cents": 15800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "2189c4f26a64",
+        "locator": "Kinderkrippe Vollzeit / Sharingplätze; Anteilsberechnung bei Sharing",
+        "original": 15800
+      },
+      "derivation": {
+        "full_time_cents": 39500,
+        "days_numerator": 2,
+        "days_denominator": 5
+      }
+    },
+    {
+      "id": "rutesheim-price-7fbb84711674",
+      "offer_id": "rutesheim-offer-655c3f5a0d4e",
+      "amount_cents": 50000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "2189c4f26a64",
+        "locator": "Kinderkrippe Vollzeit / Sharingplätze; Anteilsberechnung bei Sharing",
+        "original": 50000
+      },
+      "derivation": {
+        "full_time_cents": 50000,
+        "days_numerator": 5,
+        "days_denominator": 5
+      }
+    },
+    {
+      "id": "rutesheim-price-8cf272dfb310",
+      "offer_id": "rutesheim-offer-e4bdb024bf69",
+      "amount_cents": 30000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "2189c4f26a64",
+        "locator": "Kinderkrippe Vollzeit / Sharingplätze; Anteilsberechnung bei Sharing",
+        "original": 30000
+      },
+      "derivation": {
+        "full_time_cents": 50000,
+        "days_numerator": 3,
+        "days_denominator": 5
+      }
+    },
+    {
+      "id": "rutesheim-price-551a02f8203e",
+      "offer_id": "rutesheim-offer-d85c0fb00ccb",
+      "amount_cents": 20000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "2189c4f26a64",
+        "locator": "Kinderkrippe Vollzeit / Sharingplätze; Anteilsberechnung bei Sharing",
+        "original": 20000
+      },
+      "derivation": {
+        "full_time_cents": 50000,
+        "days_numerator": 2,
+        "days_denominator": 5
+      }
+    },
+    {
+      "id": "rutesheim-price-a32f17a5f35c",
+      "offer_id": "rutesheim-offer-70ae73916bcd",
+      "amount_cents": 64000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "2189c4f26a64",
+        "locator": "Kinderkrippe Vollzeit / Sharingplätze; Anteilsberechnung bei Sharing",
+        "original": 64000
+      },
+      "derivation": {
+        "full_time_cents": 64000,
+        "days_numerator": 5,
+        "days_denominator": 5
+      }
+    },
+    {
+      "id": "rutesheim-price-2c9af7737541",
+      "offer_id": "rutesheim-offer-41b8277bdbc7",
+      "amount_cents": 38400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "2189c4f26a64",
+        "locator": "Kinderkrippe Vollzeit / Sharingplätze; Anteilsberechnung bei Sharing",
+        "original": 38400
+      },
+      "derivation": {
+        "full_time_cents": 64000,
+        "days_numerator": 3,
+        "days_denominator": 5
+      }
+    },
+    {
+      "id": "rutesheim-price-cde710dfb6f9",
+      "offer_id": "rutesheim-offer-9ed3bf0aae52",
+      "amount_cents": 25600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "2189c4f26a64",
+        "locator": "Kinderkrippe Vollzeit / Sharingplätze; Anteilsberechnung bei Sharing",
+        "original": 25600
+      },
+      "derivation": {
+        "full_time_cents": 64000,
+        "days_numerator": 2,
+        "days_denominator": 5
+      }
+    },
+    {
+      "id": "rutesheim-price-55e2ddf0b18e",
+      "offer_id": "rutesheim-offer-73dc82d2d374",
+      "amount_cents": 37500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": 1,
+        "care_rank_is_minimum": false,
+        "rank_basis": "simultaneous_krippe_gt_hort"
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "2189c4f26a64",
+        "locator": "Ganztagesbetreuung; übrige Regelgruppentage zusätzlich anteilig",
+        "original": 37500
+      },
+      "price_role": "full_month_total"
+    },
+    {
+      "id": "rutesheim-price-d3a89aeaecbb",
+      "offer_id": "rutesheim-offer-73dc82d2d374",
+      "amount_cents": 32500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": 2,
+        "care_rank_is_minimum": true,
+        "rank_basis": "simultaneous_krippe_gt_hort"
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "2189c4f26a64",
+        "locator": "Ganztagesbetreuung; übrige Regelgruppentage zusätzlich anteilig",
+        "original": 32500
+      },
+      "price_role": "full_month_total"
+    },
+    {
+      "id": "rutesheim-price-3b5a36a028c0",
+      "offer_id": "rutesheim-offer-1dbcb3b24c29",
+      "amount_cents": 30000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": 1,
+        "care_rank_is_minimum": false,
+        "rank_basis": "simultaneous_krippe_gt_hort"
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "2189c4f26a64",
+        "locator": "Ganztagesbetreuung; übrige Regelgruppentage zusätzlich anteilig",
+        "original": 30000
+      },
+      "price_role": "gt_portion_requires_regular_fee_for_remaining_days"
+    },
+    {
+      "id": "rutesheim-price-923d978c059c",
+      "offer_id": "rutesheim-offer-1dbcb3b24c29",
+      "amount_cents": 26000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": 2,
+        "care_rank_is_minimum": true,
+        "rank_basis": "simultaneous_krippe_gt_hort"
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "2189c4f26a64",
+        "locator": "Ganztagesbetreuung; übrige Regelgruppentage zusätzlich anteilig",
+        "original": 26000
+      },
+      "price_role": "gt_portion_requires_regular_fee_for_remaining_days"
+    },
+    {
+      "id": "rutesheim-price-b7fc6392f6a9",
+      "offer_id": "rutesheim-offer-705d35c84c9c",
+      "amount_cents": 22500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": 1,
+        "care_rank_is_minimum": false,
+        "rank_basis": "simultaneous_krippe_gt_hort"
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "2189c4f26a64",
+        "locator": "Ganztagesbetreuung; übrige Regelgruppentage zusätzlich anteilig",
+        "original": 22500
+      },
+      "price_role": "gt_portion_requires_regular_fee_for_remaining_days"
+    },
+    {
+      "id": "rutesheim-price-ba8ef3641d5c",
+      "offer_id": "rutesheim-offer-705d35c84c9c",
+      "amount_cents": 19500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": 2,
+        "care_rank_is_minimum": true,
+        "rank_basis": "simultaneous_krippe_gt_hort"
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "2189c4f26a64",
+        "locator": "Ganztagesbetreuung; übrige Regelgruppentage zusätzlich anteilig",
+        "original": 19500
+      },
+      "price_role": "gt_portion_requires_regular_fee_for_remaining_days"
+    },
+    {
+      "id": "rutesheim-price-1a8e3ed477e4",
+      "offer_id": "rutesheim-offer-a9be8f6f32e7",
+      "amount_cents": 15000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": 1,
+        "care_rank_is_minimum": false,
+        "rank_basis": "simultaneous_krippe_gt_hort"
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "2189c4f26a64",
+        "locator": "Ganztagesbetreuung; übrige Regelgruppentage zusätzlich anteilig",
+        "original": 15000
+      },
+      "price_role": "gt_portion_requires_regular_fee_for_remaining_days"
+    },
+    {
+      "id": "rutesheim-price-3237b80b168e",
+      "offer_id": "rutesheim-offer-a9be8f6f32e7",
+      "amount_cents": 13000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": 2,
+        "care_rank_is_minimum": true,
+        "rank_basis": "simultaneous_krippe_gt_hort"
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "2189c4f26a64",
+        "locator": "Ganztagesbetreuung; übrige Regelgruppentage zusätzlich anteilig",
+        "original": 13000
+      },
+      "price_role": "gt_portion_requires_regular_fee_for_remaining_days"
+    },
+    {
+      "id": "rutesheim-price-a1d2ec3f4acd",
+      "offer_id": "rutesheim-offer-e7b8d13f72e9",
+      "amount_cents": 50000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": 1,
+        "care_rank_is_minimum": false,
+        "rank_basis": "simultaneous_krippe_gt_hort"
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "2189c4f26a64",
+        "locator": "Ganztagesbetreuung; übrige Regelgruppentage zusätzlich anteilig",
+        "original": 50000
+      },
+      "price_role": "full_month_total"
+    },
+    {
+      "id": "rutesheim-price-968fa46f639f",
+      "offer_id": "rutesheim-offer-e7b8d13f72e9",
+      "amount_cents": 45000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": 2,
+        "care_rank_is_minimum": true,
+        "rank_basis": "simultaneous_krippe_gt_hort"
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "2189c4f26a64",
+        "locator": "Ganztagesbetreuung; übrige Regelgruppentage zusätzlich anteilig",
+        "original": 45000
+      },
+      "price_role": "full_month_total"
+    },
+    {
+      "id": "rutesheim-price-b8d8593bd898",
+      "offer_id": "rutesheim-offer-d1d9700822ef",
+      "amount_cents": 40000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": 1,
+        "care_rank_is_minimum": false,
+        "rank_basis": "simultaneous_krippe_gt_hort"
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "2189c4f26a64",
+        "locator": "Ganztagesbetreuung; übrige Regelgruppentage zusätzlich anteilig",
+        "original": 40000
+      },
+      "price_role": "gt_portion_requires_regular_fee_for_remaining_days"
+    },
+    {
+      "id": "rutesheim-price-4140ad66f765",
+      "offer_id": "rutesheim-offer-d1d9700822ef",
+      "amount_cents": 36000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": 2,
+        "care_rank_is_minimum": true,
+        "rank_basis": "simultaneous_krippe_gt_hort"
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "2189c4f26a64",
+        "locator": "Ganztagesbetreuung; übrige Regelgruppentage zusätzlich anteilig",
+        "original": 36000
+      },
+      "price_role": "gt_portion_requires_regular_fee_for_remaining_days"
+    },
+    {
+      "id": "rutesheim-price-18d14d4142bf",
+      "offer_id": "rutesheim-offer-af3074167bea",
+      "amount_cents": 30000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": 1,
+        "care_rank_is_minimum": false,
+        "rank_basis": "simultaneous_krippe_gt_hort"
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "2189c4f26a64",
+        "locator": "Ganztagesbetreuung; übrige Regelgruppentage zusätzlich anteilig",
+        "original": 30000
+      },
+      "price_role": "gt_portion_requires_regular_fee_for_remaining_days"
+    },
+    {
+      "id": "rutesheim-price-f32a059e7528",
+      "offer_id": "rutesheim-offer-af3074167bea",
+      "amount_cents": 27000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": 2,
+        "care_rank_is_minimum": true,
+        "rank_basis": "simultaneous_krippe_gt_hort"
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "2189c4f26a64",
+        "locator": "Ganztagesbetreuung; übrige Regelgruppentage zusätzlich anteilig",
+        "original": 27000
+      },
+      "price_role": "gt_portion_requires_regular_fee_for_remaining_days"
+    },
+    {
+      "id": "rutesheim-price-3c05e8874764",
+      "offer_id": "rutesheim-offer-9c7b3e8f48a1",
+      "amount_cents": 20000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": 1,
+        "care_rank_is_minimum": false,
+        "rank_basis": "simultaneous_krippe_gt_hort"
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "2189c4f26a64",
+        "locator": "Ganztagesbetreuung; übrige Regelgruppentage zusätzlich anteilig",
+        "original": 20000
+      },
+      "price_role": "gt_portion_requires_regular_fee_for_remaining_days"
+    },
+    {
+      "id": "rutesheim-price-6653439d3948",
+      "offer_id": "rutesheim-offer-9c7b3e8f48a1",
+      "amount_cents": 18000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": 2,
+        "care_rank_is_minimum": true,
+        "rank_basis": "simultaneous_krippe_gt_hort"
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "2189c4f26a64",
+        "locator": "Ganztagesbetreuung; übrige Regelgruppentage zusätzlich anteilig",
+        "original": 18000
+      },
+      "price_role": "gt_portion_requires_regular_fee_for_remaining_days"
+    },
+    {
+      "id": "rutesheim-price-7624a202dea0",
+      "offer_id": "rutesheim-offer-c1b90b5457f3",
+      "amount_cents": 4300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "2189c4f26a64",
+        "locator": "U3 im Kindergarten Richard-Wagner; § 3 Abs. 4",
+        "original": 4300
+      }
+    },
+    {
+      "id": "rutesheim-price-849f12f0061a",
+      "offer_id": "rutesheim-offer-1d689e3275f6",
+      "amount_cents": 21500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "2189c4f26a64",
+        "locator": "U3 im Kindergarten Richard-Wagner; § 3 Abs. 4",
+        "original": 21500
+      }
+    },
+    {
+      "id": "rutesheim-price-904a26ed11bf",
+      "offer_id": "rutesheim-offer-a0746e762533",
+      "amount_cents": 7500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "2189c4f26a64",
+        "locator": "U3 im Kindergarten Richard-Wagner; § 3 Abs. 4",
+        "original": 7500
+      }
+    },
+    {
+      "id": "rutesheim-price-b020e3f43d0c",
+      "offer_id": "rutesheim-offer-b350619974b6",
+      "amount_cents": 37500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "2189c4f26a64",
+        "locator": "U3 im Kindergarten Richard-Wagner; § 3 Abs. 4",
+        "original": 37500
+      }
+    }
+  ],
+  "income_bands": [],
+  "components": [
+    {
+      "id": "rutesheim-component-513ec0292895",
+      "kind": "meal",
+      "original_label": "Mittagessen o3 2 Tage",
+      "amount_cents": 3200,
+      "unit": "per_month",
+      "age_group": "o3",
+      "required": null,
+      "payment_months": null,
+      "offer_ids": null,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "3ffe1980c0fd",
+        "locator": "PDF S. 2, Mittagessen",
+        "original": null
+      },
+      "days_per_week": 2
+    },
+    {
+      "id": "rutesheim-component-a9e67bf399e0",
+      "kind": "meal",
+      "original_label": "Mittagessen o3 3 Tage",
+      "amount_cents": 4800,
+      "unit": "per_month",
+      "age_group": "o3",
+      "required": null,
+      "payment_months": null,
+      "offer_ids": null,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "3ffe1980c0fd",
+        "locator": "PDF S. 2, Mittagessen",
+        "original": null
+      },
+      "days_per_week": 3
+    },
+    {
+      "id": "rutesheim-component-f6fcf58e3706",
+      "kind": "meal",
+      "original_label": "Mittagessen o3 4 Tage",
+      "amount_cents": 6400,
+      "unit": "per_month",
+      "age_group": "o3",
+      "required": null,
+      "payment_months": null,
+      "offer_ids": null,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "3ffe1980c0fd",
+        "locator": "PDF S. 2, Mittagessen",
+        "original": null
+      },
+      "days_per_week": 4
+    },
+    {
+      "id": "rutesheim-component-12f2d8732f59",
+      "kind": "meal",
+      "original_label": "Mittagessen o3 5 Tage",
+      "amount_cents": 8000,
+      "unit": "per_month",
+      "age_group": "o3",
+      "required": null,
+      "payment_months": null,
+      "offer_ids": null,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "3ffe1980c0fd",
+        "locator": "PDF S. 2, Mittagessen",
+        "original": null
+      },
+      "days_per_week": 5
+    },
+    {
+      "id": "rutesheim-component-4a7f86d8e73f",
+      "kind": "meal",
+      "original_label": "Mittagessen u3 2 Tage",
+      "amount_cents": 2400,
+      "unit": "per_month",
+      "age_group": "u3",
+      "required": null,
+      "payment_months": null,
+      "offer_ids": null,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "3ffe1980c0fd",
+        "locator": "PDF S. 2, Mittagessen",
+        "original": null
+      },
+      "days_per_week": 2
+    },
+    {
+      "id": "rutesheim-component-46be3c062b85",
+      "kind": "meal",
+      "original_label": "Mittagessen u3 3 Tage",
+      "amount_cents": 3600,
+      "unit": "per_month",
+      "age_group": "u3",
+      "required": null,
+      "payment_months": null,
+      "offer_ids": null,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "3ffe1980c0fd",
+        "locator": "PDF S. 2, Mittagessen",
+        "original": null
+      },
+      "days_per_week": 3
+    },
+    {
+      "id": "rutesheim-component-7c15121a26fa",
+      "kind": "meal",
+      "original_label": "Mittagessen u3 5 Tage",
+      "amount_cents": 6000,
+      "unit": "per_month",
+      "age_group": "u3",
+      "required": null,
+      "payment_months": null,
+      "offer_ids": null,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "3ffe1980c0fd",
+        "locator": "PDF S. 2, Mittagessen",
+        "original": null
+      },
+      "days_per_week": 5
+    }
+  ],
+  "rules": [
+    {
+      "id": "rutesheim-rule-e1041522f107",
+      "kind": "simultaneous_sibling_discount",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "amount_cents": 5000,
+        "applies_to": "additional_children_in_krippe_gt_hort",
+        "rank_assignment": "not_defined_in_overview"
+      },
+      "evidence": {
+        "source_id": "3ffe1980c0fd",
+        "locator": "PDF S. 1–2, Geschwisterhinweis",
+        "original": null
+      }
+    },
+    {
+      "id": "rutesheim-rule-5224a295b145",
+      "kind": "family_pass_contribution",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "own_share_percent_of_income": 10,
+        "income_definition": "requires_separate_review",
+        "application_required": true
+      },
+      "evidence": {
+        "source_id": "3ffe1980c0fd",
+        "locator": "Ermäßigungsspalte; keine allgemeine Netto-/Bruttoumrechnung",
+        "original": null
+      }
+    },
+    {
+      "id": "rutesheim-rule-35c71d1df998",
+      "kind": "source_provisions_3ffe1980c0fd",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "archive_text_path": "data/sources/3ffe1980c0fd/text.txt",
+        "text_sha256": "89e264caec48bb08eda5dbf3b8292e9e2a3721bd62f0bfd377ee9a1ddb2c75d8",
+        "review_status": "archived_provisions_preserved"
+      },
+      "evidence": {
+        "source_id": "3ffe1980c0fd",
+        "locator": "Vollständiger archivierter Dokumenttext einschließlich Fußnoten",
+        "original": null
+      }
+    },
+    {
+      "id": "rutesheim-rule-80f1216f2141",
+      "kind": "source_clause_3ffe1980c0fd_1_1",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 0,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "3ffe1980c0fd",
+        "locator": "PDF-/Textseite 1, Absatzblock 1",
+        "original": null
+      }
+    },
+    {
+      "id": "rutesheim-rule-c251ed958632",
+      "kind": "source_clause_3ffe1980c0fd_1_2",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 1,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "3ffe1980c0fd",
+        "locator": "PDF-/Textseite 1, Absatzblock 2",
+        "original": null
+      }
+    },
+    {
+      "id": "rutesheim-rule-00f9d407716d",
+      "kind": "source_clause_3ffe1980c0fd_1_5",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 2,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "3ffe1980c0fd",
+        "locator": "PDF-/Textseite 1, Absatzblock 5",
+        "original": null
+      }
+    },
+    {
+      "id": "rutesheim-rule-de854f08a328",
+      "kind": "source_clause_3ffe1980c0fd_1_6",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 3,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "3ffe1980c0fd",
+        "locator": "PDF-/Textseite 1, Absatzblock 6",
+        "original": null
+      }
+    },
+    {
+      "id": "rutesheim-rule-b1108cec19dc",
+      "kind": "source_clause_3ffe1980c0fd_1_8",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 4,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "3ffe1980c0fd",
+        "locator": "PDF-/Textseite 1, Absatzblock 8",
+        "original": null
+      }
+    },
+    {
+      "id": "rutesheim-rule-ae3bb8f4402b",
+      "kind": "source_clause_3ffe1980c0fd_1_10",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 5,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "3ffe1980c0fd",
+        "locator": "PDF-/Textseite 1, Absatzblock 10",
+        "original": null
+      }
+    },
+    {
+      "id": "rutesheim-rule-5345fc81d099",
+      "kind": "source_clause_3ffe1980c0fd_2_2",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 6,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "3ffe1980c0fd",
+        "locator": "PDF-/Textseite 2, Absatzblock 2",
+        "original": null
+      }
+    },
+    {
+      "id": "rutesheim-rule-99fba7e80661",
+      "kind": "source_clause_3ffe1980c0fd_2_4",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 7,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "3ffe1980c0fd",
+        "locator": "PDF-/Textseite 2, Absatzblock 4",
+        "original": null
+      }
+    },
+    {
+      "id": "rutesheim-rule-2a9e41355c1a",
+      "kind": "source_provisions_2189c4f26a64",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "archive_text_path": "data/sources/2189c4f26a64/text.txt",
+        "text_sha256": "e4fd4fc6ffbd918bcb16df0e1ed4caa749dd5fe5e29d29158d813eae919293f7",
+        "review_status": "archived_provisions_preserved"
+      },
+      "evidence": {
+        "source_id": "2189c4f26a64",
+        "locator": "Vollständiger archivierter Dokumenttext einschließlich Fußnoten",
+        "original": null
+      }
+    },
+    {
+      "id": "rutesheim-rule-813444382f10",
+      "kind": "source_clause_2189c4f26a64_1_2",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 8,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "2189c4f26a64",
+        "locator": "PDF-/Textseite 1, Absatzblock 2",
+        "original": null
+      }
+    },
+    {
+      "id": "rutesheim-rule-aac17a34bfce",
+      "kind": "source_clause_2189c4f26a64_1_7",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 9,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "2189c4f26a64",
+        "locator": "PDF-/Textseite 1, Absatzblock 7",
+        "original": null
+      }
+    },
+    {
+      "id": "rutesheim-rule-2e701d14cb27",
+      "kind": "source_clause_2189c4f26a64_1_8",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 10,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "2189c4f26a64",
+        "locator": "PDF-/Textseite 1, Absatzblock 8",
+        "original": null
+      }
+    },
+    {
+      "id": "rutesheim-rule-45e70e68a9f1",
+      "kind": "source_clause_2189c4f26a64_1_9",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 11,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "2189c4f26a64",
+        "locator": "PDF-/Textseite 1, Absatzblock 9",
+        "original": null
+      }
+    },
+    {
+      "id": "rutesheim-rule-f450077b3350",
+      "kind": "source_clause_2189c4f26a64_1_10",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 12,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "2189c4f26a64",
+        "locator": "PDF-/Textseite 1, Absatzblock 10",
+        "original": null
+      }
+    },
+    {
+      "id": "rutesheim-rule-6984769d6678",
+      "kind": "source_clause_2189c4f26a64_1_11",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 13,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "2189c4f26a64",
+        "locator": "PDF-/Textseite 1, Absatzblock 11",
+        "original": null
+      }
+    },
+    {
+      "id": "rutesheim-rule-bc7fbf8b1cfc",
+      "kind": "source_clause_2189c4f26a64_1_12",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 14,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "2189c4f26a64",
+        "locator": "PDF-/Textseite 1, Absatzblock 12",
+        "original": null
+      }
+    },
+    {
+      "id": "rutesheim-rule-24c80b80aa39",
+      "kind": "source_clause_2189c4f26a64_1_13",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 15,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "2189c4f26a64",
+        "locator": "PDF-/Textseite 1, Absatzblock 13",
+        "original": null
+      }
+    },
+    {
+      "id": "rutesheim-rule-9b84e05dac2c",
+      "kind": "source_clause_2189c4f26a64_1_14",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 16,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "2189c4f26a64",
+        "locator": "PDF-/Textseite 1, Absatzblock 14",
+        "original": null
+      }
+    },
+    {
+      "id": "rutesheim-rule-2fdeec8cee98",
+      "kind": "source_clause_2189c4f26a64_1_15",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 17,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "2189c4f26a64",
+        "locator": "PDF-/Textseite 1, Absatzblock 15",
+        "original": null
+      }
+    },
+    {
+      "id": "rutesheim-rule-ce8a4038d893",
+      "kind": "source_clause_2189c4f26a64_2_2",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 18,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "2189c4f26a64",
+        "locator": "PDF-/Textseite 2, Absatzblock 2",
+        "original": null
+      }
+    },
+    {
+      "id": "rutesheim-rule-887cfb547410",
+      "kind": "source_clause_2189c4f26a64_2_3",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 19,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "2189c4f26a64",
+        "locator": "PDF-/Textseite 2, Absatzblock 3",
+        "original": null
+      }
+    },
+    {
+      "id": "rutesheim-rule-2213106e1ae3",
+      "kind": "source_clause_2189c4f26a64_2_4",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 20,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "2189c4f26a64",
+        "locator": "PDF-/Textseite 2, Absatzblock 4",
+        "original": null
+      }
+    },
+    {
+      "id": "rutesheim-rule-e7cebe815a6d",
+      "kind": "source_clause_2189c4f26a64_2_5",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 21,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "2189c4f26a64",
+        "locator": "PDF-/Textseite 2, Absatzblock 5",
+        "original": null
+      }
+    },
+    {
+      "id": "rutesheim-rule-39cf298204e0",
+      "kind": "source_clause_2189c4f26a64_2_6",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 22,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "2189c4f26a64",
+        "locator": "PDF-/Textseite 2, Absatzblock 6",
+        "original": null
+      }
+    },
+    {
+      "id": "rutesheim-rule-fe8945b49764",
+      "kind": "source_clause_2189c4f26a64_2_7",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 23,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "2189c4f26a64",
+        "locator": "PDF-/Textseite 2, Absatzblock 7",
+        "original": null
+      }
+    },
+    {
+      "id": "rutesheim-rule-70ab29afd048",
+      "kind": "source_clause_2189c4f26a64_2_8",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 24,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "2189c4f26a64",
+        "locator": "PDF-/Textseite 2, Absatzblock 8",
+        "original": null
+      }
+    },
+    {
+      "id": "rutesheim-rule-438e71ae6262",
+      "kind": "source_clause_2189c4f26a64_2_9",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 25,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "2189c4f26a64",
+        "locator": "PDF-/Textseite 2, Absatzblock 9",
+        "original": null
+      }
+    }
+  ],
+  "issues": [
+    {
+      "code": "pending_calculation_review",
+      "detail": "Strukturierter Import; noch keine Freigabe des Rechners oder der Website."
+    },
+    {
+      "code": "research_limitation_1",
+      "detail": "Gemeinsame Nutzung von Krippe/GT/Hort und Zuordnung des 50-Euro-Abzugs fachlich abbilden."
+    },
+    {
+      "code": "research_limitation_2",
+      "detail": "Familienpass nennt 10 % Einkommenseigenanteil; Bemessungsdefinition vor automatischer Ermäßigung ergänzen. Essensstaffeln stehen auf Seite 2 der Gebührenübersicht und sind im Import erfasst."
+    }
+  ],
+  "coverage": {
+    "publication_status": "not_active",
+    "integration_status": "normalized_pending_calculation_review",
+    "history_in_scope": false,
+    "source_register": "data/research/neighbor_expansion_2026-11-10.json",
+    "research_id": "rutesheim",
+    "unavailable_configurations": [],
+    "offers": 44,
+    "price_cells": 66,
+    "income_bands": 0,
+    "components": 7,
+    "rule_records": 30,
+    "tariff_table_transcription": "complete_for_declared_scope",
+    "declared_scope": "Aktuelle und bereits veröffentlichte künftige Krippen- und Kindergartentarife; Zusatzkosten und Gebührenregeln.",
+    "excluded_from_regular_price_rows": [
+      "superseded_historical_tariffs",
+      "school_childcare",
+      "takki_and_childminding",
+      "separate_playgroups"
+    ],
+    "calculation_engine_changed": false,
+    "rule_transcription": "typed_parameters_and_source_clauses_with_explicit_unimplemented_status"
+  },
+  "original_research": {
+    "path": "data/research/neighbor_expansion_2026-11-10.json",
+    "section": "Rutesheim",
+    "text": "Die PDF-URL klingt älter; der heruntergeladene Inhalt ist ab September 2026 gültig. Folgetarif 2027 getrennt archiviert.\nGemeinsame Nutzung von Krippe/GT/Hort und Zuordnung des 50-Euro-Abzugs fachlich abbilden.\nFamilienpass nennt 10 % Einkommenseigenanteil; Bemessungsdefinition vor automatischer Ermäßigung ergänzen. Essensstaffeln stehen auf Seite 2 der Gebührenübersicht und sind im Import erfasst.",
+    "source_clauses": [
+      {
+        "text": "Gebühren Kindertagestätten* ab 01.09.2026\n*Gebühren für einen Monat, es werden 12 Monate im Jahr erhoben",
+        "evidence": {
+          "source_id": "3ffe1980c0fd",
+          "locator": "PDF-/Textseite 1, Absatzblock 1",
+          "original": null
+        }
+      },
+      {
+        "text": "Kindergarten für Kinder ab 3 Jahren:                                                   Ermäßigung:\nbis max. 13:30 Uhr\n                                                                                       Antrag Jugendamt\nFamilien mit 1 Kind                            166,00 €                                Landratsamt BB\nFamilen mit 2 Kindern                          129,00 €\nFamilien mit 3 Kindern                          88,00 €                                Familienpass\nFamilien mit 4 und mehr Kindern                 29,00 €                                Rutesheim\n                                                                                       (nicht Landes-\nU3 (Kiga Richard-Wagner)                                                               familienpass)\n(unter 3-jährige Kinder)",
+        "evidence": {
+          "source_id": "3ffe1980c0fd",
+          "locator": "PDF-/Textseite 1, Absatzblock 2",
+          "original": null
+        }
+      },
+      {
+        "text": "für Familien mit 1 Kind\n                                   bis 13:30 bis 15:00                     bis 17:00   Eigenanteil:\nVollzeit                           380,00 €   490,00 €                      620,00 €   10% Einkommen\nSharingplätze:\n3 Tage                              228,00 €   294,00 €                    372,00 €    Antrag Jugendamt\n2 Tage                              152,00 €   196,00 €                    248,00 €    Landratsamt BB\n                           (nur in Perouse)",
+        "evidence": {
+          "source_id": "3ffe1980c0fd",
+          "locator": "PDF-/Textseite 1, Absatzblock 5",
+          "original": null
+        }
+      },
+      {
+        "text": "bei mehreren Kindern gleichzeitig in der Krippe, Ganztagesbetreuung oder Hort verringert\nsich die Gebühr um jeweils 50 Euro für weitere Kinder.",
+        "evidence": {
+          "source_id": "3ffe1980c0fd",
+          "locator": "PDF-/Textseite 1, Absatzblock 6",
+          "original": null
+        }
+      },
+      {
+        "text": "für Familien mit 1 Kind\n                                               bis 17:00                   bis 15:00\nVollzeit                                        490,00 €                    365,00 €   Eigenanteil:\n4 Tage                                          392,00 €                    292,00 €   10% Einkommen\n3 Tage                                          294,00 €                    219,00 €\n2 Tage                                          196,00 €                    146,00 €   Antrag Jugendamt\n                                                                                       Landratsamt BB",
+        "evidence": {
+          "source_id": "3ffe1980c0fd",
+          "locator": "PDF-/Textseite 1, Absatzblock 8",
+          "original": null
+        }
+      },
+      {
+        "text": "bei Buchung einzelner Tage besucht das Kind an den übrigen Tagen\nden Kindergarten bis zur regulären Öffnungszeit am Mittag (wird anteilig\nzu den Gebühren dazu berechnet).",
+        "evidence": {
+          "source_id": "3ffe1980c0fd",
+          "locator": "PDF-/Textseite 1, Absatzblock 10",
+          "original": null
+        }
+      },
+      {
+        "text": "für Familien mit 1 Kind\n                                                   bis 17:00 bis 15:00                       Eigenanteil:\nVollzeit                                            320,00 €                   270,00 €      10% Einkommen\n4 Tage                                              256,00 €                   216,00 €\n3 Tage                                              192,00 €                   162,00 €      Antrag Jugendamt\n2 Tage                                              128,00 €                   108,00 €      Landratsamt BB",
+        "evidence": {
+          "source_id": "3ffe1980c0fd",
+          "locator": "PDF-/Textseite 2, Absatzblock 2",
+          "original": null
+        }
+      },
+      {
+        "text": "bei mehreren Kindern gleichzeitig in der Krippe, Ganztagesbetreuung oder Hort verringert\nsich die Gebühr um jeweils 50 Euro für weitere Kinder.",
+        "evidence": {
+          "source_id": "3ffe1980c0fd",
+          "locator": "PDF-/Textseite 2, Absatzblock 4",
+          "original": null
+        }
+      },
+      {
+        "text": "Satzung zur Änderung der Satzung über die Erhebung von Benutzungsgebühren für die\nKindertageseinrichtungen (Kita-Gebührensatzung)",
+        "evidence": {
+          "source_id": "2189c4f26a64",
+          "locator": "PDF-/Textseite 1, Absatzblock 2",
+          "original": null
+        }
+      },
+      {
+        "text": "(2) Die Gebühren für den Kindergarten betragen pro Kind monatlich:\n                                                        Ab 01.09.2026\na. für 1 Kind aus einer Familie mit 1 Kind                  166 €\nb. für 1 Kind aus einer Familie mit 2 Kindern               129 €\nc. für 1 Kind aus einer Familie mit 3 Kindern               88 €\nd. für 1 Kind aus einer Familie mit 4 und mehr Kindern      29 €",
+        "evidence": {
+          "source_id": "2189c4f26a64",
+          "locator": "PDF-/Textseite 1, Absatzblock 7",
+          "original": null
+        }
+      },
+      {
+        "text": "2. § 3 Absatz 4 a) Satz 1 erhält folgende Fassung: „Die monatliche Benutzungsgebühr beträgt\n   pro Kind 210 €, bei einer Betreuung bis 15 Uhr 365 €.“",
+        "evidence": {
+          "source_id": "2189c4f26a64",
+          "locator": "PDF-/Textseite 1, Absatzblock 8",
+          "original": null
+        }
+      },
+      {
+        "text": "3. § 4a Absatz a) Satz 1 erhält folgende Fassung: „Die monatliche Benutzungsgebühr für die\n   Ganztagesbetreuung beträgt pro Kind 490 €.“",
+        "evidence": {
+          "source_id": "2189c4f26a64",
+          "locator": "PDF-/Textseite 1, Absatzblock 9",
+          "original": null
+        }
+      },
+      {
+        "text": "4. § 4a Absatz b) Satz 1 erhält folgende Fassung: „Die monatliche Benutzungsgebühr für die\n   verkürzte Ganztagesbetreuung beträgt pro Kind 365 €.“",
+        "evidence": {
+          "source_id": "2189c4f26a64",
+          "locator": "PDF-/Textseite 1, Absatzblock 10",
+          "original": null
+        }
+      },
+      {
+        "text": "5. § 4b Absatz a) Satz 1 erhält folgende Fassung: „Die monatliche Benutzungsgebühr für die\n   Ganztagesbetreuung beträgt pro Kind 620 €.“",
+        "evidence": {
+          "source_id": "2189c4f26a64",
+          "locator": "PDF-/Textseite 1, Absatzblock 11",
+          "original": null
+        }
+      },
+      {
+        "text": "6. § 4b Absatz b) Satz 1 erhält folgende Fassung: „Die monatliche Benutzungsgebühr für die\n   verkürzte Ganztagesbetreuung beträgt pro Kind 490 €; die monatliche Benutzungsgebühr für\n   die Betreuung in der Kinderkrippe bis 13.30 Uhr beträgt pro Kind 380 €.“",
+        "evidence": {
+          "source_id": "2189c4f26a64",
+          "locator": "PDF-/Textseite 1, Absatzblock 12",
+          "original": null
+        }
+      },
+      {
+        "text": "7. § 8 Absatz 1 erhält folgende Fassung: „(1) Diese Gebühr entspricht der Gebühr in § 3 Absätze\n   1 - 3 dieser Satzung, höchstens dem Gebührensatz für Familien mit 2 Kindern unter 18 Jahren\n   und mindestens dem Gebührensatz für Familien mit 3 Kindern unter 18 Jahren, bei 1 Kind in\n   der Familie unter 18 Jahren abzüglich 10 € monatlich, bei 2 oder 3 und mehr Kindern in der\n   Familie unter 18 Jahren jeweils abzüglich pauschal 20 € monatlich aus sozialen Gründen Bei\n   einer Anmeldung für nicht regelmäßigen Besuch beträgt die Gebühr 8 € je Kind und Tag, zu-\n   züglich einer Grundpauschale von 10 € pro Monat.“",
+        "evidence": {
+          "source_id": "2189c4f26a64",
+          "locator": "PDF-/Textseite 1, Absatzblock 13",
+          "original": null
+        }
+      },
+      {
+        "text": "8. § 9 Absatz 1 Satz 1 erhält folgende Fassung: „Die monatliche Benutzungsgebühr für den Hort\n   beträgt pro Kind 320 €.“",
+        "evidence": {
+          "source_id": "2189c4f26a64",
+          "locator": "PDF-/Textseite 1, Absatzblock 14",
+          "original": null
+        }
+      },
+      {
+        "text": "9. § 9 Absatz 2 Satz 1 erhält folgende Fassung: „Die monatliche Benutzungsgebühr für den ver-\n   kürzten Hort beträgt pro Kind 270 €.“",
+        "evidence": {
+          "source_id": "2189c4f26a64",
+          "locator": "PDF-/Textseite 1, Absatzblock 15",
+          "original": null
+        }
+      },
+      {
+        "text": "(2) Die Gebühren für den Kindergarten betragen pro Kind monatlich:\n                                                        Ab 01.09.2027\na. für 1 Kind aus einer Familie mit 1 Kind                  173 €\nb. für 1 Kind aus einer Familie mit 2 Kindern               134 €\nc. für 1 Kind aus einer Familie mit 3 Kindern               92 €\nd. für 1 Kind aus einer Familie mit 4 und mehr Kindern      30 €",
+        "evidence": {
+          "source_id": "2189c4f26a64",
+          "locator": "PDF-/Textseite 2, Absatzblock 2",
+          "original": null
+        }
+      },
+      {
+        "text": "11. § 3 Absatz 4 a) Satz 1 erhält folgende Fassung: „Die monatliche Benutzungsgebühr beträgt\n    pro Kind 215 €, bei einer Betreuung bis 15 Uhr 375 €.““",
+        "evidence": {
+          "source_id": "2189c4f26a64",
+          "locator": "PDF-/Textseite 2, Absatzblock 3",
+          "original": null
+        }
+      },
+      {
+        "text": "12. § 4a Absatz a) Satz 1 erhält folgende Fassung: „Die monatliche Benutzungsgebühr für die\n    Ganztagesbetreuung beträgt pro Kind 500 €.“",
+        "evidence": {
+          "source_id": "2189c4f26a64",
+          "locator": "PDF-/Textseite 2, Absatzblock 4",
+          "original": null
+        }
+      },
+      {
+        "text": "13. § 4a Absatz b) Satz 1 erhält folgende Fassung: „Die monatliche Benutzungsgebühr für die\n    verkürzte Ganztagesbetreuung beträgt pro Kind 375 €.“",
+        "evidence": {
+          "source_id": "2189c4f26a64",
+          "locator": "PDF-/Textseite 2, Absatzblock 5",
+          "original": null
+        }
+      },
+      {
+        "text": "14. § 4b Absatz a) Satz 1 erhält folgende Fassung: „Die monatliche Benutzungsgebühr für die\n    Ganztagesbetreuung beträgt pro Kind 640 €.“",
+        "evidence": {
+          "source_id": "2189c4f26a64",
+          "locator": "PDF-/Textseite 2, Absatzblock 6",
+          "original": null
+        }
+      },
+      {
+        "text": "15. § 4b Absatz b) Satz 1 erhält folgende Fassung: „Die monatliche Benutzungsgebühr für die\n    verkürzte Ganztagesbetreuung beträgt pro Kind 500 €; die monatliche Benutzungsgebühr für\n    die Betreuung in der Kinderkrippe bis 13.30 Uhr beträgt pro Kind 395 €.“",
+        "evidence": {
+          "source_id": "2189c4f26a64",
+          "locator": "PDF-/Textseite 2, Absatzblock 7",
+          "original": null
+        }
+      },
+      {
+        "text": "16. § 9 Absatz 1 Satz 1 erhält folgende Fassung: „Die monatliche Benutzungsgebühr für den Hort\n    beträgt pro Kind 330 €.“",
+        "evidence": {
+          "source_id": "2189c4f26a64",
+          "locator": "PDF-/Textseite 2, Absatzblock 8",
+          "original": null
+        }
+      },
+      {
+        "text": "17. § 9 Absatz 2 Satz 1 erhält folgende Fassung: „Die monatliche Benutzungsgebühr für den ver-\n    kürzten Hort beträgt pro Kind 280 €.“",
+        "evidence": {
+          "source_id": "2189c4f26a64",
+          "locator": "PDF-/Textseite 2, Absatzblock 9",
+          "original": null
+        }
+      }
+    ]
+  }
+}

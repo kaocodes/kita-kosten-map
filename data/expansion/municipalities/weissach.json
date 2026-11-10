@@ -1,0 +1,2865 @@
+{
+  "schema_version": "1.0",
+  "id": "weissach",
+  "name": "Weissach",
+  "reviewed_at": "2026-11-10",
+  "reference_date": "2026-11-10",
+  "scope": {
+    "included": [
+      "municipal"
+    ],
+    "other_providers": "only_with_explicit_source_evidence"
+  },
+  "family_basis": "under_18",
+  "family_evidence": {
+    "source_id": "f5d4fce7afeb",
+    "locator": "Familienbegriff und Fußnoten der Gebührenunterlagen",
+    "original": null
+  },
+  "supporting_source_ids": [
+    "f5d4fce7afeb"
+  ],
+  "offers": [
+    {
+      "id": "weissach-offer-9525571e7e9f",
+      "original_label": "bis 30 Wochenstunden",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": "2027-08-31",
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 1800,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF S. 12, u3, bis 30 Stunden, Spalte 2026",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF S. 12, u3, bis 30 Stunden, Spalte 2026",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "weissach-offer-36dcd059d91e",
+      "original_label": "bis 30 Wochenstunden",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2027-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2027-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 1800,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF S. 12, u3, bis 30 Stunden, Spalte 2027",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF S. 12, u3, bis 30 Stunden, Spalte 2027",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "weissach-offer-e7f02e100608",
+      "original_label": "bis 35 Wochenstunden",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": "2027-08-31",
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2100,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF S. 12, u3, bis 35 Stunden, Spalte 2026",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF S. 12, u3, bis 35 Stunden, Spalte 2026",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "weissach-offer-b1df0362955c",
+      "original_label": "bis 35 Wochenstunden",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2027-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2027-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2100,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF S. 12, u3, bis 35 Stunden, Spalte 2027",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF S. 12, u3, bis 35 Stunden, Spalte 2027",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "weissach-offer-2b9ff16aa83b",
+      "original_label": "bis 37.5 Wochenstunden",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": "2027-08-31",
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2250,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF S. 12, u3, bis 37.5 Stunden, Spalte 2026",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF S. 12, u3, bis 37.5 Stunden, Spalte 2026",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "weissach-offer-27ce35b096ec",
+      "original_label": "bis 37.5 Wochenstunden",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2027-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2027-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2250,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF S. 12, u3, bis 37.5 Stunden, Spalte 2027",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF S. 12, u3, bis 37.5 Stunden, Spalte 2027",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "weissach-offer-d56862085a4a",
+      "original_label": "bis 40 Wochenstunden",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": "2027-08-31",
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2400,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF S. 12, u3, bis 40 Stunden, Spalte 2026",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF S. 12, u3, bis 40 Stunden, Spalte 2026",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "weissach-offer-d478ef125329",
+      "original_label": "bis 40 Wochenstunden",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2027-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2027-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2400,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF S. 12, u3, bis 40 Stunden, Spalte 2027",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF S. 12, u3, bis 40 Stunden, Spalte 2027",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "weissach-offer-ff4dc723200b",
+      "original_label": "bis 50 Wochenstunden",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": "2027-08-31",
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 3000,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF S. 12, u3, bis 50 Stunden, Spalte 2026",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF S. 12, u3, bis 50 Stunden, Spalte 2026",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "weissach-offer-d83752760015",
+      "original_label": "bis 50 Wochenstunden",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2027-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2027-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 3000,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF S. 12, u3, bis 50 Stunden, Spalte 2027",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF S. 12, u3, bis 50 Stunden, Spalte 2027",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "weissach-offer-9573c04ea258",
+      "original_label": "bis 30 Wochenstunden",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": "2027-08-31",
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 1800,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF S. 12, o3, bis 30 Stunden, Spalte 2026",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF S. 12, o3, bis 30 Stunden, Spalte 2026",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "weissach-offer-57a45618e972",
+      "original_label": "bis 30 Wochenstunden",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2027-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2027-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 1800,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF S. 12, o3, bis 30 Stunden, Spalte 2027",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF S. 12, o3, bis 30 Stunden, Spalte 2027",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "weissach-offer-358ba89ce4fa",
+      "original_label": "bis 35 Wochenstunden",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": "2027-08-31",
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2100,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF S. 12, o3, bis 35 Stunden, Spalte 2026",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF S. 12, o3, bis 35 Stunden, Spalte 2026",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "weissach-offer-4a8bff8238ca",
+      "original_label": "bis 35 Wochenstunden",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2027-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2027-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2100,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF S. 12, o3, bis 35 Stunden, Spalte 2027",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF S. 12, o3, bis 35 Stunden, Spalte 2027",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "weissach-offer-c14f0997fa9f",
+      "original_label": "bis 37.5 Wochenstunden",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": "2027-08-31",
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2250,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF S. 12, o3, bis 37.5 Stunden, Spalte 2026",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF S. 12, o3, bis 37.5 Stunden, Spalte 2026",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "weissach-offer-5aac2ed3f093",
+      "original_label": "bis 37.5 Wochenstunden",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2027-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2027-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2250,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF S. 12, o3, bis 37.5 Stunden, Spalte 2027",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF S. 12, o3, bis 37.5 Stunden, Spalte 2027",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "weissach-offer-e0e7e66276ff",
+      "original_label": "bis 40 Wochenstunden",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": "2027-08-31",
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2400,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF S. 12, o3, bis 40 Stunden, Spalte 2026",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF S. 12, o3, bis 40 Stunden, Spalte 2026",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "weissach-offer-d94737c2bf11",
+      "original_label": "bis 40 Wochenstunden",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2027-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2027-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2400,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF S. 12, o3, bis 40 Stunden, Spalte 2027",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF S. 12, o3, bis 40 Stunden, Spalte 2027",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "weissach-offer-3d8dc531eb71",
+      "original_label": "bis 50 Wochenstunden",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": "2027-08-31",
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 3000,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF S. 12, o3, bis 50 Stunden, Spalte 2026",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF S. 12, o3, bis 50 Stunden, Spalte 2026",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "weissach-offer-ae7c338e9fe4",
+      "original_label": "bis 50 Wochenstunden",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2027-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2027-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 3000,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF S. 12, o3, bis 50 Stunden, Spalte 2027",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF S. 12, o3, bis 50 Stunden, Spalte 2027",
+        "original": null
+      },
+      "formula": null
+    }
+  ],
+  "prices": [
+    {
+      "id": "weissach-price-4d6b28bcd866",
+      "offer_id": "weissach-offer-9525571e7e9f",
+      "amount_cents": 41300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF S. 12, u3, bis 30 Stunden, Spalte 2026",
+        "original": 41300
+      }
+    },
+    {
+      "id": "weissach-price-bb8805ddaa3c",
+      "offer_id": "weissach-offer-9525571e7e9f",
+      "amount_cents": 30800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF S. 12, u3, bis 30 Stunden, Spalte 2026",
+        "original": 30800
+      }
+    },
+    {
+      "id": "weissach-price-51357f8431cf",
+      "offer_id": "weissach-offer-9525571e7e9f",
+      "amount_cents": 20800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF S. 12, u3, bis 30 Stunden, Spalte 2026",
+        "original": 20800
+      }
+    },
+    {
+      "id": "weissach-price-f4e84140d107",
+      "offer_id": "weissach-offer-9525571e7e9f",
+      "amount_cents": 8400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF S. 12, u3, bis 30 Stunden, Spalte 2026",
+        "original": 8400
+      }
+    },
+    {
+      "id": "weissach-price-12c8aa661a49",
+      "offer_id": "weissach-offer-36dcd059d91e",
+      "amount_cents": 43000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF S. 12, u3, bis 30 Stunden, Spalte 2027",
+        "original": 43000
+      }
+    },
+    {
+      "id": "weissach-price-ff712e08ca8b",
+      "offer_id": "weissach-offer-36dcd059d91e",
+      "amount_cents": 32000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF S. 12, u3, bis 30 Stunden, Spalte 2027",
+        "original": 32000
+      }
+    },
+    {
+      "id": "weissach-price-93ea36a4a879",
+      "offer_id": "weissach-offer-36dcd059d91e",
+      "amount_cents": 21600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF S. 12, u3, bis 30 Stunden, Spalte 2027",
+        "original": 21600
+      }
+    },
+    {
+      "id": "weissach-price-a1e0c28810f0",
+      "offer_id": "weissach-offer-36dcd059d91e",
+      "amount_cents": 8700,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF S. 12, u3, bis 30 Stunden, Spalte 2027",
+        "original": 8700
+      }
+    },
+    {
+      "id": "weissach-price-f7e5e74c3d0b",
+      "offer_id": "weissach-offer-e7f02e100608",
+      "amount_cents": 50600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF S. 12, u3, bis 35 Stunden, Spalte 2026",
+        "original": 50600
+      }
+    },
+    {
+      "id": "weissach-price-15bd83bfd83a",
+      "offer_id": "weissach-offer-e7f02e100608",
+      "amount_cents": 37600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF S. 12, u3, bis 35 Stunden, Spalte 2026",
+        "original": 37600
+      }
+    },
+    {
+      "id": "weissach-price-c56f46b9cf72",
+      "offer_id": "weissach-offer-e7f02e100608",
+      "amount_cents": 25400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF S. 12, u3, bis 35 Stunden, Spalte 2026",
+        "original": 25400
+      }
+    },
+    {
+      "id": "weissach-price-f46b29835ddc",
+      "offer_id": "weissach-offer-e7f02e100608",
+      "amount_cents": 9800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF S. 12, u3, bis 35 Stunden, Spalte 2026",
+        "original": 9800
+      }
+    },
+    {
+      "id": "weissach-price-b4a7c01d307a",
+      "offer_id": "weissach-offer-b1df0362955c",
+      "amount_cents": 52600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF S. 12, u3, bis 35 Stunden, Spalte 2027",
+        "original": 52600
+      }
+    },
+    {
+      "id": "weissach-price-d84da9c5837e",
+      "offer_id": "weissach-offer-b1df0362955c",
+      "amount_cents": 39100,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF S. 12, u3, bis 35 Stunden, Spalte 2027",
+        "original": 39100
+      }
+    },
+    {
+      "id": "weissach-price-6237155c97ed",
+      "offer_id": "weissach-offer-b1df0362955c",
+      "amount_cents": 26400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF S. 12, u3, bis 35 Stunden, Spalte 2027",
+        "original": 26400
+      }
+    },
+    {
+      "id": "weissach-price-6affd6ae48a2",
+      "offer_id": "weissach-offer-b1df0362955c",
+      "amount_cents": 10200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF S. 12, u3, bis 35 Stunden, Spalte 2027",
+        "original": 10200
+      }
+    },
+    {
+      "id": "weissach-price-29eeda481294",
+      "offer_id": "weissach-offer-2b9ff16aa83b",
+      "amount_cents": 52100,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF S. 12, u3, bis 37.5 Stunden, Spalte 2026",
+        "original": 52100
+      }
+    },
+    {
+      "id": "weissach-price-4a28cc03b878",
+      "offer_id": "weissach-offer-2b9ff16aa83b",
+      "amount_cents": 39600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF S. 12, u3, bis 37.5 Stunden, Spalte 2026",
+        "original": 39600
+      }
+    },
+    {
+      "id": "weissach-price-1fb0099b6988",
+      "offer_id": "weissach-offer-2b9ff16aa83b",
+      "amount_cents": 26400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF S. 12, u3, bis 37.5 Stunden, Spalte 2026",
+        "original": 26400
+      }
+    },
+    {
+      "id": "weissach-price-c6230b4300c0",
+      "offer_id": "weissach-offer-2b9ff16aa83b",
+      "amount_cents": 10500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF S. 12, u3, bis 37.5 Stunden, Spalte 2026",
+        "original": 10500
+      }
+    },
+    {
+      "id": "weissach-price-082f1d873617",
+      "offer_id": "weissach-offer-27ce35b096ec",
+      "amount_cents": 54200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF S. 12, u3, bis 37.5 Stunden, Spalte 2027",
+        "original": 54200
+      }
+    },
+    {
+      "id": "weissach-price-5b65ff7acb07",
+      "offer_id": "weissach-offer-27ce35b096ec",
+      "amount_cents": 41200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF S. 12, u3, bis 37.5 Stunden, Spalte 2027",
+        "original": 41200
+      }
+    },
+    {
+      "id": "weissach-price-beb95b3498d7",
+      "offer_id": "weissach-offer-27ce35b096ec",
+      "amount_cents": 27500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF S. 12, u3, bis 37.5 Stunden, Spalte 2027",
+        "original": 27500
+      }
+    },
+    {
+      "id": "weissach-price-41938b044c23",
+      "offer_id": "weissach-offer-27ce35b096ec",
+      "amount_cents": 10900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF S. 12, u3, bis 37.5 Stunden, Spalte 2027",
+        "original": 10900
+      }
+    },
+    {
+      "id": "weissach-price-6ef5f9593b8d",
+      "offer_id": "weissach-offer-d56862085a4a",
+      "amount_cents": 55100,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF S. 12, u3, bis 40 Stunden, Spalte 2026",
+        "original": 55100
+      }
+    },
+    {
+      "id": "weissach-price-544bde9543d7",
+      "offer_id": "weissach-offer-d56862085a4a",
+      "amount_cents": 42400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF S. 12, u3, bis 40 Stunden, Spalte 2026",
+        "original": 42400
+      }
+    },
+    {
+      "id": "weissach-price-9041265f51b2",
+      "offer_id": "weissach-offer-d56862085a4a",
+      "amount_cents": 28100,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF S. 12, u3, bis 40 Stunden, Spalte 2026",
+        "original": 28100
+      }
+    },
+    {
+      "id": "weissach-price-627b712592eb",
+      "offer_id": "weissach-offer-d56862085a4a",
+      "amount_cents": 11200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF S. 12, u3, bis 40 Stunden, Spalte 2026",
+        "original": 11200
+      }
+    },
+    {
+      "id": "weissach-price-91a02cce7c25",
+      "offer_id": "weissach-offer-d478ef125329",
+      "amount_cents": 57300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF S. 12, u3, bis 40 Stunden, Spalte 2027",
+        "original": 57300
+      }
+    },
+    {
+      "id": "weissach-price-bb94b65944cf",
+      "offer_id": "weissach-offer-d478ef125329",
+      "amount_cents": 44100,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF S. 12, u3, bis 40 Stunden, Spalte 2027",
+        "original": 44100
+      }
+    },
+    {
+      "id": "weissach-price-f0db676855af",
+      "offer_id": "weissach-offer-d478ef125329",
+      "amount_cents": 29200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF S. 12, u3, bis 40 Stunden, Spalte 2027",
+        "original": 29200
+      }
+    },
+    {
+      "id": "weissach-price-3fba37be4a88",
+      "offer_id": "weissach-offer-d478ef125329",
+      "amount_cents": 11600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF S. 12, u3, bis 40 Stunden, Spalte 2027",
+        "original": 11600
+      }
+    },
+    {
+      "id": "weissach-price-be6e8c444ca3",
+      "offer_id": "weissach-offer-ff4dc723200b",
+      "amount_cents": 60200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF S. 12, u3, bis 50 Stunden, Spalte 2026",
+        "original": 60200
+      }
+    },
+    {
+      "id": "weissach-price-c6fea6e1fbaa",
+      "offer_id": "weissach-offer-ff4dc723200b",
+      "amount_cents": 45400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF S. 12, u3, bis 50 Stunden, Spalte 2026",
+        "original": 45400
+      }
+    },
+    {
+      "id": "weissach-price-683a6e26238a",
+      "offer_id": "weissach-offer-ff4dc723200b",
+      "amount_cents": 30500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF S. 12, u3, bis 50 Stunden, Spalte 2026",
+        "original": 30500
+      }
+    },
+    {
+      "id": "weissach-price-077975a7f187",
+      "offer_id": "weissach-offer-ff4dc723200b",
+      "amount_cents": 13600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF S. 12, u3, bis 50 Stunden, Spalte 2026",
+        "original": 13600
+      }
+    },
+    {
+      "id": "weissach-price-fcd448121b6c",
+      "offer_id": "weissach-offer-d83752760015",
+      "amount_cents": 62600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF S. 12, u3, bis 50 Stunden, Spalte 2027",
+        "original": 62600
+      }
+    },
+    {
+      "id": "weissach-price-bda95da9af0e",
+      "offer_id": "weissach-offer-d83752760015",
+      "amount_cents": 47200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF S. 12, u3, bis 50 Stunden, Spalte 2027",
+        "original": 47200
+      }
+    },
+    {
+      "id": "weissach-price-e080149a60de",
+      "offer_id": "weissach-offer-d83752760015",
+      "amount_cents": 31700,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF S. 12, u3, bis 50 Stunden, Spalte 2027",
+        "original": 31700
+      }
+    },
+    {
+      "id": "weissach-price-daea7b6e8656",
+      "offer_id": "weissach-offer-d83752760015",
+      "amount_cents": 14100,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF S. 12, u3, bis 50 Stunden, Spalte 2027",
+        "original": 14100
+      }
+    },
+    {
+      "id": "weissach-price-00dc280617e8",
+      "offer_id": "weissach-offer-9573c04ea258",
+      "amount_cents": 13900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF S. 12, o3, bis 30 Stunden, Spalte 2026",
+        "original": 13900
+      }
+    },
+    {
+      "id": "weissach-price-dad611f5ea6a",
+      "offer_id": "weissach-offer-9573c04ea258",
+      "amount_cents": 10800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF S. 12, o3, bis 30 Stunden, Spalte 2026",
+        "original": 10800
+      }
+    },
+    {
+      "id": "weissach-price-6385ebdf0df0",
+      "offer_id": "weissach-offer-9573c04ea258",
+      "amount_cents": 7100,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF S. 12, o3, bis 30 Stunden, Spalte 2026",
+        "original": 7100
+      }
+    },
+    {
+      "id": "weissach-price-5aad101cebd1",
+      "offer_id": "weissach-offer-9573c04ea258",
+      "amount_cents": 2400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF S. 12, o3, bis 30 Stunden, Spalte 2026",
+        "original": 2400
+      }
+    },
+    {
+      "id": "weissach-price-81d88d835252",
+      "offer_id": "weissach-offer-57a45618e972",
+      "amount_cents": 14500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF S. 12, o3, bis 30 Stunden, Spalte 2027",
+        "original": 14500
+      }
+    },
+    {
+      "id": "weissach-price-2925b0a9f544",
+      "offer_id": "weissach-offer-57a45618e972",
+      "amount_cents": 11200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF S. 12, o3, bis 30 Stunden, Spalte 2027",
+        "original": 11200
+      }
+    },
+    {
+      "id": "weissach-price-0e19aa12eba3",
+      "offer_id": "weissach-offer-57a45618e972",
+      "amount_cents": 7400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF S. 12, o3, bis 30 Stunden, Spalte 2027",
+        "original": 7400
+      }
+    },
+    {
+      "id": "weissach-price-a3ad79333042",
+      "offer_id": "weissach-offer-57a45618e972",
+      "amount_cents": 2500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF S. 12, o3, bis 30 Stunden, Spalte 2027",
+        "original": 2500
+      }
+    },
+    {
+      "id": "weissach-price-9a457a8f91a6",
+      "offer_id": "weissach-offer-358ba89ce4fa",
+      "amount_cents": 17600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF S. 12, o3, bis 35 Stunden, Spalte 2026",
+        "original": 17600
+      }
+    },
+    {
+      "id": "weissach-price-19b08eddb836",
+      "offer_id": "weissach-offer-358ba89ce4fa",
+      "amount_cents": 13500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF S. 12, o3, bis 35 Stunden, Spalte 2026",
+        "original": 13500
+      }
+    },
+    {
+      "id": "weissach-price-1c538381debd",
+      "offer_id": "weissach-offer-358ba89ce4fa",
+      "amount_cents": 8800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF S. 12, o3, bis 35 Stunden, Spalte 2026",
+        "original": 8800
+      }
+    },
+    {
+      "id": "weissach-price-61f75f7ef773",
+      "offer_id": "weissach-offer-358ba89ce4fa",
+      "amount_cents": 2900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF S. 12, o3, bis 35 Stunden, Spalte 2026",
+        "original": 2900
+      }
+    },
+    {
+      "id": "weissach-price-a8a25f915a21",
+      "offer_id": "weissach-offer-4a8bff8238ca",
+      "amount_cents": 18300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF S. 12, o3, bis 35 Stunden, Spalte 2027",
+        "original": 18300
+      }
+    },
+    {
+      "id": "weissach-price-9b3c8f4e1eec",
+      "offer_id": "weissach-offer-4a8bff8238ca",
+      "amount_cents": 14000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF S. 12, o3, bis 35 Stunden, Spalte 2027",
+        "original": 14000
+      }
+    },
+    {
+      "id": "weissach-price-20a7abd9c36e",
+      "offer_id": "weissach-offer-4a8bff8238ca",
+      "amount_cents": 9200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF S. 12, o3, bis 35 Stunden, Spalte 2027",
+        "original": 9200
+      }
+    },
+    {
+      "id": "weissach-price-120dfdc24d01",
+      "offer_id": "weissach-offer-4a8bff8238ca",
+      "amount_cents": 3000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF S. 12, o3, bis 35 Stunden, Spalte 2027",
+        "original": 3000
+      }
+    },
+    {
+      "id": "weissach-price-3503d396588a",
+      "offer_id": "weissach-offer-c14f0997fa9f",
+      "amount_cents": 26400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF S. 12, o3, bis 37.5 Stunden, Spalte 2026",
+        "original": 26400
+      }
+    },
+    {
+      "id": "weissach-price-5aed779bfb97",
+      "offer_id": "weissach-offer-c14f0997fa9f",
+      "amount_cents": 21300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF S. 12, o3, bis 37.5 Stunden, Spalte 2026",
+        "original": 21300
+      }
+    },
+    {
+      "id": "weissach-price-9744d2b59de4",
+      "offer_id": "weissach-offer-c14f0997fa9f",
+      "amount_cents": 16300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF S. 12, o3, bis 37.5 Stunden, Spalte 2026",
+        "original": 16300
+      }
+    },
+    {
+      "id": "weissach-price-906ecf195967",
+      "offer_id": "weissach-offer-c14f0997fa9f",
+      "amount_cents": 3800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF S. 12, o3, bis 37.5 Stunden, Spalte 2026",
+        "original": 3800
+      }
+    },
+    {
+      "id": "weissach-price-2359a8ad92f6",
+      "offer_id": "weissach-offer-5aac2ed3f093",
+      "amount_cents": 27500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF S. 12, o3, bis 37.5 Stunden, Spalte 2027",
+        "original": 27500
+      }
+    },
+    {
+      "id": "weissach-price-e8fa9cb8e9e2",
+      "offer_id": "weissach-offer-5aac2ed3f093",
+      "amount_cents": 22200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF S. 12, o3, bis 37.5 Stunden, Spalte 2027",
+        "original": 22200
+      }
+    },
+    {
+      "id": "weissach-price-22f4c39e0d32",
+      "offer_id": "weissach-offer-5aac2ed3f093",
+      "amount_cents": 17000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF S. 12, o3, bis 37.5 Stunden, Spalte 2027",
+        "original": 17000
+      }
+    },
+    {
+      "id": "weissach-price-730a7ea88c1d",
+      "offer_id": "weissach-offer-5aac2ed3f093",
+      "amount_cents": 4000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF S. 12, o3, bis 37.5 Stunden, Spalte 2027",
+        "original": 4000
+      }
+    },
+    {
+      "id": "weissach-price-26a3cfd4d3ac",
+      "offer_id": "weissach-offer-e0e7e66276ff",
+      "amount_cents": 35300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF S. 12, o3, bis 40 Stunden, Spalte 2026",
+        "original": 35300
+      }
+    },
+    {
+      "id": "weissach-price-ae7bce6d9437",
+      "offer_id": "weissach-offer-e0e7e66276ff",
+      "amount_cents": 29300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF S. 12, o3, bis 40 Stunden, Spalte 2026",
+        "original": 29300
+      }
+    },
+    {
+      "id": "weissach-price-852595d84854",
+      "offer_id": "weissach-offer-e0e7e66276ff",
+      "amount_cents": 23700,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF S. 12, o3, bis 40 Stunden, Spalte 2026",
+        "original": 23700
+      }
+    },
+    {
+      "id": "weissach-price-8d059b2f6056",
+      "offer_id": "weissach-offer-e0e7e66276ff",
+      "amount_cents": 4400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF S. 12, o3, bis 40 Stunden, Spalte 2026",
+        "original": 4400
+      }
+    },
+    {
+      "id": "weissach-price-61417c090786",
+      "offer_id": "weissach-offer-d94737c2bf11",
+      "amount_cents": 36700,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF S. 12, o3, bis 40 Stunden, Spalte 2027",
+        "original": 36700
+      }
+    },
+    {
+      "id": "weissach-price-61d43ceae4a5",
+      "offer_id": "weissach-offer-d94737c2bf11",
+      "amount_cents": 30500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF S. 12, o3, bis 40 Stunden, Spalte 2027",
+        "original": 30500
+      }
+    },
+    {
+      "id": "weissach-price-828855be0d7c",
+      "offer_id": "weissach-offer-d94737c2bf11",
+      "amount_cents": 24600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF S. 12, o3, bis 40 Stunden, Spalte 2027",
+        "original": 24600
+      }
+    },
+    {
+      "id": "weissach-price-699d8c687f0a",
+      "offer_id": "weissach-offer-d94737c2bf11",
+      "amount_cents": 4600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF S. 12, o3, bis 40 Stunden, Spalte 2027",
+        "original": 4600
+      }
+    },
+    {
+      "id": "weissach-price-aa1e22d882cd",
+      "offer_id": "weissach-offer-3d8dc531eb71",
+      "amount_cents": 45900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF S. 12, o3, bis 50 Stunden, Spalte 2026",
+        "original": 45900
+      }
+    },
+    {
+      "id": "weissach-price-62c1c3f49447",
+      "offer_id": "weissach-offer-3d8dc531eb71",
+      "amount_cents": 37500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF S. 12, o3, bis 50 Stunden, Spalte 2026",
+        "original": 37500
+      }
+    },
+    {
+      "id": "weissach-price-fac5360694c5",
+      "offer_id": "weissach-offer-3d8dc531eb71",
+      "amount_cents": 30300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF S. 12, o3, bis 50 Stunden, Spalte 2026",
+        "original": 30300
+      }
+    },
+    {
+      "id": "weissach-price-dbde55e3b7dc",
+      "offer_id": "weissach-offer-3d8dc531eb71",
+      "amount_cents": 7800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF S. 12, o3, bis 50 Stunden, Spalte 2026",
+        "original": 7800
+      }
+    },
+    {
+      "id": "weissach-price-42255bfc0b7b",
+      "offer_id": "weissach-offer-ae7c338e9fe4",
+      "amount_cents": 47700,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF S. 12, o3, bis 50 Stunden, Spalte 2027",
+        "original": 47700
+      }
+    },
+    {
+      "id": "weissach-price-34abc9c8a753",
+      "offer_id": "weissach-offer-ae7c338e9fe4",
+      "amount_cents": 39000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF S. 12, o3, bis 50 Stunden, Spalte 2027",
+        "original": 39000
+      }
+    },
+    {
+      "id": "weissach-price-a2e46bc33b63",
+      "offer_id": "weissach-offer-ae7c338e9fe4",
+      "amount_cents": 31500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF S. 12, o3, bis 50 Stunden, Spalte 2027",
+        "original": 31500
+      }
+    },
+    {
+      "id": "weissach-price-08e42ca9d79a",
+      "offer_id": "weissach-offer-ae7c338e9fe4",
+      "amount_cents": 8100,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF S. 12, o3, bis 50 Stunden, Spalte 2027",
+        "original": 8100
+      }
+    }
+  ],
+  "income_bands": [],
+  "components": [
+    {
+      "id": "weissach-component-46fc2538bf5f",
+      "kind": "supplies",
+      "original_label": "Snack und Getränke 30 Stunden",
+      "amount_cents": 500,
+      "unit": "per_month",
+      "age_group": null,
+      "required": true,
+      "payment_months": null,
+      "offer_ids": null,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF S. 12, aktuelle Spalten 2026/2027",
+        "original": null
+      },
+      "weekly_minutes": 1800
+    },
+    {
+      "id": "weissach-component-0c287d87fb60",
+      "kind": "supplies",
+      "original_label": "Snack und Getränke ab 35 Stunden",
+      "amount_cents": 700,
+      "unit": "per_month",
+      "age_group": null,
+      "required": true,
+      "payment_months": null,
+      "offer_ids": null,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF S. 12",
+        "original": null
+      },
+      "weekly_minutes_min": 2100
+    },
+    {
+      "id": "weissach-component-57a14f4b6310",
+      "kind": "meal",
+      "original_label": "Verpflegung ab 37,5 Stunden fünf Tage",
+      "amount_cents": 6000,
+      "unit": "per_month",
+      "age_group": null,
+      "required": true,
+      "payment_months": null,
+      "offer_ids": null,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF S. 12",
+        "original": null
+      },
+      "weekly_minutes_min": 2250,
+      "days_per_week": 5
+    }
+  ],
+  "rules": [
+    {
+      "id": "weissach-rule-fe5053b4b1fe",
+      "kind": "source_provisions_f5d4fce7afeb",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "archive_text_path": "data/sources/f5d4fce7afeb/text.txt",
+        "text_sha256": "6d7c161d50897b191cb9517e7ae9ac439f88184c2ef7107d626cda2fee4f8704",
+        "review_status": "archived_provisions_preserved"
+      },
+      "evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "Vollständiger archivierter Dokumenttext einschließlich Fußnoten",
+        "original": null
+      }
+    },
+    {
+      "id": "weissach-rule-fc552fa2812e",
+      "kind": "source_clause_f5d4fce7afeb_3_4",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 0,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF-/Textseite 3, Absatzblock 4",
+        "original": null
+      }
+    },
+    {
+      "id": "weissach-rule-cc652e142a9d",
+      "kind": "source_clause_f5d4fce7afeb_4_9",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 1,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF-/Textseite 4, Absatzblock 9",
+        "original": null
+      }
+    },
+    {
+      "id": "weissach-rule-7558dbb6c1c4",
+      "kind": "source_clause_f5d4fce7afeb_4_10",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 2,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF-/Textseite 4, Absatzblock 10",
+        "original": null
+      }
+    },
+    {
+      "id": "weissach-rule-ca7886357aeb",
+      "kind": "source_clause_f5d4fce7afeb_5_2",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 3,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF-/Textseite 5, Absatzblock 2",
+        "original": null
+      }
+    },
+    {
+      "id": "weissach-rule-4841ed5201cf",
+      "kind": "source_clause_f5d4fce7afeb_5_3",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 4,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF-/Textseite 5, Absatzblock 3",
+        "original": null
+      }
+    },
+    {
+      "id": "weissach-rule-a3dd1e30baff",
+      "kind": "source_clause_f5d4fce7afeb_5_4",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 5,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF-/Textseite 5, Absatzblock 4",
+        "original": null
+      }
+    },
+    {
+      "id": "weissach-rule-fda2911e72c0",
+      "kind": "source_clause_f5d4fce7afeb_5_6",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 6,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF-/Textseite 5, Absatzblock 6",
+        "original": null
+      }
+    },
+    {
+      "id": "weissach-rule-801da7f3b774",
+      "kind": "source_clause_f5d4fce7afeb_5_7",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 7,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF-/Textseite 5, Absatzblock 7",
+        "original": null
+      }
+    },
+    {
+      "id": "weissach-rule-d62d0b128525",
+      "kind": "source_clause_f5d4fce7afeb_5_8",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 8,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF-/Textseite 5, Absatzblock 8",
+        "original": null
+      }
+    },
+    {
+      "id": "weissach-rule-01c9b2d57475",
+      "kind": "source_clause_f5d4fce7afeb_5_9",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 9,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF-/Textseite 5, Absatzblock 9",
+        "original": null
+      }
+    },
+    {
+      "id": "weissach-rule-2cbf738943a1",
+      "kind": "source_clause_f5d4fce7afeb_6_1",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 10,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF-/Textseite 6, Absatzblock 1",
+        "original": null
+      }
+    },
+    {
+      "id": "weissach-rule-4069b25ab4bc",
+      "kind": "source_clause_f5d4fce7afeb_6_3",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 11,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF-/Textseite 6, Absatzblock 3",
+        "original": null
+      }
+    },
+    {
+      "id": "weissach-rule-872680c79248",
+      "kind": "source_clause_f5d4fce7afeb_6_6",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 12,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF-/Textseite 6, Absatzblock 6",
+        "original": null
+      }
+    },
+    {
+      "id": "weissach-rule-f199d944f724",
+      "kind": "source_clause_f5d4fce7afeb_7_12",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 13,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF-/Textseite 7, Absatzblock 12",
+        "original": null
+      }
+    },
+    {
+      "id": "weissach-rule-f1da31af5e6e",
+      "kind": "source_clause_f5d4fce7afeb_7_13",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 14,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF-/Textseite 7, Absatzblock 13",
+        "original": null
+      }
+    },
+    {
+      "id": "weissach-rule-76d78a5279b1",
+      "kind": "source_clause_f5d4fce7afeb_12_3",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 15,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF-/Textseite 12, Absatzblock 3",
+        "original": null
+      }
+    },
+    {
+      "id": "weissach-rule-801065353ec2",
+      "kind": "source_clause_f5d4fce7afeb_12_5",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 16,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF-/Textseite 12, Absatzblock 5",
+        "original": null
+      }
+    },
+    {
+      "id": "weissach-rule-3a5e7c59f295",
+      "kind": "source_clause_f5d4fce7afeb_13_3",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 17,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF-/Textseite 13, Absatzblock 3",
+        "original": null
+      }
+    },
+    {
+      "id": "weissach-rule-347a70a15f6f",
+      "kind": "source_clause_f5d4fce7afeb_13_4",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 18,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF-/Textseite 13, Absatzblock 4",
+        "original": null
+      }
+    }
+  ],
+  "issues": [
+    {
+      "code": "pending_calculation_review",
+      "detail": "Strukturierter Import; noch keine Freigabe des Rechners oder der Website."
+    },
+    {
+      "code": "research_limitation_1",
+      "detail": "Tatsächliche Tagesverteilungen zu den Wochenstundenpaketen vor der strengen 5×8-Auswahl verknüpfen."
+    }
+  ],
+  "coverage": {
+    "publication_status": "not_active",
+    "integration_status": "normalized_pending_calculation_review",
+    "history_in_scope": false,
+    "source_register": "data/research/neighbor_expansion_2026-11-10.json",
+    "research_id": "weissach",
+    "unavailable_configurations": [],
+    "offers": 20,
+    "price_cells": 80,
+    "income_bands": 0,
+    "components": 3,
+    "rule_records": 20,
+    "tariff_table_transcription": "complete_for_declared_scope",
+    "declared_scope": "Aktuelle und bereits veröffentlichte künftige Krippen- und Kindergartentarife; Zusatzkosten und Gebührenregeln.",
+    "excluded_from_regular_price_rows": [
+      "superseded_historical_tariffs",
+      "school_childcare",
+      "takki_and_childminding",
+      "separate_playgroups"
+    ],
+    "calculation_engine_changed": false,
+    "rule_transcription": "typed_parameters_and_source_clauses_with_explicit_unimplemented_status"
+  },
+  "original_research": {
+    "path": "data/research/neighbor_expansion_2026-11-10.json",
+    "section": "Weissach",
+    "text": "Original-Stundenpakete erhalten; TAKKI und Schulkindbetreuung im selben Dokument sind keine Kita-Alternativen.\nTatsächliche Tagesverteilungen zu den Wochenstundenpaketen vor der strengen 5×8-Auswahl verknüpfen.",
+    "source_clauses": [
+      {
+        "text": "(4) Es besteht kein Anspruch auf Aufnahme in eine bestimmte Einrichtung. Sofern bereits ein Kind ei-\n    ner Familie in einer Einrichtung betreut wird, so wird das Geschwisterkind nach Möglichkeit vor-\n    rangig in derselben Einrichtung aufgenommen. Ein Anspruch darauf besteht jedoch nicht. Die Be-\n    nennung einer Wunscheinrichtung hat mindestens bis sechs Monate vor der Aufnahme zu erfolgen.\n    Ein Wechsel der Wunscheinrichtung zu einem späteren Termin kann nur unter dem Nachweis be-\n    sonderer Begleitumstände und bei Verfügbarkeit von Betreuungsplätzen berücksichtigt werden.\n    Eine verbindliche Zusage für die Krippe wird in der Regel sechs Monate vor der Aufnahme mitge-\n    teilt, im Kindergarten wird die Zusage drei Monate vor Aufnahme gegeben.",
+        "evidence": {
+          "source_id": "f5d4fce7afeb",
+          "locator": "PDF-/Textseite 3, Absatzblock 4",
+          "original": null
+        }
+      },
+      {
+        "text": "(1) Die Gemeinde erhebt für die Inanspruchnahme eines Betreuungsplatzes in den Einrichtungen nach\n    § 1 Abs. 3 Betreuungsgebühren sowie für das Verpflegungsangebot eine Verpflegungskostenpau-\n    schale und eine Getränke- und Snackpauschale nach Maßgabe dieser Satzung. Die Gebühren wer-\n    den je Kind erhoben, das einen Betreuungsplatz innehat. Die Betreuungsgebühren werden abhängig\n    von Art und Umfang des Betreuungsangebots bemessen. Die Verpflegungskostenpauschale be-\n    misst sich nach dem Verpflegungsangebot im Betreuungsangebot.",
+        "evidence": {
+          "source_id": "f5d4fce7afeb",
+          "locator": "PDF-/Textseite 4, Absatzblock 9",
+          "original": null
+        }
+      },
+      {
+        "text": "(2) Die Gebühren sind eine Beteiligung an den gesamten Betriebskosten der Betreuungseinrichtung\n    und deshalb auch bei vorübergehender Schließung von weniger als einem Monat, bei andauerndem\n    Fehlen des Kindes und bis zur Wirksamkeit einer Kündigung zu entrichten. Betreuungsgebühren für",
+        "evidence": {
+          "source_id": "f5d4fce7afeb",
+          "locator": "PDF-/Textseite 4, Absatzblock 10",
+          "original": null
+        }
+      },
+      {
+        "text": "(3) Die Gebührenpflicht entsteht ab Beginn des Monats, bzw. in der Ferienbetreuung mit Beginn der\n    Woche, in dem das Kind in die Kindertageseinrichtung aufgenommen wird. Die Gebührenpflicht en-\n    det mit Ablauf des Monats, bzw. in der Ferienbetreuung mit Ablauf der Woche für den, bzw. für die\n    das Kind von der Kindertageseinrichtung abgemeldet oder die Zulassung widerrufen wird. Bei dem\n    beantragten Verpflegungsangebot endet die Gebührenpflicht mit Ablauf des Monats bzw. in der\n    Ferienbetreuung mit Ablauf der Woche, in welchem bzw. in welcher das Angebot nicht mehr in An-\n    spruch genommen wird. Während der Schließtage entfällt die Gebührenpflicht nicht.",
+        "evidence": {
+          "source_id": "f5d4fce7afeb",
+          "locator": "PDF-/Textseite 5, Absatzblock 2",
+          "original": null
+        }
+      },
+      {
+        "text": "(4) Die Festsetzung der regelmäßigen monatlichen Gebühren erfolgt durch Bescheid vorbehaltlich der\n    Änderung der Gebührensätze einmalig für die Dauer des Nutzungsverhältnisses. Die Gebühren sind\n    in der jeweils festgesetzten Höhe im Voraus bis zum 1. des Monats zu entrichten, in dem das Kind\n    in die Einrichtung aufgenommen wird. Die Anpassung der Gebühren bei Änderung der Anzahl der\n    zu berücksichtigende Kinder erfolgt immer ab dem 1. des Monats, in den das maßgebliche Ereignis\n    fällt. Ebenso wird ab dem Monat, in dem das Kind das dritte Lebensjahr vollendet, die ermäßigte\n    Kindergartengebühr erhoben. Bei einer Neuaufnahme eines Kindes in die Einrichtung ab dem 15. des\n    jeweiligen Monats wird die halbe Monatsgebühr erhoben.",
+        "evidence": {
+          "source_id": "f5d4fce7afeb",
+          "locator": "PDF-/Textseite 5, Absatzblock 3",
+          "original": null
+        }
+      },
+      {
+        "text": "(5) Die Benutzungsgebühr sowie die Verpflegungs-, Snack- und Getränkepauschale werden für zwölf\n    Monate im Jahr erhoben.",
+        "evidence": {
+          "source_id": "f5d4fce7afeb",
+          "locator": "PDF-/Textseite 5, Absatzblock 4",
+          "original": null
+        }
+      },
+      {
+        "text": "(7) Bei Abmeldung eines Kindes sind die Betreuungsgebühren, die Snack- und Getränkekostenpau-\n    schale sowie die Verpflegungskostenpauschale bis zum Ende des Monats zu entrichten, in dem das\n    Kind abgemeldet wird.",
+        "evidence": {
+          "source_id": "f5d4fce7afeb",
+          "locator": "PDF-/Textseite 5, Absatzblock 6",
+          "original": null
+        }
+      },
+      {
+        "text": "(8) Gebührenschuldner sind die Personensorgeberechtigten des Kindes, das die Einrichtung besucht\n    sowie diejenigen, die die Aufnahme in die Betreuungseinrichtung beantragt haben. Mehrere Ge-\n    bührenschuldner sind Gesamtschuldner.",
+        "evidence": {
+          "source_id": "f5d4fce7afeb",
+          "locator": "PDF-/Textseite 5, Absatzblock 7",
+          "original": null
+        }
+      },
+      {
+        "text": "(9) Besuchen mehrere Kinder einer Familie gleichzeitig eine Betreuungseinrichtung im Sinne dieser\n    Satzung, wird für jedes Kind die jeweils gültige Betreuungsgebühr erhoben. Soweit sich die Benut-\n    zungsgebühren nach der Anzahl der Kinder in der Familie bemessen, definiert sich die Anzahl der\n    Kinder in der Familie durch die Anzahl der im Haushalt des Gebührenschuldners nach § 5 Abs. 8 le-\n    benden Kinder. Leben die Gebührenschuldner in verschiedenen Haushalten, werden bei der Gebüh-\n    renbemessung nur die Kinder des Haushalts berücksichtigt, dem das angemeldete Kind mit Haupt-\n    wohnsitz angehört.",
+        "evidence": {
+          "source_id": "f5d4fce7afeb",
+          "locator": "PDF-/Textseite 5, Absatzblock 8",
+          "original": null
+        }
+      },
+      {
+        "text": "(10) Kinder, die das 18. Lebensjahr vollendet haben, werden bei der Bemessung der Gebühren berück-\n     sichtigt, wenn sie die Voraussetzungen der für das Kindergeldrecht geltenden Vorschriften des § 32\n     Abs. 1 bis 4 Einkommensteuergesetz erfüllen. Der Nachweis hierüber ist vor der Inanspruchnahme",
+        "evidence": {
+          "source_id": "f5d4fce7afeb",
+          "locator": "PDF-/Textseite 5, Absatzblock 9",
+          "original": null
+        }
+      },
+      {
+        "text": "der Leistungen unaufgefordert vorzulegen. Rückwirkende Anträge werden nicht anerkannt. Ände-\n    rungen, welche die Gebührenbemessungen hinsichtlich der genannten Punkte betreffen, sind dem\n    Träger unverzüglich und unaufgefordert anzuzeigen.",
+        "evidence": {
+          "source_id": "f5d4fce7afeb",
+          "locator": "PDF-/Textseite 6, Absatzblock 1",
+          "original": null
+        }
+      },
+      {
+        "text": "(12) Die Verpflegungskostenpauschale orientiert sich am gebuchten Modell der Ganztagesbetreuung.\n     Die aktuell gültige Verpflegungskostenpauschale wird entsprechend der Anlage 1 zu dieser Satzung\n     erhoben. Bei Buchungsmodellen mit weniger Wochentagen reduziert sich dieser Betrag entspre-\n     chend. Bei einer entschuldigten Fehl- bzw. Schließzeit von mindestens zwei zusammenhängenden\n     Betreuungswochen (inkl. Feiertage) werden die Beiträge für das Mittagessen anteilig im darauffol-\n     genden Monat vom Träger zurückerstattet.",
+        "evidence": {
+          "source_id": "f5d4fce7afeb",
+          "locator": "PDF-/Textseite 6, Absatzblock 3",
+          "original": null
+        }
+      },
+      {
+        "text": "(1) Die frühere Aufnahme in einen Kindergarten kann ab 2 Jahren und 9 Monaten erfolgen. Ein Rechts-\n    anspruch auf Aufnahme vor dem 3. Lebensjahr besteht nicht.\n(2) Die Betreuungsgebühren gemäß dem Gebührenverzeichnis in Anlage 1 werden in diesem Zeitraum\n    analog mit dem zweifachen Satz der monatlichen Benutzungsgebühren für Kindergärten berechnet.\n    Ab dem 3. Geburtstag wird die einfache monatliche Benutzungsgebühr für Kindergärten stichtags-\n    genau berechnet.",
+        "evidence": {
+          "source_id": "f5d4fce7afeb",
+          "locator": "PDF-/Textseite 6, Absatzblock 6",
+          "original": null
+        }
+      },
+      {
+        "text": "▪   ein Zahlungsrückstand der Betreuungsgebühr von zwei Monaten trotz schriftlicher Mah-\n            nung.",
+        "evidence": {
+          "source_id": "f5d4fce7afeb",
+          "locator": "PDF-/Textseite 7, Absatzblock 12",
+          "original": null
+        }
+      },
+      {
+        "text": "▪   ein Zahlungsrückstand der Verpflegungskostenpauschale und/oder der Snack- und Geträn-\n            kekostenpauschale, soweit dieser in der Summe den die Betreuungsgebühr i.H.v. zwei Mo-\n            natsbeiträgen überschreitet.",
+        "evidence": {
+          "source_id": "f5d4fce7afeb",
+          "locator": "PDF-/Textseite 7, Absatzblock 13",
+          "original": null
+        }
+      },
+      {
+        "text": "Snack- und Getränkekostenpauschale\nKrippe und Kindergarten\n30 Stunden wöchentlicher                                        3,00 €                     5,00 €                     5,00 €\nBetreuungsumfang\nab 35 Stunden wöchentlichem                                     5,00 €                     7,00 €                     7,00 €\nBetreuungsumfang\nVerpflegungspauschale\nKrippe und Kindergarten\nab 37,5 Stunden wöchentlichem                                 60,00 €                     60,00 €                    60,00 €\nBetreuungsumfang/ 5 Tage",
+        "evidence": {
+          "source_id": "f5d4fce7afeb",
+          "locator": "PDF-/Textseite 12, Absatzblock 3",
+          "original": null
+        }
+      },
+      {
+        "text": "Hinweis\nBei den Betreugunsgebühren werden nur Kinder berücksichtigt, die im gleichen Haushalt wohnen und unter 18 Jahre alt sind.",
+        "evidence": {
+          "source_id": "f5d4fce7afeb",
+          "locator": "PDF-/Textseite 12, Absatzblock 5",
+          "original": null
+        }
+      },
+      {
+        "text": "Snack- und Getränkekostenpauschale\nFlexible Nachmittagsbetreuung, Kernzeit\nKernzeit vor der Schule                                              0,00 €                       0,00 €                      0,00 €\n                                                                     3,00 €                       5,00 €                      5,00 €\nFlex. Nachmittagsbetreuung, Kernzeit - 3 Tage\n                                                                     5,00 €                       7,00 €                       7,00 €\nFlex. Nachmittagsbetreuung, Kernzeit - 5 Tage\nVerpflegungspauschale\nFlexible Nachmittagsbetreuung Standort Flacht\n3 Tage                                                              36,00 €                      36,00 €                     36,00 €\n5 Tage                                                              60,00 €                      60,00 €                     60,00 €\nFlexible Nachmittagsbetreuung Standort Weissach\n3 Tage                                                    externer Anbieter            externer Anbieter            externer Anbieter\n5 Tage                                                    externer Anbieter            externer Anbieter            externer Anbieter",
+        "evidence": {
+          "source_id": "f5d4fce7afeb",
+          "locator": "PDF-/Textseite 13, Absatzblock 3",
+          "original": null
+        }
+      },
+      {
+        "text": "Hinweis\nBei den Betreugunsgebühren werden nur Kinder berücksichtigt, die im gleichen Haushalt wohnen und unter 18 Jahre alt sind.",
+        "evidence": {
+          "source_id": "f5d4fce7afeb",
+          "locator": "PDF-/Textseite 13, Absatzblock 4",
+          "original": null
+        }
+      }
+    ]
+  }
+}

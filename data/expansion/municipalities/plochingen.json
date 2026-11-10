@@ -1,0 +1,1874 @@
+{
+  "schema_version": "1.0",
+  "id": "plochingen",
+  "name": "Plochingen",
+  "reviewed_at": "2026-11-10",
+  "reference_date": "2026-11-10",
+  "scope": {
+    "included": [
+      "municipal"
+    ],
+    "other_providers": "only_with_explicit_source_evidence"
+  },
+  "family_basis": "under_18",
+  "family_evidence": {
+    "source_id": "f19acfa12958",
+    "locator": "Familienbegriff und Fußnoten der Gebührenunterlagen",
+    "original": null
+  },
+  "supporting_source_ids": [
+    "f19acfa12958"
+  ],
+  "offers": [
+    {
+      "id": "plochingen-offer-6007ba6faaa5",
+      "original_label": "Regelgruppe und flexible/VÖ-Gruppe",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": null,
+      "weekday_minutes": null,
+      "continuous": false,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "f19acfa12958",
+        "locator": "PDF S. 1, Regelbetreuung",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "f19acfa12958",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "f19acfa12958",
+        "locator": "PDF S. 1, Regelbetreuung",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "plochingen-offer-c644177d31ff",
+      "original_label": "Regelgruppe ab zwei Jahren",
+      "age_group": "u3",
+      "age_min_months": 24,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "mixed_age",
+      "weekly_minutes": null,
+      "weekday_minutes": null,
+      "continuous": false,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "f19acfa12958",
+        "locator": "PDF S. 1, Regelbetreuung U3",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "f19acfa12958",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "f19acfa12958",
+        "locator": "PDF S. 1, Regelbetreuung U3",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "plochingen-offer-136156931b23",
+      "original_label": "4 GT-Tage bis 16 Uhr, sonst Regelgruppe",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2520,
+      "weekday_minutes": [
+        540,
+        540,
+        540,
+        540,
+        360
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "f19acfa12958",
+        "locator": "PDF S. 1, o3, 4 GT-Tage",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "f19acfa12958",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "f19acfa12958",
+        "locator": "PDF S. 1, o3, 4 GT-Tage",
+        "original": null
+      },
+      "formula": null,
+      "gt_days_per_week": 4
+    },
+    {
+      "id": "plochingen-offer-317b833a7acf",
+      "original_label": "3 GT-Tage bis 16 Uhr, sonst Regelgruppe",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": null,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "f19acfa12958",
+        "locator": "PDF S. 1, o3, 3 GT-Tage",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "f19acfa12958",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "f19acfa12958",
+        "locator": "PDF S. 1, o3, 3 GT-Tage",
+        "original": null
+      },
+      "formula": null,
+      "gt_days_per_week": 3
+    },
+    {
+      "id": "plochingen-offer-cf9da56e2619",
+      "original_label": "2 GT-Tage bis 16 Uhr, sonst Regelgruppe",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": null,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "f19acfa12958",
+        "locator": "PDF S. 1, o3, 2 GT-Tage",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "f19acfa12958",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "f19acfa12958",
+        "locator": "PDF S. 1, o3, 2 GT-Tage",
+        "original": null
+      },
+      "formula": null,
+      "gt_days_per_week": 2
+    },
+    {
+      "id": "plochingen-offer-b6781a52bb9b",
+      "original_label": "4 GT-Tage bis 16 Uhr, sonst Regelgruppe",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2520,
+      "weekday_minutes": [
+        540,
+        540,
+        540,
+        540,
+        360
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "f19acfa12958",
+        "locator": "PDF S. 1, u3, 4 GT-Tage",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "f19acfa12958",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "f19acfa12958",
+        "locator": "PDF S. 1, u3, 4 GT-Tage",
+        "original": null
+      },
+      "formula": null,
+      "gt_days_per_week": 4
+    },
+    {
+      "id": "plochingen-offer-778af4936451",
+      "original_label": "3 GT-Tage bis 16 Uhr, sonst Regelgruppe",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": null,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "f19acfa12958",
+        "locator": "PDF S. 1, u3, 3 GT-Tage",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "f19acfa12958",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "f19acfa12958",
+        "locator": "PDF S. 1, u3, 3 GT-Tage",
+        "original": null
+      },
+      "formula": null,
+      "gt_days_per_week": 3
+    },
+    {
+      "id": "plochingen-offer-3536bf67c0e3",
+      "original_label": "2 GT-Tage bis 16 Uhr, sonst Regelgruppe",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": null,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "f19acfa12958",
+        "locator": "PDF S. 1, u3, 2 GT-Tage",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "f19acfa12958",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "f19acfa12958",
+        "locator": "PDF S. 1, u3, 2 GT-Tage",
+        "original": null
+      },
+      "formula": null,
+      "gt_days_per_week": 2
+    },
+    {
+      "id": "plochingen-offer-8f2ea77d2a71",
+      "original_label": "St. Johann: 5 GT-Tage 7:30–15:30, sonst Regelgruppe",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "named_provider_offer",
+      "category": "childcare",
+      "weekly_minutes": 2400,
+      "weekday_minutes": [
+        480,
+        480,
+        480,
+        480,
+        480
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "f19acfa12958",
+        "locator": "PDF S. 2, ausschließlich Kindergarten Sankt Johann",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "f19acfa12958",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "f19acfa12958",
+        "locator": "PDF S. 2, ausschließlich Kindergarten Sankt Johann",
+        "original": null
+      },
+      "formula": null,
+      "gt_days_per_week": 5
+    },
+    {
+      "id": "plochingen-offer-5b27a59d018d",
+      "original_label": "St. Johann: 4 GT-Tage 7:30–15:30, sonst Regelgruppe",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "named_provider_offer",
+      "category": "childcare",
+      "weekly_minutes": null,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "f19acfa12958",
+        "locator": "PDF S. 2, ausschließlich Kindergarten Sankt Johann",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "f19acfa12958",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "f19acfa12958",
+        "locator": "PDF S. 2, ausschließlich Kindergarten Sankt Johann",
+        "original": null
+      },
+      "formula": null,
+      "gt_days_per_week": 4
+    },
+    {
+      "id": "plochingen-offer-206fc118ccd0",
+      "original_label": "St. Johann: 3 GT-Tage 7:30–15:30, sonst Regelgruppe",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "named_provider_offer",
+      "category": "childcare",
+      "weekly_minutes": null,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "f19acfa12958",
+        "locator": "PDF S. 2, ausschließlich Kindergarten Sankt Johann",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "f19acfa12958",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "f19acfa12958",
+        "locator": "PDF S. 2, ausschließlich Kindergarten Sankt Johann",
+        "original": null
+      },
+      "formula": null,
+      "gt_days_per_week": 3
+    },
+    {
+      "id": "plochingen-offer-65a0d0089ccd",
+      "original_label": "St. Johann: 2 GT-Tage 7:30–15:30, sonst Regelgruppe",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "named_provider_offer",
+      "category": "childcare",
+      "weekly_minutes": null,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "f19acfa12958",
+        "locator": "PDF S. 2, ausschließlich Kindergarten Sankt Johann",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "f19acfa12958",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "f19acfa12958",
+        "locator": "PDF S. 2, ausschließlich Kindergarten Sankt Johann",
+        "original": null
+      },
+      "formula": null,
+      "gt_days_per_week": 2
+    },
+    {
+      "id": "plochingen-offer-7ccb001d2246",
+      "original_label": "Kinderkrippe 7:30–15:30 fünf Tage",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2400,
+      "weekday_minutes": [
+        480,
+        480,
+        480,
+        480,
+        480
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "f19acfa12958",
+        "locator": "PDF S. 2, Kinderkrippe",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "f19acfa12958",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "f19acfa12958",
+        "locator": "PDF S. 2, Kinderkrippe",
+        "original": null
+      },
+      "formula": null
+    }
+  ],
+  "prices": [
+    {
+      "id": "plochingen-price-3580779dbd76",
+      "offer_id": "plochingen-offer-6007ba6faaa5",
+      "amount_cents": 18600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f19acfa12958",
+        "locator": "PDF S. 1, Regelbetreuung",
+        "original": 186
+      }
+    },
+    {
+      "id": "plochingen-price-810cf4a4634c",
+      "offer_id": "plochingen-offer-6007ba6faaa5",
+      "amount_cents": 15000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f19acfa12958",
+        "locator": "PDF S. 1, Regelbetreuung",
+        "original": 150
+      }
+    },
+    {
+      "id": "plochingen-price-9fa79ca05c42",
+      "offer_id": "plochingen-offer-6007ba6faaa5",
+      "amount_cents": 10600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f19acfa12958",
+        "locator": "PDF S. 1, Regelbetreuung",
+        "original": 106
+      }
+    },
+    {
+      "id": "plochingen-price-12af444f9dfc",
+      "offer_id": "plochingen-offer-6007ba6faaa5",
+      "amount_cents": 5000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f19acfa12958",
+        "locator": "PDF S. 1, Regelbetreuung",
+        "original": 50
+      }
+    },
+    {
+      "id": "plochingen-price-00095cbeef17",
+      "offer_id": "plochingen-offer-c644177d31ff",
+      "amount_cents": 37200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f19acfa12958",
+        "locator": "PDF S. 1, Regelbetreuung U3",
+        "original": 372
+      }
+    },
+    {
+      "id": "plochingen-price-f1a641b69559",
+      "offer_id": "plochingen-offer-c644177d31ff",
+      "amount_cents": 30000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f19acfa12958",
+        "locator": "PDF S. 1, Regelbetreuung U3",
+        "original": 300
+      }
+    },
+    {
+      "id": "plochingen-price-f95a85178269",
+      "offer_id": "plochingen-offer-c644177d31ff",
+      "amount_cents": 21200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f19acfa12958",
+        "locator": "PDF S. 1, Regelbetreuung U3",
+        "original": 212
+      }
+    },
+    {
+      "id": "plochingen-price-c09befb20816",
+      "offer_id": "plochingen-offer-c644177d31ff",
+      "amount_cents": 10000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f19acfa12958",
+        "locator": "PDF S. 1, Regelbetreuung U3",
+        "original": 100
+      }
+    },
+    {
+      "id": "plochingen-price-0a5a55b23bc6",
+      "offer_id": "plochingen-offer-136156931b23",
+      "amount_cents": 34000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f19acfa12958",
+        "locator": "PDF S. 1, o3, 4 GT-Tage",
+        "original": 340
+      }
+    },
+    {
+      "id": "plochingen-price-053b96fd27f8",
+      "offer_id": "plochingen-offer-136156931b23",
+      "amount_cents": 26200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f19acfa12958",
+        "locator": "PDF S. 1, o3, 4 GT-Tage",
+        "original": 262
+      }
+    },
+    {
+      "id": "plochingen-price-89b0616e97c4",
+      "offer_id": "plochingen-offer-136156931b23",
+      "amount_cents": 18100,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f19acfa12958",
+        "locator": "PDF S. 1, o3, 4 GT-Tage",
+        "original": 181
+      }
+    },
+    {
+      "id": "plochingen-price-dd66752d34e9",
+      "offer_id": "plochingen-offer-136156931b23",
+      "amount_cents": 5600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f19acfa12958",
+        "locator": "PDF S. 1, o3, 4 GT-Tage",
+        "original": 56
+      }
+    },
+    {
+      "id": "plochingen-price-d4fbcce2275e",
+      "offer_id": "plochingen-offer-317b833a7acf",
+      "amount_cents": 30300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f19acfa12958",
+        "locator": "PDF S. 1, o3, 3 GT-Tage",
+        "original": 303
+      }
+    },
+    {
+      "id": "plochingen-price-dd665d025652",
+      "offer_id": "plochingen-offer-317b833a7acf",
+      "amount_cents": 23400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f19acfa12958",
+        "locator": "PDF S. 1, o3, 3 GT-Tage",
+        "original": 234
+      }
+    },
+    {
+      "id": "plochingen-price-294d6ad6473d",
+      "offer_id": "plochingen-offer-317b833a7acf",
+      "amount_cents": 16400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f19acfa12958",
+        "locator": "PDF S. 1, o3, 3 GT-Tage",
+        "original": 164
+      }
+    },
+    {
+      "id": "plochingen-price-203bdeed36c3",
+      "offer_id": "plochingen-offer-317b833a7acf",
+      "amount_cents": 5500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f19acfa12958",
+        "locator": "PDF S. 1, o3, 3 GT-Tage",
+        "original": 55
+      }
+    },
+    {
+      "id": "plochingen-price-93532ce0d77d",
+      "offer_id": "plochingen-offer-cf9da56e2619",
+      "amount_cents": 26600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f19acfa12958",
+        "locator": "PDF S. 1, o3, 2 GT-Tage",
+        "original": 266
+      }
+    },
+    {
+      "id": "plochingen-price-1e17e058fd7c",
+      "offer_id": "plochingen-offer-cf9da56e2619",
+      "amount_cents": 20900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f19acfa12958",
+        "locator": "PDF S. 1, o3, 2 GT-Tage",
+        "original": 209
+      }
+    },
+    {
+      "id": "plochingen-price-511f69cdd292",
+      "offer_id": "plochingen-offer-cf9da56e2619",
+      "amount_cents": 14300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f19acfa12958",
+        "locator": "PDF S. 1, o3, 2 GT-Tage",
+        "original": 143
+      }
+    },
+    {
+      "id": "plochingen-price-db252d8286a5",
+      "offer_id": "plochingen-offer-cf9da56e2619",
+      "amount_cents": 5400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f19acfa12958",
+        "locator": "PDF S. 1, o3, 2 GT-Tage",
+        "original": 54
+      }
+    },
+    {
+      "id": "plochingen-price-48cb49838a44",
+      "offer_id": "plochingen-offer-b6781a52bb9b",
+      "amount_cents": 70000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f19acfa12958",
+        "locator": "PDF S. 1, u3, 4 GT-Tage",
+        "original": 700
+      }
+    },
+    {
+      "id": "plochingen-price-163a3816cfe6",
+      "offer_id": "plochingen-offer-b6781a52bb9b",
+      "amount_cents": 54400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f19acfa12958",
+        "locator": "PDF S. 1, u3, 4 GT-Tage",
+        "original": 544
+      }
+    },
+    {
+      "id": "plochingen-price-c06a75106836",
+      "offer_id": "plochingen-offer-b6781a52bb9b",
+      "amount_cents": 38000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f19acfa12958",
+        "locator": "PDF S. 1, u3, 4 GT-Tage",
+        "original": 380
+      }
+    },
+    {
+      "id": "plochingen-price-3b2450ddf41a",
+      "offer_id": "plochingen-offer-b6781a52bb9b",
+      "amount_cents": 10800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f19acfa12958",
+        "locator": "PDF S. 1, u3, 4 GT-Tage",
+        "original": 108
+      }
+    },
+    {
+      "id": "plochingen-price-87540bc109b8",
+      "offer_id": "plochingen-offer-778af4936451",
+      "amount_cents": 65400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f19acfa12958",
+        "locator": "PDF S. 1, u3, 3 GT-Tage",
+        "original": 654
+      }
+    },
+    {
+      "id": "plochingen-price-db7a51e2fe51",
+      "offer_id": "plochingen-offer-778af4936451",
+      "amount_cents": 52100,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f19acfa12958",
+        "locator": "PDF S. 1, u3, 3 GT-Tage",
+        "original": 521
+      }
+    },
+    {
+      "id": "plochingen-price-8adb4813a1bf",
+      "offer_id": "plochingen-offer-778af4936451",
+      "amount_cents": 35600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f19acfa12958",
+        "locator": "PDF S. 1, u3, 3 GT-Tage",
+        "original": 356
+      }
+    },
+    {
+      "id": "plochingen-price-76bbc3f2cd45",
+      "offer_id": "plochingen-offer-778af4936451",
+      "amount_cents": 10000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f19acfa12958",
+        "locator": "PDF S. 1, u3, 3 GT-Tage",
+        "original": 100
+      }
+    },
+    {
+      "id": "plochingen-price-25a6bd989823",
+      "offer_id": "plochingen-offer-3536bf67c0e3",
+      "amount_cents": 60400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f19acfa12958",
+        "locator": "PDF S. 1, u3, 2 GT-Tage",
+        "original": 604
+      }
+    },
+    {
+      "id": "plochingen-price-ba473b32413b",
+      "offer_id": "plochingen-offer-3536bf67c0e3",
+      "amount_cents": 48100,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f19acfa12958",
+        "locator": "PDF S. 1, u3, 2 GT-Tage",
+        "original": 481
+      }
+    },
+    {
+      "id": "plochingen-price-123b4b398c8f",
+      "offer_id": "plochingen-offer-3536bf67c0e3",
+      "amount_cents": 32900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f19acfa12958",
+        "locator": "PDF S. 1, u3, 2 GT-Tage",
+        "original": 329
+      }
+    },
+    {
+      "id": "plochingen-price-2821feada271",
+      "offer_id": "plochingen-offer-3536bf67c0e3",
+      "amount_cents": 9300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f19acfa12958",
+        "locator": "PDF S. 1, u3, 2 GT-Tage",
+        "original": 93
+      }
+    },
+    {
+      "id": "plochingen-price-29d97c2dac26",
+      "offer_id": "plochingen-offer-8f2ea77d2a71",
+      "amount_cents": 33500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f19acfa12958",
+        "locator": "PDF S. 2, ausschließlich Kindergarten Sankt Johann",
+        "original": 335
+      }
+    },
+    {
+      "id": "plochingen-price-a79143d6deab",
+      "offer_id": "plochingen-offer-8f2ea77d2a71",
+      "amount_cents": 25600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f19acfa12958",
+        "locator": "PDF S. 2, ausschließlich Kindergarten Sankt Johann",
+        "original": 256
+      }
+    },
+    {
+      "id": "plochingen-price-0aeb38d62eec",
+      "offer_id": "plochingen-offer-8f2ea77d2a71",
+      "amount_cents": 17500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f19acfa12958",
+        "locator": "PDF S. 2, ausschließlich Kindergarten Sankt Johann",
+        "original": 175
+      }
+    },
+    {
+      "id": "plochingen-price-697c5c7653a5",
+      "offer_id": "plochingen-offer-8f2ea77d2a71",
+      "amount_cents": 5000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f19acfa12958",
+        "locator": "PDF S. 2, ausschließlich Kindergarten Sankt Johann",
+        "original": 50
+      }
+    },
+    {
+      "id": "plochingen-price-52ed81084e5a",
+      "offer_id": "plochingen-offer-5b27a59d018d",
+      "amount_cents": 30400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f19acfa12958",
+        "locator": "PDF S. 2, ausschließlich Kindergarten Sankt Johann",
+        "original": 304
+      }
+    },
+    {
+      "id": "plochingen-price-ff839f85ff96",
+      "offer_id": "plochingen-offer-5b27a59d018d",
+      "amount_cents": 23500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f19acfa12958",
+        "locator": "PDF S. 2, ausschließlich Kindergarten Sankt Johann",
+        "original": 235
+      }
+    },
+    {
+      "id": "plochingen-price-dbd07fcb6f4b",
+      "offer_id": "plochingen-offer-5b27a59d018d",
+      "amount_cents": 15900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f19acfa12958",
+        "locator": "PDF S. 2, ausschließlich Kindergarten Sankt Johann",
+        "original": 159
+      }
+    },
+    {
+      "id": "plochingen-price-1c63b1e7c3d4",
+      "offer_id": "plochingen-offer-5b27a59d018d",
+      "amount_cents": 5000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f19acfa12958",
+        "locator": "PDF S. 2, ausschließlich Kindergarten Sankt Johann",
+        "original": 50
+      }
+    },
+    {
+      "id": "plochingen-price-535fdc753b43",
+      "offer_id": "plochingen-offer-206fc118ccd0",
+      "amount_cents": 27600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f19acfa12958",
+        "locator": "PDF S. 2, ausschließlich Kindergarten Sankt Johann",
+        "original": 276
+      }
+    },
+    {
+      "id": "plochingen-price-b3f095b1ffdd",
+      "offer_id": "plochingen-offer-206fc118ccd0",
+      "amount_cents": 21300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f19acfa12958",
+        "locator": "PDF S. 2, ausschließlich Kindergarten Sankt Johann",
+        "original": 213
+      }
+    },
+    {
+      "id": "plochingen-price-0c23a58d4fa6",
+      "offer_id": "plochingen-offer-206fc118ccd0",
+      "amount_cents": 14800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f19acfa12958",
+        "locator": "PDF S. 2, ausschließlich Kindergarten Sankt Johann",
+        "original": 148
+      }
+    },
+    {
+      "id": "plochingen-price-18dbfee89a64",
+      "offer_id": "plochingen-offer-206fc118ccd0",
+      "amount_cents": 5000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f19acfa12958",
+        "locator": "PDF S. 2, ausschließlich Kindergarten Sankt Johann",
+        "original": 50
+      }
+    },
+    {
+      "id": "plochingen-price-87170f4ff74a",
+      "offer_id": "plochingen-offer-65a0d0089ccd",
+      "amount_cents": 24500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f19acfa12958",
+        "locator": "PDF S. 2, ausschließlich Kindergarten Sankt Johann",
+        "original": 245
+      }
+    },
+    {
+      "id": "plochingen-price-c24e366b1155",
+      "offer_id": "plochingen-offer-65a0d0089ccd",
+      "amount_cents": 19400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f19acfa12958",
+        "locator": "PDF S. 2, ausschließlich Kindergarten Sankt Johann",
+        "original": 194
+      }
+    },
+    {
+      "id": "plochingen-price-67d0eb395d7b",
+      "offer_id": "plochingen-offer-65a0d0089ccd",
+      "amount_cents": 13500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f19acfa12958",
+        "locator": "PDF S. 2, ausschließlich Kindergarten Sankt Johann",
+        "original": 135
+      }
+    },
+    {
+      "id": "plochingen-price-2e88d9ccf736",
+      "offer_id": "plochingen-offer-65a0d0089ccd",
+      "amount_cents": 5000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f19acfa12958",
+        "locator": "PDF S. 2, ausschließlich Kindergarten Sankt Johann",
+        "original": 50
+      }
+    },
+    {
+      "id": "plochingen-price-03d2c410d126",
+      "offer_id": "plochingen-offer-7ccb001d2246",
+      "amount_cents": 66600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f19acfa12958",
+        "locator": "PDF S. 2, Kinderkrippe",
+        "original": 666
+      }
+    },
+    {
+      "id": "plochingen-price-4b8caf66b32b",
+      "offer_id": "plochingen-offer-7ccb001d2246",
+      "amount_cents": 53200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f19acfa12958",
+        "locator": "PDF S. 2, Kinderkrippe",
+        "original": 532
+      }
+    },
+    {
+      "id": "plochingen-price-fe8765d88797",
+      "offer_id": "plochingen-offer-7ccb001d2246",
+      "amount_cents": 35900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f19acfa12958",
+        "locator": "PDF S. 2, Kinderkrippe",
+        "original": 359
+      }
+    },
+    {
+      "id": "plochingen-price-e0a1bfa1bece",
+      "offer_id": "plochingen-offer-7ccb001d2246",
+      "amount_cents": 10600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f19acfa12958",
+        "locator": "PDF S. 2, Kinderkrippe",
+        "original": 106
+      }
+    }
+  ],
+  "income_bands": [],
+  "components": [
+    {
+      "id": "plochingen-component-c007320f4d6b",
+      "kind": "meal",
+      "original_label": "Mittagessen GT bis 16 Uhr 2 Tage",
+      "amount_cents": 4080,
+      "unit": "per_month",
+      "age_group": "o3",
+      "required": null,
+      "payment_months": 11,
+      "offer_ids": null,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "f19acfa12958",
+        "locator": "Mittagessen unter den jeweiligen Tabellen",
+        "original": null
+      },
+      "days_per_week": 2
+    },
+    {
+      "id": "plochingen-component-f98d3be404f8",
+      "kind": "meal",
+      "original_label": "Mittagessen GT bis 16 Uhr 3 Tage",
+      "amount_cents": 6120,
+      "unit": "per_month",
+      "age_group": "o3",
+      "required": null,
+      "payment_months": 11,
+      "offer_ids": null,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "f19acfa12958",
+        "locator": "Mittagessen unter den jeweiligen Tabellen",
+        "original": null
+      },
+      "days_per_week": 3
+    },
+    {
+      "id": "plochingen-component-1f624764f237",
+      "kind": "meal",
+      "original_label": "Mittagessen GT bis 16 Uhr 4 Tage",
+      "amount_cents": 8160,
+      "unit": "per_month",
+      "age_group": "o3",
+      "required": null,
+      "payment_months": 11,
+      "offer_ids": null,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "f19acfa12958",
+        "locator": "Mittagessen unter den jeweiligen Tabellen",
+        "original": null
+      },
+      "days_per_week": 4
+    },
+    {
+      "id": "plochingen-component-a975a5c7def5",
+      "kind": "meal",
+      "original_label": "Mittagessen GT bis 16 Uhr 5 Tage",
+      "amount_cents": 10200,
+      "unit": "per_month",
+      "age_group": "o3",
+      "required": null,
+      "payment_months": 11,
+      "offer_ids": null,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "f19acfa12958",
+        "locator": "Mittagessen unter den jeweiligen Tabellen",
+        "original": null
+      },
+      "days_per_week": 5
+    },
+    {
+      "id": "plochingen-component-850adc875b71",
+      "kind": "meal",
+      "original_label": "Mittagessen St. Johann 2 Tage",
+      "amount_cents": 3760,
+      "unit": "per_month",
+      "age_group": "o3",
+      "required": null,
+      "payment_months": 11,
+      "offer_ids": null,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "f19acfa12958",
+        "locator": "Mittagessen unter den jeweiligen Tabellen",
+        "original": null
+      },
+      "days_per_week": 2
+    },
+    {
+      "id": "plochingen-component-f23e347e06c6",
+      "kind": "meal",
+      "original_label": "Mittagessen St. Johann 3 Tage",
+      "amount_cents": 5640,
+      "unit": "per_month",
+      "age_group": "o3",
+      "required": null,
+      "payment_months": 11,
+      "offer_ids": null,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "f19acfa12958",
+        "locator": "Mittagessen unter den jeweiligen Tabellen",
+        "original": null
+      },
+      "days_per_week": 3
+    },
+    {
+      "id": "plochingen-component-3acbe951cfb8",
+      "kind": "meal",
+      "original_label": "Mittagessen St. Johann 4 Tage",
+      "amount_cents": 7520,
+      "unit": "per_month",
+      "age_group": "o3",
+      "required": null,
+      "payment_months": 11,
+      "offer_ids": null,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "f19acfa12958",
+        "locator": "Mittagessen unter den jeweiligen Tabellen",
+        "original": null
+      },
+      "days_per_week": 4
+    },
+    {
+      "id": "plochingen-component-fe78dbdad466",
+      "kind": "meal",
+      "original_label": "Mittagessen St. Johann 5 Tage",
+      "amount_cents": 9400,
+      "unit": "per_month",
+      "age_group": "o3",
+      "required": null,
+      "payment_months": 11,
+      "offer_ids": null,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "f19acfa12958",
+        "locator": "Mittagessen unter den jeweiligen Tabellen",
+        "original": null
+      },
+      "days_per_week": 5
+    },
+    {
+      "id": "plochingen-component-ff5f5f473862",
+      "kind": "meal",
+      "original_label": "Mittagessen Kinderkrippe bis 16 Uhr fünf Tage",
+      "amount_cents": 9800,
+      "unit": "per_month",
+      "age_group": "u3",
+      "required": null,
+      "payment_months": 11,
+      "offer_ids": null,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "f19acfa12958",
+        "locator": "Verpflegung / Zusatzkosten",
+        "original": null
+      },
+      "days_per_week": 5
+    },
+    {
+      "id": "plochingen-component-b90099a6976d",
+      "kind": "meal",
+      "original_label": "Mittagessen Kinderkrippe bis 15:30 fünf Tage",
+      "amount_cents": 9400,
+      "unit": "per_month",
+      "age_group": "u3",
+      "required": null,
+      "payment_months": 11,
+      "offer_ids": null,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "f19acfa12958",
+        "locator": "Verpflegung / Zusatzkosten",
+        "original": null
+      },
+      "days_per_week": 5
+    }
+  ],
+  "rules": [
+    {
+      "id": "plochingen-rule-3cbc871cb4f5",
+      "kind": "meal_refund",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "refund_from_absence_day": 6,
+        "planned_absence_notice_days": 14,
+        "august_charge": false
+      },
+      "evidence": {
+        "source_id": "f19acfa12958",
+        "locator": "PDF S. 1, wichtige Hinweise",
+        "original": null
+      }
+    },
+    {
+      "id": "plochingen-rule-add4f87c2e9e",
+      "kind": "source_provisions_f19acfa12958",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "archive_text_path": "data/sources/f19acfa12958/text.txt",
+        "text_sha256": "92e8173544f9e4f66f114b948aa28d2407118b14675dc6a9ebaf6177060e2a13",
+        "review_status": "archived_provisions_preserved"
+      },
+      "evidence": {
+        "source_id": "f19acfa12958",
+        "locator": "Vollständiger archivierter Dokumenttext einschließlich Fußnoten",
+        "original": null
+      }
+    },
+    {
+      "id": "plochingen-rule-d8d5755d602d",
+      "kind": "source_clause_f19acfa12958_1_2",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 0,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "f19acfa12958",
+        "locator": "PDF-/Textseite 1, Absatzblock 2",
+        "original": null
+      }
+    },
+    {
+      "id": "plochingen-rule-175fdaa0bd58",
+      "kind": "source_clause_f19acfa12958_2_6",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 1,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "f19acfa12958",
+        "locator": "PDF-/Textseite 2, Absatzblock 6",
+        "original": null
+      }
+    }
+  ],
+  "issues": [
+    {
+      "code": "pending_calculation_review",
+      "detail": "Strukturierter Import; noch keine Freigabe des Rechners oder der Website."
+    },
+    {
+      "code": "research_limitation_1",
+      "detail": "GT-Freitagsgrenze erhalten. Die aktuelle Übersicht gilt für mehrere Träger; kommunale Angebote vor Tarifzuordnung filtern."
+    }
+  ],
+  "coverage": {
+    "publication_status": "not_active",
+    "integration_status": "normalized_pending_calculation_review",
+    "history_in_scope": false,
+    "source_register": "data/research/neighbor_expansion_2026-11-10.json",
+    "research_id": "plochingen",
+    "unavailable_configurations": [],
+    "offers": 13,
+    "price_cells": 52,
+    "income_bands": 0,
+    "components": 10,
+    "rule_records": 4,
+    "tariff_table_transcription": "complete_for_declared_scope",
+    "declared_scope": "Aktuelle und bereits veröffentlichte künftige Krippen- und Kindergartentarife; Zusatzkosten und Gebührenregeln.",
+    "excluded_from_regular_price_rows": [
+      "superseded_historical_tariffs",
+      "school_childcare",
+      "takki_and_childminding",
+      "separate_playgroups"
+    ],
+    "calculation_engine_changed": false,
+    "rule_transcription": "typed_parameters_and_source_clauses_with_explicit_unimplemented_status"
+  },
+  "original_research": {
+    "path": "data/research/neighbor_expansion_2026-11-10.json",
+    "section": "Plochingen",
+    "text": "Veröffentlichte GT-Wochen haben freitags 7–13 Uhr. Ein 5×8-Stunden-Modell ist damit nicht belegt.\nGT-Freitagsgrenze erhalten. Die aktuelle Übersicht gilt für mehrere Träger; kommunale Angebote vor Tarifzuordnung filtern.",
+    "source_clauses": [
+      {
+        "text": "Regelbetreuung (RG)                        Regelgruppe\nKinder ab 3 Jahren                         & Gruppen mit flexiblen/\n                                           verlängerten Öffnungszeiten           Wichtige Hinweise:\nein Kind aus einer Familie mit 1 Kind\nunter 18 Jahren                                       186 €                      • Es werden 12 Monatsbeiträge\nein Kind aus einer Familie mit 2                                                   erhoben.\nKindern unter 18 Jahren                               150 €\nein Kind aus einer Familie mit 3                                                 • Die Kosten für das Mittagessen\nKindern unter 18 Jahren                               106 €                        werden zusätzlich pro Monat\nein Kind aus einer Familie mit 4 und                                               pauschal berechnet. Im August wird\nmehr Kindern unter 18 Jahren                             50 €                      kein Mittagessen berechnet. Eine\nRegelbetreuung (RG)                        Regelgruppe                             Rückerstattung kann ab dem 6.\nKinder ab 2 Jahren                         & Gruppen mit flexiblen/                Fehltag beantragt werden.\n                                           verlängerten Öffnungszeiten\n                                                                                 • Die Wahl der Betreuungsform ist für\nein Kind (unter 3 Jahren) aus einer                                                mind. 6 Monate verbindlich.\nFamilie mit 1 Kind unter 18 Jahren                    372 €\nein Kind (unter 3 Jahren) aus einer\n                                                      300 €                      • Bei geplanter Abwesenheit des\nFamilie mit 2 Kindern unter 18 Jahren\nein Kind (unter 3 Jahren) aus einer\n                                                                                   Kindes kann auf Antrag das\nFamilie mit 3 Kindern unter 18 Jahren                 212 €                        Mittagessen komplett rückerstattet\nein Kind (unter 3 Jahren) aus einer                                                werden. Der Antrag muss 14 Tage\nFamilie mit 4 und mehr Kindern unter                                               im Voraus eingereicht werden.\n18 Jahren                                             100 €",
+        "evidence": {
+          "source_id": "f19acfa12958",
+          "locator": "PDF-/Textseite 1, Absatzblock 2",
+          "original": null
+        }
+      },
+      {
+        "text": "Eltern, deren Haushaltsnettoeinkommen unterhalb einer bestimmten Einkommensgrenze\n       liegt, können einen Zuschuss zu den Kindergartengebühren bei dem Kreisjugendamt\n       Esslingen – Wirtschaftliche Jugendhilfe – beantragen.\n       Die dazugehörigen Formulare werden im BürgerService ausgegeben.",
+        "evidence": {
+          "source_id": "f19acfa12958",
+          "locator": "PDF-/Textseite 2, Absatzblock 6",
+          "original": null
+        }
+      }
+    ]
+  }
+}

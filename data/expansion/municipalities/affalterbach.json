@@ -1,0 +1,788 @@
+{
+  "schema_version": "1.0",
+  "id": "affalterbach",
+  "name": "Affalterbach",
+  "reviewed_at": "2026-11-10",
+  "reference_date": "2026-11-10",
+  "scope": {
+    "included": [
+      "municipal"
+    ],
+    "other_providers": "only_with_explicit_source_evidence"
+  },
+  "family_basis": "under_18",
+  "family_evidence": {
+    "source_id": "c6cd13cdab20",
+    "locator": "Familienbegriff und Fußnoten der Gebührenunterlagen",
+    "original": null
+  },
+  "supporting_source_ids": [
+    "c6cd13cdab20"
+  ],
+  "offers": [
+    {
+      "id": "affalterbach-offer-3366b8d2095f",
+      "original_label": "Verlängerte Öffnungszeiten Ü3",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": null,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "c6cd13cdab20",
+        "locator": "§ 3 Gebührentabellen",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "c6cd13cdab20",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "c6cd13cdab20",
+        "locator": "§ 3 Gebührentabellen",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "affalterbach-offer-f96c32b10f53",
+      "original_label": "Ganztagsbetreuung Ü3",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": null,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "c6cd13cdab20",
+        "locator": "§ 3 Gebührentabellen",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "c6cd13cdab20",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "c6cd13cdab20",
+        "locator": "§ 3 Gebührentabellen",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "affalterbach-offer-42062beb5c5c",
+      "original_label": "Ganztagsbetreuung ab dem dritten Lebensmonat",
+      "age_group": "u3",
+      "age_min_months": 3,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": null,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "c6cd13cdab20",
+        "locator": "§ 3 Gebührentabellen",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "c6cd13cdab20",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "c6cd13cdab20",
+        "locator": "§ 3 Gebührentabellen",
+        "original": null
+      },
+      "formula": null
+    }
+  ],
+  "prices": [
+    {
+      "id": "affalterbach-price-6e2505bfdc88",
+      "offer_id": "affalterbach-offer-3366b8d2095f",
+      "amount_cents": 15500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c6cd13cdab20",
+        "locator": "§ 3 Gebührentabellen",
+        "original": 155
+      }
+    },
+    {
+      "id": "affalterbach-price-d0b32f31bcdc",
+      "offer_id": "affalterbach-offer-3366b8d2095f",
+      "amount_cents": 11600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c6cd13cdab20",
+        "locator": "§ 3 Gebührentabellen",
+        "original": 116
+      }
+    },
+    {
+      "id": "affalterbach-price-4809a96b63b0",
+      "offer_id": "affalterbach-offer-3366b8d2095f",
+      "amount_cents": 7700,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c6cd13cdab20",
+        "locator": "§ 3 Gebührentabellen",
+        "original": 77
+      }
+    },
+    {
+      "id": "affalterbach-price-ff8ac91a2a41",
+      "offer_id": "affalterbach-offer-3366b8d2095f",
+      "amount_cents": 0,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c6cd13cdab20",
+        "locator": "§ 3 Gebührentabellen",
+        "original": 0
+      }
+    },
+    {
+      "id": "affalterbach-price-9de4912cc4c9",
+      "offer_id": "affalterbach-offer-f96c32b10f53",
+      "amount_cents": 34000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c6cd13cdab20",
+        "locator": "§ 3 Gebührentabellen",
+        "original": 340
+      }
+    },
+    {
+      "id": "affalterbach-price-abe0e9f026fa",
+      "offer_id": "affalterbach-offer-f96c32b10f53",
+      "amount_cents": 34000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c6cd13cdab20",
+        "locator": "§ 3 Gebührentabellen",
+        "original": 340
+      }
+    },
+    {
+      "id": "affalterbach-price-a60003f30981",
+      "offer_id": "affalterbach-offer-f96c32b10f53",
+      "amount_cents": 30000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c6cd13cdab20",
+        "locator": "§ 3 Gebührentabellen",
+        "original": 300
+      }
+    },
+    {
+      "id": "affalterbach-price-d7179c0c84e7",
+      "offer_id": "affalterbach-offer-f96c32b10f53",
+      "amount_cents": 0,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c6cd13cdab20",
+        "locator": "§ 3 Gebührentabellen",
+        "original": 0
+      }
+    },
+    {
+      "id": "affalterbach-price-d9c3ea0c652b",
+      "offer_id": "affalterbach-offer-42062beb5c5c",
+      "amount_cents": 50300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c6cd13cdab20",
+        "locator": "§ 3 Gebührentabellen",
+        "original": 503
+      }
+    },
+    {
+      "id": "affalterbach-price-6ac2e19c9b99",
+      "offer_id": "affalterbach-offer-42062beb5c5c",
+      "amount_cents": 50300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c6cd13cdab20",
+        "locator": "§ 3 Gebührentabellen",
+        "original": 503
+      }
+    },
+    {
+      "id": "affalterbach-price-894061e66aca",
+      "offer_id": "affalterbach-offer-42062beb5c5c",
+      "amount_cents": 44700,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c6cd13cdab20",
+        "locator": "§ 3 Gebührentabellen",
+        "original": 447
+      }
+    },
+    {
+      "id": "affalterbach-price-5aba7909c1fa",
+      "offer_id": "affalterbach-offer-42062beb5c5c",
+      "amount_cents": 0,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c6cd13cdab20",
+        "locator": "§ 3 Gebührentabellen",
+        "original": 0
+      }
+    }
+  ],
+  "income_bands": [],
+  "components": [
+    {
+      "id": "affalterbach-component-a3a8766f044f",
+      "kind": "meal",
+      "original_label": "Essensgeld zusätzlich",
+      "amount_cents": null,
+      "unit": "per_month",
+      "age_group": null,
+      "required": null,
+      "payment_months": null,
+      "offer_ids": null,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "value_status": "unknown",
+      "evidence": {
+        "source_id": "c6cd13cdab20",
+        "locator": "Verpflegung / Zusatzkosten",
+        "original": null
+      }
+    }
+  ],
+  "rules": [
+    {
+      "id": "affalterbach-rule-3ad65400e1da",
+      "kind": "adult_children_on_application",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "condition": "school_or_vocational_training",
+        "application_required": true
+      },
+      "evidence": {
+        "source_id": "c6cd13cdab20",
+        "locator": "§ 3 nach den Tabellen",
+        "original": null
+      }
+    },
+    {
+      "id": "affalterbach-rule-9b4302f2516e",
+      "kind": "partial_month",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "admission_from_day": 15,
+        "admission_fraction": "1/2",
+        "departure_until_day": 14,
+        "departure_fraction": "1/2"
+      },
+      "evidence": {
+        "source_id": "c6cd13cdab20",
+        "locator": "§ 5 Abs. 5",
+        "original": null
+      }
+    },
+    {
+      "id": "affalterbach-rule-a69225446edf",
+      "kind": "source_provisions_c6cd13cdab20",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "archive_text_path": "data/sources/c6cd13cdab20/text.txt",
+        "text_sha256": "3a701b707656793636965871d7acd9fbb72bd1872eddd515d07ebee99ee7840b",
+        "review_status": "archived_provisions_preserved"
+      },
+      "evidence": {
+        "source_id": "c6cd13cdab20",
+        "locator": "Vollständiger archivierter Dokumenttext einschließlich Fußnoten",
+        "original": null
+      }
+    },
+    {
+      "id": "affalterbach-rule-237c88883cf2",
+      "kind": "source_clause_c6cd13cdab20_1_1",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 0,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "c6cd13cdab20",
+        "locator": "PDF-/Textseite 1, Absatzblock 1",
+        "original": null
+      }
+    },
+    {
+      "id": "affalterbach-rule-807e98ac49e9",
+      "kind": "source_clause_c6cd13cdab20_1_4",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 1,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "c6cd13cdab20",
+        "locator": "PDF-/Textseite 1, Absatzblock 4",
+        "original": null
+      }
+    },
+    {
+      "id": "affalterbach-rule-eabeb4fa8ba3",
+      "kind": "source_clause_c6cd13cdab20_1_5",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 2,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "c6cd13cdab20",
+        "locator": "PDF-/Textseite 1, Absatzblock 5",
+        "original": null
+      }
+    },
+    {
+      "id": "affalterbach-rule-8b433c5a16dd",
+      "kind": "source_clause_c6cd13cdab20_2_1",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 3,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "c6cd13cdab20",
+        "locator": "PDF-/Textseite 2, Absatzblock 1",
+        "original": null
+      }
+    },
+    {
+      "id": "affalterbach-rule-d92828dea5f5",
+      "kind": "source_clause_c6cd13cdab20_2_3",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 4,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "c6cd13cdab20",
+        "locator": "PDF-/Textseite 2, Absatzblock 3",
+        "original": null
+      }
+    },
+    {
+      "id": "affalterbach-rule-5c59260a55e0",
+      "kind": "source_clause_c6cd13cdab20_3_1",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 5,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "c6cd13cdab20",
+        "locator": "PDF-/Textseite 3, Absatzblock 1",
+        "original": null
+      }
+    },
+    {
+      "id": "affalterbach-rule-4c90e279e7a8",
+      "kind": "source_clause_c6cd13cdab20_3_3",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 6,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "c6cd13cdab20",
+        "locator": "PDF-/Textseite 3, Absatzblock 3",
+        "original": null
+      }
+    },
+    {
+      "id": "affalterbach-rule-0029dca8cb7a",
+      "kind": "source_clause_c6cd13cdab20_3_5",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 7,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "c6cd13cdab20",
+        "locator": "PDF-/Textseite 3, Absatzblock 5",
+        "original": null
+      }
+    },
+    {
+      "id": "affalterbach-rule-6c834bfde134",
+      "kind": "source_clause_c6cd13cdab20_3_6",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 8,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "c6cd13cdab20",
+        "locator": "PDF-/Textseite 3, Absatzblock 6",
+        "original": null
+      }
+    },
+    {
+      "id": "affalterbach-rule-7e10d5364c00",
+      "kind": "source_clause_c6cd13cdab20_3_7",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 9,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "c6cd13cdab20",
+        "locator": "PDF-/Textseite 3, Absatzblock 7",
+        "original": null
+      }
+    },
+    {
+      "id": "affalterbach-rule-f61c837d1c9c",
+      "kind": "source_clause_c6cd13cdab20_3_8",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 10,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "c6cd13cdab20",
+        "locator": "PDF-/Textseite 3, Absatzblock 8",
+        "original": null
+      }
+    },
+    {
+      "id": "affalterbach-rule-346d22ee7d3b",
+      "kind": "source_clause_c6cd13cdab20_3_9",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 11,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "c6cd13cdab20",
+        "locator": "PDF-/Textseite 3, Absatzblock 9",
+        "original": null
+      }
+    },
+    {
+      "id": "affalterbach-rule-0998cb5acb2c",
+      "kind": "source_clause_c6cd13cdab20_3_10",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 12,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "c6cd13cdab20",
+        "locator": "PDF-/Textseite 3, Absatzblock 10",
+        "original": null
+      }
+    },
+    {
+      "id": "affalterbach-rule-32f4172fe693",
+      "kind": "source_clause_c6cd13cdab20_4_1",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 13,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "c6cd13cdab20",
+        "locator": "PDF-/Textseite 4, Absatzblock 1",
+        "original": null
+      }
+    }
+  ],
+  "issues": [
+    {
+      "code": "pending_calculation_review",
+      "detail": "Strukturierter Import; noch keine Freigabe des Rechners oder der Website."
+    },
+    {
+      "code": "research_limitation_1",
+      "detail": "Essensgeld zusätzlich, aber Betrag in der gesicherten Gebührenquelle nicht genannt."
+    }
+  ],
+  "coverage": {
+    "publication_status": "not_active",
+    "integration_status": "normalized_pending_calculation_review",
+    "history_in_scope": false,
+    "source_register": "data/research/neighbor_expansion_2026-11-10.json",
+    "research_id": "affalterbach",
+    "unavailable_configurations": [],
+    "offers": 3,
+    "price_cells": 12,
+    "income_bands": 0,
+    "components": 1,
+    "rule_records": 17,
+    "tariff_table_transcription": "complete_for_declared_scope",
+    "declared_scope": "Aktuelle und bereits veröffentlichte künftige Krippen- und Kindergartentarife; Zusatzkosten und Gebührenregeln.",
+    "excluded_from_regular_price_rows": [
+      "superseded_historical_tariffs",
+      "school_childcare",
+      "takki_and_childminding",
+      "separate_playgroups"
+    ],
+    "calculation_engine_changed": false,
+    "rule_transcription": "typed_parameters_and_source_clauses_with_explicit_unimplemented_status"
+  },
+  "original_research": {
+    "path": "data/research/neighbor_expansion_2026-11-10.json",
+    "section": "Affalterbach",
+    "text": "GT-Tarife ohne Einkommensstaffel; U3 bei einem oder zwei Haushaltskindern gleich teuer.\nEssensgeld zusätzlich, aber Betrag in der gesicherten Gebührenquelle nicht genannt.",
+    "source_clauses": [
+      {
+        "text": "Satzung über die Erhebung von Benutzungsgebühren für die\n    Kinderbetreuungseinrichtungen der Gemeinde Affalterbach",
+        "evidence": {
+          "source_id": "c6cd13cdab20",
+          "locator": "PDF-/Textseite 1, Absatzblock 1",
+          "original": null
+        }
+      },
+      {
+        "text": "(1) Die Gemeinde Affalterbach betreibt Kinderbetreuungseinrichtungen im Sinne des\n    Kindertagesbetreuungsgesetzes von Baden-Württemberg (KiTaG) als öffentliche\n    Einrichtungen. Zur teilweisen Deckung des entstehenden Aufwands werden für die\n    Benutzung der Kinderbetreuungseinrichtungen Gebühren nach dieser Satzung\n    erhoben.",
+        "evidence": {
+          "source_id": "c6cd13cdab20",
+          "locator": "PDF-/Textseite 1, Absatzblock 4",
+          "original": null
+        }
+      },
+      {
+        "text": "(2) Die Gebühren sind für alle angemeldeten Kinder zu entrichten, gleichgültig ob sie\n    im Erhebungszeitraum (Kalendermonat) die Kinderbetreuungseinrichtung\n    tatsächlich besuchten oder nicht. Da die Gebühr eine Beteiligung der Sorge-\n    berechtigen an den gesamten Betriebskosten darstellt, ist die Gebühr auch für\n    Ferienzeiten und bei behördlicher Schließung von weniger als 1 Monat zu\n    entrichten.",
+        "evidence": {
+          "source_id": "c6cd13cdab20",
+          "locator": "PDF-/Textseite 1, Absatzblock 5",
+          "original": null
+        }
+      },
+      {
+        "text": "c) ein Zahlungsrückstand des Elternbeitrags über drei Monate, trotz schriftlicher\n      Abmahnung,\n   d) nicht ausgeräumte erhebliche Auffassungsunterschiede zwischen Personen-\n      sorgeberechtigten und der Einrichtung über das Erziehungskonzept und/oder\n      eine dem Kind angemessene Förderung trotz eines vom Träger anberaumten\n      Einigungsgespräches.\n   Das Recht zur Kündigung aus wichtigen Gründen (außerordentliche Kündigung)\n   bleibt hiervon unberührt.",
+        "evidence": {
+          "source_id": "c6cd13cdab20",
+          "locator": "PDF-/Textseite 2, Absatzblock 1",
+          "original": null
+        }
+      },
+      {
+        "text": "Für den Besuch der Einrichtung wird ein Elternbeitrag sowie ggf. zusätzlich\nEssensgeld erhoben. Der Beitrag wird in 12 Monatsbeiträgen erhoben. Der monatliche\nBeitrag beträgt:",
+        "evidence": {
+          "source_id": "c6cd13cdab20",
+          "locator": "PDF-/Textseite 2, Absatzblock 3",
+          "original": null
+        }
+      },
+      {
+        "text": "Bei der Bemessung des Elternbeitrags werden alle Kinder, die im selben Haushalt\nleben, bis zur Vollendung des 18. Lebensjahres berücksichtigt. Kinder, die älter als 18\nJahre sind, werden auf Antrag bei der Bemessung des Benutzungsentgeltes\nberücksichtigt, sofern nachgewiesen wird, dass sie sich noch in Schul- bzw.\nBerufsausbildung befinden. Für die Berechnung des Elternbeitrags sind die\nFamilienverhältnisse jeweils zum Zeitpunkt des Vertragsabschlusses maßgebend.\nTreten Veränderungen (z.B. Geburt eines weiteren Kindes, Wechsel der\nBetreuungsfrom etc.) ein, die eine Änderung des Elternbeitrags zur Folge haben, wird\ndie Gebühr auf Antrag ab dem Folgemonat neu festgesetzt. Eine Änderung der\nBeiträge / Essensgeld bleibt dem Träger vorbehalten.",
+        "evidence": {
+          "source_id": "c6cd13cdab20",
+          "locator": "PDF-/Textseite 3, Absatzblock 1",
+          "original": null
+        }
+      },
+      {
+        "text": "Gebührenschuldner sind der/die Sorgeberechtigte/n des in die Kinderbetreuung\naufgenommenen Kindes, in deren Haushalt das Kind lebt. Sowie derjenige, der die\nAufnahme beantragt oder sich zur Zahlung der Gebühren schriftlich verpflichtet hat.\nMehrere Schuldner haften als Gesamtschuldner.",
+        "evidence": {
+          "source_id": "c6cd13cdab20",
+          "locator": "PDF-/Textseite 3, Absatzblock 3",
+          "original": null
+        }
+      },
+      {
+        "text": "(1) Die Gebührenschuld entsteht zu Beginn des Veranlagungszeitraums (§ 3), in\n    dem das Kind in die Kinderbetreuungseinrichtung aufgenommen wird.",
+        "evidence": {
+          "source_id": "c6cd13cdab20",
+          "locator": "PDF-/Textseite 3, Absatzblock 5",
+          "original": null
+        }
+      },
+      {
+        "text": "(2) Die Gebühren werden bei der erstmaligen Benutzung durch schriftlichen Bescheid\n    festgesetzt. Die Festsetzung gilt so lange weiter, bis ein neuer Bescheid oder\n    Änderungsbescheid ergeht.",
+        "evidence": {
+          "source_id": "c6cd13cdab20",
+          "locator": "PDF-/Textseite 3, Absatzblock 6",
+          "original": null
+        }
+      },
+      {
+        "text": "(3) Die Benutzungsgebühren sind jeweils am 1. des Monats durch Abbuchung an die\n    Gemeindekasse zu bezahlen.",
+        "evidence": {
+          "source_id": "c6cd13cdab20",
+          "locator": "PDF-/Textseite 3, Absatzblock 7",
+          "original": null
+        }
+      },
+      {
+        "text": "(4) Der Elternbeitrag ist auch für die Ferien der Einrichtung, für Zeiten, in denen die\n    Einrichtung aus besonderem Anlass geschlossen ist, bei längerem Fehlen des\n    Kindes und bis zur Wirksamkeit einer Kündigung zu entrichten. Bei\n    Schulanfängern ist der Elternbeitrag bis zum Ende des Monats zu bezahlen, in\n    dem die Sommerferien der Einrichtung beginnen. Wurde für Schulanfänger eine\n    Verlängerung des Betreuungsverhältnisses vereinbart, ist der Elternbeitrag bis\n    zum Ende des Monats zu bezahlen, in den der Werktag fällt, welcher dem Tag der\n    Einschulung vorausgeht. Bei Schuleintritt während des Kindergartenjahres ist der\n    Elternbeitrag bis zur Beendigung des Vertragsverhältnisses zu bezahlen.",
+        "evidence": {
+          "source_id": "c6cd13cdab20",
+          "locator": "PDF-/Textseite 3, Absatzblock 8",
+          "original": null
+        }
+      },
+      {
+        "text": "(5) Bei Aufnahme eines Kindes bis einschließlich 14. eines Monats, ist der volle, bei\n    Aufnahme ab dem 15. eines Monats ist der halbe Elternbeitrag zu entrichten.",
+        "evidence": {
+          "source_id": "c6cd13cdab20",
+          "locator": "PDF-/Textseite 3, Absatzblock 9",
+          "original": null
+        }
+      },
+      {
+        "text": "Bei Abmeldung eines Kindes bis einschließlich 14. eines Monats, ist der halbe, bei\n    Abmeldung ab dem 15. eines Monats ist der volle Elternbeitrag zu entrichten. Bei\n    einem Wechsel in eine andere Betreuungsart gilt dies analog.",
+        "evidence": {
+          "source_id": "c6cd13cdab20",
+          "locator": "PDF-/Textseite 3, Absatzblock 10",
+          "original": null
+        }
+      },
+      {
+        "text": "(6) Haben      Personensorgeberechtigte     Schwierigkeiten     die    Elternbeiträge\n    aufzubringen, können sich diese vertrauensvoll an die jeweilige\n    Einrichtungsleitung oder das Hauptamt des Rathauses wenden. Sollte es\n    Personensorgeberechtigten nicht möglich sein die Elternbeiträge, trotz öffentlicher\n    Hilfen (Übernahme des Elternbeitrags durch das Sozialamt), zu bezahlen, kann\n    der Beitrag in begründeten Fällen vom Träger ermäßigt werden.",
+        "evidence": {
+          "source_id": "c6cd13cdab20",
+          "locator": "PDF-/Textseite 4, Absatzblock 1",
+          "original": null
+        }
+      }
+    ]
+  }
+}

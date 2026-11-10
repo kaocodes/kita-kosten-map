@@ -1,0 +1,1102 @@
+{
+  "schema_version": "1.0",
+  "as_of": "2026-11-10",
+  "purpose": "independent_source_and_rejection_acceptance_cases",
+  "cases": [
+    {
+      "id": "affalterbach-default",
+      "municipality_id": "affalterbach",
+      "scenario_id": "couple|income-80000|nursery:480",
+      "expected": {
+        "status": "unavailable",
+        "monthly_care_cents": null,
+        "annual_care_cents": null,
+        "monthly_equivalent_cents": null
+      },
+      "required_reasons": [
+        "schedule_not_confirmed"
+      ],
+      "evidence": {
+        "source_id": "c6cd13cdab20",
+        "locator": "§ 3, U3-Ganztag; § 6 Inkrafttreten"
+      },
+      "description": "Keine ungeprüfte Freigabe der betroffenen Konfiguration."
+    },
+    {
+      "id": "aichwald-default",
+      "municipality_id": "aichwald",
+      "scenario_id": "couple|income-80000|nursery:480",
+      "expected": {
+        "status": "unavailable",
+        "monthly_care_cents": null,
+        "annual_care_cents": null,
+        "monthly_equivalent_cents": null
+      },
+      "required_reasons": [
+        "known_included_meal_not_separated"
+      ],
+      "evidence": {
+        "source_id": "d9055ebd6801",
+        "locator": "§ 6 Abs. 7; Beitragsdauer aus § 6 Abs. 9–12 abgeleitet"
+      },
+      "description": "Keine ungeprüfte Freigabe der betroffenen Konfiguration."
+    },
+    {
+      "id": "aidlingen-default",
+      "municipality_id": "aidlingen",
+      "scenario_id": "couple|income-80000|nursery:480",
+      "expected": {
+        "status": "comparable",
+        "monthly_care_cents": 70000,
+        "annual_care_cents": 840000,
+        "monthly_equivalent_cents": 70000
+      },
+      "required_reasons": [],
+      "evidence": {
+        "source_id": "eafbe25e6e6e",
+        "locator": "PDF S. 1; Gültigkeit S. 2; zwölf Monate: alte Satzung § 12 Abs. 3"
+      },
+      "description": "Veröffentlichter regulärer Tabellensatz, keine Pässe; Jahresäquivalent auf zwölf Monate."
+    },
+    {
+      "id": "altbach-default",
+      "municipality_id": "altbach",
+      "scenario_id": "couple|income-80000|nursery:480",
+      "expected": {
+        "status": "unavailable",
+        "monthly_care_cents": null,
+        "annual_care_cents": null,
+        "monthly_equivalent_cents": null
+      },
+      "required_reasons": [
+        "schedule_not_confirmed"
+      ],
+      "evidence": {
+        "source_id": "3c42fe2d0f06",
+        "locator": "PDF S. 1–2; Abschnitt Kinderkrippe Nr. 4 und Mittagessen Nr. 5"
+      },
+      "description": "Keine ungeprüfte Freigabe der betroffenen Konfiguration."
+    },
+    {
+      "id": "asperg-default",
+      "municipality_id": "asperg",
+      "scenario_id": "couple|income-80000|nursery:480",
+      "expected": {
+        "status": "comparable",
+        "monthly_care_cents": 47300,
+        "annual_care_cents": 567600,
+        "monthly_equivalent_cents": 47300
+      },
+      "required_reasons": [],
+      "evidence": {
+        "source_id": "c039257120e8",
+        "locator": "§ 5 Abs. 5 Buchst. e, letzte Spalte; zwölf Monate § 1 Abs. 3"
+      },
+      "description": "Veröffentlichter regulärer Tabellensatz, keine Pässe; Jahresäquivalent auf zwölf Monate."
+    },
+    {
+      "id": "baltmannsweiler-default",
+      "municipality_id": "baltmannsweiler",
+      "scenario_id": "couple|income-80000|nursery:480",
+      "expected": {
+        "status": "unavailable",
+        "monthly_care_cents": null,
+        "annual_care_cents": null,
+        "monthly_equivalent_cents": null
+      },
+      "required_reasons": [
+        "schedule_not_confirmed"
+      ],
+      "evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "PDF S. 1–2, Abschnitt I; zwölf Monate im Schlusshinweis"
+      },
+      "description": "Keine ungeprüfte Freigabe der betroffenen Konfiguration."
+    },
+    {
+      "id": "benningen-default",
+      "municipality_id": "benningen",
+      "scenario_id": "couple|income-80000|nursery:480",
+      "expected": {
+        "status": "unavailable",
+        "monthly_care_cents": null,
+        "annual_care_cents": null,
+        "monthly_equivalent_cents": null
+      },
+      "required_reasons": [
+        "schedule_not_confirmed"
+      ],
+      "evidence": {
+        "source_id": "e12b8b803da5",
+        "locator": "PDF S. 1, Altersgruppe ab zweitem Geburtstag; Zeitangaben am Seitenende"
+      },
+      "description": "Keine ungeprüfte Freigabe der betroffenen Konfiguration."
+    },
+    {
+      "id": "deizisau-default",
+      "municipality_id": "deizisau",
+      "scenario_id": "couple|income-80000|nursery:480",
+      "expected": {
+        "status": "comparable",
+        "monthly_care_cents": 83600,
+        "annual_care_cents": 919600,
+        "monthly_equivalent_cents": 76633
+      },
+      "required_reasons": [],
+      "evidence": {
+        "source_id": "09e38530df32",
+        "locator": "PDF S. 1, GT-Tabelle; elf Monate im Vorspann"
+      },
+      "description": "Veröffentlichter regulärer Tabellensatz, keine Pässe; Jahresäquivalent auf zwölf Monate."
+    },
+    {
+      "id": "denkendorf-default",
+      "municipality_id": "denkendorf",
+      "scenario_id": "couple|income-80000|nursery:480",
+      "expected": {
+        "status": "unavailable",
+        "monthly_care_cents": null,
+        "annual_care_cents": null,
+        "monthly_equivalent_cents": null
+      },
+      "required_reasons": [
+        "approved_friday_exception_not_supported"
+      ],
+      "evidence": {
+        "source_id": "08b47127170a",
+        "locator": "PDF S. 1, zweite Tabelle; elf Monate und Zeitverteilung im Dokument"
+      },
+      "description": "Keine ungeprüfte Freigabe der betroffenen Konfiguration."
+    },
+    {
+      "id": "eberdingen-default",
+      "municipality_id": "eberdingen",
+      "scenario_id": "couple|income-80000|nursery:480",
+      "expected": {
+        "status": "unavailable",
+        "monthly_care_cents": null,
+        "annual_care_cents": null,
+        "monthly_equivalent_cents": null
+      },
+      "required_reasons": [
+        "no_offer_covers_daily_need"
+      ],
+      "evidence": {
+        "source_id": "5637db02621e",
+        "locator": "Bildbasierte PDF S. 14; Geschwisterregel S. 7; zwölf Monate S. 6/14"
+      },
+      "description": "Keine ungeprüfte Freigabe der betroffenen Konfiguration."
+    },
+    {
+      "id": "ehningen-default",
+      "municipality_id": "ehningen",
+      "scenario_id": "couple|income-80000|nursery:480",
+      "expected": {
+        "status": "comparable",
+        "monthly_care_cents": 99300,
+        "annual_care_cents": 1092300,
+        "monthly_equivalent_cents": 91025
+      },
+      "required_reasons": [],
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "Bildbasierte PDF S. 1–3; Modultabelle GT5 S. 3; elf Monate Stammsatzung § 2"
+      },
+      "description": "Veröffentlichter regulärer Tabellensatz, keine Pässe; Jahresäquivalent auf zwölf Monate."
+    },
+    {
+      "id": "erdmannhausen-default",
+      "municipality_id": "erdmannhausen",
+      "scenario_id": "couple|income-80000|nursery:480",
+      "expected": {
+        "status": "unavailable",
+        "monthly_care_cents": null,
+        "annual_care_cents": null,
+        "monthly_equivalent_cents": null
+      },
+      "required_reasons": [
+        "price_or_income_input_missing"
+      ],
+      "evidence": {
+        "source_id": "9290d9f1b98e",
+        "locator": "Bildbasierte PDF S. 7; Grundpreis 500,60 €, GT-Zuschlag 150 €, Essen 84 €; Zahlung § 6 der Benutzungsordnung"
+      },
+      "description": "Keine ungeprüfte Freigabe der betroffenen Konfiguration."
+    },
+    {
+      "id": "filderstadt-default",
+      "municipality_id": "filderstadt",
+      "scenario_id": "couple|income-80000|nursery:480",
+      "expected": {
+        "status": "unavailable",
+        "monthly_care_cents": null,
+        "annual_care_cents": null,
+        "monthly_equivalent_cents": null
+      },
+      "required_reasons": [
+        "schedule_not_confirmed"
+      ],
+      "evidence": {
+        "source_id": "7b3a2062d94d",
+        "locator": "PDF S. 14, U3-Tabelle; elf Teilzahlungen § 15 Abs. 4"
+      },
+      "description": "Keine ungeprüfte Freigabe der betroffenen Konfiguration."
+    },
+    {
+      "id": "freiberg-default",
+      "municipality_id": "freiberg",
+      "scenario_id": "couple|income-80000|nursery:480",
+      "expected": {
+        "status": "unavailable",
+        "monthly_care_cents": null,
+        "annual_care_cents": null,
+        "monthly_equivalent_cents": null
+      },
+      "required_reasons": [
+        "local_net_income_model_not_defined"
+      ],
+      "evidence": {
+        "source_id": "86cec5756015",
+        "locator": "Gebührenordnung S. 2, Flattichstraße, ganztags 40 bis 15 Uhr; Stufe 1. U3 zwölf Monate S. 1; Gültigkeit ab 01.06.2026 S. 5"
+      },
+      "description": "Keine ungeprüfte Freigabe der betroffenen Konfiguration."
+    },
+    {
+      "id": "grafenau-default",
+      "municipality_id": "grafenau",
+      "scenario_id": "couple|income-80000|nursery:480",
+      "expected": {
+        "status": "unavailable",
+        "monthly_care_cents": null,
+        "annual_care_cents": null,
+        "monthly_equivalent_cents": null
+      },
+      "required_reasons": [
+        "schedule_not_confirmed"
+      ],
+      "evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Gebührenverzeichnis 2026/27, Ziffer 2; zwölf Monate § 2"
+      },
+      "description": "Keine ungeprüfte Freigabe der betroffenen Konfiguration."
+    },
+    {
+      "id": "hemmingen-default",
+      "municipality_id": "hemmingen",
+      "scenario_id": "couple|income-80000|nursery:480",
+      "expected": {
+        "status": "unavailable",
+        "monthly_care_cents": null,
+        "annual_care_cents": null,
+        "monthly_equivalent_cents": null
+      },
+      "required_reasons": [
+        "single_parent_selector_not_supported"
+      ],
+      "evidence": {
+        "source_id": "6125abe78891",
+        "locator": "§ 3 Nr. 2c, PDF S. 4; zwölf Monatsraten Nr. 3"
+      },
+      "description": "Keine ungeprüfte Freigabe der betroffenen Konfiguration."
+    },
+    {
+      "id": "holzgerlingen-default",
+      "municipality_id": "holzgerlingen",
+      "scenario_id": "couple|income-80000|nursery:480",
+      "expected": {
+        "status": "comparable",
+        "monthly_care_cents": 67000,
+        "annual_care_cents": 804000,
+        "monthly_equivalent_cents": 67000
+      },
+      "required_reasons": [],
+      "evidence": {
+        "source_id": "08a2ada2b7fc",
+        "locator": "§ 3 Abs. 7 Nr. 4a; zwölf Monatsgebühren Abs. 7"
+      },
+      "description": "Veröffentlichter regulärer Tabellensatz, keine Pässe; Jahresäquivalent auf zwölf Monate."
+    },
+    {
+      "id": "kernen-default",
+      "municipality_id": "kernen",
+      "scenario_id": "couple|income-80000|nursery:480",
+      "expected": {
+        "status": "unavailable",
+        "monthly_care_cents": null,
+        "annual_care_cents": null,
+        "monthly_equivalent_cents": null
+      },
+      "required_reasons": [
+        "local_income_model_not_defined"
+      ],
+      "evidence": {
+        "source_id": "fd9c3aef8652",
+        "locator": "PDF S. 7; Einkommensbegriff S. 10–12; laufende Kalendermonatsgebühr § 7 Abs. 1"
+      },
+      "description": "Keine ungeprüfte Freigabe der betroffenen Konfiguration."
+    },
+    {
+      "id": "magstadt-default",
+      "municipality_id": "magstadt",
+      "scenario_id": "couple|income-80000|nursery:480",
+      "expected": {
+        "status": "comparable",
+        "monthly_care_cents": 59500,
+        "annual_care_cents": 714000,
+        "monthly_equivalent_cents": 59500
+      },
+      "required_reasons": [],
+      "evidence": {
+        "source_id": "b1a41a87c490",
+        "locator": "PDF S. 1, U3-GT8; zwölf Monate Benutzungsordnung § 6"
+      },
+      "description": "Veröffentlichter regulärer Tabellensatz, keine Pässe; Jahresäquivalent auf zwölf Monate."
+    },
+    {
+      "id": "marbach-default",
+      "municipality_id": "marbach",
+      "scenario_id": "couple|income-80000|nursery:480",
+      "expected": {
+        "status": "comparable",
+        "monthly_care_cents": 71500,
+        "annual_care_cents": 786500,
+        "monthly_equivalent_cents": 65542
+      },
+      "required_reasons": [],
+      "evidence": {
+        "source_id": "02a52f0ce010",
+        "locator": "§ 5, Tabelle 2026/27; elf Monate § 2; Essen § 6"
+      },
+      "description": "Veröffentlichter regulärer Tabellensatz, keine Pässe; Jahresäquivalent auf zwölf Monate."
+    },
+    {
+      "id": "moeglingen-default",
+      "municipality_id": "moeglingen",
+      "scenario_id": "couple|income-80000|nursery:480",
+      "expected": {
+        "status": "comparable",
+        "monthly_care_cents": 43200,
+        "annual_care_cents": 518400,
+        "monthly_equivalent_cents": 43200
+      },
+      "required_reasons": [],
+      "evidence": {
+        "source_id": "13a79648a821",
+        "locator": "PDF S. 1, U3-Tabelle; Familienpass Richtlinie II Nr. 4"
+      },
+      "description": "Veröffentlichter regulärer Tabellensatz, keine Pässe; Jahresäquivalent auf zwölf Monate."
+    },
+    {
+      "id": "ostfildern-default",
+      "municipality_id": "ostfildern",
+      "scenario_id": "couple|income-80000|nursery:480",
+      "expected": {
+        "status": "unavailable",
+        "monthly_care_cents": null,
+        "annual_care_cents": null,
+        "monthly_equivalent_cents": null
+      },
+      "required_reasons": [
+        "local_income_model_not_defined"
+      ],
+      "evidence": {
+        "source_id": "af550fae0296",
+        "locator": "PDF S. 10, Tabelle gültig 2026/27; zwölf Monate § 6 Abs. 3"
+      },
+      "description": "Keine ungeprüfte Freigabe der betroffenen Konfiguration."
+    },
+    {
+      "id": "plochingen-default",
+      "municipality_id": "plochingen",
+      "scenario_id": "couple|income-80000|nursery:480",
+      "expected": {
+        "status": "unavailable",
+        "monthly_care_cents": null,
+        "annual_care_cents": null,
+        "monthly_equivalent_cents": null
+      },
+      "required_reasons": [
+        "provider_scope_confirmation_required"
+      ],
+      "evidence": {
+        "source_id": "f19acfa12958",
+        "locator": "PDF S. 1; zwölf Monate und Essensabrechnung im Hinweisblock"
+      },
+      "description": "Keine ungeprüfte Freigabe der betroffenen Konfiguration."
+    },
+    {
+      "id": "remseck-default",
+      "municipality_id": "remseck",
+      "scenario_id": "couple|income-80000|nursery:480",
+      "expected": {
+        "status": "unavailable",
+        "monthly_care_cents": null,
+        "annual_care_cents": null,
+        "monthly_equivalent_cents": null
+      },
+      "required_reasons": [
+        "component_age_scope_ignored"
+      ],
+      "evidence": {
+        "source_id": "5ebe63b06876",
+        "locator": "Anlage 1, PDF S. 6; Betreuung elf, Essen zehn Monate"
+      },
+      "description": "Keine ungeprüfte Freigabe der betroffenen Konfiguration."
+    },
+    {
+      "id": "renningen-default",
+      "municipality_id": "renningen",
+      "scenario_id": "couple|income-80000|nursery:480",
+      "expected": {
+        "status": "unavailable",
+        "monthly_care_cents": null,
+        "annual_care_cents": null,
+        "monthly_equivalent_cents": null
+      },
+      "required_reasons": [
+        "schedule_not_confirmed"
+      ],
+      "evidence": {
+        "source_id": "bb4cc2c68bd2",
+        "locator": "Bildtabelle PDF S. 9; Tagesdauer § 3; zwölf Monate kommunale Gebührenseite"
+      },
+      "description": "Keine ungeprüfte Freigabe der betroffenen Konfiguration."
+    },
+    {
+      "id": "rutesheim-default",
+      "municipality_id": "rutesheim",
+      "scenario_id": "couple|income-80000|nursery:480",
+      "expected": {
+        "status": "unavailable",
+        "monthly_care_cents": null,
+        "annual_care_cents": null,
+        "monthly_equivalent_cents": null
+      },
+      "required_reasons": [
+        "schedule_not_confirmed"
+      ],
+      "evidence": {
+        "source_id": "3ffe1980c0fd",
+        "locator": "PDF S. 1; zwölf Monate im Kopf; Änderungsfassung Juni 2026 separat"
+      },
+      "description": "Keine ungeprüfte Freigabe der betroffenen Konfiguration."
+    },
+    {
+      "id": "schoenaich-default",
+      "municipality_id": "schoenaich",
+      "scenario_id": "couple|income-80000|nursery:480",
+      "expected": {
+        "status": "unavailable",
+        "monthly_care_cents": null,
+        "annual_care_cents": null,
+        "monthly_equivalent_cents": null
+      },
+      "required_reasons": [
+        "schedule_not_confirmed"
+      ],
+      "evidence": {
+        "source_id": "1c7e3b410b71",
+        "locator": "PDF S. 2, Buchst. d; monatliche Ferienpflicht § 4 der Satzung"
+      },
+      "description": "Keine ungeprüfte Freigabe der betroffenen Konfiguration."
+    },
+    {
+      "id": "schwieberdingen-default",
+      "municipality_id": "schwieberdingen",
+      "scenario_id": "couple|income-80000|nursery:480",
+      "expected": {
+        "status": "comparable",
+        "monthly_care_cents": 55900,
+        "annual_care_cents": 614900,
+        "monthly_equivalent_cents": 51242
+      },
+      "required_reasons": [],
+      "evidence": {
+        "source_id": "4816bf4b07a7",
+        "locator": "PDF S. 1, obere Tabelle und Fußnoten"
+      },
+      "description": "Veröffentlichter regulärer Tabellensatz, keine Pässe; Jahresäquivalent auf zwölf Monate."
+    },
+    {
+      "id": "steinenbronn-default",
+      "municipality_id": "steinenbronn",
+      "scenario_id": "couple|income-80000|nursery:480",
+      "expected": {
+        "status": "unavailable",
+        "monthly_care_cents": null,
+        "annual_care_cents": null,
+        "monthly_equivalent_cents": null
+      },
+      "required_reasons": [
+        "schedule_not_confirmed"
+      ],
+      "evidence": {
+        "source_id": "08565d2926c2",
+        "locator": "PDF S. 1; alternative Monatsraten Satzung § 6 Abs. 1"
+      },
+      "description": "Keine ungeprüfte Freigabe der betroffenen Konfiguration."
+    },
+    {
+      "id": "tamm-default",
+      "municipality_id": "tamm",
+      "scenario_id": "couple|income-80000|nursery:480",
+      "expected": {
+        "status": "comparable",
+        "monthly_care_cents": 62800,
+        "annual_care_cents": 753600,
+        "monthly_equivalent_cents": 62800
+      },
+      "required_reasons": [],
+      "evidence": {
+        "source_id": "44cdb8fc520a",
+        "locator": "HTML Abschnitt Elternbeiträge ab 01.09.2025 und folgende Zahlungs-/Verpflegungshinweise"
+      },
+      "description": "Veröffentlichter regulärer Tabellensatz, keine Pässe; Jahresäquivalent auf zwölf Monate."
+    },
+    {
+      "id": "waiblingen-default",
+      "municipality_id": "waiblingen",
+      "scenario_id": "couple|income-80000|nursery:480",
+      "expected": {
+        "status": "unavailable",
+        "monthly_care_cents": null,
+        "annual_care_cents": null,
+        "monthly_equivalent_cents": null
+      },
+      "required_reasons": [
+        "formula_not_supported"
+      ],
+      "evidence": {
+        "source_id": "59ecf75191ad",
+        "locator": "PDF S. 1; Einkommensbegriff § 4, Rang § 5, Essen § 6 Nr. 9 der Satzung"
+      },
+      "description": "Keine ungeprüfte Freigabe der betroffenen Konfiguration."
+    },
+    {
+      "id": "waldenbuch-default",
+      "municipality_id": "waldenbuch",
+      "scenario_id": "couple|income-80000|nursery:480",
+      "expected": {
+        "status": "unavailable",
+        "monthly_care_cents": null,
+        "annual_care_cents": null,
+        "monthly_equivalent_cents": null
+      },
+      "required_reasons": [
+        "smaller_offer_schedule_unverified"
+      ],
+      "evidence": {
+        "source_id": "f37687a3f1c3",
+        "locator": "§ 3 Angebotsstruktur; § 4 Abs. 2f Tarif; zwölf Monate Abs. 4"
+      },
+      "description": "Keine ungeprüfte Freigabe der betroffenen Konfiguration."
+    },
+    {
+      "id": "weissach-default",
+      "municipality_id": "weissach",
+      "scenario_id": "couple|income-80000|nursery:480",
+      "expected": {
+        "status": "unavailable",
+        "monthly_care_cents": null,
+        "annual_care_cents": null,
+        "monthly_equivalent_cents": null
+      },
+      "required_reasons": [
+        "schedule_not_confirmed"
+      ],
+      "evidence": {
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF S. 12, Spalte 01.09.2026; zwölf Monate § 5 Abs. 5"
+      },
+      "description": "Keine ungeprüfte Freigabe der betroffenen Konfiguration."
+    },
+    {
+      "id": "aidlingen-source-33",
+      "municipality_id": "aidlingen",
+      "scenario_id": "couple|income-80000|nursery:360",
+      "expected": {
+        "status": "comparable",
+        "monthly_care_cents": 36500,
+        "annual_care_cents": 438000,
+        "monthly_equivalent_cents": 36500
+      },
+      "required_reasons": [],
+      "evidence": {
+        "source_id": "eafbe25e6e6e",
+        "locator": "PDF S. 1; Gültigkeit S. 2; zwölf Monate: alte Satzung § 12 Abs. 3"
+      },
+      "description": "Veröffentlichter regulärer Tabellensatz, keine Pässe; Jahresäquivalent auf zwölf Monate."
+    },
+    {
+      "id": "aidlingen-source-34",
+      "municipality_id": "aidlingen",
+      "scenario_id": "couple|income-80000|kindergarten:360",
+      "expected": {
+        "status": "comparable",
+        "monthly_care_cents": 22000,
+        "annual_care_cents": 264000,
+        "monthly_equivalent_cents": 22000
+      },
+      "required_reasons": [],
+      "evidence": {
+        "source_id": "eafbe25e6e6e",
+        "locator": "PDF S. 1; Gültigkeit S. 2; zwölf Monate: alte Satzung § 12 Abs. 3"
+      },
+      "description": "Veröffentlichter regulärer Tabellensatz, keine Pässe; Jahresäquivalent auf zwölf Monate."
+    },
+    {
+      "id": "asperg-source-35",
+      "municipality_id": "asperg",
+      "scenario_id": "couple|income-80000|nursery:360",
+      "expected": {
+        "status": "comparable",
+        "monthly_care_cents": 37350,
+        "annual_care_cents": 448200,
+        "monthly_equivalent_cents": 37350
+      },
+      "required_reasons": [],
+      "evidence": {
+        "source_id": "c039257120e8",
+        "locator": "§ 5 Abs. 5 Buchst. e, letzte Spalte; zwölf Monate § 1 Abs. 3"
+      },
+      "description": "Veröffentlichter regulärer Tabellensatz, keine Pässe; Jahresäquivalent auf zwölf Monate."
+    },
+    {
+      "id": "asperg-source-36",
+      "municipality_id": "asperg",
+      "scenario_id": "couple|income-80000|kindergarten:480",
+      "expected": {
+        "status": "comparable",
+        "monthly_care_cents": 32000,
+        "annual_care_cents": 384000,
+        "monthly_equivalent_cents": 32000
+      },
+      "required_reasons": [],
+      "evidence": {
+        "source_id": "c039257120e8",
+        "locator": "§ 5 Abs. 5 Buchst. e, letzte Spalte; zwölf Monate § 1 Abs. 3"
+      },
+      "description": "Veröffentlichter regulärer Tabellensatz, keine Pässe; Jahresäquivalent auf zwölf Monate."
+    },
+    {
+      "id": "deizisau-source-37",
+      "municipality_id": "deizisau",
+      "scenario_id": "couple|income-80000|nursery:480|kindergarten:480",
+      "expected": {
+        "status": "comparable",
+        "monthly_care_cents": 93300,
+        "annual_care_cents": 1026300,
+        "monthly_equivalent_cents": 85525
+      },
+      "required_reasons": [],
+      "evidence": {
+        "source_id": "09e38530df32",
+        "locator": "PDF S. 1, GT-Tabelle; elf Monate im Vorspann"
+      },
+      "description": "Veröffentlichter regulärer Tabellensatz, keine Pässe; Jahresäquivalent auf zwölf Monate."
+    },
+    {
+      "id": "denkendorf-source-38",
+      "municipality_id": "denkendorf",
+      "scenario_id": "couple|income-80000|nursery:360",
+      "expected": {
+        "status": "comparable",
+        "monthly_care_cents": 53700,
+        "annual_care_cents": 590700,
+        "monthly_equivalent_cents": 49225
+      },
+      "required_reasons": [],
+      "evidence": {
+        "source_id": "08b47127170a",
+        "locator": "PDF S. 1, zweite Tabelle; elf Monate und Zeitverteilung im Dokument"
+      },
+      "description": "Veröffentlichter regulärer Tabellensatz, keine Pässe; Jahresäquivalent auf zwölf Monate."
+    },
+    {
+      "id": "denkendorf-source-39",
+      "municipality_id": "denkendorf",
+      "scenario_id": "couple|income-80000|kindergarten:360",
+      "expected": {
+        "status": "comparable",
+        "monthly_care_cents": 18100,
+        "annual_care_cents": 199100,
+        "monthly_equivalent_cents": 16592
+      },
+      "required_reasons": [],
+      "evidence": {
+        "source_id": "08b47127170a",
+        "locator": "PDF S. 1, zweite Tabelle; elf Monate und Zeitverteilung im Dokument"
+      },
+      "description": "Veröffentlichter regulärer Tabellensatz, keine Pässe; Jahresäquivalent auf zwölf Monate."
+    },
+    {
+      "id": "eberdingen-source-40",
+      "municipality_id": "eberdingen",
+      "scenario_id": "couple|income-80000|nursery:360",
+      "expected": {
+        "status": "comparable",
+        "monthly_care_cents": 36600,
+        "annual_care_cents": 439200,
+        "monthly_equivalent_cents": 36600
+      },
+      "required_reasons": [],
+      "evidence": {
+        "source_id": "5637db02621e",
+        "locator": "Bildbasierte PDF S. 14; Geschwisterregel S. 7; zwölf Monate S. 6/14"
+      },
+      "description": "Veröffentlichter regulärer Tabellensatz, keine Pässe; Jahresäquivalent auf zwölf Monate."
+    },
+    {
+      "id": "eberdingen-source-41",
+      "municipality_id": "eberdingen",
+      "scenario_id": "couple|income-80000|nursery:360|nursery:360",
+      "expected": {
+        "status": "comparable",
+        "monthly_care_cents": 54900,
+        "annual_care_cents": 658800,
+        "monthly_equivalent_cents": 54900
+      },
+      "required_reasons": [],
+      "evidence": {
+        "source_id": "5637db02621e",
+        "locator": "Bildbasierte PDF S. 14; Geschwisterregel S. 7; zwölf Monate S. 6/14"
+      },
+      "description": "Veröffentlichter regulärer Tabellensatz, keine Pässe; Jahresäquivalent auf zwölf Monate."
+    },
+    {
+      "id": "ehningen-source-42",
+      "municipality_id": "ehningen",
+      "scenario_id": "couple|income-80000|nursery:480|kindergarten:480",
+      "expected": {
+        "status": "comparable",
+        "monthly_care_cents": 135000,
+        "annual_care_cents": 1485000,
+        "monthly_equivalent_cents": 123750
+      },
+      "required_reasons": [],
+      "evidence": {
+        "source_id": "1e9f8dc795b7",
+        "locator": "Bildbasierte PDF S. 1–3; Modultabelle GT5 S. 3; elf Monate Stammsatzung § 2"
+      },
+      "description": "Veröffentlichter regulärer Tabellensatz, keine Pässe; Jahresäquivalent auf zwölf Monate."
+    },
+    {
+      "id": "holzgerlingen-source-43",
+      "municipality_id": "holzgerlingen",
+      "scenario_id": "couple|income-80000|nursery:360",
+      "expected": {
+        "status": "comparable",
+        "monthly_care_cents": 47100,
+        "annual_care_cents": 565200,
+        "monthly_equivalent_cents": 47100
+      },
+      "required_reasons": [],
+      "evidence": {
+        "source_id": "08a2ada2b7fc",
+        "locator": "§ 3 Abs. 7 Nr. 4a; zwölf Monatsgebühren Abs. 7"
+      },
+      "description": "Veröffentlichter regulärer Tabellensatz, keine Pässe; Jahresäquivalent auf zwölf Monate."
+    },
+    {
+      "id": "holzgerlingen-source-44",
+      "municipality_id": "holzgerlingen",
+      "scenario_id": "couple|income-80000|kindergarten:480",
+      "expected": {
+        "status": "comparable",
+        "monthly_care_cents": 32900,
+        "annual_care_cents": 394800,
+        "monthly_equivalent_cents": 32900
+      },
+      "required_reasons": [],
+      "evidence": {
+        "source_id": "08a2ada2b7fc",
+        "locator": "§ 3 Abs. 7 Nr. 4a; zwölf Monatsgebühren Abs. 7"
+      },
+      "description": "Veröffentlichter regulärer Tabellensatz, keine Pässe; Jahresäquivalent auf zwölf Monate."
+    },
+    {
+      "id": "magstadt-source-45",
+      "municipality_id": "magstadt",
+      "scenario_id": "couple|income-80000|nursery:480|kindergarten:480",
+      "expected": {
+        "status": "comparable",
+        "monthly_care_cents": 74600,
+        "annual_care_cents": 895200,
+        "monthly_equivalent_cents": 74600
+      },
+      "required_reasons": [],
+      "evidence": {
+        "source_id": "b1a41a87c490",
+        "locator": "PDF S. 1, U3-GT8; zwölf Monate Benutzungsordnung § 6"
+      },
+      "description": "Veröffentlichter regulärer Tabellensatz, keine Pässe; Jahresäquivalent auf zwölf Monate."
+    },
+    {
+      "id": "marbach-source-46",
+      "municipality_id": "marbach",
+      "scenario_id": "couple|income-80000|nursery:480|kindergarten:480",
+      "expected": {
+        "status": "comparable",
+        "monthly_care_cents": 74500,
+        "annual_care_cents": 819500,
+        "monthly_equivalent_cents": 68292
+      },
+      "required_reasons": [],
+      "evidence": {
+        "source_id": "02a52f0ce010",
+        "locator": "§ 5, Tabelle 2026/27; elf Monate § 2; Essen § 6"
+      },
+      "description": "Veröffentlichter regulärer Tabellensatz, keine Pässe; Jahresäquivalent auf zwölf Monate."
+    },
+    {
+      "id": "marbach-source-47",
+      "municipality_id": "marbach",
+      "scenario_id": "couple|income-80000|kindergarten:360|home:480|home:480|home:480",
+      "expected": {
+        "status": "comparable",
+        "monthly_care_cents": 0,
+        "annual_care_cents": 0,
+        "monthly_equivalent_cents": 0
+      },
+      "required_reasons": [],
+      "evidence": {
+        "source_id": "02a52f0ce010",
+        "locator": "§ 5, Tabelle 2026/27; elf Monate § 2; Essen § 6"
+      },
+      "description": "Veröffentlichter regulärer Tabellensatz, keine Pässe; Jahresäquivalent auf zwölf Monate."
+    },
+    {
+      "id": "moeglingen-source-48",
+      "municipality_id": "moeglingen",
+      "scenario_id": "couple|income-80000|nursery:360|kindergarten:480",
+      "expected": {
+        "status": "comparable",
+        "monthly_care_cents": 47900,
+        "annual_care_cents": 574800,
+        "monthly_equivalent_cents": 47900
+      },
+      "required_reasons": [],
+      "evidence": {
+        "source_id": "13a79648a821",
+        "locator": "PDF S. 1, U3-Tabelle; Familienpass Richtlinie II Nr. 4"
+      },
+      "description": "Veröffentlichter regulärer Tabellensatz, keine Pässe; Jahresäquivalent auf zwölf Monate."
+    },
+    {
+      "id": "schwieberdingen-source-49",
+      "municipality_id": "schwieberdingen",
+      "scenario_id": "couple|income-80000|kindergarten:480",
+      "expected": {
+        "status": "comparable",
+        "monthly_care_cents": 18600,
+        "annual_care_cents": 204600,
+        "monthly_equivalent_cents": 17050
+      },
+      "required_reasons": [],
+      "evidence": {
+        "source_id": "4816bf4b07a7",
+        "locator": "PDF S. 1, obere Tabelle und Fußnoten"
+      },
+      "description": "Veröffentlichter regulärer Tabellensatz, keine Pässe; Jahresäquivalent auf zwölf Monate."
+    },
+    {
+      "id": "schwieberdingen-source-50",
+      "municipality_id": "schwieberdingen",
+      "scenario_id": "couple|income-80000|kindergarten:360|kindergarten:360",
+      "expected": {
+        "status": "comparable",
+        "monthly_care_cents": 20900,
+        "annual_care_cents": 229900,
+        "monthly_equivalent_cents": 19158
+      },
+      "required_reasons": [],
+      "evidence": {
+        "source_id": "4816bf4b07a7",
+        "locator": "PDF S. 1, obere Tabelle und Fußnoten"
+      },
+      "description": "Veröffentlichter regulärer Tabellensatz, keine Pässe; Jahresäquivalent auf zwölf Monate."
+    },
+    {
+      "id": "schwieberdingen-source-51",
+      "municipality_id": "schwieberdingen",
+      "scenario_id": "couple|income-80000|nursery:480|home:480",
+      "expected": {
+        "status": "comparable",
+        "monthly_care_cents": 42400,
+        "annual_care_cents": 466400,
+        "monthly_equivalent_cents": 38867
+      },
+      "required_reasons": [],
+      "evidence": {
+        "source_id": "4816bf4b07a7",
+        "locator": "PDF S. 1, obere Tabelle und Fußnoten"
+      },
+      "description": "Veröffentlichter regulärer Tabellensatz, keine Pässe; Jahresäquivalent auf zwölf Monate."
+    },
+    {
+      "id": "tamm-source-52",
+      "municipality_id": "tamm",
+      "scenario_id": "couple|income-80000|nursery:480|kindergarten:480",
+      "expected": {
+        "status": "comparable",
+        "monthly_care_cents": 70800,
+        "annual_care_cents": 849600,
+        "monthly_equivalent_cents": 70800
+      },
+      "required_reasons": [],
+      "evidence": {
+        "source_id": "44cdb8fc520a",
+        "locator": "HTML Abschnitt Elternbeiträge ab 01.09.2025 und folgende Zahlungs-/Verpflegungshinweise"
+      },
+      "description": "Veröffentlichter regulärer Tabellensatz, keine Pässe; Jahresäquivalent auf zwölf Monate."
+    },
+    {
+      "id": "waldenbuch-source-53",
+      "municipality_id": "waldenbuch",
+      "scenario_id": "couple|income-80000|nursery:360",
+      "expected": {
+        "status": "comparable",
+        "monthly_care_cents": 42600,
+        "annual_care_cents": 511200,
+        "monthly_equivalent_cents": 42600
+      },
+      "required_reasons": [],
+      "evidence": {
+        "source_id": "f37687a3f1c3",
+        "locator": "§ 3 Angebotsstruktur; § 4 Abs. 2f Tarif; zwölf Monate Abs. 4"
+      },
+      "description": "Veröffentlichter regulärer Tabellensatz, keine Pässe; Jahresäquivalent auf zwölf Monate."
+    },
+    {
+      "id": "schwieberdingen-single-parent-u3-block",
+      "municipality_id": "schwieberdingen",
+      "scenario_id": "single|income-80000|nursery:480",
+      "expected": {
+        "status": "unavailable",
+        "monthly_care_cents": null,
+        "annual_care_cents": null,
+        "monthly_equivalent_cents": null
+      },
+      "required_reasons": [
+        "single_parent_band_shift_not_applied"
+      ],
+      "evidence": {
+        "source_id": "4816bf4b07a7",
+        "locator": "PDF S. 1, obere Tabelle und Fußnoten"
+      },
+      "description": "Keine ungeprüfte Freigabe der betroffenen Konfiguration."
+    },
+    {
+      "id": "schwieberdingen-two-u3-block",
+      "municipality_id": "schwieberdingen",
+      "scenario_id": "couple|income-80000|nursery:480|nursery:480",
+      "expected": {
+        "status": "unavailable",
+        "monthly_care_cents": null,
+        "annual_care_cents": null,
+        "monthly_equivalent_cents": null
+      },
+      "required_reasons": [
+        "simultaneous_u3_band_shift_not_applied"
+      ],
+      "evidence": {
+        "source_id": "4816bf4b07a7",
+        "locator": "PDF S. 1, obere Tabelle und Fußnoten"
+      },
+      "description": "Keine ungeprüfte Freigabe der betroffenen Konfiguration."
+    },
+    {
+      "id": "schwieberdingen-mixed-age-rank-block",
+      "municipality_id": "schwieberdingen",
+      "scenario_id": "couple|income-80000|nursery:480|kindergarten:480",
+      "expected": {
+        "status": "unavailable",
+        "monthly_care_cents": null,
+        "annual_care_cents": null,
+        "monthly_equivalent_cents": null
+      },
+      "required_reasons": [
+        "o3_rank_population_differs_from_all_care_children"
+      ],
+      "evidence": {
+        "source_id": "4816bf4b07a7",
+        "locator": "PDF S. 1, obere Tabelle und Fußnoten"
+      },
+      "description": "Keine ungeprüfte Freigabe der betroffenen Konfiguration."
+    },
+    {
+      "id": "schwieberdingen-mixed-o3-hours-block",
+      "municipality_id": "schwieberdingen",
+      "scenario_id": "couple|income-80000|kindergarten:360|kindergarten:480",
+      "expected": {
+        "status": "unavailable",
+        "monthly_care_cents": null,
+        "annual_care_cents": null,
+        "monthly_equivalent_cents": null
+      },
+      "required_reasons": [
+        "o3_rank_allocation_unresolved"
+      ],
+      "evidence": {
+        "source_id": "4816bf4b07a7",
+        "locator": "PDF S. 1, obere Tabelle und Fußnoten"
+      },
+      "description": "Keine ungeprüfte Freigabe der betroffenen Konfiguration."
+    },
+    {
+      "id": "schwieberdingen-third-o3-block",
+      "municipality_id": "schwieberdingen",
+      "scenario_id": "couple|income-80000|kindergarten:360|kindergarten:360|kindergarten:360",
+      "expected": {
+        "status": "unavailable",
+        "monthly_care_cents": null,
+        "annual_care_cents": null,
+        "monthly_equivalent_cents": null
+      },
+      "required_reasons": [
+        "third_o3_rank_not_published"
+      ],
+      "evidence": {
+        "source_id": "4816bf4b07a7",
+        "locator": "PDF S. 1, obere Tabelle und Fußnoten"
+      },
+      "description": "Keine ungeprüfte Freigabe der betroffenen Konfiguration."
+    },
+    {
+      "id": "magstadt-school-sibling-birth-rank-block",
+      "municipality_id": "magstadt",
+      "scenario_id": "couple|income-80000|nursery:360|school:480|school:480|home:480",
+      "expected": {
+        "status": "unavailable",
+        "monthly_care_cents": null,
+        "annual_care_cents": null,
+        "monthly_equivalent_cents": null
+      },
+      "required_reasons": [
+        "birth_rank_differs_from_care_rank"
+      ],
+      "evidence": {
+        "source_id": "b1a41a87c490",
+        "locator": "PDF S. 1, U3-GT8; zwölf Monate Benutzungsordnung § 6"
+      },
+      "description": "Keine ungeprüfte Freigabe der betroffenen Konfiguration."
+    },
+    {
+      "id": "no-care-confirmed-zero",
+      "municipality_id": "waiblingen",
+      "scenario_id": "couple|income-80000|school:480|home:480",
+      "expected": {
+        "status": "comparable",
+        "monthly_care_cents": 0,
+        "annual_care_cents": 0,
+        "monthly_equivalent_cents": 0
+      },
+      "required_reasons": [],
+      "evidence": {
+        "source_id": "59ecf75191ad",
+        "locator": "PDF S. 1; Einkommensbegriff § 4, Rang § 5, Essen § 6 Nr. 9 der Satzung"
+      },
+      "description": "Veröffentlichter regulärer Tabellensatz, keine Pässe; Jahresäquivalent auf zwölf Monate."
+    }
+  ]
+}

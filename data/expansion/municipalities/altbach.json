@@ -1,0 +1,966 @@
+{
+  "schema_version": "1.0",
+  "id": "altbach",
+  "name": "Altbach",
+  "reviewed_at": "2026-11-10",
+  "reference_date": "2026-11-10",
+  "scope": {
+    "included": [
+      "municipal"
+    ],
+    "other_providers": "only_with_explicit_source_evidence"
+  },
+  "family_basis": "under_18",
+  "family_evidence": {
+    "source_id": "3c42fe2d0f06",
+    "locator": "Familienbegriff und Fußnoten der Gebührenunterlagen",
+    "original": null
+  },
+  "supporting_source_ids": [
+    "3c42fe2d0f06"
+  ],
+  "offers": [
+    {
+      "id": "altbach-offer-75c9f4670218",
+      "original_label": "Kindergarten VÖ30",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": "2027-08-31",
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "kindergarten",
+      "weekly_minutes": 1800,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "3c42fe2d0f06",
+        "locator": "Gebührenjahr 2026/2027, Ziffern 1–4",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "3c42fe2d0f06",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "3c42fe2d0f06",
+        "locator": "Gebührenjahr 2026/2027, Ziffern 1–4",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "altbach-offer-c2fbe34e1568",
+      "original_label": "Kindergarten GT40",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": "2027-08-31",
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "kindergarten",
+      "weekly_minutes": 2400,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "3c42fe2d0f06",
+        "locator": "Gebührenjahr 2026/2027, Ziffern 1–4",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "3c42fe2d0f06",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "3c42fe2d0f06",
+        "locator": "Gebührenjahr 2026/2027, Ziffern 1–4",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "altbach-offer-16d547a42981",
+      "original_label": "Kindergarten U3 VÖ30",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": "2027-08-31",
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "mixed_age",
+      "weekly_minutes": 1800,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "3c42fe2d0f06",
+        "locator": "Gebührenjahr 2026/2027, Ziffern 1–4",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "3c42fe2d0f06",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "3c42fe2d0f06",
+        "locator": "Gebührenjahr 2026/2027, Ziffern 1–4",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "altbach-offer-912904e24fbf",
+      "original_label": "Kindergarten U3 GT40",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": "2027-08-31",
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "mixed_age",
+      "weekly_minutes": 2400,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "3c42fe2d0f06",
+        "locator": "Gebührenjahr 2026/2027, Ziffern 1–4",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "3c42fe2d0f06",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "3c42fe2d0f06",
+        "locator": "Gebührenjahr 2026/2027, Ziffern 1–4",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "altbach-offer-97261e956098",
+      "original_label": "Kinderkrippe VÖ30",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": "2027-08-31",
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "nursery",
+      "weekly_minutes": 1800,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "3c42fe2d0f06",
+        "locator": "Gebührenjahr 2026/2027, Ziffern 1–4",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "3c42fe2d0f06",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "3c42fe2d0f06",
+        "locator": "Gebührenjahr 2026/2027, Ziffern 1–4",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "altbach-offer-2006335e7011",
+      "original_label": "Kinderkrippe GT40",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": "2027-08-31",
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "nursery",
+      "weekly_minutes": 2400,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "3c42fe2d0f06",
+        "locator": "Gebührenjahr 2026/2027, Ziffern 1–4",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "3c42fe2d0f06",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "3c42fe2d0f06",
+        "locator": "Gebührenjahr 2026/2027, Ziffern 1–4",
+        "original": null
+      },
+      "formula": null
+    }
+  ],
+  "prices": [
+    {
+      "id": "altbach-price-61c129ce5a44",
+      "offer_id": "altbach-offer-75c9f4670218",
+      "amount_cents": 22700,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "3c42fe2d0f06",
+        "locator": "Gebührenjahr 2026/2027, Ziffern 1–4",
+        "original": 227
+      }
+    },
+    {
+      "id": "altbach-price-9793fd8d8a0d",
+      "offer_id": "altbach-offer-75c9f4670218",
+      "amount_cents": 17700,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "3c42fe2d0f06",
+        "locator": "Gebührenjahr 2026/2027, Ziffern 1–4",
+        "original": 177
+      }
+    },
+    {
+      "id": "altbach-price-1a9a4371817e",
+      "offer_id": "altbach-offer-75c9f4670218",
+      "amount_cents": 12000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "3c42fe2d0f06",
+        "locator": "Gebührenjahr 2026/2027, Ziffern 1–4",
+        "original": 120
+      }
+    },
+    {
+      "id": "altbach-price-201b25643ade",
+      "offer_id": "altbach-offer-75c9f4670218",
+      "amount_cents": 6000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "3c42fe2d0f06",
+        "locator": "Gebührenjahr 2026/2027, Ziffern 1–4",
+        "original": 60
+      }
+    },
+    {
+      "id": "altbach-price-b8ceaad0f737",
+      "offer_id": "altbach-offer-c2fbe34e1568",
+      "amount_cents": 37000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "3c42fe2d0f06",
+        "locator": "Gebührenjahr 2026/2027, Ziffern 1–4",
+        "original": 370
+      }
+    },
+    {
+      "id": "altbach-price-36ce4ef5d12d",
+      "offer_id": "altbach-offer-c2fbe34e1568",
+      "amount_cents": 28800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "3c42fe2d0f06",
+        "locator": "Gebührenjahr 2026/2027, Ziffern 1–4",
+        "original": 288
+      }
+    },
+    {
+      "id": "altbach-price-3272217c0465",
+      "offer_id": "altbach-offer-c2fbe34e1568",
+      "amount_cents": 19400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "3c42fe2d0f06",
+        "locator": "Gebührenjahr 2026/2027, Ziffern 1–4",
+        "original": 194
+      }
+    },
+    {
+      "id": "altbach-price-39fbbc14b271",
+      "offer_id": "altbach-offer-c2fbe34e1568",
+      "amount_cents": 9700,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "3c42fe2d0f06",
+        "locator": "Gebührenjahr 2026/2027, Ziffern 1–4",
+        "original": 97
+      }
+    },
+    {
+      "id": "altbach-price-bac417f32933",
+      "offer_id": "altbach-offer-16d547a42981",
+      "amount_cents": 43200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "3c42fe2d0f06",
+        "locator": "Gebührenjahr 2026/2027, Ziffern 1–4",
+        "original": 432
+      }
+    },
+    {
+      "id": "altbach-price-cec2a1ed43e2",
+      "offer_id": "altbach-offer-16d547a42981",
+      "amount_cents": 33700,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "3c42fe2d0f06",
+        "locator": "Gebührenjahr 2026/2027, Ziffern 1–4",
+        "original": 337
+      }
+    },
+    {
+      "id": "altbach-price-7c8894b725c8",
+      "offer_id": "altbach-offer-16d547a42981",
+      "amount_cents": 22800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "3c42fe2d0f06",
+        "locator": "Gebührenjahr 2026/2027, Ziffern 1–4",
+        "original": 228
+      }
+    },
+    {
+      "id": "altbach-price-9fd44e1b0872",
+      "offer_id": "altbach-offer-16d547a42981",
+      "amount_cents": 11400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "3c42fe2d0f06",
+        "locator": "Gebührenjahr 2026/2027, Ziffern 1–4",
+        "original": 114
+      }
+    },
+    {
+      "id": "altbach-price-f8cc37dab63a",
+      "offer_id": "altbach-offer-912904e24fbf",
+      "amount_cents": 70300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "3c42fe2d0f06",
+        "locator": "Gebührenjahr 2026/2027, Ziffern 1–4",
+        "original": 703
+      }
+    },
+    {
+      "id": "altbach-price-e5f9a1394f1a",
+      "offer_id": "altbach-offer-912904e24fbf",
+      "amount_cents": 54800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "3c42fe2d0f06",
+        "locator": "Gebührenjahr 2026/2027, Ziffern 1–4",
+        "original": 548
+      }
+    },
+    {
+      "id": "altbach-price-7be360b591b5",
+      "offer_id": "altbach-offer-912904e24fbf",
+      "amount_cents": 36900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "3c42fe2d0f06",
+        "locator": "Gebührenjahr 2026/2027, Ziffern 1–4",
+        "original": 369
+      }
+    },
+    {
+      "id": "altbach-price-2ab9d54fb7c5",
+      "offer_id": "altbach-offer-912904e24fbf",
+      "amount_cents": 18500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "3c42fe2d0f06",
+        "locator": "Gebührenjahr 2026/2027, Ziffern 1–4",
+        "original": 185
+      }
+    },
+    {
+      "id": "altbach-price-cdbab63c5dad",
+      "offer_id": "altbach-offer-97261e956098",
+      "amount_cents": 53700,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "3c42fe2d0f06",
+        "locator": "Gebührenjahr 2026/2027, Ziffern 1–4",
+        "original": 537
+      }
+    },
+    {
+      "id": "altbach-price-be82bc25ce66",
+      "offer_id": "altbach-offer-97261e956098",
+      "amount_cents": 39900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "3c42fe2d0f06",
+        "locator": "Gebührenjahr 2026/2027, Ziffern 1–4",
+        "original": 399
+      }
+    },
+    {
+      "id": "altbach-price-65c0011a7eff",
+      "offer_id": "altbach-offer-97261e956098",
+      "amount_cents": 26900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "3c42fe2d0f06",
+        "locator": "Gebührenjahr 2026/2027, Ziffern 1–4",
+        "original": 269
+      }
+    },
+    {
+      "id": "altbach-price-9778000696e9",
+      "offer_id": "altbach-offer-97261e956098",
+      "amount_cents": 13500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "3c42fe2d0f06",
+        "locator": "Gebührenjahr 2026/2027, Ziffern 1–4",
+        "original": 135
+      }
+    },
+    {
+      "id": "altbach-price-47baba6a4da2",
+      "offer_id": "altbach-offer-2006335e7011",
+      "amount_cents": 71600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "3c42fe2d0f06",
+        "locator": "Gebührenjahr 2026/2027, Ziffern 1–4",
+        "original": 716
+      }
+    },
+    {
+      "id": "altbach-price-3df702d975ce",
+      "offer_id": "altbach-offer-2006335e7011",
+      "amount_cents": 53200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "3c42fe2d0f06",
+        "locator": "Gebührenjahr 2026/2027, Ziffern 1–4",
+        "original": 532
+      }
+    },
+    {
+      "id": "altbach-price-9e2d1daa25aa",
+      "offer_id": "altbach-offer-2006335e7011",
+      "amount_cents": 35900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "3c42fe2d0f06",
+        "locator": "Gebührenjahr 2026/2027, Ziffern 1–4",
+        "original": 359
+      }
+    },
+    {
+      "id": "altbach-price-f6ff1e4d590e",
+      "offer_id": "altbach-offer-2006335e7011",
+      "amount_cents": 18000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "3c42fe2d0f06",
+        "locator": "Gebührenjahr 2026/2027, Ziffern 1–4",
+        "original": 180
+      }
+    }
+  ],
+  "income_bands": [],
+  "components": [
+    {
+      "id": "altbach-component-e8c1e3ed0cf8",
+      "kind": "meal",
+      "original_label": "Mittagessen 1 Tage/Woche",
+      "amount_cents": 2100,
+      "unit": "per_month",
+      "age_group": null,
+      "required": null,
+      "payment_months": 11,
+      "offer_ids": null,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "3c42fe2d0f06",
+        "locator": "Ziffer 5 Mittagessen",
+        "original": null
+      },
+      "days_per_week": 1
+    },
+    {
+      "id": "altbach-component-5ff235c36636",
+      "kind": "meal",
+      "original_label": "Mittagessen 2 Tage/Woche",
+      "amount_cents": 4100,
+      "unit": "per_month",
+      "age_group": null,
+      "required": null,
+      "payment_months": 11,
+      "offer_ids": null,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "3c42fe2d0f06",
+        "locator": "Ziffer 5 Mittagessen",
+        "original": null
+      },
+      "days_per_week": 2
+    },
+    {
+      "id": "altbach-component-eeaf4f0ff66f",
+      "kind": "meal",
+      "original_label": "Mittagessen 3 Tage/Woche",
+      "amount_cents": 6200,
+      "unit": "per_month",
+      "age_group": null,
+      "required": null,
+      "payment_months": 11,
+      "offer_ids": null,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "3c42fe2d0f06",
+        "locator": "Ziffer 5 Mittagessen",
+        "original": null
+      },
+      "days_per_week": 3
+    },
+    {
+      "id": "altbach-component-dd97c90c88e0",
+      "kind": "meal",
+      "original_label": "Mittagessen 4 Tage/Woche",
+      "amount_cents": 8200,
+      "unit": "per_month",
+      "age_group": null,
+      "required": null,
+      "payment_months": 11,
+      "offer_ids": null,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "3c42fe2d0f06",
+        "locator": "Ziffer 5 Mittagessen",
+        "original": null
+      },
+      "days_per_week": 4
+    },
+    {
+      "id": "altbach-component-6002fdbc58e8",
+      "kind": "meal",
+      "original_label": "Mittagessen 5 Tage/Woche",
+      "amount_cents": 10200,
+      "unit": "per_month",
+      "age_group": null,
+      "required": null,
+      "payment_months": 11,
+      "offer_ids": null,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "3c42fe2d0f06",
+        "locator": "Ziffer 5 Mittagessen",
+        "original": null
+      },
+      "days_per_week": 5
+    }
+  ],
+  "rules": [
+    {
+      "id": "altbach-rule-983cecd28d35",
+      "kind": "source_provisions_3c42fe2d0f06",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "archive_text_path": "data/sources/3c42fe2d0f06/text.txt",
+        "text_sha256": "385e8620407d0374c595785965aa92fc2d91fa814c581c10b24abdeb536ffbc5",
+        "review_status": "archived_provisions_preserved"
+      },
+      "evidence": {
+        "source_id": "3c42fe2d0f06",
+        "locator": "Vollständiger archivierter Dokumenttext einschließlich Fußnoten",
+        "original": null
+      }
+    },
+    {
+      "id": "altbach-rule-e7a260cd9c36",
+      "kind": "source_clause_3c42fe2d0f06_1_1",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 0,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "3c42fe2d0f06",
+        "locator": "PDF-/Textseite 1, Absatzblock 1",
+        "original": null
+      }
+    },
+    {
+      "id": "altbach-rule-a5dd6a75dc06",
+      "kind": "source_clause_3c42fe2d0f06_2_3",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 1,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "3c42fe2d0f06",
+        "locator": "PDF-/Textseite 2, Absatzblock 3",
+        "original": null
+      }
+    },
+    {
+      "id": "altbach-rule-1d4c17385df3",
+      "kind": "source_clause_3c42fe2d0f06_2_6",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 2,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "3c42fe2d0f06",
+        "locator": "PDF-/Textseite 2, Absatzblock 6",
+        "original": null
+      }
+    },
+    {
+      "id": "altbach-rule-cc3258528958",
+      "kind": "source_clause_3c42fe2d0f06_2_7",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 3,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "3c42fe2d0f06",
+        "locator": "PDF-/Textseite 2, Absatzblock 7",
+        "original": null
+      }
+    }
+  ],
+  "issues": [
+    {
+      "code": "pending_calculation_review",
+      "detail": "Strukturierter Import; noch keine Freigabe des Rechners oder der Website."
+    },
+    {
+      "code": "research_limitation_1",
+      "detail": "Die Tagesverteilung des 40-Stunden-Pakets muss vor dem strengen 5×8-Stunden-Vergleich zusätzlich belegt werden."
+    }
+  ],
+  "coverage": {
+    "publication_status": "not_active",
+    "integration_status": "normalized_pending_calculation_review",
+    "history_in_scope": false,
+    "source_register": "data/research/neighbor_expansion_2026-11-10.json",
+    "research_id": "altbach",
+    "unavailable_configurations": [],
+    "validity_basis": "published_school_year_2026_2027",
+    "validity_start_verification": "derived_school_year_start_not_independently_dated",
+    "offers": 6,
+    "price_cells": 24,
+    "income_bands": 0,
+    "components": 5,
+    "rule_records": 5,
+    "tariff_table_transcription": "complete_for_declared_scope",
+    "declared_scope": "Aktuelle und bereits veröffentlichte künftige Krippen- und Kindergartentarife; Zusatzkosten und Gebührenregeln.",
+    "excluded_from_regular_price_rows": [
+      "superseded_historical_tariffs",
+      "school_childcare",
+      "takki_and_childminding",
+      "separate_playgroups"
+    ],
+    "calculation_engine_changed": false,
+    "rule_transcription": "typed_parameters_and_source_clauses_with_explicit_unimplemented_status"
+  },
+  "original_research": {
+    "path": "data/research/neighbor_expansion_2026-11-10.json",
+    "section": "Altbach",
+    "text": "U3 ist nicht ein einziger Preis: AM-GT 703 €, Krippen-GT 716 € bei einem Kind. Beide Angebotsarten erhalten.\nDie Tagesverteilung des 40-Stunden-Pakets muss vor dem strengen 5×8-Stunden-Vergleich zusätzlich belegt werden.",
+    "source_clauses": [
+      {
+        "text": "Gebühren für das Kindergartenjahr 2026/2027\n    (11 Monatsbeiträge pro Jahr – der August ist immer beitragsfrei)",
+        "evidence": {
+          "source_id": "3c42fe2d0f06",
+          "locator": "PDF-/Textseite 1, Absatzblock 1",
+          "original": null
+        }
+      },
+      {
+        "text": "5. Mittagessen\n In den Gebühren unter Ziffer 1. bis 4. ist kein Mittagessen enthalten.\n Die Gebühr für das Mittagessen wird ebenfalls in 11 Monatsbeiträgen erhoben, der\n August ist auch hier beitragsfrei.",
+        "evidence": {
+          "source_id": "3c42fe2d0f06",
+          "locator": "PDF-/Textseite 2, Absatzblock 3",
+          "original": null
+        }
+      },
+      {
+        "text": "Bitte beachten Sie, dass bei der Berechnung der Anzahl der Kinder in der Familie nur\n Kinder unter 18 Jahre zählen, die im gleichen Haushalt wie das Kindergartenkind\n gemeldet sind (mit Hauptwohnung). Änderungen sind von Ihnen zu melden.\n Gegebenenfalls müssen die Gebühren nacherhoben werden.",
+        "evidence": {
+          "source_id": "3c42fe2d0f06",
+          "locator": "PDF-/Textseite 2, Absatzblock 6",
+          "original": null
+        }
+      },
+      {
+        "text": "Familien, deren Einkommen unter einer bestimmten Grenze liegt, können einen\n Zuschuss zu den Gebühren für die Kinderbetreuung beantragen. Auskünfte erteilt das\n Landratsamt Esslingen, Kreisjugendamt, Abteilung Wirtschaftliche Jugendhilfe.",
+        "evidence": {
+          "source_id": "3c42fe2d0f06",
+          "locator": "PDF-/Textseite 2, Absatzblock 7",
+          "original": null
+        }
+      }
+    ]
+  }
+}

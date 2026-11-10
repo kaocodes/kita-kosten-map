@@ -1,0 +1,1298 @@
+{
+  "schema_version": "1.0",
+  "id": "renningen",
+  "name": "Renningen",
+  "reviewed_at": "2026-11-10",
+  "reference_date": "2026-11-10",
+  "scope": {
+    "included": [
+      "municipal"
+    ],
+    "other_providers": "only_with_explicit_source_evidence"
+  },
+  "family_basis": "under_18",
+  "family_evidence": {
+    "source_id": "bb4cc2c68bd2",
+    "locator": "Familienbegriff und Fußnoten der Gebührenunterlagen",
+    "original": null
+  },
+  "supporting_source_ids": [
+    "bb4cc2c68bd2",
+    "9cb2d5d59c60"
+  ],
+  "offers": [
+    {
+      "id": "renningen-offer-457548230e9b",
+      "original_label": "VÖ30",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": "2027-08-31",
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 1800,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "bb4cc2c68bd2",
+        "locator": "PDF S. 9, Krippe ab 2026-09-01",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "bb4cc2c68bd2",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "bb4cc2c68bd2",
+        "locator": "PDF S. 9, Krippe ab 2026-09-01",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "renningen-offer-e076982c8054",
+      "original_label": "GT40",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": "2027-08-31",
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2400,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "bb4cc2c68bd2",
+        "locator": "PDF S. 9, Krippe ab 2026-09-01",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "bb4cc2c68bd2",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "bb4cc2c68bd2",
+        "locator": "PDF S. 9, Krippe ab 2026-09-01",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "renningen-offer-cbc9c54ddea2",
+      "original_label": "VÖ30",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2027-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2027-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 1800,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "bb4cc2c68bd2",
+        "locator": "PDF S. 9, Krippe ab 2027-09-01",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "bb4cc2c68bd2",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "bb4cc2c68bd2",
+        "locator": "PDF S. 9, Krippe ab 2027-09-01",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "renningen-offer-013e0449e4b9",
+      "original_label": "GT40",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2027-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2027-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2400,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "bb4cc2c68bd2",
+        "locator": "PDF S. 9, Krippe ab 2027-09-01",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "bb4cc2c68bd2",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "bb4cc2c68bd2",
+        "locator": "PDF S. 9, Krippe ab 2027-09-01",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "renningen-offer-96611d5a3ba0",
+      "original_label": "VÖ monatlicher Festbetrag",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": "2027-08-31",
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": null,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "bb4cc2c68bd2",
+        "locator": "PDF S. 10, VÖ ab 2026-09-01",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "bb4cc2c68bd2",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "bb4cc2c68bd2",
+        "locator": "PDF S. 10, VÖ ab 2026-09-01",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "renningen-offer-935ed2bdad41",
+      "original_label": "GT40 nach Stundenformel",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": "2027-08-31",
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2400,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "bb4cc2c68bd2",
+        "locator": "§ 3 Angebotszeiten; S. 10 Stundenparameter",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "bb4cc2c68bd2",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "bb4cc2c68bd2",
+        "locator": "§ 3 Angebotszeiten; S. 10 Stundenparameter",
+        "original": null
+      },
+      "formula": {
+        "type": "documented_hourly_parameters",
+        "base_amounts_cents_per_hour": [
+          161,
+          125,
+          85,
+          28
+        ],
+        "additional_hour_from_31_cents": 246,
+        "execution_status": "requires_calculation_review"
+      }
+    },
+    {
+      "id": "renningen-offer-e950fd0ce622",
+      "original_label": "GT46 nach Stundenformel",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": "2027-08-31",
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2760,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "bb4cc2c68bd2",
+        "locator": "§ 3 Angebotszeiten; S. 10 Stundenparameter",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "bb4cc2c68bd2",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "bb4cc2c68bd2",
+        "locator": "§ 3 Angebotszeiten; S. 10 Stundenparameter",
+        "original": null
+      },
+      "formula": {
+        "type": "documented_hourly_parameters",
+        "base_amounts_cents_per_hour": [
+          161,
+          125,
+          85,
+          28
+        ],
+        "additional_hour_from_31_cents": 246,
+        "execution_status": "requires_calculation_review"
+      }
+    },
+    {
+      "id": "renningen-offer-a7e39eeebc45",
+      "original_label": "VÖ monatlicher Festbetrag",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2027-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2027-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": null,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "bb4cc2c68bd2",
+        "locator": "PDF S. 10, VÖ ab 2027-09-01",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "bb4cc2c68bd2",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "bb4cc2c68bd2",
+        "locator": "PDF S. 10, VÖ ab 2027-09-01",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "renningen-offer-8c42795b08c4",
+      "original_label": "GT40 nach Stundenformel",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2027-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2027-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2400,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "bb4cc2c68bd2",
+        "locator": "§ 3 Angebotszeiten; S. 10 Stundenparameter",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "bb4cc2c68bd2",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "bb4cc2c68bd2",
+        "locator": "§ 3 Angebotszeiten; S. 10 Stundenparameter",
+        "original": null
+      },
+      "formula": {
+        "type": "documented_hourly_parameters",
+        "base_amounts_cents_per_hour": [
+          168,
+          130,
+          89,
+          29
+        ],
+        "additional_hour_from_31_cents": 256,
+        "execution_status": "requires_calculation_review"
+      }
+    },
+    {
+      "id": "renningen-offer-80a628a90e02",
+      "original_label": "GT46 nach Stundenformel",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2027-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2027-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2760,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "bb4cc2c68bd2",
+        "locator": "§ 3 Angebotszeiten; S. 10 Stundenparameter",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "bb4cc2c68bd2",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "bb4cc2c68bd2",
+        "locator": "§ 3 Angebotszeiten; S. 10 Stundenparameter",
+        "original": null
+      },
+      "formula": {
+        "type": "documented_hourly_parameters",
+        "base_amounts_cents_per_hour": [
+          168,
+          130,
+          89,
+          29
+        ],
+        "additional_hour_from_31_cents": 256,
+        "execution_status": "requires_calculation_review"
+      }
+    }
+  ],
+  "prices": [
+    {
+      "id": "renningen-price-d76e5ecc8c6d",
+      "offer_id": "renningen-offer-457548230e9b",
+      "amount_cents": 49200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "bb4cc2c68bd2",
+        "locator": "PDF S. 9, Krippe ab 2026-09-01",
+        "original": 49200
+      }
+    },
+    {
+      "id": "renningen-price-721dd395b60f",
+      "offer_id": "renningen-offer-457548230e9b",
+      "amount_cents": 36600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "bb4cc2c68bd2",
+        "locator": "PDF S. 9, Krippe ab 2026-09-01",
+        "original": 36600
+      }
+    },
+    {
+      "id": "renningen-price-a2fd921cde53",
+      "offer_id": "renningen-offer-457548230e9b",
+      "amount_cents": 24700,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "bb4cc2c68bd2",
+        "locator": "PDF S. 9, Krippe ab 2026-09-01",
+        "original": 24700
+      }
+    },
+    {
+      "id": "renningen-price-6b287bd8cd86",
+      "offer_id": "renningen-offer-457548230e9b",
+      "amount_cents": 9700,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "bb4cc2c68bd2",
+        "locator": "PDF S. 9, Krippe ab 2026-09-01",
+        "original": 9700
+      }
+    },
+    {
+      "id": "renningen-price-4ac55900f429",
+      "offer_id": "renningen-offer-e076982c8054",
+      "amount_cents": 65600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "bb4cc2c68bd2",
+        "locator": "PDF S. 9, Krippe ab 2026-09-01",
+        "original": 65600
+      }
+    },
+    {
+      "id": "renningen-price-0a90fb998fc0",
+      "offer_id": "renningen-offer-e076982c8054",
+      "amount_cents": 48800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "bb4cc2c68bd2",
+        "locator": "PDF S. 9, Krippe ab 2026-09-01",
+        "original": 48800
+      }
+    },
+    {
+      "id": "renningen-price-39f4e36b8d3d",
+      "offer_id": "renningen-offer-e076982c8054",
+      "amount_cents": 32900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "bb4cc2c68bd2",
+        "locator": "PDF S. 9, Krippe ab 2026-09-01",
+        "original": 32900
+      }
+    },
+    {
+      "id": "renningen-price-f14826442ae6",
+      "offer_id": "renningen-offer-e076982c8054",
+      "amount_cents": 12900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "bb4cc2c68bd2",
+        "locator": "PDF S. 9, Krippe ab 2026-09-01",
+        "original": 12900
+      }
+    },
+    {
+      "id": "renningen-price-85fe2a3570dc",
+      "offer_id": "renningen-offer-cbc9c54ddea2",
+      "amount_cents": 51200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "bb4cc2c68bd2",
+        "locator": "PDF S. 9, Krippe ab 2027-09-01",
+        "original": 51200
+      }
+    },
+    {
+      "id": "renningen-price-f64efc66edb2",
+      "offer_id": "renningen-offer-cbc9c54ddea2",
+      "amount_cents": 38100,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "bb4cc2c68bd2",
+        "locator": "PDF S. 9, Krippe ab 2027-09-01",
+        "original": 38100
+      }
+    },
+    {
+      "id": "renningen-price-3df940681fb8",
+      "offer_id": "renningen-offer-cbc9c54ddea2",
+      "amount_cents": 25700,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "bb4cc2c68bd2",
+        "locator": "PDF S. 9, Krippe ab 2027-09-01",
+        "original": 25700
+      }
+    },
+    {
+      "id": "renningen-price-dd15e1f87262",
+      "offer_id": "renningen-offer-cbc9c54ddea2",
+      "amount_cents": 10100,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "bb4cc2c68bd2",
+        "locator": "PDF S. 9, Krippe ab 2027-09-01",
+        "original": 10100
+      }
+    },
+    {
+      "id": "renningen-price-36fc94da3c28",
+      "offer_id": "renningen-offer-013e0449e4b9",
+      "amount_cents": 68300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "bb4cc2c68bd2",
+        "locator": "PDF S. 9, Krippe ab 2027-09-01",
+        "original": 68300
+      }
+    },
+    {
+      "id": "renningen-price-8be83d27592f",
+      "offer_id": "renningen-offer-013e0449e4b9",
+      "amount_cents": 50800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "bb4cc2c68bd2",
+        "locator": "PDF S. 9, Krippe ab 2027-09-01",
+        "original": 50800
+      }
+    },
+    {
+      "id": "renningen-price-474b091eb4c3",
+      "offer_id": "renningen-offer-013e0449e4b9",
+      "amount_cents": 34300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "bb4cc2c68bd2",
+        "locator": "PDF S. 9, Krippe ab 2027-09-01",
+        "original": 34300
+      }
+    },
+    {
+      "id": "renningen-price-69a2b9e4e87c",
+      "offer_id": "renningen-offer-013e0449e4b9",
+      "amount_cents": 13500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "bb4cc2c68bd2",
+        "locator": "PDF S. 9, Krippe ab 2027-09-01",
+        "original": 13500
+      }
+    },
+    {
+      "id": "renningen-price-776ff57d52ca",
+      "offer_id": "renningen-offer-96611d5a3ba0",
+      "amount_cents": 20800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "bb4cc2c68bd2",
+        "locator": "PDF S. 10, VÖ ab 2026-09-01",
+        "original": 20800
+      }
+    },
+    {
+      "id": "renningen-price-e17d0dc3650b",
+      "offer_id": "renningen-offer-96611d5a3ba0",
+      "amount_cents": 16100,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "bb4cc2c68bd2",
+        "locator": "PDF S. 10, VÖ ab 2026-09-01",
+        "original": 16100
+      }
+    },
+    {
+      "id": "renningen-price-88c7ed94c3f6",
+      "offer_id": "renningen-offer-96611d5a3ba0",
+      "amount_cents": 11000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "bb4cc2c68bd2",
+        "locator": "PDF S. 10, VÖ ab 2026-09-01",
+        "original": 11000
+      }
+    },
+    {
+      "id": "renningen-price-8befea7ed292",
+      "offer_id": "renningen-offer-96611d5a3ba0",
+      "amount_cents": 3600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "bb4cc2c68bd2",
+        "locator": "PDF S. 10, VÖ ab 2026-09-01",
+        "original": 3600
+      }
+    },
+    {
+      "id": "renningen-price-8d1fa98bb910",
+      "offer_id": "renningen-offer-a7e39eeebc45",
+      "amount_cents": 21600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "bb4cc2c68bd2",
+        "locator": "PDF S. 10, VÖ ab 2027-09-01",
+        "original": 21600
+      }
+    },
+    {
+      "id": "renningen-price-cb9d874c7e96",
+      "offer_id": "renningen-offer-a7e39eeebc45",
+      "amount_cents": 16800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "bb4cc2c68bd2",
+        "locator": "PDF S. 10, VÖ ab 2027-09-01",
+        "original": 16800
+      }
+    },
+    {
+      "id": "renningen-price-a127296fef68",
+      "offer_id": "renningen-offer-a7e39eeebc45",
+      "amount_cents": 11500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "bb4cc2c68bd2",
+        "locator": "PDF S. 10, VÖ ab 2027-09-01",
+        "original": 11500
+      }
+    },
+    {
+      "id": "renningen-price-16a7fb3bf749",
+      "offer_id": "renningen-offer-a7e39eeebc45",
+      "amount_cents": 3800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "bb4cc2c68bd2",
+        "locator": "PDF S. 10, VÖ ab 2027-09-01",
+        "original": 3800
+      }
+    }
+  ],
+  "income_bands": [],
+  "components": [
+    {
+      "id": "renningen-component-ad22ee9b7191",
+      "kind": "meal",
+      "original_label": "Mittagessen kostendeckend zusätzlich",
+      "amount_cents": null,
+      "unit": "per_month",
+      "age_group": null,
+      "required": null,
+      "payment_months": null,
+      "offer_ids": null,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "value_status": "unknown",
+      "evidence": {
+        "source_id": "bb4cc2c68bd2",
+        "locator": "Fußnote unter den Tabellen",
+        "original": null
+      }
+    }
+  ],
+  "rules": [
+    {
+      "id": "renningen-rule-ee06eebe465c",
+      "kind": "hourly_fee_parameters_2026",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "valid_from": "2026-09-01",
+        "base_amounts_cents_per_hour": [
+          161,
+          125,
+          85,
+          28
+        ],
+        "additional_hour_from_31_cents": 246,
+        "monthly_conversion_factor": null,
+        "conversion_status": "requires_calculation_review_not_inferred"
+      },
+      "evidence": {
+        "source_id": "bb4cc2c68bd2",
+        "locator": "PDF S. 10, Gebühr je Stunde der wöchentlichen Betreuungszeit; kein Monatsbeitrag",
+        "original": null
+      }
+    },
+    {
+      "id": "renningen-rule-c58831df8e53",
+      "kind": "hourly_fee_parameters_2027",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "valid_from": "2027-09-01",
+        "base_amounts_cents_per_hour": [
+          168,
+          130,
+          89,
+          29
+        ],
+        "additional_hour_from_31_cents": 256,
+        "monthly_conversion_factor": null,
+        "conversion_status": "requires_calculation_review_not_inferred"
+      },
+      "evidence": {
+        "source_id": "bb4cc2c68bd2",
+        "locator": "PDF S. 10, Gebühr je Stunde der wöchentlichen Betreuungszeit; kein Monatsbeitrag",
+        "original": null
+      }
+    },
+    {
+      "id": "renningen-rule-b3a17cc2aed1",
+      "kind": "playgroups_outside_comparison",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "monthly_amounts_cents_by_date": {
+          "2026-09-01": 8000,
+          "2027-09-01": 8300
+        },
+        "not_regular_nursery": true
+      },
+      "evidence": {
+        "source_id": "bb4cc2c68bd2",
+        "locator": "§ 7 und gesonderte Spielgruppentarife",
+        "original": null
+      }
+    },
+    {
+      "id": "renningen-rule-e09b0259fdc6",
+      "kind": "source_provisions_bb4cc2c68bd2",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "archive_text_path": "data/sources/bb4cc2c68bd2/text.txt",
+        "text_sha256": "65df60811ccda8b3dd12154ba31d6257c9527b3c375254bd36c7f98e5f54f4bf",
+        "review_status": "archived_provisions_preserved"
+      },
+      "evidence": {
+        "source_id": "bb4cc2c68bd2",
+        "locator": "Vollständiger archivierter Dokumenttext einschließlich Fußnoten",
+        "original": null
+      }
+    },
+    {
+      "id": "renningen-rule-2de7c353df40",
+      "kind": "source_clause_bb4cc2c68bd2_1_1",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 0,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "bb4cc2c68bd2",
+        "locator": "PDF-/Textseite 1, Absatzblock 1",
+        "original": null
+      }
+    },
+    {
+      "id": "renningen-rule-0aa07bfca3eb",
+      "kind": "source_clause_bb4cc2c68bd2_1_2",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 1,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "bb4cc2c68bd2",
+        "locator": "PDF-/Textseite 1, Absatzblock 2",
+        "original": null
+      }
+    },
+    {
+      "id": "renningen-rule-e1d204c17765",
+      "kind": "source_clause_bb4cc2c68bd2_4_4",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 2,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "bb4cc2c68bd2",
+        "locator": "PDF-/Textseite 4, Absatzblock 4",
+        "original": null
+      }
+    },
+    {
+      "id": "renningen-rule-b471e36b1686",
+      "kind": "source_clause_bb4cc2c68bd2_5_3",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 3,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "bb4cc2c68bd2",
+        "locator": "PDF-/Textseite 5, Absatzblock 3",
+        "original": null
+      }
+    },
+    {
+      "id": "renningen-rule-4755ecd7cf06",
+      "kind": "source_clause_bb4cc2c68bd2_6_1",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 4,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "bb4cc2c68bd2",
+        "locator": "PDF-/Textseite 6, Absatzblock 1",
+        "original": null
+      }
+    },
+    {
+      "id": "renningen-rule-632b0b3829b3",
+      "kind": "source_clause_bb4cc2c68bd2_6_2",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 5,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "bb4cc2c68bd2",
+        "locator": "PDF-/Textseite 6, Absatzblock 2",
+        "original": null
+      }
+    },
+    {
+      "id": "renningen-rule-80fe327f995c",
+      "kind": "source_clause_bb4cc2c68bd2_7_6",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 6,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "bb4cc2c68bd2",
+        "locator": "PDF-/Textseite 7, Absatzblock 6",
+        "original": null
+      }
+    },
+    {
+      "id": "renningen-rule-a8150c1a2727",
+      "kind": "source_clause_bb4cc2c68bd2_8_1",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 7,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "bb4cc2c68bd2",
+        "locator": "PDF-/Textseite 8, Absatzblock 1",
+        "original": null
+      }
+    },
+    {
+      "id": "renningen-rule-5050b893c037",
+      "kind": "source_clause_bb4cc2c68bd2_9_1",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 8,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "bb4cc2c68bd2",
+        "locator": "PDF-/Textseite 9, Absatzblock 1",
+        "original": null
+      }
+    },
+    {
+      "id": "renningen-rule-f3cd21b867d3",
+      "kind": "source_clause_bb4cc2c68bd2_10_2",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 9,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "bb4cc2c68bd2",
+        "locator": "PDF-/Textseite 10, Absatzblock 2",
+        "original": null
+      }
+    },
+    {
+      "id": "renningen-rule-cd772a8e6153",
+      "kind": "source_provisions_9cb2d5d59c60",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "archive_text_path": "data/sources/9cb2d5d59c60/text.txt",
+        "text_sha256": "5bfa4d69b15d97b6734f5bbe87b30bf0db2e331109b9810eaa93baebf8996816",
+        "review_status": "archived_provisions_preserved"
+      },
+      "evidence": {
+        "source_id": "9cb2d5d59c60",
+        "locator": "Vollständiger archivierter Dokumenttext einschließlich Fußnoten",
+        "original": null
+      }
+    },
+    {
+      "id": "renningen-rule-18d6e2916b1d",
+      "kind": "source_clause_9cb2d5d59c60_1_1",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 10,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "9cb2d5d59c60",
+        "locator": "PDF-/Textseite 1, Absatzblock 1",
+        "original": null
+      }
+    }
+  ],
+  "issues": [
+    {
+      "code": "pending_calculation_review",
+      "detail": "Strukturierter Import; noch keine Freigabe des Rechners oder der Website."
+    },
+    {
+      "code": "research_limitation_1",
+      "detail": "Ü3-Grundpreis, Stundenfaktor und Zuschlag gemäß Satzung zusammen modellieren; der einzelne Stundenwert ist kein Monatsbeitrag."
+    },
+    {
+      "code": "research_limitation_2",
+      "detail": "Verpflegung kostendeckend zusätzlich, fester Betrag in der Quelle nicht ausgewiesen."
+    }
+  ],
+  "coverage": {
+    "publication_status": "not_active",
+    "integration_status": "normalized_pending_calculation_review",
+    "history_in_scope": false,
+    "source_register": "data/research/neighbor_expansion_2026-11-10.json",
+    "research_id": "renningen",
+    "unavailable_configurations": [],
+    "offers": 10,
+    "price_cells": 24,
+    "income_bands": 0,
+    "components": 1,
+    "rule_records": 16,
+    "tariff_table_transcription": "complete_for_declared_scope",
+    "declared_scope": "Aktuelle und bereits veröffentlichte künftige Krippen- und Kindergartentarife; Zusatzkosten und Gebührenregeln.",
+    "excluded_from_regular_price_rows": [
+      "superseded_historical_tariffs",
+      "school_childcare",
+      "takki_and_childminding",
+      "separate_playgroups"
+    ],
+    "calculation_engine_changed": false,
+    "rule_transcription": "typed_parameters_and_source_clauses_with_explicit_unimplemented_status"
+  },
+  "original_research": {
+    "path": "data/research/neighbor_expansion_2026-11-10.json",
+    "section": "Renningen",
+    "text": "Die Tariftabellen auf den letzten zwei PDF-Seiten sind Bildobjekte und fehlen weitgehend im automatischen Textauszug. Sie wurden visuell gelesen.\nÜ3-Grundpreis, Stundenfaktor und Zuschlag gemäß Satzung zusammen modellieren; der einzelne Stundenwert ist kein Monatsbeitrag.\nVerpflegung kostendeckend zusätzlich, fester Betrag in der Quelle nicht ausgewiesen.",
+    "source_clauses": [
+      {
+        "text": "Stadt Renningen        Benutzungs- und Gebührensatzung für die Kin-\nKreis Böblingen        dertageseinrichtungen/Spielgruppen der Stadt\n                                        Renningen",
+        "evidence": {
+          "source_id": "bb4cc2c68bd2",
+          "locator": "PDF-/Textseite 1, Absatzblock 1",
+          "original": null
+        }
+      },
+      {
+        "text": "Aufgrund von § 4 der Gemeindeordnung für Baden-Württemberg i.V. mit den §§ 2 und 13 des\nKommunalabgabengesetzes hat der Gemeinderat am 23.11.2020 folgende Benutzungs- und\nGebührensatzung für die Kindertageseinrichtungen/Spielgruppen der Stadt Renningen be-\nschlossen (1. Änderung vom 19.07.2021, 2. Änderung vom 18.07.2022, 3. Änderung vom\n17.07.2023, 4. Änderung vom 17.07.2024 und 5. Änderung vom 22.06.2026 sind eingearbei-\ntet):",
+        "evidence": {
+          "source_id": "bb4cc2c68bd2",
+          "locator": "PDF-/Textseite 1, Absatzblock 2",
+          "original": null
+        }
+      },
+      {
+        "text": "(2) Die Personensorgeberechtigten können das Benutzungsverhältnis durch schriftliche Kün-\n    digung grundsätzlich mit einer Frist von vier Wochen zum Monatsende beenden. Die be-\n    sonderen Regelungen in den Absätzen 4 und 5 gehen dieser allgemeinen Kündigungsre-\n    gelung vor. Die Kündigungsfrist läuft ab dem Tag des Eingangs der Kündigung bei der\n    Stadt Renningen.\n(3) Die Stadt Renningen als Träger der Kindertageseinrichtungen/Spielgruppen kann ein Be-\n    nutzungsverhältnis durch schriftliche Kündigung mit einer Frist von vier Wochen zum Mo-\n    natsende beenden oder die Betreuungszeiten einschränken. Gründe können u.a. sein:\n    • das unentschuldigte Fehlen des Kindes über einen zusammenhängenden Zeitraum\n        von mehr als vier Wochen;\n    • die Einschätzung der Leitung der Kindertageseinrichtung und der pädagogischen Ge-\n        samtleitung, dass das Kind besonderer Unterstützung bedarf, die die Kindertagesein-\n        richtung/Spielgruppe trotz erheblicher Bemühungen nicht leisten kann und/oder der\n        Aufenthalt in einer Kindertageseinrichtung/Spielgruppe das Wohl des betroffenen Kin-\n        des oder anderer Kinder negativ beeinträchtigt;\n    • die Tatsache, dass die Eltern und Personensorgeberechtigten durch unangemessenes\n        Verhalten den geordneten Betrieb der Kindertageseinrichtung/Spielgruppe wiederholt\n        und in unzumutbarer Weise stören;\n    • die Nichtentrichtung der Benutzungsgebühren für zwei Monate;\n    • die Tatsache, dass auch nach einem mit dem Träger geführten Einigungsgespräch\n        nicht auszuräumende erhebliche Auffassungsunterschiede zwischen Personensorge-\n        berechtigten und der Leitung der Kindertageseinrichtung/Spielgruppe über das päda-\n        gogische Konzept und/oder eine dem Kind angemessene Förderung in der Kinderta-\n        geseinrichtung/Spielgruppe bestehen.\n    • die Tatsache, dass das Vertrauensverhältnis zwischen dem Personal der Kindertages-\n        einrichtungen und den Personensorgeberechtigten in einem Maße gestört ist, in dem\n        eine Beeinträchtigung der Erziehungs- und Bildungspartnerschaft nicht mehr ausge-\n        schlossen werden kann.\n(4) Für Kinder, die aufgrund der Vollendung des dritten Lebensjahres aus der Kinderkrippe\n    oder der Spielgruppe ausscheiden, ist eine Kündigung des Benutzungsverhältnisses nicht\n    erforderlich. Das Benutzungsverhältnis endet mit dem Wechsel in einen Renninger Kin-\n    dergarten, oder, falls das Kind nicht in einen Renninger Kindergarten wechselt, spätestens\n    zum Ende des Monats, in dem das Kind das dritten Lebensjahr vollendet.\n(5) Für Kinder, die regulär gemäß der Stichtagsregelung vom Kindergarten in die Schule über-\n    gehen, ist eine Kündigung des Benutzungsverhältnisses nicht erforderlich. Das Benut-\n    zungsverhältnis endet zum Ende des Kindergartenjahres (31.08.). Eine vorzeitige Kündi-\n    gung des Benutzungsverhältnisses durch die Personensorgeberechtigten für ein Kind, re-\n    gulär gemäß der Stichtagsregelung in die Schule übergeht, ist mit einer Frist von vier Wo-\n    chen zum 30.04. des Jahres letztmalig möglich; bei einem Wechsel in einen Kindergarten\n    eines anderen Trägers oder bei Wegzug gilt die allgemeine Kündigungsregelung nach Ab-\n    satz 2. Sofern ein „Kann-Kind“ gemäß der Stichtagesregelung bereits vorzeitig in die\n    Schule übergeht, muss der Kindergartenplatz mit einem Vorlauf von vier Wochen zum\n    Ende des Kindergartenjahres (31.08.) gekündigt werden.",
+        "evidence": {
+          "source_id": "bb4cc2c68bd2",
+          "locator": "PDF-/Textseite 4, Absatzblock 4",
+          "original": null
+        }
+      },
+      {
+        "text": "§ 7 Benutzungsgebühren, Verpflegungskosten\n(1) Für den Besuch der Kindertageseinrichtung/Spielgruppe wird eine monatliche Benut-\n    zungsgebühr erhoben. Diese Gebühren werden je Kind und Betreuungsplatz erhoben. Die\n    Höhe der Benutzungsgebühren ergibt sich aus der Anlage zu dieser Satzung, die Bestand-\n    teil dieses Regelwerks ist. Bei Betreuungsangeboten mit Verpflegungsleistungen werden\n    neben den Benutzungsgebühren kostendeckend privatrechtliche Verpflegungskosten ge-\n    sondert erhoben und monatlich abgerechnet.\n(2) Gebühren-/Kostenschuldner sind die Personensorgeberechtigten. Mehrere Schuldner haf-\n    ten als Gesamtschuldner.\n(3) Die Benutzungsgebühr wird jeweils für einen Kalendermonat erhoben und monatlich im\n    Voraus im Wege des Abbuchungsverfahrens vom Konto des Gebührenschuldners einge-\n    zogen.\n(4) Da die Benutzungsgebühr eine Beteiligung an den gesamten Betriebskosten der Kinder-\n    tageseinrichtungen/Spielgruppen darstellt, ist diese auf zwölf Monate im Jahr kalkuliert und\n    deshalb z.B. auch während der Ferien, bei vorübergehender Schließung oder bei längerem\n    Fehlen des Kindes bis zur Beendigung des Betreuungsverhältnisses voll zu entrichten.\n(5) Tritt ein Kind ab dem 16. eines Monats in die Kindertageseinrichtung/Spielgruppe ein, so\n    ist für diesen Monat die hälftige Benutzungsgebühr zu entrichten.\n(6) Tritt ein Kind zum 15. eines Monats aus der Kinderkrippe/Spielgruppe aufgrund Vollendung\n    des dritten Lebensjahres aus, so ist für diesen Monat die hälftige Benutzungsgebühr zu\n    entrichten.\n(7) Für Kinder, die vom Kindergarten in die Schule abgehen, ist die Benutzungsgebühr bis\n    zum Ende des Kindergartenjahres (31.08.) voll zu bezahlen.\n(8) In besonders begründeten Einzelfällen kann ein Gebührennachlass gewährt werden. Dies\n    gilt insbesondere, wenn der Träger der Jugendhilfe gemäß den Bestimmungen des SGB\n    (Sozialgesetzbuch) VIII eine Bezuschussung, d.h. die Gewährung von wirtschaftlicher Ju-\n    gendhilfe, abgelehnt hat und die Personensorgeberechtigten die Anspruchsvoraussetzun-\n    gen für den Renninger Familienpass erfüllen.",
+        "evidence": {
+          "source_id": "bb4cc2c68bd2",
+          "locator": "PDF-/Textseite 5, Absatzblock 3",
+          "original": null
+        }
+      },
+      {
+        "text": "(9) Kann ein Kind in einem begründeten Einzelfall die Kindertageseinrichtung an mindestens\n    vier aufeinanderfolgenden Wochen (20 Arbeitstage) nicht besuchen, können die Benut-\n    zungsgebühren auf schriftlichen Antrag der Personensorgeberechtigten für den gesamten\n    Zeitraum der Abwesenheit in Höhe von bis zu 50 % rückerstattet werden.\n(10)     Sofern sich die Eingewöhnung eines Kindes in begründeten Ausnahmefällen über ei-\n    nen Zeitraum von mehr als zwei Monaten erstreckt, kann ab dem dritten Monat auf schrift-\n    lichen Antrag der Personensorgeberechtigten ein anteiliger Gebührennachlass gewährt\n    werden. Maßgeblich ist hierbei der tatsächliche zeitliche Betreuungsumfang während der\n    Eingewöhnung. Bereits zu viel entrichtete Benutzungsgebühren können rückwirkend er-\n    stattet werden.\n(11)     Änderungen der Familiensituation, die eine Auswirkung auf die Gebührenhöhe haben,\n    sind der Kindergartenverwaltung mitzuteilen. Bei verspäteter Meldung werden die Gebüh-\n    ren rückwirkend längstens für einen Zeitraum von sechs Monaten angepasst.",
+        "evidence": {
+          "source_id": "bb4cc2c68bd2",
+          "locator": "PDF-/Textseite 6, Absatzblock 1",
+          "original": null
+        }
+      },
+      {
+        "text": "§ 8 Beginn und Beendigung des Benutzungsverhältnisses, Entstehung/Fälligkeit der\nGebührenschuld\n(1) Das Benutzungsverhältnis beginnt mit der Aufnahme des Kindes in die Betreuungseinrich-\n    tung. Die Aufnahme erfolgt auf Antrag der Personensorgeberechtigten.\n(2) Das Benutzungsverhältnis endet durch Abmeldung des Kindes durch die Personensorge-\n    berechtigten oder durch Ausschluss des Kindes durch den Träger der Einrichtung oder\n    durch den Wechsel von der Kinderkrippe/Spielgruppe in den Kindergarten. Kinder, die in\n    die Schule wechseln, werden zum Ende des Kindergartenjahres (31.08.) von Amts wegen\n    abgemeldet.\n(3) Die Gebührenschuld entsteht zu Beginn des Veranlagungszeitraumes (§ 7 Abs. 3 und 5\n    bis 7) für den der Betreuungsplatz belegt ist. Die Benutzungsgebühren werden bei der\n    erstmaligen Benutzung durch schriftlichen Gebührenbescheid festgesetzt. Die Festset-\n    zung gilt so lange weiter, bis ein neuer Bescheid oder Änderungsbescheid ergeht.\n(4) Die Gebührenschuld wird jeweils zum ersten Werktag des Veranlagungszeitraumes (§ 7\n    Abs. 3 und 5 bis 7) fällig. Für den Monat des erstmaligen Besuchs der Einrichtung wird die\n    Gebührenschuld zwei Wochen nach Bekanntgabe des Gebührenbescheids fällig. Das-\n    selbe gilt für den Fall, dass ein neuer Gebührenbescheid oder Änderungsbescheid ergeht.",
+        "evidence": {
+          "source_id": "bb4cc2c68bd2",
+          "locator": "PDF-/Textseite 6, Absatzblock 2",
+          "original": null
+        }
+      },
+      {
+        "text": "§ 14 Inkrafttreten\nDiese Benutzungs- und Gebührensatzung für die Kindertageseinrichtungen/Spielgruppen der\nStadt Renningen tritt zum 01.01.2021 (1. Änderung vom 19.07.2021, 2. Änderung vom\n18.07.2022, 3. Änderung vom 17.07.2023, 4. Änderung vom 17.07.2024, 5. Änderung vom",
+        "evidence": {
+          "source_id": "bb4cc2c68bd2",
+          "locator": "PDF-/Textseite 7, Absatzblock 6",
+          "original": null
+        }
+      },
+      {
+        "text": "22.06.2026) in Kraft. Gleichzeitig tritt die Benutzungs- und Gebührensatzung für die Kinderta-\ngeseinrichtungen/Spielgruppen der Stadt Renningen vom 17.07.2019 außer Kraft.",
+        "evidence": {
+          "source_id": "bb4cc2c68bd2",
+          "locator": "PDF-/Textseite 8, Absatzblock 1",
+          "original": null
+        }
+      },
+      {
+        "text": "Anlage zur Benutzungs- und Gebührensatzung für die Kindertageseinrichtungen/Spiel-\ngruppen der Stadt Renningen",
+        "evidence": {
+          "source_id": "bb4cc2c68bd2",
+          "locator": "PDF-/Textseite 9, Absatzblock 1",
+          "original": null
+        }
+      },
+      {
+        "text": "* Berücksichtigt werden nur Kinder, die im gleichen Haushalt wohnen.\nEs gilt die Definition des Familienhaushalts (gemäß Gt-info Nr. 07/2013 vom 20.04.2013).\nVerpflegungskosten werden bei Angeboten mit Verpflegungsleistungen neben den genannten\nGebührensätzen kostendeckend erhoben.",
+        "evidence": {
+          "source_id": "bb4cc2c68bd2",
+          "locator": "PDF-/Textseite 10, Absatzblock 2",
+          "original": null
+        }
+      },
+      {
+        "text": "Gebühren und Satzungen | Renningen\nMenü\nAktuelles\nRathaus\nGemeinderat & Politik\nGemeinderat\nJugendgemeinderat\nStadtseniorenrat, Senioren, Seniorenprogramm\nParteien & Wählervereinigungen\nWahlen\nStadtverwaltung\nBürgerservice\nStandesamt\nFundbüro\nJobs & Karriere\nÖffentlichkeitsarbeit\nStadtnachrichten\nSocial Media\nPublikationen\nPresse-Links\nÖffentliche Bekanntmachungen\nÖffentliche Ausschreibungen\nHaushalt & Jahresabschlüsse\nEröffnungsbilanz\nJahresabschlüsse\nFinanzen & Steuern\nKämmerei\nKasse\nSteuern\nhäufige Fragen zu Steuern & Gebühren\nOrtsrecht\nOrtsrecht-Sammlung\nsonstige Behörden\nStadtleben\nStadtportrait\nGrußwort der Bürgermeisterin\nZahlen, Daten, Fakten\nStadtplan\nGeschichte\nVerkaufsartikel\nVeranstaltungen\nKultur am Berg\nVeranstaltungen und Termine melden\nAugen!blick\nFirmenlauf Renningen\n950 Jahre Malmsheim\nUmfrage\nAktionswoche Gesundheit & Klimaschutz\nSTADTRADELN\nStädtepartnerschaften\nMennecy\nOcchiobello\nCountesthorpe\nPartnerschaftskomitee\nVereine & Organisationen\nÜbersicht Vereine und Organisationen\nCity-Mobil der Stadt Renningen\nBürgerbus der Stadt Renningen\nMeldebogen Sportlerehrung\nHallen & Räume\nAula im Schulzentrum\nBegegnungsstätte Malmsheim\nBürgerhaus\nFesthalle Stegwiesen\nRankbachhalle\nRiedwiesensporthalle\nSchulturhalle\nStadionsporthalle\nKunst & Kultur\nDie Renninger Krippe\nErinnerungsstätte Franz Kreuz\nGlockenspielturm\nKunstforum Renningen\nKunsthandwerkermarkt Renningen\nKrippenmuseum\nNaturtheater\nTrauerweg\nMalmsheimer Weihnachtsdorf\nRenninger Weihnachtsmarkt\nWeltkulturpfad\nSport & Spiel\nSpiel und Spaß\nSportangebot A-Z\nSport- & Freizeiteinrichtungen\nBelegungsplan Freisportanlagen\nWandern & Radeln\nFreibad\nGebühren Freibad\nInfos zum Freibad\nFreibad Ampel\nBeach-Party Konzert\nMuseen\nArchäologisches Museum Renningen\nHeimatmuseum\nKrippenmuseum\nStadtarchiv\nAktuelles\nAufgaben\nArchivbestände\nBenutzung\nStadtführungen\nPublikationen\nKirchen & Friedhof\nFriedhof Renningen & Malmsheim\nKirchen\nTag des Friedhofs\nRenninger*in\nBürgerschaftliches Engagement\nRenninger Agenda\nMitmachbörse\nEhrungen der Stadt Renningen\nAktion Notnagel\nBürgerstiftung\nFlüchtlingsdialog\nSchöffenwahl\nBürgerbeteiligung\nBürgerversammlung\nSTEP 2040\nAlternativ Mobil\nFlüchtlingsdialog\nFamilienportal\nKinderbetreuung\nChancengerechtigkeit\nSommerferienprogramm 2026\nJugendportal\nJugendsozialarbeit\nSchulsozialarbeit\nJugendgemeinderat\nJugendforum\nJugendhaus Renningen\nKidstreff Malmsheim\nPatenschaftsprogramm\nSommerferienprogramm\nChancengerechtigkeit\nLinks Jugend\nBildungsportal\nSchulen\nMusikschule\nMensa\nSchulsozialarbeit\nSchulkindbetreuung\nMediathek\nVolkshochschule\nSeniorenportal\nStadtseniorenrat\nSeniorenprogramm\nSozialstation\nSeniorengerechtes Wohnen\nIAV-Stelle\nPflegeheime\nHospizgruppe\nSoziales\nAntragsunterstützender Dienst\nIAV-Stelle\nSozialstation\nAktion Notnagel\nBürgerstiftung\nIntegration\nObdachlosenbetreuung\nChancengerechtigkeit\nStädtische Seniorenarbeit\nGesundheit & Sicherheit\nCorona aktuell\nÄrzte und Apotheken\nKrankenhäuser\nIAV-Stelle\nPflegeheime\nHospizgruppe\nBeratungsstellen\nFeuerwehr\nRettungsdienst & Polizei\nGesundheitszentrum für Renningen\nEnergie, Umwelt & Klimaschutz\nNatur & Umwelt\nUnser Wasser\nNaturschutz & Landschaftspflege\nWald\nAktuelles\nDer Stadtwald Renningen\nNachhaltigkeit und Ökologie im Stadtwald\nFreizeit und Erholung im Stadtwald\nForstverwaltung\nEnergie & Klimaschutz\nKlimaschutzkonzept\nKommunale Wärmeplanung\nWindpark Renningen\nRenninger Energieherbst 2026\nHitzeportal Renningen\nStadtentwicklung\nStadtentwicklung & Planung\nÜbergeordnete Planungen\nFNP 2030\nSTEP 2040\nInnenentwicklung\nWohnbaugebiete\nSanierungsprogramme\nLärmaktionsplan\nHochwasserschutz\nBreitbandversorgung\nBarrierefreiheit\nBauherreninfo\nNützliche Bauinfos\nBaurechtliches\nBaumschutz auf Baustellen\nFörderprogramme Bauen\nBürgerGIS\nBaustellen & Bauprojekte\nVerkehrsrechtliche Anordnung\nBaustelleninfos\nAusschreibungen\nBaugebiete Schnallenäcker\nSanierung Hauptstraße\nErweiterung Schulzentrum\nErweiterung Friedrich-Silcher-Schule\nSanierung Realschule\nNeubau Riedwiesensporthalle\nErweiterung KiGa Wiesenstraße\nErweiterung KiGa Merklinger Straße\nGrundstücke & Immobilien\nWohnbauplätze\nVerkauf Einzelobjekte\nGewerbegrundstücke & -immobilien\nGrundstücksbewertung\nMietwohnungen\nMietspiegel\nGrundbucheinsichtsstelle-1\nKrautgärten\nFahrradboxen\nStadtbau Renningen GmbH\nAktuelles\nSozialer Mietwohnungsbau\nVermietung preisgedämpfter Mietwohnungen\nNeubau Polizeiposten Renningen\nNeubebauung Waldhornareal Malmsheim\nAusblick\nVer- & Entsorgungsbetriebe\nStädtischer Bauhof\nStädtische Wasserversorgung\nZweckverband Renninger Wasserversorgung\nAbwasserentsorgung\nStrom, Gas & Kabel\nEnergieinfrastrukturdaten\nBreitbandversorgung\nMobilität\nAktionsplan für Mobilität, Klima und Lärmschutz\nModal Split\nBus & Bahn\nCarSharing\nE-Laden\nVerkehrsentwicklungsplanung\nAlternativ Mobil\nStraßennetz\nModal Split Erhebung 2026\nRad- und Wanderwege\nWirtschaft\nWirtschaftsstandort\nGewerbegrundstücke & -immobilien\nGrund- & Gewerbesteuer\nGewerbemeldungen\nNachwuchs-und Fachkräfte\nWeiterführende Links\nWirtschaftsförderung\nWirtschaftsgespräche\nExistenzgründung und Unternehmensberatung\nProjekte und Angebote\nNewsletter\nRenninger Euro-Chip\nFairtrade-Town Renningen\nGewerbe- & Handelsverein\nVersorgung und Landwirtschaft\nEinzelhandel\nWochenmarkt\nLandwirtschaft\nHotels und Gaststätten\nImpressum & Service\nImpressum\nDatenschutzerklärung\nVideoüberwachung\nMerkblätter DSGVO\nBarrierefreiheit\nSicherer Kontakt\nÖffnungszeiten & Anfahrt\nSitemap\nInformationen in Leichter Sprache\nIntranet\nInfos & Services\nGebühren & Satzungen\nSie sind hier:\nRenninger*in\nFamilienportal\nKinderbetreuung\nInformationen & Service\nGebühren und Satzungen\nGebühren und Satzungen\nGebühren, Entgelte & Satzungen\nKindertagespflege (TAKKI)\nDie Entgelte in der Kindertagespflege sind bezogen auf die Betreuungsstunde identisch zu den Gebühren, welche in Kinderkrippen erhoben werden. Die Höhe der Entgelte finden sich in der Entgeltregelung der Stadt Renningen für die Betreuung von Kindern im Rahmen der Tagespflege für Kleinkinder im Landkreis Böblingen (TAKKI).\nKinderkrippe, Kindergarten & Spielgruppe\nDie Gebühren für die städtischen Einrichtungen werden vom Gemeinderat festgesetzt und in der Regel jährlich angepasst. Die Gebühren werden als Monatsbeiträge für 12 Monate im Jahr erhoben. Sie sind in den kirchlichen und städtischen Kindergärten identisch. Es besteht eine Sozialstaffelung, abhängig von der Anzahl der Kinder unter 18 Jahren in der Familie. Keine Sozialstaffelung gibt es bei der Spielgruppenbetreuung.\nDie städtische Benutzungs- und Gebührensatzung enthält aufgrund der gesetzlichen Vorgaben grundsätzliche Regelungen, u.a. zum Aufnahmealter, Verfahren in Krankheitsfällen, zur An- und Abmeldung und zu den entstehenden Betreuungsgebühren (letzte Seite). Die in der Satzung festgeschriebenen Regelungen sind verbindlich.\nSchulkindbetreuung\nDie Benutzungs- und Gebührensatzung für die Schulkindbetreuung an der Friedrich-Silcher-Schule in Malmsheim sowie an der Friedrich-Schiller Schule in Renningen enthält aufgrund der gesetzlichen Vorgaben grundsätzliche Regelungen, u.a. zum Aufnahmealter, Verfahren in Krankheitsfällen, zur An- und Abmeldung und zu den entstehenden Betreuungsgebühren (letzte Seite).\nDie Regelungen für das Mittagessen in Renninger Grundschulen finden Sie nachfolgend:\nSchulkindbetreuung Malmsheim\nSchulkindbetreuung Renningen\nKontakt\nSuchergebnisse werden geladenWeitere Abteilungen anzeigen\nKeine Abteilungen gefunden.\nWEITERE INFORMATIONEN\nFeedback\nFAQ Kinderbetreuung\nFerien\nGebühren und Satzungen\nFerienkalender und Ferienanmeldung Schulkindbetreuung 2026\nFormulare\nÜber den Träger\nDatenschutz\nPädagogik & Konzeptionen\nElternarbeit\nAnmeldung Spielegruppe\nAnmeldung Krippe\nAnmeldung Kindergarten\nKontakt\nSTADT RENNINGEN\nHauptstraße 1\n71272 Renningen\n@ Digitales Rathaus\n+49 7159 924-0\n+49 7159 924-103\ninfo@renningen.de\nInformationen\nImpressum\nDatenschutz\nFacebook\nInstagram\nBarrierefreiheit & Gebärdensprache\nLeichte Sprache\nFeedback zur Barrierefreiheit\nBarrierefreiheit in leichter Sprache\nÖffnungszeiten\nStadtverwaltung Renningen\nKlicken, um weitere Öffnungs- oder Schließzeiten auszublenden\nSchließt bald:08:00 - 11:30 Uhr Von 08:00 bis 11:30 Uhr\nMontag\n08:00 - 11:30 Uhr Von 08:00 bis 11:30 Uhr\nDienstag\n08:00 - 11:30 Uhr Von 08:00 bis 11:30 Uhr\nMittwoch\n08:00 - 11:30 Uhr Von 08:00 bis 11:30 Uhr\nDonnerstag\n08:00 - 11:30 Uhr Von 08:00 bis 11:30 Uhr 15:30 - 18:00 Uhr Von 15:30 bis 18:00 Uhr\nFreitag\n08:00 - 11:30 Uhr Von 08:00 bis 11:30 Uhr\nBürgerbüro Renningen / Malmsheim\n(nur nach Terminvereinbarung)\nTermine außerhalb der Öffnungszeiten sind nach vorheriger Terminvereinbarung während der ganzen Woche möglich. Termine vereinbaren Sie hier\nAnmeldung\nBenutzername\nPasswort\nSicherheitscode\nAnmelden\nPasswort vergessen?\nHilfe zur Barrierefreiheit\nAllgemein\nWir sind bemüht, unsere Webseiten barrierefrei zugänglich zu gestalten. Details hierzu finden Sie in unserer Erklärung zur Barrierefreiheit. Verbesserungsvorschläge können Sie uns über unser Feedback-Formular Barriere melden zukommen lassen.\nSchriftgröße\nUm die Schriftgröße anzupassen, verwenden Sie bitte folgende Tastenkombinationen:\nGrößer\n⌘command\n+\nKleiner\n⌘command\n–\nGrößer\nStrg\n+\nKleiner\nStrg\n–\nTastaturnavigation\nVerwenden Sie TAB und SHIFT + TAB, um durch nächste / vorherige Links, Formularelemente und Schaltflächen zu navigieren.\nVerwenden Sie ENTER, um Links zu öffnen und mit Elementen zu interagieren.\nKontrastmodus\nDrücken Sie die folgende Tastenkombination, um den Kontrast zu verringern bzw. zu vergrößern:\nVergrößern\n⌃control\n⌥option\n⌘command\n.\nVerringern\n⌃control\n⌥option\n⌘command\n,Hinweis: Die Kurzbefehle müssen in den Systemeinstellungen des Betriebssystems aktiviert sein.\nDrücken Sie die linke ALT-TASTE + linke UMSCHALTTASTE + DRUCK, um den Modus für hohen Kontrast schnell ein- oder auszuschalten.\nFarben umkehren\nDrücken Sie folgende Tastenkombination, um die Farbumkehrung ein- und auszuschalten:\n⌃control\n⌥option\n⌘command\n8Hinweis: Die Kurzbefehle müssen in den Systemeinstellungen des Betriebssystems aktiviert sein.\nAktivieren Sie zuerst die Bildschirmlupe und schalten Sie dann die Farbumkehrung mit folgenden Tastenkombinationen ein und aus:\n1. Bildschirmlupe\n+\n2. Farben umkehren\nStrg\nAlt\nI\nBildschirmlupe\nDrücken sie folgende Tastenkombinationen, um die Bildschirmlupe zu verwenden:\nEin-/ausschalten\n⌥option\n⌘command\n8\nAnsicht vergrößern\n⌥option\n⌘command\n=\nAnsicht verkleinern\n⌥option\n⌘command\n–Hinweis: Die Kurzbefehle müssen in den Systemeinstellungen des Betriebssystems aktiviert sein.\nEinschalten / Ansicht vergrößern\n+\nAnsicht verkleinern\n–\nSeite einstellen\nAktuelles\nRathaus\nStadtleben\nRenninger*in\nEnergie, Umwelt & Klimaschutz\nStadtentwicklung\nWirtschaft\nImpressum & Service\nIntranet\nAktuelles\nRathaus\nGemeinderat & Politik\nGemeinderat\nJugendgemeinderat\nStadtseniorenrat, Senioren, Seniorenprogramm\nParteien & Wählervereinigungen\nWahlen\nStadtverwaltung\nBürgerservice\nStandesamt\nFundbüro\nJobs & Karriere\nÖffentlichkeitsarbeit\nStadtnachrichten\nSocial Media\nPublikationen\nPresse-Links\nÖffentliche Bekanntmachungen\nÖffentliche Ausschreibungen\nHaushalt & Jahresabschlüsse\nEröffnungsbilanz\nJahresabschlüsse\nFinanzen & Steuern\nKämmerei\nKasse\nSteuern\nhäufige Fragen zu Steuern & Gebühren\nOrtsrecht\nOrtsrecht-Sammlung\nsonstige Behörden\nStadtleben\nStadtportrait\nGrußwort der Bürgermeisterin\nZahlen, Daten, Fakten\nStadtplan\nGeschichte\nVerkaufsartikel\nVeranstaltungen\nKultur am Berg\nVeranstaltungen und Termine melden\nAugen!blick\nFirmenlauf Renningen\n950 Jahre Malmsheim\nUmfrage\nAktionswoche Gesundheit & Klimaschutz\nSTADTRADELN\nStädtepartnerschaften\nMennecy\nOcchiobello\nCountesthorpe\nPartnerschaftskomitee\nVereine & Organisationen\nÜbersicht Vereine und Organisationen\nCity-Mobil der Stadt Renningen\nBürgerbus der Stadt Renningen\nMeldebogen Sportlerehrung\nHallen & Räume\nAula im Schulzentrum\nBegegnungsstätte Malmsheim\nBürgerhaus\nFesthalle Stegwiesen\nRankbachhalle\nRiedwiesensporthalle\nSchulturhalle\nStadionsporthalle\nKunst & Kultur\nDie Renninger Krippe\nErinnerungsstätte Franz Kreuz\nGlockenspielturm\nKunstforum Renningen\nKunsthandwerkermarkt Renningen\nKrippenmuseum\nNaturtheater\nTrauerweg\nMalmsheimer Weihnachtsdorf\nRenninger Weihnachtsmarkt\nWeltkulturpfad\nSport & Spiel\nSpiel und Spaß\nSportangebot A-Z\nSport- & Freizeiteinrichtungen\nBelegungsplan Freisportanlagen\nWandern & Radeln\nFreibad\nGebühren Freibad\nInfos zum Freibad\nFreibad Ampel\nBeach-Party Konzert\nMuseen\nArchäologisches Museum Renningen\nHeimatmuseum\nKrippenmuseum\nStadtarchiv\nAktuelles\nAufgaben\nArchivbestände\nBenutzung\nStadtführungen\nPublikationen\nKirchen & Friedhof\nFriedhof Renningen & Malmsheim\nKirchen\nTag des Friedhofs\nRenninger*in\nBürgerschaftliches Engagement\nRenninger Agenda\nMitmachbörse\nEhrungen der Stadt Renningen\nAktion Notnagel\nBürgerstiftung\nFlüchtlingsdialog\nSchöffenwahl\nBürgerbeteiligung\nBürgerversammlung\nSTEP 2040\nAlternativ Mobil\nFlüchtlingsdialog\nFamilienportal\nKinderbetreuung\nChancengerechtigkeit\nSommerferienprogramm 2026\nJugendportal\nJugendsozialarbeit\nSchulsozialarbeit\nJugendgemeinderat\nJugendforum\nJugendhaus Renningen\nKidstreff Malmsheim\nPatenschaftsprogramm\nSommerferienprogramm\nChancengerechtigkeit\nLinks Jugend\nBildungsportal\nSchulen\nMusikschule\nMensa\nSchulsozialarbeit\nSchulkindbetreuung\nMediathek\nVolkshochschule\nSeniorenportal\nStadtseniorenrat\nSeniorenprogramm\nSozialstation\nSeniorengerechtes Wohnen\nIAV-Stelle\nPflegeheime\nHospizgruppe\nSoziales\nAntragsunterstützender Dienst\nIAV-Stelle\nSozialstation\nAktion Notnagel\nBürgerstiftung\nIntegration\nObdachlosenbetreuung\nChancengerechtigkeit\nStädtische Seniorenarbeit\nGesundheit & Sicherheit\nCorona aktuell\nÄrzte und Apotheken\nKrankenhäuser\nIAV-Stelle\nPflegeheime\nHospizgruppe\nBeratungsstellen\nFeuerwehr\nRettungsdienst & Polizei\nGesundheitszentrum für Renningen\nEnergie, Umwelt & Klimaschutz\nNatur & Umwelt\nUnser Wasser\nNaturschutz & Landschaftspflege\nWald\nAktuelles\nDer Stadtwald Renningen\nNachhaltigkeit und Ökologie im Stadtwald\nFreizeit und Erholung im Stadtwald\nForstverwaltung\nEnergie & Klimaschutz\nKlimaschutzkonzept\nKommunale Wärmeplanung\nWindpark Renningen\nRenninger Energieherbst 2026\nHitzeportal Renningen\nStadtentwicklung\nStadtentwicklung & Planung\nÜbergeordnete Planungen\nFNP 2030\nSTEP 2040\nInnenentwicklung\nWohnbaugebiete\nSanierungsprogramme\nLärmaktionsplan\nHochwasserschutz\nBreitbandversorgung\nBarrierefreiheit\nBauherreninfo\nNützliche Bauinfos\nBaurechtliches\nBaumschutz auf Baustellen\nFörderprogramme Bauen\nBürgerGIS\nBaustellen & Bauprojekte\nVerkehrsrechtliche Anordnung\nBaustelleninfos\nAusschreibungen\nBaugebiete Schnallenäcker\nSanierung Hauptstraße\nErweiterung Schulzentrum\nErweiterung Friedrich-Silcher-Schule\nSanierung Realschule\nNeubau Riedwiesensporthalle\nErweiterung KiGa Wiesenstraße\nErweiterung KiGa Merklinger Straße\nGrundstücke & Immobilien\nWohnbauplätze\nVerkauf Einzelobjekte\nGewerbegrundstücke & -immobilien\nGrundstücksbewertung\nMietwohnungen\nMietspiegel\nGrundbucheinsichtsstelle-1\nKrautgärten\nFahrradboxen\nStadtbau Renningen GmbH\nAktuelles\nSozialer Mietwohnungsbau\nVermietung preisgedämpfter Mietwohnungen\nNeubau Polizeiposten Renningen\nNeubebauung Waldhornareal Malmsheim\nAusblick\nVer- & Entsorgungsbetriebe\nStädtischer Bauhof\nStädtische Wasserversorgung\nZweckverband Renninger Wasserversorgung\nAbwasserentsorgung\nStrom, Gas & Kabel\nEnergieinfrastrukturdaten\nBreitbandversorgung\nMobilität\nAktionsplan für Mobilität, Klima und Lärmschutz\nModal Split\nBus & Bahn\nCarSharing\nE-Laden\nVerkehrsentwicklungsplanung\nAlternativ Mobil\nStraßennetz\nModal Split Erhebung 2026\nRad- und Wanderwege\nWirtschaft\nWirtschaftsstandort\nGewerbegrundstücke & -immobilien\nGrund- & Gewerbesteuer\nGewerbemeldungen\nNachwuchs-und Fachkräfte\nWeiterführende Links\nWirtschaftsförderung\nWirtschaftsgespräche\nExistenzgründung und Unternehmensberatung\nProjekte und Angebote\nNewsletter\nRenninger Euro-Chip\nFairtrade-Town Renningen\nGewerbe- & Handelsverein\nVersorgung und Landwirtschaft\nEinzelhandel\nWochenmarkt\nLandwirtschaft\nHotels und Gaststätten\nImpressum & Service\nImpressum\nDatenschutzerklärung\nVideoüberwachung\nMerkblätter DSGVO\nBarrierefreiheit\nSicherer Kontakt\nÖffnungszeiten & Anfahrt\nSitemap\nInformationen in Leichter Sprache\nIntranet",
+        "evidence": {
+          "source_id": "9cb2d5d59c60",
+          "locator": "PDF-/Textseite 1, Absatzblock 1",
+          "original": null
+        }
+      }
+    ]
+  }
+}

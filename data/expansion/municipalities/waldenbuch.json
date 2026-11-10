@@ -1,0 +1,1760 @@
+{
+  "schema_version": "1.0",
+  "id": "waldenbuch",
+  "name": "Waldenbuch",
+  "reviewed_at": "2026-11-10",
+  "reference_date": "2026-11-10",
+  "scope": {
+    "included": [
+      "municipal"
+    ],
+    "other_providers": "only_with_explicit_source_evidence"
+  },
+  "family_basis": "under_18",
+  "family_evidence": {
+    "source_id": "f37687a3f1c3",
+    "locator": "Familienbegriff und Fußnoten der Gebührenunterlagen",
+    "original": null
+  },
+  "supporting_source_ids": [
+    "f37687a3f1c3",
+    "7fc33f1805ec"
+  ],
+  "offers": [
+    {
+      "id": "waldenbuch-offer-0ae960d686b5",
+      "original_label": "VÖ30",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 1800,
+      "weekday_minutes": [
+        360,
+        360,
+        360,
+        360,
+        360
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "f37687a3f1c3",
+        "locator": "§ 3 Angebotsformen; § 4 a–f",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "f37687a3f1c3",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "f37687a3f1c3",
+        "locator": "§ 3 Angebotsformen; § 4 a–f",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "waldenbuch-offer-457548230e9b",
+      "original_label": "VÖ30",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 1800,
+      "weekday_minutes": [
+        360,
+        360,
+        360,
+        360,
+        360
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "f37687a3f1c3",
+        "locator": "§ 3 Angebotsformen; § 4 a–f",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "f37687a3f1c3",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "f37687a3f1c3",
+        "locator": "§ 3 Angebotsformen; § 4 a–f",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "waldenbuch-offer-6403dd386657",
+      "original_label": "VÖ mit Frühbetreuung",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2100,
+      "weekday_minutes": [
+        420,
+        420,
+        420,
+        420,
+        420
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "f37687a3f1c3",
+        "locator": "§ 3 Angebotsformen; § 4 a–f",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "f37687a3f1c3",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "f37687a3f1c3",
+        "locator": "§ 3 Angebotsformen; § 4 a–f",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "waldenbuch-offer-b5c9a1ea0e3e",
+      "original_label": "VÖ mit Frühbetreuung",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2100,
+      "weekday_minutes": [
+        420,
+        420,
+        420,
+        420,
+        420
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "f37687a3f1c3",
+        "locator": "§ 3 Angebotsformen; § 4 a–f",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "f37687a3f1c3",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "f37687a3f1c3",
+        "locator": "§ 3 Angebotsformen; § 4 a–f",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "waldenbuch-offer-999de3403874",
+      "original_label": "VÖ + GT5",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2100,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "f37687a3f1c3",
+        "locator": "§ 3 Angebotsformen; § 4 a–f",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "f37687a3f1c3",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "f37687a3f1c3",
+        "locator": "§ 3 Angebotsformen; § 4 a–f",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "waldenbuch-offer-f80b46ee26e6",
+      "original_label": "VÖ + GT5",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2100,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "f37687a3f1c3",
+        "locator": "§ 3 Angebotsformen; § 4 a–f",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "f37687a3f1c3",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "f37687a3f1c3",
+        "locator": "§ 3 Angebotsformen; § 4 a–f",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "waldenbuch-offer-006964232b71",
+      "original_label": "VÖ + GT9",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2340,
+      "weekday_minutes": [
+        480,
+        480,
+        480,
+        480,
+        420
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "f37687a3f1c3",
+        "locator": "§ 3 Angebotsformen; § 4 a–f",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "f37687a3f1c3",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "f37687a3f1c3",
+        "locator": "§ 3 Angebotsformen; § 4 a–f",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "waldenbuch-offer-ae342585b8c1",
+      "original_label": "VÖ + GT9",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2340,
+      "weekday_minutes": [
+        480,
+        480,
+        480,
+        480,
+        420
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "f37687a3f1c3",
+        "locator": "§ 3 Angebotsformen; § 4 a–f",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "f37687a3f1c3",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "f37687a3f1c3",
+        "locator": "§ 3 Angebotsformen; § 4 a–f",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "waldenbuch-offer-3c9b2050acfe",
+      "original_label": "VÖ + GT5 mit Frühbetreuung",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2400,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "f37687a3f1c3",
+        "locator": "§ 3 Angebotsformen; § 4 a–f",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "f37687a3f1c3",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "f37687a3f1c3",
+        "locator": "§ 3 Angebotsformen; § 4 a–f",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "waldenbuch-offer-82e3c35b9fab",
+      "original_label": "VÖ + GT5 mit Frühbetreuung",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2400,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "f37687a3f1c3",
+        "locator": "§ 3 Angebotsformen; § 4 a–f",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "f37687a3f1c3",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "f37687a3f1c3",
+        "locator": "§ 3 Angebotsformen; § 4 a–f",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "waldenbuch-offer-456ef157178d",
+      "original_label": "VÖ + GT9 mit Frühbetreuung",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2640,
+      "weekday_minutes": [
+        540,
+        540,
+        540,
+        540,
+        480
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "f37687a3f1c3",
+        "locator": "§ 3 Angebotsformen; § 4 a–f",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "f37687a3f1c3",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "f37687a3f1c3",
+        "locator": "§ 3 Angebotsformen; § 4 a–f",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "waldenbuch-offer-29456dc7d95c",
+      "original_label": "VÖ + GT9 mit Frühbetreuung",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2640,
+      "weekday_minutes": [
+        540,
+        540,
+        540,
+        540,
+        480
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "f37687a3f1c3",
+        "locator": "§ 3 Angebotsformen; § 4 a–f",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "f37687a3f1c3",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "f37687a3f1c3",
+        "locator": "§ 3 Angebotsformen; § 4 a–f",
+        "original": null
+      },
+      "formula": null
+    }
+  ],
+  "prices": [
+    {
+      "id": "waldenbuch-price-816746277106",
+      "offer_id": "waldenbuch-offer-0ae960d686b5",
+      "amount_cents": 23700,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f37687a3f1c3",
+        "locator": "§ 3 Angebotsformen; § 4 a–f",
+        "original": 237
+      }
+    },
+    {
+      "id": "waldenbuch-price-84f917c8d8e0",
+      "offer_id": "waldenbuch-offer-0ae960d686b5",
+      "amount_cents": 18300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f37687a3f1c3",
+        "locator": "§ 3 Angebotsformen; § 4 a–f",
+        "original": 183
+      }
+    },
+    {
+      "id": "waldenbuch-price-c8e2484b8723",
+      "offer_id": "waldenbuch-offer-0ae960d686b5",
+      "amount_cents": 12300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f37687a3f1c3",
+        "locator": "§ 3 Angebotsformen; § 4 a–f",
+        "original": 123
+      }
+    },
+    {
+      "id": "waldenbuch-price-665275d1e419",
+      "offer_id": "waldenbuch-offer-457548230e9b",
+      "amount_cents": 42600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f37687a3f1c3",
+        "locator": "§ 3 Angebotsformen; § 4 a–f",
+        "original": 426
+      }
+    },
+    {
+      "id": "waldenbuch-price-67a77ad0e436",
+      "offer_id": "waldenbuch-offer-457548230e9b",
+      "amount_cents": 33000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f37687a3f1c3",
+        "locator": "§ 3 Angebotsformen; § 4 a–f",
+        "original": 330
+      }
+    },
+    {
+      "id": "waldenbuch-price-d12419da9e47",
+      "offer_id": "waldenbuch-offer-457548230e9b",
+      "amount_cents": 22200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f37687a3f1c3",
+        "locator": "§ 3 Angebotsformen; § 4 a–f",
+        "original": 222
+      }
+    },
+    {
+      "id": "waldenbuch-price-583e3c589e4c",
+      "offer_id": "waldenbuch-offer-6403dd386657",
+      "amount_cents": 29100,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f37687a3f1c3",
+        "locator": "§ 3 Angebotsformen; § 4 a–f",
+        "original": 291
+      }
+    },
+    {
+      "id": "waldenbuch-price-3cb3cfa8ca44",
+      "offer_id": "waldenbuch-offer-6403dd386657",
+      "amount_cents": 22500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f37687a3f1c3",
+        "locator": "§ 3 Angebotsformen; § 4 a–f",
+        "original": 225
+      }
+    },
+    {
+      "id": "waldenbuch-price-00d6a7a20aba",
+      "offer_id": "waldenbuch-offer-6403dd386657",
+      "amount_cents": 15200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f37687a3f1c3",
+        "locator": "§ 3 Angebotsformen; § 4 a–f",
+        "original": 152
+      }
+    },
+    {
+      "id": "waldenbuch-price-74750f361b0d",
+      "offer_id": "waldenbuch-offer-b5c9a1ea0e3e",
+      "amount_cents": 52400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f37687a3f1c3",
+        "locator": "§ 3 Angebotsformen; § 4 a–f",
+        "original": 524
+      }
+    },
+    {
+      "id": "waldenbuch-price-8dd11e7efb3d",
+      "offer_id": "waldenbuch-offer-b5c9a1ea0e3e",
+      "amount_cents": 40500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f37687a3f1c3",
+        "locator": "§ 3 Angebotsformen; § 4 a–f",
+        "original": 405
+      }
+    },
+    {
+      "id": "waldenbuch-price-fc52ec1ea043",
+      "offer_id": "waldenbuch-offer-b5c9a1ea0e3e",
+      "amount_cents": 27400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f37687a3f1c3",
+        "locator": "§ 3 Angebotsformen; § 4 a–f",
+        "original": 274
+      }
+    },
+    {
+      "id": "waldenbuch-price-408c3be8cb5d",
+      "offer_id": "waldenbuch-offer-999de3403874",
+      "amount_cents": 31100,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f37687a3f1c3",
+        "locator": "§ 3 Angebotsformen; § 4 a–f",
+        "original": 311
+      }
+    },
+    {
+      "id": "waldenbuch-price-4058c8915eae",
+      "offer_id": "waldenbuch-offer-999de3403874",
+      "amount_cents": 24000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f37687a3f1c3",
+        "locator": "§ 3 Angebotsformen; § 4 a–f",
+        "original": 240
+      }
+    },
+    {
+      "id": "waldenbuch-price-1edae154c93b",
+      "offer_id": "waldenbuch-offer-999de3403874",
+      "amount_cents": 16200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f37687a3f1c3",
+        "locator": "§ 3 Angebotsformen; § 4 a–f",
+        "original": 162
+      }
+    },
+    {
+      "id": "waldenbuch-price-ce674d95d01c",
+      "offer_id": "waldenbuch-offer-f80b46ee26e6",
+      "amount_cents": 55900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f37687a3f1c3",
+        "locator": "§ 3 Angebotsformen; § 4 a–f",
+        "original": 559
+      }
+    },
+    {
+      "id": "waldenbuch-price-8619b653542a",
+      "offer_id": "waldenbuch-offer-f80b46ee26e6",
+      "amount_cents": 43300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f37687a3f1c3",
+        "locator": "§ 3 Angebotsformen; § 4 a–f",
+        "original": 433
+      }
+    },
+    {
+      "id": "waldenbuch-price-1d188ccaedbb",
+      "offer_id": "waldenbuch-offer-f80b46ee26e6",
+      "amount_cents": 29200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f37687a3f1c3",
+        "locator": "§ 3 Angebotsformen; § 4 a–f",
+        "original": 292
+      }
+    },
+    {
+      "id": "waldenbuch-price-64c001dc2b97",
+      "offer_id": "waldenbuch-offer-006964232b71",
+      "amount_cents": 37000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f37687a3f1c3",
+        "locator": "§ 3 Angebotsformen; § 4 a–f",
+        "original": 370
+      }
+    },
+    {
+      "id": "waldenbuch-price-e5c7a9c0e346",
+      "offer_id": "waldenbuch-offer-006964232b71",
+      "amount_cents": 28600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f37687a3f1c3",
+        "locator": "§ 3 Angebotsformen; § 4 a–f",
+        "original": 286
+      }
+    },
+    {
+      "id": "waldenbuch-price-8770a9a39bc9",
+      "offer_id": "waldenbuch-offer-006964232b71",
+      "amount_cents": 19300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f37687a3f1c3",
+        "locator": "§ 3 Angebotsformen; § 4 a–f",
+        "original": 193
+      }
+    },
+    {
+      "id": "waldenbuch-price-fa9c8ec16728",
+      "offer_id": "waldenbuch-offer-ae342585b8c1",
+      "amount_cents": 66600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f37687a3f1c3",
+        "locator": "§ 3 Angebotsformen; § 4 a–f",
+        "original": 666
+      }
+    },
+    {
+      "id": "waldenbuch-price-05c5fa8aea65",
+      "offer_id": "waldenbuch-offer-ae342585b8c1",
+      "amount_cents": 51600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f37687a3f1c3",
+        "locator": "§ 3 Angebotsformen; § 4 a–f",
+        "original": 516
+      }
+    },
+    {
+      "id": "waldenbuch-price-84045d3a5af2",
+      "offer_id": "waldenbuch-offer-ae342585b8c1",
+      "amount_cents": 34800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f37687a3f1c3",
+        "locator": "§ 3 Angebotsformen; § 4 a–f",
+        "original": 348
+      }
+    },
+    {
+      "id": "waldenbuch-price-81f3fc807416",
+      "offer_id": "waldenbuch-offer-3c9b2050acfe",
+      "amount_cents": 36500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f37687a3f1c3",
+        "locator": "§ 3 Angebotsformen; § 4 a–f",
+        "original": 365
+      }
+    },
+    {
+      "id": "waldenbuch-price-6d6b0c86bdf7",
+      "offer_id": "waldenbuch-offer-3c9b2050acfe",
+      "amount_cents": 28200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f37687a3f1c3",
+        "locator": "§ 3 Angebotsformen; § 4 a–f",
+        "original": 282
+      }
+    },
+    {
+      "id": "waldenbuch-price-c6f9d1973b2b",
+      "offer_id": "waldenbuch-offer-3c9b2050acfe",
+      "amount_cents": 19000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f37687a3f1c3",
+        "locator": "§ 3 Angebotsformen; § 4 a–f",
+        "original": 190
+      }
+    },
+    {
+      "id": "waldenbuch-price-5bfe765e4c25",
+      "offer_id": "waldenbuch-offer-82e3c35b9fab",
+      "amount_cents": 65700,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f37687a3f1c3",
+        "locator": "§ 3 Angebotsformen; § 4 a–f",
+        "original": 657
+      }
+    },
+    {
+      "id": "waldenbuch-price-119f1b8ff741",
+      "offer_id": "waldenbuch-offer-82e3c35b9fab",
+      "amount_cents": 50900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f37687a3f1c3",
+        "locator": "§ 3 Angebotsformen; § 4 a–f",
+        "original": 509
+      }
+    },
+    {
+      "id": "waldenbuch-price-5c9e406b8b6f",
+      "offer_id": "waldenbuch-offer-82e3c35b9fab",
+      "amount_cents": 34300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f37687a3f1c3",
+        "locator": "§ 3 Angebotsformen; § 4 a–f",
+        "original": 343
+      }
+    },
+    {
+      "id": "waldenbuch-price-ae1fa909c7de",
+      "offer_id": "waldenbuch-offer-456ef157178d",
+      "amount_cents": 42400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f37687a3f1c3",
+        "locator": "§ 3 Angebotsformen; § 4 a–f",
+        "original": 424
+      }
+    },
+    {
+      "id": "waldenbuch-price-adb0d030348f",
+      "offer_id": "waldenbuch-offer-456ef157178d",
+      "amount_cents": 32800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f37687a3f1c3",
+        "locator": "§ 3 Angebotsformen; § 4 a–f",
+        "original": 328
+      }
+    },
+    {
+      "id": "waldenbuch-price-2e208849fd3d",
+      "offer_id": "waldenbuch-offer-456ef157178d",
+      "amount_cents": 22100,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f37687a3f1c3",
+        "locator": "§ 3 Angebotsformen; § 4 a–f",
+        "original": 221
+      }
+    },
+    {
+      "id": "waldenbuch-price-b5566b9e1dfc",
+      "offer_id": "waldenbuch-offer-29456dc7d95c",
+      "amount_cents": 76400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f37687a3f1c3",
+        "locator": "§ 3 Angebotsformen; § 4 a–f",
+        "original": 764
+      }
+    },
+    {
+      "id": "waldenbuch-price-ea8d462ef130",
+      "offer_id": "waldenbuch-offer-29456dc7d95c",
+      "amount_cents": 59100,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f37687a3f1c3",
+        "locator": "§ 3 Angebotsformen; § 4 a–f",
+        "original": 591
+      }
+    },
+    {
+      "id": "waldenbuch-price-566f453e3d3f",
+      "offer_id": "waldenbuch-offer-29456dc7d95c",
+      "amount_cents": 39900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "f37687a3f1c3",
+        "locator": "§ 3 Angebotsformen; § 4 a–f",
+        "original": 399
+      }
+    }
+  ],
+  "income_bands": [],
+  "components": [
+    {
+      "id": "waldenbuch-component-a91649f2552d",
+      "kind": "meal",
+      "original_label": "Mittagessen",
+      "amount_cents": null,
+      "unit": "per_month",
+      "age_group": null,
+      "required": null,
+      "payment_months": null,
+      "offer_ids": null,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "value_status": "unknown",
+      "evidence": {
+        "source_id": "7fc33f1805ec",
+        "locator": "In den gesicherten Gebührenunterlagen kein Betrag",
+        "original": null
+      }
+    }
+  ],
+  "rules": [
+    {
+      "id": "waldenbuch-rule-9b4302f2516e",
+      "kind": "partial_month",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "admission_after_day": 15,
+        "departure_until_day": 15,
+        "fraction": "1/2"
+      },
+      "evidence": {
+        "source_id": "f37687a3f1c3",
+        "locator": "§ 2 Abs. 3",
+        "original": null
+      }
+    },
+    {
+      "id": "waldenbuch-rule-30a12bb120e1",
+      "kind": "age_transition_source_wording",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "source_text": "Bei Wechsel bis einschließlich 15. U3-Gebühr für Restmonat; bei späterem Wechsel Ü3-Gebühr für Restmonat.",
+        "execution_requires_review": true
+      },
+      "evidence": {
+        "source_id": "f37687a3f1c3",
+        "locator": "§ 2 Abs. 4",
+        "original": null
+      }
+    },
+    {
+      "id": "waldenbuch-rule-02a5c5055d67",
+      "kind": "source_provisions_f37687a3f1c3",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "archive_text_path": "data/sources/f37687a3f1c3/text.txt",
+        "text_sha256": "c3b5536e0b3e370eb9f8823b3e11580bb884103b8d2e71b92467e96f1090c7a3",
+        "review_status": "archived_provisions_preserved"
+      },
+      "evidence": {
+        "source_id": "f37687a3f1c3",
+        "locator": "Vollständiger archivierter Dokumenttext einschließlich Fußnoten",
+        "original": null
+      }
+    },
+    {
+      "id": "waldenbuch-rule-09745676e23a",
+      "kind": "source_clause_f37687a3f1c3_1_1",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 0,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "f37687a3f1c3",
+        "locator": "PDF-/Textseite 1, Absatzblock 1",
+        "original": null
+      }
+    },
+    {
+      "id": "waldenbuch-rule-14c03344ba7e",
+      "kind": "source_clause_f37687a3f1c3_1_5",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 1,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "f37687a3f1c3",
+        "locator": "PDF-/Textseite 1, Absatzblock 5",
+        "original": null
+      }
+    },
+    {
+      "id": "waldenbuch-rule-d76bbbd89791",
+      "kind": "source_clause_f37687a3f1c3_1_6",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 2,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "f37687a3f1c3",
+        "locator": "PDF-/Textseite 1, Absatzblock 6",
+        "original": null
+      }
+    },
+    {
+      "id": "waldenbuch-rule-f682272fef54",
+      "kind": "source_clause_f37687a3f1c3_2_1",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 3,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "f37687a3f1c3",
+        "locator": "PDF-/Textseite 2, Absatzblock 1",
+        "original": null
+      }
+    },
+    {
+      "id": "waldenbuch-rule-639d3b4ae82b",
+      "kind": "source_clause_f37687a3f1c3_2_2",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 4,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "f37687a3f1c3",
+        "locator": "PDF-/Textseite 2, Absatzblock 2",
+        "original": null
+      }
+    },
+    {
+      "id": "waldenbuch-rule-c48ab4529805",
+      "kind": "source_clause_f37687a3f1c3_2_3",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 5,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "f37687a3f1c3",
+        "locator": "PDF-/Textseite 2, Absatzblock 3",
+        "original": null
+      }
+    },
+    {
+      "id": "waldenbuch-rule-a340675e7bbf",
+      "kind": "source_clause_f37687a3f1c3_3_2",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 6,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "f37687a3f1c3",
+        "locator": "PDF-/Textseite 3, Absatzblock 2",
+        "original": null
+      }
+    },
+    {
+      "id": "waldenbuch-rule-3ba6d27291d1",
+      "kind": "source_clause_f37687a3f1c3_3_3",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 7,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "f37687a3f1c3",
+        "locator": "PDF-/Textseite 3, Absatzblock 3",
+        "original": null
+      }
+    },
+    {
+      "id": "waldenbuch-rule-c4f604416e0a",
+      "kind": "source_clause_f37687a3f1c3_4_2",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 8,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "f37687a3f1c3",
+        "locator": "PDF-/Textseite 4, Absatzblock 2",
+        "original": null
+      }
+    },
+    {
+      "id": "waldenbuch-rule-c0ebc59cbf75",
+      "kind": "source_clause_f37687a3f1c3_4_3",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 9,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "f37687a3f1c3",
+        "locator": "PDF-/Textseite 4, Absatzblock 3",
+        "original": null
+      }
+    },
+    {
+      "id": "waldenbuch-rule-2d2230fa44f0",
+      "kind": "source_clause_f37687a3f1c3_4_4",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 10,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "f37687a3f1c3",
+        "locator": "PDF-/Textseite 4, Absatzblock 4",
+        "original": null
+      }
+    },
+    {
+      "id": "waldenbuch-rule-1176b62631ed",
+      "kind": "source_clause_f37687a3f1c3_4_6",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 11,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "f37687a3f1c3",
+        "locator": "PDF-/Textseite 4, Absatzblock 6",
+        "original": null
+      }
+    },
+    {
+      "id": "waldenbuch-rule-470205ab11dc",
+      "kind": "source_clause_f37687a3f1c3_4_7",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 12,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "f37687a3f1c3",
+        "locator": "PDF-/Textseite 4, Absatzblock 7",
+        "original": null
+      }
+    },
+    {
+      "id": "waldenbuch-rule-3fc0788fe58e",
+      "kind": "source_clause_f37687a3f1c3_4_8",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 13,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "f37687a3f1c3",
+        "locator": "PDF-/Textseite 4, Absatzblock 8",
+        "original": null
+      }
+    },
+    {
+      "id": "waldenbuch-rule-6baa41ee60dc",
+      "kind": "source_clause_f37687a3f1c3_5_2",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 14,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "f37687a3f1c3",
+        "locator": "PDF-/Textseite 5, Absatzblock 2",
+        "original": null
+      }
+    },
+    {
+      "id": "waldenbuch-rule-3c0f30ab1912",
+      "kind": "source_provisions_7fc33f1805ec",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "archive_text_path": "data/sources/7fc33f1805ec/text.txt",
+        "text_sha256": "867d60a9a4c206db0ba5f0fd5a53c0b8c2935398e3e503ff2a2e41afae66b7e7",
+        "review_status": "archived_provisions_preserved"
+      },
+      "evidence": {
+        "source_id": "7fc33f1805ec",
+        "locator": "Vollständiger archivierter Dokumenttext einschließlich Fußnoten",
+        "original": null
+      }
+    },
+    {
+      "id": "waldenbuch-rule-e1bcac46cbf3",
+      "kind": "source_clause_7fc33f1805ec_2_2",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 15,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "7fc33f1805ec",
+        "locator": "PDF-/Textseite 2, Absatzblock 2",
+        "original": null
+      }
+    },
+    {
+      "id": "waldenbuch-rule-03157f8a8701",
+      "kind": "source_clause_7fc33f1805ec_9_4",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 16,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "7fc33f1805ec",
+        "locator": "PDF-/Textseite 9, Absatzblock 4",
+        "original": null
+      }
+    },
+    {
+      "id": "waldenbuch-rule-61e1669f1ffe",
+      "kind": "source_clause_7fc33f1805ec_9_5",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 17,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "7fc33f1805ec",
+        "locator": "PDF-/Textseite 9, Absatzblock 5",
+        "original": null
+      }
+    },
+    {
+      "id": "waldenbuch-rule-a43ca50cdb61",
+      "kind": "source_clause_7fc33f1805ec_10_2",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 18,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "7fc33f1805ec",
+        "locator": "PDF-/Textseite 10, Absatzblock 2",
+        "original": null
+      }
+    }
+  ],
+  "issues": [
+    {
+      "code": "pending_calculation_review",
+      "detail": "Strukturierter Import; noch keine Freigabe des Rechners oder der Website."
+    },
+    {
+      "code": "research_limitation_1",
+      "detail": "Für das 40-Stunden-Paket fehlt eine eindeutige Verteilung der fünf Zusatzstunden. Nicht pauschal durch fünf teilen; ggf. belegte44-Stunden-Variante wählen."
+    },
+    {
+      "code": "research_limitation_2",
+      "detail": "Essensbetrag gesondert ergänzen."
+    }
+  ],
+  "coverage": {
+    "publication_status": "not_active",
+    "integration_status": "normalized_pending_calculation_review",
+    "history_in_scope": false,
+    "source_register": "data/research/neighbor_expansion_2026-11-10.json",
+    "research_id": "waldenbuch",
+    "unavailable_configurations": [],
+    "offers": 12,
+    "price_cells": 36,
+    "income_bands": 0,
+    "components": 1,
+    "rule_records": 23,
+    "tariff_table_transcription": "complete_for_declared_scope",
+    "declared_scope": "Aktuelle und bereits veröffentlichte künftige Krippen- und Kindergartentarife; Zusatzkosten und Gebührenregeln.",
+    "excluded_from_regular_price_rows": [
+      "superseded_historical_tariffs",
+      "school_childcare",
+      "takki_and_childminding",
+      "separate_playgroups"
+    ],
+    "calculation_engine_changed": false,
+    "rule_transcription": "typed_parameters_and_source_clauses_with_explicit_unimplemented_status"
+  },
+  "original_research": {
+    "path": "data/research/neighbor_expansion_2026-11-10.json",
+    "section": "Waldenbuch",
+    "text": "„Ganztag mit 5h/9h“ bezeichnet zusätzliche Wochenstunden, keine tägliche Betreuungsdauer. Die maximale Variante mit Frühbetreuung hat freitags acht Stunden.\nFür das 40-Stunden-Paket fehlt eine eindeutige Verteilung der fünf Zusatzstunden. Nicht pauschal durch fünf teilen; ggf. belegte44-Stunden-Variante wählen.\nEssensbetrag gesondert ergänzen.",
+    "source_clauses": [
+      {
+        "text": "Satzung über die Erhebung von Benutzung sgebühren für die s tädtischen\n                             Kindert ageseinrichtung en",
+        "evidence": {
+          "source_id": "f37687a3f1c3",
+          "locator": "PDF-/Textseite 1, Absatzblock 1",
+          "original": null
+        }
+      },
+      {
+        "text": "§2\n                                 Benutzungsgebühren\n   (1) Für die Benutzung von     Kindertagesbetreuungseinrichtungen     werden Benutzungsgebühren\n       gemäß §4 erhoben.",
+        "evidence": {
+          "source_id": "f37687a3f1c3",
+          "locator": "PDF-/Textseite 1, Absatzblock 5",
+          "original": null
+        }
+      },
+      {
+        "text": "(2) Gebührenmaßstab für die Höhe der Benutzungsgebühren sind .\n           •   das Alter der zu betreuenden Kinder\n           •   die Art und der Umfang des Platzes für die Betreuung von Kindern\n           •   die Anzahl der Kinder, die noch nicht das 18. Lebensjahr vollendet haben und die nicht\n               nur vorübergehend im Haushalt des Gebührenschuldners leben\n   (3) Die Gebühren werden jeweils für einen Kalendermonat (Veranlagungszeitraum) erhoben.\n       Scheidet das Kind bis einschl. 15. des jeweiligen Monats aus der Einrichtung aus bzw. wird das\n       Kind nach dem 15. des jeweiligen Monats aufgenommen, ermäßigen            sich die Gebührensätze\n       gem. § 4 auf 50 v.H.",
+        "evidence": {
+          "source_id": "f37687a3f1c3",
+          "locator": "PDF-/Textseite 1, Absatzblock 6",
+          "original": null
+        }
+      },
+      {
+        "text": "(4) Fällt der dritte Geburtstag eines Kindes in den Monat des Kindergartenwechsel s, dann werden\n    bei einem Wechsel bis einschl. 15. des jeweiligen Monats die Gebühren für Kinder unter 3 Jahren\n    für den restlichen Monat festgesetzt. Bei einem Wechsel nach dem 15. des jeweiligen Monats\n    werden die Gebühren für Kinder über 3 Jahren für den restlichen Monat festgesetzt.",
+        "evidence": {
+          "source_id": "f37687a3f1c3",
+          "locator": "PDF-/Textseite 2, Absatzblock 1",
+          "original": null
+        }
+      },
+      {
+        "text": "(5) Ansonsten sind Änderungen, welche für die Gebührenerhebung maßgeblich sind, unverzüglich\n    dem Kämmereiamt mitzuteilen und werden ab dem auf die Meldung folgenden Monat\n    berücksichtigt. Änderungen bezüglich der Angebotsform oder der Betreuungszeiten können nur\n    zum 01.09. sowie zum 01.02. eines Jahres vorgenommen werden. In begründeten Fällen ist eine\n    Ausnahme möglich.",
+        "evidence": {
+          "source_id": "f37687a3f1c3",
+          "locator": "PDF-/Textseite 2, Absatzblock 2",
+          "original": null
+        }
+      },
+      {
+        "text": "(6) Die Gebühr ist auch während der Ferien sowie bei Nichtbenutzung oder vorübergehender\n    Schließung der Kindertagese inrichtung zu entrichten.",
+        "evidence": {
+          "source_id": "f37687a3f1c3",
+          "locator": "PDF-/Textseite 2, Absatzblock 3",
+          "original": null
+        }
+      },
+      {
+        "text": "§4\n                                   Gebührenhöhe\n(1) Die Höhe der Gebühr wird gestaffelt nach der Anzahl der Kinder, die noch nicht das 18.\n    Lebensjahr vollendet haben und die nicht nur vorübergehend im Haushalt des\n    Gebührenschuldners leben.",
+        "evidence": {
+          "source_id": "f37687a3f1c3",
+          "locator": "PDF-/Textseite 3, Absatzblock 2",
+          "original": null
+        }
+      },
+      {
+        "text": "(2) Höhe der Gebührensätze je Betreuungsplatz im Einzelnen:",
+        "evidence": {
+          "source_id": "f37687a3f1c3",
+          "locator": "PDF-/Textseite 3, Absatzblock 3",
+          "original": null
+        }
+      },
+      {
+        "text": "(3) Für die Zeit der Eingewöhnung ist d ie volle vereinbarte Gebühr ohne Abzüge zu entrichten.",
+        "evidence": {
+          "source_id": "f37687a3f1c3",
+          "locator": "PDF-/Textseite 4, Absatzblock 2",
+          "original": null
+        }
+      },
+      {
+        "text": "(4) Die Gebühren werden für zwölf Monate erhoben und sind daher auch während der Schließtage,\n    bei vorübergehender Schließung, bei längerem Fehlen des Kindes sowie bis zur Wirksamkeit der\n    Aufhebung bzw. Beendigung des Nutzungsverhältnisses zu zahlen.",
+        "evidence": {
+          "source_id": "f37687a3f1c3",
+          "locator": "PDF-/Textseite 4, Absatzblock 3",
+          "original": null
+        }
+      },
+      {
+        "text": "§5\n                                Gebührenschuldner\n(1) Gebührenschuldner sind die Eltern, die g               esetzlichen Vertreter bzw. die\n    Personensorgeberechtigten des in die Kindertageseinrichtung aufgenommenen Kindes.",
+        "evidence": {
+          "source_id": "f37687a3f1c3",
+          "locator": "PDF-/Textseite 4, Absatzblock 4",
+          "original": null
+        }
+      },
+      {
+        "text": "§6\n                               Entstehung / Fälligkeit\n(1) Die Gebührenschuld entsteht zu Beginn      des Veranlagungszeitraumes (§ 2 Abs. 3), für den der\n    Kindertages betreuungs platz belegt ist.",
+        "evidence": {
+          "source_id": "f37687a3f1c3",
+          "locator": "PDF-/Textseite 4, Absatzblock 6",
+          "original": null
+        }
+      },
+      {
+        "text": "(2) Die Benutzungsgebühren werden bei der erstmaligen Benutzung durch schriftlichen Bescheid\n    festgesetzt. Die Festsetzung gilt so lange weiter, bis ein neuer Bescheid oder Änderungsbescheid\n    ergeht.",
+        "evidence": {
+          "source_id": "f37687a3f1c3",
+          "locator": "PDF-/Textseite 4, Absatzblock 7",
+          "original": null
+        }
+      },
+      {
+        "text": "(3) Die Gebührenschuld wird jeweils zum ersten Werktag des Veranlagungszeitraumes (§ 2 Abs. 3)\n    fällig. Für den Monat der erstmaligen Belegung des Betreuungsp latzes wird die Gebührenschuld\n    zwei Wochen nach Bekanntgabe des Gebührenbescheides fällig. Dasselbe gilt für den Fall, dass\n    ein neuer Gebührenbescheid oder Änderungsbescheid ergeht.",
+        "evidence": {
+          "source_id": "f37687a3f1c3",
+          "locator": "PDF-/Textseite 4, Absatzblock 8",
+          "original": null
+        }
+      },
+      {
+        "text": "Diese Satzung tritt am 01.09.2026 in Kraft. Gleichzeitig tritt die Gebührensatzung der\nKindertagesbetreuung vom 13.05.2025 außer Kraft.",
+        "evidence": {
+          "source_id": "f37687a3f1c3",
+          "locator": "PDF-/Textseite 5, Absatzblock 2",
+          "original": null
+        }
+      },
+      {
+        "text": "(4) Das Benutzungsverhältnis ist öffentlich -rechtlich ausgestaltet. Für die Benutzung werden Gebühren\n    gemäß § 12 erhoben.",
+        "evidence": {
+          "source_id": "7fc33f1805ec",
+          "locator": "PDF-/Textseite 2, Absatzblock 2",
+          "original": null
+        }
+      },
+      {
+        "text": "(6) Die Stadt Waldenbuch als Trägerin der städtischen Kindertageseinrichtungen kann das Nutzungs-\n    verhältnis aus wichtigem Grund widerrufen. Darüber hinaus ist der Träger berechtigt, das Nutzungs-\n    verhältnis mit einer Frist von zwölf Wochen zum Monatsende unter Angabe des Grundes schriftlich\n    zu beenden. Ein wichtiger Grund für einen Widerruf liegt insbesondere vor, wenn\n    (a) erhebliche Pflichtverletzungen aus dem Betreuungsverhältnis vorliegen,\n    (b) das unentschuldigte Fehlen des Kindes über einen zusammenhängenden Zeitraum von mehr\n        als 4 Wochen,\n    (c) ein Zahlungsrückstand des Elternbeitrages über drei Monate, trotz schriftlicher Mahnung vor-\n        liegt,\n    (d) die wiederholte Nichtbeachtung der in dieser Ordnung aufgeführten Pflichten der Personensor-\n        geberechtigten trotz schriftlicher Abmahnung,\n    (e) erhebliche Auffassungsunterschiede zwischen den Personensorgeberechtigten und der Kinder-\n        tageseinrichtung bestehen – etwa hinsichtlich des Erziehungskonzepts oder einer dem Kind an-\n        gemessenen Förderung – und ein vom Träger anberaumtes Einigungsgespräch sowie             eine\n        schriftliche Mahnung nicht zu einer Klärung geführt haben,\n    (f) Verletzungen der vereinbarten Mitwirkungspflicht der Personensorgeberechtigten nach § 4\n        Abs. 8 nach schriftlicher Abmahnung fortbestehen,\n    (g) ein Kind besonderer Hilfe bedarf, die die Kindertageseinrichtung trotz erheblicher Bemühungen\n        nicht leisten kann,\n    (h) beim Nachweis der Einkommenssituation unrichtige oder unvollständige Angaben gemacht\n        werden.\n    Das Recht zur Kündigung aus wichtigem Grund (außerordentliche Kündigung) bleibt hiervon unbe-\n    rührt.",
+        "evidence": {
+          "source_id": "7fc33f1805ec",
+          "locator": "PDF-/Textseite 9, Absatzblock 4",
+          "original": null
+        }
+      },
+      {
+        "text": "(7) Die Beendigungs - bzw. Widerrufsgründe nach den Bestimmungen der Satzung über die Erhebung\n    von Benutzungsgebühren für die städtischen Kindertageseinrichtungen (Gebührensatzung der Kin-\n    dertagesbetreuung) gelten im Verhältnis zu Abs. 6 unbeschadet fort.",
+        "evidence": {
+          "source_id": "7fc33f1805ec",
+          "locator": "PDF-/Textseite 9, Absatzblock 5",
+          "original": null
+        }
+      },
+      {
+        "text": "§ 13\n                                                 Gebühren\n     Die Stadt Waldenbuch erhebt für die Betreuungsangebote nach dieser Satzung Gebühren nach der je-\n     weils geltenden Fassung der Satzung über die Erhebung von Benutzungsgebühren für die städtischen\n     Kindertageseinrichtungen (Gebührensatzung der Kindertagesbetreuu ng).",
+        "evidence": {
+          "source_id": "7fc33f1805ec",
+          "locator": "PDF-/Textseite 10, Absatzblock 2",
+          "original": null
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,3121 @@
+{
+  "schema_version": "1.0",
+  "id": "grafenau",
+  "name": "Grafenau",
+  "reviewed_at": "2026-11-10",
+  "reference_date": "2026-11-10",
+  "scope": {
+    "included": [
+      "municipal"
+    ],
+    "other_providers": "only_with_explicit_source_evidence"
+  },
+  "family_basis": "under_18",
+  "family_evidence": {
+    "source_id": "2dda8afa554c",
+    "locator": "Familienbegriff und Fußnoten der Gebührenunterlagen",
+    "original": null
+  },
+  "supporting_source_ids": [
+    "2dda8afa554c"
+  ],
+  "offers": [
+    {
+      "id": "grafenau-offer-a12e5afeba6e",
+      "original_label": "VÖ",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": "2027-08-31",
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 1800,
+      "weekday_minutes": [
+        360,
+        360,
+        360,
+        360,
+        360
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Gebührenverzeichnis 2026/2027, Nr. 1, VÖ + 0 GT",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Gebührenverzeichnis 2026/2027, Nr. 1, VÖ + 0 GT",
+        "original": null
+      },
+      "formula": null,
+      "gt_days_per_week": 0
+    },
+    {
+      "id": "grafenau-offer-98e9ca624105",
+      "original_label": "VÖ + 1 GT-Nachmittage",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": "2027-08-31",
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2010,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Gebührenverzeichnis 2026/2027, Nr. 1, VÖ + 1 GT",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Gebührenverzeichnis 2026/2027, Nr. 1, VÖ + 1 GT",
+        "original": null
+      },
+      "formula": null,
+      "gt_days_per_week": 1
+    },
+    {
+      "id": "grafenau-offer-ba607ea01d6c",
+      "original_label": "VÖ + 2 GT-Nachmittage",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": "2027-08-31",
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2220,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Gebührenverzeichnis 2026/2027, Nr. 1, VÖ + 2 GT",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Gebührenverzeichnis 2026/2027, Nr. 1, VÖ + 2 GT",
+        "original": null
+      },
+      "formula": null,
+      "gt_days_per_week": 2
+    },
+    {
+      "id": "grafenau-offer-e8974153f1ef",
+      "original_label": "VÖ + 3 GT-Nachmittage",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": "2027-08-31",
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2430,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Gebührenverzeichnis 2026/2027, Nr. 1, VÖ + 3 GT",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Gebührenverzeichnis 2026/2027, Nr. 1, VÖ + 3 GT",
+        "original": null
+      },
+      "formula": null,
+      "gt_days_per_week": 3
+    },
+    {
+      "id": "grafenau-offer-0d4123daf3c9",
+      "original_label": "VÖ + 4 GT-Nachmittage",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": "2027-08-31",
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2640,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Gebührenverzeichnis 2026/2027, Nr. 1, VÖ + 4 GT",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Gebührenverzeichnis 2026/2027, Nr. 1, VÖ + 4 GT",
+        "original": null
+      },
+      "formula": null,
+      "gt_days_per_week": 4
+    },
+    {
+      "id": "grafenau-offer-370f72ae87d7",
+      "original_label": "VÖ + 5 GT-Nachmittage",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": "2027-08-31",
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2850,
+      "weekday_minutes": [
+        570,
+        570,
+        570,
+        570,
+        570
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Gebührenverzeichnis 2026/2027, Nr. 1, VÖ + 5 GT",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Gebührenverzeichnis 2026/2027, Nr. 1, VÖ + 5 GT",
+        "original": null
+      },
+      "formula": null,
+      "gt_days_per_week": 5
+    },
+    {
+      "id": "grafenau-offer-06dc17f813ec",
+      "original_label": "VÖ",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": "2027-08-31",
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 1800,
+      "weekday_minutes": [
+        360,
+        360,
+        360,
+        360,
+        360
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Gebührenverzeichnis 2026/2027, Nr. 2, VÖ + 0 GT",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Gebührenverzeichnis 2026/2027, Nr. 2, VÖ + 0 GT",
+        "original": null
+      },
+      "formula": null,
+      "gt_days_per_week": 0
+    },
+    {
+      "id": "grafenau-offer-2e1f4ef94dd3",
+      "original_label": "VÖ + 1 GT-Nachmittage",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": "2027-08-31",
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2010,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Gebührenverzeichnis 2026/2027, Nr. 2, VÖ + 1 GT",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Gebührenverzeichnis 2026/2027, Nr. 2, VÖ + 1 GT",
+        "original": null
+      },
+      "formula": null,
+      "gt_days_per_week": 1
+    },
+    {
+      "id": "grafenau-offer-d28124227b73",
+      "original_label": "VÖ + 2 GT-Nachmittage",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": "2027-08-31",
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2220,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Gebührenverzeichnis 2026/2027, Nr. 2, VÖ + 2 GT",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Gebührenverzeichnis 2026/2027, Nr. 2, VÖ + 2 GT",
+        "original": null
+      },
+      "formula": null,
+      "gt_days_per_week": 2
+    },
+    {
+      "id": "grafenau-offer-85e040c19c74",
+      "original_label": "VÖ + 3 GT-Nachmittage",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": "2027-08-31",
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2430,
+      "weekday_minutes": [
+        570,
+        570,
+        570,
+        360,
+        360
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Gebührenverzeichnis 2026/2027, Nr. 2, VÖ + 3 GT",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Gebührenverzeichnis 2026/2027, Nr. 2, VÖ + 3 GT",
+        "original": null
+      },
+      "formula": null,
+      "gt_days_per_week": 3
+    },
+    {
+      "id": "grafenau-offer-9a7ebc245542",
+      "original_label": "VÖ",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2027-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2027-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 1800,
+      "weekday_minutes": [
+        360,
+        360,
+        360,
+        360,
+        360
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Gebührenverzeichnis 2027/2028, Nr. 1, VÖ + 0 GT",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Gebührenverzeichnis 2027/2028, Nr. 1, VÖ + 0 GT",
+        "original": null
+      },
+      "formula": null,
+      "gt_days_per_week": 0
+    },
+    {
+      "id": "grafenau-offer-b5c35e1b1dee",
+      "original_label": "VÖ + 1 GT-Nachmittage",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2027-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2027-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2010,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Gebührenverzeichnis 2027/2028, Nr. 1, VÖ + 1 GT",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Gebührenverzeichnis 2027/2028, Nr. 1, VÖ + 1 GT",
+        "original": null
+      },
+      "formula": null,
+      "gt_days_per_week": 1
+    },
+    {
+      "id": "grafenau-offer-c9bbbbab818f",
+      "original_label": "VÖ + 2 GT-Nachmittage",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2027-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2027-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2220,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Gebührenverzeichnis 2027/2028, Nr. 1, VÖ + 2 GT",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Gebührenverzeichnis 2027/2028, Nr. 1, VÖ + 2 GT",
+        "original": null
+      },
+      "formula": null,
+      "gt_days_per_week": 2
+    },
+    {
+      "id": "grafenau-offer-7b9bbd54c439",
+      "original_label": "VÖ + 3 GT-Nachmittage",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2027-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2027-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2430,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Gebührenverzeichnis 2027/2028, Nr. 1, VÖ + 3 GT",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Gebührenverzeichnis 2027/2028, Nr. 1, VÖ + 3 GT",
+        "original": null
+      },
+      "formula": null,
+      "gt_days_per_week": 3
+    },
+    {
+      "id": "grafenau-offer-f1395f826203",
+      "original_label": "VÖ + 4 GT-Nachmittage",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2027-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2027-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2640,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Gebührenverzeichnis 2027/2028, Nr. 1, VÖ + 4 GT",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Gebührenverzeichnis 2027/2028, Nr. 1, VÖ + 4 GT",
+        "original": null
+      },
+      "formula": null,
+      "gt_days_per_week": 4
+    },
+    {
+      "id": "grafenau-offer-f71281473b8f",
+      "original_label": "VÖ + 5 GT-Nachmittage",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2027-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2027-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2850,
+      "weekday_minutes": [
+        570,
+        570,
+        570,
+        570,
+        570
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Gebührenverzeichnis 2027/2028, Nr. 1, VÖ + 5 GT",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Gebührenverzeichnis 2027/2028, Nr. 1, VÖ + 5 GT",
+        "original": null
+      },
+      "formula": null,
+      "gt_days_per_week": 5
+    },
+    {
+      "id": "grafenau-offer-d3cb80bec5ee",
+      "original_label": "VÖ",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2027-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2027-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 1800,
+      "weekday_minutes": [
+        360,
+        360,
+        360,
+        360,
+        360
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Gebührenverzeichnis 2027/2028, Nr. 2, VÖ + 0 GT",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Gebührenverzeichnis 2027/2028, Nr. 2, VÖ + 0 GT",
+        "original": null
+      },
+      "formula": null,
+      "gt_days_per_week": 0
+    },
+    {
+      "id": "grafenau-offer-bbf36f7e785c",
+      "original_label": "VÖ + 1 GT-Nachmittage",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2027-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2027-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2010,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Gebührenverzeichnis 2027/2028, Nr. 2, VÖ + 1 GT",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Gebührenverzeichnis 2027/2028, Nr. 2, VÖ + 1 GT",
+        "original": null
+      },
+      "formula": null,
+      "gt_days_per_week": 1
+    },
+    {
+      "id": "grafenau-offer-ea0a9d2885f9",
+      "original_label": "VÖ + 2 GT-Nachmittage",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2027-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2027-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2220,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Gebührenverzeichnis 2027/2028, Nr. 2, VÖ + 2 GT",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Gebührenverzeichnis 2027/2028, Nr. 2, VÖ + 2 GT",
+        "original": null
+      },
+      "formula": null,
+      "gt_days_per_week": 2
+    },
+    {
+      "id": "grafenau-offer-d9dbdeadd65b",
+      "original_label": "VÖ + 3 GT-Nachmittage",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2027-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2027-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2430,
+      "weekday_minutes": [
+        570,
+        570,
+        570,
+        360,
+        360
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Gebührenverzeichnis 2027/2028, Nr. 2, VÖ + 3 GT",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Gebührenverzeichnis 2027/2028, Nr. 2, VÖ + 3 GT",
+        "original": null
+      },
+      "formula": null,
+      "gt_days_per_week": 3
+    }
+  ],
+  "prices": [
+    {
+      "id": "grafenau-price-47d997b7fd73",
+      "offer_id": "grafenau-offer-a12e5afeba6e",
+      "amount_cents": 18300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Gebührenverzeichnis 2026/2027, Nr. 1, VÖ + 0 GT",
+        "original": 18300
+      }
+    },
+    {
+      "id": "grafenau-price-cfd0eb6191b7",
+      "offer_id": "grafenau-offer-a12e5afeba6e",
+      "amount_cents": 14000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Gebührenverzeichnis 2026/2027, Nr. 1, VÖ + 0 GT",
+        "original": 14000
+      }
+    },
+    {
+      "id": "grafenau-price-e7fd9d5eae01",
+      "offer_id": "grafenau-offer-a12e5afeba6e",
+      "amount_cents": 9900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Gebührenverzeichnis 2026/2027, Nr. 1, VÖ + 0 GT",
+        "original": 9900
+      }
+    },
+    {
+      "id": "grafenau-price-bf56885389c6",
+      "offer_id": "grafenau-offer-a12e5afeba6e",
+      "amount_cents": 4800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Gebührenverzeichnis 2026/2027, Nr. 1, VÖ + 0 GT",
+        "original": 4800
+      }
+    },
+    {
+      "id": "grafenau-price-a37af14b74d7",
+      "offer_id": "grafenau-offer-98e9ca624105",
+      "amount_cents": 23500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Gebührenverzeichnis 2026/2027, Nr. 1, VÖ + 1 GT",
+        "original": 23500
+      }
+    },
+    {
+      "id": "grafenau-price-78d544830dc4",
+      "offer_id": "grafenau-offer-98e9ca624105",
+      "amount_cents": 17900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Gebührenverzeichnis 2026/2027, Nr. 1, VÖ + 1 GT",
+        "original": 17900
+      }
+    },
+    {
+      "id": "grafenau-price-57e7ae36c034",
+      "offer_id": "grafenau-offer-98e9ca624105",
+      "amount_cents": 12800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Gebührenverzeichnis 2026/2027, Nr. 1, VÖ + 1 GT",
+        "original": 12800
+      }
+    },
+    {
+      "id": "grafenau-price-56f3e9a16274",
+      "offer_id": "grafenau-offer-98e9ca624105",
+      "amount_cents": 5800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Gebührenverzeichnis 2026/2027, Nr. 1, VÖ + 1 GT",
+        "original": 5800
+      }
+    },
+    {
+      "id": "grafenau-price-cba10de5b706",
+      "offer_id": "grafenau-offer-ba607ea01d6c",
+      "amount_cents": 28300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Gebührenverzeichnis 2026/2027, Nr. 1, VÖ + 2 GT",
+        "original": 28300
+      }
+    },
+    {
+      "id": "grafenau-price-3a6a45e0273c",
+      "offer_id": "grafenau-offer-ba607ea01d6c",
+      "amount_cents": 21700,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Gebührenverzeichnis 2026/2027, Nr. 1, VÖ + 2 GT",
+        "original": 21700
+      }
+    },
+    {
+      "id": "grafenau-price-315294798f2a",
+      "offer_id": "grafenau-offer-ba607ea01d6c",
+      "amount_cents": 15600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Gebührenverzeichnis 2026/2027, Nr. 1, VÖ + 2 GT",
+        "original": 15600
+      }
+    },
+    {
+      "id": "grafenau-price-b27cd58c14ba",
+      "offer_id": "grafenau-offer-ba607ea01d6c",
+      "amount_cents": 7100,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Gebührenverzeichnis 2026/2027, Nr. 1, VÖ + 2 GT",
+        "original": 7100
+      }
+    },
+    {
+      "id": "grafenau-price-423b277dfaad",
+      "offer_id": "grafenau-offer-e8974153f1ef",
+      "amount_cents": 33000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Gebührenverzeichnis 2026/2027, Nr. 1, VÖ + 3 GT",
+        "original": 33000
+      }
+    },
+    {
+      "id": "grafenau-price-45b491ab5f01",
+      "offer_id": "grafenau-offer-e8974153f1ef",
+      "amount_cents": 25600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Gebührenverzeichnis 2026/2027, Nr. 1, VÖ + 3 GT",
+        "original": 25600
+      }
+    },
+    {
+      "id": "grafenau-price-c54ff60880df",
+      "offer_id": "grafenau-offer-e8974153f1ef",
+      "amount_cents": 18300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Gebührenverzeichnis 2026/2027, Nr. 1, VÖ + 3 GT",
+        "original": 18300
+      }
+    },
+    {
+      "id": "grafenau-price-60a286f7411e",
+      "offer_id": "grafenau-offer-e8974153f1ef",
+      "amount_cents": 8400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Gebührenverzeichnis 2026/2027, Nr. 1, VÖ + 3 GT",
+        "original": 8400
+      }
+    },
+    {
+      "id": "grafenau-price-a3c823cefdc6",
+      "offer_id": "grafenau-offer-0d4123daf3c9",
+      "amount_cents": 38100,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Gebührenverzeichnis 2026/2027, Nr. 1, VÖ + 4 GT",
+        "original": 38100
+      }
+    },
+    {
+      "id": "grafenau-price-037ff47b8f5c",
+      "offer_id": "grafenau-offer-0d4123daf3c9",
+      "amount_cents": 29400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Gebührenverzeichnis 2026/2027, Nr. 1, VÖ + 4 GT",
+        "original": 29400
+      }
+    },
+    {
+      "id": "grafenau-price-9d24b7d12a01",
+      "offer_id": "grafenau-offer-0d4123daf3c9",
+      "amount_cents": 21300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Gebührenverzeichnis 2026/2027, Nr. 1, VÖ + 4 GT",
+        "original": 21300
+      }
+    },
+    {
+      "id": "grafenau-price-02a0eda1115a",
+      "offer_id": "grafenau-offer-0d4123daf3c9",
+      "amount_cents": 9700,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Gebührenverzeichnis 2026/2027, Nr. 1, VÖ + 4 GT",
+        "original": 9700
+      }
+    },
+    {
+      "id": "grafenau-price-1e6d5554a844",
+      "offer_id": "grafenau-offer-370f72ae87d7",
+      "amount_cents": 42800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Gebührenverzeichnis 2026/2027, Nr. 1, VÖ + 5 GT",
+        "original": 42800
+      }
+    },
+    {
+      "id": "grafenau-price-70764519b70b",
+      "offer_id": "grafenau-offer-370f72ae87d7",
+      "amount_cents": 33500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Gebührenverzeichnis 2026/2027, Nr. 1, VÖ + 5 GT",
+        "original": 33500
+      }
+    },
+    {
+      "id": "grafenau-price-673f394a6140",
+      "offer_id": "grafenau-offer-370f72ae87d7",
+      "amount_cents": 24200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Gebührenverzeichnis 2026/2027, Nr. 1, VÖ + 5 GT",
+        "original": 24200
+      }
+    },
+    {
+      "id": "grafenau-price-aa620a86153c",
+      "offer_id": "grafenau-offer-370f72ae87d7",
+      "amount_cents": 11100,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Gebührenverzeichnis 2026/2027, Nr. 1, VÖ + 5 GT",
+        "original": 11100
+      }
+    },
+    {
+      "id": "grafenau-price-c494ceb8da2a",
+      "offer_id": "grafenau-offer-06dc17f813ec",
+      "amount_cents": 53700,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Gebührenverzeichnis 2026/2027, Nr. 2, VÖ + 0 GT",
+        "original": 53700
+      }
+    },
+    {
+      "id": "grafenau-price-4671baaaa9c0",
+      "offer_id": "grafenau-offer-06dc17f813ec",
+      "amount_cents": 39600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Gebührenverzeichnis 2026/2027, Nr. 2, VÖ + 0 GT",
+        "original": 39600
+      }
+    },
+    {
+      "id": "grafenau-price-61fe959b84eb",
+      "offer_id": "grafenau-offer-06dc17f813ec",
+      "amount_cents": 26700,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Gebührenverzeichnis 2026/2027, Nr. 2, VÖ + 0 GT",
+        "original": 26700
+      }
+    },
+    {
+      "id": "grafenau-price-0ad6c1d0a9b3",
+      "offer_id": "grafenau-offer-06dc17f813ec",
+      "amount_cents": 10400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Gebührenverzeichnis 2026/2027, Nr. 2, VÖ + 0 GT",
+        "original": 10400
+      }
+    },
+    {
+      "id": "grafenau-price-b73c7e6cd9bd",
+      "offer_id": "grafenau-offer-2e1f4ef94dd3",
+      "amount_cents": 59200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Gebührenverzeichnis 2026/2027, Nr. 2, VÖ + 1 GT",
+        "original": 59200
+      }
+    },
+    {
+      "id": "grafenau-price-f33cbc089727",
+      "offer_id": "grafenau-offer-2e1f4ef94dd3",
+      "amount_cents": 44200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Gebührenverzeichnis 2026/2027, Nr. 2, VÖ + 1 GT",
+        "original": 44200
+      }
+    },
+    {
+      "id": "grafenau-price-cb1cde1f51db",
+      "offer_id": "grafenau-offer-2e1f4ef94dd3",
+      "amount_cents": 30200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Gebührenverzeichnis 2026/2027, Nr. 2, VÖ + 1 GT",
+        "original": 30200
+      }
+    },
+    {
+      "id": "grafenau-price-facb4722d723",
+      "offer_id": "grafenau-offer-2e1f4ef94dd3",
+      "amount_cents": 12200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Gebührenverzeichnis 2026/2027, Nr. 2, VÖ + 1 GT",
+        "original": 12200
+      }
+    },
+    {
+      "id": "grafenau-price-e990a465e9f8",
+      "offer_id": "grafenau-offer-d28124227b73",
+      "amount_cents": 64400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Gebührenverzeichnis 2026/2027, Nr. 2, VÖ + 2 GT",
+        "original": 64400
+      }
+    },
+    {
+      "id": "grafenau-price-eb932a723fdd",
+      "offer_id": "grafenau-offer-d28124227b73",
+      "amount_cents": 49000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Gebührenverzeichnis 2026/2027, Nr. 2, VÖ + 2 GT",
+        "original": 49000
+      }
+    },
+    {
+      "id": "grafenau-price-0816f3dc161b",
+      "offer_id": "grafenau-offer-d28124227b73",
+      "amount_cents": 33600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Gebührenverzeichnis 2026/2027, Nr. 2, VÖ + 2 GT",
+        "original": 33600
+      }
+    },
+    {
+      "id": "grafenau-price-18c4fda780d4",
+      "offer_id": "grafenau-offer-d28124227b73",
+      "amount_cents": 13700,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Gebührenverzeichnis 2026/2027, Nr. 2, VÖ + 2 GT",
+        "original": 13700
+      }
+    },
+    {
+      "id": "grafenau-price-894c7a3f726f",
+      "offer_id": "grafenau-offer-85e040c19c74",
+      "amount_cents": 69700,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Gebührenverzeichnis 2026/2027, Nr. 2, VÖ + 3 GT",
+        "original": 69700
+      }
+    },
+    {
+      "id": "grafenau-price-2e07b3d8f79c",
+      "offer_id": "grafenau-offer-85e040c19c74",
+      "amount_cents": 53700,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Gebührenverzeichnis 2026/2027, Nr. 2, VÖ + 3 GT",
+        "original": 53700
+      }
+    },
+    {
+      "id": "grafenau-price-a4a466d0d688",
+      "offer_id": "grafenau-offer-85e040c19c74",
+      "amount_cents": 36900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Gebührenverzeichnis 2026/2027, Nr. 2, VÖ + 3 GT",
+        "original": 36900
+      }
+    },
+    {
+      "id": "grafenau-price-a8b237aadae7",
+      "offer_id": "grafenau-offer-85e040c19c74",
+      "amount_cents": 15000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Gebührenverzeichnis 2026/2027, Nr. 2, VÖ + 3 GT",
+        "original": 15000
+      }
+    },
+    {
+      "id": "grafenau-price-a1d0352bc56f",
+      "offer_id": "grafenau-offer-9a7ebc245542",
+      "amount_cents": 19000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Gebührenverzeichnis 2027/2028, Nr. 1, VÖ + 0 GT",
+        "original": 19000
+      }
+    },
+    {
+      "id": "grafenau-price-b7e928d8005c",
+      "offer_id": "grafenau-offer-9a7ebc245542",
+      "amount_cents": 14500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Gebührenverzeichnis 2027/2028, Nr. 1, VÖ + 0 GT",
+        "original": 14500
+      }
+    },
+    {
+      "id": "grafenau-price-da3bca249058",
+      "offer_id": "grafenau-offer-9a7ebc245542",
+      "amount_cents": 10300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Gebührenverzeichnis 2027/2028, Nr. 1, VÖ + 0 GT",
+        "original": 10300
+      }
+    },
+    {
+      "id": "grafenau-price-9e4435ec9d62",
+      "offer_id": "grafenau-offer-9a7ebc245542",
+      "amount_cents": 4900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Gebührenverzeichnis 2027/2028, Nr. 1, VÖ + 0 GT",
+        "original": 4900
+      }
+    },
+    {
+      "id": "grafenau-price-39f74f22c761",
+      "offer_id": "grafenau-offer-b5c35e1b1dee",
+      "amount_cents": 24400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Gebührenverzeichnis 2027/2028, Nr. 1, VÖ + 1 GT",
+        "original": 24400
+      }
+    },
+    {
+      "id": "grafenau-price-65e2d1698dcd",
+      "offer_id": "grafenau-offer-b5c35e1b1dee",
+      "amount_cents": 18600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Gebührenverzeichnis 2027/2028, Nr. 1, VÖ + 1 GT",
+        "original": 18600
+      }
+    },
+    {
+      "id": "grafenau-price-fa8ae7514437",
+      "offer_id": "grafenau-offer-b5c35e1b1dee",
+      "amount_cents": 13300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Gebührenverzeichnis 2027/2028, Nr. 1, VÖ + 1 GT",
+        "original": 13300
+      }
+    },
+    {
+      "id": "grafenau-price-0c6f2f5a1a6c",
+      "offer_id": "grafenau-offer-b5c35e1b1dee",
+      "amount_cents": 6000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Gebührenverzeichnis 2027/2028, Nr. 1, VÖ + 1 GT",
+        "original": 6000
+      }
+    },
+    {
+      "id": "grafenau-price-cc55dce191e1",
+      "offer_id": "grafenau-offer-c9bbbbab818f",
+      "amount_cents": 29400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Gebührenverzeichnis 2027/2028, Nr. 1, VÖ + 2 GT",
+        "original": 29400
+      }
+    },
+    {
+      "id": "grafenau-price-12efe91a7f56",
+      "offer_id": "grafenau-offer-c9bbbbab818f",
+      "amount_cents": 22600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Gebührenverzeichnis 2027/2028, Nr. 1, VÖ + 2 GT",
+        "original": 22600
+      }
+    },
+    {
+      "id": "grafenau-price-a5adeb8e0274",
+      "offer_id": "grafenau-offer-c9bbbbab818f",
+      "amount_cents": 16300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Gebührenverzeichnis 2027/2028, Nr. 1, VÖ + 2 GT",
+        "original": 16300
+      }
+    },
+    {
+      "id": "grafenau-price-88fa05baa0a6",
+      "offer_id": "grafenau-offer-c9bbbbab818f",
+      "amount_cents": 7300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Gebührenverzeichnis 2027/2028, Nr. 1, VÖ + 2 GT",
+        "original": 7300
+      }
+    },
+    {
+      "id": "grafenau-price-1e8cfd089fa0",
+      "offer_id": "grafenau-offer-7b9bbd54c439",
+      "amount_cents": 34300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Gebührenverzeichnis 2027/2028, Nr. 1, VÖ + 3 GT",
+        "original": 34300
+      }
+    },
+    {
+      "id": "grafenau-price-9bebb5ec5c79",
+      "offer_id": "grafenau-offer-7b9bbd54c439",
+      "amount_cents": 26700,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Gebührenverzeichnis 2027/2028, Nr. 1, VÖ + 3 GT",
+        "original": 26700
+      }
+    },
+    {
+      "id": "grafenau-price-faa0989099c6",
+      "offer_id": "grafenau-offer-7b9bbd54c439",
+      "amount_cents": 19200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Gebührenverzeichnis 2027/2028, Nr. 1, VÖ + 3 GT",
+        "original": 19200
+      }
+    },
+    {
+      "id": "grafenau-price-a55e15c728d5",
+      "offer_id": "grafenau-offer-7b9bbd54c439",
+      "amount_cents": 8800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Gebührenverzeichnis 2027/2028, Nr. 1, VÖ + 3 GT",
+        "original": 8800
+      }
+    },
+    {
+      "id": "grafenau-price-2f1f67c71510",
+      "offer_id": "grafenau-offer-f1395f826203",
+      "amount_cents": 39600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Gebührenverzeichnis 2027/2028, Nr. 1, VÖ + 4 GT",
+        "original": 39600
+      }
+    },
+    {
+      "id": "grafenau-price-9f81ce0db3af",
+      "offer_id": "grafenau-offer-f1395f826203",
+      "amount_cents": 30600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Gebührenverzeichnis 2027/2028, Nr. 1, VÖ + 4 GT",
+        "original": 30600
+      }
+    },
+    {
+      "id": "grafenau-price-50bf3eb715a1",
+      "offer_id": "grafenau-offer-f1395f826203",
+      "amount_cents": 22100,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Gebührenverzeichnis 2027/2028, Nr. 1, VÖ + 4 GT",
+        "original": 22100
+      }
+    },
+    {
+      "id": "grafenau-price-0558ccb62d5a",
+      "offer_id": "grafenau-offer-f1395f826203",
+      "amount_cents": 10100,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Gebührenverzeichnis 2027/2028, Nr. 1, VÖ + 4 GT",
+        "original": 10100
+      }
+    },
+    {
+      "id": "grafenau-price-19240a81696e",
+      "offer_id": "grafenau-offer-f71281473b8f",
+      "amount_cents": 44500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Gebührenverzeichnis 2027/2028, Nr. 1, VÖ + 5 GT",
+        "original": 44500
+      }
+    },
+    {
+      "id": "grafenau-price-32fb8fb168ad",
+      "offer_id": "grafenau-offer-f71281473b8f",
+      "amount_cents": 34800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Gebührenverzeichnis 2027/2028, Nr. 1, VÖ + 5 GT",
+        "original": 34800
+      }
+    },
+    {
+      "id": "grafenau-price-f3311bbb8745",
+      "offer_id": "grafenau-offer-f71281473b8f",
+      "amount_cents": 25200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Gebührenverzeichnis 2027/2028, Nr. 1, VÖ + 5 GT",
+        "original": 25200
+      }
+    },
+    {
+      "id": "grafenau-price-56fff0534683",
+      "offer_id": "grafenau-offer-f71281473b8f",
+      "amount_cents": 11600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Gebührenverzeichnis 2027/2028, Nr. 1, VÖ + 5 GT",
+        "original": 11600
+      }
+    },
+    {
+      "id": "grafenau-price-39a90b0809be",
+      "offer_id": "grafenau-offer-d3cb80bec5ee",
+      "amount_cents": 55800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Gebührenverzeichnis 2027/2028, Nr. 2, VÖ + 0 GT",
+        "original": 55800
+      }
+    },
+    {
+      "id": "grafenau-price-887faa8ecd95",
+      "offer_id": "grafenau-offer-d3cb80bec5ee",
+      "amount_cents": 41100,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Gebührenverzeichnis 2027/2028, Nr. 2, VÖ + 0 GT",
+        "original": 41100
+      }
+    },
+    {
+      "id": "grafenau-price-a0b33223a5c9",
+      "offer_id": "grafenau-offer-d3cb80bec5ee",
+      "amount_cents": 27800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Gebührenverzeichnis 2027/2028, Nr. 2, VÖ + 0 GT",
+        "original": 27800
+      }
+    },
+    {
+      "id": "grafenau-price-6f231da0aac2",
+      "offer_id": "grafenau-offer-d3cb80bec5ee",
+      "amount_cents": 10800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Gebührenverzeichnis 2027/2028, Nr. 2, VÖ + 0 GT",
+        "original": 10800
+      }
+    },
+    {
+      "id": "grafenau-price-3f946a6c1983",
+      "offer_id": "grafenau-offer-bbf36f7e785c",
+      "amount_cents": 61600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Gebührenverzeichnis 2027/2028, Nr. 2, VÖ + 1 GT",
+        "original": 61600
+      }
+    },
+    {
+      "id": "grafenau-price-a1b3252dbdd8",
+      "offer_id": "grafenau-offer-bbf36f7e785c",
+      "amount_cents": 45900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Gebührenverzeichnis 2027/2028, Nr. 2, VÖ + 1 GT",
+        "original": 45900
+      }
+    },
+    {
+      "id": "grafenau-price-ab6aaaba617c",
+      "offer_id": "grafenau-offer-bbf36f7e785c",
+      "amount_cents": 31400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Gebührenverzeichnis 2027/2028, Nr. 2, VÖ + 1 GT",
+        "original": 31400
+      }
+    },
+    {
+      "id": "grafenau-price-b0cabf52bafd",
+      "offer_id": "grafenau-offer-bbf36f7e785c",
+      "amount_cents": 12700,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Gebührenverzeichnis 2027/2028, Nr. 2, VÖ + 1 GT",
+        "original": 12700
+      }
+    },
+    {
+      "id": "grafenau-price-e4093f4cd448",
+      "offer_id": "grafenau-offer-ea0a9d2885f9",
+      "amount_cents": 67000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Gebührenverzeichnis 2027/2028, Nr. 2, VÖ + 2 GT",
+        "original": 67000
+      }
+    },
+    {
+      "id": "grafenau-price-b91f075aad36",
+      "offer_id": "grafenau-offer-ea0a9d2885f9",
+      "amount_cents": 50900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Gebührenverzeichnis 2027/2028, Nr. 2, VÖ + 2 GT",
+        "original": 50900
+      }
+    },
+    {
+      "id": "grafenau-price-984146848495",
+      "offer_id": "grafenau-offer-ea0a9d2885f9",
+      "amount_cents": 34900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Gebührenverzeichnis 2027/2028, Nr. 2, VÖ + 2 GT",
+        "original": 34900
+      }
+    },
+    {
+      "id": "grafenau-price-ff0260dffec6",
+      "offer_id": "grafenau-offer-ea0a9d2885f9",
+      "amount_cents": 14300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Gebührenverzeichnis 2027/2028, Nr. 2, VÖ + 2 GT",
+        "original": 14300
+      }
+    },
+    {
+      "id": "grafenau-price-0de071260140",
+      "offer_id": "grafenau-offer-d9dbdeadd65b",
+      "amount_cents": 72400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Gebührenverzeichnis 2027/2028, Nr. 2, VÖ + 3 GT",
+        "original": 72400
+      }
+    },
+    {
+      "id": "grafenau-price-c7dafb693492",
+      "offer_id": "grafenau-offer-d9dbdeadd65b",
+      "amount_cents": 55800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Gebührenverzeichnis 2027/2028, Nr. 2, VÖ + 3 GT",
+        "original": 55800
+      }
+    },
+    {
+      "id": "grafenau-price-4b5c3ee734bd",
+      "offer_id": "grafenau-offer-d9dbdeadd65b",
+      "amount_cents": 38400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Gebührenverzeichnis 2027/2028, Nr. 2, VÖ + 3 GT",
+        "original": 38400
+      }
+    },
+    {
+      "id": "grafenau-price-e240ce467a99",
+      "offer_id": "grafenau-offer-d9dbdeadd65b",
+      "amount_cents": 15600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Gebührenverzeichnis 2027/2028, Nr. 2, VÖ + 3 GT",
+        "original": 15600
+      }
+    }
+  ],
+  "income_bands": [],
+  "components": [
+    {
+      "id": "grafenau-component-73043e427e55",
+      "kind": "meal",
+      "original_label": "Mittagessen bei GT-Nachmittagen verpflichtend",
+      "amount_cents": null,
+      "unit": "per_month",
+      "age_group": null,
+      "required": true,
+      "payment_months": null,
+      "offer_ids": null,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "value_status": "unknown",
+      "evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "§ 3 Abs. 3",
+        "original": null
+      },
+      "applies_when": {
+        "gt_days_per_week_min": 1
+      }
+    }
+  ],
+  "rules": [
+    {
+      "id": "grafenau-rule-6dd8525e4c55",
+      "kind": "gt_booking",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "minimum_gt_afternoons": 1,
+        "u3_gt_days_available": [
+          "monday",
+          "tuesday",
+          "wednesday"
+        ],
+        "o3_gt_days_available": [
+          "monday",
+          "tuesday",
+          "wednesday",
+          "thursday",
+          "friday"
+        ]
+      },
+      "evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "§ 2–3",
+        "original": null
+      }
+    },
+    {
+      "id": "grafenau-rule-3f6869176276",
+      "kind": "source_provisions_2dda8afa554c",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "archive_text_path": "data/sources/2dda8afa554c/text.txt",
+        "text_sha256": "2d9e93ae20b44440b7fde5a92b733f95f80344cf8607f94083aa49fd8eabe711",
+        "review_status": "archived_provisions_preserved"
+      },
+      "evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "Vollständiger archivierter Dokumenttext einschließlich Fußnoten",
+        "original": null
+      }
+    },
+    {
+      "id": "grafenau-rule-9b13d99ba6ab",
+      "kind": "source_clause_2dda8afa554c_1_4",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 0,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "PDF-/Textseite 1, Absatzblock 4",
+        "original": null
+      }
+    },
+    {
+      "id": "grafenau-rule-a9b6b05b136d",
+      "kind": "source_clause_2dda8afa554c_1_11",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 1,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "PDF-/Textseite 1, Absatzblock 11",
+        "original": null
+      }
+    },
+    {
+      "id": "grafenau-rule-6286b8bcd417",
+      "kind": "source_clause_2dda8afa554c_2_5",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 2,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "PDF-/Textseite 2, Absatzblock 5",
+        "original": null
+      }
+    },
+    {
+      "id": "grafenau-rule-04d1032e2583",
+      "kind": "source_clause_2dda8afa554c_2_8",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 3,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "PDF-/Textseite 2, Absatzblock 8",
+        "original": null
+      }
+    },
+    {
+      "id": "grafenau-rule-a5f2943f825f",
+      "kind": "source_clause_2dda8afa554c_2_13",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 4,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "PDF-/Textseite 2, Absatzblock 13",
+        "original": null
+      }
+    },
+    {
+      "id": "grafenau-rule-cde8ee573e9f",
+      "kind": "source_clause_2dda8afa554c_2_14",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 5,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "PDF-/Textseite 2, Absatzblock 14",
+        "original": null
+      }
+    },
+    {
+      "id": "grafenau-rule-2f8578f5d742",
+      "kind": "source_clause_2dda8afa554c_2_16",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 6,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "PDF-/Textseite 2, Absatzblock 16",
+        "original": null
+      }
+    },
+    {
+      "id": "grafenau-rule-0f6bf7596bec",
+      "kind": "source_clause_2dda8afa554c_2_17",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 7,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "PDF-/Textseite 2, Absatzblock 17",
+        "original": null
+      }
+    },
+    {
+      "id": "grafenau-rule-287c3b37a1cd",
+      "kind": "source_clause_2dda8afa554c_3_1",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 8,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "PDF-/Textseite 3, Absatzblock 1",
+        "original": null
+      }
+    },
+    {
+      "id": "grafenau-rule-1577d0ebfa10",
+      "kind": "source_clause_2dda8afa554c_3_2",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 9,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "PDF-/Textseite 3, Absatzblock 2",
+        "original": null
+      }
+    },
+    {
+      "id": "grafenau-rule-ae766e76a5e7",
+      "kind": "source_clause_2dda8afa554c_3_3",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 10,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "PDF-/Textseite 3, Absatzblock 3",
+        "original": null
+      }
+    },
+    {
+      "id": "grafenau-rule-c3b7dfbcee41",
+      "kind": "source_clause_2dda8afa554c_3_4",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 11,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "PDF-/Textseite 3, Absatzblock 4",
+        "original": null
+      }
+    },
+    {
+      "id": "grafenau-rule-45f3ef3ad74c",
+      "kind": "source_clause_2dda8afa554c_3_5",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 12,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "PDF-/Textseite 3, Absatzblock 5",
+        "original": null
+      }
+    },
+    {
+      "id": "grafenau-rule-6813f986eaea",
+      "kind": "source_clause_2dda8afa554c_3_7",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 13,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "PDF-/Textseite 3, Absatzblock 7",
+        "original": null
+      }
+    },
+    {
+      "id": "grafenau-rule-fb0895426cb5",
+      "kind": "source_clause_2dda8afa554c_3_8",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 14,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "PDF-/Textseite 3, Absatzblock 8",
+        "original": null
+      }
+    },
+    {
+      "id": "grafenau-rule-969a223e3276",
+      "kind": "source_clause_2dda8afa554c_3_9",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 15,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "PDF-/Textseite 3, Absatzblock 9",
+        "original": null
+      }
+    },
+    {
+      "id": "grafenau-rule-e4e7491728cd",
+      "kind": "source_clause_2dda8afa554c_3_10",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 16,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "PDF-/Textseite 3, Absatzblock 10",
+        "original": null
+      }
+    },
+    {
+      "id": "grafenau-rule-07a41ab49307",
+      "kind": "source_clause_2dda8afa554c_3_12",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 17,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "PDF-/Textseite 3, Absatzblock 12",
+        "original": null
+      }
+    },
+    {
+      "id": "grafenau-rule-79b06da87b2e",
+      "kind": "source_clause_2dda8afa554c_4_2",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 18,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "PDF-/Textseite 4, Absatzblock 2",
+        "original": null
+      }
+    },
+    {
+      "id": "grafenau-rule-c47feae5adfd",
+      "kind": "source_clause_2dda8afa554c_5_1",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 19,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "PDF-/Textseite 5, Absatzblock 1",
+        "original": null
+      }
+    },
+    {
+      "id": "grafenau-rule-e3edfe852bc6",
+      "kind": "source_clause_2dda8afa554c_5_3",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 20,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "PDF-/Textseite 5, Absatzblock 3",
+        "original": null
+      }
+    },
+    {
+      "id": "grafenau-rule-0ca048fb3c66",
+      "kind": "source_clause_2dda8afa554c_5_8",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 21,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "PDF-/Textseite 5, Absatzblock 8",
+        "original": null
+      }
+    },
+    {
+      "id": "grafenau-rule-8c6aefed8e39",
+      "kind": "source_clause_2dda8afa554c_6_1",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 22,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "PDF-/Textseite 6, Absatzblock 1",
+        "original": null
+      }
+    },
+    {
+      "id": "grafenau-rule-7d93cab630b3",
+      "kind": "source_clause_2dda8afa554c_6_13",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 23,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "PDF-/Textseite 6, Absatzblock 13",
+        "original": null
+      }
+    },
+    {
+      "id": "grafenau-rule-7c478be2b185",
+      "kind": "source_clause_2dda8afa554c_7_2",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 24,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "PDF-/Textseite 7, Absatzblock 2",
+        "original": null
+      }
+    },
+    {
+      "id": "grafenau-rule-bd85425bcafb",
+      "kind": "source_clause_2dda8afa554c_7_7",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 25,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "PDF-/Textseite 7, Absatzblock 7",
+        "original": null
+      }
+    },
+    {
+      "id": "grafenau-rule-69c789a35020",
+      "kind": "source_clause_2dda8afa554c_8_1",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 26,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "PDF-/Textseite 8, Absatzblock 1",
+        "original": null
+      }
+    },
+    {
+      "id": "grafenau-rule-76cb2b35b2ec",
+      "kind": "source_clause_2dda8afa554c_8_13",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 27,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "2dda8afa554c",
+        "locator": "PDF-/Textseite 8, Absatzblock 13",
+        "original": null
+      }
+    }
+  ],
+  "issues": [
+    {
+      "code": "pending_calculation_review",
+      "detail": "Strukturierter Import; noch keine Freigabe des Rechners oder der Website."
+    },
+    {
+      "code": "research_limitation_1",
+      "detail": "U3-Katalog bietet höchstens drei GT-Nachmittage; daraus keinen 5×8-Stunden-Krippentarif ableiten."
+    },
+    {
+      "code": "research_limitation_2",
+      "detail": "TAKKI-Wochenstundenpreise sind keine Kita-Tarife. Essensbetrag ergänzend klären."
+    }
+  ],
+  "coverage": {
+    "publication_status": "not_active",
+    "integration_status": "normalized_pending_calculation_review",
+    "history_in_scope": false,
+    "source_register": "data/research/neighbor_expansion_2026-11-10.json",
+    "research_id": "grafenau",
+    "unavailable_configurations": [],
+    "offers": 20,
+    "price_cells": 80,
+    "income_bands": 0,
+    "components": 1,
+    "rule_records": 30,
+    "tariff_table_transcription": "complete_for_declared_scope",
+    "declared_scope": "Aktuelle und bereits veröffentlichte künftige Krippen- und Kindergartentarife; Zusatzkosten und Gebührenregeln.",
+    "excluded_from_regular_price_rows": [
+      "superseded_historical_tariffs",
+      "school_childcare",
+      "takki_and_childminding",
+      "separate_playgroups"
+    ],
+    "calculation_engine_changed": false,
+    "rule_transcription": "typed_parameters_and_source_clauses_with_explicit_unimplemented_status"
+  },
+  "original_research": {
+    "path": "data/research/neighbor_expansion_2026-11-10.json",
+    "section": "Grafenau",
+    "text": "Es handelt sich um Grafenau/Württemberg im Landkreis Böblingen; gleichnamige bayerische Quellen wurden nicht übernommen.\nU3-Katalog bietet höchstens drei GT-Nachmittage; daraus keinen 5×8-Stunden-Krippentarif ableiten.\nTAKKI-Wochenstundenpreise sind keine Kita-Tarife. Essensbetrag ergänzend klären.",
+    "source_clauses": [
+      {
+        "text": "Aufgrund der §§ 4 und 10 der Gemeindeordnung für Baden-Württemberg (GemO) i.V.m. den\n§§ 2, 13 14 und 19 des Kommunalabgabengesetz für Baden-Württemberg (KAG), den §§ 22,\n24, 62, 90 Sozialgesetzbuch Achtes Buch (SGB VIII), §§ 6 und 8b Kindertagesbetreuungs-\ngesetz (KiTaG) hat der Gemeinderat am 18.09.2024 folgende Satzung über die Erhebung von\nGebühren zur Benutzung der Kindertageseinrichtungen sowie der Kindertagespflege in der\nGemeinde Grafenau beschlossen:",
+        "evidence": {
+          "source_id": "2dda8afa554c",
+          "locator": "PDF-/Textseite 1, Absatzblock 4",
+          "original": null
+        }
+      },
+      {
+        "text": "(2) Ganztagesgruppen (GT) bieten eine Betreuungszeit von Montag bis Mittwoch von 07.30\n    Uhr bis 17.00 Uhr sowie Donnerstag und Freitag von 07.30 Uhr bis 13.30 Uhr an. Für Ü3-\n    jährige ist eine Ganztagesbetreuung auch am Donnerstag und Freitag möglich. Pro\n    zusätzlich belegtem Nachmittag wird eine Pauschale auf die VÖ-Gebühr erhoben.",
+        "evidence": {
+          "source_id": "2dda8afa554c",
+          "locator": "PDF-/Textseite 1, Absatzblock 11",
+          "original": null
+        }
+      },
+      {
+        "text": "(2) Die Nachmittagsbetreuung von 13.30 Uhr bis 17.00 Uhr kann je Wochentag pro Monat\n    gebucht werden. Auf die VÖ–Gebühr wird eine Tagespauschale je belegtem Wochentag\n    hinzugerechnet.",
+        "evidence": {
+          "source_id": "2dda8afa554c",
+          "locator": "PDF-/Textseite 2, Absatzblock 5",
+          "original": null
+        }
+      },
+      {
+        "text": "(5) Der Träger der Kindertageseinrichtung/Kindertagespflege kann das Benutzungsverhältnis\n    mit den Gebührenschuldnern mit einer Frist von vier Wochen zum Monatsende u.a.\n    schriftlich beendigen, wenn die zu entrichtende Benutzungsgebühr für zwei\n    aufeinanderfolgende Monate nicht bezahlt wurde.",
+        "evidence": {
+          "source_id": "2dda8afa554c",
+          "locator": "PDF-/Textseite 2, Absatzblock 8",
+          "original": null
+        }
+      },
+      {
+        "text": "(1) Für die Benutzung der Kinderbetreuungseinrichtungen und der Kindertagespflege wird\n    eine Benutzungsgebühr erhoben. Die Gebühren werden in 12 Monatsbeiträgen pro Jahr\n    erhoben. Die Gebühren sind für alle angemeldeten Kinder zu entrichten, gleichgültig, ob\n    sie im Erhebungszeitraum (Kalendermonat) die Einrichtung tatsächlich besuchen oder\n    nicht.",
+        "evidence": {
+          "source_id": "2dda8afa554c",
+          "locator": "PDF-/Textseite 2, Absatzblock 13",
+          "original": null
+        }
+      },
+      {
+        "text": "(2) Das Kindergartenjahr endet (auch für Abgänger in die Schule) am 31.08. Die Gebühren\n    sind auch während den Ferien bei vorübergehender Schließung von weniger als einem\n    Monat, bei längerem Fehlen des Kindes und bis zur Wirksamkeit einer Abmeldung zu\n    bezahlen.",
+        "evidence": {
+          "source_id": "2dda8afa554c",
+          "locator": "PDF-/Textseite 2, Absatzblock 14",
+          "original": null
+        }
+      },
+      {
+        "text": "(1) Die Gebühren werden je Kind und Betreuungsplatz erhoben. Die Höhe der Gebühren ist\n    im Gebührenverzeichnis zur Satzung über die Erhebung von Gebühren zur Benutzung\n    der Kindertageseinrichtungen sowie der Kindertagespflege in der Gemeinde Grafenau\n    erfasst. Das Gebührenverzeichnis ist Bestandteil dieser Satzung.",
+        "evidence": {
+          "source_id": "2dda8afa554c",
+          "locator": "PDF-/Textseite 2, Absatzblock 16",
+          "original": null
+        }
+      },
+      {
+        "text": "(2) Bemessungsgrundlage ist die Anzahl der Kinder unter 18 Jahren, die nicht nur\n    vorübergehend im Haushalt des Gebührenschuldners leben und die Betreuungsdauer.",
+        "evidence": {
+          "source_id": "2dda8afa554c",
+          "locator": "PDF-/Textseite 2, Absatzblock 17",
+          "original": null
+        }
+      },
+      {
+        "text": "(3) Die Benutzungsgebühr, die im Gebührenverzeichnis als Anlage zur Satzung zu finden ist,\n    besteht aus der Gebühr für die Betreuung in den Einrichtungen.",
+        "evidence": {
+          "source_id": "2dda8afa554c",
+          "locator": "PDF-/Textseite 3, Absatzblock 1",
+          "original": null
+        }
+      },
+      {
+        "text": "(4) Die TAKKI Gebühren lehnen sich an den VÖ-Gebühren für die U3 Betreuung an. Dabei\n    entspricht der Gebührensatz für die Betreuung von bis zu 30 Stunden in der\n    Kindertagespflege der VÖ-Betreuung.",
+        "evidence": {
+          "source_id": "2dda8afa554c",
+          "locator": "PDF-/Textseite 3, Absatzblock 2",
+          "original": null
+        }
+      },
+      {
+        "text": "(5) Ändert sich die Zahl der berücksichtigungsfähigen Kinder so werden die Gebühren auf\n    Antrag ab dem Monat nach Antragsabgabe neu festgesetzt. Besuchen mehrere Kinder\n    einer Familie gleichzeitig eine Kindertageseinrichtung, so wird der jeweilige Betrag pro\n    Kind erhoben. Berücksichtigungsfähige Kinder sind Personen, die das 18. Lebensjahr\n    noch nicht vollendet haben und in demselben Haushalt gemeldet sind.",
+        "evidence": {
+          "source_id": "2dda8afa554c",
+          "locator": "PDF-/Textseite 3, Absatzblock 3",
+          "original": null
+        }
+      },
+      {
+        "text": "§ 7 Entstehen der Gebührenschuld, Beginn und Ende der Gebührenpflicht\n                         Festsetzung und Fälligkeit",
+        "evidence": {
+          "source_id": "2dda8afa554c",
+          "locator": "PDF-/Textseite 3, Absatzblock 4",
+          "original": null
+        }
+      },
+      {
+        "text": "(1) Die Gebührenschuld für die Kinderbetreuung entsteht mit Anmeldung des Kindes bzw. mit\n    dem Beginn des Kalendermonats, in dem die Benutzung der Kindertageseinrichtung/der\n    Kindertagespflege zum ersten Mal erfolgt. Die Gebührenpflicht endet mit dem Austritt aus\n    der Kindertageseinrichtung/Kindertagespflege.",
+        "evidence": {
+          "source_id": "2dda8afa554c",
+          "locator": "PDF-/Textseite 3, Absatzblock 5",
+          "original": null
+        }
+      },
+      {
+        "text": "(3) Die Gebühren werden jeweils für einen Kalendermonat (Veranlagungszeitraum) erhoben.\n    Sie sind in voller Höhe zu entrichten, wenn das Kind vor dem 16. des jeweiligen Monats\n    eintritt. Bei einem Eintritt ab dem 16. des Monats sind 50 % der Gebühr zu entrichten.",
+        "evidence": {
+          "source_id": "2dda8afa554c",
+          "locator": "PDF-/Textseite 3, Absatzblock 7",
+          "original": null
+        }
+      },
+      {
+        "text": "(4) Die Benutzungsgebühr ist jeweils zum 01. eines Monats fällig bzw. bei Beginn der\n    Gebührenpflicht während des laufenden Monats zwei Wochen nach Bekanntgabe des\n    Gebührenbescheides. Mit der Anmeldung eines Kindes ist der Gemeinde Grafenau eine\n    Abbuchungsermächtigung für die anfallende Gebühren zu erteilen.",
+        "evidence": {
+          "source_id": "2dda8afa554c",
+          "locator": "PDF-/Textseite 3, Absatzblock 8",
+          "original": null
+        }
+      },
+      {
+        "text": "(5) Für die Festlegung der Gebühr unter und über 3 Jahren ist grundsätzlich der\n    Geburtsmonat des Kindes, in welchem es das 3. Lebensjahr vollendet, entscheidend. So\n    wird ab dem Monat, in welchem das Kind das 3. Lebensjahr vollendet, die Gebühr für\n    Kinder ab dem vollendeten 3. Lebensjahr festgesetzt.\n    Wechselt ein Kind von der Krippe in den Kindergarten, so wird die Gebühr ab dem Monat\n    der Vollendung des 3. Lebensjahres neu festgesetzt. Bei einem Wechsel von der Krippe\n    (U3) in den Kindergarten (Ü3), der auf Wunsch der Personensorgeberechtigten, erst im\n    Monat nach der Vollendung des 3. Lebensjahres stattfindet, bleibt die Gebühr für Kinder\n    unter 3 Jahren erhalten.",
+        "evidence": {
+          "source_id": "2dda8afa554c",
+          "locator": "PDF-/Textseite 3, Absatzblock 9",
+          "original": null
+        }
+      },
+      {
+        "text": "(6) Die Gebührenhöhe wird durch schriftlichen Gebührenbescheid festgesetzt.",
+        "evidence": {
+          "source_id": "2dda8afa554c",
+          "locator": "PDF-/Textseite 3, Absatzblock 10",
+          "original": null
+        }
+      },
+      {
+        "text": "(1) Die Kosten für das Mittagessen sind von den Personensorgeberechtigten zusätzlich zu\n    den Benutzungsgebühren nach § 6 zu übernehmen und werden über einen separaten\n    Vertrag mit dem Caterer abgerechnet. Informationen zur Bestellung des Mittagessens und\n    den Preisen erhalten die Personensorgeberechtigten mit der Anmeldung Ihres Kindes.",
+        "evidence": {
+          "source_id": "2dda8afa554c",
+          "locator": "PDF-/Textseite 3, Absatzblock 12",
+          "original": null
+        }
+      },
+      {
+        "text": "Diese Satzung tritt zum 01.10.2024 in Kraft. Damit treten bisher gültige Satzungen zur\nGebührenerhebung außer Kraft.",
+        "evidence": {
+          "source_id": "2dda8afa554c",
+          "locator": "PDF-/Textseite 4, Absatzblock 2",
+          "original": null
+        }
+      },
+      {
+        "text": "Gebührenverzeichnis zur Satzung über die Erhebung von Gebühren zur\nBenutzung der Kindertageseinrichtungen sowie der Kindertagespflege\n  für die Kindergartenjahre 2026/27 und 2027/2028 in der Gemeinde\n        Grafenau vom 22.07.2026, gültig ab 1. September 2026“",
+        "evidence": {
+          "source_id": "2dda8afa554c",
+          "locator": "PDF-/Textseite 5, Absatzblock 1",
+          "original": null
+        }
+      },
+      {
+        "text": "1. Gebührensätze für die Betreuung von Kindern im Alter von 3 bis 6 Jahren (Ü3)",
+        "evidence": {
+          "source_id": "2dda8afa554c",
+          "locator": "PDF-/Textseite 5, Absatzblock 3",
+          "original": null
+        }
+      },
+      {
+        "text": "2. Gebührensätze für die Betreuung von Kindern im Alter von 1 bis 3 Jahren (U3)",
+        "evidence": {
+          "source_id": "2dda8afa554c",
+          "locator": "PDF-/Textseite 5, Absatzblock 8",
+          "original": null
+        }
+      },
+      {
+        "text": "3. Gebührensätze für die Kindertagespflege (TAKKI), 3-4 Jahre",
+        "evidence": {
+          "source_id": "2dda8afa554c",
+          "locator": "PDF-/Textseite 6, Absatzblock 1",
+          "original": null
+        }
+      },
+      {
+        "text": "4. Gebührensätze für die Kindertagespflege (TAKKI), 1-3 Jahre",
+        "evidence": {
+          "source_id": "2dda8afa554c",
+          "locator": "PDF-/Textseite 6, Absatzblock 13",
+          "original": null
+        }
+      },
+      {
+        "text": "1. Gebührensätze für die Betreuung von Kindern im Alter von 3 bis 6 Jahren (Ü3)",
+        "evidence": {
+          "source_id": "2dda8afa554c",
+          "locator": "PDF-/Textseite 7, Absatzblock 2",
+          "original": null
+        }
+      },
+      {
+        "text": "2. Gebührensätze für die Betreuung von Kindern im Alter von 1 bis 3 Jahren (U3)",
+        "evidence": {
+          "source_id": "2dda8afa554c",
+          "locator": "PDF-/Textseite 7, Absatzblock 7",
+          "original": null
+        }
+      },
+      {
+        "text": "3. Gebührensätze für die Kindertagespflege (TAKKI), 3-4 Jahre",
+        "evidence": {
+          "source_id": "2dda8afa554c",
+          "locator": "PDF-/Textseite 8, Absatzblock 1",
+          "original": null
+        }
+      },
+      {
+        "text": "4. Gebührensätze für die Kindertagespflege (TAKKI), 1-3 Jahre",
+        "evidence": {
+          "source_id": "2dda8afa554c",
+          "locator": "PDF-/Textseite 8, Absatzblock 13",
+          "original": null
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,2983 @@
+{
+  "schema_version": "1.0",
+  "id": "aichwald",
+  "name": "Aichwald",
+  "reviewed_at": "2026-11-10",
+  "reference_date": "2026-11-10",
+  "scope": {
+    "included": [
+      "municipal"
+    ],
+    "other_providers": "only_with_explicit_source_evidence"
+  },
+  "family_basis": "under_18_or_child_benefit",
+  "family_evidence": {
+    "source_id": "d9055ebd6801",
+    "locator": "Familienbegriff und Fußnoten der Gebührenunterlagen",
+    "original": null
+  },
+  "supporting_source_ids": [
+    "d9055ebd6801",
+    "5a4f4de529e7",
+    "373db27cebf1"
+  ],
+  "offers": [
+    {
+      "id": "aichwald-offer-421f5462cce8",
+      "original_label": "Regelkindergarten",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 1800,
+      "weekday_minutes": null,
+      "continuous": false,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "d9055ebd6801",
+        "locator": "§ 6 Abs. 1",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "d9055ebd6801",
+        "locator": "Zwölf-Monats-Basis durch Nutzerfestlegung bestätigt; bisher aus der laufenden Monatspflicht abgeleitet.",
+        "original": null,
+        "verification": "user_confirmed",
+        "provenance": "user_instruction",
+        "decision_id": "2026-11-10-aichwald-u3-meals"
+      },
+      "evidence": {
+        "source_id": "d9055ebd6801",
+        "locator": "§ 6 Abs. 1",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "aichwald-offer-5e659ff6edaa",
+      "original_label": "Regelkindergarten unter drei Jahren",
+      "age_group": "u3",
+      "age_min_months": 24,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "mixed_age",
+      "weekly_minutes": 1800,
+      "weekday_minutes": null,
+      "continuous": false,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "d9055ebd6801",
+        "locator": "§ 6 Abs. 1",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "d9055ebd6801",
+        "locator": "Zwölf-Monats-Basis durch Nutzerfestlegung bestätigt; bisher aus der laufenden Monatspflicht abgeleitet.",
+        "original": null,
+        "verification": "user_confirmed",
+        "provenance": "user_instruction",
+        "decision_id": "2026-11-10-aichwald-u3-meals"
+      },
+      "evidence": {
+        "source_id": "d9055ebd6801",
+        "locator": "§ 6 Abs. 1",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "aichwald-offer-5dbd48f3d65c",
+      "original_label": "VÖ7 ohne Mittagessen",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2100,
+      "weekday_minutes": [
+        420,
+        420,
+        420,
+        420,
+        420
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "d9055ebd6801",
+        "locator": "§ 6 Abs. 2",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "d9055ebd6801",
+        "locator": "Zwölf-Monats-Basis durch Nutzerfestlegung bestätigt; bisher aus der laufenden Monatspflicht abgeleitet.",
+        "original": null,
+        "verification": "user_confirmed",
+        "provenance": "user_instruction",
+        "decision_id": "2026-11-10-aichwald-u3-meals"
+      },
+      "evidence": {
+        "source_id": "d9055ebd6801",
+        "locator": "§ 6 Abs. 2",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "aichwald-offer-f0c12c418562",
+      "original_label": "VÖ7 mit Mittagessen",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2100,
+      "weekday_minutes": [
+        420,
+        420,
+        420,
+        420,
+        420
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "d9055ebd6801",
+        "locator": "§ 6 Abs. 3",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "d9055ebd6801",
+        "locator": "Zwölf-Monats-Basis durch Nutzerfestlegung bestätigt; bisher aus der laufenden Monatspflicht abgeleitet.",
+        "original": null,
+        "verification": "user_confirmed",
+        "provenance": "user_instruction",
+        "decision_id": "2026-11-10-aichwald-u3-meals"
+      },
+      "evidence": {
+        "source_id": "d9055ebd6801",
+        "locator": "§ 6 Abs. 3",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "aichwald-offer-5d18c00b7401",
+      "original_label": "VÖ7 + 5 GT-Nachmittage bis 16:30",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2850,
+      "weekday_minutes": [
+        570,
+        570,
+        570,
+        570,
+        570
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "d9055ebd6801",
+        "locator": "§ 6 Abs. 3 und 4, 5 Tage",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "d9055ebd6801",
+        "locator": "Zwölf-Monats-Basis durch Nutzerfestlegung bestätigt; bisher aus der laufenden Monatspflicht abgeleitet.",
+        "original": null,
+        "verification": "user_confirmed",
+        "provenance": "user_instruction",
+        "decision_id": "2026-11-10-aichwald-u3-meals"
+      },
+      "evidence": {
+        "source_id": "d9055ebd6801",
+        "locator": "§ 6 Abs. 3 und 4, 5 Tage",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "aichwald-offer-92ac42fc5c7a",
+      "original_label": "VÖ7 + 4 GT-Nachmittage bis 16:30",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2700,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "d9055ebd6801",
+        "locator": "§ 6 Abs. 3 und 4, 4 Tage",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "d9055ebd6801",
+        "locator": "Zwölf-Monats-Basis durch Nutzerfestlegung bestätigt; bisher aus der laufenden Monatspflicht abgeleitet.",
+        "original": null,
+        "verification": "user_confirmed",
+        "provenance": "user_instruction",
+        "decision_id": "2026-11-10-aichwald-u3-meals"
+      },
+      "evidence": {
+        "source_id": "d9055ebd6801",
+        "locator": "§ 6 Abs. 3 und 4, 4 Tage",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "aichwald-offer-16cf65f3945a",
+      "original_label": "VÖ7 + 3 GT-Nachmittage bis 16:30",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2550,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "d9055ebd6801",
+        "locator": "§ 6 Abs. 3 und 4, 3 Tage",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "d9055ebd6801",
+        "locator": "Zwölf-Monats-Basis durch Nutzerfestlegung bestätigt; bisher aus der laufenden Monatspflicht abgeleitet.",
+        "original": null,
+        "verification": "user_confirmed",
+        "provenance": "user_instruction",
+        "decision_id": "2026-11-10-aichwald-u3-meals"
+      },
+      "evidence": {
+        "source_id": "d9055ebd6801",
+        "locator": "§ 6 Abs. 3 und 4, 3 Tage",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "aichwald-offer-a07cb720f50f",
+      "original_label": "Krippe 7–12 Uhr ohne Mittagessen",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 1500,
+      "weekday_minutes": [
+        300,
+        300,
+        300,
+        300,
+        300
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "d9055ebd6801",
+        "locator": "§ 6 Abs. 5, ohne Essen",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "d9055ebd6801",
+        "locator": "Zwölf-Monats-Basis durch Nutzerfestlegung bestätigt; bisher aus der laufenden Monatspflicht abgeleitet.",
+        "original": null,
+        "verification": "user_confirmed",
+        "provenance": "user_instruction",
+        "decision_id": "2026-11-10-aichwald-u3-meals"
+      },
+      "evidence": {
+        "source_id": "d9055ebd6801",
+        "locator": "§ 6 Abs. 5, ohne Essen",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "aichwald-offer-3bca9e92bea1",
+      "original_label": "Krippe 7–12 Uhr mit Mittagessen",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 1500,
+      "weekday_minutes": [
+        300,
+        300,
+        300,
+        300,
+        300
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "d9055ebd6801",
+        "locator": "§ 6 Abs. 5–7; ursprüngliche Preise einschließlich Mittagessen",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "d9055ebd6801",
+        "locator": "Zwölf-Monats-Basis durch Nutzerfestlegung bestätigt; bisher aus der laufenden Monatspflicht abgeleitet.",
+        "original": null,
+        "verification": "user_confirmed",
+        "provenance": "user_instruction",
+        "decision_id": "2026-11-10-aichwald-u3-meals"
+      },
+      "evidence": {
+        "source_id": "d9055ebd6801",
+        "locator": "§ 6 Abs. 5–7; ursprüngliche Preise einschließlich Mittagessen",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "aichwald-offer-dd5563b04aed",
+      "original_label": "Krippe 7–14 Uhr mit Mittagessen",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2100,
+      "weekday_minutes": [
+        420,
+        420,
+        420,
+        420,
+        420
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "d9055ebd6801",
+        "locator": "§ 6 Abs. 5–7; ursprüngliche Preise einschließlich Mittagessen",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "d9055ebd6801",
+        "locator": "Zwölf-Monats-Basis durch Nutzerfestlegung bestätigt; bisher aus der laufenden Monatspflicht abgeleitet.",
+        "original": null,
+        "verification": "user_confirmed",
+        "provenance": "user_instruction",
+        "decision_id": "2026-11-10-aichwald-u3-meals"
+      },
+      "evidence": {
+        "source_id": "d9055ebd6801",
+        "locator": "§ 6 Abs. 5–7; ursprüngliche Preise einschließlich Mittagessen",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "aichwald-offer-8c0e7c36d345",
+      "original_label": "Krippe GT fünf Nachmittage bis 16:30",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2850,
+      "weekday_minutes": [
+        570,
+        570,
+        570,
+        570,
+        570
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "d9055ebd6801",
+        "locator": "§ 6 Abs. 5–7; ursprüngliche Preise einschließlich Mittagessen",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "d9055ebd6801",
+        "locator": "Zwölf-Monats-Basis durch Nutzerfestlegung bestätigt; bisher aus der laufenden Monatspflicht abgeleitet.",
+        "original": null,
+        "verification": "user_confirmed",
+        "provenance": "user_instruction",
+        "decision_id": "2026-11-10-aichwald-u3-meals"
+      },
+      "evidence": {
+        "source_id": "d9055ebd6801",
+        "locator": "§ 6 Abs. 5–7; ursprüngliche Preise einschließlich Mittagessen",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "aichwald-offer-8d944f752e01",
+      "original_label": "Krippe GT vier Nachmittage bis 16:30",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": null,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "d9055ebd6801",
+        "locator": "§ 6 Abs. 5–7; ursprüngliche Preise einschließlich Mittagessen",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "d9055ebd6801",
+        "locator": "Zwölf-Monats-Basis durch Nutzerfestlegung bestätigt; bisher aus der laufenden Monatspflicht abgeleitet.",
+        "original": null,
+        "verification": "user_confirmed",
+        "provenance": "user_instruction",
+        "decision_id": "2026-11-10-aichwald-u3-meals"
+      },
+      "evidence": {
+        "source_id": "d9055ebd6801",
+        "locator": "§ 6 Abs. 5–7; ursprüngliche Preise einschließlich Mittagessen",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "aichwald-offer-ff14c5a4a8b8",
+      "original_label": "Krippe GT drei Nachmittage bis 16:30",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": null,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "d9055ebd6801",
+        "locator": "§ 6 Abs. 5–7; ursprüngliche Preise einschließlich Mittagessen",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "d9055ebd6801",
+        "locator": "Zwölf-Monats-Basis durch Nutzerfestlegung bestätigt; bisher aus der laufenden Monatspflicht abgeleitet.",
+        "original": null,
+        "verification": "user_confirmed",
+        "provenance": "user_instruction",
+        "decision_id": "2026-11-10-aichwald-u3-meals"
+      },
+      "evidence": {
+        "source_id": "d9055ebd6801",
+        "locator": "§ 6 Abs. 5–7; ursprüngliche Preise einschließlich Mittagessen",
+        "original": null
+      },
+      "formula": null
+    }
+  ],
+  "prices": [
+    {
+      "id": "aichwald-price-1adc462040d1",
+      "offer_id": "aichwald-offer-421f5462cce8",
+      "amount_cents": 16600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "d9055ebd6801",
+        "locator": "§ 6 Abs. 1",
+        "original": 166
+      }
+    },
+    {
+      "id": "aichwald-price-4fc37f13298a",
+      "offer_id": "aichwald-offer-421f5462cce8",
+      "amount_cents": 12900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "d9055ebd6801",
+        "locator": "§ 6 Abs. 1",
+        "original": 129
+      }
+    },
+    {
+      "id": "aichwald-price-829e9c9deaae",
+      "offer_id": "aichwald-offer-421f5462cce8",
+      "amount_cents": 8800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "d9055ebd6801",
+        "locator": "§ 6 Abs. 1",
+        "original": 88
+      }
+    },
+    {
+      "id": "aichwald-price-8a65e0b94b2e",
+      "offer_id": "aichwald-offer-421f5462cce8",
+      "amount_cents": 2900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "d9055ebd6801",
+        "locator": "§ 6 Abs. 1",
+        "original": 29
+      }
+    },
+    {
+      "id": "aichwald-price-81d3810b7749",
+      "offer_id": "aichwald-offer-5e659ff6edaa",
+      "amount_cents": 33200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "d9055ebd6801",
+        "locator": "§ 6 Abs. 1",
+        "original": 332
+      }
+    },
+    {
+      "id": "aichwald-price-a8edc137cad0",
+      "offer_id": "aichwald-offer-5e659ff6edaa",
+      "amount_cents": 25800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "d9055ebd6801",
+        "locator": "§ 6 Abs. 1",
+        "original": 258
+      }
+    },
+    {
+      "id": "aichwald-price-a60a12b024af",
+      "offer_id": "aichwald-offer-5e659ff6edaa",
+      "amount_cents": 17600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "d9055ebd6801",
+        "locator": "§ 6 Abs. 1",
+        "original": 176
+      }
+    },
+    {
+      "id": "aichwald-price-76bf0778be0e",
+      "offer_id": "aichwald-offer-5e659ff6edaa",
+      "amount_cents": 5800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "d9055ebd6801",
+        "locator": "§ 6 Abs. 1",
+        "original": 58
+      }
+    },
+    {
+      "id": "aichwald-price-c151f7763b8a",
+      "offer_id": "aichwald-offer-5dbd48f3d65c",
+      "amount_cents": 20750,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "d9055ebd6801",
+        "locator": "§ 6 Abs. 2",
+        "original": "207,50"
+      }
+    },
+    {
+      "id": "aichwald-price-0c14d3135d29",
+      "offer_id": "aichwald-offer-5dbd48f3d65c",
+      "amount_cents": 16150,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "d9055ebd6801",
+        "locator": "§ 6 Abs. 2",
+        "original": "161,50"
+      }
+    },
+    {
+      "id": "aichwald-price-c974c9980207",
+      "offer_id": "aichwald-offer-5dbd48f3d65c",
+      "amount_cents": 11000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "d9055ebd6801",
+        "locator": "§ 6 Abs. 2",
+        "original": 110
+      }
+    },
+    {
+      "id": "aichwald-price-65ba033bddcb",
+      "offer_id": "aichwald-offer-5dbd48f3d65c",
+      "amount_cents": 3650,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "d9055ebd6801",
+        "locator": "§ 6 Abs. 2",
+        "original": "36,50"
+      }
+    },
+    {
+      "id": "aichwald-price-06af0ee8808c",
+      "offer_id": "aichwald-offer-f0c12c418562",
+      "amount_cents": 28250,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [
+        {
+          "component_id": "aichwald-component-93a590fa7d05",
+          "kind": "meal",
+          "amount_cents": 7500,
+          "additional_charge": false
+        }
+      ],
+      "evidence": {
+        "source_id": "d9055ebd6801",
+        "locator": "§ 6 Abs. 3",
+        "original": "282,50"
+      },
+      "care_only_amount_cents": 20750,
+      "normalization": {
+        "operation": "subtract_known_included_meal",
+        "deduction_cents": 7500,
+        "provenance": "published_difference_between_meal_and_no_meal_tables"
+      }
+    },
+    {
+      "id": "aichwald-price-61f58d30b100",
+      "offer_id": "aichwald-offer-f0c12c418562",
+      "amount_cents": 23650,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [
+        {
+          "component_id": "aichwald-component-93a590fa7d05",
+          "kind": "meal",
+          "amount_cents": 7500,
+          "additional_charge": false
+        }
+      ],
+      "evidence": {
+        "source_id": "d9055ebd6801",
+        "locator": "§ 6 Abs. 3",
+        "original": "236,50"
+      },
+      "care_only_amount_cents": 16150,
+      "normalization": {
+        "operation": "subtract_known_included_meal",
+        "deduction_cents": 7500,
+        "provenance": "published_difference_between_meal_and_no_meal_tables"
+      }
+    },
+    {
+      "id": "aichwald-price-84dcac894ce3",
+      "offer_id": "aichwald-offer-f0c12c418562",
+      "amount_cents": 18500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [
+        {
+          "component_id": "aichwald-component-93a590fa7d05",
+          "kind": "meal",
+          "amount_cents": 7500,
+          "additional_charge": false
+        }
+      ],
+      "evidence": {
+        "source_id": "d9055ebd6801",
+        "locator": "§ 6 Abs. 3",
+        "original": 185
+      },
+      "care_only_amount_cents": 11000,
+      "normalization": {
+        "operation": "subtract_known_included_meal",
+        "deduction_cents": 7500,
+        "provenance": "published_difference_between_meal_and_no_meal_tables"
+      }
+    },
+    {
+      "id": "aichwald-price-37e1007eb8ea",
+      "offer_id": "aichwald-offer-f0c12c418562",
+      "amount_cents": 11150,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [
+        {
+          "component_id": "aichwald-component-93a590fa7d05",
+          "kind": "meal",
+          "amount_cents": 7500,
+          "additional_charge": false
+        }
+      ],
+      "evidence": {
+        "source_id": "d9055ebd6801",
+        "locator": "§ 6 Abs. 3",
+        "original": "111,50"
+      },
+      "care_only_amount_cents": 3650,
+      "normalization": {
+        "operation": "subtract_known_included_meal",
+        "deduction_cents": 7500,
+        "provenance": "published_difference_between_meal_and_no_meal_tables"
+      }
+    },
+    {
+      "id": "aichwald-price-a3a8f873b5db",
+      "offer_id": "aichwald-offer-5d18c00b7401",
+      "amount_cents": 39250,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [
+        {
+          "component_id": "aichwald-component-93a590fa7d05",
+          "kind": "meal",
+          "amount_cents": 7500,
+          "additional_charge": false
+        }
+      ],
+      "evidence": {
+        "source_id": "d9055ebd6801",
+        "locator": "§ 6 Abs. 3 und 4, 5 Tage",
+        "original": 39250
+      },
+      "derivation": {
+        "operation": "sum_published_cells",
+        "base_cents": 28250,
+        "supplement_cents": 11000
+      },
+      "care_only_amount_cents": 31750,
+      "normalization": {
+        "operation": "subtract_known_included_meal",
+        "deduction_cents": 7500,
+        "provenance": "published_difference_between_meal_and_no_meal_tables"
+      }
+    },
+    {
+      "id": "aichwald-price-c3c18489e2ca",
+      "offer_id": "aichwald-offer-5d18c00b7401",
+      "amount_cents": 32200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [
+        {
+          "component_id": "aichwald-component-93a590fa7d05",
+          "kind": "meal",
+          "amount_cents": 7500,
+          "additional_charge": false
+        }
+      ],
+      "evidence": {
+        "source_id": "d9055ebd6801",
+        "locator": "§ 6 Abs. 3 und 4, 5 Tage",
+        "original": 32200
+      },
+      "derivation": {
+        "operation": "sum_published_cells",
+        "base_cents": 23650,
+        "supplement_cents": 8550
+      },
+      "care_only_amount_cents": 24700,
+      "normalization": {
+        "operation": "subtract_known_included_meal",
+        "deduction_cents": 7500,
+        "provenance": "published_difference_between_meal_and_no_meal_tables"
+      }
+    },
+    {
+      "id": "aichwald-price-2c54198a0cbe",
+      "offer_id": "aichwald-offer-5d18c00b7401",
+      "amount_cents": 24350,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [
+        {
+          "component_id": "aichwald-component-93a590fa7d05",
+          "kind": "meal",
+          "amount_cents": 7500,
+          "additional_charge": false
+        }
+      ],
+      "evidence": {
+        "source_id": "d9055ebd6801",
+        "locator": "§ 6 Abs. 3 und 4, 5 Tage",
+        "original": 24350
+      },
+      "derivation": {
+        "operation": "sum_published_cells",
+        "base_cents": 18500,
+        "supplement_cents": 5850
+      },
+      "care_only_amount_cents": 16850,
+      "normalization": {
+        "operation": "subtract_known_included_meal",
+        "deduction_cents": 7500,
+        "provenance": "published_difference_between_meal_and_no_meal_tables"
+      }
+    },
+    {
+      "id": "aichwald-price-8eca8849c972",
+      "offer_id": "aichwald-offer-5d18c00b7401",
+      "amount_cents": 13100,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [
+        {
+          "component_id": "aichwald-component-93a590fa7d05",
+          "kind": "meal",
+          "amount_cents": 7500,
+          "additional_charge": false
+        }
+      ],
+      "evidence": {
+        "source_id": "d9055ebd6801",
+        "locator": "§ 6 Abs. 3 und 4, 5 Tage",
+        "original": 13100
+      },
+      "derivation": {
+        "operation": "sum_published_cells",
+        "base_cents": 11150,
+        "supplement_cents": 1950
+      },
+      "care_only_amount_cents": 5600,
+      "normalization": {
+        "operation": "subtract_known_included_meal",
+        "deduction_cents": 7500,
+        "provenance": "published_difference_between_meal_and_no_meal_tables"
+      }
+    },
+    {
+      "id": "aichwald-price-6038bb1d55c1",
+      "offer_id": "aichwald-offer-92ac42fc5c7a",
+      "amount_cents": 37050,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [
+        {
+          "component_id": "aichwald-component-93a590fa7d05",
+          "kind": "meal",
+          "amount_cents": 7500,
+          "additional_charge": false
+        }
+      ],
+      "evidence": {
+        "source_id": "d9055ebd6801",
+        "locator": "§ 6 Abs. 3 und 4, 4 Tage",
+        "original": 37050
+      },
+      "derivation": {
+        "operation": "sum_published_cells",
+        "base_cents": 28250,
+        "supplement_cents": 8800
+      },
+      "care_only_amount_cents": 29550,
+      "normalization": {
+        "operation": "subtract_known_included_meal",
+        "deduction_cents": 7500,
+        "provenance": "published_difference_between_meal_and_no_meal_tables"
+      }
+    },
+    {
+      "id": "aichwald-price-d230654456ca",
+      "offer_id": "aichwald-offer-92ac42fc5c7a",
+      "amount_cents": 30500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [
+        {
+          "component_id": "aichwald-component-93a590fa7d05",
+          "kind": "meal",
+          "amount_cents": 7500,
+          "additional_charge": false
+        }
+      ],
+      "evidence": {
+        "source_id": "d9055ebd6801",
+        "locator": "§ 6 Abs. 3 und 4, 4 Tage",
+        "original": 30500
+      },
+      "derivation": {
+        "operation": "sum_published_cells",
+        "base_cents": 23650,
+        "supplement_cents": 6850
+      },
+      "care_only_amount_cents": 23000,
+      "normalization": {
+        "operation": "subtract_known_included_meal",
+        "deduction_cents": 7500,
+        "provenance": "published_difference_between_meal_and_no_meal_tables"
+      }
+    },
+    {
+      "id": "aichwald-price-bee35732c14f",
+      "offer_id": "aichwald-offer-92ac42fc5c7a",
+      "amount_cents": 23150,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [
+        {
+          "component_id": "aichwald-component-93a590fa7d05",
+          "kind": "meal",
+          "amount_cents": 7500,
+          "additional_charge": false
+        }
+      ],
+      "evidence": {
+        "source_id": "d9055ebd6801",
+        "locator": "§ 6 Abs. 3 und 4, 4 Tage",
+        "original": 23150
+      },
+      "derivation": {
+        "operation": "sum_published_cells",
+        "base_cents": 18500,
+        "supplement_cents": 4650
+      },
+      "care_only_amount_cents": 15650,
+      "normalization": {
+        "operation": "subtract_known_included_meal",
+        "deduction_cents": 7500,
+        "provenance": "published_difference_between_meal_and_no_meal_tables"
+      }
+    },
+    {
+      "id": "aichwald-price-60d5d6c41523",
+      "offer_id": "aichwald-offer-92ac42fc5c7a",
+      "amount_cents": 12700,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [
+        {
+          "component_id": "aichwald-component-93a590fa7d05",
+          "kind": "meal",
+          "amount_cents": 7500,
+          "additional_charge": false
+        }
+      ],
+      "evidence": {
+        "source_id": "d9055ebd6801",
+        "locator": "§ 6 Abs. 3 und 4, 4 Tage",
+        "original": 12700
+      },
+      "derivation": {
+        "operation": "sum_published_cells",
+        "base_cents": 11150,
+        "supplement_cents": 1550
+      },
+      "care_only_amount_cents": 5200,
+      "normalization": {
+        "operation": "subtract_known_included_meal",
+        "deduction_cents": 7500,
+        "provenance": "published_difference_between_meal_and_no_meal_tables"
+      }
+    },
+    {
+      "id": "aichwald-price-61865edba2f4",
+      "offer_id": "aichwald-offer-16cf65f3945a",
+      "amount_cents": 34850,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [
+        {
+          "component_id": "aichwald-component-93a590fa7d05",
+          "kind": "meal",
+          "amount_cents": 7500,
+          "additional_charge": false
+        }
+      ],
+      "evidence": {
+        "source_id": "d9055ebd6801",
+        "locator": "§ 6 Abs. 3 und 4, 3 Tage",
+        "original": 34850
+      },
+      "derivation": {
+        "operation": "sum_published_cells",
+        "base_cents": 28250,
+        "supplement_cents": 6600
+      },
+      "care_only_amount_cents": 27350,
+      "normalization": {
+        "operation": "subtract_known_included_meal",
+        "deduction_cents": 7500,
+        "provenance": "published_difference_between_meal_and_no_meal_tables"
+      }
+    },
+    {
+      "id": "aichwald-price-504457ba650c",
+      "offer_id": "aichwald-offer-16cf65f3945a",
+      "amount_cents": 28800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [
+        {
+          "component_id": "aichwald-component-93a590fa7d05",
+          "kind": "meal",
+          "amount_cents": 7500,
+          "additional_charge": false
+        }
+      ],
+      "evidence": {
+        "source_id": "d9055ebd6801",
+        "locator": "§ 6 Abs. 3 und 4, 3 Tage",
+        "original": 28800
+      },
+      "derivation": {
+        "operation": "sum_published_cells",
+        "base_cents": 23650,
+        "supplement_cents": 5150
+      },
+      "care_only_amount_cents": 21300,
+      "normalization": {
+        "operation": "subtract_known_included_meal",
+        "deduction_cents": 7500,
+        "provenance": "published_difference_between_meal_and_no_meal_tables"
+      }
+    },
+    {
+      "id": "aichwald-price-d93ab365d42c",
+      "offer_id": "aichwald-offer-16cf65f3945a",
+      "amount_cents": 22000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [
+        {
+          "component_id": "aichwald-component-93a590fa7d05",
+          "kind": "meal",
+          "amount_cents": 7500,
+          "additional_charge": false
+        }
+      ],
+      "evidence": {
+        "source_id": "d9055ebd6801",
+        "locator": "§ 6 Abs. 3 und 4, 3 Tage",
+        "original": 22000
+      },
+      "derivation": {
+        "operation": "sum_published_cells",
+        "base_cents": 18500,
+        "supplement_cents": 3500
+      },
+      "care_only_amount_cents": 14500,
+      "normalization": {
+        "operation": "subtract_known_included_meal",
+        "deduction_cents": 7500,
+        "provenance": "published_difference_between_meal_and_no_meal_tables"
+      }
+    },
+    {
+      "id": "aichwald-price-fe8d860dd38b",
+      "offer_id": "aichwald-offer-16cf65f3945a",
+      "amount_cents": 12300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [
+        {
+          "component_id": "aichwald-component-93a590fa7d05",
+          "kind": "meal",
+          "amount_cents": 7500,
+          "additional_charge": false
+        }
+      ],
+      "evidence": {
+        "source_id": "d9055ebd6801",
+        "locator": "§ 6 Abs. 3 und 4, 3 Tage",
+        "original": 12300
+      },
+      "derivation": {
+        "operation": "sum_published_cells",
+        "base_cents": 11150,
+        "supplement_cents": 1150
+      },
+      "care_only_amount_cents": 4800,
+      "normalization": {
+        "operation": "subtract_known_included_meal",
+        "deduction_cents": 7500,
+        "provenance": "published_difference_between_meal_and_no_meal_tables"
+      }
+    },
+    {
+      "id": "aichwald-price-6a09a818abfc",
+      "offer_id": "aichwald-offer-a07cb720f50f",
+      "amount_cents": 41000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "d9055ebd6801",
+        "locator": "§ 6 Abs. 5, ohne Essen",
+        "original": 410
+      }
+    },
+    {
+      "id": "aichwald-price-f9766a76ec59",
+      "offer_id": "aichwald-offer-a07cb720f50f",
+      "amount_cents": 30500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "d9055ebd6801",
+        "locator": "§ 6 Abs. 5, ohne Essen",
+        "original": 305
+      }
+    },
+    {
+      "id": "aichwald-price-00bb63b3e040",
+      "offer_id": "aichwald-offer-a07cb720f50f",
+      "amount_cents": 20600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "d9055ebd6801",
+        "locator": "§ 6 Abs. 5, ohne Essen",
+        "original": 206
+      }
+    },
+    {
+      "id": "aichwald-price-b4c39dc93d55",
+      "offer_id": "aichwald-offer-a07cb720f50f",
+      "amount_cents": 8100,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "d9055ebd6801",
+        "locator": "§ 6 Abs. 5, ohne Essen",
+        "original": 81
+      }
+    },
+    {
+      "id": "aichwald-price-5294f6135626",
+      "offer_id": "aichwald-offer-3bca9e92bea1",
+      "amount_cents": 46300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [
+        {
+          "component_id": "aichwald-component-94ae717b6a95",
+          "kind": "meal",
+          "amount_cents": 5300,
+          "additional_charge": false
+        }
+      ],
+      "evidence": {
+        "source_id": "d9055ebd6801",
+        "locator": "§ 6 Abs. 5–7; ursprüngliche Preise einschließlich Mittagessen",
+        "original": 463
+      },
+      "care_only_amount_cents": 41000,
+      "normalization": {
+        "operation": "subtract_known_included_meal",
+        "deduction_cents": 5300,
+        "decision_id": "2026-11-10-aichwald-u3-meals"
+      }
+    },
+    {
+      "id": "aichwald-price-e1ecb5b69d7b",
+      "offer_id": "aichwald-offer-3bca9e92bea1",
+      "amount_cents": 35800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [
+        {
+          "component_id": "aichwald-component-94ae717b6a95",
+          "kind": "meal",
+          "amount_cents": 5300,
+          "additional_charge": false
+        }
+      ],
+      "evidence": {
+        "source_id": "d9055ebd6801",
+        "locator": "§ 6 Abs. 5–7; ursprüngliche Preise einschließlich Mittagessen",
+        "original": 358
+      },
+      "care_only_amount_cents": 30500,
+      "normalization": {
+        "operation": "subtract_known_included_meal",
+        "deduction_cents": 5300,
+        "decision_id": "2026-11-10-aichwald-u3-meals"
+      }
+    },
+    {
+      "id": "aichwald-price-54fa9081d0e8",
+      "offer_id": "aichwald-offer-3bca9e92bea1",
+      "amount_cents": 25900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [
+        {
+          "component_id": "aichwald-component-94ae717b6a95",
+          "kind": "meal",
+          "amount_cents": 5300,
+          "additional_charge": false
+        }
+      ],
+      "evidence": {
+        "source_id": "d9055ebd6801",
+        "locator": "§ 6 Abs. 5–7; ursprüngliche Preise einschließlich Mittagessen",
+        "original": 259
+      },
+      "care_only_amount_cents": 20600,
+      "normalization": {
+        "operation": "subtract_known_included_meal",
+        "deduction_cents": 5300,
+        "decision_id": "2026-11-10-aichwald-u3-meals"
+      }
+    },
+    {
+      "id": "aichwald-price-4eafbdc37c06",
+      "offer_id": "aichwald-offer-3bca9e92bea1",
+      "amount_cents": 13400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [
+        {
+          "component_id": "aichwald-component-94ae717b6a95",
+          "kind": "meal",
+          "amount_cents": 5300,
+          "additional_charge": false
+        }
+      ],
+      "evidence": {
+        "source_id": "d9055ebd6801",
+        "locator": "§ 6 Abs. 5–7; ursprüngliche Preise einschließlich Mittagessen",
+        "original": 134
+      },
+      "care_only_amount_cents": 8100,
+      "normalization": {
+        "operation": "subtract_known_included_meal",
+        "deduction_cents": 5300,
+        "decision_id": "2026-11-10-aichwald-u3-meals"
+      }
+    },
+    {
+      "id": "aichwald-price-db6ad3492a67",
+      "offer_id": "aichwald-offer-dd5563b04aed",
+      "amount_cents": 59400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [
+        {
+          "component_id": "aichwald-component-94ae717b6a95",
+          "kind": "meal",
+          "amount_cents": 5300,
+          "additional_charge": false
+        }
+      ],
+      "evidence": {
+        "source_id": "d9055ebd6801",
+        "locator": "§ 6 Abs. 5–7; ursprüngliche Preise einschließlich Mittagessen",
+        "original": 594
+      },
+      "care_only_amount_cents": 54100,
+      "normalization": {
+        "operation": "subtract_known_included_meal",
+        "deduction_cents": 5300,
+        "decision_id": "2026-11-10-aichwald-u3-meals"
+      }
+    },
+    {
+      "id": "aichwald-price-b5050009638f",
+      "offer_id": "aichwald-offer-dd5563b04aed",
+      "amount_cents": 45550,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [
+        {
+          "component_id": "aichwald-component-94ae717b6a95",
+          "kind": "meal",
+          "amount_cents": 5300,
+          "additional_charge": false
+        }
+      ],
+      "evidence": {
+        "source_id": "d9055ebd6801",
+        "locator": "§ 6 Abs. 5–7; ursprüngliche Preise einschließlich Mittagessen",
+        "original": "455,50"
+      },
+      "care_only_amount_cents": 40250,
+      "normalization": {
+        "operation": "subtract_known_included_meal",
+        "deduction_cents": 5300,
+        "decision_id": "2026-11-10-aichwald-u3-meals"
+      }
+    },
+    {
+      "id": "aichwald-price-b1fece3ab143",
+      "offer_id": "aichwald-offer-dd5563b04aed",
+      "amount_cents": 32500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [
+        {
+          "component_id": "aichwald-component-94ae717b6a95",
+          "kind": "meal",
+          "amount_cents": 5300,
+          "additional_charge": false
+        }
+      ],
+      "evidence": {
+        "source_id": "d9055ebd6801",
+        "locator": "§ 6 Abs. 5–7; ursprüngliche Preise einschließlich Mittagessen",
+        "original": 325
+      },
+      "care_only_amount_cents": 27200,
+      "normalization": {
+        "operation": "subtract_known_included_meal",
+        "deduction_cents": 5300,
+        "decision_id": "2026-11-10-aichwald-u3-meals"
+      }
+    },
+    {
+      "id": "aichwald-price-cfebc24fa13d",
+      "offer_id": "aichwald-offer-dd5563b04aed",
+      "amount_cents": 16000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [
+        {
+          "component_id": "aichwald-component-94ae717b6a95",
+          "kind": "meal",
+          "amount_cents": 5300,
+          "additional_charge": false
+        }
+      ],
+      "evidence": {
+        "source_id": "d9055ebd6801",
+        "locator": "§ 6 Abs. 5–7; ursprüngliche Preise einschließlich Mittagessen",
+        "original": 160
+      },
+      "care_only_amount_cents": 10700,
+      "normalization": {
+        "operation": "subtract_known_included_meal",
+        "deduction_cents": 5300,
+        "decision_id": "2026-11-10-aichwald-u3-meals"
+      }
+    },
+    {
+      "id": "aichwald-price-cc97557da971",
+      "offer_id": "aichwald-offer-8c0e7c36d345",
+      "amount_cents": 75350,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [
+        {
+          "component_id": "aichwald-component-94ae717b6a95",
+          "kind": "meal",
+          "amount_cents": 5300,
+          "additional_charge": false
+        }
+      ],
+      "evidence": {
+        "source_id": "d9055ebd6801",
+        "locator": "§ 6 Abs. 5–7; ursprüngliche Preise einschließlich Mittagessen",
+        "original": "753,50"
+      },
+      "care_only_amount_cents": 70050,
+      "normalization": {
+        "operation": "subtract_known_included_meal",
+        "deduction_cents": 5300,
+        "decision_id": "2026-11-10-aichwald-u3-meals"
+      }
+    },
+    {
+      "id": "aichwald-price-7d8c6ae3e934",
+      "offer_id": "aichwald-offer-8c0e7c36d345",
+      "amount_cents": 57450,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [
+        {
+          "component_id": "aichwald-component-94ae717b6a95",
+          "kind": "meal",
+          "amount_cents": 5300,
+          "additional_charge": false
+        }
+      ],
+      "evidence": {
+        "source_id": "d9055ebd6801",
+        "locator": "§ 6 Abs. 5–7; ursprüngliche Preise einschließlich Mittagessen",
+        "original": "574,50"
+      },
+      "care_only_amount_cents": 52150,
+      "normalization": {
+        "operation": "subtract_known_included_meal",
+        "deduction_cents": 5300,
+        "decision_id": "2026-11-10-aichwald-u3-meals"
+      }
+    },
+    {
+      "id": "aichwald-price-d6d53864d653",
+      "offer_id": "aichwald-offer-8c0e7c36d345",
+      "amount_cents": 40500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [
+        {
+          "component_id": "aichwald-component-94ae717b6a95",
+          "kind": "meal",
+          "amount_cents": 5300,
+          "additional_charge": false
+        }
+      ],
+      "evidence": {
+        "source_id": "d9055ebd6801",
+        "locator": "§ 6 Abs. 5–7; ursprüngliche Preise einschließlich Mittagessen",
+        "original": 405
+      },
+      "care_only_amount_cents": 35200,
+      "normalization": {
+        "operation": "subtract_known_included_meal",
+        "deduction_cents": 5300,
+        "decision_id": "2026-11-10-aichwald-u3-meals"
+      }
+    },
+    {
+      "id": "aichwald-price-0a69f4f2e3bd",
+      "offer_id": "aichwald-offer-8c0e7c36d345",
+      "amount_cents": 19150,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [
+        {
+          "component_id": "aichwald-component-94ae717b6a95",
+          "kind": "meal",
+          "amount_cents": 5300,
+          "additional_charge": false
+        }
+      ],
+      "evidence": {
+        "source_id": "d9055ebd6801",
+        "locator": "§ 6 Abs. 5–7; ursprüngliche Preise einschließlich Mittagessen",
+        "original": "191,50"
+      },
+      "care_only_amount_cents": 13850,
+      "normalization": {
+        "operation": "subtract_known_included_meal",
+        "deduction_cents": 5300,
+        "decision_id": "2026-11-10-aichwald-u3-meals"
+      }
+    },
+    {
+      "id": "aichwald-price-7070665efcd1",
+      "offer_id": "aichwald-offer-8d944f752e01",
+      "amount_cents": 72200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [
+        {
+          "component_id": "aichwald-component-94ae717b6a95",
+          "kind": "meal",
+          "amount_cents": 5300,
+          "additional_charge": false
+        }
+      ],
+      "evidence": {
+        "source_id": "d9055ebd6801",
+        "locator": "§ 6 Abs. 5–7; ursprüngliche Preise einschließlich Mittagessen",
+        "original": 722
+      },
+      "care_only_amount_cents": 66900,
+      "normalization": {
+        "operation": "subtract_known_included_meal",
+        "deduction_cents": 5300,
+        "decision_id": "2026-11-10-aichwald-u3-meals"
+      }
+    },
+    {
+      "id": "aichwald-price-63d9619b19ac",
+      "offer_id": "aichwald-offer-8d944f752e01",
+      "amount_cents": 55050,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [
+        {
+          "component_id": "aichwald-component-94ae717b6a95",
+          "kind": "meal",
+          "amount_cents": 5300,
+          "additional_charge": false
+        }
+      ],
+      "evidence": {
+        "source_id": "d9055ebd6801",
+        "locator": "§ 6 Abs. 5–7; ursprüngliche Preise einschließlich Mittagessen",
+        "original": "550,50"
+      },
+      "care_only_amount_cents": 49750,
+      "normalization": {
+        "operation": "subtract_known_included_meal",
+        "deduction_cents": 5300,
+        "decision_id": "2026-11-10-aichwald-u3-meals"
+      }
+    },
+    {
+      "id": "aichwald-price-7bae314f838f",
+      "offer_id": "aichwald-offer-8d944f752e01",
+      "amount_cents": 38900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [
+        {
+          "component_id": "aichwald-component-94ae717b6a95",
+          "kind": "meal",
+          "amount_cents": 5300,
+          "additional_charge": false
+        }
+      ],
+      "evidence": {
+        "source_id": "d9055ebd6801",
+        "locator": "§ 6 Abs. 5–7; ursprüngliche Preise einschließlich Mittagessen",
+        "original": 389
+      },
+      "care_only_amount_cents": 33600,
+      "normalization": {
+        "operation": "subtract_known_included_meal",
+        "deduction_cents": 5300,
+        "decision_id": "2026-11-10-aichwald-u3-meals"
+      }
+    },
+    {
+      "id": "aichwald-price-e65ae362c0a8",
+      "offer_id": "aichwald-offer-8d944f752e01",
+      "amount_cents": 18500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [
+        {
+          "component_id": "aichwald-component-94ae717b6a95",
+          "kind": "meal",
+          "amount_cents": 5300,
+          "additional_charge": false
+        }
+      ],
+      "evidence": {
+        "source_id": "d9055ebd6801",
+        "locator": "§ 6 Abs. 5–7; ursprüngliche Preise einschließlich Mittagessen",
+        "original": 185
+      },
+      "care_only_amount_cents": 13200,
+      "normalization": {
+        "operation": "subtract_known_included_meal",
+        "deduction_cents": 5300,
+        "decision_id": "2026-11-10-aichwald-u3-meals"
+      }
+    },
+    {
+      "id": "aichwald-price-f5c2da658055",
+      "offer_id": "aichwald-offer-ff14c5a4a8b8",
+      "amount_cents": 69000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [
+        {
+          "component_id": "aichwald-component-94ae717b6a95",
+          "kind": "meal",
+          "amount_cents": 5300,
+          "additional_charge": false
+        }
+      ],
+      "evidence": {
+        "source_id": "d9055ebd6801",
+        "locator": "§ 6 Abs. 5–7; ursprüngliche Preise einschließlich Mittagessen",
+        "original": 690
+      },
+      "care_only_amount_cents": 63700,
+      "normalization": {
+        "operation": "subtract_known_included_meal",
+        "deduction_cents": 5300,
+        "decision_id": "2026-11-10-aichwald-u3-meals"
+      }
+    },
+    {
+      "id": "aichwald-price-44027a5e9808",
+      "offer_id": "aichwald-offer-ff14c5a4a8b8",
+      "amount_cents": 52700,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [
+        {
+          "component_id": "aichwald-component-94ae717b6a95",
+          "kind": "meal",
+          "amount_cents": 5300,
+          "additional_charge": false
+        }
+      ],
+      "evidence": {
+        "source_id": "d9055ebd6801",
+        "locator": "§ 6 Abs. 5–7; ursprüngliche Preise einschließlich Mittagessen",
+        "original": 527
+      },
+      "care_only_amount_cents": 47400,
+      "normalization": {
+        "operation": "subtract_known_included_meal",
+        "deduction_cents": 5300,
+        "decision_id": "2026-11-10-aichwald-u3-meals"
+      }
+    },
+    {
+      "id": "aichwald-price-a2e2560a00ce",
+      "offer_id": "aichwald-offer-ff14c5a4a8b8",
+      "amount_cents": 37300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [
+        {
+          "component_id": "aichwald-component-94ae717b6a95",
+          "kind": "meal",
+          "amount_cents": 5300,
+          "additional_charge": false
+        }
+      ],
+      "evidence": {
+        "source_id": "d9055ebd6801",
+        "locator": "§ 6 Abs. 5–7; ursprüngliche Preise einschließlich Mittagessen",
+        "original": 373
+      },
+      "care_only_amount_cents": 32000,
+      "normalization": {
+        "operation": "subtract_known_included_meal",
+        "deduction_cents": 5300,
+        "decision_id": "2026-11-10-aichwald-u3-meals"
+      }
+    },
+    {
+      "id": "aichwald-price-095908e8a449",
+      "offer_id": "aichwald-offer-ff14c5a4a8b8",
+      "amount_cents": 17900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [
+        {
+          "component_id": "aichwald-component-94ae717b6a95",
+          "kind": "meal",
+          "amount_cents": 5300,
+          "additional_charge": false
+        }
+      ],
+      "evidence": {
+        "source_id": "d9055ebd6801",
+        "locator": "§ 6 Abs. 5–7; ursprüngliche Preise einschließlich Mittagessen",
+        "original": 179
+      },
+      "care_only_amount_cents": 12600,
+      "normalization": {
+        "operation": "subtract_known_included_meal",
+        "deduction_cents": 5300,
+        "decision_id": "2026-11-10-aichwald-u3-meals"
+      }
+    }
+  ],
+  "income_bands": [],
+  "components": [
+    {
+      "id": "aichwald-component-93a590fa7d05",
+      "kind": "meal",
+      "original_label": "VÖ7 Ü3 enthaltenes Mittagessen",
+      "amount_cents": 7500,
+      "unit": "per_month",
+      "age_group": "o3",
+      "required": null,
+      "payment_months": 12,
+      "offer_ids": [
+        "aichwald-offer-16cf65f3945a",
+        "aichwald-offer-5d18c00b7401",
+        "aichwald-offer-92ac42fc5c7a",
+        "aichwald-offer-f0c12c418562"
+      ],
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "d9055ebd6801",
+        "locator": "Differenz § 6 Abs. 2 und 3",
+        "original": null
+      },
+      "inclusion": "included",
+      "additional_charge": false
+    },
+    {
+      "id": "aichwald-component-94ae717b6a95",
+      "kind": "meal",
+      "original_label": "U3 enthaltenes Mittagessen",
+      "amount_cents": 5300,
+      "unit": "per_month",
+      "age_group": "u3",
+      "required": null,
+      "payment_months": 12,
+      "offer_ids": [
+        "aichwald-offer-3bca9e92bea1",
+        "aichwald-offer-8c0e7c36d345",
+        "aichwald-offer-8d944f752e01",
+        "aichwald-offer-dd5563b04aed",
+        "aichwald-offer-ff14c5a4a8b8"
+      ],
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "d9055ebd6801",
+        "locator": "Nutzerfestlegung 2026-11-10-aichwald-u3-meals",
+        "original": null
+      },
+      "inclusion": "included",
+      "additional_charge": false,
+      "verification": "user_confirmed",
+      "decision_id": "2026-11-10-aichwald-u3-meals"
+    }
+  ],
+  "rules": [
+    {
+      "id": "aichwald-rule-f7a7bdec48c4",
+      "kind": "comparison_policy",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "meal_handling": "subtract_known_included_amount",
+        "age_group": "u3",
+        "requires_meal_inclusion": true,
+        "monthly_deduction_cents": 5300,
+        "decision_id": "2026-11-10-aichwald-u3-meals"
+      },
+      "evidence": {
+        "source_id": "d9055ebd6801",
+        "locator": "Dokumentierte Forschungs- und Nutzerfestlegungen",
+        "original": null
+      },
+      "provenance": "research_and_user_decisions"
+    },
+    {
+      "id": "aichwald-rule-c52deec09dd4",
+      "kind": "2026-11-10-aichwald-u3-meals",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "id": "2026-11-10-aichwald-u3-meals",
+        "municipality_id": "aichwald",
+        "kind": "user_supplied_parameters",
+        "instruction": "Krippe als U3, Kindergarten als Ü3 einordnen. U3-Essen 53 Euro monatlich auf Basis von zwölf Monaten.",
+        "recorded_at": "2026-11-10",
+        "provenance": "user_instruction"
+      },
+      "evidence": {
+        "source_id": "d9055ebd6801",
+        "locator": "Nutzerfestlegung; keine zusätzliche amtliche Quellenbestätigung",
+        "original": null
+      },
+      "provenance": "user_instruction"
+    },
+    {
+      "id": "aichwald-rule-001baeef9514",
+      "kind": "source_provisions_d9055ebd6801",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "archive_text_path": "data/sources/d9055ebd6801/text.txt",
+        "text_sha256": "71665128ccf7d2221c426e20e74cc0135c1582ea4901dcada4902ad54527f0b1",
+        "review_status": "archived_provisions_preserved"
+      },
+      "evidence": {
+        "source_id": "d9055ebd6801",
+        "locator": "Vollständiger archivierter Dokumenttext einschließlich Fußnoten",
+        "original": null
+      }
+    },
+    {
+      "id": "aichwald-rule-b1aa074fd334",
+      "kind": "source_clause_d9055ebd6801_1_4",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 0,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "d9055ebd6801",
+        "locator": "PDF-/Textseite 1, Absatzblock 4",
+        "original": null
+      }
+    },
+    {
+      "id": "aichwald-rule-707230951740",
+      "kind": "source_clause_d9055ebd6801_2_1",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 1,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "d9055ebd6801",
+        "locator": "PDF-/Textseite 2, Absatzblock 1",
+        "original": null
+      }
+    },
+    {
+      "id": "aichwald-rule-dcbec6992730",
+      "kind": "source_provisions_5a4f4de529e7",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "archive_text_path": "data/sources/5a4f4de529e7/text.txt",
+        "text_sha256": "425c5f4db4795affcc6b3171517946f0c1a8cb7501afc490202dcaf0f9efe2b2",
+        "review_status": "archived_provisions_preserved"
+      },
+      "evidence": {
+        "source_id": "5a4f4de529e7",
+        "locator": "Vollständiger archivierter Dokumenttext einschließlich Fußnoten",
+        "original": null
+      }
+    },
+    {
+      "id": "aichwald-rule-bd800b1b1d1b",
+      "kind": "source_clause_5a4f4de529e7_1_4",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 2,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "5a4f4de529e7",
+        "locator": "PDF-/Textseite 1, Absatzblock 4",
+        "original": null
+      }
+    },
+    {
+      "id": "aichwald-rule-48193d347668",
+      "kind": "source_clause_5a4f4de529e7_1_5",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 3,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "5a4f4de529e7",
+        "locator": "PDF-/Textseite 1, Absatzblock 5",
+        "original": null
+      }
+    },
+    {
+      "id": "aichwald-rule-645c9580de19",
+      "kind": "source_clause_5a4f4de529e7_1_6",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 4,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "5a4f4de529e7",
+        "locator": "PDF-/Textseite 1, Absatzblock 6",
+        "original": null
+      }
+    },
+    {
+      "id": "aichwald-rule-2d429956b16c",
+      "kind": "source_clause_5a4f4de529e7_1_7",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 5,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "5a4f4de529e7",
+        "locator": "PDF-/Textseite 1, Absatzblock 7",
+        "original": null
+      }
+    },
+    {
+      "id": "aichwald-rule-20645232d6d6",
+      "kind": "source_clause_5a4f4de529e7_1_8",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 6,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "5a4f4de529e7",
+        "locator": "PDF-/Textseite 1, Absatzblock 8",
+        "original": null
+      }
+    },
+    {
+      "id": "aichwald-rule-d8acee30060f",
+      "kind": "source_clause_5a4f4de529e7_1_9",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 7,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "5a4f4de529e7",
+        "locator": "PDF-/Textseite 1, Absatzblock 9",
+        "original": null
+      }
+    },
+    {
+      "id": "aichwald-rule-de1cc356aae8",
+      "kind": "source_clause_5a4f4de529e7_1_10",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 8,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "5a4f4de529e7",
+        "locator": "PDF-/Textseite 1, Absatzblock 10",
+        "original": null
+      }
+    },
+    {
+      "id": "aichwald-rule-7d6170be65c9",
+      "kind": "source_clause_5a4f4de529e7_1_11",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 9,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "5a4f4de529e7",
+        "locator": "PDF-/Textseite 1, Absatzblock 11",
+        "original": null
+      }
+    },
+    {
+      "id": "aichwald-rule-6aa3cb348b29",
+      "kind": "source_clause_5a4f4de529e7_2_1",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 10,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "5a4f4de529e7",
+        "locator": "PDF-/Textseite 2, Absatzblock 1",
+        "original": null
+      }
+    },
+    {
+      "id": "aichwald-rule-a9cb2d3c21f2",
+      "kind": "source_clause_5a4f4de529e7_2_2",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 11,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "5a4f4de529e7",
+        "locator": "PDF-/Textseite 2, Absatzblock 2",
+        "original": null
+      }
+    },
+    {
+      "id": "aichwald-rule-4d335689c18f",
+      "kind": "source_clause_5a4f4de529e7_2_3",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 12,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "5a4f4de529e7",
+        "locator": "PDF-/Textseite 2, Absatzblock 3",
+        "original": null
+      }
+    },
+    {
+      "id": "aichwald-rule-4b03686a8051",
+      "kind": "source_clause_5a4f4de529e7_2_4",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 13,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "5a4f4de529e7",
+        "locator": "PDF-/Textseite 2, Absatzblock 4",
+        "original": null
+      }
+    },
+    {
+      "id": "aichwald-rule-160a43306fe4",
+      "kind": "source_clause_5a4f4de529e7_2_5",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 14,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "5a4f4de529e7",
+        "locator": "PDF-/Textseite 2, Absatzblock 5",
+        "original": null
+      }
+    },
+    {
+      "id": "aichwald-rule-b8060b1b353c",
+      "kind": "source_clause_5a4f4de529e7_2_6",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 15,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "5a4f4de529e7",
+        "locator": "PDF-/Textseite 2, Absatzblock 6",
+        "original": null
+      }
+    },
+    {
+      "id": "aichwald-rule-bff9ee19dffb",
+      "kind": "source_clause_5a4f4de529e7_2_9",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 16,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "5a4f4de529e7",
+        "locator": "PDF-/Textseite 2, Absatzblock 9",
+        "original": null
+      }
+    },
+    {
+      "id": "aichwald-rule-1939f45eea91",
+      "kind": "source_clause_5a4f4de529e7_2_10",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 17,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "5a4f4de529e7",
+        "locator": "PDF-/Textseite 2, Absatzblock 10",
+        "original": null
+      }
+    },
+    {
+      "id": "aichwald-rule-4c1676fd3909",
+      "kind": "source_clause_5a4f4de529e7_3_1",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 18,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "5a4f4de529e7",
+        "locator": "PDF-/Textseite 3, Absatzblock 1",
+        "original": null
+      }
+    },
+    {
+      "id": "aichwald-rule-935484ed5c0b",
+      "kind": "source_clause_5a4f4de529e7_3_2",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 19,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "5a4f4de529e7",
+        "locator": "PDF-/Textseite 3, Absatzblock 2",
+        "original": null
+      }
+    },
+    {
+      "id": "aichwald-rule-5bf5b06bdf5a",
+      "kind": "source_clause_5a4f4de529e7_3_3",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 20,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "5a4f4de529e7",
+        "locator": "PDF-/Textseite 3, Absatzblock 3",
+        "original": null
+      }
+    },
+    {
+      "id": "aichwald-rule-8cc86fab273d",
+      "kind": "source_clause_5a4f4de529e7_3_4",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 21,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "5a4f4de529e7",
+        "locator": "PDF-/Textseite 3, Absatzblock 4",
+        "original": null
+      }
+    },
+    {
+      "id": "aichwald-rule-dc41a0c527b5",
+      "kind": "source_clause_5a4f4de529e7_3_5",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 22,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "5a4f4de529e7",
+        "locator": "PDF-/Textseite 3, Absatzblock 5",
+        "original": null
+      }
+    },
+    {
+      "id": "aichwald-rule-87ce6cf05525",
+      "kind": "source_clause_5a4f4de529e7_3_6",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 23,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "5a4f4de529e7",
+        "locator": "PDF-/Textseite 3, Absatzblock 6",
+        "original": null
+      }
+    },
+    {
+      "id": "aichwald-rule-f5f1c5fd3773",
+      "kind": "source_clause_5a4f4de529e7_3_7",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 24,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "5a4f4de529e7",
+        "locator": "PDF-/Textseite 3, Absatzblock 7",
+        "original": null
+      }
+    },
+    {
+      "id": "aichwald-rule-4568c9a80821",
+      "kind": "source_clause_5a4f4de529e7_3_8",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 25,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "5a4f4de529e7",
+        "locator": "PDF-/Textseite 3, Absatzblock 8",
+        "original": null
+      }
+    },
+    {
+      "id": "aichwald-rule-0016bd671299",
+      "kind": "source_clause_5a4f4de529e7_3_9",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 26,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "5a4f4de529e7",
+        "locator": "PDF-/Textseite 3, Absatzblock 9",
+        "original": null
+      }
+    },
+    {
+      "id": "aichwald-rule-473c47be20ab",
+      "kind": "source_clause_5a4f4de529e7_3_10",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 27,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "5a4f4de529e7",
+        "locator": "PDF-/Textseite 3, Absatzblock 10",
+        "original": null
+      }
+    },
+    {
+      "id": "aichwald-rule-779d3f47f728",
+      "kind": "source_clause_5a4f4de529e7_4_1",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 28,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "5a4f4de529e7",
+        "locator": "PDF-/Textseite 4, Absatzblock 1",
+        "original": null
+      }
+    },
+    {
+      "id": "aichwald-rule-9481e0788021",
+      "kind": "source_clause_5a4f4de529e7_4_2",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 29,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "5a4f4de529e7",
+        "locator": "PDF-/Textseite 4, Absatzblock 2",
+        "original": null
+      }
+    },
+    {
+      "id": "aichwald-rule-814e340ec52f",
+      "kind": "source_provisions_373db27cebf1",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "archive_text_path": "data/sources/373db27cebf1/text.txt",
+        "text_sha256": "bc7aeebca9fa7dc4486b7c087fc7c002af972d246a84e5a04334d82e5a42aed2",
+        "review_status": "archived_provisions_preserved"
+      },
+      "evidence": {
+        "source_id": "373db27cebf1",
+        "locator": "Vollständiger archivierter Dokumenttext einschließlich Fußnoten",
+        "original": null
+      }
+    },
+    {
+      "id": "aichwald-rule-ef973e84f62c",
+      "kind": "source_clause_373db27cebf1_1_2",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 30,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "373db27cebf1",
+        "locator": "PDF-/Textseite 1, Absatzblock 2",
+        "original": null
+      }
+    }
+  ],
+  "issues": [
+    {
+      "code": "pending_calculation_review",
+      "detail": "Strukturierter Import; noch keine Freigabe des Rechners oder der Website."
+    },
+    {
+      "code": "research_limitation_1",
+      "detail": "Den 53-Euro-Abzug ausschließlich auf U3-Angebote mit eingeschlossenem Essen anwenden. Original-Ausnahmetarife für jüngere Kinder in altersgemischten Gruppen erhalten."
+    }
+  ],
+  "coverage": {
+    "publication_status": "not_active",
+    "integration_status": "normalized_pending_calculation_review",
+    "history_in_scope": false,
+    "source_register": "data/research/neighbor_expansion_2026-11-10.json",
+    "research_id": "aichwald",
+    "unavailable_configurations": [],
+    "offers": 13,
+    "price_cells": 52,
+    "income_bands": 0,
+    "components": 2,
+    "rule_records": 36,
+    "tariff_table_transcription": "complete_for_declared_scope",
+    "declared_scope": "Aktuelle und bereits veröffentlichte künftige Krippen- und Kindergartentarife; Zusatzkosten und Gebührenregeln.",
+    "excluded_from_regular_price_rows": [
+      "superseded_historical_tariffs",
+      "school_childcare",
+      "takki_and_childminding",
+      "separate_playgroups"
+    ],
+    "calculation_engine_changed": false,
+    "rule_transcription": "typed_parameters_and_source_clauses_with_explicit_unimplemented_status"
+  },
+  "original_research": {
+    "path": "data/research/neighbor_expansion_2026-11-10.json",
+    "section": "Aichwald",
+    "text": "Satzung und Ratsanlage bestätigen 166 € Ü3-Regelgruppe. Die Angabe 176 € im Ratsbericht ist widerlegt.\nKrippe wird als U3, Kindergarten als Ü3 bezeichnet. Für enthaltenes U3-Essen gelten 53 €/Monat über zwölf Monate gemäß Nutzerangabe; die unveränderten Originalpreise bleiben nachvollziehbar erhalten.\nDen 53-Euro-Abzug ausschließlich auf U3-Angebote mit eingeschlossenem Essen anwenden. Original-Ausnahmetarife für jüngere Kinder in altersgemischten Gruppen erhalten.",
+    "source_clauses": [
+      {
+        "text": "§1                                    -   wenn der zu entrichtende Elternbeitrag für zwei\n                             Aufnahme                                     Monate nicht oder nicht in voller Höhe bezahlt\n(1)   In die Kindergärten in Aichwald werden Kinder im                    wurde.\n      Alter von 3 Jahren bis zum Schuleintritt aufgenom-\n      men. In der Kinderkrippe und in Altersgemischten                                     §4\n      Gruppen (sofern angeboten) werden Kinder ab einem                        Besuch des Kindergartens,\n      Alter von 1 Jahr aufgenommen.                                            Öffnungszeiten und Ferien\n      In der Betreuungsform des Regelkindergartens kön-         (1)   Das Kindergartenjahr beginnt und endet mit dem\n      nen Kinder im Alter von 2 -3 Jahren ausnahmsweise               Ende der Sommerferien der Einrichtung.\n      aufgenommen werden.                                       (2)   Im Interesse des Kindes und der Gruppe soll der\n      Die Anmeldung für das jeweils folgende Kindergarten-            Kindergarten regelmäßig besucht werden.\n      jahr soll im Frühjahr (März-April) des laufenden Kin-     (3)   Fehlt ein Kind länger als 3 Tage, ist die/der Erzie-\n      dergartenjahres erfolgen.                                       herin/Erzieher zu benachrichtigen.\n(2)   Kinder mit und ohne Behinderungen werden, soweit          (4)   Die regelmäßigen täglichen Öffnungszeiten der\n      möglich, in gemeinsamen Gruppen erzogen. Dabei                  Kindergärten werden durch Aushang in den jewei-\n      wird berücksichtigt, dass sowohl den Bedürfnissen               ligen Kindergärten bekannt gegeben.\n      der behinderten als auch der nicht behinderten Kinder\n      Rechnung getragen wird.                                                               §5\n(3)   Über die Aufnahme der Kinder entscheidet der Träger                Ferien und Schließung der Einrichtung\n      im Einvernehmen mit der Leitung der Einrichtung                            aus besonderem Anlass\n(4)   Jedes Kind wird vor der Aufnahme in die Einrichtung       (1)   Die Ferienzeiten werden jeweils für ein Jahr fest-\n      ärztlich untersucht. Hierfür muss eine ärztliche Be-            gesetzt und rechtzeitig bekanntgegeben.\n      scheinigung vorgelegt werden. Dies gilt nicht für Kin-    (2)   Muss die Einrichtung oder eine Gruppe aus beson-\n      der im Schulalter.                                              derem Anlass (z.B. wegen Erkrankung oder dienst-\n      Es wird empfohlen, von der nach dem Fünften Buch                licher Verhinderung) geschlossen bleiben, werden\n      Sozialgesetzbuch vorgesehenen kostenlosen Vorsor-               die Eltern hiervon rechtzeitig unterrichtet.\n      geuntersuchung für Kinder von Versicherten Ge-            (3)   Der Träger der Einrichtung ist bemüht, eine über\n      brauch zu machen.                                               die Dauer von drei Tagen hinausgehende Schlie-\n      Maßgeblich für die Aufnahme ist je nach Lebensalter             ßung der Einrichtung oder der Gruppe zu vermei-\n      des Kindes zum Zeitpunkt der Aufnahme die letzte                den. Dies gilt nicht, wenn die Einrichtung zur Ver-\n      ärztliche Untersuchung (U1 bis U9).                             meidung der Übertragung ansteckender Krankhei-\n(5)   Die Aufnahme des Kindes erfolgt nach Unterzeich-                ten geschlossen werden muss.\n      nung des Anmeldebogens sowie der Vorlage der Be-\n      scheinigung über die ärztliche Untersuchung.                                        §6\n                                                                                Kindergartengebühren\n                                 §2                             (1)   Die Kindergartengebühren betragen monatlich je Kind\n                             Abmeldung                                im Regelkindergarten (täglich 7:30 – 13:00 Uhr und\n(1)   Die Abmeldung kann nur auf das Ende eines Monats                ein Nachmittag von 14:00 – 16:30 Uhr):\n      erfolgen. Sie ist mindestens vier Wochen vorher\n      schriftlich der Leitung der Einrichtung zu übergeben.      Anzahl Kinder      Gebühr für Kinder    Gebühr für Kinder\n(2)   Für Kinder, die in die Schule aufgenommen werden           in der Familie     über 3 Jahre         unter 3 Jahre\n      und bis zum Ende des Kindergartenjahres die Einrich-       1                  166,00 €             332,00 €\n      tung besuchen, erübrigt sich eine schriftliche Abmel-      2                   129,00 €            258,00 €\n      dung.                                                      3                    88,00 €            176,00 €\n      Abweichend von Satz 1 kann das Betreuungsverhält-          4 und mehr           29,00 €             58,00 €\n      nis eines Kindes, das zum Ende des laufenden Kin-\n      dergartenjahres in die Schule überwechselt, unter\n      Einhaltung der Abmeldungsfrist nur bis spätestens\n      zum Ende des Monats April abgemeldet werden. Ist          (2)   Die Kindergartengebühren betragen monatlich je Kind\n      eine Wiederbesetzung des freigewordenen Platzes                 in der Verlängerten Vormittagsöffnungszeit ohne\n      sofort möglich, kann die Abmeldung auch später an-              Mittagessen (täglich 7:00-14:00 Uhr) für Kinder über\n      genommen werden.                                                3 Jahre:\n                               §3                                Anzahl Kinder in der Familie           Gebühr\n                           Ausschluss                            1                                      207,50 €\n(1)   Der Träger der Einrichtung kann ein Kind ausschlie-        2                                      161,50 €\n      ßen,\n                                                                 3                                      110,00 €\n      - wenn das Kind die Einrichtung länger als vier\n                                                                 4 und mehr                              36,50 €\n         Wochen unentschuldigt nicht mehr besucht hat,\n      - wenn die Eltern die in dieser Ordnung aufge-\n         führten Pflichten wiederholt nicht beachteten,",
+        "evidence": {
+          "source_id": "d9055ebd6801",
+          "locator": "PDF-/Textseite 1, Absatzblock 4",
+          "original": null
+        }
+      },
+      {
+        "text": "(3)   Die Kindergartengebühren betragen monatlich je Kind            d) Ändern sich die Familienverhältnisse, insbeson-\n      in der Verlängerten Vormittagsöffnungszeit mit                      dere die Anzahl der Kinder, ist dies unverzüglich\n      Mittagessen (täglich 7:00-14:00 Uhr) für Kinder über                der jeweiligen Einrichtung zu melden. Sollte dies\n      3 Jahre:                                                            eine Änderung der Kindergartengebühr (Erhöhung\n                                                                          oder Ermäßigung) nach sich ziehen, wird die An-\n Anzahl Kinder in der Familie          Gebühr                             passung auf den der Meldung folgenden Monat\n 1                                     282,50 €                           vorgenommen\n 2                                     236,50 €                  (9) Die Gebühr ist in der jeweils festgesetzten Höhe von\n 3                                     185,00 €                      Beginn des Monats an zu entrichten, in dem das Kind\n 4 und mehr                            111,50 €                      in die Einrichtung aufgenommen wird. Bei Einrich-\n                                                                     tungsaufnahme nach dem 15. eines Monats wird für\n(4)   Bei Inanspruchnahme des Ganztageskindergartens                 den Monat der Aufnahme nur die hälftige Gebühr fäl-\n      (kann zur Betreuungszeit der Verlängerten Vormit-              lig. Die Gebühr ist jeweils im Voraus bis zum 5. des\n      tagsöffnungszeit hinzu gebucht werden) für Kinder              Monats zu bezahlen. Der Gemeindeverwaltung soll\n      über 3 Jahre (Mo.- Fr. bis 16:30 Uhr inkl. Mittages-           mit dem bei der Aufnahme ausgegebenen Vordruck\n      sen) zusätzliche monatliche Gebühr je Kind zu den              eine Einzugsermächtigung erteilt werden\n      Gebühren nach Absatz 3:                                   (10) Gebührenschuldner sind Eltern oder Pflegeeltern.\n                                                                (11) Da die Kindergartengebühr eine Beteiligung an den\n Anzahl Kinder      Gebühr für    Gebühr für      Gebühr für         gesamten Betriebskosten des Kindergartens darstellt,\n in der Familie     5 Tage        4 Tage          3 Tage             ist sie auch während der Ferien, bei vorübergehender\n 1                  110,00 €      88,00 €         66,00 €            Schließung, soweit es der Betreiber nicht zu vertreten\n 2                   85,50 €      68,50 €         51,50 €            hat, bei längerem Fehlen und bis zum Ausscheiden\n                                                                     des Kindes voll zu bezahlen.\n 3                   58,50 €      46,50 €         35,00 €\n                                                                (12) Bei Abmeldung eines Kindes ist der Elternbeitrag\n 4 und mehr          19,50 €      15,50 €         11,50 €\n                                                                     bis zum Ende des Monats zu entrichten, in dem das\n                                                                     Kind abgemeldet wurde.\n(5)   Die Kindergartengebühren betragen monatlich je Kind       (13) Sollte es dem Gebührenschuldner nicht möglich sein,\n      in der Kinderkrippe und Altersgemischten Gruppe                die Kindergartengebühren zu leisten, kann über das\n      für Kinder von 1-3 Jahren:                                     Sozialamt beim Landratsamt Esslingen die Gewäh-\n                                                                     rung eines Zuschusses zu den Betreuungsgebühren\n Anzahl Kinder in der      Gebühr (täglich       Gebühr              beantragt werden. Darüber hinaus kann für die Kos-\n Familie                   von 7:00 – 12:00      (täglich von        ten des Mittagessens im Rahmen der Bildungs- und\n                           Uhr, ohne Mit-        7:00 – 12:00        Teilhabeleistungen ein Zuschuss beantragt werden.\n                           tagessen)             Uhr, inkl.\n                                                 Mittagessen)                                   §7\n 1                         410,00 €              463,00 €                                     Aufsicht\n 2                         305,00 €              358,00 €       (1)   Während der Öffnungszeiten der Einrichtung sind\n 3                         206,00 €              259,00 €             grundsätzlich die pädagogisch tätigen Mitarbei-\n 4 und mehr                 81,00 €              134,00 €             ter/innen für die ihnen anvertrauten Kinder verantwort-\n                                                                      lich.\n(6)   Die Kindergartengebühren betragen monatlich je Kind       (2)   Die Aufsichtspflicht des Trägers der Einrichtung be-\n      in der Kinderkrippe und Altersgemischten Gruppe                 ginnt erst mit der Übernahme des Kindes durch die\n      für Kinder von 1-3 Jahren:                                      Betreuungskräfte in der Einrichtung und endet mit\n                                                                      dem Verlassen derselben.\n Anzahl Kinder in der Familie         Gebühr (täglich von             Auf dem Weg von und zur Einrichtung sowie auf dem\n                                      7:00 – 14:00 Uhr,               Heimweg obliegt die Aufsichtspflicht allein den Perso-\n                                      inkl. Mittagessen)              nensorgeberechtigten. Dem ordnungsgemäßen Über-\n 1                                    594,00 €                        gang in den jeweils anderen Aufsichtspflichtbereich ist\n 2                                    455,50 €                        besondere Aufmerksamkeit zu widmen. Die Perso-\n 3                                    325,00 €                        nensorgeberechtigten können durch schriftliche Erklä-\n 4 und mehr                           160,00 €                        rung gegenüber dem Träger entscheiden, ob das Kind\n                                                                      alleine nach Hause gehen darf. Dies ist bei Kindern\n(7)   Bei Inanspruchnahme der Ganztageskinderkrippe                   im Schulalter nicht erforderlich.\n      für Kinder von 1-3 Jahren (Mo – Fr. 16:30 Uhr inkl.\n      Mittagessen) betragen die Kindergartengebühr mo-                                         §8\n      natlich je Kind:                                                                   Versicherungen\n                                                                (1)   Die Kinder sind nach § 2 Abs. 1 Nr. 8 a) des Siebten\n Anzahl Kinder      Gebühr für    Gebühr für 4     Gebühr für         Buches Sozialgesetzbuch gesetzlich gegen Unfall\n in der Familie     5 Tage        Tage             3 Tage             versichert\n 1                  753,50 €      722,00 €         690,00 €           - auf dem direkten Weg von der und zur Einrich-\n 2                  574,50 €      550,50 €         527,00 €               tung,\n 3                  405,00 €      389,00 €         373,00 €           - während des Aufenthalts in der Einrichtung,\n 4 und mehr         191,50 €      185,00 €         179,00 €           - während aller Veranstaltungen der Einrichtung\n                                                                          außerhalb des Einrichtungsgeländes\n                                                                      - (Spaziergänge, Feste etc.).\n(8)   Als Kinder zählen, soweit sie das 18. Lebensjahr\n                                                                (2)   Alle Unfälle, die auf dem Weg zur und von der Ein-\n      noch nicht vollendet haben oder für sie Kindergeld\n                                                                      richtung eintreten, müssen der Leitung der Einrich-\n      bezogen wird, bei Verheirateten und Alleinstehenden\n                                                                      tung unverzüglich gemeldet werden.\n      a) Kinder, die im ersten Grad mit den Vorgenannten\n                                                                (3)   Für den Verlust, die Beschädigung und die Verwech-\n          verwandt sind\n                                                                      selung der Garderobe und anderer persönlicher Ge-\n      b) Pflegekinder\n                                                                      genstände des Kindes wird keine Haftung übernom-\n      c) Stiefkinder, die die Verheirateten in ihren Haushalt\n                                                                      men. Es wird empfohlen, die Sachen mit dem Namen\n          aufgenommen haben, solange die Ehe besteht,\n                                                                      des Kindes zu kennzeichnen.\n           durch die das Stiefkindverhältnis begründet wor-\n          den ist.\n                                                                                                                           2",
+        "evidence": {
+          "source_id": "d9055ebd6801",
+          "locator": "PDF-/Textseite 2, Absatzblock 1",
+          "original": null
+        }
+      },
+      {
+        "text": "§6\n                                       Kindergartengebühren\n (1) Die Kindergartengebühren betragen monatlich je Kind im Regelkindergarten (täglich 7:30 – 13:00 Uhr\n     und ein Nachmittag von 14:00 – 16:30 Uhr):",
+        "evidence": {
+          "source_id": "5a4f4de529e7",
+          "locator": "PDF-/Textseite 1, Absatzblock 4",
+          "original": null
+        }
+      },
+      {
+        "text": "Anzahl Kin-   Gebühr für        Gebühr für\n  der in der    Kinder über 3     Kinder unter 3\n  Familie       Jahre             Jahre\n  1             166,00 €          332,00 €\n  2             129,00 €          258,00 €\n  3              88,00 €          176,00 €\n  4 und mehr     29,00 €           58,00 €",
+        "evidence": {
+          "source_id": "5a4f4de529e7",
+          "locator": "PDF-/Textseite 1, Absatzblock 5",
+          "original": null
+        }
+      },
+      {
+        "text": "(2) Die Kindergartengebühren betragen monatlich je Kind in der Verlängerten Vormittagsöffnungszeit\n    ohne Mittagessen (täglich 7:00-14:00 Uhr) für Kinder über 3 Jahre:",
+        "evidence": {
+          "source_id": "5a4f4de529e7",
+          "locator": "PDF-/Textseite 1, Absatzblock 6",
+          "original": null
+        }
+      },
+      {
+        "text": "Anzahl Kinder in der Familie   Gebühr\n  1                              207,50 €\n  2                              161,50 €\n  3                              110,00 €\n  4 und mehr                      36,50 €",
+        "evidence": {
+          "source_id": "5a4f4de529e7",
+          "locator": "PDF-/Textseite 1, Absatzblock 7",
+          "original": null
+        }
+      },
+      {
+        "text": "(3) Die Kindergartengebühren betragen monatlich je Kind in der Verlängerten Vormittagsöffnungszeit mit\n    Mittagessen (täglich 7:00-14:00 Uhr) für Kinder über 3 Jahre:",
+        "evidence": {
+          "source_id": "5a4f4de529e7",
+          "locator": "PDF-/Textseite 1, Absatzblock 8",
+          "original": null
+        }
+      },
+      {
+        "text": "Anzahl Kinder in der Familie   Gebühr\n  1                              282,50 €\n  2                              236,50 €\n  3                              185,00 €\n  4 und mehr                     111,50 €",
+        "evidence": {
+          "source_id": "5a4f4de529e7",
+          "locator": "PDF-/Textseite 1, Absatzblock 9",
+          "original": null
+        }
+      },
+      {
+        "text": "(4) Bei Inanspruchnahme des Ganztageskindergartens (kann zur Betreuungszeit der Verlängerten Vor-\n    mittagsöffnungszeit hinzu gebucht werden) für Kinder über 3 Jahre (Mo.- Fr. bis 16:30 Uhr inkl. Mittag-\n    essen) zusätzliche monatliche Gebühr je Kind zu den Gebühren nach Absatz 3:",
+        "evidence": {
+          "source_id": "5a4f4de529e7",
+          "locator": "PDF-/Textseite 1, Absatzblock 10",
+          "original": null
+        }
+      },
+      {
+        "text": "Anzahl Kin-   Gebühr      Gebühr      Gebühr\n  der in der    für 5       für 4       für 3\n  Familie       Tage        Tage        Tage\n  1             110,00 €    88,00 €     66,00 €\n  2               85,50 €   68,50 €     51,50 €\n  3               58,50 €   46,50 €     35,00 €\n  4 und mehr      19,50 €   15,50 €     11,50 €",
+        "evidence": {
+          "source_id": "5a4f4de529e7",
+          "locator": "PDF-/Textseite 1, Absatzblock 11",
+          "original": null
+        }
+      },
+      {
+        "text": "(5) Die Kindergartengebühren betragen monatlich je Kind in der Kinderkrippe und Altersgemischten\n    Gruppe für Kinder von 1-3 Jahren:",
+        "evidence": {
+          "source_id": "5a4f4de529e7",
+          "locator": "PDF-/Textseite 2, Absatzblock 1",
+          "original": null
+        }
+      },
+      {
+        "text": "Anzahl Kinder in der Familie   Gebühr (täglich      Gebühr (täglich\n                                 von 7:00 – 12:00     von 7:00 – 12:00\n                                 Uhr, ohne Mittag-    Uhr, inkl. Mittag-\n                                 essen)               essen\n  1                              410,00 €             463,00 €\n  2                              305,00 €             358,00 €\n  3                              206,00 €             259,00 €\n  4 und mehr                      81,00 €             134,00 €",
+        "evidence": {
+          "source_id": "5a4f4de529e7",
+          "locator": "PDF-/Textseite 2, Absatzblock 2",
+          "original": null
+        }
+      },
+      {
+        "text": "(6) Die Kindergartengebühren betragen monatlich je Kind in der Kinderkrippe und Altersgemischten\n    Gruppe für Kinder von 1-3 Jahren:",
+        "evidence": {
+          "source_id": "5a4f4de529e7",
+          "locator": "PDF-/Textseite 2, Absatzblock 3",
+          "original": null
+        }
+      },
+      {
+        "text": "Anzahl Kinder in der Familie   Gebühr (täglich\n                                 von 7:00 – 14:00\n                                 Uhr, inkl. Mittag-\n                                 essen)\n  1                              594,00 €\n  2                              455,50 €\n  3                              325,00 €\n  4 und mehr                     160,00 €",
+        "evidence": {
+          "source_id": "5a4f4de529e7",
+          "locator": "PDF-/Textseite 2, Absatzblock 4",
+          "original": null
+        }
+      },
+      {
+        "text": "(7) Bei Inanspruchnahme der Ganztageskinderkrippe für Kinder von 1-3 Jahren (Mo – Fr. 16:30 Uhr inkl.\n    Mittagessen) betragen die Kindergartengebühr monatlich je Kind:",
+        "evidence": {
+          "source_id": "5a4f4de529e7",
+          "locator": "PDF-/Textseite 2, Absatzblock 5",
+          "original": null
+        }
+      },
+      {
+        "text": "Anzahl Kin-   Gebühr     Gebühr für     Gebühr\n  der in der    für 5      4 Tage         für 3\n  Familie       Tage                      Tage\n  1             753,50 €   722,00 €       690,00 €\n  2             574,50 €   550,50 €       527,00 €\n  3             405,00 €   389,00 €       373,00 €\n  4 und mehr    191,50 €   185,00 €       179,00 €",
+        "evidence": {
+          "source_id": "5a4f4de529e7",
+          "locator": "PDF-/Textseite 2, Absatzblock 6",
+          "original": null
+        }
+      },
+      {
+        "text": "§6\n                                       Kindergartengebühren\n(1) Die Kindergartengebühren betragen monatlich je Kind im Regelkindergarten (täglich 7:30 – 13:00 Uhr\n    und ein Nachmittag von 14:00 – 16:30 Uhr):",
+        "evidence": {
+          "source_id": "5a4f4de529e7",
+          "locator": "PDF-/Textseite 2, Absatzblock 9",
+          "original": null
+        }
+      },
+      {
+        "text": "Anzahl Kin-   Gebühr für        Gebühr für\n  der in der    Kinder über 3     Kinder unter 3\n  Familie       Jahre             Jahre\n  1             173,00 €          346,00 €\n  2             134,00 €          268,00 €\n  3              92,00 €          184,00 €\n  4 und mehr     30,00 €           60,00 €",
+        "evidence": {
+          "source_id": "5a4f4de529e7",
+          "locator": "PDF-/Textseite 2, Absatzblock 10",
+          "original": null
+        }
+      },
+      {
+        "text": "(2) Die Kindergartengebühren betragen monatlich je Kind in der Verlängerten Vormittagsöffnungszeit\n    ohne Mittagessen (täglich 7:00-14:00 Uhr) für Kinder über 3 Jahre:",
+        "evidence": {
+          "source_id": "5a4f4de529e7",
+          "locator": "PDF-/Textseite 3, Absatzblock 1",
+          "original": null
+        }
+      },
+      {
+        "text": "Anzahl Kinder in der Familie   Gebühr\n  1                              216,50 €\n  2                              167,50 €\n  3                              115,00 €\n  4 und mehr                      37,50 €",
+        "evidence": {
+          "source_id": "5a4f4de529e7",
+          "locator": "PDF-/Textseite 3, Absatzblock 2",
+          "original": null
+        }
+      },
+      {
+        "text": "(3) Die Kindergartengebühren betragen monatlich je Kind in der Verlängerten Vormittagsöffnungszeit mit\n    Mittagessen (täglich 7:00-14:00 Uhr) für Kinder über 3 Jahre:",
+        "evidence": {
+          "source_id": "5a4f4de529e7",
+          "locator": "PDF-/Textseite 3, Absatzblock 3",
+          "original": null
+        }
+      },
+      {
+        "text": "Anzahl Kinder in der Familie   Gebühr\n  1                              291,50 €\n  2                              242,50 €\n  3                              190,00 €\n  4 und mehr                     112,50 €",
+        "evidence": {
+          "source_id": "5a4f4de529e7",
+          "locator": "PDF-/Textseite 3, Absatzblock 4",
+          "original": null
+        }
+      },
+      {
+        "text": "(4) Bei Inanspruchnahme des Ganztageskindergartens (kann zur Betreuungszeit der Verlängerten Vor-\n    mittagsöffnungszeit hinzu gebucht werden) für Kinder über 3 Jahre (Mo.- Fr. bis 16:30 Uhr inkl. Mittag-\n    essen) zusätzliche monatliche Gebühr je Kind zu den Gebühren nach Absatz 3:",
+        "evidence": {
+          "source_id": "5a4f4de529e7",
+          "locator": "PDF-/Textseite 3, Absatzblock 5",
+          "original": null
+        }
+      },
+      {
+        "text": "Anzahl Kin-   Gebühr      Gebühr      Gebühr\n  der in der    für 5       für 4       für 3\n  Familie       Tage        Tage        Tage\n  1             114,50 €    91,50 €     67,00 €\n  2               89,00 €   71,00 €     53,50 €\n  3               61,00 €   48,50 €     36,50 €\n  4 und mehr      20,00 €   16,00 €     12,00 €",
+        "evidence": {
+          "source_id": "5a4f4de529e7",
+          "locator": "PDF-/Textseite 3, Absatzblock 6",
+          "original": null
+        }
+      },
+      {
+        "text": "(5) Die Kindergartengebühren betragen monatlich je Kind in der Kinderkrippe und Altersgemischten\n    Gruppe für Kinder von 1-3 Jahren:",
+        "evidence": {
+          "source_id": "5a4f4de529e7",
+          "locator": "PDF-/Textseite 3, Absatzblock 7",
+          "original": null
+        }
+      },
+      {
+        "text": "Anzahl Kinder in der Familie   Gebühr (täglich      Gebühr (täglich\n                                 von 7:00 – 12:00     von 7:00 – 12:00\n                                 Uhr, ohne Mittag-    Uhr, inkl. Mittag-\n                                 essen)               essen\n  1                              426,50 €             479,50 €\n  2                              317,50 €             370,50 €\n  3                              214,00 €             267,00 €\n  4 und mehr                      84,00 €             137,00 €",
+        "evidence": {
+          "source_id": "5a4f4de529e7",
+          "locator": "PDF-/Textseite 3, Absatzblock 8",
+          "original": null
+        }
+      },
+      {
+        "text": "(6) Die Kindergartengebühren betragen monatlich je Kind in der Kinderkrippe und Altersgemischten\n    Gruppe für Kinder von 1-3 Jahren:",
+        "evidence": {
+          "source_id": "5a4f4de529e7",
+          "locator": "PDF-/Textseite 3, Absatzblock 9",
+          "original": null
+        }
+      },
+      {
+        "text": "Anzahl Kinder in der Familie   Gebühr (täglich\n                                 von 7:00 – 14:00\n                                 Uhr, inkl. Mittag-\n                                 essen)\n  1                              616,00 €\n  2                              472,00 €\n  3                              336,00 €\n  4 und mehr                     164,00 €",
+        "evidence": {
+          "source_id": "5a4f4de529e7",
+          "locator": "PDF-/Textseite 3, Absatzblock 10",
+          "original": null
+        }
+      },
+      {
+        "text": "(7) Bei Inanspruchnahme der Ganztageskinderkrippe für Kinder von 1-3 Jahren (Mo – Fr. 16:30 Uhr inkl.\n    Mittagessen) betragen die Kindergartengebühr monatlich je Kind:",
+        "evidence": {
+          "source_id": "5a4f4de529e7",
+          "locator": "PDF-/Textseite 4, Absatzblock 1",
+          "original": null
+        }
+      },
+      {
+        "text": "Anzahl Kin-     Gebühr     Gebühr für   Gebühr\n  der in der      für 5      4 Tage       für 3\n  Familie         Tage                    Tage\n  1               782,00 €   749,00 €     715,50 €\n  2               595,50 €   571,00 €     546,00 €\n  3               419,50 €   403,00 €     386,00 €\n  4 und mehr      197,00 €   190,50 €     183,50 €",
+        "evidence": {
+          "source_id": "5a4f4de529e7",
+          "locator": "PDF-/Textseite 4, Absatzblock 2",
+          "original": null
+        }
+      },
+      {
+        "text": "Da mit der vorliegenden Satzungsänderung ausschließlich die Höhe der Gebühren für die kommenden\nzwei Kindergartenjahre angepasst werden, wird auf eine synoptische Darstellung zu Gunsten einer\nÜbersicht über die Gebührenentwicklung verzichtet",
+        "evidence": {
+          "source_id": "373db27cebf1",
+          "locator": "PDF-/Textseite 1, Absatzblock 2",
+          "original": null
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,1435 @@
+{
+  "schema_version": "1.0",
+  "id": "schoenaich",
+  "name": "Schönaich",
+  "reviewed_at": "2026-11-10",
+  "reference_date": "2026-11-10",
+  "scope": {
+    "included": [
+      "municipal"
+    ],
+    "other_providers": "only_with_explicit_source_evidence"
+  },
+  "family_basis": "under_18",
+  "family_evidence": {
+    "source_id": "1c7e3b410b71",
+    "locator": "Familienbegriff und Fußnoten der Gebührenunterlagen",
+    "original": null
+  },
+  "supporting_source_ids": [
+    "1c7e3b410b71",
+    "15f1df9d333e"
+  ],
+  "offers": [
+    {
+      "id": "schoenaich-offer-0ae960d686b5",
+      "original_label": "VÖ30",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 1800,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "1c7e3b410b71",
+        "locator": "Anlage § 1 a–d, Spalte ab September 2026",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "1c7e3b410b71",
+        "locator": "Zwölf Monate aus laufender Kalendermonatsgebühr einschließlich Ferien abgeleitet; keine ausdrücklich bezifferte Monatszahl.",
+        "original": null,
+        "verification": "derived"
+      },
+      "evidence": {
+        "source_id": "1c7e3b410b71",
+        "locator": "Anlage § 1 a–d, Spalte ab September 2026",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "schoenaich-offer-457548230e9b",
+      "original_label": "VÖ30",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 1800,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "1c7e3b410b71",
+        "locator": "Anlage § 1 a–d, Spalte ab September 2026",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "1c7e3b410b71",
+        "locator": "Zwölf Monate aus laufender Kalendermonatsgebühr einschließlich Ferien abgeleitet; keine ausdrücklich bezifferte Monatszahl.",
+        "original": null,
+        "verification": "derived"
+      },
+      "evidence": {
+        "source_id": "1c7e3b410b71",
+        "locator": "Anlage § 1 a–d, Spalte ab September 2026",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "schoenaich-offer-a688a121dd54",
+      "original_label": "GT51,5",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 3090,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "1c7e3b410b71",
+        "locator": "Anlage § 1 a–d, Spalte ab September 2026",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "1c7e3b410b71",
+        "locator": "Zwölf Monate aus laufender Kalendermonatsgebühr einschließlich Ferien abgeleitet; keine ausdrücklich bezifferte Monatszahl.",
+        "original": null,
+        "verification": "derived"
+      },
+      "evidence": {
+        "source_id": "1c7e3b410b71",
+        "locator": "Anlage § 1 a–d, Spalte ab September 2026",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "schoenaich-offer-e284527de906",
+      "original_label": "GT37,5",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2250,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "1c7e3b410b71",
+        "locator": "Anlage § 1 a–d, Spalte ab September 2026",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "1c7e3b410b71",
+        "locator": "Zwölf Monate aus laufender Kalendermonatsgebühr einschließlich Ferien abgeleitet; keine ausdrücklich bezifferte Monatszahl.",
+        "original": null,
+        "verification": "derived"
+      },
+      "evidence": {
+        "source_id": "1c7e3b410b71",
+        "locator": "Anlage § 1 a–d, Spalte ab September 2026",
+        "original": null
+      },
+      "formula": null
+    }
+  ],
+  "prices": [
+    {
+      "id": "schoenaich-price-98a9be37c1c5",
+      "offer_id": "schoenaich-offer-0ae960d686b5",
+      "amount_cents": 16600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "1c7e3b410b71",
+        "locator": "Anlage § 1 a–d, Spalte ab September 2026",
+        "original": 166
+      }
+    },
+    {
+      "id": "schoenaich-price-8f490b9e7537",
+      "offer_id": "schoenaich-offer-0ae960d686b5",
+      "amount_cents": 12900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "1c7e3b410b71",
+        "locator": "Anlage § 1 a–d, Spalte ab September 2026",
+        "original": 129
+      }
+    },
+    {
+      "id": "schoenaich-price-49869e6523a2",
+      "offer_id": "schoenaich-offer-0ae960d686b5",
+      "amount_cents": 8800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "1c7e3b410b71",
+        "locator": "Anlage § 1 a–d, Spalte ab September 2026",
+        "original": 88
+      }
+    },
+    {
+      "id": "schoenaich-price-f17b8272b741",
+      "offer_id": "schoenaich-offer-0ae960d686b5",
+      "amount_cents": 2900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "1c7e3b410b71",
+        "locator": "Anlage § 1 a–d, Spalte ab September 2026",
+        "original": 29
+      }
+    },
+    {
+      "id": "schoenaich-price-1368bc596920",
+      "offer_id": "schoenaich-offer-457548230e9b",
+      "amount_cents": 49200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "1c7e3b410b71",
+        "locator": "Anlage § 1 a–d, Spalte ab September 2026",
+        "original": 492
+      }
+    },
+    {
+      "id": "schoenaich-price-a37f5383a84b",
+      "offer_id": "schoenaich-offer-457548230e9b",
+      "amount_cents": 36600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "1c7e3b410b71",
+        "locator": "Anlage § 1 a–d, Spalte ab September 2026",
+        "original": 366
+      }
+    },
+    {
+      "id": "schoenaich-price-c10c3eb25989",
+      "offer_id": "schoenaich-offer-457548230e9b",
+      "amount_cents": 24700,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "1c7e3b410b71",
+        "locator": "Anlage § 1 a–d, Spalte ab September 2026",
+        "original": 247
+      }
+    },
+    {
+      "id": "schoenaich-price-d6364e3379b8",
+      "offer_id": "schoenaich-offer-457548230e9b",
+      "amount_cents": 9700,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "1c7e3b410b71",
+        "locator": "Anlage § 1 a–d, Spalte ab September 2026",
+        "original": 97
+      }
+    },
+    {
+      "id": "schoenaich-price-9f541135c699",
+      "offer_id": "schoenaich-offer-a688a121dd54",
+      "amount_cents": 53000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "1c7e3b410b71",
+        "locator": "Anlage § 1 a–d, Spalte ab September 2026",
+        "original": 530
+      }
+    },
+    {
+      "id": "schoenaich-price-3a5487245ac1",
+      "offer_id": "schoenaich-offer-a688a121dd54",
+      "amount_cents": 38000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "1c7e3b410b71",
+        "locator": "Anlage § 1 a–d, Spalte ab September 2026",
+        "original": 380
+      }
+    },
+    {
+      "id": "schoenaich-price-0415be5ef4bf",
+      "offer_id": "schoenaich-offer-a688a121dd54",
+      "amount_cents": 23400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "1c7e3b410b71",
+        "locator": "Anlage § 1 a–d, Spalte ab September 2026",
+        "original": 234
+      }
+    },
+    {
+      "id": "schoenaich-price-865625d5fb1a",
+      "offer_id": "schoenaich-offer-a688a121dd54",
+      "amount_cents": 15000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "1c7e3b410b71",
+        "locator": "Anlage § 1 a–d, Spalte ab September 2026",
+        "original": 150
+      }
+    },
+    {
+      "id": "schoenaich-price-69624e35c629",
+      "offer_id": "schoenaich-offer-e284527de906",
+      "amount_cents": 69000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "1c7e3b410b71",
+        "locator": "Anlage § 1 a–d, Spalte ab September 2026",
+        "original": 690
+      }
+    },
+    {
+      "id": "schoenaich-price-745f071480e9",
+      "offer_id": "schoenaich-offer-e284527de906",
+      "amount_cents": 51300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "1c7e3b410b71",
+        "locator": "Anlage § 1 a–d, Spalte ab September 2026",
+        "original": 513
+      }
+    },
+    {
+      "id": "schoenaich-price-4389c44e801d",
+      "offer_id": "schoenaich-offer-e284527de906",
+      "amount_cents": 34900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "1c7e3b410b71",
+        "locator": "Anlage § 1 a–d, Spalte ab September 2026",
+        "original": 349
+      }
+    },
+    {
+      "id": "schoenaich-price-51dfc1ddb685",
+      "offer_id": "schoenaich-offer-e284527de906",
+      "amount_cents": 13800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "1c7e3b410b71",
+        "locator": "Anlage § 1 a–d, Spalte ab September 2026",
+        "original": 138
+      }
+    }
+  ],
+  "income_bands": [],
+  "components": [
+    {
+      "id": "schoenaich-component-a91649f2552d",
+      "kind": "meal",
+      "original_label": "Mittagessen",
+      "amount_cents": 8500,
+      "unit": "per_month",
+      "age_group": null,
+      "required": true,
+      "payment_months": null,
+      "offer_ids": null,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "1c7e3b410b71",
+        "locator": "Anlage S. 3",
+        "original": null
+      }
+    },
+    {
+      "id": "schoenaich-component-f97ae0ffe47c",
+      "kind": "holiday_care",
+      "original_label": "Ferienbetreuung Familiengröße 1",
+      "amount_cents": 14000,
+      "unit": "per_week",
+      "age_group": null,
+      "required": false,
+      "payment_months": null,
+      "offer_ids": null,
+      "valid_from": "2026-08-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "1c7e3b410b71",
+        "locator": "Anlage S. 2, wöchentliche Feriengebühr",
+        "original": null
+      },
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false
+      }
+    },
+    {
+      "id": "schoenaich-component-851168c53420",
+      "kind": "holiday_care",
+      "original_label": "Ferienbetreuung Familiengröße 2",
+      "amount_cents": 12000,
+      "unit": "per_week",
+      "age_group": null,
+      "required": false,
+      "payment_months": null,
+      "offer_ids": null,
+      "valid_from": "2026-08-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "1c7e3b410b71",
+        "locator": "Anlage S. 2, wöchentliche Feriengebühr",
+        "original": null
+      },
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false
+      }
+    },
+    {
+      "id": "schoenaich-component-89f9e1e5c113",
+      "kind": "holiday_care",
+      "original_label": "Ferienbetreuung Familiengröße 3",
+      "amount_cents": 10000,
+      "unit": "per_week",
+      "age_group": null,
+      "required": false,
+      "payment_months": null,
+      "offer_ids": null,
+      "valid_from": "2026-08-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "1c7e3b410b71",
+        "locator": "Anlage S. 2, wöchentliche Feriengebühr",
+        "original": null
+      },
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": true
+      }
+    }
+  ],
+  "rules": [
+    {
+      "id": "schoenaich-rule-4632cd40806f",
+      "kind": "vo_proportional_extension",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "base_weekly_minutes": 1800,
+        "proportional_fee": true,
+        "requires_offered_hours": true
+      },
+      "evidence": {
+        "source_id": "1c7e3b410b71",
+        "locator": "Anlage a–b",
+        "original": null
+      }
+    },
+    {
+      "id": "schoenaich-rule-e06e84af1cf9",
+      "kind": "source_provisions_1c7e3b410b71",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "archive_text_path": "data/sources/1c7e3b410b71/text.txt",
+        "text_sha256": "22f9d3a589292ede64712a2867c691ce625088af0521aaa603dab62c629055ed",
+        "review_status": "archived_provisions_preserved"
+      },
+      "evidence": {
+        "source_id": "1c7e3b410b71",
+        "locator": "Vollständiger archivierter Dokumenttext einschließlich Fußnoten",
+        "original": null
+      }
+    },
+    {
+      "id": "schoenaich-rule-9d36214b3a26",
+      "kind": "source_clause_1c7e3b410b71_1_2",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 0,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "1c7e3b410b71",
+        "locator": "PDF-/Textseite 1, Absatzblock 2",
+        "original": null
+      }
+    },
+    {
+      "id": "schoenaich-rule-1dc3d04f1270",
+      "kind": "source_clause_1c7e3b410b71_1_5",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 1,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "1c7e3b410b71",
+        "locator": "PDF-/Textseite 1, Absatzblock 5",
+        "original": null
+      }
+    },
+    {
+      "id": "schoenaich-rule-e5b9313fa67a",
+      "kind": "source_clause_1c7e3b410b71_1_9",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 2,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "1c7e3b410b71",
+        "locator": "PDF-/Textseite 1, Absatzblock 9",
+        "original": null
+      }
+    },
+    {
+      "id": "schoenaich-rule-e69320cc01d2",
+      "kind": "source_clause_1c7e3b410b71_1_12",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 3,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "1c7e3b410b71",
+        "locator": "PDF-/Textseite 1, Absatzblock 12",
+        "original": null
+      }
+    },
+    {
+      "id": "schoenaich-rule-e91bf7d9b707",
+      "kind": "source_clause_1c7e3b410b71_2_8",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 4,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "1c7e3b410b71",
+        "locator": "PDF-/Textseite 2, Absatzblock 8",
+        "original": null
+      }
+    },
+    {
+      "id": "schoenaich-rule-db4fa67f1b20",
+      "kind": "source_clause_1c7e3b410b71_2_9",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 5,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "1c7e3b410b71",
+        "locator": "PDF-/Textseite 2, Absatzblock 9",
+        "original": null
+      }
+    },
+    {
+      "id": "schoenaich-rule-a4cf2a566228",
+      "kind": "source_clause_1c7e3b410b71_3_3",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 6,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "1c7e3b410b71",
+        "locator": "PDF-/Textseite 3, Absatzblock 3",
+        "original": null
+      }
+    },
+    {
+      "id": "schoenaich-rule-3863a5976864",
+      "kind": "source_provisions_15f1df9d333e",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "archive_text_path": "data/sources/15f1df9d333e/text.txt",
+        "text_sha256": "f4bc1a33abce2c8c317794b39a7155d213ef51515b1e9bea21248eead2b5f162",
+        "review_status": "archived_provisions_preserved"
+      },
+      "evidence": {
+        "source_id": "15f1df9d333e",
+        "locator": "Vollständiger archivierter Dokumenttext einschließlich Fußnoten",
+        "original": null
+      }
+    },
+    {
+      "id": "schoenaich-rule-f69b7c6035de",
+      "kind": "source_clause_15f1df9d333e_2_3",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 7,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "15f1df9d333e",
+        "locator": "PDF-/Textseite 2, Absatzblock 3",
+        "original": null
+      }
+    },
+    {
+      "id": "schoenaich-rule-c798c80064f3",
+      "kind": "source_clause_15f1df9d333e_3_3",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 8,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "15f1df9d333e",
+        "locator": "PDF-/Textseite 3, Absatzblock 3",
+        "original": null
+      }
+    },
+    {
+      "id": "schoenaich-rule-fc5d8d173073",
+      "kind": "source_clause_15f1df9d333e_4_7",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 9,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "15f1df9d333e",
+        "locator": "PDF-/Textseite 4, Absatzblock 7",
+        "original": null
+      }
+    },
+    {
+      "id": "schoenaich-rule-0f1d0d47cc53",
+      "kind": "source_clause_15f1df9d333e_5_2",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 10,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "15f1df9d333e",
+        "locator": "PDF-/Textseite 5, Absatzblock 2",
+        "original": null
+      }
+    },
+    {
+      "id": "schoenaich-rule-417d8b55faf9",
+      "kind": "source_clause_15f1df9d333e_5_6",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 11,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "15f1df9d333e",
+        "locator": "PDF-/Textseite 5, Absatzblock 6",
+        "original": null
+      }
+    },
+    {
+      "id": "schoenaich-rule-1c1118ec934b",
+      "kind": "source_clause_15f1df9d333e_5_7",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 12,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "15f1df9d333e",
+        "locator": "PDF-/Textseite 5, Absatzblock 7",
+        "original": null
+      }
+    },
+    {
+      "id": "schoenaich-rule-92fdd67dfa85",
+      "kind": "source_clause_15f1df9d333e_5_8",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 13,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "15f1df9d333e",
+        "locator": "PDF-/Textseite 5, Absatzblock 8",
+        "original": null
+      }
+    },
+    {
+      "id": "schoenaich-rule-2480df105969",
+      "kind": "source_clause_15f1df9d333e_5_9",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 14,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "15f1df9d333e",
+        "locator": "PDF-/Textseite 5, Absatzblock 9",
+        "original": null
+      }
+    },
+    {
+      "id": "schoenaich-rule-6092ff310312",
+      "kind": "source_clause_15f1df9d333e_5_10",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 15,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "15f1df9d333e",
+        "locator": "PDF-/Textseite 5, Absatzblock 10",
+        "original": null
+      }
+    },
+    {
+      "id": "schoenaich-rule-7f908cc4549a",
+      "kind": "source_clause_15f1df9d333e_5_11",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 16,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "15f1df9d333e",
+        "locator": "PDF-/Textseite 5, Absatzblock 11",
+        "original": null
+      }
+    },
+    {
+      "id": "schoenaich-rule-d6021aa23f64",
+      "kind": "source_clause_15f1df9d333e_6_2",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 17,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "15f1df9d333e",
+        "locator": "PDF-/Textseite 6, Absatzblock 2",
+        "original": null
+      }
+    },
+    {
+      "id": "schoenaich-rule-52b6eb05e581",
+      "kind": "source_clause_15f1df9d333e_6_3",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 18,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "15f1df9d333e",
+        "locator": "PDF-/Textseite 6, Absatzblock 3",
+        "original": null
+      }
+    },
+    {
+      "id": "schoenaich-rule-b9b534d61aab",
+      "kind": "source_clause_15f1df9d333e_6_5",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 19,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "15f1df9d333e",
+        "locator": "PDF-/Textseite 6, Absatzblock 5",
+        "original": null
+      }
+    },
+    {
+      "id": "schoenaich-rule-20aa980cf8dd",
+      "kind": "source_clause_15f1df9d333e_6_6",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 20,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "15f1df9d333e",
+        "locator": "PDF-/Textseite 6, Absatzblock 6",
+        "original": null
+      }
+    },
+    {
+      "id": "schoenaich-rule-387ca399c410",
+      "kind": "source_clause_15f1df9d333e_6_8",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 21,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "15f1df9d333e",
+        "locator": "PDF-/Textseite 6, Absatzblock 8",
+        "original": null
+      }
+    },
+    {
+      "id": "schoenaich-rule-6d56d8fcabcb",
+      "kind": "source_clause_15f1df9d333e_6_11",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 22,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "15f1df9d333e",
+        "locator": "PDF-/Textseite 6, Absatzblock 11",
+        "original": null
+      }
+    },
+    {
+      "id": "schoenaich-rule-06b93468ea3a",
+      "kind": "source_clause_15f1df9d333e_6_12",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 23,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "15f1df9d333e",
+        "locator": "PDF-/Textseite 6, Absatzblock 12",
+        "original": null
+      }
+    },
+    {
+      "id": "schoenaich-rule-f1315f7002c4",
+      "kind": "source_clause_15f1df9d333e_6_13",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 24,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "15f1df9d333e",
+        "locator": "PDF-/Textseite 6, Absatzblock 13",
+        "original": null
+      }
+    },
+    {
+      "id": "schoenaich-rule-f9d9b97dc440",
+      "kind": "source_clause_15f1df9d333e_6_14",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 25,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "15f1df9d333e",
+        "locator": "PDF-/Textseite 6, Absatzblock 14",
+        "original": null
+      }
+    },
+    {
+      "id": "schoenaich-rule-e738c6fd30bc",
+      "kind": "source_clause_15f1df9d333e_7_2",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 26,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "15f1df9d333e",
+        "locator": "PDF-/Textseite 7, Absatzblock 2",
+        "original": null
+      }
+    },
+    {
+      "id": "schoenaich-rule-6a619aac2a1e",
+      "kind": "source_clause_15f1df9d333e_7_5",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 27,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "15f1df9d333e",
+        "locator": "PDF-/Textseite 7, Absatzblock 5",
+        "original": null
+      }
+    },
+    {
+      "id": "schoenaich-rule-9ca34dd30cf4",
+      "kind": "source_clause_15f1df9d333e_7_8",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 28,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "15f1df9d333e",
+        "locator": "PDF-/Textseite 7, Absatzblock 8",
+        "original": null
+      }
+    },
+    {
+      "id": "schoenaich-rule-22905b5ed1de",
+      "kind": "source_clause_15f1df9d333e_7_11",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 29,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "15f1df9d333e",
+        "locator": "PDF-/Textseite 7, Absatzblock 11",
+        "original": null
+      }
+    },
+    {
+      "id": "schoenaich-rule-e20cd6fdd4da",
+      "kind": "source_clause_15f1df9d333e_7_12",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 30,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "15f1df9d333e",
+        "locator": "PDF-/Textseite 7, Absatzblock 12",
+        "original": null
+      }
+    },
+    {
+      "id": "schoenaich-rule-9047ede92fe9",
+      "kind": "source_clause_15f1df9d333e_7_13",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 31,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "15f1df9d333e",
+        "locator": "PDF-/Textseite 7, Absatzblock 13",
+        "original": null
+      }
+    },
+    {
+      "id": "schoenaich-rule-c364434723df",
+      "kind": "source_clause_15f1df9d333e_8_2",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 32,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "15f1df9d333e",
+        "locator": "PDF-/Textseite 8, Absatzblock 2",
+        "original": null
+      }
+    },
+    {
+      "id": "schoenaich-rule-74933d2e9b76",
+      "kind": "source_clause_15f1df9d333e_9_7",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 33,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "15f1df9d333e",
+        "locator": "PDF-/Textseite 9, Absatzblock 7",
+        "original": null
+      }
+    },
+    {
+      "id": "schoenaich-rule-d3a5fb8fa95b",
+      "kind": "source_clause_15f1df9d333e_10_2",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 34,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "15f1df9d333e",
+        "locator": "PDF-/Textseite 10, Absatzblock 2",
+        "original": null
+      }
+    }
+  ],
+  "issues": [
+    {
+      "code": "pending_calculation_review",
+      "detail": "Strukturierter Import; noch keine Freigabe des Rechners oder der Website."
+    },
+    {
+      "code": "research_limitation_1",
+      "detail": "Die U3-GT-Tabelle bepreist 37,5 Stunden. Ohne weiteren Angebotsbeleg keinen 40-Stunden-Krippentarif hochrechnen."
+    }
+  ],
+  "coverage": {
+    "publication_status": "not_active",
+    "integration_status": "normalized_pending_calculation_review",
+    "history_in_scope": false,
+    "source_register": "data/research/neighbor_expansion_2026-11-10.json",
+    "research_id": "schoenaich",
+    "unavailable_configurations": [],
+    "offers": 4,
+    "price_cells": 16,
+    "income_bands": 0,
+    "components": 4,
+    "rule_records": 38,
+    "tariff_table_transcription": "complete_for_declared_scope",
+    "declared_scope": "Aktuelle und bereits veröffentlichte künftige Krippen- und Kindergartentarife; Zusatzkosten und Gebührenregeln.",
+    "excluded_from_regular_price_rows": [
+      "superseded_historical_tariffs",
+      "school_childcare",
+      "takki_and_childminding",
+      "separate_playgroups"
+    ],
+    "calculation_engine_changed": false,
+    "rule_transcription": "typed_parameters_and_source_clauses_with_explicit_unimplemented_status"
+  },
+  "original_research": {
+    "path": "data/research/neighbor_expansion_2026-11-10.json",
+    "section": "Schönaich",
+    "text": "Maßgeblich ist die Ortsrechtsanlage September 2026, auch wenn die Kita-Anmeldeseite noch auf 2025 verweist.\nDie U3-GT-Tabelle bepreist 37,5 Stunden. Ohne weiteren Angebotsbeleg keinen 40-Stunden-Krippentarif hochrechnen.",
+    "source_clauses": [
+      {
+        "text": "Anlage zur Satzung über die Benutzung sowie die Erhebung\n             von Betreuungsgebühren für die Kindertageseinrichtungen\n                      („Kita-Satzung“) – Gebührenverzeichnis",
+        "evidence": {
+          "source_id": "1c7e3b410b71",
+          "locator": "PDF-/Textseite 1, Absatzblock 2",
+          "original": null
+        }
+      },
+      {
+        "text": "Das Gebührenverzeichnis als Anlage zu § 6 Abs. 2 der Kita-Satzung der Gemeinde Schönaich\n       vom 01. August 2023 hat folgende Fassung:",
+        "evidence": {
+          "source_id": "1c7e3b410b71",
+          "locator": "PDF-/Textseite 1, Absatzblock 5",
+          "original": null
+        }
+      },
+      {
+        "text": "Bei einer Betreuungszeit von mehr als 30 Stunden pro Woche (im Rahmen von verlängerten\n       Öffnungszeiten), erfolgt eine anteilige Erhöhung der Betreuungsgebühr.",
+        "evidence": {
+          "source_id": "1c7e3b410b71",
+          "locator": "PDF-/Textseite 1, Absatzblock 9",
+          "original": null
+        }
+      },
+      {
+        "text": "Bei einer Betreuungszeit von mehr als 30 Stunden pro Woche (im Rahmen von verlängerten\n       Öffnungszeiten), erfolgt eine anteilige Erhöhung der Betreuungsgebühr.",
+        "evidence": {
+          "source_id": "1c7e3b410b71",
+          "locator": "PDF-/Textseite 1, Absatzblock 12",
+          "original": null
+        }
+      },
+      {
+        "text": "Bei einer Betreuungszeit von mehr als 30 Stunden pro Woche (im Rahmen von verlängerten\n       Öffnungszeiten), erfolgt eine anteilige Erhöhung der Betreuungsgebühr.",
+        "evidence": {
+          "source_id": "1c7e3b410b71",
+          "locator": "PDF-/Textseite 2, Absatzblock 8",
+          "original": null
+        }
+      },
+      {
+        "text": "wöchentliche Gebühr\n                                                                       ab 1.08.2026\nFür ein Kind aus einer Familie\nmit einem Kind unter 18 Jahren                                            140,00 €\nFür ein Kind aus einer Familie\nmit zwei Kindern unter 18 Jahren                                          120,00 €\nFür ein Kind aus einer Familie\nmit drei oder mehr Kindern unter 18 Jahren                                100,00 €",
+        "evidence": {
+          "source_id": "1c7e3b410b71",
+          "locator": "PDF-/Textseite 2, Absatzblock 9",
+          "original": null
+        }
+      },
+      {
+        "text": "Elternbeitrag                   Elternbeitrag\n                                                   (seit 01.09.2024)               (ab 01.09.2026)\nMittagessen in einem Kindergarten                                        4,50 €                        85,00 €\nmit verlängerten Öffnungszeiten („Ü3-Gruppen“)                      pro Portion                      pro Monat\nMittagessen in einem Kindergarten                                        60,00 €                       85,00 €\nmit Ganztagesbetreuung („Ü3-Gruppen“)                                  pro Monat                     pro Monat\nMittagessen in einer Kinderkrippe („U3-Gruppen“)                         50,00 €                       85,00 €\n                                                                       pro Monat                     pro Monat",
+        "evidence": {
+          "source_id": "1c7e3b410b71",
+          "locator": "PDF-/Textseite 3, Absatzblock 3",
+          "original": null
+        }
+      },
+      {
+        "text": "Präambel ........................................................................................................................ 3\n§ 1 – Öffentliche Einrichtung......................................................................................... 3\n§ 2 – Aufgabe.................................................................................................................. 3\n§ 3 – Aufnahme und Beginn des Benutzungsverhältnisses ....................................... 3\n§ 4 – Benutzungsgebühren ........................................................................................... 5\n§ 5 – Gebührenschuldner .............................................................................................. 6\n§ 6 – Gebührenhöhe....................................................................................................... 6\n§ 7 – Mittagessen ........................................................................................................... 7\n§ 8 – Entstehung und Fälligkeit .................................................................................... 7\n§ 9 – Besuch, Öffnungs- und Schließzeiten ................................................................. 8\n§ 10 – Ferien und Ferienbetreuung ............................................................................... 9\n§ 11 – Abmeldung und Beendigung des Benutzungsverhältnisses .......................... 9\n§ 12 – Regelung in Krankheitsfällen ........................................................................... 10\n§ 13 – Versicherungen ................................................................................................. 11\n§ 14 – Aufsicht.............................................................................................................. 11\n§ 15 – Datenschutz ....................................................................................................... 12\n§ 16 – Inkrafttreten ....................................................................................................... 12",
+        "evidence": {
+          "source_id": "15f1df9d333e",
+          "locator": "PDF-/Textseite 2, Absatzblock 3",
+          "original": null
+        }
+      },
+      {
+        "text": "Aufgrund von § 4 der Gemeindeordnung Baden-Württemberg (GemO) in Verbindung mit den\n§§ 2, 13 und 19 des Kommunalabgabengesetzes Baden-Württemberg (KAG) und § 6 des\nKindertagesbetreuungsgesetzes (KiTaG) hat der Gemeinderat der Gemeinde Schönaich am\n25. Juli 2023 die folgende Fassung der Satzung über die Benutzung sowie die Erhebung von\nBetreuungsgebühren für die Kindertageseinrichtungen (Kita-Satzung) beschlossen.",
+        "evidence": {
+          "source_id": "15f1df9d333e",
+          "locator": "PDF-/Textseite 3, Absatzblock 3",
+          "original": null
+        }
+      },
+      {
+        "text": "(8)    Die freien Plätze in den Kindergärten mit verlängerten Öffnungszeiten werden nach\n       den folgenden Kriterien vergeben:\n       1. Ein Geschwisterkind ist im kommenden Kindergartenjahr noch im selben\n          Kindergarten\n       2. Nähe zum Kindergarten (Einzugsgebiet)\n       3. Wunschkindergarten",
+        "evidence": {
+          "source_id": "15f1df9d333e",
+          "locator": "PDF-/Textseite 4, Absatzblock 7",
+          "original": null
+        }
+      },
+      {
+        "text": "I.\n                       den Impfausweis („Impfpass“),\n                     II.\n                       eine Anlage zum Untersuchungsheft,\n                    III.\n                       ein ärztliches Zeugnis über den ausreichenden Impfschutz,\n                    IV.ein ärztliches Zeugnis über eine Immunität oder\n                     V.ein ärztliches Zeugnis, dass aufgrund einer medizinischen\n                       Kontraindikation nicht geimpft werden kann\n                erfolgen. Die Einrichtung dokumentiert die Vorlage des Nachweises gem. §\n                20 Abs. 9 Infektionsschutzgesetz (IfSG).\n       4. Einzugsermächtigung für die Benutzungsgebühr im Lastschriftverfahren durch die\n          Gemeindekasse",
+        "evidence": {
+          "source_id": "15f1df9d333e",
+          "locator": "PDF-/Textseite 5, Absatzblock 2",
+          "original": null
+        }
+      },
+      {
+        "text": "(1)    Für die Benutzung der Betreuungseinrichtungen werden Benutzungsgebühren\n       erhoben.",
+        "evidence": {
+          "source_id": "15f1df9d333e",
+          "locator": "PDF-/Textseite 5, Absatzblock 6",
+          "original": null
+        }
+      },
+      {
+        "text": "(2)    Maßstab für die Höhe der Gebühr sind\n       1. Alter des zu betreuenden Kindes\n       2. Art des Betreuungsplatzes (Kinderkrippe oder Kindergarten)\n       3. Umfang der Betreuungszeiten\n       4. Anzahl der nicht nur vorübergehend im selben Haushalt lebenden Kinder unter 18\n          Jahren",
+        "evidence": {
+          "source_id": "15f1df9d333e",
+          "locator": "PDF-/Textseite 5, Absatzblock 7",
+          "original": null
+        }
+      },
+      {
+        "text": "(3)    Die Gebühren werden jeweils für einen Kalendermonat (Veranlagungszeitraum)\n       erhoben.",
+        "evidence": {
+          "source_id": "15f1df9d333e",
+          "locator": "PDF-/Textseite 5, Absatzblock 8",
+          "original": null
+        }
+      },
+      {
+        "text": "(4)    Bei Änderung der unter Abs. 2 Nr. 4 angegebenen Faktoren wird die Gebühr auf\n       schriftlichen Antrag der Gebührenschuldner ab dem Folgemonat der Geburt des\n       Geschwisterkindes neu festgesetzt. Der Antrag muss spätestens drei Monate nach\n       dem Geburtstag des weiteren Kindes gestellt werden. Wird der Antrag später gestellt,\n       wird die neue Gebühr für maximal drei Monate rückwirkend geändert. Fällt ein Kind aus\n       der Anrechnung heraus, so wird die Gebühr von Amtswegen rückwirkend erhöht.",
+        "evidence": {
+          "source_id": "15f1df9d333e",
+          "locator": "PDF-/Textseite 5, Absatzblock 9",
+          "original": null
+        }
+      },
+      {
+        "text": "(5)    Die Gebühr ist auch während der Ferien sowie bei Nichtbenutzung oder\n       vorübergehender Schließung der Einrichtung zu entrichten.",
+        "evidence": {
+          "source_id": "15f1df9d333e",
+          "locator": "PDF-/Textseite 5, Absatzblock 10",
+          "original": null
+        }
+      },
+      {
+        "text": "(6)    Kann ein Kind in einem begründeten Einzelfall (z.B. Krankenhausaufenthalt, Eltern-\n       Kind-Kur, etc.) die Kindertageseinrichtung mindestens an vier aufeinanderfolgenden\n       Wochen (20 Arbeitstage) nicht besuchen, können die Gebühren auf Antrag der Eltern",
+        "evidence": {
+          "source_id": "15f1df9d333e",
+          "locator": "PDF-/Textseite 5, Absatzblock 11",
+          "original": null
+        }
+      },
+      {
+        "text": "für den gesamten Zeitraum der Abwesenheit in Höhe von bis zu 50% rückerstattet\n       werden.      Der    Gemeinde      Schönaich bleibt  vorbehalten,  individuelle\n       Einzelfallentscheidungen zu treffen.",
+        "evidence": {
+          "source_id": "15f1df9d333e",
+          "locator": "PDF-/Textseite 6, Absatzblock 2",
+          "original": null
+        }
+      },
+      {
+        "text": "(7)    Tritt ein Kind bis zum 15. eines Monats in einen Kindergarten mit verlängerten\n       Öffnungszeiten ein, wird der gesamte Monatsbeitrag der Benutzungsgebühren fällig.\n       Tritt ein Kind ab dem 16. eines Monats in einen Kindergarten mit verlängerten\n       Öffnungszeiten ein, wird die Hälfte der monatlichen Benutzungsgebühr für diesen\n       Monat fällig.",
+        "evidence": {
+          "source_id": "15f1df9d333e",
+          "locator": "PDF-/Textseite 6, Absatzblock 3",
+          "original": null
+        }
+      },
+      {
+        "text": "(9)    Für Schulanfänger sind die Benutzungsgebühren bis zum Ende des Monats zu\n       bezahlen, in dem die Sommerferien der Kindertageseinrichtung beginnen.",
+        "evidence": {
+          "source_id": "15f1df9d333e",
+          "locator": "PDF-/Textseite 6, Absatzblock 5",
+          "original": null
+        }
+      },
+      {
+        "text": "(10)   Wurde für Schulanfänger eine Verlängerung des Betreuungsverhältnisses vereinbart,\n       werden die Gebühren beim Austritt taggenau abgerechnet.",
+        "evidence": {
+          "source_id": "15f1df9d333e",
+          "locator": "PDF-/Textseite 6, Absatzblock 6",
+          "original": null
+        }
+      },
+      {
+        "text": "(1)    Gebührenschuldner        sind   die    Personensorgeberechtigen     des    Kindes\n       derjenige*diejenige, in dessen*deren Haushalt es aufgenommen ist.",
+        "evidence": {
+          "source_id": "15f1df9d333e",
+          "locator": "PDF-/Textseite 6, Absatzblock 8",
+          "original": null
+        }
+      },
+      {
+        "text": "(1)    Die Höhe der Gebühr wird gestaffelt nach der Anzahl der Kinder, die noch nicht das\n       18. Lebensjahr vollendet haben und die nicht nur vorübergehend im Haushalt des\n       Gebührenschuldners leben.",
+        "evidence": {
+          "source_id": "15f1df9d333e",
+          "locator": "PDF-/Textseite 6, Absatzblock 11",
+          "original": null
+        }
+      },
+      {
+        "text": "(2)    Die Höhe der Gebührensätze je Betreuungsplatz im Einzelnen ist in der Anlage\n       „Gebührenverzeichnis“ zur Kita-Satzung geregelt.",
+        "evidence": {
+          "source_id": "15f1df9d333e",
+          "locator": "PDF-/Textseite 6, Absatzblock 12",
+          "original": null
+        }
+      },
+      {
+        "text": "(3)    Ändert sich die Anzahl der berücksichtigungsfähigen Kinder gem. Abs. 1, so ist die\n       Änderung der Gemeinde mitzuteilen. Die Benutzungsgebühren werden gem. § 4 Abs.\n       4 für maximal drei Monate nach Antragstellung rückwirkend angepasst.",
+        "evidence": {
+          "source_id": "15f1df9d333e",
+          "locator": "PDF-/Textseite 6, Absatzblock 13",
+          "original": null
+        }
+      },
+      {
+        "text": "(4)    Für Inhaber des Familien- und Sozialpasses der Gemeinde Schönaich gibt es eine\n       50%ige Gebührenermäßigung gemäß den Schönaicher Richtlinien für die Ausstellung\n       eines Familien- und Sozialpasses.",
+        "evidence": {
+          "source_id": "15f1df9d333e",
+          "locator": "PDF-/Textseite 6, Absatzblock 14",
+          "original": null
+        }
+      },
+      {
+        "text": "(5)   Für unter 3-jährige Kinder, die in einem Kindergarten betreut werden, wird die\n      Benutzungsgebühr aufgrund des Mehraufwands bei der Betreuung verdoppelt.",
+        "evidence": {
+          "source_id": "15f1df9d333e",
+          "locator": "PDF-/Textseite 7, Absatzblock 2",
+          "original": null
+        }
+      },
+      {
+        "text": "(2)   Die Kosten für das Mittagessen sind nicht in den Benutzungsgebühren enthalten und\n      fallen zusätzlich an.",
+        "evidence": {
+          "source_id": "15f1df9d333e",
+          "locator": "PDF-/Textseite 7, Absatzblock 5",
+          "original": null
+        }
+      },
+      {
+        "text": "(4)   Die Höhe des Elternbeitrags für das Mittagessen sind der Anlage zur Kita-Satzung zu\n      entnehmen.",
+        "evidence": {
+          "source_id": "15f1df9d333e",
+          "locator": "PDF-/Textseite 7, Absatzblock 8",
+          "original": null
+        }
+      },
+      {
+        "text": "(1)   Die Gebührenschuld entsteht zu Beginn des Veranlagungszeitraums (§ 4 Abs. 3), für\n      den der Betreuungsplatz belegt ist.",
+        "evidence": {
+          "source_id": "15f1df9d333e",
+          "locator": "PDF-/Textseite 7, Absatzblock 11",
+          "original": null
+        }
+      },
+      {
+        "text": "(2)   Die Benutzungsgebühren werden bei der erstmaligen Benutzung durch schriftlichen\n      Bescheid festgesetzt. Die Festsetzung gilt so lange weiter, bis ein neuer Bescheid oder\n      Änderungsbescheid ergeht.",
+        "evidence": {
+          "source_id": "15f1df9d333e",
+          "locator": "PDF-/Textseite 7, Absatzblock 12",
+          "original": null
+        }
+      },
+      {
+        "text": "(3)   Die Gebührenschuld wird jeweils zum ersten Werktag des Veranlagungszeitraums (§\n      4 Abs. 3) fällig. Für den Monat der erstmaligen Belegung des Betreuungsplatzes wird",
+        "evidence": {
+          "source_id": "15f1df9d333e",
+          "locator": "PDF-/Textseite 7, Absatzblock 13",
+          "original": null
+        }
+      },
+      {
+        "text": "die Gebührenschuld zwei Wochen nach Bekanntgabe des Gebührenbescheides fällig.\n       Dasselbe gilt für den Fall, dass ein neuer Gebührenbescheid oder Änderungsbescheid\n       ergeht.",
+        "evidence": {
+          "source_id": "15f1df9d333e",
+          "locator": "PDF-/Textseite 8, Absatzblock 2",
+          "original": null
+        }
+      },
+      {
+        "text": "(4)   Für die Ferienbetreuung fallen gesonderte Gebühren gemäß der Anlage zur Kita-\n      Satzung an.",
+        "evidence": {
+          "source_id": "15f1df9d333e",
+          "locator": "PDF-/Textseite 9, Absatzblock 7",
+          "original": null
+        }
+      },
+      {
+        "text": "a) wenn das Kind den Zusammenhalt und die Arbeit ständig und nachhaltig stört und\n         auch nach wiederholten Ermahnungen nicht abzusehen ist, dass sich das\n         Verhalten des Kindes ändern wird. In diesem Fall behalten sich die\n         Betreuungskräfte vor, das Kind nach vorheriger gemeinsamer Absprache mit dem\n         Träger und einem Elterngespräch aus der Betreuung auszuschließen.\n      b) wenn           erhebliche     Auffassungsunterschiede         zwischen      den\n         Personensorgeberechtigten und der Einrichtung bzw. dem Träger trotz eines\n         anberaumten Einigungsgespräches nicht ausgeräumt werden können.\n      c) wenn Inventar wiederholt und bewusst zerstört wird.\n      d) wenn andere Kinder durch wiederholte körperliche Übergriffe gefährdet sind.\n      e) wenn die zu entrichtende Benutzungsgebühr für zwei aufeinanderfolgende Monate\n         trotz Mahnung nicht bezahlt wurde.\n      f) wenn bei der Anmeldung falsche Angaben gemacht wurden.\n      g) wenn ein Kind über einen zusammenhängenden Zeitraum von mehr als vier\n         Wochen unentschuldigt fehlt.\n      h) wenn die in der Satzung aufgeführten Pflichten der Personensorgeberechtigten,\n         trotz schriftlicher Abmahnung, wiederholt nicht beachtet werden.",
+        "evidence": {
+          "source_id": "15f1df9d333e",
+          "locator": "PDF-/Textseite 10, Absatzblock 2",
+          "original": null
+        }
+      }
+    ]
+  }
+}

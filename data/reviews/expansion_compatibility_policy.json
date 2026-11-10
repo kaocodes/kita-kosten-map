@@ -1,0 +1,289 @@
+{
+  "schema_version": "1.0",
+  "review_date": "2026-11-10",
+  "purpose": "offline_compatibility_review_not_runtime_calculation",
+  "scope": {
+    "households": [
+      "couple",
+      "single"
+    ],
+    "income_scenarios": "data/models/configuration.json",
+    "max_children": "current_model_ui_limit",
+    "passes": "none",
+    "exceptional_admissions": false,
+    "future_tariff_dates": false
+  },
+  "unreviewed_configuration_status": "unavailable",
+  "unavailable_amounts_must_be_null": true,
+  "engine_changes_authorized": false,
+  "entries": {
+    "schwieberdingen": {
+      "municipality_id": "schwieberdingen",
+      "rules": [
+        {
+          "code": "single_parent_band_shift_not_applied",
+          "when": {
+            "household": "single",
+            "family_count_max": 3
+          },
+          "detail": "Die bestehende Engine verschiebt bei Alleinerziehung keine örtliche Familienstufe. Betroffene Konfigurationen bleiben nicht berechenbar.",
+          "evidence": {
+            "source_id": "4816bf4b07a7",
+            "locator": "PDF S. 1, obere Tabelle und Fußnoten"
+          }
+        },
+        {
+          "code": "simultaneous_u3_band_shift_not_applied",
+          "when": {
+            "nursery_count_min": 2,
+            "family_count_max": 3
+          },
+          "detail": "Die vereinbarte zusätzliche U3-Stufe für gleichzeitig betreute Kinder wird nicht automatisch angewendet.",
+          "evidence": {
+            "source_id": "4816bf4b07a7",
+            "locator": "PDF S. 1, obere Tabelle und Fußnoten"
+          }
+        },
+        {
+          "code": "o3_rank_population_differs_from_all_care_children",
+          "when": {
+            "nursery_count_min": 1,
+            "kindergarten_count_min": 1,
+            "family_count_max": 3
+          },
+          "detail": "Die allgemeine Familienfunktion verteilt Ränge auf alle Kita-Kinder; der Ü3-Rabatt bezieht sich nur auf gleichzeitig betreute Ü3-Kinder.",
+          "evidence": {
+            "source_id": "4816bf4b07a7",
+            "locator": "PDF S. 1, obere Tabelle und Fußnoten"
+          }
+        },
+        {
+          "code": "o3_rank_allocation_unresolved",
+          "when": {
+            "kindergarten_count_min": 2,
+            "different_kindergarten_hours": true,
+            "family_count_min": 2,
+            "family_count_max": 3
+          },
+          "detail": "Bei unterschiedlichen Ü3-Zeiten ist die preiswirksame Rangfolge nicht belegt; keine Alters- oder Preisreihenfolge annehmen.",
+          "evidence": {
+            "source_id": "4816bf4b07a7",
+            "locator": "PDF S. 1, obere Tabelle und Fußnoten"
+          }
+        },
+        {
+          "code": "third_o3_rank_not_published",
+          "when": {
+            "kindergarten_count_min": 3,
+            "family_count": 3
+          },
+          "detail": "Keine dritte Ü3-Rangzelle für die Drei-Kinder-Stufe veröffentlicht.",
+          "evidence": {
+            "source_id": "4816bf4b07a7",
+            "locator": "PDF S. 1, obere Tabelle und Fußnoten"
+          }
+        }
+      ]
+    },
+    "erdmannhausen": {
+      "municipality_id": "erdmannhausen",
+      "rules": [
+        {
+          "code": "single_parent_household_shift_not_applied",
+          "when": {
+            "household": "single"
+          },
+          "detail": "Ein zusätzliches Haushaltskind für Alleinerziehende ist nur dokumentiert und wird nicht durch die bestehende Engine berücksichtigt.",
+          "evidence": {
+            "source_id": "9290d9f1b98e",
+            "locator": "Bildbasierte PDF S. 7; Grundpreis 500,60 €, GT-Zuschlag 150 €, Essen 84 €; Zahlung § 6 der Benutzungsordnung"
+          }
+        },
+        {
+          "code": "simultaneous_gt_surcharge_discount_not_applied",
+          "when": {
+            "long_care_count_min": 2
+          },
+          "detail": "Der Zuschlag für gleichzeitige Ganztagsbetreuung wird nicht automatisch um 50 Prozent reduziert.",
+          "evidence": {
+            "source_id": "9290d9f1b98e",
+            "locator": "Bildbasierte PDF S. 7; Grundpreis 500,60 €, GT-Zuschlag 150 €, Essen 84 €; Zahlung § 6 der Benutzungsordnung"
+          }
+        }
+      ]
+    },
+    "magstadt": {
+      "municipality_id": "magstadt",
+      "rules": [
+        {
+          "code": "birth_rank_differs_from_care_rank",
+          "when": {
+            "family_count_min": 4,
+            "has_six_hour_care": true,
+            "has_non_care_children": true
+          },
+          "detail": "Bei VÖ hängt die Befreiung vom vierten Familienkind ab; der Rang betreuter Kinder bildet ältere Schul- oder zu Hause betreute Geschwister nicht ab.",
+          "evidence": {
+            "source_id": "b1a41a87c490",
+            "locator": "PDF S. 1, U3-GT8; zwölf Monate Benutzungsordnung § 6"
+          }
+        }
+      ]
+    },
+    "hemmingen": {
+      "municipality_id": "hemmingen",
+      "rules": [
+        {
+          "code": "single_parent_selector_not_supported",
+          "when": {
+            "family_count": 1
+          },
+          "detail": "Zusätzliche single_parent-Selektoren an Preiszeilen werden von der Engine ignoriert. Keine Freigabe auf Basis einer zufällig passenden günstigsten Zeile.",
+          "evidence": {
+            "source_id": "6125abe78891",
+            "locator": "§ 3 Nr. 2c, PDF S. 4; zwölf Monatsraten Nr. 3"
+          }
+        }
+      ]
+    },
+    "kernen": {
+      "municipality_id": "kernen",
+      "rules": [
+        {
+          "code": "local_income_model_not_defined",
+          "when": {},
+          "detail": "Für den örtlichen Einkommensbegriff gibt es noch keine bestätigte Modellannahme; kein stillschweigender Ersatz durch Jahresbrutto.",
+          "evidence": {
+            "source_id": "fd9c3aef8652",
+            "locator": "PDF S. 7; Einkommensbegriff S. 10–12; laufende Kalendermonatsgebühr § 7 Abs. 1"
+          }
+        },
+        {
+          "code": "family_discount_not_applied",
+          "when": {
+            "family_count_min": 2
+          },
+          "detail": "Die zusätzlichen 20 Prozent Geschwisterermäßigung sind noch nicht automatisch berücksichtigt.",
+          "evidence": {
+            "source_id": "fd9c3aef8652",
+            "locator": "PDF S. 7; Einkommensbegriff S. 10–12; laufende Kalendermonatsgebühr § 7 Abs. 1"
+          }
+        },
+        {
+          "code": "single_parent_discount_not_applied",
+          "when": {
+            "household": "single"
+          },
+          "detail": "Die weitere Alleinerziehendenermäßigung und ihre Reihenfolge sind nicht automatisch berücksichtigt.",
+          "evidence": {
+            "source_id": "fd9c3aef8652",
+            "locator": "PDF S. 7; Einkommensbegriff S. 10–12; laufende Kalendermonatsgebühr § 7 Abs. 1"
+          }
+        }
+      ]
+    },
+    "freiberg": {
+      "municipality_id": "freiberg",
+      "rules": [
+        {
+          "code": "local_net_income_model_not_defined",
+          "when": {},
+          "detail": "Die Modellfamilien enthalten keinen bestätigten monatlichen Haushaltsnettowert. Aus Brutto wird kein Nettowert geschätzt.",
+          "evidence": {
+            "source_id": "86cec5756015",
+            "locator": "Gebührenordnung S. 2, Flattichstraße, ganztags 40 bis 15 Uhr; Stufe 1. U3 zwölf Monate S. 1; Gültigkeit ab 01.06.2026 S. 5"
+          }
+        }
+      ]
+    },
+    "ostfildern": {
+      "municipality_id": "ostfildern",
+      "rules": [
+        {
+          "code": "local_income_model_not_defined",
+          "when": {},
+          "detail": "Das örtliche Vorjahreseinkommen mit eigenen Ein- und Ausschlüssen ist noch nicht als Modellannahme festgelegt.",
+          "evidence": {
+            "source_id": "af550fae0296",
+            "locator": "PDF S. 10, Tabelle gültig 2026/27; zwölf Monate § 6 Abs. 3"
+          }
+        }
+      ]
+    },
+    "waiblingen": {
+      "municipality_id": "waiblingen",
+      "rules": [
+        {
+          "code": "income_percentage_formula_not_supported",
+          "when": {},
+          "detail": "Die vorhandene Formelberechnung unterstützt keine örtliche Prozentsatzformel des Jahreshaushaltseinkommens.",
+          "evidence": {
+            "source_id": "59ecf75191ad",
+            "locator": "PDF S. 1; Einkommensbegriff § 4, Rang § 5, Essen § 6 Nr. 9 der Satzung"
+          }
+        },
+        {
+          "code": "local_income_model_not_defined",
+          "when": {},
+          "detail": "Die Hinzurechnung insbesondere des Kindergeldes ist in den bestehenden Modellprofilen nicht festgelegt.",
+          "evidence": {
+            "source_id": "59ecf75191ad",
+            "locator": "PDF S. 1; Einkommensbegriff § 4, Rang § 5, Essen § 6 Nr. 9 der Satzung"
+          }
+        },
+        {
+          "code": "included_meal_display_not_supported",
+          "when": {},
+          "detail": "Die Inklusivkennzeichnung ist als Datenentscheidung vorhanden, aber von der laufenden Ergebnisaufbereitung noch nicht umgesetzt.",
+          "evidence": {
+            "source_id": "59ecf75191ad",
+            "locator": "PDF S. 1; Einkommensbegriff § 4, Rang § 5, Essen § 6 Nr. 9 der Satzung"
+          }
+        }
+      ]
+    },
+    "plochingen": {
+      "municipality_id": "plochingen",
+      "rules": [
+        {
+          "code": "provider_scope_confirmation_required",
+          "when": {
+            "has_eight_hour_care": true
+          },
+          "detail": "Die Preisvarianten für fünfmal acht Stunden stehen im Abschnitt ausschließlich Sankt Johann. Die Übernahme dieser Trägervariante in den kommunalen Modellvergleich ist noch nicht ausdrücklich geklärt.",
+          "evidence": {
+            "source_id": "f19acfa12958",
+            "locator": "PDF S. 1; zwölf Monate und Essensabrechnung im Hinweisblock"
+          }
+        },
+        {
+          "code": "regular_and_vo_offer_scope_unverified",
+          "when": {
+            "has_six_hour_care": true
+          },
+          "detail": "Die gemeinsame Preiszeile für Regelgruppe und flexible/VÖ-Gruppen ist noch nicht in eindeutig zeitlich zugeordnete Angebote getrennt. Ein größerer GT-Tarif darf deshalb nicht als gesicherte günstigste Sechs-Stunden-Wahl gelten.",
+          "evidence": {
+            "source_id": "f19acfa12958",
+            "locator": "PDF S. 1, Regelbetreuung und flexible/verlängerte Öffnungszeiten"
+          }
+        }
+      ]
+    },
+    "remseck": {
+      "municipality_id": "remseck",
+      "rules": [
+        {
+          "code": "meal_requirement_scope_not_represented",
+          "when": {
+            "has_six_hour_care": true
+          },
+          "detail": "Die Benutzungsordnung verpflichtet in der Regel erst bei mehr als sechs Tagesstunden zum Mittagessen. Die Importbausteine sind noch pauschal als verpflichtend markiert.",
+          "evidence": {
+            "source_id": "fe83dd3d20d8",
+            "locator": "§ 3 Abs. 3; § 4 Betreuungsformen"
+          }
+        }
+      ]
+    }
+  }
+}

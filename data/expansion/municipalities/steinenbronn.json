@@ -1,0 +1,2606 @@
+{
+  "schema_version": "1.0",
+  "id": "steinenbronn",
+  "name": "Steinenbronn",
+  "reviewed_at": "2026-11-10",
+  "reference_date": "2026-11-10",
+  "scope": {
+    "included": [
+      "municipal"
+    ],
+    "other_providers": "only_with_explicit_source_evidence"
+  },
+  "family_basis": "under_18",
+  "family_evidence": {
+    "source_id": "08565d2926c2",
+    "locator": "Familienbegriff und Fußnoten der Gebührenunterlagen",
+    "original": null
+  },
+  "supporting_source_ids": [
+    "08565d2926c2",
+    "04fd37644a31"
+  ],
+  "offers": [
+    {
+      "id": "steinenbronn-offer-5215c96ea355",
+      "original_label": "VÖ32,5",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 1950,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "08565d2926c2",
+        "locator": "Anlage 1 S. 1",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "08565d2926c2",
+        "locator": "Zwölf Beitragsmonate gemäß Nutzerfestlegung. Keine zusätzliche amtliche Bestätigung behauptet.",
+        "original": null,
+        "verification": "user_assumption",
+        "provenance": "user_instruction",
+        "decision_id": "2026-11-10-steinenbronn-payment-months"
+      },
+      "evidence": {
+        "source_id": "08565d2926c2",
+        "locator": "Anlage 1 S. 1",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "steinenbronn-offer-f096567b3bd5",
+      "original_label": "35 Wochenstunden",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2100,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "08565d2926c2",
+        "locator": "Anlage 1 S. 1, VÖ/GT-Module",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "08565d2926c2",
+        "locator": "Zwölf Beitragsmonate gemäß Nutzerfestlegung. Keine zusätzliche amtliche Bestätigung behauptet.",
+        "original": null,
+        "verification": "user_assumption",
+        "provenance": "user_instruction",
+        "decision_id": "2026-11-10-steinenbronn-payment-months"
+      },
+      "evidence": {
+        "source_id": "08565d2926c2",
+        "locator": "Anlage 1 S. 1, VÖ/GT-Module",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "steinenbronn-offer-08c29f5a4a91",
+      "original_label": "Krippe 35 Wochenstunden",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2100,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "08565d2926c2",
+        "locator": "Anlage 1 S. 2, Krippengruppen",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "08565d2926c2",
+        "locator": "Zwölf Beitragsmonate gemäß Nutzerfestlegung. Keine zusätzliche amtliche Bestätigung behauptet.",
+        "original": null,
+        "verification": "user_assumption",
+        "provenance": "user_instruction",
+        "decision_id": "2026-11-10-steinenbronn-payment-months"
+      },
+      "evidence": {
+        "source_id": "08565d2926c2",
+        "locator": "Anlage 1 S. 2, Krippengruppen",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "steinenbronn-offer-8b88fed91017",
+      "original_label": "Altersmischung 2–3 Jahre 35 Wochenstunden",
+      "age_group": "u3",
+      "age_min_months": 24,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "mixed_age",
+      "weekly_minutes": 2100,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "08565d2926c2",
+        "locator": "Anlage 1 S. 1, zweite Spalte",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "08565d2926c2",
+        "locator": "Zwölf Beitragsmonate gemäß Nutzerfestlegung. Keine zusätzliche amtliche Bestätigung behauptet.",
+        "original": null,
+        "verification": "user_assumption",
+        "provenance": "user_instruction",
+        "decision_id": "2026-11-10-steinenbronn-payment-months"
+      },
+      "evidence": {
+        "source_id": "08565d2926c2",
+        "locator": "Anlage 1 S. 1, zweite Spalte",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "steinenbronn-offer-b086cb52184f",
+      "original_label": "37 Wochenstunden",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2220,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "08565d2926c2",
+        "locator": "Anlage 1 S. 1, VÖ/GT-Module",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "08565d2926c2",
+        "locator": "Zwölf Beitragsmonate gemäß Nutzerfestlegung. Keine zusätzliche amtliche Bestätigung behauptet.",
+        "original": null,
+        "verification": "user_assumption",
+        "provenance": "user_instruction",
+        "decision_id": "2026-11-10-steinenbronn-payment-months"
+      },
+      "evidence": {
+        "source_id": "08565d2926c2",
+        "locator": "Anlage 1 S. 1, VÖ/GT-Module",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "steinenbronn-offer-86aff1f32aba",
+      "original_label": "Krippe 37 Wochenstunden",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2220,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "08565d2926c2",
+        "locator": "Anlage 1 S. 2, Krippengruppen",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "08565d2926c2",
+        "locator": "Zwölf Beitragsmonate gemäß Nutzerfestlegung. Keine zusätzliche amtliche Bestätigung behauptet.",
+        "original": null,
+        "verification": "user_assumption",
+        "provenance": "user_instruction",
+        "decision_id": "2026-11-10-steinenbronn-payment-months"
+      },
+      "evidence": {
+        "source_id": "08565d2926c2",
+        "locator": "Anlage 1 S. 2, Krippengruppen",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "steinenbronn-offer-9350aaff87b1",
+      "original_label": "Altersmischung 2–3 Jahre 37 Wochenstunden",
+      "age_group": "u3",
+      "age_min_months": 24,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "mixed_age",
+      "weekly_minutes": 2220,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "08565d2926c2",
+        "locator": "Anlage 1 S. 1, zweite Spalte",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "08565d2926c2",
+        "locator": "Zwölf Beitragsmonate gemäß Nutzerfestlegung. Keine zusätzliche amtliche Bestätigung behauptet.",
+        "original": null,
+        "verification": "user_assumption",
+        "provenance": "user_instruction",
+        "decision_id": "2026-11-10-steinenbronn-payment-months"
+      },
+      "evidence": {
+        "source_id": "08565d2926c2",
+        "locator": "Anlage 1 S. 1, zweite Spalte",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "steinenbronn-offer-32267dfc9e1b",
+      "original_label": "39 Wochenstunden",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2340,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "08565d2926c2",
+        "locator": "Anlage 1 S. 1, VÖ/GT-Module",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "08565d2926c2",
+        "locator": "Zwölf Beitragsmonate gemäß Nutzerfestlegung. Keine zusätzliche amtliche Bestätigung behauptet.",
+        "original": null,
+        "verification": "user_assumption",
+        "provenance": "user_instruction",
+        "decision_id": "2026-11-10-steinenbronn-payment-months"
+      },
+      "evidence": {
+        "source_id": "08565d2926c2",
+        "locator": "Anlage 1 S. 1, VÖ/GT-Module",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "steinenbronn-offer-3cd28ede9187",
+      "original_label": "Krippe 39 Wochenstunden",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2340,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "08565d2926c2",
+        "locator": "Anlage 1 S. 2, Krippengruppen",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "08565d2926c2",
+        "locator": "Zwölf Beitragsmonate gemäß Nutzerfestlegung. Keine zusätzliche amtliche Bestätigung behauptet.",
+        "original": null,
+        "verification": "user_assumption",
+        "provenance": "user_instruction",
+        "decision_id": "2026-11-10-steinenbronn-payment-months"
+      },
+      "evidence": {
+        "source_id": "08565d2926c2",
+        "locator": "Anlage 1 S. 2, Krippengruppen",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "steinenbronn-offer-9d89823f8583",
+      "original_label": "Altersmischung 2–3 Jahre 39 Wochenstunden",
+      "age_group": "u3",
+      "age_min_months": 24,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "mixed_age",
+      "weekly_minutes": 2340,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "08565d2926c2",
+        "locator": "Anlage 1 S. 1, zweite Spalte",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "08565d2926c2",
+        "locator": "Zwölf Beitragsmonate gemäß Nutzerfestlegung. Keine zusätzliche amtliche Bestätigung behauptet.",
+        "original": null,
+        "verification": "user_assumption",
+        "provenance": "user_instruction",
+        "decision_id": "2026-11-10-steinenbronn-payment-months"
+      },
+      "evidence": {
+        "source_id": "08565d2926c2",
+        "locator": "Anlage 1 S. 1, zweite Spalte",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "steinenbronn-offer-35461501f3f4",
+      "original_label": "41 Wochenstunden",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2460,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "08565d2926c2",
+        "locator": "Anlage 1 S. 1, VÖ/GT-Module",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "08565d2926c2",
+        "locator": "Zwölf Beitragsmonate gemäß Nutzerfestlegung. Keine zusätzliche amtliche Bestätigung behauptet.",
+        "original": null,
+        "verification": "user_assumption",
+        "provenance": "user_instruction",
+        "decision_id": "2026-11-10-steinenbronn-payment-months"
+      },
+      "evidence": {
+        "source_id": "08565d2926c2",
+        "locator": "Anlage 1 S. 1, VÖ/GT-Module",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "steinenbronn-offer-49fcc8239767",
+      "original_label": "Krippe 41 Wochenstunden",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2460,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "08565d2926c2",
+        "locator": "Anlage 1 S. 2, Krippengruppen",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "08565d2926c2",
+        "locator": "Zwölf Beitragsmonate gemäß Nutzerfestlegung. Keine zusätzliche amtliche Bestätigung behauptet.",
+        "original": null,
+        "verification": "user_assumption",
+        "provenance": "user_instruction",
+        "decision_id": "2026-11-10-steinenbronn-payment-months"
+      },
+      "evidence": {
+        "source_id": "08565d2926c2",
+        "locator": "Anlage 1 S. 2, Krippengruppen",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "steinenbronn-offer-2334bf437870",
+      "original_label": "Altersmischung 2–3 Jahre 41 Wochenstunden",
+      "age_group": "u3",
+      "age_min_months": 24,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "mixed_age",
+      "weekly_minutes": 2460,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "08565d2926c2",
+        "locator": "Anlage 1 S. 1, zweite Spalte",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "08565d2926c2",
+        "locator": "Zwölf Beitragsmonate gemäß Nutzerfestlegung. Keine zusätzliche amtliche Bestätigung behauptet.",
+        "original": null,
+        "verification": "user_assumption",
+        "provenance": "user_instruction",
+        "decision_id": "2026-11-10-steinenbronn-payment-months"
+      },
+      "evidence": {
+        "source_id": "08565d2926c2",
+        "locator": "Anlage 1 S. 1, zweite Spalte",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "steinenbronn-offer-df0e110fa816",
+      "original_label": "Splitting U3-20 an fünf Tagen",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 1200,
+      "weekday_minutes": [
+        240,
+        240,
+        240,
+        240,
+        240
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "08565d2926c2",
+        "locator": "Anlage 1 S. 2, Modul U3-20",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "08565d2926c2",
+        "locator": "Zwölf Beitragsmonate gemäß Nutzerfestlegung. Keine zusätzliche amtliche Bestätigung behauptet.",
+        "original": null,
+        "verification": "user_assumption",
+        "provenance": "user_instruction",
+        "decision_id": "2026-11-10-steinenbronn-payment-months"
+      },
+      "evidence": {
+        "source_id": "08565d2926c2",
+        "locator": "Anlage 1 S. 2, Modul U3-20",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "steinenbronn-offer-b30b9076b3b6",
+      "original_label": "Splitting U3-21 an drei Tagen",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 1260,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "08565d2926c2",
+        "locator": "Anlage 1 S. 2, Modul U3-21",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "08565d2926c2",
+        "locator": "Zwölf Beitragsmonate gemäß Nutzerfestlegung. Keine zusätzliche amtliche Bestätigung behauptet.",
+        "original": null,
+        "verification": "user_assumption",
+        "provenance": "user_instruction",
+        "decision_id": "2026-11-10-steinenbronn-payment-months"
+      },
+      "evidence": {
+        "source_id": "08565d2926c2",
+        "locator": "Anlage 1 S. 2, Modul U3-21",
+        "original": null
+      },
+      "formula": null,
+      "days_per_week": 3
+    }
+  ],
+  "prices": [
+    {
+      "id": "steinenbronn-price-c995b604c750",
+      "offer_id": "steinenbronn-offer-5215c96ea355",
+      "amount_cents": 24800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "08565d2926c2",
+        "locator": "Anlage 1 S. 1",
+        "original": 248
+      }
+    },
+    {
+      "id": "steinenbronn-price-d75c8835b317",
+      "offer_id": "steinenbronn-offer-5215c96ea355",
+      "amount_cents": 19000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "08565d2926c2",
+        "locator": "Anlage 1 S. 1",
+        "original": 190
+      }
+    },
+    {
+      "id": "steinenbronn-price-b3f7d1fd15ab",
+      "offer_id": "steinenbronn-offer-5215c96ea355",
+      "amount_cents": 12800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "08565d2926c2",
+        "locator": "Anlage 1 S. 1",
+        "original": 128
+      }
+    },
+    {
+      "id": "steinenbronn-price-a3b05a0f555b",
+      "offer_id": "steinenbronn-offer-5215c96ea355",
+      "amount_cents": 5400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "08565d2926c2",
+        "locator": "Anlage 1 S. 1",
+        "original": 54
+      }
+    },
+    {
+      "id": "steinenbronn-price-9a4617ff132d",
+      "offer_id": "steinenbronn-offer-f096567b3bd5",
+      "amount_cents": 26700,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "08565d2926c2",
+        "locator": "Anlage 1 S. 1, VÖ/GT-Module",
+        "original": 267
+      }
+    },
+    {
+      "id": "steinenbronn-price-8f562cc8a67a",
+      "offer_id": "steinenbronn-offer-f096567b3bd5",
+      "amount_cents": 19700,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "08565d2926c2",
+        "locator": "Anlage 1 S. 1, VÖ/GT-Module",
+        "original": 197
+      }
+    },
+    {
+      "id": "steinenbronn-price-a3eb6935f5d8",
+      "offer_id": "steinenbronn-offer-f096567b3bd5",
+      "amount_cents": 12800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "08565d2926c2",
+        "locator": "Anlage 1 S. 1, VÖ/GT-Module",
+        "original": 128
+      }
+    },
+    {
+      "id": "steinenbronn-price-99e568d31569",
+      "offer_id": "steinenbronn-offer-f096567b3bd5",
+      "amount_cents": 6200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "08565d2926c2",
+        "locator": "Anlage 1 S. 1, VÖ/GT-Module",
+        "original": 62
+      }
+    },
+    {
+      "id": "steinenbronn-price-95687d56e263",
+      "offer_id": "steinenbronn-offer-08c29f5a4a91",
+      "amount_cents": 41100,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "08565d2926c2",
+        "locator": "Anlage 1 S. 2, Krippengruppen",
+        "original": 411
+      }
+    },
+    {
+      "id": "steinenbronn-price-733446c86cce",
+      "offer_id": "steinenbronn-offer-08c29f5a4a91",
+      "amount_cents": 27300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "08565d2926c2",
+        "locator": "Anlage 1 S. 2, Krippengruppen",
+        "original": 273
+      }
+    },
+    {
+      "id": "steinenbronn-price-c922f5323af7",
+      "offer_id": "steinenbronn-offer-08c29f5a4a91",
+      "amount_cents": 13300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "08565d2926c2",
+        "locator": "Anlage 1 S. 2, Krippengruppen",
+        "original": 133
+      }
+    },
+    {
+      "id": "steinenbronn-price-b0665fed7f86",
+      "offer_id": "steinenbronn-offer-08c29f5a4a91",
+      "amount_cents": 6800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "08565d2926c2",
+        "locator": "Anlage 1 S. 2, Krippengruppen",
+        "original": 68
+      }
+    },
+    {
+      "id": "steinenbronn-price-df6095e4a7ca",
+      "offer_id": "steinenbronn-offer-8b88fed91017",
+      "amount_cents": 41100,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "08565d2926c2",
+        "locator": "Anlage 1 S. 1, zweite Spalte",
+        "original": 411
+      }
+    },
+    {
+      "id": "steinenbronn-price-b58532249a74",
+      "offer_id": "steinenbronn-offer-8b88fed91017",
+      "amount_cents": 27300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "08565d2926c2",
+        "locator": "Anlage 1 S. 1, zweite Spalte",
+        "original": 273
+      }
+    },
+    {
+      "id": "steinenbronn-price-0b49006dd4cf",
+      "offer_id": "steinenbronn-offer-8b88fed91017",
+      "amount_cents": 13300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "08565d2926c2",
+        "locator": "Anlage 1 S. 1, zweite Spalte",
+        "original": 133
+      }
+    },
+    {
+      "id": "steinenbronn-price-0a6890567b3d",
+      "offer_id": "steinenbronn-offer-8b88fed91017",
+      "amount_cents": 6800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "08565d2926c2",
+        "locator": "Anlage 1 S. 1, zweite Spalte",
+        "original": 68
+      }
+    },
+    {
+      "id": "steinenbronn-price-8e51084ac843",
+      "offer_id": "steinenbronn-offer-b086cb52184f",
+      "amount_cents": 27600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "08565d2926c2",
+        "locator": "Anlage 1 S. 1, VÖ/GT-Module",
+        "original": 276
+      }
+    },
+    {
+      "id": "steinenbronn-price-f65d94a0095a",
+      "offer_id": "steinenbronn-offer-b086cb52184f",
+      "amount_cents": 20400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "08565d2926c2",
+        "locator": "Anlage 1 S. 1, VÖ/GT-Module",
+        "original": 204
+      }
+    },
+    {
+      "id": "steinenbronn-price-e05413e9a04e",
+      "offer_id": "steinenbronn-offer-b086cb52184f",
+      "amount_cents": 13200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "08565d2926c2",
+        "locator": "Anlage 1 S. 1, VÖ/GT-Module",
+        "original": 132
+      }
+    },
+    {
+      "id": "steinenbronn-price-b508e78de375",
+      "offer_id": "steinenbronn-offer-b086cb52184f",
+      "amount_cents": 6300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "08565d2926c2",
+        "locator": "Anlage 1 S. 1, VÖ/GT-Module",
+        "original": 63
+      }
+    },
+    {
+      "id": "steinenbronn-price-b86c4aacc9e8",
+      "offer_id": "steinenbronn-offer-86aff1f32aba",
+      "amount_cents": 43300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "08565d2926c2",
+        "locator": "Anlage 1 S. 2, Krippengruppen",
+        "original": 433
+      }
+    },
+    {
+      "id": "steinenbronn-price-3f220f308b2b",
+      "offer_id": "steinenbronn-offer-86aff1f32aba",
+      "amount_cents": 29500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "08565d2926c2",
+        "locator": "Anlage 1 S. 2, Krippengruppen",
+        "original": 295
+      }
+    },
+    {
+      "id": "steinenbronn-price-1434b28709a8",
+      "offer_id": "steinenbronn-offer-86aff1f32aba",
+      "amount_cents": 15500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "08565d2926c2",
+        "locator": "Anlage 1 S. 2, Krippengruppen",
+        "original": 155
+      }
+    },
+    {
+      "id": "steinenbronn-price-a151b121a38a",
+      "offer_id": "steinenbronn-offer-86aff1f32aba",
+      "amount_cents": 7800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "08565d2926c2",
+        "locator": "Anlage 1 S. 2, Krippengruppen",
+        "original": 78
+      }
+    },
+    {
+      "id": "steinenbronn-price-34bbe47d6c35",
+      "offer_id": "steinenbronn-offer-9350aaff87b1",
+      "amount_cents": 43300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "08565d2926c2",
+        "locator": "Anlage 1 S. 1, zweite Spalte",
+        "original": 433
+      }
+    },
+    {
+      "id": "steinenbronn-price-a906d08ae7c5",
+      "offer_id": "steinenbronn-offer-9350aaff87b1",
+      "amount_cents": 29500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "08565d2926c2",
+        "locator": "Anlage 1 S. 1, zweite Spalte",
+        "original": 295
+      }
+    },
+    {
+      "id": "steinenbronn-price-4aa2b80e4fe9",
+      "offer_id": "steinenbronn-offer-9350aaff87b1",
+      "amount_cents": 15500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "08565d2926c2",
+        "locator": "Anlage 1 S. 1, zweite Spalte",
+        "original": 155
+      }
+    },
+    {
+      "id": "steinenbronn-price-6e055fb9cac0",
+      "offer_id": "steinenbronn-offer-9350aaff87b1",
+      "amount_cents": 7800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "08565d2926c2",
+        "locator": "Anlage 1 S. 1, zweite Spalte",
+        "original": 78
+      }
+    },
+    {
+      "id": "steinenbronn-price-b6f92938c716",
+      "offer_id": "steinenbronn-offer-32267dfc9e1b",
+      "amount_cents": 28500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "08565d2926c2",
+        "locator": "Anlage 1 S. 1, VÖ/GT-Module",
+        "original": 285
+      }
+    },
+    {
+      "id": "steinenbronn-price-c9ac3ab903ad",
+      "offer_id": "steinenbronn-offer-32267dfc9e1b",
+      "amount_cents": 21100,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "08565d2926c2",
+        "locator": "Anlage 1 S. 1, VÖ/GT-Module",
+        "original": 211
+      }
+    },
+    {
+      "id": "steinenbronn-price-b650e54ff2f8",
+      "offer_id": "steinenbronn-offer-32267dfc9e1b",
+      "amount_cents": 13800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "08565d2926c2",
+        "locator": "Anlage 1 S. 1, VÖ/GT-Module",
+        "original": 138
+      }
+    },
+    {
+      "id": "steinenbronn-price-5d9298dd7220",
+      "offer_id": "steinenbronn-offer-32267dfc9e1b",
+      "amount_cents": 6400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "08565d2926c2",
+        "locator": "Anlage 1 S. 1, VÖ/GT-Module",
+        "original": 64
+      }
+    },
+    {
+      "id": "steinenbronn-price-028b28d65d5b",
+      "offer_id": "steinenbronn-offer-3cd28ede9187",
+      "amount_cents": 45400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "08565d2926c2",
+        "locator": "Anlage 1 S. 2, Krippengruppen",
+        "original": 454
+      }
+    },
+    {
+      "id": "steinenbronn-price-3559330aba39",
+      "offer_id": "steinenbronn-offer-3cd28ede9187",
+      "amount_cents": 31700,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "08565d2926c2",
+        "locator": "Anlage 1 S. 2, Krippengruppen",
+        "original": 317
+      }
+    },
+    {
+      "id": "steinenbronn-price-f0560a129a40",
+      "offer_id": "steinenbronn-offer-3cd28ede9187",
+      "amount_cents": 17800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "08565d2926c2",
+        "locator": "Anlage 1 S. 2, Krippengruppen",
+        "original": 178
+      }
+    },
+    {
+      "id": "steinenbronn-price-7c9c4bc5026a",
+      "offer_id": "steinenbronn-offer-3cd28ede9187",
+      "amount_cents": 8900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "08565d2926c2",
+        "locator": "Anlage 1 S. 2, Krippengruppen",
+        "original": 89
+      }
+    },
+    {
+      "id": "steinenbronn-price-516df971a009",
+      "offer_id": "steinenbronn-offer-9d89823f8583",
+      "amount_cents": 45400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "08565d2926c2",
+        "locator": "Anlage 1 S. 1, zweite Spalte",
+        "original": 454
+      }
+    },
+    {
+      "id": "steinenbronn-price-0e22c05cd4b7",
+      "offer_id": "steinenbronn-offer-9d89823f8583",
+      "amount_cents": 31700,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "08565d2926c2",
+        "locator": "Anlage 1 S. 1, zweite Spalte",
+        "original": 317
+      }
+    },
+    {
+      "id": "steinenbronn-price-c8f3eb74dfb6",
+      "offer_id": "steinenbronn-offer-9d89823f8583",
+      "amount_cents": 17800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "08565d2926c2",
+        "locator": "Anlage 1 S. 1, zweite Spalte",
+        "original": 178
+      }
+    },
+    {
+      "id": "steinenbronn-price-3c5d4e2c75eb",
+      "offer_id": "steinenbronn-offer-9d89823f8583",
+      "amount_cents": 8900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "08565d2926c2",
+        "locator": "Anlage 1 S. 1, zweite Spalte",
+        "original": 89
+      }
+    },
+    {
+      "id": "steinenbronn-price-1c3c81334ffa",
+      "offer_id": "steinenbronn-offer-35461501f3f4",
+      "amount_cents": 29400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "08565d2926c2",
+        "locator": "Anlage 1 S. 1, VÖ/GT-Module",
+        "original": 294
+      }
+    },
+    {
+      "id": "steinenbronn-price-cdea9d9354cf",
+      "offer_id": "steinenbronn-offer-35461501f3f4",
+      "amount_cents": 21800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "08565d2926c2",
+        "locator": "Anlage 1 S. 1, VÖ/GT-Module",
+        "original": 218
+      }
+    },
+    {
+      "id": "steinenbronn-price-b0470cc29286",
+      "offer_id": "steinenbronn-offer-35461501f3f4",
+      "amount_cents": 14200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "08565d2926c2",
+        "locator": "Anlage 1 S. 1, VÖ/GT-Module",
+        "original": 142
+      }
+    },
+    {
+      "id": "steinenbronn-price-708696b57d05",
+      "offer_id": "steinenbronn-offer-35461501f3f4",
+      "amount_cents": 6500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "08565d2926c2",
+        "locator": "Anlage 1 S. 1, VÖ/GT-Module",
+        "original": 65
+      }
+    },
+    {
+      "id": "steinenbronn-price-a4356de9c3c6",
+      "offer_id": "steinenbronn-offer-49fcc8239767",
+      "amount_cents": 47600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "08565d2926c2",
+        "locator": "Anlage 1 S. 2, Krippengruppen",
+        "original": 476
+      }
+    },
+    {
+      "id": "steinenbronn-price-5d4d624cb70a",
+      "offer_id": "steinenbronn-offer-49fcc8239767",
+      "amount_cents": 33900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "08565d2926c2",
+        "locator": "Anlage 1 S. 2, Krippengruppen",
+        "original": 339
+      }
+    },
+    {
+      "id": "steinenbronn-price-25cd8c05ab71",
+      "offer_id": "steinenbronn-offer-49fcc8239767",
+      "amount_cents": 20000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "08565d2926c2",
+        "locator": "Anlage 1 S. 2, Krippengruppen",
+        "original": 200
+      }
+    },
+    {
+      "id": "steinenbronn-price-d2e07705f42e",
+      "offer_id": "steinenbronn-offer-49fcc8239767",
+      "amount_cents": 9900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "08565d2926c2",
+        "locator": "Anlage 1 S. 2, Krippengruppen",
+        "original": 99
+      }
+    },
+    {
+      "id": "steinenbronn-price-f0145a1bf609",
+      "offer_id": "steinenbronn-offer-2334bf437870",
+      "amount_cents": 47600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "08565d2926c2",
+        "locator": "Anlage 1 S. 1, zweite Spalte",
+        "original": 476
+      }
+    },
+    {
+      "id": "steinenbronn-price-813af00b33cf",
+      "offer_id": "steinenbronn-offer-2334bf437870",
+      "amount_cents": 33900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "08565d2926c2",
+        "locator": "Anlage 1 S. 1, zweite Spalte",
+        "original": 339
+      }
+    },
+    {
+      "id": "steinenbronn-price-786c97785a6b",
+      "offer_id": "steinenbronn-offer-2334bf437870",
+      "amount_cents": 20000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "08565d2926c2",
+        "locator": "Anlage 1 S. 1, zweite Spalte",
+        "original": 200
+      }
+    },
+    {
+      "id": "steinenbronn-price-e40a3e992f77",
+      "offer_id": "steinenbronn-offer-2334bf437870",
+      "amount_cents": 9900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "08565d2926c2",
+        "locator": "Anlage 1 S. 1, zweite Spalte",
+        "original": 99
+      }
+    },
+    {
+      "id": "steinenbronn-price-879d5bf769ea",
+      "offer_id": "steinenbronn-offer-df0e110fa816",
+      "amount_cents": 31800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "08565d2926c2",
+        "locator": "Anlage 1 S. 2, Modul U3-20",
+        "original": 318
+      }
+    },
+    {
+      "id": "steinenbronn-price-06211ec6695b",
+      "offer_id": "steinenbronn-offer-df0e110fa816",
+      "amount_cents": 22900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "08565d2926c2",
+        "locator": "Anlage 1 S. 2, Modul U3-20",
+        "original": 229
+      }
+    },
+    {
+      "id": "steinenbronn-price-3d4364c9323f",
+      "offer_id": "steinenbronn-offer-df0e110fa816",
+      "amount_cents": 13300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "08565d2926c2",
+        "locator": "Anlage 1 S. 2, Modul U3-20",
+        "original": 133
+      }
+    },
+    {
+      "id": "steinenbronn-price-85e3cde0c432",
+      "offer_id": "steinenbronn-offer-df0e110fa816",
+      "amount_cents": 6800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "08565d2926c2",
+        "locator": "Anlage 1 S. 2, Modul U3-20",
+        "original": 68
+      }
+    },
+    {
+      "id": "steinenbronn-price-1134d84c067f",
+      "offer_id": "steinenbronn-offer-b30b9076b3b6",
+      "amount_cents": 33000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "08565d2926c2",
+        "locator": "Anlage 1 S. 2, Modul U3-21",
+        "original": 330
+      }
+    },
+    {
+      "id": "steinenbronn-price-7c6e1e569dae",
+      "offer_id": "steinenbronn-offer-b30b9076b3b6",
+      "amount_cents": 24800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "08565d2926c2",
+        "locator": "Anlage 1 S. 2, Modul U3-21",
+        "original": 248
+      }
+    },
+    {
+      "id": "steinenbronn-price-90201c18f673",
+      "offer_id": "steinenbronn-offer-b30b9076b3b6",
+      "amount_cents": 14600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "08565d2926c2",
+        "locator": "Anlage 1 S. 2, Modul U3-21",
+        "original": 146
+      }
+    },
+    {
+      "id": "steinenbronn-price-4f1c5949c196",
+      "offer_id": "steinenbronn-offer-b30b9076b3b6",
+      "amount_cents": 8300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "08565d2926c2",
+        "locator": "Anlage 1 S. 2, Modul U3-21",
+        "original": 83
+      }
+    }
+  ],
+  "income_bands": [],
+  "components": [
+    {
+      "id": "steinenbronn-component-a4a6d3a39718",
+      "kind": "meal",
+      "original_label": "Verpflegung",
+      "amount_cents": null,
+      "unit": "per_month",
+      "age_group": null,
+      "required": null,
+      "payment_months": null,
+      "offer_ids": null,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "value_status": "unknown",
+      "evidence": {
+        "source_id": "04fd37644a31",
+        "locator": "Benutzungsordnung: Verpflegung gesondert",
+        "original": null
+      }
+    }
+  ],
+  "rules": [
+    {
+      "id": "steinenbronn-rule-72472bc8ab3c",
+      "kind": "2026-11-10-steinenbronn-payment-months",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "id": "2026-11-10-steinenbronn-payment-months",
+        "municipality_id": "steinenbronn",
+        "kind": "model_assumption",
+        "instruction": "Zwölf beitragspflichtige Monate annehmen.",
+        "recorded_at": "2026-11-10",
+        "provenance": "user_instruction"
+      },
+      "evidence": {
+        "source_id": "08565d2926c2",
+        "locator": "Nutzerfestlegung; keine zusätzliche amtliche Quellenbestätigung",
+        "original": null
+      },
+      "provenance": "user_instruction"
+    },
+    {
+      "id": "steinenbronn-rule-50447edff329",
+      "kind": "source_provisions_08565d2926c2",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "archive_text_path": "data/sources/08565d2926c2/text.txt",
+        "text_sha256": "ec6043ce0ced8d6fddbeb053324627e90739be10724506e0c65877ac98488845",
+        "review_status": "archived_provisions_preserved"
+      },
+      "evidence": {
+        "source_id": "08565d2926c2",
+        "locator": "Vollständiger archivierter Dokumenttext einschließlich Fußnoten",
+        "original": null
+      }
+    },
+    {
+      "id": "steinenbronn-rule-d3ccf2403709",
+      "kind": "source_clause_08565d2926c2_1_2",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 0,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "08565d2926c2",
+        "locator": "PDF-/Textseite 1, Absatzblock 2",
+        "original": null
+      }
+    },
+    {
+      "id": "steinenbronn-rule-2d183246257a",
+      "kind": "source_clause_08565d2926c2_1_4",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 1,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "08565d2926c2",
+        "locator": "PDF-/Textseite 1, Absatzblock 4",
+        "original": null
+      }
+    },
+    {
+      "id": "steinenbronn-rule-0417f9d6163b",
+      "kind": "source_clause_08565d2926c2_1_6",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 2,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "08565d2926c2",
+        "locator": "PDF-/Textseite 1, Absatzblock 6",
+        "original": null
+      }
+    },
+    {
+      "id": "steinenbronn-rule-ee3fd2b9bb44",
+      "kind": "source_clause_08565d2926c2_2_2",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 3,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "08565d2926c2",
+        "locator": "PDF-/Textseite 2, Absatzblock 2",
+        "original": null
+      }
+    },
+    {
+      "id": "steinenbronn-rule-734011ccf8c3",
+      "kind": "source_clause_08565d2926c2_2_3",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 4,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "08565d2926c2",
+        "locator": "PDF-/Textseite 2, Absatzblock 3",
+        "original": null
+      }
+    },
+    {
+      "id": "steinenbronn-rule-3b4dc0270d76",
+      "kind": "source_provisions_04fd37644a31",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "archive_text_path": "data/sources/04fd37644a31/text.txt",
+        "text_sha256": "81796d7039393f101d1491264567ee2922b30636f9666d09f357a25b493e1962",
+        "review_status": "archived_provisions_preserved"
+      },
+      "evidence": {
+        "source_id": "04fd37644a31",
+        "locator": "Vollständiger archivierter Dokumenttext einschließlich Fußnoten",
+        "original": null
+      }
+    },
+    {
+      "id": "steinenbronn-rule-b844cd7efd61",
+      "kind": "source_clause_04fd37644a31_1_2",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 5,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "04fd37644a31",
+        "locator": "PDF-/Textseite 1, Absatzblock 2",
+        "original": null
+      }
+    },
+    {
+      "id": "steinenbronn-rule-f2b1f4c3d140",
+      "kind": "source_clause_04fd37644a31_1_3",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 6,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "04fd37644a31",
+        "locator": "PDF-/Textseite 1, Absatzblock 3",
+        "original": null
+      }
+    },
+    {
+      "id": "steinenbronn-rule-a16ee6367505",
+      "kind": "source_clause_04fd37644a31_5_9",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 7,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "04fd37644a31",
+        "locator": "PDF-/Textseite 5, Absatzblock 9",
+        "original": null
+      }
+    },
+    {
+      "id": "steinenbronn-rule-7fffd4122ec0",
+      "kind": "source_clause_04fd37644a31_5_10",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 8,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "04fd37644a31",
+        "locator": "PDF-/Textseite 5, Absatzblock 10",
+        "original": null
+      }
+    },
+    {
+      "id": "steinenbronn-rule-cce048669a0e",
+      "kind": "source_clause_04fd37644a31_6_2",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 9,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "04fd37644a31",
+        "locator": "PDF-/Textseite 6, Absatzblock 2",
+        "original": null
+      }
+    },
+    {
+      "id": "steinenbronn-rule-3dcffb6c6688",
+      "kind": "source_clause_04fd37644a31_6_3",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 10,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "04fd37644a31",
+        "locator": "PDF-/Textseite 6, Absatzblock 3",
+        "original": null
+      }
+    },
+    {
+      "id": "steinenbronn-rule-f2f79df75539",
+      "kind": "source_clause_04fd37644a31_9_4",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 11,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "04fd37644a31",
+        "locator": "PDF-/Textseite 9, Absatzblock 4",
+        "original": null
+      }
+    },
+    {
+      "id": "steinenbronn-rule-e98c72a30cb1",
+      "kind": "source_clause_04fd37644a31_9_5",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 12,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "04fd37644a31",
+        "locator": "PDF-/Textseite 9, Absatzblock 5",
+        "original": null
+      }
+    },
+    {
+      "id": "steinenbronn-rule-8ebeddd55ad3",
+      "kind": "source_clause_04fd37644a31_9_6",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 13,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "04fd37644a31",
+        "locator": "PDF-/Textseite 9, Absatzblock 6",
+        "original": null
+      }
+    },
+    {
+      "id": "steinenbronn-rule-885f4319f8dd",
+      "kind": "source_clause_04fd37644a31_9_8",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 14,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "04fd37644a31",
+        "locator": "PDF-/Textseite 9, Absatzblock 8",
+        "original": null
+      }
+    },
+    {
+      "id": "steinenbronn-rule-192c607a76bc",
+      "kind": "source_clause_04fd37644a31_9_10",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 15,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "04fd37644a31",
+        "locator": "PDF-/Textseite 9, Absatzblock 10",
+        "original": null
+      }
+    },
+    {
+      "id": "steinenbronn-rule-7654cb62cb60",
+      "kind": "source_clause_04fd37644a31_9_11",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 16,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "04fd37644a31",
+        "locator": "PDF-/Textseite 9, Absatzblock 11",
+        "original": null
+      }
+    },
+    {
+      "id": "steinenbronn-rule-c4d420790ae8",
+      "kind": "source_clause_04fd37644a31_10_2",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 17,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "04fd37644a31",
+        "locator": "PDF-/Textseite 10, Absatzblock 2",
+        "original": null
+      }
+    },
+    {
+      "id": "steinenbronn-rule-c8449b94cb40",
+      "kind": "source_clause_04fd37644a31_10_3",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 18,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "04fd37644a31",
+        "locator": "PDF-/Textseite 10, Absatzblock 3",
+        "original": null
+      }
+    },
+    {
+      "id": "steinenbronn-rule-9cee30e222c7",
+      "kind": "source_clause_04fd37644a31_10_4",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 19,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "04fd37644a31",
+        "locator": "PDF-/Textseite 10, Absatzblock 4",
+        "original": null
+      }
+    },
+    {
+      "id": "steinenbronn-rule-812aff5b0d17",
+      "kind": "source_clause_04fd37644a31_10_5",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 20,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "04fd37644a31",
+        "locator": "PDF-/Textseite 10, Absatzblock 5",
+        "original": null
+      }
+    },
+    {
+      "id": "steinenbronn-rule-946a556151c7",
+      "kind": "source_clause_04fd37644a31_10_7",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 21,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "04fd37644a31",
+        "locator": "PDF-/Textseite 10, Absatzblock 7",
+        "original": null
+      }
+    },
+    {
+      "id": "steinenbronn-rule-1044ce5b05ed",
+      "kind": "source_clause_04fd37644a31_10_8",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 22,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "04fd37644a31",
+        "locator": "PDF-/Textseite 10, Absatzblock 8",
+        "original": null
+      }
+    },
+    {
+      "id": "steinenbronn-rule-ed46187f78e6",
+      "kind": "source_clause_04fd37644a31_10_9",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 23,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "04fd37644a31",
+        "locator": "PDF-/Textseite 10, Absatzblock 9",
+        "original": null
+      }
+    },
+    {
+      "id": "steinenbronn-rule-df1f141408fa",
+      "kind": "source_clause_04fd37644a31_10_10",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 24,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "04fd37644a31",
+        "locator": "PDF-/Textseite 10, Absatzblock 10",
+        "original": null
+      }
+    },
+    {
+      "id": "steinenbronn-rule-b8597a1b0192",
+      "kind": "source_clause_04fd37644a31_11_2",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 25,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "04fd37644a31",
+        "locator": "PDF-/Textseite 11, Absatzblock 2",
+        "original": null
+      }
+    },
+    {
+      "id": "steinenbronn-rule-45434b6442e2",
+      "kind": "source_clause_04fd37644a31_11_5",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 26,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "04fd37644a31",
+        "locator": "PDF-/Textseite 11, Absatzblock 5",
+        "original": null
+      }
+    },
+    {
+      "id": "steinenbronn-rule-e500f2442f23",
+      "kind": "source_clause_04fd37644a31_12_2",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 27,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "04fd37644a31",
+        "locator": "PDF-/Textseite 12, Absatzblock 2",
+        "original": null
+      }
+    },
+    {
+      "id": "steinenbronn-rule-73b0422b3a9e",
+      "kind": "source_clause_04fd37644a31_12_4",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 28,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "04fd37644a31",
+        "locator": "PDF-/Textseite 12, Absatzblock 4",
+        "original": null
+      }
+    },
+    {
+      "id": "steinenbronn-rule-d177bad5efd0",
+      "kind": "source_clause_04fd37644a31_12_6",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 29,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "04fd37644a31",
+        "locator": "PDF-/Textseite 12, Absatzblock 6",
+        "original": null
+      }
+    },
+    {
+      "id": "steinenbronn-rule-fedb8413660f",
+      "kind": "source_clause_04fd37644a31_13_2",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 30,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "04fd37644a31",
+        "locator": "PDF-/Textseite 13, Absatzblock 2",
+        "original": null
+      }
+    },
+    {
+      "id": "steinenbronn-rule-e4687a9bf457",
+      "kind": "source_clause_04fd37644a31_13_3",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 31,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "04fd37644a31",
+        "locator": "PDF-/Textseite 13, Absatzblock 3",
+        "original": null
+      }
+    }
+  ],
+  "issues": [
+    {
+      "code": "pending_calculation_review",
+      "detail": "Strukturierter Import; noch keine Freigabe des Rechners oder der Website."
+    },
+    {
+      "code": "research_limitation_1",
+      "detail": "Essensbetrag nicht gesichert. Im veröffentlichten Katalog weiterhin kein belegtes U3-Angebot mit acht Stunden an allen fünf Tagen; keine Hochrechnung aus der Mischwoche."
+    }
+  ],
+  "coverage": {
+    "publication_status": "not_active",
+    "integration_status": "normalized_pending_calculation_review",
+    "history_in_scope": false,
+    "source_register": "data/research/neighbor_expansion_2026-11-10.json",
+    "research_id": "steinenbronn",
+    "unavailable_configurations": [],
+    "offers": 15,
+    "price_cells": 60,
+    "income_bands": 0,
+    "components": 1,
+    "rule_records": 35,
+    "tariff_table_transcription": "complete_for_declared_scope",
+    "declared_scope": "Aktuelle und bereits veröffentlichte künftige Krippen- und Kindergartentarife; Zusatzkosten und Gebührenregeln.",
+    "excluded_from_regular_price_rows": [
+      "superseded_historical_tariffs",
+      "school_childcare",
+      "takki_and_childminding",
+      "separate_playgroups"
+    ],
+    "calculation_engine_changed": false,
+    "rule_transcription": "typed_parameters_and_source_clauses_with_explicit_unimplemented_status"
+  },
+  "original_research": {
+    "path": "data/research/neighbor_expansion_2026-11-10.json",
+    "section": "Steinenbronn",
+    "text": "41 Wochenstunden bedeuten drei GT-Nachmittage. Andere Tage bleiben kürzer; nicht als gleichmäßige 5×8-Stunden-Woche speichern.\nFür die Jahresnormalisierung werden gemäß Nutzerfestlegung zwölf Betreuungs-Beitragsmonate angesetzt.\nEssensbetrag nicht gesichert. Im veröffentlichten Katalog weiterhin kein belegtes U3-Angebot mit acht Stunden an allen fünf Tagen; keine Hochrechnung aus der Mischwoche.",
+    "source_clauses": [
+      {
+        "text": "Anlage 1\n              der Satzung über die Nutzung sowie die Gebühren der\n              Kindertageseinrichtungen der Gemeinde Steinenbronn\n                                 vom 23.06.2026\nIn den Kindertageseinrichtungen der Gemeinde Steinenbronn beträgt die monatliche\nGebühr nach der Satzung über die Nutzung sowie die Gebühren der\nKindertageseinrichtungen der Gemeinde Steinenbronn ab dem 01.09.2026:",
+        "evidence": {
+          "source_id": "08565d2926c2",
+          "locator": "PDF-/Textseite 1, Absatzblock 2",
+          "original": null
+        }
+      },
+      {
+        "text": "Betreuungs-       Gebühr ab 3 Jahre (Ü3)     Gebühr 2-3 Jahre\n umfang / Modul\n VÖ                1 Kind        248,00 €\n 32,5 Stunden      2 Kinder      190,00 €\n                   3 Kinder      128,00 €\n                   ab 4 Kinder    54,00 €\n VÖ                1 Kind        267,00 €     1 Kind        411,00 €\n 35 Stunden        2 Kinder      197,00 €     2 Kinder      273,00 €\n                   3 Kinder      128,00 €     3 Kinder      133,00 €\n                   ab 4 Kinder    62,00 €     ab 4 Kinder    68,00 €",
+        "evidence": {
+          "source_id": "08565d2926c2",
+          "locator": "PDF-/Textseite 1, Absatzblock 4",
+          "original": null
+        }
+      },
+      {
+        "text": "Betreuungs-       Gebühr ab 3 Jahre (Ü3)     Gebühr 2-3 Jahre\n umfang / Modul\n 37 Stunden        1 Kind        276,00 €     1 Kind        433,00 €\n 1 Nachmittag      2 Kinder      204,00 €     2 Kinder      295,00 €\n                   3 Kinder      132,00 €     3 Kinder      155,00 €\n                   ab 4 Kinder    63,00 €     ab 4 Kinder    78,00 €\n 39 Stunden        1 Kind        285,00 €     1 Kind        454,00 €\n 2 Nachmittage     2 Kinder      211,00 €     2 Kinder      317,00 €\n                   3 Kinder      138,00 €     3 Kinder      178,00 €\n                   ab 4 Kinder    64,00 €     ab 4 Kinder    89,00 €\n 41 Stunden        1 Kind        294,00 €     1 Kind        476,00 €\n 3 Nachmittage     2 Kinder      218,00 €     2 Kinder      339,00 €\n                   3 Kinder      142,00 €     3 Kinder      200,00 €\n                   ab 4 Kinder    65,00 €     ab 4 Kinder    99,00 €",
+        "evidence": {
+          "source_id": "08565d2926c2",
+          "locator": "PDF-/Textseite 1, Absatzblock 6",
+          "original": null
+        }
+      },
+      {
+        "text": "Betreuungs-         Gebühr unter 3 Jahre\n umfang / Modul\n 35 Stunden          1 Kind           411,00 €\n                     2 Kinder         273,00 €\n                     3 Kinder         133,00 €\n                     ab 4 Kinder       68,00 €\n 37 Stunden          1 Kind           433,00 €\n 1 Nachmittag        2 Kinder         295,00 €\n                     3 Kinder         155,00 €\n                     ab 4 Kinder       78,00 €\n 39 Stunden          1 Kind           454,00 €\n 2 Nachmittage       2 Kinder         317,00 €\n                     3 Kinder         178,00 €\n                     ab 4 Kinder       89,00 €\n 41 Stunden          1 Kind           476,00 €\n 3 Nachmittage       2 Kinder         339,00 €\n                     3 Kinder         200,00 €\n                     ab 4 Kinder       99,00 €",
+        "evidence": {
+          "source_id": "08565d2926c2",
+          "locator": "PDF-/Textseite 2, Absatzblock 2",
+          "original": null
+        }
+      },
+      {
+        "text": "Modul            Betreuungs-      Gebühr U3\n                  umfang\n Modul VÖ         U3               1 Kind        318,00 €\n (Splitting:      20 Stunden       2 Kinder      229,00 €\n U3-20)           (an 5 Tagen)     3 Kinder      133,00 €\n                                   ab 4 Kinder    68,00 €\n Modul VÖ         U3               1 Kind        330,00 €\n (Splitting:      21 Stunden       2 Kinder      248,00 €\n U3-21)           (an 3 Tagen)     3 Kinder      146,00 €\n                                   ab 4 Kinder    83,00 €",
+        "evidence": {
+          "source_id": "08565d2926c2",
+          "locator": "PDF-/Textseite 2, Absatzblock 3",
+          "original": null
+        }
+      },
+      {
+        "text": "SATZUNG\n   über die Nutzung sowie die Gebühren der Kindertageseinrichtungen der\n                          Gemeinde Steinenbronn",
+        "evidence": {
+          "source_id": "04fd37644a31",
+          "locator": "PDF-/Textseite 1, Absatzblock 2",
+          "original": null
+        }
+      },
+      {
+        "text": "Aufgrund von § 4 der Gemeindeordnung für Baden-Württemberg und der §§ 2, 13, 14\nund 19 des Kommunalabgabengesetzes für Baden-Württemberg in Verbindung mit § 6\nKindertagesbetreuungsgesetz Baden-Württemberg hat der Gemeinderat am\n23.06.2026 folgende Satzung über die Benutzung sowie die Gebühren der\nKindertageseinrichtungen der Gemeinde Steinenbronn beschlossen:",
+        "evidence": {
+          "source_id": "04fd37644a31",
+          "locator": "PDF-/Textseite 1, Absatzblock 3",
+          "original": null
+        }
+      },
+      {
+        "text": "§ 10\n                                  Elternbeitrag\n(1) Für den Besuch der Einrichtung wird ein Elternbeitrag, gegebenenfalls zusätzlich\n    Essensgeld erhoben. Der Beitrag wird in zwölf oder elf Monatsbeiträgen bei einem\n    gleich hohen Jahresgesamtbeitrag erhoben. Bei elf Monatsbeiträgen entfällt die\n    Beitragszahlung im letzten Monat des Kindergartenjahres, dies ist in der Regel der\n    Monat August. Die Beiträge sind jeweils im Voraus bis zum 5. des Monats zu\n    zahlen. Die Beitragsregelung kann in der Einrichtung eingesehen werden. Eine\n    Änderung des Elternbeitrags/Essensgeldes, auch die Umstellung auf ein anderes\n    Beitragssystem bzw. die Festsetzung von einkommensbezogenen Beiträgen,\n    bleibt dem Träger vorbehalten.",
+        "evidence": {
+          "source_id": "04fd37644a31",
+          "locator": "PDF-/Textseite 5, Absatzblock 9",
+          "original": null
+        }
+      },
+      {
+        "text": "(2) Der Elternbeitrag ist eine Beteiligung an den gesamten Betriebskosten der\n    Einrichtung und ist deshalb auch während der Ferien, bei vorübergehender",
+        "evidence": {
+          "source_id": "04fd37644a31",
+          "locator": "PDF-/Textseite 5, Absatzblock 10",
+          "original": null
+        }
+      },
+      {
+        "text": "Schließung, bei längerem Fehlen des Kindes und bis zur Wirksamkeit einer\n   Kündigung zu bezahlen. Für Schulanfänger ist der Elternbeitrag bis zum Ende des\n   Monats zu bezahlen, in dem die Sommerferien der Einrichtung beginnen. Wurde\n   für Schulanfänger eine Verlängerung des Betreuungsverhältnisses vereinbart, ist\n   der Elternbeitrag bis zum Ende des Monats zu bezahlen, in den der Werktag fällt,\n   welcher dem Tag der Einschulung vorausgeht. Bei Schuleintritt während des\n   Kindergartenjahres ist der Elternbeitrag bis zur Beendigung des\n   Vertragsverhältnisses zu bezahlen.",
+        "evidence": {
+          "source_id": "04fd37644a31",
+          "locator": "PDF-/Textseite 6, Absatzblock 2",
+          "original": null
+        }
+      },
+      {
+        "text": "(3) Sollte es Personensorgeberechtigten trotz öffentlicher Hilfen (Übernahme des\n    Elternbeitrages durch das Jugendamt/Sozialamt/Bürgermeisteramt gemäß dem\n    Kinder- und Jugendhilfegesetz/ Sozialgesetzbuch XII) nicht möglich sein, die\n    Elternbeiträge zu leisten, kann der Beitrag in begründeten Fällen vom Träger\n    ermäßigt werden.",
+        "evidence": {
+          "source_id": "04fd37644a31",
+          "locator": "PDF-/Textseite 6, Absatzblock 3",
+          "original": null
+        }
+      },
+      {
+        "text": "§ 16\n                   Beginn und Ende der Gebührenpflicht\n(1) Die Gebührenpflicht beginnt zum Anfang des Monats, in dem das Kind in die\n    Einrichtung aufgenommen wird.",
+        "evidence": {
+          "source_id": "04fd37644a31",
+          "locator": "PDF-/Textseite 9, Absatzblock 4",
+          "original": null
+        }
+      },
+      {
+        "text": "(2) Die Gebührenpflicht endet bei Abmeldung eines Kindes mit Ablauf des Monats, auf\n    dessen Ende das Kind durch den Sorgeberechtigten abgemeldet wurde oder durch\n    Ausschluss des Kindes durch den Einrichtungsträger. Bei Kindern, die in die\n    Schule kommen, endet die Betreuung zum Ende des Monats August.",
+        "evidence": {
+          "source_id": "04fd37644a31",
+          "locator": "PDF-/Textseite 9, Absatzblock 5",
+          "original": null
+        }
+      },
+      {
+        "text": "(3) Ein Wechsel in eine auswärtige Kindertagesstätte ist grundsätzlich zum 1. eines\n    Monats vorzunehmen. Ausnahmen sind nur in begründeten Einzelfällen möglich.\n    Findet der Wechsel bis zum 15. eines Monats statt, wird die Hälfte der\n    Monatsgebühr verlangt.",
+        "evidence": {
+          "source_id": "04fd37644a31",
+          "locator": "PDF-/Textseite 9, Absatzblock 6",
+          "original": null
+        }
+      },
+      {
+        "text": "(5) Der Einrichtungsträger kann das Benutzungsverhältnis aus wichtigem Grund\n    beenden. Wichtige Gründe sind insbesondere die Nichtzahlung einer fälligen\n    Gebührenschuld für zwei aufeinanderfolgende Monate trotz Mahnung oder wenn\n    das Kind unentschuldigt länger als vier Wochen fehlt. Der Ausschluss des Kindes\n    erfolgt durch schriftlichen Bescheid; er ist unter Wahrung einer Frist von vier\n    Wochen anzudrohen.",
+        "evidence": {
+          "source_id": "04fd37644a31",
+          "locator": "PDF-/Textseite 9, Absatzblock 8",
+          "original": null
+        }
+      },
+      {
+        "text": "§ 17\n                             Benutzungsgebühren\n(1) Für die Benutzung der Kindertageseinrichtungen werden Benutzungsgebühren\n    nach § 19 erhoben.",
+        "evidence": {
+          "source_id": "04fd37644a31",
+          "locator": "PDF-/Textseite 9, Absatzblock 10",
+          "original": null
+        }
+      },
+      {
+        "text": "(2) Gebührenmaßstab für die Höhe der Benutzungsgebühren sind:\n     das Alter der zu betreuenden Kinder,",
+        "evidence": {
+          "source_id": "04fd37644a31",
+          "locator": "PDF-/Textseite 9, Absatzblock 11",
+          "original": null
+        }
+      },
+      {
+        "text": "   die Art und der Umfang des Betreuungsplatzes,\n      die Anzahl der Kinder, die noch nicht das 18. Lebensjahr vollendet haben und\n       die nicht nur vorübergehend im Haushalt des Gebührenschuldners leben.",
+        "evidence": {
+          "source_id": "04fd37644a31",
+          "locator": "PDF-/Textseite 10, Absatzblock 2",
+          "original": null
+        }
+      },
+      {
+        "text": "(3) Die Gebühren werden jeweils für einen Kalendermonat (Veranlagungszeitraum)\n    erhoben. Sie werden pro Jahr in 11 Teilbeträgen erhoben. Der Monat August bleibt\n    beitragsfrei.",
+        "evidence": {
+          "source_id": "04fd37644a31",
+          "locator": "PDF-/Textseite 10, Absatzblock 3",
+          "original": null
+        }
+      },
+      {
+        "text": "(4) Die Gebühr ist auch während der Ferien sowie bei Nichtnutzung oder\n    vorübergehender Schließung der Einrichtung zu entrichten.",
+        "evidence": {
+          "source_id": "04fd37644a31",
+          "locator": "PDF-/Textseite 10, Absatzblock 4",
+          "original": null
+        }
+      },
+      {
+        "text": "§ 18\n                              Gebührenschuldner\n(1) Gebührenschuldner sind die Sorgeberechtigten des Kindes, das die Einrichtung\n    besucht.",
+        "evidence": {
+          "source_id": "04fd37644a31",
+          "locator": "PDF-/Textseite 10, Absatzblock 5",
+          "original": null
+        }
+      },
+      {
+        "text": "§ 19\n                      Höhe der Benutzungsgebühren\nDie monatliche Gebühr für die Benutzung der Kindertageseinrichtungen im Sinne des\n§ 2 dieser Satzung sind der Anlage 1 zu entnehmen.",
+        "evidence": {
+          "source_id": "04fd37644a31",
+          "locator": "PDF-/Textseite 10, Absatzblock 7",
+          "original": null
+        }
+      },
+      {
+        "text": "§ 20\n                             Entstehung/Fälligkeit\n(1) Die Gebührenschuld entsteht zu Beginn des Veranlagungszeitraums für den der\n    Betreuungsplatz belegt ist.",
+        "evidence": {
+          "source_id": "04fd37644a31",
+          "locator": "PDF-/Textseite 10, Absatzblock 8",
+          "original": null
+        }
+      },
+      {
+        "text": "(2) Die Benutzungsgebühren werden bei der erstmaligen Benutzung durch\n    schriftlichen Bescheid festgesetzt. Die Festsetzung gilt so lange weiter, bis ein\n    neuer Bescheid oder Änderungsbescheid ergeht.",
+        "evidence": {
+          "source_id": "04fd37644a31",
+          "locator": "PDF-/Textseite 10, Absatzblock 9",
+          "original": null
+        }
+      },
+      {
+        "text": "(3) Die Gebührenschuld wird jeweils zum ersten Werktag des Veranlagungszeitraums\n    fällig. Für den Monat der erstmaligen Belegung des Betreuungsplatzes wird die\n    Gebührenschuld zwei Wochen nach Bekanntgabe des Gebührenbescheides fällig.\n    Dasselbe gilt für den Fall, dass ein neuer Gebührenbescheid oder\n    Änderungsbescheid ergeht.",
+        "evidence": {
+          "source_id": "04fd37644a31",
+          "locator": "PDF-/Textseite 10, Absatzblock 10",
+          "original": null
+        }
+      },
+      {
+        "text": "(2) Die Gebühr in den in § 2 Abs. 1 Nr. 1-3 genannten Einrichtungen richtet sich nach\n    dem jeweils aktuellen Preis des Caterers.",
+        "evidence": {
+          "source_id": "04fd37644a31",
+          "locator": "PDF-/Textseite 11, Absatzblock 2",
+          "original": null
+        }
+      },
+      {
+        "text": "§ 22\n                                             Inkrafttreten\nDiese Satzung tritt am 01.09.2026 in Kraft. Gleichzeitig tritt die Satzung über die\nNutzung sowie die Gebühren der Kindertageseinrichtungen der Gemeinde\nSteinenbronn vom 04.06.2024 sowie die 1. Änderungssatzung der Satzung über die\nNutzung sowie die Gebühren der Kindertageseinrichtungen der Gemeinde\nSteinenbronn vom 21.01.2025 außer Kraft",
+        "evidence": {
+          "source_id": "04fd37644a31",
+          "locator": "PDF-/Textseite 11, Absatzblock 5",
+          "original": null
+        }
+      },
+      {
+        "text": "Anlage 1\n              der Satzung über die Nutzung sowie die Gebühren der\n              Kindertageseinrichtungen der Gemeinde Steinenbronn\n                                 vom 23.06.2026\nIn den Kindertageseinrichtungen der Gemeinde Steinenbronn beträgt die monatliche\nGebühr nach der Satzung über die Nutzung sowie die Gebühren der\nKindertageseinrichtungen der Gemeinde Steinenbronn ab dem 01.09.2026:",
+        "evidence": {
+          "source_id": "04fd37644a31",
+          "locator": "PDF-/Textseite 12, Absatzblock 2",
+          "original": null
+        }
+      },
+      {
+        "text": "Betreuungs-       Gebühr ab 3 Jahre (Ü3)     Gebühr 2-3 Jahre\n umfang / Modul\n VÖ                1 Kind        248,00 €\n 32,5 Stunden      2 Kinder      190,00 €\n                   3 Kinder      128,00 €\n                   ab 4 Kinder    54,00 €\n VÖ                1 Kind        267,00 €     1 Kind        411,00 €\n 35 Stunden        2 Kinder      197,00 €     2 Kinder      273,00 €\n                   3 Kinder      128,00 €     3 Kinder      133,00 €\n                   ab 4 Kinder    62,00 €     ab 4 Kinder    68,00 €",
+        "evidence": {
+          "source_id": "04fd37644a31",
+          "locator": "PDF-/Textseite 12, Absatzblock 4",
+          "original": null
+        }
+      },
+      {
+        "text": "Betreuungs-       Gebühr ab 3 Jahre (Ü3)     Gebühr 2-3 Jahre\n umfang / Modul\n 37 Stunden        1 Kind        276,00 €     1 Kind        433,00 €\n 1 Nachmittag      2 Kinder      204,00 €     2 Kinder      295,00 €\n                   3 Kinder      132,00 €     3 Kinder      155,00 €\n                   ab 4 Kinder    63,00 €     ab 4 Kinder    78,00 €\n 39 Stunden        1 Kind        285,00 €     1 Kind        454,00 €\n 2 Nachmittage     2 Kinder      211,00 €     2 Kinder      317,00 €\n                   3 Kinder      138,00 €     3 Kinder      178,00 €\n                   ab 4 Kinder    64,00 €     ab 4 Kinder    89,00 €\n 41 Stunden        1 Kind        294,00 €     1 Kind        476,00 €\n 3 Nachmittage     2 Kinder      218,00 €     2 Kinder      339,00 €\n                   3 Kinder      142,00 €     3 Kinder      200,00 €\n                   ab 4 Kinder    65,00 €     ab 4 Kinder    99,00 €",
+        "evidence": {
+          "source_id": "04fd37644a31",
+          "locator": "PDF-/Textseite 12, Absatzblock 6",
+          "original": null
+        }
+      },
+      {
+        "text": "Betreuungs-         Gebühr unter 3 Jahre\n umfang / Modul\n 35 Stunden          1 Kind           411,00 €\n                     2 Kinder         273,00 €\n                     3 Kinder         133,00 €\n                     ab 4 Kinder       68,00 €\n 37 Stunden          1 Kind           433,00 €\n 1 Nachmittag        2 Kinder         295,00 €\n                     3 Kinder         155,00 €\n                     ab 4 Kinder       78,00 €\n 39 Stunden          1 Kind           454,00 €\n 2 Nachmittage       2 Kinder         317,00 €\n                     3 Kinder         178,00 €\n                     ab 4 Kinder       89,00 €\n 41 Stunden          1 Kind           476,00 €\n 3 Nachmittage       2 Kinder         339,00 €\n                     3 Kinder         200,00 €\n                     ab 4 Kinder       99,00 €",
+        "evidence": {
+          "source_id": "04fd37644a31",
+          "locator": "PDF-/Textseite 13, Absatzblock 2",
+          "original": null
+        }
+      },
+      {
+        "text": "Modul            Betreuungs-      Gebühr U3\n                  umfang\n Modul VÖ         U3               1 Kind        318,00 €\n (Splitting:      20 Stunden       2 Kinder      229,00 €\n U3-20)           (an 5 Tagen)     3 Kinder      133,00 €\n                                   ab 4 Kinder    68,00 €\n Modul VÖ         U3               1 Kind        330,00 €\n (Splitting:      21 Stunden       2 Kinder      248,00 €\n U3-21)           (an 3 Tagen)     3 Kinder      146,00 €\n                                   ab 4 Kinder    83,00 €",
+        "evidence": {
+          "source_id": "04fd37644a31",
+          "locator": "PDF-/Textseite 13, Absatzblock 3",
+          "original": null
+        }
+      }
+    ]
+  }
+}

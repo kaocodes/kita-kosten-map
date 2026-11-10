@@ -2,14 +2,16 @@
 
 **Website:** [kaocodes.github.io/kita-kosten-map](https://kaocodes.github.io/kita-kosten-map/)
 
-Strukturierte Gebühren für zwölf Kommunen, mit archivierten offiziellen Quellen und einer nachvollziehbaren Vergleichsberechnung. Tarifstichtag des Standardprofils: **4. November 2026**; ergänzende Quellenprüfung: **7. November 2026**.
+Strukturierte Gebühren für 20 Kommunen, mit archivierten offiziellen Quellen und einer nachvollziehbaren Vergleichsberechnung. Tarifstichtag des Standardprofils: **4. November 2026**; ergänzende Quellenprüfung: **10. November 2026**.
+
+**Erweiterung auf Branch `Datensatz-Erweiterung`:** Acht im aktuellen Modellumfang vollständig unterstützte Kommunen sind zusätzlich eingebunden. Die Erweiterung ist nach lokaler Durchsicht zum Merge nach `main` und zur Veröffentlichung auf GitHub Pages freigegeben. Auswahl, Build-Schutz und Prüfungen: [Erweiterungsintegration](docs/ERWEITERUNGSINTEGRATION.md).
 
 Der Datenbestand enthält Krippen- und Kindergartentarife, Einkommens- und Familienstaffeln, Betreuungsmodelle, Ermäßigungen sowie gesonderte Kostenbausteine. Die Python-Datenpipeline benötigt Python ab Version 3.11 und ausschließlich die Standardbibliothek. Die lokale React-/Leaflet-Website verwendet den TypeScript-Rechenkern direkt im Browser.
 
 ## Einstieg
 
 - [UI-To-dos und SEO-Erinnerung](docs/NAECHSTE_SESSION.md): die UI-Punkte sind lokal umgesetzt; SEO bleibt eine offene Erinnerung.
-- [Standardvergleich und Vollständigkeitsprüfung](docs/STANDARDVERGLEICH.md): die zwölf Vergleichswerte und ihre Einschränkungen.
+- [Standardvergleich und Vollständigkeitsprüfung](docs/STANDARDVERGLEICH.md): die 20 Vergleichswerte und ihre Einschränkungen.
 - [Höchsttarifvergleich](docs/HOECHSTTARIFVERGLEICH.md): die erhaltene Vollzahlerreferenz.
 - [Datenmodell und Berechnung](docs/DATENMODELL.md): Struktur, Eingaben, Regeln und Pflegeablauf.
 - [TypeScript-Berechnung](docs/BROWSERBERECHNUNG.md): Schnittstelle, Entwicklung und Python-Gegenprüfung für den Browser-Rechenkern.
@@ -55,7 +57,7 @@ npm run build
 npm run preview
 ```
 
-`npm test` prüft Rechenkern und Webdaten mit 153 JavaScript-Tests, einschließlich der gemeinsamen Szenarien gegen Python. `build` erzeugt die statische Website unter `dist/`; `preview` zeigt diesen Build unter **http://127.0.0.1:4173/**. Der Workflow unter `.github/workflows/pages.yml` prüft Änderungen und veröffentlicht erfolgreiche Builds von `main` auf GitHub Pages. Die Python-Datenpipeline benötigt weiterhin keine externen Python-Pakete.
+`npm test` prüft Rechenkern und Webdaten mit 157 JavaScript-Tests, einschließlich der gemeinsamen Szenarien gegen Python. `build` erzeugt die statische Website unter `dist/`; `preview` zeigt diesen Build unter **http://127.0.0.1:4173/**. Der Workflow unter `.github/workflows/pages.yml` prüft Änderungen und veröffentlicht erfolgreiche Builds von `main` auf GitHub Pages. Die Python-Datenpipeline benötigt weiterhin keine externen Python-Pakete.
 
 `export` erzeugt `data/exports/default_comparison.json` für die Modellfamilie und `highest_band_comparison.json` für die Höchsttarifreferenz, jeweils mit CSV-Datei. Dazu kommen Register, Katalog der aktiven Tarife sowie CSV-Tabellen für Tarife, Angebote, Einkommensstufen und Zusatzkosten. Beide deutschen Vergleichsberichte werden aktualisiert. Die CSV-Dateien sind abgeleitete Ansichten; ihre Geldbeträge stehen in **Cent**, Zeitangaben in **Minuten**. Verschachtelte Felder enthalten JSON. Das vollständige Quellenarchiv wird nicht in diese Exporte kopiert.
 
@@ -78,7 +80,7 @@ python3 scripts/fetch_sources.py --municipality Stuttgart --url https://www.stut
 
 Der Abruf benötigt Internetzugang; PDF-Texte werden mit `pdftotext` extrahiert. Anschließend müssen Änderungen an den kanonischen JSON-Dateien geprüft, mit Quellen belegt und mit den Befehlen oben validiert und exportiert werden. Der einmalige Import `scripts/import_snapshot.py` ist eine Migration der alten Recherchefassung. Er wird im Pflegeablauf nicht erneut ausgeführt; `--force` würde manuelle Datenänderungen ersetzen.
 
-Alle zwölf Werte beider Referenzprofile sind mit offiziellen Quellen abgeglichen. Einzelne andere Modelle und Sonderfälle bleiben eingeschränkt: etwa nicht veröffentlichte GT11-Preise, uneindeutige Einkommensgrenzen, unbestätigte Tagesverteilungen und die einmalige FamilienCard-Zuschlagsverteilung bei mehreren U3-Kindern. Solche Fälle liefern einen konkreten Grund statt eines geschätzten Betrags. Satzungsregeln zu Abwesenheit, Eingewöhnung und Einzelfallentscheidungen bleiben vollständig in den Quellen erhalten; die ausführbare Berechnung deckt reguläre Tarife und die dokumentierten unterstützten Ermäßigungen ab.
+Die zwölf bisherigen Referenzwerte bleiben unverändert. Die acht neuen Kommunen sind über die gesonderten Quellenreferenzen und die vollständige Modellprüfung abgesichert. Einzelne andere Modelle und Sonderfälle bleiben eingeschränkt: etwa nicht veröffentlichte GT11-Preise, uneindeutige Einkommensgrenzen, unbestätigte Tagesverteilungen und die einmalige FamilienCard-Zuschlagsverteilung bei mehreren U3-Kindern. Solche Fälle liefern einen konkreten Grund statt eines geschätzten Betrags. Satzungsregeln zu Abwesenheit, Eingewöhnung und Einzelfallentscheidungen bleiben vollständig in den Quellen erhalten; die ausführbare Berechnung deckt reguläre Tarife und die dokumentierten unterstützten Ermäßigungen ab.
 
 Historische Preisreihen sind zurückgestellt. Die Webkarte verwendet diese Datengrundlage seit Paket 3.
 
@@ -86,7 +88,7 @@ Historische Preisreihen sind zurückgestellt. Die Webkarte verwendet diese Daten
 
 Als Hauptdarstellung sind seit 8. November 2026 **eingefärbte Gemeindeflächen** beschlossen und mit React, Vite, CSS Modules und Leaflet umgesetzt. TypeScript und Zod bilden den Rechenkern und die Eingabeprüfung. Eine statische Website auf **GitHub Pages** ist die bevorzugte Betriebsform; Tests, Build und Veröffentlichung werden durch GitHub Actions automatisiert.
 
-Die Webgeometrie wird reproduzierbar aus den archivierten BKG-Grenzen aufbereitet. Sie enthält die zwölf Vergleichskommunen und 128 Umgebungsgebiete und umfasst rund 132 kB. Grenzstand 1. Januar 2025, Quellen, Lizenz und Prüfsummen sind gesichert; die aktuelle Verarbeitung steht in [WEBANWENDUNG.md](docs/WEBANWENDUNG.md). Die älteren HTML-Entwürfe in `output/` bleiben Gesprächsvorschauen mit Höchsttarifwerten.
+Die Webgeometrie wird reproduzierbar aus den archivierten BKG-Grenzen aufbereitet. Sie enthält die 20 Vergleichskommunen und 120 Umgebungsgebiete und umfasst rund 132 kB. Grenzstand 1. Januar 2025, Quellen, Lizenz und Prüfsummen sind gesichert; die aktuelle Verarbeitung steht in [WEBANWENDUNG.md](docs/WEBANWENDUNG.md). Die älteren HTML-Entwürfe in `output/` bleiben Gesprächsvorschauen mit Höchsttarifwerten.
 
 Die bisherige Modellfamilie bleibt der Startwert des neuen Konfigurators. `data/models/configuration.json` definiert dessen Szenarien und feste Einkommensannahmen. Die alten Reiter „Eigene Familie“ und „Höchsttarif“ entfallen. Die frühere Oberfläche ist unter `web/src/LegacyProfileApp.tsx` erhalten und wird nicht öffentlich gebündelt. Einzelheiten einschließlich Aussagegrenzen stehen in [MODELLFAMILIEN.md](docs/MODELLFAMILIEN.md).
 

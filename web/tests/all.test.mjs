@@ -3,3 +3,4 @@ import "./conformance.test.mjs";
 import "./site-data.test.mjs";
 import "./personal-profile.test.mjs";
 import "./model-family.test.mjs";
+import "./expansion-activation.test.mjs";

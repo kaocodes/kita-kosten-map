@@ -18,14 +18,11 @@
 .headlineHighlight { min-width: 0; display: block; padding: .12em .24em .17em; background: #7042a6; color: #fff; line-height: 1.12; border-radius: 3px 5px 2px 4px; transform: rotate(-1deg); transform-origin: left center; overflow-wrap: anywhere; }
 .introCaption { display: flex; align-items: baseline; flex-wrap: wrap; gap: 8px 20px; margin-top: 17px; }
 .introCaption .lead { margin: 0; }
-.headlinePause { border: 0; background: transparent; color: var(--muted-ink); padding: 5px 0; font-size: 11px; text-decoration: underline; text-underline-offset: 3px; }
 @keyframes municipalityEnter { from { opacity: 0; transform: translateY(7px); } to { opacity: 1; transform: translateY(0); } }
 .lead { color: var(--muted-ink); font-size: 14px; margin: 15px 0 0; }
 .mapCard, .card, .comparisonCard, .loadingCard { background: var(--surface); border: 1px solid var(--border); border-radius: 10px 14px 9px 12px; }
 .mapCard { overflow: hidden; scroll-margin-top: 18px; }
-.cardHeading { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px; padding: 22px 26px; }
-.cardHeading h2, .card h2, .listHeading h2, .methodCard h2 { margin: 0; font: 600 25px/1.2 var(--display-font); letter-spacing: -.65px; }
-.countBadge { font-size: 11px; color: var(--muted-ink); }
+.card h2, .listHeading h2, .methodCard h2 { margin: 0; font: 600 25px/1.2 var(--display-font); letter-spacing: -.65px; }
 .legend { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 14px 25px; padding: 19px 26px 21px; }
 .legendScale { width: 270px; max-width: 100%; }
 .legendBands { display: flex; height: 14px; overflow: hidden; border-radius: 3px; }
@@ -82,15 +79,15 @@
 .sourceDisclosure li { margin-top: 7px; overflow-wrap: anywhere; }
 .card { padding: 26px; margin-top: 28px; }
 .familyCards { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 22px; margin-top: 22px; }
-.familyCard { display: flex; align-items: center; justify-content: center; gap: 22px; width: 100%; min-width: 0; padding: 20px 24px; background: var(--surface); border: 1.5px solid var(--border); border-radius: 14px 8px 15px 9px; text-align: left; color: var(--ink); }
-.familyCard[aria-pressed="true"] { background: #e4ddf7; border: 2px solid #424558; box-shadow: 4px 5px 0 #e5e0ed; transform: rotate(-.5deg); }
-.familyCard:hover { border-color: #858199; }
-.familyImage { display: block; width: 155px; height: 180px; flex-shrink: 0; object-fit: contain; }
+.familyCard { display: flex; align-items: center; justify-content: center; gap: 22px; width: 100%; min-width: 0; padding: 20px 24px; background: var(--surface); border: 1.5px solid var(--border); border-radius: 14px 8px 15px 9px; text-align: left; color: var(--ink); box-shadow: 4px 6px 0 #46405230, 0 5px 13px #30344012; transition: box-shadow .18s ease, border-color .18s ease; }
+.familyCard[aria-pressed="true"] { background: #e4ddf7; border: 2px solid #424558; box-shadow: 5px 7px 0 #46405242, 0 6px 16px #30344018; transform: rotate(-.5deg); }
+.familyCard:hover { border-color: #858199; box-shadow: 5px 8px 0 #46405245, 0 8px 18px #3034401c; }
+.familyImage { display: block; width: 201.5px; height: 234px; max-width: 48%; flex-shrink: 0; object-fit: contain; }
 .familyCopy { display: block; min-width: 0; max-width: 100%; }
 .familyCopy > strong { display: block; font: 600 24px/1.15 var(--display-font); letter-spacing: -.5px; }
 .familyCopy > .modelLabel { display: inline-block; max-width: 100%; padding: .14em .23em .19em; margin-bottom: 5px; background: #303440; color: #fff; font-size: clamp(20px, 2.35vw, 28px); font-weight: 750; line-height: 1.16; transform: rotate(-2deg); transform-origin: left center; border-radius: 2px 4px 2px 3px; overflow-wrap: anywhere; }
+.familyCopy > .comparisonLabel { background: #7042a6; }
 .familyCopy > small { display: block; font-size: 11px; margin-top: 6px; }
-.handwritten { display: inline-block; max-width: 100%; padding: .15em .24em .2em; color: #fff; background: #7042a6; font: italic 700 32px/1.2 Georgia, serif; margin-bottom: 15px; transform: rotate(-2deg); transform-origin: left center; border-radius: 3px 2px 4px 2px; overflow-wrap: anywhere; }
 .configureLink { display: block; margin-top: 20px; font-size: 12px; text-decoration: underline; text-underline-offset: 4px; }
 .configureLink > span { display: inline-block; text-decoration: none; margin-left: 6px; }
 .configuration { margin-top: 27px; border-top: 1px solid var(--border); padding-top: 23px; }
@@ -152,14 +149,14 @@
 .reasonList { font-size: 12px; color: #6b4128; background: #f7e8dd; border-left: 3px solid #c96726; padding: 12px 12px 12px 29px; line-height: 1.7; }
 .visuallyHidden, .skipLink { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }
 .skipLink:focus { width: auto; height: auto; margin: 0; clip: auto; position: fixed; top: 10px; left: 10px; z-index: 10000; background: var(--surface); padding: 12px; border-radius: 5px; }
-@media (max-width: 1000px) { .header { gap: 20px; } .dateBadge { flex-basis: 100%; text-align: right; margin-top: -14px; } .familyCard { padding: 18px; gap: 14px; } .familyImage { width: 120px; height: 160px; } .familyCopy > strong { font-size: 21px; } }
+@media (max-width: 1000px) { .header { gap: 20px; } .dateBadge { flex-basis: 100%; text-align: right; margin-top: -14px; } .familyCard { padding: 18px; gap: 14px; } .familyImage { width: 156px; height: 208px; } .familyCopy > strong { font-size: 21px; } }
 @media (max-width: 780px) {
   .header { padding: 18px 22px; gap: 18px; } .header nav { gap: 15px; } .header nav a { font-size: 11px; }
   .brand { font-size: 22px; gap: 8px; } .brandImage { width: 49px; height: 49px; } .brand small { font-size: 8px; letter-spacing: 1.5px; }
   .dateBadge { margin-top: -6px; } .main { padding: 28px 20px 22px; } .intro h1 { font-size: 39px; letter-spacing: -1.4px; }
-  .cardHeading, .card, .comparisonCard, .detailsCard { padding: 20px; } .cardHeading h2, .card h2, .listHeading h2 { font-size: 22px; }
+  .card, .comparisonCard, .detailsCard { padding: 20px; } .card h2, .listHeading h2 { font-size: 22px; }
   .legend { padding: 17px 20px; } .legendScale { width: 240px; } .detailHeading h3 { font-size: 27px; } .price { font-size: 34px; }
-  .familyCards { gap: 14px; } .familyCard { flex-direction: column; align-items: start; justify-content: start; padding: 18px; gap: 16px; } .familyImage { width: 145px; height: 170px; align-self: center; }
+  .familyCards { gap: 14px; } .familyCard { flex-direction: column; align-items: start; justify-content: start; padding: 18px; gap: 16px; } .familyImage { width: 188.5px; height: 221px; max-width: 100%; align-self: center; }
   .familyCopy > strong { font-size: 21px; } .fields { grid-template-columns: 1fr 1fr; } .fields > label:last-child { grid-column: 1 / -1; }
   .breakdown { grid-template-columns: repeat(2, minmax(0, 1fr)); } .methodCard { grid-template-columns: 1fr; gap: 18px; } .methodExplanation { border-left: 0; padding-left: 0; }
   .footer { flex-direction: column; gap: 13px; } .footer p { text-align: left; } .inlineDetails { padding: 17px; }
@@ -167,9 +164,9 @@
 @media (max-width: 520px) {
   .header { padding: 16px; gap: 14px; } .header nav { gap: 12px; } .header nav a { font-size: 10px; } .brand { font-size: 20px; } .brandImage { width: 43px; height: 43px; }
   .main { padding: 25px 14px 20px; } .intro h1 { font-size: 33px; letter-spacing: -1.2px; } .lead { font-size: 13px; }
-  .cardHeading, .card, .comparisonCard, .detailsCard { padding: 18px; } .cardHeading h2 { font-size: 21px; } .countBadge { font-size: 10px; }
-  .familyCards { grid-template-columns: 1fr; } .familyCard { flex-direction: row; align-items: center; padding: 16px; gap: 17px; } .familyImage { width: 105px; height: 145px; }
-  .familyCopy > strong { font-size: 21px; } .handwritten { font-size: 26px; } .configureLink { margin-top: 13px; }
+  .card, .comparisonCard, .detailsCard { padding: 18px; }
+  .familyCards { grid-template-columns: 1fr; } .familyCard { flex-direction: row; align-items: center; padding: 16px; gap: 17px; } .familyImage { width: 136.5px; height: 188.5px; max-width: 48%; }
+  .familyCopy > strong { font-size: 21px; } .familyCopy > .modelLabel { font-size: clamp(16px, 4.4vw, 20px); } .configureLink { margin-top: 13px; }
   .fields, .children { grid-template-columns: 1fr; gap: 14px; } .children fieldset:only-child { display: block; } .fields > label:last-child { grid-column: auto; }
   .card select { font-size: 16px; } .childBreakdown > summary { flex-wrap: wrap; padding: 12px; gap: 6px; } .childBreakdown > summary > span { flex-basis: calc(100% - 28px); }
   .childBreakdown > summary strong { order: 3; flex-basis: 100%; margin: 0; text-align: left; } .childBreakdown > summary i { margin-left: auto; }
@@ -177,5 +174,5 @@
   .municipalityButton { gap: 10px; } .cityName { font-size: 13px; } .cityName small { font-size: 10px; } .municipalityButton > strong { font-size: 13px; }
   .inlineDetails { padding: 13px; } .inlineDetails .price { font-size: 30px; } .breakdown { grid-template-columns: 1fr; gap: 12px; }
 }
-@media (max-width: 360px) { .header nav { margin-left: 0; } .header { justify-content: space-between; } .dateBadge { text-align: left; } .intro h1 { font-size: 29px; } .familyImage { width: 85px; height: 130px; } .familyCard { gap: 12px; padding: 13px; } .familyCopy > strong { font-size: 19px; } .familyCopy > .modelLabel { font-size: 16px; overflow-wrap: normal; } .handwritten { font-size: 24px; } .cityName { font-size: 12px; } .municipalityButton > strong { font-size: 12px; } }
-@media (prefers-reduced-motion: reduce) { .childBreakdown > summary i { transition: none; } .headlineWord { animation: none; } }
+@media (max-width: 360px) { .header nav { margin-left: 0; } .header { justify-content: space-between; } .dateBadge { text-align: left; } .intro h1 { font-size: 29px; } .familyImage { width: 110.5px; height: 169px; } .familyCard { gap: 12px; padding: 13px; } .familyCopy > strong { font-size: 19px; } .familyCopy > .modelLabel { font-size: 15px; overflow-wrap: normal; } .cityName { font-size: 12px; } .municipalityButton > strong { font-size: 12px; } }
+@media (prefers-reduced-motion: reduce) { .childBreakdown > summary i, .familyCard { transition: none; } .headlineWord { animation: none; } }

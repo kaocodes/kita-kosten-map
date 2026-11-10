@@ -88,8 +88,12 @@ function browserProjection(value) {
   if (Array.isArray(value)) return value.map(browserProjection);
   if (value && typeof value === "object") {
     const evidence = "source_id" in value && "locator" in value;
+    // Non-executable rules retain identity, status and evidence so selecting one
+    // still fails explicitly. Their archival parameters cannot affect a result.
+    const unimplementedRule = "parameters" in value && "execution_status" in value && value.execution_status !== "supported";
     return Object.fromEntries(Object.entries(value)
-      .filter(([key]) => key !== "original_research" && !(evidence && key === "original"))
+      .filter(([key]) => !["original_research", "coverage", "source_text_archive"].includes(key) &&
+        !(evidence && key === "original") && !(unimplementedRule && key === "parameters"))
       .map(([key, item]) => [key, browserProjection(item)]));
   }
   return value;
@@ -148,7 +152,7 @@ const metrics = {
   max_map_zoom: provenance.processing.max_map_zoom,
 };
 assert.ok(metrics.geometry_bytes <= 200_000, "Geometry exceeds its 200 kB budget");
-assert.ok(metrics.catalog_bytes <= 1_500_000, "Browser catalog exceeds its 1.5 MB budget");
+assert.ok(metrics.catalog_bytes <= 2_000_000, "Browser catalog exceeds its 2 MB budget");
 assert.ok(metrics.catalog_gzip_bytes + metrics.geometry_gzip_bytes <= 150_000, "Compressed data exceeds its 150 kB budget");
 await mkdir(output, { recursive: true });
 await Promise.all([

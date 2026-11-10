@@ -41,7 +41,8 @@ test("Six explicit income scenarios cover six Esslingen, four Ditzingen and five
 test("Both household choices, all scenarios and both care durations calculate without stale assumptions", () => {
   for (const household of ["couple", "single"]) for (const scenario of models.income_scenarios) for (const minutes of [360, 480]) {
     const selection = { household, income_id: scenario.id, children: [child("nursery", minutes)] };
-    assert.equal(compare(selection).filter(item => item.status === "comparable").length, 12);
+    assert.equal(compare(selection).filter(item => item.status === "comparable").length,
+      bundle.registry.municipalities.filter(item => item.active).length);
     const profile = modelProfile(bundle.profiles.default, selection, models);
     assert.equal(profile.single_parent, household === "single");
     assert.deepEqual(profile.model_income_snapshot.incomes, scenario.incomes);

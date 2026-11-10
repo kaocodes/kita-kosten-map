@@ -32,6 +32,230 @@
   },
   "results": [
     {
+      "municipality_id": "aidlingen",
+      "municipality": "Aidlingen",
+      "profile_id": "u3-single-child-full-payer-40h",
+      "as_of": "2026-11-04",
+      "reviewed_at": "2026-11-10",
+      "status": "comparable",
+      "reasons": [],
+      "monthly_care_cents": 70000,
+      "annual_care_cents": 840000,
+      "monthly_equivalent_cents": 70000,
+      "offer_id": "aidlingen-offer-9a4436f62973",
+      "offer_label": "GT8",
+      "booked_weekly_minutes": 2400,
+      "extra_weekly_minutes": 0,
+      "payment_months": 12,
+      "components": [
+        {
+          "id": "aidlingen-component-1ed42a7434b7",
+          "kind": "meal",
+          "original_label": "Essensgeld",
+          "amount_cents": null,
+          "unit": "per_month",
+          "age_group": null,
+          "required": null,
+          "payment_months": null,
+          "offer_ids": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "value_status": "unknown",
+          "evidence": {
+            "source_id": "f990b6b54a41",
+            "locator": "Benutzungsordnung: zusätzliche Verpflegung",
+            "original": null
+          },
+          "annual_equivalent_cents": null
+        }
+      ],
+      "calculation": [
+        {
+          "operation": "table_lookup",
+          "price_id": "aidlingen-price-5ef3b26eafa5",
+          "amount_cents": 70000,
+          "evidence": {
+            "source_id": "eafbe25e6e6e",
+            "locator": "Bildbasierte Änderungssatzung S. 1–2, 2026-09-01",
+            "original": 70000
+          }
+        },
+        {
+          "operation": "annual_equivalent_divided_by_12",
+          "monthly_cents": 70000,
+          "payment_months": 12,
+          "result_cents": 70000
+        }
+      ],
+      "evidence": [
+        {
+          "source_id": "eafbe25e6e6e",
+          "locator": "Bildbasierte Änderungssatzung S. 1–2, 2026-09-01",
+          "original": null
+        },
+        {
+          "source_id": "eafbe25e6e6e",
+          "locator": "Bildbasierte Änderungssatzung S. 1–2, 2026-09-01",
+          "original": 70000
+        },
+        {
+          "source_id": "eafbe25e6e6e",
+          "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+          "original": null,
+          "verification": "explicit"
+        },
+        {
+          "source_id": "f990b6b54a41",
+          "locator": "§ 2 Abs. 2: VÖ sechs, VÖ+ sechseinhalb und GT8 acht Stunden täglich",
+          "original": null
+        }
+      ],
+      "issues": [
+        {
+          "code": "pending_calculation_review",
+          "detail": "Strukturierter Import; noch keine Freigabe des Rechners oder der Website."
+        },
+        {
+          "code": "research_limitation_1",
+          "detail": "Die Essenspauschale und genaue VÖ-/VÖ+-Zeiten sind ergänzend zu belegen; keine alten GT10-Preise in den aktuellen Tarif übernehmen."
+        }
+      ],
+      "alternatives": [],
+      "family_count": 1,
+      "care_rank": 1,
+      "selected_price_id": "aidlingen-price-5ef3b26eafa5",
+      "total_mandatory_monthly_equivalent_cents": null,
+      "total_status": "incomplete_or_variant_costs",
+      "ags": "08115001",
+      "area_id": "municipality-08115001",
+      "tariff_id": "aidlingen"
+    },
+    {
+      "municipality_id": "asperg",
+      "municipality": "Asperg",
+      "profile_id": "u3-single-child-full-payer-40h",
+      "as_of": "2026-11-04",
+      "reviewed_at": "2026-11-10",
+      "status": "comparable",
+      "reasons": [],
+      "monthly_care_cents": 47300,
+      "annual_care_cents": 567600,
+      "monthly_equivalent_cents": 47300,
+      "offer_id": "asperg-offer-0221355b15b0",
+      "offer_label": "GT9,5",
+      "booked_weekly_minutes": 2850,
+      "extra_weekly_minutes": 450,
+      "payment_months": 12,
+      "components": [
+        {
+          "id": "asperg-component-8085c01bf08e",
+          "kind": "meal",
+          "original_label": "Mittagessen je Portion",
+          "amount_cents": 420,
+          "unit": "per_meal",
+          "age_group": null,
+          "required": null,
+          "payment_months": null,
+          "offer_ids": null,
+          "valid_from": "2025-09-01",
+          "valid_to": "2026-12-31",
+          "value_status": "known",
+          "evidence": {
+            "source_id": "c039257120e8",
+            "locator": "§ 5 Abs. 6 h",
+            "original": null
+          },
+          "annual_equivalent_cents": null,
+          "calculation": []
+        },
+        {
+          "id": "asperg-component-db173e9e977b",
+          "kind": "late_pickup",
+          "original_label": "Verspätete Abholung",
+          "amount_cents": 2500,
+          "unit": "per_started_hour",
+          "age_group": null,
+          "required": false,
+          "payment_months": null,
+          "offer_ids": null,
+          "valid_from": "2025-09-01",
+          "valid_to": null,
+          "value_status": "known",
+          "evidence": {
+            "source_id": "c039257120e8",
+            "locator": "§ 6 Abs. 6",
+            "original": null
+          },
+          "annual_equivalent_cents": null,
+          "calculation": []
+        }
+      ],
+      "calculation": [
+        {
+          "operation": "table_lookup",
+          "price_id": "asperg-price-b0d7995c74e2",
+          "amount_cents": 47300,
+          "evidence": {
+            "source_id": "c039257120e8",
+            "locator": "§ 5 Abs. 6 a–e, Spalte ab 01.09.2025",
+            "original": 473
+          }
+        },
+        {
+          "operation": "annual_equivalent_divided_by_12",
+          "monthly_cents": 47300,
+          "payment_months": 12,
+          "result_cents": 47300
+        }
+      ],
+      "evidence": [
+        {
+          "source_id": "c039257120e8",
+          "locator": "§ 5 Abs. 6 a–e, Spalte ab 01.09.2025",
+          "original": null
+        },
+        {
+          "source_id": "c039257120e8",
+          "locator": "§ 5 Abs. 6 a–e, Spalte ab 01.09.2025",
+          "original": 473
+        },
+        {
+          "source_id": "c039257120e8",
+          "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+          "original": null,
+          "verification": "explicit"
+        },
+        {
+          "source_id": "c039257120e8",
+          "locator": "§ 5 Abs. 6 a–e, Spalte ab 01.09.2025",
+          "original": null
+        }
+      ],
+      "issues": [
+        {
+          "code": "pending_calculation_review",
+          "detail": "Strukturierter Import; noch keine Freigabe des Rechners oder der Website."
+        },
+        {
+          "code": "research_limitation_1",
+          "detail": "Familienpass-Berechtigungen müssen für die späteren Modellannahmen gesondert geprüft werden."
+        },
+        {
+          "code": "published_non_monotone_future_cell",
+          "detail": "Asperg ab September 2027, U3 GT9,5 drei Tage: vier Kinder 284,50 Euro laut Quelle; nicht auf einen vermuteten niedrigeren Betrag korrigiert."
+        }
+      ],
+      "alternatives": [],
+      "family_count": 1,
+      "care_rank": 1,
+      "selected_price_id": "asperg-price-b0d7995c74e2",
+      "total_mandatory_monthly_equivalent_cents": null,
+      "total_status": "incomplete_or_variant_costs",
+      "ags": "08118003",
+      "area_id": "municipality-08118003",
+      "tariff_id": "asperg"
+    },
+    {
       "municipality_id": "boeblingen",
       "municipality": "Böblingen",
       "profile_id": "u3-single-child-full-payer-40h",
@@ -148,6 +372,119 @@
       "ags": "08115003",
       "area_id": "municipality-08115003",
       "tariff_id": "boeblingen"
+    },
+    {
+      "municipality_id": "deizisau",
+      "municipality": "Deizisau",
+      "profile_id": "u3-single-child-full-payer-40h",
+      "as_of": "2026-11-04",
+      "reviewed_at": "2026-11-10",
+      "status": "comparable",
+      "reasons": [],
+      "monthly_care_cents": 83600,
+      "annual_care_cents": 919600,
+      "monthly_equivalent_cents": 76633,
+      "offer_id": "deizisau-offer-9216bd8ddafa",
+      "offer_label": "GT 7–17 Uhr an 5 Tagen, sonst VÖ",
+      "booked_weekly_minutes": 3000,
+      "extra_weekly_minutes": 600,
+      "payment_months": 11,
+      "components": [
+        {
+          "id": "deizisau-component-a91649f2552d",
+          "kind": "meal",
+          "original_label": "Mittagessen",
+          "amount_cents": null,
+          "unit": "per_month",
+          "age_group": null,
+          "required": true,
+          "payment_months": null,
+          "offer_ids": [
+            "deizisau-offer-455c1b690515",
+            "deizisau-offer-e9296c1ad2ed",
+            "deizisau-offer-fe0b81321a63",
+            "deizisau-offer-4ebeb45c3058",
+            "deizisau-offer-b3a8cd5bab87",
+            "deizisau-offer-c309dfa2c2c8",
+            "deizisau-offer-568df5de2d1d",
+            "deizisau-offer-e73a0e89c63c",
+            "deizisau-offer-ecf6f8d65400",
+            "deizisau-offer-9216bd8ddafa"
+          ],
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "value_status": "unknown",
+          "evidence": {
+            "source_id": "09e38530df32",
+            "locator": "Verpflegung / Zusatzkosten",
+            "original": null
+          },
+          "applies_when": {
+            "gt_days_per_week_min": 1
+          },
+          "annual_equivalent_cents": null
+        }
+      ],
+      "calculation": [
+        {
+          "operation": "table_lookup",
+          "price_id": "deizisau-price-716cc7e8ea09",
+          "amount_cents": 83600,
+          "evidence": {
+            "source_id": "09e38530df32",
+            "locator": "GT-Tabelle, 5 Tage/Woche",
+            "original": 836
+          }
+        },
+        {
+          "operation": "annual_equivalent_divided_by_12",
+          "monthly_cents": 83600,
+          "payment_months": 11,
+          "result_cents": 76633
+        }
+      ],
+      "evidence": [
+        {
+          "source_id": "09e38530df32",
+          "locator": "GT-Tabelle, 5 Tage/Woche",
+          "original": null
+        },
+        {
+          "source_id": "09e38530df32",
+          "locator": "GT-Tabelle, 5 Tage/Woche",
+          "original": 836
+        },
+        {
+          "source_id": "09e38530df32",
+          "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+          "original": null,
+          "verification": "explicit"
+        },
+        {
+          "source_id": "09e38530df32",
+          "locator": "GT-Tabelle, 5 Tage/Woche",
+          "original": null
+        }
+      ],
+      "issues": [
+        {
+          "code": "pending_calculation_review",
+          "detail": "Strukturierter Import; noch keine Freigabe des Rechners oder der Website."
+        },
+        {
+          "code": "research_limitation_1",
+          "detail": "Die aktuelle Essenspauschale ist ergänzend zu prüfen; die Gebührenübersicht nennt keine feste Höhe."
+        }
+      ],
+      "alternatives": [],
+      "family_count": 1,
+      "care_rank": 1,
+      "selected_price_id": "deizisau-price-716cc7e8ea09",
+      "total_mandatory_monthly_equivalent_cents": null,
+      "total_status": "incomplete_or_variant_costs",
+      "ags": "08116014",
+      "area_id": "municipality-08116014",
+      "tariff_id": "deizisau"
     },
     {
       "municipality_id": "ditzingen",
@@ -273,6 +610,105 @@
       "ags": "08118011",
       "area_id": "municipality-08118011",
       "tariff_id": "ditzingen"
+    },
+    {
+      "municipality_id": "ehningen",
+      "municipality": "Ehningen",
+      "profile_id": "u3-single-child-full-payer-40h",
+      "as_of": "2026-11-04",
+      "reviewed_at": "2026-11-10",
+      "status": "comparable",
+      "reasons": [],
+      "monthly_care_cents": 99300,
+      "annual_care_cents": 1092300,
+      "monthly_equivalent_cents": 91025,
+      "offer_id": "ehningen-offer-c36a9356ed3d",
+      "offer_label": "GT 5 Tage 7:00–17:00 Uhr",
+      "booked_weekly_minutes": 3000,
+      "extra_weekly_minutes": 600,
+      "payment_months": 11,
+      "components": [
+        {
+          "id": "ehningen-component-a91649f2552d",
+          "kind": "meal",
+          "original_label": "Mittagessen",
+          "amount_cents": null,
+          "unit": "per_month",
+          "age_group": null,
+          "required": null,
+          "payment_months": null,
+          "offer_ids": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "value_status": "unknown",
+          "evidence": {
+            "source_id": "da4b793532b5",
+            "locator": "Verpflegung gesondert",
+            "original": null
+          },
+          "annual_equivalent_cents": null
+        }
+      ],
+      "calculation": [
+        {
+          "operation": "table_lookup",
+          "price_id": "ehningen-price-fa6ead3c9632",
+          "amount_cents": 99300,
+          "evidence": {
+            "source_id": "1e9f8dc795b7",
+            "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+            "original": 99300
+          }
+        },
+        {
+          "operation": "annual_equivalent_divided_by_12",
+          "monthly_cents": 99300,
+          "payment_months": 11,
+          "result_cents": 91025
+        }
+      ],
+      "evidence": [
+        {
+          "source_id": "1e9f8dc795b7",
+          "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+          "original": null
+        },
+        {
+          "source_id": "1e9f8dc795b7",
+          "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+          "original": 99300
+        },
+        {
+          "source_id": "1e9f8dc795b7",
+          "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+          "original": null,
+          "verification": "explicit"
+        },
+        {
+          "source_id": "1e9f8dc795b7",
+          "locator": "PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen",
+          "original": null
+        }
+      ],
+      "issues": [
+        {
+          "code": "pending_calculation_review",
+          "detail": "Strukturierter Import; noch keine Freigabe des Rechners oder der Website."
+        },
+        {
+          "code": "research_limitation_1",
+          "detail": "Für fünfmal mindestens acht Stunden belegt die aktuelle Modulliste GT10; kein nicht veröffentlichtes 5×9-Modul erfinden. Essen separat nachprüfen."
+        }
+      ],
+      "alternatives": [],
+      "family_count": 1,
+      "care_rank": 1,
+      "selected_price_id": "ehningen-price-fa6ead3c9632",
+      "total_mandatory_monthly_equivalent_cents": null,
+      "total_status": "incomplete_or_variant_costs",
+      "ags": "08115013",
+      "area_id": "municipality-08115013",
+      "tariff_id": "ehningen"
     },
     {
       "municipality_id": "esslingen",
@@ -626,6 +1062,107 @@
       "ags": "08118019",
       "area_id": "municipality-08118019",
       "tariff_id": "gerlingen"
+    },
+    {
+      "municipality_id": "holzgerlingen",
+      "municipality": "Holzgerlingen",
+      "profile_id": "u3-single-child-full-payer-40h",
+      "as_of": "2026-11-04",
+      "reviewed_at": "2026-11-10",
+      "status": "comparable",
+      "reasons": [],
+      "monthly_care_cents": 67000,
+      "annual_care_cents": 804000,
+      "monthly_equivalent_cents": 67000,
+      "offer_id": "holzgerlingen-offer-5b067addfa5d",
+      "offer_label": "Krippe bis 8,5 Stunden",
+      "booked_weekly_minutes": 2550,
+      "extra_weekly_minutes": 150,
+      "payment_months": 12,
+      "components": [
+        {
+          "id": "holzgerlingen-component-c969573ac301",
+          "kind": "meal",
+          "original_label": "Mittagessen 5 Tage",
+          "amount_cents": 11350,
+          "unit": "per_month",
+          "age_group": null,
+          "required": null,
+          "payment_months": 12,
+          "offer_ids": null,
+          "valid_from": "2025-09-01",
+          "valid_to": null,
+          "value_status": "known",
+          "evidence": {
+            "source_id": "08a2ada2b7fc",
+            "locator": "§ 5 Abs. 3",
+            "original": null
+          },
+          "days_per_week": 5,
+          "annual_equivalent_cents": 11350,
+          "calculation": []
+        }
+      ],
+      "calculation": [
+        {
+          "operation": "table_lookup",
+          "price_id": "holzgerlingen-price-7bbf7db9a3b1",
+          "amount_cents": 67000,
+          "evidence": {
+            "source_id": "08a2ada2b7fc",
+            "locator": "§ 4 Abs. 7, Nr. 1–4, ab September 2025",
+            "original": 670
+          }
+        },
+        {
+          "operation": "annual_equivalent_divided_by_12",
+          "monthly_cents": 67000,
+          "payment_months": 12,
+          "result_cents": 67000
+        }
+      ],
+      "evidence": [
+        {
+          "source_id": "08a2ada2b7fc",
+          "locator": "§ 4 Abs. 7, Nr. 1–4, ab September 2025",
+          "original": null
+        },
+        {
+          "source_id": "08a2ada2b7fc",
+          "locator": "§ 4 Abs. 7, Nr. 1–4, ab September 2025",
+          "original": 670
+        },
+        {
+          "source_id": "08a2ada2b7fc",
+          "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+          "original": null,
+          "verification": "explicit"
+        },
+        {
+          "source_id": "08a2ada2b7fc",
+          "locator": "§ 4 Abs. 7, Nr. 1–4, ab September 2025",
+          "original": null
+        }
+      ],
+      "issues": [
+        {
+          "code": "pending_calculation_review",
+          "detail": "Strukturierter Import; noch keine Freigabe des Rechners oder der Website."
+        },
+        {
+          "code": "research_limitation_1",
+          "detail": "Die ältere Jahreszahl macht die weiterhin verlinkte, unbefristete Fassung nicht automatisch ungültig. Vor Aktivierung erneut auf Änderungen prüfen."
+        }
+      ],
+      "alternatives": [],
+      "family_count": 1,
+      "care_rank": 1,
+      "selected_price_id": "holzgerlingen-price-7bbf7db9a3b1",
+      "total_mandatory_monthly_equivalent_cents": null,
+      "total_status": "incomplete_or_variant_costs",
+      "ags": "08115024",
+      "area_id": "municipality-08115024",
+      "tariff_id": "holzgerlingen"
     },
     {
       "municipality_id": "korntal-muenchingen",
@@ -1265,6 +1802,239 @@
       "tariff_id": "ludwigsburg"
     },
     {
+      "municipality_id": "marbach",
+      "municipality": "Marbach am Neckar",
+      "profile_id": "u3-single-child-full-payer-40h",
+      "as_of": "2026-11-04",
+      "reviewed_at": "2026-11-10",
+      "status": "comparable",
+      "reasons": [],
+      "monthly_care_cents": 71500,
+      "annual_care_cents": 786500,
+      "monthly_equivalent_cents": 65542,
+      "offer_id": "marbach-offer-63363b56dc3e",
+      "offer_label": "GT 8 Stunden",
+      "booked_weekly_minutes": 2400,
+      "extra_weekly_minutes": 0,
+      "payment_months": 11,
+      "components": [
+        {
+          "id": "marbach-component-788332b7a961",
+          "kind": "meal",
+          "original_label": "Mittagessen U3",
+          "amount_cents": 6500,
+          "unit": "per_month",
+          "age_group": "u3",
+          "required": true,
+          "payment_months": null,
+          "offer_ids": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "value_status": "known",
+          "evidence": {
+            "source_id": "02a52f0ce010",
+            "locator": "Krippentabelle und Fußnoten",
+            "original": null
+          },
+          "annual_equivalent_cents": null,
+          "calculation": []
+        }
+      ],
+      "calculation": [
+        {
+          "operation": "table_lookup",
+          "price_id": "marbach-price-6ac7d64be980",
+          "amount_cents": 71500,
+          "evidence": {
+            "source_id": "02a52f0ce010",
+            "locator": "Anlage A, PDF S. 5, u3, 8 Stunden, 2026",
+            "original": 715
+          }
+        },
+        {
+          "operation": "annual_equivalent_divided_by_12",
+          "monthly_cents": 71500,
+          "payment_months": 11,
+          "result_cents": 65542
+        }
+      ],
+      "evidence": [
+        {
+          "source_id": "02a52f0ce010",
+          "locator": "Anlage A, PDF S. 5, u3, 8 Stunden, 2026",
+          "original": null
+        },
+        {
+          "source_id": "02a52f0ce010",
+          "locator": "Anlage A, PDF S. 5, u3, 8 Stunden, 2026",
+          "original": 715
+        },
+        {
+          "source_id": "02a52f0ce010",
+          "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+          "original": null,
+          "verification": "explicit"
+        },
+        {
+          "source_id": "02a52f0ce010",
+          "locator": "Anlage A, PDF S. 5, u3, 8 Stunden, 2026",
+          "original": null
+        }
+      ],
+      "issues": [
+        {
+          "code": "pending_calculation_review",
+          "detail": "Strukturierter Import; noch keine Freigabe des Rechners oder der Website."
+        },
+        {
+          "code": "research_limitation_1",
+          "detail": "Essenspflicht unterscheidet sich je Zeitmodell; veröffentlichte Varianten erhalten."
+        },
+        {
+          "code": "supporting_provider_meal_note_conflict",
+          "detail": "Die ergänzende Trägerseite bezeichnet Essen bei GT8 als freiwillig; die kommunale Satzung nennt GT verpflichtend. Kommunale Satzung als maßgeblichen Beleg verwenden."
+        }
+      ],
+      "alternatives": [],
+      "family_count": 1,
+      "care_rank": 1,
+      "selected_price_id": "marbach-price-6ac7d64be980",
+      "total_mandatory_monthly_equivalent_cents": null,
+      "total_status": "incomplete_or_variant_costs",
+      "ags": "08118049",
+      "area_id": "municipality-08118049",
+      "tariff_id": "marbach"
+    },
+    {
+      "municipality_id": "moeglingen",
+      "municipality": "Möglingen",
+      "profile_id": "u3-single-child-full-payer-40h",
+      "as_of": "2026-11-04",
+      "reviewed_at": "2026-11-10",
+      "status": "comparable",
+      "reasons": [],
+      "monthly_care_cents": 43200,
+      "annual_care_cents": 518400,
+      "monthly_equivalent_cents": 43200,
+      "offer_id": "moeglingen-offer-9a4436f62973",
+      "offer_label": "GT8",
+      "booked_weekly_minutes": 2400,
+      "extra_weekly_minutes": 0,
+      "payment_months": 12,
+      "components": [
+        {
+          "id": "moeglingen-component-27c759bf450b",
+          "kind": "meal",
+          "original_label": "Mittagessen u3",
+          "amount_cents": 6100,
+          "unit": "per_month",
+          "age_group": "u3",
+          "required": true,
+          "payment_months": null,
+          "offer_ids": [
+            "moeglingen-offer-9a4436f62973",
+            "moeglingen-offer-e29deb255b47",
+            "moeglingen-offer-f5deb9a1f8b4"
+          ],
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "value_status": "known",
+          "evidence": {
+            "source_id": "13a79648a821",
+            "locator": "Unterhalb der Beitragstabellen; keine Passermäßigung",
+            "original": null
+          },
+          "applies_when": {
+            "care_type": "full_day"
+          },
+          "annual_equivalent_cents": null,
+          "calculation": []
+        },
+        {
+          "id": "moeglingen-component-7380e32080ee",
+          "kind": "supplies",
+          "original_label": "Einrichtungsabhängiger Elternbeiratsbeitrag",
+          "amount_cents": null,
+          "unit": "per_month",
+          "age_group": null,
+          "required": true,
+          "payment_months": null,
+          "offer_ids": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "value_status": "unknown",
+          "evidence": {
+            "source_id": "13a79648a821",
+            "locator": "Fußnote: Vesperrunde, pädagogische Kochtage",
+            "original": null
+          },
+          "annual_equivalent_cents": null
+        }
+      ],
+      "calculation": [
+        {
+          "operation": "table_lookup",
+          "price_id": "moeglingen-price-f1ee1a184edf",
+          "amount_cents": 43200,
+          "evidence": {
+            "source_id": "13a79648a821",
+            "locator": "PDF S. 1: veröffentlichte Endbeträge einschließlich GT-Pauschale",
+            "original": 432
+          }
+        },
+        {
+          "operation": "annual_equivalent_divided_by_12",
+          "monthly_cents": 43200,
+          "payment_months": 12,
+          "result_cents": 43200
+        }
+      ],
+      "evidence": [
+        {
+          "source_id": "13a79648a821",
+          "locator": "PDF S. 1: veröffentlichte Endbeträge einschließlich GT-Pauschale",
+          "original": null
+        },
+        {
+          "source_id": "13a79648a821",
+          "locator": "PDF S. 1: veröffentlichte Endbeträge einschließlich GT-Pauschale",
+          "original": 432
+        },
+        {
+          "source_id": "13a79648a821",
+          "locator": "Zwölf Beitragsmonate gemäß Nutzerfestlegung. Keine zusätzliche amtliche Bestätigung behauptet.",
+          "original": null,
+          "verification": "user_confirmed",
+          "provenance": "user_instruction",
+          "decision_id": "2026-11-10-moeglingen-payment-months"
+        },
+        {
+          "source_id": "13a79648a821",
+          "locator": "PDF S. 1: veröffentlichte Endbeträge einschließlich GT-Pauschale",
+          "original": null
+        }
+      ],
+      "issues": [
+        {
+          "code": "pending_calculation_review",
+          "detail": "Strukturierter Import; noch keine Freigabe des Rechners oder der Website."
+        },
+        {
+          "code": "research_limitation_1",
+          "detail": "Einrichtungsbezogene Zusatzbeiträge bleiben in der Tabelle unbeziffert."
+        }
+      ],
+      "alternatives": [],
+      "family_count": 1,
+      "care_rank": 1,
+      "selected_price_id": "moeglingen-price-f1ee1a184edf",
+      "total_mandatory_monthly_equivalent_cents": null,
+      "total_status": "incomplete_or_variant_costs",
+      "ags": "08118051",
+      "area_id": "municipality-08118051",
+      "tariff_id": "moeglingen"
+    },
+    {
       "municipality_id": "sindelfingen",
       "municipality": "Sindelfingen",
       "profile_id": "u3-single-child-full-payer-40h",
@@ -1495,6 +2265,130 @@
       "ags": "08111000",
       "area_id": "municipality-08111000",
       "tariff_id": "stuttgart"
+    },
+    {
+      "municipality_id": "tamm",
+      "municipality": "Tamm",
+      "profile_id": "u3-single-child-full-payer-40h",
+      "as_of": "2026-11-04",
+      "reviewed_at": "2026-11-10",
+      "status": "comparable",
+      "reasons": [],
+      "monthly_care_cents": 62800,
+      "annual_care_cents": 753600,
+      "monthly_equivalent_cents": 62800,
+      "offer_id": "tamm-offer-5e74bd57e554",
+      "offer_label": "KR GT15",
+      "booked_weekly_minutes": 2400,
+      "extra_weekly_minutes": 0,
+      "payment_months": 12,
+      "components": [
+        {
+          "id": "tamm-component-a387850ac4dc",
+          "kind": "meal",
+          "original_label": "Verpflegung u3 GT",
+          "amount_cents": 8500,
+          "unit": "per_month",
+          "age_group": "u3",
+          "required": null,
+          "payment_months": 11,
+          "offer_ids": [
+            "tamm-offer-5e74bd57e554"
+          ],
+          "valid_from": "2025-09-01",
+          "valid_to": null,
+          "value_status": "known",
+          "evidence": {
+            "source_id": "44cdb8fc520a",
+            "locator": "Webseite: Verpflegungskosten",
+            "original": null
+          },
+          "care_type": "GT",
+          "annual_equivalent_cents": 7792,
+          "calculation": []
+        },
+        {
+          "id": "tamm-component-0532b7304f24",
+          "kind": "drinks",
+          "original_label": "Getränkepauschale",
+          "amount_cents": 250,
+          "unit": "per_month",
+          "age_group": null,
+          "required": true,
+          "payment_months": null,
+          "offer_ids": null,
+          "valid_from": "2025-09-01",
+          "valid_to": null,
+          "value_status": "known",
+          "evidence": {
+            "source_id": "44cdb8fc520a",
+            "locator": "Webseite: alle Betreuungsformen",
+            "original": null
+          },
+          "annual_equivalent_cents": null,
+          "calculation": []
+        }
+      ],
+      "calculation": [
+        {
+          "operation": "table_lookup",
+          "price_id": "tamm-price-1af2fc9de2cf",
+          "amount_cents": 62800,
+          "evidence": {
+            "source_id": "44cdb8fc520a",
+            "locator": "Webseite: Elternbeiträge ab 01.09.2025",
+            "original": 628
+          }
+        },
+        {
+          "operation": "annual_equivalent_divided_by_12",
+          "monthly_cents": 62800,
+          "payment_months": 12,
+          "result_cents": 62800
+        }
+      ],
+      "evidence": [
+        {
+          "source_id": "44cdb8fc520a",
+          "locator": "Webseite: Elternbeiträge ab 01.09.2025",
+          "original": null
+        },
+        {
+          "source_id": "44cdb8fc520a",
+          "locator": "Webseite: Elternbeiträge ab 01.09.2025",
+          "original": 628
+        },
+        {
+          "source_id": "44cdb8fc520a",
+          "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+          "original": null,
+          "verification": "explicit"
+        },
+        {
+          "source_id": "44cdb8fc520a",
+          "locator": "Webseite: Elternbeiträge ab 01.09.2025",
+          "original": null
+        }
+      ],
+      "issues": [
+        {
+          "code": "pending_calculation_review",
+          "detail": "Strukturierter Import; noch keine Freigabe des Rechners oder der Website."
+        },
+        {
+          "code": "research_limitation_1",
+          "detail": "Vor Aktivierung nochmals Aktualität prüfen; kein unbelegter Preisstand 2026. Getränkegeld 2,50 € separat erhalten."
+        }
+      ],
+      "alternatives": [],
+      "family_count": 1,
+      "care_rank": 1,
+      "selected_price_id": "tamm-price-1af2fc9de2cf",
+      "total_mandatory_monthly_equivalent_cents": null,
+      "total_status": "incomplete_or_variant_costs",
+      "ags": "08118071",
+      "area_id": "municipality-08118071",
+      "tariff_id": "tamm"
     }
   ]
 }

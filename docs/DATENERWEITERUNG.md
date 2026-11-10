@@ -2,7 +2,7 @@
 
 **Stand:** 10. November 2026
 
-**Status:** Quellenrecherche und Bewertung der 33 Kandidaten auf ausdrücklichen Nutzerwunsch vorgezogen. Die Tarife liegen als 33 getrennte JSON-Kataloge im gemeinsamen Schema unter `data/expansion/municipalities/` vor. Umfang und technische Prüfung stehen in der [Aufbereitungsübersicht](ERWEITERUNGSDATEN.md), Quellenbewertungen in der [Erweiterungsrecherche](ERWEITERUNGSRECHERCHE.md). Die [Kompatibilitätsprüfung der bestehenden Engine](ERWEITERUNGSBERECHNUNG.md) ist abgeschlossen und weist unterstützte sowie nicht berechenbare Konfigurationen aus. Vertiefte fachliche Quellenabnahme, Übernahme in den produktiven Bestand und Website-Aktivierung stehen noch aus.
+**Status:** Quellenrecherche und Bewertung der 33 Kandidaten auf ausdrücklichen Nutzerwunsch vorgezogen. Die Tarife liegen als 33 getrennte JSON-Kataloge im gemeinsamen Schema unter `data/expansion/municipalities/` vor. Umfang und technische Prüfung stehen in der [Aufbereitungsübersicht](ERWEITERUNGSDATEN.md), Quellenbewertungen in der [Erweiterungsrecherche](ERWEITERUNGSRECHERCHE.md). Die [Kompatibilitätsprüfung der bestehenden Engine](ERWEITERUNGSBERECHNUNG.md) ist abgeschlossen und weist unterstützte sowie nicht berechenbare Konfigurationen aus. Auf weiteren ausdrücklichen Nutzerwunsch wurden acht im gesamten aktuellen Modellumfang unterstützte Kommunen auf Branch `Datensatz-Erweiterung` in die lokale Website übernommen. Die übrigen 25 bleiben inaktiv. Details: [Integrationsstand](ERWEITERUNGSINTEGRATION.md). Die acht aufgenommenen Kommunen sind nach lokaler Durchsicht für die Veröffentlichung auf GitHub Pages freigegeben. Die vertiefte Abnahme der übrigen Kommunen steht aus.
 
 ## Voraussetzung und Reihenfolge
 
@@ -14,11 +14,11 @@ Nach diesem Abschluss werden die Kandidaten priorisiert und schrittweise in die 
 
 ## Auswahlgrundlage
 
-Die 33 Kandidaten haben jeweils eine gemeinsame Grenzlinie mit mindestens einer der aktuell zwölf Vergleichskommunen. Grundlage sind die [archivierten BKG-Gemeindegrenzen](../output/municipalities-original.geojson) mit Grenzstand **1. Januar 2025**, abgerufen am 7. November 2026. Herkunft und Prüfsumme stehen in [data/geodata/source.json](../data/geodata/source.json); die Ausgangskommunen im [Kommunenregister](../data/municipality_registry.json).
+Die 33 Kandidaten haben jeweils eine gemeinsame Grenzlinie mit mindestens einer der zwölf ursprünglichen Vergleichskommunen. Grundlage sind die [archivierten BKG-Gemeindegrenzen](../output/municipalities-original.geojson) mit Grenzstand **1. Januar 2025**, abgerufen am 7. November 2026. Herkunft und Prüfsumme stehen in [data/geodata/source.json](../data/geodata/source.json); die Ausgangskommunen im [Kommunenregister](../data/municipality_registry.json).
 
 Die Nachbarschaft wurde über gemeinsam genutzte Grenzabschnitte bestimmt; reine Punktberührungen zählen nicht als gemeinsame Grenzlinie. Die Zuordnung erfolgt über den amtlichen Gemeindeschlüssel (AGS). Alle Grenzen der zwölf Ausgangskommunen haben im verwendeten Geodatenausschnitt einen zugeordneten Nachbarn.
 
-Die bereits auf der Karte vorhandenen Flächen sind der geografische Ausgangspunkt. Tarif- und Quellenrecherche sind nun dokumentiert; die Kandidaten sind weiterhin keine aktiven Vergleichskommunen. Bei Aufnahme aller Kandidaten würde der Vergleich von zwölf auf 45 Kommunen wachsen.
+Die bereits auf der Karte vorhandenen Flächen sind der geografische Ausgangspunkt. Acht der unten dokumentierten Kandidaten sind inzwischen lokal aktive Vergleichskommunen; die Tabelle bleibt die ursprüngliche Nachbarschaftsliste der zwölf Ausgangskommunen. Bei Aufnahme aller Kandidaten würde der Vergleich auf 45 Kommunen wachsen.
 
 ## Kandidaten
 
@@ -70,4 +70,4 @@ Alphabetische Reihenfolge. Die letzte Spalte nennt ausschließlich angrenzende K
 | Rems-Murr-Kreis | 2 |
 | **Gesamt** | **33** |
 
-Die derzeitigen zwölf Tarifkataloge, Vergleichswerte und aktiven Registereinträge bleiben während der Stabilisierung die fachliche Grundlage. Historische Preisreihen und weitere Nachbarschaftsringe sind keine Bestandteile dieser Kandidatenliste.
+Die zwölf ursprünglichen Tarifkataloge und Vergleichswerte bleiben unverändert; acht zusätzliche Kataloge sind für die lokale Durchsicht registriert. Historische Preisreihen und weitere Nachbarschaftsringe sind keine Bestandteile dieser Kandidatenliste.

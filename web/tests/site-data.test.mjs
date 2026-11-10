@@ -135,7 +135,7 @@ test("Prepared assets match their hashes and the documented data budgets", () =>
   assert.equal(geo.length, metrics.geometry_bytes);
   assert.equal(data.length, metrics.catalog_bytes);
   assert.ok(geo.length <= 200000);
-  assert.ok(data.length <= 1500000);
+  assert.ok(data.length <= 2000000);
   assert.ok(gzipSync(data).length + gzipSync(geo).length <= 150000);
   assert.ok(metrics.web_vertices < metrics.source_vertices);
   assert.equal(bundle.geography.max_zoom, metrics.max_map_zoom);
@@ -162,7 +162,11 @@ test("Fee ranking places expensive families first, zero before missing, and ties
 });
 
 test("Collection date reflects retrieved fee evidence rather than the older calculation date", () => {
-  assert.equal(sourceCollectionDate(Object.values(bundle.sources)), "2026-11-07");
+  const sourceIndex = read("data/source_manifest.json");
+  const usedSources = new Set(Object.keys(bundle.sources));
+  const expectedDate = sourceIndex.filter(source => usedSources.has(source.id))
+    .map(source => source.retrieved_at.slice(0, 10)).sort().at(-1);
+  assert.equal(sourceCollectionDate(Object.values(bundle.sources)), expectedDate);
   assert.notEqual(sourceCollectionDate(Object.values(bundle.sources)), bundle.profiles.default.as_of);
   assert.equal(sourceCollectionDate([{ retrieved_at: "2026-11-05T10:00:00Z" }, { retrieved_at: "2026-11-07T22:00:00Z" }]), "2026-11-07");
   assert.equal(sourceCollectionDate([]), null);

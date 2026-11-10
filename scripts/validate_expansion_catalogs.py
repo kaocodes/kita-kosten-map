@@ -1,4 +1,4 @@
-"""Validate isolated municipality imports without activating or evaluating them."""
+"""Validate normalized imports and approved copies without evaluating tariffs."""
 
 from copy import deepcopy
 from datetime import date
@@ -73,6 +73,9 @@ def validate_imports(catalogs):
         return ["Import must contain exactly the 33 documented municipalities"]
     virtual_registry = deepcopy(load_registry())
     registered = {m["id"]: m for m in virtual_registry["municipalities"]}
+    activation_path = ROOT / "data/expansion/activation.json"
+    approved = set(json.loads(activation_path.read_text())["municipality_ids"]) if activation_path.exists() else set()
+    active_catalogs = {city["id"]: city for city in load_cities()}
     for item in research["municipalities"]:
         city = by_id[item["id"]]
         errors.extend(shape_errors(city, schema, schema, city["id"]))
@@ -90,14 +93,17 @@ def validate_imports(catalogs):
                 errors.append(city["id"]+": missing source-clause text")
         if item["id"] in registered:
             if registered[item["id"]]["active"]:
-                errors.append(city["id"]+": import was activated unexpectedly")
+                if city["id"] not in approved:
+                    errors.append(city["id"]+": import was activated without approval")
+                elif active_catalogs.get(city["id"]) != city:
+                    errors.append(city["id"]+": active catalog differs from normalized import")
             continue
         area = "municipality-"+item["ags"]
         virtual_registry["municipalities"].append({"id":item["id"],"name":item["name"],"ags":item["ags"],
             "active":False,"region_id":"stuttgart-region","tariff_id":item["id"],"area_id":area})
         virtual_registry["areas"].append({"id":area,"kind":"municipality","municipality_id":item["id"],
             "parent_id":None,"tariff_id":item["id"],"geometry_key":item["ags"]})
-    errors.extend(validate_dataset(load_cities()+catalogs, registry=virtual_registry))
+    errors.extend(validate_dataset([c for c in load_cities() if c["id"] not in by_id]+catalogs, registry=virtual_registry))
     return errors
 
 
@@ -106,7 +112,7 @@ def main():
     errors = validate_imports(catalogs)
     if errors:
         raise SystemExit("\n".join(errors))
-    print(f"Valid: {len(catalogs)} isolated catalogs; schema, selectors, source hashes and geographic references verified; no activation or fee evaluation.")
+    print(f"Valid: {len(catalogs)} normalized catalogs; schema, approved copies, source hashes and geographic references verified; no activation or fee evaluation.")
 
 
 if __name__ == "__main__":

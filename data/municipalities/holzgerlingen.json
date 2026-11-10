@@ -1,0 +1,1774 @@
+{
+  "schema_version": "1.0",
+  "id": "holzgerlingen",
+  "name": "Holzgerlingen",
+  "reviewed_at": "2026-11-10",
+  "reference_date": "2026-11-10",
+  "scope": {
+    "included": [
+      "municipal"
+    ],
+    "other_providers": "only_with_explicit_source_evidence"
+  },
+  "family_basis": "under_18",
+  "family_evidence": {
+    "source_id": "08a2ada2b7fc",
+    "locator": "Familienbegriff und Fußnoten der Gebührenunterlagen",
+    "original": null
+  },
+  "supporting_source_ids": [
+    "08a2ada2b7fc"
+  ],
+  "offers": [
+    {
+      "id": "holzgerlingen-offer-0915a94d8474",
+      "original_label": "Regelkindergarten",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2025-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2025-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 1800,
+      "weekday_minutes": null,
+      "continuous": false,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "08a2ada2b7fc",
+        "locator": "§ 4 Abs. 7, Nr. 1–4, ab September 2025",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "08a2ada2b7fc",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "08a2ada2b7fc",
+        "locator": "§ 4 Abs. 7, Nr. 1–4, ab September 2025",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "holzgerlingen-offer-5b5ce672d521",
+      "original_label": "VÖ Modell 30",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2025-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2025-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 1800,
+      "weekday_minutes": [
+        360,
+        360,
+        360,
+        360,
+        360
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "08a2ada2b7fc",
+        "locator": "§ 4 Abs. 7, Nr. 1–4, ab September 2025",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "08a2ada2b7fc",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "08a2ada2b7fc",
+        "locator": "§ 4 Abs. 7, Nr. 1–4, ab September 2025",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "holzgerlingen-offer-fae196e3efdf",
+      "original_label": "VÖ Modell 35",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2025-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2025-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2100,
+      "weekday_minutes": [
+        420,
+        420,
+        420,
+        420,
+        420
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "08a2ada2b7fc",
+        "locator": "§ 4 Abs. 7, Nr. 1–4, ab September 2025",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "08a2ada2b7fc",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "08a2ada2b7fc",
+        "locator": "§ 4 Abs. 7, Nr. 1–4, ab September 2025",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "holzgerlingen-offer-63571b6a55af",
+      "original_label": "GT Modell 37,5",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2025-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2025-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2250,
+      "weekday_minutes": [
+        450,
+        450,
+        450,
+        450,
+        450
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "08a2ada2b7fc",
+        "locator": "§ 4 Abs. 7, Nr. 1–4, ab September 2025",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "08a2ada2b7fc",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "08a2ada2b7fc",
+        "locator": "§ 4 Abs. 7, Nr. 1–4, ab September 2025",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "holzgerlingen-offer-a927124706bc",
+      "original_label": "GT Modell 42,5",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2025-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2025-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2550,
+      "weekday_minutes": [
+        510,
+        510,
+        510,
+        510,
+        510
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "08a2ada2b7fc",
+        "locator": "§ 4 Abs. 7, Nr. 1–4, ab September 2025",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "08a2ada2b7fc",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "08a2ada2b7fc",
+        "locator": "§ 4 Abs. 7, Nr. 1–4, ab September 2025",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "holzgerlingen-offer-318c878bcbbc",
+      "original_label": "Krippe bis 6 Stunden",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2025-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2025-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 1800,
+      "weekday_minutes": [
+        360,
+        360,
+        360,
+        360,
+        360
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "08a2ada2b7fc",
+        "locator": "§ 4 Abs. 7, Nr. 1–4, ab September 2025",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "08a2ada2b7fc",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "08a2ada2b7fc",
+        "locator": "§ 4 Abs. 7, Nr. 1–4, ab September 2025",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "holzgerlingen-offer-bd45966d3c88",
+      "original_label": "Krippe bis 7,5 Stunden",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2025-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2025-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2250,
+      "weekday_minutes": [
+        450,
+        450,
+        450,
+        450,
+        450
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "08a2ada2b7fc",
+        "locator": "§ 4 Abs. 7, Nr. 1–4, ab September 2025",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "08a2ada2b7fc",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "08a2ada2b7fc",
+        "locator": "§ 4 Abs. 7, Nr. 1–4, ab September 2025",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "holzgerlingen-offer-5b067addfa5d",
+      "original_label": "Krippe bis 8,5 Stunden",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2025-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2025-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2550,
+      "weekday_minutes": [
+        510,
+        510,
+        510,
+        510,
+        510
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "08a2ada2b7fc",
+        "locator": "§ 4 Abs. 7, Nr. 1–4, ab September 2025",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "08a2ada2b7fc",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "08a2ada2b7fc",
+        "locator": "§ 4 Abs. 7, Nr. 1–4, ab September 2025",
+        "original": null
+      },
+      "formula": null
+    }
+  ],
+  "prices": [
+    {
+      "id": "holzgerlingen-price-102df28edfd6",
+      "offer_id": "holzgerlingen-offer-0915a94d8474",
+      "amount_cents": 15900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "08a2ada2b7fc",
+        "locator": "§ 4 Abs. 7, Nr. 1–4, ab September 2025",
+        "original": 159
+      }
+    },
+    {
+      "id": "holzgerlingen-price-0b44c9efeb04",
+      "offer_id": "holzgerlingen-offer-0915a94d8474",
+      "amount_cents": 12300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "08a2ada2b7fc",
+        "locator": "§ 4 Abs. 7, Nr. 1–4, ab September 2025",
+        "original": 123
+      }
+    },
+    {
+      "id": "holzgerlingen-price-184a46e78a86",
+      "offer_id": "holzgerlingen-offer-0915a94d8474",
+      "amount_cents": 8200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "08a2ada2b7fc",
+        "locator": "§ 4 Abs. 7, Nr. 1–4, ab September 2025",
+        "original": 82
+      }
+    },
+    {
+      "id": "holzgerlingen-price-8a209e9da133",
+      "offer_id": "holzgerlingen-offer-0915a94d8474",
+      "amount_cents": 2800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "08a2ada2b7fc",
+        "locator": "§ 4 Abs. 7, Nr. 1–4, ab September 2025",
+        "original": 28
+      }
+    },
+    {
+      "id": "holzgerlingen-price-9f4d9ccb2efd",
+      "offer_id": "holzgerlingen-offer-5b5ce672d521",
+      "amount_cents": 18000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "08a2ada2b7fc",
+        "locator": "§ 4 Abs. 7, Nr. 1–4, ab September 2025",
+        "original": 180
+      }
+    },
+    {
+      "id": "holzgerlingen-price-be694e9b6716",
+      "offer_id": "holzgerlingen-offer-5b5ce672d521",
+      "amount_cents": 13800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "08a2ada2b7fc",
+        "locator": "§ 4 Abs. 7, Nr. 1–4, ab September 2025",
+        "original": 138
+      }
+    },
+    {
+      "id": "holzgerlingen-price-b8a379debe2e",
+      "offer_id": "holzgerlingen-offer-5b5ce672d521",
+      "amount_cents": 9200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "08a2ada2b7fc",
+        "locator": "§ 4 Abs. 7, Nr. 1–4, ab September 2025",
+        "original": 92
+      }
+    },
+    {
+      "id": "holzgerlingen-price-b6ff98cb14df",
+      "offer_id": "holzgerlingen-offer-5b5ce672d521",
+      "amount_cents": 3100,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "08a2ada2b7fc",
+        "locator": "§ 4 Abs. 7, Nr. 1–4, ab September 2025",
+        "original": 31
+      }
+    },
+    {
+      "id": "holzgerlingen-price-5e407bfd97c4",
+      "offer_id": "holzgerlingen-offer-fae196e3efdf",
+      "amount_cents": 21000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "08a2ada2b7fc",
+        "locator": "§ 4 Abs. 7, Nr. 1–4, ab September 2025",
+        "original": 210
+      }
+    },
+    {
+      "id": "holzgerlingen-price-347dd8df2e89",
+      "offer_id": "holzgerlingen-offer-fae196e3efdf",
+      "amount_cents": 16100,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "08a2ada2b7fc",
+        "locator": "§ 4 Abs. 7, Nr. 1–4, ab September 2025",
+        "original": 161
+      }
+    },
+    {
+      "id": "holzgerlingen-price-ee077b8ba9c6",
+      "offer_id": "holzgerlingen-offer-fae196e3efdf",
+      "amount_cents": 10700,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "08a2ada2b7fc",
+        "locator": "§ 4 Abs. 7, Nr. 1–4, ab September 2025",
+        "original": 107
+      }
+    },
+    {
+      "id": "holzgerlingen-price-88a7ab786624",
+      "offer_id": "holzgerlingen-offer-fae196e3efdf",
+      "amount_cents": 3600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "08a2ada2b7fc",
+        "locator": "§ 4 Abs. 7, Nr. 1–4, ab September 2025",
+        "original": 36
+      }
+    },
+    {
+      "id": "holzgerlingen-price-06cfeefbd1cb",
+      "offer_id": "holzgerlingen-offer-63571b6a55af",
+      "amount_cents": 29100,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "08a2ada2b7fc",
+        "locator": "§ 4 Abs. 7, Nr. 1–4, ab September 2025",
+        "original": 291
+      }
+    },
+    {
+      "id": "holzgerlingen-price-0f63a55d6a8c",
+      "offer_id": "holzgerlingen-offer-63571b6a55af",
+      "amount_cents": 22400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "08a2ada2b7fc",
+        "locator": "§ 4 Abs. 7, Nr. 1–4, ab September 2025",
+        "original": 224
+      }
+    },
+    {
+      "id": "holzgerlingen-price-cf43abe6c4ef",
+      "offer_id": "holzgerlingen-offer-63571b6a55af",
+      "amount_cents": 14900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "08a2ada2b7fc",
+        "locator": "§ 4 Abs. 7, Nr. 1–4, ab September 2025",
+        "original": 149
+      }
+    },
+    {
+      "id": "holzgerlingen-price-c1fe99f57ae7",
+      "offer_id": "holzgerlingen-offer-63571b6a55af",
+      "amount_cents": 4800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "08a2ada2b7fc",
+        "locator": "§ 4 Abs. 7, Nr. 1–4, ab September 2025",
+        "original": 48
+      }
+    },
+    {
+      "id": "holzgerlingen-price-6360d63331fd",
+      "offer_id": "holzgerlingen-offer-a927124706bc",
+      "amount_cents": 32900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "08a2ada2b7fc",
+        "locator": "§ 4 Abs. 7, Nr. 1–4, ab September 2025",
+        "original": 329
+      }
+    },
+    {
+      "id": "holzgerlingen-price-083477493f8d",
+      "offer_id": "holzgerlingen-offer-a927124706bc",
+      "amount_cents": 25200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "08a2ada2b7fc",
+        "locator": "§ 4 Abs. 7, Nr. 1–4, ab September 2025",
+        "original": 252
+      }
+    },
+    {
+      "id": "holzgerlingen-price-75f28a91dd85",
+      "offer_id": "holzgerlingen-offer-a927124706bc",
+      "amount_cents": 16800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "08a2ada2b7fc",
+        "locator": "§ 4 Abs. 7, Nr. 1–4, ab September 2025",
+        "original": 168
+      }
+    },
+    {
+      "id": "holzgerlingen-price-ca3a8ee200e5",
+      "offer_id": "holzgerlingen-offer-a927124706bc",
+      "amount_cents": 5600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "08a2ada2b7fc",
+        "locator": "§ 4 Abs. 7, Nr. 1–4, ab September 2025",
+        "original": 56
+      }
+    },
+    {
+      "id": "holzgerlingen-price-19048177ec2e",
+      "offer_id": "holzgerlingen-offer-318c878bcbbc",
+      "amount_cents": 47100,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "08a2ada2b7fc",
+        "locator": "§ 4 Abs. 7, Nr. 1–4, ab September 2025",
+        "original": 471
+      }
+    },
+    {
+      "id": "holzgerlingen-price-e1c503e5f7a8",
+      "offer_id": "holzgerlingen-offer-318c878bcbbc",
+      "amount_cents": 35000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "08a2ada2b7fc",
+        "locator": "§ 4 Abs. 7, Nr. 1–4, ab September 2025",
+        "original": 350
+      }
+    },
+    {
+      "id": "holzgerlingen-price-2fb0bfe31e2f",
+      "offer_id": "holzgerlingen-offer-318c878bcbbc",
+      "amount_cents": 23600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "08a2ada2b7fc",
+        "locator": "§ 4 Abs. 7, Nr. 1–4, ab September 2025",
+        "original": 236
+      }
+    },
+    {
+      "id": "holzgerlingen-price-1c12e1949de8",
+      "offer_id": "holzgerlingen-offer-318c878bcbbc",
+      "amount_cents": 9300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "08a2ada2b7fc",
+        "locator": "§ 4 Abs. 7, Nr. 1–4, ab September 2025",
+        "original": 93
+      }
+    },
+    {
+      "id": "holzgerlingen-price-3afcc8be4ea9",
+      "offer_id": "holzgerlingen-offer-bd45966d3c88",
+      "amount_cents": 59100,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "08a2ada2b7fc",
+        "locator": "§ 4 Abs. 7, Nr. 1–4, ab September 2025",
+        "original": 591
+      }
+    },
+    {
+      "id": "holzgerlingen-price-dd00769a798b",
+      "offer_id": "holzgerlingen-offer-bd45966d3c88",
+      "amount_cents": 45500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "08a2ada2b7fc",
+        "locator": "§ 4 Abs. 7, Nr. 1–4, ab September 2025",
+        "original": 455
+      }
+    },
+    {
+      "id": "holzgerlingen-price-cb0c0bf9c583",
+      "offer_id": "holzgerlingen-offer-bd45966d3c88",
+      "amount_cents": 30200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "08a2ada2b7fc",
+        "locator": "§ 4 Abs. 7, Nr. 1–4, ab September 2025",
+        "original": 302
+      }
+    },
+    {
+      "id": "holzgerlingen-price-cda6768c4e2e",
+      "offer_id": "holzgerlingen-offer-bd45966d3c88",
+      "amount_cents": 10000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "08a2ada2b7fc",
+        "locator": "§ 4 Abs. 7, Nr. 1–4, ab September 2025",
+        "original": 100
+      }
+    },
+    {
+      "id": "holzgerlingen-price-7bbf7db9a3b1",
+      "offer_id": "holzgerlingen-offer-5b067addfa5d",
+      "amount_cents": 67000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "08a2ada2b7fc",
+        "locator": "§ 4 Abs. 7, Nr. 1–4, ab September 2025",
+        "original": 670
+      }
+    },
+    {
+      "id": "holzgerlingen-price-af42fd202fe3",
+      "offer_id": "holzgerlingen-offer-5b067addfa5d",
+      "amount_cents": 51600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "08a2ada2b7fc",
+        "locator": "§ 4 Abs. 7, Nr. 1–4, ab September 2025",
+        "original": 516
+      }
+    },
+    {
+      "id": "holzgerlingen-price-d379b1b071d9",
+      "offer_id": "holzgerlingen-offer-5b067addfa5d",
+      "amount_cents": 34100,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "08a2ada2b7fc",
+        "locator": "§ 4 Abs. 7, Nr. 1–4, ab September 2025",
+        "original": 341
+      }
+    },
+    {
+      "id": "holzgerlingen-price-5fd42bc077a7",
+      "offer_id": "holzgerlingen-offer-5b067addfa5d",
+      "amount_cents": 11300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "08a2ada2b7fc",
+        "locator": "§ 4 Abs. 7, Nr. 1–4, ab September 2025",
+        "original": 113
+      }
+    }
+  ],
+  "income_bands": [],
+  "components": [
+    {
+      "id": "holzgerlingen-component-18c549c4bbdb",
+      "kind": "meal",
+      "original_label": "Mittagessen 1 Tage",
+      "amount_cents": 2450,
+      "unit": "per_month",
+      "age_group": null,
+      "required": null,
+      "payment_months": 12,
+      "offer_ids": null,
+      "valid_from": "2025-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "08a2ada2b7fc",
+        "locator": "§ 5 Abs. 3",
+        "original": null
+      },
+      "days_per_week": 1
+    },
+    {
+      "id": "holzgerlingen-component-d06326b700ab",
+      "kind": "meal",
+      "original_label": "Mittagessen 2 Tage",
+      "amount_cents": 4500,
+      "unit": "per_month",
+      "age_group": null,
+      "required": null,
+      "payment_months": 12,
+      "offer_ids": null,
+      "valid_from": "2025-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "08a2ada2b7fc",
+        "locator": "§ 5 Abs. 3",
+        "original": null
+      },
+      "days_per_week": 2
+    },
+    {
+      "id": "holzgerlingen-component-774c622477b8",
+      "kind": "meal",
+      "original_label": "Mittagessen 3 Tage",
+      "amount_cents": 6900,
+      "unit": "per_month",
+      "age_group": null,
+      "required": null,
+      "payment_months": 12,
+      "offer_ids": null,
+      "valid_from": "2025-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "08a2ada2b7fc",
+        "locator": "§ 5 Abs. 3",
+        "original": null
+      },
+      "days_per_week": 3
+    },
+    {
+      "id": "holzgerlingen-component-8b66a40b8730",
+      "kind": "meal",
+      "original_label": "Mittagessen 4 Tage",
+      "amount_cents": 9100,
+      "unit": "per_month",
+      "age_group": null,
+      "required": null,
+      "payment_months": 12,
+      "offer_ids": null,
+      "valid_from": "2025-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "08a2ada2b7fc",
+        "locator": "§ 5 Abs. 3",
+        "original": null
+      },
+      "days_per_week": 4
+    },
+    {
+      "id": "holzgerlingen-component-c969573ac301",
+      "kind": "meal",
+      "original_label": "Mittagessen 5 Tage",
+      "amount_cents": 11350,
+      "unit": "per_month",
+      "age_group": null,
+      "required": null,
+      "payment_months": 12,
+      "offer_ids": null,
+      "valid_from": "2025-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "08a2ada2b7fc",
+        "locator": "§ 5 Abs. 3",
+        "original": null
+      },
+      "days_per_week": 5
+    }
+  ],
+  "rules": [
+    {
+      "id": "holzgerlingen-rule-205085de1c72",
+      "kind": "mixed_age_admission",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "age_months_min": 24,
+        "age_months_max_exclusive": 36,
+        "additional_percent": 125,
+        "condition": "new_kindergarten_admission_not_transition_from_municipal_nursery",
+        "ends": "end_of_third_birthday_month"
+      },
+      "evidence": {
+        "source_id": "08a2ada2b7fc",
+        "locator": "§ 4 Abs. 6",
+        "original": null
+      }
+    },
+    {
+      "id": "holzgerlingen-rule-7879d3556db6",
+      "kind": "daily_gt_booking",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "allowed_days": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "fee_fraction_per_day": "1/5",
+        "remaining_days": "corresponding_vo_or_regular_fee"
+      },
+      "evidence": {
+        "source_id": "08a2ada2b7fc",
+        "locator": "§ 4 Abs. 8",
+        "original": null
+      }
+    },
+    {
+      "id": "holzgerlingen-rule-3cbc871cb4f5",
+      "kind": "meal_refund",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "minimum_consecutive_calendar_weeks": 2,
+        "daily_fraction": "1/20",
+        "ceil_to_euro": true,
+        "monthly_cap": true,
+        "application_and_medical_proof_required": true
+      },
+      "evidence": {
+        "source_id": "08a2ada2b7fc",
+        "locator": "§ 5 Abs. 4–5",
+        "original": null
+      }
+    },
+    {
+      "id": "holzgerlingen-rule-dd96bc914ece",
+      "kind": "source_provisions_08a2ada2b7fc",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "archive_text_path": "data/sources/08a2ada2b7fc/text.txt",
+        "text_sha256": "11741a28076a37cdb58ba68c1b5ec9e252f1d6cd09914439412b401394fbaf04",
+        "review_status": "archived_provisions_preserved"
+      },
+      "evidence": {
+        "source_id": "08a2ada2b7fc",
+        "locator": "Vollständiger archivierter Dokumenttext einschließlich Fußnoten",
+        "original": null
+      }
+    },
+    {
+      "id": "holzgerlingen-rule-ad64c41566b7",
+      "kind": "source_clause_08a2ada2b7fc_1_1",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 0,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "08a2ada2b7fc",
+        "locator": "PDF-/Textseite 1, Absatzblock 1",
+        "original": null
+      }
+    },
+    {
+      "id": "holzgerlingen-rule-911b4f3a1a66",
+      "kind": "source_clause_08a2ada2b7fc_2_5",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 1,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "08a2ada2b7fc",
+        "locator": "PDF-/Textseite 2, Absatzblock 5",
+        "original": null
+      }
+    },
+    {
+      "id": "holzgerlingen-rule-c958970f5fd5",
+      "kind": "source_clause_08a2ada2b7fc_2_7",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 2,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "08a2ada2b7fc",
+        "locator": "PDF-/Textseite 2, Absatzblock 7",
+        "original": null
+      }
+    },
+    {
+      "id": "holzgerlingen-rule-81bc4d71676a",
+      "kind": "source_clause_08a2ada2b7fc_2_8",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 3,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "08a2ada2b7fc",
+        "locator": "PDF-/Textseite 2, Absatzblock 8",
+        "original": null
+      }
+    },
+    {
+      "id": "holzgerlingen-rule-6a7478596680",
+      "kind": "source_clause_08a2ada2b7fc_2_9",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 4,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "08a2ada2b7fc",
+        "locator": "PDF-/Textseite 2, Absatzblock 9",
+        "original": null
+      }
+    },
+    {
+      "id": "holzgerlingen-rule-22c0b2837747",
+      "kind": "source_clause_08a2ada2b7fc_2_10",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 5,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "08a2ada2b7fc",
+        "locator": "PDF-/Textseite 2, Absatzblock 10",
+        "original": null
+      }
+    },
+    {
+      "id": "holzgerlingen-rule-3d4c32ee2872",
+      "kind": "source_clause_08a2ada2b7fc_2_11",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 6,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "08a2ada2b7fc",
+        "locator": "PDF-/Textseite 2, Absatzblock 11",
+        "original": null
+      }
+    },
+    {
+      "id": "holzgerlingen-rule-37381e0bbf70",
+      "kind": "source_clause_08a2ada2b7fc_3_1",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 7,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "08a2ada2b7fc",
+        "locator": "PDF-/Textseite 3, Absatzblock 1",
+        "original": null
+      }
+    },
+    {
+      "id": "holzgerlingen-rule-8b82537a59e3",
+      "kind": "source_clause_08a2ada2b7fc_3_2",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 8,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "08a2ada2b7fc",
+        "locator": "PDF-/Textseite 3, Absatzblock 2",
+        "original": null
+      }
+    },
+    {
+      "id": "holzgerlingen-rule-bc6378299916",
+      "kind": "source_clause_08a2ada2b7fc_5_2",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 9,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "08a2ada2b7fc",
+        "locator": "PDF-/Textseite 5, Absatzblock 2",
+        "original": null
+      }
+    },
+    {
+      "id": "holzgerlingen-rule-38df2b105033",
+      "kind": "source_clause_08a2ada2b7fc_5_5",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 10,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "08a2ada2b7fc",
+        "locator": "PDF-/Textseite 5, Absatzblock 5",
+        "original": null
+      }
+    },
+    {
+      "id": "holzgerlingen-rule-18310813c4ae",
+      "kind": "source_clause_08a2ada2b7fc_6_1",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 11,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "08a2ada2b7fc",
+        "locator": "PDF-/Textseite 6, Absatzblock 1",
+        "original": null
+      }
+    },
+    {
+      "id": "holzgerlingen-rule-19d451677dd9",
+      "kind": "source_clause_08a2ada2b7fc_6_2",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 12,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "08a2ada2b7fc",
+        "locator": "PDF-/Textseite 6, Absatzblock 2",
+        "original": null
+      }
+    },
+    {
+      "id": "holzgerlingen-rule-04b13d641e59",
+      "kind": "source_clause_08a2ada2b7fc_6_4",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 13,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "08a2ada2b7fc",
+        "locator": "PDF-/Textseite 6, Absatzblock 4",
+        "original": null
+      }
+    },
+    {
+      "id": "holzgerlingen-rule-5e9bb054c5b1",
+      "kind": "source_clause_08a2ada2b7fc_6_5",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 14,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "08a2ada2b7fc",
+        "locator": "PDF-/Textseite 6, Absatzblock 5",
+        "original": null
+      }
+    },
+    {
+      "id": "holzgerlingen-rule-4880efdd8654",
+      "kind": "source_clause_08a2ada2b7fc_6_6",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 15,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "08a2ada2b7fc",
+        "locator": "PDF-/Textseite 6, Absatzblock 6",
+        "original": null
+      }
+    },
+    {
+      "id": "holzgerlingen-rule-0ef06a8426fb",
+      "kind": "source_clause_08a2ada2b7fc_6_8",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 16,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "08a2ada2b7fc",
+        "locator": "PDF-/Textseite 6, Absatzblock 8",
+        "original": null
+      }
+    },
+    {
+      "id": "holzgerlingen-rule-e530d0dda386",
+      "kind": "source_clause_08a2ada2b7fc_7_2",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 17,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "08a2ada2b7fc",
+        "locator": "PDF-/Textseite 7, Absatzblock 2",
+        "original": null
+      }
+    },
+    {
+      "id": "holzgerlingen-rule-bce35f5c2122",
+      "kind": "source_clause_08a2ada2b7fc_7_5",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 18,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "08a2ada2b7fc",
+        "locator": "PDF-/Textseite 7, Absatzblock 5",
+        "original": null
+      }
+    },
+    {
+      "id": "holzgerlingen-rule-3a06db223015",
+      "kind": "source_clause_08a2ada2b7fc_7_6",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 19,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "08a2ada2b7fc",
+        "locator": "PDF-/Textseite 7, Absatzblock 6",
+        "original": null
+      }
+    },
+    {
+      "id": "holzgerlingen-rule-872736ab2145",
+      "kind": "source_clause_08a2ada2b7fc_7_7",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 20,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "08a2ada2b7fc",
+        "locator": "PDF-/Textseite 7, Absatzblock 7",
+        "original": null
+      }
+    },
+    {
+      "id": "holzgerlingen-rule-34087f3d8113",
+      "kind": "source_clause_08a2ada2b7fc_7_9",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 21,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "08a2ada2b7fc",
+        "locator": "PDF-/Textseite 7, Absatzblock 9",
+        "original": null
+      }
+    },
+    {
+      "id": "holzgerlingen-rule-b4e1b52f1a90",
+      "kind": "source_clause_08a2ada2b7fc_7_10",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 22,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "08a2ada2b7fc",
+        "locator": "PDF-/Textseite 7, Absatzblock 10",
+        "original": null
+      }
+    },
+    {
+      "id": "holzgerlingen-rule-c84cd2d706a2",
+      "kind": "source_clause_08a2ada2b7fc_7_11",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 23,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "08a2ada2b7fc",
+        "locator": "PDF-/Textseite 7, Absatzblock 11",
+        "original": null
+      }
+    },
+    {
+      "id": "holzgerlingen-rule-a8f049b662fa",
+      "kind": "source_clause_08a2ada2b7fc_7_12",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 24,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "08a2ada2b7fc",
+        "locator": "PDF-/Textseite 7, Absatzblock 12",
+        "original": null
+      }
+    },
+    {
+      "id": "holzgerlingen-rule-3c987ef3385e",
+      "kind": "source_clause_08a2ada2b7fc_7_14",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 25,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "08a2ada2b7fc",
+        "locator": "PDF-/Textseite 7, Absatzblock 14",
+        "original": null
+      }
+    }
+  ],
+  "issues": [
+    {
+      "code": "pending_calculation_review",
+      "detail": "Strukturierter Import; noch keine Freigabe des Rechners oder der Website."
+    },
+    {
+      "code": "research_limitation_1",
+      "detail": "Die ältere Jahreszahl macht die weiterhin verlinkte, unbefristete Fassung nicht automatisch ungültig. Vor Aktivierung erneut auf Änderungen prüfen."
+    }
+  ],
+  "coverage": {
+    "publication_status": "not_active",
+    "integration_status": "normalized_pending_calculation_review",
+    "history_in_scope": false,
+    "source_register": "data/research/neighbor_expansion_2026-11-10.json",
+    "research_id": "holzgerlingen",
+    "unavailable_configurations": [],
+    "offers": 8,
+    "price_cells": 32,
+    "income_bands": 0,
+    "components": 5,
+    "rule_records": 30,
+    "tariff_table_transcription": "complete_for_declared_scope",
+    "declared_scope": "Aktuelle und bereits veröffentlichte künftige Krippen- und Kindergartentarife; Zusatzkosten und Gebührenregeln.",
+    "excluded_from_regular_price_rows": [
+      "superseded_historical_tariffs",
+      "school_childcare",
+      "takki_and_childminding",
+      "separate_playgroups"
+    ],
+    "calculation_engine_changed": false,
+    "rule_transcription": "typed_parameters_and_source_clauses_with_explicit_unimplemented_status"
+  },
+  "original_research": {
+    "path": "data/research/neighbor_expansion_2026-11-10.json",
+    "section": "Holzgerlingen",
+    "text": "Ortsrecht und aktuelle Gebührenseite verlinken übereinstimmend die Fassung September 2025; kein neuer Preisstand behauptet.\nDie ältere Jahreszahl macht die weiterhin verlinkte, unbefristete Fassung nicht automatisch ungültig. Vor Aktivierung erneut auf Änderungen prüfen.",
+    "source_clauses": [
+      {
+        "text": "Satzung\n      über die Erhebung von Benutzungsgebühren (Elternbeiträge)\n               für die Kinderbetreuungseinrichtungen der\n                  Stadt Holzgerlingen vom 27.05.2025",
+        "evidence": {
+          "source_id": "08a2ada2b7fc",
+          "locator": "PDF-/Textseite 1, Absatzblock 1",
+          "original": null
+        }
+      },
+      {
+        "text": "(4) Der Einrichtungsträger kann das Benutzungsverhältnis aus wichtigem Grund\nbeenden. Wichtige Gründe sind insbesondere die Nichtzahlung einer fälligen\nGebührenschuld trotz Mahnung oder wenn das Kind länger als zwei Monate\nunentschuldigt fehlt. Der Ausschluss des Kindes erfolgt durch schriftlichen\nBescheid; er ist unter Wahrung einer Frist von vier Wochen anzudrohen.",
+        "evidence": {
+          "source_id": "08a2ada2b7fc",
+          "locator": "PDF-/Textseite 2, Absatzblock 5",
+          "original": null
+        }
+      },
+      {
+        "text": "(1) Für die Benutzung von Kinderbetreuungseinrichtungen der Stadt Holzgerlingen\nwerden Benutzungsgebühren je Kind und Betreuungsplatz erhoben.",
+        "evidence": {
+          "source_id": "08a2ada2b7fc",
+          "locator": "PDF-/Textseite 2, Absatzblock 7",
+          "original": null
+        }
+      },
+      {
+        "text": "(2) Gebührenmaßstab ist\n     · die Art der Einrichtung\n     · der Umfang der Betreuungszeit\n     · das Alter des Kindes\n     · die Anzahl der Kinder unter 18 Jahren im Haushalt des Gebührenschuldners.",
+        "evidence": {
+          "source_id": "08a2ada2b7fc",
+          "locator": "PDF-/Textseite 2, Absatzblock 8",
+          "original": null
+        }
+      },
+      {
+        "text": "(3) Die Gebühren werden jeweils für einen Kalendermonat (Veranlagungs-\nzeitraum) erhoben.",
+        "evidence": {
+          "source_id": "08a2ada2b7fc",
+          "locator": "PDF-/Textseite 2, Absatzblock 9",
+          "original": null
+        }
+      },
+      {
+        "text": "(4) Die Gebühr ist auch während der Ferien sowie bei Nichtbenutzung oder\nvorübergehender   Schließung     (zum    Beispiel wegen Erkrankung  oder\nPersonalmangel) der Einrichtung zu entrichten.",
+        "evidence": {
+          "source_id": "08a2ada2b7fc",
+          "locator": "PDF-/Textseite 2, Absatzblock 10",
+          "original": null
+        }
+      },
+      {
+        "text": "(5) Die Höhe der Gebühren wird gestaffelt nach der Anzahl der Kinder, die noch\nnicht das 18. Lebensjahr vollendet haben und die nicht nur vorübergehend im\nHaushalt des Gebührenschuldners leben.",
+        "evidence": {
+          "source_id": "08a2ada2b7fc",
+          "locator": "PDF-/Textseite 2, Absatzblock 11",
+          "original": null
+        }
+      },
+      {
+        "text": "(6) Besuchen Kinder zwischen 2 und 3 Jahren den Kindergarten neu (nicht\nÜbergang von einer städtischen Krippe in den Kindergarten), fällt eine\nZusatzgebühr in Höhe von 125 % der Gebührensätze nach Abs. 8 an, abhängig\nvon der gewählten Betreuungszeit. Die Erhebung des Zuschlags endet mit dem\nMonat, in dem das Kind das 3. Lebensjahr vollendet.",
+        "evidence": {
+          "source_id": "08a2ada2b7fc",
+          "locator": "PDF-/Textseite 3, Absatzblock 1",
+          "original": null
+        }
+      },
+      {
+        "text": "(7) Höhe der Gebührensätze (12-Monats-Gebühren) je Betreuungsplatz im\nEinzelnen:",
+        "evidence": {
+          "source_id": "08a2ada2b7fc",
+          "locator": "PDF-/Textseite 3, Absatzblock 2",
+          "original": null
+        }
+      },
+      {
+        "text": "Beiträge für Kinder von 0 – 4 Jahren aus Familien mit\n  Wöchentliche                                                              4 u. mehr\n                         1 Kind          2 Kindern        3 Kindern          Kinder\n Betreuungszeit\n                       unter 18 J.      unter 18 J.      unter 18 J.        unter 18 J.\n                       ab 1.9.2025      ab 1.9.2025      ab 1.9.2025     ab 1.9.2025\n5 Stunden bis\n                        144,00 €          111,00 €         74,00 €           25,00 €\nunter 10 Stunden\n10 Stunden bis\n                        183,00 €          142,00 €         94,00 €           31,00 €\nunter 13 Stunden\n13 Stunden bis\n                        233,00 €          179,00 €         118,00 €          39,00 €\nunter 16 Stunden\n16 Stunden bis\n                        280,00 €          216,00 €         143,00 €          48,00 €\nunter 19 Stunden\n19 Stunden bis\n                        329,00 €          254,00 €         168,00 €          56,00 €\nunter 22 Stunden\n22 Stunden bis\n                        376,00 €          290,00 €         191,00 €          64,00 €\nunter 25 Stunden\n25 Stunden bis\n                        424,00 €          326,00 €         216,00 €          72,00 €\nunter 28 Stunden\n28 Stunden bis\n                        471,00 €          363,00 €         241,00 €          81,00 €\nunter 31 Stunden\n31 Stunden bis\n                        588,00 €          453,00 €         300,00 €         100,00 €\nunter 34 Stunden\n34 Stunden bis\n                        642,00 €          494,00 €         328,00 €         109,00 €\nunter 37 Stunden\n37 Stunden bis\n                        697,00 €          537,00 €         355,00 €         118,00 €\nunter 40 Stunden\n40 Stunden bis\n                        752,00 €          579,00 €         384,00 €         127,00 €\nunter 43 Stunden\n43 Stunden bis\n                        805,00 €          620,00 €         411,00 €         137,00 €\nunter 46 Stunden",
+        "evidence": {
+          "source_id": "08a2ada2b7fc",
+          "locator": "PDF-/Textseite 5, Absatzblock 2",
+          "original": null
+        }
+      },
+      {
+        "text": "Beiträge für Kinder von 4 – 6 Jahren aus Familien mit\n                                                                                 4 u. mehr\n    Monatsgebühr              1 Kind          2 Kindern       3 Kindern\n                                                                                  Kinder\n                            unter 18 J.      unter 18 J.      unter 18 J.       unter 18 J.\n                            ab 1.9.2025      ab 1.9.2025     ab 1.9.2025       ab 1.9.2025",
+        "evidence": {
+          "source_id": "08a2ada2b7fc",
+          "locator": "PDF-/Textseite 5, Absatzblock 5",
+          "original": null
+        }
+      },
+      {
+        "text": "(8) Bei einer tageweisen Inanspruchnahme der Betreuung nach Abs. 7 Ziff. 3 und\n4b und 4c werden die jeweiligen Gebührensätze wie folgt berechnet:\n4 Tage: 80 %; 3 Tage: 60 %; 2 Tage: 40 % oder 1 Tag: 20 % der jeweiligen\nBenutzungsgebühr. Nehmen die Kinder an den anderen Tagen die „verlängerten\nÖffnungszeiten“ in Anspruch, zahlen die Eltern den entsprechenden prozentualen\nAnteil der Benutzungsgebühr Kindergarten mit verlängerten Öffnungszeiten nach\nAbs. 8 Ziff. 2 bzw. der Anteil der Benutzungsgebühr für Kinderkrippen nach Abs.\n8 Ziff. 4a. Da die Betreuung grundsätzlich 5 Tage umfasst, werden die\nverbleibenden Tage mit Regelbetreuung ggf. in Verbindung mit „verlängerten\nÖffnungszeiten“ abgedeckt und die Eltern bezahlen dafür den entsprechenden\nprozentualen Anteil der Regelgebühr nach Satz 1.",
+        "evidence": {
+          "source_id": "08a2ada2b7fc",
+          "locator": "PDF-/Textseite 6, Absatzblock 1",
+          "original": null
+        }
+      },
+      {
+        "text": "(9) Ändert sich die Anzahl der berücksichtigungsfähigen Kinder gemäß Abs. 1, ist\ndie Änderung vom Gebührenschuldner unter Angabe des Kalendermonats, in dem\ndie Änderung eingetreten ist, der Stadt Holzgerlingen mitzuteilen. Die\nBenutzungsgebühren werden für den Kalendermonat neu festgesetzt, der auf den\nKalendermonat folgt, in dem die Änderungen angezeigt wurden.",
+        "evidence": {
+          "source_id": "08a2ada2b7fc",
+          "locator": "PDF-/Textseite 6, Absatzblock 2",
+          "original": null
+        }
+      },
+      {
+        "text": "(1) Die Teilnahme am warmen Mittagessen ist bei einer Ganztagesbetreuung\n    (siehe § 2 Abs. 1 Ziff 3. und 4b.) verpflichtend. Dafür ist zusätzlich zu den\n    Benutzungsgebühren eine Verpflegungsgebühr als monatliche Pauschale –je\n    nach Beanspruchung- gem. Abs. 3 zu entrichten.",
+        "evidence": {
+          "source_id": "08a2ada2b7fc",
+          "locator": "PDF-/Textseite 6, Absatzblock 4",
+          "original": null
+        }
+      },
+      {
+        "text": "(2) In der Betreuungsform nach §2 Abs. 1 Ziff. 3 (VÖ 35 Stunden/Woche) kann\n    ein warmes Mittagessen gebucht werden, wenn die Tageseinrichtung dieses\n    anbietet. Mit der Buchung ist die Anzahl der wöchentlichen Verpflegungstage\n    sowie die Nennung der Wochentage, an denen die Verpflegung genutzt werden\n    soll, verbindlich schriftlich festzulegen. Dafür ist zusätzlich zu den\n    Benutzungsgebühren eine Verpflegungsgebühr als monatliche Pauschale gem.\n    Abs. 3 zu entrichten.",
+        "evidence": {
+          "source_id": "08a2ada2b7fc",
+          "locator": "PDF-/Textseite 6, Absatzblock 5",
+          "original": null
+        }
+      },
+      {
+        "text": "(3) Die Höhe der jeweiligen pauschalen Verpflegungsgebühr, die für 12 Monate\n    eines Betreuungsjahres zu entrichten ist, sie beträgt je nach Beanspruchung:",
+        "evidence": {
+          "source_id": "08a2ada2b7fc",
+          "locator": "PDF-/Textseite 6, Absatzblock 6",
+          "original": null
+        }
+      },
+      {
+        "text": "(4) Fehlt ein Kind infolge Krankheit oder Kur mehr als 2 aufeinanderfolgende\n    Kalenderwochen, wird die Verpflegungspauschale anteilig mit 1/20 pro\n    Verpflegungstag auf Antrag zurückerstattet. Beträgt die Fehlzeit einen vollen\n    Kalendermonat ist die Erstattung auf die monatliche Pauschale begrenzt. Der\n    Antrag ist bei der jeweiligen Einrichtungsleitung schriftlich einzureichen, eine\n    ärztliche Krankmeldung bzw. ein Nachweis über die Kur ist vorzulegen. Die\n    Rückerstattung wird auf volle Euro aufgerundet.",
+        "evidence": {
+          "source_id": "08a2ada2b7fc",
+          "locator": "PDF-/Textseite 6, Absatzblock 8",
+          "original": null
+        }
+      },
+      {
+        "text": "(1) Zur Zahlung der Gebühren sind die Personensorgeberechtigten derjenigen\nKinder verpflichtet, die die Kindertageseinrichtungen besuchen.",
+        "evidence": {
+          "source_id": "08a2ada2b7fc",
+          "locator": "PDF-/Textseite 7, Absatzblock 2",
+          "original": null
+        }
+      },
+      {
+        "text": "(1) Die Gebührenschuld entsteht zu Beginn des Veranlagungszeitraumes (§ 4\nAbsatz 3), für den der Betreuungsplatz belegt ist.",
+        "evidence": {
+          "source_id": "08a2ada2b7fc",
+          "locator": "PDF-/Textseite 7, Absatzblock 5",
+          "original": null
+        }
+      },
+      {
+        "text": "(2)   Die   Gebührenschuld        wird    jeweils    zum     Monatsersten       des\nVeranlagungszeitraums fällig.",
+        "evidence": {
+          "source_id": "08a2ada2b7fc",
+          "locator": "PDF-/Textseite 7, Absatzblock 6",
+          "original": null
+        }
+      },
+      {
+        "text": "(3) Die Gebührenpflicht bleibt bis zur Wirksamkeit der Beendigung des\nBenutzungsverhältnisses (§ 3) bestehen.",
+        "evidence": {
+          "source_id": "08a2ada2b7fc",
+          "locator": "PDF-/Textseite 7, Absatzblock 7",
+          "original": null
+        }
+      },
+      {
+        "text": "(1) Die Reduzierung von Betreuungszeiten im Umfang von mehr als zwei Wochen\nführt in gleichem Maße prozentual zur Kürzung der monatlichen\nBetreuungsgebühr.",
+        "evidence": {
+          "source_id": "08a2ada2b7fc",
+          "locator": "PDF-/Textseite 7, Absatzblock 9",
+          "original": null
+        }
+      },
+      {
+        "text": "(2) Bei quarantänebedingten Schließungen von Gruppen und Einrichtungen, länger\nals 2 Wochen bzw. 10 Betreuungstagen in Folge, wird eine halbe Monatsgebühr\nerstattet.",
+        "evidence": {
+          "source_id": "08a2ada2b7fc",
+          "locator": "PDF-/Textseite 7, Absatzblock 10",
+          "original": null
+        }
+      },
+      {
+        "text": "(3) Für alle sonstigen Schließungen, die von städtischer Seite angeordnet werden\nmüssen oder in Absprache bzw. mit der Unterstützung des Elternbeirats und der\nEltern vorgenommen werden, wird ab dem 11. Schließtag eine halbe\nMonatsgebühr zurückerstattet. Die Zählung der Schließtage, die aufgrund\nvorstehender Regelung zur Rückerstattung führen kann, wird von der jeweiligen\nEinrichtung übernommen und im Falle einer Rückerstattung an die\nKindergartenverwaltung gemeldet.",
+        "evidence": {
+          "source_id": "08a2ada2b7fc",
+          "locator": "PDF-/Textseite 7, Absatzblock 11",
+          "original": null
+        }
+      },
+      {
+        "text": "(4) Über diese Regelungen hinaus können keine Kürzungen oder Rückerstattungen\nvorgenommen werden. Dementsprechend sind die örtlichen Schließtage,\nFerienzeiten oder sonstige einrichtungsübergreifende Schließungen nicht von den\nVorgaben des § 8 der vorliegenden Satzung erfasst (vgl. § 4 Abs. 3+4 dieser\nSatzung).",
+        "evidence": {
+          "source_id": "08a2ada2b7fc",
+          "locator": "PDF-/Textseite 7, Absatzblock 12",
+          "original": null
+        }
+      },
+      {
+        "text": "Diese Satzung tritt am 01. September 2025 in Kraft; gleichzeitig verliert die\nbisherige Gebührenordnung ihre Gültigkeit.",
+        "evidence": {
+          "source_id": "08a2ada2b7fc",
+          "locator": "PDF-/Textseite 7, Absatzblock 14",
+          "original": null
+        }
+      }
+    ]
+  }
+}

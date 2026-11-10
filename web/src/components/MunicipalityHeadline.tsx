@@ -5,7 +5,6 @@ interface Props { names: string[] }
 
 export function MunicipalityHeadline({ names }: Props) {
   const [index, setIndex] = useState(0);
-  const [paused, setPaused] = useState(false);
   const [reducedMotion, setReducedMotion] = useState(true);
   const labels = names.length ? names : ["deiner Kommune"];
   const currentName = labels[index % labels.length];
@@ -19,12 +18,12 @@ export function MunicipalityHeadline({ names }: Props) {
   }, []);
 
   useEffect(() => {
-    if (paused || reducedMotion || names.length < 2) return;
+    if (reducedMotion || names.length < 2) return;
     const timer = window.setInterval(() => {
       if (!document.hidden) setIndex(previous => (previous + 1) % names.length);
     }, 3500);
     return () => window.clearInterval(timer);
-  }, [paused, reducedMotion, names.length]);
+  }, [reducedMotion, names.length]);
 
   return <>
     <h1 id="page-title">
@@ -41,10 +40,6 @@ export function MunicipalityHeadline({ names }: Props) {
     </h1>
     <div className={styles.introCaption}>
       <p className={styles.lead}>Die gleiche Berechnungsgrundlage in jeder Kommune.</p>
-      {names.length > 1 && !reducedMotion && <button className={styles.headlinePause} type="button"
-        aria-pressed={paused} onClick={() => setPaused(value => !value)}>
-        Namenwechsel {paused ? "fortsetzen" : "pausieren"}
-      </button>}
     </div>
   </>;
 }

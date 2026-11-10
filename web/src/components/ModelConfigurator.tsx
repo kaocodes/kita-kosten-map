@@ -33,7 +33,7 @@ export function ModelConfigurator({ selection, catalog, onChange }: Props) {
       </button>
       <button type="button" className={styles.familyCard} aria-pressed={customizing} aria-controls="model-configuration"
         aria-expanded={customizing} onClick={() => setCustomizing(true)}>
-        <span className={styles.familyCopy}><span className={styles.handwritten}>Deine Vergleichsfamilie</span>
+        <span className={styles.familyCopy}><strong className={`${styles.modelLabel} ${styles.comparisonLabel}`}>Deine Vergleichsfamilie</strong>
           <strong>Eine Modellfamilie,<br />die zu dir passt.</strong><small>Haushalt, Kinder und Betreuung anpassen</small><span className={styles.configureLink}>Familie konfigurieren <span aria-hidden="true">↗</span></span>
         </span>
       </button>

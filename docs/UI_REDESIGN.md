@@ -2,11 +2,13 @@
 
 **Stand:** 9. November 2026
 
-**Status:** Familienatlas auf `codex/ui-redesign` lokal in der React-/Leaflet-Anwendung umgesetzt; zur Durchsicht unter `http://127.0.0.1:5173/` gestartet. Noch nicht veröffentlicht. Die nachfolgende Vorschau bleibt als ursprünglicher Planungsstand erhalten.
+**Status:** Familienatlas in der React-/Leaflet-Anwendung umgesetzt. Datensatz-Erweiterung und anschließendes Design-Rework wurden auf `Datensatz-Erweiterung` lokal geprüft und auf Nutzerwunsch für Merge und Pages-Veröffentlichung freigegeben. Die nachfolgende Vorschau bleibt als ursprünglicher Planungsstand erhalten.
 
 **Gewählte Variante:** Familienatlas. Die zuvor untersuchten Varianten Kartenatelier und Vergleichstisch werden nicht weiterverfolgt.
 
 **Nacharbeiten vom 10. November 2026:** Die UI-Punkte aus [NAECHSTE_SESSION.md](NAECHSTE_SESSION.md) sind lokal umgesetzt: animierte Kommunennamen auf lila Balken, plakative Familienkarten-Beschriftungen und kompakte Methodik ohne Verpflegungsblock oder Bildmotiv direkt auf dem Seitenhintergrund. Die zuletzt gelieferten Familien- und Logoillustrationen bleiben erhalten. SEO ist weiterhin nur eine Erinnerung.
+
+**Kurzes Design-Rework vom 10. November 2026:** Zusätzliche Überschrift und Kommunenzähler über der Karte sowie Pausenbutton entfernt. Beide Familienkartentitel verwenden dieselbe Schrift, Größe und Balkengestaltung; die Vergleichsfamilie hat einen lila Balken. Die Illustrationsmaße wurden an allen Bildschirmstufen mit Faktor 1,3 vergrößert und auf die verfügbare Kartenbreite begrenzt. Kräftigere Schatten betonen die auswählbaren Karten. Lokal auf Port 5174 geprüft; Gebührenberechnung und Datensätze bleiben unverändert.
 
 ## Lokaler Implementierungsstand
 
@@ -26,7 +28,7 @@ Die echte Anwendung verwendet das Familienatlas-Layout mit großer Karte und vol
 
 ## Ergänzende UI-Prüfung vom 10. November 2026
 
-Die neue Überschrift bezieht ihre Namen aus dem aktiven Kommunenregister und wechselt sie alle 3,5 Sekunden. Der Wechsel kann pausiert und fortgesetzt werden; bei `prefers-reduced-motion: reduce` bleibt er statisch. Der Screenreader erhält eine feste verständliche Frage statt laufender Namensmeldungen. Die Größe aller Namen wird im Layout berücksichtigt, sodass auch der Wechsel zwischen Leinfelden-Echterdingen und kurzen Namen die Kartenposition nicht verschiebt. Die Überschrift verändert weder Kommunenauswahl noch Gebühren.
+Die neue Überschrift bezieht ihre Namen aus dem aktiven Kommunenregister und wechselt sie alle 3,5 Sekunden. Der Pausenbutton wurde beim anschließenden kurzen Design-Rework auf Nutzerwunsch entfernt; bei `prefers-reduced-motion: reduce` bleibt der Wechsel statisch. Der Screenreader erhält eine feste verständliche Frage statt laufender Namensmeldungen. Die Größe aller Namen wird im Layout berücksichtigt, sodass auch der Wechsel zwischen Leinfelden-Echterdingen und kurzen Namen die Kartenposition nicht verschiebt. Die Überschrift verändert weder Kommunenauswahl noch Gebühren.
 
 Die rechte Familienkarte trägt den größeren, schrägen Schriftzug **Deine Vergleichsfamilie** weiß auf kräftigem Lila. **Die Modellfamilie** steht weiß und fett auf einem leicht angeschrägten anthrazitfarbenen Balken. Die Familienbilder und die übrigen Karteninhalte bleiben erhalten. Der Methodikbereich ist kleiner, transparent und rahmenlos; Verpflegung bleibt ausschließlich in den Kommunen-/Kinderdetails zugänglich.
 

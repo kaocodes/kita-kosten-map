@@ -73,10 +73,11 @@ for (const scenario of cases) {
   });
 }
 
-test("Both reference profiles match the independent official-source reviews", () => {
+test("Both reference profiles preserve the original twelve official-source reviews", () => {
   for (const [profileName, reviewName] of [["default", "model_family"], ["highest_band", "highest_band"]]) {
     const review = read(`data/reviews/${reviewName}_review.json`);
-    const results = compareMunicipalities(catalog, read(`data/profiles/${profileName}.json`), registry);
+    const results = compareMunicipalities(catalog, read(`data/profiles/${profileName}.json`), registry)
+      .filter(row => row.municipality_id in review.expected);
     assert.deepEqual(results.map(row => row.municipality_id).sort(), Object.keys(review.expected).sort());
     for (const row of results) {
       const expected = review.expected[row.municipality_id];

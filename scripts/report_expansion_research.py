@@ -12,6 +12,7 @@ import json
 from pathlib import Path
 import re
 import subprocess
+import sys
 
 ROOT = Path(__file__).resolve().parents[1]
 REGISTER = ROOT / "data/research/neighbor_expansion_2026-11-10.json"
@@ -28,6 +29,13 @@ SCHEDULE_LABELS = {
     "friday_too_short": "Freitag kürzer als 8 Std.",
     "municipal_u3_not_established": "Kommunale U3-Basis offen",
 }
+
+
+def activated_candidates(register):
+    """Read current activation separately from the archived research assessment."""
+    candidate_ids = {item["id"] for item in register["municipalities"]}
+    registry = json.loads((ROOT / "data/municipality_registry.json").read_text())
+    return sorted(item["id"] for item in registry["municipalities"] if item["active"] and item["id"] in candidate_ids)
 
 
 def verify_decisions(municipality, decisions, source_ids):
@@ -111,10 +119,9 @@ def verify(register):
     actual = {(item["name"], item["ags"]) for item in municipalities}
     if len(municipalities) != len(actual) or actual != candidates:
         raise ValueError("Research municipalities do not match the documented candidates")
-    active_registry = json.loads((ROOT / "data/municipality_registry.json").read_text())
-    active_ags = {item["ags"] for item in active_registry["municipalities"] if item["active"]}
-    if active_ags & {ags for _, ags in actual}:
-        raise ValueError("Research-only candidates have been activated in the production registry")
+    if activated_candidates(register):
+        subprocess.run([sys.executable, str(ROOT / "scripts/activate_expansion_catalogs.py"), "--check"],
+                       check=True, capture_output=True, text=True)
     transcriptions = json.loads((ROOT / register["transcriptions_path"]).read_text())
     manual_sources = {item["source_id"] for item in transcriptions["sources"]}
     decisions = {item["id"]: item for item in register.get("decisions", [])}
@@ -187,8 +194,9 @@ def render(register, sources):
         "Damit liegt noch **kein uneingeschränkt vergleichbarer Produktionsdatensatz für alle 33 Orte** vor.",
         "",
         "Die Prüfung bewertet die gefundenen Quellen. Sie ist weder eine vollständige Umsetzung der Tarifregeln "
-        "im Rechner noch eine Freigabe sämtlicher Familientypen. Alle zwölf bisherigen Kommunen bleiben unverändert aktiv; "
-        "die neuen Gebiete wurden nicht veröffentlicht. Die Recherche wurde am 10. November auf ausdrücklichen Nutzerwunsch vorgezogen.",
+        "im Rechner noch eine Freigabe sämtlicher Familientypen. Die zwölf bisherigen Kommunen bleiben unverändert. "
+        "Die Recherche wurde am 10. November auf ausdrücklichen Nutzerwunsch vorgezogen. "
+        "Der anschließende Integrations- und Veröffentlichungsstand ist getrennt in der [Erweiterungsintegration](ERWEITERUNGSINTEGRATION.md) dokumentiert.",
         "",
         "## Ablage und Prüfmethode",
         "",
@@ -327,8 +335,9 @@ def render(register, sources):
         "ist inzwischen abgeschlossen und weist unterstützte sowie nicht berechenbare Konfigurationen aus. Die vertiefte fachliche Quellenabnahme bleibt ein weiterer Schritt. "
         f"Die {counts['clarification_required']} verbleibenden Klärungsfälle bleiben für ihre betroffenen Konfigurationen eingeschränkt. "
         "Neue Einkommens-/Geschwisterregeln, Verpflegung und belegte Tagesverteilungen werden vor einer Aktivierung berücksichtigt. "
-        "Die gemeinsame Engine und das produktive Register wurden nicht geändert. "
-        "Die Website-Freischaltung bleibt ein eigener Schritt; historische Preisreihen bleiben zurückgestellt.",
+        f"Die gemeinsame Engine bleibt unverändert. Inzwischen sind **{len(activated_candidates(register))} vollständig unterstützte Kandidaten** "
+        "über eine gesonderte, gegen den Prüfindex abgesicherte Auswahl in die lokale Website übernommen. "
+        "Die Veröffentlichung auf GitHub Pages erfolgt nach ausdrücklicher Freigabe über den Workflow auf `main`; historische Preisreihen bleiben zurückgestellt.",
         "",
         "Erneut prüfen und Bericht aus den Bewertungen erzeugen:",
         "",
@@ -356,7 +365,8 @@ def main():
         "failed_attempts": sum(source["http_status"] != 200 for source in sources.values()),
         "checksum_verification": "passed",
         "canonical_tariff_normalization": register["tariff_normalization_status"],
-        "production_activation": "not_performed",
+        "production_activation": json.loads((ROOT / "data/expansion/activation.json").read_text())["status"] if activated_candidates(register) else "not_performed",
+        "activated_municipality_ids": activated_candidates(register),
     }
     if not args.check:
         REPORT.write_text(render(register, sources))

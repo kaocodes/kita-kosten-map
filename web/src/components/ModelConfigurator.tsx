@@ -1,22 +1,51 @@
+import { useState } from "react";
 import type { ModelCatalog, ModelSelection } from "../domain/model-family.js";
-import { formatMoney } from "../site/presentation.js";
-import styles from "./ModelConfigurator.module.css";
+import { formatHours, formatMoney } from "../site/presentation.js";
+import { MODEL_UI_MAX_CHILDREN } from "../site/features.js";
+import styles from "../Atlas.module.css";
 
 interface Props { selection: ModelSelection; catalog: ModelCatalog; onChange: (selection: ModelSelection) => void }
 
+const familyIllustrations = Array.from({ length: 6 }, (_, index) => `images/families/family-${index + 1}.webp`);
+
 export function ModelConfigurator({ selection, catalog, onChange }: Props) {
+  const [customizing, setCustomizing] = useState(false);
+  const [familyIllustration] = useState(() => familyIllustrations[Math.floor(Math.random() * familyIllustrations.length)]);
+  const defaultIncome = catalog.income_scenarios.find(item => item.id === catalog.default.income_id)!;
+  function reset() {
+    onChange(structuredClone(catalog.default));
+    setCustomizing(false);
+  }
   function resize(count: number) {
     onChange({ ...selection, children: Array.from({ length: count }, (_, index) => selection.children[index] ?? { category: "home", daily_minutes: 480 }) });
   }
   return <section className={styles.card} aria-labelledby="model-heading">
-    <div className={styles.heading}><div><span className={styles.kicker}>DEINE VERGLEICHSFAMILIE</span><h2 id="model-heading">Eine Modellfamilie, die zu dir passt.</h2>
-      <p>Wenige Auswahlen. Gleiche Annahmen in jeder Kommune.</p></div>
-      <button type="button" onClick={() => onChange(structuredClone(catalog.default))}>Standard wiederherstellen</button></div>
+    <h2 id="model-heading">Vergleiche die Gebühren mit deiner Familie</h2>
+    <div className={styles.familyCards}>
+      <button type="button" className={styles.familyCard} aria-pressed={!customizing} onClick={reset}>
+        <img className={styles.familyImage} src={import.meta.env.BASE_URL + familyIllustration}
+          width="512" height="512" decoding="async" alt="Illustration einer Familie mit zwei Eltern und einem Kind" />
+        <span className={styles.familyCopy}><strong className={styles.modelLabel}>Die Modellfamilie</strong>
+          <small>{catalog.default.household === "couple" ? "Zwei Eltern" : "Alleinerziehend"} · {catalog.default.children.length} {catalog.default.children.length === 1 ? "Kind" : "Kinder"}</small>
+          {catalog.default.children.map((child, index) => <small key={index}>{catalog.categories.find(item => item.id === child.category)!.label} · {formatHours(child.daily_minutes)} täglich</small>)}
+          <small>{formatMoney(defaultIncome.gross_annual_cents).replace(",00", "")} Haushaltsbrutto/Jahr</small>
+        </span>
+      </button>
+      <button type="button" className={styles.familyCard} aria-pressed={customizing} aria-controls="model-configuration"
+        aria-expanded={customizing} onClick={() => setCustomizing(true)}>
+        <span className={styles.familyCopy}><span className={styles.handwritten}>Deine Vergleichsfamilie</span>
+          <strong>Eine Modellfamilie,<br />die zu dir passt.</strong><small>Haushalt, Kinder und Betreuung anpassen</small><span className={styles.configureLink}>Familie konfigurieren <span aria-hidden="true">↗</span></span>
+        </span>
+      </button>
+    </div>
+    <div id="model-configuration" className={styles.configuration} hidden={!customizing}>
+    <div className={styles.heading}><div><h3>Deine Modellkonfiguration</h3><p>Die gleiche Berechnungsgrundlage in jeder Kommune.</p></div>
+      <button type="button" onClick={reset}>Zurück zur Modellfamilie</button></div>
     <div className={styles.fields}>
       <label><span>Haushaltskonstellation</span><select value={selection.household} onChange={event => onChange({ ...selection, household: event.target.value as ModelSelection["household"] })}>
         <option value="couple">Zwei zusammenlebende Eltern</option><option value="single">Alleinerziehend</option></select></label>
       <label><span>Anzahl Kinder im Haushalt</span><select value={selection.children.length} onChange={event => resize(Number(event.target.value))}>
-        {Array.from({ length: catalog.max_children }, (_, index) => <option value={index + 1} key={index}>{index + 1} {index === 0 ? "Kind" : "Kinder"}</option>)}</select></label>
+        {Array.from({ length: Math.min(catalog.max_children, MODEL_UI_MAX_CHILDREN) }, (_, index) => <option value={index + 1} key={index}>{index + 1} {index === 0 ? "Kind" : "Kinder"}</option>)}</select></label>
       <label><span>Haushaltsbrutto pro Jahr · Modellszenario</span><select value={selection.income_id} onChange={event => onChange({ ...selection, income_id: event.target.value })}>
         {catalog.income_scenarios.map(scenario => <option value={scenario.id} key={scenario.id}>{formatMoney(scenario.gross_annual_cents).replace(",00", "")}</option>)}</select></label>
     </div>
@@ -44,5 +73,6 @@ export function ModelConfigurator({ selection, catalog, onChange }: Props) {
         </tr>)}</tbody></table></div>
       <p>Die steuerlich bezeichneten Modellwerte sind eigenständige Vergleichsannahmen und keine aus persönlichen Daten ermittelte Steuerberechnung. Ditzingens Tabellenbezeichnung wird nach der örtlichen Definition in § 7 verstanden. Für die Monatstabelle in Korntal wird ausschließlich derselbe Jahreswert durch zwölf geteilt.</p>
     </details>
+    </div>
   </section>;
 }

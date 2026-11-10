@@ -2,11 +2,37 @@
 
 **Stand:** 9. November 2026
 
-**Status:** Abgestimmte Gestaltungsrichtung und überarbeiteter Layoutentwurf; die Übertragung in die produktive React-Anwendung ist noch nicht beauftragt.
+**Status:** Familienatlas auf `codex/ui-redesign` lokal in der React-/Leaflet-Anwendung umgesetzt; zur Durchsicht unter `http://127.0.0.1:5173/` gestartet. Noch nicht veröffentlicht. Die nachfolgende Vorschau bleibt als ursprünglicher Planungsstand erhalten.
 
 **Gewählte Variante:** Familienatlas. Die zuvor untersuchten Varianten Kartenatelier und Vergleichstisch werden nicht weiterverfolgt.
 
-## Entwurf und Abgrenzung
+**Nacharbeiten vom 10. November 2026:** Die UI-Punkte aus [NAECHSTE_SESSION.md](NAECHSTE_SESSION.md) sind lokal umgesetzt: animierte Kommunennamen auf lila Balken, plakative Familienkarten-Beschriftungen und kompakte Methodik ohne Verpflegungsblock oder Bildmotiv direkt auf dem Seitenhintergrund. Die zuletzt gelieferten Familien- und Logoillustrationen bleiben erhalten. SEO ist weiterhin nur eine Erinnerung.
+
+## Lokaler Implementierungsstand
+
+Die echte Anwendung verwendet das Familienatlas-Layout mit großer Karte und vollständigen Kommunendetails darunter, Familienkarten und absteigender Gebührenliste. Die Liste verwendet dieselbe `FamilyDetails`-Komponente wie der Kartenbereich. Die tatsächlichen Modellwerte werden weiterhin im Browser mit dem bestehenden Rechenkern berechnet; die zwei vorberechneten Beispiele gehören ausschließlich zur archivierten Planungsansicht.
+
+- Seitenhintergrund Flieder, Inhaltsflächen warmes Weiß, Kartenhintergrund Pastellhellblau. Auf Flächen ohne Geometrie ist ein leichtes Punktemuster sichtbar; Umgebungsgebiete sind grau.
+- Leaflet-Zoom, Verschieben und **Region anzeigen** bleiben erhalten. Alle zwölf Vergleichskommunen sind dauerhaft beschriftet; bei Platzmangel werden Namen mit kurzen Verbindungslinien versetzt. Die 128 Umgebungsgebiete erhalten keine Namensschilder. Diese Abgrenzung wurde ausdrücklich bestätigt.
+- Die Auswahlkontur liegt in einer eigenen Leaflet-Ebene über sämtlichen Gebühren- und Umgebungsflächen und unter den Beschriftungen.
+- Die Legende zeigt nur **günstig** und **teuer** an den Enden des Farbbalkens. Die festen Gebührenklassen des Entwurfs bleiben von der gewählten Familie unabhängig; fehlende Ergebnisse werden grau dargestellt.
+- Die Kinderdetails sind zunächst zugeklappt; Verpflegung und Zusatzkosten stehen direkt im geöffneten Kindbereich. Listenansicht und Kartenansicht erhalten eindeutige Kennungen für ihre Quellen- und Kindbereiche.
+- Die Familienkarten öffnen den echten Konfigurator beziehungsweise setzen auf die Modellfamilie zurück. Die sichtbare Kinderzahl ist auf 1–4 begrenzt, der Rechenkern behält seine Unterstützung für bis zu zwölf Kinder. Einkommensszenarien und Gebührenberechnung wurden fachlich nicht verändert.
+- Die angeforderten Entwurfstexte **Frei gewählte Modellfamilien …** und **Im Entwurf: zwei Kinder in Betreuung** erscheinen nicht in der Anwendung. Die Rücksetzaktion heißt **Zurück zur Modellfamilie**.
+- Bilder werden an zwei Stellen verwendet: Logo im Kopfbereich und Illustration der Modellfamilie. Der Hamburger wurde aus dem Methodikbereich entfernt. Die Familienkarte wählt bei jedem Seitenladen eines von sechs nutzerseitig gelieferten Motiven und hält die Wahl während der Bedienung fest. Kopfbereich und Favicon verwenden das kräftigere der beiden gelieferten Kita-Pin-Symbole. Aktive WebP-Dateien und Aufbereitung stehen in [BILDASSETS.md](BILDASSETS.md); die Herkunft der früheren Pixelart bleibt in [PIXELART_ASSETS.md](PIXELART_ASSETS.md) dokumentiert.
+- Bricolage Grotesque wird lokal als WOFF2 ausgeliefert. Die OFL-Lizenz wird mitgeliefert und in die erzeugten Drittanbieterhinweise aufgenommen. Es werden zur Laufzeit keine Google-Font-Dateien nachgeladen.
+
+**Verifikation:** 153 JavaScript-Tests erfolgreich, einschließlich der vorhandenen Python-Gegenprüfung; zusätzlich 70 Python-Tests, TypeScript-Prüfung und statischer Build erfolgreich. Im Browser wurden Auswahl, Verschieben, Zoom und Regionsansicht, vollständige identische Kommuneninformationen in Karte und Liste, Zweikindmodell (Sindelfingen 354,20 €), Tastaturbedienung der Kinderdetails mit direkt sichtbarem Essen, Nullbeträge bei Kindern ohne Kita sowie Zurücksetzen geprüft. Bei 390 und 320 Pixeln wurden keine horizontalen Überläufe oder defekten Bilder gefunden; alle zwölf Vergleichsnamen bleiben sichtbar. Drei geladene Bilddateien und eindeutige Elementkennungen wurden kontrolliert; die Browserkonsole zeigte keine Fehler. Diese Prüfungen sind keine vollständige fachliche Nutzerabnahme.
+
+## Ergänzende UI-Prüfung vom 10. November 2026
+
+Die neue Überschrift bezieht ihre Namen aus dem aktiven Kommunenregister und wechselt sie alle 3,5 Sekunden. Der Wechsel kann pausiert und fortgesetzt werden; bei `prefers-reduced-motion: reduce` bleibt er statisch. Der Screenreader erhält eine feste verständliche Frage statt laufender Namensmeldungen. Die Größe aller Namen wird im Layout berücksichtigt, sodass auch der Wechsel zwischen Leinfelden-Echterdingen und kurzen Namen die Kartenposition nicht verschiebt. Die Überschrift verändert weder Kommunenauswahl noch Gebühren.
+
+Die rechte Familienkarte trägt den größeren, schrägen Schriftzug **Deine Vergleichsfamilie** weiß auf kräftigem Lila. **Die Modellfamilie** steht weiß und fett auf einem leicht angeschrägten anthrazitfarbenen Balken. Die Familienbilder und die übrigen Karteninhalte bleiben erhalten. Der Methodikbereich ist kleiner, transparent und rahmenlos; Verpflegung bleibt ausschließlich in den Kommunen-/Kinderdetails zugänglich.
+
+Im Browser wurden Namenswechsel, längeres Pausieren, Fortsetzen, konstante Kartenposition, korrekte Farben und der Methodikbereich ohne Bilder oder Verpflegung geprüft. Mobilansichten mit 320 und 390 Pixeln haben keine horizontalen Überläufe; die linke Beschriftung wurde für die schmalste Ansicht angepasst. Der Produktionsbuild einschließlich TypeScript-Prüfung ist erfolgreich. Eine Veröffentlichung oder SEO-Überarbeitung erfolgte nicht.
+
+## Archivierter Planungsentwurf
 
 Die [Familienatlas-Vorschau](design/familienatlas.html) ist eine eigenständige, im Browser aufrufbare Planungsansicht. Sie zeigt die neue Anordnung, Farben sowie aufklappbare Kommunen- und Kinderdetails. Sie ist kein neuer Build der veröffentlichten Website und wird nicht durch den Pages-Workflow veröffentlicht.
 
@@ -23,7 +49,7 @@ Für die Vorschau werden D3 7.9.0 über jsDelivr und die Schriften Bricolage Gro
 
 - In der sichtbaren Oberfläche heißt die frei gewählte Ausgangskonstellation durchgehend **Modellfamilie**, niemals Standardfamilie. Sie stellt weder einen Durchschnitts- noch einen Medianhaushalt dar.
 - Erste Familienkarte: **Die Modellfamilie**. Zweite Familienkarte: **Eine Modellfamilie, die zu dir passt.**
-- Zurücksetzen wird beispielsweise mit **Spielkarte umdrehen · zur Modellfamilie** bezeichnet.
+- Die endgültige Rücksetzbeschriftung lautet **Zurück zur Modellfamilie**; die archivierte Vorschau enthält noch die frühere Formulierung.
 - **Tarifstichtag <Datum>** wird als prominente Datumsangabe durch **Datenerhebung <Datum>** ersetzt. Hier muss das belegte Erhebungsdatum stehen, nicht lediglich der bisherige Tarifstichtag unter neuem Namen. Der Berechnungsstichtag bleibt in der Methodik nachvollziehbar; Quellenprüfung und Tarifgültigkeit bleiben in den Details erhalten.
 - **Wenige Auswahlen. Gleiche Annahmen in jeder Kommune.** wird durch **Die gleiche Berechnungsgrundlage in jeder Kommune.** ersetzt.
 - Die Überschrift des Familienbereichs lautet **Vergleiche die Gebühren mit deiner Familie**.
@@ -86,7 +112,7 @@ In der späteren React-Umsetzung sollen beide Darstellungen dieselbe Detailkompo
 
 Für den sichtbaren Konfigurator wurde zunächst eine Auswahl von **1 bis 4 Kindern** vorgeschlagen: Die hinterlegten Geschwisterstaffeln reichen bis zur vierten Stufe; eine weitere fünfte Rabattstufe ist im aktuellen Datensatz nicht erfasst. Die technische Unterstützung größerer Familien muss deshalb nicht aus Rechenkern oder Daten entfernt werden.
 
-Eine Auswahl **4+** würde eine beliebige Kinderzahl unzulässig mit vier gleichsetzen, da jedes zusätzlich betreute Kind die Familiensumme beeinflussen kann. Außerdem ist die Anwendung der vierten Stufe auf größere Haushalte in Korntal-Münchingen, Kornwestheim, Leonberg und teilweise Leinfelden-Echterdingen nicht durchgängig belegt. Die Produktionsoberfläche wird in diesem Planungsschritt noch nicht eingeschränkt; die endgültige Übernahme der vorgeschlagenen Begrenzung erfolgt mit dem Konfigurator-Umbau.
+Eine Auswahl **4+** würde eine beliebige Kinderzahl unzulässig mit vier gleichsetzen, da jedes zusätzlich betreute Kind die Familiensumme beeinflussen kann. Außerdem ist die Anwendung der vierten Stufe auf größere Haushalte in Korntal-Münchingen, Kornwestheim, Leonberg und teilweise Leinfelden-Echterdingen nicht durchgängig belegt. Die lokale Familienatlas-Oberfläche übernimmt diese Begrenzung inzwischen; Rechenkern und Tarifdaten bleiben davon unberührt.
 
 ## Prüfung vor Veröffentlichung der späteren Umsetzung
 

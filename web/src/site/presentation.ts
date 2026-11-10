@@ -1,13 +1,29 @@
 import type { ComparisonResult } from "../domain/index.js";
 
 export const FEE_BANDS = [
-  { upper: 30000, color: "#e5eee1", label: "bis 300 €" },
-  { upper: 45000, color: "#b5cbb0", label: "> 300–450 €" },
-  { upper: 60000, color: "#7fa785", label: "> 450–600 €" },
-  { upper: 90000, color: "#467c62", label: "> 600–900 €" },
-  { upper: Infinity, color: "#174c3c", label: "> 900 €" },
+  { upper: 30000, color: "#6785c1", label: "bis 300 €" },
+  { upper: 40000, color: "#9185cb", label: "> 300–400 €" },
+  { upper: 50000, color: "#b08bca", label: "> 400–500 €" },
+  { upper: 60000, color: "#dc987a", label: "> 500–600 €" },
+  { upper: Infinity, color: "#ea742a", label: "> 600 €" },
 ];
-export const MISSING_COLOR = "#d9dddf";
+export const MISSING_COLOR = "#cbd1dc";
+
+/** Keep unknown fees after every known amount, including a documented zero. */
+export function compareMonthlyFeesDescending(first: Pick<ComparisonResult, "monthly_equivalent_cents" | "municipality">,
+  second: Pick<ComparisonResult, "monthly_equivalent_cents" | "municipality">): number {
+  const firstAmount = first.monthly_equivalent_cents;
+  const secondAmount = second.monthly_equivalent_cents;
+  if (firstAmount === null && secondAmount !== null) return 1;
+  if (secondAmount === null && firstAmount !== null) return -1;
+  return (secondAmount ?? 0) - (firstAmount ?? 0) || first.municipality.localeCompare(second.municipality, "de");
+}
+
+/** The visible collection date comes from fee-source retrievals, never from the calculation date. */
+export function sourceCollectionDate(sources: { retrieved_at: string }[]): string | null {
+  const dates = sources.map(source => source.retrieved_at.slice(0, 10)).filter(value => /^\d{4}-\d{2}-\d{2}$/.test(value));
+  return dates.sort().at(-1) ?? null;
+}
 const money = new Intl.NumberFormat("de-DE", { style: "currency", currency: "EUR" });
 const number = new Intl.NumberFormat("de-DE", { maximumFractionDigits: 2 });
 const date = new Intl.DateTimeFormat("de-DE", { day: "2-digit", month: "2-digit", year: "numeric", timeZone: "UTC" });

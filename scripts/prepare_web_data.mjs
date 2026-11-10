@@ -161,6 +161,8 @@ const licenses = await Promise.all(["react", "react-dom", "leaflet", "zod"].map(
   const license = await readFile(new URL(`node_modules/${name}/LICENSE`, root), "utf8");
   return `${name} ${pkg.version}\n${license}`;
 }));
-await writeFile(new URL("web/public/THIRD_PARTY_NOTICES.txt", root), licenses.join("\n\n") + "\n");
+const fontLicense = await readFile(new URL("web/public/fonts/OFL.txt", root), "utf8");
+await writeFile(new URL("web/public/THIRD_PARTY_NOTICES.txt", root),
+  [...licenses, `Bricolage Grotesque (self-hosted Latin variable font)\n${fontLicense}`].join("\n\n") + "\n");
 console.log(`Prepared ${active.length} municipalities and ${metrics.context_municipalities} context areas in ${fileURLToPath(output)}.`);
 console.log(`Geometry: ${metrics.geometry_bytes} bytes (${metrics.geometry_gzip_bytes} gzip); catalog: ${metrics.catalog_bytes} bytes (${metrics.catalog_gzip_bytes} gzip).`);

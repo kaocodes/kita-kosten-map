@@ -4,7 +4,7 @@ import { readFileSync, readdirSync } from "node:fs";
 import { test } from "node:test";
 import { gzipSync } from "node:zlib";
 import { compareMunicipalities } from "../../build/domain/index.js";
-import { feeColor, formatMoney, MISSING_COLOR, FEE_BANDS } from "../../build/site/presentation.js";
+import { feeColor, formatMoney, MISSING_COLOR, FEE_BANDS, compareMonthlyFeesDescending, sourceCollectionDate } from "../../build/site/presentation.js";
 
 const read = path => JSON.parse(readFileSync(new URL("../../" + path, import.meta.url), "utf8"));
 const bytes = path => readFileSync(new URL("../../" + path, import.meta.url));
@@ -148,4 +148,22 @@ test("Fee colors distinguish zero from missing data and use unambiguous band bou
   assert.equal(feeColor({ status: "unavailable", monthly_equivalent_cents: null }), MISSING_COLOR);
   assert.equal(feeColor({ status: "ambiguous", monthly_equivalent_cents: 0 }), MISSING_COLOR);
   assert.notEqual(formatMoney(0), formatMoney(null));
+  for (let index = 0; index < FEE_BANDS.length - 1; index++) {
+    assert.equal(feeColor({ status: "comparable", monthly_equivalent_cents: FEE_BANDS[index].upper }), FEE_BANDS[index].color);
+    assert.equal(feeColor({ status: "comparable", monthly_equivalent_cents: FEE_BANDS[index].upper + 1 }), FEE_BANDS[index + 1].color);
+  }
+});
+
+test("Fee ranking places expensive families first, zero before missing, and ties alphabetically", () => {
+  const rows = [{ municipality: "Missing", monthly_equivalent_cents: null }, { municipality: "Zero", monthly_equivalent_cents: 0 },
+    { municipality: "Berlin", monthly_equivalent_cents: 30000 }, { municipality: "Aachen", monthly_equivalent_cents: 30000 },
+    { municipality: "Expensive", monthly_equivalent_cents: 80000 }];
+  assert.deepEqual(rows.sort(compareMonthlyFeesDescending).map(row => row.municipality), ["Expensive", "Aachen", "Berlin", "Zero", "Missing"]);
+});
+
+test("Collection date reflects retrieved fee evidence rather than the older calculation date", () => {
+  assert.equal(sourceCollectionDate(Object.values(bundle.sources)), "2026-11-07");
+  assert.notEqual(sourceCollectionDate(Object.values(bundle.sources)), bundle.profiles.default.as_of);
+  assert.equal(sourceCollectionDate([{ retrieved_at: "2026-11-05T10:00:00Z" }, { retrieved_at: "2026-11-07T22:00:00Z" }]), "2026-11-07");
+  assert.equal(sourceCollectionDate([]), null);
 });

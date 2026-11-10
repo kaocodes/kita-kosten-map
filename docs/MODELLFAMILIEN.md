@@ -9,7 +9,7 @@ Die öffentliche Website bietet einen Modellvergleich mit einfachen Auswahlen. P
 Die zentrale Datei `data/models/configuration.json` definiert Standardauswahl, Kinderkategorien, Modellalter, Betreuungszeiten, Einkommensszenarien und Annahmen. Der Browser erhält sie zusammen mit den Tarifdaten. Zod prüft Definitionen und Auswahlen; bei unvollständiger oder widersprüchlicher Konfiguration werden keine Ersatzwerte eingesetzt.
 
 - Haushalt: zwei zusammenlebende Eltern oder alleinerziehend.
-- Anzahl der Kinder: 1 bis 12; große Familien können wegen begrenzter veröffentlichter Tarifspalten unberechenbare Ergebnisse erhalten.
+- Anzahl der Kinder in der Familienatlas-Oberfläche: 1 bis 4. Die erfassten Geschwisterstaffeln enden bei der vierten Stufe; größere Haushalte sind nicht überall eindeutig belegt. Der Rechenkern und das kanonische Modellformat unterstützen weiterhin bis zu zwölf Kinder, ohne unbelegte Tarifspalten fortzuschreiben.
 - Je Kind: Krippenkind (Modellalter 24 Monate), Kindergartenkind (48 Monate), Schulkind (96 Monate) oder zu Hause betreut (24 Monate).
 - Nur Krippen- und Kindergartenkinder: 360 oder 480 Minuten durchgehend pro Tag, Montag bis Freitag.
 - Alle Kinder gelten als minderjährig, im Haushalt lebend und kindergeldberechtigt. Schulkinder besuchen im Modell keine kostenpflichtige Schul- oder Hortbetreuung. Sie und zu Hause betreute Kinder zählen nach örtlicher Familienregel als Geschwister mit.

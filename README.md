@@ -8,6 +8,7 @@ Der Datenbestand enthält Krippen- und Kindergartentarife, Einkommens- und Famil
 
 ## Einstieg
 
+- [UI-To-dos und SEO-Erinnerung](docs/NAECHSTE_SESSION.md): die UI-Punkte sind lokal umgesetzt; SEO bleibt eine offene Erinnerung.
 - [Standardvergleich und Vollständigkeitsprüfung](docs/STANDARDVERGLEICH.md): die zwölf Vergleichswerte und ihre Einschränkungen.
 - [Höchsttarifvergleich](docs/HOECHSTTARIFVERGLEICH.md): die erhaltene Vollzahlerreferenz.
 - [Datenmodell und Berechnung](docs/DATENMODELL.md): Struktur, Eingaben, Regeln und Pflegeablauf.
@@ -16,7 +17,7 @@ Der Datenbestand enthält Krippen- und Kindergartentarife, Einkommens- und Famil
 - [Lokale Webanwendung](docs/WEBANWENDUNG.md): Startbefehle, Bedienung, Geodaten, Größenbudget und statischer Build.
 - [Aktuelle Projektanforderungen](docs/PROJECT_REQUIREMENTS.md): fachlicher Umfang des Gesamtprojekts.
 - [Websitekonzept und Entscheidungen](docs/WEBSITE_KONZEPT.md): statische Architektur, Stackempfehlung, Gemeindeflächen, Geodatenaufbereitung, Bedienkonzept und Entwürfe.
-- [Geplante UI-Neugestaltung: Familienatlas](docs/UI_REDESIGN.md): ausgewähltes Layout, überarbeitete Vorschau und vollständige Kommunen-/Kinderdetails; noch keine Änderung der produktiven Website.
+- [UI-Neugestaltung: Familienatlas](docs/UI_REDESIGN.md): lokal umgesetztes Layout mit vollständigen Kommunen-/Kinderdetails, Familienillustrationen und animierter Überschrift; noch nicht veröffentlicht.
 - [Quellenübersicht](docs/QUELLENUEBERSICHT.md): kommunale Einstiegsseiten und Prüfhinweise.
 - [Mögliche Datenerweiterung](docs/DATENERWEITERUNG.md): 33 direkt angrenzende Kommunen, vorgemerkt für die Zeit nach Stabilisierung und vollständiger UI/UX-Prüfung.
 
@@ -51,7 +52,7 @@ npm run build
 npm run preview
 ```
 
-`npm test` prüft Rechenkern und Webdaten mit 151 JavaScript-Tests, einschließlich der gemeinsamen Szenarien gegen Python. `build` erzeugt die statische Website unter `dist/`; `preview` zeigt diesen Build unter **http://127.0.0.1:4173/**. Der Workflow unter `.github/workflows/pages.yml` prüft Änderungen und veröffentlicht erfolgreiche Builds von `main` auf GitHub Pages. Die Python-Datenpipeline benötigt weiterhin keine externen Python-Pakete.
+`npm test` prüft Rechenkern und Webdaten mit 153 JavaScript-Tests, einschließlich der gemeinsamen Szenarien gegen Python. `build` erzeugt die statische Website unter `dist/`; `preview` zeigt diesen Build unter **http://127.0.0.1:4173/**. Der Workflow unter `.github/workflows/pages.yml` prüft Änderungen und veröffentlicht erfolgreiche Builds von `main` auf GitHub Pages. Die Python-Datenpipeline benötigt weiterhin keine externen Python-Pakete.
 
 `export` erzeugt `data/exports/default_comparison.json` für die Modellfamilie und `highest_band_comparison.json` für die Höchsttarifreferenz, jeweils mit CSV-Datei. Dazu kommen Register, Katalog der aktiven Tarife sowie CSV-Tabellen für Tarife, Angebote, Einkommensstufen und Zusatzkosten. Beide deutschen Vergleichsberichte werden aktualisiert. Die CSV-Dateien sind abgeleitete Ansichten; ihre Geldbeträge stehen in **Cent**, Zeitangaben in **Minuten**. Verschachtelte Felder enthalten JSON. Das vollständige Quellenarchiv wird nicht in diese Exporte kopiert.
 

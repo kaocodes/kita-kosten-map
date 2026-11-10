@@ -4,6 +4,10 @@
 
 Es gibt eine eigenständige React-Anwendung mit Leaflet-Karte. Sie stellt die zwölf Vergleichskommunen als Gebührenflächen dar und verwendet den geprüften TypeScript-Rechenkern. Die Anwendung läuft vollständig mit statischen Dateien; ein Backend wird nicht benötigt. Die Veröffentlichung auf GitHub Pages erfolgt über den Workflow `.github/workflows/pages.yml`.
 
+## Familienatlas: lokaler Stand zur Durchsicht
+
+Auf `codex/ui-redesign` ist das Familienatlas-Layout lokal umgesetzt: große Gemeindekarte mit dauerhaft sichtbaren Namen aller zwölf Vergleichskommunen, verschiebbarer und zentrierbarer Leaflet-Ansicht, Punktemuster im Hintergrund und Auswahlkontur über den Gebieten. Vollständige Kommuneninformationen stehen unter der Karte und nach Auswahl direkt in der absteigenden Liste. Kinderdetails sind aufklappbar und enthalten Verpflegung und Zusatzkosten direkt. Familienkarten öffnen den echten Konfigurator mit 1–4 Kindern oder setzen auf die Modellfamilie zurück. Die Überschrift wechselt aktive Kommunennamen auf einem lila Balken; der Wechsel ist pausierbar und berücksichtigt reduzierte Bewegung. Die Familienkarten tragen plakative Schriftbalken, die Methodik steht kompakt ohne Verpflegungsblock oder Bilder direkt auf dem Hintergrund. Familienillustrationen, Kopfsymbol und Schrift werden lokal mitgeliefert. Details und Prüfstand: [UI_REDESIGN.md](UI_REDESIGN.md). Dieser Stand wurde noch nicht auf GitHub Pages veröffentlicht.
+
 ## 1. Lokal starten
 
 Benötigt werden Node.js **ab 22.12**, npm und Python **ab 3.11** für Datenprüfung und Vorbereitung. Nach der Installation der npm-Pakete werden beim Start keine externen Geodienste oder Gebührenquellen abgerufen.

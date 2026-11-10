@@ -20,6 +20,9 @@ export function MunicipalityMap({ geometry, results, selectedId, maxZoom, attrib
   const bounds = useRef<L.LatLngBounds | null>(null);
   const polygons = useRef(new Map<string, L.Path>());
   const labels = useRef(new Map<string, L.Marker>());
+  const labelAnchors = useRef(new Map<string, L.LatLng>());
+  const labelLines = useRef(new Map<string, L.Polyline>());
+  const selectionOutline = useRef<L.GeoJSON | null>(null);
   const currentResults = useRef(new Map(results.map(result => [result.municipality_id, result])));
   const currentSelection = useRef(selectedId);
   const select = useRef(onSelect);
@@ -34,12 +37,20 @@ export function MunicipalityMap({ geometry, results, selectedId, maxZoom, attrib
       minZoom: 8, maxZoom, zoomSnap: 0.25, zoomDelta: 0.5,
     });
     map.current = instance;
+    const outlinePane = instance.createPane("selection-outline");
+    outlinePane.style.zIndex = "450";
+    outlinePane.style.pointerEvents = "none";
+    const linePane = instance.createPane("label-lines");
+    linePane.style.zIndex = "575";
+    linePane.style.pointerEvents = "none";
+    selectionOutline.current = L.geoJSON(undefined, { pane: "selection-outline", interactive: false,
+      style: { color: "#363d4b", weight: 3.5, fill: false, lineJoin: "round" } }).addTo(instance);
     L.control.zoom({ position: "topright", zoomInTitle: "Vergrößern", zoomOutTitle: "Verkleinern" }).addTo(instance);
     const context = { ...geometry, features: geometry.features.filter(feature => feature.properties.municipality_id === null) };
-    L.geoJSON(context, { interactive: false, style: { color: "#e0e5dd", weight: 0.8, fillColor: "#f1f3ee", fillOpacity: 1 } }).addTo(instance);
+    L.geoJSON(context, { interactive: false, style: { color: "#a3adbf", weight: 0.8, fillColor: "#cbd1dc", fillOpacity: 1 } }).addTo(instance);
     const compared = { ...geometry, features: geometry.features.filter(feature => feature.properties.municipality_id !== null) };
     const selectedLayer = L.geoJSON(compared, {
-      style: feature => ({ color: "#fff", weight: 1.8, fillColor: feeColor(currentResults.current.get(feature!.properties.municipality_id)), fillOpacity: 1 }),
+      style: feature => ({ color: "#fffdf8", weight: 1.8, fillColor: feeColor(currentResults.current.get(feature!.properties.municipality_id)), fillOpacity: 1 }),
       onEachFeature(feature, layer) {
         const id = feature.properties.municipality_id;
         const path = layer as L.Path;
@@ -54,6 +65,10 @@ export function MunicipalityMap({ geometry, results, selectedId, maxZoom, attrib
           icon: L.divIcon({ html: label, className: styles.labelMarker, iconSize: [0, 0] }),
         }).addTo(instance);
         labels.current.set(id, marker);
+        const anchor = L.latLng(point[1], point[0]);
+        labelAnchors.current.set(id, anchor);
+        labelLines.current.set(id, L.polyline([anchor, anchor], { pane: "label-lines", interactive: false,
+          color: "#515b70", opacity: 0.65, weight: 1 }).addTo(instance));
         const tooltip = document.createElement("span");
         layer.bindTooltip(tooltip, { direction: "top", className: styles.tooltip });
         layer.on("tooltipopen", () => {
@@ -76,23 +91,42 @@ export function MunicipalityMap({ geometry, results, selectedId, maxZoom, attrib
         if (key === "Enter" || key === " ") { event.preventDefault(); select.current(id); }
       });
     });
-    // Keep municipal labels legible without relying on a fixed list or manual label positions.
+    // Move colliding labels with short leader lines instead of hiding municipalities.
     updateLabels.current = () => {
       const accepted: { left: number; top: number; right: number; bottom: number }[] = [];
+      const size = instance.getSize();
+      const offsets = [[0, 0], [0, -28], [0, 28], [-45, 0], [45, 0], [0, -56], [0, 56],
+        [-60, -28], [60, -28], [-60, 28], [60, 28], [0, -84], [0, 84], [-95, -56], [95, -56], [-95, 56], [95, 56]];
       const ordered = [...labels.current.entries()].sort(([first], [second]) =>
         Number(second === currentSelection.current) - Number(first === currentSelection.current));
       for (const [id, marker] of ordered) {
         const element = marker.getElement();
         if (!element) continue;
-        const point = instance.latLngToContainerPoint(marker.getLatLng());
+        const anchor = labelAnchors.current.get(id)!;
+        const point = instance.latLngToContainerPoint(anchor);
         const name = currentResults.current.get(id)?.municipality ?? "";
-        const width = Math.max(55, name.length * 6 + 15);
-        const box = { left: point.x - width / 2, right: point.x + width / 2, top: point.y - 13, bottom: point.y + 13 };
-        const collision = accepted.some(other => box.left < other.right && box.right > other.left && box.top < other.bottom && box.bottom > other.top);
-        const visible = !collision || id === currentSelection.current;
-        element.style.visibility = visible ? "visible" : "hidden";
+        const width = element.firstElementChild?.getBoundingClientRect().width || Math.max(55, name.length * 6 + 15);
+        let position = point;
+        let selectedBox = { left: point.x - width / 2, right: point.x + width / 2, top: point.y - 12, bottom: point.y + 12 };
+        // Offscreen towns stay at their geographic anchors while the user pans.
+        if (point.x >= 0 && point.x <= size.x && point.y >= 0 && point.y <= size.y) {
+          let minimumOverlap = Infinity;
+          for (const [dx, dy] of offsets) {
+            const x = Math.max(width / 2 + 8, Math.min(size.x - width / 2 - 8, point.x + dx));
+            const y = Math.max(74, Math.min(size.y - 65, point.y + dy));
+            const box = { left: x - width / 2 - 3, right: x + width / 2 + 3, top: y - 12, bottom: y + 12 };
+            const overlap = accepted.reduce((total, other) => total + Math.max(0, Math.min(box.right, other.right) - Math.max(box.left, other.left)) *
+              Math.max(0, Math.min(box.bottom, other.bottom) - Math.max(box.top, other.top)), 0);
+            if (overlap < minimumOverlap) { minimumOverlap = overlap; position = L.point(x, y); selectedBox = box; }
+            if (overlap === 0) break;
+          }
+        }
+        const target = instance.containerPointToLatLng(position);
+        marker.setLatLng(target);
+        labelLines.current.get(id)?.setLatLngs([anchor, target]);
+        marker.setZIndexOffset(id === currentSelection.current ? 1000 : 0);
         element.classList.toggle(styles.selectedLabel, id === currentSelection.current);
-        if (visible) accepted.push(box);
+        accepted.push(selectedBox);
       }
     };
     instance.on("zoomend moveend resize", () => updateLabels.current());
@@ -105,7 +139,8 @@ export function MunicipalityMap({ geometry, results, selectedId, maxZoom, attrib
     return () => {
       observer.disconnect();
       instance.remove();
-      polygons.current.clear(); labels.current.clear(); map.current = null;
+      polygons.current.clear(); labels.current.clear(); labelAnchors.current.clear(); labelLines.current.clear();
+      selectionOutline.current = null; map.current = null;
     };
   }, [geometry, maxZoom]);
 
@@ -113,14 +148,16 @@ export function MunicipalityMap({ geometry, results, selectedId, maxZoom, attrib
     for (const [id, polygon] of polygons.current) {
       const result = currentResults.current.get(id);
       const selected = id === selectedId;
-      polygon.setStyle({ fillColor: feeColor(result), color: selected ? "#173f31" : "#ffffff", weight: selected ? 3 : 1.8 });
+      polygon.setStyle({ fillColor: feeColor(result) });
       const element = polygon.getElement();
       element?.setAttribute("aria-label", `${result?.municipality ?? id}: ${formatMoney(result?.monthly_equivalent_cents ?? null)} pro Monat`);
       element?.setAttribute("aria-pressed", String(selected));
       const tooltip = polygon.getTooltip()?.getContent();
       if (tooltip instanceof HTMLElement && result) tooltip.textContent = `${result.municipality} · ${formatMoney(result.monthly_equivalent_cents)}`;
-      if (selected) polygon.bringToFront();
     }
+    selectionOutline.current?.clearLayers();
+    const selectedFeature = geometry.features.find(feature => feature.properties.municipality_id === selectedId);
+    if (selectedFeature) selectionOutline.current?.addData(selectedFeature);
     updateLabels.current();
   }, [results, selectedId, geometry]);
 

@@ -1,0 +1,13 @@
+{
+  "id": "d9442ba0f30c",
+  "municipality": "Remseck am Neckar",
+  "title": "Zentrale Anmeldung - Kinderbetreuung",
+  "url": "https://www.remseck.de/kultur-leben-wohnen/kinder-jugend-bildung/kinderbetreuung",
+  "retrieved_at": "2026-11-10T09:37:26.414060+00:00",
+  "http_status": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "final_url": "https://www.stadt-remseck.de/kultur-leben-wohnen/kinder-jugend-bildung/kinderbetreuung",
+  "error": null,
+  "local_path": "data/sources/d9442ba0f30c/document.html",
+  "sha256": "215cf8087037eb636abfff1d227e4652953b6af5b56eaffa1946ee78355d28e1"
+}

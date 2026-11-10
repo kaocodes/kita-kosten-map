@@ -1,0 +1,13 @@
+{
+  "id": "5a4f4de529e7",
+  "municipality": "Aichwald",
+  "title": "Anlage4 Satzungsänderung 22.06.2026",
+  "url": "https://ris.aichwald.de/buergerinfo/getfile.php?id=10599&type=do",
+  "retrieved_at": "2026-11-10T09:47:15.893840+00:00",
+  "http_status": 200,
+  "content_type": "application/pdf",
+  "final_url": "https://ris.aichwald.de/buergerinfo/getfile.php?id=10599&type=do",
+  "error": null,
+  "local_path": "data/sources/5a4f4de529e7/document.pdf",
+  "sha256": "2a57172a36b919e25fe2e95ab80a56276c09f60892bc28c3d0068f27ec5f1e99"
+}

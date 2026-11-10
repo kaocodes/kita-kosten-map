@@ -83,6 +83,10 @@ Die Erhebung soll die veröffentlichten Tarifstaffeln und Bedingungen vollständ
 - Wenn die Kommune angibt, dass der Tarif auch für kirchliche oder freie Träger gilt, wird diese Aussage mit Quelle dokumentiert.
 - Abweichende Gebührenregeln einzelner nicht-städtischer Träger sind nicht Teil des anfänglichen Erhebungsumfangs, sofern sie nicht nötig sind, um den Geltungsbereich der kommunalen Regelung zu beschreiben.
 
+**Vereinbarte Ausnahme für die Erweiterung (10. November 2026):** Für U3 in Freiberg am Neckar wird die veröffentlichte Gebührenordnung des Freiberger Zwergenstüble e.V. übernommen. Der Verein bleibt als tatsächlicher Träger erfasst; die Freigabe gilt nicht pauschal für andere freie Träger. Für Ü3 bleibt die kommunale Gebührenordnung maßgeblich. Beide Tarifbereiche gehören zur selben Gemeindefläche und behalten ihre eigenen Gültigkeitsdaten und Beitragsmonate.
+
+**Denkendorf (10. November 2026):** Die Gemeinde veröffentlicht gemeinsame U3-/Ü3-Tabellen für die evangelischen und katholischen Einrichtungen; getrennte Betreuungstarife nach Träger sind dort nicht ausgewiesen. Diese Tabellen werden als gemeinsame Grundlage verwendet. Für die Modellberechnung wird das gemeinsame Jahresbrutto direkt genutzt, ohne weitere Einkommensabfragen. Pflichtessen bei Ganztag bleibt mit unbekanntem Betrag als Zusatzinformation erfasst.
+
 ## 5. Quellen, Erfassungsdatum und Gebührenhistorie
 
 ### 5.1 Quellenanforderungen
@@ -152,7 +156,13 @@ Die Website soll mit einer einstellbaren Modellfamilie starten:
 - reguläre Einkommensstaffeln; zusätzliche Pass- und Sozialermäßigungen nur bei bestätigten Voraussetzungen;
 - Betreuungskosten als Monatsäquivalent: ursprünglicher Monatsbeitrag × Beitragsmonate ÷ 12; Essen und andere Kosten separat.
 
+**Vereinbarte Behandlung enthaltener Verpflegung (10. November 2026):** Bei Waiblingen wird für Angebote mit Mittagessen der veröffentlichte Gesamtbeitrag einschließlich Essen als Karten- und Listenwert verwendet. Die Details zeigen unter Verpflegung „Im Tarif enthalten“. Es wird kein geschätzter Essensanteil abgezogen und kein zweiter Essensbetrag addiert. Angebote ohne enthaltenes Essen erhalten diese Kennzeichnung nicht. Für Aichwald werden gemäß Nutzerangabe 53 € U3-Essen monatlich auf Zwölf-Monats-Basis erfasst; ausschließlich aus U3-Preisen mit bereits enthaltenem Essen wird dieser bekannte Anteil herausgerechnet. Unveränderte Originalpreise und die Herkunft dieser Festlegungen bleiben gespeichert. Diese Regeln sind für die Erweiterung vereinbart; die neuen Kommunen sind noch nicht aktiviert.
+
 Das Profil ist eine transparente Referenzannahme und kein statistisch belegter Durchschnittshaushalt. Die beiden Einkommenswerte sind keine steuerliche Umrechnung. Kommunal abweichende Einkommensdefinitionen bleiben zu berücksichtigen.
+
+**Zugelassene lokale Zeitabweichung für Denkendorf (10. November 2026):** Für die Einordnung dürfen die belegten Betreuungszeiten von Montag bis Donnerstag verwendet werden, wenn ausschließlich der Freitag den gewünschten Tagesumfang unterschreitet. Die tatsächliche Freitagszeit, Wochenstunden und der Originalbeitrag bleiben erhalten; die Details müssen die Abweichung anzeigen. Es wird keine fiktive Betreuung am Freitag ergänzt und kein Preis auf eine erfundene Acht-Stunden-Woche umgerechnet. Für andere Kommunen ändert diese Freigabe die Auswahlregeln nicht.
+
+**Vorgabe zur Umsetzung kommunaler Sonderfälle (10. November 2026):** Für Schwieberdingen keine Änderungen an der Berechnungsengine vornehmen. Änderungen an der gemeinsamen Berechnungslogik für einzelne Kommunen müssen generell zuerst mit dem Nutzer besprochen werden. Eindeutig darstellbare Regeln gehören in die Daten. Ergibt eine bestimmte Familienkonfiguration keinen eindeutigen, belegten oder ausdrücklich vereinbarten Wert, wird sie als „Nicht berechenbar“ (`unavailable`) ausgewiesen. Keine willkürliche Rangfolge, Preiszelle oder Ersatzberechnung einsetzen.
 
 Nutzer sollen Kinderzahl und Alter, Haushaltszugehörigkeit und -konstellation, gleichzeitig betreute Geschwister, Brutto- und steuerliches Einkommen, Betreuungstage und Tagesstunden sowie vorhandene Pässe oder bewilligte Vergünstigungen einstellen können. Karte, Liste und Details verwenden dasselbe Profil. Eine Aktion stellt die Modellfamilie wieder her. Fehlende lokale Pflichtangaben ergeben eine eigene Kennzeichnung statt einer Schätzung. Eine geänderte persönliche Einkommenseingabe darf nicht unbemerkt mit einer alten steuerlichen Modellannahme kombiniert werden.
 

@@ -1,0 +1,13 @@
+{
+  "id": "aead4b228503",
+  "municipality": "Aichwald",
+  "title": "Ratsbericht zur Gebührenanpassung 2026",
+  "url": "https://www.aichwald.de/start/gemeinde%2B_%2Bpolitik/sitzung%2Bdes%2Bgemeinderats%2Bvom%2B22_06_2026.html",
+  "retrieved_at": "2026-11-10T09:41:50.164566+00:00",
+  "http_status": 200,
+  "content_type": "text/html;charset=UTF-8",
+  "final_url": "https://www.aichwald.de/start/gemeinde%2B_%2Bpolitik/sitzung%2Bdes%2Bgemeinderats%2Bvom%2B22_06_2026.html",
+  "error": null,
+  "local_path": "data/sources/aead4b228503/document.html",
+  "sha256": "230be1c7d9363653ffa48c3947307b289117dccd4dd409da4fe51a557063d8b1"
+}

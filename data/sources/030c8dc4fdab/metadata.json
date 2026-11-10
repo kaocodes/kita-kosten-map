@@ -1,0 +1,13 @@
+{
+  "id": "030c8dc4fdab",
+  "municipality": "Erdmannhausen",
+  "title": "Offizielle Einstiegsquelle",
+  "url": "https://www.erdmannhausen.de/einrichtungen-kirchen/kindertagesstaetten",
+  "retrieved_at": "2026-11-10T09:34:47.230232+00:00",
+  "http_status": 200,
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://www.erdmannhausen.de/einrichtungen-kirchen/kindertagesstaetten",
+  "error": null,
+  "local_path": "data/sources/030c8dc4fdab/document.html",
+  "sha256": "584286b4d7e6351692992437ce18d7f99700220e10f588bf1b7198c3e7b4e184"
+}

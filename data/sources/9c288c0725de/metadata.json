@@ -1,0 +1,13 @@
+{
+  "id": "9c288c0725de",
+  "municipality": "Aidlingen",
+  "title": "Offizielle Einstiegsquelle",
+  "url": "https://www.aidlingen.de/leben-wohnen/betreuung-bildung/kindergaerten",
+  "retrieved_at": "2026-11-10T09:34:46.149436+00:00",
+  "http_status": 200,
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://www.aidlingen.de/leben-wohnen/betreuung-bildung/kindergaerten",
+  "error": null,
+  "local_path": "data/sources/9c288c0725de/document.html",
+  "sha256": "7a3436afbdd6005bfee2504ffbf0374de85aba9723364f56026b939e5cef209d"
+}

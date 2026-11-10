@@ -1,0 +1,13 @@
+{
+  "id": "59ecf75191ad",
+  "municipality": "Waiblingen",
+  "title": "Ergänzende offizielle Quelle",
+  "url": "https://www.waiblingen.de/ceasy/resource/?id=32438&download=1",
+  "retrieved_at": "2026-11-10T09:38:52.022925+00:00",
+  "http_status": 200,
+  "content_type": "application/pdf",
+  "final_url": "https://www.waiblingen.de/ceasy/resource/?id=32438&download=1",
+  "error": null,
+  "local_path": "data/sources/59ecf75191ad/document.pdf",
+  "sha256": "0e50e9be2326f607f44fa71d942a58c190fa3bf63da815e6790e0f02d9bee107"
+}

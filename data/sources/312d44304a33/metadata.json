@@ -1,0 +1,13 @@
+{
+  "id": "312d44304a33",
+  "municipality": "Holzgerlingen",
+  "title": "Ortsrecht",
+  "url": "https://holzgerlingen.de/de/verwaltung-politik/verwaltung-politik/ortsrecht.php",
+  "retrieved_at": "2026-11-10T09:46:29.840097+00:00",
+  "http_status": 200,
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://holzgerlingen.de/de/verwaltung-politik/verwaltung-politik/ortsrecht.php?y=2026",
+  "error": null,
+  "local_path": "data/sources/312d44304a33/document.html",
+  "sha256": "5e2ee9d46c237a81129f0dab238e9f1a038b953983258dd15d9a9829d31905bd"
+}

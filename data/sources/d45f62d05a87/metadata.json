@@ -1,0 +1,13 @@
+{
+  "id": "d45f62d05a87",
+  "municipality": "Deizisau",
+  "title": "Offizielle Einstiegsquelle",
+  "url": "https://www.deizisau.de/start/engagierter%2Bservice/ortsrecht.html",
+  "retrieved_at": "2026-11-10T09:35:01.714185+00:00",
+  "http_status": 200,
+  "content_type": "text/html;charset=UTF-8",
+  "final_url": "https://www.deizisau.de/start/engagierter%2Bservice/ortsrecht.html",
+  "error": null,
+  "local_path": "data/sources/d45f62d05a87/document.html",
+  "sha256": "93696a6ddd8a1c19a1d702ff1d2ffb596c5703489632be67013f78b47f7e6588"
+}

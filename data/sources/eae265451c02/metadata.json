@@ -1,0 +1,13 @@
+{
+  "id": "eae265451c02",
+  "municipality": "Hemmingen",
+  "title": "Kindertagesstätten Benutzungsordnung (PDF-Dokument, 852,88 KB, 23.07.2026)",
+  "url": "https://www.hemmingen.de/fileadmin/Dateien/Dateien/Ortsrecht/%C3%96ffentl._Bekanntmachunge/2026/26_Benutzungsordnung_Kitas_BVG_und_Hort_mit_Logo_sign.pdf",
+  "retrieved_at": "2026-11-10T09:38:51.810439+00:00",
+  "http_status": 200,
+  "content_type": "application/pdf",
+  "final_url": "https://www.hemmingen.de/fileadmin/Dateien/Dateien/Ortsrecht/%C3%96ffentl._Bekanntmachunge/2026/26_Benutzungsordnung_Kitas_BVG_und_Hort_mit_Logo_sign.pdf",
+  "error": null,
+  "local_path": "data/sources/eae265451c02/document.pdf",
+  "sha256": "569035ffa6409f43486bfcaab16ef3b987d48c41a86f887d68f151282114307c"
+}

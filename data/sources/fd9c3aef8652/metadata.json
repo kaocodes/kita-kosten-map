@@ -1,0 +1,13 @@
+{
+  "id": "fd9c3aef8652",
+  "municipality": "Kernen im Remstal",
+  "title": "Benutzungs- und Gebührensatzung für die kommunalen Kindertagesbetreuungseinrichtungen der Gemeinde Kernen im Remstal (Stand: 01.09.2026)",
+  "url": "https://www.kernen.de/ceasy/serve/usage/main.php?view=publish&item=statute&id=1092",
+  "retrieved_at": "2026-11-10T09:36:43.480965+00:00",
+  "http_status": 200,
+  "content_type": "application/pdf",
+  "final_url": "https://www.kernen.de/ceasy/resource/?id=11755",
+  "error": null,
+  "local_path": "data/sources/fd9c3aef8652/document.pdf",
+  "sha256": "ad629beb2d3b907ebd180f7816a3115d32630b7ffda228363800d554b31964a2"
+}

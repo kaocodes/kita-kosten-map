@@ -1,0 +1,13 @@
+{
+  "id": "3ab38c80e1bd",
+  "municipality": "Marbach am Neckar",
+  "title": "Offizielle Einstiegsquelle",
+  "url": "https://www.schillerstadt-marbach.de/leben-soziales/was-kostet-wie-viel/kindertagesstaetten/",
+  "retrieved_at": "2026-11-10T09:34:53.643606+00:00",
+  "http_status": 200,
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://www.schillerstadt-marbach.de/leben-soziales/was-kostet-wie-viel/kindertagesstaetten/",
+  "error": null,
+  "local_path": "data/sources/3ab38c80e1bd/document.html",
+  "sha256": "d024594f2e9f1e06e70312a8c8f0d95f4c27f9acea8efad1daa45c1810c95b0c"
+}

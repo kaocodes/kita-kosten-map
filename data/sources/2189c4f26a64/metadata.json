@@ -1,0 +1,13 @@
+{
+  "id": "2189c4f26a64",
+  "municipality": "Rutesheim",
+  "title": "DS26-055-Anlage 1-Änderung Kita-Gebührensatzung",
+  "url": "https://service.rutesheim.de/bi/getfile.php?id=14795&type=do",
+  "retrieved_at": "2026-11-10T09:36:45.197298+00:00",
+  "http_status": 200,
+  "content_type": "application/pdf",
+  "final_url": "https://service.rutesheim.de/bi/getfile.php?id=14795&type=do",
+  "error": null,
+  "local_path": "data/sources/2189c4f26a64/document.pdf",
+  "sha256": "feb315057f78ea4bfd56e8ae72375fddd82ff04160d36b3b3e02277a0d2e89d7"
+}

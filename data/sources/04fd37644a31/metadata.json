@@ -1,0 +1,13 @@
+{
+  "id": "04fd37644a31",
+  "municipality": "Steinenbronn",
+  "title": "Über diesen Link gelangen Sie zur Satzung über die Nutzung sowie die Gebühren der Kindertageseinrichtungen der Gemeinde Steinenbronn (PDF-Dokument, 832,06 KB, 20.10.2026)",
+  "url": "https://www.steinenbronn.de/fileadmin/Dateien/Website/Dateien/Kinder/2026_Satzung_%C3%BCber_die_Nutzung_sowie_die_Geb%C3%BChren_der_Kindertageseinrichtungen_inkl._Anlage_1-signed.pdf",
+  "retrieved_at": "2026-11-10T09:36:45.767738+00:00",
+  "http_status": 200,
+  "content_type": "application/pdf",
+  "final_url": "https://www.steinenbronn.de/fileadmin/Dateien/Website/Dateien/Kinder/2026_Satzung_%C3%BCber_die_Nutzung_sowie_die_Geb%C3%BChren_der_Kindertageseinrichtungen_inkl._Anlage_1-signed.pdf",
+  "error": null,
+  "local_path": "data/sources/04fd37644a31/document.pdf",
+  "sha256": "95e328093340112745ec5ee3eda3efb70f2053c3248ec23831e8b60906534a13"
+}

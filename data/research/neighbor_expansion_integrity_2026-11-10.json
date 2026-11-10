@@ -1,0 +1,15 @@
+{
+  "checked_at": "2026-11-10T13:26:57.456867+00:00",
+  "municipalities": 33,
+  "status_counts": {
+    "available": 32,
+    "clarification_required": 1
+  },
+  "recorded_user_decisions": 8,
+  "registered_unique_sources": 138,
+  "http_200_sources": 135,
+  "failed_attempts": 3,
+  "checksum_verification": "passed",
+  "canonical_tariff_normalization": "not_performed",
+  "production_activation": "not_performed"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "f7e603792b23",
+  "municipality": "Remseck am Neckar",
+  "title": "Ergänzende offizielle Quelle",
+  "url": "https://www.remseck.de/",
+  "retrieved_at": "2026-11-10T09:36:44.804846+00:00",
+  "http_status": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "final_url": "https://www.stadt-remseck.de/",
+  "error": null,
+  "local_path": "data/sources/f7e603792b23/document.html",
+  "sha256": "700ef3c033d88877a0c0e2a7645d612cb91af2ca83a5b3dd0e3b7d50ede2b366"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "9ea018da0f5e",
+  "municipality": "Eberdingen",
+  "title": "Ergänzende offizielle Quelle",
+  "url": "https://www.eberdingen.de/website/de/rathaus/formulare",
+  "retrieved_at": "2026-11-10T09:36:41.626293+00:00",
+  "http_status": 200,
+  "content_type": "text/html;charset=UTF-8",
+  "final_url": "https://www.eberdingen.de/website/de/rathaus/formulare",
+  "error": null,
+  "local_path": "data/sources/9ea018da0f5e/document.html",
+  "sha256": "92b01696abfcaafa3d6d76522fb7a502c96844a51f64edd60237a9fbb09180ab"
+}

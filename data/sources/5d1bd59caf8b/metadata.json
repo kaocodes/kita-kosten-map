@@ -1,0 +1,13 @@
+{
+  "id": "5d1bd59caf8b",
+  "municipality": "Schönaich",
+  "title": "Offizielle Einstiegsquelle",
+  "url": "https://www.schoenaich.de/rathaus-service/ortsrecht",
+  "retrieved_at": "2026-11-10T09:35:03.781033+00:00",
+  "http_status": 200,
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://www.schoenaich.de/rathaus-service/ortsrecht",
+  "error": null,
+  "local_path": "data/sources/5d1bd59caf8b/document.html",
+  "sha256": "0d5c47f71e191769925149a46ecc8f27088d4dbc32011cc5dfa798659978c265"
+}

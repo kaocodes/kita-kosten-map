@@ -1,0 +1,13 @@
+{
+  "id": "41de178100d7",
+  "municipality": "Benningen am Neckar",
+  "title": "Ortsrecht",
+  "url": "https://www.benningen.de/de/rathaus/rathaus/ortsrecht",
+  "retrieved_at": "2026-11-10T09:37:25.428873+00:00",
+  "http_status": 200,
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://www.benningen.de/de/rathaus/rathaus/ortsrecht",
+  "error": null,
+  "local_path": "data/sources/41de178100d7/document.html",
+  "sha256": "0d34bb16c2d30b32098dc30e9d15715771d569682a9e52418d956170d28f1e65"
+}

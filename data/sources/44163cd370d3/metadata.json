@@ -1,0 +1,13 @@
+{
+  "id": "44163cd370d3",
+  "municipality": "Magstadt",
+  "title": "Ortsrecht",
+  "url": "https://www.magstadt.de/de/verwaltung/ortsrecht",
+  "retrieved_at": "2026-11-10T09:37:25.587584+00:00",
+  "http_status": 200,
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://www.magstadt.de/de/verwaltung/ortsrecht",
+  "error": null,
+  "local_path": "data/sources/44163cd370d3/document.html",
+  "sha256": "90e3eb209d0ae483b062ece8843156ad824f883c78fd652de13482a25e0fd446"
+}

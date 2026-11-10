@@ -1,0 +1,13 @@
+{
+  "id": "9dbb13c4e688",
+  "municipality": "Altbach",
+  "title": "Kindergartengebühren",
+  "url": "https://www.altbach.de/leben-wohnen/kindergaerten/kindergartengebuehren",
+  "retrieved_at": "2026-11-10T09:37:26.900809+00:00",
+  "http_status": 200,
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://www.altbach.de/leben-wohnen/kindergaerten/kindergartengebuehren",
+  "error": null,
+  "local_path": "data/sources/9dbb13c4e688/document.html",
+  "sha256": "c8033a7a36b19397d4d378465c00fc64f948196263cc0a2004a7a10e6c634d11"
+}

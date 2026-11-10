@@ -1,0 +1,13 @@
+{
+  "id": "ac11aea31c4d",
+  "municipality": "Hemmingen",
+  "title": "Ergänzende offizielle Quelle",
+  "url": "https://www.hemmingen.de/oeffentliche-bekanntmachungen-buergerservice/finanzen-steuern-und-gebuehren/aktuelle-gebuehren-steuersaetze",
+  "retrieved_at": "2026-11-10T09:36:43.927061+00:00",
+  "http_status": 200,
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://www.hemmingen.de/oeffentliche-bekanntmachungen-buergerservice/finanzen-steuern-und-gebuehren/aktuelle-gebuehren-steuersaetze",
+  "error": null,
+  "local_path": "data/sources/ac11aea31c4d/document.html",
+  "sha256": "0cbaf75bad0e0edeb1810090745407a178e9f87b563be17f2444b18a32b729b5"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "f990b6b54a41",
+  "municipality": "Aidlingen",
+  "title": "Kindergartensatzung PDF-Dokument324,33 KB",
+  "url": "https://www.aidlingen.de/fileadmin/Dateien/Dateien/Satzungen/Kindergartensatzung_vom_20231005.pdf",
+  "retrieved_at": "2026-11-10T09:36:39.484167+00:00",
+  "http_status": 200,
+  "content_type": "application/pdf",
+  "final_url": "https://www.aidlingen.de/fileadmin/Dateien/Dateien/Satzungen/Kindergartensatzung_vom_20231005.pdf",
+  "error": null,
+  "local_path": "data/sources/f990b6b54a41/document.pdf",
+  "sha256": "1cd85a884d332ee8b0bc700a5a2756485314b35a7bd6d998d1e1d4bc17f01702"
+}

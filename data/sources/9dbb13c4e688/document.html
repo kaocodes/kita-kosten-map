@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="de-DE">
+<head>
+
+<meta charset="utf-8">
+<!-- 
+	Based on the TYPO3 Bootstrap Package by Benjamin Kott - https://www.bootstrap-package.com/
+
+	This website is powered by TYPO3 - inspiring people to share!
+	TYPO3 is a free open source Content Management Framework initially created by Kasper Skaarhoj and licensed under GNU/GPL.
+	TYPO3 is copyright 1998-2026 of Kasper Skaarhoj. Extensions are copyright of their respective owners.
+	Information and contribution at https://typo3.org/
+-->
+
+
+<link rel="shortcut icon" href="/typo3conf/ext/cm_package/Resources/Public/Icons/favicon.ico" type="image/png">
+<title>Kindergartengebühren - Gemeinde Altbach</title>
+<meta http-equiv="x-ua-compatible" content="IE=edge" />
+<meta name="generator" content="TYPO3 CMS" />
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+<meta name="robots" content="index,follow" />
+<meta name="twitter:card" content="summary" />
+<meta name="apple-mobile-web-app-capable" content="no" />
+<meta name="google" content="notranslate" />
+
+
+<link rel="stylesheet" type="text/css" href="/typo3temp/assets/bootstrappackage/css/theme-c53d3d65369c67d3f36071a0347e898e8753df6a18ed4399e3116009a2c59254.css?1790682462" media="all">
+<link rel="stylesheet" type="text/css" href="https://static.cross-7.de/_fonts/CMCIcons/style.css" media="all">
+
+
+<script src="/typo3conf/ext/bootstrap_package/Resources/Public/Contrib/modernizr/modernizr.min.js?1670333501" async="async"></script>
+<script src="https://static.cross-7.de/_cookiehinweis/script.js"></script>
+<script>
+/*<![CDATA[*/
+/*_scriptCode*/
+
+			/* decrypt helper function */
+		function decryptCharcode(n,start,end,offset) {
+			n = n + offset;
+			if (offset > 0 && n > end) {
+				n = start + (n - end - 1);
+			} else if (offset < 0 && n < start) {
+				n = end - (start - n - 1);
+			}
+			return String.fromCharCode(n);
+		}
+			/* decrypt string */
+		function decryptString(enc,offset) {
+			var dec = "";
+			var len = enc.length;
+			for(var i=0; i < len; i++) {
+				var n = enc.charCodeAt(i);
+				if (n >= 0x2B && n <= 0x3A) {
+					dec += decryptCharcode(n,0x2B,0x3A,offset);	/* 0-9 . , - + / : */
+				} else if (n >= 0x40 && n <= 0x5A) {
+					dec += decryptCharcode(n,0x40,0x5A,offset);	/* A-Z @ */
+				} else if (n >= 0x61 && n <= 0x7A) {
+					dec += decryptCharcode(n,0x61,0x7A,offset);	/* a-z */
+				} else {
+					dec += enc.charAt(i);
+				}
+			}
+			return dec;
+		}
+			/* decrypt spam-protected emails */
+		function linkTo_UnCryptMailto(s) {
+			location.href = decryptString(s,-2);
+		}
+		
+
+/*]]>*/
+</script>
+
+<script src="https://components.cross-7.de/components.js" nomodule="nomodule" data-c7-env="production" data-c7-page="1347"></script><script src="https://components.cross-7.de/components.esm.js" type="module" data-c7-env="production" data-c7-page="1347"></script><link rel="prev" href="/leben-wohnen/kindergaerten/anmeldeverfahren"><link rel="next" href="/leben-wohnen/kindergaerten/kindertagespflege">        <script type="text/javascript">
+            SEARCH_PAGE_ID = 949;
+            EASY_LANGUAGE_PAGE_ID = 941;
+            SIGN_LANGUAGE_PAGE_ID = 940;
+            PRIVACY_PAGE_ID = 943;
+            PLACEHOLDER_IMAGE_PATH = "/typo3conf/ext/cm_package/Resources/Public/Images/placeholder/placeholder.jpg";
+            PUBLISHCONNECTOR_PATH = "altbach-2021";
+            PUBLISH_NEWS_HOME_AMOUNT = 1;
+            PUBLISH_NEWS_HOME_AMOUNT_MD = 1;
+            PUBLISH_NEWS_HOME_AMOUNT_SM = 1;
+
+            window.cookieconsent_options = {
+                link: 'index.php?id=' + PRIVACY_PAGE_ID, 
+                hasExternal: '',
+                showContrastToggle: true,
+            };
+        </script>
+<link rel="canonical" href="https://www.altbach.de/leben-wohnen/kindergaerten/kindergartengebuehren"/>
+
+<style>body:before{user-select:none;pointer-events:none;background-position:center center;background-repeat:no-repeat;content:'';position:fixed;top:-100%;left:0;z-index:10000;opacity:0;height:100%;width:100%;background-color:#333333;background-image: url('/typo3conf/ext/cm_package/Resources/Public/Images/Wappen_Altbach.svg');background-size:100px 150px;user-select:initial;pointer-events:initial;}.js body:before,.wf-loading body:before{top:0;opacity:1!important;}.wf-active body:before,.wf-inactive body:before{top: 0;opacity:0!important;user-select:none;pointer-events:none;-webkit-transition:opacity 0.5s ease-out;-moz-transition:opacity 0.5s ease-out;-o-transition:opacity 0.5s ease-out;transition:opacity 0.5s ease-out;}</style>
+<script>WebFontConfig={"custom":{"urls":["\/typo3temp\/assets\/bootstrappackage\/fonts\/34b6f09d2160836c09a63c8351093eadf788ed4cb9c6c596239ff2ffe69204f8\/webfont.css","\/typo3conf\/ext\/bootstrap_package\/Resources\/Public\/Fonts\/bootstrappackageicon.min.css","\/typo3conf\/ext\/cm_package\/Resources\/Public\/Fonts\/fonts.css"],"families":["Source Sans Pro:300,400,700","BootstrapPackageIcon"]},"timeout":1000};(function(d){var wf=d.createElement('script'),s=d.scripts[0];wf.src='/typo3conf/ext/bootstrap_package/Resources/Public/Contrib/webfontloader/webfontloader.js';wf.async=false;s.parentNode.insertBefore(wf,s);})(document);</script>
+
+<!-- VhsAssetsDependenciesLoaded 42 -->
+<link rel="stylesheet" href="/typo3temp/assets/vhs-assets-42.css?1794301566" /></head>
+<body id="p890" class="page-890 pagelevel-3 language-0 backendlayout-content_page layout-default">
+
+<div id="top"></div><div class="body-bg"><script>
+        document.addEventListener("DOMContentLoaded", function () {
+            startCookieScript();
+        });
+    </script><a class="sr-only sr-only-focusable" href="#page-content"><span>Zum Hauptinhalt springen</span></a><header id="page-header" class="bp-page-header navbar navbar-mainnavigation navbar-default navbar-has-image navbar-top"><div class="header-backgroundImages"><div id="c1724" class="frame frame-default frame-type-carousel frame-layout-0 frame-background-none frame-no-backgroundimage frame-space-before-none frame-space-after-none "><div class="frame-container"><div class="frame-inner"><div id="carousel-1724" class="carousel carousel-fade slide" data-interval="5000" data-wrap="true" data-ride="carousel"><div class="carousel-inner"><div class="item active carousel-item carousel-item-type carousel-item-type-background_image" data-itemno="0" style="background-color: #333333;"><div class="carousel-backgroundimage-container"><div id="carousel-backgroundimage-1724-42" class="carousel-backgroundimage"></div></div><div class="carousel-content"></div></div></div></div></div></div></div></div><div class="wrapper-header"><div class="container container-logo"><a class="header-brand-image" title="Startseite der Gemeinde Altbach" href="/"><img class="header-brand-logo-normal" src="/typo3conf/ext/cm_package/Resources/Public/Images/Logo_Altbach.svg" alt="Gemeinde Altbach"></a></div><div class="container nav-container" id="nav-container"><button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#mainnavigation" aria-expanded="false" aria-label="Navigation umschalten"><span class="navbar-toggler-icon"></span></button><nav id="mainnavigation" class="collapse navbar-collapse" aria-label="Hauptnavigation"><ul class="navbar-nav"><li class="nav-item dropdown dropdown-hover"><a href="#" id="nav-item-983" role="button"
+                            class="nav-link dropdown-toggle" title="Aktuelles" aria-haspopup="true" aria-expanded="false"><span class="nav-link-text">Aktuelles</span></a><div class="dropdown-menu"><div class="dropdown-menu-line"></div><span class="dropdown-menu-title">Aktuelles</span><ul class="dropdown-menu-list" aria-labelledby="nav-item-983"><li class="dropdown-menu-list-wrapper"><ul class="dropdown-menu-list-column"><li class="dropdown-menu-list-column-item"><a href="/aktuelles/bauplatz-fuer-einfamilienhaus-zu-verkaufen" id="nav-item-1055" class="child dropdown-item nav-link "
+                                                                title="Bauplatz für Einfamilienhaus zu verkaufen"><span class="dropdown-text">Bauplatz für Einfamilienhaus zu verkaufen
+                                                                            
+                                                                        </span></a></li><li class="dropdown-menu-list-column-item"><a href="/aktuelles/oeffentliche-bekanntmachungen" id="nav-item-1050" class="child dropdown-item nav-link "
+                                                                title="Öffentliche Bekanntmachungen"><span class="dropdown-text">Öffentliche Bekanntmachungen
+                                                                            
+                                                                        </span></a></li><li class="dropdown-menu-list-column-item"><a href="/aktuelles/rechtsanspruch-auf-ganztagesbetreuung-ab-dem-schuljahr-20262027" id="nav-item-1034" class="child dropdown-item nav-link "
+                                                                title="Rechtsanspruch auf Ganztagesbetreuung ab dem Schuljahr 2026/2027"><span class="dropdown-text">Rechtsanspruch auf Ganztagesbetreuung ab dem Schuljahr 2026/2027
+                                                                            
+                                                                        </span></a></li><li class="dropdown-menu-list-column-item"><a href="/aktuelles/laermaktionsplan-und-tempo-30-zone" id="nav-item-1061" class="child dropdown-item nav-link "
+                                                                title="Lärmaktionsplan und Tempo 30-Zone"><span class="dropdown-text">Lärmaktionsplan und Tempo 30-Zone
+                                                                            
+                                                                        </span></a></li><li class="dropdown-menu-list-column-item"><a href="https://www.altbach.de/leben-wohnen/kommunale-waermeplanung-der-gemeinde-altbach" id="nav-item-1046" class="child dropdown-item nav-link "
+                                                                target="_blank" title="Kommunale Wärmeplanung der Gemeinde Altbach "><span class="dropdown-text">Kommunale Wärmeplanung der Gemeinde Altbach 
+                                                                            
+                                                                        </span></a></li></ul></li><li class="dropdown-menu-list-wrapper"><ul class="dropdown-menu-list-column"><li class="dropdown-menu-list-column-item"><a href="/aktuelles/baumassnahmen" id="nav-item-1010" class="child dropdown-item nav-link "
+                                                                title="Baumaßnahmen"><span class="dropdown-text">Baumaßnahmen
+                                                                            
+                                                                        </span></a></li><li class="dropdown-menu-list-column-item"><a href="/aktuelles/holzverkauf-2026" id="nav-item-1001" class="child dropdown-item nav-link "
+                                                                title="Holzverkauf 2026"><span class="dropdown-text">Holzverkauf 2026
+                                                                            
+                                                                        </span></a></li><li class="dropdown-menu-list-column-item"><a href="/aktuelles/gemeinde-aktuell" id="nav-item-958" class="child dropdown-item nav-link "
+                                                                title="Gemeinde Aktuell"><span class="dropdown-text">Gemeinde Aktuell
+                                                                            
+                                                                        </span></a></li><li class="dropdown-menu-list-column-item"><a href="/aktuelles/glasfaserausbau-in-altbach" id="nav-item-996" class="child dropdown-item nav-link dropdown-submenu-toggle "
+                                                                title="Glasfaserausbau in Altbach"><span class="dropdown-text">Glasfaserausbau in Altbach
+                                                                            
+                                                                        </span></a><ul class="dropdown-submenu " ><li class="dropdown-submenu-item "><a href="/aktuelles/glasfaserausbau-in-altbach/eigenwirtschaftlicher-glasfaserausbau-im-gemeindegebiet" class="dropdown-submenu-item-link" role="button" id="nav-item-1039"  title="eigenwirtschaftlicher Glasfaserausbau im Gemeindegebiet"><span class="dropdown-submenu-text">eigenwirtschaftlicher Glasfaserausbau im Gemeindegebiet</span></a></li><li class="dropdown-submenu-item "><a href="/aktuelles/glasfaserausbau-in-altbach/gefoerderter-ausbau-im-gewerbegebiet" class="dropdown-submenu-item-link" role="button" id="nav-item-1038"  title="geförderter Ausbau im Gewerbegebiet"><span class="dropdown-submenu-text">geförderter Ausbau im Gewerbegebiet</span></a></li></ul></li><li class="dropdown-menu-list-column-item"><a href="/aktuelles/leerstandspraemie" id="nav-item-979" class="child dropdown-item nav-link "
+                                                                title="Leerstandsprämie"><span class="dropdown-text">Leerstandsprämie
+                                                                            
+                                                                        </span></a></li></ul></li></ul></div></li><li class="nav-item dropdown dropdown-hover"><a href="#" id="nav-item-938" role="button"
+                            class="nav-link dropdown-toggle" title="Gemeinde &amp; Daten" aria-haspopup="true" aria-expanded="false"><span class="nav-link-text">Gemeinde &amp; Daten</span></a><div class="dropdown-menu"><div class="dropdown-menu-line"></div><span class="dropdown-menu-title">Gemeinde &amp; Daten</span><ul class="dropdown-menu-list" aria-labelledby="nav-item-938"><li class="dropdown-menu-list-wrapper"><ul class="dropdown-menu-list-column"><li class="dropdown-menu-list-column-item"><a href="/gemeinde-daten/grusswort" id="nav-item-968" class="child dropdown-item nav-link "
+                                                                title="Grußwort"><span class="dropdown-text">Grußwort
+                                                                            
+                                                                        </span></a></li><li class="dropdown-menu-list-column-item"><a href="/gemeinde-daten/kurzportrait" id="nav-item-965" class="child dropdown-item nav-link "
+                                                                title="Kurzportrait"><span class="dropdown-text">Kurzportrait
+                                                                            
+                                                                        </span></a></li><li class="dropdown-menu-list-column-item"><a href="/gemeinde-daten/wahlen" id="nav-item-915" class="child dropdown-item nav-link "
+                                                                title="Wahlen"><span class="dropdown-text">Wahlen
+                                                                            
+                                                                        </span></a></li><li class="dropdown-menu-list-column-item"><a href="/gemeinde-daten/fotoalbum" id="nav-item-964" class="child dropdown-item nav-link "
+                                                                title="Fotoalbum"><span class="dropdown-text">Fotoalbum
+                                                                            
+                                                                        </span></a></li><li class="dropdown-menu-list-column-item"><a href="/gemeinde-daten/interessante-zahlen" id="nav-item-963" class="child dropdown-item nav-link "
+                                                                title="Interessante Zahlen"><span class="dropdown-text">Interessante Zahlen
+                                                                            
+                                                                        </span></a></li><li class="dropdown-menu-list-column-item"><a href="/gemeinde-daten/geschichte/geschichte-allgemein" id="nav-item-960" class="child dropdown-item nav-link dropdown-submenu-toggle "
+                                                                title="Geschichte"><span class="dropdown-text">Geschichte
+                                                                            
+                                                                        </span></a><ul class="dropdown-submenu " ><li class="dropdown-submenu-item "><a href="/gemeinde-daten/geschichte/geschichte-allgemein" class="dropdown-submenu-item-link" role="button" id="nav-item-962"  title="Geschichte Allgemein"><span class="dropdown-submenu-text">Geschichte Allgemein</span></a></li><li class="dropdown-submenu-item "><a href="/gemeinde-daten/geschichte/das-wappen" class="dropdown-submenu-item-link" role="button" id="nav-item-961"  title="Das Wappen"><span class="dropdown-submenu-text">Das Wappen</span></a></li></ul></li></ul></li><li class="dropdown-menu-list-wrapper"><ul class="dropdown-menu-list-column"><li class="dropdown-menu-list-column-item"><a href="/gemeinde-daten/busfahrplan" id="nav-item-959" class="child dropdown-item nav-link "
+                                                                title="Busfahrplan"><span class="dropdown-text">Busfahrplan
+                                                                            
+                                                                        </span></a></li><li class="dropdown-menu-list-column-item"><a href="/gemeinde-daten/anfahrt-lage/anfahrt" id="nav-item-952" class="child dropdown-item nav-link dropdown-submenu-toggle "
+                                                                title="Anfahrt &amp; Lage"><span class="dropdown-text">Anfahrt &amp; Lage
+                                                                            
+                                                                        </span></a><ul class="dropdown-submenu " ><li class="dropdown-submenu-item "><a href="/gemeinde-daten/anfahrt-lage/anfahrt" class="dropdown-submenu-item-link" role="button" id="nav-item-956"  title="Anfahrt"><span class="dropdown-submenu-text">Anfahrt</span></a></li><li class="dropdown-submenu-item "><a href="/gemeinde-daten/anfahrt-lage/digitaler-ortsplan" class="dropdown-submenu-item-link" role="button" id="nav-item-953"  title="Digitaler Ortsplan"><span class="dropdown-submenu-text">Digitaler Ortsplan</span></a></li></ul></li><li class="dropdown-menu-list-column-item"><a href="/gemeinde-daten/wetter" id="nav-item-951" class="child dropdown-item nav-link "
+                                                                title="Wetter"><span class="dropdown-text">Wetter
+                                                                            
+                                                                        </span></a></li><li class="dropdown-menu-list-column-item"><a href="/gemeinde-daten/wichtige-telefonnummern" id="nav-item-950" class="child dropdown-item nav-link "
+                                                                title="Wichtige Telefonnummern"><span class="dropdown-text">Wichtige Telefonnummern
+                                                                            
+                                                                        </span></a></li><li class="dropdown-menu-list-column-item"><a href="/gemeinde-daten/inhalt-hilfe/suche" id="nav-item-945" class="child dropdown-item nav-link dropdown-submenu-toggle "
+                                                                title="Inhalt &amp; Hilfe"><span class="dropdown-text">Inhalt &amp; Hilfe
+                                                                            
+                                                                        </span></a><ul class="dropdown-submenu " ><li class="dropdown-submenu-item "><a href="/gemeinde-daten/inhalt-hilfe/suche" class="dropdown-submenu-item-link" role="button" id="nav-item-949"  title="Suche"><span class="dropdown-submenu-text">Suche</span></a></li><li class="dropdown-submenu-item "><a href="/gemeinde-daten/inhalt-hilfe/inhaltsverzeichnis" class="dropdown-submenu-item-link" role="button" id="nav-item-948"  title="Inhaltsverzeichnis"><span class="dropdown-submenu-text">Inhaltsverzeichnis</span></a></li><li class="dropdown-submenu-item "><a href="/gemeinde-daten/inhalt-hilfe/navigationshilfe" class="dropdown-submenu-item-link" role="button" id="nav-item-947"  title="Navigationshilfe"><span class="dropdown-submenu-text">Navigationshilfe</span></a></li><li class="dropdown-submenu-item "><a href="/gemeinde-daten/inhalt-hilfe/barrierefreiheit" class="dropdown-submenu-item-link" role="button" id="nav-item-946"  title="Barrierefreiheit"><span class="dropdown-submenu-text">Barrierefreiheit</span></a></li></ul></li><li class="dropdown-menu-list-column-item"><a href="/gemeinde-daten/impressum-hinweis/impressum" id="nav-item-939" class="child dropdown-item nav-link dropdown-submenu-toggle "
+                                                                title="Impressum &amp; Hinweis"><span class="dropdown-text">Impressum &amp; Hinweis
+                                                                            
+                                                                        </span></a><ul class="dropdown-submenu " ><li class="dropdown-submenu-item "><a href="/gemeinde-daten/impressum-hinweis/impressum" class="dropdown-submenu-item-link" role="button" id="nav-item-944"  title="Impressum"><span class="dropdown-submenu-text">Impressum</span></a></li><li class="dropdown-submenu-item "><a href="/gemeinde-daten/impressum-hinweis/datenschutzerklaerung" class="dropdown-submenu-item-link" role="button" id="nav-item-943"  title="Datenschutzerklärung"><span class="dropdown-submenu-text">Datenschutzerklärung</span></a></li><li class="dropdown-submenu-item "><a href="/gemeinde-daten/impressum-hinweis/responsive-web" class="dropdown-submenu-item-link" role="button" id="nav-item-942"  title="Responsive Web"><span class="dropdown-submenu-text">Responsive Web</span></a></li><li class="dropdown-submenu-item "><a href="/gemeinde-daten/impressum-hinweis/leichte-sprache" class="dropdown-submenu-item-link" role="button" id="nav-item-941"  title="Leichte Sprache"><span class="dropdown-submenu-text">Leichte Sprache</span></a></li><li class="dropdown-submenu-item "><a href="/gemeinde-daten/impressum-hinweis/gebaerdensprache" class="dropdown-submenu-item-link" role="button" id="nav-item-940"  title="Gebärdensprache"><span class="dropdown-submenu-text">Gebärdensprache</span></a></li></ul></li></ul></li></ul></div></li><li class="nav-item dropdown dropdown-hover"><a href="#" id="nav-item-894" role="button"
+                            class="nav-link dropdown-toggle" title="Rathaus &amp; Gemeinderat" aria-haspopup="true" aria-expanded="false"><span class="nav-link-text">Rathaus &amp; Gemeinderat</span></a><div class="dropdown-menu"><div class="dropdown-menu-line"></div><span class="dropdown-menu-title">Rathaus &amp; Gemeinderat</span><ul class="dropdown-menu-list" aria-labelledby="nav-item-894"><li class="dropdown-menu-list-wrapper"><ul class="dropdown-menu-list-column"><li class="dropdown-menu-list-column-item"><a href="/rathaus-gemeinderat/digitales-rathaus/online-antraege-allgemein" id="nav-item-985" class="child dropdown-item nav-link dropdown-submenu-toggle "
+                                                                title="Digitales Rathaus"><span class="dropdown-text">Digitales Rathaus
+                                                                            
+                                                                        </span></a><ul class="dropdown-submenu " ><li class="dropdown-submenu-item "><a href="/rathaus-gemeinderat/digitales-rathaus/online-antraege-allgemein" class="dropdown-submenu-item-link" role="button" id="nav-item-981"  title="Online-Anträge"><span class="dropdown-submenu-text">Online-Anträge</span></a></li><li class="dropdown-submenu-item "><a href="/rathaus-gemeinderat/digitales-rathaus/formulare" class="dropdown-submenu-item-link" role="button" id="nav-item-918"  title="Formulare"><span class="dropdown-submenu-text">Formulare</span></a></li></ul></li><li class="dropdown-menu-list-column-item"><a href="/rathaus-gemeinderat/gemeinderat/fraktionen" id="nav-item-899" class="child dropdown-item nav-link dropdown-submenu-toggle "
+                                                                title="Gemeinderat"><span class="dropdown-text">Gemeinderat
+                                                                            
+                                                                        </span></a><ul class="dropdown-submenu " ><li class="dropdown-submenu-item "><a href="/rathaus-gemeinderat/gemeinderat/fraktionen" class="dropdown-submenu-item-link" role="button" id="nav-item-898"  title="Fraktionen"><span class="dropdown-submenu-text">Fraktionen</span></a></li><li class="dropdown-submenu-item "><a href="/rathaus-gemeinderat/gemeinderat/gemeinderaete" class="dropdown-submenu-item-link" role="button" id="nav-item-907"  title="Gemeinderäte"><span class="dropdown-submenu-text">Gemeinderäte</span></a></li><li class="dropdown-submenu-item "><a href="/rathaus-gemeinderat/gemeinderat/sitzungstermine" class="dropdown-submenu-item-link" role="button" id="nav-item-906"  title="Sitzungstermine"><span class="dropdown-submenu-text">Sitzungstermine</span></a></li><li class="dropdown-submenu-item "><a href="/rathaus-gemeinderat/gemeinderat/beschluesse" class="dropdown-submenu-item-link" role="button" id="nav-item-901"  title="Beschlüsse"><span class="dropdown-submenu-text">Beschlüsse</span></a></li><li class="dropdown-submenu-item "><a href="/rathaus-gemeinderat/gemeinderat/aus-der-arbeit-des-gemeinderates" class="dropdown-submenu-item-link" role="button" id="nav-item-900"  title="Aus der Arbeit des Gemeinderates"><span class="dropdown-submenu-text">Aus der Arbeit des Gemeinderates</span></a></li></ul></li><li class="dropdown-menu-list-column-item"><a href="/rathaus-gemeinderat/ratsinformationssystem" id="nav-item-1051" class="child dropdown-item nav-link "
+                                                                title="Ratsinformationssystem"><span class="dropdown-text">Ratsinformationssystem
+                                                                            
+                                                                        </span></a></li><li class="dropdown-menu-list-column-item"><a href="/rathaus-gemeinderat/ortsrecht" id="nav-item-929" class="child dropdown-item nav-link "
+                                                                title="Ortsrecht"><span class="dropdown-text">Ortsrecht
+                                                                            
+                                                                        </span></a></li><li class="dropdown-menu-list-column-item"><a href="/rathaus-gemeinderat/bebauungsplaene" id="nav-item-928" class="child dropdown-item nav-link "
+                                                                title="Bebauungspläne"><span class="dropdown-text">Bebauungspläne
+                                                                            
+                                                                        </span></a></li><li class="dropdown-menu-list-column-item"><a href="/rathaus-gemeinderat/flaechennutzungsplan" id="nav-item-1048" class="child dropdown-item nav-link "
+                                                                title="Flächennutzungsplan"><span class="dropdown-text">Flächennutzungsplan
+                                                                            
+                                                                        </span></a></li><li class="dropdown-menu-list-column-item"><a href="/rathaus-gemeinderat/gemeindeverwaltung/kontakt-oeffnungszeiten" id="nav-item-931" class="child dropdown-item nav-link dropdown-submenu-toggle "
+                                                                title="Gemeindeverwaltung"><span class="dropdown-text">Gemeindeverwaltung
+                                                                            
+                                                                        </span></a><ul class="dropdown-submenu " ><li class="dropdown-submenu-item "><a href="/rathaus-gemeinderat/gemeindeverwaltung/kontakt-oeffnungszeiten" class="dropdown-submenu-item-link" role="button" id="nav-item-935"  title="Kontakt &amp; Öffnungszeiten"><span class="dropdown-submenu-text">Kontakt &amp; Öffnungszeiten</span></a></li><li class="dropdown-submenu-item "><a href="/rathaus-gemeinderat/gemeindeverwaltung/rathausteam" class="dropdown-submenu-item-link" role="button" id="nav-item-934"  title="Rathausteam"><span class="dropdown-submenu-text">Rathausteam</span></a></li><li class="dropdown-submenu-item "><a href="/rathaus-gemeinderat/gemeindeverwaltung/behoerdenadressen" class="dropdown-submenu-item-link" role="button" id="nav-item-933"  title="Behördenadressen"><span class="dropdown-submenu-text">Behördenadressen</span></a></li><li class="dropdown-submenu-item "><a href="/rathaus-gemeinderat/gemeindeverwaltung/anregung-kritik" class="dropdown-submenu-item-link" role="button" id="nav-item-932"  title="Anregung &amp; Kritik"><span class="dropdown-submenu-text">Anregung &amp; Kritik</span></a></li></ul></li><li class="dropdown-menu-list-column-item"><a href="/rathaus-gemeinderat/bauhof" id="nav-item-930" class="child dropdown-item nav-link "
+                                                                title="Bauhof"><span class="dropdown-text">Bauhof
+                                                                            
+                                                                        </span></a></li><li class="dropdown-menu-list-column-item"><a href="/rathaus-gemeinderat/schadensmeldung" id="nav-item-908" class="child dropdown-item nav-link "
+                                                                title="Schadensmeldung"><span class="dropdown-text">Schadensmeldung
+                                                                            
+                                                                        </span></a></li></ul></li><li class="dropdown-menu-list-wrapper"><ul class="dropdown-menu-list-column"><li class="dropdown-menu-list-column-item"><a href="/rathaus-gemeinderat/bodenrichtwerte" id="nav-item-926" class="child dropdown-item nav-link "
+                                                                title="Bodenrichtwerte"><span class="dropdown-text">Bodenrichtwerte
+                                                                            
+                                                                        </span></a></li><li class="dropdown-menu-list-column-item"><a href="/rathaus-gemeinderat/haushaltsplaene" id="nav-item-924" class="child dropdown-item nav-link "
+                                                                title="Haushaltspläne"><span class="dropdown-text">Haushaltspläne
+                                                                            
+                                                                        </span></a></li><li class="dropdown-menu-list-column-item"><a href="/rathaus-gemeinderat/buergerservice/dienstleistungen" id="nav-item-913" class="child dropdown-item nav-link dropdown-submenu-toggle "
+                                                                title="Bürgerservice"><span class="dropdown-text">Bürgerservice
+                                                                            
+                                                                        </span></a><ul class="dropdown-submenu " ><li class="dropdown-submenu-item "><a href="/rathaus-gemeinderat/buergerservice/dienstleistungen" class="dropdown-submenu-item-link" role="button" id="nav-item-923"  title="Dienstleistungen"><span class="dropdown-submenu-text">Dienstleistungen</span></a></li><li class="dropdown-submenu-item "><a href="/rathaus-gemeinderat/buergerservice/lebenslagen" class="dropdown-submenu-item-link" role="button" id="nav-item-922"  title="Lebenslagen"><span class="dropdown-submenu-text">Lebenslagen</span></a></li><li class="dropdown-submenu-item "><a href="/rathaus-gemeinderat/buergerservice/amtsblatt" class="dropdown-submenu-item-link" role="button" id="nav-item-917"  title="Amtsblatt"><span class="dropdown-submenu-text">Amtsblatt</span></a></li><li class="dropdown-submenu-item "><a href="/rathaus-gemeinderat/buergerservice/fundbuero" class="dropdown-submenu-item-link" role="button" id="nav-item-916"  title="Fundbüro"><span class="dropdown-submenu-text">Fundbüro</span></a></li><li class="dropdown-submenu-item "><a href="/rathaus-gemeinderat/buergerservice/solarkataster" class="dropdown-submenu-item-link" role="button" id="nav-item-914"  title="Solarkataster"><span class="dropdown-submenu-text">Solarkataster</span></a></li></ul></li><li class="dropdown-menu-list-column-item"><a href="/rathaus-gemeinderat/standesamt" id="nav-item-990" class="child dropdown-item nav-link "
+                                                                title="Standesamt"><span class="dropdown-text">Standesamt
+                                                                            
+                                                                        </span></a></li><li class="dropdown-menu-list-column-item"><a href="/rathaus-gemeinderat/ausschreibungen/oeffentliche-ausschreibungen" id="nav-item-909" class="child dropdown-item nav-link dropdown-submenu-toggle "
+                                                                title="Ausschreibungen"><span class="dropdown-text">Ausschreibungen
+                                                                            
+                                                                        </span></a><ul class="dropdown-submenu " ><li class="dropdown-submenu-item "><a href="/rathaus-gemeinderat/ausschreibungen/oeffentliche-ausschreibungen" class="dropdown-submenu-item-link" role="button" id="nav-item-912"  title="Öffentliche Ausschreibungen"><span class="dropdown-submenu-text">Öffentliche Ausschreibungen</span></a></li><li class="dropdown-submenu-item "><a href="/rathaus-gemeinderat/ausschreibungen/beabsichtigte-beschraenkte-ausschreibungen" class="dropdown-submenu-item-link" role="button" id="nav-item-911"  title="Beabsichtigte beschränkte Ausschreibungen"><span class="dropdown-submenu-text">Beabsichtigte beschränkte Ausschreibungen</span></a></li><li class="dropdown-submenu-item "><a href="/rathaus-gemeinderat/ausschreibungen/vergebene-auftraege-nach-beschraenkter-ausschreibung" class="dropdown-submenu-item-link" role="button" id="nav-item-910"  title="Vergebene Aufträge nach beschränkter Ausschreibung"><span class="dropdown-submenu-text">Vergebene Aufträge nach beschränkter Ausschreibung</span></a></li></ul></li><li class="dropdown-menu-list-column-item"><a href="/rathaus-gemeinderat/stellenangebote" id="nav-item-897" class="child dropdown-item nav-link "
+                                                                title="Stellenangebote"><span class="dropdown-text">Stellenangebote
+                                                                            
+                                                                        </span></a></li><li class="dropdown-menu-list-column-item"><a href="/rathaus-gemeinderat/interessante-links" id="nav-item-896" class="child dropdown-item nav-link "
+                                                                title="Interessante Links"><span class="dropdown-text">Interessante Links
+                                                                            
+                                                                        </span></a></li><li class="dropdown-menu-list-column-item"><a href="/rathaus-gemeinderat/archiv" id="nav-item-895" class="child dropdown-item nav-link "
+                                                                title="Archiv"><span class="dropdown-text">Archiv
+                                                                            
+                                                                        </span></a></li></ul></li></ul></div></li><li class="nav-item active dropdown dropdown-hover"><a href="#" id="nav-item-864" role="button"
+                            class="nav-link dropdown-toggle" title="Leben &amp; Wohnen" aria-haspopup="true" aria-expanded="false"><span class="nav-link-text">Leben &amp; Wohnen</span></a><div class="dropdown-menu"><div class="dropdown-menu-line"></div><span class="dropdown-menu-title">Leben &amp; Wohnen</span><ul class="dropdown-menu-list" aria-labelledby="nav-item-864"><li class="dropdown-menu-list-wrapper"><ul class="dropdown-menu-list-column"><li class="dropdown-menu-list-column-item"><a href="/leben-wohnen/mietspiegel" id="nav-item-980" class="child dropdown-item nav-link "
+                                                                title="Mietspiegel"><span class="dropdown-text">Mietspiegel
+                                                                            
+                                                                        </span></a></li><li class="dropdown-menu-list-column-item"><a href="/leben-wohnen/steuern-gebuehren" id="nav-item-893" class="child dropdown-item nav-link "
+                                                                title="Steuern &amp; Gebühren"><span class="dropdown-text">Steuern &amp; Gebühren
+                                                                            
+                                                                        </span></a></li><li class="dropdown-menu-list-column-item"><a href="/leben-wohnen/energiemonitor" id="nav-item-1037" class="child dropdown-item nav-link "
+                                                                title="Energiemonitor"><span class="dropdown-text">Energiemonitor
+                                                                            
+                                                                        </span></a></li><li class="dropdown-menu-list-column-item"><a href="/leben-wohnen/kommunale-waermeplanung-der-gemeinde-altbach" id="nav-item-1049" class="child dropdown-item nav-link "
+                                                                title="Kommunale Wärmeplanung der Gemeinde Altbach"><span class="dropdown-text">Kommunale Wärmeplanung der Gemeinde Altbach
+                                                                            
+                                                                        </span></a></li><li class="dropdown-menu-list-column-item"><a href="/aktuelles/klimaschutzagentur-landkreis-esslingen" id="nav-item-1000" class="child dropdown-item nav-link "
+                                                                title="Klimaschutzagentur Landkreis Esslingen"><span class="dropdown-text">Klimaschutzagentur Landkreis Esslingen
+                                                                            
+                                                                        </span></a></li><li class="dropdown-menu-list-column-item"><a href="/leben-wohnen/kindergaerten/kommunale-kindergaerten" id="nav-item-888" class="child dropdown-item nav-link dropdown-submenu-toggle open active"
+                                                                title="Kinderbetreuung"><span class="dropdown-text">Kinderbetreuung
+                                                                            
+                                                                        </span></a><ul class="dropdown-submenu show" ><li class="dropdown-submenu-item "><a href="/leben-wohnen/kindergaerten/kommunale-kindergaerten" class="dropdown-submenu-item-link" role="button" id="nav-item-1032"  title="Kommunale Kindergärten"><span class="dropdown-submenu-text">Kommunale Kindergärten</span></a></li><li class="dropdown-submenu-item "><a href="/leben-wohnen/kindergaerten/evangelische-kindergaerten" class="dropdown-submenu-item-link" role="button" id="nav-item-892"  title="Evangelische Kindergärten"><span class="dropdown-submenu-text">Evangelische Kindergärten</span></a></li><li class="dropdown-submenu-item "><a href="/leben-wohnen/kindergaerten/katholische-kindergaerten" class="dropdown-submenu-item-link" role="button" id="nav-item-891"  title="Katholische Kindergärten"><span class="dropdown-submenu-text">Katholische Kindergärten</span></a></li><li class="dropdown-submenu-item "><a href="/leben-wohnen/kindergaerten/kooperation-kinderhaus-himmelblau" class="dropdown-submenu-item-link" role="button" id="nav-item-993"  title="Kooperation &quot;Kinderhaus Himmelblau&quot;"><span class="dropdown-submenu-text">Kooperation &quot;Kinderhaus Himmelblau&quot;</span></a></li><li class="dropdown-submenu-item "><a href="/leben-wohnen/kindergaerten/altbacher-qualitaetsrahmen-kindertagesbetreuung" class="dropdown-submenu-item-link" role="button" id="nav-item-1035"  title="Altbacher Qualitätsrahmen Kindertagesbetreuung"><span class="dropdown-submenu-text">Altbacher Qualitätsrahmen Kindertagesbetreuung</span></a></li><li class="dropdown-submenu-item "><a href="/leben-wohnen/kindergaerten/anmeldeverfahren" class="dropdown-submenu-item-link" role="button" id="nav-item-1018"  title="Anmeldeverfahren "><span class="dropdown-submenu-text">Anmeldeverfahren </span></a></li><li class="dropdown-submenu-item active"><a href="/leben-wohnen/kindergaerten/kindergartengebuehren" class="dropdown-submenu-item-link" role="button" id="nav-item-890"  title="Kindergartengebühren"><span class="dropdown-submenu-text">Kindergartengebühren</span></a></li><li class="dropdown-submenu-item "><a href="/leben-wohnen/kindergaerten/kindertagespflege/allgemeine-informationen" class="dropdown-submenu-item-link" role="button" id="nav-item-1059"  title="Kindertagespflege"><span class="dropdown-submenu-text">Kindertagespflege</span></a></li></ul></li><li class="dropdown-menu-list-column-item"><a href="/leben-wohnen/schulen/schulen" id="nav-item-885" class="child dropdown-item nav-link dropdown-submenu-toggle "
+                                                                title="Schulen"><span class="dropdown-text">Schulen
+                                                                            
+                                                                        </span></a><ul class="dropdown-submenu " ><li class="dropdown-submenu-item "><a href="/leben-wohnen/schulen/schulen" class="dropdown-submenu-item-link" role="button" id="nav-item-887"  title="Schulen"><span class="dropdown-submenu-text">Schulen</span></a></li><li class="dropdown-submenu-item "><a href="/leben-wohnen/schulen/volkshochschule" class="dropdown-submenu-item-link" role="button" id="nav-item-886"  title="Volkshochschule"><span class="dropdown-submenu-text">Volkshochschule</span></a></li></ul></li><li class="dropdown-menu-list-column-item"><a href="/leben-wohnen/jugendhaus" id="nav-item-884" class="child dropdown-item nav-link "
+                                                                title="Jugendhaus"><span class="dropdown-text">Jugendhaus
+                                                                            
+                                                                        </span></a></li><li class="dropdown-menu-list-column-item"><a href="/leben-wohnen/kelly-insel" id="nav-item-883" class="child dropdown-item nav-link "
+                                                                title="Kelly-Insel"><span class="dropdown-text">Kelly-Insel
+                                                                            
+                                                                        </span></a></li></ul></li><li class="dropdown-menu-list-wrapper"><ul class="dropdown-menu-list-column"><li class="dropdown-menu-list-column-item"><a href="/leben-wohnen/seniorenwegweiser" id="nav-item-881" class="child dropdown-item nav-link "
+                                                                title="Seniorenangebote"><span class="dropdown-text">Seniorenangebote
+                                                                            
+                                                                        </span></a></li><li class="dropdown-menu-list-column-item"><a href="/leben-wohnen/einkaufsbus" id="nav-item-880" class="child dropdown-item nav-link "
+                                                                title="Einkaufsbus"><span class="dropdown-text">Einkaufsbus
+                                                                            
+                                                                        </span></a></li><li class="dropdown-menu-list-column-item"><a href="/leben-wohnen/kirchen/evangelische-kirchengemeinde" id="nav-item-876" class="child dropdown-item nav-link dropdown-submenu-toggle "
+                                                                title="Kirchen"><span class="dropdown-text">Kirchen
+                                                                            
+                                                                        </span></a><ul class="dropdown-submenu " ><li class="dropdown-submenu-item "><a href="/leben-wohnen/kirchen/evangelische-kirchengemeinde" class="dropdown-submenu-item-link" role="button" id="nav-item-879"  title="Evangelische Kirchengemeinde"><span class="dropdown-submenu-text">Evangelische Kirchengemeinde</span></a></li><li class="dropdown-submenu-item "><a href="/leben-wohnen/kirchen/katholische-kirchengemeinde" class="dropdown-submenu-item-link" role="button" id="nav-item-878"  title="Katholische Kirchengemeinde"><span class="dropdown-submenu-text">Katholische Kirchengemeinde</span></a></li></ul></li><li class="dropdown-menu-list-column-item"><a href="/leben-wohnen/gesundheit/aerzte" id="nav-item-869" class="child dropdown-item nav-link dropdown-submenu-toggle "
+                                                                title="Gesundheit"><span class="dropdown-text">Gesundheit
+                                                                            
+                                                                        </span></a><ul class="dropdown-submenu " ><li class="dropdown-submenu-item "><a href="/leben-wohnen/gesundheit/aerzte" class="dropdown-submenu-item-link" role="button" id="nav-item-875"  title="Ärzte"><span class="dropdown-submenu-text">Ärzte</span></a></li><li class="dropdown-submenu-item "><a href="/leben-wohnen/gesundheit/apotheke" class="dropdown-submenu-item-link" role="button" id="nav-item-874"  title="Apotheke"><span class="dropdown-submenu-text">Apotheke</span></a></li><li class="dropdown-submenu-item "><a href="/leben-wohnen/gesundheit/krankenpflege" class="dropdown-submenu-item-link" role="button" id="nav-item-873"  title="Krankenpflege"><span class="dropdown-submenu-text">Krankenpflege</span></a></li><li class="dropdown-submenu-item "><a href="/leben-wohnen/gesundheit/notdienste" class="dropdown-submenu-item-link" role="button" id="nav-item-872"  title="Notdienste"><span class="dropdown-submenu-text">Notdienste</span></a></li><li class="dropdown-submenu-item "><a href="/leben-wohnen/gesundheit/hospizdienst" class="dropdown-submenu-item-link" role="button" id="nav-item-871"  title="Hospizdienst"><span class="dropdown-submenu-text">Hospizdienst</span></a></li><li class="dropdown-submenu-item "><a href="/leben-wohnen/gesundheit/bus-bewegen-unterhalten-spass" class="dropdown-submenu-item-link" role="button" id="nav-item-870"  title="B.U.S. Bewegen-Unterhalten-Spaß"><span class="dropdown-submenu-text">B.U.S. Bewegen-Unterhalten-Spaß</span></a></li></ul></li><li class="dropdown-menu-list-column-item"><a href="/leben-wohnen/verhalten-in-notsituationen" id="nav-item-1017" class="child dropdown-item nav-link "
+                                                                title="Verhalten in Notsituationen"><span class="dropdown-text">Verhalten in Notsituationen
+                                                                            
+                                                                        </span></a></li><li class="dropdown-menu-list-column-item"><a href="/leben-wohnen/feuerwehr" id="nav-item-868" class="child dropdown-item nav-link "
+                                                                title="Feuerwehr"><span class="dropdown-text">Feuerwehr
+                                                                            
+                                                                        </span></a></li><li class="dropdown-menu-list-column-item"><a href="/leben-wohnen/polizei" id="nav-item-867" class="child dropdown-item nav-link "
+                                                                title="Polizei"><span class="dropdown-text">Polizei
+                                                                            
+                                                                        </span></a></li><li class="dropdown-menu-list-column-item"><a href="/leben-wohnen/einbruchschutz" id="nav-item-866" class="child dropdown-item nav-link "
+                                                                title="Einbruchschutz"><span class="dropdown-text">Einbruchschutz
+                                                                            
+                                                                        </span></a></li><li class="dropdown-menu-list-column-item"><a href="/leben-wohnen/muelltermine" id="nav-item-865" class="child dropdown-item nav-link "
+                                                                title="Mülltermine"><span class="dropdown-text">Mülltermine
+                                                                            
+                                                                        </span></a></li></ul></li></ul></div></li><li class="nav-item dropdown dropdown-hover"><a href="#" id="nav-item-855" role="button"
+                            class="nav-link dropdown-toggle" title="Freizeit &amp; Kultur" aria-haspopup="true" aria-expanded="false"><span class="nav-link-text">Freizeit &amp; Kultur</span></a><div class="dropdown-menu"><div class="dropdown-menu-line"></div><span class="dropdown-menu-title">Freizeit &amp; Kultur</span><ul class="dropdown-menu-list" aria-labelledby="nav-item-855"><li class="dropdown-menu-list-wrapper"><ul class="dropdown-menu-list-column"><li class="dropdown-menu-list-column-item"><a href="/freizeit-kultur/fahrradboxen" id="nav-item-1009" class="child dropdown-item nav-link "
+                                                                title="Fahrradboxen"><span class="dropdown-text">Fahrradboxen
+                                                                            
+                                                                        </span></a></li><li class="dropdown-menu-list-column-item"><a href="/freizeit-kultur/veranstaltungskalender" id="nav-item-863" class="child dropdown-item nav-link "
+                                                                title="Veranstaltungskalender"><span class="dropdown-text">Veranstaltungskalender
+                                                                            
+                                                                        </span></a></li><li class="dropdown-menu-list-column-item"><a href="/freizeit-kultur/neue-veranstaltung-melden" id="nav-item-1040" class="child dropdown-item nav-link "
+                                                                title="neue Veranstaltung melden"><span class="dropdown-text">neue Veranstaltung melden
+                                                                            
+                                                                        </span></a></li><li class="dropdown-menu-list-column-item"><a href="/freizeit-kultur/anzeige-einer-voruebergehenden-gaststaettenerlaubnis" id="nav-item-1054" class="child dropdown-item nav-link "
+                                                                title="Anzeige einer vorübergehenden Gaststättenerlaubnis "><span class="dropdown-text">Anzeige einer vorübergehenden Gaststättenerlaubnis 
+                                                                            
+                                                                        </span></a></li><li class="dropdown-menu-list-column-item"><a href="/freizeit-kultur/sommerferienprogramm" id="nav-item-994" class="child dropdown-item nav-link "
+                                                                title="Sommerferienprogramm"><span class="dropdown-text">Sommerferienprogramm
+                                                                            
+                                                                        </span></a></li><li class="dropdown-menu-list-column-item"><a href="/freizeit-kultur/vereine" id="nav-item-862" class="child dropdown-item nav-link "
+                                                                title="Vereine"><span class="dropdown-text">Vereine
+                                                                            
+                                                                        </span></a></li><li class="dropdown-menu-list-column-item"><a href="/freizeit-kultur/parteien-und-waehlervereinigungen" id="nav-item-989" class="child dropdown-item nav-link "
+                                                                title="Parteien und Wählervereinigungen"><span class="dropdown-text">Parteien und Wählervereinigungen
+                                                                            
+                                                                        </span></a></li><li class="dropdown-menu-list-column-item"><a href="/freizeit-kultur/buecherei" id="nav-item-860" class="child dropdown-item nav-link "
+                                                                title="Bücherei"><span class="dropdown-text">Bücherei
+                                                                            
+                                                                        </span></a></li></ul></li><li class="dropdown-menu-list-wrapper"><ul class="dropdown-menu-list-column"><li class="dropdown-menu-list-column-item"><a href="/freizeit-kultur/heinrich-mayer-park" id="nav-item-858" class="child dropdown-item nav-link "
+                                                                title="Heinrich-Mayer Park"><span class="dropdown-text">Heinrich-Mayer Park
+                                                                            
+                                                                        </span></a></li><li class="dropdown-menu-list-column-item"><a href="/freizeit-kultur/ulrichskirche" id="nav-item-976" class="child dropdown-item nav-link "
+                                                                title="Ulrichskirche"><span class="dropdown-text">Ulrichskirche
+                                                                            
+                                                                        </span></a></li><li class="dropdown-menu-list-column-item"><a href="/freizeit-kultur/gemeindehalle" id="nav-item-859" class="child dropdown-item nav-link "
+                                                                title="Gemeindehalle"><span class="dropdown-text">Gemeindehalle
+                                                                            
+                                                                        </span></a></li><li class="dropdown-menu-list-column-item"><a href="/freizeit-kultur/sportstaetten" id="nav-item-861" class="child dropdown-item nav-link "
+                                                                title="Sportstätten"><span class="dropdown-text">Sportstätten
+                                                                            
+                                                                        </span></a></li><li class="dropdown-menu-list-column-item"><a href="/freizeit-kultur/hallenbad" id="nav-item-984" class="child dropdown-item nav-link "
+                                                                title="Hallenbad"><span class="dropdown-text">Hallenbad
+                                                                            
+                                                                        </span></a></li><li class="dropdown-menu-list-column-item"><a href="/freizeit-kultur/alte-schmiede" id="nav-item-857" class="child dropdown-item nav-link "
+                                                                title="Alte Schmiede"><span class="dropdown-text">Alte Schmiede
+                                                                            
+                                                                        </span></a></li><li class="dropdown-menu-list-column-item"><a href="/freizeit-kultur/hotel-gaststaetten" id="nav-item-856" class="child dropdown-item nav-link "
+                                                                title="Hotel &amp; Gaststätten"><span class="dropdown-text">Hotel &amp; Gaststätten
+                                                                            
+                                                                        </span></a></li></ul></li></ul></div></li><li class="nav-item dropdown dropdown-hover"><a href="#" id="nav-item-847" role="button"
+                            class="nav-link dropdown-toggle" title="Wirtschaft &amp; Gewerbe" aria-haspopup="true" aria-expanded="false"><span class="nav-link-text">Wirtschaft &amp; Gewerbe</span></a><div class="dropdown-menu"><div class="dropdown-menu-line"></div><span class="dropdown-menu-title">Wirtschaft &amp; Gewerbe</span><ul class="dropdown-menu-list" aria-labelledby="nav-item-847"><li class="dropdown-menu-list-wrapper"><ul class="dropdown-menu-list-column"><li class="dropdown-menu-list-column-item"><a href="/wirtschaft-gewerbe/standortdaten" id="nav-item-854" class="child dropdown-item nav-link "
+                                                                title="Standortdaten"><span class="dropdown-text">Standortdaten
+                                                                            
+                                                                        </span></a></li><li class="dropdown-menu-list-column-item"><a href="/wirtschaft-gewerbe/wirtschaftsfoerderung" id="nav-item-853" class="child dropdown-item nav-link "
+                                                                title="Wirtschaftsförderung"><span class="dropdown-text">Wirtschaftsförderung
+                                                                            
+                                                                        </span></a></li><li class="dropdown-menu-list-column-item"><a href="/wirtschaft-gewerbe/firmenverzeichnis" id="nav-item-852" class="child dropdown-item nav-link "
+                                                                title="Firmenverzeichnis"><span class="dropdown-text">Firmenverzeichnis
+                                                                            
+                                                                        </span></a></li></ul></li><li class="dropdown-menu-list-wrapper"><ul class="dropdown-menu-list-column"><li class="dropdown-menu-list-column-item"><a href="/wirtschaft-gewerbe/gewerbebauplaetze" id="nav-item-851" class="child dropdown-item nav-link "
+                                                                title="Gewerbebauplätze"><span class="dropdown-text">Gewerbebauplätze
+                                                                            
+                                                                        </span></a></li><li class="dropdown-menu-list-column-item"><a href="/wirtschaft-gewerbe/ihk-hwk" id="nav-item-849" class="child dropdown-item nav-link "
+                                                                title="IHK &amp; HWK"><span class="dropdown-text">IHK &amp; HWK
+                                                                            
+                                                                        </span></a></li><li class="dropdown-menu-list-column-item"><a href="/wirtschaft-gewerbe/arbeitsamt" id="nav-item-848" class="child dropdown-item nav-link "
+                                                                title="Arbeitsamt"><span class="dropdown-text">Arbeitsamt
+                                                                            
+                                                                        </span></a></li></ul></li></ul></div></li><li class="navbar-search" ><a href="/gemeinde-daten/inhalt-hilfe/suche" target="_blank" title="Öffnet externen Link in einem neuen Fenster"><span class="icon icon-search2"></span></a></li></ul></nav></div><div class="container container-wappen"><a title="Startseite der Gemeinde Altbach" href="/"><img class="header-wappen" src="/typo3conf/ext/cm_package/Resources/Public/Images/Wappen_Altbach.svg" width="76" height="80" alt="" /></a></div></div></header><div id="page-content" class="bp-page-content main-section"><!--TYPO3SEARCH_begin--><div class="section section-default content-page-content"><div class="page-content-container"><nav class="breadcrumb-section" aria-label="Brotkrümelnavigation"><div class="container"><p class="sr-only" id="breadcrumb">Sie sind hier:</p><ol class="breadcrumb"><li class="breadcrumb-item"><a class="breadcrumb-link" href="/" title="Startseite"><span class="breadcrumb-text">Startseite</span></a></li><li class="breadcrumb-item"><a class="breadcrumb-link" href="/leben-wohnen/mietspiegel" title="Leben &amp; Wohnen"><span class="breadcrumb-text">Leben &amp; Wohnen</span></a></li><li class="breadcrumb-item"><a class="breadcrumb-link" href="/leben-wohnen/kindergaerten/kommunale-kindergaerten" title="Kinderbetreuung"><span class="breadcrumb-text">Kinderbetreuung</span></a></li><li class="breadcrumb-item active" aria-current="page"><span class="breadcrumb-text">Kindergartengebühren</span></li></ol></div></nav><div class="section-row"><div class="maincontent-wrap" role="main" ><div id="c2226" class="frame frame-default frame-type-textpic frame-layout-0 frame-background-none frame-no-backgroundimage frame-space-before-none frame-space-after-none "><div class="frame-container"><div class="frame-inner"><div class="textpic textpic-above"><div class="textpic-item textpic-gallery"></div><div class="textpic-item textpic-text"><div class="frame-header"><h2 class="element-header text-left"><span>Kindergartengebühren für das Kindergartenjahr 2026/2027</span></h2></div></div></div></div></div></div><div id="c2014" class="frame frame-default gallery-100 frame-type-textpic frame-layout-0 frame-background-none frame-no-backgroundimage frame-space-before-none frame-space-after-none "><div class="frame-container"><div class="frame-inner"><div class="textpic textpic-below"><div class="textpic-item textpic-gallery"><div class="gallery-row"><div class="gallery-item gallery-item-size-2"><figure class="image"><a href="/fileadmin/_migrated/pics/Spielplatz_Goetheweg_1.jpg" title="Spielplatz" data-lightbox-caption="Spielplatz" class="lightbox" data-lightbox-width="800" data-lightbox-height="600" rel="lightbox-group-2014"><picture><source data-variant="default" data-maxwidth="952" media="(min-width: 1200px)" srcset="/fileadmin/_migrated/pics/Spielplatz_Goetheweg_1.jpg 1x"><source data-variant="large" data-maxwidth="952" media="(min-width: 992px)" srcset="/fileadmin/_migrated/pics/Spielplatz_Goetheweg_1.jpg 1x"><source data-variant="medium" data-maxwidth="952" media="(min-width: 768px)" srcset="/fileadmin/_migrated/pics/Spielplatz_Goetheweg_1.jpg 1x"><source data-variant="small" data-maxwidth="952" media="(min-width: 576px)" srcset="/fileadmin/_migrated/pics/Spielplatz_Goetheweg_1.jpg 1x"><source data-variant="extrasmall" data-maxwidth="952"  srcset="/fileadmin/_migrated/pics/Spielplatz_Goetheweg_1.jpg 1x"><img loading="lazy" src="/fileadmin/_migrated/pics/Spielplatz_Goetheweg_1.jpg" width="800" height="600" title="Spielplatz" alt="Spielplatz"></picture></a><figcaption class="caption">Spielplatz</figcaption></figure></div><div class="gallery-item gallery-item-size-2"><figure class="image"><a href="/fileadmin/_migrated/pics/Spielplatz_Goetheweg_4.jpg" title="Spielplatz" data-lightbox-caption="Spielplatz" class="lightbox" data-lightbox-width="800" data-lightbox-height="600" rel="lightbox-group-2014"><picture><source data-variant="default" data-maxwidth="952" media="(min-width: 1200px)" srcset="/fileadmin/_migrated/pics/Spielplatz_Goetheweg_4.jpg 1x"><source data-variant="large" data-maxwidth="952" media="(min-width: 992px)" srcset="/fileadmin/_migrated/pics/Spielplatz_Goetheweg_4.jpg 1x"><source data-variant="medium" data-maxwidth="952" media="(min-width: 768px)" srcset="/fileadmin/_migrated/pics/Spielplatz_Goetheweg_4.jpg 1x"><source data-variant="small" data-maxwidth="952" media="(min-width: 576px)" srcset="/fileadmin/_migrated/pics/Spielplatz_Goetheweg_4.jpg 1x"><source data-variant="extrasmall" data-maxwidth="952"  srcset="/fileadmin/_migrated/pics/Spielplatz_Goetheweg_4.jpg 1x"><img loading="lazy" src="/fileadmin/_migrated/pics/Spielplatz_Goetheweg_4.jpg" width="800" height="600" title="Spielplatz" alt="Spielplatz"></picture></a><figcaption class="caption">Spielplatz</figcaption></figure></div></div></div><div class="textpic-item textpic-text"><p>Die Kindergartengebühren richten sich in Altbach nach der Zahl der Kinder unter 18 Jahren im gleichen Haushalt.</p><p>Hier können Sie die aktuellen Beiträge herunterladen:</p><p><a href="/fileadmin/Dateien/Cross7/Startseite/Leben_%26_Wohnen/Kinderbetreuung/Kindergartengebuhren/Gebuhren_fur_das_Kindergartenjahr_2026_2027.pdf" target="_blank" rel="noopener noreferrer nofollow" class="download">Gebühren für das Kindergartenjahr 2026 2027</a></p><p></p></div></div></div></div></div></div></div></div></div><div class="section page-content-below"><!--
+        <div class="container page-content-below-container"><a href="#" id="printbutton" title="Seite drucken" onclick="window.print()"><span class="printbutton-text">Ausdrucken</span><span class="icon icon-print"></span></a></div>
+        --></div><!--TYPO3SEARCH_end--></div><footer id="page-footer" class="bp-page-footer"><section class="section footer-section footer-section-content"><div class="section-row"><div class="section-container container"><div class="section-footer-main-wrapper"><div class="section-column section-footer-address"><div id="c1728" class="frame frame-default frame-type-textpic frame-layout-0 frame-background-none frame-no-backgroundimage frame-space-before-none frame-space-after-none "><div class="frame-container"><div class="frame-inner"><div class="textpic textpic-above"><div class="textpic-item textpic-gallery"></div><div class="textpic-item textpic-text"><div class="frame-header"><h2 class="element-header "><span>Gemeinde Altbach</span></h2></div><ul class="list-normal"><li>Esslinger Straße 65</li><li>73776 Altbach</li><li>Tel.: 07153 7007-0</li><li><a href="javascript:linkTo_UnCryptMailto(%27ocknvq%2CrquvBcnvdcej0fg%27);" title="Öffnet ein Fenster zum Versenden der E-Mail" class="mail">E-Mail schreiben</a></li></ul></div></div></div></div></div></div><div class="section-column section-footer-opening-1"><div id="c1726" class="frame frame-default frame-type-textpic frame-layout-0 frame-background-none frame-no-backgroundimage frame-space-before-none frame-space-after-none "><div class="frame-container"><div class="frame-inner"><div class="textpic textpic-above"><div class="textpic-item textpic-gallery"></div><div class="textpic-item textpic-text"><div class="frame-header"><h2 class="element-header "><span>Öffnungszeiten</span></h2></div><div class="table-responsive"><table><tbody><tr><td>Mo, Mi, Do</td><td>08:00 - 12:00 Uhr</td></tr><tr><td>Di</td><td>14:00 - 18:00 Uhr</td></tr><tr><td>Fr</td><td>08:00 - 12:00 Uhr</td></tr></tbody></table></div></div></div></div></div></div></div><div class="section-column section-footer-opening-2"><div id="c1727" class="frame frame-default frame-type-textpic frame-layout-0 frame-background-none frame-no-backgroundimage frame-space-before-none frame-space-after-none "><div class="frame-container"><div class="frame-inner"><div class="textpic textpic-above"><div class="textpic-item textpic-gallery"></div><div class="textpic-item textpic-text"><div class="frame-header"><h2 class="element-header "><span>Öffnungszeiten Bürgerbüro</span></h2></div><div class="table-responsive"><table style="width: 100%"><tbody><tr><td colspan="1" rowspan="1"><p>Mo, Mi, Do</p></td><td colspan="1" rowspan="1"><p>08:00 - 12:00 Uhr</p></td></tr><tr><td colspan="1" rowspan="1"><p>Di</p></td><td colspan="1" rowspan="1"><p>14:00 - 18:00 Uhr</p></td></tr><tr><td colspan="1" rowspan="1"><p>Fr</p></td><td colspan="1" rowspan="1"><p>08:00 - 12:00 Uhr</p></td></tr></tbody></table></div></div></div></div></div></div></div><div class="section-column section-footer-links"><div id="c1729" class="frame frame-default frame-type-html frame-layout-0 frame-background-none frame-no-backgroundimage frame-space-before-none frame-space-after-none "><div class="frame-container"><div class="frame-inner"><div class="section-footer-links-barrierefreiheit"><a class="link-accessibility" href="#accessibility" title="Öffnet externen Link in einem neuen Fenster">Barrierefreie Ansicht</a></div><div class="section-footer-links-links"><a class="link-content" href="index.php?id=948" target="_blank" title="Öffnet externen Link in einem neuen Fenster">Inhalt</a><span> | </span><a class="link-content" href="index.php?id=944" target="_blank" title="Öffnet externen Link in einem neuen Fenster">Impressum</a><span> | </span><a class="link-content" href="index.php?id=947" target="_blank" title="Öffnet externen Link in einem neuen Fenster">Hilfe</a><span> | </span><br /><a class="link-content" href="index.php?id=943" target="_blank" title="Öffnet externen Link in einem neuen Fenster">Datenschutzerklärung</a><span> | </span><br /><a class="link-content" href="index.php?id=946" target="_blank" title="Öffnet externen Link in einem neuen Fenster">Erklärung zur Barrierefreiheit</a></div></div></div></div></div></div></div></div><div class="section-row"><div class="section-container container"><div class="section-footer-accessibility"><div class="accessibility-links"><a class="accessibility-mandatory accessibility-easy-language" title="Leichte Sprache" href="/gemeinde-daten/impressum-hinweis/leichte-sprache"><img src="/typo3conf/ext/cm_package/Resources/Public/Images/Accessibility/ls.svg" width="689" height="689" alt="" /><div class="label">Leichte Sprache</div></a><a class="accessibility-mandatory accessibility-sign-language" title="Gebärdensprache" href="/gemeinde-daten/impressum-hinweis/gebaerdensprache"><img src="/typo3conf/ext/cm_package/Resources/Public/Images/Accessibility/gs.svg" width="657" height="347" alt="" /><div class="label">Gebärdensprache</div></a></div></div></div></div></section></footer><a class="scroll-top" title="Nach oben rollen" href="#top"><span class="scroll-top-icon"></span></a></div>
+<script src="/typo3conf/ext/bootstrap_package/Resources/Public/Contrib/jquery/jquery.min.js?1670333501"></script>
+<script src="/typo3conf/ext/bootstrap_package/Resources/Public/Contrib/popper/popper.min.js?1670333501"></script>
+<script src="/typo3conf/ext/bootstrap_package/Resources/Public/Contrib/bootstrap4/js/bootstrap.min.js?1670333501"></script>
+<script src="/typo3conf/ext/bootstrap_package/Resources/Public/Contrib/hammerjs/hammer.min.js?1670333501"></script>
+<script src="/typo3conf/ext/bootstrap_package/Resources/Public/Contrib/photoswipe/photoswipe.min.js?1670333501"></script>
+<script src="/typo3conf/ext/bootstrap_package/Resources/Public/Contrib/photoswipe/photoswipe-ui-default.min.js?1670333501"></script>
+<script src="/typo3conf/ext/bootstrap_package/Resources/Public/JavaScript/Dist/bootstrap.accordion.min.js?1670333501"></script>
+<script src="/typo3conf/ext/bootstrap_package/Resources/Public/JavaScript/Dist/bootstrap.form.min.js?1670333501"></script>
+<script src="/typo3conf/ext/bootstrap_package/Resources/Public/JavaScript/Dist/bootstrap.swipe.min.js?1670333501"></script>
+<script src="/typo3conf/ext/bootstrap_package/Resources/Public/JavaScript/Dist/bootstrap.popover.min.js?1670333501"></script>
+<script src="/typo3conf/ext/bootstrap_package/Resources/Public/JavaScript/Dist/bootstrap.smoothscroll.min.js?1670333501"></script>
+<script src="/typo3conf/ext/bootstrap_package/Resources/Public/JavaScript/Dist/bootstrap.lightbox.min.js?1670333501"></script>
+<script src="/typo3conf/ext/bootstrap_package/Resources/Public/JavaScript/Dist/bootstrap.navbar.min.js?1670333501"></script>
+<script src="/typo3conf/ext/bootstrap_package/Resources/Public/Contrib/cookieconsent/cookieconsent.min.js?1670333501"></script>
+<script src="/typo3conf/ext/bootstrap_package/Resources/Public/JavaScript/Dist/bootstrap.cookieconsent.min.js?1670333501"></script>
+<script src="/typo3conf/ext/cm_package/Resources/Public/JavaScript/Dist/scripts.js?1692085023"></script>
+<script src="https://static.cross-7.de/_barrierefreiheit/script.js"></script>
+<script src="https://static.cross-7.de/_typo3scripts/Helpers.js"></script>
+<script src="https://static.cross-7.de/_typo3scripts/IE11Check.js"></script>
+<script src="https://static.cross-7.de/_typo3scripts/AccessibilityToggle.js"></script>
+<script src="https://static.cross-7.de/_typo3scripts/AccessibleMenu.js"></script>
+<script src="https://static.cross-7.de/_typo3scripts/KeSearch.js"></script>
+<script src="https://static.cross-7.de/_typo3scripts/MiniGallery.js"></script>
+<script src="https://static.cross-7.de/_typo3scripts/PublishNews.js"></script>
+<script src="https://static.cross-7.de/_typo3scripts/PublishHomeNewsSlider.js"></script>
+<script src="https://static.cross-7.de/_typo3scripts/Subnavigation.js"></script>
+<script src="https://static.cross-7.de/_typo3scripts/CarouselPausePlay.js"></script>
+<script src="https://static.cross-7.de/_typo3scripts/PublishPhotoAlbum.js"></script>
+<script src="https://static.cross-7.de/_typo3scripts/PopupWindow.js"></script>
+<script src="https://static.cross-7.de/_typo3scripts/SplitMenu.js"></script>
+
+
+
+</body>
+</html>

@@ -4,6 +4,8 @@
 **Recherche-Stand:** 7. November 2026; Tarifstichtag des Defaultprofils: 4. November 2026  
 **Gebiet:** Die zwölf Städte und Gemeinden aus `PROJECT_REQUIREMENTS.md`
 
+**Erweiterungsrecherche vom 10. November 2026:** Für die 33 direkten Nachbarn liegen gesicherte Quellen und eine gesonderte [Bewertung je Kommune](ERWEITERUNGSRECHERCHE.md) vor. Sie gehören noch nicht zum aktiven Tarifbestand. Die nachfolgende Übersicht und der automatische Standardabruf beziehen sich weiterhin auf die zwölf bisherigen Kommunen.
+
 ## Zweck und Lesart
 
 Diese Übersicht dokumentiert die offiziellen kommunalen Einstiegsseiten, Satzungen, Entgeltordnungen und Gebührentabellen, die zur Erfassung der aktuell veröffentlichten Gebühren verwendet wurden. Der dazugehörige Erfassungsstand enthält die übertragenen Tarife und die Stichprobenprüfung. Wo die Kommune keine abrufbare, vollständige oder eindeutige Quelle bereitstellt, ist das ausdrücklich als Einschränkung festgehalten. Historische Preisreihen sind nicht Teil dieses Arbeitsschritts.

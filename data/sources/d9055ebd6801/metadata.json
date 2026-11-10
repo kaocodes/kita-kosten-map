@@ -1,0 +1,13 @@
+{
+  "id": "d9055ebd6801",
+  "municipality": "Aichwald",
+  "title": "Kindergartenordnung",
+  "url": "https://www.aichwald.de/site/Aichwald-Responsive/get/params_E-1979812973/25343633/K2%20-%20Kindergartenordnung%20Stand%20September%202026%20-%20barrierefrei.pdf",
+  "retrieved_at": "2026-11-10T09:36:41.363069+00:00",
+  "http_status": 200,
+  "content_type": "application/pdf",
+  "final_url": "https://www.aichwald.de/site/Aichwald-Responsive/get/params_E-1979812973/25343633/K2%20-%20Kindergartenordnung%20Stand%20September%202026%20-%20barrierefrei.pdf",
+  "error": null,
+  "local_path": "data/sources/d9055ebd6801/document.pdf",
+  "sha256": "9592d8d9bec379b81d5c23e3ccb57a5f6ecda0348b27a1c37b8ea5198a5bf863"
+}

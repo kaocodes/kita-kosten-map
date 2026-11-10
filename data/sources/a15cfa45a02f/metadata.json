@@ -1,0 +1,13 @@
+{
+  "id": "a15cfa45a02f",
+  "municipality": "Benningen am Neckar",
+  "title": "Formulare Benningen",
+  "url": "https://www.benningen.de/de/rathaus/service/formulare-benningen",
+  "retrieved_at": "2026-11-10T09:37:25.408743+00:00",
+  "http_status": 200,
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://www.benningen.de/de/rathaus/service/formulare-benningen",
+  "error": null,
+  "local_path": "data/sources/a15cfa45a02f/document.html",
+  "sha256": "e2e80c46adde3b07d997c256676ceb96527e868a6a7a1ce3a7c33a0a7c315408"
+}

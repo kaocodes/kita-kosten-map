@@ -1,0 +1,13 @@
+{
+  "id": "7df0aea4e033",
+  "municipality": "Ehningen",
+  "title": "Offizielle Einstiegsquelle",
+  "url": "https://www.ehningen.de/de/familie-soziales/bildungs-und-betreuungslandschaft/kindertagesstaetten",
+  "retrieved_at": "2026-11-10T09:34:47.492019+00:00",
+  "http_status": 200,
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://www.ehningen.de/de/familie-soziales/bildungs-und-betreuungslandschaft/kindertagesstaetten",
+  "error": null,
+  "local_path": "data/sources/7df0aea4e033/document.html",
+  "sha256": "43d5a185c5671048acbbf05514362af261c6418e8637106cbb3d29a5028db578"
+}

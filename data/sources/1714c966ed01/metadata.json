@@ -1,0 +1,13 @@
+{
+  "id": "1714c966ed01",
+  "municipality": "Magstadt",
+  "title": "Offizielle Einstiegsquelle",
+  "url": "https://www.magstadt.de/fileadmin/Dateien/Cross7/Startseite/Infoboxen/Kita-Gebuhren-ab-9-2025.pdf",
+  "retrieved_at": "2026-11-10T09:34:53.220726+00:00",
+  "http_status": 200,
+  "content_type": "application/pdf",
+  "final_url": "https://www.magstadt.de/fileadmin/Dateien/Cross7/Startseite/Infoboxen/Kita-Gebuhren-ab-9-2025.pdf",
+  "error": null,
+  "local_path": "data/sources/1714c966ed01/document.pdf",
+  "sha256": "d587b202bbee78d1b28208a9c04c6097aeb6d9f6d4382215e4e47ef8c87b02bf"
+}

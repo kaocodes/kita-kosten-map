@@ -1,0 +1,13 @@
+{
+  "id": "44cdb8fc520a",
+  "municipality": "Tamm",
+  "title": "Offizielle Einstiegsquelle",
+  "url": "https://www.tamm.org/de/bildung-soziales/kindertages-einrichtungen/beitraege-und-oeffnungszeiten",
+  "retrieved_at": "2026-11-10T09:35:04.396179+00:00",
+  "http_status": 200,
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://www.tamm.org/de/bildung-soziales/kindertages-einrichtungen/beitraege-und-oeffnungszeiten",
+  "error": null,
+  "local_path": "data/sources/44cdb8fc520a/document.html",
+  "sha256": "17fea88fccf0ce9b2c8a70b9e8c987438c499f6c68d622d81938967c486cd421"
+}

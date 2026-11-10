@@ -1,0 +1,13 @@
+{
+  "id": "2137569db896",
+  "municipality": "Möglingen",
+  "title": "Offizielle Einstiegsquelle",
+  "url": "https://www.moeglingen.de/Kinderbetreuung",
+  "retrieved_at": "2026-11-10T09:34:54.069890+00:00",
+  "http_status": 200,
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://www.moeglingen.de/Kinderbetreuung",
+  "error": null,
+  "local_path": "data/sources/2137569db896/document.html",
+  "sha256": "decdf30863de6c774483730e64557eca4cc4cbebef07d9f5b0fb05a92fdbd40c"
+}

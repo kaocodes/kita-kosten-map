@@ -1,0 +1,13 @@
+{
+  "id": "c3d149e47221",
+  "municipality": "Freiberg am Neckar",
+  "title": "Offizielle Einstiegsquelle",
+  "url": "https://www.freiberg-an.de/de/bildung-betreuung-soziales/kinderbetreuung/gebuehren",
+  "retrieved_at": "2026-11-10T09:34:47.684076+00:00",
+  "http_status": 200,
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://www.freiberg-an.de/de/bildung-betreuung-soziales/kinderbetreuung/gebuehren",
+  "error": null,
+  "local_path": "data/sources/c3d149e47221/document.html",
+  "sha256": "17c34d76ae6540284ded4294e59d0b41f1ac35a41da2490fee7609fac6f65c8f"
+}

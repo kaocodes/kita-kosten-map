@@ -1,0 +1,13 @@
+{
+  "id": "88957ebd5b95",
+  "municipality": "Aichwald",
+  "title": "Offizielle Einstiegsquelle",
+  "url": "https://www.aichwald.de/kinderkrippen",
+  "retrieved_at": "2026-11-10T09:35:02.475398+00:00",
+  "http_status": 200,
+  "content_type": "text/html;charset=UTF-8",
+  "final_url": "https://www.aichwald.de/kinderkrippen",
+  "error": null,
+  "local_path": "data/sources/88957ebd5b95/document.html",
+  "sha256": "83658db772631fb749dedf6748233e439af4be8169a236e890d6bc99bfe97694"
+}

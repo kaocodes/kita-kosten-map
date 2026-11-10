@@ -1,0 +1,13 @@
+{
+  "id": "8376f4eef3da",
+  "municipality": "Benningen am Neckar",
+  "title": "Ergänzende offizielle Quelle",
+  "url": "https://www.benningen.de/de/leben/bildung/kindergaerten",
+  "retrieved_at": "2026-11-10T09:38:50.646324+00:00",
+  "http_status": 200,
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://www.benningen.de/de/leben/bildung/kindergaerten",
+  "error": null,
+  "local_path": "data/sources/8376f4eef3da/document.html",
+  "sha256": "5f38f7ab34da243a9f1eaff354984f12cf94b07cff3cd1118ee8d4ae434c3264"
+}

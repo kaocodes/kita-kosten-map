@@ -1,0 +1,13 @@
+{
+  "id": "9cb2d5d59c60",
+  "municipality": "Renningen",
+  "title": "Offizielle Einstiegsquelle",
+  "url": "https://www.renningen.de/renninger-in/familienportal/kinderbetreuung/informationen-service/gebuehren-und-satzungen/?sds=1",
+  "retrieved_at": "2026-11-10T09:35:03.049830+00:00",
+  "http_status": 200,
+  "content_type": "text/html;charset=UTF-8",
+  "final_url": "https://www.renningen.de/renninger-in/familienportal/kinderbetreuung/informationen-service/gebuehren-und-satzungen/?sds=1",
+  "error": null,
+  "local_path": "data/sources/9cb2d5d59c60/document.html",
+  "sha256": "df5cddb2b0ddd3479173dcfb8e94b40c7a33f0d1010dafe4c1cf363bfa2b2a52"
+}

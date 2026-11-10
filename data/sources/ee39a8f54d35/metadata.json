@@ -1,0 +1,13 @@
+{
+  "id": "ee39a8f54d35",
+  "municipality": "Grafenau",
+  "title": "Offizielle Einstiegsquelle",
+  "url": "https://www.gemeindegrafenau.de/leben-wohnen/kindertageseinrichtungen/verwaltung",
+  "retrieved_at": "2026-11-10T09:34:48.266243+00:00",
+  "http_status": 200,
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://www.gemeindegrafenau.de/leben-wohnen/kindertageseinrichtungen/verwaltung",
+  "error": null,
+  "local_path": "data/sources/ee39a8f54d35/document.html",
+  "sha256": "17aeb59046293dceedd729eb22c80b8735f973a0d7e36a5a4d8619ee1441af8d"
+}

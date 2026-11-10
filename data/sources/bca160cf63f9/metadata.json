@@ -1,0 +1,13 @@
+{
+  "id": "bca160cf63f9",
+  "municipality": "Eberdingen",
+  "title": "Offizielle Einstiegsquelle",
+  "url": "https://www.eberdingen.de/website/de/bildung/kindergaerten",
+  "retrieved_at": "2026-11-10T09:34:46.589454+00:00",
+  "http_status": 200,
+  "content_type": "text/html;charset=UTF-8",
+  "final_url": "https://www.eberdingen.de/website/de/bildung/kindergaerten",
+  "error": null,
+  "local_path": "data/sources/bca160cf63f9/document.html",
+  "sha256": "b80d09b39e644188a8a729a64bc6550d121784101b7da4520690d9bd2dd2e4b2"
+}

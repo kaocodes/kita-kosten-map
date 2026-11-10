@@ -1,0 +1,13 @@
+{
+  "id": "c4c07a416fe5",
+  "municipality": "Weissach",
+  "title": "Offizielle Einstiegsquelle",
+  "url": "https://www.kitas-weissach.de/infos-service/formulare-downloads",
+  "retrieved_at": "2026-11-10T09:35:19.322944+00:00",
+  "http_status": 200,
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://www.kitas-weissach.de/infos-service/formulare-downloads",
+  "error": null,
+  "local_path": "data/sources/c4c07a416fe5/document.html",
+  "sha256": "fff33085539d6347ca59356535f07e0df79715c50aefe6f9db90ec06a36c3639"
+}

@@ -1,0 +1,528 @@
+Kindergärten: Gemeinde Aidlingen
+Direkt
+zum Inhalt springen,
+zum Kontakt,
+zum Inhaltsverzeichnis,
+zur Barrierefreiheitserklärung,
+eine Barriere melden,
+Diese Website verwendet Cookies und/oder externe Dienste
+Um unsere Website für Sie optimal gestalten und fortlaufend verbessern zu können, würden wir gerne Cookies verwenden und/oder externe Daten laden. Durch Bestätigen des Buttons „Akzeptieren“ stimmen Sie der Verwendung aller Dienste zu. Über den Button „Mehr“ können Sie einzeln auswählen, welche Dienste Sie zulassen möchten. Sie können Ihre Zustimmung und Einwilligung jederzeit widerrufen.
+VerweigernAkzeptierenMehr
+ImpressumDatenschutzBarrierefreiheitBarriere melden
+Cookie-Banner
+Navigation einblenden
+Funktionell
+BITE GmbH
+Netze BW GmbH
+Essentiell
+Online-Formulare
+Medienbanner Wiedergabe oder Pausezustand
+Funktionell
+Diese Technologien ermöglichen es uns, die Nutzung der Website zu analysieren, um die Leistung zu messen und zu verbessern.
+BITE GmbHBITE GmbH
+Die BITE GmbH ist ein Full-Service-Anbieter innovativer Recruiting Software. Sowohl die Software-Entwicklung als auch die Datenhaltung finden exklusiv in Deutschland statt. Als einer der wenigen Anbieter für Bewerbermanagement Software sind wir ISO 27001 zertifiziert und erfüllen damit die höchsten Sicherheitsstandards. Unsere Produkte und Dienstleistungen entwickeln wir kontinuierlich weiter, um Ihren aktuellen und zukünftigen Ansprüchen und Bedürfnissen in vollem Umfang gerecht zu werden.
+Verarbeitungsunternehmen
+BITE GmbH
+Datenverarbeitungszwecke
+Diese Liste stellt die Zwecke der Datenerhebung und -verarbeitung dar. Eine Einwilligung gilt nur für die angegebenen Zwecke. Die gesammelten Daten können nicht für einen anderen als den unten aufgeführten Zweck verwendet oder gespeichert werden.
+Bei Ihrer Kontaktaufnahme mit uns über das Kontaktformular werden die von Ihnen mitgeteilten Daten von uns gespeichert, um Ihre Fragen zu beantworten, bzw. Ihr Anliegen zu bearbeiten. Die Rechtsgrundlage für die Verarbeitung der Daten ist Art. 6 Abs. 1 S. 1 lit. f DSGVO auf der Basis des berechtigten Interesses, Ihnen eine Möglichkeit zur unkomplizierten und elektronischen Kontaktaufnahme und Kommunikation zu geben. Die in diesem Zusammenhang anfallenden Daten löschen wir, nachdem die Speicherung nicht mehr erforderlich ist, oder schränken die Verarbeitung ein, falls gesetzliche Aufbewahrungspflichten bestehen.
+Neben der rein informatorischen Nutzung unserer Website bieten wir verschiedene Leistungen an, die Sie bei Interesse nutzen können. Dazu müssen Sie in der Regel weitere personenbezogene Daten angeben, die wir zur Erbringung der jeweiligen Leistung nutzen und für die die zuvor genannten Grundsätze zur Datenverarbeitung gelten.
+Einwilligungshinweis
+Bitte beachten Sie, dass bei Ihrer Einwilligung zu einem Dienst auch das Laden von externen Daten sowie die Weitergabe personenbezogener Daten an diesen Dienst erlaubt wird.
+Genutzte Technologien
+Bei der rein informativen Nutzung der Website, also wenn Sie sich nicht registrieren oder uns anderweitig Informationen übermitteln, erheben wir nur die personenbezogenen Daten, die Ihr Browser an unseren Server übermittelt. Wenn Sie unsere Website betrachten möchten, erheben wir die folgenden Daten, die für uns technisch erforderlich sind, um Ihnen unsere Website anzuzeigen und die Stabilität und Sicherheit zu gewährleisten:
+Erhobene Daten
+Diese Liste enthält alle (persönlichen) Daten, die von oder durch die Nutzung dieses Dienstes gesammelt werden.
+IP-Adresse
+Datum und Uhrzeit der Anfrage
+Inhalt der Anforderung (konkrete Seite)
+Zugriffsstatus/HTTP-Statuscode
+jeweils übertragene Datenmenge
+vom Browser übermittelter Referer
+vom Browser übermittelter User-Agent
+Rechtsgrundlage
+Im Folgenden wird die nach Art. 6 I 1 DSGVO geforderte Rechtsgrundlage für die Verarbeitung von personenbezogenen Daten genannt.
+Rechtsgrundlage für die Datenerhebung ist Art. 6 Abs. 1 S. 1 lit. f DSGVO. Zweck und berechtigtes Interesse sind die Sicherstellung der Stabilität, Funktionalität und Sicherheit unserer Website.
+Datenschutzbeauftragter der verarbeitenden Firma
+Nachfolgend finden Sie die E-Mail-Adresse des Datenschutzbeauftragten des verarbeitenden Unternehmens.
+Unseren Datenschutzbeauftragten erreichen Sie unter datenschutz@b-ite.de oder unserer Postadresse mit dem Zusatz „der Datenschutzbeauftragte“.
+Klicken Sie hier, um die Datenschutzbestimmungen des Datenverarbeiters zu lesen
+https://www.b-ite.de/legal-notice.html
+Netze BW GmbHNetze BW GmbH
+Mit dem NETZMonitor kann die Kommune Energiedaten und Störungsinformationen, die von der Netze BW GmbH bereitgestellt werden, auf ihrer kommunalen Website einbinden
+Verarbeitungsunternehmen
+Netze BW GmbH
+Datenverarbeitungszwecke
+Diese Liste stellt die Zwecke der Datenerhebung und -verarbeitung dar. Eine Einwilligung gilt nur für die angegebenen Zwecke. Die gesammelten Daten können nicht für einen anderen als den unten aufgeführten Zweck verwendet oder gespeichert werden.
+Bereitstellung von Energiedaten und Störungsinformationen für die Bürger*innen
+Einwilligungshinweis
+Bitte beachten Sie, dass bei Ihrer Einwilligung zu einem Dienst auch das Laden von externen Daten sowie die Weitergabe personenbezogener Daten an diesen Dienst erlaubt wird.
+Genutzte Technologien
+Bereitstellung einer Web Component, die über einen zweizeiligen HTML-Code im <body> der Seite eingebunden wird
+Ausführung von Scripten und iFrames muss zugelassen sein
+iFrames sind über sandbox Attributierung abgesichert
+Erhobene Daten
+Diese Liste enthält alle (persönlichen) Daten, die von oder durch die Nutzung dieses Dienstes gesammelt werden.
+IP-Adresse
+Datum und Uhrzeit der Anfrage (GMT)
+Inhalt der Anforderung (konkrete Seite)
+HTTP-Statuscode
+jeweils übertragene Datenmenge
+Webseite, die Sie besuchen
+Browserinformationen
+Betriebssystem und dessen Oberfläche
+Rechtsgrundlage
+Im Folgenden wird die nach Art. 6 I 1 DSGVO geforderte Rechtsgrundlage für die Verarbeitung von personenbezogenen Daten genannt.
+Die Erhebung und Verarbeitung dieser Daten erfolgt, um Ihnen die Webseite anzeigen zu können, die Stabilität zu gewährleisten und zu verbessern sowie aus Sicherheitsgründen. Die Rechtsgrundlage für diese Verarbeitung ist Art. 6 Abs. 1 f) DSGVO. Die Daten werden gelöscht, sobald sie für die zuvor genannten Zwecke nicht mehr erforderlich sind. Im Falle der Speicherung einer IP-Adresse erfolgt eine Löschung bzw. Anonymisierung nach spätestens 7 Tagen. Die Erhebung dieser Daten sowie die Speicherung der Daten in Logfiles ist für den Betrieb der Webseite zwingend erforderlich. Eine Widerspruchsmöglichkeit des Nutzers besteht daher nicht.
+Ort der Verarbeitung
+Europäische Union
+Aufbewahrungsdauer
+Die Aufbewahrungsfrist ist die Zeitspanne, in der die gesammelten Daten für die Verarbeitung gespeichert werden. Die Daten müssen gelöscht werden, sobald sie für die angegebenen Verarbeitungszwecke nicht mehr benötigt werden. Die Daten werden gelöscht, sobald sie nicht mehr für die Verarbeitungszwecke benötigt werden.
+Datenempfänger
+Netze BW GmbH
+IT-Dienstleister der Netze BW GmbH
+Datenschutzbeauftragter der verarbeitenden Firma
+Nachfolgend finden Sie die E-Mail-Adresse des Datenschutzbeauftragten des verarbeitenden Unternehmens.
+datenschutz@netze-bw.de
+Weitergabe an Drittländer
+Einige Services leiten die erfassten Daten an ein anderes Land weiter. Nachfolgend finden Sie eine Liste der Länder, in die die Daten übertragen werden. Dies kann für verschiedene Zwecke der Fall sein, z. B. zum Speichern oder Verarbeiten. Nein, keine Weitergabe außerhalb der Europäischen Union
+Klicken Sie hier, um die Datenschutzbestimmungen des Datenverarbeiters zu lesen
+https://www.netze-bw.de/datenschutz
+Essentiell
+Diese Technologien sind erforderlich, um die Kernfunktionalität der Website zu ermöglichen.
+Die Cookies mit dem Präfix hwdatenschutz_cookie_ werden verwendet, um Ihre Auswahl aller auswählbaren Cookies zu speichern. Die essentiellen Cookies werden automatisch auf 1 gesetzt, da sie notwendig sind, um sicherzustellen, dass die entsprechende Funktion bei Bedarf geladen wird.
+Das Cookie namens hwdatenschutz_cookie_approved speichert den aktuellen Zustimmungsstatus des Cookie-Banners. Sollte es ein Update der Website geben, das Aspekte der Cookies verändert, würde dies zu einer Versionsdiskrepanz im Cookie-Banner führen. Folglich werden Sie aufgefordert, Ihre Zustimmung zu überprüfen und erneut zu erteilen.
+Alle hwdatenschutz_cookie_ haben eine Bestandsdauer von einem Monat und laufen nach diesem Zeitraum ab.
+Bei jedem Dienst ist das entsprechende Cookie hwdatenschutz_cookie_ aufgeführt, um zu erkennen, welches Cookie welchen Dienst ermöglicht.
+Online-FormulareOnline-Formulare
+Ermöglicht die Bedienung von Online-Formularen.
+Verarbeitungsunternehmen
+Gemeinde Aidlingen
+Genutzte Technologien
+Cookies akzeptieren
+Erhobene Daten
+Diese Liste enthält alle (persönlichen) Daten, die von oder durch die Nutzung dieses Dienstes gesammelt werden.
+IP-Adresse
+Browser-Informationen
+Rechtsgrundlage
+Im Folgenden wird die nach Art. 6 I 1 DSGVO geforderte Rechtsgrundlage für die Verarbeitung von personenbezogenen Daten genannt.
+Art. 6 Abs. 1 s. 1 lit. e DSGVO
+Ort der Verarbeitung
+Europäische Union
+Aufbewahrungsdauer
+Die Aufbewahrungsfrist ist die Zeitspanne, in der die gesammelten Daten für die Verarbeitung gespeichert werden. Die Daten müssen gelöscht werden, sobald sie für die angegebenen Verarbeitungszwecke nicht mehr benötigt werden.
+Die Daten werden gelöscht, sobald die Sitzung beendet ist.
+Klicken Sie hier, um die Datenschutzbestimmungen des Datenverarbeiters zu lesen
+https://www.aidlingen.de/rathaus-service/impressum/datenschutzerklaerung
+Zugehörige Cookies
+Zu diesem Dienst gehören die folgenden Cookies:
+hwdatenschutz_cookie_powermail
+fe_typo_user
+Medienbanner Wiedergabe oder PausezustandMedienbanner Wiedergabe oder Pausezustand
+Dies ist ein technisches Cookie und dient dazu, Ihre Präferenz bezüglich der automatischen Wiedergabe von wechselnden Bildern oder Videos zu respektieren.
+Verarbeitungsunternehmen
+Gemeinde Aidlingen
+Genutzte Technologien
+Cookies akzeptieren
+Rechtsgrundlage
+Im Folgenden wird die nach Art. 6 I 1 DSGVO geforderte Rechtsgrundlage für die Verarbeitung von personenbezogenen Daten genannt.
+Art. 6 Abs. 1 s. 1 lit. e DSGVO
+Ort der Verarbeitung
+Europäische Union
+Aufbewahrungsdauer
+Die Aufbewahrungsfrist ist die Zeitspanne, in der die gesammelten Daten für die Verarbeitung gespeichert werden. Die Daten müssen gelöscht werden, sobald sie für die angegebenen Verarbeitungszwecke nicht mehr benötigt werden.
+Die Daten werden gelöscht, sobald die Sitzung beendet ist.
+Klicken Sie hier, um die Datenschutzbestimmungen des Datenverarbeiters zu lesen
+https://www.aidlingen.de/rathaus-service/impressum/datenschutzerklaerung
+Zugehörige Cookies
+Zu diesem Dienst gehören die folgenden Cookies:
+hwdatenschutz_cookie_imagebanner
+hwbanner_cookie_banner_playstate
+Keine markieren
+Speichern und schließen
+Alle markieren
+SuchbegriffSuche startenFilterKategorienFilter entfernenSuche schließen ZurückKeine weiteren Ergebnisse gefunden.Eingabe muss mindestens 3 Zeichen lang sein.Keine Treffer gefunden, bitte versuchen Sie einen anderen Suchbegriff oder Such-Kombination.
+Leichte SpracheGebärdenpracheInstagramFacebook
+Vorwort der Bürgermeisterin
+LebenslaufGrußwort
+Aidlingen
+Deufringen
+Dachtel
+Lehenweiler
+Wappen & Identität
+Das HeckengäuOrtsteile & Geschichte
+Ihr Weg nach Aidlingen
+Digitaler OrtsplanLage & Anfahrt
+Zahlen & Daten
+Der Start
+Entwicklung
+Fairtrade Familie, Vereine & Betriebe
+Fairtrade Partner & EinkaufsführerFairtrade Gemeinde
+Gemeindeentwicklungskonzept Aidlingen 2035
+LoKlim - Lokale Strategien zur KlimawandelanpassungZukunft in Aidlingen
+Gewerbestandort
+FirmenlisteGewerbe in AidlingenWillkommen in Aidlingen
+Aktuelles
+Aidlinger Nachrichten
+Öffentliche Bekanntmachungen
+Ausschreibungen
+WahlenAktuelles & Bekanntmachungen
+Stellenausschreibungen der Gemeinde
+Kontakt & Öffnungszeiten
+Ansprechpartner
+Bankverbindung der Gemeinde
+Anregung & KritikVerwaltung & Kontakt
+Dienstleistungen
+Lebenslagen
+Formulare
+Bürger GIS
+Schadensmeldung
+MietspiegelBürgerservice
+Gemeinderat & Ausschüsse
+Ortschaftsräte
+Parteien & politische VertreterPolitik & Gremien
+Ratsinformationssystem
+Satzungen & Gebühren
+Inhaltsverzeichnis
+Impressum
+Datenschutzerklärung
+Erklärung zur Barrierefreiheit
+Leichte Sprache
+Gebärdensprache
+NutzungsbedingungenImpressumRathaus & Service
+Ortskernsanierung
+Bauplatzvergabe und VermietungenBauen & Sanieren
+Abfallentsorgung
+Wasser-Strom-Gas
+Energiedaten & Störungsmelder
+SchornsteinfegerUmwelt & Versorgung
+Polizei
+FeuerwehrSicherheit & Ordnung
+Grundsteuer
+Steuern & Gebühren Übersicht
+BodenrichtwerteSteuern & Finanzen
+Vereine, Verbände, Organisationen und kirchliche Einrichtungen
+Backhäuser
+Bauhof
+Bürgerhäuser
+Ortsbücherei
+FriedhöfeEinrichtungen der Gemeinde
+Kindergärten
+Kindertagespflege
+Schulen
+Volkshochschule
+FERIA e.V.Betreuung & Bildung
+Ärzte & Apotheken
+Krankenhäuser
+DRK-Blutspendetermine
+Notrufe
+Soziale Fürsorge
+Barrierefreiheit in AidlingenPflege und Gesundheit
+Jugendcafe
+JugendreferatJugendLeben & Wohnen
+Veranstaltungskalender
+Veranstaltungen melden
+Naherholungsgebiet
+Freizeitangebote in der Gemeinde
+Erlebnistour
+Wandern & Radfahren im Heckengäu
+Sculptoura
+Öffentliche Parkplätze
+MärkteAktivitäten & Erholung
+Spiel- & Bolzplätze
+Sportanlagen
+Calisthenics-AnlageSpiel & Sport
+Heimatmuseum Dachtel
+Heimatmuseum HopfenhausMuseen
+Gastronomie
+Übernachtung
+Camping & WohnmobilstellplätzeGastronomie & ÜbernachtungFreizeit & TourismusSuche öffnen
+Suche
+SuchbegriffSuche startenFilterKategorienFilter entfernenSuche schließen ZurückKeine weiteren Ergebnisse gefunden.Eingabe muss mindestens 3 Zeichen lang sein.Keine Treffer gefunden, bitte versuchen Sie einen anderen Suchbegriff oder Such-Kombination.
+Startseite
+Betreuung, Bildung, GeborgenheitKontakt & Informationen
+Kinderbetreuung in Aidlingen
+Die Gemeinde Aidlingen ist im Bereich der Kinderbetreuung bestens aufgestellt. Hier zeigen wir Ihnen die vielfältigen Betreuungsmöglichkeiten in unserer Gemeinde.
+Die wichtigsten Informationen im Überblick
+Hier Microsoft Word Dokument166,89 KB finden Sie die Rahmenkonzeption 2026.
+Hier PDF-Dokument85,96 KB liegt der Ferienplan 2026 für Sie. Zum Ferienplan 2027 geht es hier entlang PDF-Dokument167,65 KB Microsoft Word Dokument72,02 KB.
+Kindergarten Sonnenschein
+Anschrift und allgemeine Infos zum Kindergarten Sonnenschein
+Kindergarten Sonnenschein
+Schönblickweg 4
+71134 Aidlingen
+Telefonnummer: 07034 125520
+E-Mail schreiben
+Ansprechpartnerin: Frau Jasmin Bestenreiner
+3 Gruppen (max. 75 Kinder)
+Über uns - Der Kindergarten Sonnenschein stellt sich vor
+Herzlich Willkommen im Kindergarten Sonnenschein!
+Der Kindergarten liegt am Ortsrand von Aidlingen in unmittelbarer Nähe zu den Wiesen, Feldern und Wäldern des Venusbergs, der höchsten Erhebung des Heckengäus. Dennoch ist der Kindergarten zu Fuß in wenigen Minuten vom Ortskern aus zu erreichen.
+Der Kindergarten hat drei Gruppenräume, in denen jeweils maximal 25 Kinder im Alter von drei Jahren bis zum Schuleintritt betreut werden, unsere Sonnenstrahlen-, die Sternschnuppen- und die Regenbogenkinder.
+In den Gruppenräumen finden sich verschiedene Spielbereiche. Es gibt eine Bauecke, in der aus unterschiedlichsten Materialien Landschaften mit einer Eisenbahntrasse, ein Zoo oder großartige Bauwerke entstehen können. Im Rollenspielbereich stehen Verkleidungsmaterial, eine Kinderküche, Puppen und Kuscheltiere bereit, die die Kleinen inspirieren, in die Rolle zu schlüpfen, die ihrem jeweiligen Interessen- und Entwicklungsstand entspricht. Wer es ein bisschen ruhiger haben möchte, kann sich auf das Lesesofa zurückziehen und Bilderbücher ansehen. Der Kreativbereich bietet Materialien wie verschiedene Papiere und Pappen, Knöpfe, Stoffe, Spitzen, Wachsfarben, Holzstifte und Kleister, mit denen kleine und große Kunstwerke angefertigt werden. Da die Kinder immer in die Gestaltung der Gruppenräume mit einbezogen werden, unterscheiden sich die drei Zimmer je nach aktuellem Interesse der Kinder und laufendem Projekt.
+Des Weiteren verfügt unser Haus über einen Sportraum, genannt „Ollibamba“, in dem regelmäßig Angebote zur Bewegungskoordination wie Klettern, Balancieren, Werfen und Fangen umgesetzt werden. Im „Bunten Klecks“ können an der Werkbank erste Erfahrungen mit Holz, Hammer und Nagel gesammelt werden oder es entsteht ein Wasserfarben-Kunstwerk an der Staffelei. Je nach Jahreszeit werden dort auch Eier gefärbt, Experimente mit Wasser, Licht, Luft oder einer Kerze durchgeführt oder ein Adventskranz gebunden.
+Unser Haus bietet verschiedene Buchungszeiten an. Für alle Kinder besteht den ganzen Vormittag über die Möglichkeit, jederzeit und selbstbestimmt, ganz nach dem individuellen Hungergefühl, in unserem Bistro das mitgebrachte Frühstück zu verzehren. Um die Mittagszeit bieten wir ein warmes Mittagessen an, oder die Kinder können ihr von zu Hause mitgebrachtes Vesper einnehmen. Am Nachmittag bekommen alle, die länger bleiben, einen Obst- und Gemüsesnack.
+Im großzügig gestalteten Außenbereich haben die Kinder Gelegenheit, auf der Spielstraße unterschiedliche Fahrzeuge kennenzulernen, sich im Garten Lager und Verstecke zu bauen, in der Nestschaukel zu entspannen, ihren Bewegungsdrang am Klettergerüst, den Reckstangen, an Wippe und Rutsche auszuleben oder im Sandkasten zu kochen oder Burgen zu bauen.
+Wir freuen uns, Sie und Ihr(e) Kind(er) kennenzulernen und sie ein Stück auf ihrem Lebensweg begleiten zu dürfen.
+Öffnungszeiten im Kindergarten Sonnenschein
+Öffnungszeitenvarianten:
+Öffnungszeiten: VÖ
+Montag bis Freitag: 07:30 Uhr bis 13:30 Uhr
+Zusatzbetreuung VÖ+
+Zusätzlich zu den verlängerten Öffnungszeiten 0,5 Stunden am Tag = 2,5 Stunden in der Woche
+Montag bis Freitag: 07:30 Uhr bis 14:00 Uhr
+Ganztagesbetreuung 8 Stunden (GT 8) mit/incl. Mittagessen
+Montag bis Freitag: 07:30 Uhr bis 15:30 Uhr
+Krippe Sonnenschein
+Anschrift und allgemeine Infos zur Krippe Sonnenschein
+Schönblickweg 2
+71134 Aidlingen
+Telefonnummer: 07034 125 530
+E-Mail schreiben
+Ansprechpartnerin: Julia Pfeil
+Über uns - Die Krippe Sonnenschein stellt sich vor
+Herzlich Willkommen in der Krippe Sonnenschein!
+Wir begrüßen Sie herzlich in unserer Kinderkrippe Sonnenschein, welche in Hanglage am Ortsrand von Aidlingen auf dem Sonnenberg liegt. Im Folgenden können Sie unsere Einrichtung näher kennenlernen.
+Das Haus liegt in der Nähe von Feldern und Wiesen, dem Bauernhof, dem Pferdehof und dem Kleintierzüchterverein. Auch die Ortsmitte mit ihren Einkaufsmöglichkeiten und dem Bach sind zu Fuß gut erreichbar. Mehrere Spielplätze sind ebenfalls in näherer Umgebung zu finden.
+Unsere Krippe besteht aus vier Gruppen, aufgeteilt auf zwei Stockwerke mit jeweils bis zu 10 Kindern im Alter von 1-3 Jahren. Wir arbeiten in unserer Einrichtung vorwiegend in Stammgruppen, das heißt jedes Kind ist einer festen Gruppe zugeordnet.
+In unserer Krippe bieten wir täglich für alle Kinder ein warmes Mittagessen an, welches gemeinsam gruppenintern eingenommen wird.
+In unseren Gruppenräumen, sowie den verschiedenen Funktionsräumen – Turnraum, Bewegungsraum, Kreativraum, Spielflur, sowie unserem weitläufigen Garten – haben wir den Platz und die Materialien, um die Kinder in ihrer Entwicklung zu fordern und zu fördern.
+Seit September 2023 tragen wir die Zertifizierung „Faire Kita“ mit der wir vom entwicklungspädagogischen Informationszentrum (EPiZ) Reutlingen ausgezeichnet wurden.
+Unsere Woche teilen wir auf in unterschiedliche Schwerpunkttage – Spieletag, Naturtag, Turntag, Händetag und der „Die Welt und ich“-Tag. So werden an den einzelnen Wochentagen die verschiedenen Entwicklungsbereiche der Kinder intensiv angesprochen und gefördert.
+Neben den Schwerpunkttagen legen wir viel Wert auf gemeinsame Erlebnisse und Erfahrungen in der Natur, vielfältige Bewegungsmöglichkeiten und -angebote, sowie lebensnahe Bildungssituationen, wie z.B. gemeinsames Einkaufen, Kochen und Backen, Bus fahren…
+Wir sehen es als unsere Aufgabe, Ihr Kind dort abzuholen, wo es gerade steht und es in seiner Entwicklung zu unterstützen. Wir freuen uns, Ihr Kind ein Stück auf seinem Lebensweg zu begleiten.
+Öffnungszeiten in der Krippe Sonnenschein
+Öffnungszeitenvarianten:
+Öffnungszeiten: VÖ mit Mittagessen
+Montag bis Freitag: 07:30 Uhr bis 13:30 Uhr
+Zusatzbetreuung VÖ+ mit Mittagessen
+Zusätzlich zu den verlängerten Öffnungszeiten 0,5 Stunden am Tag = 2,5 Stunden in der Woche
+Montag bis Freitag: 07:30 Uhr bis 14:00 Uhr
+Ganztagesbetreuung 8 Stunden (GT 8) mit/incl. Mittagessen
+Montag bis Freitag: 07:30 Uhr bis 15:30 Uhr
+Kindergarten Hinterhag
+Anschrift und allgemeine Infos zum Kindergarten Hinterhag
+Hinterhagstraße 37
+71134 Aidlingen
+Telefonnummer: 07034 125 510 (Kindergarten)
+E-Mail schreiben
+Ansprechpartnerin: Frau Natalia Kindsvater
+3 Kindergartengruppen (max. 60 Kinder)
+Über uns - Der Kindergarten Hinterhag stellt sich vor
+Herzlich Willkommen im Kindergarten Hinterhag!
+Das Kinderhaus Hinterhag befindet sich am Ortsrand von Aidlingen in einem gewachsenen Wohngebiet in unmittelbarer Nähe zur freien Natur.
+Unser Haus bietet auf zwei Stockwerken Platz für insgesamt 60 Kinder in drei Stammgruppen, die von 07:30 Uhr bis 14:00 Uhr betreut werden.
+Die Gruppenräume sind mit verschiedenen „Ecken“ ausgestattet, in denen sich die Kinder zum Rollenspiel treffen, gemeinsam bauen oder lesen.
+Im unteren Stock befindet sich der Baubereich auf einer Hochebene, die zugleich auch einen Rückzugsort für ungestörtes Spielen bietet. Darüber hinaus steht allen Kindern ein Atelier zum kreativen Gestalten zur Verfügung.
+In dem sehr weitläufigen Garten mit Rutschturm, Sandkästen, Fußballtor, Schaukeln, Balancier- und Turnstangen und vielen verschiedenen Fahrzeugen können die Kinder ihre motorischen Fähigkeiten erproben und im Spiel weiterentwickeln.
+Wir arbeiten nach dem Orientierungsplan mit einem teiloffenen Konzept. Hierbei wählen die Kinder eine große Zeit des Tages die Räumlichkeiten und Spielpartner selbst aus und bewegen sich hierbei frei im Haus.
+Die kontinuierliche Sprachförderung durch eine qualifizierte Fachkraft fördert den Spracherwerb und die Kommunikation der Kinder untereinander. Sprache ist eine zentrale Fähigkeit um uns zu verständigen, auszutauschen und Gefühle mitzuteilen. Singen verbindet, stärkt Körper und Geist, trainiert das Gehirn und macht uns allen ganz viel Freude. Da bei uns tägliches Singen und Musizieren im Tagesablauf ein fester Bestandteil ist, sind wir von der „Caruso-Stiftung“ zertifiziert.
+Wöchentlich gehen wir mit unseren Kindern am Bewegungstag in die Sporthalle oder in den nahegelegenen Wald. Hier können sie mit allen Sinnen auf Entdeckungsreise gehen und den Wald als schützenswerten Lebensraum kennenlernen. In unserem „Gärtle“ machen die Kinder ebenfalls wichtige Erfahrungen mit der Natur. Hier wird mit den Kindern gehackt, gesät und geerntet. Die kleinen Gärtner erleben das Wachsen ihrer Früchte mit großer Freude.
+Ein besonderes Highlight in unserem Kindergarten ist der regelmäßige Besuch einer zertifizierten Hundeführerin mit ihren zwei Hunden Tony und Mila. Sie vermittelt den Kindern auf spielerische Art den richtigen Umgang mit den Tieren. Bei vielen abwechslungsreichen Übungen wächst die Sicherheit der Kinder und die positive emotionale Wirkung der Hunde breitet sich auf alle Beteiligten aus.
+Jahreszeitliche und kulturelle Feste mit den Kindern und teilweise auch mit vielen Gästen bereichern das Kindergartenjahr und stärken das Zusammengehörigkeitsgefühl aller Familien.
+Die Entwicklung der uns anvertrauten Kinder dokumentieren wir über die gesamte Zeit in ihrem Portfolio.
+Wir freuen uns, die Kinder und ihre Familien auf dem Weg bis in die Schule begleiten zu können.
+Öffnungszeiten im Kindergarten Hinterhag
+Öffnungszeiten: VÖ
+Montag bis Freitag: 07:30 Uhr bis 13:30 Uhr
+Zusatzbetreuung VÖ+
+Zusätzlich zu den verlängerten Öffnungszeiten 0,5 Stunden am Tag = 2,5 Stunden in der Woche
+Montag bis Freitag: 07:30 Uhr bis 14:00 Uhr
+Kindergarten Im Winkele
+Anschrift und allgemeine Infos zum Kindergarten Winkele
+Im Winkele 6
+71134 Aidlingen
+Telefonnummer: 07034 125 540(Kindergarten)
+Telefonnummer: 07034 125 550 (Krippe)
+E-Mail schreiben
+Ansprechpartnerin: Frau Margit Hartmann
+2 Kindergartengruppen (max. 50 Kinder)
+1 Krippengruppe (max. 10 Kinder)
+Über uns - Der Kindergarten Im Winkele stellt sich vor
+Herzlich Willkommen in der Kita Winkele,
+wir sind eine Einrichtung mit 2 Kindergartengruppen mit jeweils 25 Kindern  (3-6 Jahre) und einer Krippengruppe (1-3 Jahre) mit maximal 10 Kindern.
+In unserer Kita gibt es verschiedene Spielecken und einen großen Garderobenbereich, den wir auch zum Spielen und Bewegen nutzen. Die Krippengruppe befindet sich im Untergeschoss der direkt angrenzenden Buchhalden Grundschule und hat viel Platz und gemütliche Räume zum Spielen, Essen und Schlafen.
+Wir sind gerne draußen mit den Kindern und spielen in unserem Garten oder machen uns auf Entdeckungsreise in den Wald, auf nahegelegene Spielplätze, besuchen die Enten am Bach oder entdecken andere spannende Ecken in und um Aidlingen.
+Die Schwerpunkte unserer Arbeit sind „Natur und Bewegung“, „Sprache“ und „soziale Kompetenzen“. Dazu bieten wir verschiedene Bildungssituationen und Aktionen an. So gibt es immer wieder Erlebnistage, an denen wir auch mal einen ganzen Vormittag auf Exkursion gehen. Wir singen gern, hören spannende Geschichten und haben dabei viel Spaß an unserer Sprache und der Kommunikation miteinander. Außerdem ist es uns wichtig, rücksichtsvoll und freundlich miteinander umzugehen und üben dies daher täglich im Alltag, bei Spielangeboten und Gesprächen.
+Wir als Team legen viel Wert auf den Austausch und die Erziehungspartnerschaft mit den Eltern. Dies pflegen wir durch regelmäßige Entwicklungsgespräche, bei Festen und Elternabenden und natürlich auch in kurzen Gesprächen während der Hol- und Bring-Zeit.
+Wir freuen uns, Sie und Ihr Kind ein Stück auf Ihrem Lebensweg zu begleiten.
+Öffnungszeiten im Kindergarten Winkele
+2 Kindergartengruppen (max. 50 Kinder):
+Öffnungszeiten: VÖ
+Montag bis Freitag: 07:30 Uhr bis 13:30 Uhr
+Zusatzbetreuung VÖ+
+Zusätzlich zu den verlängerten Öffnungszeiten 0,5 Stunden am Tag = 2,5 Stunden in der Woche
+Montag bis Freitag: 07:30 Uhr bis 14:00 Uhr
+1 Krippengruppe (max. 10 Kinder) mit Mittagessen
+Öffnungszeiten: VÖ
+Montag bis Freitag: 07:30 Uhr bis 13:30 Uhr
+Zusatzbetreuung VÖ+
+Zusätzlich zu den verlängerten Öffnungszeiten 0,5 Stunden am Tag = 2,5 Stunden in der Woche
+Montag bis Freitag: 07:30 Uhr bis 14:00 Uhr
+Kindergarten Am Schloss Deufringen
+Anschrift und allgemeine Infos zum Kindergarten Am Schloss Deufringen
+Schlosshof 16
+71134 Aidlingen
+Telefonnummer: 07034 125 580
+E-Mail schreiben
+Ansprechpartnerin: Frau Carolin Stiefelhagen
+3 Kindergartengruppen (max. 75 Kinder)
+Über uns - Der Kindergarten Am Schloss stellt sich vor
+Herzlich Willkommen im Kindergarten am Schloss!
+Der Kindergarten liegt zentral im Ortskern von Deufringen, einem Ortsteil der Gemeinde Aidlingen. Umgeben vom Schloss und der ev. Kirche bietet er einen geschützten Rahmen und ist doch für alle Einwohner gut erreichbar.
+Vom Kindergarten aus sind es nur wenige Schritte zu Bäcker, Metzger, Post…. Die Schule mit der angrenzenden Turnhalle ist ebenfalls schnell zu erreichen und zu Wald, Wiesen und Felder sind es nur wenige Gehminuten.
+Unsere Einrichtung besteht aus drei altersgemischten Kindergartengruppen (Schlossspatzen, Schlossfalken und Schlosseulen), in denen Kinder im Alter von 3 Jahren bis zum Schuleintritt betreut werden. In unseren Gruppen können wir jeweils 25 Kinder aufnehmen. Insgesamt können somit 75 Kinder im gesamten Kindergarten betreut werden.
+In unserem Haus wird teiloffen gearbeitet. Das bedeutet, dass die Kinder einerseits zu einer festen Stammgruppe gehören, jedoch auch in den anderen Gruppen spielen können.
+Außerdem können die Kinder…
+… an gruppenübergreifenden Angeboten teilnehmen.
+… sich regelmäßig gemeinsam im Vogeltreff treffen.
+… zusammen kochen und backen.
+…gemeinsam im Garten spielen
+Ein strukturierter Tagesablauf bietet den Kindergartenkindern Orientierung und Sicherheit. Feste Bestandteile hierbei sind das Freispiel, gezielte Angebote, sowie die Bewegung und das Spielen an der frischen Luft, welches den Kindern viel Freiraum zur körperlichen Betätigung und Sinneserfahrungen bietet.
+Wertschätzung, partnerschaftlicher Umgang, Hilfestellung bei Kontaktaufnahme, Konfliktbewältigung, Förderung der Sprachentwicklung und Erziehung zur Selbstständigkeit sind wichtige Inhalte und Ziele unserer pädagogischen Arbeit.
+Unsere Einrichtung hat täglich von 07:30 Uhr bis 13:30 Uhr regulär geöffnet. Die Betreuungszeit beträgt hier 6 Stunden pro Tag wobei die Möglichkeit der Zusatzbetreuung von 13:30 Uhr bis 14:00 Uhr besteht.
+Die individuellen Abholzeiten beginnen um 13:00 Uhr. Im 15 Minuten Takt (13:00 Uhr, 13:15 Uhr, 13:30 Uhr, 13:45 Uhr, 14:00 Uhr) können Sie Ihr Kind abholen.
+Unser Anliegen ist es, den Kindern im Kindergartenalltag einen Lebensraum zu schaffen, in dem sie sich wohl und geborgen fühlen.  Auf dieser sicheren Basis wollen wir die Kinder dabei begleiten ihre Lebenswelt zu erkunden und ihre Fähigkeiten weiter zu entwickeln.
+Öffnungszeiten im Kindergarten Am Schloss Deufringen
+Öffnungszeiten: VÖ
+Montag bis Freitag: 07:30 Uhr bis 13:30 Uhr
+Zusatzbetreuung VÖ+
+Zusätzlich zu den verlängerten Öffnungszeiten 0,5 Stunden am Tag = 2,5 Stunden in der Woche
+Montag bis Freitag: 07:30 Uhr bis 14:00 Uhr
+Kinderhaus Dachtel
+Anschrift und allgemeine Infos zum Kinderhaus Dachtel
+Vogelsangstraße 16
+71134 Aidlingen
+Kindergarten Telefonnummer: 07034 125 560
+Kinderkrippe Telefonnummer: 07034 125 570
+E-Mail schreiben
+Ansprechpartnerin: Frau Tina Wacker und Frau Susanne Pahl
+3 Kindergartengruppen,
+1 Kindergruppe
+Über uns - Das Kinderhaus Dachtel stellt sich vor
+Herzlich Willkommen im Kinderhaus Dachtel!
+Der Kindergarten Dachtel mit seinen 3 Kindergartengruppen (Ü3 Jahre) und einer Krippengruppe (U 3 Jahre) arbeitet nach dem Konzept „Offenes Haus – mit Stammgruppen“.
+Das Kind wird morgens von einer Erzieherin in Empfang genommen und beginnt seinen Tag im „Willkommenszimmer“ – ein Zimmer, in dem das Kind schon direkt nach dem Ankommen frühstücken kann. Von dort aus geht das Kind weiter, wohin es sein Interesse trägt.
+Unsere 3 großen Räume mit ihren kleineren Teilräumen sind in verschiedene Funktionsbereiche eingeteilt. Es gibt ein Willkommenszimmer – unser Frühstückszimmer, in dem auch Tischspiele gespielt oder auf dem Sofa ein Buch angeschaut werden kann. Auch Lege- und Fädel-Material steht den Kindern hier zur Verfügung. Im zweiten Zimmer lädt eine große Bauecke zum Bauen mit Holzklötzen, Eisenbahnschienen und Legos ein. Der kleine Nebenraum ist ein Bewegungsraum, hier darf es auch mal lauter sein und die Materialien (Holzbrücken, Riesenbausteine, Sprossenwand, Rollbretter u.v.m.) laden das Kind ein, seinen Körper auszuprobieren. Im 3. Raum können die Kinder ihrer Kreativität freien Lauf lassen und sich künstlerisch austoben. Malen, basteln, kleben, schneiden, kneten… Unser Atelier bietet vielerlei Möglichkeiten. Im angrenzenden Nebenraum steht den Kindern ein Rollenspielbereich zur Verfügung. Mit verschiedenen Alltagsmaterialien und Verkleidungsmöglichkeit können die Kinder hier in allerlei verschiedene Rollen schlüpfen und diese spielerisch, mit viel Spaß und Freude, ausleben.
+Die Kinder dürfen sich während der Freispielphase im gesamten Haus frei bewegen und sich je nach Interesse ihren Spielbereich selbst wählen. Die Erzieher/innen sind den Funktionsbereichen zugeteilt und begleiten, beobachten und unterstützen die Kinder in ihrem Tun. Das Kind begegnet im „Offenen Haus“ allen Kindern und kann entsprechend seine Freunde und Spielpartner sowie seine Spielbereiche individuell wählen und dabei nach seinen Interessen spielen und lernen. Dabei wird es von verschiedenen Erzieher/innen begleitet. Im „offenen Konzept“ entscheiden Kinder viele Dinge Ihres Kita-Alltags selbst.
+Jedes Kind hat trotzdem seine feste Stammgruppe, in der es bestimmte Rituale und Abläufe erleben kann. In der Stammgruppe findet das Mittagessen, gruppeninterne Aktivitäten z.B. der Morgenkreis, Geburtstage, jahreszeitliche Angebote und alles, was die Kinder an Themen interessiert und besprochen werden muss, statt. Auch unsere altershomogenen Aktivitäten finden hier 1-mal pro Woche statt. Wir nennen dieses Treffen „KLECKSI-Treff“. Es gibt „GELB-Klecksis“ – das sind unsere Großen, dann gibt es „Blau-Klecksis“, das sind die Mittleren und es gibt die „ROT + GRÜN-Kecksis“ , das sind unsere Jüngsten.  Die Erzieher/innen, die die Kinder in den Gruppen betreuen sind verantwortlich für die Begleitung der Kinder, deren Beobachtung und Dokumentation sowie für die Elternarbeit und damit verbundene Elterngespräche.
+Die Nachmittage beginnen mit dem Schlaf der jüngsten Ganztageskinder und der Mittagsruhe aller Ganztageskinder. Danach geht es aktiv weiter: Spielen drinnen- im Wunschzimmer der Kinder- und draußen in unserem großen Garten und natürlich gemeinsam mit den Krippenkindern.
+Ganz unter dem Motto „eine Kita für alle“ werden bei uns alle Kinder gemeinsam betreut: Diejenigen mit erhöhtem oder besonderem Förderbedarf, genauso wie alle anderen.
+Durch die Lage des Kinderhauses am Ortsrand von Dachtel, nahe Wiesen, Feld und Wald– liegt ein Schwerpunkt unserer Arbeit in der Natur. Regelmäßige Exkursionen in die nahe Umgebung,  ein Waldtag pro Woche und die Nutzung unseres großen Gartens ermöglichen den Kindern jede Menge Naturerfahrungen.
+Ein weiterer Schwerpunkt unseres Kinderhauses ist die körperliche Gesundheit durch viel Bewegung. In unserem Garten haben die Kinder genügend Auslauf und Möglichkeit sich an den verschiedenen Außenspielgeräten auszuprobieren. Unmittelbar neben dem Kindergarten ist ein großer öffentlicher Spielplatz, der die Kinder durch anspruchsvolle Klettergeräte herausfordert, auch hier sind wir immer wieder anzutreffen. Das Paul-Wirth-Bürgerhaus liegt ebenfalls nur wenige Schritte vor unserer Tür. In der großen Turnhalle des Bürgerhauses treiben die Kinder des gesamten Kinderhauses 1- mal pro Woche Sport.
+Zur körperlichen Gesundheit gehört im Kinderhaus Dachtel – besonders durch den Ganztagesbetrieb - auch die Ernährung. Nach den Regeln der DEG stellen wir unsere Speisepläne zusammen und unser Caterer beliefert uns mit einer Mischung aus konventionellen und Bio Lebensmitteln- unser Nachtisch besteht aus frischem Bio-Obst.
+Eine weitere Leidenschaft unseres Teams ist die Musik. Die Kinder haben dadurch die Möglichkeit einmal pro Woche an einer Rhythmik-Einheit teilzunehmen. Wir sind mit Instrumenten sehr gut ausgestattet und somit können die Kinder auch selbst Musik machen. Einige Erzieherinnen im Team spielen selbst Instrumente- besonders Gitarrenklänge sind bei den Kindern beliebt. Jeden Montagmorgen treffen wir uns alle im Flur des Kinderhauses und singen und musizieren gemeinsam. Gute Laune ist dabei garantiert!
+Wir, das Erzieher/innen-Team Dachtel, freuen uns darauf Sie und Ihr Kind bei uns begrüßen zu dürfen :-)
+Öffnungszeiten im Kinderhaus Dachtel
+3 Kindergartengruppen
+Öffnungszeiten: VÖ
+Montag bis Freitag: 07:30 Uhr bis 13:30 Uhr
+Zusatzbetreuung VÖ+
+Zusätzlich zu den verlängerten Öffnungszeiten 0,5 Stunden am Tag = 2,5 Stunden in der Woche
+Montag bis Freitag: 07:30 Uhr bis 14:00 Uhr
+Ganztagesbetreuung 8 Stunden (GT 8) mit/incl. Mittagessen
+Montag bis Freitag: 07:30 Uhr bis 15:30 Uhr
+1 Krippengruppe
+Öffnungszeiten: VÖ (mit Mittagessen)
+Montag bis Freitag: 07:30 Uhr bis 13:30 Uhr
+Zusatzbetreuung VÖ+ (mit Mittagessen)
+Zusätzlich zu den verlängerten Öffnungszeiten 0,5 Stunden am Tag = 2,5 Stunden in der Woche
+Montag bis Freitag: 07:30 Uhr bis 14:00 Uhr
+Ganztagesbetreuung 8 Stunden (GT 8) mit/incl. Mittagessen
+Montag bis Freitag: 07:30 Uhr bis 15:30 Uhr
+Kindergarten Lehenweiler
+Anschrift und allgemeine Infos zum Kindergarten Lehenweiler
+Schulstraße 14
+71134 Aidlingen
+Telefonnummer: 07034 125 590
+E-Mail schreiben
+Ansprechpartnerin: Frau Kathrin Langer
+1 Kindergartengruppe (max. 25 Kinder)
+Über uns - Der Kindergarten Lehenweiler stellt sich vor
+Herzlich Willkommen im Kindergarten Lehenweiler!
+Unser Kindergarten, im Teilort Lehenweiler, liegt in etwa 3,5 km entfernt von Aidlingen. Der ehemals als Schulgebäude gebaute Kindergarten liegt am Ortsrand in einer verkehrsberuhigten Sackgasse und ist von Wiesen, Wäldern und dem Naturschutzgebiete Venusberg umgeben. Bis zu insgesamt 25 Kinder im Alter von 3 Jahren bis zum Schuleintritt werden hier betreut. In der oberen Etage befindet sich der große lichtdurchflutete Gruppenraum, der in verschiedene Spielbereiche unterteilt ist. Angeregt durch den Ansatz, die Selbständigkeit zu unterstützen, wird der Raum nach den Bedürfnissen der Kinder liebevoll gestaltet.
+Im Erdgeschoß haben die Kinder die Möglichkeit, sich im Atelier kreativ zu betätigen oder sich bei vielseitigen Experimenten auch mal über den Tischrand hinaus zu erproben. Unser Bewegungsraum wird nicht nur für angeleitete Bewegungsaktivitäten, sondern auch im Freispiel gerne genutzt.
+Besonders gerne und viel nutzen wir unseren naturnahen sehr großzügigen Garten, der allerhand Möglichkeiten zum Erkunden und Bewegen bietet. Ob Tretfahrzeug fahren, klettern, im Sand matschen, im Steinbruch bauen, auf der Schaukel oder dem Karussell entspannen - all dies ist im Kindergarten Lehenweiler täglich möglich. Der Bezug zur Natur ist in der täglichen Arbeit fester Bestandteil und wird beispielsweise durch die Jahreszeiten für die Kinder auch sichtbar gemacht.
+Unser Tagesablauf ist flexibel gestaltbar, dennoch sind regelmäßige Abläufe und Rituale Teil des Alltags und vermitteln den Kindern Sicherheit. Zudem legen wir Wert darauf, mit unseren Projekten und Aktivitäten eine anregende Umgebung, nach den Inhalten des Orientierungsplans, zu schaffen.
+Die traumhafte Lage an das angrenzende Naturschutzgebiet Venusberg ermöglicht es uns viele Naturexkursionen zu unternehmen. Ein Natur-Erlebnistag ist fest in unserem Wochenplan integriert. Seit 2022 pflanzen die Kinder in Hochbeeten eigenes Obst und Gemüse an und auch unser Beeren-Naschgarten wird stetig erweitert.
+In drei Altersgruppen aufgeteilt, treffen sich einmal wöchentlich die Kinder in ihren Jahrgängen und erleben individuelle Projekte und Aktivitäten.
+Eine weitere Besonderheit sind Geburtstage: Diese werden bei uns individuell gefeiert. Aus einem Koch- und Backbuch wird vom Geburtstagskind etwas ausgesucht, die Eltern bringen die Zutaten mit und es wird vor Ort zubereitet und natürlich bei der anschließenden Feier verzehrt.
+Wir freuen uns sehr darauf, die Kinder und ihre Familien während ihrer Kindergartenzeit begleiten zu können.
+Öffnungszeiten im Kindergarten Lehenweiler
+Öffnungszeiten: VÖ
+Montag bis Freitag: 07:30 Uhr bis 13:30 Uhr
+Zusatzbetreuung VÖ+
+Zusätzlich zu den verlängerten Öffnungszeiten 0,5 Stunden am Tag = 2,5 Stunden in der Woche
+Montag bis Freitag: 07:30 Uhr bis 14:00 Uhr
+Waldkindergarten
+Allgemeine Infos zum Waldkindergarten
+Träger ist der Waldwichtel-Waldkindergarten e.V.
+Telefonnummer: 0157 37262130
+Kindergarten direkt, während den Öffnungszeiten Montag bis Freitag 08:00 Uhr bis 14:00 Uhr
+Telefonnummer: 0152 54016223 Geschäftsstelle
+E-Mail schreiben
+Zur Website
+Über uns - Der Waldkindergarten Waldwichtel stellt sich vor
+Herzlich Willkommen bei den Waldwichteln!
+Der Verein „Waldkindergarten Aidlingen e.V.“ betreibt seit 2000 in freier Trägerschaft den Kindergarten „die Waldwichtel“. Bei uns im Wald tummeln sich täglich 20 Kinder im Alter von 3-6 Jahren unter Betreuung von 3 Erzieher:innen.
+Wir sind ein Kindergarten, dem alles daran liegt, fröhliche, freie und sehr selbstständige Kinder in die Schule zu entlassen, die ein Verständnis für Zusam­menhänge in der Natur und im Alltag entwickeln durften. Durch die „Übersichtlichkeit" und Individuali­tät unseres Waldkindergartens können wir auch auf Kinder eingehen, die mehr Raum brauchen - gleichermaßen physisch wie psychisch.
+Unsere Erzieher:innen sind das Herz des Ganzen und unser gesamtes Team, bestehend aus Vorstand, Geschäftsstelle und Erzieher:innen, ist jeden Tag aufs Neue präsent und moti­viert, unsere Kinder zu begleiten. Letztlich ist bei den Waldwichteln ein Ort, an dem man sich zuhause fühlen kann - und das gilt für Kinder wie Eltern gleichermaßen!
+Eltern, Großeltern, Geschwister...sind immer willkommen. Wir alle gemeinsam machen unseren Kindergarten zu dem was er ist.
+Diese zwischenmenschlichen Beziehungen erfolgreich zu gestalten ist ohne die Fähigkeit zur Kommunikation schwer vorstellbar. Und ohne ein gemeinsames Miteinander, gemeinsames Tun, kann ein Kind seine Sprache nicht lernen.
+Die begrenzte Menge an vorgegebenem Spielzeug und Spielelementen in unserem Waldkindergarten, fordert die Kinder dazu auf miteinander zu sprechen, damit ein schönes, gemeinsames Spiel entstehen kann.
+Uns ist es wichtig, eine Umgebung zu schaffen, die jedes einzelne Kind darin unterstützt und anregt, seinen Potentialen Ausdruck geben zu können.
+Natürliches Leben und Erleben stehen bei uns im Vordergrund.
+Neben all diesen großen Zielen ist uns das ungestörte Spiel der Kinder während der Freispielzeit in Gruppen oder einzeln sehr wichtig. Denn in ihrer eigenen Welt fühlen die Kinder sich sicher und können sich ausprobieren.
+Dem Waldkindergarten ist es darüber hinaus ein großes Ziel den Kindern ein Hineinwachsen in die Natur zu ermöglichen, da sie unsere Lebensgrundlage bildet. Wir müssen verstehen, dass wir ohne sie nicht leben können.
+Wir freuen uns, gemeinsam mit ihren Kindern die Natur zu erforschen.
+Evangelischer Naturkindergarten Pusteblume
+Allgemeine Informationen zum Naturkindergarten Pusteblume
+Träger: Diakonissenmutterhaus Aidlingen e.V.
+Darmsheimer Steige 1
+71134 Aidlingen
+Telefonnummer: 07034 648119 (Telefonzeiten: 15:00 Uhr bis 17:30 Uhr)
+E-Mail schreiben
+Zur Website
+Ansprechpartnerin: Schwester Mara Kranz
+2 Gruppen mit insgesamt 25 Kindern von zwei bis sechs Jahren
+Über uns - Der Kindergarten Pusteblume stellt sich vor
+Herzlich Willkommen im Evangelischen Naturkindergarten Pusteblume!
+Unser herrlicher Bauwagenplatz auf dem Mutterhausgelände bietet den Kindern vielfältige Spiel- und Lernmöglichkeiten in der Natur: Im Sand entstehen Burgen und Gräben. In der Matschküche wird mit Töpfen und vielen Küchenutensilien gebacken oder Suppe gekocht. In der Erde werden Flüsse und Seen gebuddelt. Die Waldwerkbank motiviert zum Umgang mit Säge, Handbohrer und Schnitzmesser. Erdhügel werden erobert. Aus Baumstämmen, Ästen und Brettern werden Lägerle und Höhlen gebaut. Tische und Bänke laden zum Malen und Basteln ein. Täglich treffen wir uns vor dem gemeinsamen Vespern zum Morgenkreis, der mit Liedern, Spielen, Geschichten und Gebet gestaltet wird.
+Unsere beiden je 10m x 3m großen, mit Strom beheizten Bauwagen sind kindgerecht zum gemeinsamen Kreativ-Sein, Spielen, Bauen, Vorlesen oder Ausruhen eingerichtet. Während wir in der warmen Jahreszeit die ganze Zeit im Freien gestalten, sind wir in der kalten Jahreszeit die Hälfte der Zeit draußen und die andere Hälfte in unserer warmen Turnhalle. Unsere Turnhalle hat einen großen Bewegungsraum mit einer Kletterlandschaft mit Turngeräten von Pickler und Hengstenberg sowie ein großes Spielzimmer mit Bauteppich, Puppenecke, Lesesofa und Kreativbereich.
+Der Naturkindergarten ist für insgesamt 25 Kinder von 2 Jahren bis zum Schuleintritt konzipiert. Fünf Plätze sind für Zweijährige reserviert. Die Kinder werden in der Regel mit zwei Jahren, als "kleine Raupe" aufgenommen und verwandeln sich  mit vier Jahren in einen „Schmetterling“. Die zweijährigen Kinder werden den ganzen Kindergartentag über von ihrer festen Bezugserzieherin begleitet. Gleichzeitig erweitert sich der Rahmen der Kinder zunehmend, sie bauen von Woche zu Woche mehr Kontakt auch zu den anderen Erzieherinnen der Gruppe auf. Die Raupen spielen gerne auch mit den großen Schmetterlingen und lernen sehr viel von ihnen. Die Schmetterlinge wiederum genießen es, die Großen in der Gruppe zu sein, die den Raupen helfen können. Dies stärkt ihr Selbstwertgefühl und fördert die emotionale sowie die soziale Kompetenz der Kinder.
+Betreut wird die Gruppe nach dem für Naturkindergärten sehr guten Personalschlüssel des KVJS von drei Erzieherinnen und zwei Zusatzkräften. Dadurch können die Kinder individuell entsprechend ihrem jeweiligen Alter gefördert werden.
+Öffnungszeiten im Kindergarten Pusteblume
+Öffnungszeiten: VÖ
+Montag bis Freitag: 08:00 Uhr bis 14:00 Uhr
+Anmeldungen für die gemeindeeigenen Krippen und Kindergärten
+Hier können Sie die Anmeldungen für die gemeindeeigenen Krippen und Kindergärten vornehmen.
+Anmeldung in einer gemeindeeigenen Krippe
+Um ihr Kind in einer gemeindeeigenen Krippe anzumelden laden Sie sich bitte das aktuelle Anmeldeformular  PDF-Dokument182,26 KBherunter und schicken es an die angegebene Adresse. Mit der Anmeldung werden Sie auf unserer Warteliste geführt. Die Anmeldung kann erst erfolgen, wenn das Kind geboren wurde. Sofern Sie einen Arbeitgebernachweis zur Berufstätigkeit beifügen können, bzw die Aussicht auf einen beruflichen Wiedereinstieg bestätigen lassen, werden Sie bei der Vergabe priorisiert. Hierfür können Sie das Formular "Arbeitgebernachweis PDF-Dokument36,62 KB" nutzen, oder einen eigenen schriftlichen Nachweis erbringen. Dieser Nachweis sollte mit der Anmeldung an die Kindergartenverwaltung mitgesendet werden.
+Durch die hohe Nachfrage kann die Aufnahme zum Wunschtermin keinesfalls garantiert werden. Welcher Termin möglich ist, teilen wir Ihnen nach der Anmeldung mit. Die Gebühren ab 01.09.2026 sind in der Änderungssatzung PDF-Dokument383,40 KB zu finden. Unsere Kindergartensatzung PDF-Dokument324,33 KB wird noch entsprechend aktualisiert.
+Anmeldung in einen gemeindeeigenen Kindergarten
+Um ihr Kind in einem gemeindeeigenen Kindergarten anzumelden, laden Sie sich bitte das aktuelle Anmeldeformular Kindergarten PDF-Dokument1,41 MB herunter und schicken es an die angegebene Adresse.
+Anders als in der Krippe erfolgt die Anmeldung in den Kindergarten (3-6 Jahre) zentral. Sie erhalten vom Rathaus im März die nötigen Anmeldeunterlagen, die Sie dann nur noch ausfüllen und einwerfen müssen. Sofern Ihr Kind im laufenden Kitajahr 3 Jahre alt wird (zwischen September aktuelles Jahr und  August Folgejahr) und in Aidlingen gemeldet ist, erhalten Sie die Unterlagen automatisch postalisch zugeschickt.
+Sollten Ihnen keine Unterlagen bis April zugegangen, oder Sie zugezogen sein, wenden Sie sich bitte an Frau Breitling oder Frau Kühn vom Familienbüro. In solchen Fällen erhalten Sie die Unterlagen separat vom Rathaus.
+Das Anmeldeverfahren läuft bis mind. Mitte April und erst da werden die Plätze vergeben. Es kann also durchaus bis Mitte Mai dauern, bis alle Familien einen Platz haben und die Zusagen verschickt werden können. Wir bitten hier um Ihre Geduld.
+Die Gebühren ab 01.09.2026 sind in der Änderungssatzung PDF-Dokument383,40 KB zu finden. Unsere Kindergartensatzung PDF-Dokument324,33 KB wird noch entsprechend aktualisiert.Seite drucken
+Kindergartengesamtleitung
+Frau Tanja Breitling
+Hauptstraße 6 (Rathaus)
+71134 Aidlingen
+Telefonnummer: 07034 125 235
+Faxnummer: 07034 125 9235
+E-Mail schreiben​​​​​​​
+Standorte
+schließen
+Kontakt & ÖffnungszeitenGemeindeverwaltung Aidlingen
+Hauptstraße 6
+71134 AidlingenTelefonnummer07034 125 0Faxnummer07034 125 150E-Mail schreibenMontag: 08:30 Uhr bis 12:00 Uhr Dienstag: 08:30 Uhr bis 12:00 Uhr Mittwoch: geschlossen Donnerstag: 08:30 Uhr bis 12:00 Uhr und 14:00 Uhr bis 18:00 UhrFreitag: 08:30 Uhr bis 12:00 Uhr Weitere Termine nach Terminvereinbarung
+Kontaktformular
+Vorheriger LinkNächster Link
+Inhalt|
+Impressum|
+Datenschutz|
+Barrierefreiheit|
+Barriere melden|
+Cookiesmade by Logo der Hirsch & Wölfl GmbH
+{"solr":"\n\n\t\t\n\n\t\t\n\n\t\t\t\t\u003Cdiv id=\"c2216\" class=\"frame frame-default frame-type-list frame-layout-0 frame-hwsolr_search hw_frame hw_frame-default hw_frame-type-list hw_frame-layout-0 hw_frame-hwsolr_search\" data-header=\"false\" data-bodytext=\"false\" data-assets=\"false\"\u003E\n\n\t\t\t\t\t\n\n\t\t\t\t\t\n\n\t\t\t\t\t\n\t\t\t\t\t\t\n\n\n\n\t\t\t\t\t\n\n\t\t\t\t\t\n\t\t\t\t\t\t\n\n \n\n\n\n\t\t\t\t\t\n\n\t\t\t\t\t\n\n\t\t\t\t\t\n\n \n \u003C!--INT_SCRIPT.7108b342b3a7cd389c1a397006410b70--\u003E\n \n\n\n\n\t\t\t\t\t\n\t\t\t\t\t\t\n\n\n\n\t\t\t\t\t\n\n\t\t\t\t\t\n\t\t\t\t\t\t\n\n\n\n\t\t\t\t\t\n\n\t\t\t\t\t\n\n\n\n\n\t\t\t\t\u003C\/div\u003E\n\n\t\t\t\n\n\t\n"}

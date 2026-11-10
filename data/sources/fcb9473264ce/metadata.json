@@ -1,0 +1,13 @@
+{
+  "id": "fcb9473264ce",
+  "municipality": "Freiberg am Neckar",
+  "title": "Haushaltsnettoeinkommen Rückmeldebogen",
+  "url": "https://www.freiberg-an.de/fileadmin/Dateien/Dateien/Fachbereich_1/Kinderbetreuung/Haushaltsnettoeinkommen_Rueckmeldebogen_aktuell.pdf",
+  "retrieved_at": "2026-11-10T09:36:42.550830+00:00",
+  "http_status": 200,
+  "content_type": "application/pdf",
+  "final_url": "https://www.freiberg-an.de/fileadmin/Dateien/Dateien/Fachbereich_1/Kinderbetreuung/Haushaltsnettoeinkommen_Rueckmeldebogen_aktuell.pdf",
+  "error": null,
+  "local_path": "data/sources/fcb9473264ce/document.pdf",
+  "sha256": "84cba6d8b741238be02478af85ac085dc33efd6355278153b51e8dcea13ade7e"
+}

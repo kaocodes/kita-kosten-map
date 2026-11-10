@@ -1,0 +1,13 @@
+{
+  "id": "7ccd28aca579",
+  "municipality": "Rutesheim",
+  "title": "Offizielle Einstiegsquelle",
+  "url": "https://service.rutesheim.de/bi/vo0050.php?__kvonr=3928",
+  "retrieved_at": "2026-11-10T09:35:02.888907+00:00",
+  "http_status": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "final_url": "https://service.rutesheim.de/bi/vo0050.php?__kvonr=3928",
+  "error": null,
+  "local_path": "data/sources/7ccd28aca579/document.html",
+  "sha256": "7cae88ceddf340c41d325ababbea2d18ade324e679e4f553707c794851a1fd80"
+}

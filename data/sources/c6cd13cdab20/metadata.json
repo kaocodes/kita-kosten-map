@@ -1,0 +1,13 @@
+{
+  "id": "c6cd13cdab20",
+  "municipality": "Affalterbach",
+  "title": "Hier PDF-Dokument64,40 KB16.07.2026",
+  "url": "https://www.affalterbach-kita.de/fileadmin/Dateien/Ortsrecht/Satzung_ueber_die_Erhebung_von_Benutzungsgebuehren.PDF",
+  "retrieved_at": "2026-11-10T09:36:39.330602+00:00",
+  "http_status": 200,
+  "content_type": "application/pdf",
+  "final_url": "https://www.affalterbach-kita.de/fileadmin/Dateien/Ortsrecht/Satzung_ueber_die_Erhebung_von_Benutzungsgebuehren.PDF",
+  "error": null,
+  "local_path": "data/sources/c6cd13cdab20/document.pdf",
+  "sha256": "06609975d843a854b4b29c032f29e070088faee84d50521258ed8da9e70fdb13"
+}

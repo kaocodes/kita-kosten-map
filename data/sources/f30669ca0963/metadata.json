@@ -1,0 +1,13 @@
+{
+  "id": "f30669ca0963",
+  "municipality": "Magstadt",
+  "title": "Ergänzende offizielle Quelle",
+  "url": "https://www.magstadt.de/",
+  "retrieved_at": "2026-11-10T09:36:43.633439+00:00",
+  "http_status": 200,
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://www.magstadt.de/",
+  "error": null,
+  "local_path": "data/sources/f30669ca0963/document.html",
+  "sha256": "bc24ea58a57cef0ca6c4deb888e30fd99db034d6a30d6b8eb06a747e7e6daf6a"
+}

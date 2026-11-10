@@ -1,0 +1,13 @@
+{
+  "id": "f5d4fce7afeb",
+  "municipality": "Weissach",
+  "title": "Benutzungs- und Gebührensatzung über den Besuch der Kindertageseinrichtungen und der Schulkindbetreuung ab 01.09.2026 und 01.09.2027 (PDF-Dokument, 453,94 KB)",
+  "url": "https://www.kitas-weissach.de/fileadmin/Dateien/Dateien/Kinderbetreuung/Satzung_Kitas_Schulkind_2026_2027.pdf",
+  "retrieved_at": "2026-11-10T09:38:52.184188+00:00",
+  "http_status": 200,
+  "content_type": "application/pdf",
+  "final_url": "https://www.kitas-weissach.de/fileadmin/Dateien/Dateien/Kinderbetreuung/Satzung_Kitas_Schulkind_2026_2027.pdf",
+  "error": null,
+  "local_path": "data/sources/f5d4fce7afeb/document.pdf",
+  "sha256": "4ff89df2fe210e8d6c621e3219177fceffcade486ead24e4c512e3884ba8dc9f"
+}

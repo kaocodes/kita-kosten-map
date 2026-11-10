@@ -1,0 +1,13 @@
+{
+  "id": "eb4fe138090b",
+  "municipality": "Freiberg am Neckar",
+  "title": "Kleinkindbetreuung",
+  "url": "https://www.freiberg-an.de/de/bildung-betreuung-soziales/kinderbetreuung/kleinkindbetreuung",
+  "retrieved_at": "2026-11-10T09:46:29.471312+00:00",
+  "http_status": 200,
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://www.freiberg-an.de/de/bildung-betreuung-soziales/kinderbetreuung/kleinkindbetreuung",
+  "error": null,
+  "local_path": "data/sources/eb4fe138090b/document.html",
+  "sha256": "7939688beb5d55d2aef102a629774fd5b49b079035d5f3e4eabd8985b2c50616"
+}

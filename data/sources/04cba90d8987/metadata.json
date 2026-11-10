@@ -1,0 +1,13 @@
+{
+  "id": "04cba90d8987",
+  "municipality": "Erdmannhausen",
+  "title": "Ergänzende offizielle Quelle",
+  "url": "https://www.erdmannhausen.de/fileadmin/media/dokumente/Formulare/Anmeldung_Kindertageseinrichtung.pdf",
+  "retrieved_at": "2026-11-10T09:36:42.156298+00:00",
+  "http_status": 404,
+  "content_type": "text/html; charset=iso-8859-1",
+  "final_url": "https://www.erdmannhausen.de/fileadmin/media/dokumente/Formulare/Anmeldung_Kindertageseinrichtung.pdf",
+  "error": null,
+  "local_path": "data/sources/04cba90d8987/document.html",
+  "sha256": "9448f8a1159c9b14e3e1b9d8eab1a6ddf88d26e1f888a34cef430c756e4e6e1e"
+}

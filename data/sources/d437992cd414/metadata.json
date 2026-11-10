@@ -1,0 +1,13 @@
+{
+  "id": "d437992cd414",
+  "municipality": "Waiblingen",
+  "title": "Benutzungsordnung für Kindertageseinrichtungen",
+  "url": "https://www.waiblingen.de/ceasy/resource/?id=32437&download=1",
+  "retrieved_at": "2026-11-10T09:36:45.954796+00:00",
+  "http_status": 200,
+  "content_type": "application/pdf",
+  "final_url": "https://www.waiblingen.de/ceasy/resource/?id=32437&download=1",
+  "error": null,
+  "local_path": "data/sources/d437992cd414/document.pdf",
+  "sha256": "1e413e58422b83df940519fb094824527471d73546a7798b7ac032aa903de0aa"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "429aabea78ed",
+  "municipality": "Altbach",
+  "title": "Offizielle Einstiegsquelle",
+  "url": "https://www.altbach.de/fileadmin/Dateien/Cross7/Startseite/Leben_%26_Wohnen/Kinderbetreuung/Kindergartengebuhren/Gebuhren_fur_das_Kindergartenjahr_2024_2025_sowie_2025_2026.pdf",
+  "retrieved_at": "2026-11-10T09:34:45.853065+00:00",
+  "http_status": 200,
+  "content_type": "application/pdf",
+  "final_url": "https://www.altbach.de/fileadmin/Dateien/Cross7/Startseite/Leben_%26_Wohnen/Kinderbetreuung/Kindergartengebuhren/Gebuhren_fur_das_Kindergartenjahr_2024_2025_sowie_2025_2026.pdf",
+  "error": null,
+  "local_path": "data/sources/429aabea78ed/document.pdf",
+  "sha256": "d9d07ca14fe4b1b3993b1f918c65698ec12203c294d90453df03a5426d92337a"
+}

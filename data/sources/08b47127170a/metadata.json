@@ -1,0 +1,13 @@
+{
+  "id": "08b47127170a",
+  "municipality": "Denkendorf",
+  "title": "Elternbeiträge ab 01.09.2026 (PDF-Dokument)",
+  "url": "https://www.denkendorf.de/fileadmin/Dateien/Dateien/Kleinkindbetreuung/Elternbeitraege_fuer_die_Krippe_U3_ab_01092026.pdf",
+  "retrieved_at": "2026-11-10T09:39:40.886574+00:00",
+  "http_status": 200,
+  "content_type": "application/pdf",
+  "final_url": "https://www.denkendorf.de/fileadmin/Dateien/Dateien/Kleinkindbetreuung/Elternbeitraege_fuer_die_Krippe_U3_ab_01092026.pdf",
+  "error": null,
+  "local_path": "data/sources/08b47127170a/document.pdf",
+  "sha256": "d6581b5c871f63b4c737dca5daab99d4e7355dfdecf5597fadf081334d0d6ae3"
+}

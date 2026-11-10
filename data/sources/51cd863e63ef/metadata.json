@@ -1,0 +1,13 @@
+{
+  "id": "51cd863e63ef",
+  "municipality": "Aichwald",
+  "title": "Informationen (inkl. Gebühren)",
+  "url": "https://www.aichwald.de/site/Aichwald-Responsive/get/params_E571651650/20510713/Info_Anmeldung_Kindergarten_2026-2027_Stand%2009_2026.pdf",
+  "retrieved_at": "2026-11-10T09:36:40.643547+00:00",
+  "http_status": 200,
+  "content_type": "application/pdf",
+  "final_url": "https://www.aichwald.de/site/Aichwald-Responsive/get/params_E571651650/20510713/Info_Anmeldung_Kindergarten_2026-2027_Stand%2009_2026.pdf",
+  "error": null,
+  "local_path": "data/sources/51cd863e63ef/document.pdf",
+  "sha256": "c020b26403396632aeace6e17877dfa6ed48cbdc958f3ec015c3dc22ce447cb6"
+}

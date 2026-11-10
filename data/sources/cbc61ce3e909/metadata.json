@@ -1,0 +1,13 @@
+{
+  "id": "cbc61ce3e909",
+  "municipality": "Denkendorf",
+  "title": "Ergänzende offizielle Quelle",
+  "url": "https://www.denkendorf.de/leben-wohnen/kinderbetreuung/kleinkindbetreuung",
+  "retrieved_at": "2026-11-10T09:38:51.049794+00:00",
+  "http_status": 200,
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://www.denkendorf.de/leben-wohnen/kinderbetreuung/kleinkindbetreuung",
+  "error": null,
+  "local_path": "data/sources/cbc61ce3e909/document.html",
+  "sha256": "baf3f190946b2c256a5946445e06870d0fccd420a20e550889ff72ea20f2c2d2"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "b1a41a87c490",
+  "municipality": "Magstadt",
+  "title": "Kita-Gebühren ab 9.2026",
+  "url": "https://www.magstadt.de/fileadmin/Dateien/Cross7/Startseite/Infoboxen/Gebuhren-ab-9-2026.pdf",
+  "retrieved_at": "2026-11-10T09:38:51.880068+00:00",
+  "http_status": 200,
+  "content_type": "application/pdf",
+  "final_url": "https://www.magstadt.de/fileadmin/Dateien/Cross7/Startseite/Infoboxen/Gebuhren-ab-9-2026.pdf",
+  "error": null,
+  "local_path": "data/sources/b1a41a87c490/document.pdf",
+  "sha256": "b14369340cbe215015452f01c6351cc203208ce357a9e5ee3a5d9fb610674e52"
+}

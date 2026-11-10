@@ -1,0 +1,13 @@
+{
+  "id": "15f1df9d333e",
+  "municipality": "Schönaich",
+  "title": "Satzung über die Benutzung sowie die Erhebung von Betreuungsgebühren für die Kindertageseinrichtungen (\"Kita-Satzung\") (PDF-Dokument)",
+  "url": "https://www.schoenaich.de/fileadmin/Dateien/Website/B_-_Dateien/02_-_Rathaus_und_Service/Ortsrecht/Neue_Kita-Satzung_zum_01.09.2026.pdf",
+  "retrieved_at": "2026-11-10T09:36:45.467818+00:00",
+  "http_status": 200,
+  "content_type": "application/pdf",
+  "final_url": "https://www.schoenaich.de/fileadmin/Dateien/Website/B_-_Dateien/02_-_Rathaus_und_Service/Ortsrecht/Neue_Kita-Satzung_zum_01.09.2026.pdf",
+  "error": null,
+  "local_path": "data/sources/15f1df9d333e/document.pdf",
+  "sha256": "e61174980c95a524f11eafe752a11df9a1c3e428ba22d2110b43fa82a96594b9"
+}

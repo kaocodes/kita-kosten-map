@@ -1,0 +1,13 @@
+{
+  "id": "13a79648a821",
+  "municipality": "Möglingen",
+  "title": "Elternbeiträge für Kindertageseinrichtungen ab September 2026",
+  "url": "https://www.moeglingen.de/ceasy/resource/?id=5296&download=1",
+  "retrieved_at": "2026-11-10T09:36:43.865503+00:00",
+  "http_status": 200,
+  "content_type": "application/pdf",
+  "final_url": "https://www.moeglingen.de/ceasy/resource/?id=5296&download=1",
+  "error": null,
+  "local_path": "data/sources/13a79648a821/document.pdf",
+  "sha256": "47602428076007e7f7802a509126d2caf15a0496c11939d149e9dec90c4216df"
+}

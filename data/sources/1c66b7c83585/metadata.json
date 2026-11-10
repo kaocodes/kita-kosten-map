@@ -1,0 +1,13 @@
+{
+  "id": "1c66b7c83585",
+  "municipality": "Asperg",
+  "title": "Offizielle Einstiegsquelle",
+  "url": "https://www.asperg.de/rathaus-service/gemeinderat/stadtrecht",
+  "retrieved_at": "2026-11-10T09:34:46.125902+00:00",
+  "http_status": 200,
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://www.asperg.de/rathaus-service/gemeinderat/stadtrecht",
+  "error": null,
+  "local_path": "data/sources/1c66b7c83585/document.html",
+  "sha256": "eeab53b3f1a28367d9ef9e2c355fcee7b21d8a9df79d4e2901a07dd18e2b86e9"
+}

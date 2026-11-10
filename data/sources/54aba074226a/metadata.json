@@ -1,0 +1,13 @@
+{
+  "id": "54aba074226a",
+  "municipality": "Affalterbach",
+  "title": "Offizielle Einstiegsquelle",
+  "url": "https://www.affalterbach-kita.de/kitas-affalterbach/gebuehren",
+  "retrieved_at": "2026-11-10T09:34:46.299471+00:00",
+  "http_status": 200,
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://www.affalterbach-kita.de/kitas-affalterbach/gebuehren",
+  "error": null,
+  "local_path": "data/sources/54aba074226a/document.html",
+  "sha256": "ef5517a507401fbe74df0c1b9478209b87d04a7eec5a01dac9104797cf2c8c8f"
+}

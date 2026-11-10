@@ -1,0 +1,13 @@
+{
+  "id": "f6e6c3854643",
+  "municipality": "Magstadt",
+  "title": "Kindergartenbau",
+  "url": "https://www.magstadt.de/de/leben/kinder-jugend/kindertageseinrichtungen",
+  "retrieved_at": "2026-11-10T09:37:25.664481+00:00",
+  "http_status": 200,
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://www.magstadt.de/de/leben/kinder-jugend/kindertageseinrichtungen",
+  "error": null,
+  "local_path": "data/sources/f6e6c3854643/document.html",
+  "sha256": "7fa45629bf6bd1748b37dfd689f9acf2be9d80678eee785a18bedba4ece97182"
+}

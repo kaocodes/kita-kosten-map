@@ -1,0 +1,13 @@
+{
+  "id": "e81f520977e7",
+  "municipality": "Steinenbronn",
+  "title": "Offizielle Einstiegsquelle",
+  "url": "https://www.steinenbronn.de/leben-wohnen/kinder/kindertageseinrichtungen",
+  "retrieved_at": "2026-11-10T09:35:04.253154+00:00",
+  "http_status": 200,
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://www.steinenbronn.de/leben-wohnen/kinder/kindertageseinrichtungen",
+  "error": null,
+  "local_path": "data/sources/e81f520977e7/document.html",
+  "sha256": "9f8384bd40000a2174032e0150aff17f480df039fc257050ca66eab38a13ed61"
+}

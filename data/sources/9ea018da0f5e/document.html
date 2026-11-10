@@ -1,0 +1,271 @@
+<!DOCTYPE html SYSTEM "about:legacy-compat">
+<html lang="de"><head><META http-equiv="Content-Type" content="text/html; charset=utf-8"><title>Gemeinde Eberdingen - Formulare</title><meta content="index,follow" name="robots"><meta content="IE=edge" http-equiv="X-UA-Compatible"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0" name="viewport"><link type="image/x-icon" rel="icon" href="//www.eberdingen.de/favicon.ico"><link rel="shortcut icon" href="//www.eberdingen.de/favicon.ico"><link href="/cssmanager/styles_1a0f810a18c.css" type="text/css" rel="stylesheet"><!--[if lt IE 9]><script src="/central/js/jquery/jquery.min.js" type="text/javascript"></script><script type="text/javascript">
+					document.createElement('figure');
+					document.createElement('figcaption');
+				</script><![endif]--><!--[if gte IE 9]><!--><script src="/central/js/jquery2/jquery.min.js" type="text/javascript"></script><!--<![endif]--><script type="text/javascript"><!--
+			
+					var $j = jQuery, $window = $j(window), parallaxList = $j(), xtraTop = 0, isNaviExternal = false;
+					var isMobile = navigator.userAgent.match(/(iPhone|iPod|iPad|Android|playbook|silk|BlackBerry|BB10|Windows Phone|Tizen|Bada|webOS|IEMobile|Opera Mini)/);
+					
+					$j(document).ready(function(){
+					
+						
+							EcicsMenuParams = {firstLeft:3, firstTop:3, secTop:0, responsive: ($j(window).width() < 851), initDone: function() {
+								EcicsMenu.onShowMenu = function() { 
+									var me = $j("#nav-top .sover").parent();
+									if (me.length > 0)
+									{
+										var l = me.position().left;
+										var w = me.width();
+										
+										var ml = l;
+										//
+										me.parent().find("a.m1").css("margin-left", ml + "px").css("width", w + "px");
+									}
+								};
+							} };
+						
+
+						parallaxList = $j("div.layout-20-inner.is-photo.use-parallax");
+						if (parallaxList.length > 0) {
+							if (isMobile) parallaxList.css("backgroundAttachment", "scroll");
+							$window.on('scroll', updateParallax);
+							updateParallax();
+						}
+						
+						$j("#show-menu-link").click(function(event) {
+							event.preventDefault();
+							if ($j("body").toggleClass("menu-active").hasClass("menu-active")) {
+								
+								$j("#navi-helper").css("height", $j(document).height());
+							}
+						});
+					
+						$j(window).resize(debounce(myResizeFn, 500));
+						myResizeFn(); 
+						
+						$j("#navi-helper, #close-navi-box a").click(function(event) {
+							event.preventDefault();
+							$j("body").removeClass("menu-active");
+						});
+						
+						$j(window).on("scroll", throttle(myScrollNavFn, 100));
+
+					});
+					
+					function debounce(func, wait, immediate) {
+						var timeout;
+						return function() {
+							var context = this, args = arguments;
+							var later = function() {
+								timeout = null;
+								if (!immediate) func.apply(context, args);
+							};
+							var callNow = immediate && !timeout;
+							clearTimeout(timeout);
+							timeout = setTimeout(later, wait);
+							if (callNow) func.apply(context, args);
+						};
+					};
+					
+					function throttle(fn, threshold, scope) {
+						threshold || (threshold = 250);
+						var last, deferTimer;
+						
+						return function() {
+							var context = scope || this;
+							var now = +new Date, args = arguments;
+							
+							if (last && now < last + threshold) {
+								// Hold on to it
+								clearTimeout(deferTimer);
+								deferTimer = setTimeout(function() {
+									last = now;
+									fn.apply(context, args);
+								}, threshold);
+							} else {
+								last = now;
+								fn.apply(context, args);
+							}
+						};
+					};
+					
+					function myResizeFn() {
+						var w = $j(window).width();
+						
+						if (w < 851 && !window.isNaviExternal) {
+							$j("#nav-box").append($j("#navi-container"));
+							window.isNaviExternal = true;
+							if (typeof EcicsMenu !== "undefined")
+								EcicsMenu.setParam("responsive", true);
+						} else if (w > 850 && window.isNaviExternal) {
+							$j(".area-21-navi").first().append($j("#navi-container"));
+							window.isNaviExternal = false;
+							if (typeof EcicsMenu !== "undefined")
+								EcicsMenu.setParam("responsive", false);
+							$j("body").removeClass("menu-active");
+						}
+						
+						
+					};
+					
+					function myScrollNavFn() {
+						if ($j(this).scrollTop() > 100) {
+							$j("#main-header").addClass("fixed");
+						} else {
+							$j("#main-header").removeClass("fixed");
+						}
+					};
+					
+					function updateParallax() {
+						var pos = $window.scrollTop(),
+							windowHeight = $window.height(),
+							speedFactor = 0.1;
+						
+						parallaxList.each(function() {
+							var me = $j(this),
+								top = me.offset().top,
+								height = me.outerHeight(); 
+							
+							
+							if (top + height < pos || top > pos + windowHeight) {
+								return;
+							}
+							
+							if (isMobile) {
+								
+								var outerHeight = height; 
+								var outerWidth = me.outerWidth(false); 
+								var dynamicDifference = Math.min(Math.round( Math.max(outerHeight, outerWidth) * 0.15), 200);
+								var bgHeight = Math.max( Math.round(outerHeight + (dynamicDifference * 2)), Math.ceil(outerWidth*0.7) ); 
+								me.css('backgroundSize', "auto " + bgHeight + "px");
+								me.css('backgroundPosition', "center " + Math.round(((top - pos) * speedFactor) - dynamicDifference) + "px");
+							} else {
+								me.css('backgroundPosition', "center " + Math.round((top - pos) * speedFactor) + "px");
+							}
+						});
+					}
+					
+					
+					--></script><script async="true" src="/central/menu/menu5.js" type="text/javascript"></script><script src="/central/js/klik/standard4.js" type="text/javascript"></script><style type="text/css">
+					html { height:100%; }
+				</style></head><body class="pid_200" id="main"><div id="page_top"></div><div id="navi-helper"></div><div id="div-main"><div id="main-header"><div class="bg-box"><div id="header-top"><div id="header-helper"><p><a title="Zur Startseite zur&uuml;ckkehren" href="/">Gemeinde Eberdingen</a></p></div><div id="header-logo"><a title="Zur Startseite zur&uuml;ckkehren" id="logo_link" href="/"><picture><img alt="Logo" srcset="/system/getthumb/ecics/images/__tn2__logo_eberdingen_720_172.png 2x, /system/getthumb/ecics/images/__tn2__logo_eberdingen_1080_258.png 3x" src="/system/getthumb/ecics/images/__tn2__logo_eberdingen_360_86.png"></picture></a></div><div id="header-contact"><p><a href="/website/de/rathaus/verwaltung/aemter"><svg viewBox="0 0 135 135"><path d="M67.5 56.991c12.656 0 22.915-10.225 22.915-22.949 0-12.611-10.259-22.836-22.915-22.836-12.656 0-22.915 10.225-22.915 22.836 0 12.724 10.259 22.949 22.915 22.949M48.97 61.535c-27.494 0-27.494 27.494-27.494 27.494v25.676c0 9.089 9.157 9.089 9.157 9.089h73.722s9.169 0 9.169-9.089v-25.676s0-27.494-27.494-27.494c-13.747 0-9.169 25.222-18.53 25.222s-4.772-25.222-18.53-25.222"></path></svg>
+												Kontakt</a><a href="/website/de/suche"><svg viewBox="0 0 135 135"><path d="M90.848 98.024c-11.178 9.265-26.426 13.808-41.204 10.879-14.851-2.944-28.073-13.199-34.665-26.866-6.429-13.33-6.359-29.576.131-42.823 7.99-16.31 25.551-27.361 43.802-27.535h.633c18.177.173 35.816 11.229 43.803 27.535 6.501 13.271 6.559 29.495.131 42.823-1.161 2.406-2.531 4.698-4.083 6.856l23.749 23.803c2.744 2.863 1.993 8.201-1.638 10.009-2.326 1.159-5.321.638-7.21-1.18l-23.449-23.501zm-31.856-73.845c-16.781.16-32.395 12.962-35.662 29.431-2.371 11.948 1.704 24.992 10.496 33.471 10.166 9.806 26.22 12.968 39.434 7.472 11.677-4.857 20.457-16.155 22.212-28.674 2.173-15.51-6.847-31.983-21.192-38.47-4.789-2.166-10.015-3.247-15.288-3.23z"></path></svg>
+												Suche</a></p></div><div id="header-mobile"><a title="Men&uuml; einblenden" id="show-menu-link" href="#show-menu"><svg viewBox="0 0 32 32" height="24" width="24"><g><path d="M4 6h24v4h-24zM4 14h24v4h-24zM4 22h24v4h-24z"></path></g></svg><br><a style="margin-top: .4em; display: block;  " href="/website/de/suche"><svg height="24" width="24" viewBox="0 0 135 135"><path d="M90.848 98.024c-11.178 9.265-26.426 13.808-41.204 10.879-14.851-2.944-28.073-13.199-34.665-26.866-6.429-13.33-6.359-29.576.131-42.823 7.99-16.31 25.551-27.361 43.802-27.535h.633c18.177.173 35.816 11.229 43.803 27.535 6.501 13.271 6.559 29.495.131 42.823-1.161 2.406-2.531 4.698-4.083 6.856l23.749 23.803c2.744 2.863 1.993 8.201-1.638 10.009-2.326 1.159-5.321.638-7.21-1.18l-23.449-23.501zm-31.856-73.845c-16.781.16-32.395 12.962-35.662 29.431-2.371 11.948 1.704 24.992 10.496 33.471 10.166 9.806 26.22 12.968 39.434 7.472 11.677-4.857 20.457-16.155 22.212-28.674 2.173-15.51-6.847-31.983-21.192-38.47-4.789-2.166-10.015-3.247-15.288-3.23z"></path></svg></a></a></div></div></div><div id="header-navi"><ul id="nav-top" class="navi-popup-ul"><li id="mtli60" class="m-top
+												 submenu"><a href="/website/de/gemeinde">Gemeinde</a><div id="mt60" class="popup-box" data-is-first="1" data-load-page="60" data-has-position="true"><span class="empty"></span></div></li><li id="mtli61" class="m-top
+												 active submenu"><a href="/website/de/rathaus">Rathaus</a><div id="mt61" class="popup-box" data-is-first="1" data-load-page="61" data-has-position="true"><span class="empty"></span></div></li><li id="mtli62" class="m-top
+												 submenu"><a href="/website/de/bildung">Bildung</a><div id="mt62" class="popup-box" data-is-first="1" data-load-page="62" data-has-position="true"><span class="empty"></span></div></li><li id="mtli63" class="m-top
+												 submenu"><a href="/website/de/freizeit">Freizeit</a><div id="mt63" class="popup-box" data-is-first="1" data-load-page="63" data-has-position="true"><span class="empty"></span></div></li><li id="mtli75" class="m-top
+												 submenu"><a href="/website/de/leben">Leben</a><div id="mt75" class="popup-box" data-is-first="1" data-load-page="75" data-has-position="true"><span class="empty"></span></div></li></ul></div></div><div id="main-header-helper"></div><div id="main-img"><div id="img-inner-box"><div class="img-box-static"><img srcset="/system/getthumb/images/__tn4__ecics_4_4_400_73.jpg 400w, /system/getthumb/images/__tn4__ecics_4_4_800_145.jpg 800w, /system/getthumb/images/__tn4__ecics_4_4_1280_232.jpg 1280w, /system/getthumb/images/__tn4__ecics_4_4_1920_348.jpg 1920w" sizes="(min-width: 1280px) 1280px, 100vw" alt="" src="/system/getthumb/images/__tn4__ecics_4_4_1920_348.jpg"><div class="bg-helper"></div></div></div></div><div id="main-content">
+
+<div class="layout-21 main-inner"><div class="layout-21-inner clearfix mt-2 mb-2  "><div class="area-21-navi"><div id="navi-container"><ul class="menu mid-1" id="main_ul"><li class="menu m-item1 submenu m-sub_static1" id="mli60"><a class="m-allg m1" href="/website/de/gemeinde">Gemeinde<span class="has-sub"></span></a><ul class="menu_sub_ul" data-is-first="1" data-level="1" id="m60"><li class="empty"></li></ul></li><li class="menu m-item1 m-child1" id="mli61"><a class="m-allg m1" href="/website/de/rathaus">Rathaus</a><ul class="menu"><li class="menu m-item2 submenu m-sub_static2" id="mli113"><a class="m-allg m2" href="/website/de/rathaus/verwaltung">Verwaltung<span class="has-sub"></span></a><ul class="menu_sub_ul" data-is-first="1" data-level="2" id="m113"><li class="empty"></li></ul></li><li class="menu m-item2 submenu m-sub_static2" id="mli119"><a class="m-allg m2" href="/website/de/rathaus/gemeinderat">Gemeinderat<span class="has-sub"></span></a><ul class="menu_sub_ul" data-is-first="1" data-level="2" id="m119"><li class="empty"></li></ul></li><li class="menu m-item2" id="mli169"><a class="m-allg m2" href="/website/de/rathaus/bauhof">Bauhof</a></li><li class="menu m-item2" id="mli123"><a class="m-allg m2" href="/website/de/rathaus/mitteilungsblatt">Mitteilungsblatt</a></li><li class="menu m-item2 submenu m-sub_static2" id="mli115"><a class="m-allg m2" href="/website/de/rathaus/service">Service<span class="has-sub"></span></a><ul class="menu_sub_ul" data-is-first="1" data-level="2" id="m115"><li class="empty"></li></ul></li><li class="menu m-item2" id="mli129"><a class="m-allg m2" href="/website/de/rathaus/schadensmeldung">Schadensmeldung</a></li><li class="menu m-item2" id="mli117"><a class="m-allg m2" href="/website/de/rathaus/ortsrecht">Ortsrecht & Satzungen</a></li><li class="menu m-item2" id="mli424"><a class="m-allg m2" href="/website/de/rathaus/oeffentliche-bekanntmachungen">Öffentliche Bekanntmachungen</a></li><li class="menu m-item2" id="mli425"><a class="m-allg m2" href="/website/de/rathaus/pressemitteilungen">Pressemitteilungen</a></li><li class="menu m-item2 m-active2" id="mli200"><a class="m-allg m2" href="/website/de/rathaus/formulare">Formulare</a></li><li class="menu m-item2" id="mli118"><a class="m-allg m2" href="/website/de/rathaus/steuern-gebuehren">Steuern und Gebühren</a></li><li class="menu m-item2" id="mli116"><a class="m-allg m2" href="/website/de/rathaus/stellenangebote">Stellenangebote</a></li><li class="menu m-item2" id="mli287"><a class="m-allg m2" href="/website/de/rathaus/ausschreibungen">Ausschreibungen</a></li><li class="menu m-item2" id="mli370"><a class="m-allg m2" href="/website/de/rathaus/haushalt">Haushalt</a></li><li class="menu m-item2 m-last2" id="mli414"><a class="m-allg m2" href="/website/de/rathaus/wasserversorgung">Wasserversorgung</a></li></ul></li><li class="menu m-item1 submenu m-sub_static1" id="mli62"><a class="m-allg m1" href="/website/de/bildung">Bildung<span class="has-sub"></span></a><ul class="menu_sub_ul" data-is-first="1" data-level="1" id="m62"><li class="empty"></li></ul></li><li class="menu m-item1 submenu m-sub_static1" id="mli63"><a class="m-allg m1" href="/website/de/freizeit">Freizeit<span class="has-sub"></span></a><ul class="menu_sub_ul" data-is-first="1" data-level="1" id="m63"><li class="empty"></li></ul></li><li class="menu m-item1 m-last1 submenu m-sub_static1" id="mli75"><a class="m-allg m1" href="/website/de/leben">Leben<span class="has-sub"></span></a><ul class="menu_sub_ul" data-is-first="1" data-level="1" id="m75"><li class="empty"></li></ul></li></ul></div></div><div class="area-21-1 s3"><div class="layout-1 clearfix"><div class="area-1-1 s2"><h1 class="headline_1">Formu&shy;lare</h1></div><div class="area-1-2 s1"></div></div><div class="layout-3 clearfix"><div class="area-3-1 s1"><div class="bubble_box "><h3><span class="text-colored"><strong>Einwohner-</strong></span><span class="text-colored"><strong>meldeamt</strong></span></h3>
+<ul>
+<li><a href="https://www.fuehrungszeugnis.bund.de/">Antrag auf ein F&uuml;hrungszeugnis</a></li>
+<li><a href="/resources/ecics_2128.docx" target="_blank" rel="noopener">Anzeige Schankwirtschaft/ Speisewirtschaft</a></li>
+<li>-&gt; <a href="/resources/ecics_2129.pdf" target="_blank" rel="noopener">Hinweise zum Gastst&auml;tten</a><a href="/resources/ecics_2129.pdf" target="_blank" rel="noopener">recht</a></li>
+</ul>
+<ul>
+<li><a href="/resources/ecics_56.pdf" target="_blank" rel="noopener">Wohnungsgeberbest&auml;tigung</a></li>
+<li><a href="/resources/ecics_1536.pdf" target="_blank" rel="noopener">Erkl&auml;rung Staatsangeh&ouml;rigkeit</a></li>
+<li><a href="/resources/ecics_1700.pdf" target="_blank" rel="noopener">Zustimmungserkl&auml;rung Erziehungsberechtigte</a></li>
+<li><a href="/resources/ecics_1538.pdf" target="_blank" rel="noopener">Antrag auf Ausweispflichtbefreiung</a></li>
+<li><a href="/resources/ecics_1537.pdf" target="_blank" rel="noopener">Eintragung &Uuml;bermittlungssperre</a></li>
+<li><a href="/resources/ecics_1902.pdf" target="_blank" rel="noopener">Gewerbeanmeldung</a></li>
+<li><a href="/resources/ecics_1903.pdf" target="_blank" rel="noopener">Gewerbeummeldung</a></li>
+<li><a href="/resources/ecics_1904.pdf" target="_blank" rel="noopener">Gewerbeabmeldung</a></li>
+</ul></div><div class="bubble_box "><h3><strong><span class="text-colored">Friedhofsamt</span></strong></h3>
+<p><a href="/resources/ecics_2191.pdf" target="_blank" rel="noopener">Antrag zur Aufstellung eines Grabmals</a></p></div><div class="bubble_box "><h3><span class="text-colored"><strong>Hauptamt</strong></span></h3>
+<p><strong>Antr&auml;ge auf Sondernutzung:</strong></p>
+<ul>
+<li><a href="/resources/ecics_1873.pdf" target="_blank" rel="noopener">Antrag Bauvorhaben im &ouml;ffentl. Verkehrsraum</a></li>
+<li><a href="/resources/ecics_1874.pdf" target="_blank" rel="noopener">Antrag &ouml;ffentl. Veranstaltung</a></li>
+<li><a href="/resources/ecics_1875.pdf" target="_blank" rel="noopener">Antrag Werbeschilder an Ortseingangstafeln</a></li>
+<li><a href="/resources/ecics_1876.pdf" target="_blank" rel="noopener">Antrag Plakatierung &ouml;ffentl. Verkehrsraum</a></li>
+<li><a href="/resources/ecics_1877.pdf" target="_blank" rel="noopener">Antrag Sonstiges</a></li>
+<li><a href="/resources/ecics_1878.pdf" target="_blank" rel="noopener">Antrag Verkauf im &ouml;ffentl. Verkehrsraum</a></li>
+<li><a href="/resources/ecics_1879.pdf" target="_blank" rel="noopener">Antrag Beschilderung gewerbl. Betriebe/Einrichtungen</a></li>
+</ul>
+<p>&nbsp;</p></div></div><div class="area-3-2 s1"><div class="bubble_box "><h3><strong><span class="text-colored">KiGa und KiTa <br /></span></strong></h3>
+<p><strong><span class="text-colored">Nur "altes" System:</span></strong></p>
+<ul>
+<li><a href="/resources/ecics_2211.pdf" target="_blank" rel="noopener">Benutzungsordnung</a></li>
+<li><a href="/resources/ecics_2210.pdf" target="_blank" rel="noopener">Benutzungsentgelt</a></li>
+<li><a href="/resources/ecics_1583.pdf" target="_blank" rel="noopener">&Auml;nderungen innerhalb<br />der Familie</a></li>
+</ul>
+<p>&nbsp;</p>
+<p><strong><span class="text-colored">Nur "neues" System:</span></strong></p>
+<ul>
+<li><a href="/resources/ecics_2209.pdf" target="_blank" rel="noopener">Benutzungsordnung</a></li>
+<li><a href="/resources/ecics_2208.pdf" target="_blank" rel="noopener">Benutzungsentgelt</a></li>
+<li><a href="/resources/ecics_1641.pdf" target="_blank" rel="noopener">Begleitinformationen</a></li>
+</ul>
+<p>&nbsp;</p>
+<p><span class="text-colored"><strong>Beide Systeme</strong></span></p>
+<ul>
+<li><a href="/resources/ecics_1907.pdf" target="_blank" rel="noopener">Pers&ouml;nliche Angaben</a></li>
+<li><a href="/resources/ecics_1593.pdf" target="_blank" rel="noopener">Anlage 2</a><br /><a href="/resources/ecics_1593.pdf" target="_blank" rel="noopener">SEPA-Lastschrift</a></li>
+<li><a href="/resources/ecics_1600.pdf" target="_blank" rel="noopener">Anlage 4</a><br /><a href="/resources/ecics_1600.pdf" target="_blank" rel="noopener">Merkblatt/Belehrung</a><br /><a href="/resources/ecics_1600.pdf" target="_blank" rel="noopener">gem. &sect; 34 Abs. 5 S.2 ISchG</a></li>
+<li><a href="/resources/ecics_1596.pdf" target="_blank" rel="noopener">Anlage 5 </a><br /><a href="/resources/ecics_1596.pdf" target="_blank" rel="noopener">Einverst&auml;ndn. Abholung</a></li>
+<li><a href="/resources/ecics_1597.pdf" target="_blank" rel="noopener">Anlage 6</a><br /><a href="/resources/ecics_1597.pdf" target="_blank" rel="noopener">Einverst&auml;ndn. Ausfl&uuml;ge</a></li>
+<li><a href="/resources/ecics_1598.pdf" target="_blank" rel="noopener">Anlage 7</a><br /><a href="/resources/ecics_1598.pdf" target="_blank" rel="noopener">Einverst&auml;ndn. Nachhauseweg</a></li>
+<li><a href="/resources/ecics_1599.pdf" target="_blank" rel="noopener">Anlage 8</a><br /><a href="/resources/ecics_1599.pdf" target="_blank" rel="noopener">Unbedenklichkeitsbescheinig.</a></li>
+<li><a href="/resources/ecics_1613.pdf" target="_blank" rel="noopener">Anlage 9 </a><br /><a href="/resources/ecics_1613.pdf" target="_blank" rel="noopener">Anmelde- und Vergabekriterien</a></li>
+<li><a href="/resources/ecics_1945.pdf" target="_blank" rel="noopener">Anlage 9 - VK</a><br /><a href="/resources/ecics_1945.pdf" target="_blank" rel="noopener">(Fragebogen)</a></li>
+<li><a href="/resources/ecics_1609.pdf" target="_blank" rel="noopener">Anlage 10 </a><br /><a href="/resources/ecics_1609.pdf" target="_blank" rel="noopener">Datenschutz</a></li>
+</ul>
+<p>&nbsp;</p>
+<ul>
+<li><a href="/resources/ecics_1584.pdf" target="_blank" rel="noopener">Abmeldung</a></li>
+</ul>
+<p>&nbsp;</p>
+<ul>
+<li><a href="/resources/ecics_1727.pdf" target="_blank" rel="noopener">Arbeitgeberbescheinigung (Vorlage)</a></li>
+</ul></div></div><div class="area-3-3 s1"><div class="bubble_box "><h3><span class="text-colored"><strong>Schulkinder-betreuung</strong></span></h3>
+<p><strong><span class="text-colored">Nur "altes" System:</span></strong></p>
+<ul>
+<li><a href="/resources/ecics_2204.pdf" target="_blank" rel="noopener">Benutzungsordnung</a></li>
+<li><a href="/resources/ecics_2205.pdf" target="_blank" rel="noopener">Benutzungsentgelt</a></li>
+</ul>
+<p>&nbsp;</p>
+<p><strong><span class="text-colored">Nur "neues" System:</span></strong></p>
+<ul>
+<li><a href="/resources/ecics_2212.pdf" target="_blank" rel="noopener">Benutzungsordnung</a></li>
+<li><a href="/resources/ecics_2207.pdf" target="_blank" rel="noopener">Benutzungsentgelt</a></li>
+<li><a href="/resources/ecics_1604.pdf" target="_blank" rel="noopener">Anlage 2 </a><br /><a href="/resources/ecics_1604.pdf" target="_blank" rel="noopener">SEPA-Lastschrift</a></li>
+<li><a href="/resources/ecics_1605.pdf" target="_blank" rel="noopener">Anlage 3</a><br /><a href="/resources/ecics_1605.pdf" target="_blank" rel="noopener">Einverst&auml;ndn. Nachhauseweg</a></li>
+<li><a href="/resources/ecics_1603.pdf" target="_blank" rel="noopener">Anlage 4<br />Merkblatt/Belehrung<br />gem. 34 Abs. 5 S. 2 ISchG</a></li>
+<li><a href="/resources/ecics_1946.pdf" target="_blank" rel="noopener">Anlage 9 Anmelde- und Vergabekriterien</a></li>
+<li><a href="/resources/ecics_1945.pdf" target="_blank" rel="noopener">Anlage 9 - VK</a><br /><a href="/resources/ecics_1945.pdf" target="_blank" rel="noopener">(Fragebogen)</a></li>
+<li><a href="/resources/ecics_1880.pdf" target="_blank" rel="noopener">Einverst&auml;ndniserkl&auml;rung</a><br /><a href="/resources/ecics_1880.pdf" target="_blank" rel="noopener">zur Kooperation</a></li>
+<li><a href="/resources/ecics_1881.pdf" target="_blank" rel="noopener">Datenschutzrechtliche</a><br /><a href="/resources/ecics_1881.pdf" target="_blank" rel="noopener">Information</a></li>
+</ul>
+<p>&nbsp;</p>
+<ul>
+<li><a href="/resources/ecics_1727.pdf" target="_blank" rel="noopener">Arbeitgeberbescheinigung</a></li>
+</ul>
+<p>&nbsp;</p></div><div class="bubble_box "><h3><strong><span class="text-colored">Schadensmeldung</span></strong></h3>
+<ul>
+<li><a href="/website/de/rathaus/schadensmeldung">zum Online-Formular</a></li>
+</ul></div><div class="bubble_box "><h3><span class="text-colored"><strong>Steueramt </strong></span></h3>
+<ul>
+<li><a href="/resources/ecics_219.xlsx" target="_blank" rel="noopener">SEPA-Lastschriftmandat</a></li>
+<li><a href="/resources/ecics_1541.pdf" target="_blank" rel="noopener">Hundesteuer</a><br /><a href="/resources/ecics_1541.pdf" target="_blank" rel="noopener">An- und Abmeldung</a></li>
+<li><a href="/resources/ecics_1542.pdf" target="_blank" rel="noopener">Merkblatt Datenschutz</a><br /><a href="/resources/ecics_1542.pdf" target="_blank" rel="noopener">Grundverordnung</a></li>
+<li><a href="/resources/ecics_2223.pdf" target="_blank" rel="noopener">Zweitwohnungssteuererkl&auml;rung</a></li>
+</ul></div></div></div></div></div></div>
+
+</div><div id="main-scl"><a target="_blank" class="facebook" title="Bei Facebook teilen" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.eberdingen.de">teilen</a><a target="_blank" class="twitter" title="Bei Twitter teilen" href="https://twitter.com/intent/tweet?text=Gemeinde%20Eberdingen&amp;url=https%3A%2F%2Fwww.eberdingen.de">twitter</a></div><div id="main-footer"><div class="main-inner"><div id="footer-inner"><div class="clearfix" id="bottom-address"><div class="item ai1"><p><strong>Gemeinde Eberdingen<br>Stuttgarter Str. 34<br>71735 Eberdingen</strong><br><br><img alt="Wappen" src="/ecics/images/wappen.png" class="footer-wappen"></p></div><div class="item ai2"><p>Telefon: 07042 799-0<br>Telefax: 07042 799-466<br>E-Mail: <a href="mailto:buergermeisteramt@eberdingen.de">buergermeisteramt@eberdingen.de</a><br><br>&Ouml;ffnungszeiten:<br><table border="0" style="border-collapse: collapse; float: left;"><tbody><tr style="height: 23px;"><td style="width: 35px; height: 23px;">Mo</td><td style="width: 453px; height: 23px;">8.30-11.30 Uhr, 15.30-18.00 Uhr</td></tr><tr style="height: 23px;"><td style="width: 35px; height: 23px;">Di</td><td style="width: 453px; height: 23px;">8.30-11.30 Uhr</td></tr><tr style="height: 23px;"><td style="width: 35px; height: 23px;">Mi</td><td style="width: 453px; height: 23px;">geschlossen</td></tr><tr style="height: 23px;"><td style="width: 35px; height: 23px;">Do</td><td style="width: 453px; height: 23px;">8.30-11.30 Uhr</td></tr><tr style="height: 23px;"><td style="width: 35px; height: 23px;">Fr</td><td style="width: 453px; height: 23px;">8.30-11.30 Uhr</td></tr></tbody></table></p></div><div class="item ai3"><a class="link-up" href="#page_top"><svg viewBox="0 0 25 17" id="icon-angle"><path d="M24.76 12.73l-3.53 3.53-8.73-8.72-8.73 8.73-3.54-3.54 12.27-12.27 12.26 12.27z"></path></svg></a><p class="link-list"><a href="/website/de/dgs">Geb&auml;rdensprache</a><br><a href="/website/de/leichte-sprache">Leichte Sprache</a><br><a href="/website/de/barrierefreiheit">Erkl&auml;rung zur Barrierefreiheit</a><br><a href="/website/de/sitemap">Sitemap</a><br><a href="/website/de/impressum">Impressum</a><br><a href="/website/de/datenschutz">Datenschutz</a><br><a title="Melden Sie sich am System an" href="/system?action=user_login">Anmelden</a></p></div></div></div></div><img class="footer-bg" src="/ecics/images/bg_footer.svg"></div></div><div id="nav-box"><p id="close-navi-box"><a title="Men&uuml; ausblenden" href="#close-navi"><svg viewBox="0 0 32 32" height="24" width="24"><g><path fill="#000000" d="M28 6.526l-2.526-2.526-9.474 9.474-9.474-9.474-2.526 2.526 9.474 9.474-9.474 9.474 2.526 2.526 9.474-9.474 9.474 9.474 2.526-2.526-9.474-9.474 9.474-9.474z"></path></g></svg></a></p></div><script type="text/javascript">
+                        var _paq = _paq || [];
+                        _paq.push(['disableCookies']);
+                        _paq.push(['trackPageView']);
+                        _paq.push(['enableLinkTracking']);
+                        (function() {
+                            var u="/analytics/";
+                            _paq.push(['setTrackerUrl', u+'matomo.php']);
+                            
+                                _paq.push(['setSiteId', 255]);
+                            
+                            var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+                            g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+                        })();
+                    </script><noscript><p><img alt="" style="border:0" src="/analytics/matomo.php?idsite=255&amp;rec=1"></p></noscript></body></html>

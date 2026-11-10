@@ -1,0 +1,13 @@
+{
+  "id": "9290d9f1b98e",
+  "municipality": "Erdmannhausen",
+  "title": "Anmeldung Kindertageseinrichtung",
+  "url": "https://www.erdmannhausen.de/fileadmin/media/dokumente/Formulare/Unterlagen_Voranmeldung_Kindertageseinrichtung_ab_01.09.2026.pdf",
+  "retrieved_at": "2026-11-10T09:39:41.000021+00:00",
+  "http_status": 200,
+  "content_type": "application/pdf",
+  "final_url": "https://www.erdmannhausen.de/fileadmin/media/dokumente/Formulare/Unterlagen_Voranmeldung_Kindertageseinrichtung_ab_01.09.2026.pdf",
+  "error": null,
+  "local_path": "data/sources/9290d9f1b98e/document.pdf",
+  "sha256": "263485794e41c1ab585df5b97250e6bab9e206bc4cc2779f2a20c6c1014e5f11"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "3ffe1980c0fd",
+  "municipality": "Rutesheim",
+  "title": "Ergänzende offizielle Quelle",
+  "url": "https://www.rutesheim.de/site/Rutesheim-Internet-2021/get/params_E814195716/21552104/240819_Geb%C3%BChren%20Kindertagesst%C3%A4tten.pdf",
+  "retrieved_at": "2026-11-10T09:36:47.962325+00:00",
+  "http_status": 200,
+  "content_type": "application/pdf",
+  "final_url": "https://www.rutesheim.de/site/Rutesheim-Internet-2021/get/params_E814195716/21552104/240819_Geb%C3%BChren%20Kindertagesst%C3%A4tten.pdf",
+  "error": null,
+  "local_path": "data/sources/3ffe1980c0fd/document.pdf",
+  "sha256": "c839d3111352a5cb187bf54add8c60ce7b745d8e063a09930a73285ef0741faf"
+}

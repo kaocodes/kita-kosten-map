@@ -1,0 +1,13 @@
+{
+  "id": "08565d2926c2",
+  "municipality": "Steinenbronn",
+  "title": "Gebühren (PDF-Datei)",
+  "url": "https://www.steinenbronn.de/fileadmin/Dateien/Website/Dateien/Bekanntmachungen/2026_Anlage_1_Benutzungs-_und_Geb%C3%BChrensatzung_Kita.pdf",
+  "retrieved_at": "2026-11-10T09:36:45.638096+00:00",
+  "http_status": 200,
+  "content_type": "application/pdf",
+  "final_url": "https://www.steinenbronn.de/fileadmin/Dateien/Website/Dateien/Bekanntmachungen/2026_Anlage_1_Benutzungs-_und_Geb%C3%BChrensatzung_Kita.pdf",
+  "error": null,
+  "local_path": "data/sources/08565d2926c2/document.pdf",
+  "sha256": "5d5379d96df1a073f3b5a26be5d8ae141cc4fa448cd5232fa74d56e48c87dec0"
+}

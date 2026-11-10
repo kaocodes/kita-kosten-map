@@ -1,0 +1,13 @@
+{
+  "id": "3d882be4121f",
+  "municipality": "Waldenbuch",
+  "title": "Offizielle Einstiegsquelle",
+  "url": "https://www.waldenbuch.de/zielgruppen/start/kindergartengebuehren.html",
+  "retrieved_at": "2026-11-10T09:35:31.994317+00:00",
+  "http_status": 200,
+  "content_type": "text/html;charset=UTF-8",
+  "final_url": "https://www.waldenbuch.de/zielgruppen/start/kindergartengebuehren.html",
+  "error": null,
+  "local_path": "data/sources/3d882be4121f/document.html",
+  "sha256": "0511eab9f4b18dd439776bb7f4267df5ebc5ce254516b2f43baac50a1e50567b"
+}

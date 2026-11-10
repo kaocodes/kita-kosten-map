@@ -1,0 +1,13 @@
+{
+  "id": "b3ea33919f57",
+  "municipality": "Erdmannhausen",
+  "title": "Ergänzende offizielle Quelle",
+  "url": "https://erdmannhausen.ris-portal.de/ortsrecht",
+  "retrieved_at": "2026-11-10T09:38:51.823192+00:00",
+  "http_status": 200,
+  "content_type": "text/html;charset=UTF-8",
+  "final_url": "https://erdmannhausen.ris-portal.de/ortsrecht",
+  "error": null,
+  "local_path": "data/sources/b3ea33919f57/document.html",
+  "sha256": "e93d9fed0e0867674eb73e395c51bfa5f70fb3bc80561c048fb59b3cbdbcc6ee"
+}

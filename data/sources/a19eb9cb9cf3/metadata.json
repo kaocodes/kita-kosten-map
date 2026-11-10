@@ -1,0 +1,13 @@
+{
+  "id": "a19eb9cb9cf3",
+  "municipality": "Denkendorf",
+  "title": "Elternbeiträge ab 1.9.2026 (PDF-Dokument)",
+  "url": "https://www.denkendorf.de/fileadmin/Dateien/Dateien/Kindergarten/Elternbeitraege_fuer_den_Kindergarten_20262027.pdf",
+  "retrieved_at": "2026-11-10T09:36:41.509278+00:00",
+  "http_status": 200,
+  "content_type": "application/pdf",
+  "final_url": "https://www.denkendorf.de/fileadmin/Dateien/Dateien/Kindergarten/Elternbeitraege_fuer_den_Kindergarten_20262027.pdf",
+  "error": null,
+  "local_path": "data/sources/a19eb9cb9cf3/document.pdf",
+  "sha256": "ad4632599e68f0768b8c8af72fa62c2e9a7dfe041563abaf6ecf7dc6ddc507b6"
+}

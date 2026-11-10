@@ -1,0 +1,13 @@
+{
+  "id": "7fc33f1805ec",
+  "municipality": "Waldenbuch",
+  "title": "Nutzungssatzung der Kindertagesbetreuung",
+  "url": "https://www.waldenbuch.de/site/Waldenbuch-Internet/get/params_E-1477496338/25312667/Nutzungssatzung%20der%20Kindertagesbetreuung%2001.09.2026.pdf",
+  "retrieved_at": "2026-11-10T09:37:27.711776+00:00",
+  "http_status": 200,
+  "content_type": "application/pdf",
+  "final_url": "https://www.waldenbuch.de/site/Waldenbuch-Internet/get/params_E-1477496338/25312667/Nutzungssatzung%20der%20Kindertagesbetreuung%2001.09.2026.pdf",
+  "error": null,
+  "local_path": "data/sources/7fc33f1805ec/document.pdf",
+  "sha256": "2c38633802b9869ea3f973300a3e9c68b278c4d4f540af6b397477609b3b3dbf"
+}

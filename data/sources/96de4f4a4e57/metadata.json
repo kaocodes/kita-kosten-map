@@ -1,0 +1,13 @@
+{
+  "id": "96de4f4a4e57",
+  "municipality": "Eberdingen",
+  "title": "Ergänzende offizielle Quelle",
+  "url": "https://www.eberdingen.de/resources/ecics_1641.pdf",
+  "retrieved_at": "2026-11-10T09:38:51.260413+00:00",
+  "http_status": 200,
+  "content_type": "application/pdf",
+  "final_url": "https://www.eberdingen.de/resources/ecics_1641.pdf",
+  "error": null,
+  "local_path": "data/sources/96de4f4a4e57/document.pdf",
+  "sha256": "e2ad28c6255a33ffbe8c164a8d8ad86559dd54b43984060eb330d03ce03f6456"
+}

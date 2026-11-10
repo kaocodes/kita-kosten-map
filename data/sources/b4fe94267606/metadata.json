@@ -1,0 +1,13 @@
+{
+  "id": "b4fe94267606",
+  "municipality": "Plochingen",
+  "title": "Kindergartengebühren 2027/2028 (PDF / 143.4 KiB)",
+  "url": "https://www.plochingen.de/site/Plochingen-Layout-2019/get/params_E-1056470380/25451070/Kindergartengeb%C3%BChren%202027%202028%20ab%2001.09.2027.pdf",
+  "retrieved_at": "2026-11-10T09:36:48.153462+00:00",
+  "http_status": 200,
+  "content_type": "application/pdf",
+  "final_url": "https://www.plochingen.de/site/Plochingen-Layout-2019/get/params_E-1056470380/25451070/Kindergartengeb%C3%BChren%202027%202028%20ab%2001.09.2027.pdf",
+  "error": null,
+  "local_path": "data/sources/b4fe94267606/document.pdf",
+  "sha256": "9df94c8bb6fa462aec365b3c6eedb4567168cc02a944bf6ad420f9e66f8211bf"
+}

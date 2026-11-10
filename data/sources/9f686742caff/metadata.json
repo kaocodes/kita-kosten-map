@@ -1,0 +1,13 @@
+{
+  "id": "9f686742caff",
+  "municipality": "Freiberg am Neckar",
+  "title": "Haushaltsnettoeinkommen Berechnungshilfe",
+  "url": "https://www.freiberg-an.de/fileadmin/Dateien/Dateien/Fachbereich_1/Kinderbetreuung/Haushaltsnettoeinkommen_Berechnungshilfe_aktuell.pdf",
+  "retrieved_at": "2026-11-10T09:36:42.896154+00:00",
+  "http_status": 200,
+  "content_type": "application/pdf",
+  "final_url": "https://www.freiberg-an.de/fileadmin/Dateien/Dateien/Fachbereich_1/Kinderbetreuung/Haushaltsnettoeinkommen_Berechnungshilfe_aktuell.pdf",
+  "error": null,
+  "local_path": "data/sources/9f686742caff/document.pdf",
+  "sha256": "863c565afeb4f29918fb25e68e199014cb0ac43fef1a19df355cdc7f636e0f50"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "57501eb67d3f",
+  "municipality": "Eberdingen",
+  "title": "Kindergartenbenutzungsordnung (altes System)",
+  "url": "https://www.eberdingen.de/resources/ecics_2213.pdf",
+  "retrieved_at": "2026-11-10T09:39:41.054468+00:00",
+  "http_status": 200,
+  "content_type": "application/pdf",
+  "final_url": "https://www.eberdingen.de/resources/ecics_2213.pdf",
+  "error": null,
+  "local_path": "data/sources/57501eb67d3f/document.pdf",
+  "sha256": "acbe35dde8f3442d4ff538319cebab043a6ac6620c8f0747787bfc0c5e054743"
+}

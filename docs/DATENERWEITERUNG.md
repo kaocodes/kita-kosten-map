@@ -1,12 +1,12 @@
 # Mögliche Datenerweiterung nach Stabilisierung der Website
 
-**Stand:** 8. November 2026
+**Stand:** 10. November 2026
 
-**Status:** Für die nächste mögliche Erweiterung vorgemerkt; Umsetzung zurückgestellt bis zum Abschluss der Stabilisierung und vollständigen UI/UX-Prüfung.
+**Status:** Quellenrecherche und Bewertung der 33 Kandidaten auf ausdrücklichen Nutzerwunsch vorgezogen. Ergebnisse und verbleibende Lücken stehen in der [Erweiterungsrecherche](ERWEITERUNGSRECHERCHE.md). Noch keine Aktivierung auf der Website und keine Übertragung in die kanonischen Tarifkataloge.
 
 ## Voraussetzung und Reihenfolge
 
-Die Website mit den bestehenden zwölf Vergleichskommunen hat Vorrang. Weitere Kommunen werden erst aufgenommen, wenn die Website stabil läuft und die vollständige UI/UX-Prüfung abgeschlossen und dokumentiert ist. Die bisherigen automatisierten Tests und punktuellen Browserprüfungen bedeuten noch keine vollständige UI/UX-Abnahme.
+Am 10. November 2026 wurde ausdrücklich beauftragt, die Daten der direkten Nachbarn zu recherchieren, zu sichern und auf Belastbarkeit zu bewerten. Diese Recherche wurde vorgezogen. Die Aufnahme neuer Kommunen in die öffentliche Website bleibt von der Datenfreigabe sowie der Stabilisierung und dokumentierten UI/UX-Prüfung abhängig. Die bisherigen automatisierten Tests und punktuellen Browserprüfungen bedeuten noch keine vollständige UI/UX-Abnahme.
 
 Die Prüfung umfasst insbesondere Modellkonfiguration und Zurücksetzen, Karten- und Listenauswahl, Familien- und Einzelbeiträge, Quellen, Nullbeträge sowie fehlende und unvollständige Ergebnisse. Desktop, Mobilansicht und Tastaturbedienung sind einzubeziehen. Vor der Gebietserweiterung sind offene blockierende Fehler zu beheben und die geltenden technischen Prüfungen erfolgreich abzuschließen.
 
@@ -18,7 +18,7 @@ Die 33 Kandidaten haben jeweils eine gemeinsame Grenzlinie mit mindestens einer 
 
 Die Nachbarschaft wurde über gemeinsam genutzte Grenzabschnitte bestimmt; reine Punktberührungen zählen nicht als gemeinsame Grenzlinie. Die Zuordnung erfolgt über den amtlichen Gemeindeschlüssel (AGS). Alle Grenzen der zwölf Ausgangskommunen haben im verwendeten Geodatenausschnitt einen zugeordneten Nachbarn.
 
-Die bereits auf der Karte vorhandenen Flächen sind der geografische Ausgangspunkt. Für diese vorgemerkte Erweiterung sind Tarif- und Quellenrecherche noch nicht begonnen; die Kandidaten werden durch dieses Dokument nicht als aktive Vergleichskommunen registriert. Bei Aufnahme aller Kandidaten würde der Vergleich von zwölf auf 45 Kommunen wachsen.
+Die bereits auf der Karte vorhandenen Flächen sind der geografische Ausgangspunkt. Tarif- und Quellenrecherche sind nun dokumentiert; die Kandidaten sind weiterhin keine aktiven Vergleichskommunen. Bei Aufnahme aller Kandidaten würde der Vergleich von zwölf auf 45 Kommunen wachsen.
 
 ## Kandidaten
 

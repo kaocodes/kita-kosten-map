@@ -1,0 +1,11 @@
+{
+  "id": "c704abd5081a",
+  "municipality": "Filderstadt",
+  "title": "Offizielle Einstiegsquelle",
+  "url": "https://www.filderstadt.de/home/bildung/Anmeldung%2BKinderbetreuung.html",
+  "retrieved_at": "2026-11-10T09:35:22.246821+00:00",
+  "http_status": 0,
+  "content_type": "",
+  "final_url": "https://www.filderstadt.de/home/bildung/Anmeldung%2BKinderbetreuung.html",
+  "error": "curl: (28) Operation timed out after 35002 milliseconds with 0 bytes received"
+}

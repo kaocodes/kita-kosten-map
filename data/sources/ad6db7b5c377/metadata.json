@@ -1,0 +1,13 @@
+{
+  "id": "ad6db7b5c377",
+  "municipality": "Remseck am Neckar",
+  "title": "Offizielle Einstiegsquelle",
+  "url": "https://nhkita.remseck.de/uebersicht.html",
+  "retrieved_at": "2026-11-10T09:35:01.999787+00:00",
+  "http_status": 200,
+  "content_type": "text/html",
+  "final_url": "https://nhkita.remseck.de/uebersicht.html",
+  "error": null,
+  "local_path": "data/sources/ad6db7b5c377/document.html",
+  "sha256": "c390b1f114668bf9386ab9170d9501df30ad15bd13154a6d8c28d01851b5bafa"
+}

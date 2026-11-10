@@ -1,0 +1,13 @@
+{
+  "id": "f37687a3f1c3",
+  "municipality": "Waldenbuch",
+  "title": "Gebührensatzung der Kindertagesbetreuung",
+  "url": "https://www.waldenbuch.de/site/Waldenbuch-Internet/get/params_E1957488513/25312682/Geb%C3%BChrensatzung%20Kindertagesbetreuung%2001.09.2026.pdf",
+  "retrieved_at": "2026-11-10T09:37:26.868911+00:00",
+  "http_status": 200,
+  "content_type": "application/pdf",
+  "final_url": "https://www.waldenbuch.de/site/Waldenbuch-Internet/get/params_E1957488513/25312682/Geb%C3%BChrensatzung%20Kindertagesbetreuung%2001.09.2026.pdf",
+  "error": null,
+  "local_path": "data/sources/f37687a3f1c3/document.pdf",
+  "sha256": "b455772ec1cbca9659986d9d4b9e3a3ede615944bbe023dd294754c0ce9ded27"
+}

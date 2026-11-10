@@ -1,0 +1,13 @@
+{
+  "id": "7b3a2062d94d",
+  "municipality": "Filderstadt",
+  "title": "Ergänzende offizielle Quelle",
+  "url": "https://www.filderstadt.de/site/Filderstadt-Internet-2019/get/params_E-672562485/23320320/Benutzungs-und%20Geb%C3%BChrensatzung%20ab%2001.09.2026.pdf",
+  "retrieved_at": "2026-11-10T09:38:51.571294+00:00",
+  "http_status": 200,
+  "content_type": "application/pdf",
+  "final_url": "https://www.filderstadt.de/site/Filderstadt-Internet-2019/get/params_E-672562485/23320320/Benutzungs-und%20Geb%C3%BChrensatzung%20ab%2001.09.2026.pdf",
+  "error": null,
+  "local_path": "data/sources/7b3a2062d94d/document.pdf",
+  "sha256": "054bd1372d0a63fd5eafb8b69ec3ccdf486daf7a8ee5125e6e3d68d64129f487"
+}

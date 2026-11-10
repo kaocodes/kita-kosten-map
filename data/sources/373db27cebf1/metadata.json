@@ -1,0 +1,13 @@
+{
+  "id": "373db27cebf1",
+  "municipality": "Aichwald",
+  "title": "Anlage3 Entwicklung Gebühren bis2028",
+  "url": "https://ris.aichwald.de/buergerinfo/getfile.php?id=10598&type=do",
+  "retrieved_at": "2026-11-10T09:47:15.945696+00:00",
+  "http_status": 200,
+  "content_type": "application/pdf",
+  "final_url": "https://ris.aichwald.de/buergerinfo/getfile.php?id=10598&type=do",
+  "error": null,
+  "local_path": "data/sources/373db27cebf1/document.pdf",
+  "sha256": "03d663cfaea75ef5c2ebe4f971439b25d31d0b129acd1ba525de8245b9c89d04"
+}

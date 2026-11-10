@@ -1,0 +1,13 @@
+{
+  "id": "e12b8b803da5",
+  "municipality": "Benningen am Neckar",
+  "title": "Elterbeiträge 2026/2027",
+  "url": "https://www.benningen.de/fileadmin/Dateien/Elternbeitraege_Kitas_2026-2027.pdf",
+  "retrieved_at": "2026-11-10T09:41:18.724847+00:00",
+  "http_status": 200,
+  "content_type": "application/pdf",
+  "final_url": "https://www.benningen.de/fileadmin/Dateien/Elternbeitraege_Kitas_2026-2027.pdf",
+  "error": null,
+  "local_path": "data/sources/e12b8b803da5/document.pdf",
+  "sha256": "8c4b43e3a72856d8d4ab95b0d197c947a99d501f3c5a3fe6e261dc01b98efe68"
+}

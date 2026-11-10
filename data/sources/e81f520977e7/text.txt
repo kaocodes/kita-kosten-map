@@ -1,0 +1,674 @@
+Kindertageseinrichtungen | Gemeinde Steinenbronn
+Kindertageseinrichtungen: Gemeinde Steinenbronn
+Direktzum Inhalt springen,zur Suchseite,zum Inhaltsverzeichnis,zur Barrierefreiheitserklärung,eine Barriere melden,
+Diese Website benötigt einen Cookie zur Darstellung externer Inhalte
+Um unsere Website für Sie optimal gestalten und fortlaufend verbessern zu können, verwenden wir einwilligungspflichtige externe Dienste und geben dadurch Ihre personenbezogenen Daten an Dritte weiter. Über den Button „Mehr“ können Sie einzeln auswählen, welche Dienste Sie zulassen möchten. Sie können Ihre Zustimmung und Einwilligung jederzeit widerrufen.
+VerweigernMehr
+ImpressumDatenschutzBarrierefreiheitBarriere melden
+Cookie-Banner
+Navigation einblenden
+Funktionell
+YouTube
+DATA-Plan Computer Consulting GmbH
+Essentiell
+Online-Formulare
+Medienbanner Wiedergabe oder Pausezustand
+Funktionell
+Diese Technologien ermöglichen es uns, die Nutzung der Website zu analysieren, um die Leistung zu messen und zu verbessern.
+YouTubeYouTube
+Dies ist ein Dienst zum Anzeigen von Videoinhalten.
+Verarbeitungsunternehmen
+Google Ireland Limited
+Google Building Gordon House, 4 Barrow St, Dublin, D04 E5W5, Ireland
+Datenverarbeitungszwecke
+Diese Liste stellt die Zwecke der Datenerhebung und -verarbeitung dar. Eine Einwilligung gilt nur für die angegebenen Zwecke. Die gesammelten Daten können nicht für einen anderen als den unten aufgeführten Zweck verwendet oder gespeichert werden.
+Videos anzeigen
+Einwilligungshinweis
+Bitte beachten Sie, dass bei Ihrer Einwilligung zu einem Dienst auch das Laden von externen Daten sowie die Weitergabe personenbezogener Daten an diesen Dienst erlaubt wird.
+Genutzte Technologien
+Cookies (falls "Privacy-Enhanced Mode" nicht aktiviert ist)
+Erhobene Daten
+Diese Liste enthält alle (persönlichen) Daten, die von oder durch die Nutzung dieses Dienstes gesammelt werden.
+IP-Adresse
+Referrer-URL
+Geräte-Informationen
+Gesehene Videos
+Rechtsgrundlage
+Im Folgenden wird die nach Art. 6 I 1 DSGVO geforderte Rechtsgrundlage für die Verarbeitung von personenbezogenen Daten genannt.
+Art. 6 Abs. 1 s. 1 lit. a DSGVO
+Ort der Verarbeitung
+Europäische Union
+Aufbewahrungsdauer
+Die Aufbewahrungsfrist ist die Zeitspanne, in der die gesammelten Daten für die Verarbeitung gespeichert werden. Die Daten müssen gelöscht werden, sobald sie für die angegebenen Verarbeitungszwecke nicht mehr benötigt werden.
+Die Daten werden gelöscht, sobald sie nicht mehr für die Verarbeitungszwecke benötigt werden.
+Datenempfänger
+Alphabet Inc.
+Google LLC
+Google Ireland Limited
+Datenschutzbeauftragter der verarbeitenden Firma
+Nachfolgend finden Sie die E-Mail-Adresse des Datenschutzbeauftragten des verarbeitenden Unternehmens.
+https://support.google.com/policies/contact/general_privacy_form
+Weitergabe an Drittländer
+Einige Services leiten die erfassten Daten an ein anderes Land weiter. Nachfolgend finden Sie eine Liste der Länder, in die die Daten übertragen werden. Dies kann für verschiedene Zwecke der Fall sein, z. B. zum Speichern oder Verarbeiten.
+Weltweit
+Klicken Sie hier, um die Datenschutzbestimmungen des Datenverarbeiters zu lesen
+https://policies.google.com/privacy?hl=en
+Klicken Sie hier, um auf allen Domains des verarbeitenden Unternehmens zu widersprechen
+https://safety.google/privacy/privacy-controls/
+Klicken Sie hier, um die Cookie-Richtlinie des Datenverarbeiters zu lesen
+https://policies.google.com/technologies/cookies?hl=en
+Zugehörige Cookies
+Zu diesem Dienst gehören die folgenden Cookies:
+hwdatenschutz_cookie_youtube
+Setzt zusätzliche Cookies für eine andere Domain (youtube.com)
+DATA-Plan Computer Consulting GmbHDATA-Plan Computer Consulting GmbH
+Software zur Verarbeitung von Kundendaten zur Erfassung von Zählerständen.
+Verarbeitungsunternehmen
+DATA-Plan Computer Consulting GmbH
+Genutzte Technologien
+Https-Verschlüsslung
+Erhobene Daten
+Diese Liste enthält alle (persönlichen) Daten, die von oder durch die Nutzung dieses Dienstes gesammelt werden.
+Es werden Name, Straße, Hausnummer, Zählernummer und Objektnummer der zu erfassenden Person gespeichert.
+Zudem wird der Zählervorwert sowie der Vorjahresverbrauch mit hochgeladen um eine Plausibilitätsprüfung der Eingegebenen Daten vorzunehmen.
+Dann wird bei der Erfassung: der neue Zählerwert, das Ablesedatum und ein freiwilliger Kommentar dazu gespeichert.
+Diese Daten sind alle notwendig um den Prozess der letztendlichen Abrechnung der Zähler vorzunehmen.
+Aufbewahrungsdauer
+Die Aufbewahrungsfrist ist die Zeitspanne, in der die gesammelten Daten für die Verarbeitung gespeichert werden. Die Daten müssen gelöscht werden, sobald sie für die angegebenen Verarbeitungszwecke nicht mehr benötigt werden.  Die Datensätze werden beim Löschen in der Datenbank als gelöscht markiert und im Backend nicht mehr angezeigt. Sollte versehentlich eine Löschung vorgenommen werden ist eine Wiederherstellung, durch Aufheben des Löschflags noch ein Jahr möglich. Nach einem Jahr werden „gelöschte Datensätze“ dann endgültig gelöscht.
+Klicken Sie hier, um die Datenschutzbestimmungen des Datenverarbeiters zu lesen
+https://www.data-plan.de/datenschutz/
+Essentiell
+Diese Technologien sind erforderlich, um die Kernfunktionalität der Website zu ermöglichen.
+Die Cookies mit dem Präfix hwdatenschutz_cookie_ werden verwendet, um Ihre Auswahl aller auswählbaren Cookies zu speichern. Die essentiellen Cookies werden automatisch auf 1 gesetzt, da sie notwendig sind, um sicherzustellen, dass die entsprechende Funktion bei Bedarf geladen wird.
+Das Cookie namens hwdatenschutz_cookie_approved speichert den aktuellen Zustimmungsstatus des Cookie-Banners. Sollte es ein Update der Website geben, das Aspekte der Cookies verändert, würde dies zu einer Versionsdiskrepanz im Cookie-Banner führen. Folglich werden Sie aufgefordert, Ihre Zustimmung zu überprüfen und erneut zu erteilen.
+Alle hwdatenschutz_cookie_ haben eine Bestandsdauer von einem Monat und laufen nach diesem Zeitraum ab.
+Bei jedem Dienst ist das entsprechende Cookie hwdatenschutz_cookie_ aufgeführt, um zu erkennen, welches Cookie welchen Dienst ermöglicht.
+Online-FormulareOnline-Formulare
+Ermöglicht die Bedienung von Online-Formularen.
+Verarbeitungsunternehmen
+Gemeinde Steinenbronn
+Genutzte Technologien
+Cookies akzeptieren
+Erhobene Daten
+Diese Liste enthält alle (persönlichen) Daten, die von oder durch die Nutzung dieses Dienstes gesammelt werden.
+IP-Adresse
+Browser-Informationen
+Rechtsgrundlage
+Im Folgenden wird die nach Art. 6 I 1 DSGVO geforderte Rechtsgrundlage für die Verarbeitung von personenbezogenen Daten genannt.
+Art. 6 Abs. 1 s. 1 lit. e DSGVO
+Ort der Verarbeitung
+Europäische Union
+Aufbewahrungsdauer
+Die Aufbewahrungsfrist ist die Zeitspanne, in der die gesammelten Daten für die Verarbeitung gespeichert werden. Die Daten müssen gelöscht werden, sobald sie für die angegebenen Verarbeitungszwecke nicht mehr benötigt werden.
+Die Daten werden gelöscht, sobald die Sitzung beendet ist.
+Klicken Sie hier, um die Datenschutzbestimmungen des Datenverarbeiters zu lesen
+https://www.steinenbronn.de/unsere-gemeinde/impressum-service/datenschutz
+Zugehörige Cookies
+Zu diesem Dienst gehören die folgenden Cookies:
+hwdatenschutz_cookie_powermail
+fe_typo_user
+Medienbanner Wiedergabe oder PausezustandMedienbanner Wiedergabe oder Pausezustand
+Dies ist ein technisches Cookie und dient dazu, Ihre Präferenz bezüglich der automatischen Wiedergabe von wechselnden Bildern oder Videos zu respektieren.
+Verarbeitungsunternehmen
+Gemeinde Steinenbronn
+Genutzte Technologien
+Cookies akzeptieren
+Rechtsgrundlage
+Im Folgenden wird die nach Art. 6 I 1 DSGVO geforderte Rechtsgrundlage für die Verarbeitung von personenbezogenen Daten genannt.
+Art. 6 Abs. 1 s. 1 lit. e DSGVO
+Ort der Verarbeitung
+Europäische Union
+Aufbewahrungsdauer
+Die Aufbewahrungsfrist ist die Zeitspanne, in der die gesammelten Daten für die Verarbeitung gespeichert werden. Die Daten müssen gelöscht werden, sobald sie für die angegebenen Verarbeitungszwecke nicht mehr benötigt werden.
+Die Daten werden gelöscht, sobald die Sitzung beendet ist.
+Klicken Sie hier, um die Datenschutzbestimmungen des Datenverarbeiters zu lesen
+https://www.steinenbronn.de/unsere-gemeinde/impressum-service/datenschutz
+Zugehörige Cookies
+Zu diesem Dienst gehören die folgenden Cookies:
+hwdatenschutz_cookie_imagebanner
+hwbanner_cookie_banner_playstate
+Keine markieren
+Speichern und schließen
+Alle markieren
+Menü öffnen
+KindertageseinrichtungenMenü schließen
+Barrierefreiheit
+Gebärdensprache
+Leichte Sprache
+KontaktBürgerserviceportal
+Menü
+Unsere GemeindeUnsere Gemeinde
+Gemeinde Steinenbronn
+Herzlich Willkommen
+Kurzportrait
+Geschichte & Wappen
+In der Übersicht
+Heute
+Veröffentlichungen
+Wappen
+Zahlen & Fakten
+Lage & Anfahrt
+Anfahrt & Pläne
+Elektronische Fahrplanauskunft & ÖPNV
+Baustellen & Verkehr
+Partnergemeinden
+Klimaschutz und Energie
+Interkommunale Zusammenarbeit
+Kommunale Wärmeplanung
+Stadtradeln
+Förderprogramme
+Impressum & Service
+Suche
+Inhalt
+Impressum
+Datenschutz
+Erklärung zur Barrierefreiheit
+Barriere melden
+Gebärdensprache
+Leichte Sprache
+Rathaus & ServiceRathaus & Service
+Aktuelles
+Neuigkeiten
+Öffentliche Bekanntmachungen
+Stellenangebote
+Verwaltung
+Kontakt & Öffnungszeiten
+Organigramm
+Mitarbeitende
+Ämter
+Bürgermeisteramt
+Hauptamt
+Ordnungsamt
+Bürgeramt / Standesamt
+Finanzverwaltung
+Ortsbauamt
+Bürgerservice
+Bürgerserviceportal
+Satzungen & Dokumente
+Steuern & Gebühren
+Haushaltsplan & Jahresabschlüsse
+Anmietung von Räumen
+Amtsblatt
+Übersicht
+Steinenbronner Stimme
+Jahresrückblick
+Gemeinderat & Wahlen
+Mitglieder
+Gemeinderatsinformationen
+Wahlen
+Leben & WohnenLeben & Wohnen
+Bauen & Wohnen
+BürgerGIS Steinenbronn
+Bauleitplanung und Bebauungspläne
+Sanierungsgebiete
+Gutachterausschuss
+Bodenrichtwerte
+Flächennutzungsplan
+Lärmaktionsplan
+Fluglärm
+Mietspiegel
+Kinder
+Kindertageseinrichtungen
+TAKKI
+Sommerferienprogramm 2026
+Schule & Bildung
+Klingenbachschule
+Schulsozialarbeit
+Schulkindbetreuung
+Schulmensa
+Hausaufgabenbetreuung
+Schulwegplan
+VHS
+Jugendliche
+Jugendreferat
+Jugendhaus
+Aktivspielplatz
+Senioren
+Angebote für Senioren
+Seniorenzentrum Steinenbronn
+Demografischer Wandel
+Notruf & Gesundheit
+Polizei, Feuerwehr, DRK, DLRG
+Notdienste
+Apothekennotdienste
+Ärzte
+Gesundheitsdienst
+Soziale Dienste
+Bereitschaftsdienst Hausmeister
+Ver - & Entsorgung
+Wasserzählerstand erfassen
+Abfallentsorgung
+Schornsteinfeger
+Bauhof & Kläranlage
+Trinkwasseranalyse
+Kirchen
+Bücherei
+Öffentliche Einrichtungen
+Integration und Teilhabe
+Natur- und Umweltschutz
+Freizeit & ErlebnisFreizeit & Erlebnis
+Veranstaltungen
+Veranstaltungskalender
+Vereine
+Bürgerhaus
+Sandäckerhalle
+Naturerlebnispfad
+Kinderspielplätze
+Übernachten & Geniessen
+Traditionen
+Wirtschaft & GewerbeWirtschaft & Gewerbe
+Wirtschaftsstandort Steinenbronn
+Gewerbegebiete
+Firmenverzeichnis
+Ausschreibungen
+Übersicht
+Vorankündigungen
+Aktuelle Ausschreibung
+Vergebene Aufträge
+Landesmesse
+Wirtschaftsförderung
+IHK Stuttgart
+HWK-Stuttgart
+Agentur für ArbeitSuchmaske öffnen
+Suchen und finden
+Suche startenMeistgesuchte Begriffe:
+Geo-InformationssystemUmsatzsteuer-IdentifikationsnummerStandesamtWohnsitzanmeldungBücherei
+Menü schließen
+Unsere Gemeinde
+Steinenbronn ist eine liebens- und lebenswerte Gemeinde im Landkreis Böblingen, Baden-Württemberg. Umgeben von der Natur des Schönbuchwalds und nahe Stuttgart gelegen, bietet die Gemeinde eine solide örtliche Infrastruktur und sehr gute Lebensqualität. Steinenbronn ist ein attraktiver Wohnort für Jung und Alt, für Familien und Pendler gleichermaßen. Zudem hat sich die Gemeinde als innovativer Unternehmensstandort profiliert und bietet ein attraktives Umfeld für Firmen und Gewerbetreibende.
+Gemeinde Steinenbronn
+Herzlich Willkommen
+Kurzportrait
+Geschichte & Wappen
+In der Übersicht
+Heute
+Veröffentlichungen
+Wappen
+Zahlen & Fakten
+Lage & Anfahrt
+Anfahrt & Pläne
+Elektronische Fahrplanauskunft & ÖPNV
+Baustellen & Verkehr
+Partnergemeinden
+Klimaschutz und Energie
+Interkommunale Zusammenarbeit
+Kommunale Wärmeplanung
+Stadtradeln
+Förderprogramme
+Impressum & Service
+Suche
+Inhalt
+Impressum
+Datenschutz
+Erklärung zur Barrierefreiheit
+Barriere melden
+Gebärdensprache
+Leichte Sprache
+Menü schließen
+Menü schließen
+Rathaus & Service
+Das Rathaus und unsere Website sind eine zentrale Anlaufstelle für all Ihre Anliegen und Fragen. Hier finden Sie eine Vielzahl von Serviceleistungen und Informationen. Unsere Mitarbeiterinnen und Mitarbeiter stehen gern zur Verfügung, um bei Anliegen jeglicher Art zu helfen und einen bürgernahen Service zu gewährleisten.
+Aktuelles
+Neuigkeiten
+Öffentliche Bekanntmachungen
+Stellenangebote
+Verwaltung
+Kontakt & Öffnungszeiten
+Organigramm
+Mitarbeitende
+Ämter
+Bürgermeisteramt
+Hauptamt
+Ordnungsamt
+Bürgeramt / Standesamt
+Finanzverwaltung
+Ortsbauamt
+Bürgerservice
+Bürgerserviceportal
+Satzungen & Dokumente
+Steuern & Gebühren
+Haushaltsplan & Jahresabschlüsse
+Anmietung von Räumen
+Amtsblatt
+Übersicht
+Steinenbronner Stimme
+Jahresrückblick
+Gemeinderat & Wahlen
+Mitglieder
+Gemeinderatsinformationen
+Wahlen
+Menü schließen
+Menü schließen
+Leben & Wohnen
+In Steinenbronn lässt sich's gut leben und wohnen. Ländlicher Charme, eine sehr gute Infrakstruktur, eine optimale verkehrstechnische Anbindung, die Nähe zur Landeshauptstadt Stuttgart sowie ein reges kulturelles und gesellschaftliches Leben unterstreichen die hohe Lebensqualität in unserer Gemeinde.
+Bauen & Wohnen
+BürgerGIS Steinenbronn
+Bauleitplanung und Bebauungspläne
+Sanierungsgebiete
+Gutachterausschuss
+Bodenrichtwerte
+Flächennutzungsplan
+Lärmaktionsplan
+Fluglärm
+Mietspiegel
+Kinder
+Kindertageseinrichtungen
+TAKKI
+Sommerferienprogramm 2026
+Schule & Bildung
+Klingenbachschule
+Schulsozialarbeit
+Schulkindbetreuung
+Schulmensa
+Hausaufgabenbetreuung
+Schulwegplan
+VHS
+Jugendliche
+Jugendreferat
+Jugendhaus
+Aktivspielplatz
+Senioren
+Angebote für Senioren
+Seniorenzentrum Steinenbronn
+Demografischer Wandel
+Notruf & Gesundheit
+Polizei, Feuerwehr, DRK, DLRG
+Notdienste
+Apothekennotdienste
+Ärzte
+Gesundheitsdienst
+Soziale Dienste
+Bereitschaftsdienst Hausmeister
+Ver - & Entsorgung
+Wasserzählerstand erfassen
+Abfallentsorgung
+Schornsteinfeger
+Bauhof & Kläranlage
+Trinkwasseranalyse
+Kirchen
+Bücherei
+Öffentliche Einrichtungen
+Integration und Teilhabe
+Natur- und Umweltschutz
+Menü schließen
+Menü schließen
+Freizeit & Erlebnis
+Entdecken Sie die Vielfalt an Freizeitmöglichkeiten direkt vor Ihrer Haustür! In unserer Rubrik für Freizeit und Erlebnis finden Sie alles, was Sie brauchen, um Ihre kostbare Freizeit optimal zu gestalten. Von lokalen Veranstaltungen und Ausflugstipps bis hin zu Sportangeboten und kulturellen Highlights - hier ist für jeden etwas dabei.
+Veranstaltungen
+Veranstaltungskalender
+Vereine
+Bürgerhaus
+Sandäckerhalle
+Naturerlebnispfad
+Kinderspielplätze
+Übernachten & Geniessen
+Traditionen
+Menü schließen
+Menü schließen
+Wirtschaft & Gewerbe
+Entdecken Sie die Vielfalt und Dynamik unserer lokalen Wirtschaft in unserer Rubrik 'Wirtschaft und Gewerbe'! Hier finden Sie Informationen über ansässige Unternehmen, Dienstleister und Gewerbebetriebe, die das Herzstück unserer Gemeinde bilden. Erfahren Sie mehr über die Angebote, Produkte und Services unserer lokalen Unternehmen und unterstützen Sie gemeinsam mit uns die Stärkung unserer Wirtschaft vor Ort!
+Wirtschaftsstandort Steinenbronn
+Gewerbegebiete
+Firmenverzeichnis
+Ausschreibungen
+Übersicht
+Vorankündigungen
+Aktuelle Ausschreibung
+Vergebene Aufträge
+Landesmesse
+Wirtschaftsförderung
+IHK Stuttgart
+HWK-Stuttgart
+Agentur für Arbeit
+Menü schließen
+Wiedergabe startenWiedergabe pausieren
+Vorheriges Bannerbild
+Nächstes Bannerbild
+Leben & Wohnen
+Kindertageseinrichtungen
+In Steinenbronn stehen sieben Kindertageseinrichtungen für Kinder ab einem Jahr bis zum Schuleintritt zur Verfügung.
+MenüUntermenü öffnen
+Untermenü
+Sie befinden sich im folgenden Menüpunkt:Leben & Wohnen
+Bauen & Wohnen
+BürgerGIS Steinenbronn
+Bauleitplanung und Bebauungspläne
+Sanierungsgebiete
+Gutachterausschuss
+Bodenrichtwerte
+Flächennutzungsplan
+Lärmaktionsplan
+Fluglärm
+Mietspiegel
+Kinder
+Kindertageseinrichtungen
+TAKKI
+Sommerferienprogramm 2026
+Schule & Bildung
+Klingenbachschule
+Schulsozialarbeit
+Schulkindbetreuung
+Schulmensa
+Hausaufgabenbetreuung
+Schulwegplan
+VHS
+Jugendliche
+Jugendreferat
+Jugendhaus
+Aktivspielplatz
+Senioren
+Angebote für Senioren
+Seniorenzentrum Steinenbronn
+Demografischer Wandel
+Notruf & Gesundheit
+Polizei, Feuerwehr, DRK, DLRG
+Notdienste
+Apothekennotdienste
+Ärzte
+Gesundheitsdienst
+Soziale Dienste
+Bereitschaftsdienst Hausmeister
+Ver - & Entsorgung
+Wasserzählerstand erfassen
+Abfallentsorgung
+Schornsteinfeger
+Bauhof & Kläranlage
+Trinkwasseranalyse
+Kirchen
+Bücherei
+Öffentliche Einrichtungen
+Integration und Teilhabe
+Natur- und Umweltschutz
+StartseiteLeben & WohnenKinderKindertageseinrichtungen
+Gemeinsam unterwegs in Steinenbronn
+Unser Leitbild
+Liebe Eltern und Sorgeberechtigte,
+„Gemeinsam unterwegs“ – die Gemeinde Steinenbronn übernimmt Verantwortung für frühkindliche Bildung und Erziehung. Denn Kinder haben ein Recht auf die Begleitung ihrer Entwicklung zu eigenständigen und gemeinschaftsfähigen Persönlichkeiten.
+„Gemeinsam unterwegs“ – dieser Satz prägt unser Leitbild (PDF-Datei).
+Elternbrief
+Im aktuellen Elternbrief (PDF-Dokument) finden Sie alle wichtigen Informationen zu den Anmeldeterminen, der Anmeldung, den Betreuungsgebühren, den Ansprechpartnern sowie weitere hilfreiche Hinweise.
+Digitales Anmeldeverfahren für die Kindertageseinrichtungen
+Ab dem 01.10.2026 erfolgt die Anmeldung für einen Betreuungsplatz in den Kindertageseinrichtungen der Gemeinde Steinenbronn ausschließlich digital.
+Über den folgenden Link können Sie Ihr Kind bequem online für einen Betreuungsplatz anmelden:
+Hier geht es zur digitalen Anmeldung
+Sollten bei der digitalen Anmeldung Fragen oder Probleme auftreten, können Sie sich gerne an die Gemeindeverwaltung wenden. Wir unterstützen Sie gerne bei der Anmeldung.
+Gebühren und Nutzung der Kindertageseinrichtungen
+Hier finden Sie die Satzung über die Benutzung der Kindertageseinrichtungen und die dazugehörigen Gebühren.
+Gebühren (PDF-Datei)für die Kindertageseinrichtungen ab 01.09.2026
+Gebühren (PDF-Datei) für die Kindertageseinrichtungen ab 01.03.2025
+Gebühren (PDF-Datei) für die Kindertageseinrichtungen ab 01.09.2024
+Gebühren (PDF-Datei) für die Kindertageseinrichtungen ab 01.09.2023
+SEPA-Lastschriftmandat
+Anmeldeformulare / SEPA-Lastschriftmandat
+SEPA-Lastschriftmandat: | Benutzungsgebühr für die Kindertageseinrichtung (PDF-Datei) |
+SEPA-Lastschriftmandat: | Mittagessen Kindertageseinrichtung (PDF-Datei) |
+Satzung über die Nutzung sowie die Gebühren der Kindertageseinrichtungen der Gemeinde Steinenbronn
+Über diesen Link gelangen Sie zur Satzung über die Nutzung sowie die Gebühren der Kindertageseinrichtungen der Gemeinde Steinenbronn (PDF-Dokument, 832,06 KB, 20.10.2026)
+Pädagogische Koordinierungsstelle
+Die pädagogische Koordinierungsstelle für die Kindertageseinrichtungen in Steinenbronn trägt die Verantwortung für die Weiterentwicklung der Kindertageseinrichtungen in Steinenbronn. Sie verbindet und stärkt die Einrichtungen und unterstützt sie bei ihren vielfältigen Aufgaben.
+Auch Personalgewinnung ist ein sehr aktuelles und brisantes Thema sowie die Qualitätsentwicklung in den Einrichtungen, auch hier wird die Stelle unterstützend tätig sein.
+Bitte wenden Sie sich für Fragen und Anregungen an Frau Gudrun Ostertag-Raith. Sie erreichen Frau Ostertag-Raith von Montag bis Donnerstag im Rathaus Steinenbronn, Zimmer 005 im Erdgeschoss. Ihre Kontaktdaten finden Sie in der Infobox rechts.
+Schließtage der Kindertageseinrichtungen
+in 2026 (PDF-Datei)
+in 2027 (PDF-Datei)
+Unsere Kindertageseinrichtungen stellen sich vor
+Die Einrichtungen im Einzelnen, deren Ausrichtungen und Öffnungszeiten finden Sie im Anschluss.
+Alle Inhalte ausklappen
+Kinderkrippe im Bürgerhaus "KIBS"
+Stuttgarter Straße 7
+71144 Steinenbronn
+Telefonnummer: 07157 1291-88
+E-Mail schreiben
+Ihre Ansprechpartnerin:
+Leitung: Lena Beck
+Öffnungszeiten:
+Montag bis Freitag: 07:00 Uhr bis 14:00 Uhr
+Unter drei Modellen kann eine individuelle Betreuungszeit gewählt werden:
+Regelzeit: 07:00 Uhr bis 14:00 Uhr
+Splittingmodel: jeden Tag 08:00 Uhr bis 12:00 Uhr oder 3 Tage: 07:00 Uhr bis 14:00 Uhr
+Die Kinderkrippe KiBS liegt im Zentrum von Steinenbronn. Sie wurde im September 2013 in den unteren Räumen des Bürgerhauses eröffnet. Die zweigruppige Kinderkrippe bietet Platz für 20 Kinder im Alter von 12 Monaten bis 3 Jahren.
+„Gebt mir Raum und lasst mir Zeit“ nach Emmi Pikler
+Wir bieten den Kindern ein sicheres und liebevolles Umfeld, Vertrauen und Geborgenheit, damit sie ihre Welt selbst entdecken können. Ein wesentlicher Bestandteil unserer Arbeit ist der positive Blick auf jedes Kind und seine Familie. Wir berücksichtigen die individuellen Bedürfnisse und den Entwicklungsstand der Kinder.
+Die Impulse der Kinder nehmen wir auf und bieten ihnen altersgerechte Materialien und eine anregende Umgebung um sie in ihrem selbsttätigen Tun zu fördern.
+Die Bildungs- und Entwicklungsfelder des Orientierungsplans Baden-Württemberg fließen in unsere tägliche Arbeit mit ein.
+Unser Außenplatz und der gegenüber liegende Garten ermöglichen den Kindern Bewegung und das Erforschen in der Natur. Bei Tür- und Angelgesprächen und regelmäßige Elterngesprächen findet ein Austausch über den Entwicklungsstand des Kindes mit den Eltern statt.
+Kindertagesstätte Goldäcker
+Kita "Goldäcker"
+Goldäckerstraße 20 - 22
+71144 Steinenbronn
+Telefonnummer: 07157 20987
+E-Mail schreiben
+Ihr Ansprechpartner:
+Leitung: Branko Damnjanovic
+Hier können Sie Kontakt zum Elternbeirat aufnehmen: E-Mail schreiben
+Öffnungszeiten:
+Montag bis Freitag: von 07:00 Uhr bis 14:00 Uhr
+Schwerpunkte unserer Arbeit:
+Das Kind steht im Mittelpunkt.
+Wir begleiten die Kinder in ihrem Tagesablauf und bieten ihnen auf dem Weg zur Selbständigkeit unsere Hilfe und Unterstützung an. Dabei ist uns die die Arbeit mit Projekten sehr wichtig. Des Weiteren bieten wir im Tagesablauf auch individuelle Angebote für das einzelne Kind an.
+Wir versuchen gemeinsam Konflikte zu lösen und die Stärken der Kinder zu fördern.
+Elternarbeit:
+Wir nehmen die Bedürfnisse und Wünsche der Eltern wahr. Wir wissen, dass Sie uns Ihre Kinder anvertrauen.
+Wir bieten regelmäßige Elterngespräche an, es gibt Elternabende und Veranstaltungen für die ganze Familie.
+Kita der Wurzelkinder
+Goldäckerstraße 79
+71144 Steinenbronn
+Telefonnummer: 07157 8544
+E-Mail schreiben
+Ihre Ansprechpartnerin:
+Leitung: Antje Fischer-Böhme
+Öffnungszeiten:
+Montag bis Mittwoch: 07:00 Uhr bis 16:00 Uhr
+Donnerstag und Freitag: 07:00 Uhr bis 14:00 Uhr
+Kindergarten Am Steinenberg
+Kita "Am Steinenberg"
+Zollernweg 35
+71144 Steinenbronn
+Telefonnummer: 07157 22558
+E-Mail schreiben
+Ihre Ansprechpartnerin:
+Leitung: Laura Prestifilippo
+Öffnungszeiten:
+Montag bis Mittwoch: 07:00 Uhr bis 16:00 Uhr
+Donnerstag und Freitag: 07:00 Uhr bis 14:00 Uhr
+Das bieten wir an:
+Kinder von 2 bis 6 Jahren
+3 Gruppen
+4 Gruppenräume verteilt auf zwei Ebenen
+Hallenbereich für Bewegung und Aktivitäten
+Außenspielbereich (mit Barfußweg, Matschanlage, …)
+Ganztagesbetreuung
+Warmes Mittagessensangebot (Caterer)
+Die Kita „Am Steinenberg“ wurde von der Gemeinde Steinenbronn im Jahr 1992 eröffnet.
+Die Betreuung der Kinder in unserem Haus findet inzwischen auf zwei Stockwerken statt. Im unteren Bereich befinden sich zwei Gruppenräume mit zweiter Ebene zum Spielen, eine große Empfangshalle und einem großen Außenbereich. 2016 wurden zwei ehemalige Wohnungen im Obergeschoss in zusätzliche Gruppenräume für jeweils 10 und 12 Kinder umgebaut.
+Als Ganztages-Einrichtung bietet die Kindertagesstätte ein warmes Mittagessen. In der Kita „Am Steinenberg“ erleben Kinder einen rhythmisierten Tages- und Wochenablauf. Abgestimmte Spiel- und Gartenzeiten, täglicher Morgenkreis, gemeinsame Essenszeiten, altershomogene Gruppentreffen sowie feste Ruhezeiten für unsere Ganztageskinder bieten eine klare Tagesstruktur.
+Unser im Wochenrhythmus abwechslungsreich gestalteter Morgenkreis weckt in unseren Kindern die Freude am Entdecken der Sprache, am Singen von Liedern und rhythmischer Begleitung.
+In altersspezifischen Gruppenzeiten lernen die Kinder sich besser kennen. Sie erfahren altersgerechte Bildung in Form von Bilderbüchern und Geschichten, Gesprächen, kreativen Angeboten, Gruppenspielen, kleinen Projekten und vielem mehr. Nebenbei werden Rücksichtnahme und Geduld, Hilfsbereitschaft, Streiten und Vertragen und gegenseitiges Zuhören erlebt.
+Ausreichend Körpererfahrung bietet neben dem täglichen Austoben in unserem eigenen Garten auch der wöchentliche Turntag mit abwechslungsreichen Angeboten sowie das Herumtollen im Wald. Unser Natur-Tag ermöglicht Naturerfahrung das ganze Jahr hindurch.
+Wir erleben die Jahreszeiten mit ihren Farbspielen, Gerüchen und Wetterwechseln im Wald und in der näheren Umgebung. Zapfen und Eicheln zu sammeln, mit hübschen Steinen und Rinde Bilder auf dem Waldboden zu gestalten oder mit Gräsern und Blumen eine Wiesensuppe zu „kochen“, das bereichert den Kindergartenalltag zusätzlich.
+Das sind unsere Kooperationspartner:
+Eltern (vom Aufnahmegespräch bis hin zum Abschluss-Gespräch der Kita-Zeit)
+Klingenbachschule Steinenbronn
+Heilpädagogischer Fachdienst
+AKI
+Bücherei im Bürgerhaus
+TSV Steinenbronn
+Ev. Kindergarten "Unter dem Regenbogen"
+Aktuelle Informationen über den Kindergarten "Unter dem Regenbogen" erhalten Sie auf folgender Internetseite
+Adresse:
+Evangelischer Kindergarten "Unter dem Regenbogen"
+Schulstraße 5
+71144 Steinenbronn
+Kindergarten Kirchäcker
+Kindergarten "Kirchäcker"
+Kirchäckerstraße 5
+71144 Steinenbronn
+Telefonnummer: 07157 3011
+E-Mai schreiben
+Ihre Ansprechpartnerin:
+Leitung: Monika Weninger
+Öffnungszeiten:
+Montag bis Freitag: 07:00 Uhr bis 14:00 Uhr mit Mittagessen (außer Freitag)
+Besondere Schwerpunkte liegen bei uns in der individuellen Förderung jeden Kindes. Wir holen die Kinder mit ihren Persönlichkeiten dort ab, wo sie stehen und fördern sie entsprechend.
+Auch die Bewegungserziehung ist bei uns ein wichtiger Schwerpunkt. Neben dem täglichen Aufenthalt in unserem Garten gehen wir jeden Freitag den ganzen Vormittag zum Turnen.
+Kindergarten Spatzennest
+Goldäcker Straße 20
+71144 Steinenbronn
+Telefonnummer: Leitung Spatzennest: 015208519361
+Mobiltelefon: Handy Spatzennest: 0152 53066668
+E-Mail schreiben
+Ihr Ansprechpartner:
+Leitung: Felix Dobritz
+Öffnungszeiten:
+Montag bis Freitag 8:00 Uhr Uhr bis 14:00 Uhr
+Naturpädagogik im Spatzennest
+Im Naturkindergarten Spatzennest entdecken Kinder die Welt vor unseren Haustüren, bei jedem Wetter und zu jeder Jahreszeit. Der eingruppige Kindergarten bietet Platz für 17 Kinder im Alter von drei Jahren bis zum Schuleintritt. Die Kinder erkunden im Spatzennest täglich die Natur, fördern ihre Sinne, Kreativität und sozialen Fähigkeiten mit viel Zeit, Raum und Ruhe.
+Die täglichen Öffnungszeiten sind von 8:00 bis 14:00 Uhr.
+Gestartet wird morgens am Haus in der Goldäckerstraße 20 in Steinenbronn.
+Die Abholung erfolgt am Nachmittag an einem Gartengrundstück am Waldrand, das sich in der Verlängerung der Sindelfinger Straße in Richtung Waldparkplatz befindet. Dieses Grundstück steht dem Kindergarten derzeit zur Verfügung und wird von Montag bis Mittwoch ab ca. 12:00 Uhr bis zur Abholung um 14:00 Uhr aktiv genutzt. Es bietet den Kindern einen sicheren, naturnahen Ort zum Ausruhen, Spielen und Ankommen nach der Erkundungstour am Vormittag in der freien Natur.
+Von Montag bis Donnerstag ist die Gruppe im Wald, auf Wiesen und an Bächen in der Umgebung unterwegs. Auf diesen Erkundungstouren, haben die Kinder täglich und zu jeder Jahreszeit das Privileg die Natur hautnah erleben zu können. Der Freitag ist als Haustag gestaltet. Die Kinder verbringen ihn ganztägig auf dem Gelände des benachbarten Goldäckerkindergartens, dessen Gartenbereich an diesen Tagen dem Spatzennest mit zur Verfügung steht. An den Haustagen haben die Kinder die Möglichkeit andere Lernräume und Materialien kennenzulernen, welche neue Spielimpulse bieten und zum ausprobieren einladen.
+Der respektvolle Umgang mit Mensch, Tier und Umwelt steht im Mittelpunkt unserer pädagogischen Arbeit – für eine gesunde, naturverbundene Entwicklung von Anfang an.
+Kontakt
+Lisa Schreiber
+Hauptamtsleiterin
+Sachgebietsleitung Kinder, Jugend & Familie
+Stuttgarter Straße 5
+71144 Steinenbronn
+Telefonnummer: 07157 1291-20
+Faxnummer: 07157 1291-14
+E-Mail schreiben
+Kontakt
+Pädagogische Koordinationsstelle für die Kindertageseinrichtungen in Steinenbronn
+Zentrales Aufnahmeverfahren sowie Infos zu allen Kindertageseinrichtungen
+Gudrun Ostertag-Raith
+Koordinatorin für das Kitawesen
+Stuttgarter Straße 5
+71144 Steinenbronn
+Telefonnummer: 07157 1291-18
+Mobiltelefon: 0152 08579288
+Faxnummer: 07157 1291-14
+E-Mail schreiben
+Kontakt
+Wolfgang Haschka
+Kindertageseinrichtungswesen
+Personalsachbearbeitung
+Stuttgarter Straße 5
+71144 Steinenbronn
+Telefonnummer: 07157 1291-23
+Faxnummer: 07157 1291-14
+E-Mail schreiben
+KontaktGemeindeverwaltung Steinenbronn
+Stuttgarter Straße 5
+71144 Steinenbronn
+Telefonnummer07157 1291-0
+Faxnummer07157 1291-14
+E-Mail schreiben
+ÖffnungszeitenRathaus und Bürgerbüro sind geöffnet von:
+Montag - Freitag 08:00 Uhr bis 12:00 UhrMittwoch geschlossenDienstag 15:00 Uhr bis 18:00 Uhr
+Zurück nach Oben
+|Impressum
+|Datenschutz
+|Barrierefreiheit
+|Barriere melden
+|Cookies
+made byLink zu der Website der Hirsch & Wölfl GmbH - Link öffnet in neuem Fenster

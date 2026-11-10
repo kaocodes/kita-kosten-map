@@ -1,0 +1,13 @@
+{
+  "id": "59e6a52d60b6",
+  "municipality": "Möglingen",
+  "title": "Möglinger Familienpass",
+  "url": "https://www.moeglingen.de/de/Rathaus/Buegerservice-A-Z/Familienpass",
+  "retrieved_at": "2026-11-10T09:46:29.818616+00:00",
+  "http_status": 200,
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://www.moeglingen.de/de/Rathaus/Buegerservice-A-Z/Familienpass",
+  "error": null,
+  "local_path": "data/sources/59e6a52d60b6/document.html",
+  "sha256": "e82309a598d14443db4d2826205bd5ac42b56e84b0c8960458c6f45941ff0c95"
+}

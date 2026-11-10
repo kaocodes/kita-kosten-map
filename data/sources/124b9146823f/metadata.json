@@ -1,0 +1,13 @@
+{
+  "id": "124b9146823f",
+  "municipality": "Rutesheim",
+  "title": "DS26-055-Anlage 3-Kita-Gebührenerhöhung",
+  "url": "https://service.rutesheim.de/bi/getfile.php?id=14628&type=do",
+  "retrieved_at": "2026-11-10T09:36:45.447679+00:00",
+  "http_status": 200,
+  "content_type": "application/pdf",
+  "final_url": "https://service.rutesheim.de/bi/getfile.php?id=14628&type=do",
+  "error": null,
+  "local_path": "data/sources/124b9146823f/document.pdf",
+  "sha256": "208195b4e127aebcc641ff5d7458bcbee7c8767daf876b44a2422ad95afb2ef4"
+}

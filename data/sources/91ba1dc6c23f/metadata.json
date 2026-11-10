@@ -1,0 +1,13 @@
+{
+  "id": "91ba1dc6c23f",
+  "municipality": "Filderstadt",
+  "title": "Ergänzende offizielle Quelle",
+  "url": "https://www.filderstadt.de/site/Filderstadt-Internet-2019/get/params_E-338750558/17936435/Brosch%C3%BCre%20Kinderbetreuung%20Filderstadt%20%28Stand%2008_2026%29.pdf",
+  "retrieved_at": "2026-11-10T09:38:51.884369+00:00",
+  "http_status": 200,
+  "content_type": "application/pdf",
+  "final_url": "https://www.filderstadt.de/site/Filderstadt-Internet-2019/get/params_E-338750558/17936435/Brosch%C3%BCre%20Kinderbetreuung%20Filderstadt%20%28Stand%2008_2026%29.pdf",
+  "error": null,
+  "local_path": "data/sources/91ba1dc6c23f/document.pdf",
+  "sha256": "187871591d45720fdd975f9c957183ed06ea80dfc4d1b822d4009e3eac1ed01d"
+}

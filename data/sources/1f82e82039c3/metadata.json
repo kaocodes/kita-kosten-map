@@ -1,0 +1,13 @@
+{
+  "id": "1f82e82039c3",
+  "municipality": "Baltmannsweiler",
+  "title": "Offizielle Einstiegsquelle",
+  "url": "https://www.baltmannsweiler.de/leben-wohnen/kinderbetreuung/allgemeine-infos-anmeldemoeglichkeiten",
+  "retrieved_at": "2026-11-10T09:34:46.417813+00:00",
+  "http_status": 200,
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://www.baltmannsweiler.de/leben-wohnen/kinderbetreuung/allgemeine-infos-anmeldemoeglichkeiten",
+  "error": null,
+  "local_path": "data/sources/1f82e82039c3/document.html",
+  "sha256": "a5e0837f9ae697a4e766c7947f4bc2bed1222dd07b782711a5004d4971502f09"
+}

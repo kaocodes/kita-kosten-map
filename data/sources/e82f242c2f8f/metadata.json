@@ -1,0 +1,13 @@
+{
+  "id": "e82f242c2f8f",
+  "municipality": "Hemmingen",
+  "title": "Ergänzende offizielle Quelle",
+  "url": "https://www.hemmingen.de/bildung-betreuung/kinderbetreuung",
+  "retrieved_at": "2026-11-10T09:36:43.689438+00:00",
+  "http_status": 200,
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://www.hemmingen.de/bildung-betreuung/kinderbetreuung",
+  "error": null,
+  "local_path": "data/sources/e82f242c2f8f/document.html",
+  "sha256": "2fc524ac8b4938965ceb934381cbacc60c30a30d81e2e484481de47346e29f92"
+}

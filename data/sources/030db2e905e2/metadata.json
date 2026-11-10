@@ -1,0 +1,13 @@
+{
+  "id": "030db2e905e2",
+  "municipality": "Ostfildern",
+  "title": "Offizielle Einstiegsquelle",
+  "url": "https://www.ostfildern.de/betreuungsgebuehren",
+  "retrieved_at": "2026-11-10T09:34:54.827701+00:00",
+  "http_status": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "final_url": "https://www.ostfildern.de/betreuungsgebuehren",
+  "error": null,
+  "local_path": "data/sources/030db2e905e2/document.html",
+  "sha256": "17686da30adcef6ed7f75f4df1bf45a093b42373caf7df76464aeaecfbc5d86c"
+}

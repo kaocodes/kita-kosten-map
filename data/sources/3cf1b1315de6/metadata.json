@@ -1,0 +1,13 @@
+{
+  "id": "3cf1b1315de6",
+  "municipality": "Benningen am Neckar",
+  "title": "Weitere Informationen für Eltern",
+  "url": "https://www.benningen.de/de/leben/bildung/kindergaerten/weitere-informationen",
+  "retrieved_at": "2026-11-10T09:40:12.751005+00:00",
+  "http_status": 200,
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://www.benningen.de/de/leben/bildung/kindergaerten/weitere-informationen",
+  "error": null,
+  "local_path": "data/sources/3cf1b1315de6/document.html",
+  "sha256": "6701a09b69450ce4977a097ed361d014588aedd9cfefe210ca05cbd3bf74011b"
+}

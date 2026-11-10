@@ -1,0 +1,13 @@
+{
+  "id": "6630cc14137e",
+  "municipality": "Möglingen",
+  "title": "Übersicht aller Betreuungsangebote",
+  "url": "https://www.moeglingen.de/ceasy/resource/?id=4926&download=1",
+  "retrieved_at": "2026-11-10T09:52:13.939412+00:00",
+  "http_status": 200,
+  "content_type": "application/pdf",
+  "final_url": "https://www.moeglingen.de/ceasy/resource/?id=4926&download=1",
+  "error": null,
+  "local_path": "data/sources/6630cc14137e/document.pdf",
+  "sha256": "5958daa77b3b2f657dad0be582edfed4a41d92b3d6a06f7b32586ae270ac9770"
+}

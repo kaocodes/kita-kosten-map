@@ -1,0 +1,13 @@
+{
+  "id": "3c42fe2d0f06",
+  "municipality": "Altbach",
+  "title": "Gebühren für das Kindergartenjahr 2026 2027",
+  "url": "https://www.altbach.de/fileadmin/Dateien/Cross7/Startseite/Leben_%26_Wohnen/Kinderbetreuung/Kindergartengebuhren/Gebuhren_fur_das_Kindergartenjahr_2026_2027.pdf",
+  "retrieved_at": "2026-11-10T09:38:50.319058+00:00",
+  "http_status": 200,
+  "content_type": "application/pdf",
+  "final_url": "https://www.altbach.de/fileadmin/Dateien/Cross7/Startseite/Leben_%26_Wohnen/Kinderbetreuung/Kindergartengebuhren/Gebuhren_fur_das_Kindergartenjahr_2026_2027.pdf",
+  "error": null,
+  "local_path": "data/sources/3c42fe2d0f06/document.pdf",
+  "sha256": "aef8ff064711ff3dc66bf797dad64ccb39cbb3652c740b95efebdb8bfcd98798"
+}

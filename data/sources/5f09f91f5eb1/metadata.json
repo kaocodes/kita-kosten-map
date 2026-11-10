@@ -1,0 +1,13 @@
+{
+  "id": "5f09f91f5eb1",
+  "municipality": "Freiberg am Neckar",
+  "title": "Kindertageseinrichtungen - Benutzungsgebühren Anlage A",
+  "url": "https://www.freiberg-an.de/fileadmin/Dateien/Dateien/Fachbereich_1/Stadtrecht_neu/Anlage_A_Benutzungsgebuehren_Kindergaerten_ab_01.09.2026_signiert.pdf",
+  "retrieved_at": "2026-11-10T09:36:42.413392+00:00",
+  "http_status": 200,
+  "content_type": "application/pdf",
+  "final_url": "https://www.freiberg-an.de/fileadmin/Dateien/Dateien/Fachbereich_1/Stadtrecht_neu/Anlage_A_Benutzungsgebuehren_Kindergaerten_ab_01.09.2026_signiert.pdf",
+  "error": null,
+  "local_path": "data/sources/5f09f91f5eb1/document.pdf",
+  "sha256": "3a00888f37a95d96a2142e94e62aaae0d4b29e0d1976896dd47ac55abd7979d1"
+}

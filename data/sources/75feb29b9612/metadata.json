@@ -1,0 +1,13 @@
+{
+  "id": "75feb29b9612",
+  "municipality": "Aichwald",
+  "title": "Beschluss und Gebührenanlagen",
+  "url": "https://ris.aichwald.de/buergerinfo/si0057.php?__ksinr=560",
+  "retrieved_at": "2026-11-10T09:41:18.798152+00:00",
+  "http_status": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "final_url": "https://ris.aichwald.de/buergerinfo/si0057.php?__ksinr=560",
+  "error": null,
+  "local_path": "data/sources/75feb29b9612/document.html",
+  "sha256": "0a432de78a4ce04555a95a6b851c7093e42b9096b81d0da35179781693e56f9c"
+}

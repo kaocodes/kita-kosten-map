@@ -1,0 +1,13 @@
+{
+  "id": "e83c7c85dd6d",
+  "municipality": "Erdmannhausen",
+  "title": "Ortsrecht",
+  "url": "https://www.erdmannhausen.de/gemeinde-politik/ortsrecht",
+  "retrieved_at": "2026-11-10T09:37:25.525079+00:00",
+  "http_status": 200,
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://www.erdmannhausen.de/gemeinde-politik/ortsrecht",
+  "error": null,
+  "local_path": "data/sources/e83c7c85dd6d/document.html",
+  "sha256": "f1efb75714d51a1332bbd260d6e24cd2e32bbd3c335df67871f5dd201e209954"
+}

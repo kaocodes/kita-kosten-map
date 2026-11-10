@@ -1,0 +1,13 @@
+{
+  "id": "d7ccb70d1303",
+  "municipality": "Hemmingen",
+  "title": "Ortsrecht",
+  "url": "https://www.hemmingen.de/oeffentliche-bekanntmachungen-buergerservice/ortsrecht",
+  "retrieved_at": "2026-11-10T09:37:26.367547+00:00",
+  "http_status": 200,
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://www.hemmingen.de/oeffentliche-bekanntmachungen-buergerservice/ortsrecht",
+  "error": null,
+  "local_path": "data/sources/d7ccb70d1303/document.html",
+  "sha256": "757eb91ce7b7b1300fdcce9feea9d5eab92f0eecbc5a93ded5786b5045b919fc"
+}

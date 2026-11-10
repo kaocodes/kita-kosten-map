@@ -1,0 +1,13 @@
+{
+  "id": "5629ccd1d16f",
+  "municipality": "Affalterbach",
+  "title": "Zu den Öffnungszeiten",
+  "url": "https://www.affalterbach-kita.de/kitas-affalterbach/unsere-standorte-oeffnungszeiten#c2196",
+  "retrieved_at": "2026-11-10T09:46:29.833056+00:00",
+  "http_status": 200,
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://www.affalterbach-kita.de/kitas-affalterbach/unsere-standorte-oeffnungszeiten#c2196",
+  "error": null,
+  "local_path": "data/sources/5629ccd1d16f/document.html",
+  "sha256": "07f3c8fb9d05a699d3ed37abdee8f16ef266f6e7e69f931d645a5ea715aecedd"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "a18b02c9efd9",
+  "municipality": "Benningen am Neckar",
+  "title": "Offizielle Einstiegsquelle",
+  "url": "https://www.benningen.de/fileadmin/Dateien/Kita-Beitraege_ab_September_2024-2025.pdf",
+  "retrieved_at": "2026-11-10T09:34:46.323439+00:00",
+  "http_status": 200,
+  "content_type": "application/pdf",
+  "final_url": "https://www.benningen.de/fileadmin/Dateien/Kita-Beitraege_ab_September_2024-2025.pdf",
+  "error": null,
+  "local_path": "data/sources/a18b02c9efd9/document.pdf",
+  "sha256": "b447e8aac0d4c04b6e0eb09a086cd3985b7358e3257e2ca6948e4356ffec6bf5"
+}

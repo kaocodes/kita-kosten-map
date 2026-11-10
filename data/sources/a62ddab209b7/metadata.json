@@ -1,0 +1,13 @@
+{
+  "id": "a62ddab209b7",
+  "municipality": "Freiberg am Neckar",
+  "title": "U3-Träger – von der Stadt verlinkt",
+  "url": "https://www.zwergenstueble-freiberg.de/",
+  "retrieved_at": "2026-11-10T09:52:15.396629+00:00",
+  "http_status": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "final_url": "https://www.zwergenstueble-freiberg.de/",
+  "error": null,
+  "local_path": "data/sources/a62ddab209b7/document.html",
+  "sha256": "c4f183462b91bbe34f32beacd82f72a4227dc9938bd8c909d73126fde5a84a49"
+}

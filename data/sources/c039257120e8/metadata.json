@@ -1,0 +1,13 @@
+{
+  "id": "c039257120e8",
+  "municipality": "Asperg",
+  "title": "Gebührensatzung ohne Dateiversionssuffix – Prüfung des bisherigen Tarifs",
+  "url": "https://www.asperg.de/fileadmin/Dateien/Cross7/Startpage/Rathaus_%26_Service/Gemeinderat/Stadtrecht/Satzung_uber_die_Erhebung_von_Benutzungsgebuhren_fur_die_Kindertageseinrichtungen_der_Stadt_Asperg.pdf",
+  "retrieved_at": "2026-11-10T09:41:18.577577+00:00",
+  "http_status": 200,
+  "content_type": "application/pdf",
+  "final_url": "https://www.asperg.de/fileadmin/Dateien/Cross7/Startpage/Rathaus_%26_Service/Gemeinderat/Stadtrecht/Satzung_uber_die_Erhebung_von_Benutzungsgebuhren_fur_die_Kindertageseinrichtungen_der_Stadt_Asperg.pdf",
+  "error": null,
+  "local_path": "data/sources/c039257120e8/document.pdf",
+  "sha256": "b32b432eb629b9f6ca6793cceba110fede0f9f03a8ac77bdb6c78db485ca247c"
+}

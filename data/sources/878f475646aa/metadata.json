@@ -1,0 +1,13 @@
+{
+  "id": "878f475646aa",
+  "municipality": "Schwieberdingen",
+  "title": "Ortsrecht & Satzung",
+  "url": "https://www.schwieberdingen.de/gemeinde-und-politik/rathaus/ortsrecht--satzung",
+  "retrieved_at": "2026-11-10T09:37:26.517152+00:00",
+  "http_status": 200,
+  "content_type": "text/html;charset=UTF-8",
+  "final_url": "https://www.schwieberdingen.de/gemeinde-und-politik/rathaus/ortsrecht--satzung",
+  "error": null,
+  "local_path": "data/sources/878f475646aa/document.html",
+  "sha256": "1e9c28a4da1750bb0ccce7d1e052f34b2988ba9a9a812abbbd1b78a6447c831c"
+}

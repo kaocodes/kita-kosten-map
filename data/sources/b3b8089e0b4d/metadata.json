@@ -1,0 +1,13 @@
+{
+  "id": "b3b8089e0b4d",
+  "municipality": "Holzgerlingen",
+  "title": "Offizielle Einstiegsquelle",
+  "url": "https://holzgerlingen.de/de/verwaltung-politik/buergerservice/kindergartengebuehren.php?y=2026",
+  "retrieved_at": "2026-11-10T09:34:52.605883+00:00",
+  "http_status": 200,
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://holzgerlingen.de/de/verwaltung-politik/buergerservice/kindergartengebuehren.php?y=2026",
+  "error": null,
+  "local_path": "data/sources/b3b8089e0b4d/document.html",
+  "sha256": "bbd7181d5fe16b3ae7ad4378b0d28b8471eb8d85e6a69851202c49f0fd96f77b"
+}

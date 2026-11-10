@@ -1,0 +1,13 @@
+{
+  "id": "6125abe78891",
+  "municipality": "Hemmingen",
+  "title": "Kindergartengebührensatzung ab 01.09.2026 (PDF-Dokument, 53,61 KB, 23.07.2026)",
+  "url": "https://www.hemmingen.de/fileadmin/Dateien/Dateien/Ortsrecht/26_Kindergartengebuehrensatzung_ab_01092026.pdf",
+  "retrieved_at": "2026-11-10T09:38:51.589781+00:00",
+  "http_status": 200,
+  "content_type": "application/pdf",
+  "final_url": "https://www.hemmingen.de/fileadmin/Dateien/Dateien/Ortsrecht/26_Kindergartengebuehrensatzung_ab_01092026.pdf",
+  "error": null,
+  "local_path": "data/sources/6125abe78891/document.pdf",
+  "sha256": "01c979682bd26a5dad52a20d5a763fdcaa1c61492e7e6635f2e49d682a42e786"
+}

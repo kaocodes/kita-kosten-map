@@ -1,0 +1,13 @@
+{
+  "id": "bb4cc2c68bd2",
+  "municipality": "Renningen",
+  "title": "städtische Benutzungs- und Gebührensatzung",
+  "url": "https://www.renningen.de/dokumente/ortsrecht/oeffentliche-einrichtungen-alphabetisch/kindertageseinrichtungen-spielgruppen-tagespfelge/spielgruppen-benutzungs-und-gebuehrensatzung-09.2026.pdf?cid=1sks&sds=1",
+  "retrieved_at": "2026-11-10T09:36:44.937961+00:00",
+  "http_status": 200,
+  "content_type": "application/pdf",
+  "final_url": "https://www.renningen.de/dokumente/ortsrecht/oeffentliche-einrichtungen-alphabetisch/kindertageseinrichtungen-spielgruppen-tagespfelge/spielgruppen-benutzungs-und-gebuehrensatzung-09.2026.pdf?cid=1sks&sds=1",
+  "error": null,
+  "local_path": "data/sources/bb4cc2c68bd2/document.pdf",
+  "sha256": "b219609eae67295019aaf42d4047c10e68b75b0852994ebe0b4cddfb437c6cc2"
+}

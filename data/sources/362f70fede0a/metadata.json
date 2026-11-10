@@ -1,0 +1,13 @@
+{
+  "id": "362f70fede0a",
+  "municipality": "Möglingen",
+  "title": "Richtlinien für den Möglinger Familienpass",
+  "url": "https://www.moeglingen.de/ceasy/resource/?id=4612&download=1",
+  "retrieved_at": "2026-11-10T09:47:15.703626+00:00",
+  "http_status": 200,
+  "content_type": "application/pdf",
+  "final_url": "https://www.moeglingen.de/ceasy/resource/?id=4612&download=1",
+  "error": null,
+  "local_path": "data/sources/362f70fede0a/document.pdf",
+  "sha256": "b73350744d766f684bbfe45053913e8e361516a98e907993a63263f309c58e14"
+}

@@ -1,0 +1,116 @@
+Unsere Standorte & Öffnungszeiten: Kindergärten Affalterbach
+{"gebaerdenspracheLink":null,"leichteSpracheLink":null,"bspButton":"\n\t\u003Ca href=\"https:\/\/www.affalterbach.de\/startseite\" target=\"_blank\" name=\"home_gemeinde\" class=\"hw_mask__simple_button\"\u003E\n\n\t\t\n\t\t\t\u003Cspan class=\"hw_mask__simple_button--text\"\u003EGemeindeseite\u003C\/span\u003E\n\t\t\n\n\t\t\n\t\t\t\u003Ci class=\"fa-regular fa-circle-arrow-right\"\n\t\t\t aria-hidden=\"true\"\u003E\u003C\/i\u003E\n\t\t\n\t\u003C\/a\u003E\n\n","menuQuicklinks":"","solr":"","menu":"\u003Cul class=\"hw_menu__list\" data-title=\"Startseite\" data-uid=\"\" data-depth=\"0\" aria-expanded=\"false\" data-href=\"\/\"\u003E\u003Cli class=\"hw_menu__list_element\"\u003E\u003Cul class=\"hw_menu__list\" data-title=\"Kitas Affalterbach\" data-href=\"\/kitas-affalterbach\/ueber-uns\" data-depth=\"1\" data-uid=\"244\" data-text=\"\" data-image-title=\"\" data-image-link=\"\" data-image-s=\"\" data-image-l=\"\"\u003E\u003Cli class=\"hw_menu__list_element\"\u003E\u003Ca data-title=\"\u00dcber uns\" data-uid=\"254\" data-href=\"\/kitas-affalterbach\/ueber-uns\" data-depth=\"1\" class=\"hw_menu__link\" href=\"\/kitas-affalterbach\/ueber-uns\"\u003E \u00dcber uns\u003C\/a\u003E\u003C\/li\u003E\u003Cli class=\"hw_menu__list_element\"\u003E\u003Ca data-title=\"Unsere Standorte & \u00d6ffnungszeiten\" data-uid=\"521\" data-href=\"\/kitas-affalterbach\/unsere-standorte-oeffnungszeiten\" data-depth=\"1\" class=\"hw_menu__link\" href=\"\/kitas-affalterbach\/unsere-standorte-oeffnungszeiten\"\u003E Unsere Standorte & \u00d6ffnungszeiten\u003C\/a\u003E\u003C\/li\u003E\u003Cli class=\"hw_menu__list_element\"\u003E\u003Ca data-title=\"Anmeldung\" data-uid=\"256\" data-href=\"\/kitas-affalterbach\/anmeldung\" data-depth=\"1\" class=\"hw_menu__link\" href=\"\/kitas-affalterbach\/anmeldung\"\u003E Anmeldung\u003C\/a\u003E\u003C\/li\u003E\u003Cli class=\"hw_menu__list_element\"\u003E\u003Ca data-title=\"Geb\u00fchren\" data-uid=\"258\" data-href=\"\/kitas-affalterbach\/gebuehren\" data-depth=\"1\" class=\"hw_menu__link\" href=\"\/kitas-affalterbach\/gebuehren\"\u003E Geb\u00fchren\u003C\/a\u003E\u003C\/li\u003E\u003Cli class=\"hw_menu__list_element\"\u003E\u003Cul class=\"hw_menu__list\" data-title=\"Impressum & Service\" data-href=\"\/kitas-affalterbach\/impressum-service\/inhalt\" data-depth=\"1\" data-uid=\"259\" data-text=\"\" data-image-title=\"\" data-image-link=\"\" data-image-s=\"\" data-image-l=\"\"\u003E\u003Cli class=\"hw_menu__list_element\"\u003E\u003Ca data-title=\"Inhalt\" data-uid=\"277\" data-href=\"\/kitas-affalterbach\/impressum-service\/inhalt\" data-depth=\"1\" class=\"hw_menu__link\" href=\"\/kitas-affalterbach\/impressum-service\/inhalt\"\u003E Inhalt\u003C\/a\u003E\u003C\/li\u003E\u003Cli class=\"hw_menu__list_element\"\u003E\u003Ca data-title=\"Impressum\" data-uid=\"278\" data-href=\"\/kitas-affalterbach\/impressum-service\/impressum\" data-depth=\"1\" class=\"hw_menu__link\" href=\"\/kitas-affalterbach\/impressum-service\/impressum\"\u003E Impressum\u003C\/a\u003E\u003C\/li\u003E\u003Cli class=\"hw_menu__list_element\"\u003E\u003Ca data-title=\"Datenschutz\" data-uid=\"279\" data-href=\"\/kitas-affalterbach\/impressum-service\/datenschutz\" data-depth=\"1\" class=\"hw_menu__link\" href=\"\/kitas-affalterbach\/impressum-service\/datenschutz\"\u003E Datenschutz\u003C\/a\u003E\u003C\/li\u003E\u003Cli class=\"hw_menu__list_element\"\u003E\u003Ca data-title=\"Erkl\u00e4rung zur Barrierefreiheit\" data-uid=\"280\" data-href=\"\/kitas-affalterbach\/impressum-service\/erklaerung-zur-barrierefreiheit\" data-depth=\"1\" class=\"hw_menu__link\" href=\"\/kitas-affalterbach\/impressum-service\/erklaerung-zur-barrierefreiheit\"\u003E Erkl\u00e4rung zur Barrierefreiheit\u003C\/a\u003E\u003C\/li\u003E\u003Cli class=\"hw_menu__list_element\"\u003E\u003Ca data-title=\"Barriere melden\" data-uid=\"281\" data-href=\"\/kitas-affalterbach\/impressum-service\/barriere-melden\" data-depth=\"1\" class=\"hw_menu__link\" href=\"\/kitas-affalterbach\/impressum-service\/barriere-melden\"\u003E Barriere melden\u003C\/a\u003E\u003C\/li\u003E\u003C\/ul\u003E\u003Ca class=\"hw_menu__link\" data-depth=\"1\"\u003EImpressum & Service\u003C\/a\u003E\u003C\/li\u003E\u003C\/ul\u003E\u003Ca class=\"hw_menu__link\" data-depth=\"1\"\u003EKitas Affalterbach\u003C\/a\u003E\u003C\/li\u003E\u003Cli class=\"hw_menu__list_element\"\u003E\u003Cul class=\"hw_menu__list\" data-title=\"Kindergarten Birkhau\" data-href=\"\/kindergarten-birkhau\/unser-kindergarten\/ueber-uns\" data-depth=\"1\" data-uid=\"245\" data-text=\"\" data-image-title=\"\" data-image-link=\"\" data-image-s=\"\" data-image-l=\"\"\u003E\u003Cli class=\"hw_menu__list_element\"\u003E\u003Cul class=\"hw_menu__list\" data-title=\"Unser Kindergarten\" data-href=\"\/kindergarten-birkhau\/unser-kindergarten\/ueber-uns\" data-depth=\"1\" data-uid=\"506\" data-text=\"\" data-image-title=\"\" data-image-link=\"\" data-image-s=\"\" data-image-l=\"\"\u003E\u003Cli class=\"hw_menu__list_element\"\u003E\u003Ca data-title=\"\u00dcber uns\" data-uid=\"260\" data-href=\"\/kindergarten-birkhau\/unser-kindergarten\/ueber-uns\" data-depth=\"1\" class=\"hw_menu__link\" href=\"\/kindergarten-birkhau\/unser-kindergarten\/ueber-uns\"\u003E \u00dcber uns\u003C\/a\u003E\u003C\/li\u003E\u003Cli class=\"hw_menu__list_element\"\u003E\u003Ca data-title=\"Unser Leitbild\" data-uid=\"508\" data-href=\"\/kindergarten-birkhau\/unser-kindergarten\/unser-leitbild\" data-depth=\"1\" class=\"hw_menu__link\" href=\"\/kindergarten-birkhau\/unser-kindergarten\/unser-leitbild\"\u003E Unser Leitbild\u003C\/a\u003E\u003C\/li\u003E\u003Cli class=\"hw_menu__list_element\"\u003E\u003Ca data-title=\"Kooperationen\" data-uid=\"507\" data-href=\"\/kindergarten-birkhau\/unser-kindergarten\/kooperationen\" data-depth=\"1\" class=\"hw_menu__link\" href=\"\/kindergarten-birkhau\/unser-kindergarten\/kooperationen\"\u003E Kooperationen\u003C\/a\u003E\u003C\/li\u003E\u003C\/ul\u003E\u003Ca class=\"hw_menu__link\" data-depth=\"1\"\u003EUnser Kindergarten\u003C\/a\u003E\u003C\/li\u003E\u003Cli class=\"hw_menu__list_element\"\u003E\u003Ca data-title=\"Kontakt & \u00d6ffnungszeiten\" data-uid=\"261\" data-href=\"\/kindergarten-birkhau\/kontakt-oeffnungszeiten\" data-depth=\"1\" class=\"hw_menu__link\" href=\"\/kindergarten-birkhau\/kontakt-oeffnungszeiten\"\u003E Kontakt & \u00d6ffnungszeiten\u003C\/a\u003E\u003C\/li\u003E\u003Cli class=\"hw_menu__list_element\"\u003E\u003Ca data-title=\"R\u00e4umlichkeiten & Bildergalerie\" data-uid=\"262\" data-href=\"\/kindergarten-birkhau\/raeumlichkeiten-bildergalerie\" data-depth=\"1\" class=\"hw_menu__link\" href=\"\/kindergarten-birkhau\/raeumlichkeiten-bildergalerie\"\u003E R\u00e4umlichkeiten & Bildergalerie\u003C\/a\u003E\u003C\/li\u003E\u003Cli class=\"hw_menu__list_element\"\u003E\u003Ca data-title=\"Schlie\u00dftage\" data-uid=\"350\" data-href=\"\/kindergarten-birkhau\/schliesstage\" data-depth=\"1\" class=\"hw_menu__link\" href=\"\/kindergarten-birkhau\/schliesstage\"\u003E Schlie\u00dftage\u003C\/a\u003E\u003C\/li\u003E\u003C\/ul\u003E\u003Ca class=\"hw_menu__link\" data-depth=\"1\"\u003EKindergarten Birkhau\u003C\/a\u003E\u003C\/li\u003E\u003Cli class=\"hw_menu__list_element\"\u003E\u003Cul class=\"hw_menu__list\" data-title=\"Elsa-Brodbeck-Kindertagesst\u00e4tte\" data-href=\"\/elsa-brodbeck-kindertagesstaette\/unsere-kindertagesstaette\/ueber-uns\" data-depth=\"1\" data-uid=\"246\" data-text=\"\" data-image-title=\"\" data-image-link=\"\" data-image-s=\"\" data-image-l=\"\"\u003E\u003Cli class=\"hw_menu__list_element\"\u003E\u003Cul class=\"hw_menu__list\" data-title=\"Unsere Kindertagesst\u00e4tte\" data-href=\"\/elsa-brodbeck-kindertagesstaette\/unsere-kindertagesstaette\/ueber-uns\" data-depth=\"1\" data-uid=\"364\" data-text=\"\" data-image-title=\"\" data-image-link=\"\" data-image-s=\"\" data-image-l=\"\"\u003E\u003Cli class=\"hw_menu__list_element\"\u003E\u003Ca data-title=\"\u00dcber uns\" data-uid=\"265\" data-href=\"\/elsa-brodbeck-kindertagesstaette\/unsere-kindertagesstaette\/ueber-uns\" data-depth=\"1\" class=\"hw_menu__link\" href=\"\/elsa-brodbeck-kindertagesstaette\/unsere-kindertagesstaette\/ueber-uns\"\u003E \u00dcber uns\u003C\/a\u003E\u003C\/li\u003E\u003Cli class=\"hw_menu__list_element\"\u003E\u003Ca data-title=\"Unser Leitbild\" data-uid=\"353\" data-href=\"\/elsa-brodbeck-kindertagesstaette\/unsere-kindertagesstaette\/unser-leitbild\" data-depth=\"1\" class=\"hw_menu__link\" href=\"\/elsa-brodbeck-kindertagesstaette\/unsere-kindertagesstaette\/unser-leitbild\"\u003E Unser Leitbild\u003C\/a\u003E\u003C\/li\u003E\u003Cli class=\"hw_menu__list_element\"\u003E\u003Ca data-title=\"Konzept\" data-uid=\"352\" data-href=\"\/elsa-brodbeck-kindertagesstaette\/unsere-kindertagesstaette\/konzept\" data-depth=\"1\" class=\"hw_menu__link\" href=\"\/elsa-brodbeck-kindertagesstaette\/unsere-kindertagesstaette\/konzept\"\u003E Konzept\u003C\/a\u003E\u003C\/li\u003E\u003Cli class=\"hw_menu__list_element\"\u003E\u003Ca data-title=\"Kooperationen\" data-uid=\"354\" data-href=\"\/elsa-brodbeck-kindertagesstaette\/unsere-kindertagesstaette\/kooperationen\" data-depth=\"1\" class=\"hw_menu__link\" href=\"\/elsa-brodbeck-kindertagesstaette\/unsere-kindertagesstaette\/kooperationen\"\u003E Kooperationen\u003C\/a\u003E\u003C\/li\u003E\u003C\/ul\u003E\u003Ca class=\"hw_menu__link\" data-depth=\"1\"\u003EUnsere Kindertagesst\u00e4tte\u003C\/a\u003E\u003C\/li\u003E\u003Cli class=\"hw_menu__list_element\"\u003E\u003Ca data-title=\"Kontakt & \u00d6ffnungszeiten\" data-uid=\"266\" data-href=\"\/elsa-brodbeck-kindertagesstaette\/kontakt-oeffnungszeiten\" data-depth=\"1\" class=\"hw_menu__link\" href=\"\/elsa-brodbeck-kindertagesstaette\/kontakt-oeffnungszeiten\"\u003E Kontakt & \u00d6ffnungszeiten\u003C\/a\u003E\u003C\/li\u003E\u003Cli class=\"hw_menu__list_element\"\u003E\u003Ca data-title=\"Gruppen\/Altershomogene Gruppen\" data-uid=\"355\" data-href=\"\/elsa-brodbeck-kindertagesstaette\/gruppen\/altershomogene-gruppen\" data-depth=\"1\" class=\"hw_menu__link\" href=\"\/elsa-brodbeck-kindertagesstaette\/gruppen\/altershomogene-gruppen\"\u003E Gruppen\/Altershomogene Gruppen\u003C\/a\u003E\u003C\/li\u003E\u003Cli class=\"hw_menu__list_element\"\u003E\u003Ca data-title=\"R\u00e4umlichkeiten & Bildergalerie\" data-uid=\"267\" data-href=\"\/elsa-brodbeck-kindertagesstaette\/raeumlichkeiten-bildergalerie\" data-depth=\"1\" class=\"hw_menu__link\" href=\"\/elsa-brodbeck-kindertagesstaette\/raeumlichkeiten-bildergalerie\"\u003E R\u00e4umlichkeiten & Bildergalerie\u003C\/a\u003E\u003C\/li\u003E\u003Cli class=\"hw_menu__list_element\"\u003E\u003Ca data-title=\"Schlie\u00dftage\" data-uid=\"351\" data-href=\"\/elsa-brodbeck-kindertagesstaette\/schliesstage\" data-depth=\"1\" class=\"hw_menu__link\" href=\"\/elsa-brodbeck-kindertagesstaette\/schliesstage\"\u003E Schlie\u00dftage\u003C\/a\u003E\u003C\/li\u003E\u003C\/ul\u003E\u003Ca class=\"hw_menu__link\" data-depth=\"1\"\u003EElsa-Brodbeck-Kindertagesst\u00e4tte\u003C\/a\u003E\u003C\/li\u003E\u003Cli class=\"hw_menu__list_element\"\u003E\u003Cul class=\"hw_menu__list\" data-title=\"Kindercampus Klingenstra\u00dfe\" data-href=\"\/kindercampus-klingenstrasse\/unser-kindercampus\/ueber-uns\" data-depth=\"1\" data-uid=\"247\" data-text=\"\" data-image-title=\"\" data-image-link=\"\" data-image-s=\"\" data-image-l=\"\"\u003E\u003Cli class=\"hw_menu__list_element\"\u003E\u003Cul class=\"hw_menu__list\" data-title=\"Unser Kindercampus\" data-href=\"\/kindercampus-klingenstrasse\/unser-kindercampus\/ueber-uns\" data-depth=\"1\" data-uid=\"367\" data-text=\"\" data-image-title=\"\" data-image-link=\"\" data-image-s=\"\" data-image-l=\"\"\u003E\u003Cli class=\"hw_menu__list_element\"\u003E\u003Ca data-title=\"\u00dcber uns\" data-uid=\"271\" data-href=\"\/kindercampus-klingenstrasse\/unser-kindercampus\/ueber-uns\" data-depth=\"1\" class=\"hw_menu__link\" href=\"\/kindercampus-klingenstrasse\/unser-kindercampus\/ueber-uns\"\u003E \u00dcber uns\u003C\/a\u003E\u003C\/li\u003E\u003Cli class=\"hw_menu__list_element\"\u003E\u003Ca data-title=\"Unser Leitbild\" data-uid=\"359\" data-href=\"\/kindercampus-klingenstrasse\/unser-kindercampus\/unser-leitbild\" data-depth=\"1\" class=\"hw_menu__link\" href=\"\/kindercampus-klingenstrasse\/unser-kindercampus\/unser-leitbild\"\u003E Unser Leitbild\u003C\/a\u003E\u003C\/li\u003E\u003Cli class=\"hw_menu__list_element\"\u003E\u003Ca data-title=\"Konzept\" data-uid=\"358\" data-href=\"\/kindercampus-klingenstrasse\/unser-kindercampus\/konzept\" data-depth=\"1\" class=\"hw_menu__link\" href=\"\/kindercampus-klingenstrasse\/unser-kindercampus\/konzept\"\u003E Konzept\u003C\/a\u003E\u003C\/li\u003E\u003Cli class=\"hw_menu__list_element\"\u003E\u003Ca data-title=\"Kooperationen\" data-uid=\"360\" data-href=\"\/kindercampus-klingenstrasse\/unser-kindercampus\/kooperationen\" data-depth=\"1\" class=\"hw_menu__link\" href=\"\/kindercampus-klingenstrasse\/unser-kindercampus\/kooperationen\"\u003E Kooperationen\u003C\/a\u003E\u003C\/li\u003E\u003C\/ul\u003E\u003Ca class=\"hw_menu__link\" data-depth=\"1\"\u003EUnser Kindercampus\u003C\/a\u003E\u003C\/li\u003E\u003Cli class=\"hw_menu__list_element\"\u003E\u003Cul class=\"hw_menu__list\" data-title=\"Bereiche\" data-href=\"\/kindercampus-klingenstrasse\/bereiche\/kindergarten\" data-depth=\"1\" data-uid=\"273\" data-text=\"\" data-image-title=\"\" data-image-link=\"\" data-image-s=\"\" data-image-l=\"\"\u003E\u003Cli class=\"hw_menu__list_element\"\u003E\u003Ca data-title=\"Kindergarten\" data-uid=\"368\" data-href=\"\/kindercampus-klingenstrasse\/bereiche\/kindergarten\" data-depth=\"1\" class=\"hw_menu__link\" href=\"\/kindercampus-klingenstrasse\/bereiche\/kindergarten\"\u003E Kindergarten\u003C\/a\u003E\u003C\/li\u003E\u003Cli class=\"hw_menu__list_element\"\u003E\u003Ca data-title=\"Krippe\" data-uid=\"369\" data-href=\"\/kindercampus-klingenstrasse\/bereiche\/krippe\" data-depth=\"1\" class=\"hw_menu__link\" href=\"\/kindercampus-klingenstrasse\/bereiche\/krippe\"\u003E Krippe\u003C\/a\u003E\u003C\/li\u003E\u003C\/ul\u003E\u003Ca class=\"hw_menu__link\" data-depth=\"1\"\u003EBereiche\u003C\/a\u003E\u003C\/li\u003E\u003Cli class=\"hw_menu__list_element\"\u003E\u003Ca data-title=\"R\u00e4umlichkeiten & Bildergalerie\" data-uid=\"357\" data-href=\"\/kindercampus-klingenstrasse\/raeumlichkeiten-bildergalerie\" data-depth=\"1\" class=\"hw_menu__link\" href=\"\/kindercampus-klingenstrasse\/raeumlichkeiten-bildergalerie\"\u003E R\u00e4umlichkeiten & Bildergalerie\u003C\/a\u003E\u003C\/li\u003E\u003Cli class=\"hw_menu__list_element\"\u003E\u003Ca data-title=\"Kontakt & \u00d6ffnungszeiten\" data-uid=\"272\" data-href=\"\/kindercampus-klingenstrasse\/kontakt-oeffnungszeiten\" data-depth=\"1\" class=\"hw_menu__link\" href=\"\/kindercampus-klingenstrasse\/kontakt-oeffnungszeiten\"\u003E Kontakt & \u00d6ffnungszeiten\u003C\/a\u003E\u003C\/li\u003E\u003Cli class=\"hw_menu__list_element\"\u003E\u003Ca data-title=\"Schlie\u00dftage\" data-uid=\"356\" data-href=\"\/kindercampus-klingenstrasse\/schliesstage\" data-depth=\"1\" class=\"hw_menu__link\" href=\"\/kindercampus-klingenstrasse\/schliesstage\"\u003E Schlie\u00dftage\u003C\/a\u003E\u003C\/li\u003E\u003C\/ul\u003E\u003Ca class=\"hw_menu__link\" data-depth=\"1\"\u003EKindercampus Klingenstra\u00dfe\u003C\/a\u003E\u003C\/li\u003E\u003C\/ul\u003E\n\n\n\n"}
+Direkt
+zum Inhalt springen,
+zum Kontakt,
+zum Inhaltsverzeichnis,
+zur Barrierefreiheitserklärung,
+eine Barriere melden,
+Cookie-Banner
+Diese Website benötigt einen Cookie zur Darstellung externer Inhalte
+Um unsere Website für Sie optimal gestalten und fortlaufend verbessern zu können, verwenden wir einwilligungspflichtige externe Dienste und geben dadurch Ihre personenbezogenen Daten an Dritte weiter. Über den Button „Mehr“ können Sie einzeln auswählen, welche Dienste Sie zulassen möchten. Sie können Ihre Zustimmung und Einwilligung jederzeit widerrufen.Essentiell
+Diese Technologien sind erforderlich, um die Kernfunktionalität der Website zu ermöglichen.
+Die Cookies mit dem Präfix hwdatenschutz_cookie_ werden verwendet, um Ihre Auswahl aller auswählbaren Cookies zu speichern. Die essentiellen Cookies werden automatisch auf 1 gesetzt, da sie notwendig sind, um sicherzustellen, dass die entsprechende Funktion bei Bedarf geladen wird.
+Das Cookie namens hwdatenschutz_cookie_approved speichert den aktuellen Zustimmungsstatus des Cookie-Banners. Sollte es ein Update der Website geben, das Aspekte der Cookies verändert, würde dies zu einer Versionsdiskrepanz im Cookie-Banner führen. Folglich werden Sie aufgefordert, Ihre Zustimmung zu überprüfen und erneut zu erteilen.
+Alle hwdatenschutz_cookie_ haben eine Bestandsdauer von einem Monat und laufen nach diesem Zeitraum ab.
+Bei jedem Dienst ist das entsprechende Cookie hwdatenschutz_cookie_ aufgeführt, um zu erkennen, welches Cookie welchen Dienst ermöglicht.Online-Formulare
+Ermöglicht die Bedienung von Online-Formularen.
+VerarbeitungsunternehmenKindertagesstätten in Affalterbach
+Genutzte Technologien
+Cookies akzeptieren
+Erhobene Daten
+Diese Liste enthält alle (persönlichen) Daten, die von oder durch die Nutzung dieses Dienstes gesammelt werden.
+IP-Adresse
+Browser-Informationen
+Rechtsgrundlage
+Im Folgenden wird die nach Art. 6 I 1 DSGVO geforderte Rechtsgrundlage für die Verarbeitung von personenbezogenen Daten genannt.
+Art. 6 Abs. 1 s. 1 lit. e DSGVO
+Ort der Verarbeitung
+Europäische Union
+Aufbewahrungsdauer
+Die Aufbewahrungsfrist ist die Zeitspanne, in der die gesammelten Daten für die Verarbeitung gespeichert werden. Die Daten müssen gelöscht werden, sobald sie für die angegebenen Verarbeitungszwecke nicht mehr benötigt werden.
+Die Daten werden gelöscht, sobald die Sitzung beendet ist.
+Klicken Sie hier, um die Datenschutzbestimmungen des Datenverarbeiters zu lesen
+https://www.affalterbach-kita.de/kitas-affalterbach/impressum-service/datenschutz
+Zugehörige Cookies
+Zu diesem Dienst gehören die folgenden Cookies:
+hwdatenschutz_cookie_powermail
+fe_typo_userMedienbanner Wiedergabe oder Pausezustand
+Dies ist ein technisches Cookie und dient dazu, Ihre Präferenz bezüglich der automatischen Wiedergabe von wechselnden Bildern oder Videos zu respektieren.
+VerarbeitungsunternehmenKindertagesstätten in Affalterbach
+Genutzte Technologien
+Cookies akzeptieren
+Rechtsgrundlage
+Im Folgenden wird die nach Art. 6 I 1 DSGVO geforderte Rechtsgrundlage für die Verarbeitung von personenbezogenen Daten genannt.
+Art. 6 Abs. 1 s. 1 lit. e DSGVO
+Ort der Verarbeitung
+Europäische Union
+Aufbewahrungsdauer
+Die Aufbewahrungsfrist ist die Zeitspanne, in der die gesammelten Daten für die Verarbeitung gespeichert werden. Die Daten müssen gelöscht werden, sobald sie für die angegebenen Verarbeitungszwecke nicht mehr benötigt werden.
+Die Daten werden gelöscht, sobald die Sitzung beendet ist.
+Klicken Sie hier, um die Datenschutzbestimmungen des Datenverarbeiters zu lesen
+https://www.affalterbach-kita.de/kitas-affalterbach/impressum-service/datenschutz
+Zugehörige Cookies
+Zu diesem Dienst gehören die folgenden Cookies:
+hwdatenschutz_cookie_imagebanner
+hwbanner_cookie_banner_playstateAlles AkzeptierenAlles ablehnenEinstellungen speichernDetailsImpressumDatenschutzBarrierefreiheitBarriere meldenSchließen
+BürgerserviceportalMenü öffnenMenü
+Standorte der Kindertagesstätten
+In der Übersicht
+Öffnungszeiten
+Hier finden Sie die jeweiligen Öffnungszeiten in der Übersicht.
+Kindergarten Birkhau
+Montag - Freitag: 07:30 Uhr bis 13:30 Uhr
+Verlängerte Öffnungszeiten
+Bringzeiten:
+Montag - Freitag: 07:30 Uhr bis 09:00 Uhr
+Abholzeiten:
+Rote Gruppe: 12:30 Uhr
+Gelbe Gruppe: 13:00 Uhr
+Grüne Gruppe: 13:30 Uhr
+Elsa-Brodbeck-Kindertagesstätte
+Öffnungszeiten:
+Montag - Freitag: 07:30 Uhr bis 13:30 Uhr
+Verlängerte Öffnungszeiten
+Bringzeiten:
+Montag - Freitag: 07:30 Uhr bis 09:00 Uhr
+Abholzeiten:
+1. Gruppe: 12:30 Uhr
+2. Gruppe: 13:00 Uhr
+3. Gruppe: 13:30 Uhr
+Kindercampus Klingenstraße
+Kleinkindgruppe / Ganztagesbetreuung:
+Montag - Donnerstag: 07:30 Uhr bis 16:00 Uhr
+Freitag von 07:30 Uhr bis 13:30 Uhr
+Gruppe VÖ:
+Montag - Freitag: 07:30 Uhr bis 13:30 Uhr
+Kernzeit:
+Täglich nach Unterrichtsende bis 13:30 Uhr oder 14:00 Uhr
+Hort:
+Täglich nach Unterrichtsende bis 16:30 Uhr
+Bringzeiten:
+Montag - Freitag: 07:30 Uhr bis 09:00 Uhr
+Abholzeiten:
+Rote Gruppe: 12:30 Uhr
+Gelbe Gruppe: 13:00 Uhr
+Grüne Gruppe: 13:30 Uhr
+Nachmittags: im 30-Minuten-TaktInformationen
+Kontakt & Öffnungszeiten
+Kindergarten Birkhau
+Birkenallee 60
+71563 Affalterbach
+Telefonnummer07144 36041
+E-Mail schreiben
+Elsa-Brodbeck-Kindertagesstätte
+Siegelhäuser Straße 37
+71563 Affalterbach
+Telefonnummer07144 38951
+E-Mail schreiben
+Kindercampus
+Klingenstraße 14-24
+71563 Affalterbach
+Telefonnummer07144 887758-30
+E-Mail schreiben
+InhaltImpressumDatenschutzBarrierefreiheitBarriere meldenCookies
+Zu den ÖffnungszeitenZum Anfang der Website
+made by Link öffnet im neuen Fenster

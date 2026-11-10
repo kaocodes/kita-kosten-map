@@ -1,0 +1,13 @@
+{
+  "id": "e41a1323aa90",
+  "municipality": "Hemmingen",
+  "title": "Offizielle Einstiegsquelle",
+  "url": "https://www.hemmingen.de/oeffentliche-bekanntmachungen-buergerservice/aktuelles/archiv-der-aktuellen-meldungen/6773/beschluesse-des-gemeinderates-vom-210726",
+  "retrieved_at": "2026-11-10T09:34:51.897842+00:00",
+  "http_status": 200,
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://www.hemmingen.de/oeffentliche-bekanntmachungen-buergerservice/aktuelles/archiv-der-aktuellen-meldungen/6773/beschluesse-des-gemeinderates-vom-210726",
+  "error": null,
+  "local_path": "data/sources/e41a1323aa90/document.html",
+  "sha256": "f9d43049cc39fce9a9c40eaa7f8e811eabae09f938ff7ee3e5a56cfc3057108c"
+}

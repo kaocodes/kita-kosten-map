@@ -1,0 +1,13 @@
+{
+  "id": "3e2873e9f039",
+  "municipality": "Waiblingen",
+  "title": "Offizielle Einstiegsquelle",
+  "url": "https://www.waiblingen.de/de/Die-Stadt/Leben-in-Waiblingen/Kindertageseinrichtungen/Benutzungs-und-Gebuehrenordnung",
+  "retrieved_at": "2026-11-10T09:35:04.791201+00:00",
+  "http_status": 200,
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://www.waiblingen.de/de/Die-Stadt/Leben-in-Waiblingen/Kindertageseinrichtungen/Benutzungs-und-Gebuehrenordnung",
+  "error": null,
+  "local_path": "data/sources/3e2873e9f039/document.html",
+  "sha256": "0be4a7ecdd7adb53e9c61b74006bc5b8bf7283bd18f4d83fd8d235ddf2a7da97"
+}

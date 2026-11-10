@@ -1,0 +1,13 @@
+{
+  "id": "fa6033882ce2",
+  "municipality": "Altbach",
+  "title": "Ortsrecht",
+  "url": "https://www.altbach.de/rathaus-gemeinderat/ortsrecht",
+  "retrieved_at": "2026-11-10T09:46:31.430449+00:00",
+  "http_status": 200,
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://www.altbach.de/rathaus-gemeinderat/ortsrecht",
+  "error": null,
+  "local_path": "data/sources/fa6033882ce2/document.html",
+  "sha256": "58bb4557d556e414c795849e42af7d2c1b225b62248c62791539f01893ba549f"
+}

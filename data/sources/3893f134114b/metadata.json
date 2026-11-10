@@ -1,0 +1,13 @@
+{
+  "id": "3893f134114b",
+  "municipality": "Altbach",
+  "title": "Ergänzende offizielle Quelle",
+  "url": "https://www.altbach.de/",
+  "retrieved_at": "2026-11-10T09:36:39.611352+00:00",
+  "http_status": 200,
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://www.altbach.de/",
+  "error": null,
+  "local_path": "data/sources/3893f134114b/document.html",
+  "sha256": "7102bf770cdaec1f07a7059e73f4a3f79791ff297ce1daf761b6b8dbd6281718"
+}

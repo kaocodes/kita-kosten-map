@@ -1,0 +1,13 @@
+{
+  "id": "276be45b94ff",
+  "municipality": "Benningen am Neckar",
+  "title": "Ergänzende offizielle Quelle",
+  "url": "https://www.benningen.de/",
+  "retrieved_at": "2026-11-10T09:36:40.804419+00:00",
+  "http_status": 200,
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://www.benningen.de/de/startseite",
+  "error": null,
+  "local_path": "data/sources/276be45b94ff/document.html",
+  "sha256": "16d848fe728ad9bbe4d641544e1a43d244e667e666d98c8eabc9157b6f930b50"
+}

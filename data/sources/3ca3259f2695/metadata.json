@@ -1,0 +1,13 @@
+{
+  "id": "3ca3259f2695",
+  "municipality": "Möglingen",
+  "title": "Ortsrecht",
+  "url": "https://www.moeglingen.de/de/Rathaus/Gemeindeverwaltung/Ortsrecht",
+  "retrieved_at": "2026-11-10T09:46:30.147390+00:00",
+  "http_status": 200,
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://www.moeglingen.de/de/Rathaus/Gemeindeverwaltung/Ortsrecht",
+  "error": null,
+  "local_path": "data/sources/3ca3259f2695/document.html",
+  "sha256": "39c9362bae7f901eee0eba07f2a24ec923ca50b2dbd28744f07916f98b3b1688"
+}

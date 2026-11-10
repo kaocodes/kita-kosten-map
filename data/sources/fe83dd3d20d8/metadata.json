@@ -1,0 +1,13 @@
+{
+  "id": "fe83dd3d20d8",
+  "municipality": "Remseck am Neckar",
+  "title": "Betreuung: Nutzungssatzung (gültig ab. 1 September 2026) (PDF)",
+  "url": "https://www.stadt-remseck.de/satzung/Betreuungssatzung-Nutzungsordnung-fuer-die-Tageseinrichtungen-gem-1-KiTaG-gueltig-ab-01-09-2026-statute16594",
+  "retrieved_at": "2026-11-10T09:38:52.139245+00:00",
+  "http_status": 200,
+  "content_type": "application/pdf",
+  "final_url": "https://www.stadt-remseck.de/resources/02%20Datenobjekte/E-B%C3%BCrgerservice/Satzungen/290.1%20-%2001.09.2026%20Nutzungssatzung%20Tageseinrichtungen%20gem.%20%C2%A7%201%20KiTaG.pdf",
+  "error": null,
+  "local_path": "data/sources/fe83dd3d20d8/document.pdf",
+  "sha256": "8b56d0a2cf4dac9e80b58373522f39316d029f3885ffdfb37fcd9774b7037b61"
+}

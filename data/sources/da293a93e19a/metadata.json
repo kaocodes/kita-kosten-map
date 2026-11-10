@@ -1,0 +1,13 @@
+{
+  "id": "da293a93e19a",
+  "municipality": "Erdmannhausen",
+  "title": "Ergänzende offizielle Quelle",
+  "url": "https://www.erdmannhausen.de/verwaltung-service/buergerservice/formulare",
+  "retrieved_at": "2026-11-10T09:38:51.425052+00:00",
+  "http_status": 200,
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://www.erdmannhausen.de/verwaltung-service/buergerservice/formulare",
+  "error": null,
+  "local_path": "data/sources/da293a93e19a/document.html",
+  "sha256": "c0e668e8f9fdee7fcab83f8ec9307b43d719ab8c9b83fd8c502607e0be8ead3b"
+}

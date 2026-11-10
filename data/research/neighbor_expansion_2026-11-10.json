@@ -1,0 +1,2890 @@
+{
+  "schema_version": "1.0",
+  "review_date": "2026-11-10",
+  "reference_date": "2026-11-10",
+  "scope": "municipal_childcare_source_research",
+  "published": false,
+  "municipalities": [
+    {
+      "name": "Affalterbach",
+      "status": "available",
+      "sources": [
+        {
+          "title": "Offizielle Einstiegsquelle",
+          "url": "https://www.affalterbach-kita.de/kitas-affalterbach/gebuehren",
+          "source_id": "54aba074226a",
+          "archive_status": "downloaded",
+          "role": "supporting_or_rejected_candidate"
+        },
+        {
+          "url": "https://www.affalterbach-kita.de/fileadmin/Dateien/Ortsrecht/Satzung_ueber_die_Erhebung_von_Benutzungsgebuehren.PDF",
+          "title": "Hier PDF-Dokument64,40 KB16.07.2026",
+          "discovered_from": "54aba074226a",
+          "source_id": "c6cd13cdab20",
+          "archive_status": "downloaded",
+          "role": "reviewed_key_source"
+        },
+        {
+          "url": "https://www.affalterbach-kita.de/kitas-affalterbach/unsere-standorte-oeffnungszeiten#c2196",
+          "title": "Zu den Öffnungszeiten",
+          "discovered_from": "54aba074226a",
+          "source_id": "5629ccd1d16f",
+          "archive_status": "downloaded",
+          "role": "supporting_or_rejected_candidate"
+        }
+      ],
+      "ags": "08118001",
+      "current_tariff_valid_from": "2026-09-01",
+      "care_tariffs": {
+        "u3": "found",
+        "o3": "found"
+      },
+      "payment_months": {
+        "count": 12,
+        "verification": "explicit",
+        "notes": "Beitragsmonate in der Quelle ausdrücklich genannt."
+      },
+      "income_basis": "none",
+      "model_8h_schedule_status": "available",
+      "key_source_ids": [
+        "c6cd13cdab20"
+      ],
+      "care_models": "VÖ Ü3; GT U3/Ü3; Haushaltskinder bis vier und mehr. U3-GT gilt bereits ab dem dritten Lebensmonat.",
+      "findings": [
+        "GT-Tarife ohne Einkommensstaffel; U3 bei einem oder zwei Haushaltskindern gleich teuer."
+      ],
+      "meals": {
+        "status": "separate_amount_missing"
+      },
+      "gaps": [
+        "Essensgeld zusätzlich, aber Betrag in der gesicherten Gebührenquelle nicht genannt."
+      ],
+      "reference_price": {
+        "description": "503,00 € U3-GT, ein oder zwei Kinder",
+        "amount_cents": 50300,
+        "source_id": "c6cd13cdab20",
+        "locator": "§ 3, U3-Ganztag; § 6 Inkrafttreten",
+        "is_default_comparison": false
+      },
+      "integration_status": "not_normalized_not_active",
+      "id": "affalterbach",
+      "current_tariff_period": null,
+      "publication_status": "not_active"
+    },
+    {
+      "name": "Aichwald",
+      "status": "available",
+      "sources": [
+        {
+          "title": "Offizielle Einstiegsquelle",
+          "url": "https://www.aichwald.de/kinderkrippen",
+          "source_id": "88957ebd5b95",
+          "archive_status": "downloaded",
+          "role": "supporting_or_rejected_candidate"
+        },
+        {
+          "url": "https://www.aichwald.de/site/Aichwald-Responsive/get/params_E-1979812973/25343633/K2%20-%20Kindergartenordnung%20Stand%20September%202026%20-%20barrierefrei.pdf",
+          "title": "Kindergartenordnung",
+          "discovered_from": "88957ebd5b95",
+          "source_id": "d9055ebd6801",
+          "archive_status": "downloaded",
+          "role": "reviewed_key_source"
+        },
+        {
+          "url": "https://www.aichwald.de/site/Aichwald-Responsive/get/params_E571651650/20510713/Info_Anmeldung_Kindergarten_2026-2027_Stand%2009_2026.pdf",
+          "title": "Informationen (inkl. Gebühren)",
+          "discovered_from": "88957ebd5b95",
+          "source_id": "51cd863e63ef",
+          "archive_status": "downloaded",
+          "role": "supporting_or_rejected_candidate"
+        },
+        {
+          "title": "Ratsbericht zur Gebührenanpassung 2026",
+          "url": "https://www.aichwald.de/start/gemeinde%2B_%2Bpolitik/sitzung%2Bdes%2Bgemeinderats%2Bvom%2B22_06_2026.html",
+          "source_id": "aead4b228503",
+          "archive_status": "downloaded",
+          "role": "supporting_or_rejected_candidate"
+        },
+        {
+          "title": "Beschluss und Gebührenanlagen",
+          "url": "https://ris.aichwald.de/buergerinfo/si0057.php?__ksinr=560",
+          "source_id": "75feb29b9612",
+          "archive_status": "downloaded",
+          "role": "supporting_or_rejected_candidate"
+        },
+        {
+          "url": "https://ris.aichwald.de/buergerinfo/getfile.php?id=10598&type=do",
+          "title": "Anlage3 Entwicklung Gebühren bis2028",
+          "discovered_from": "75feb29b9612",
+          "source_id": "373db27cebf1",
+          "archive_status": "downloaded",
+          "role": "reviewed_key_source"
+        },
+        {
+          "url": "https://ris.aichwald.de/buergerinfo/getfile.php?id=10599&type=do",
+          "title": "Anlage4 Satzungsänderung 22.06.2026",
+          "discovered_from": "75feb29b9612",
+          "source_id": "5a4f4de529e7",
+          "archive_status": "downloaded",
+          "role": "reviewed_key_source"
+        }
+      ],
+      "ags": "08116076",
+      "current_tariff_valid_from": "2026-09-01",
+      "care_tariffs": {
+        "u3": "found",
+        "o3": "found"
+      },
+      "payment_months": {
+        "count": 12,
+        "verification": "user_confirmed",
+        "decision_id": "2026-11-10-aichwald-u3-meals",
+        "notes": "Zwölf-Monats-Basis durch Nutzerfestlegung bestätigt; bisher aus der laufenden Monatspflicht abgeleitet."
+      },
+      "income_basis": "none",
+      "model_8h_schedule_status": "available",
+      "key_source_ids": [
+        "d9055ebd6801",
+        "5a4f4de529e7",
+        "373db27cebf1"
+      ],
+      "care_models": "Regelgruppen, VÖ7 und GT bis 16:30; U3 zusätzlich 5/7 Stunden und GT mit drei bis fünf Nachmittagen.",
+      "findings": [
+        "Satzung und Ratsanlage bestätigen 166 € Ü3-Regelgruppe. Die Angabe 176 € im Ratsbericht ist widerlegt.",
+        "Krippe wird als U3, Kindergarten als Ü3 bezeichnet. Für enthaltenes U3-Essen gelten 53 €/Monat über zwölf Monate gemäß Nutzerangabe; die unveränderten Originalpreise bleiben nachvollziehbar erhalten."
+      ],
+      "meals": {
+        "status": "included_known_amount",
+        "age_group": "u3",
+        "amount_cents": 5300,
+        "unit": "per_month",
+        "payment_months": 12,
+        "verification": "user_confirmed",
+        "decision_id": "2026-11-10-aichwald-u3-meals",
+        "applies_to": "u3_offers_with_included_meals",
+        "notes": "53 Euro nur bei bereits enthaltenem U3-Essen herausrechnen. U3-Tabellen ohne Essen und Ü3-Werte unverändert erhalten."
+      },
+      "gaps": [
+        "Den 53-Euro-Abzug ausschließlich auf U3-Angebote mit eingeschlossenem Essen anwenden. Original-Ausnahmetarife für jüngere Kinder in altersgemischten Gruppen erhalten."
+      ],
+      "reference_price": {
+        "description": "753,50 € U3-GT, fünf Tage, ein Kind, einschließlich Essen",
+        "amount_cents": 75350,
+        "source_id": "d9055ebd6801",
+        "locator": "§ 6 Abs. 7; Beitragsdauer aus § 6 Abs. 9–12 abgeleitet",
+        "is_default_comparison": false
+      },
+      "integration_status": "not_normalized_not_active",
+      "id": "aichwald",
+      "current_tariff_period": null,
+      "publication_status": "not_active",
+      "decision_ids": [
+        "2026-11-10-aichwald-u3-meals"
+      ],
+      "age_group_labels": {
+        "u3": "Krippe",
+        "o3": "Kindergarten"
+      },
+      "comparison_policy": {
+        "meal_handling": "subtract_known_included_amount",
+        "age_group": "u3",
+        "requires_meal_inclusion": true,
+        "monthly_deduction_cents": 5300,
+        "decision_id": "2026-11-10-aichwald-u3-meals"
+      },
+      "comparison_reference_price": {
+        "operation": "subtract_known_included_amount",
+        "published_amount_cents": 75350,
+        "deduction_cents": 5300,
+        "amount_cents": 70050,
+        "payment_months": 12,
+        "annual_care_cents": 840600,
+        "annual_meal_cents": 63600,
+        "source_id": "d9055ebd6801",
+        "decision_id": "2026-11-10-aichwald-u3-meals",
+        "is_default_comparison": false
+      }
+    },
+    {
+      "name": "Aidlingen",
+      "status": "available",
+      "sources": [
+        {
+          "title": "Offizielle Einstiegsquelle",
+          "url": "https://www.aidlingen.de/leben-wohnen/betreuung-bildung/kindergaerten",
+          "source_id": "9c288c0725de",
+          "archive_status": "downloaded",
+          "role": "supporting_or_rejected_candidate"
+        },
+        {
+          "url": "https://www.aidlingen.de/fileadmin/Dateien/Bilder/Sonstige/Satzungen_2026/%C3%84nderungssatzung_Kindergartengeb%C3%BChren_2026_ausgefertigt.pdf",
+          "title": "Änderungssatzung PDF-Dokument383,40 KB",
+          "discovered_from": "9c288c0725de",
+          "source_id": "eafbe25e6e6e",
+          "archive_status": "downloaded",
+          "role": "reviewed_key_source"
+        },
+        {
+          "url": "https://www.aidlingen.de/fileadmin/Dateien/Dateien/Satzungen/Kindergartensatzung_vom_20231005.pdf",
+          "title": "Kindergartensatzung PDF-Dokument324,33 KB",
+          "discovered_from": "9c288c0725de",
+          "source_id": "f990b6b54a41",
+          "archive_status": "downloaded",
+          "role": "reviewed_key_source"
+        }
+      ],
+      "ags": "08115001",
+      "current_tariff_valid_from": "2026-09-01",
+      "care_tariffs": {
+        "u3": "found",
+        "o3": "found"
+      },
+      "payment_months": {
+        "count": 12,
+        "verification": "explicit",
+        "notes": "Beitragsmonate in der Quelle ausdrücklich genannt."
+      },
+      "income_basis": "none",
+      "model_8h_schedule_status": "available",
+      "key_source_ids": [
+        "eafbe25e6e6e",
+        "f990b6b54a41"
+      ],
+      "care_models": "VÖ, VÖ+ und GT8 für U3/Ü3, jeweils vier Familienstufen. Folgetabelle 2027/28 separat vorhanden.",
+      "findings": [
+        "Aktuelle Beträge stehen ausschließlich in der bildbasierten Änderungssatzung; die alte konsolidierte Satzung allein genügt nicht."
+      ],
+      "meals": {
+        "status": "separate_amount_missing"
+      },
+      "gaps": [
+        "Die Essenspauschale und genaue VÖ-/VÖ+-Zeiten sind ergänzend zu belegen; keine alten GT10-Preise in den aktuellen Tarif übernehmen."
+      ],
+      "reference_price": {
+        "description": "700,00 € U3-GT8, ein Kind",
+        "amount_cents": 70000,
+        "source_id": "eafbe25e6e6e",
+        "locator": "PDF S. 1; Gültigkeit S. 2; zwölf Monate: alte Satzung § 12 Abs. 3",
+        "is_default_comparison": false
+      },
+      "integration_status": "not_normalized_not_active",
+      "id": "aidlingen",
+      "current_tariff_period": null,
+      "publication_status": "not_active"
+    },
+    {
+      "name": "Altbach",
+      "status": "available",
+      "sources": [
+        {
+          "title": "Offizielle Einstiegsquelle",
+          "url": "https://www.altbach.de/fileadmin/Dateien/Cross7/Startseite/Leben_%26_Wohnen/Kinderbetreuung/Kindergartengebuhren/Gebuhren_fur_das_Kindergartenjahr_2024_2025_sowie_2025_2026.pdf",
+          "source_id": "429aabea78ed",
+          "archive_status": "downloaded",
+          "role": "supporting_or_rejected_candidate"
+        },
+        {
+          "title": "Ergänzende offizielle Quelle",
+          "url": "https://www.altbach.de/",
+          "source_id": "3893f134114b",
+          "archive_status": "downloaded",
+          "role": "supporting_or_rejected_candidate"
+        },
+        {
+          "url": "https://www.altbach.de/leben-wohnen/kindergaerten/kindergartengebuehren",
+          "title": "Kindergartengebühren",
+          "discovered_from": "3893f134114b",
+          "source_id": "9dbb13c4e688",
+          "archive_status": "downloaded",
+          "role": "supporting_or_rejected_candidate"
+        },
+        {
+          "url": "https://www.altbach.de/fileadmin/Dateien/Cross7/Startseite/Leben_%26_Wohnen/Kinderbetreuung/Kindergartengebuhren/Gebuhren_fur_das_Kindergartenjahr_2026_2027.pdf",
+          "title": "Gebühren für das Kindergartenjahr 2026 2027",
+          "discovered_from": "9dbb13c4e688",
+          "source_id": "3c42fe2d0f06",
+          "archive_status": "downloaded",
+          "role": "reviewed_key_source"
+        },
+        {
+          "title": "Ortsrecht",
+          "url": "https://www.altbach.de/rathaus-gemeinderat/ortsrecht",
+          "source_id": "fa6033882ce2",
+          "archive_status": "downloaded",
+          "role": "supporting_or_rejected_candidate"
+        }
+      ],
+      "ags": "08116004",
+      "current_tariff_valid_from": null,
+      "care_tariffs": {
+        "u3": "found",
+        "o3": "found"
+      },
+      "payment_months": {
+        "count": 11,
+        "verification": "explicit",
+        "notes": "Beitragsmonate in der Quelle ausdrücklich genannt."
+      },
+      "income_basis": "none",
+      "model_8h_schedule_status": "schedule_to_verify",
+      "key_source_ids": [
+        "3c42fe2d0f06"
+      ],
+      "care_models": "30/40 Wochenstunden; separate U3-Tarife für altersgemischten Kindergarten und Kinderkrippe.",
+      "findings": [
+        "U3 ist nicht ein einziger Preis: AM-GT 703 €, Krippen-GT 716 € bei einem Kind. Beide Angebotsarten erhalten."
+      ],
+      "meals": {
+        "status": "separate"
+      },
+      "gaps": [
+        "Die Tagesverteilung des 40-Stunden-Pakets muss vor dem strengen 5×8-Stunden-Vergleich zusätzlich belegt werden."
+      ],
+      "reference_price": {
+        "description": "716,00 € Kinderkrippe GT40, ein Kind",
+        "amount_cents": 71600,
+        "source_id": "3c42fe2d0f06",
+        "locator": "PDF S. 1–2; Abschnitt Kinderkrippe Nr. 4 und Mittagessen Nr. 5",
+        "is_default_comparison": false
+      },
+      "integration_status": "not_normalized_not_active",
+      "id": "altbach",
+      "current_tariff_period": "2026/2027",
+      "publication_status": "not_active"
+    },
+    {
+      "name": "Asperg",
+      "status": "available",
+      "sources": [
+        {
+          "title": "Offizielle Einstiegsquelle",
+          "url": "https://www.asperg.de/rathaus-service/gemeinderat/stadtrecht",
+          "source_id": "1c66b7c83585",
+          "archive_status": "downloaded",
+          "role": "supporting_or_rejected_candidate"
+        },
+        {
+          "url": "https://www.asperg.de/fileadmin/Dateien/Cross7/Startpage/Rathaus_%26_Service/Gemeinderat/Stadtrecht/Satzung_uber_die_Benutzung_von_Kindertageseinrichtungen_der_Stadt_Asperg-1792779173.pdf",
+          "title": "Satzung über die Benutzung der Kindertageseinrichtungen der Stadt Asperg (PDF)",
+          "discovered_from": "1c66b7c83585",
+          "source_id": "e4d9a09cf9ce",
+          "archive_status": "downloaded",
+          "role": "supporting_or_rejected_candidate"
+        },
+        {
+          "url": "https://www.asperg.de/fileadmin/Dateien/Cross7/Startpage/Rathaus_%26_Service/Gemeinderat/Stadtrecht/Satzung_uber_die_Erhebung_von_Benutzungsgebuhren_fur_die_Kindertageseinrichtungen_der_Stadt_Asperg-1792779173.pdf",
+          "title": "Satzung über die Erhebung von Benutzungsgebühren für die Kindertageseinrichtungen der Stadt Asperg (PDF)",
+          "discovered_from": "1c66b7c83585",
+          "source_id": "b67815bb6fad",
+          "archive_status": "downloaded",
+          "role": "reviewed_key_source"
+        },
+        {
+          "title": "Gebührensatzung ohne Dateiversionssuffix – Prüfung des bisherigen Tarifs",
+          "url": "https://www.asperg.de/fileadmin/Dateien/Cross7/Startpage/Rathaus_%26_Service/Gemeinderat/Stadtrecht/Satzung_uber_die_Erhebung_von_Benutzungsgebuhren_fur_die_Kindertageseinrichtungen_der_Stadt_Asperg.pdf",
+          "source_id": "c039257120e8",
+          "archive_status": "downloaded",
+          "role": "reviewed_key_source"
+        }
+      ],
+      "ags": "08118003",
+      "current_tariff_valid_from": "2025-09-01",
+      "care_tariffs": {
+        "u3": "found",
+        "o3": "found"
+      },
+      "payment_months": {
+        "count": 12,
+        "verification": "explicit",
+        "notes": "Beitragsmonate in der Quelle ausdrücklich genannt."
+      },
+      "income_basis": "pass_based_reduction",
+      "model_8h_schedule_status": "available",
+      "key_source_ids": [
+        "c039257120e8",
+        "b67815bb6fad"
+      ],
+      "care_models": "VÖ6, GT7,5 und GT9,5; U3 auch tageweise. Haushaltskinder und Passermäßigungen.",
+      "findings": [
+        "Aktuell gilt die bisherige Tabelle. Die auf der Ortsrechtsseite vorrangig verlinkte Neufassung gilt erst ab Januar 2027, mit weiterem Schritt September 2027."
+      ],
+      "meals": {
+        "status": "separate"
+      },
+      "gaps": [
+        "Familienpass-Berechtigungen müssen für die späteren Modellannahmen gesondert geprüft werden."
+      ],
+      "reference_price": {
+        "description": "473,00 € U3-GT9,5 an fünf Tagen, ein Kind, Preisstand September 2025",
+        "amount_cents": 47300,
+        "source_id": "c039257120e8",
+        "locator": "§ 5 Abs. 5 Buchst. e, letzte Spalte; zwölf Monate § 1 Abs. 3",
+        "is_default_comparison": false
+      },
+      "integration_status": "not_normalized_not_active",
+      "id": "asperg",
+      "current_tariff_period": null,
+      "publication_status": "not_active"
+    },
+    {
+      "name": "Baltmannsweiler",
+      "status": "available",
+      "sources": [
+        {
+          "title": "Offizielle Einstiegsquelle",
+          "url": "https://www.baltmannsweiler.de/leben-wohnen/kinderbetreuung/allgemeine-infos-anmeldemoeglichkeiten",
+          "source_id": "1f82e82039c3",
+          "archive_status": "downloaded",
+          "role": "supporting_or_rejected_candidate"
+        },
+        {
+          "url": "https://www.baltmannsweiler.de/fileadmin/Dateien/Cross7/Startseite/Leben_%26_Wohnen/Kinderbetreuung/Allgemeine_Infos/Benutzungsordnung_ueber_den_Besuch_der_kommunalen_Kindertageseinrichtungen_Kindergartenordnung_ab_01.10.2023-1755007239.pdf",
+          "title": "Benutzungsordnung_ueber_den_Besuch_der_kommunalen_Kindertageseinrichtungen_Kindergartenordnung_ab_01.10.2023.pdf",
+          "discovered_from": "1f82e82039c3",
+          "source_id": "f440c844f56d",
+          "archive_status": "downloaded",
+          "role": "supporting_or_rejected_candidate"
+        },
+        {
+          "url": "https://www.baltmannsweiler.de/fileadmin/Dateien/Cross7/Startseite/Leben_%26_Wohnen/Kinderbetreuung/Allgemeine_Infos_%26_Anmeldemoglichkeiten/Elternbeitrage_zum_Kindergartenjahr_26-27.pdf",
+          "title": "Die Elternbeiträge für das Betreuungsjahr 2026 | 2027 sowie 2027 | 2028 finden Sie hier zum Download",
+          "discovered_from": "1f82e82039c3",
+          "source_id": "dbe696bf2305",
+          "archive_status": "downloaded",
+          "role": "reviewed_key_source"
+        }
+      ],
+      "ags": "08116007",
+      "current_tariff_valid_from": "2026-09-01",
+      "care_tariffs": {
+        "u3": "found",
+        "o3": "found"
+      },
+      "payment_months": {
+        "count": 12,
+        "verification": "explicit",
+        "notes": "Beitragsmonate in der Quelle ausdrücklich genannt."
+      },
+      "income_basis": "none",
+      "model_8h_schedule_status": "not_in_published_u3_catalog",
+      "key_source_ids": [
+        "dbe696bf2305"
+      ],
+      "care_models": "U3: 25/30/35 Wochenstunden. Ü3: 25/30/35 sowie GT mit drei, vier oder fünf Nachmittagen.",
+      "findings": [
+        "Die U3-Tarifliste endet bei 35 Stunden. Ein achtstündiges U3-Angebot darf daraus nicht erzeugt werden."
+      ],
+      "meals": {
+        "status": "separate"
+      },
+      "gaps": [
+        "Kein U3-8-Stunden-Tarif im veröffentlichten Katalog. Dies ist eine Angebotsgrenze und kein fehlender Preis."
+      ],
+      "reference_price": {
+        "description": "374,83 € U3-VÖ30, ein Kind",
+        "amount_cents": 37483,
+        "source_id": "dbe696bf2305",
+        "locator": "PDF S. 1–2, Abschnitt I; zwölf Monate im Schlusshinweis",
+        "is_default_comparison": false
+      },
+      "integration_status": "not_normalized_not_active",
+      "id": "baltmannsweiler",
+      "current_tariff_period": null,
+      "publication_status": "not_active"
+    },
+    {
+      "name": "Benningen am Neckar",
+      "status": "available",
+      "sources": [
+        {
+          "title": "Offizielle Einstiegsquelle",
+          "url": "https://www.benningen.de/fileadmin/Dateien/Kita-Beitraege_ab_September_2024-2025.pdf",
+          "source_id": "a18b02c9efd9",
+          "archive_status": "downloaded",
+          "role": "supporting_or_rejected_candidate"
+        },
+        {
+          "title": "Ergänzende offizielle Quelle",
+          "url": "https://www.benningen.de/",
+          "source_id": "276be45b94ff",
+          "archive_status": "downloaded",
+          "role": "supporting_or_rejected_candidate"
+        },
+        {
+          "url": "https://www.benningen.de/de/rathaus/rathaus/ortsrecht",
+          "title": "Ortsrecht",
+          "discovered_from": "276be45b94ff",
+          "source_id": "41de178100d7",
+          "archive_status": "downloaded",
+          "role": "supporting_or_rejected_candidate"
+        },
+        {
+          "url": "https://www.benningen.de/de/rathaus/service/formulare-benningen",
+          "title": "Formulare Benningen",
+          "discovered_from": "276be45b94ff",
+          "source_id": "a15cfa45a02f",
+          "archive_status": "downloaded",
+          "role": "supporting_or_rejected_candidate"
+        },
+        {
+          "url": "https://www.benningen.de/de/leben/bildung/kindergaerten",
+          "title": "Ergänzende offizielle Quelle",
+          "source_id": "8376f4eef3da",
+          "archive_status": "downloaded",
+          "role": "supporting_or_rejected_candidate"
+        },
+        {
+          "title": "Weitere Informationen für Eltern",
+          "url": "https://www.benningen.de/de/leben/bildung/kindergaerten/weitere-informationen",
+          "source_id": "3cf1b1315de6",
+          "archive_status": "downloaded",
+          "role": "supporting_or_rejected_candidate"
+        },
+        {
+          "url": "https://www.benningen.de/fileadmin/Dateien/Dateien/Benutzungsordnung_Kitas_ab_01.10.2025.pdf",
+          "title": "Benutzungsordnung für Kindertagesstätten in Trägerschaft der Gemeinde",
+          "discovered_from": "3cf1b1315de6",
+          "source_id": "bd4dc531ae2b",
+          "archive_status": "downloaded",
+          "role": "reviewed_key_source"
+        },
+        {
+          "url": "https://www.benningen.de/fileadmin/Dateien/Elternbeitraege_Kitas_2026-2027.pdf",
+          "title": "Elterbeiträge 2026/2027",
+          "discovered_from": "3cf1b1315de6",
+          "source_id": "e12b8b803da5",
+          "archive_status": "downloaded",
+          "role": "reviewed_key_source"
+        }
+      ],
+      "ags": "08118006",
+      "current_tariff_valid_from": null,
+      "care_tariffs": {
+        "u3": "found",
+        "o3": "found"
+      },
+      "payment_months": {
+        "count": 11,
+        "verification": "explicit",
+        "notes": "Beitragsmonate in der Quelle ausdrücklich genannt."
+      },
+      "income_basis": "none",
+      "model_8h_schedule_status": "friday_too_short",
+      "key_source_ids": [
+        "e12b8b803da5",
+        "bd4dc531ae2b"
+      ],
+      "care_models": "Drei Altersgruppen: ab einem, ab zwei und ab drei Jahren; VÖ und GT; Familienstaffeln und Essen.",
+      "findings": [
+        "Der Tarif unterscheidet den ersten vom zweiten Geburtstag. GT endet laut Tabelle freitags 14:30 bei Beginn 7 Uhr."
+      ],
+      "meals": {
+        "status": "separate"
+      },
+      "gaps": [
+        "Beschriftung nennt VÖ 6,5 Stunden, gedruckte Uhrzeiten ergeben 7,5 Stunden. Nicht stillschweigend korrigieren. Freitag ermöglicht nach dieser Quelle keine acht Stunden."
+      ],
+      "reference_price": {
+        "description": "834,00 € GT an fünf Tagen ab dem zweiten Geburtstag, ein Kind",
+        "amount_cents": 83400,
+        "source_id": "e12b8b803da5",
+        "locator": "PDF S. 1, Altersgruppe ab zweitem Geburtstag; Zeitangaben am Seitenende",
+        "is_default_comparison": false
+      },
+      "integration_status": "not_normalized_not_active",
+      "id": "benningen",
+      "current_tariff_period": "2026/2027",
+      "publication_status": "not_active"
+    },
+    {
+      "name": "Deizisau",
+      "status": "available",
+      "sources": [
+        {
+          "title": "Offizielle Einstiegsquelle",
+          "url": "https://www.deizisau.de/start/engagierter%2Bservice/ortsrecht.html",
+          "source_id": "d45f62d05a87",
+          "archive_status": "downloaded",
+          "role": "supporting_or_rejected_candidate"
+        },
+        {
+          "url": "https://www.deizisau.de/site/Deizisau-Internet/get/params_E-376180519_Dattachment/25362962/%C3%9Cbersicht%20Elternbeitr%C3%A4ge%20Kita%20Jahr%202026_27.pdf",
+          "title": "Übersicht Elternbeiträge Kita Jahr 2026 27.pdf",
+          "discovered_from": "d45f62d05a87",
+          "source_id": "09e38530df32",
+          "archive_status": "downloaded",
+          "role": "reviewed_key_source"
+        },
+        {
+          "url": "https://www.deizisau.de/site/Deizisau-Internet/get/params_E-56852413_Dattachment/25362961/Kinderhaus_Himmelblau_Benutzungs-und_Entgeltordnung%20_g%C3%BCltigab01.09.26.pdf",
+          "title": "Kinderhaus Himmelblau Benutzungs-und Entgeltordnung gültigab01.09.26.pdf",
+          "discovered_from": "d45f62d05a87",
+          "source_id": "c76cba1c0f3c",
+          "archive_status": "downloaded",
+          "role": "reviewed_key_source"
+        },
+        {
+          "url": "https://www.deizisau.de/site/Deizisau-Internet/get/params_E-1259427200_Dattachment/25362959/KinderhausimPalmschenGarten%20_Benutzungs-%20und-Entgeltordnung_g%C3%BCltigab_01.09.26.pdf",
+          "title": "KinderhausimPalmschenGarten Benutzungs- und-Entgeltordnung gültigab 01.09.26.pdf",
+          "discovered_from": "d45f62d05a87",
+          "source_id": "395cdc6360d1",
+          "archive_status": "downloaded",
+          "role": "reviewed_key_source"
+        }
+      ],
+      "ags": "08116014",
+      "current_tariff_valid_from": "2026-09-01",
+      "care_tariffs": {
+        "u3": "found",
+        "o3": "found"
+      },
+      "payment_months": {
+        "count": 11,
+        "verification": "explicit",
+        "notes": "Beitragsmonate in der Quelle ausdrücklich genannt."
+      },
+      "income_basis": "none",
+      "model_8h_schedule_status": "available",
+      "key_source_ids": [
+        "09e38530df32",
+        "c76cba1c0f3c",
+        "395cdc6360d1"
+      ],
+      "care_models": "VÖ6 und GT10 mit ein bis fünf GT-Tagen; U3 mit eigenen Tabellenwerten; Haushaltskinder inkl. kindergeldberechtigter 18–25-Jähriger.",
+      "findings": [
+        "Beide kommunalen Kinderhäuser haben eigene Ordnungen, aber übereinstimmende tarifliche Tabellen. Die U3-Alterszulassung je Angebotsart erhalten."
+      ],
+      "meals": {
+        "status": "separate"
+      },
+      "gaps": [
+        "Die aktuelle Essenspauschale ist ergänzend zu prüfen; die Gebührenübersicht nennt keine feste Höhe."
+      ],
+      "reference_price": {
+        "description": "836,00 € U3-GT an fünf Tagen, ein Kind",
+        "amount_cents": 83600,
+        "source_id": "09e38530df32",
+        "locator": "PDF S. 1, GT-Tabelle; elf Monate im Vorspann",
+        "is_default_comparison": false
+      },
+      "integration_status": "not_normalized_not_active",
+      "id": "deizisau",
+      "current_tariff_period": null,
+      "publication_status": "not_active"
+    },
+    {
+      "name": "Denkendorf",
+      "status": "available",
+      "sources": [
+        {
+          "title": "Offizielle Einstiegsquelle",
+          "url": "https://www.denkendorf.de/leben-wohnen/kinderbetreuung/kindergaerten",
+          "source_id": "d6ab5549d759",
+          "archive_status": "downloaded",
+          "role": "reviewed_key_source"
+        },
+        {
+          "url": "https://www.denkendorf.de/fileadmin/Dateien/Dateien/Kindergarten/Elternbeitraege_fuer_den_Kindergarten_20262027.pdf",
+          "title": "Elternbeiträge ab 1.9.2026 (PDF-Dokument)",
+          "discovered_from": "d6ab5549d759",
+          "source_id": "a19eb9cb9cf3",
+          "archive_status": "downloaded",
+          "role": "reviewed_key_source"
+        },
+        {
+          "url": "https://www.denkendorf.de/leben-wohnen/kinderbetreuung/kleinkindbetreuung",
+          "title": "Ergänzende offizielle Quelle",
+          "source_id": "cbc61ce3e909",
+          "archive_status": "downloaded",
+          "role": "reviewed_key_source"
+        },
+        {
+          "url": "https://www.denkendorf.de/fileadmin/Dateien/Dateien/Kleinkindbetreuung/Elternbeitraege_fuer_die_Krippe_U3_ab_01092026.pdf",
+          "title": "Elternbeiträge ab 01.09.2026 (PDF-Dokument)",
+          "discovered_from": "cbc61ce3e909",
+          "source_id": "08b47127170a",
+          "archive_status": "downloaded",
+          "role": "reviewed_key_source"
+        }
+      ],
+      "ags": "08116015",
+      "current_tariff_valid_from": "2026-09-01",
+      "care_tariffs": {
+        "u3": "found",
+        "o3": "found"
+      },
+      "payment_months": {
+        "count": 11,
+        "verification": "explicit",
+        "notes": "Beitragsmonate in der Quelle ausdrücklich genannt."
+      },
+      "income_basis": "annual_household_gross",
+      "model_8h_schedule_status": "friday_too_short",
+      "key_source_ids": [
+        "a19eb9cb9cf3",
+        "08b47127170a",
+        "d6ab5549d759",
+        "cbc61ce3e909"
+      ],
+      "care_models": "U3/Ü3 mit sechs Bruttoeinkommensstufen, vier Haushaltsgrößen und proportionaler Stundenabrechnung.",
+      "findings": [
+        "Die Gemeinde veröffentlicht gemeinsame U3-/Ü3-Beiträge für die evangelischen und katholischen Einrichtungen. Unterschiedliche Betreuungstarife nach Träger sind in diesen Unterlagen nicht ausgewiesen.",
+        "Jahresbrutto wird gemäß Nutzerfestlegung direkt aus der gemeinsamen Modellvariable übernommen; keine weiteren Einkommensangaben oder Abzüge erforderlich.",
+        "Nur die Freitagsabweichung wird für den Vergleich zugelassen: belegte GT-Woche Montag bis Donnerstag 7–16:30 Uhr, Freitag 7–14 Uhr. Einordnung nach Montag bis Donnerstag, Originalbeitrag und tatsächliche 45 Wochenstunden erhalten. Keine Aussage über fünfmal acht Stunden Betreuung.",
+        "Elf Beitragsmonate sind belegt. Ganztagskinder müssen an fünf Tagen am Mittagessen teilnehmen; Preis unbekannt und entsprechend anzuzeigen."
+      ],
+      "meals": {
+        "status": "separate_amount_missing",
+        "amount_cents": null,
+        "required_for": "full_day_offers",
+        "required_days_per_week": 5,
+        "display_label": "Mittagessen bei Ganztag verpflichtend; Kosten nicht bekannt.",
+        "source_id": "08b47127170a",
+        "locator": "PDF S. 1, Einleitung und letzter Absatz; Ü3 entsprechend eigener Tabelle",
+        "notes": "Kein Nullbetrag und keine geschätzte Gesamtsumme. Der bekannte Betreuungspreis bleibt verwendbar."
+      },
+      "gaps": [
+        "Freitagsausnahme nur für belegte Tagesverteilungen verwenden, keine allgemeine Lockerung bei anderen Kommunen oder weiteren Wochentagen.",
+        "Weitere tatsächlich angebotene Stundenvarianten dürfen proportional berechnet werden, wenn Tagesverteilung und Tarifgrundlage belegt sind. Keine fiktive Acht-Stunden-Woche erzeugen."
+      ],
+      "reference_price": {
+        "description": "776,00 € U3-GT45, Einkommensgruppe 79.601–92.700 €, ein Kind",
+        "amount_cents": 77600,
+        "source_id": "08b47127170a",
+        "locator": "PDF S. 1, zweite Tabelle; elf Monate und Zeitverteilung im Dokument",
+        "is_default_comparison": false
+      },
+      "integration_status": "not_normalized_not_active",
+      "id": "denkendorf",
+      "current_tariff_period": null,
+      "publication_status": "not_active",
+      "decision_ids": [
+        "2026-11-10-denkendorf-comparison"
+      ],
+      "provider_scope": {
+        "basis": "municipally_published_shared_tariff",
+        "providers": [
+          "Evangelischer Kleinkinderpflegeverein e.V.",
+          "Katholische Kirchengemeinde"
+        ],
+        "different_provider_care_tariffs_found": false,
+        "verification": "shared_publication_no_separate_provider_rates_found",
+        "source_ids": [
+          "d6ab5549d759",
+          "cbc61ce3e909",
+          "a19eb9cb9cf3",
+          "08b47127170a"
+        ],
+        "notes": "Gemeinde veröffentlicht je eine gemeinsame U3-/Ü3-Tabelle für die genannten Träger; keine abweichenden Betreuungstarife nach Träger ausgewiesen. Keine Aussage über sämtliche privatwirtschaftlichen Angebote oder Zusatzkosten."
+      },
+      "comparison_policy": {
+        "decision_id": "2026-11-10-denkendorf-comparison",
+        "income_handling": "use_annual_household_gross_directly",
+        "additional_income_inputs": false,
+        "schedule_matching": "allow_friday_shortfall_when_monday_to_thursday_meet_daily_need",
+        "requires_documented_daily_schedule": true,
+        "allowed_shortfall_days": [
+          "friday"
+        ],
+        "retain_original_weekly_minutes": true,
+        "retain_original_price": true,
+        "show_schedule_shortfall": true,
+        "schedule_display_label": "Freitags kürzere Betreuung; tatsächliche Zeiten siehe Betreuungsumfang.",
+        "meal_handling": "separate_unknown_amount"
+      }
+    },
+    {
+      "name": "Eberdingen",
+      "status": "available",
+      "sources": [
+        {
+          "title": "Offizielle Einstiegsquelle",
+          "url": "https://www.eberdingen.de/website/de/bildung/kindergaerten",
+          "source_id": "bca160cf63f9",
+          "archive_status": "downloaded",
+          "role": "supporting_or_rejected_candidate"
+        },
+        {
+          "title": "Ergänzende offizielle Quelle",
+          "url": "https://www.eberdingen.de/website/de/rathaus/formulare",
+          "source_id": "9ea018da0f5e",
+          "archive_status": "downloaded",
+          "role": "supporting_or_rejected_candidate"
+        },
+        {
+          "url": "https://www.eberdingen.de/website/de/rathaus/ortsrecht",
+          "title": "Ergänzende offizielle Quelle",
+          "source_id": "82ae173e7804",
+          "archive_status": "downloaded",
+          "role": "supporting_or_rejected_candidate"
+        },
+        {
+          "url": "https://www.eberdingen.de/resources/ecics_1499.pdf",
+          "title": "Ergänzende offizielle Quelle",
+          "source_id": "1054b5c49c14",
+          "archive_status": "downloaded",
+          "role": "supporting_or_rejected_candidate"
+        },
+        {
+          "url": "https://www.eberdingen.de/resources/ecics_1641.pdf",
+          "title": "Ergänzende offizielle Quelle",
+          "source_id": "96de4f4a4e57",
+          "archive_status": "downloaded",
+          "role": "reviewed_key_source"
+        },
+        {
+          "url": "https://www.eberdingen.de/resources/ecics_2213.pdf",
+          "title": "Kindergartenbenutzungsordnung (altes System)",
+          "discovered_from": "82ae173e7804",
+          "source_id": "57501eb67d3f",
+          "archive_status": "downloaded",
+          "role": "unreviewed_legacy_contract_source"
+        },
+        {
+          "url": "https://www.eberdingen.de/resources/ecics_2214.pdf",
+          "title": "Kindergartenbenutzungsordnung (neues System)",
+          "discovered_from": "82ae173e7804",
+          "source_id": "5637db02621e",
+          "archive_status": "downloaded",
+          "role": "reviewed_key_source"
+        }
+      ],
+      "ags": "08118012",
+      "current_tariff_valid_from": "2025-11-01",
+      "care_tariffs": {
+        "u3": "found",
+        "o3": "found"
+      },
+      "payment_months": {
+        "count": 12,
+        "verification": "explicit",
+        "notes": "Beitragsmonate in der Quelle ausdrücklich genannt."
+      },
+      "income_basis": "annual_household_gross_reduction",
+      "model_8h_schedule_status": "not_in_published_u3_catalog",
+      "key_source_ids": [
+        "5637db02621e",
+        "96de4f4a4e57"
+      ],
+      "care_models": "Neues Beitragssystem: VÖ6/GT7,5, U3/Ü3, Rangfolge gleichzeitig betreuter Geschwister; alte Vertragsregeln separat erhalten.",
+      "findings": [
+        "Jüngstes betreutes Kind zahlt den Grundbetrag, älteres den zweiten, ab drittem entfällt beim ältesten der Beitrag. Haushaltskinderzahl allein reicht nicht."
+      ],
+      "meals": {
+        "status": "separate_amount_missing"
+      },
+      "gaps": [
+        "Vertrags-/Übergangsregime muss bei der späteren Modellierung ausdrücklich gewählt werden.",
+        "Im neuen U3-Katalog kein 8-Stunden-Angebot. Essensgeld laut Anlage einrichtungsbezogener Selbstkostenpreis.",
+        "Das alte Vertragssystem ist archiviert, aber nicht vollständig visuell übertragen oder rechnerisch geprüft; die Bewertung bezieht sich auf die belegte neue Beitragstabelle."
+      ],
+      "reference_price": {
+        "description": "457,00 € U3-GT7,5, erster betreuter Rang im neuen System",
+        "amount_cents": 45700,
+        "source_id": "5637db02621e",
+        "locator": "Bildbasierte PDF S. 14; Geschwisterregel S. 7; zwölf Monate S. 6/14",
+        "is_default_comparison": false
+      },
+      "integration_status": "not_normalized_not_active",
+      "id": "eberdingen",
+      "current_tariff_period": null,
+      "publication_status": "not_active"
+    },
+    {
+      "name": "Ehningen",
+      "status": "available",
+      "sources": [
+        {
+          "title": "Offizielle Einstiegsquelle",
+          "url": "https://www.ehningen.de/de/familie-soziales/bildungs-und-betreuungslandschaft/kindertagesstaetten",
+          "source_id": "7df0aea4e033",
+          "archive_status": "downloaded",
+          "role": "supporting_or_rejected_candidate"
+        },
+        {
+          "url": "https://www.ehningen.de/fileadmin/Dateien/Bilder/Sachgebiet_Betreuung/Kindertagesst%C3%A4tten/Satzung_zur_%C3%84nderung_der_Satzung_%C3%BCber_die_Erhebung_von_Benutzungsgeb%C3%BChren_f%C3%BCr_Tageseinrichtungen_f%C3%BCr_Kinder_bis_zum_Schuleintritt_der_Gemeinde_Ehningen.pdf",
+          "title": "Satzung zur Änderung der Satzung über die Benutzungsgebühren der Tageseinrichtungen für Kinder bis zum Schuleintritt PDF-Dokument687,83 KB26.03.2026",
+          "discovered_from": "7df0aea4e033",
+          "source_id": "73dc1c85df92",
+          "archive_status": "downloaded",
+          "role": "supporting_or_rejected_candidate"
+        },
+        {
+          "url": "https://www.ehningen.de/fileadmin/Dateien/Bilder/Sachgebiet_Betreuung/Kindertagesst%C3%A4tten/Satzung_%C3%BCber_die_Erhebung_von_Benutzungsgeb%C3%BChren_f%C3%BCr_Tageseinrichtungen_f%C3%BCr_Kinder_bis_zum_Schuleintritt_09-2025.pdf",
+          "title": "Benutzungsgebühren für Tageseinrichtungen für Kinder bis zum Schuleintritt ab 01.09.2025 PDF-Dokument429,73 KB23.06.2025",
+          "discovered_from": "7df0aea4e033",
+          "source_id": "da4b793532b5",
+          "archive_status": "downloaded",
+          "role": "reviewed_key_source"
+        },
+        {
+          "url": "https://www.ehningen.de/fileadmin/Dateien/Bilder/Sachgebiet_Betreuung/Kindertagesst%C3%A4tten/Satzung_zur_%C3%84nderung_der_Satzung_%C3%BCber_die_Erhebung_von_Betreuungsgeb%C3%BChren.pdf",
+          "title": "Benutzungsgebühren für Tageseinrichtungen für Kinder bis zum Schuleintritt ab 01.09.2026 (PDF-Dokument, 429,73 KB, 23.06.2025) PDF-Dokument746,07 KB29.06.2026",
+          "discovered_from": "7df0aea4e033",
+          "source_id": "1e9f8dc795b7",
+          "archive_status": "downloaded",
+          "role": "reviewed_key_source"
+        }
+      ],
+      "ags": "08115013",
+      "current_tariff_valid_from": "2026-09-01",
+      "care_tariffs": {
+        "u3": "found",
+        "o3": "found"
+      },
+      "payment_months": {
+        "count": 11,
+        "verification": "explicit",
+        "notes": "Beitragsmonate in der Quelle ausdrücklich genannt."
+      },
+      "income_basis": "none",
+      "model_8h_schedule_status": "available",
+      "key_source_ids": [
+        "1e9f8dc795b7",
+        "da4b793532b5"
+      ],
+      "care_models": "30-Stunden-Grundgebühr plus je zusätzlicher Wochenstunde gestaffelter Monatszuschlag; belegte Mischwochen bis GT10 an fünf Tagen.",
+      "findings": [
+        "Ein Tabellen-Stundensatz ist der monatliche Preis einer zusätzlich gebuchten Wochenstunde; nicht mit einem tatsächlich geleisteten Einzelstundensatz verwechseln."
+      ],
+      "meals": {
+        "status": "separate_amount_missing"
+      },
+      "gaps": [
+        "Für fünfmal mindestens acht Stunden belegt die aktuelle Modulliste GT10; kein nicht veröffentlichtes 5×9-Modul erfinden. Essen separat nachprüfen."
+      ],
+      "reference_price": {
+        "description": "993,00 € U3-GT10 an fünf Tagen, ein Kind",
+        "amount_cents": 99300,
+        "source_id": "1e9f8dc795b7",
+        "locator": "Bildbasierte PDF S. 1–3; Modultabelle GT5 S. 3; elf Monate Stammsatzung § 2",
+        "is_default_comparison": false
+      },
+      "integration_status": "not_normalized_not_active",
+      "id": "ehningen",
+      "current_tariff_period": null,
+      "publication_status": "not_active"
+    },
+    {
+      "name": "Erdmannhausen",
+      "status": "available",
+      "sources": [
+        {
+          "title": "Offizielle Einstiegsquelle",
+          "url": "https://www.erdmannhausen.de/einrichtungen-kirchen/kindertagesstaetten",
+          "source_id": "030c8dc4fdab",
+          "archive_status": "downloaded",
+          "role": "supporting_or_rejected_candidate"
+        },
+        {
+          "title": "Ergänzende offizielle Quelle",
+          "url": "https://www.erdmannhausen.de/fileadmin/media/dokumente/Formulare/Anmeldung_Kindertageseinrichtung.pdf",
+          "source_id": "04cba90d8987",
+          "archive_status": "failed_attempt",
+          "role": "supporting_or_rejected_candidate"
+        },
+        {
+          "url": "https://www.erdmannhausen.de/gemeinde-politik/ortsrecht",
+          "title": "Ortsrecht",
+          "discovered_from": "030c8dc4fdab",
+          "source_id": "e83c7c85dd6d",
+          "archive_status": "downloaded",
+          "role": "supporting_or_rejected_candidate"
+        },
+        {
+          "url": "https://erdmannhausen.ris-portal.de/ortsrecht",
+          "title": "Ergänzende offizielle Quelle",
+          "source_id": "b3ea33919f57",
+          "archive_status": "downloaded",
+          "role": "supporting_or_rejected_candidate"
+        },
+        {
+          "url": "https://www.erdmannhausen.de/verwaltung-service/buergerservice/formulare",
+          "title": "Ergänzende offizielle Quelle",
+          "source_id": "da293a93e19a",
+          "archive_status": "downloaded",
+          "role": "supporting_or_rejected_candidate"
+        },
+        {
+          "url": "https://www.erdmannhausen.de/fileadmin/media/dokumente/Formulare/Unterlagen_Voranmeldung_Kindertageseinrichtung_ab_01.09.2026.pdf",
+          "title": "Anmeldung Kindertageseinrichtung",
+          "discovered_from": "da293a93e19a",
+          "source_id": "9290d9f1b98e",
+          "archive_status": "downloaded",
+          "role": "reviewed_key_source"
+        },
+        {
+          "url": "https://www.erdmannhausen.de/fileadmin/media/dokumente/Formulare/Unterlagen_Voranmeldung_Kindertageseinrichtung_ab_01.09.2027.pdf",
+          "title": "Anmeldung Kindertageseinrichtung",
+          "discovered_from": "da293a93e19a",
+          "source_id": "58928b7cc5bd",
+          "archive_status": "downloaded",
+          "role": "supporting_or_rejected_candidate"
+        },
+        {
+          "title": "Benutzungsordnung aus dem offiziellen Ortsrecht",
+          "url": "https://erdmannhausen.ris-portal.de/ortsrecht?_RisSonstigeDokumente_currentURL=%2Fortsrecht&_RisSonstigeDokumente_portletAjaxable=true&_RisSonstigeDokumente_resource=singleDocument&_RisSonstigeDokumente_schriftgutId=2349146&_RisSonstigeDokumente_show=true&p_p_cacheability=cacheLevelPage&p_p_id=RisSonstigeDokumente&p_p_lifecycle=2&p_p_mode=view&p_p_state=normal",
+          "source_id": "ded2abf0332d",
+          "archive_status": "downloaded",
+          "role": "reviewed_key_source"
+        }
+      ],
+      "ags": "08118014",
+      "current_tariff_valid_from": "2026-09-01",
+      "care_tariffs": {
+        "u3": "found",
+        "o3": "found"
+      },
+      "payment_months": {
+        "count": 12,
+        "verification": "derived",
+        "notes": "Zwölf Monate aus laufender Kalendermonatsgebühr einschließlich Ferien abgeleitet; keine ausdrücklich bezifferte Monatszahl."
+      },
+      "income_basis": "monthly_household_gross_reduction",
+      "model_8h_schedule_status": "available",
+      "key_source_ids": [
+        "9290d9f1b98e",
+        "ded2abf0332d"
+      ],
+      "care_models": "U3-Krippe, U3-Altersmischung und Ü3; VÖ-Grundpreis plus GT-Zuschlag nach Nachmittagen; Einkommen, Alleinerziehung und gleichzeitige GT-Nutzung.",
+      "findings": [
+        "Gesamttabellen enthalten Essen. Grundbeitrag, GT-Zuschlag und Essen sind separat ausgewiesen und müssen getrennt übernommen werden."
+      ],
+      "meals": {
+        "status": "separate_components"
+      },
+      "gaps": [
+        "Scan und farbige Tabellen verlangen manuelle Kontrolle; veröffentlichte Gesamtsummen nicht als reinen Betreuungsbeitrag importieren.",
+        "Betreute Geschwister und Alleinerziehenden-Zusatzkind als eigenständige Regeln modellieren."
+      ],
+      "reference_price": {
+        "description": "734,60 € U3-Krippe GT fünf Nachmittage, ein Kind, einschließlich 84 € Essen",
+        "amount_cents": 73460,
+        "source_id": "9290d9f1b98e",
+        "locator": "Bildbasierte PDF S. 7; Grundpreis 500,60 €, GT-Zuschlag 150 €, Essen 84 €; Zahlung § 6 der Benutzungsordnung",
+        "is_default_comparison": false
+      },
+      "integration_status": "not_normalized_not_active",
+      "id": "erdmannhausen",
+      "current_tariff_period": null,
+      "publication_status": "not_active"
+    },
+    {
+      "name": "Filderstadt",
+      "status": "available",
+      "sources": [
+        {
+          "title": "Offizielle Einstiegsquelle",
+          "url": "https://www.filderstadt.de/home/bildung/Anmeldung%2BKinderbetreuung.html",
+          "source_id": "c704abd5081a",
+          "archive_status": "failed_attempt",
+          "role": "supporting_or_rejected_candidate"
+        },
+        {
+          "title": "Ergänzende offizielle Quelle",
+          "url": "https://www.filderstadt.de/home/bildung/anmeldung+kinderbetreuung.html",
+          "source_id": "385c745aaa2e",
+          "archive_status": "failed_attempt",
+          "role": "supporting_or_rejected_candidate"
+        },
+        {
+          "url": "https://www.filderstadt.de/site/Filderstadt-Internet-2019/get/params_E-672562485/23320320/Benutzungs-und%20Geb%C3%BChrensatzung%20ab%2001.09.2026.pdf",
+          "title": "Ergänzende offizielle Quelle",
+          "source_id": "7b3a2062d94d",
+          "archive_status": "downloaded",
+          "role": "reviewed_key_source"
+        },
+        {
+          "url": "https://www.filderstadt.de/site/Filderstadt-Internet-2019/get/params_E-338750558/17936435/Brosch%C3%BCre%20Kinderbetreuung%20Filderstadt%20%28Stand%2008_2026%29.pdf",
+          "title": "Ergänzende offizielle Quelle",
+          "source_id": "91ba1dc6c23f",
+          "archive_status": "downloaded",
+          "role": "reviewed_key_source"
+        }
+      ],
+      "ags": "08116077",
+      "current_tariff_valid_from": "2026-09-01",
+      "care_tariffs": {
+        "u3": "found",
+        "o3": "found"
+      },
+      "payment_months": {
+        "count": 11,
+        "verification": "explicit",
+        "notes": "Beitragsmonate in der Quelle ausdrücklich genannt."
+      },
+      "income_basis": "none",
+      "model_8h_schedule_status": "schedule_to_verify",
+      "key_source_ids": [
+        "7b3a2062d94d",
+        "91ba1dc6c23f"
+      ],
+      "care_models": "U3/Ü3 ab 30 Wochenstunden, stundenweise Zubuchung, vier Familienstufen; Folgetarife 2027 separat.",
+      "findings": [
+        "Die verlinkte Seite beschriftet die Satzung teils noch als 2025; das tatsächlich heruntergeladene Dokument enthält die Änderung und Tarife September 2026."
+      ],
+      "meals": {
+        "status": "separate"
+      },
+      "gaps": [
+        "Für einen strengen Tagesbedarf die tatsächlich buchbaren Verteilungen aus den Angeboten zuordnen; Wochenstunden allein genügen nicht."
+      ],
+      "reference_price": {
+        "description": "751,80 € U3, 40 Wochenstunden, ein Kind",
+        "amount_cents": 75180,
+        "source_id": "7b3a2062d94d",
+        "locator": "PDF S. 14, U3-Tabelle; elf Teilzahlungen § 15 Abs. 4",
+        "is_default_comparison": false
+      },
+      "integration_status": "not_normalized_not_active",
+      "id": "filderstadt",
+      "current_tariff_period": null,
+      "publication_status": "not_active"
+    },
+    {
+      "name": "Freiberg am Neckar",
+      "status": "available",
+      "sources": [
+        {
+          "title": "Offizielle Einstiegsquelle",
+          "url": "https://www.freiberg-an.de/de/bildung-betreuung-soziales/kinderbetreuung/gebuehren",
+          "source_id": "c3d149e47221",
+          "archive_status": "downloaded",
+          "role": "supporting_or_rejected_candidate"
+        },
+        {
+          "url": "https://www.freiberg-an.de/fileadmin/Dateien/Dateien/Fachbereich_1/Stadtrecht_neu/Satzung_Erhebung_von_Benutzungsgebuehren_Kindergaerten_ab_01.09.2026_signiert.pdf",
+          "title": "Kindertageseinrichtungen - Satzung über die Erhebung von Benutzungsgebühren für die Kindertageseinrichtungen der Stadt Freiberg a.N.",
+          "discovered_from": "c3d149e47221",
+          "source_id": "22d5726e7e48",
+          "archive_status": "downloaded",
+          "role": "reviewed_key_source"
+        },
+        {
+          "url": "https://www.freiberg-an.de/fileadmin/Dateien/Dateien/Fachbereich_1/Stadtrecht_neu/Anlage_A_Benutzungsgebuehren_Kindergaerten_ab_01.09.2026_signiert.pdf",
+          "title": "Kindertageseinrichtungen - Benutzungsgebühren Anlage A",
+          "discovered_from": "c3d149e47221",
+          "source_id": "5f09f91f5eb1",
+          "archive_status": "downloaded",
+          "role": "reviewed_key_source"
+        },
+        {
+          "url": "https://www.freiberg-an.de/fileadmin/Dateien/Dateien/Fachbereich_1/Kinderbetreuung/Haushaltsnettoeinkommen_Rueckmeldebogen_aktuell.pdf",
+          "title": "Haushaltsnettoeinkommen Rückmeldebogen",
+          "discovered_from": "c3d149e47221",
+          "source_id": "fcb9473264ce",
+          "archive_status": "downloaded",
+          "role": "supporting_or_rejected_candidate"
+        },
+        {
+          "url": "https://www.freiberg-an.de/fileadmin/Dateien/Dateien/Fachbereich_1/Kinderbetreuung/Haushaltsnettoeinkommen_Berechnungshilfe_aktuell.pdf",
+          "title": "Haushaltsnettoeinkommen Berechnungshilfe",
+          "discovered_from": "c3d149e47221",
+          "source_id": "9f686742caff",
+          "archive_status": "downloaded",
+          "role": "supporting_or_rejected_candidate"
+        },
+        {
+          "url": "https://www.freiberg-an.de/de/bildung-betreuung-soziales/kinderbetreuung/kleinkindbetreuung",
+          "title": "Kleinkindbetreuung",
+          "discovered_from": "c3d149e47221",
+          "source_id": "eb4fe138090b",
+          "archive_status": "downloaded",
+          "role": "reviewed_key_source"
+        },
+        {
+          "title": "U3-Träger – von der Stadt verlinkt",
+          "url": "https://www.zwergenstueble-freiberg.de/",
+          "source_id": "a62ddab209b7",
+          "archive_status": "downloaded",
+          "role": "supporting_or_rejected_candidate"
+        },
+        {
+          "title": "U3-Träger – Downloadbereich zur ergänzenden Abgrenzung",
+          "url": "https://www.zwergenstueble-freiberg.de/downloads/",
+          "source_id": "bd1f2fbf9fd7",
+          "archive_status": "downloaded",
+          "role": "supporting_or_rejected_candidate"
+        },
+        {
+          "title": "Gebührenordnung Zwergenstüble Freiberg e.V., gültig ab 01.06.2026",
+          "url": "https://www.zwergenstueble-freiberg.de/wp-content/uploads/Downloads/Gebuehrenordnung.pdf",
+          "source_id": "86cec5756015",
+          "archive_status": "downloaded",
+          "role": "reviewed_key_source"
+        }
+      ],
+      "ags": "08118078",
+      "current_tariff_valid_from": null,
+      "care_tariffs": {
+        "u3": "found",
+        "o3": "found"
+      },
+      "payment_months": {
+        "count": null,
+        "verification": "age_group_specific",
+        "by_age_group": {
+          "u3": {
+            "count": 12,
+            "verification": "explicit",
+            "source_id": "86cec5756015",
+            "locator": "Gebührenordnung S. 1, Kinderkrippe: Betreuung, Mittagessen und Verpflegung zwölfmal jährlich"
+          },
+          "o3": {
+            "count": 11,
+            "verification": "explicit",
+            "source_id": "22d5726e7e48",
+            "locator": "Städtische Satzung § 5"
+          }
+        },
+        "notes": "Keinen gemeinsamen Monatsfaktor verwenden: U3 zwölf, Ü3 elf Beitragsmonate, beide durch Quellen belegt."
+      },
+      "income_basis": "monthly_household_net",
+      "model_8h_schedule_status": "available",
+      "key_source_ids": [
+        "22d5726e7e48",
+        "5f09f91f5eb1",
+        "eb4fe138090b",
+        "86cec5756015"
+      ],
+      "care_models": "U3 laut Zwergenstüble: drei bis fünf Tage, Halbtag, Halbtags-plus, GT40/44/45 und Marienstraße bis17 Uhr; zwei Nettoeinkommensstufen. Ü3 laut kommunaler Anlage: VÖ6/VÖ7/GT40/GT45.",
+      "findings": [
+        "Zwergenstüble Freiberg e.V. ist gemäß ausdrücklicher Nutzerfreigabe die U3-Referenz. Der Verein bleibt als tatsächlicher Träger gespeichert; keine pauschale Freigabe aller freien Träger.",
+        "U3-Gebührenordnung ab Juni 2026 visuell vollständig übertragen. U3 wird zwölfmal jährlich abgerechnet, Ü3 kommunal elfmal. Die Standorttabellen bleiben Angebotsvarianten derselben Kartenfläche.",
+        "Flattichstraße bietet fünfmal 7–15 Uhr (GT40): 452 € in Einkommensstufe 1, 520 € in Stufe 2, jeweils ohne Mittagessen und weitere Verpflegung."
+      ],
+      "meals": {
+        "status": "separate",
+        "u3_payment_months": 12,
+        "u3_source_id": "86cec5756015",
+        "u3_lunch_five_days_monthly_cents": 8350,
+        "u3_other_supplies_five_gt_days_monthly_cents": 3100,
+        "notes": "U3-Mittagessen sowie verpflichtendes Verpflegungsgeld für Frühstück, Snacks, Getränke und Windeln getrennt halten. Sämtliche Tagesstaffeln stehen in der manuellen Übertragung. Ü3-Zusatzkosten aus der jeweiligen Ü3-Tarifquelle verwenden."
+      },
+      "gaps": [
+        "Monatliches Haushaltsnetto einschließlich weiterer Einnahmen braucht weiterhin eine ausdrücklich definierte Modellannahme; nicht automatisch aus Jahresbrutto berechnen.",
+        "Halbtags-plus-Tagesverteilungen und Kombinationen der städtischen Geschwister- mit Passermäßigung vor der automatischen Berechnung zuordnen."
+      ],
+      "reference_price": {
+        "description": "452,00 € U3-GT40 Flattichstraße an fünf Tagen, Nettoeinkommensstufe1, vor Geschwister-/Passrabatten, ohne Zusatzkosten",
+        "amount_cents": 45200,
+        "source_id": "86cec5756015",
+        "locator": "Gebührenordnung S. 2, Flattichstraße, ganztags 40 bis 15 Uhr; Stufe 1. U3 zwölf Monate S. 1; Gültigkeit ab 01.06.2026 S. 5",
+        "is_default_comparison": false
+      },
+      "integration_status": "not_normalized_not_active",
+      "id": "freiberg",
+      "current_tariff_period": "U3 ab 01.06.2026 / Ü3 ab 01.09.2026",
+      "publication_status": "not_active",
+      "decision_ids": [
+        "2026-11-10-freiberg-u3-provider"
+      ],
+      "tariffs_by_age_group": {
+        "u3": {
+          "provider_id": "zwergenstueble-freiberg",
+          "provider_name": "Zwergenstüble Freiberg e.V.",
+          "provider_type": "registered_association",
+          "source_id": "86cec5756015",
+          "valid_from": "2026-06-01",
+          "decision_id": "2026-11-10-freiberg-u3-provider"
+        },
+        "o3": {
+          "provider_id": "municipality",
+          "source_id": "5f09f91f5eb1",
+          "valid_from": "2026-09-01"
+        }
+      },
+      "additional_reference_prices": [
+        {
+          "description": "355,00 € Ü3-GT40, jüngstes betreutes Kind, Nettoeinkommensstufe 1",
+          "amount_cents": 35500,
+          "source_id": "5f09f91f5eb1",
+          "locator": "PDF S. 2; U3-Abgrenzung Satzung § 2; elf Monate § 5",
+          "is_default_comparison": false
+        }
+      ]
+    },
+    {
+      "name": "Grafenau",
+      "status": "available",
+      "sources": [
+        {
+          "title": "Offizielle Einstiegsquelle",
+          "url": "https://www.gemeindegrafenau.de/leben-wohnen/kindertageseinrichtungen/verwaltung",
+          "source_id": "ee39a8f54d35",
+          "archive_status": "downloaded",
+          "role": "supporting_or_rejected_candidate"
+        },
+        {
+          "url": "https://www.gemeindegrafenau.de/fileadmin/Dateien/Website_2021/Dateien/Rathaus_Buergerservice/Satzungen/Gebuehren/Kindergartensatzung_und_Gebuehrenverzeichnis_zur_Satzung_ueber_d_Stand_2026.pdf",
+          "title": "Satzung über die Erhebung von Gebühren zur Benutzung der Kindertageseinrichtungen sowie der Kindertagespflege in der Gemeinde Grafenau ab 01.09.2026 (PDF-Dokument, 305,09 KB, 10.08.2026)",
+          "discovered_from": "ee39a8f54d35",
+          "source_id": "2dda8afa554c",
+          "archive_status": "downloaded",
+          "role": "reviewed_key_source"
+        }
+      ],
+      "ags": "08115054",
+      "current_tariff_valid_from": "2026-09-01",
+      "care_tariffs": {
+        "u3": "found",
+        "o3": "found"
+      },
+      "payment_months": {
+        "count": 12,
+        "verification": "explicit",
+        "notes": "Beitragsmonate in der Quelle ausdrücklich genannt."
+      },
+      "income_basis": "none",
+      "model_8h_schedule_status": "not_in_published_u3_catalog",
+      "key_source_ids": [
+        "2dda8afa554c"
+      ],
+      "care_models": "Ü3 VÖ plus ein bis fünf GT-Nachmittage; U3 nur VÖ plus ein bis drei GT-Nachmittage. TAKKI steht getrennt im selben Dokument.",
+      "findings": [
+        "Es handelt sich um Grafenau/Württemberg im Landkreis Böblingen; gleichnamige bayerische Quellen wurden nicht übernommen."
+      ],
+      "meals": {
+        "status": "separate_amount_missing"
+      },
+      "gaps": [
+        "U3-Katalog bietet höchstens drei GT-Nachmittage; daraus keinen 5×8-Stunden-Krippentarif ableiten.",
+        "TAKKI-Wochenstundenpreise sind keine Kita-Tarife. Essensbetrag ergänzend klären."
+      ],
+      "reference_price": {
+        "description": "697,00 € U3 VÖ plus drei GT-Nachmittage, ein Kind",
+        "amount_cents": 69700,
+        "source_id": "2dda8afa554c",
+        "locator": "Gebührenverzeichnis 2026/27, Ziffer 2; zwölf Monate § 2",
+        "is_default_comparison": false
+      },
+      "integration_status": "not_normalized_not_active",
+      "id": "grafenau",
+      "current_tariff_period": null,
+      "publication_status": "not_active"
+    },
+    {
+      "name": "Hemmingen",
+      "status": "available",
+      "sources": [
+        {
+          "title": "Offizielle Einstiegsquelle",
+          "url": "https://www.hemmingen.de/oeffentliche-bekanntmachungen-buergerservice/aktuelles/archiv-der-aktuellen-meldungen/6773/beschluesse-des-gemeinderates-vom-210726",
+          "source_id": "e41a1323aa90",
+          "archive_status": "downloaded",
+          "role": "supporting_or_rejected_candidate"
+        },
+        {
+          "title": "Ergänzende offizielle Quelle",
+          "url": "https://www.hemmingen.de/bildung-betreuung/kinderbetreuung",
+          "source_id": "e82f242c2f8f",
+          "archive_status": "downloaded",
+          "role": "supporting_or_rejected_candidate"
+        },
+        {
+          "title": "Ergänzende offizielle Quelle",
+          "url": "https://www.hemmingen.de/oeffentliche-bekanntmachungen-buergerservice/finanzen-steuern-und-gebuehren/aktuelle-gebuehren-steuersaetze",
+          "source_id": "ac11aea31c4d",
+          "archive_status": "downloaded",
+          "role": "supporting_or_rejected_candidate"
+        },
+        {
+          "url": "https://www.hemmingen.de/oeffentliche-bekanntmachungen-buergerservice/ortsrecht",
+          "title": "Ortsrecht",
+          "discovered_from": "ac11aea31c4d",
+          "source_id": "d7ccb70d1303",
+          "archive_status": "downloaded",
+          "role": "supporting_or_rejected_candidate"
+        },
+        {
+          "url": "https://www.hemmingen.de/fileadmin/Dateien/Dateien/Ortsrecht/26_Kindergartengebuehrensatzung_ab_01092026.pdf",
+          "title": "Kindergartengebührensatzung ab 01.09.2026 (PDF-Dokument, 53,61 KB, 23.07.2026)",
+          "discovered_from": "d7ccb70d1303",
+          "source_id": "6125abe78891",
+          "archive_status": "downloaded",
+          "role": "reviewed_key_source"
+        },
+        {
+          "url": "https://www.hemmingen.de/fileadmin/Dateien/Dateien/Ortsrecht/%C3%96ffentl._Bekanntmachunge/2026/26_Benutzungsordnung_Kitas_BVG_und_Hort_mit_Logo_sign.pdf",
+          "title": "Kindertagesstätten Benutzungsordnung (PDF-Dokument, 852,88 KB, 23.07.2026)",
+          "discovered_from": "d7ccb70d1303",
+          "source_id": "eae265451c02",
+          "archive_status": "downloaded",
+          "role": "reviewed_key_source"
+        }
+      ],
+      "ags": "08118027",
+      "current_tariff_valid_from": "2026-09-01",
+      "care_tariffs": {
+        "u3": "found",
+        "o3": "found"
+      },
+      "payment_months": {
+        "count": 12,
+        "verification": "explicit",
+        "notes": "Beitragsmonate in der Quelle ausdrücklich genannt."
+      },
+      "income_basis": "none",
+      "model_8h_schedule_status": "schedule_to_verify",
+      "key_source_ids": [
+        "6125abe78891",
+        "eae265451c02"
+      ],
+      "care_models": "U3/Ü3 bis 35 und bis 45 Wochenstunden; Kombimodell Spielgruppe/VÖ; Familienstaffeln, besondere Zeile für Alleinerziehende mit einem Kind.",
+      "findings": [
+        "Die ausdrücklich gedruckte Alleinerziehendenzeile nicht ohne Rechtsbeleg auf jede Familiengröße ausdehnen."
+      ],
+      "meals": {
+        "status": "separate_amount_missing"
+      },
+      "gaps": [
+        "Tagesverteilung der 45-Stunden-Woche und Mittagessensbetrag vor Vergleichsfreigabe bestätigen."
+      ],
+      "reference_price": {
+        "description": "595,40 € U3-GT bis 45 Stunden, Familie mit einem Kind",
+        "amount_cents": 59540,
+        "source_id": "6125abe78891",
+        "locator": "§ 3 Nr. 2c, PDF S. 4; zwölf Monatsraten Nr. 3",
+        "is_default_comparison": false
+      },
+      "integration_status": "not_normalized_not_active",
+      "id": "hemmingen",
+      "current_tariff_period": null,
+      "publication_status": "not_active"
+    },
+    {
+      "name": "Holzgerlingen",
+      "status": "available",
+      "sources": [
+        {
+          "title": "Offizielle Einstiegsquelle",
+          "url": "https://holzgerlingen.de/de/verwaltung-politik/buergerservice/kindergartengebuehren.php?y=2026",
+          "source_id": "b3b8089e0b4d",
+          "archive_status": "downloaded",
+          "role": "supporting_or_rejected_candidate"
+        },
+        {
+          "url": "https://holzgerlingen.de/de-wAssets/docs/a_die-stadt/kinder-jugend-bildung/Kindergarten/Kindertageseinrichtungen-2025-Satzung-ueber-die-Erhebung-von-Benutz.pdf",
+          "title": "Satzung über die Erhebung von Benutzungsgebühren (Elternbeiträge) für die Kinderbetreuungseinrichtungen vom 27.05.2025",
+          "discovered_from": "b3b8089e0b4d",
+          "source_id": "08a2ada2b7fc",
+          "archive_status": "downloaded",
+          "role": "reviewed_key_source"
+        },
+        {
+          "url": "https://holzgerlingen.de/de/verwaltung-politik/verwaltung-politik/ortsrecht.php",
+          "title": "Ortsrecht",
+          "discovered_from": "b3b8089e0b4d",
+          "source_id": "312d44304a33",
+          "archive_status": "downloaded",
+          "role": "supporting_or_rejected_candidate"
+        }
+      ],
+      "ags": "08115024",
+      "current_tariff_valid_from": "2025-09-01",
+      "care_tariffs": {
+        "u3": "found",
+        "o3": "found"
+      },
+      "payment_months": {
+        "count": 12,
+        "verification": "explicit",
+        "notes": "Beitragsmonate in der Quelle ausdrücklich genannt."
+      },
+      "income_basis": "none",
+      "model_8h_schedule_status": "available",
+      "key_source_ids": [
+        "08a2ada2b7fc"
+      ],
+      "care_models": "Regel/VÖ30/VÖ35, GT37,5/42,5 und U3 bis 6/7,5/8,5 Stunden; vier Familienstufen.",
+      "findings": [
+        "Ortsrecht und aktuelle Gebührenseite verlinken übereinstimmend die Fassung September 2025; kein neuer Preisstand behauptet."
+      ],
+      "meals": {
+        "status": "separate"
+      },
+      "gaps": [
+        "Die ältere Jahreszahl macht die weiterhin verlinkte, unbefristete Fassung nicht automatisch ungültig. Vor Aktivierung erneut auf Änderungen prüfen."
+      ],
+      "reference_price": {
+        "description": "471,00 € U3 bis sechs Stunden, ein Kind",
+        "amount_cents": 47100,
+        "source_id": "08a2ada2b7fc",
+        "locator": "§ 3 Abs. 7 Nr. 4a; zwölf Monatsgebühren Abs. 7",
+        "is_default_comparison": false
+      },
+      "integration_status": "not_normalized_not_active",
+      "id": "holzgerlingen",
+      "current_tariff_period": null,
+      "publication_status": "not_active"
+    },
+    {
+      "name": "Kernen im Remstal",
+      "status": "available",
+      "sources": [
+        {
+          "title": "Offizielle Einstiegsquelle",
+          "url": "https://www.kernen.de/de/rathaus-politik/buergerservice-portal/satzungen",
+          "source_id": "1d678b7a9853",
+          "archive_status": "downloaded",
+          "role": "supporting_or_rejected_candidate"
+        },
+        {
+          "url": "https://www.kernen.de/ceasy/serve/usage/main.php?view=publish&item=statute&id=1092",
+          "title": "Benutzungs- und Gebührensatzung für die kommunalen Kindertagesbetreuungseinrichtungen der Gemeinde Kernen im Remstal (Stand: 01.09.2026)",
+          "discovered_from": "1d678b7a9853",
+          "source_id": "fd9c3aef8652",
+          "archive_status": "downloaded",
+          "role": "reviewed_key_source"
+        }
+      ],
+      "ags": "08119093",
+      "current_tariff_valid_from": "2026-01-01",
+      "care_tariffs": {
+        "u3": "found",
+        "o3": "found"
+      },
+      "payment_months": {
+        "count": 12,
+        "verification": "derived",
+        "notes": "Zwölf Monate aus laufender Kalendermonatsgebühr einschließlich Ferien abgeleitet; keine ausdrücklich bezifferte Monatszahl."
+      },
+      "income_basis": "monthly_household_gross",
+      "model_8h_schedule_status": "schedule_to_verify",
+      "key_source_ids": [
+        "fd9c3aef8652"
+      ],
+      "care_models": "Regel/VÖ und U3 4/5/6 Stunden; GT-Klassen >40–43/>43–46/>46–48 Stunden. 19 ermäßigte Einkommensstufen, Vollsatz und Geschwister-/Alleinerziehungsregeln.",
+      "findings": [
+        "Das Jahr des Tarifs ist entscheidend: 2026, Januar 2027 und Januar 2028 stehen nebeneinander. Nicht den neuesten Zukunftspreis anwenden."
+      ],
+      "meals": {
+        "status": "separate"
+      },
+      "gaps": [
+        "40–43 Wochenstunden belegen keine identische Tageslänge. Konkrete GT-Wochenverteilung für die spätere Angebotsauswahl zuordnen.",
+        "Örtliche Bruttoeinkommensdefinition und Antragserfordernisse als Modellannahmen erhalten."
+      ],
+      "reference_price": {
+        "description": "495,00 € U3-GT Angebotsklasse 3, unermäßigter Satz 2026",
+        "amount_cents": 49500,
+        "source_id": "fd9c3aef8652",
+        "locator": "PDF S. 7; Einkommensbegriff S. 10–12; laufende Kalendermonatsgebühr § 7 Abs. 1",
+        "is_default_comparison": false
+      },
+      "integration_status": "not_normalized_not_active",
+      "id": "kernen",
+      "current_tariff_period": null,
+      "publication_status": "not_active"
+    },
+    {
+      "name": "Magstadt",
+      "status": "available",
+      "sources": [
+        {
+          "title": "Offizielle Einstiegsquelle",
+          "url": "https://www.magstadt.de/fileadmin/Dateien/Cross7/Startseite/Infoboxen/Kita-Gebuhren-ab-9-2025.pdf",
+          "source_id": "1714c966ed01",
+          "archive_status": "downloaded",
+          "role": "supporting_or_rejected_candidate"
+        },
+        {
+          "title": "Ergänzende offizielle Quelle",
+          "url": "https://www.magstadt.de/",
+          "source_id": "f30669ca0963",
+          "archive_status": "downloaded",
+          "role": "supporting_or_rejected_candidate"
+        },
+        {
+          "url": "https://www.magstadt.de/de/verwaltung/ortsrecht",
+          "title": "Ortsrecht",
+          "discovered_from": "f30669ca0963",
+          "source_id": "44163cd370d3",
+          "archive_status": "downloaded",
+          "role": "supporting_or_rejected_candidate"
+        },
+        {
+          "url": "https://www.magstadt.de/de/leben/kinder-jugend/kindertageseinrichtungen",
+          "title": "Kindergartenbau",
+          "discovered_from": "f30669ca0963",
+          "source_id": "f6e6c3854643",
+          "archive_status": "downloaded",
+          "role": "supporting_or_rejected_candidate"
+        },
+        {
+          "url": "https://www.magstadt.de/fileadmin/Dateien/Cross7/Startseite/Verwaltung/Ortsrecht/Benutzungsordnung-Kindertageseinrichtungen-gultig-ab-9-2026-und-9-2027-1786014996.pdf",
+          "title": "Benutzungsordnung-Kindertageseinrichtungen (gültig ab 9.2026/9.2027)",
+          "discovered_from": "44163cd370d3",
+          "source_id": "3452437844dc",
+          "archive_status": "downloaded",
+          "role": "reviewed_key_source"
+        },
+        {
+          "url": "https://www.magstadt.de/fileadmin/Dateien/Cross7/Startseite/Infoboxen/Gebuhren-ab-9-2026.pdf",
+          "title": "Kita-Gebühren ab 9.2026",
+          "discovered_from": "f6e6c3854643",
+          "source_id": "b1a41a87c490",
+          "archive_status": "downloaded",
+          "role": "reviewed_key_source"
+        }
+      ],
+      "ags": "08115029",
+      "current_tariff_valid_from": "2026-09-01",
+      "care_tariffs": {
+        "u3": "found",
+        "o3": "found"
+      },
+      "payment_months": {
+        "count": 12,
+        "verification": "explicit",
+        "notes": "Beitragsmonate in der Quelle ausdrücklich genannt."
+      },
+      "income_basis": "none",
+      "model_8h_schedule_status": "available",
+      "key_source_ids": [
+        "b1a41a87c490",
+        "3452437844dc"
+      ],
+      "care_models": "U3/Ü3: VÖ6, GT8 und GT9; Haushaltsgröße, bei Ü3 besondere Rangregel ab vier Kindern; tageweise GT-Kombination.",
+      "findings": [
+        "Die vierte Familienstufe bedeutet bei Ü3 keine pauschale Befreiung aller Geschwister. Wortlaut zur Rangfolge erhalten."
+      ],
+      "meals": {
+        "status": "per_meal"
+      },
+      "gaps": [
+        "Geburts-/Geschwisterrang bei der neuen Ü3-Regel abschließend für die Berechnung abbilden; kein pauschaler Vier-Kinder-Rabatt."
+      ],
+      "reference_price": {
+        "description": "595,00 € U3-GT8, ein Kind",
+        "amount_cents": 59500,
+        "source_id": "b1a41a87c490",
+        "locator": "PDF S. 1, U3-GT8; zwölf Monate Benutzungsordnung § 6",
+        "is_default_comparison": false
+      },
+      "integration_status": "not_normalized_not_active",
+      "id": "magstadt",
+      "current_tariff_period": null,
+      "publication_status": "not_active"
+    },
+    {
+      "name": "Marbach am Neckar",
+      "status": "available",
+      "sources": [
+        {
+          "title": "Offizielle Einstiegsquelle",
+          "url": "https://www.schillerstadt-marbach.de/leben-soziales/was-kostet-wie-viel/kindertagesstaetten/",
+          "source_id": "3ab38c80e1bd",
+          "archive_status": "downloaded",
+          "role": "reviewed_key_source"
+        },
+        {
+          "url": "https://www.schillerstadt-marbach.de/fileadmin/standard/inhalt/bilder/Kultur/Kinderbetreuung_und_Schulen/Kindertagesst%C3%A4tten/Satzung_%C3%BCber_die_Erhebung_von_Benutzungsgeb%C3%BChren_f%C3%BCr_die_Kindertageseinrichtungen_-_neu.pdf",
+          "title": "Satzung_über_die_Erhebung_von_Benutzungsgebühren_für_die_Kindertageseinrichtungen_-_neu.pdf",
+          "discovered_from": "3ab38c80e1bd",
+          "source_id": "02a52f0ce010",
+          "archive_status": "downloaded",
+          "role": "reviewed_key_source"
+        }
+      ],
+      "ags": "08118049",
+      "current_tariff_valid_from": "2026-09-01",
+      "care_tariffs": {
+        "u3": "found",
+        "o3": "found"
+      },
+      "payment_months": {
+        "count": 11,
+        "verification": "explicit",
+        "notes": "Beitragsmonate in der Quelle ausdrücklich genannt."
+      },
+      "income_basis": "pass_based_reduction",
+      "model_8h_schedule_status": "available",
+      "key_source_ids": [
+        "02a52f0ce010",
+        "3ab38c80e1bd"
+      ],
+      "care_models": "U3 VÖ6/VÖ6,5/GT8, Ü3 VÖ6/6,5/7 und GT8/GT10; vier Haushaltsgrößen; Kultur- und Freizeitpass.",
+      "findings": [
+        "Die Bezeichnungen erstes/zweites Kind in der Übersicht mit der Familiengrößendefinition aus der Satzung verknüpfen."
+      ],
+      "meals": {
+        "status": "separate"
+      },
+      "gaps": [
+        "Essenspflicht unterscheidet sich je Zeitmodell; veröffentlichte Varianten erhalten."
+      ],
+      "reference_price": {
+        "description": "715,00 € U3-GT8, ein Haushaltskind",
+        "amount_cents": 71500,
+        "source_id": "02a52f0ce010",
+        "locator": "§ 5, Tabelle 2026/27; elf Monate § 2; Essen § 6",
+        "is_default_comparison": false
+      },
+      "integration_status": "not_normalized_not_active",
+      "id": "marbach",
+      "current_tariff_period": null,
+      "publication_status": "not_active"
+    },
+    {
+      "name": "Möglingen",
+      "status": "available",
+      "sources": [
+        {
+          "title": "Offizielle Einstiegsquelle",
+          "url": "https://www.moeglingen.de/Kinderbetreuung",
+          "source_id": "2137569db896",
+          "archive_status": "downloaded",
+          "role": "supporting_or_rejected_candidate"
+        },
+        {
+          "url": "https://www.moeglingen.de/ceasy/resource/?id=5296&download=1",
+          "title": "Elternbeiträge für Kindertageseinrichtungen ab September 2026",
+          "discovered_from": "2137569db896",
+          "source_id": "13a79648a821",
+          "archive_status": "downloaded",
+          "role": "reviewed_key_source"
+        },
+        {
+          "url": "https://www.moeglingen.de/de/Rathaus/Buegerservice-A-Z/Familienpass",
+          "title": "Möglinger Familienpass",
+          "discovered_from": "2137569db896",
+          "source_id": "59e6a52d60b6",
+          "archive_status": "downloaded",
+          "role": "supporting_or_rejected_candidate"
+        },
+        {
+          "url": "https://www.moeglingen.de/de/Rathaus/Gemeindeverwaltung/Ortsrecht",
+          "title": "Ortsrecht",
+          "discovered_from": "2137569db896",
+          "source_id": "3ca3259f2695",
+          "archive_status": "downloaded",
+          "role": "supporting_or_rejected_candidate"
+        },
+        {
+          "url": "https://www.moeglingen.de/ceasy/resource/?id=4612&download=1",
+          "title": "Richtlinien für den Möglinger Familienpass",
+          "discovered_from": "59e6a52d60b6",
+          "source_id": "362f70fede0a",
+          "archive_status": "downloaded",
+          "role": "reviewed_key_source"
+        },
+        {
+          "title": "Übersicht aller Betreuungsangebote",
+          "url": "https://www.moeglingen.de/ceasy/resource/?id=4926&download=1",
+          "source_id": "6630cc14137e",
+          "archive_status": "downloaded",
+          "role": "reviewed_key_source"
+        }
+      ],
+      "ags": "08118051",
+      "current_tariff_valid_from": "2026-09-01",
+      "care_tariffs": {
+        "u3": "found",
+        "o3": "found"
+      },
+      "payment_months": {
+        "count": 12,
+        "verification": "user_confirmed",
+        "decision_id": "2026-11-10-moeglingen-payment-months",
+        "notes": "Zwölf Beitragsmonate gemäß Nutzerfestlegung. Keine zusätzliche amtliche Bestätigung behauptet."
+      },
+      "income_basis": "pass_based_reduction",
+      "model_8h_schedule_status": "available",
+      "key_source_ids": [
+        "13a79648a821",
+        "362f70fede0a",
+        "6630cc14137e"
+      ],
+      "care_models": "U3/Ü3 mit 6/7/8/9/10 Stunden, vier Haushaltsgrößen, gesondert gedruckte Familienpassbeträge.",
+      "findings": [
+        "Familienpass reduziert um 35 %, gezahlt werden 65 %. Ab vier kindergeldberechtigten Kindern kann ein Anspruch bestehen.",
+        "Für die Jahresnormalisierung werden gemäß Nutzerfestlegung zwölf Betreuungs-Beitragsmonate angesetzt."
+      ],
+      "meals": {
+        "status": "separate"
+      },
+      "gaps": [
+        "Einrichtungsbezogene Zusatzbeiträge bleiben in der Tabelle unbeziffert."
+      ],
+      "reference_price": {
+        "description": "432,00 € U3-GT8, ein Kind, ohne Familienpass",
+        "amount_cents": 43200,
+        "source_id": "13a79648a821",
+        "locator": "PDF S. 1, U3-Tabelle; Familienpass Richtlinie II Nr. 4",
+        "is_default_comparison": false
+      },
+      "integration_status": "not_normalized_not_active",
+      "id": "moeglingen",
+      "current_tariff_period": null,
+      "publication_status": "not_active",
+      "decision_ids": [
+        "2026-11-10-moeglingen-payment-months"
+      ]
+    },
+    {
+      "name": "Ostfildern",
+      "status": "available",
+      "sources": [
+        {
+          "title": "Offizielle Einstiegsquelle",
+          "url": "https://www.ostfildern.de/betreuungsgebuehren",
+          "source_id": "030db2e905e2",
+          "archive_status": "downloaded",
+          "role": "supporting_or_rejected_candidate"
+        },
+        {
+          "url": "https://www.ostfildern.de/resources/02%20Datenobjekte/E-B%C3%BCrgerservice/Satzungen/4-Soziale%20Sicherung/4_1_Satzung%20Kitageb%C3%BChren%20ab%201_9_26_barrierearm.pdf",
+          "title": "Satzung zur Benutzungsgebühr inkl. Gebührentabellen",
+          "discovered_from": "030db2e905e2",
+          "source_id": "af550fae0296",
+          "archive_status": "downloaded",
+          "role": "reviewed_key_source"
+        }
+      ],
+      "ags": "08116080",
+      "current_tariff_valid_from": "2026-09-01",
+      "care_tariffs": {
+        "u3": "found",
+        "o3": "found"
+      },
+      "payment_months": {
+        "count": 12,
+        "verification": "explicit",
+        "notes": "Beitragsmonate in der Quelle ausdrücklich genannt."
+      },
+      "income_basis": "annual_household_gross_with_adjustments",
+      "model_8h_schedule_status": "schedule_to_verify",
+      "key_source_ids": [
+        "af550fae0296"
+      ],
+      "care_models": "U3/Ü3, 12 Einkommensstufen und vier Familiengrößen; 30/35/40/45/50 Stunden je Altersgruppe laut Tabelle. Mehrere zukünftige Tarifjahre gesondert.",
+      "findings": [
+        "Maßgebliches Einkommen basiert auf dem Vorjahr, enthält weitere Einkünfte und berücksichtigt Werbungskosten; keine unbelegte Bruttokonvertierung."
+      ],
+      "meals": {
+        "status": "separate"
+      },
+      "gaps": [
+        "Die Satzung nennt im Text andere Grundbuchungs-/Zusatzpakete als einige Tabellenspalten. Nicht jede bepreiste 50-Stunden-Spalte als aktuell buchbares Angebot behandeln.",
+        "Konkrete Tagesverteilung vor strenger 8-Stunden-Auswahl prüfen."
+      ],
+      "reference_price": {
+        "description": "221,00 € Ü3-GT40, Einkommensstufe ab 80.000 €, ein Kind",
+        "amount_cents": 22100,
+        "source_id": "af550fae0296",
+        "locator": "PDF S. 10, Tabelle gültig 2026/27; zwölf Monate § 6 Abs. 3",
+        "is_default_comparison": false
+      },
+      "integration_status": "not_normalized_not_active",
+      "id": "ostfildern",
+      "current_tariff_period": null,
+      "publication_status": "not_active"
+    },
+    {
+      "name": "Plochingen",
+      "status": "available",
+      "sources": [
+        {
+          "title": "Offizielle Einstiegsquelle",
+          "url": "https://www.plochingen.de/%2CLen/start/leben%2B_%2Bwohnen/kinderbetreuungsangebote.html",
+          "source_id": "5e569a63d9ba",
+          "archive_status": "downloaded",
+          "role": "supporting_or_rejected_candidate"
+        },
+        {
+          "url": "https://www.plochingen.de/site/Plochingen-Layout-2019/get/params_E564146024/17512502/Kindergartengeb%C3%BChren%202026%202027%20ab%2001.09.2026.pdf",
+          "title": "Kindergartengebühren 2026/2027 (PDF / 143.3 KiB)",
+          "discovered_from": "5e569a63d9ba",
+          "source_id": "f19acfa12958",
+          "archive_status": "downloaded",
+          "role": "reviewed_key_source"
+        },
+        {
+          "url": "https://www.plochingen.de/site/Plochingen-Layout-2019/get/params_E-1056470380/25451070/Kindergartengeb%C3%BChren%202027%202028%20ab%2001.09.2027.pdf",
+          "title": "Kindergartengebühren 2027/2028 (PDF / 143.4 KiB)",
+          "discovered_from": "5e569a63d9ba",
+          "source_id": "b4fe94267606",
+          "archive_status": "downloaded",
+          "role": "supporting_or_rejected_candidate"
+        }
+      ],
+      "ags": "08116056",
+      "current_tariff_valid_from": "2026-09-01",
+      "care_tariffs": {
+        "u3": "found",
+        "o3": "found"
+      },
+      "payment_months": {
+        "count": 12,
+        "verification": "explicit",
+        "notes": "Beitragsmonate in der Quelle ausdrücklich genannt."
+      },
+      "income_basis": "none",
+      "model_8h_schedule_status": "friday_too_short",
+      "key_source_ids": [
+        "f19acfa12958"
+      ],
+      "care_models": "Regel/VÖ, U3-Altersmischung ab zwei Jahren, Kinderkrippe und GT-Mischwochen mit zwei bis vier Nachmittagen.",
+      "findings": [
+        "Veröffentlichte GT-Wochen haben freitags 7–13 Uhr. Ein 5×8-Stunden-Modell ist damit nicht belegt."
+      ],
+      "meals": {
+        "status": "separate"
+      },
+      "gaps": [
+        "GT-Freitagsgrenze erhalten. Die aktuelle Übersicht gilt für mehrere Träger; kommunale Angebote vor Tarifzuordnung filtern."
+      ],
+      "reference_price": {
+        "description": "186,00 € Ü3-Regel/VÖ, ein Kind",
+        "amount_cents": 18600,
+        "source_id": "f19acfa12958",
+        "locator": "PDF S. 1; zwölf Monate und Essensabrechnung im Hinweisblock",
+        "is_default_comparison": false
+      },
+      "integration_status": "not_normalized_not_active",
+      "id": "plochingen",
+      "current_tariff_period": null,
+      "publication_status": "not_active"
+    },
+    {
+      "name": "Remseck am Neckar",
+      "status": "available",
+      "sources": [
+        {
+          "title": "Offizielle Einstiegsquelle",
+          "url": "https://nhkita.remseck.de/uebersicht.html",
+          "source_id": "ad6db7b5c377",
+          "archive_status": "downloaded",
+          "role": "supporting_or_rejected_candidate"
+        },
+        {
+          "title": "Ergänzende offizielle Quelle",
+          "url": "https://www.remseck.de/",
+          "source_id": "f7e603792b23",
+          "archive_status": "downloaded",
+          "role": "supporting_or_rejected_candidate"
+        },
+        {
+          "url": "https://www.remseck.de/kultur-leben-wohnen/kinder-jugend-bildung/kinderbetreuung",
+          "title": "Zentrale Anmeldung - Kinderbetreuung",
+          "discovered_from": "f7e603792b23",
+          "source_id": "d9442ba0f30c",
+          "archive_status": "downloaded",
+          "role": "supporting_or_rejected_candidate"
+        },
+        {
+          "url": "https://www.remseck.de/resources/02%20Datenobjekte/E-B%C3%BCrgerservice/Satzungen/Betreuungssatzung%20g%C3%BCltig%20ab%201.%20September%202026.pdf",
+          "title": "Betreuung: Gebührensatzung (gültig ab 1. September 2026) (PDF)",
+          "discovered_from": "d9442ba0f30c",
+          "source_id": "5ebe63b06876",
+          "archive_status": "downloaded",
+          "role": "reviewed_key_source"
+        },
+        {
+          "url": "https://www.stadt-remseck.de/satzung/Betreuungssatzung-Nutzungsordnung-fuer-die-Tageseinrichtungen-gem-1-KiTaG-gueltig-ab-01-09-2026-statute16594",
+          "title": "Betreuung: Nutzungssatzung (gültig ab. 1 September 2026) (PDF)",
+          "discovered_from": "d9442ba0f30c",
+          "source_id": "fe83dd3d20d8",
+          "archive_status": "downloaded",
+          "role": "reviewed_key_source"
+        }
+      ],
+      "ags": "08118081",
+      "current_tariff_valid_from": "2026-09-01",
+      "care_tariffs": {
+        "u3": "found",
+        "o3": "found"
+      },
+      "payment_months": {
+        "count": 11,
+        "verification": "explicit",
+        "notes": "Beitragsmonate in der Quelle ausdrücklich genannt."
+      },
+      "income_basis": "pass_based_reduction",
+      "model_8h_schedule_status": "available",
+      "key_source_ids": [
+        "5ebe63b06876",
+        "fe83dd3d20d8"
+      ],
+      "care_models": "Ü3 6/7,5/10 Stunden; U3 VÖ/gesonderte Krippe/7,5/10 Stunden; vier Staffeln und Befreiung ab fünf Haushaltskindern.",
+      "findings": [
+        "Essen wird nur zehn Monate erhoben, Betreuung elf. Für Essen Grenze 1–2 Jahre/über zwei Jahre, nicht U3/Ü3."
+      ],
+      "meals": {
+        "status": "separate"
+      },
+      "gaps": [
+        "Pattonville/Zweckverband besitzt eigene Entgelte; den kommunalen Tarif nicht ungeprüft auf alle Einrichtungen im Stadtgebiet ausdehnen.",
+        "Künftige Familienauswahl muss das fünfte Kind berücksichtigen."
+      ],
+      "reference_price": {
+        "description": "813,00 € U3-GT10, ein Kind",
+        "amount_cents": 81300,
+        "source_id": "5ebe63b06876",
+        "locator": "Anlage 1, PDF S. 6; Betreuung elf, Essen zehn Monate",
+        "is_default_comparison": false
+      },
+      "integration_status": "not_normalized_not_active",
+      "id": "remseck",
+      "current_tariff_period": null,
+      "publication_status": "not_active"
+    },
+    {
+      "name": "Renningen",
+      "status": "available",
+      "sources": [
+        {
+          "title": "Offizielle Einstiegsquelle",
+          "url": "https://www.renningen.de/renninger-in/familienportal/kinderbetreuung/informationen-service/gebuehren-und-satzungen/?sds=1",
+          "source_id": "9cb2d5d59c60",
+          "archive_status": "downloaded",
+          "role": "reviewed_key_source"
+        },
+        {
+          "url": "https://www.renningen.de/dokumente/ortsrecht/oeffentliche-einrichtungen-alphabetisch/kindertageseinrichtungen-spielgruppen-tagespfelge/spielgruppen-benutzungs-und-gebuehrensatzung-09.2026.pdf?cid=1sks&sds=1",
+          "title": "städtische Benutzungs- und Gebührensatzung",
+          "discovered_from": "9cb2d5d59c60",
+          "source_id": "bb4cc2c68bd2",
+          "archive_status": "downloaded",
+          "role": "reviewed_key_source"
+        }
+      ],
+      "ags": "08115041",
+      "current_tariff_valid_from": "2026-09-01",
+      "care_tariffs": {
+        "u3": "found",
+        "o3": "found"
+      },
+      "payment_months": {
+        "count": 12,
+        "verification": "explicit",
+        "notes": "Beitragsmonate in der Quelle ausdrücklich genannt."
+      },
+      "income_basis": "none",
+      "model_8h_schedule_status": "available",
+      "key_source_ids": [
+        "bb4cc2c68bd2",
+        "9cb2d5d59c60"
+      ],
+      "care_models": "U3 VÖ30/GT40, Ü3 VÖ/GT40/GT46 mit Wochenstundenformel; Spielgruppen gesondert; 2027 separat.",
+      "findings": [
+        "Die Tariftabellen auf den letzten zwei PDF-Seiten sind Bildobjekte und fehlen weitgehend im automatischen Textauszug. Sie wurden visuell gelesen."
+      ],
+      "meals": {
+        "status": "separate_amount_missing"
+      },
+      "gaps": [
+        "Ü3-Grundpreis, Stundenfaktor und Zuschlag gemäß Satzung zusammen modellieren; der einzelne Stundenwert ist kein Monatsbeitrag.",
+        "Verpflegung kostendeckend zusätzlich, fester Betrag in der Quelle nicht ausgewiesen."
+      ],
+      "reference_price": {
+        "description": "656,00 € U3-GT40, ein Kind",
+        "amount_cents": 65600,
+        "source_id": "bb4cc2c68bd2",
+        "locator": "Bildtabelle PDF S. 9; Tagesdauer § 3; zwölf Monate kommunale Gebührenseite",
+        "is_default_comparison": false
+      },
+      "integration_status": "not_normalized_not_active",
+      "id": "renningen",
+      "current_tariff_period": null,
+      "publication_status": "not_active"
+    },
+    {
+      "name": "Rutesheim",
+      "status": "available",
+      "sources": [
+        {
+          "title": "Offizielle Einstiegsquelle",
+          "url": "https://service.rutesheim.de/bi/vo0050.php?__kvonr=3928",
+          "source_id": "7ccd28aca579",
+          "archive_status": "downloaded",
+          "role": "supporting_or_rejected_candidate"
+        },
+        {
+          "url": "https://service.rutesheim.de/bi/getfile.php?id=14795&type=do",
+          "title": "DS26-055-Anlage 1-Änderung Kita-Gebührensatzung",
+          "discovered_from": "7ccd28aca579",
+          "source_id": "2189c4f26a64",
+          "archive_status": "downloaded",
+          "role": "reviewed_key_source"
+        },
+        {
+          "url": "https://service.rutesheim.de/bi/getfile.php?id=14628&type=do",
+          "title": "DS26-055-Anlage 3-Kita-Gebührenerhöhung",
+          "discovered_from": "7ccd28aca579",
+          "source_id": "124b9146823f",
+          "archive_status": "downloaded",
+          "role": "supporting_or_rejected_candidate"
+        },
+        {
+          "title": "Ergänzende offizielle Quelle",
+          "url": "https://www.rutesheim.de/site/Rutesheim-Internet-2021/get/params_E814195716/21552104/240819_Geb%C3%BChren%20Kindertagesst%C3%A4tten.pdf",
+          "source_id": "3ffe1980c0fd",
+          "archive_status": "downloaded",
+          "role": "reviewed_key_source"
+        }
+      ],
+      "ags": "08115042",
+      "current_tariff_valid_from": "2026-09-01",
+      "care_tariffs": {
+        "u3": "found",
+        "o3": "found"
+      },
+      "payment_months": {
+        "count": 12,
+        "verification": "explicit",
+        "notes": "Beitragsmonate in der Quelle ausdrücklich genannt."
+      },
+      "income_basis": "income_based_pass_contribution",
+      "model_8h_schedule_status": "available",
+      "key_source_ids": [
+        "3ffe1980c0fd",
+        "2189c4f26a64"
+      ],
+      "care_models": "Regel/VÖ, U3-Krippe bis 13:30/15/17 Uhr, Sharingplätze und Ü3-GT-Tageskombinationen; 50-Euro-Geschwisterabzug.",
+      "findings": [
+        "Die PDF-URL klingt älter; der heruntergeladene Inhalt ist ab September 2026 gültig. Folgetarif 2027 getrennt archiviert."
+      ],
+      "meals": {
+        "status": "separate_amount_missing"
+      },
+      "gaps": [
+        "Gemeinsame Nutzung von Krippe/GT/Hort und Zuordnung des 50-Euro-Abzugs fachlich abbilden.",
+        "Familienpass nennt 10 % Einkommenseigenanteil; Bemessungsdefinition vor automatischer Ermäßigung ergänzen. Essensbetrag fehlt."
+      ],
+      "reference_price": {
+        "description": "490,00 € U3-Krippe Vollzeit bis 15 Uhr, ein Kind",
+        "amount_cents": 49000,
+        "source_id": "3ffe1980c0fd",
+        "locator": "PDF S. 1; zwölf Monate im Kopf; Änderungsfassung Juni 2026 separat",
+        "is_default_comparison": false
+      },
+      "integration_status": "not_normalized_not_active",
+      "id": "rutesheim",
+      "current_tariff_period": null,
+      "publication_status": "not_active"
+    },
+    {
+      "name": "Schönaich",
+      "status": "available",
+      "sources": [
+        {
+          "title": "Offizielle Einstiegsquelle",
+          "url": "https://www.schoenaich.de/rathaus-service/ortsrecht",
+          "source_id": "5d1bd59caf8b",
+          "archive_status": "downloaded",
+          "role": "supporting_or_rejected_candidate"
+        },
+        {
+          "url": "https://www.schoenaich.de/fileadmin/Dateien/Website/B_-_Dateien/02_-_Rathaus_und_Service/Ortsrecht/Neue_Kita-Satzung_zum_01.09.2026.pdf",
+          "title": "Satzung über die Benutzung sowie die Erhebung von Betreuungsgebühren für die Kindertageseinrichtungen (\"Kita-Satzung\") (PDF-Dokument)",
+          "discovered_from": "5d1bd59caf8b",
+          "source_id": "15f1df9d333e",
+          "archive_status": "downloaded",
+          "role": "reviewed_key_source"
+        },
+        {
+          "url": "https://www.schoenaich.de/fileadmin/Dateien/Website/B_-_Dateien/02_-_Rathaus_und_Service/Ortsrecht/Anlage_zur_neuen_Kita-Satzung_zum_01.09.2026.pdf",
+          "title": "Anlage zur Satzung über die Benutzung sowie die Erhebung von Betreuungsgebühren für die Kindertageseinrichtungen („Kita-Satzung“) – Gebührenverzeichnis (PDF-Dokument)",
+          "discovered_from": "5d1bd59caf8b",
+          "source_id": "1c7e3b410b71",
+          "archive_status": "downloaded",
+          "role": "reviewed_key_source"
+        }
+      ],
+      "ags": "08115044",
+      "current_tariff_valid_from": "2026-09-01",
+      "care_tariffs": {
+        "u3": "found",
+        "o3": "found"
+      },
+      "payment_months": {
+        "count": 12,
+        "verification": "derived",
+        "notes": "Zwölf Monate aus laufender Kalendermonatsgebühr einschließlich Ferien abgeleitet; keine ausdrücklich bezifferte Monatszahl."
+      },
+      "income_basis": "pass_based_reduction",
+      "model_8h_schedule_status": "not_in_published_u3_catalog",
+      "key_source_ids": [
+        "1c7e3b410b71",
+        "15f1df9d333e"
+      ],
+      "care_models": "VÖ ab 30 Stunden proportional, Ü3-GT51,5 und U3-GT37,5; vier Familienstufen; Mittagessen 85 €/Monat.",
+      "findings": [
+        "Maßgeblich ist die Ortsrechtsanlage September 2026, auch wenn die Kita-Anmeldeseite noch auf 2025 verweist."
+      ],
+      "meals": {
+        "status": "separate"
+      },
+      "gaps": [
+        "Die U3-GT-Tabelle bepreist 37,5 Stunden. Ohne weiteren Angebotsbeleg keinen 40-Stunden-Krippentarif hochrechnen."
+      ],
+      "reference_price": {
+        "description": "690,00 € U3-GT37,5, ein Kind",
+        "amount_cents": 69000,
+        "source_id": "1c7e3b410b71",
+        "locator": "PDF S. 2, Buchst. d; monatliche Ferienpflicht § 4 der Satzung",
+        "is_default_comparison": false
+      },
+      "integration_status": "not_normalized_not_active",
+      "id": "schoenaich",
+      "current_tariff_period": null,
+      "publication_status": "not_active"
+    },
+    {
+      "name": "Schwieberdingen",
+      "status": "clarification_required",
+      "sources": [
+        {
+          "title": "Offizielle Einstiegsquelle",
+          "url": "https://www.schwieberdingen.de/lernen-und-gesellschaft/bildung-und-betreuung/kinderbetreuungseinrichtungen",
+          "source_id": "483de900d001",
+          "archive_status": "downloaded",
+          "role": "supporting_or_rejected_candidate"
+        },
+        {
+          "url": "https://www.schwieberdingen.de/gemeinde-und-politik/rathaus/ortsrecht--satzung",
+          "title": "Ortsrecht & Satzung",
+          "discovered_from": "483de900d001",
+          "source_id": "878f475646aa",
+          "archive_status": "downloaded",
+          "role": "supporting_or_rejected_candidate"
+        },
+        {
+          "url": "https://www.schwieberdingen.de/site/Schwieberdingen-2025/get/params_E415005327/25529925/Elternbeitraege%20in%20den%20gemeindli_2.pdf",
+          "title": "Elternbeiträge im Krippenbereich (U3) und Kindergarten (Ü3) (PDF | 103 KB)",
+          "discovered_from": "483de900d001",
+          "source_id": "4816bf4b07a7",
+          "archive_status": "downloaded",
+          "role": "reviewed_key_source"
+        }
+      ],
+      "ags": "08118067",
+      "current_tariff_valid_from": "2026-09-01",
+      "care_tariffs": {
+        "u3": "found",
+        "o3": "found"
+      },
+      "payment_months": {
+        "count": 11,
+        "verification": "user_confirmed",
+        "decision_id": "2026-11-10-schwieberdingen-payments-and-family-rules",
+        "notes": "Nutzer bestätigt elf Monate September bis Juli mit Verweis auf die Ordnung. Die aktuell gesicherte Beitragstabelle enthält diese Passage nicht; kein Quellenfundort erfunden und keine Schulkindordnung als Kita-Beleg verwendet."
+      },
+      "income_basis": "none",
+      "model_8h_schedule_status": "available",
+      "key_source_ids": [
+        "4816bf4b07a7"
+      ],
+      "care_models": "U3 6–10 Stunden, Ü3 VÖ/MeKi/8/9/10; Haushaltszahl, Alleinerziehende, gleichzeitiger Besuch und besondere Ü3-Geschwisterrabatte.",
+      "findings": [
+        "Elf Beitragsmonate September bis Juli gemäß Nutzerbestätigung übernommen; Herkunft getrennt von der aktuellen Gebührentabelle erhalten.",
+        "U3 verwendet die Haushaltskinderzahl mit einer zusätzlichen Stufe je zutreffendem Ermäßigungsgrund: Alleinerziehung sowie mindestens zwei gleichzeitig U3-betreute Kinder. Die ausdrücklich gewählte kumulative Modellregel ist keine nachgewiesene amtliche Auslegung.",
+        "Ü3 unterscheidet bei zwei und drei Haushaltskindern veröffentlichte erste und zweite Sätze für gleichzeitig betreute Kinder. Bei Alleinerziehung gilt die nächstgünstigere Familienstufe; ab Stufe vier entfällt die Rangaufteilung. Verwendet werden die Tabellen ab September 2026, keine älteren Beispielbeträge.",
+        "U3-Pflegeartikel 7 €, Windeln bei Bedarf 7 € und Essen 85 € sind separat veröffentlicht. Ü3-Essen je Mahlzeit ohne Betrag; Frühstück, falls angeboten, 15 €/Monat."
+      ],
+      "meals": {
+        "status": "separate"
+      },
+      "gaps": [
+        "Ü3-Rangzuordnung bei gleichzeitig betreuten Kindern mit unterschiedlichen Betreuungszeiten öffentlich nicht belegt. Ohne belegte oder ausdrücklich gewählte Rangregel keine willkürliche Alters- oder Preisreihenfolge verwenden; nur betroffene Konfigurationen bleiben offen.",
+        "Für drei gleichzeitig betreute Ü3-Kinder in der Drei-Kinder-Stufe ist keine dritte Rangzelle veröffentlicht; vor einer Berechnung gesondert klären. Fälle ohne Einfluss der Rangfolge und die einheitliche Stufe vier sind hiervon unabhängig.",
+        "Ü3-Essenspreis unbekannt; zusätzliche Essens- und Verpflegungs-Beitragsmonate nicht automatisch aus den elf Betreuungsmonaten ableiten."
+      ],
+      "reference_price": {
+        "description": "559,00 € U3 bis acht Stunden, ein Kind",
+        "amount_cents": 55900,
+        "source_id": "4816bf4b07a7",
+        "locator": "PDF S. 1, obere Tabelle und Fußnoten",
+        "is_default_comparison": false
+      },
+      "integration_status": "not_normalized_not_active",
+      "id": "schwieberdingen",
+      "current_tariff_period": null,
+      "publication_status": "not_active",
+      "decision_ids": [
+        "2026-11-10-schwieberdingen-payments-and-family-rules",
+        "2026-11-10-schwieberdingen-u3-cumulative-reductions"
+      ],
+      "family_rules": {
+        "source_id": "4816bf4b07a7",
+        "valid_from": "2026-09-01",
+        "household_children_basis": "children_under_18_in_family",
+        "u3": {
+          "verification": "user_assumption",
+          "decision_id": "2026-11-10-schwieberdingen-u3-cumulative-reductions",
+          "base_band": "household_children_under_18",
+          "band_shift_per_condition": 1,
+          "conditions": [
+            "single_parent",
+            "at_least_two_children_in_simultaneous_u3_care"
+          ],
+          "combination": "sum_condition_shifts",
+          "lowest_published_band": 4,
+          "overflow_handling": "cap_at_lowest_published_band_without_further_discount",
+          "apply_to_each_u3_child": true,
+          "notes": "Kumulation und Begrenzung sind Modellregeln. Kein zusätzlicher Prozentrabatt und keine erfundene fünfte Beitragsstufe."
+        },
+        "o3": {
+          "verification": "source_and_user_clarification",
+          "decision_id": "2026-11-10-schwieberdingen-payments-and-family-rules",
+          "base_band": "household_children_under_18",
+          "single_parent_band_shift": 1,
+          "one_attending_child_rank": 1,
+          "two_attending_children_ranks": [
+            1,
+            2
+          ],
+          "uniform_rank_band_from": 4,
+          "use_published_cells": true,
+          "rank_order_for_different_care_hours": "unresolved",
+          "supported_without_rank_order": [
+            "one_child_in_o3_care",
+            "two_children_with_rank_invariant_total",
+            "uniform_rank_band"
+          ],
+          "notes": "Originaltabellenbeträge statt freier Halbierung verwenden. Gleichzeitiger U3-Besuch erzeugt keinen zusätzlichen Ü3-Rangrabatt. Eine dritte Ü3-Rangzelle ist für die Drei-Kinder-Stufe nicht veröffentlicht und darf nicht erfunden werden."
+        }
+      },
+      "calculation_examples": [
+        {
+          "description": "Ein U3-Kind, acht Stunden, ein Haushaltskind ohne Ermäßigung",
+          "monthly_care_cents": 55900,
+          "payment_months": 11,
+          "monthly_equivalent_cents": 51242,
+          "source_id": "4816bf4b07a7",
+          "decision_ids": [
+            "2026-11-10-schwieberdingen-payments-and-family-rules"
+          ],
+          "is_default_comparison": false
+        },
+        {
+          "description": "Zwei U3-Kinder, je acht Stunden, zwei Haushaltskinder, alleinerziehend: Stufe 2 + zwei Ermäßigungsgründe = Stufe 4",
+          "household_children": 2,
+          "single_parent": true,
+          "simultaneous_u3_children": 2,
+          "selected_band": 4,
+          "per_child_monthly_care_cents": 13900,
+          "family_monthly_care_cents": 27800,
+          "payment_months": 11,
+          "family_monthly_equivalent_cents": 25483,
+          "source_id": "4816bf4b07a7",
+          "decision_ids": [
+            "2026-11-10-schwieberdingen-payments-and-family-rules",
+            "2026-11-10-schwieberdingen-u3-cumulative-reductions"
+          ],
+          "is_default_comparison": false
+        },
+        {
+          "description": "Zwei Ü3-Kinder, beide VÖ, zwei Haushaltskinder, alleinerziehend: Stufe 3, erster und zweiter Tabellensatz",
+          "household_children": 2,
+          "single_parent": true,
+          "simultaneous_o3_children": 2,
+          "selected_band": 3,
+          "per_child_monthly_care_cents": [
+            9800,
+            4900
+          ],
+          "family_monthly_care_cents": 14700,
+          "payment_months": 11,
+          "family_monthly_equivalent_cents": 13475,
+          "source_id": "4816bf4b07a7",
+          "decision_ids": [
+            "2026-11-10-schwieberdingen-payments-and-family-rules"
+          ],
+          "is_default_comparison": false
+        }
+      ],
+      "unavailable_configurations": [
+        {
+          "id": "o3_rank_changes_family_total",
+          "conditions": {
+            "simultaneous_o3_children_min": 2,
+            "selected_band_in": [
+              2,
+              3
+            ],
+            "different_care_hours": true,
+            "rank_changes_family_total": true
+          },
+          "result_status": "unavailable",
+          "reasons": [
+            "Rangzuordnung für gleichzeitig betreute Ü3-Kinder mit unterschiedlichen Betreuungszeiten nicht belegt."
+          ],
+          "do_not_guess_rank": true
+        },
+        {
+          "id": "o3_missing_third_rank",
+          "conditions": {
+            "simultaneous_o3_children_min": 3,
+            "selected_band": 3
+          },
+          "result_status": "unavailable",
+          "reasons": [
+            "Kein veröffentlichter dritter Ü3-Tabellensatz für die Drei-Kinder-Stufe."
+          ],
+          "do_not_invent_price_cell": true
+        }
+      ]
+    },
+    {
+      "name": "Steinenbronn",
+      "status": "available",
+      "sources": [
+        {
+          "title": "Offizielle Einstiegsquelle",
+          "url": "https://www.steinenbronn.de/leben-wohnen/kinder/kindertageseinrichtungen",
+          "source_id": "e81f520977e7",
+          "archive_status": "downloaded",
+          "role": "supporting_or_rejected_candidate"
+        },
+        {
+          "url": "https://www.steinenbronn.de/fileadmin/Dateien/Website/Dateien/Bekanntmachungen/2026_Anlage_1_Benutzungs-_und_Geb%C3%BChrensatzung_Kita.pdf",
+          "title": "Gebühren (PDF-Datei)",
+          "discovered_from": "e81f520977e7",
+          "source_id": "08565d2926c2",
+          "archive_status": "downloaded",
+          "role": "reviewed_key_source"
+        },
+        {
+          "url": "https://www.steinenbronn.de/fileadmin/Dateien/Website/Dateien/Kinder/2026_Satzung_%C3%BCber_die_Nutzung_sowie_die_Geb%C3%BChren_der_Kindertageseinrichtungen_inkl._Anlage_1-signed.pdf",
+          "title": "Über diesen Link gelangen Sie zur Satzung über die Nutzung sowie die Gebühren der Kindertageseinrichtungen der Gemeinde Steinenbronn (PDF-Dokument, 832,06 KB, 20.10.2026)",
+          "discovered_from": "e81f520977e7",
+          "source_id": "04fd37644a31",
+          "archive_status": "downloaded",
+          "role": "reviewed_key_source"
+        }
+      ],
+      "ags": "08115046",
+      "current_tariff_valid_from": "2026-09-01",
+      "care_tariffs": {
+        "u3": "found",
+        "o3": "found"
+      },
+      "payment_months": {
+        "count": 12,
+        "verification": "user_assumption",
+        "decision_id": "2026-11-10-steinenbronn-payment-months",
+        "notes": "Zwölf Beitragsmonate gemäß Nutzerfestlegung. Keine zusätzliche amtliche Bestätigung behauptet."
+      },
+      "income_basis": "none",
+      "model_8h_schedule_status": "not_in_published_u3_catalog",
+      "key_source_ids": [
+        "08565d2926c2",
+        "04fd37644a31"
+      ],
+      "care_models": "U3/Ü3 mit 32,5/35 und gemischten 37/39/41 Wochenstunden; Splitting20/21 für U3.",
+      "findings": [
+        "41 Wochenstunden bedeuten drei GT-Nachmittage. Andere Tage bleiben kürzer; nicht als gleichmäßige 5×8-Stunden-Woche speichern.",
+        "Für die Jahresnormalisierung werden gemäß Nutzerfestlegung zwölf Betreuungs-Beitragsmonate angesetzt."
+      ],
+      "meals": {
+        "status": "separate_amount_missing"
+      },
+      "gaps": [
+        "Essensbetrag nicht gesichert. Im veröffentlichten Katalog weiterhin kein belegtes U3-Angebot mit acht Stunden an allen fünf Tagen; keine Hochrechnung aus der Mischwoche."
+      ],
+      "reference_price": {
+        "description": "476,00 € U3 41 Wochenstunden, drei Nachmittage, ein Kind",
+        "amount_cents": 47600,
+        "source_id": "08565d2926c2",
+        "locator": "PDF S. 1; alternative Monatsraten Satzung § 6 Abs. 1",
+        "is_default_comparison": false
+      },
+      "integration_status": "not_normalized_not_active",
+      "id": "steinenbronn",
+      "current_tariff_period": null,
+      "publication_status": "not_active",
+      "decision_ids": [
+        "2026-11-10-steinenbronn-payment-months"
+      ]
+    },
+    {
+      "name": "Tamm",
+      "status": "available",
+      "sources": [
+        {
+          "title": "Offizielle Einstiegsquelle",
+          "url": "https://www.tamm.org/de/bildung-soziales/kindertages-einrichtungen/beitraege-und-oeffnungszeiten",
+          "source_id": "44cdb8fc520a",
+          "archive_status": "downloaded",
+          "role": "reviewed_key_source"
+        },
+        {
+          "url": "https://www.tamm.org/fileadmin/Dateien/Dateien/Rathaus/Onlineformulare/Benutzungsordnung_-_o._Eb._-_27.11.2017.pdf",
+          "title": "Benutzungsordnung für die Kindertageseinrichtungen",
+          "discovered_from": "44cdb8fc520a",
+          "source_id": "1487d86af449",
+          "archive_status": "downloaded",
+          "role": "supporting_or_rejected_candidate"
+        }
+      ],
+      "ags": "08118071",
+      "current_tariff_valid_from": "2025-09-01",
+      "care_tariffs": {
+        "u3": "found",
+        "o3": "found"
+      },
+      "payment_months": {
+        "count": 12,
+        "verification": "explicit",
+        "notes": "Beitragsmonate in der Quelle ausdrücklich genannt."
+      },
+      "income_basis": "none",
+      "model_8h_schedule_status": "available",
+      "key_source_ids": [
+        "44cdb8fc520a"
+      ],
+      "care_models": "Ü3 VÖ/GT8/GT10 und U3 VÖ6/GT8, vier Haushaltsgrößen. Betreuung zwölf, Essen elf Monate.",
+      "findings": [
+        "Die aktuell veröffentlichte Kita-Seite nennt weiterhin September 2025; die 2026/27-Schulkindtabellen sind kein Ersatz für Kita-Tarife."
+      ],
+      "meals": {
+        "status": "separate"
+      },
+      "gaps": [
+        "Vor Aktivierung nochmals Aktualität prüfen; kein unbelegter Preisstand 2026. Getränkegeld 2,50 € separat erhalten."
+      ],
+      "reference_price": {
+        "description": "628,00 € U3-GT15 (7–15 Uhr), ein Kind",
+        "amount_cents": 62800,
+        "source_id": "44cdb8fc520a",
+        "locator": "HTML Abschnitt Elternbeiträge ab 01.09.2025 und folgende Zahlungs-/Verpflegungshinweise",
+        "is_default_comparison": false
+      },
+      "integration_status": "not_normalized_not_active",
+      "id": "tamm",
+      "current_tariff_period": null,
+      "publication_status": "not_active"
+    },
+    {
+      "name": "Waiblingen",
+      "status": "available",
+      "sources": [
+        {
+          "title": "Offizielle Einstiegsquelle",
+          "url": "https://www.waiblingen.de/de/Die-Stadt/Leben-in-Waiblingen/Kindertageseinrichtungen/Benutzungs-und-Gebuehrenordnung",
+          "source_id": "3e2873e9f039",
+          "archive_status": "downloaded",
+          "role": "supporting_or_rejected_candidate"
+        },
+        {
+          "url": "https://www.waiblingen.de/ceasy/resource/?id=32437&download=1",
+          "title": "Benutzungsordnung für Kindertageseinrichtungen",
+          "discovered_from": "3e2873e9f039",
+          "source_id": "d437992cd414",
+          "archive_status": "downloaded",
+          "role": "reviewed_key_source"
+        },
+        {
+          "url": "https://www.waiblingen.de/ceasy/resource/?id=13407&download=1",
+          "title": "Benutzungsordnung der Kindertageseinrichtungen",
+          "discovered_from": "3e2873e9f039",
+          "source_id": "7a5ebc1bf422",
+          "archive_status": "downloaded",
+          "role": "supporting_or_rejected_candidate"
+        },
+        {
+          "url": "https://www.waiblingen.de/ceasy/resource/?id=32438&download=1",
+          "title": "Ergänzende offizielle Quelle",
+          "source_id": "59ecf75191ad",
+          "archive_status": "downloaded",
+          "role": "reviewed_key_source"
+        },
+        {
+          "url": "https://www.waiblingen.de/ceasy/resource/?id=32436&download=1",
+          "title": "Ergänzende offizielle Quelle",
+          "source_id": "dae7d9e3a67b",
+          "archive_status": "downloaded",
+          "role": "reviewed_key_source"
+        }
+      ],
+      "ags": "08119079",
+      "current_tariff_valid_from": "2026-04-01",
+      "care_tariffs": {
+        "u3": "found",
+        "o3": "found"
+      },
+      "payment_months": {
+        "count": 12,
+        "verification": "explicit",
+        "notes": "Beitragsmonate in der Quelle ausdrücklich genannt."
+      },
+      "income_basis": "annual_household_gross_including_child_benefit",
+      "model_8h_schedule_status": "available",
+      "key_source_ids": [
+        "59ecf75191ad",
+        "dae7d9e3a67b",
+        "d437992cd414"
+      ],
+      "care_models": "Prozentsatz des örtlich definierten Jahresbruttos, Mindest-/Höchstbeitrag 40.000–120.000 €, U3/Ü3 und mehrere Stundenpakete, Geburtsrang bis fünf Kinder.",
+      "findings": [
+        "Der Kartenwert übernimmt gemäß Nutzerentscheidung den veröffentlichten Tarif einschließlich enthaltenem Mittagessen. Kein angenommener Essensanteil wird abgezogen oder zusätzlich addiert.",
+        "Bei passenden Angeboten erscheint unter Verpflegung: Im Tarif enthalten. Angebote ohne Essen erhalten diese Kennzeichnung nicht."
+      ],
+      "meals": {
+        "status": "included",
+        "amount_cents": null,
+        "monthly_equivalent_cents": null,
+        "source_id": "dae7d9e3a67b",
+        "locator": "§ 6 Nr. 9: Essen im veröffentlichten Entgelt enthalten",
+        "published_per_meal_cents": 320,
+        "display_label": "Im Tarif enthalten",
+        "additional_charge": false,
+        "decision_id": "2026-11-10-waiblingen-included-meals",
+        "applies_to": "offers_with_included_meals",
+        "notes": "Keine monatliche Aufteilung und kein Abzug. Die bekannte Quellenangabe je Essen wird nicht als zusätzliche Gebühr addiert; null bedeutet hier keine veröffentlichte separate Monatssumme, nicht fehlende Verpflegung."
+      },
+      "gaps": [
+        "Örtliches Brutto umfasst Kindergeld und weitere Einnahmen; die späteren Modellannahmen ausdrücklich ergänzen, keine stillschweigende Gleichsetzung mit Jahresbrutto.",
+        "Geburtsrang und Befreiung ab fünftem Kind berücksichtigen. Im Tarif enthaltene Verpflegung darf weder eine unbekannte Zusatzkostensumme noch einen zweiten Essensbetrag erzeugen."
+      ],
+      "reference_price": {
+        "description": "624,00 € U3 36–40 Stunden, Höchstbeitrag bei örtlichem Jahreseinkommen ab 120.000 €, inklusive Essen",
+        "amount_cents": 62400,
+        "source_id": "59ecf75191ad",
+        "locator": "PDF S. 1; Einkommensbegriff § 4, Rang § 5, Essen § 6 Nr. 9 der Satzung",
+        "is_default_comparison": false
+      },
+      "integration_status": "not_normalized_not_active",
+      "id": "waiblingen",
+      "current_tariff_period": null,
+      "publication_status": "not_active",
+      "decision_ids": [
+        "2026-11-10-waiblingen-included-meals"
+      ],
+      "comparison_policy": {
+        "value_basis": "published_tariff_including_meals_when_included",
+        "meal_handling": "keep_included",
+        "subtract_meal_costs": false,
+        "meal_display_label": "Im Tarif enthalten",
+        "show_in_extra_costs": true,
+        "derive_inclusion_from_offer": true,
+        "prevent_double_counting": true,
+        "decision_id": "2026-11-10-waiblingen-included-meals"
+      }
+    },
+    {
+      "name": "Waldenbuch",
+      "status": "available",
+      "sources": [
+        {
+          "title": "Offizielle Einstiegsquelle",
+          "url": "https://www.waldenbuch.de/zielgruppen/start/kindergartengebuehren.html",
+          "source_id": "3d882be4121f",
+          "archive_status": "downloaded",
+          "role": "supporting_or_rejected_candidate"
+        },
+        {
+          "title": "Ergänzende offizielle Quelle",
+          "url": "https://www.waldenbuch.de/start/bildung/kindergaerten.html",
+          "source_id": "a19253cc7ba2",
+          "archive_status": "downloaded",
+          "role": "supporting_or_rejected_candidate"
+        },
+        {
+          "url": "https://www.waldenbuch.de/site/Waldenbuch-Internet/get/params_E-1477496338/25312667/Nutzungssatzung%20der%20Kindertagesbetreuung%2001.09.2026.pdf",
+          "title": "Nutzungssatzung der Kindertagesbetreuung",
+          "discovered_from": "a19253cc7ba2",
+          "source_id": "7fc33f1805ec",
+          "archive_status": "downloaded",
+          "role": "reviewed_key_source"
+        },
+        {
+          "url": "https://www.waldenbuch.de/site/Waldenbuch-Internet/get/params_E1957488513/25312682/Geb%C3%BChrensatzung%20Kindertagesbetreuung%2001.09.2026.pdf",
+          "title": "Gebührensatzung der Kindertagesbetreuung",
+          "discovered_from": "a19253cc7ba2",
+          "source_id": "f37687a3f1c3",
+          "archive_status": "downloaded",
+          "role": "reviewed_key_source"
+        }
+      ],
+      "ags": "08115048",
+      "current_tariff_valid_from": "2026-09-01",
+      "care_tariffs": {
+        "u3": "found",
+        "o3": "found"
+      },
+      "payment_months": {
+        "count": 12,
+        "verification": "explicit",
+        "notes": "Beitragsmonate in der Quelle ausdrücklich genannt."
+      },
+      "income_basis": "none",
+      "model_8h_schedule_status": "schedule_to_verify",
+      "key_source_ids": [
+        "f37687a3f1c3",
+        "7fc33f1805ec"
+      ],
+      "care_models": "U3/Ü3 VÖ30, Frühbetreuung plus fünf Wochenstunden, Nachmittagsbausteine fünf/neun Wochenstunden; insgesamt bis44 Wochenstunden; drei Familienstufen.",
+      "findings": [
+        "„Ganztag mit 5h/9h“ bezeichnet zusätzliche Wochenstunden, keine tägliche Betreuungsdauer. Die maximale Variante mit Frühbetreuung hat freitags acht Stunden."
+      ],
+      "meals": {
+        "status": "separate_amount_missing"
+      },
+      "gaps": [
+        "Für das 40-Stunden-Paket fehlt eine eindeutige Verteilung der fünf Zusatzstunden. Nicht pauschal durch fünf teilen; ggf. belegte44-Stunden-Variante wählen.",
+        "Essensbetrag gesondert ergänzen."
+      ],
+      "reference_price": {
+        "description": "764,00 € U3 Ganztag neun Zusatzstunden plus Frühbetreuung, ein Kind",
+        "amount_cents": 76400,
+        "source_id": "f37687a3f1c3",
+        "locator": "§ 3 Angebotsstruktur; § 4 Abs. 2f Tarif; zwölf Monate Abs. 4",
+        "is_default_comparison": false
+      },
+      "integration_status": "not_normalized_not_active",
+      "id": "waldenbuch",
+      "current_tariff_period": null,
+      "publication_status": "not_active"
+    },
+    {
+      "name": "Weissach",
+      "status": "available",
+      "sources": [
+        {
+          "title": "Offizielle Einstiegsquelle",
+          "url": "https://www.kitas-weissach.de/infos-service/formulare-downloads",
+          "source_id": "c4c07a416fe5",
+          "archive_status": "downloaded",
+          "role": "supporting_or_rejected_candidate"
+        },
+        {
+          "url": "https://www.kitas-weissach.de/fileadmin/Dateien/Dateien/Kinderbetreuung/Satzung_Kitas_Schulkind_2026_2027.pdf",
+          "title": "Benutzungs- und Gebührensatzung über den Besuch der Kindertageseinrichtungen und der Schulkindbetreuung ab 01.09.2026 und 01.09.2027 (PDF-Dokument, 453,94 KB)",
+          "discovered_from": "c4c07a416fe5",
+          "source_id": "f5d4fce7afeb",
+          "archive_status": "downloaded",
+          "role": "reviewed_key_source"
+        }
+      ],
+      "ags": "08115052",
+      "current_tariff_valid_from": "2026-09-01",
+      "care_tariffs": {
+        "u3": "found",
+        "o3": "found"
+      },
+      "payment_months": {
+        "count": 12,
+        "verification": "explicit",
+        "notes": "Beitragsmonate in der Quelle ausdrücklich genannt."
+      },
+      "income_basis": "none",
+      "model_8h_schedule_status": "schedule_to_verify",
+      "key_source_ids": [
+        "f5d4fce7afeb"
+      ],
+      "care_models": "U3/Ü3-Stundenpakete bis30/35/37,5/40/50, vier Haushaltsgrößen; Tabellen 2025/26/27 getrennt; Essen, Snack/Getränk separat.",
+      "findings": [
+        "Original-Stundenpakete erhalten; TAKKI und Schulkindbetreuung im selben Dokument sind keine Kita-Alternativen."
+      ],
+      "meals": {
+        "status": "separate"
+      },
+      "gaps": [
+        "Tatsächliche Tagesverteilungen zu den Wochenstundenpaketen vor der strengen 5×8-Auswahl verknüpfen."
+      ],
+      "reference_price": {
+        "description": "551,00 € U3 bis40 Wochenstunden, ein Kind",
+        "amount_cents": 55100,
+        "source_id": "f5d4fce7afeb",
+        "locator": "PDF S. 12, Spalte 01.09.2026; zwölf Monate § 5 Abs. 5",
+        "is_default_comparison": false
+      },
+      "integration_status": "not_normalized_not_active",
+      "id": "weissach",
+      "current_tariff_period": null,
+      "publication_status": "not_active"
+    }
+  ],
+  "status": "research_completed_with_documented_gaps",
+  "tariff_normalization_status": "not_started",
+  "active_municipalities_unchanged": 12,
+  "history_in_scope": false,
+  "transcriptions_path": "data/research/scanned_tariff_transcriptions_2026-11-10.json",
+  "status_definitions": {
+    "available": "Auswertbare Tarifquelle und ggf. ausdrücklich dokumentierte Projektfestlegungen vorhanden. Nutzerannahmen sind keine amtlichen Quellenbestätigungen; noch keine Freigabe des Rechners oder sämtlicher Tagesverteilungen.",
+    "clarification_required": "Konkrete Quellen-/Abgrenzungslücke oder ungeklärte Zerlegung verhindert eine uneingeschränkte Aufnahme in den bisherigen Vergleich."
+  },
+  "scope_note": "Offizielle kommunale Quellen; für Freiberg am Neckar ist Zwergenstüble Freiberg e.V. auf ausdrücklichen Nutzerwunsch als U3-Referenz eingeschlossen. Weitere freie Träger weiterhin nur mit gesondertem Nachweis bzw. ausdrücklicher Freigabe. Für Denkendorf werden die gemeinsam von der Gemeinde veröffentlichten Tabellen der evangelischen und katholischen Träger verwendet; keine abweichenden Betreuungstarife nach Träger gefunden.",
+  "decisions": [
+    {
+      "id": "2026-11-10-freiberg-u3-provider",
+      "municipality_id": "freiberg",
+      "kind": "provider_inclusion",
+      "instruction": "Für Freiberg die U3-Gebührenordnung des Freiberger Zwergenstüble e.V. übernehmen.",
+      "recorded_at": "2026-11-10",
+      "provenance": "user_instruction"
+    },
+    {
+      "id": "2026-11-10-steinenbronn-payment-months",
+      "municipality_id": "steinenbronn",
+      "kind": "model_assumption",
+      "instruction": "Zwölf beitragspflichtige Monate annehmen.",
+      "recorded_at": "2026-11-10",
+      "provenance": "user_instruction"
+    },
+    {
+      "id": "2026-11-10-aichwald-u3-meals",
+      "municipality_id": "aichwald",
+      "kind": "user_supplied_parameters",
+      "instruction": "Krippe als U3, Kindergarten als Ü3 einordnen. U3-Essen 53 Euro monatlich auf Basis von zwölf Monaten.",
+      "recorded_at": "2026-11-10",
+      "provenance": "user_instruction"
+    },
+    {
+      "id": "2026-11-10-waiblingen-included-meals",
+      "municipality_id": "waiblingen",
+      "kind": "comparison_and_display_policy",
+      "instruction": "Werte inklusive Mittagessen auf der Karte anzeigen; unter Verpflegung als inklusive kennzeichnen. Keinen Betrag abziehen.",
+      "recorded_at": "2026-11-10",
+      "provenance": "user_instruction"
+    },
+    {
+      "id": "2026-11-10-moeglingen-payment-months",
+      "municipality_id": "moeglingen",
+      "kind": "user_supplied_parameters",
+      "instruction": "Zwölf Beitragsmonate verwenden.",
+      "recorded_at": "2026-11-10",
+      "provenance": "user_instruction"
+    },
+    {
+      "id": "2026-11-10-denkendorf-comparison",
+      "municipality_id": "denkendorf",
+      "kind": "comparison_and_display_policy",
+      "instruction": "Gemeinsame kommunal veröffentlichte Tarife verwenden. Jahresbrutto unverändert als Einkommen nutzen. Nur freitags kürzere Betreuung zulassen, wenn Montag bis Donnerstag der Bedarf gedeckt ist; tatsächliche Zeiten und Abweichung anzeigen. Verpflichtendes GT-Mittagessen mit unbekanntem Preis kennzeichnen.",
+      "recorded_at": "2026-11-10",
+      "provenance": "user_instruction"
+    },
+    {
+      "id": "2026-11-10-schwieberdingen-payments-and-family-rules",
+      "municipality_id": "schwieberdingen",
+      "kind": "user_supplied_parameters",
+      "instruction": "Elf Beitragsmonate September bis Juli verwenden. Ü3: Haushaltskinderzahl bestimmt die Stufe; ein betreutes Kind erhält den ersten Satz, zwei gleichzeitig betreute Kinder den ersten und zweiten Satz. Alleinerziehung verschiebt um eine Stufe; ab vier Kindern keine Rangaufteilung. Beispiele aus 2025/2026 nicht als aktuelle Preise übernehmen. Rang bei unterschiedlichen Betreuungszeiten anhand der Satzung prüfen.",
+      "recorded_at": "2026-11-10",
+      "provenance": "user_instruction"
+    },
+    {
+      "id": "2026-11-10-schwieberdingen-u3-cumulative-reductions",
+      "municipality_id": "schwieberdingen",
+      "kind": "model_assumption",
+      "instruction": "U3: Tatsächliche Kinderzahl als Basis; pro Ermäßigungsgrund eine weitere Rabattstufe. Alleinerziehung und gleichzeitiger U3-Besuch von mindestens zwei Kindern kumulieren im Modell.",
+      "recorded_at": "2026-11-10",
+      "provenance": "user_instruction"
+    }
+  ],
+  "implementation_constraints": {
+    "provenance": "user_instruction",
+    "recorded_at": "2026-11-10",
+    "no_engine_changes_for": [
+      "schwieberdingen"
+    ],
+    "shared_calculation_logic_changes_require_prior_discussion": true,
+    "unresolved_configuration_status": "unavailable",
+    "unresolved_configuration_display_label": "Nicht berechenbar",
+    "preserve_current_engine": true,
+    "notes": "Recherche- und Integrationsdaten dürfen ergänzt werden. Keine kommunale Unklarheit durch stillschweigende Anpassung der gemeinsamen Rechenlogik oder geratenen Ersatzpreis lösen."
+  }
+}

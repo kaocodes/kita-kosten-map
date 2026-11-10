@@ -1,0 +1,13 @@
+{
+  "id": "385c745aaa2e",
+  "municipality": "Filderstadt",
+  "title": "Ergänzende offizielle Quelle",
+  "url": "https://www.filderstadt.de/home/bildung/anmeldung+kinderbetreuung.html",
+  "retrieved_at": "2026-11-10T09:36:45.172776+00:00",
+  "http_status": 404,
+  "content_type": "text/html;charset=UTF-8",
+  "final_url": "https://www.filderstadt.de/home/bildung/anmeldung+kinderbetreuung.html",
+  "error": null,
+  "local_path": "data/sources/385c745aaa2e/document.html",
+  "sha256": "802709125ec47fec4af4924cedc3fe19ee92a96d83cd9a012d0852540cd1f9e4"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "483de900d001",
+  "municipality": "Schwieberdingen",
+  "title": "Offizielle Einstiegsquelle",
+  "url": "https://www.schwieberdingen.de/lernen-und-gesellschaft/bildung-und-betreuung/kinderbetreuungseinrichtungen",
+  "retrieved_at": "2026-11-10T09:35:35.385392+00:00",
+  "http_status": 200,
+  "content_type": "text/html;charset=UTF-8",
+  "final_url": "https://www.schwieberdingen.de/lernen-und-gesellschaft/bildung-und-betreuung/kinderbetreuungseinrichtungen",
+  "error": null,
+  "local_path": "data/sources/483de900d001/document.html",
+  "sha256": "1239680b8c190080589b6114a318d74d378c5b0964000354ade21ac45a590c77"
+}

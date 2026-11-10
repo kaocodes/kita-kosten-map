@@ -1,0 +1,2716 @@
+{
+  "schema_version": "1.0",
+  "id": "moeglingen",
+  "name": "Möglingen",
+  "reviewed_at": "2026-11-10",
+  "reference_date": "2026-11-10",
+  "scope": {
+    "included": [
+      "municipal"
+    ],
+    "other_providers": "only_with_explicit_source_evidence"
+  },
+  "family_basis": "under_18",
+  "family_evidence": {
+    "source_id": "13a79648a821",
+    "locator": "Familienbegriff und Fußnoten der Gebührenunterlagen",
+    "original": null
+  },
+  "supporting_source_ids": [
+    "13a79648a821",
+    "362f70fede0a",
+    "6630cc14137e"
+  ],
+  "offers": [
+    {
+      "id": "moeglingen-offer-ee6f92973200",
+      "original_label": "VÖ6",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 1800,
+      "weekday_minutes": [
+        360,
+        360,
+        360,
+        360,
+        360
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "13a79648a821",
+        "locator": "PDF S. 1: veröffentlichte Endbeträge einschließlich GT-Pauschale",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "13a79648a821",
+        "locator": "Zwölf Beitragsmonate gemäß Nutzerfestlegung. Keine zusätzliche amtliche Bestätigung behauptet.",
+        "original": null,
+        "verification": "user_confirmed",
+        "provenance": "user_instruction",
+        "decision_id": "2026-11-10-moeglingen-payment-months"
+      },
+      "evidence": {
+        "source_id": "13a79648a821",
+        "locator": "PDF S. 1: veröffentlichte Endbeträge einschließlich GT-Pauschale",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "moeglingen-offer-f1559a1d7084",
+      "original_label": "VÖ7",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2100,
+      "weekday_minutes": [
+        420,
+        420,
+        420,
+        420,
+        420
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "13a79648a821",
+        "locator": "PDF S. 1: veröffentlichte Endbeträge einschließlich GT-Pauschale",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "13a79648a821",
+        "locator": "Zwölf Beitragsmonate gemäß Nutzerfestlegung. Keine zusätzliche amtliche Bestätigung behauptet.",
+        "original": null,
+        "verification": "user_confirmed",
+        "provenance": "user_instruction",
+        "decision_id": "2026-11-10-moeglingen-payment-months"
+      },
+      "evidence": {
+        "source_id": "13a79648a821",
+        "locator": "PDF S. 1: veröffentlichte Endbeträge einschließlich GT-Pauschale",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "moeglingen-offer-b2e8616d48b9",
+      "original_label": "GT8",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2400,
+      "weekday_minutes": [
+        480,
+        480,
+        480,
+        480,
+        480
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "13a79648a821",
+        "locator": "PDF S. 1: veröffentlichte Endbeträge einschließlich GT-Pauschale",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "13a79648a821",
+        "locator": "Zwölf Beitragsmonate gemäß Nutzerfestlegung. Keine zusätzliche amtliche Bestätigung behauptet.",
+        "original": null,
+        "verification": "user_confirmed",
+        "provenance": "user_instruction",
+        "decision_id": "2026-11-10-moeglingen-payment-months"
+      },
+      "evidence": {
+        "source_id": "13a79648a821",
+        "locator": "PDF S. 1: veröffentlichte Endbeträge einschließlich GT-Pauschale",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "moeglingen-offer-1482bb54e934",
+      "original_label": "GT9",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2700,
+      "weekday_minutes": [
+        540,
+        540,
+        540,
+        540,
+        540
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "13a79648a821",
+        "locator": "PDF S. 1: veröffentlichte Endbeträge einschließlich GT-Pauschale",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "13a79648a821",
+        "locator": "Zwölf Beitragsmonate gemäß Nutzerfestlegung. Keine zusätzliche amtliche Bestätigung behauptet.",
+        "original": null,
+        "verification": "user_confirmed",
+        "provenance": "user_instruction",
+        "decision_id": "2026-11-10-moeglingen-payment-months"
+      },
+      "evidence": {
+        "source_id": "13a79648a821",
+        "locator": "PDF S. 1: veröffentlichte Endbeträge einschließlich GT-Pauschale",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "moeglingen-offer-2beb94274218",
+      "original_label": "GT10",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 3000,
+      "weekday_minutes": [
+        600,
+        600,
+        600,
+        600,
+        600
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "13a79648a821",
+        "locator": "PDF S. 1: veröffentlichte Endbeträge einschließlich GT-Pauschale",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "13a79648a821",
+        "locator": "Zwölf Beitragsmonate gemäß Nutzerfestlegung. Keine zusätzliche amtliche Bestätigung behauptet.",
+        "original": null,
+        "verification": "user_confirmed",
+        "provenance": "user_instruction",
+        "decision_id": "2026-11-10-moeglingen-payment-months"
+      },
+      "evidence": {
+        "source_id": "13a79648a821",
+        "locator": "PDF S. 1: veröffentlichte Endbeträge einschließlich GT-Pauschale",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "moeglingen-offer-c01700449b7b",
+      "original_label": "VÖ6",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 1800,
+      "weekday_minutes": [
+        360,
+        360,
+        360,
+        360,
+        360
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "13a79648a821",
+        "locator": "PDF S. 1: veröffentlichte Endbeträge einschließlich GT-Pauschale",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "13a79648a821",
+        "locator": "Zwölf Beitragsmonate gemäß Nutzerfestlegung. Keine zusätzliche amtliche Bestätigung behauptet.",
+        "original": null,
+        "verification": "user_confirmed",
+        "provenance": "user_instruction",
+        "decision_id": "2026-11-10-moeglingen-payment-months"
+      },
+      "evidence": {
+        "source_id": "13a79648a821",
+        "locator": "PDF S. 1: veröffentlichte Endbeträge einschließlich GT-Pauschale",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "moeglingen-offer-a4740738969d",
+      "original_label": "VÖ7",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2100,
+      "weekday_minutes": [
+        420,
+        420,
+        420,
+        420,
+        420
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "13a79648a821",
+        "locator": "PDF S. 1: veröffentlichte Endbeträge einschließlich GT-Pauschale",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "13a79648a821",
+        "locator": "Zwölf Beitragsmonate gemäß Nutzerfestlegung. Keine zusätzliche amtliche Bestätigung behauptet.",
+        "original": null,
+        "verification": "user_confirmed",
+        "provenance": "user_instruction",
+        "decision_id": "2026-11-10-moeglingen-payment-months"
+      },
+      "evidence": {
+        "source_id": "13a79648a821",
+        "locator": "PDF S. 1: veröffentlichte Endbeträge einschließlich GT-Pauschale",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "moeglingen-offer-9a4436f62973",
+      "original_label": "GT8",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2400,
+      "weekday_minutes": [
+        480,
+        480,
+        480,
+        480,
+        480
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "13a79648a821",
+        "locator": "PDF S. 1: veröffentlichte Endbeträge einschließlich GT-Pauschale",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "13a79648a821",
+        "locator": "Zwölf Beitragsmonate gemäß Nutzerfestlegung. Keine zusätzliche amtliche Bestätigung behauptet.",
+        "original": null,
+        "verification": "user_confirmed",
+        "provenance": "user_instruction",
+        "decision_id": "2026-11-10-moeglingen-payment-months"
+      },
+      "evidence": {
+        "source_id": "13a79648a821",
+        "locator": "PDF S. 1: veröffentlichte Endbeträge einschließlich GT-Pauschale",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "moeglingen-offer-e29deb255b47",
+      "original_label": "GT9",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2700,
+      "weekday_minutes": [
+        540,
+        540,
+        540,
+        540,
+        540
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "13a79648a821",
+        "locator": "PDF S. 1: veröffentlichte Endbeträge einschließlich GT-Pauschale",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "13a79648a821",
+        "locator": "Zwölf Beitragsmonate gemäß Nutzerfestlegung. Keine zusätzliche amtliche Bestätigung behauptet.",
+        "original": null,
+        "verification": "user_confirmed",
+        "provenance": "user_instruction",
+        "decision_id": "2026-11-10-moeglingen-payment-months"
+      },
+      "evidence": {
+        "source_id": "13a79648a821",
+        "locator": "PDF S. 1: veröffentlichte Endbeträge einschließlich GT-Pauschale",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "moeglingen-offer-f5deb9a1f8b4",
+      "original_label": "GT10",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 3000,
+      "weekday_minutes": [
+        600,
+        600,
+        600,
+        600,
+        600
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "13a79648a821",
+        "locator": "PDF S. 1: veröffentlichte Endbeträge einschließlich GT-Pauschale",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "13a79648a821",
+        "locator": "Zwölf Beitragsmonate gemäß Nutzerfestlegung. Keine zusätzliche amtliche Bestätigung behauptet.",
+        "original": null,
+        "verification": "user_confirmed",
+        "provenance": "user_instruction",
+        "decision_id": "2026-11-10-moeglingen-payment-months"
+      },
+      "evidence": {
+        "source_id": "13a79648a821",
+        "locator": "PDF S. 1: veröffentlichte Endbeträge einschließlich GT-Pauschale",
+        "original": null
+      },
+      "formula": null
+    }
+  ],
+  "prices": [
+    {
+      "id": "moeglingen-price-4b03d61751df",
+      "offer_id": "moeglingen-offer-ee6f92973200",
+      "amount_cents": 20800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "13a79648a821",
+        "locator": "PDF S. 1: veröffentlichte Endbeträge einschließlich GT-Pauschale",
+        "original": 208
+      }
+    },
+    {
+      "id": "moeglingen-price-16d1f9caa993",
+      "offer_id": "moeglingen-offer-ee6f92973200",
+      "amount_cents": 16600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "13a79648a821",
+        "locator": "PDF S. 1: veröffentlichte Endbeträge einschließlich GT-Pauschale",
+        "original": 166
+      }
+    },
+    {
+      "id": "moeglingen-price-2a1a03d758a1",
+      "offer_id": "moeglingen-offer-ee6f92973200",
+      "amount_cents": 12500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "13a79648a821",
+        "locator": "PDF S. 1: veröffentlichte Endbeträge einschließlich GT-Pauschale",
+        "original": 125
+      }
+    },
+    {
+      "id": "moeglingen-price-6bc129a4d35c",
+      "offer_id": "moeglingen-offer-ee6f92973200",
+      "amount_cents": 8300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "13a79648a821",
+        "locator": "PDF S. 1: veröffentlichte Endbeträge einschließlich GT-Pauschale",
+        "original": 83
+      }
+    },
+    {
+      "id": "moeglingen-price-404bfb8db33b",
+      "offer_id": "moeglingen-offer-ee6f92973200",
+      "amount_cents": 13520,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "moeglingen_family_pass",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "13a79648a821",
+        "locator": "PDF S. 2: veröffentlichte Familienpassbeträge",
+        "original": "135,20"
+      }
+    },
+    {
+      "id": "moeglingen-price-0ad6fd6f2e46",
+      "offer_id": "moeglingen-offer-ee6f92973200",
+      "amount_cents": 10790,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "moeglingen_family_pass",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "13a79648a821",
+        "locator": "PDF S. 2: veröffentlichte Familienpassbeträge",
+        "original": "107,90"
+      }
+    },
+    {
+      "id": "moeglingen-price-b82d8383738f",
+      "offer_id": "moeglingen-offer-ee6f92973200",
+      "amount_cents": 8125,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "moeglingen_family_pass",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "13a79648a821",
+        "locator": "PDF S. 2: veröffentlichte Familienpassbeträge",
+        "original": "81,25"
+      }
+    },
+    {
+      "id": "moeglingen-price-42a054d3a533",
+      "offer_id": "moeglingen-offer-ee6f92973200",
+      "amount_cents": 5395,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "moeglingen_family_pass",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "13a79648a821",
+        "locator": "PDF S. 2: veröffentlichte Familienpassbeträge",
+        "original": "53,95"
+      }
+    },
+    {
+      "id": "moeglingen-price-e6ea0ae79f36",
+      "offer_id": "moeglingen-offer-f1559a1d7084",
+      "amount_cents": 24300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "13a79648a821",
+        "locator": "PDF S. 1: veröffentlichte Endbeträge einschließlich GT-Pauschale",
+        "original": 243
+      }
+    },
+    {
+      "id": "moeglingen-price-b272f92306d2",
+      "offer_id": "moeglingen-offer-f1559a1d7084",
+      "amount_cents": 19400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "13a79648a821",
+        "locator": "PDF S. 1: veröffentlichte Endbeträge einschließlich GT-Pauschale",
+        "original": 194
+      }
+    },
+    {
+      "id": "moeglingen-price-b6f34493bdda",
+      "offer_id": "moeglingen-offer-f1559a1d7084",
+      "amount_cents": 14600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "13a79648a821",
+        "locator": "PDF S. 1: veröffentlichte Endbeträge einschließlich GT-Pauschale",
+        "original": 146
+      }
+    },
+    {
+      "id": "moeglingen-price-cd237aedcdc4",
+      "offer_id": "moeglingen-offer-f1559a1d7084",
+      "amount_cents": 9700,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "13a79648a821",
+        "locator": "PDF S. 1: veröffentlichte Endbeträge einschließlich GT-Pauschale",
+        "original": 97
+      }
+    },
+    {
+      "id": "moeglingen-price-6df736ea068b",
+      "offer_id": "moeglingen-offer-f1559a1d7084",
+      "amount_cents": 15795,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "moeglingen_family_pass",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "13a79648a821",
+        "locator": "PDF S. 2: veröffentlichte Familienpassbeträge",
+        "original": "157,95"
+      }
+    },
+    {
+      "id": "moeglingen-price-45caac685e47",
+      "offer_id": "moeglingen-offer-f1559a1d7084",
+      "amount_cents": 12610,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "moeglingen_family_pass",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "13a79648a821",
+        "locator": "PDF S. 2: veröffentlichte Familienpassbeträge",
+        "original": "126,10"
+      }
+    },
+    {
+      "id": "moeglingen-price-14fcb5d3efc9",
+      "offer_id": "moeglingen-offer-f1559a1d7084",
+      "amount_cents": 9490,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "moeglingen_family_pass",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "13a79648a821",
+        "locator": "PDF S. 2: veröffentlichte Familienpassbeträge",
+        "original": "94,90"
+      }
+    },
+    {
+      "id": "moeglingen-price-adf8673894fe",
+      "offer_id": "moeglingen-offer-f1559a1d7084",
+      "amount_cents": 6305,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "moeglingen_family_pass",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "13a79648a821",
+        "locator": "PDF S. 2: veröffentlichte Familienpassbeträge",
+        "original": "63,05"
+      }
+    },
+    {
+      "id": "moeglingen-price-3581814f1694",
+      "offer_id": "moeglingen-offer-b2e8616d48b9",
+      "amount_cents": 28800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "13a79648a821",
+        "locator": "PDF S. 1: veröffentlichte Endbeträge einschließlich GT-Pauschale",
+        "original": 288
+      }
+    },
+    {
+      "id": "moeglingen-price-ada60227d220",
+      "offer_id": "moeglingen-offer-b2e8616d48b9",
+      "amount_cents": 23000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "13a79648a821",
+        "locator": "PDF S. 1: veröffentlichte Endbeträge einschließlich GT-Pauschale",
+        "original": 230
+      }
+    },
+    {
+      "id": "moeglingen-price-537fb26d8b83",
+      "offer_id": "moeglingen-offer-b2e8616d48b9",
+      "amount_cents": 17300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "13a79648a821",
+        "locator": "PDF S. 1: veröffentlichte Endbeträge einschließlich GT-Pauschale",
+        "original": 173
+      }
+    },
+    {
+      "id": "moeglingen-price-7ed30987ef65",
+      "offer_id": "moeglingen-offer-b2e8616d48b9",
+      "amount_cents": 11500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "13a79648a821",
+        "locator": "PDF S. 1: veröffentlichte Endbeträge einschließlich GT-Pauschale",
+        "original": 115
+      }
+    },
+    {
+      "id": "moeglingen-price-e51032bb00e6",
+      "offer_id": "moeglingen-offer-b2e8616d48b9",
+      "amount_cents": 18720,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "moeglingen_family_pass",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "13a79648a821",
+        "locator": "PDF S. 2: veröffentlichte Familienpassbeträge",
+        "original": "187,20"
+      }
+    },
+    {
+      "id": "moeglingen-price-05e886bc3017",
+      "offer_id": "moeglingen-offer-b2e8616d48b9",
+      "amount_cents": 14950,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "moeglingen_family_pass",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "13a79648a821",
+        "locator": "PDF S. 2: veröffentlichte Familienpassbeträge",
+        "original": "149,50"
+      }
+    },
+    {
+      "id": "moeglingen-price-6358d23e5c10",
+      "offer_id": "moeglingen-offer-b2e8616d48b9",
+      "amount_cents": 11245,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "moeglingen_family_pass",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "13a79648a821",
+        "locator": "PDF S. 2: veröffentlichte Familienpassbeträge",
+        "original": "112,45"
+      }
+    },
+    {
+      "id": "moeglingen-price-44f23c02a0cc",
+      "offer_id": "moeglingen-offer-b2e8616d48b9",
+      "amount_cents": 7475,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "moeglingen_family_pass",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "13a79648a821",
+        "locator": "PDF S. 2: veröffentlichte Familienpassbeträge",
+        "original": "74,75"
+      }
+    },
+    {
+      "id": "moeglingen-price-0270e0f8847a",
+      "offer_id": "moeglingen-offer-1482bb54e934",
+      "amount_cents": 32300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "13a79648a821",
+        "locator": "PDF S. 1: veröffentlichte Endbeträge einschließlich GT-Pauschale",
+        "original": 323
+      }
+    },
+    {
+      "id": "moeglingen-price-14db6ad98ec0",
+      "offer_id": "moeglingen-offer-1482bb54e934",
+      "amount_cents": 25800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "13a79648a821",
+        "locator": "PDF S. 1: veröffentlichte Endbeträge einschließlich GT-Pauschale",
+        "original": 258
+      }
+    },
+    {
+      "id": "moeglingen-price-c943118dd22a",
+      "offer_id": "moeglingen-offer-1482bb54e934",
+      "amount_cents": 19400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "13a79648a821",
+        "locator": "PDF S. 1: veröffentlichte Endbeträge einschließlich GT-Pauschale",
+        "original": 194
+      }
+    },
+    {
+      "id": "moeglingen-price-6a7d50f4c7c7",
+      "offer_id": "moeglingen-offer-1482bb54e934",
+      "amount_cents": 12900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "13a79648a821",
+        "locator": "PDF S. 1: veröffentlichte Endbeträge einschließlich GT-Pauschale",
+        "original": 129
+      }
+    },
+    {
+      "id": "moeglingen-price-b420caaa2743",
+      "offer_id": "moeglingen-offer-1482bb54e934",
+      "amount_cents": 20995,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "moeglingen_family_pass",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "13a79648a821",
+        "locator": "PDF S. 2: veröffentlichte Familienpassbeträge",
+        "original": "209,95"
+      }
+    },
+    {
+      "id": "moeglingen-price-47b50ddf9461",
+      "offer_id": "moeglingen-offer-1482bb54e934",
+      "amount_cents": 16770,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "moeglingen_family_pass",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "13a79648a821",
+        "locator": "PDF S. 2: veröffentlichte Familienpassbeträge",
+        "original": "167,70"
+      }
+    },
+    {
+      "id": "moeglingen-price-7d4cac06e11f",
+      "offer_id": "moeglingen-offer-1482bb54e934",
+      "amount_cents": 12610,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "moeglingen_family_pass",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "13a79648a821",
+        "locator": "PDF S. 2: veröffentlichte Familienpassbeträge",
+        "original": "126,10"
+      }
+    },
+    {
+      "id": "moeglingen-price-43239d8bcdd5",
+      "offer_id": "moeglingen-offer-1482bb54e934",
+      "amount_cents": 8385,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "moeglingen_family_pass",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "13a79648a821",
+        "locator": "PDF S. 2: veröffentlichte Familienpassbeträge",
+        "original": "83,85"
+      }
+    },
+    {
+      "id": "moeglingen-price-3d335d26d652",
+      "offer_id": "moeglingen-offer-2beb94274218",
+      "amount_cents": 35800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "13a79648a821",
+        "locator": "PDF S. 1: veröffentlichte Endbeträge einschließlich GT-Pauschale",
+        "original": 358
+      }
+    },
+    {
+      "id": "moeglingen-price-3b26a0d198ab",
+      "offer_id": "moeglingen-offer-2beb94274218",
+      "amount_cents": 28600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "13a79648a821",
+        "locator": "PDF S. 1: veröffentlichte Endbeträge einschließlich GT-Pauschale",
+        "original": 286
+      }
+    },
+    {
+      "id": "moeglingen-price-469df341aea7",
+      "offer_id": "moeglingen-offer-2beb94274218",
+      "amount_cents": 21500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "13a79648a821",
+        "locator": "PDF S. 1: veröffentlichte Endbeträge einschließlich GT-Pauschale",
+        "original": 215
+      }
+    },
+    {
+      "id": "moeglingen-price-77cd9f06702c",
+      "offer_id": "moeglingen-offer-2beb94274218",
+      "amount_cents": 14300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "13a79648a821",
+        "locator": "PDF S. 1: veröffentlichte Endbeträge einschließlich GT-Pauschale",
+        "original": 143
+      }
+    },
+    {
+      "id": "moeglingen-price-16df42858c42",
+      "offer_id": "moeglingen-offer-2beb94274218",
+      "amount_cents": 23270,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "moeglingen_family_pass",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "13a79648a821",
+        "locator": "PDF S. 2: veröffentlichte Familienpassbeträge",
+        "original": "232,70"
+      }
+    },
+    {
+      "id": "moeglingen-price-9c7a1159a646",
+      "offer_id": "moeglingen-offer-2beb94274218",
+      "amount_cents": 18590,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "moeglingen_family_pass",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "13a79648a821",
+        "locator": "PDF S. 2: veröffentlichte Familienpassbeträge",
+        "original": "185,90"
+      }
+    },
+    {
+      "id": "moeglingen-price-481d5c0251f9",
+      "offer_id": "moeglingen-offer-2beb94274218",
+      "amount_cents": 13975,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "moeglingen_family_pass",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "13a79648a821",
+        "locator": "PDF S. 2: veröffentlichte Familienpassbeträge",
+        "original": "139,75"
+      }
+    },
+    {
+      "id": "moeglingen-price-d871ae19aa39",
+      "offer_id": "moeglingen-offer-2beb94274218",
+      "amount_cents": 9295,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "moeglingen_family_pass",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "13a79648a821",
+        "locator": "PDF S. 2: veröffentlichte Familienpassbeträge",
+        "original": "92,95"
+      }
+    },
+    {
+      "id": "moeglingen-price-a49f59874a37",
+      "offer_id": "moeglingen-offer-c01700449b7b",
+      "amount_cents": 31200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "13a79648a821",
+        "locator": "PDF S. 1: veröffentlichte Endbeträge einschließlich GT-Pauschale",
+        "original": 312
+      }
+    },
+    {
+      "id": "moeglingen-price-fd5c4044e31c",
+      "offer_id": "moeglingen-offer-c01700449b7b",
+      "amount_cents": 24900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "13a79648a821",
+        "locator": "PDF S. 1: veröffentlichte Endbeträge einschließlich GT-Pauschale",
+        "original": 249
+      }
+    },
+    {
+      "id": "moeglingen-price-554c69df970b",
+      "offer_id": "moeglingen-offer-c01700449b7b",
+      "amount_cents": 18600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "13a79648a821",
+        "locator": "PDF S. 1: veröffentlichte Endbeträge einschließlich GT-Pauschale",
+        "original": 186
+      }
+    },
+    {
+      "id": "moeglingen-price-5534320402c5",
+      "offer_id": "moeglingen-offer-c01700449b7b",
+      "amount_cents": 12500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "13a79648a821",
+        "locator": "PDF S. 1: veröffentlichte Endbeträge einschließlich GT-Pauschale",
+        "original": 125
+      }
+    },
+    {
+      "id": "moeglingen-price-610a3799bde5",
+      "offer_id": "moeglingen-offer-c01700449b7b",
+      "amount_cents": 20280,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "moeglingen_family_pass",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "13a79648a821",
+        "locator": "PDF S. 2: veröffentlichte Familienpassbeträge",
+        "original": "202,80"
+      }
+    },
+    {
+      "id": "moeglingen-price-6e286b5c8c03",
+      "offer_id": "moeglingen-offer-c01700449b7b",
+      "amount_cents": 16185,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "moeglingen_family_pass",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "13a79648a821",
+        "locator": "PDF S. 2: veröffentlichte Familienpassbeträge",
+        "original": "161,85"
+      }
+    },
+    {
+      "id": "moeglingen-price-87d92f6c9489",
+      "offer_id": "moeglingen-offer-c01700449b7b",
+      "amount_cents": 12090,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "moeglingen_family_pass",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "13a79648a821",
+        "locator": "PDF S. 2: veröffentlichte Familienpassbeträge",
+        "original": "120,90"
+      }
+    },
+    {
+      "id": "moeglingen-price-b0f210ec6a18",
+      "offer_id": "moeglingen-offer-c01700449b7b",
+      "amount_cents": 8125,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "moeglingen_family_pass",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "13a79648a821",
+        "locator": "PDF S. 2: veröffentlichte Familienpassbeträge",
+        "original": "81,25"
+      }
+    },
+    {
+      "id": "moeglingen-price-687f25baddfa",
+      "offer_id": "moeglingen-offer-a4740738969d",
+      "amount_cents": 36500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "13a79648a821",
+        "locator": "PDF S. 1: veröffentlichte Endbeträge einschließlich GT-Pauschale",
+        "original": 365
+      }
+    },
+    {
+      "id": "moeglingen-price-0ff301df9ec5",
+      "offer_id": "moeglingen-offer-a4740738969d",
+      "amount_cents": 29100,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "13a79648a821",
+        "locator": "PDF S. 1: veröffentlichte Endbeträge einschließlich GT-Pauschale",
+        "original": 291
+      }
+    },
+    {
+      "id": "moeglingen-price-30e1a01e2298",
+      "offer_id": "moeglingen-offer-a4740738969d",
+      "amount_cents": 21900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "13a79648a821",
+        "locator": "PDF S. 1: veröffentlichte Endbeträge einschließlich GT-Pauschale",
+        "original": 219
+      }
+    },
+    {
+      "id": "moeglingen-price-fc5b03818048",
+      "offer_id": "moeglingen-offer-a4740738969d",
+      "amount_cents": 14600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "13a79648a821",
+        "locator": "PDF S. 1: veröffentlichte Endbeträge einschließlich GT-Pauschale",
+        "original": 146
+      }
+    },
+    {
+      "id": "moeglingen-price-75edf949724c",
+      "offer_id": "moeglingen-offer-a4740738969d",
+      "amount_cents": 23725,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "moeglingen_family_pass",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "13a79648a821",
+        "locator": "PDF S. 2: veröffentlichte Familienpassbeträge",
+        "original": "237,25"
+      }
+    },
+    {
+      "id": "moeglingen-price-c894579f493c",
+      "offer_id": "moeglingen-offer-a4740738969d",
+      "amount_cents": 18915,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "moeglingen_family_pass",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "13a79648a821",
+        "locator": "PDF S. 2: veröffentlichte Familienpassbeträge",
+        "original": "189,15"
+      }
+    },
+    {
+      "id": "moeglingen-price-261cce29eb17",
+      "offer_id": "moeglingen-offer-a4740738969d",
+      "amount_cents": 14235,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "moeglingen_family_pass",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "13a79648a821",
+        "locator": "PDF S. 2: veröffentlichte Familienpassbeträge",
+        "original": "142,35"
+      }
+    },
+    {
+      "id": "moeglingen-price-e84e2a2ea180",
+      "offer_id": "moeglingen-offer-a4740738969d",
+      "amount_cents": 9490,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "moeglingen_family_pass",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "13a79648a821",
+        "locator": "PDF S. 2: veröffentlichte Familienpassbeträge",
+        "original": "94,90"
+      }
+    },
+    {
+      "id": "moeglingen-price-f1ee1a184edf",
+      "offer_id": "moeglingen-offer-9a4436f62973",
+      "amount_cents": 43200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "13a79648a821",
+        "locator": "PDF S. 1: veröffentlichte Endbeträge einschließlich GT-Pauschale",
+        "original": 432
+      }
+    },
+    {
+      "id": "moeglingen-price-642a86496bab",
+      "offer_id": "moeglingen-offer-9a4436f62973",
+      "amount_cents": 34500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "13a79648a821",
+        "locator": "PDF S. 1: veröffentlichte Endbeträge einschließlich GT-Pauschale",
+        "original": 345
+      }
+    },
+    {
+      "id": "moeglingen-price-87eeff227f76",
+      "offer_id": "moeglingen-offer-9a4436f62973",
+      "amount_cents": 26000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "13a79648a821",
+        "locator": "PDF S. 1: veröffentlichte Endbeträge einschließlich GT-Pauschale",
+        "original": 260
+      }
+    },
+    {
+      "id": "moeglingen-price-7daa29abe1c0",
+      "offer_id": "moeglingen-offer-9a4436f62973",
+      "amount_cents": 17300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "13a79648a821",
+        "locator": "PDF S. 1: veröffentlichte Endbeträge einschließlich GT-Pauschale",
+        "original": 173
+      }
+    },
+    {
+      "id": "moeglingen-price-aa455e6d9ed5",
+      "offer_id": "moeglingen-offer-9a4436f62973",
+      "amount_cents": 28080,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "moeglingen_family_pass",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "13a79648a821",
+        "locator": "PDF S. 2: veröffentlichte Familienpassbeträge",
+        "original": "280,80"
+      }
+    },
+    {
+      "id": "moeglingen-price-51ef54534bba",
+      "offer_id": "moeglingen-offer-9a4436f62973",
+      "amount_cents": 22425,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "moeglingen_family_pass",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "13a79648a821",
+        "locator": "PDF S. 2: veröffentlichte Familienpassbeträge",
+        "original": "224,25"
+      }
+    },
+    {
+      "id": "moeglingen-price-5c7453cc68f3",
+      "offer_id": "moeglingen-offer-9a4436f62973",
+      "amount_cents": 16900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "moeglingen_family_pass",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "13a79648a821",
+        "locator": "PDF S. 2: veröffentlichte Familienpassbeträge",
+        "original": "169,00"
+      }
+    },
+    {
+      "id": "moeglingen-price-df02cc61a8ad",
+      "offer_id": "moeglingen-offer-9a4436f62973",
+      "amount_cents": 11245,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "moeglingen_family_pass",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "13a79648a821",
+        "locator": "PDF S. 2: veröffentlichte Familienpassbeträge",
+        "original": "112,45"
+      }
+    },
+    {
+      "id": "moeglingen-price-c300c8e4495d",
+      "offer_id": "moeglingen-offer-e29deb255b47",
+      "amount_cents": 48500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "13a79648a821",
+        "locator": "PDF S. 1: veröffentlichte Endbeträge einschließlich GT-Pauschale",
+        "original": 485
+      }
+    },
+    {
+      "id": "moeglingen-price-c99dd4558926",
+      "offer_id": "moeglingen-offer-e29deb255b47",
+      "amount_cents": 38700,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "13a79648a821",
+        "locator": "PDF S. 1: veröffentlichte Endbeträge einschließlich GT-Pauschale",
+        "original": 387
+      }
+    },
+    {
+      "id": "moeglingen-price-327d16795074",
+      "offer_id": "moeglingen-offer-e29deb255b47",
+      "amount_cents": 29100,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "13a79648a821",
+        "locator": "PDF S. 1: veröffentlichte Endbeträge einschließlich GT-Pauschale",
+        "original": 291
+      }
+    },
+    {
+      "id": "moeglingen-price-1f6ea5931b93",
+      "offer_id": "moeglingen-offer-e29deb255b47",
+      "amount_cents": 19400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "13a79648a821",
+        "locator": "PDF S. 1: veröffentlichte Endbeträge einschließlich GT-Pauschale",
+        "original": 194
+      }
+    },
+    {
+      "id": "moeglingen-price-9b30dac35ba5",
+      "offer_id": "moeglingen-offer-e29deb255b47",
+      "amount_cents": 31525,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "moeglingen_family_pass",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "13a79648a821",
+        "locator": "PDF S. 2: veröffentlichte Familienpassbeträge",
+        "original": "315,25"
+      }
+    },
+    {
+      "id": "moeglingen-price-e2aebd2e3210",
+      "offer_id": "moeglingen-offer-e29deb255b47",
+      "amount_cents": 25155,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "moeglingen_family_pass",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "13a79648a821",
+        "locator": "PDF S. 2: veröffentlichte Familienpassbeträge",
+        "original": "251,55"
+      }
+    },
+    {
+      "id": "moeglingen-price-a628f0fa35d2",
+      "offer_id": "moeglingen-offer-e29deb255b47",
+      "amount_cents": 18915,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "moeglingen_family_pass",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "13a79648a821",
+        "locator": "PDF S. 2: veröffentlichte Familienpassbeträge",
+        "original": "189,15"
+      }
+    },
+    {
+      "id": "moeglingen-price-a56e5f64f304",
+      "offer_id": "moeglingen-offer-e29deb255b47",
+      "amount_cents": 12610,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "moeglingen_family_pass",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "13a79648a821",
+        "locator": "PDF S. 2: veröffentlichte Familienpassbeträge",
+        "original": "126,10"
+      }
+    },
+    {
+      "id": "moeglingen-price-20631ac29597",
+      "offer_id": "moeglingen-offer-f5deb9a1f8b4",
+      "amount_cents": 53700,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "13a79648a821",
+        "locator": "PDF S. 1: veröffentlichte Endbeträge einschließlich GT-Pauschale",
+        "original": 537
+      }
+    },
+    {
+      "id": "moeglingen-price-e0f224ac9796",
+      "offer_id": "moeglingen-offer-f5deb9a1f8b4",
+      "amount_cents": 42900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "13a79648a821",
+        "locator": "PDF S. 1: veröffentlichte Endbeträge einschließlich GT-Pauschale",
+        "original": 429
+      }
+    },
+    {
+      "id": "moeglingen-price-6b70611489a8",
+      "offer_id": "moeglingen-offer-f5deb9a1f8b4",
+      "amount_cents": 32300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "13a79648a821",
+        "locator": "PDF S. 1: veröffentlichte Endbeträge einschließlich GT-Pauschale",
+        "original": 323
+      }
+    },
+    {
+      "id": "moeglingen-price-7ae0c95b2d03",
+      "offer_id": "moeglingen-offer-f5deb9a1f8b4",
+      "amount_cents": 21500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "13a79648a821",
+        "locator": "PDF S. 1: veröffentlichte Endbeträge einschließlich GT-Pauschale",
+        "original": 215
+      }
+    },
+    {
+      "id": "moeglingen-price-b9abcaed6fa4",
+      "offer_id": "moeglingen-offer-f5deb9a1f8b4",
+      "amount_cents": 34905,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "moeglingen_family_pass",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "13a79648a821",
+        "locator": "PDF S. 2: veröffentlichte Familienpassbeträge",
+        "original": "349,05"
+      }
+    },
+    {
+      "id": "moeglingen-price-6714e90147d9",
+      "offer_id": "moeglingen-offer-f5deb9a1f8b4",
+      "amount_cents": 27885,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "moeglingen_family_pass",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "13a79648a821",
+        "locator": "PDF S. 2: veröffentlichte Familienpassbeträge",
+        "original": "278,85"
+      }
+    },
+    {
+      "id": "moeglingen-price-cdfe3e5004f6",
+      "offer_id": "moeglingen-offer-f5deb9a1f8b4",
+      "amount_cents": 20995,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "moeglingen_family_pass",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "13a79648a821",
+        "locator": "PDF S. 2: veröffentlichte Familienpassbeträge",
+        "original": "209,95"
+      }
+    },
+    {
+      "id": "moeglingen-price-dd1ca461c92e",
+      "offer_id": "moeglingen-offer-f5deb9a1f8b4",
+      "amount_cents": 13975,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "moeglingen_family_pass",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "13a79648a821",
+        "locator": "PDF S. 2: veröffentlichte Familienpassbeträge",
+        "original": "139,75"
+      }
+    }
+  ],
+  "income_bands": [],
+  "components": [
+    {
+      "id": "moeglingen-component-27c759bf450b",
+      "kind": "meal",
+      "original_label": "Mittagessen u3",
+      "amount_cents": 6100,
+      "unit": "per_month",
+      "age_group": "u3",
+      "required": true,
+      "payment_months": null,
+      "offer_ids": [
+        "moeglingen-offer-9a4436f62973",
+        "moeglingen-offer-e29deb255b47",
+        "moeglingen-offer-f5deb9a1f8b4"
+      ],
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "13a79648a821",
+        "locator": "Unterhalb der Beitragstabellen; keine Passermäßigung",
+        "original": null
+      },
+      "applies_when": {
+        "care_type": "full_day"
+      }
+    },
+    {
+      "id": "moeglingen-component-15e5eb64f4fa",
+      "kind": "meal",
+      "original_label": "Mittagessen o3",
+      "amount_cents": 7200,
+      "unit": "per_month",
+      "age_group": "o3",
+      "required": true,
+      "payment_months": null,
+      "offer_ids": [
+        "moeglingen-offer-b2e8616d48b9",
+        "moeglingen-offer-1482bb54e934",
+        "moeglingen-offer-2beb94274218"
+      ],
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "13a79648a821",
+        "locator": "Unterhalb der Beitragstabellen; keine Passermäßigung",
+        "original": null
+      },
+      "applies_when": {
+        "care_type": "full_day"
+      }
+    },
+    {
+      "id": "moeglingen-component-7380e32080ee",
+      "kind": "supplies",
+      "original_label": "Einrichtungsabhängiger Elternbeiratsbeitrag",
+      "amount_cents": null,
+      "unit": "per_month",
+      "age_group": null,
+      "required": true,
+      "payment_months": null,
+      "offer_ids": null,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "value_status": "unknown",
+      "evidence": {
+        "source_id": "13a79648a821",
+        "locator": "Fußnote: Vesperrunde, pädagogische Kochtage",
+        "original": null
+      }
+    }
+  ],
+  "rules": [
+    {
+      "id": "moeglingen-rule-d5fcd9f61af4",
+      "kind": "2026-11-10-moeglingen-payment-months",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "id": "2026-11-10-moeglingen-payment-months",
+        "municipality_id": "moeglingen",
+        "kind": "user_supplied_parameters",
+        "instruction": "Zwölf Beitragsmonate verwenden.",
+        "recorded_at": "2026-11-10",
+        "provenance": "user_instruction"
+      },
+      "evidence": {
+        "source_id": "13a79648a821",
+        "locator": "Nutzerfestlegung; keine zusätzliche amtliche Quellenbestätigung",
+        "original": null
+      },
+      "provenance": "user_instruction"
+    },
+    {
+      "id": "moeglingen-rule-9b9c52cb7ce7",
+      "kind": "pass_eligibility",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "eligible_groups": [
+          "A",
+          "C",
+          "D"
+        ],
+        "discount_percent": 35,
+        "application_required": true,
+        "meals_excluded": true
+      },
+      "evidence": {
+        "source_id": "362f70fede0a",
+        "locator": "Abschnitte I–III",
+        "original": null
+      }
+    },
+    {
+      "id": "moeglingen-rule-d4ac35fe4b1e",
+      "kind": "admission_and_age_transition",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "billing_dates": [
+          1,
+          16
+        ],
+        "depends_on": "admission_start_or_birthday",
+        "transition": "following_billing_half_month"
+      },
+      "evidence": {
+        "source_id": "13a79648a821",
+        "locator": "Fußnoten unter beiden Tabellen",
+        "original": null
+      }
+    },
+    {
+      "id": "moeglingen-rule-6595818dee02",
+      "kind": "source_provisions_13a79648a821",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "archive_text_path": "data/sources/13a79648a821/text.txt",
+        "text_sha256": "99c09c22bf2242c3fbeb2b191c6cb110708ce61453cea202a06ce96f60930433",
+        "review_status": "archived_provisions_preserved"
+      },
+      "evidence": {
+        "source_id": "13a79648a821",
+        "locator": "Vollständiger archivierter Dokumenttext einschließlich Fußnoten",
+        "original": null
+      }
+    },
+    {
+      "id": "moeglingen-rule-dbe98fbead37",
+      "kind": "source_clause_13a79648a821_1_1",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 0,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "13a79648a821",
+        "locator": "PDF-/Textseite 1, Absatzblock 1",
+        "original": null
+      }
+    },
+    {
+      "id": "moeglingen-rule-fd453b8544a4",
+      "kind": "source_clause_13a79648a821_1_3",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 1,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "13a79648a821",
+        "locator": "PDF-/Textseite 1, Absatzblock 3",
+        "original": null
+      }
+    },
+    {
+      "id": "moeglingen-rule-99b12dc93023",
+      "kind": "source_clause_13a79648a821_1_4",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 2,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "13a79648a821",
+        "locator": "PDF-/Textseite 1, Absatzblock 4",
+        "original": null
+      }
+    },
+    {
+      "id": "moeglingen-rule-815aafb90989",
+      "kind": "source_clause_13a79648a821_1_6",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 3,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "13a79648a821",
+        "locator": "PDF-/Textseite 1, Absatzblock 6",
+        "original": null
+      }
+    },
+    {
+      "id": "moeglingen-rule-6fb9f43ee17c",
+      "kind": "source_clause_13a79648a821_1_7",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 4,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "13a79648a821",
+        "locator": "PDF-/Textseite 1, Absatzblock 7",
+        "original": null
+      }
+    },
+    {
+      "id": "moeglingen-rule-9bf6c8e5e34e",
+      "kind": "source_clause_13a79648a821_1_8",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 5,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "13a79648a821",
+        "locator": "PDF-/Textseite 1, Absatzblock 8",
+        "original": null
+      }
+    },
+    {
+      "id": "moeglingen-rule-817ed99ef18a",
+      "kind": "source_clause_13a79648a821_1_9",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 6,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "13a79648a821",
+        "locator": "PDF-/Textseite 1, Absatzblock 9",
+        "original": null
+      }
+    },
+    {
+      "id": "moeglingen-rule-94800d03d61c",
+      "kind": "source_clause_13a79648a821_2_1",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 7,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "13a79648a821",
+        "locator": "PDF-/Textseite 2, Absatzblock 1",
+        "original": null
+      }
+    },
+    {
+      "id": "moeglingen-rule-c62305f89461",
+      "kind": "source_clause_13a79648a821_2_2",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 8,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "13a79648a821",
+        "locator": "PDF-/Textseite 2, Absatzblock 2",
+        "original": null
+      }
+    },
+    {
+      "id": "moeglingen-rule-132d3e042a41",
+      "kind": "source_clause_13a79648a821_2_4",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 9,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "13a79648a821",
+        "locator": "PDF-/Textseite 2, Absatzblock 4",
+        "original": null
+      }
+    },
+    {
+      "id": "moeglingen-rule-180844fc47ff",
+      "kind": "source_clause_13a79648a821_2_5",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 10,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "13a79648a821",
+        "locator": "PDF-/Textseite 2, Absatzblock 5",
+        "original": null
+      }
+    },
+    {
+      "id": "moeglingen-rule-4f7d0ad07be7",
+      "kind": "source_clause_13a79648a821_2_7",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 11,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "13a79648a821",
+        "locator": "PDF-/Textseite 2, Absatzblock 7",
+        "original": null
+      }
+    },
+    {
+      "id": "moeglingen-rule-af38e6f5944b",
+      "kind": "source_clause_13a79648a821_2_8",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 12,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "13a79648a821",
+        "locator": "PDF-/Textseite 2, Absatzblock 8",
+        "original": null
+      }
+    },
+    {
+      "id": "moeglingen-rule-36e39399e0af",
+      "kind": "source_clause_13a79648a821_2_9",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 13,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "13a79648a821",
+        "locator": "PDF-/Textseite 2, Absatzblock 9",
+        "original": null
+      }
+    },
+    {
+      "id": "moeglingen-rule-61384764e59c",
+      "kind": "source_clause_13a79648a821_2_10",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 14,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "13a79648a821",
+        "locator": "PDF-/Textseite 2, Absatzblock 10",
+        "original": null
+      }
+    },
+    {
+      "id": "moeglingen-rule-4a9b542f4918",
+      "kind": "source_provisions_362f70fede0a",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "archive_text_path": "data/sources/362f70fede0a/text.txt",
+        "text_sha256": "d0ca4e9d15bf25593f2e35dc828642e8e0c0f6daa3473e107dd35ce284f76aa3",
+        "review_status": "archived_provisions_preserved"
+      },
+      "evidence": {
+        "source_id": "362f70fede0a",
+        "locator": "Vollständiger archivierter Dokumenttext einschließlich Fußnoten",
+        "original": null
+      }
+    },
+    {
+      "id": "moeglingen-rule-bd0cd7e8d909",
+      "kind": "source_clause_362f70fede0a_1_2",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 15,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "362f70fede0a",
+        "locator": "PDF-/Textseite 1, Absatzblock 2",
+        "original": null
+      }
+    },
+    {
+      "id": "moeglingen-rule-eca7746a27cd",
+      "kind": "source_clause_362f70fede0a_1_3",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 16,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "362f70fede0a",
+        "locator": "PDF-/Textseite 1, Absatzblock 3",
+        "original": null
+      }
+    },
+    {
+      "id": "moeglingen-rule-2eea7e445e0a",
+      "kind": "source_clause_362f70fede0a_1_4",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 17,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "362f70fede0a",
+        "locator": "PDF-/Textseite 1, Absatzblock 4",
+        "original": null
+      }
+    },
+    {
+      "id": "moeglingen-rule-e7a1de80d89d",
+      "kind": "source_clause_362f70fede0a_1_5",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 18,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "362f70fede0a",
+        "locator": "PDF-/Textseite 1, Absatzblock 5",
+        "original": null
+      }
+    },
+    {
+      "id": "moeglingen-rule-68187a5bd6e2",
+      "kind": "source_clause_362f70fede0a_2_1",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 19,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "362f70fede0a",
+        "locator": "PDF-/Textseite 2, Absatzblock 1",
+        "original": null
+      }
+    },
+    {
+      "id": "moeglingen-rule-fd82812c1a2e",
+      "kind": "source_provisions_6630cc14137e",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "archive_text_path": "data/sources/6630cc14137e/text.txt",
+        "text_sha256": "c92ca0295af52d7d34ebc51d544a9f9c9aff8e4b73f47106ee0e6d3c63411e0b",
+        "review_status": "archived_provisions_preserved"
+      },
+      "evidence": {
+        "source_id": "6630cc14137e",
+        "locator": "Vollständiger archivierter Dokumenttext einschließlich Fußnoten",
+        "original": null
+      }
+    }
+  ],
+  "issues": [
+    {
+      "code": "pending_calculation_review",
+      "detail": "Strukturierter Import; noch keine Freigabe des Rechners oder der Website."
+    },
+    {
+      "code": "research_limitation_1",
+      "detail": "Einrichtungsbezogene Zusatzbeiträge bleiben in der Tabelle unbeziffert."
+    }
+  ],
+  "coverage": {
+    "publication_status": "not_active",
+    "integration_status": "normalized_pending_calculation_review",
+    "history_in_scope": false,
+    "source_register": "data/research/neighbor_expansion_2026-11-10.json",
+    "research_id": "moeglingen",
+    "unavailable_configurations": [],
+    "offers": 10,
+    "price_cells": 80,
+    "income_bands": 0,
+    "components": 3,
+    "rule_records": 26,
+    "tariff_table_transcription": "complete_for_declared_scope",
+    "declared_scope": "Aktuelle und bereits veröffentlichte künftige Krippen- und Kindergartentarife; Zusatzkosten und Gebührenregeln.",
+    "excluded_from_regular_price_rows": [
+      "superseded_historical_tariffs",
+      "school_childcare",
+      "takki_and_childminding",
+      "separate_playgroups"
+    ],
+    "calculation_engine_changed": false,
+    "rule_transcription": "typed_parameters_and_source_clauses_with_explicit_unimplemented_status"
+  },
+  "original_research": {
+    "path": "data/research/neighbor_expansion_2026-11-10.json",
+    "section": "Möglingen",
+    "text": "Familienpass reduziert um 35 %, gezahlt werden 65 %. Ab vier kindergeldberechtigten Kindern kann ein Anspruch bestehen.\nFür die Jahresnormalisierung werden gemäß Nutzerfestlegung zwölf Betreuungs-Beitragsmonate angesetzt.\nEinrichtungsbezogene Zusatzbeiträge bleiben in der Tabelle unbeziffert.",
+    "source_clauses": [
+      {
+        "text": "Elternbeiträge in den Kindertageseinrichtungen\n                 der Gemeinde Möglingen ab September 2026\nElternbeitrag je Kind und Monat\n                                               Kinder über 3 Jahre\n Anzahl der          nur                Gruppe            Gruppe       Ganztages-      Ganztages-      Ganztages-\n   Kinder      Berechnungsbasis           mit               mit        betreuung       Betreuung       betreuung\n  unter 18                           verlängerter      verlängerter\n Jahren im        Empfohlener        Öffnungszeit      Öffnungszeit\n  Haushalt      Landesrichtsatz          VÖ 6              VÖ 7          GT 8             GT 9           GT 10\n               für Regelgruppen\n                 ab September       Landesrichtsatz        VÖ6 +        VÖ7 +            GT8 +           GT9 +\n                     2026               + 25%           1h = 34,66 €    34,66 €          34,66 €         34,66 €\n                                      (1h = 34,66 €)",
+        "evidence": {
+          "source_id": "13a79648a821",
+          "locator": "PDF-/Textseite 1, Absatzblock 1",
+          "original": null
+        }
+      },
+      {
+        "text": "Kinder unter 3 Jahre\n Anzahl der    Für die Betreuung        Gruppe            Gruppe       Ganztages-      Ganztages-      Ganztages-\n   Kinder      unter dreijähriger   mit verlängerter        mit        betreuung       betreuung       betreuung\n  unter 18       Kinder wird ein     Öffnungszeit      verlängerter\n Jahren im       Zuschlag von                          Öffnungszeit\n  Haushalt        50% auf den            VÖ 6              VÖ 7          GT 8             GT 9           GT 10\n                 maßgeblichen\n               Beitrag eines über      Ü3 + 50%          Ü3 + 50%      Ü3 + 50%        Ü3 + 50%        Ü3 + 50%\n                  dreijährigen\n                Kindes erhoben.",
+        "evidence": {
+          "source_id": "13a79648a821",
+          "locator": "PDF-/Textseite 1, Absatzblock 3",
+          "original": null
+        }
+      },
+      {
+        "text": "1 Kind                                312 €             365 €         432 €            485 €           537 €\n  2 Kinder                               249 €             291 €         345 €            387 €           429 €\n  3 Kinder                               186 €             219 €         260 €            291 €           323 €\n ab 4 Kinder                             125 €             146 €         173 €            194 €           215 €\nIn der ersten Eingewöhnungsphase eines Kindes (Krippe oder Kindergarten) erfolgt der erste\nElternbeitrag zum Folgemonat beziehungweise zur zweiten Monatshälfte\n(zum 1. oder 16. eines Monats). Dies orientiert sich am Eingewöhnungsstart des Kindes.\nFür Kinder, die aus einer Krippengruppe in den Kindergarten wechseln, ändert sich der Monatsbeitrag\nvom U3 - Betrag zum Ü3 - Betrag zum Folgemonat beziehungsweise zur zweiten Monatshälfte\n(zum 1. oder 16. eines Monats). Dies orientiert sich am Geburtsdatum des Kindes.",
+        "evidence": {
+          "source_id": "13a79648a821",
+          "locator": "PDF-/Textseite 1, Absatzblock 4",
+          "original": null
+        }
+      },
+      {
+        "text": "Ü3      72,00 € / Monat\nU3      61,00 € / Monat (Ermäßigung auf 85%)",
+        "evidence": {
+          "source_id": "13a79648a821",
+          "locator": "PDF-/Textseite 1, Absatzblock 6",
+          "original": null
+        }
+      },
+      {
+        "text": "Zusätzlich wird ein Kostenbeitrag pro Kind und Monat durch den Elternbeirat der\nKindertageseinrichtung erhoben (Vesperrunde, pädagogische Kochtage, etc.).",
+        "evidence": {
+          "source_id": "13a79648a821",
+          "locator": "PDF-/Textseite 1, Absatzblock 7",
+          "original": null
+        }
+      },
+      {
+        "text": "Wichtig für die Beitragsabrechnung:\nEltern sind verpflichtet, Änderungen unverzüglich an das Amt für Bildung und Betreuung zu melden\n(z.B. Geburt eines Geschwisterkindes, Adressänderungen, etc.).",
+        "evidence": {
+          "source_id": "13a79648a821",
+          "locator": "PDF-/Textseite 1, Absatzblock 8",
+          "original": null
+        }
+      },
+      {
+        "text": "Beitragserstattungen erfolgen rückwirkend für sechs Monate ab Eingang der Meldung.\nStand: Juli 2026",
+        "evidence": {
+          "source_id": "13a79648a821",
+          "locator": "PDF-/Textseite 1, Absatzblock 9",
+          "original": null
+        }
+      },
+      {
+        "text": "Eternbeiträge in den Kindertageseinrichtungen\n                  der Gemeinde Möglingen ab September 2026\n        Ermäßigung durch den Möglinger Familienpass (65% der maßgeblichen Beiträge)",
+        "evidence": {
+          "source_id": "13a79648a821",
+          "locator": "PDF-/Textseite 2, Absatzblock 1",
+          "original": null
+        }
+      },
+      {
+        "text": "Elternbeitrag je Kind und Monat\n                                             Kinder über 3 Jahre\n  Anzahl der           Gruppe             Gruppe           Ganztages-     Ganztages-      Ganztages-\n  Kinder unter     mit verlängerter   mit verlängerter     betreuung      betreuung       betreuung\n 18 Jahren im       Öffnungszeit       Öffnungszeit\n   Haushalt              VÖ 6               VÖ 7              GT 8            GT 9           GT 10\n gemeldet und\n   wohnhaft           65% des             65% des           65% des         65% des         65% des\n                    Regelbeitrags       Regelbeitrags     Regelbeitrags   Regelbeitrags   Regelbeitrags",
+        "evidence": {
+          "source_id": "13a79648a821",
+          "locator": "PDF-/Textseite 2, Absatzblock 2",
+          "original": null
+        }
+      },
+      {
+        "text": "Kinder unter 3 Jahre\n   Anzahl der          Gruppe             Gruppe          Ganztages-       Ganztages-      Ganztages-\n  Kinder unter     mit verlängerter   mit verlängerter    betreuung        betreuung       betreuung\n 18 Jahren im       Öffnungszeit       Öffnungszeit\n    Haushalt             VÖ 6               VÖ 7             GT 8             GT 9            GT 10\n gemeldet und\n    wohnhaft          65% des            65% des           65% des          65% des         65% des\n                    Regelbeitrags      Regelbeitrags     Regelbeitrags    Regelbeitrags   Regelbeitrags",
+        "evidence": {
+          "source_id": "13a79648a821",
+          "locator": "PDF-/Textseite 2, Absatzblock 4",
+          "original": null
+        }
+      },
+      {
+        "text": "1 Kind            202,80 €           237,25 €          280,80 €         315,25 €         349,05 €\n   2 Kinder           161,85 €           189,15 €          224,25 €         251,55 €         278,85 €\n   3 Kinder           120,90 €           142,35 €          169,00 €         189,15 €         209,95 €\n  Ab 4 Kinder          81,25 €            94,90 €          112,45 €         126,10 €         139,75 €\nIn der ersten Eingewöhnungsphase eines Kindes (Krippe oder Kindergarten) erfolgt der erste\nElternbeitrag zum Folgemonat beziehungweise zur zweiten Monatshälfte\n(zum 1. oder 16. eines Monats). Dies orientiert sich am Eingewöhnungsstart des Kindes.\nFür Kinder, die aus einer Krippengruppe in den Kindergarten wechseln, ändert sich der Monatsbeitrag\nvom U3 - Betrag zum Ü3 - Betrag zum Folgemonat beziehungsweise zur zweiten Monatshälfte\n(zum 1. oder 16. eines Monats). Dies orientiert sich am Geburtsdatum des Kindes.",
+        "evidence": {
+          "source_id": "13a79648a821",
+          "locator": "PDF-/Textseite 2, Absatzblock 5",
+          "original": null
+        }
+      },
+      {
+        "text": "Ü3     72,00 € / Monat         Hier findet keine Ermäßigung statt.\nU3     61,00 € / Monat         Hier findet keine Ermäßigung statt.",
+        "evidence": {
+          "source_id": "13a79648a821",
+          "locator": "PDF-/Textseite 2, Absatzblock 7",
+          "original": null
+        }
+      },
+      {
+        "text": "Zusätzlich wird ein Kostenbeitrag pro Kind und Monat durch den Elternbeirat der\nKindertageseinrichtung erhoben (Vesperrunde, pädagogische Kochtage, etc.).\nHier findet keine Ermäßigung statt.",
+        "evidence": {
+          "source_id": "13a79648a821",
+          "locator": "PDF-/Textseite 2, Absatzblock 8",
+          "original": null
+        }
+      },
+      {
+        "text": "Wichtig für die Beitragsabrechnung:\nEltern sind verpflichtet, Änderungen unverzüglich an das Amt für Bildung und Betreuung zu melden\n(z.B. Geburt eines Geschwisterkindes, Adressänderungen, etc.).",
+        "evidence": {
+          "source_id": "13a79648a821",
+          "locator": "PDF-/Textseite 2, Absatzblock 9",
+          "original": null
+        }
+      },
+      {
+        "text": "Beitragserstattungen erfolgen rückwirkend für sechs Monate ab Eingang der Meldung.",
+        "evidence": {
+          "source_id": "13a79648a821",
+          "locator": "PDF-/Textseite 2, Absatzblock 10",
+          "original": null
+        }
+      },
+      {
+        "text": "I. Allgemeine Voraussetzungen und begünstigter Personenkreis:\nZielgruppe des Möglinger Familienpasses sind Familien. Hierzu zählen alle\nErziehungsberechtigten mit ihren Kindern. Als Kinder gelten auch Volljährige zwischen 18 und\n25 Jahren, sofern sie noch kindergeldberechtigt sind. Die Erziehungsberechtigten müssen mit\nihren Kindern in häuslicher Gemeinschaft leben und in Möglingen mit Hauptwohnsitz\ngemeldet sein. Außerdem muss für die Kinder Kindergeld nach dem Bundeskindergeldgesetz\ngewährt werden. Sind diese Voraussetzungen erfüllt, wird dem folgenden Personengruppen\nein Möglinger Familienpass ausgestellt:\nGruppe A:      Familien, die Leistungen nach dem Wohngeldgesetz empfangen\nGruppe B:      Familien, die Leistungen nach SGB II und SGB XII empfangen\nGruppe C:      Familien ab 4 kindergeldberechtigten Kindern\nGruppe D:      Familien mit mind. einem kindergeldberechtigten Kind mit Behinderung ab 50%\nGruppe E:      Familien, die Leistungen nach § 2 Asylbewerberleistungsgesetz (AsylbLG) oder\n               nach § 3 AsylbLG in Verbindung mit § 6 AsylbLG empfangen",
+        "evidence": {
+          "source_id": "362f70fede0a",
+          "locator": "PDF-/Textseite 1, Absatzblock 2",
+          "original": null
+        }
+      },
+      {
+        "text": "II. Vergünstigungen:\nLeistungen aus dem Familienpass werden nur gewährt, soweit nicht ein anderer gesetzlicher\noder freiwilliger Aufgabenträger (beispielsweise das Jobcenter) Ermäßigungen bzw.\nKostenübernahmen für die folgenden Tatbestände gewährt. Grundsätzlich gilt:",
+        "evidence": {
+          "source_id": "362f70fede0a",
+          "locator": "PDF-/Textseite 1, Absatzblock 3",
+          "original": null
+        }
+      },
+      {
+        "text": "Alle berechtigten Personengruppen erhalten folgende Förderungen bzw. Vergünstigungen:\n1.     Einen Gutschein in Höhe von 15 € pro Jahr für kulturelle Veranstaltungen der\n       Gemeinde Möglingen.\n2.     Zuschuss von 5 € / Tag für maximal 10 Tage pro Kind pro Kalenderjahr bei Teilnahme\n       an einer Jugendfreizeit eines/r Möglinger Vereins, Kirche oder Institution\n3.     Zuschuss von 10 € / Quartal bei Teilnahme an der Kindersportschule (KiSS) des TV\n       Möglingen.\nGruppen A, C, D erhalten darüber hinaus eine\n4.     Reduzierung der maßgeblichen Beiträge für alle Kindergärten, Schulkindbetreuungen\n       und die Kinderkrippe in der Gemeinde Möglingen um 35%.",
+        "evidence": {
+          "source_id": "362f70fede0a",
+          "locator": "PDF-/Textseite 1, Absatzblock 4",
+          "original": null
+        }
+      },
+      {
+        "text": "III. Verfahren:\nDer Möglinger Familienpass wird auf schriftlichen Antrag bei der Gemeinde Möglingen\nausgestellt. Als Nachweis müssen folgende Unterlagen vorgelegt werden:\n         - Bescheide über Leistungen nach SGB II, SGB XII, Wohngeld oder Leistungen nach dem\n         Asylbewerberleistungsgesetz oder Nachweis der Behinderung eines Kindes.\n         - Nachweis über den Bezug von Kindergeld.\n         - Ausweisdokument\nDer Zuschuss nach II. Nr. 2 wird vom Verein, der Kirche bzw. der Institution bei der Gemeinde\nnach\nDurchführung der Freizeit beantragt.\nDer Zuschuss nach II. Nr. 3 wird vom TV Möglingen bei der Gemeinde beantragt.",
+        "evidence": {
+          "source_id": "362f70fede0a",
+          "locator": "PDF-/Textseite 1, Absatzblock 5",
+          "original": null
+        }
+      },
+      {
+        "text": "IV. Gültigkeit:\nDie Befristung des Möglinger Familienpasses für den Personenkreis der Gruppen A, B und E\nentspricht der Befristung des vorgelegten Leistungsbescheides. Für die Familien der Gruppe C\nund D wird der Familienpass auf Ablauf des Monats befristet, in welchem das älteste Kind bzw.\ndas Kind mit Behinderung das 18. Lebensjahr vollendet. Werden die Voraussetzungen zur\nErteilung danach weiterhin erfüllt, wird der Familienpass jeweils entsprechend der Frist des\nKindergeldbescheids verlängert.\nDer Möglinger Familienpass wird nach Abgabe aller notwendigen Antragsunterlagen zum\nErsten des jeweiligen Monates ausgestellt. Eine rückwirkende Ausstellung ist nicht möglich.",
+        "evidence": {
+          "source_id": "362f70fede0a",
+          "locator": "PDF-/Textseite 2, Absatzblock 1",
+          "original": null
+        }
+      }
+    ]
+  }
+}

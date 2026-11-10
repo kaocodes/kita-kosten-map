@@ -1,12 +1,14 @@
 # Lokale Webanwendung und Geodaten
 
-**Stand:** 8. November 2026 · **Umsetzungspaket:** Modellfamilien
+**Stand:** 10. November 2026 · **Umsetzungspaket:** lokale Datensatz-Erweiterung
 
-Es gibt eine eigenständige React-Anwendung mit Leaflet-Karte. Sie stellt die zwölf Vergleichskommunen als Gebührenflächen dar und verwendet den geprüften TypeScript-Rechenkern. Die Anwendung läuft vollständig mit statischen Dateien; ein Backend wird nicht benötigt. Die Veröffentlichung auf GitHub Pages erfolgt über den Workflow `.github/workflows/pages.yml`.
+Es gibt eine eigenständige React-Anwendung mit Leaflet-Karte. Sie stellt die 20 Vergleichskommunen als Gebührenflächen dar und verwendet den geprüften TypeScript-Rechenkern. Die Anwendung läuft vollständig mit statischen Dateien; ein Backend wird nicht benötigt. Die Veröffentlichung auf GitHub Pages erfolgt über den Workflow `.github/workflows/pages.yml`.
 
-## Familienatlas: lokaler Stand zur Durchsicht
+## Familienatlas und freigegebene Datensatz-Erweiterung
 
-Auf `codex/ui-redesign` ist das Familienatlas-Layout lokal umgesetzt: große Gemeindekarte mit dauerhaft sichtbaren Namen aller zwölf Vergleichskommunen, verschiebbarer und zentrierbarer Leaflet-Ansicht, Punktemuster im Hintergrund und Auswahlkontur über den Gebieten. Vollständige Kommuneninformationen stehen unter der Karte und nach Auswahl direkt in der absteigenden Liste. Kinderdetails sind aufklappbar und enthalten Verpflegung und Zusatzkosten direkt. Familienkarten öffnen den echten Konfigurator mit 1–4 Kindern oder setzen auf die Modellfamilie zurück. Die Überschrift wechselt aktive Kommunennamen auf einem lila Balken; der Wechsel ist pausierbar und berücksichtigt reduzierte Bewegung. Die Familienkarten tragen plakative Schriftbalken, die Methodik steht kompakt ohne Verpflegungsblock oder Bilder direkt auf dem Hintergrund. Familienillustrationen, Kopfsymbol und Schrift werden lokal mitgeliefert. Details und Prüfstand: [UI_REDESIGN.md](UI_REDESIGN.md). Dieser Stand wurde noch nicht auf GitHub Pages veröffentlicht.
+Der Branch `Datensatz-Erweiterung` erweitert die bisherige Website um acht vollständig unterstützte Kommunen. Die [Integrationsdokumentation](ERWEITERUNGSINTEGRATION.md) enthält Auswahl und Prüfstand. Die Erweiterung ist nach lokaler Durchsicht für den Merge nach `main` und die automatische Pages-Veröffentlichung freigegeben.
+
+Das Familienatlas-Layout ist umgesetzt: große Gemeindekarte mit dauerhaft sichtbaren Namen aller aktiven Vergleichskommunen, verschiebbarer und zentrierbarer Leaflet-Ansicht, Punktemuster im Hintergrund und Auswahlkontur über den Gebieten. Vollständige Kommuneninformationen stehen unter der Karte und nach Auswahl direkt in der absteigenden Liste. Kinderdetails sind aufklappbar und enthalten Verpflegung und Zusatzkosten direkt. Familienkarten öffnen den echten Konfigurator mit 1–4 Kindern oder setzen auf die Modellfamilie zurück. Die Überschrift wechselt aktive Kommunennamen auf einem lila Balken; der Wechsel berücksichtigt reduzierte Bewegung. Der Pausenbutton und die zusätzliche Kartenüberschrift mit Kommunenzähler wurden auf Nutzerwunsch entfernt. Die Familienkarten tragen plakative Schriftbalken, die Methodik steht kompakt ohne Verpflegungsblock oder Bilder direkt auf dem Hintergrund. Familienillustrationen, Kopfsymbol und Schrift werden lokal mitgeliefert. Details und Prüfstand: [UI_REDESIGN.md](UI_REDESIGN.md). Die Veröffentlichung der Datensatz-Erweiterung erfolgt über den Pages-Workflow auf `main`.
 
 ## 1. Lokal starten
 
@@ -17,7 +19,7 @@ npm ci
 npm run dev
 ```
 
-Die lokale Website erscheint unter **http://127.0.0.1:5173/**. Der Start prüft zuerst die kanonischen Daten und Quellenprüfsummen und erzeugt die Browserdaten. Port 5173 ist fest eingestellt; ein bereits belegter Port wird ausdrücklich gemeldet.
+Die lokale Website erscheint unter **http://127.0.0.1:5173/**. Der Start prüft zuerst die ausgewählte Erweiterung gegen den Freigabeindex, anschließend die kanonischen Daten und Quellenprüfsummen und erzeugt die Browserdaten. Port 5173 ist fest eingestellt; ein bereits belegter Port wird ausdrücklich gemeldet.
 
 Für den fertigen statischen Build:
 
@@ -30,7 +32,7 @@ Die Build-Vorschau läuft unter **http://127.0.0.1:4173/**. `dist/` enthält die
 
 ## 2. Sichtbare Funktionen
 
-- Gemeindekarte mit zwölf auswählbaren Gebührenflächen und 128 umliegenden Gemeindegebieten als räumlichem Kontext.
+- Gemeindekarte mit 20 auswählbaren Gebührenflächen und 120 umliegenden Gemeindegebieten als räumlichem Kontext.
 - Modellfamilien-Konfigurator mit Haushaltskonstellation, Kinderkategorien, sechs Einkommensszenarien und 6/8 Stunden täglich je Kita-Kind. Karte, Liste und Details verwenden dieselbe Familiensumme. „Eigene Familie“ und der separate Höchsttarif-Reiter sind ausgeblendet.
 - Monatsäquivalent, ursprünglicher Monatsbeitrag, Beitragsmonate, gebuchte Wochenstunden, zusätzliche Buchungszeit und Tarifbeginn je Kommune.
 - Verpflegung und Zusatzkosten als gesonderte Varianten; fehlende Beitragsmonate bleiben ausdrücklich unbekannt.
@@ -98,23 +100,23 @@ Quellenvermerk und Änderungshinweis stehen direkt in der Karte und ausführlich
 
 ## 5. Browserdaten und Größenbudget
 
-`web/public/data/region-stuttgart.json` enthält die benötigten aktiven Tarifkataloge, Register, beide Profile, örtliche Regeln und einen Quellenindex. Verbatim-Recherchetexte (`original_research`) sowie Kopien der Originalzellen innerhalb von Quellenbelegen (`evidence.original`) werden ausschließlich in diesem abgeleiteten Browserexport weggelassen. Originaldaten und Quellenarchive bleiben vollständig erhalten. Quellenkennung, URL, Fundstelle, Tarifdaten und Rechenregeln bleiben verfügbar. Prüfungen vergleichen die Beträge, Pakete, Zusatzkosten und Quellenfundstellen beider Profile mit den kanonischen Katalogen.
+`web/public/data/region-stuttgart.json` enthält die benötigten aktiven Tarifkataloge, Register, beide Profile, örtliche Regeln und einen Quellenindex. Verbatim-Recherchetexte (`original_research`) sowie Kopien der Originalzellen innerhalb von Quellenbelegen (`evidence.original`) werden ausschließlich in diesem abgeleiteten Browserexport weggelassen. Zusätzlich entfallen reine Import-Metadaten (`coverage`, `source_text_archive`) und Parameter ausdrücklich nicht ausführbarer Regeln. Deren Kennung, Status und Quellenbelege bleiben erhalten; eine Auswahl solcher Regeln wird weiterhin abgelehnt. Originaldaten und Quellenarchive bleiben vollständig erhalten. Quellenkennung, URL, Fundstelle, Tarifdaten und ausführbare Rechenregeln bleiben verfügbar. Prüfungen vergleichen die Beträge, Pakete, Zusatzkosten und Quellenfundstellen beider Profile mit den kanonischen Katalogen.
 
 Messstand dieser Umsetzung:
 
 | Bestandteil | Unkomprimiert | Mit gzip |
 |---|---:|---:|
 | Ursprünglicher regionaler Geometrieabruf | 391.188 Byte | – |
-| Vereinfachte Webgeometrie mit Zuordnung | 132.114 Byte | 28.358 Byte |
-| Browserkatalog, Profile und Quellenindex | rund 1,12 MB | rund 48 kB |
+| Vereinfachte Webgeometrie mit Zuordnung | 132.635 Byte | 28.518 Byte |
+| Browserkatalog, Profile und Quellenindex | 1.514.199 Byte | 76.557 Byte |
 | JavaScript-Bundle | rund 510 kB | rund 154 kB |
 | CSS-Bundle | rund 37 kB | rund 11 kB |
 
 Die frühere Oberfläche einschließlich des persönlichen Formulars wird von der aktiven Anwendung nicht importiert und nicht in deren Produktionsbundle aufgenommen. Der Haupt-Build liegt knapp über der Vite-Hinweisschwelle von 500 kB unkomprimiert; die Datenbudgets bleiben erfüllt.
 
-Die rechnerische gzip-Summe aus HTML, CSS, JavaScript, Geometrie und Browserkatalog liegt bei ungefähr **240 kB**. Tatsächlicher Transfer und Ladezeit hängen von Serverkomprimierung, Verbindung und Cache ab. Die lokale einfache HTTP-Vorschau liefert Dateien unkomprimiert aus. Quellen-PDFs und das vollständige Forschungsarchiv gehören nicht zum Website-Build.
+Die rechnerische gzip-Summe aus HTML, CSS, JavaScript, Geometrie und Browserkatalog liegt bei ungefähr **272 kB**. Tatsächlicher Transfer und Ladezeit hängen von Serverkomprimierung, Verbindung und Cache ab. Die lokale einfache HTTP-Vorschau liefert Dateien unkomprimiert aus. Quellen-PDFs und das vollständige Forschungsarchiv gehören nicht zum Website-Build.
 
-Das Vorverarbeitungsskript prüft feste Ausgangsbudgets: höchstens **200 kB** Webgeometrie, **1,5 MB** Browserkatalog und zusammen höchstens **150 kB gzip** für die beiden Datenressourcen. Die aktuellen Werte und Hashes werden unter `web/public/data/build-metrics.json` neu erzeugt. Größere Erweiterungen können eine regionale Aufteilung erfordern; die Grenzen werden dann bewusst überprüft.
+Das Vorverarbeitungsskript prüft feste Ausgangsbudgets: höchstens **200 kB** Webgeometrie, **2 MB** Browserkatalog und zusammen höchstens **150 kB gzip** für die beiden Datenressourcen. Das unkomprimierte Katalogbudget wurde für 20 Kommunen von 1,5 auf 2 MB angehoben; das gemeinsame 150-kB-gzip-Budget bleibt unverändert. Die aktuellen Werte und Hashes werden unter `web/public/data/build-metrics.json` neu erzeugt. Größere Erweiterungen können eine regionale Aufteilung erfordern; die Grenzen werden dann bewusst überprüft.
 
 ## 6. Prüfung und statische Bereitstellung
 

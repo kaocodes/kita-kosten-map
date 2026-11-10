@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0",
+  "review_path": "data/expansion/calculation_review.json",
+  "review_sha256": "85e271df46f0c735b01b021563bb65933f9179dfc55aa372b5443d733784553b",
+  "status": "approved_for_publication",
+  "supported_as_of_from": "2026-11-04",
+  "supported_as_of_to": "2026-11-10",
+  "municipality_ids": [
+    "aidlingen",
+    "asperg",
+    "deizisau",
+    "ehningen",
+    "holzgerlingen",
+    "marbach",
+    "moeglingen",
+    "tamm"
+  ],
+  "note": "Acht im gesamten aktuellen Modellumfang unterstützte Kommunen. Nach lokaler Durchsicht auf ausdrücklichen Nutzerwunsch zum Merge nach main und zur Veröffentlichung auf GitHub Pages freigegeben. Originalkataloge und historischer Prüfstand bleiben unverändert."
+}

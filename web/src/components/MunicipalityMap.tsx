@@ -95,6 +95,13 @@ export function MunicipalityMap({ geometry, results, selectedId, maxZoom, attrib
     updateLabels.current = () => {
       const accepted: { left: number; top: number; right: number; bottom: number }[] = [];
       const size = instance.getSize();
+      const mapBox = container.current!.getBoundingClientRect();
+      // Controls are obstacles too, especially with more towns on narrow screens.
+      container.current!.parentElement!.querySelectorAll(`.leaflet-control-zoom, .${styles.reset}, .${styles.mapNote}`).forEach(control => {
+        const box = control.getBoundingClientRect();
+        accepted.push({ left: box.left - mapBox.left - 4, right: box.right - mapBox.left + 4,
+          top: box.top - mapBox.top - 4, bottom: box.bottom - mapBox.top + 4 });
+      });
       const offsets = [[0, 0], [0, -28], [0, 28], [-45, 0], [45, 0], [0, -56], [0, 56],
         [-60, -28], [60, -28], [-60, 28], [60, 28], [0, -84], [0, 84], [-95, -56], [95, -56], [-95, 56], [95, 56]];
       const ordered = [...labels.current.entries()].sort(([first], [second]) =>
@@ -111,14 +118,27 @@ export function MunicipalityMap({ geometry, results, selectedId, maxZoom, attrib
         // Offscreen towns stay at their geographic anchors while the user pans.
         if (point.x >= 0 && point.x <= size.x && point.y >= 0 && point.y <= size.y) {
           let minimumOverlap = Infinity;
-          for (const [dx, dy] of offsets) {
-            const x = Math.max(width / 2 + 8, Math.min(size.x - width / 2 - 8, point.x + dx));
-            const y = Math.max(74, Math.min(size.y - 65, point.y + dy));
+          const tryPosition = (candidateX: number, candidateY: number) => {
+            const x = Math.max(width / 2 + 8, Math.min(size.x - width / 2 - 8, candidateX));
+            const y = Math.max(14, Math.min(size.y - 14, candidateY));
             const box = { left: x - width / 2 - 3, right: x + width / 2 + 3, top: y - 12, bottom: y + 12 };
             const overlap = accepted.reduce((total, other) => total + Math.max(0, Math.min(box.right, other.right) - Math.max(box.left, other.left)) *
               Math.max(0, Math.min(box.bottom, other.bottom) - Math.max(box.top, other.top)), 0);
             if (overlap < minimumOverlap) { minimumOverlap = overlap; position = L.point(x, y); selectedBox = box; }
-            if (overlap === 0) break;
+            return overlap === 0;
+          };
+          for (const [dx, dy] of offsets) {
+            if (tryPosition(point.x + dx, point.y + dy)) break;
+          }
+          if (minimumOverlap > 0) {
+            // Search remaining canvas space only when nearby positions are full.
+            const fallback: [number, number][] = [];
+            for (let y = 14; y <= size.y - 14; y += 26) {
+              for (let x = width / 2 + 8; x <= size.x - width / 2 - 8; x += 28) fallback.push([x, y]);
+            }
+            fallback.sort(([ax, ay], [bx, by]) => (ax - point.x) ** 2 + (ay - point.y) ** 2 -
+              ((bx - point.x) ** 2 + (by - point.y) ** 2));
+            for (const [x, y] of fallback) if (tryPosition(x, y)) break;
           }
         }
         const target = instance.containerPointToLatLng(position);

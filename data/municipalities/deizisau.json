@@ -1,0 +1,1950 @@
+{
+  "schema_version": "1.0",
+  "id": "deizisau",
+  "name": "Deizisau",
+  "reviewed_at": "2026-11-10",
+  "reference_date": "2026-11-10",
+  "scope": {
+    "included": [
+      "municipal"
+    ],
+    "other_providers": "only_with_explicit_source_evidence"
+  },
+  "family_basis": "under_18_or_child_benefit",
+  "family_evidence": {
+    "source_id": "09e38530df32",
+    "locator": "Familienbegriff und Fußnoten der Gebührenunterlagen",
+    "original": null
+  },
+  "supporting_source_ids": [
+    "09e38530df32",
+    "c76cba1c0f3c",
+    "395cdc6360d1"
+  ],
+  "offers": [
+    {
+      "id": "deizisau-offer-0d1eebf46f29",
+      "original_label": "VÖ 7–13 Uhr",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 1800,
+      "weekday_minutes": [
+        360,
+        360,
+        360,
+        360,
+        360
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "09e38530df32",
+        "locator": "VÖ-Tabelle ab September 2026",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "09e38530df32",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "09e38530df32",
+        "locator": "VÖ-Tabelle ab September 2026",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "deizisau-offer-455c1b690515",
+      "original_label": "GT 7–17 Uhr an 1 Tagen, sonst VÖ",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2040,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "09e38530df32",
+        "locator": "GT-Tabelle, 1 Tage/Woche",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "09e38530df32",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "09e38530df32",
+        "locator": "GT-Tabelle, 1 Tage/Woche",
+        "original": null
+      },
+      "formula": null,
+      "gt_days_per_week": 1,
+      "weekday_pattern": {
+        "long_days": 1,
+        "long_day_minutes": 600,
+        "other_day_minutes": 360
+      }
+    },
+    {
+      "id": "deizisau-offer-e9296c1ad2ed",
+      "original_label": "GT 7–17 Uhr an 2 Tagen, sonst VÖ",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2280,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "09e38530df32",
+        "locator": "GT-Tabelle, 2 Tage/Woche",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "09e38530df32",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "09e38530df32",
+        "locator": "GT-Tabelle, 2 Tage/Woche",
+        "original": null
+      },
+      "formula": null,
+      "gt_days_per_week": 2,
+      "weekday_pattern": {
+        "long_days": 2,
+        "long_day_minutes": 600,
+        "other_day_minutes": 360
+      }
+    },
+    {
+      "id": "deizisau-offer-fe0b81321a63",
+      "original_label": "GT 7–17 Uhr an 3 Tagen, sonst VÖ",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2520,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "09e38530df32",
+        "locator": "GT-Tabelle, 3 Tage/Woche",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "09e38530df32",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "09e38530df32",
+        "locator": "GT-Tabelle, 3 Tage/Woche",
+        "original": null
+      },
+      "formula": null,
+      "gt_days_per_week": 3,
+      "weekday_pattern": {
+        "long_days": 3,
+        "long_day_minutes": 600,
+        "other_day_minutes": 360
+      }
+    },
+    {
+      "id": "deizisau-offer-4ebeb45c3058",
+      "original_label": "GT 7–17 Uhr an 4 Tagen, sonst VÖ",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2760,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "09e38530df32",
+        "locator": "GT-Tabelle, 4 Tage/Woche",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "09e38530df32",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "09e38530df32",
+        "locator": "GT-Tabelle, 4 Tage/Woche",
+        "original": null
+      },
+      "formula": null,
+      "gt_days_per_week": 4,
+      "weekday_pattern": {
+        "long_days": 4,
+        "long_day_minutes": 600,
+        "other_day_minutes": 360
+      }
+    },
+    {
+      "id": "deizisau-offer-b3a8cd5bab87",
+      "original_label": "GT 7–17 Uhr an 5 Tagen, sonst VÖ",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 3000,
+      "weekday_minutes": [
+        600,
+        600,
+        600,
+        600,
+        600
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "09e38530df32",
+        "locator": "GT-Tabelle, 5 Tage/Woche",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "09e38530df32",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "09e38530df32",
+        "locator": "GT-Tabelle, 5 Tage/Woche",
+        "original": null
+      },
+      "formula": null,
+      "gt_days_per_week": 5,
+      "weekday_pattern": {
+        "long_days": 5,
+        "long_day_minutes": 600,
+        "other_day_minutes": 360
+      }
+    },
+    {
+      "id": "deizisau-offer-29df7c85a4ee",
+      "original_label": "VÖ 7–13 Uhr",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 1800,
+      "weekday_minutes": [
+        360,
+        360,
+        360,
+        360,
+        360
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "09e38530df32",
+        "locator": "VÖ-Tabelle ab September 2026",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "09e38530df32",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "09e38530df32",
+        "locator": "VÖ-Tabelle ab September 2026",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "deizisau-offer-c309dfa2c2c8",
+      "original_label": "GT 7–17 Uhr an 1 Tagen, sonst VÖ",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2040,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "09e38530df32",
+        "locator": "GT-Tabelle, 1 Tage/Woche",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "09e38530df32",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "09e38530df32",
+        "locator": "GT-Tabelle, 1 Tage/Woche",
+        "original": null
+      },
+      "formula": null,
+      "gt_days_per_week": 1,
+      "weekday_pattern": {
+        "long_days": 1,
+        "long_day_minutes": 600,
+        "other_day_minutes": 360
+      }
+    },
+    {
+      "id": "deizisau-offer-568df5de2d1d",
+      "original_label": "GT 7–17 Uhr an 2 Tagen, sonst VÖ",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2280,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "09e38530df32",
+        "locator": "GT-Tabelle, 2 Tage/Woche",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "09e38530df32",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "09e38530df32",
+        "locator": "GT-Tabelle, 2 Tage/Woche",
+        "original": null
+      },
+      "formula": null,
+      "gt_days_per_week": 2,
+      "weekday_pattern": {
+        "long_days": 2,
+        "long_day_minutes": 600,
+        "other_day_minutes": 360
+      }
+    },
+    {
+      "id": "deizisau-offer-e73a0e89c63c",
+      "original_label": "GT 7–17 Uhr an 3 Tagen, sonst VÖ",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2520,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "09e38530df32",
+        "locator": "GT-Tabelle, 3 Tage/Woche",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "09e38530df32",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "09e38530df32",
+        "locator": "GT-Tabelle, 3 Tage/Woche",
+        "original": null
+      },
+      "formula": null,
+      "gt_days_per_week": 3,
+      "weekday_pattern": {
+        "long_days": 3,
+        "long_day_minutes": 600,
+        "other_day_minutes": 360
+      }
+    },
+    {
+      "id": "deizisau-offer-ecf6f8d65400",
+      "original_label": "GT 7–17 Uhr an 4 Tagen, sonst VÖ",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2760,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "09e38530df32",
+        "locator": "GT-Tabelle, 4 Tage/Woche",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "09e38530df32",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "09e38530df32",
+        "locator": "GT-Tabelle, 4 Tage/Woche",
+        "original": null
+      },
+      "formula": null,
+      "gt_days_per_week": 4,
+      "weekday_pattern": {
+        "long_days": 4,
+        "long_day_minutes": 600,
+        "other_day_minutes": 360
+      }
+    },
+    {
+      "id": "deizisau-offer-9216bd8ddafa",
+      "original_label": "GT 7–17 Uhr an 5 Tagen, sonst VÖ",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 3000,
+      "weekday_minutes": [
+        600,
+        600,
+        600,
+        600,
+        600
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "09e38530df32",
+        "locator": "GT-Tabelle, 5 Tage/Woche",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "09e38530df32",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "09e38530df32",
+        "locator": "GT-Tabelle, 5 Tage/Woche",
+        "original": null
+      },
+      "formula": null,
+      "gt_days_per_week": 5,
+      "weekday_pattern": {
+        "long_days": 5,
+        "long_day_minutes": 600,
+        "other_day_minutes": 360
+      }
+    }
+  ],
+  "prices": [
+    {
+      "id": "deizisau-price-996575b77e15",
+      "offer_id": "deizisau-offer-0d1eebf46f29",
+      "amount_cents": 22800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "09e38530df32",
+        "locator": "VÖ-Tabelle ab September 2026",
+        "original": 228
+      }
+    },
+    {
+      "id": "deizisau-price-ed803a0a9290",
+      "offer_id": "deizisau-offer-0d1eebf46f29",
+      "amount_cents": 17500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "09e38530df32",
+        "locator": "VÖ-Tabelle ab September 2026",
+        "original": 175
+      }
+    },
+    {
+      "id": "deizisau-price-cfa18d95cc7e",
+      "offer_id": "deizisau-offer-0d1eebf46f29",
+      "amount_cents": 11800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "09e38530df32",
+        "locator": "VÖ-Tabelle ab September 2026",
+        "original": 118
+      }
+    },
+    {
+      "id": "deizisau-price-289460075ce6",
+      "offer_id": "deizisau-offer-0d1eebf46f29",
+      "amount_cents": 4000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "09e38530df32",
+        "locator": "VÖ-Tabelle ab September 2026",
+        "original": 40
+      }
+    },
+    {
+      "id": "deizisau-price-a2868f07f580",
+      "offer_id": "deizisau-offer-455c1b690515",
+      "amount_cents": 27400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "09e38530df32",
+        "locator": "GT-Tabelle, 1 Tage/Woche",
+        "original": 274
+      }
+    },
+    {
+      "id": "deizisau-price-2c46427673c1",
+      "offer_id": "deizisau-offer-455c1b690515",
+      "amount_cents": 20400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "09e38530df32",
+        "locator": "GT-Tabelle, 1 Tage/Woche",
+        "original": 204
+      }
+    },
+    {
+      "id": "deizisau-price-65a6d7718ceb",
+      "offer_id": "deizisau-offer-455c1b690515",
+      "amount_cents": 13800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "09e38530df32",
+        "locator": "GT-Tabelle, 1 Tage/Woche",
+        "original": 138
+      }
+    },
+    {
+      "id": "deizisau-price-dc3bc909ef5f",
+      "offer_id": "deizisau-offer-455c1b690515",
+      "amount_cents": 4600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "09e38530df32",
+        "locator": "GT-Tabelle, 1 Tage/Woche",
+        "original": 46
+      }
+    },
+    {
+      "id": "deizisau-price-534c357e93de",
+      "offer_id": "deizisau-offer-e9296c1ad2ed",
+      "amount_cents": 30800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "09e38530df32",
+        "locator": "GT-Tabelle, 2 Tage/Woche",
+        "original": 308
+      }
+    },
+    {
+      "id": "deizisau-price-a02765f87425",
+      "offer_id": "deizisau-offer-e9296c1ad2ed",
+      "amount_cents": 23200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "09e38530df32",
+        "locator": "GT-Tabelle, 2 Tage/Woche",
+        "original": 232
+      }
+    },
+    {
+      "id": "deizisau-price-008b0a847e01",
+      "offer_id": "deizisau-offer-e9296c1ad2ed",
+      "amount_cents": 15500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "09e38530df32",
+        "locator": "GT-Tabelle, 2 Tage/Woche",
+        "original": 155
+      }
+    },
+    {
+      "id": "deizisau-price-dc6aa0cb3a23",
+      "offer_id": "deizisau-offer-e9296c1ad2ed",
+      "amount_cents": 5400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "09e38530df32",
+        "locator": "GT-Tabelle, 2 Tage/Woche",
+        "original": 54
+      }
+    },
+    {
+      "id": "deizisau-price-eca56e768aab",
+      "offer_id": "deizisau-offer-fe0b81321a63",
+      "amount_cents": 34400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "09e38530df32",
+        "locator": "GT-Tabelle, 3 Tage/Woche",
+        "original": 344
+      }
+    },
+    {
+      "id": "deizisau-price-c9cbdeffdb46",
+      "offer_id": "deizisau-offer-fe0b81321a63",
+      "amount_cents": 25800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "09e38530df32",
+        "locator": "GT-Tabelle, 3 Tage/Woche",
+        "original": 258
+      }
+    },
+    {
+      "id": "deizisau-price-5e1f59a18e9a",
+      "offer_id": "deizisau-offer-fe0b81321a63",
+      "amount_cents": 17300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "09e38530df32",
+        "locator": "GT-Tabelle, 3 Tage/Woche",
+        "original": 173
+      }
+    },
+    {
+      "id": "deizisau-price-f61a48d90222",
+      "offer_id": "deizisau-offer-fe0b81321a63",
+      "amount_cents": 6000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "09e38530df32",
+        "locator": "GT-Tabelle, 3 Tage/Woche",
+        "original": 60
+      }
+    },
+    {
+      "id": "deizisau-price-548ba4124bcf",
+      "offer_id": "deizisau-offer-4ebeb45c3058",
+      "amount_cents": 38200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "09e38530df32",
+        "locator": "GT-Tabelle, 4 Tage/Woche",
+        "original": 382
+      }
+    },
+    {
+      "id": "deizisau-price-d93e98cc2782",
+      "offer_id": "deizisau-offer-4ebeb45c3058",
+      "amount_cents": 28700,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "09e38530df32",
+        "locator": "GT-Tabelle, 4 Tage/Woche",
+        "original": 287
+      }
+    },
+    {
+      "id": "deizisau-price-619ca0a7f4e3",
+      "offer_id": "deizisau-offer-4ebeb45c3058",
+      "amount_cents": 19000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "09e38530df32",
+        "locator": "GT-Tabelle, 4 Tage/Woche",
+        "original": 190
+      }
+    },
+    {
+      "id": "deizisau-price-654a892c4880",
+      "offer_id": "deizisau-offer-4ebeb45c3058",
+      "amount_cents": 6400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "09e38530df32",
+        "locator": "GT-Tabelle, 4 Tage/Woche",
+        "original": 64
+      }
+    },
+    {
+      "id": "deizisau-price-e50df871d5b0",
+      "offer_id": "deizisau-offer-b3a8cd5bab87",
+      "amount_cents": 41800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "09e38530df32",
+        "locator": "GT-Tabelle, 5 Tage/Woche",
+        "original": 418
+      }
+    },
+    {
+      "id": "deizisau-price-d78c38c0fe9a",
+      "offer_id": "deizisau-offer-b3a8cd5bab87",
+      "amount_cents": 31100,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "09e38530df32",
+        "locator": "GT-Tabelle, 5 Tage/Woche",
+        "original": 311
+      }
+    },
+    {
+      "id": "deizisau-price-816d25fe3fb7",
+      "offer_id": "deizisau-offer-b3a8cd5bab87",
+      "amount_cents": 21000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "09e38530df32",
+        "locator": "GT-Tabelle, 5 Tage/Woche",
+        "original": 210
+      }
+    },
+    {
+      "id": "deizisau-price-4feeae6e3b89",
+      "offer_id": "deizisau-offer-b3a8cd5bab87",
+      "amount_cents": 7100,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "09e38530df32",
+        "locator": "GT-Tabelle, 5 Tage/Woche",
+        "original": 71
+      }
+    },
+    {
+      "id": "deizisau-price-7347c8e605ad",
+      "offer_id": "deizisau-offer-29df7c85a4ee",
+      "amount_cents": 45600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "09e38530df32",
+        "locator": "VÖ-Tabelle ab September 2026",
+        "original": 456
+      }
+    },
+    {
+      "id": "deizisau-price-e249fced52e3",
+      "offer_id": "deizisau-offer-29df7c85a4ee",
+      "amount_cents": 35000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "09e38530df32",
+        "locator": "VÖ-Tabelle ab September 2026",
+        "original": 350
+      }
+    },
+    {
+      "id": "deizisau-price-5010ac86550c",
+      "offer_id": "deizisau-offer-29df7c85a4ee",
+      "amount_cents": 23600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "09e38530df32",
+        "locator": "VÖ-Tabelle ab September 2026",
+        "original": 236
+      }
+    },
+    {
+      "id": "deizisau-price-6a4200732844",
+      "offer_id": "deizisau-offer-29df7c85a4ee",
+      "amount_cents": 8000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "09e38530df32",
+        "locator": "VÖ-Tabelle ab September 2026",
+        "original": 80
+      }
+    },
+    {
+      "id": "deizisau-price-7b4e0a27f129",
+      "offer_id": "deizisau-offer-c309dfa2c2c8",
+      "amount_cents": 54800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "09e38530df32",
+        "locator": "GT-Tabelle, 1 Tage/Woche",
+        "original": 548
+      }
+    },
+    {
+      "id": "deizisau-price-265ac05e70ec",
+      "offer_id": "deizisau-offer-c309dfa2c2c8",
+      "amount_cents": 40800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "09e38530df32",
+        "locator": "GT-Tabelle, 1 Tage/Woche",
+        "original": 408
+      }
+    },
+    {
+      "id": "deizisau-price-5931c499f0a3",
+      "offer_id": "deizisau-offer-c309dfa2c2c8",
+      "amount_cents": 27600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "09e38530df32",
+        "locator": "GT-Tabelle, 1 Tage/Woche",
+        "original": 276
+      }
+    },
+    {
+      "id": "deizisau-price-68ee09d79ba4",
+      "offer_id": "deizisau-offer-c309dfa2c2c8",
+      "amount_cents": 9200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "09e38530df32",
+        "locator": "GT-Tabelle, 1 Tage/Woche",
+        "original": 92
+      }
+    },
+    {
+      "id": "deizisau-price-f56e7da4efe2",
+      "offer_id": "deizisau-offer-568df5de2d1d",
+      "amount_cents": 61600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "09e38530df32",
+        "locator": "GT-Tabelle, 2 Tage/Woche",
+        "original": 616
+      }
+    },
+    {
+      "id": "deizisau-price-1ec2210425ef",
+      "offer_id": "deizisau-offer-568df5de2d1d",
+      "amount_cents": 46400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "09e38530df32",
+        "locator": "GT-Tabelle, 2 Tage/Woche",
+        "original": 464
+      }
+    },
+    {
+      "id": "deizisau-price-0bf2e2e2009d",
+      "offer_id": "deizisau-offer-568df5de2d1d",
+      "amount_cents": 31000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "09e38530df32",
+        "locator": "GT-Tabelle, 2 Tage/Woche",
+        "original": 310
+      }
+    },
+    {
+      "id": "deizisau-price-35daf5ca878c",
+      "offer_id": "deizisau-offer-568df5de2d1d",
+      "amount_cents": 10800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "09e38530df32",
+        "locator": "GT-Tabelle, 2 Tage/Woche",
+        "original": 108
+      }
+    },
+    {
+      "id": "deizisau-price-f5ee47bdfe2d",
+      "offer_id": "deizisau-offer-e73a0e89c63c",
+      "amount_cents": 68800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "09e38530df32",
+        "locator": "GT-Tabelle, 3 Tage/Woche",
+        "original": 688
+      }
+    },
+    {
+      "id": "deizisau-price-87d512fd4dba",
+      "offer_id": "deizisau-offer-e73a0e89c63c",
+      "amount_cents": 51600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "09e38530df32",
+        "locator": "GT-Tabelle, 3 Tage/Woche",
+        "original": 516
+      }
+    },
+    {
+      "id": "deizisau-price-fad75faf9b07",
+      "offer_id": "deizisau-offer-e73a0e89c63c",
+      "amount_cents": 34600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "09e38530df32",
+        "locator": "GT-Tabelle, 3 Tage/Woche",
+        "original": 346
+      }
+    },
+    {
+      "id": "deizisau-price-56b5d5b0836a",
+      "offer_id": "deizisau-offer-e73a0e89c63c",
+      "amount_cents": 12000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "09e38530df32",
+        "locator": "GT-Tabelle, 3 Tage/Woche",
+        "original": 120
+      }
+    },
+    {
+      "id": "deizisau-price-2cce11a6001e",
+      "offer_id": "deizisau-offer-ecf6f8d65400",
+      "amount_cents": 76400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "09e38530df32",
+        "locator": "GT-Tabelle, 4 Tage/Woche",
+        "original": 764
+      }
+    },
+    {
+      "id": "deizisau-price-e0c4f3027a4b",
+      "offer_id": "deizisau-offer-ecf6f8d65400",
+      "amount_cents": 57400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "09e38530df32",
+        "locator": "GT-Tabelle, 4 Tage/Woche",
+        "original": 574
+      }
+    },
+    {
+      "id": "deizisau-price-30dfb52bc692",
+      "offer_id": "deizisau-offer-ecf6f8d65400",
+      "amount_cents": 38000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "09e38530df32",
+        "locator": "GT-Tabelle, 4 Tage/Woche",
+        "original": 380
+      }
+    },
+    {
+      "id": "deizisau-price-8f1d12c4dd03",
+      "offer_id": "deizisau-offer-ecf6f8d65400",
+      "amount_cents": 12800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "09e38530df32",
+        "locator": "GT-Tabelle, 4 Tage/Woche",
+        "original": 128
+      }
+    },
+    {
+      "id": "deizisau-price-716cc7e8ea09",
+      "offer_id": "deizisau-offer-9216bd8ddafa",
+      "amount_cents": 83600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "09e38530df32",
+        "locator": "GT-Tabelle, 5 Tage/Woche",
+        "original": 836
+      }
+    },
+    {
+      "id": "deizisau-price-f9ebc23a99a8",
+      "offer_id": "deizisau-offer-9216bd8ddafa",
+      "amount_cents": 62200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "09e38530df32",
+        "locator": "GT-Tabelle, 5 Tage/Woche",
+        "original": 622
+      }
+    },
+    {
+      "id": "deizisau-price-96bf5fd70ca6",
+      "offer_id": "deizisau-offer-9216bd8ddafa",
+      "amount_cents": 42000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "09e38530df32",
+        "locator": "GT-Tabelle, 5 Tage/Woche",
+        "original": 420
+      }
+    },
+    {
+      "id": "deizisau-price-30b5ace05b1d",
+      "offer_id": "deizisau-offer-9216bd8ddafa",
+      "amount_cents": 14200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "09e38530df32",
+        "locator": "GT-Tabelle, 5 Tage/Woche",
+        "original": 142
+      }
+    }
+  ],
+  "income_bands": [],
+  "components": [
+    {
+      "id": "deizisau-component-a91649f2552d",
+      "kind": "meal",
+      "original_label": "Mittagessen",
+      "amount_cents": null,
+      "unit": "per_month",
+      "age_group": null,
+      "required": true,
+      "payment_months": null,
+      "offer_ids": [
+        "deizisau-offer-455c1b690515",
+        "deizisau-offer-e9296c1ad2ed",
+        "deizisau-offer-fe0b81321a63",
+        "deizisau-offer-4ebeb45c3058",
+        "deizisau-offer-b3a8cd5bab87",
+        "deizisau-offer-c309dfa2c2c8",
+        "deizisau-offer-568df5de2d1d",
+        "deizisau-offer-e73a0e89c63c",
+        "deizisau-offer-ecf6f8d65400",
+        "deizisau-offer-9216bd8ddafa"
+      ],
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "value_status": "unknown",
+      "evidence": {
+        "source_id": "09e38530df32",
+        "locator": "Verpflegung / Zusatzkosten",
+        "original": null
+      },
+      "applies_when": {
+        "gt_days_per_week_min": 1
+      }
+    }
+  ],
+  "rules": [
+    {
+      "id": "deizisau-rule-1688d39f8994",
+      "kind": "gt_eligibility",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "annual_employer_certificate_required": true
+      },
+      "evidence": {
+        "source_id": "09e38530df32",
+        "locator": "Einleitung zur Beitragstabelle",
+        "original": null
+      }
+    },
+    {
+      "id": "deizisau-rule-43ba80c3560d",
+      "kind": "older_children",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "max_age_years": 25,
+        "child_benefit_proof_required": true
+      },
+      "evidence": {
+        "source_id": "09e38530df32",
+        "locator": "Fußnote unter der Beitragstabelle",
+        "original": null
+      }
+    },
+    {
+      "id": "deizisau-rule-4fe01e7429ad",
+      "kind": "source_provisions_09e38530df32",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "archive_text_path": "data/sources/09e38530df32/text.txt",
+        "text_sha256": "712d1bf1aa6ecb82e50e9e829d996025e9b0d8a8b907060019928f552dc26694",
+        "review_status": "archived_provisions_preserved"
+      },
+      "evidence": {
+        "source_id": "09e38530df32",
+        "locator": "Vollständiger archivierter Dokumenttext einschließlich Fußnoten",
+        "original": null
+      }
+    },
+    {
+      "id": "deizisau-rule-d5f554793751",
+      "kind": "source_clause_09e38530df32_1_2",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 0,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "09e38530df32",
+        "locator": "PDF-/Textseite 1, Absatzblock 2",
+        "original": null
+      }
+    },
+    {
+      "id": "deizisau-rule-6dfa3ab5f8f1",
+      "kind": "source_clause_09e38530df32_1_5",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 1,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "09e38530df32",
+        "locator": "PDF-/Textseite 1, Absatzblock 5",
+        "original": null
+      }
+    },
+    {
+      "id": "deizisau-rule-55bf9da0ebd3",
+      "kind": "source_clause_09e38530df32_1_8",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 2,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "09e38530df32",
+        "locator": "PDF-/Textseite 1, Absatzblock 8",
+        "original": null
+      }
+    },
+    {
+      "id": "deizisau-rule-fc6cc1489aea",
+      "kind": "source_clause_09e38530df32_1_9",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 3,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "09e38530df32",
+        "locator": "PDF-/Textseite 1, Absatzblock 9",
+        "original": null
+      }
+    },
+    {
+      "id": "deizisau-rule-1a9dc11830f1",
+      "kind": "source_provisions_c76cba1c0f3c",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "archive_text_path": "data/sources/c76cba1c0f3c/text.txt",
+        "text_sha256": "13d1ebb227934aa6de3634a446aa3a7da11e81ef808f1736eb1eca4dc1ea8f11",
+        "review_status": "archived_provisions_preserved"
+      },
+      "evidence": {
+        "source_id": "c76cba1c0f3c",
+        "locator": "Vollständiger archivierter Dokumenttext einschließlich Fußnoten",
+        "original": null
+      }
+    },
+    {
+      "id": "deizisau-rule-cdac6751ec62",
+      "kind": "source_clause_c76cba1c0f3c_3_2",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 4,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "c76cba1c0f3c",
+        "locator": "PDF-/Textseite 3, Absatzblock 2",
+        "original": null
+      }
+    },
+    {
+      "id": "deizisau-rule-a52fe0e3dba8",
+      "kind": "source_clause_c76cba1c0f3c_4_3",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 5,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "c76cba1c0f3c",
+        "locator": "PDF-/Textseite 4, Absatzblock 3",
+        "original": null
+      }
+    },
+    {
+      "id": "deizisau-rule-439717fbde2e",
+      "kind": "source_clause_c76cba1c0f3c_5_15",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 6,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "c76cba1c0f3c",
+        "locator": "PDF-/Textseite 5, Absatzblock 15",
+        "original": null
+      }
+    },
+    {
+      "id": "deizisau-rule-dd17d8566d15",
+      "kind": "source_clause_c76cba1c0f3c_5_16",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 7,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "c76cba1c0f3c",
+        "locator": "PDF-/Textseite 5, Absatzblock 16",
+        "original": null
+      }
+    },
+    {
+      "id": "deizisau-rule-48f6dd373ccb",
+      "kind": "source_clause_c76cba1c0f3c_6_1",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 8,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "c76cba1c0f3c",
+        "locator": "PDF-/Textseite 6, Absatzblock 1",
+        "original": null
+      }
+    },
+    {
+      "id": "deizisau-rule-7741456e16f6",
+      "kind": "source_provisions_395cdc6360d1",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "archive_text_path": "data/sources/395cdc6360d1/text.txt",
+        "text_sha256": "a55a5dc387047de314bd23618b151906cef4fd5091c10f1dcf79b98a2abb4847",
+        "review_status": "archived_provisions_preserved"
+      },
+      "evidence": {
+        "source_id": "395cdc6360d1",
+        "locator": "Vollständiger archivierter Dokumenttext einschließlich Fußnoten",
+        "original": null
+      }
+    },
+    {
+      "id": "deizisau-rule-74ab19794e50",
+      "kind": "source_clause_395cdc6360d1_3_2",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 9,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "395cdc6360d1",
+        "locator": "PDF-/Textseite 3, Absatzblock 2",
+        "original": null
+      }
+    },
+    {
+      "id": "deizisau-rule-74f0b1ea6330",
+      "kind": "source_clause_395cdc6360d1_4_1",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 10,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "395cdc6360d1",
+        "locator": "PDF-/Textseite 4, Absatzblock 1",
+        "original": null
+      }
+    },
+    {
+      "id": "deizisau-rule-27b3e710bccb",
+      "kind": "source_clause_395cdc6360d1_4_9",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 11,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "395cdc6360d1",
+        "locator": "PDF-/Textseite 4, Absatzblock 9",
+        "original": null
+      }
+    },
+    {
+      "id": "deizisau-rule-ef9f41b9785c",
+      "kind": "source_clause_395cdc6360d1_6_4",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 12,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "395cdc6360d1",
+        "locator": "PDF-/Textseite 6, Absatzblock 4",
+        "original": null
+      }
+    },
+    {
+      "id": "deizisau-rule-a7a1e2aeb15b",
+      "kind": "source_clause_395cdc6360d1_6_5",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 13,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "395cdc6360d1",
+        "locator": "PDF-/Textseite 6, Absatzblock 5",
+        "original": null
+      }
+    }
+  ],
+  "issues": [
+    {
+      "code": "pending_calculation_review",
+      "detail": "Strukturierter Import; noch keine Freigabe des Rechners oder der Website."
+    },
+    {
+      "code": "research_limitation_1",
+      "detail": "Die aktuelle Essenspauschale ist ergänzend zu prüfen; die Gebührenübersicht nennt keine feste Höhe."
+    }
+  ],
+  "coverage": {
+    "publication_status": "not_active",
+    "integration_status": "normalized_pending_calculation_review",
+    "history_in_scope": false,
+    "source_register": "data/research/neighbor_expansion_2026-11-10.json",
+    "research_id": "deizisau",
+    "unavailable_configurations": [],
+    "offers": 12,
+    "price_cells": 48,
+    "income_bands": 0,
+    "components": 1,
+    "rule_records": 19,
+    "tariff_table_transcription": "complete_for_declared_scope",
+    "declared_scope": "Aktuelle und bereits veröffentlichte künftige Krippen- und Kindergartentarife; Zusatzkosten und Gebührenregeln.",
+    "excluded_from_regular_price_rows": [
+      "superseded_historical_tariffs",
+      "school_childcare",
+      "takki_and_childminding",
+      "separate_playgroups"
+    ],
+    "calculation_engine_changed": false,
+    "rule_transcription": "typed_parameters_and_source_clauses_with_explicit_unimplemented_status"
+  },
+  "original_research": {
+    "path": "data/research/neighbor_expansion_2026-11-10.json",
+    "section": "Deizisau",
+    "text": "Beide kommunalen Kinderhäuser haben eigene Ordnungen, aber übereinstimmende tarifliche Tabellen. Die U3-Alterszulassung je Angebotsart erhalten.\nDie aktuelle Essenspauschale ist ergänzend zu prüfen; die Gebührenübersicht nennt keine feste Höhe.",
+    "source_clauses": [
+      {
+        "text": "Die Elternbeiträge werden auf Basis von 11 Monatsbeiträgen berechnet und erhoben, im Monat\nAugust erfolgt keine Zahlung.",
+        "evidence": {
+          "source_id": "09e38530df32",
+          "locator": "PDF-/Textseite 1, Absatzblock 2",
+          "original": null
+        }
+      },
+      {
+        "text": "Das Mittagessen ist in den genannten Elternbeiträgen nicht enthalten und wird zusätzlich berechnet.\nDie Ganztagesbetreuung kann nur in Kombination mit Mittagessen gebucht werden.\nDie Beiträge verstehen sich zuzüglich etwaig gesetzlich geschuldeter Umsatzsteuer.",
+        "evidence": {
+          "source_id": "09e38530df32",
+          "locator": "PDF-/Textseite 1, Absatzblock 5",
+          "original": null
+        }
+      },
+      {
+        "text": "Bei allen Öffnungszeiten-Modellen werden zusätzlich Kinder zwischen 18 und 25 Jahren, für die\nKindergeld bezogen wird, berücksichtigt. Der Kindergeldbezug ist nachzuweisen.",
+        "evidence": {
+          "source_id": "09e38530df32",
+          "locator": "PDF-/Textseite 1, Absatzblock 8",
+          "original": null
+        }
+      },
+      {
+        "text": "Wichtige Hinweise:\n• Eltern, deren Haushaltsnettoeinkommen unterhalb einer bestimmten Einkommensgrenze liegt,\n    können einen Zuschuss zu den Gebühren der Kindertageseinrichtung beantragen.\n    Wenden Sie sich hierzu bitte an das Kreisjugendamt, Landratsamt Esslingen - Wirtschaftliche\n    Jugendhilfe.\n• Die Betreuungskosten können steuerlich geltend gemacht werden, d. h. das zu versteuernde\n    Einkommen wird gemindert. Wenden Sie sich hierzu bitte an Ihr zuständiges Finanzamt.",
+        "evidence": {
+          "source_id": "09e38530df32",
+          "locator": "PDF-/Textseite 1, Absatzblock 9",
+          "original": null
+        }
+      },
+      {
+        "text": "§3\n                             Abmeldung / Kündigung\n1.   Die Abmeldung kann nur auf das Ende eines Monats erfolgen. Sie ist mindestens vier\n     Wochen vorher schriftlich der Leitung des Kinderhaus Himmelblaus zu übergeben.\n2.   Für Kinder, die in die Schule aufgenommen werden und bis zum Ende des Kindergarten-\n     jahres die Einrichtung besuchen, erübrigt sich eine schriftliche Abmeldung. Abweichend\n     von Satz 1 kann das Betreuungsverhältnis eines Kindes, das zum Ende des laufenden Kin-\n     dergartenjahres in die Schule überwechselt, unter Einhaltung der Kündigungsfrist nur bis\n     spätestens zum Ende des Monats April gekündigt werden. Ist eine Wiederbesetzung des\n     freigewordenen Platzes sofort möglich, kann die Kündigung auch später angenommen\n     werden.\n3.   Der Träger des Kinderhauses kann den Aufnahmevertrag mit einer Frist von vier Wochen\n     zum Monatsende schriftlich kündigen,\n     • wenn das Kind die Einrichtung länger als vier Wochen unentschuldigt nicht mehr be-\n        sucht hat\n     • wenn die Eltern die in dieser Ordnung aufgeführten Pﬂichten wiederholt, trotz schrift-\n        licher Abmahnung, nicht beachteten\n     • wenn der zu entrichtende Elternbeitrag für drei aufeinanderfolgende Monate nicht\n        bezahlt wurde\n     • wenn erhebliche Auﬀassungsunterschiede zwischen Personenberechtigten und dem\n        Kinderhaus Himmelblau bzw. den pädagogischen Fachkräften über das Erziehungs-\n        konzept und/oder eine angemessene Förderung des Kindes bestehen, die trotz eines\n        vom Träger anberaumten Einigungsgespräches nicht ausgeräumt werden konnten,\n     • wenn die Zustimmung zur Änderung der Betriebsform und Betreuungszeit einschließ-\n        lich der Elternbeiträge auf Grund geänderter örtlicher Bedarfsplanung verweigert\n        wird.",
+        "evidence": {
+          "source_id": "c76cba1c0f3c",
+          "locator": "PDF-/Textseite 3, Absatzblock 2",
+          "original": null
+        }
+      },
+      {
+        "text": "§6\n                           Benutzungsentgelt (Elternbeitrag)\n1.    Für den Besuch des Kinderhauses wird ein Elternbeitrag, gegebenenfalls zusätzlich ein\n      Essensgeld erhoben. Der Beitrag ist in der jeweils festgesetzten Höhe von Beginn des\n      Monats an zu entrichten, in dem das Kind in die Einrichtung aufgenommen wird. Er ist\n      jeweils im Voraus bis zum 5., eventuell im Zuge der Eingewöhnung zum 15. des Monats\n      zu zahlen.",
+        "evidence": {
+          "source_id": "c76cba1c0f3c",
+          "locator": "PDF-/Textseite 4, Absatzblock 3",
+          "original": null
+        }
+      },
+      {
+        "text": "Eine Änderung der Beiträge und des Essensgeldes bleibt vorbehalten.",
+        "evidence": {
+          "source_id": "c76cba1c0f3c",
+          "locator": "PDF-/Textseite 5, Absatzblock 15",
+          "original": null
+        }
+      },
+      {
+        "text": "2. Bei Abmeldung eines Kindes ist der Elternbeitrag bis zum Ende des Monats zu entrich-\n   ten, in dem das Kind abgemeldet wurde.",
+        "evidence": {
+          "source_id": "c76cba1c0f3c",
+          "locator": "PDF-/Textseite 5, Absatzblock 16",
+          "original": null
+        }
+      },
+      {
+        "text": "3. Der Elternbeitrag ist eine Beteiligung an den gesamten Betriebskosten der Einrichtung\n         und ist deshalb auch während der Ferien, bei vorübergehender Schließung (siehe 4.),\n         bei längerem Fehlen des Kindes und bis zur Wirksamkeit einer Kündigung zu bezahlen.\n     4. Zusätzliche Schließungstage können sich für die Einrichtung oder einzelne Gruppen aus\n         folgenden Anlässen ergeben: Wegen Krankheit, behördlicher Anordnungen, Verpﬂich-\n         tung zur Fortbildung, Fachkräftemangel, betrieblicher Mängel. Die Personenberechtig-\n         ten werden hiervon rechtzeitig unterrichtet.\n     5. Die Elternbeiträge werden auf Basis von 11 Monatsbeiträgen berechnet und erhoben,\n         im Monat August erfolgt keine Zahlung.\n     6. Die Ganztagesbetreuung kann tageweise gebucht werden. An Tagen, an denen keine\n         Ganztagesbetreuung gebucht ist, besuchen die Kinder die Verlängerte Öﬀnungszeit.\n         Die Ganztagesbetreuung kann nur in Kombination mit dem Mittagessen gebucht wer-\n         den.\n     7. Das Mittagessen ist nicht in den genannten Elternbeiträgen enthalten und wird zusätz-\n         lich berechnet.\n     8. Als zusätzliche Kosten sind einmalig zu Beginn der Krippe und/oder zu Beginn der Kin-\n         dergartenzeit ein Portfoliobeitrag, sowie eine jährliche Pauschale für das Getränke- und\n         Snackgeld zu entrichten.\n     9. Die Beiträge verstehen sich zuzüglich etwaig gesetzlich geschuldeter Umsatzsteuer.\n     10. Die Berechtigung zur Ganztagesbetreuung muss jährlich neu vom Arbeitgeber beider\n         Personensorgeberechtigten bescheinigt werden.\n     11. Bei der Bemessung des Elternbeitrags werden alle Kinder bis zur Vollendung des 18.\n         Lebensjahres, die im gleichen Haushalt leben, berücksichtigt. Kinder vom 18. bis zum\n         25. Lebensjahr, für die Kindergeld bezogen wird, werden ebenso berücksichtigt (Nach-\n         weis erforderlich).\n     12. Maßgebend für die Festsetzung des Entgelts sind die Verhältnisse zu Beginn des Kin-\n         dergartenjahres bzw. zum Aufnahmezeitpunkt. Treten während des Kindergartenjahres\n         Veränderungen ein, die ein verändertes Entgelt zur Folge haben, sollte dies unverzüg-\n         lich von den Personensorgeberechtigten an die Einrichtungsleitung für eine neue Be-\n         rechnung des Entgeltes gemeldet werden.\n     13. Die Betreuungszeiten können immer im Februar oder September angepasst werden.\n     14. Die Kosten für die ärztlichen Bescheinigungen werden von den Sorgeberechtigten sel-\n         ber getragen.",
+        "evidence": {
+          "source_id": "c76cba1c0f3c",
+          "locator": "PDF-/Textseite 6, Absatzblock 1",
+          "original": null
+        }
+      },
+      {
+        "text": "§3\n                             Abmeldung / Kündigung\n1.   Die Abmeldung kann nur auf das Ende eines Monats erfolgen. Sie ist mindestens vier\n     Wochen vorher schriftlich der Leitung des Kinderhaus im Palmschen Garten zu überge-\n     ben.\n2.   Für Kinder, die in die Schule aufgenommen werden und bis zum Ende des Kindergarten-\n     jahres die Einrichtung besuchen, erübrigt sich eine schriftliche Abmeldung. Abweichend\n     von Satz 1 kann das Betreuungsverhältnis eines Kindes, das zum Ende des laufenden Kin-\n     dergartenjahres in die Schule überwechselt, unter Einhaltung der Kündigungsfrist nur bis\n     spätestens zum Ende des Monats April gekündigt werden. Ist eine Wiederbesetzung des\n     freigewordenen Platzes sofort möglich, kann die Kündigung auch später angenommen\n     werden.\n3.   Der Träger des Kinderhauses kann den Aufnahmevertrag mit einer Frist von vier Wochen\n     zum Monatsende schriftlich kündigen,\n     • wenn das Kind die Einrichtung länger als vier Wochen unentschuldigt nicht mehr be-\n        sucht hat\n     • wenn die Eltern die in dieser Ordnung aufgeführten Pﬂichten wiederholt, trotz schrift-\n        licher Abmahnung, nicht beachteten\n     • wenn der zu entrichtende Elternbeitrag für drei aufeinanderfolgende Monate nicht\n        bezahlt wurde\n     • wenn erhebliche Auﬀassungsunterschiede zwischen Personenberechtigten und dem\n        Kinderhaus im Palmschen Garten bzw. den pädagogischen Fachkräften über das Er-\n        ziehungskonzept und/oder eine angemessene Förderung des Kindes bestehen, die\n        trotz eines vom Träger anberaumten Einigungsgespräches nicht ausgeräumt werden\n        konnten,",
+        "evidence": {
+          "source_id": "395cdc6360d1",
+          "locator": "PDF-/Textseite 3, Absatzblock 2",
+          "original": null
+        }
+      },
+      {
+        "text": "• wenn die Zustimmung zur Änderung der Betriebsform und Betreuungszeit einschließ-\n        lich der Elternbeiträge auf Grund geänderter örtlicher Bedarfsplanung verweigert\n        wird.",
+        "evidence": {
+          "source_id": "395cdc6360d1",
+          "locator": "PDF-/Textseite 4, Absatzblock 1",
+          "original": null
+        }
+      },
+      {
+        "text": "§6\n                        Benutzungsentgelt (Elternbeitrag)\n1.    Für den Besuch des Kinderhauses wird ein Elternbeitrag, gegebenenfalls zusätzlich ein\n      Essensgeld erhoben. Der Beitrag ist in der jeweils festgesetzten Höhe von Beginn des\n      Monats an zu entrichten, in dem das Kind in die Einrichtung aufgenommen wird. Er ist\n      jeweils im Voraus bis zum 5., eventuell im Zuge der Eingewöhnung zum 15. des Monats\n      zu zahlen.",
+        "evidence": {
+          "source_id": "395cdc6360d1",
+          "locator": "PDF-/Textseite 4, Absatzblock 9",
+          "original": null
+        }
+      },
+      {
+        "text": "Eine Änderung der Beiträge und des Essensgeldes bleibt vorbehalten.",
+        "evidence": {
+          "source_id": "395cdc6360d1",
+          "locator": "PDF-/Textseite 6, Absatzblock 4",
+          "original": null
+        }
+      },
+      {
+        "text": "2. Bei Abmeldung eines Kindes ist der Elternbeitrag bis zum Ende des Monats zu entrich-\n    ten, in dem das Kind abgemeldet wurde.\n3. Der Elternbeitrag ist eine Beteiligung an den gesamten Betriebskosten der Einrichtung\n    und ist deshalb auch während der Ferien, bei vorübergehender Schließung (siehe 4.),\n    bei längerem Fehlen des Kindes und bis zur Wirksamkeit einer Kündigung zu bezahlen.\n4. Zusätzliche Schließungstage können sich für die Einrichtung oder einzelne Gruppen aus\n    folgenden Anlässen ergeben: Wegen Krankheit, behördlicher Anordnungen, Verpﬂich-\n    tung zur Fortbildung, Fachkräftemangel, betrieblicher Mängel. Die Personenberechtig-\n    ten werden hiervon rechtzeitig unterrichtet.\n5. Die Elternbeiträge werden auf Basis von 11 Monatsbeiträgen berechnet und erhoben,\n    im Monat August erfolgt keine Zahlung.\n6. Die Ganztagesbetreuung kann tageweise gebucht werden. An Tagen, an denen keine\n    Ganztagesbetreuung gebucht ist, besuchen die Kinder die Verlängerte Öﬀnungszeit.\n    Die Ganztagesbetreuung kann nur in Kombination mit dem Mittagessen gebucht wer-\n    den.\n7. Das Mittagessen ist nicht in den genannten Elternbeiträgen enthalten und wird zusätz-\n    lich berechnet.\n8. Als zusätzliche Kosten sind einmalig zu Beginn der Krippe und/oder zu Beginn der Kin-\n    dergartenzeit ein Portfoliobeitrag, sowie eine jährliche Pauschale für das Getränke- und\n    Snackgeld zu entrichten.\n9. Die Beiträge verstehen sich zuzüglich etwaig gesetzlich geschuldeter Umsatzsteuer.\n10. Die Berechtigung zur Ganztagesbetreuung muss jährlich neu vom Arbeitgeber beider\n    Personensorgeberechtigten bescheinigt werden.\n11. Bei der Bemessung des Elternbeitrags werden alle Kinder bis zur Vollendung des 18.\n    Lebensjahres, die im gleichen Haushalt leben, berücksichtigt. Kinder vom 18. bis zum\n    25. Lebensjahr, für die Kindergeld bezogen wird, werden ebenso berücksichtigt (Nach-\n    weis erforderlich).\n12. Maßgebend für die Festsetzung des Entgelts sind die Verhältnisse zu Beginn des Kin-\n    dergartenjahres bzw. zum Aufnahmezeitpunkt. Treten während des Kindergartenjahres\n    Veränderungen ein, die ein verändertes Entgelt zur Folge haben, sollte dies unverzüg-\n    lich von den Personensorgeberechtigten an die Einrichtungsleitung für eine neue Be-\n    rechnung des Entgeltes gemeldet werden.\n13. Die Betreuungszeiten können immer im Februar oder September angepasst werden.",
+        "evidence": {
+          "source_id": "395cdc6360d1",
+          "locator": "PDF-/Textseite 6, Absatzblock 5",
+          "original": null
+        }
+      }
+    ]
+  }
+}

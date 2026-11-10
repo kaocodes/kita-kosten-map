@@ -57,10 +57,10 @@ test("Missing personal incomes leave flat tariffs usable and income-dependent ci
   for (const id of ["ditzingen", "esslingen", "korntal-muenchingen", "sindelfingen"]) assert.equal(city(results, id).monthly_equivalent_cents, null, id);
 });
 
-test("Explicit independent personal definitions reproduce all twelve reviewed model fees", () => {
+test("Explicit independent personal definitions reproduce the reviewed model fees", () => {
   const actual = evaluate(confirmedDraft()).results;
   const expected = compareMunicipalities(bundle.tariffs, reference, bundle.registry);
-  assert.equal(actual.length, 12);
+  assert.equal(actual.length, bundle.registry.municipalities.filter(item => item.active).length);
   for (const row of actual) {
     const comparison = expected.find(item => item.municipality_id === row.municipality_id);
     assert.equal(row.monthly_equivalent_cents, comparison.monthly_equivalent_cents, row.municipality_id);

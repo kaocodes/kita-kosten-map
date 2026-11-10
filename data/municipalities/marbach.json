@@ -1,0 +1,2563 @@
+{
+  "schema_version": "1.0",
+  "id": "marbach",
+  "name": "Marbach am Neckar",
+  "reviewed_at": "2026-11-10",
+  "reference_date": "2026-11-10",
+  "scope": {
+    "included": [
+      "municipal"
+    ],
+    "other_providers": "only_with_explicit_source_evidence"
+  },
+  "family_basis": "under_18_or_child_benefit",
+  "family_evidence": {
+    "source_id": "02a52f0ce010",
+    "locator": "Familienbegriff und Fußnoten der Gebührenunterlagen",
+    "original": null
+  },
+  "supporting_source_ids": [
+    "02a52f0ce010",
+    "3ab38c80e1bd"
+  ],
+  "offers": [
+    {
+      "id": "marbach-offer-f0ccf3aba981",
+      "original_label": "VÖ 6 Stunden",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": "2027-08-31",
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 1800,
+      "weekday_minutes": [
+        360,
+        360,
+        360,
+        360,
+        360
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "02a52f0ce010",
+        "locator": "Anlage A, PDF S. 5, u3, 6 Stunden, 2026",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "02a52f0ce010",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "02a52f0ce010",
+        "locator": "Anlage A, PDF S. 5, u3, 6 Stunden, 2026",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "marbach-offer-50a7d9848a42",
+      "original_label": "VÖ 6 Stunden",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2027-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2027-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 1800,
+      "weekday_minutes": [
+        360,
+        360,
+        360,
+        360,
+        360
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "02a52f0ce010",
+        "locator": "Anlage A, PDF S. 5, u3, 6 Stunden, 2027",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "02a52f0ce010",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "02a52f0ce010",
+        "locator": "Anlage A, PDF S. 5, u3, 6 Stunden, 2027",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "marbach-offer-d21b6cc8ed98",
+      "original_label": "VÖ 6.5 Stunden",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": "2027-08-31",
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 1950,
+      "weekday_minutes": [
+        390,
+        390,
+        390,
+        390,
+        390
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "02a52f0ce010",
+        "locator": "Anlage A, PDF S. 5, u3, 6.5 Stunden, 2026",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "02a52f0ce010",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "02a52f0ce010",
+        "locator": "Anlage A, PDF S. 5, u3, 6.5 Stunden, 2026",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "marbach-offer-576101d940cb",
+      "original_label": "VÖ 6.5 Stunden",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2027-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2027-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 1950,
+      "weekday_minutes": [
+        390,
+        390,
+        390,
+        390,
+        390
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "02a52f0ce010",
+        "locator": "Anlage A, PDF S. 5, u3, 6.5 Stunden, 2027",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "02a52f0ce010",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "02a52f0ce010",
+        "locator": "Anlage A, PDF S. 5, u3, 6.5 Stunden, 2027",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "marbach-offer-63363b56dc3e",
+      "original_label": "GT 8 Stunden",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": "2027-08-31",
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2400,
+      "weekday_minutes": [
+        480,
+        480,
+        480,
+        480,
+        480
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "02a52f0ce010",
+        "locator": "Anlage A, PDF S. 5, u3, 8 Stunden, 2026",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "02a52f0ce010",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "02a52f0ce010",
+        "locator": "Anlage A, PDF S. 5, u3, 8 Stunden, 2026",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "marbach-offer-1f80b73cb185",
+      "original_label": "GT 8 Stunden",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2027-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2027-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2400,
+      "weekday_minutes": [
+        480,
+        480,
+        480,
+        480,
+        480
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "02a52f0ce010",
+        "locator": "Anlage A, PDF S. 5, u3, 8 Stunden, 2027",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "02a52f0ce010",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "02a52f0ce010",
+        "locator": "Anlage A, PDF S. 5, u3, 8 Stunden, 2027",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "marbach-offer-202236f3841a",
+      "original_label": "VÖ 6 Stunden",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": "2027-08-31",
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 1800,
+      "weekday_minutes": [
+        360,
+        360,
+        360,
+        360,
+        360
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "02a52f0ce010",
+        "locator": "Anlage A, PDF S. 5, o3, 6 Stunden, 2026",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "02a52f0ce010",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "02a52f0ce010",
+        "locator": "Anlage A, PDF S. 5, o3, 6 Stunden, 2026",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "marbach-offer-0d7f2fadf500",
+      "original_label": "VÖ 6 Stunden",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2027-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2027-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 1800,
+      "weekday_minutes": [
+        360,
+        360,
+        360,
+        360,
+        360
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "02a52f0ce010",
+        "locator": "Anlage A, PDF S. 5, o3, 6 Stunden, 2027",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "02a52f0ce010",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "02a52f0ce010",
+        "locator": "Anlage A, PDF S. 5, o3, 6 Stunden, 2027",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "marbach-offer-3202789c9bdd",
+      "original_label": "VÖ 6.5 Stunden",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": "2027-08-31",
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 1950,
+      "weekday_minutes": [
+        390,
+        390,
+        390,
+        390,
+        390
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "02a52f0ce010",
+        "locator": "Anlage A, PDF S. 5, o3, 6.5 Stunden, 2026",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "02a52f0ce010",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "02a52f0ce010",
+        "locator": "Anlage A, PDF S. 5, o3, 6.5 Stunden, 2026",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "marbach-offer-edd02308992e",
+      "original_label": "VÖ 6.5 Stunden",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2027-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2027-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 1950,
+      "weekday_minutes": [
+        390,
+        390,
+        390,
+        390,
+        390
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "02a52f0ce010",
+        "locator": "Anlage A, PDF S. 5, o3, 6.5 Stunden, 2027",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "02a52f0ce010",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "02a52f0ce010",
+        "locator": "Anlage A, PDF S. 5, o3, 6.5 Stunden, 2027",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "marbach-offer-1ba79488f5ba",
+      "original_label": "VÖ 7 Stunden",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": "2027-08-31",
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2100,
+      "weekday_minutes": [
+        420,
+        420,
+        420,
+        420,
+        420
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "02a52f0ce010",
+        "locator": "Anlage A, PDF S. 5, o3, 7 Stunden, 2026",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "02a52f0ce010",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "02a52f0ce010",
+        "locator": "Anlage A, PDF S. 5, o3, 7 Stunden, 2026",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "marbach-offer-3266b2d54fb6",
+      "original_label": "VÖ 7 Stunden",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2027-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2027-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2100,
+      "weekday_minutes": [
+        420,
+        420,
+        420,
+        420,
+        420
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "02a52f0ce010",
+        "locator": "Anlage A, PDF S. 5, o3, 7 Stunden, 2027",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "02a52f0ce010",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "02a52f0ce010",
+        "locator": "Anlage A, PDF S. 5, o3, 7 Stunden, 2027",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "marbach-offer-e26acf7ed7bb",
+      "original_label": "GT 8 Stunden",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": "2027-08-31",
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2400,
+      "weekday_minutes": [
+        480,
+        480,
+        480,
+        480,
+        480
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "02a52f0ce010",
+        "locator": "Anlage A, PDF S. 5, o3, 8 Stunden, 2026",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "02a52f0ce010",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "02a52f0ce010",
+        "locator": "Anlage A, PDF S. 5, o3, 8 Stunden, 2026",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "marbach-offer-907f3a0180c5",
+      "original_label": "GT 8 Stunden",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2027-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2027-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2400,
+      "weekday_minutes": [
+        480,
+        480,
+        480,
+        480,
+        480
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "02a52f0ce010",
+        "locator": "Anlage A, PDF S. 5, o3, 8 Stunden, 2027",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "02a52f0ce010",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "02a52f0ce010",
+        "locator": "Anlage A, PDF S. 5, o3, 8 Stunden, 2027",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "marbach-offer-bbdd51a383d6",
+      "original_label": "GT 10 Stunden",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": "2027-08-31",
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 3000,
+      "weekday_minutes": [
+        600,
+        600,
+        600,
+        600,
+        600
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "02a52f0ce010",
+        "locator": "Anlage A, PDF S. 5, o3, 10 Stunden, 2026",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "02a52f0ce010",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "02a52f0ce010",
+        "locator": "Anlage A, PDF S. 5, o3, 10 Stunden, 2026",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "marbach-offer-a48d96e0fdf9",
+      "original_label": "GT 10 Stunden",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2027-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2027-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 3000,
+      "weekday_minutes": [
+        600,
+        600,
+        600,
+        600,
+        600
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "02a52f0ce010",
+        "locator": "Anlage A, PDF S. 5, o3, 10 Stunden, 2027",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "02a52f0ce010",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "02a52f0ce010",
+        "locator": "Anlage A, PDF S. 5, o3, 10 Stunden, 2027",
+        "original": null
+      },
+      "formula": null
+    }
+  ],
+  "prices": [
+    {
+      "id": "marbach-price-3e86459bb18e",
+      "offer_id": "marbach-offer-f0ccf3aba981",
+      "amount_cents": 53700,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "02a52f0ce010",
+        "locator": "Anlage A, PDF S. 5, u3, 6 Stunden, 2026",
+        "original": 537
+      }
+    },
+    {
+      "id": "marbach-price-17f591a5d5fe",
+      "offer_id": "marbach-offer-f0ccf3aba981",
+      "amount_cents": 39900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "02a52f0ce010",
+        "locator": "Anlage A, PDF S. 5, u3, 6 Stunden, 2026",
+        "original": 399
+      }
+    },
+    {
+      "id": "marbach-price-4a4ce07a55de",
+      "offer_id": "marbach-offer-f0ccf3aba981",
+      "amount_cents": 26900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "02a52f0ce010",
+        "locator": "Anlage A, PDF S. 5, u3, 6 Stunden, 2026",
+        "original": 269
+      }
+    },
+    {
+      "id": "marbach-price-99c98767bc8f",
+      "offer_id": "marbach-offer-f0ccf3aba981",
+      "amount_cents": 10600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "02a52f0ce010",
+        "locator": "Anlage A, PDF S. 5, u3, 6 Stunden, 2026",
+        "original": 106
+      }
+    },
+    {
+      "id": "marbach-price-256a105e7a22",
+      "offer_id": "marbach-offer-50a7d9848a42",
+      "amount_cents": 55900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "02a52f0ce010",
+        "locator": "Anlage A, PDF S. 5, u3, 6 Stunden, 2027",
+        "original": 559
+      }
+    },
+    {
+      "id": "marbach-price-0521dea62c3c",
+      "offer_id": "marbach-offer-50a7d9848a42",
+      "amount_cents": 41600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "02a52f0ce010",
+        "locator": "Anlage A, PDF S. 5, u3, 6 Stunden, 2027",
+        "original": 416
+      }
+    },
+    {
+      "id": "marbach-price-8ca00a469f5d",
+      "offer_id": "marbach-offer-50a7d9848a42",
+      "amount_cents": 28000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "02a52f0ce010",
+        "locator": "Anlage A, PDF S. 5, u3, 6 Stunden, 2027",
+        "original": 280
+      }
+    },
+    {
+      "id": "marbach-price-fbef3c31104a",
+      "offer_id": "marbach-offer-50a7d9848a42",
+      "amount_cents": 11000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "02a52f0ce010",
+        "locator": "Anlage A, PDF S. 5, u3, 6 Stunden, 2027",
+        "original": 110
+      }
+    },
+    {
+      "id": "marbach-price-336e1cd106b4",
+      "offer_id": "marbach-offer-d21b6cc8ed98",
+      "amount_cents": 58200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "02a52f0ce010",
+        "locator": "Anlage A, PDF S. 5, u3, 6.5 Stunden, 2026",
+        "original": 582
+      }
+    },
+    {
+      "id": "marbach-price-808192864c26",
+      "offer_id": "marbach-offer-d21b6cc8ed98",
+      "amount_cents": 43200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "02a52f0ce010",
+        "locator": "Anlage A, PDF S. 5, u3, 6.5 Stunden, 2026",
+        "original": 432
+      }
+    },
+    {
+      "id": "marbach-price-926119fd5cd9",
+      "offer_id": "marbach-offer-d21b6cc8ed98",
+      "amount_cents": 29200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "02a52f0ce010",
+        "locator": "Anlage A, PDF S. 5, u3, 6.5 Stunden, 2026",
+        "original": 292
+      }
+    },
+    {
+      "id": "marbach-price-56e6128e6d2f",
+      "offer_id": "marbach-offer-d21b6cc8ed98",
+      "amount_cents": 11500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "02a52f0ce010",
+        "locator": "Anlage A, PDF S. 5, u3, 6.5 Stunden, 2026",
+        "original": 115
+      }
+    },
+    {
+      "id": "marbach-price-0bf571fdbbd9",
+      "offer_id": "marbach-offer-576101d940cb",
+      "amount_cents": 60500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "02a52f0ce010",
+        "locator": "Anlage A, PDF S. 5, u3, 6.5 Stunden, 2027",
+        "original": 605
+      }
+    },
+    {
+      "id": "marbach-price-263d45a8c119",
+      "offer_id": "marbach-offer-576101d940cb",
+      "amount_cents": 44900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "02a52f0ce010",
+        "locator": "Anlage A, PDF S. 5, u3, 6.5 Stunden, 2027",
+        "original": 449
+      }
+    },
+    {
+      "id": "marbach-price-2790ca3bd943",
+      "offer_id": "marbach-offer-576101d940cb",
+      "amount_cents": 30300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "02a52f0ce010",
+        "locator": "Anlage A, PDF S. 5, u3, 6.5 Stunden, 2027",
+        "original": 303
+      }
+    },
+    {
+      "id": "marbach-price-7e6eeec8a3e5",
+      "offer_id": "marbach-offer-576101d940cb",
+      "amount_cents": 11900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "02a52f0ce010",
+        "locator": "Anlage A, PDF S. 5, u3, 6.5 Stunden, 2027",
+        "original": 119
+      }
+    },
+    {
+      "id": "marbach-price-6ac7d64be980",
+      "offer_id": "marbach-offer-63363b56dc3e",
+      "amount_cents": 71500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "02a52f0ce010",
+        "locator": "Anlage A, PDF S. 5, u3, 8 Stunden, 2026",
+        "original": 715
+      }
+    },
+    {
+      "id": "marbach-price-c42615b447f8",
+      "offer_id": "marbach-offer-63363b56dc3e",
+      "amount_cents": 53100,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "02a52f0ce010",
+        "locator": "Anlage A, PDF S. 5, u3, 8 Stunden, 2026",
+        "original": 531
+      }
+    },
+    {
+      "id": "marbach-price-4f4ce84f31c6",
+      "offer_id": "marbach-offer-63363b56dc3e",
+      "amount_cents": 35900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "02a52f0ce010",
+        "locator": "Anlage A, PDF S. 5, u3, 8 Stunden, 2026",
+        "original": 359
+      }
+    },
+    {
+      "id": "marbach-price-866227192e5b",
+      "offer_id": "marbach-offer-63363b56dc3e",
+      "amount_cents": 14200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "02a52f0ce010",
+        "locator": "Anlage A, PDF S. 5, u3, 8 Stunden, 2026",
+        "original": 142
+      }
+    },
+    {
+      "id": "marbach-price-ad688736fcff",
+      "offer_id": "marbach-offer-1f80b73cb185",
+      "amount_cents": 74300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "02a52f0ce010",
+        "locator": "Anlage A, PDF S. 5, u3, 8 Stunden, 2027",
+        "original": 743
+      }
+    },
+    {
+      "id": "marbach-price-5f9c45d88ee4",
+      "offer_id": "marbach-offer-1f80b73cb185",
+      "amount_cents": 55200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "02a52f0ce010",
+        "locator": "Anlage A, PDF S. 5, u3, 8 Stunden, 2027",
+        "original": 552
+      }
+    },
+    {
+      "id": "marbach-price-c5e2b9dd1211",
+      "offer_id": "marbach-offer-1f80b73cb185",
+      "amount_cents": 37300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "02a52f0ce010",
+        "locator": "Anlage A, PDF S. 5, u3, 8 Stunden, 2027",
+        "original": 373
+      }
+    },
+    {
+      "id": "marbach-price-84bf337498eb",
+      "offer_id": "marbach-offer-1f80b73cb185",
+      "amount_cents": 14700,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "02a52f0ce010",
+        "locator": "Anlage A, PDF S. 5, u3, 8 Stunden, 2027",
+        "original": 147
+      }
+    },
+    {
+      "id": "marbach-price-9133a2df2541",
+      "offer_id": "marbach-offer-202236f3841a",
+      "amount_cents": 21800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "02a52f0ce010",
+        "locator": "Anlage A, PDF S. 5, o3, 6 Stunden, 2026",
+        "original": 218
+      }
+    },
+    {
+      "id": "marbach-price-687739a7a8b6",
+      "offer_id": "marbach-offer-202236f3841a",
+      "amount_cents": 16800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "02a52f0ce010",
+        "locator": "Anlage A, PDF S. 5, o3, 6 Stunden, 2026",
+        "original": 168
+      }
+    },
+    {
+      "id": "marbach-price-8ea5491915c6",
+      "offer_id": "marbach-offer-202236f3841a",
+      "amount_cents": 11400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "02a52f0ce010",
+        "locator": "Anlage A, PDF S. 5, o3, 6 Stunden, 2026",
+        "original": 114
+      }
+    },
+    {
+      "id": "marbach-price-b2f6a57224a0",
+      "offer_id": "marbach-offer-202236f3841a",
+      "amount_cents": 0,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "02a52f0ce010",
+        "locator": "Anlage A, PDF S. 5, o3, 6 Stunden, 2026",
+        "original": 0
+      }
+    },
+    {
+      "id": "marbach-price-752cb984daea",
+      "offer_id": "marbach-offer-0d7f2fadf500",
+      "amount_cents": 22600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "02a52f0ce010",
+        "locator": "Anlage A, PDF S. 5, o3, 6 Stunden, 2027",
+        "original": 226
+      }
+    },
+    {
+      "id": "marbach-price-5880d312ce3d",
+      "offer_id": "marbach-offer-0d7f2fadf500",
+      "amount_cents": 17400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "02a52f0ce010",
+        "locator": "Anlage A, PDF S. 5, o3, 6 Stunden, 2027",
+        "original": 174
+      }
+    },
+    {
+      "id": "marbach-price-5faad0735419",
+      "offer_id": "marbach-offer-0d7f2fadf500",
+      "amount_cents": 11800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "02a52f0ce010",
+        "locator": "Anlage A, PDF S. 5, o3, 6 Stunden, 2027",
+        "original": 118
+      }
+    },
+    {
+      "id": "marbach-price-05c507f95a68",
+      "offer_id": "marbach-offer-0d7f2fadf500",
+      "amount_cents": 0,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "02a52f0ce010",
+        "locator": "Anlage A, PDF S. 5, o3, 6 Stunden, 2027",
+        "original": 0
+      }
+    },
+    {
+      "id": "marbach-price-c7a438207a32",
+      "offer_id": "marbach-offer-3202789c9bdd",
+      "amount_cents": 23600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "02a52f0ce010",
+        "locator": "Anlage A, PDF S. 5, o3, 6.5 Stunden, 2026",
+        "original": 236
+      }
+    },
+    {
+      "id": "marbach-price-9870415ffad5",
+      "offer_id": "marbach-offer-3202789c9bdd",
+      "amount_cents": 18200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "02a52f0ce010",
+        "locator": "Anlage A, PDF S. 5, o3, 6.5 Stunden, 2026",
+        "original": 182
+      }
+    },
+    {
+      "id": "marbach-price-ef3a1b543f5d",
+      "offer_id": "marbach-offer-3202789c9bdd",
+      "amount_cents": 12300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "02a52f0ce010",
+        "locator": "Anlage A, PDF S. 5, o3, 6.5 Stunden, 2026",
+        "original": 123
+      }
+    },
+    {
+      "id": "marbach-price-55377a851e04",
+      "offer_id": "marbach-offer-3202789c9bdd",
+      "amount_cents": 0,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "02a52f0ce010",
+        "locator": "Anlage A, PDF S. 5, o3, 6.5 Stunden, 2026",
+        "original": 0
+      }
+    },
+    {
+      "id": "marbach-price-ab29ce6a6806",
+      "offer_id": "marbach-offer-edd02308992e",
+      "amount_cents": 24500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "02a52f0ce010",
+        "locator": "Anlage A, PDF S. 5, o3, 6.5 Stunden, 2027",
+        "original": 245
+      }
+    },
+    {
+      "id": "marbach-price-3cf28a53ff11",
+      "offer_id": "marbach-offer-edd02308992e",
+      "amount_cents": 18900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "02a52f0ce010",
+        "locator": "Anlage A, PDF S. 5, o3, 6.5 Stunden, 2027",
+        "original": 189
+      }
+    },
+    {
+      "id": "marbach-price-dc0be68ac1a5",
+      "offer_id": "marbach-offer-edd02308992e",
+      "amount_cents": 12800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "02a52f0ce010",
+        "locator": "Anlage A, PDF S. 5, o3, 6.5 Stunden, 2027",
+        "original": 128
+      }
+    },
+    {
+      "id": "marbach-price-59e0cb60b4eb",
+      "offer_id": "marbach-offer-edd02308992e",
+      "amount_cents": 0,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "02a52f0ce010",
+        "locator": "Anlage A, PDF S. 5, o3, 6.5 Stunden, 2027",
+        "original": 0
+      }
+    },
+    {
+      "id": "marbach-price-552223eaaf94",
+      "offer_id": "marbach-offer-1ba79488f5ba",
+      "amount_cents": 25400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "02a52f0ce010",
+        "locator": "Anlage A, PDF S. 5, o3, 7 Stunden, 2026",
+        "original": 254
+      }
+    },
+    {
+      "id": "marbach-price-bd87665492b5",
+      "offer_id": "marbach-offer-1ba79488f5ba",
+      "amount_cents": 19600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "02a52f0ce010",
+        "locator": "Anlage A, PDF S. 5, o3, 7 Stunden, 2026",
+        "original": 196
+      }
+    },
+    {
+      "id": "marbach-price-280de9e4d2c9",
+      "offer_id": "marbach-offer-1ba79488f5ba",
+      "amount_cents": 13300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "02a52f0ce010",
+        "locator": "Anlage A, PDF S. 5, o3, 7 Stunden, 2026",
+        "original": 133
+      }
+    },
+    {
+      "id": "marbach-price-7110b2994355",
+      "offer_id": "marbach-offer-1ba79488f5ba",
+      "amount_cents": 0,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "02a52f0ce010",
+        "locator": "Anlage A, PDF S. 5, o3, 7 Stunden, 2026",
+        "original": 0
+      }
+    },
+    {
+      "id": "marbach-price-9a85f0979224",
+      "offer_id": "marbach-offer-3266b2d54fb6",
+      "amount_cents": 26400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "02a52f0ce010",
+        "locator": "Anlage A, PDF S. 5, o3, 7 Stunden, 2027",
+        "original": 264
+      }
+    },
+    {
+      "id": "marbach-price-de5ab634fbfa",
+      "offer_id": "marbach-offer-3266b2d54fb6",
+      "amount_cents": 20300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "02a52f0ce010",
+        "locator": "Anlage A, PDF S. 5, o3, 7 Stunden, 2027",
+        "original": 203
+      }
+    },
+    {
+      "id": "marbach-price-380d4206c542",
+      "offer_id": "marbach-offer-3266b2d54fb6",
+      "amount_cents": 13800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "02a52f0ce010",
+        "locator": "Anlage A, PDF S. 5, o3, 7 Stunden, 2027",
+        "original": 138
+      }
+    },
+    {
+      "id": "marbach-price-cb0f8a03806a",
+      "offer_id": "marbach-offer-3266b2d54fb6",
+      "amount_cents": 0,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "02a52f0ce010",
+        "locator": "Anlage A, PDF S. 5, o3, 7 Stunden, 2027",
+        "original": 0
+      }
+    },
+    {
+      "id": "marbach-price-e5fe09a0a1ed",
+      "offer_id": "marbach-offer-e26acf7ed7bb",
+      "amount_cents": 31900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "02a52f0ce010",
+        "locator": "Anlage A, PDF S. 5, o3, 8 Stunden, 2026",
+        "original": 319
+      }
+    },
+    {
+      "id": "marbach-price-2200e4194997",
+      "offer_id": "marbach-offer-e26acf7ed7bb",
+      "amount_cents": 21400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "02a52f0ce010",
+        "locator": "Anlage A, PDF S. 5, o3, 8 Stunden, 2026",
+        "original": 214
+      }
+    },
+    {
+      "id": "marbach-price-26aaaee6089e",
+      "offer_id": "marbach-offer-e26acf7ed7bb",
+      "amount_cents": 14200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "02a52f0ce010",
+        "locator": "Anlage A, PDF S. 5, o3, 8 Stunden, 2026",
+        "original": 142
+      }
+    },
+    {
+      "id": "marbach-price-4f161b17837b",
+      "offer_id": "marbach-offer-e26acf7ed7bb",
+      "amount_cents": 0,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "02a52f0ce010",
+        "locator": "Anlage A, PDF S. 5, o3, 8 Stunden, 2026",
+        "original": 0
+      }
+    },
+    {
+      "id": "marbach-price-72ca8a2f916f",
+      "offer_id": "marbach-offer-907f3a0180c5",
+      "amount_cents": 33100,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "02a52f0ce010",
+        "locator": "Anlage A, PDF S. 5, o3, 8 Stunden, 2027",
+        "original": 331
+      }
+    },
+    {
+      "id": "marbach-price-c92048e04e8a",
+      "offer_id": "marbach-offer-907f3a0180c5",
+      "amount_cents": 22200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "02a52f0ce010",
+        "locator": "Anlage A, PDF S. 5, o3, 8 Stunden, 2027",
+        "original": 222
+      }
+    },
+    {
+      "id": "marbach-price-3348ae9d7ec1",
+      "offer_id": "marbach-offer-907f3a0180c5",
+      "amount_cents": 14700,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "02a52f0ce010",
+        "locator": "Anlage A, PDF S. 5, o3, 8 Stunden, 2027",
+        "original": 147
+      }
+    },
+    {
+      "id": "marbach-price-cc1acb721009",
+      "offer_id": "marbach-offer-907f3a0180c5",
+      "amount_cents": 0,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "02a52f0ce010",
+        "locator": "Anlage A, PDF S. 5, o3, 8 Stunden, 2027",
+        "original": 0
+      }
+    },
+    {
+      "id": "marbach-price-73b942801118",
+      "offer_id": "marbach-offer-bbdd51a383d6",
+      "amount_cents": 40000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "02a52f0ce010",
+        "locator": "Anlage A, PDF S. 5, o3, 10 Stunden, 2026",
+        "original": 400
+      }
+    },
+    {
+      "id": "marbach-price-0209b203de19",
+      "offer_id": "marbach-offer-bbdd51a383d6",
+      "amount_cents": 26700,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "02a52f0ce010",
+        "locator": "Anlage A, PDF S. 5, o3, 10 Stunden, 2026",
+        "original": 267
+      }
+    },
+    {
+      "id": "marbach-price-8aeed28e9bb8",
+      "offer_id": "marbach-offer-bbdd51a383d6",
+      "amount_cents": 17800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "02a52f0ce010",
+        "locator": "Anlage A, PDF S. 5, o3, 10 Stunden, 2026",
+        "original": 178
+      }
+    },
+    {
+      "id": "marbach-price-c9f4a506d6a7",
+      "offer_id": "marbach-offer-bbdd51a383d6",
+      "amount_cents": 0,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "02a52f0ce010",
+        "locator": "Anlage A, PDF S. 5, o3, 10 Stunden, 2026",
+        "original": 0
+      }
+    },
+    {
+      "id": "marbach-price-90a43d151f5b",
+      "offer_id": "marbach-offer-a48d96e0fdf9",
+      "amount_cents": 41600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "02a52f0ce010",
+        "locator": "Anlage A, PDF S. 5, o3, 10 Stunden, 2027",
+        "original": 416
+      }
+    },
+    {
+      "id": "marbach-price-3140f518eb75",
+      "offer_id": "marbach-offer-a48d96e0fdf9",
+      "amount_cents": 27800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "02a52f0ce010",
+        "locator": "Anlage A, PDF S. 5, o3, 10 Stunden, 2027",
+        "original": 278
+      }
+    },
+    {
+      "id": "marbach-price-c3493af3ba9c",
+      "offer_id": "marbach-offer-a48d96e0fdf9",
+      "amount_cents": 18500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "02a52f0ce010",
+        "locator": "Anlage A, PDF S. 5, o3, 10 Stunden, 2027",
+        "original": 185
+      }
+    },
+    {
+      "id": "marbach-price-ceace641c485",
+      "offer_id": "marbach-offer-a48d96e0fdf9",
+      "amount_cents": 0,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "02a52f0ce010",
+        "locator": "Anlage A, PDF S. 5, o3, 10 Stunden, 2027",
+        "original": 0
+      }
+    }
+  ],
+  "income_bands": [],
+  "components": [
+    {
+      "id": "marbach-component-788332b7a961",
+      "kind": "meal",
+      "original_label": "Mittagessen U3",
+      "amount_cents": 6500,
+      "unit": "per_month",
+      "age_group": "u3",
+      "required": true,
+      "payment_months": null,
+      "offer_ids": null,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "02a52f0ce010",
+        "locator": "Krippentabelle und Fußnoten",
+        "original": null
+      }
+    },
+    {
+      "id": "marbach-component-90a569a479e9",
+      "kind": "meal",
+      "original_label": "Mittagessen Ü3",
+      "amount_cents": 7500,
+      "unit": "per_month",
+      "age_group": "o3",
+      "required": null,
+      "payment_months": null,
+      "offer_ids": null,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "02a52f0ce010",
+        "locator": "Kindergartentabelle; GT grundsätzlich verpflichtend, VÖ freiwillig",
+        "original": null
+      }
+    },
+    {
+      "id": "marbach-component-36fbd439e3e7",
+      "kind": "drinks",
+      "original_label": "Getränkegeld Ü3",
+      "amount_cents": 200,
+      "unit": "per_month",
+      "age_group": "o3",
+      "required": true,
+      "payment_months": null,
+      "offer_ids": null,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "02a52f0ce010",
+        "locator": "Kindergartentabelle",
+        "original": null
+      }
+    }
+  ],
+  "rules": [
+    {
+      "id": "marbach-rule-e982994bc3bf",
+      "kind": "pass_reduction",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "pass": "culture_and_leisure_pass",
+        "discount_percent": 50,
+        "meals_excluded": true,
+        "application_required": true
+      },
+      "evidence": {
+        "source_id": "02a52f0ce010",
+        "locator": "§ 4 Abs. 4",
+        "original": null
+      }
+    },
+    {
+      "id": "marbach-rule-60a86f6d6672",
+      "kind": "older_children_on_application",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "child_benefit_required": true,
+        "application_required": true
+      },
+      "evidence": {
+        "source_id": "02a52f0ce010",
+        "locator": "§ 4 Abs. 2",
+        "original": null
+      }
+    },
+    {
+      "id": "marbach-rule-c58400abd0bb",
+      "kind": "mandatory_meals",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "u3_required": true,
+        "u3_exception": "Wiesenzauber",
+        "o3_required_when_daily_minutes_exceed": 420,
+        "municipal_order_takes_precedence_over_provider_webpage": true
+      },
+      "evidence": {
+        "source_id": "02a52f0ce010",
+        "locator": "§ 4 Abs. 7 und § 6",
+        "original": null
+      }
+    },
+    {
+      "id": "marbach-rule-ff4b2f0e6049",
+      "kind": "source_provisions_02a52f0ce010",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "archive_text_path": "data/sources/02a52f0ce010/text.txt",
+        "text_sha256": "1b125a1bda4e1c50c0df87dc5f4c77d6169e3872067315f9a3fe728a3e2af790",
+        "review_status": "archived_provisions_preserved"
+      },
+      "evidence": {
+        "source_id": "02a52f0ce010",
+        "locator": "Vollständiger archivierter Dokumenttext einschließlich Fußnoten",
+        "original": null
+      }
+    },
+    {
+      "id": "marbach-rule-166fb4aeea6b",
+      "kind": "source_clause_02a52f0ce010_1_3",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 0,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "02a52f0ce010",
+        "locator": "PDF-/Textseite 1, Absatzblock 3",
+        "original": null
+      }
+    },
+    {
+      "id": "marbach-rule-2f2221b7a2fe",
+      "kind": "source_clause_02a52f0ce010_1_8",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 1,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "02a52f0ce010",
+        "locator": "PDF-/Textseite 1, Absatzblock 8",
+        "original": null
+      }
+    },
+    {
+      "id": "marbach-rule-9a9d18583f71",
+      "kind": "source_clause_02a52f0ce010_2_1",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 2,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "02a52f0ce010",
+        "locator": "PDF-/Textseite 2, Absatzblock 1",
+        "original": null
+      }
+    },
+    {
+      "id": "marbach-rule-de8aef100644",
+      "kind": "source_clause_02a52f0ce010_2_2",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 3,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "02a52f0ce010",
+        "locator": "PDF-/Textseite 2, Absatzblock 2",
+        "original": null
+      }
+    },
+    {
+      "id": "marbach-rule-015b9c3dbb58",
+      "kind": "source_clause_02a52f0ce010_2_3",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 4,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "02a52f0ce010",
+        "locator": "PDF-/Textseite 2, Absatzblock 3",
+        "original": null
+      }
+    },
+    {
+      "id": "marbach-rule-d2ae6a930d0f",
+      "kind": "source_clause_02a52f0ce010_2_4",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 5,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "02a52f0ce010",
+        "locator": "PDF-/Textseite 2, Absatzblock 4",
+        "original": null
+      }
+    },
+    {
+      "id": "marbach-rule-77a18680efd9",
+      "kind": "source_clause_02a52f0ce010_2_5",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 6,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "02a52f0ce010",
+        "locator": "PDF-/Textseite 2, Absatzblock 5",
+        "original": null
+      }
+    },
+    {
+      "id": "marbach-rule-3df44332928e",
+      "kind": "source_clause_02a52f0ce010_3_1",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 7,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "02a52f0ce010",
+        "locator": "PDF-/Textseite 3, Absatzblock 1",
+        "original": null
+      }
+    },
+    {
+      "id": "marbach-rule-2002e674e1c8",
+      "kind": "source_clause_02a52f0ce010_3_2",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 8,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "02a52f0ce010",
+        "locator": "PDF-/Textseite 3, Absatzblock 2",
+        "original": null
+      }
+    },
+    {
+      "id": "marbach-rule-5222bbda2481",
+      "kind": "source_clause_02a52f0ce010_3_3",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 9,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "02a52f0ce010",
+        "locator": "PDF-/Textseite 3, Absatzblock 3",
+        "original": null
+      }
+    },
+    {
+      "id": "marbach-rule-b72d0b3165e0",
+      "kind": "source_clause_02a52f0ce010_3_4",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 10,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "02a52f0ce010",
+        "locator": "PDF-/Textseite 3, Absatzblock 4",
+        "original": null
+      }
+    },
+    {
+      "id": "marbach-rule-6bc21ea53b79",
+      "kind": "source_clause_02a52f0ce010_3_6",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 11,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "02a52f0ce010",
+        "locator": "PDF-/Textseite 3, Absatzblock 6",
+        "original": null
+      }
+    },
+    {
+      "id": "marbach-rule-b8eccf4861ec",
+      "kind": "source_clause_02a52f0ce010_4_1",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 12,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "02a52f0ce010",
+        "locator": "PDF-/Textseite 4, Absatzblock 1",
+        "original": null
+      }
+    },
+    {
+      "id": "marbach-rule-3735c2ff4f70",
+      "kind": "source_clause_02a52f0ce010_4_5",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 13,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "02a52f0ce010",
+        "locator": "PDF-/Textseite 4, Absatzblock 5",
+        "original": null
+      }
+    },
+    {
+      "id": "marbach-rule-cfb1a160adb2",
+      "kind": "source_clause_02a52f0ce010_5_1",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 14,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "02a52f0ce010",
+        "locator": "PDF-/Textseite 5, Absatzblock 1",
+        "original": null
+      }
+    },
+    {
+      "id": "marbach-rule-89f4d2b5149d",
+      "kind": "source_clause_02a52f0ce010_5_4",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 15,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "02a52f0ce010",
+        "locator": "PDF-/Textseite 5, Absatzblock 4",
+        "original": null
+      }
+    },
+    {
+      "id": "marbach-rule-4904364e888c",
+      "kind": "source_clause_02a52f0ce010_5_5",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 16,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "02a52f0ce010",
+        "locator": "PDF-/Textseite 5, Absatzblock 5",
+        "original": null
+      }
+    },
+    {
+      "id": "marbach-rule-479da84aece8",
+      "kind": "source_clause_02a52f0ce010_5_8",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 17,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "02a52f0ce010",
+        "locator": "PDF-/Textseite 5, Absatzblock 8",
+        "original": null
+      }
+    },
+    {
+      "id": "marbach-rule-41db094af487",
+      "kind": "source_provisions_3ab38c80e1bd",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "archive_text_path": "data/sources/3ab38c80e1bd/text.txt",
+        "text_sha256": "535f8824f0a724ac945d4fda7a922be1fb6cee8e3fb786c649f113a0cbfe99f4",
+        "review_status": "archived_provisions_preserved"
+      },
+      "evidence": {
+        "source_id": "3ab38c80e1bd",
+        "locator": "Vollständiger archivierter Dokumenttext einschließlich Fußnoten",
+        "original": null
+      }
+    },
+    {
+      "id": "marbach-rule-8e4c7d60da92",
+      "kind": "source_clause_3ab38c80e1bd_1_1",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 18,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "3ab38c80e1bd",
+        "locator": "PDF-/Textseite 1, Absatzblock 1",
+        "original": null
+      }
+    }
+  ],
+  "issues": [
+    {
+      "code": "pending_calculation_review",
+      "detail": "Strukturierter Import; noch keine Freigabe des Rechners oder der Website."
+    },
+    {
+      "code": "research_limitation_1",
+      "detail": "Essenspflicht unterscheidet sich je Zeitmodell; veröffentlichte Varianten erhalten."
+    },
+    {
+      "code": "supporting_provider_meal_note_conflict",
+      "detail": "Die ergänzende Trägerseite bezeichnet Essen bei GT8 als freiwillig; die kommunale Satzung nennt GT verpflichtend. Kommunale Satzung als maßgeblichen Beleg verwenden."
+    }
+  ],
+  "coverage": {
+    "publication_status": "not_active",
+    "integration_status": "normalized_pending_calculation_review",
+    "history_in_scope": false,
+    "source_register": "data/research/neighbor_expansion_2026-11-10.json",
+    "research_id": "marbach",
+    "unavailable_configurations": [],
+    "offers": 16,
+    "price_cells": 64,
+    "income_bands": 0,
+    "components": 3,
+    "rule_records": 24,
+    "tariff_table_transcription": "complete_for_declared_scope",
+    "declared_scope": "Aktuelle und bereits veröffentlichte künftige Krippen- und Kindergartentarife; Zusatzkosten und Gebührenregeln.",
+    "excluded_from_regular_price_rows": [
+      "superseded_historical_tariffs",
+      "school_childcare",
+      "takki_and_childminding",
+      "separate_playgroups"
+    ],
+    "calculation_engine_changed": false,
+    "rule_transcription": "typed_parameters_and_source_clauses_with_explicit_unimplemented_status"
+  },
+  "original_research": {
+    "path": "data/research/neighbor_expansion_2026-11-10.json",
+    "section": "Marbach am Neckar",
+    "text": "Die Bezeichnungen erstes/zweites Kind in der Übersicht mit der Familiengrößendefinition aus der Satzung verknüpfen.\nEssenspflicht unterscheidet sich je Zeitmodell; veröffentlichte Varianten erhalten.",
+    "source_clauses": [
+      {
+        "text": "Satzung über die Erhebung von Benutzungsgebühren für die\n         KindertageseJnrichtungen der Stadt Marbach am Neckar",
+        "evidence": {
+          "source_id": "02a52f0ce010",
+          "locator": "PDF-/Textseite 1, Absatzblock 3",
+          "original": null
+        }
+      },
+      {
+        "text": "Satzung über die Erhebung von Benutzungsgebühren für die Kindertagesstätten v. 29.07.2026 (gültig ab 01.09.2026)",
+        "evidence": {
+          "source_id": "02a52f0ce010",
+          "locator": "PDF-/Textseite 1, Absatzblock 8",
+          "original": null
+        }
+      },
+      {
+        "text": "(3) Die Abmeldung hat gegenüber dem Träger unter Einhaltung einer Frist von 4\nWochen zum Monatsende schriftlich zu erfolgen.\n(4) Die Gebührenpflicht bleibt bis zur Wirksamkeit der Abmeldung bestehen.",
+        "evidence": {
+          "source_id": "02a52f0ce010",
+          "locator": "PDF-/Textseite 2, Absatzblock 1",
+          "original": null
+        }
+      },
+      {
+        "text": "§ 4 Benutzungsgebühren\n(1) Für die Benutzung von Kindertageseinrichtungen werden Benutzungsgebühren\ngem. § 5 erhoben. Benutzungsgebühren sind für 11 Monate zu entrichten. Der Monat\nAugust ist gebührenfrei.\n(2) Gebührenmaßstab ist für Kindertageseinrichtungen nach § 2 Nr. 1-2\n     • die Art der Einrichtung\n     • der Umfang der Betreuungszeit\n        das Alter des Kindes\n        die Anzahl der Kinder unter 18 Jahren im Haushalt des Gebührenschuldners und\n        auf Antrag alle kindergeldberechtigten Kinder ab 18 Jahren\n(3) Eine Änderung bei der Kinderzahl oder beim Alter der Kinder in der Familie\n(Familienhaushalt) werden auf Antrag ab dem Folgemonat berücksichtigt.",
+        "evidence": {
+          "source_id": "02a52f0ce010",
+          "locator": "PDF-/Textseite 2, Absatzblock 2",
+          "original": null
+        }
+      },
+      {
+        "text": "(4) Für Personensorgeberechtigte, die Inhaber eines Kultur- und Freizeitpasses der\nStadt Marbach am Neckar sind, ermäßigt sich die jeweilige Benutzungsgebühr (ohne\nEssen) bei Vorlage des Passes um die Hälfte.\n(5) Die Benutzungsgebühren für Kinder ab 1 Jahr bis Schuleintritt werden jeweils für\neinen Kalendermonat (Veranlagungszeitraum) erhoben. Wird ein Kind ab dem 16. eines\nMonats aufgenommen, wird die halbe Benutzungsgebühr erhoben. Die\nBenutzungsgebühren werden jeweils im Voraus in den ersten fünf Tagen des Monats\ndurch Bankabbuchung eingezogen.",
+        "evidence": {
+          "source_id": "02a52f0ce010",
+          "locator": "PDF-/Textseite 2, Absatzblock 3",
+          "original": null
+        }
+      },
+      {
+        "text": "(6) Die Benutzungsgebühr ist auch für die Ferien der Einrichtung und für Zeiten, in\ndenen die Einrichtung aus besonderen Anlass geschlossen ist, sowie bei\nNichtbenutzung oder vorübergehender Schließung der Einrichtung zu entrichten.\n(7) Die Kosten für Getränke und Essen sind in den Benutzungsgebühren nicht\nenthalten. Bei mehr als 7 Stunden Betreuungszeit an einem Tag ist das Mittagessen\nverpflichtend. Bei der Betreuung von 1 bis 3 jährigen Kindern ist die Teilnahme am\nMittagessen verpflichtend mit Ausnahme im Wiesenzauber.\n§ 5 Höhe der Benutzungsgebühr\n(1) Die Höhe der Benutzungsgebühren ist in Anlage A geregelt.\n(2) Die Gebühren werden je Kind und Betreuungsplatz erhoben. Die Höhe der\nBenutzungsgebühr bestimmt sich nach der Anzahl der Kinder, die noch nicht das 18.\nLebensjahr vollendet haben und die nicht nur vorübergehend im Haushalt des\nGebührenschuldners leben. Unterhaltspflichtige Kinder, die nicht im Haushalt des\nGebührenschuldners leben, werden nicht berücksichtigt. Maßgebend sind die\nFamilienverhältnisse jeweils zum Zeitpunkt des Vertragsabschlusses. Ändert sich die\nZahl der berücksichtigungsfähigen Kinder, so wird die Benutzungsgebühr auf Antrag ab\ndem Folgemonat neu festgesetzt.",
+        "evidence": {
+          "source_id": "02a52f0ce010",
+          "locator": "PDF-/Textseite 2, Absatzblock 4",
+          "original": null
+        }
+      },
+      {
+        "text": "Satzung über die Erhebung von Benutzungsgebühren für die Kindertagesstätten v. 29.07.2026 (gültig ab 01.09.2026)",
+        "evidence": {
+          "source_id": "02a52f0ce010",
+          "locator": "PDF-/Textseite 2, Absatzblock 5",
+          "original": null
+        }
+      },
+      {
+        "text": "§ 6 Getränkegeld und Gebühr für das Essen\n(1) Das Getränkegeld wird für jedes Kind ab 3 Jahre monatlich fällig.\n(2) Die Gebühr für das Essen wird monatlich fällig und ist für alle Kinder in der\nGanztagesbetreuung (GT) verpflichtend. In bestimmten Kindertageseinrichtungen für\nKinder ab 3 Jahren kann das Essen bei VÖ-Betreuung zusätzlich gebucht werden.\n(3) Bei Kindern von 1 bis 3 Jahre ist die Teilnahme am Essen grundsätzlich\nverpflichtend. Die Gebühr für das Essen wird monatlich fällig.",
+        "evidence": {
+          "source_id": "02a52f0ce010",
+          "locator": "PDF-/Textseite 3, Absatzblock 1",
+          "original": null
+        }
+      },
+      {
+        "text": "§ 7 Erlass bzw. Rückerstattung von Gebühren\n(1) Kann ein Kind wegen Krankheit oder ärztlicher verordneter Erholung vorübergehend\ndie Kindertageseinrichtung mehr als zwei Wochen nicht besuchen, so wird bei\nNachweis der Voraussetzungen für die Zeit der Abwesenheit die Benutzungsgebühr auf\nein Drittel reduziert. Die Essensgebühr wird tagegenau rückerstattet.\n(2) Getränkegeld wird nicht rückerstattet.",
+        "evidence": {
+          "source_id": "02a52f0ce010",
+          "locator": "PDF-/Textseite 3, Absatzblock 2",
+          "original": null
+        }
+      },
+      {
+        "text": "§ 8 Gebührenschuldner\n(1) Gebührenschuldner sind die Personensorgeberechtigten des Kindes, in deren\nHaushalt das Kind lebt sowie diejenigen, die die Aufnahme in die\nKindertageseinrichtung beantragen.\n(2) Mehrere Gebührenschuldnersind Gesamtschuldner.\n(3) Der Gebührenschuldner ist verpflichtet, die zur Festsetzung der Gebühr\nerforderlichen Angaben wahrheitsgemäß und vollständig zu machen sowie eventuell\nerforderliche Unterlagen vorzulegen.",
+        "evidence": {
+          "source_id": "02a52f0ce010",
+          "locator": "PDF-/Textseite 3, Absatzblock 3",
+          "original": null
+        }
+      },
+      {
+        "text": "§ 9 Entstehung/Fälligkeit\n (1) Die Gebührenschuld entsteht zu Beginn des Veranlagungszeitraumes (§4 Abs. 6),\nin dem das Kind für die Kindertageseinrichtung angemeldet ist. Die Gebührenschuld\nentsteht bereits für die Eingewöhnungsphase.\n(2) Die Benutzungsgebühren werden bei der erstmaligen Benutzung durch, schriftlichen\nBescheid festgesetzt. Die Festsetzung gilt so lange weiter, bis ein neuer Bescheid oder\nAnderungsbescheid ergeht.\n(3) Die Gebührenschuld wird jeweils im Voraus in den ersten fünf Tagen des\nVeranlagungszeitraums fällig.",
+        "evidence": {
+          "source_id": "02a52f0ce010",
+          "locator": "PDF-/Textseite 3, Absatzblock 4",
+          "original": null
+        }
+      },
+      {
+        "text": "Satzung über die Erhebung von Benutzungsgebühren für die Kindertagesstätten v. 29.07.2026 (gültig ab 01.09.2026)",
+        "evidence": {
+          "source_id": "02a52f0ce010",
+          "locator": "PDF-/Textseite 3, Absatzblock 6",
+          "original": null
+        }
+      },
+      {
+        "text": "§11 Widerruf der Zulassung\n(1) Die Stadt kann das Benutzungsverhältnis aus wichtigem Grund mit einer Frist von\nvier Wochen zum Monatsende unter Angaben des Grundes schriftlich beenden.\nWichtige Gründe sind insbesondere:\n       Die Nichtzahlung einer fälligen Gebührenschuld trotz Mahnung\n       Wenn das Kind die Kindertageseinrichtung länger als vier Wochen\n       unentschuldigt nicht besucht hat\n       Wenn die Personensorgeberechtigten die in dieser Satzung oder\n       Benutzungsordnung aufgeführten Pflichten wiederholt nicht beachten\n       Nicht ausgeräumte erhebliche Auffassungsunterschiede zwischen\n       Personensorgeberechtigten und der Kindertageseinrichtung über das\n       Erziehungskonzept und/oder eine dem Kind angemessene Förderung trotz eines\n       von der Stadtverwaltung anberaumten Einigungsgespräches.\n(2) Das Recht zur Kündigung aus wichtigem Grund (außerordentliche Kündigung) bleibt\nhiervon unberührt.",
+        "evidence": {
+          "source_id": "02a52f0ce010",
+          "locator": "PDF-/Textseite 4, Absatzblock 1",
+          "original": null
+        }
+      },
+      {
+        "text": "Satzung über die Erhebung von Benutzungsgebühren für die Kindertagesstätten v. 29.07.2026 (gültig ab 01.09.2026)",
+        "evidence": {
+          "source_id": "02a52f0ce010",
+          "locator": "PDF-/Textseite 4, Absatzblock 5",
+          "original": null
+        }
+      },
+      {
+        "text": "Anlage A\nGebühren ab 01.09.2026 (in €)\n                          Betreuungszeit        1 Kind       2 Kinder     3 Kinder     ab 4 Kinder\n    Betreuungsform\n          Kinder unter 3 Jahre\n      VÖ- Krippe               6Std./Tag       537,00 € I 399,00 € | 269,00 €           106,00 €\n      VÖ- Krippe              6,5 Std./Tag_    582,00 €     432,00 € I 292,00 €         115,00 €\n                               8 Std./Tag      715,00 €     531,00 € I 359,00 €         142,00 €\n       GT- Krippe",
+        "evidence": {
+          "source_id": "02a52f0ce010",
+          "locator": "PDF-/Textseite 5, Absatzblock 1",
+          "original": null
+        }
+      },
+      {
+        "text": "für Kinder unter 3 Jahre beträgt die Essensgebühr verpflichtend 65,00 €/Monat\nfür Kinder ab 3 Jahre beträgt die Essensgebühr 75,00 €/Monat\nfür Kinder ab 3 Jähre beträgt das Getränkegeld 2,00 €/Monat",
+        "evidence": {
+          "source_id": "02a52f0ce010",
+          "locator": "PDF-/Textseite 5, Absatzblock 4",
+          "original": null
+        }
+      },
+      {
+        "text": "Gebühren ab 01.09.2027 (in €)\n                              Betreuungszeit     1 Kind        2 Kinder    3 Kinder    ab 4 Kinder\n     Betreuungsform\n            Kinder unter 3 Jahre\n       VÖ- Krippe              6 Std./ Tag     559,00 €    416,00 € I 280,00 €           110,00 €\n       VÖ- Krippe              6,5 Std./Tag     605,00 € I 449,00 € | 303,00 €           119,00 €\n        GT- Krippe              8 Std./Tag      743,00 €    552,00 € I 373,00 €          147,00 €",
+        "evidence": {
+          "source_id": "02a52f0ce010",
+          "locator": "PDF-/Textseite 5, Absatzblock 5",
+          "original": null
+        }
+      },
+      {
+        "text": "für Kinder unter 3 Jahre beträgt die Essensgebühr verpflichtend 65,00 €/Monat\n für Kinder ab 3 Jahre beträgt die Essensgebühr 75,00 €/Monat\n für Kinder ab 3 Jahre beträgt das Getränkegeld 2,00 €/Monat",
+        "evidence": {
+          "source_id": "02a52f0ce010",
+          "locator": "PDF-/Textseite 5, Absatzblock 8",
+          "original": null
+        }
+      },
+      {
+        "text": "Kindertagesstätten - schillerstadt-marbach.de\nSeitenbereiche\nZum Hauptmenü springen\nZum Inhalt springen\nZum Kontaktformular springen\nZur Startseite springen\nToggle navigation\nSchiller,\nMayer & Co.\nFriedrich Schiller\nSein Leben\nSchiller-Führungen\nSchiller-Gedenkstätten\nSchillers Geburtshaus\nSchiller-Nationalmuseum\nSchiller-Denkmal\nSchillerhöhe\nGasthaus Goldener Löwe\nSchillerwoche 2026\nPressematerial\nSchillerpreis\nPreisträgerinnen und Preisträger\nSchillerverein\nDeutsche Schillergesellschaft\nTobias Mayer\nTobias Mayer wird 300\nPressematerial zum Jubiläum\nRückblick auf den Theaterpaziergang \"vermessen - Eine Annäherung an Tobias Mayer\"\nSein Leben\nTobias Mayer Museum\nMarbacher Quadrant\nCarl Georg von Wächter\nQueen Elisabeth II.\nAlexander Seitz\nLudwig Hofacker\nOttilie Wildermuth\nJohann Jakob Steinhofer\nTouristik\n& Kultur\nMuseen - mehr als Schiller\nLiteraturmuseen\nSchiller-Nationalmuseum\nLiteraturmuseum der Moderne\nDeutsches Literaturarchiv Marbach\nMuseumsquartier\nSchillers Geburtshaus\nTobias Mayer Museum\nFritz Genkinger Kunsthaus\nÖlmühle Jäger\nOberer Torturm\nStadt & Kultur\nSehenswürdigkeiten\nAlexanderkirche\nAltstadt\nBurgplatz\nBürgerturm\nHoldergassen\nHistorische Stadtmauer\nMarbacher Quadrant\nOberer Torturm\nRathaus mit Glockenspiel\nSchiller-Denkmal\nWendelinskapelle\nGeführte Erlebnisse\nStadtführungen mit festen Terminen\nÖffentliche Stadtführung\nFührung \"Tag des offenen Denkmals\" & \"Deutscher Mühlentag\"\nKlassische Führungen für Gruppen\nDer Klassiker\nSchillerspuren\nRielingshausen - Weindorf mit Geschichte\nFührungen für Kinder\nHistorische Führungen\nFriedrich Schiller\nOttilie Wildermuth\nSchiller und seine Geburtsstadt im 18. Jhd\nTobias Mayer und Friedrich Schiller: Genial²\nMarbacher Geschichten aus dem 18. Jhd.\nAlexanderkirche\nFührungen mit Erlebnis, Genuss, Dialekt\nNachtwächter\nHoldergässler - schwäbische Stadtführung\nFototour durch die Altstadt\nGruselführung in Marbach\nIm Mondschein durch dunkle Gassen\nLiteraturspaziergänge\nMarbach amourös\nTuk Tuk Touren durch Marbach\nEscape Game Marbach\nStadtführung mobil - Audio Guide\nFührungen zwischen Wein, Neckar, Natur\nWengerter Dickkopf - schwäbische Führung mit Weinprobe\nWeinerlebnisführungen\nDurch Gassen und Keller mit Wein und Schiller\nZwischen Wein und Neckar\nIndividuelle Stadt- und Ortsrundgänge\nAnfragen: Führungen für Gruppen\nBuchen: Sonntagsstadtführung\nKultur, Feste & Veranstaltungen\nNatur & Genuss\nGenusslandschaft & Regionales\nWinzer, Besenwirtschaften & Regionales\nWeinveranstaltungen\nWeinsüden Weinort\nAussichtsplattform am Wein-Lese-Weg\nNeckar-Schifffahrt\nWürttemberger Weinstraße\nWandern & Spazieren\nMarbacher Rundwanderweg 1 - große Rundtour\nMarbacher Rundwanderweg 2 - Altstadt und Weinberge\nMarbacher Rundwanderweg 3 - Schillerhöhe und Aussicht\nRund um Rielingshausen Nord\nRund um Rielingshausen Süd\nRund um Schillers Geburtsstadt Tour 6\nWein-Lese-Weg ab Marbach Tour 1\nBesinnungsweg durch Marbach-Siegelhausen\nWein-Lese-Weg\nWanderwegenetz\nAussichtspunkte\nGeführte Wanderungen und Outdoorerlebnisse\nWanderwege Hardtwald & Hardy-Erlebnispfad\nTourenportal Marbach-Bottwartal\nRadfahren\nPer Pedal zur Poesie - Literarischer Radweg 05\nLiteraTour\nSonnenuhren-Tour\nTürme-Tour\nRadwegenetz\nGeführte Radtouren\nRadgeschäfte, -Verleih, -Reparatur\nE-Bike Lademöglichkeiten & Fahrradabstellplätze\nTourenportal Marbach-Bottwartal\nDraussen\nBewegungspark & Sportstätten\nBoulebahn\nFreizeitaktivitäten\nGrillplätze\nKanu, Rudern & Stand up Paddling (SUP)\nSkateanlage am Viadukt\nNeckar-Schifffahrt\nMarbach und Bottwartal\nUnterkunft & Gastronomie\nOnlinebuchung\nHotels\nFerienwohnungen & Gästezimmer\nRestaurants & Cafés\nWohnmobil & Camping\nReisevorschläge\nKultur in Marbach\nVeranstaltungskalender\nJubiläum 1250 Jahre Rielingshausen\n18.-Jahrhundert-Fest 2025\nDie schönsten Fotos\nLagerleben\nMarbacher Museen\nPressematerial\nTermine\nTheatergruppe\nVeranstaltungsorte\nGemeindehalle Rielingshausen\nTechnische Ausstattung\nBestuhlungspläne\nBenutzungs- und Gebührenordnung\nKalender Rielingshausen\nJugend-Kultur-Haus planet-x\nKelterstube\nSchlosskeller\nKalender Schlosskeller\nStadt- und Ortsbücherei\nStadthalle Schillerhöhe\nStadtinfoladen\nService und Infos\nDownload Infomaterial\nBild-Archiv\nFilme\nFreies WLAN\nKontakt / Informationsmaterial\nAnreise und Parken\nWirtschaft\n& Bauen\nÜbersicht der Gewerbebetriebe\nGewerbeanmeldung\nStadtmarketing\nWochen- und Saisonmärkte\nPlanen & Bauen\nAmtliche Bekanntmachungen Stadtbauamt bis 31.12.2023\nBebauungspläne\nFlächennutzungspläne\nBodenrichtwerte\nBaugesuche\nMobilität & Verkehr\nSanierungsgebiete\nBauprojekte\nKönig-Wilhelm-Platz\nWirtschaftsförderung & Citymanagement\nStadt &\nPolitik\nStadt\nStadtportrait\nStadtgeschichte\nMarbach am Neckar\nStadtteil Hörnle\nStadtteil Rielingshausen\nStadtteil Siegelhausen\nKriegerdenkmal\nÖffentliche Bekanntmachungen\nOrtsrecht\nStrukturdaten\nMietspiegel\nStadtentwicklung\nLeitbild\nEinrichtungen\nStadtarchiv\nStadt- und Ortsbücherei\nSeniorenstift\nBetreutes Wohnen\nAmtsgericht\nNotariat\nBürgertreff \"Wir für uns\"\nDiakonische Bezirksstelle\nFreiwillige Feuerwehr Marbach am Neckar\nEvangelische Diakoniestation\nKinderbetreuung & Schulen\nSportstätten\nStadtinfoladen\nStadthalle Schillerhöhe\nMitgliedschaften\nRathaus\nGrußwort\nErste Beigeordnete\nVerwaltungsgliederung\nSprechzeiten\nEigenbetriebe Wasser/Abwasser\nBürgerportal\nOnline-Anhörung\nFormulare\nLebenslagen\nDienstleistungen\nAnsprechpartner\nStellen- & Ausbildungsangebote\nBekanntmachungsorgane\nAnsprechpartner\nGemeinde-/Ortschaftsrat/Ratsinfo\nJugendbeirat\nWahlen und Volksbegehren\nZensus\nPartnerstädte\nTirebolu, Türkei\nL'Isle-Adam, Frankreich\nWashington / Missouri, USA\nTongling, China\nPartnerschaftskomitee\nEhrungen und Bürgerauszeichnungen\nSportlerehrung\nBürgerstiftung\nNachrichtenarchiv\nSocial Media\nAktuelle Projekte\nLärmaktionsplan\nNahverkehrsplan Landkreis Ludwigsburg\nMarbach - aber sicher!\nPerspektive Innenstadt\nLeben &\nSoziales\nEinwohnermeldeamt\nKinderbetreuung & Schulen\nKindertagesstätten\nKleinkindbetreuung (1-3 Jahre)\nKindergärten (3-6 Jahre)\nKindertagespflege\nSchulen\nBetreuung an Schulen\nKinder, Jugend und Familie\nBoulebahn\nGrillplätze\nSkateanlage am Viadukt\nStadt- und Ortsbücherei\nElternforum Marbach e.V.\nAsyl / Geflohene\nWeitere Informationen\nKatastrophenschutz\nHochwasser im Juni 2024\nGesundheitsschutz\nKlimaschutz\nKlimaschutzmanagement Marbach\nKommunale Wärmeplanung\nHandysammelaktion\nEnergiedaten\nEnergieberatung\nKlimaschutzkonzept\nSolaroffensive 2.0\nKlimamobilitätsplan\nKommunale Wärmeplanung: Erklärvideo\nWärmepreisrechner der KEA-BW\nReaktivierung von Wohnraum\nBürgerschaftliches Engagement\nFreiwilligenbörse\nInitiative Q\nSorgende Gemeinschaft\nMarbach sozial verNETZt\nÄlterwerden in Marbach\nDemenzfreundliche Stadt\nMarbach-hilft-Hotline\nMarbach handelt fair\nMitmach-Garten für ALLE\nNachhaltigkeitsgruppe\nMarbacher CleanUp Aktionen\nStadtinfoladen\nBürgerbus\nBürgertreff \"Wir für uns\"\nEhrenamtsschulungen\nPreis „Marbacher Miteinander\"\nDankeschön-Abend\nWas kostet wie viel?\nBürger- und Ordnungsamt\nKindertagesstätten\nFriedhofsgebühren\nGebühren- und Abgabensätze\nNutzungsentgelte für Veranstaltungsräume\nHeiraten in Marbach\nWas braucht man zum Heiraten\nUnsere Räumlichkeiten\nTrautermine\nVereine & Organisationen\nHilfreiche Internetadressen\nSie sind hier: Start  »   Leben & Soziales  »  Was kostet wie viel?  »  Kindertagesstätten\nKindertagesstätten\nSuche\nTermine\nNewsletter\nKontakt\nAnfahrt\nStadtplan\nDer Elternbeitrag für die Kindertageseinrichtungen (ab 3 Jahre) (monatlich):\nGebührenhochrechnung Krippe und Kindergarten für 01.09.2026 und 01.09.2027\nKrippe (monatlich) | | | | 01.09.2026    |             | 01.09.2027 |\nVÖ 6/30 Std.    | | 1. Kind | | | 537,00 € | | 559,00 € |\n| | 2. Kind | | | 399,00 € | | 416,00 € |\n| | 3. Kind | | | 269,00 € | | 280,00 € |\n| | 4. Kind und mehr | | | 106,00 € | | 110,00 € |\n| | | | | | | |\nVÖ 6,5 | | 1. Kind | | | 582,00 € | | 605,00 € |\n| | 2. Kind | | | 432,00 € | | 449,00 € |\n| | 3. Kind | | | 292,00 € | | 303,00 € |\n| | 4. Kind und mehr | | | 115,00 € | | 119,00 € |\n| | zzgl. Mittagessen verpflichtend 65,00 € | | |\n| | | | | | | |\nGT 8 | | 1. Kind | | | 715,00 € | | 743,00 € |\n| | 2. Kind | | | 531,00 € | | 552,00 € |\n| | 3. Kind | | | 359,00 € | | 373,00 € |\n| | 4. Kind und mehr | | | 142,00 € | | 147,00 € |\n| | zzgl. Mittagessen verpflichtend 65,00 € | | |\n| | | | | |\nKindergarten (monatlich)                    | | 01.09.2026       |            | 01.09.2027 |\nVÖ 6 | 1. Kind          | | 218,00 € | | 226,00 € |\n| 2. Kind | | 168,00 € | | 174,00 € |\n| 3. Kind | | 114,00 € | | 118,00 € |\n| 4. Kind und mehr | | frei |\n| zzgl. Getränkegeld 2,00 € | |\n| zzgl. Mittagessen freiwillig 75,00 € | | |\n| | | | | |\nVÖ 6,5 | 1. Kind | | 236,00 € | | 245,00 € |\nev. Kiga RH | 2. Kind | | 182,00 € | | 189,00 € |\n| 3. Kind | | 123,00 € | | 128,00 € |\n| 4. Kind und mehr | | frei | | frei |\n| zzgl. Getränkegeld 2,00 € | | |\n| zzgl. Mittagessen freiwillig 75,00 € | | |\n| | | | | |\nVÖ 7 | 1. Kind | | 254,00 € | | 264,00 € |\n| 2. Kind | | 196,00 € | | 203,00 € |\n| 3. Kind | | 133,00 € | | 138,00 € |\n| 4. Kind und mehr | | frei | | frei |\n| zzgl. Getränkegeld 2,00 € | | |\n| zzgl. Mittagessen freiwillig 75,00 € | | |\n| | | | | |\nGT 8 | 1. Kind | | 319,00 € | | 331,00 € |\n| 2. Kind | | 214,00 € | | 222,00 € |\n| 3. Kind | | 142,00 € | | 147,00 € |\n| 4. Kind und mehr | | frei | | frei |\n| zzgl. Getränkegeld 2,00 € | | |\n| zzgl. Mittagessen freiwillig 75,00 € | | |\n| | | | | |\nGT 10              | 1. Kind | | 400,00 € | | 416,00 € |\nKH | 2. Kind | | 267,00 € | | 278,00 € |\nSt. Hildegard | 3. Kind | | 178,00 € | | 185,00 € |\n| 4. Kind und mehr | | frei | | frei |\n| zzgl. Getränkegeld 2,00 € | | |\n| zzgl. Mittagessen verpflichtend 75,00 € | | |\n| | | | | | |\nUnterstützung\nEltern mit geringem Einkommen haben unter bestimmten Voraussetzungen die Möglichkeit, über einen Antrag auf Finanzierung Kindertagesbetreuung den monatlichen Elternbeitrag ermäßigt oder ganz erlassen zu bekommen.\nNähere Infos erhalten Sie beim Landratsamt Ludwigsburg (Geschäftsteil 408, Finanzierung Kindertagesbetreuung) per E-Mail; telefonisch unter der Telefonnummer 07141 / 144-43251 oder im Internet.\nINFO\nKrippe (1-3 Jahre)\nDer Elternbeitrag basiert auf 11 Monatsbeiträgen, der Monat August bleibt beitragsfrei.\nHinzu kommen momentan 65,00 € Essensgeld.\nEine Änderung der Beiträge bzw. des Essensgeldes bleibt vorbehalten.\nBei der Bemessung des Beitrags werden alle Kinder im Haushalt bis zur Vollendung des 18. Lebensjahres berücksichtigt (auf Antrag auch alle kindergeldberechtigten Kinder).\nBei Eltern (Sorgeberechtigten), die Inhaber eines Kultur- und Freizeitpasses der Stadt Marbach am Neckar sind, ermäßigt sich der jeweilige Elternbeitrag bei Vorlage des Passes um die Hälfte.\nKindertagesstätte ab 3 Jahre\nDer Elternbeitrag basiert auf 11 Monatsbeiträgen, der Monat August bleibt beitragsfrei.\nBei der Ganztagesbetreuung zzgl. 75,00 € Essensgeld, sowie 2,00 € Getränkegeld.\nEine Änderung der Beiträge und des Essensgeldes bleibt vorbehalten.\nBei der Bemessung des Beitrags werden alle Kinder im Haushalt bis zur Vollendung des 18. Lebensjahres berücksichtigt (auf Antrag auch alle kindergeldberechtigten Kinder).\nBei Eltern (Sorgeberechtigten), die Inhaber eines Kultur- und Freizeitpasses der Stadt Marbach am Neckar sind, ermäßigt sich der jeweilige Elternbeitrag bei Vorlage des Passes um die Hälfte.\nSatzung_über_die_Erhebung_von_Benutzungsgebühren_für_die_Kindertageseinrichtungen_-_neu.pdf\nStadtverwaltung Marbach\nMarktstraße 23\n71672 Marbach am Neckar\nTelefon: 07144/102-0\nFax: 07144/102-300\nE-Mail: rathaus@schillerstadt-marbach.de\nÖffnungszeiten & Sprechzeiten - Rathaus >\nAnsprechpartner >\nJobs >\nDienstleistungen >\nErklärung zur Barrierefreiheit >\nÖffentliche Bekanntmachungen >\nRatsinformationssystem >\nSchillerpost - Newsletter >\nBei uns daheim >\nAnfahrt\nKontakt\nBarrierefreiheit\nDatenschutz\nImpressum\nCookieeinstellungen",
+        "evidence": {
+          "source_id": "3ab38c80e1bd",
+          "locator": "PDF-/Textseite 1, Absatzblock 1",
+          "original": null
+        }
+      }
+    ]
+  }
+}

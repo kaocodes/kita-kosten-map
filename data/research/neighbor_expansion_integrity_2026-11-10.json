@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-10T15:01:13.435281+00:00",
+  "checked_at": "2026-11-10T15:59:05.831312+00:00",
   "municipalities": 33,
   "status_counts": {
     "available": 32,
@@ -11,5 +11,15 @@
   "failed_attempts": 3,
   "checksum_verification": "passed",
   "canonical_tariff_normalization": "completed_pending_calculation_review",
-  "production_activation": "not_performed"
+  "production_activation": "approved_for_publication",
+  "activated_municipality_ids": [
+    "aidlingen",
+    "asperg",
+    "deizisau",
+    "ehningen",
+    "holzgerlingen",
+    "marbach",
+    "moeglingen",
+    "tamm"
+  ]
 }

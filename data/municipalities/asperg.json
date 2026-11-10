@@ -1,0 +1,5652 @@
+{
+  "schema_version": "1.0",
+  "id": "asperg",
+  "name": "Asperg",
+  "reviewed_at": "2026-11-10",
+  "reference_date": "2026-11-10",
+  "scope": {
+    "included": [
+      "municipal"
+    ],
+    "other_providers": "only_with_explicit_source_evidence"
+  },
+  "family_basis": "under_18",
+  "family_evidence": {
+    "source_id": "c039257120e8",
+    "locator": "Familienbegriff und Fußnoten der Gebührenunterlagen",
+    "original": null
+  },
+  "supporting_source_ids": [
+    "c039257120e8",
+    "b67815bb6fad"
+  ],
+  "offers": [
+    {
+      "id": "asperg-offer-d2c234c1f59c",
+      "original_label": "VÖ6",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2025-09-01",
+      "valid_to": "2026-12-31",
+      "original_price_valid_from": "2025-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 1800,
+      "weekday_minutes": [
+        360,
+        360,
+        360,
+        360,
+        360
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "c039257120e8",
+        "locator": "§ 5 Abs. 6 a–e, Spalte ab 01.09.2025",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "c039257120e8",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "c039257120e8",
+        "locator": "§ 5 Abs. 6 a–e, Spalte ab 01.09.2025",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "asperg-offer-84d70360b9df",
+      "original_label": "GT7,5",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2025-09-01",
+      "valid_to": "2026-12-31",
+      "original_price_valid_from": "2025-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2250,
+      "weekday_minutes": [
+        450,
+        450,
+        450,
+        450,
+        450
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "c039257120e8",
+        "locator": "§ 5 Abs. 6 a–e, Spalte ab 01.09.2025",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "c039257120e8",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "c039257120e8",
+        "locator": "§ 5 Abs. 6 a–e, Spalte ab 01.09.2025",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "asperg-offer-e274df5142ef",
+      "original_label": "GT9,5",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2025-09-01",
+      "valid_to": "2026-12-31",
+      "original_price_valid_from": "2025-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2850,
+      "weekday_minutes": [
+        570,
+        570,
+        570,
+        570,
+        570
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "c039257120e8",
+        "locator": "§ 5 Abs. 6 a–e, Spalte ab 01.09.2025",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "c039257120e8",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "c039257120e8",
+        "locator": "§ 5 Abs. 6 a–e, Spalte ab 01.09.2025",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "asperg-offer-30b245bd860f",
+      "original_label": "GT7,5",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2025-09-01",
+      "valid_to": "2026-12-31",
+      "original_price_valid_from": "2025-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2250,
+      "weekday_minutes": [
+        450,
+        450,
+        450,
+        450,
+        450
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "c039257120e8",
+        "locator": "§ 5 Abs. 6 a–e, Spalte ab 01.09.2025",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "c039257120e8",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "c039257120e8",
+        "locator": "§ 5 Abs. 6 a–e, Spalte ab 01.09.2025",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "asperg-offer-0221355b15b0",
+      "original_label": "GT9,5",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2025-09-01",
+      "valid_to": "2026-12-31",
+      "original_price_valid_from": "2025-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2850,
+      "weekday_minutes": [
+        570,
+        570,
+        570,
+        570,
+        570
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "c039257120e8",
+        "locator": "§ 5 Abs. 6 a–e, Spalte ab 01.09.2025",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "c039257120e8",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "c039257120e8",
+        "locator": "§ 5 Abs. 6 a–e, Spalte ab 01.09.2025",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "asperg-offer-61b64a9fe0c3",
+      "original_label": "GT7,5 je Betreuungstag/Woche",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2025-09-01",
+      "valid_to": "2026-12-31",
+      "original_price_valid_from": "2025-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 450,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "c039257120e8",
+        "locator": "§ 5 Abs. 6 f–g, tageweise U3-Beiträge",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "c039257120e8",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "c039257120e8",
+        "locator": "§ 5 Abs. 6 f–g, tageweise U3-Beiträge",
+        "original": null
+      },
+      "formula": null,
+      "days_per_week": 1
+    },
+    {
+      "id": "asperg-offer-b6cdb381f82f",
+      "original_label": "GT9,5 je Betreuungstag/Woche",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2025-09-01",
+      "valid_to": "2026-12-31",
+      "original_price_valid_from": "2025-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 570,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "c039257120e8",
+        "locator": "§ 5 Abs. 6 f–g, tageweise U3-Beiträge",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "c039257120e8",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "c039257120e8",
+        "locator": "§ 5 Abs. 6 f–g, tageweise U3-Beiträge",
+        "original": null
+      },
+      "formula": null,
+      "days_per_week": 1
+    },
+    {
+      "id": "asperg-offer-e348cc1c7526",
+      "original_label": "VÖ6 an 5 Tagen",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2027-01-01",
+      "valid_to": "2027-08-31",
+      "original_price_valid_from": "2027-01-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 1800,
+      "weekday_minutes": [
+        360,
+        360,
+        360,
+        360,
+        360
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 a, ab 2027-01-01",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "c039257120e8",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 a, ab 2027-01-01",
+        "original": null
+      },
+      "formula": null,
+      "days_per_week": 5
+    },
+    {
+      "id": "asperg-offer-2c8a89ee55f6",
+      "original_label": "VÖ6 an 5 Tagen",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2027-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2027-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 1800,
+      "weekday_minutes": [
+        360,
+        360,
+        360,
+        360,
+        360
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 a, ab 2027-09-01",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "c039257120e8",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 a, ab 2027-09-01",
+        "original": null
+      },
+      "formula": null,
+      "days_per_week": 5
+    },
+    {
+      "id": "asperg-offer-648ef9772d94",
+      "original_label": "GT7,5 an 5 Tagen",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2027-01-01",
+      "valid_to": "2027-08-31",
+      "original_price_valid_from": "2027-01-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2250,
+      "weekday_minutes": [
+        450,
+        450,
+        450,
+        450,
+        450
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 b, ab 2027-01-01",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "c039257120e8",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 b, ab 2027-01-01",
+        "original": null
+      },
+      "formula": null,
+      "days_per_week": 5
+    },
+    {
+      "id": "asperg-offer-e903b9c99653",
+      "original_label": "GT7,5 an 5 Tagen",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2027-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2027-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2250,
+      "weekday_minutes": [
+        450,
+        450,
+        450,
+        450,
+        450
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 b, ab 2027-09-01",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "c039257120e8",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 b, ab 2027-09-01",
+        "original": null
+      },
+      "formula": null,
+      "days_per_week": 5
+    },
+    {
+      "id": "asperg-offer-0ceae519cbe2",
+      "original_label": "GT9,5 an 5 Tagen",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2027-01-01",
+      "valid_to": "2027-08-31",
+      "original_price_valid_from": "2027-01-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2850,
+      "weekday_minutes": [
+        570,
+        570,
+        570,
+        570,
+        570
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 c, ab 2027-01-01",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "c039257120e8",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 c, ab 2027-01-01",
+        "original": null
+      },
+      "formula": null,
+      "days_per_week": 5
+    },
+    {
+      "id": "asperg-offer-1dc41ac409e7",
+      "original_label": "GT9,5 an 5 Tagen",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2027-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2027-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2850,
+      "weekday_minutes": [
+        570,
+        570,
+        570,
+        570,
+        570
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 c, ab 2027-09-01",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "c039257120e8",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 c, ab 2027-09-01",
+        "original": null
+      },
+      "formula": null,
+      "days_per_week": 5
+    },
+    {
+      "id": "asperg-offer-1ca989d7504d",
+      "original_label": "VÖ6 an 5 Tagen",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2027-01-01",
+      "valid_to": "2027-08-31",
+      "original_price_valid_from": "2027-01-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 1800,
+      "weekday_minutes": [
+        360,
+        360,
+        360,
+        360,
+        360
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 d, ab 2027-01-01",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "c039257120e8",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 d, ab 2027-01-01",
+        "original": null
+      },
+      "formula": null,
+      "days_per_week": 5
+    },
+    {
+      "id": "asperg-offer-4be22ba2124d",
+      "original_label": "VÖ6 an 5 Tagen",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2027-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2027-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 1800,
+      "weekday_minutes": [
+        360,
+        360,
+        360,
+        360,
+        360
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 d, ab 2027-09-01",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "c039257120e8",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 d, ab 2027-09-01",
+        "original": null
+      },
+      "formula": null,
+      "days_per_week": 5
+    },
+    {
+      "id": "asperg-offer-8fdb97ecb7cf",
+      "original_label": "VÖ6 an 4 Tagen",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2027-01-01",
+      "valid_to": "2027-08-31",
+      "original_price_valid_from": "2027-01-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 1440,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 e, ab 2027-01-01",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "c039257120e8",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 e, ab 2027-01-01",
+        "original": null
+      },
+      "formula": null,
+      "days_per_week": 4
+    },
+    {
+      "id": "asperg-offer-bbae14fad720",
+      "original_label": "VÖ6 an 4 Tagen",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2027-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2027-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 1440,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 e, ab 2027-09-01",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "c039257120e8",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 e, ab 2027-09-01",
+        "original": null
+      },
+      "formula": null,
+      "days_per_week": 4
+    },
+    {
+      "id": "asperg-offer-afb21658f904",
+      "original_label": "VÖ6 an 3 Tagen",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2027-01-01",
+      "valid_to": "2027-08-31",
+      "original_price_valid_from": "2027-01-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 1080,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 f, ab 2027-01-01",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "c039257120e8",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 f, ab 2027-01-01",
+        "original": null
+      },
+      "formula": null,
+      "days_per_week": 3
+    },
+    {
+      "id": "asperg-offer-73d2eec049cd",
+      "original_label": "VÖ6 an 3 Tagen",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2027-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2027-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 1080,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 f, ab 2027-09-01",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "c039257120e8",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 f, ab 2027-09-01",
+        "original": null
+      },
+      "formula": null,
+      "days_per_week": 3
+    },
+    {
+      "id": "asperg-offer-c2da9fc66a24",
+      "original_label": "VÖ6 an 2 Tagen",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2027-01-01",
+      "valid_to": "2027-08-31",
+      "original_price_valid_from": "2027-01-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 720,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 g, ab 2027-01-01",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "c039257120e8",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 g, ab 2027-01-01",
+        "original": null
+      },
+      "formula": null,
+      "days_per_week": 2
+    },
+    {
+      "id": "asperg-offer-4e1e808f90a4",
+      "original_label": "VÖ6 an 2 Tagen",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2027-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2027-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 720,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 g, ab 2027-09-01",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "c039257120e8",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 g, ab 2027-09-01",
+        "original": null
+      },
+      "formula": null,
+      "days_per_week": 2
+    },
+    {
+      "id": "asperg-offer-f7a4ddea9dda",
+      "original_label": "GT7,5 an 5 Tagen",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2027-01-01",
+      "valid_to": "2027-08-31",
+      "original_price_valid_from": "2027-01-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2250,
+      "weekday_minutes": [
+        450,
+        450,
+        450,
+        450,
+        450
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 h, ab 2027-01-01",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "c039257120e8",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 h, ab 2027-01-01",
+        "original": null
+      },
+      "formula": null,
+      "days_per_week": 5
+    },
+    {
+      "id": "asperg-offer-01b83f07ebdc",
+      "original_label": "GT7,5 an 5 Tagen",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2027-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2027-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2250,
+      "weekday_minutes": [
+        450,
+        450,
+        450,
+        450,
+        450
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 h, ab 2027-09-01",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "c039257120e8",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 h, ab 2027-09-01",
+        "original": null
+      },
+      "formula": null,
+      "days_per_week": 5
+    },
+    {
+      "id": "asperg-offer-3da61ec5e4a1",
+      "original_label": "GT7,5 an 4 Tagen",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2027-01-01",
+      "valid_to": "2027-08-31",
+      "original_price_valid_from": "2027-01-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 1800,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 i, ab 2027-01-01",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "c039257120e8",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 i, ab 2027-01-01",
+        "original": null
+      },
+      "formula": null,
+      "days_per_week": 4
+    },
+    {
+      "id": "asperg-offer-44516b9d8aab",
+      "original_label": "GT7,5 an 4 Tagen",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2027-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2027-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 1800,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 i, ab 2027-09-01",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "c039257120e8",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 i, ab 2027-09-01",
+        "original": null
+      },
+      "formula": null,
+      "days_per_week": 4
+    },
+    {
+      "id": "asperg-offer-6bbdcbbcd870",
+      "original_label": "GT7,5 an 3 Tagen",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2027-01-01",
+      "valid_to": "2027-08-31",
+      "original_price_valid_from": "2027-01-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 1350,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 j, ab 2027-01-01",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "c039257120e8",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 j, ab 2027-01-01",
+        "original": null
+      },
+      "formula": null,
+      "days_per_week": 3
+    },
+    {
+      "id": "asperg-offer-905de1d13e7a",
+      "original_label": "GT7,5 an 3 Tagen",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2027-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2027-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 1350,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 j, ab 2027-09-01",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "c039257120e8",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 j, ab 2027-09-01",
+        "original": null
+      },
+      "formula": null,
+      "days_per_week": 3
+    },
+    {
+      "id": "asperg-offer-58fe1801904e",
+      "original_label": "GT7,5 an 2 Tagen",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2027-01-01",
+      "valid_to": "2027-08-31",
+      "original_price_valid_from": "2027-01-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 900,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 k, ab 2027-01-01",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "c039257120e8",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 k, ab 2027-01-01",
+        "original": null
+      },
+      "formula": null,
+      "days_per_week": 2
+    },
+    {
+      "id": "asperg-offer-9dbcb442b0cd",
+      "original_label": "GT7,5 an 2 Tagen",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2027-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2027-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 900,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 k, ab 2027-09-01",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "c039257120e8",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 k, ab 2027-09-01",
+        "original": null
+      },
+      "formula": null,
+      "days_per_week": 2
+    },
+    {
+      "id": "asperg-offer-0f33ff816e47",
+      "original_label": "GT9,5 an 5 Tagen",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2027-01-01",
+      "valid_to": "2027-08-31",
+      "original_price_valid_from": "2027-01-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2850,
+      "weekday_minutes": [
+        570,
+        570,
+        570,
+        570,
+        570
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 l, ab 2027-01-01",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "c039257120e8",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 l, ab 2027-01-01",
+        "original": null
+      },
+      "formula": null,
+      "days_per_week": 5
+    },
+    {
+      "id": "asperg-offer-65d51a1665f1",
+      "original_label": "GT9,5 an 5 Tagen",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2027-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2027-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2850,
+      "weekday_minutes": [
+        570,
+        570,
+        570,
+        570,
+        570
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 l, ab 2027-09-01",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "c039257120e8",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 l, ab 2027-09-01",
+        "original": null
+      },
+      "formula": null,
+      "days_per_week": 5
+    },
+    {
+      "id": "asperg-offer-1ad4823c193e",
+      "original_label": "GT9,5 an 4 Tagen",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2027-01-01",
+      "valid_to": "2027-08-31",
+      "original_price_valid_from": "2027-01-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2280,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 m, ab 2027-01-01",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "c039257120e8",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 m, ab 2027-01-01",
+        "original": null
+      },
+      "formula": null,
+      "days_per_week": 4
+    },
+    {
+      "id": "asperg-offer-a253f59ff1fb",
+      "original_label": "GT9,5 an 4 Tagen",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2027-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2027-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2280,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 m, ab 2027-09-01",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "c039257120e8",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 m, ab 2027-09-01",
+        "original": null
+      },
+      "formula": null,
+      "days_per_week": 4
+    },
+    {
+      "id": "asperg-offer-09386e4bb97f",
+      "original_label": "GT9,5 an 3 Tagen",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2027-01-01",
+      "valid_to": "2027-08-31",
+      "original_price_valid_from": "2027-01-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 1710,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 n, ab 2027-01-01",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "c039257120e8",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 n, ab 2027-01-01",
+        "original": null
+      },
+      "formula": null,
+      "days_per_week": 3
+    },
+    {
+      "id": "asperg-offer-063e9d4048ca",
+      "original_label": "GT9,5 an 3 Tagen",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2027-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2027-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 1710,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 n, ab 2027-09-01",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "c039257120e8",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 n, ab 2027-09-01",
+        "original": null
+      },
+      "formula": null,
+      "days_per_week": 3
+    },
+    {
+      "id": "asperg-offer-9e79d8879137",
+      "original_label": "GT9,5 an 2 Tagen",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2027-01-01",
+      "valid_to": "2027-08-31",
+      "original_price_valid_from": "2027-01-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 1140,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 o, ab 2027-01-01",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "c039257120e8",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 o, ab 2027-01-01",
+        "original": null
+      },
+      "formula": null,
+      "days_per_week": 2
+    },
+    {
+      "id": "asperg-offer-471dab3661f6",
+      "original_label": "GT9,5 an 2 Tagen",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2027-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2027-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 1140,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 o, ab 2027-09-01",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "c039257120e8",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 o, ab 2027-09-01",
+        "original": null
+      },
+      "formula": null,
+      "days_per_week": 2
+    }
+  ],
+  "prices": [
+    {
+      "id": "asperg-price-a9a65363b581",
+      "offer_id": "asperg-offer-d2c234c1f59c",
+      "amount_cents": 17500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c039257120e8",
+        "locator": "§ 5 Abs. 6 a–e, Spalte ab 01.09.2025",
+        "original": 175
+      }
+    },
+    {
+      "id": "asperg-price-090f4b5f8d80",
+      "offer_id": "asperg-offer-d2c234c1f59c",
+      "amount_cents": 13550,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c039257120e8",
+        "locator": "§ 5 Abs. 6 a–e, Spalte ab 01.09.2025",
+        "original": "135,50"
+      }
+    },
+    {
+      "id": "asperg-price-a9cfba32f940",
+      "offer_id": "asperg-offer-d2c234c1f59c",
+      "amount_cents": 9250,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c039257120e8",
+        "locator": "§ 5 Abs. 6 a–e, Spalte ab 01.09.2025",
+        "original": "92,50"
+      }
+    },
+    {
+      "id": "asperg-price-fc007845b806",
+      "offer_id": "asperg-offer-d2c234c1f59c",
+      "amount_cents": 4000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c039257120e8",
+        "locator": "§ 5 Abs. 6 a–e, Spalte ab 01.09.2025",
+        "original": 40
+      }
+    },
+    {
+      "id": "asperg-price-f61e3f167f4f",
+      "offer_id": "asperg-offer-84d70360b9df",
+      "amount_cents": 24800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c039257120e8",
+        "locator": "§ 5 Abs. 6 a–e, Spalte ab 01.09.2025",
+        "original": 248
+      }
+    },
+    {
+      "id": "asperg-price-5016dad958d5",
+      "offer_id": "asperg-offer-84d70360b9df",
+      "amount_cents": 20650,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c039257120e8",
+        "locator": "§ 5 Abs. 6 a–e, Spalte ab 01.09.2025",
+        "original": "206,50"
+      }
+    },
+    {
+      "id": "asperg-price-5944b7364946",
+      "offer_id": "asperg-offer-84d70360b9df",
+      "amount_cents": 16550,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c039257120e8",
+        "locator": "§ 5 Abs. 6 a–e, Spalte ab 01.09.2025",
+        "original": "165,50"
+      }
+    },
+    {
+      "id": "asperg-price-39e99bc4ba49",
+      "offer_id": "asperg-offer-84d70360b9df",
+      "amount_cents": 11000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c039257120e8",
+        "locator": "§ 5 Abs. 6 a–e, Spalte ab 01.09.2025",
+        "original": 110
+      }
+    },
+    {
+      "id": "asperg-price-bf576cf9a8c5",
+      "offer_id": "asperg-offer-e274df5142ef",
+      "amount_cents": 32000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c039257120e8",
+        "locator": "§ 5 Abs. 6 a–e, Spalte ab 01.09.2025",
+        "original": 320
+      }
+    },
+    {
+      "id": "asperg-price-64127fda8e31",
+      "offer_id": "asperg-offer-e274df5142ef",
+      "amount_cents": 27650,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c039257120e8",
+        "locator": "§ 5 Abs. 6 a–e, Spalte ab 01.09.2025",
+        "original": "276,50"
+      }
+    },
+    {
+      "id": "asperg-price-c74390899c44",
+      "offer_id": "asperg-offer-e274df5142ef",
+      "amount_cents": 23800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c039257120e8",
+        "locator": "§ 5 Abs. 6 a–e, Spalte ab 01.09.2025",
+        "original": 238
+      }
+    },
+    {
+      "id": "asperg-price-7627b981334c",
+      "offer_id": "asperg-offer-e274df5142ef",
+      "amount_cents": 18000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c039257120e8",
+        "locator": "§ 5 Abs. 6 a–e, Spalte ab 01.09.2025",
+        "original": 180
+      }
+    },
+    {
+      "id": "asperg-price-f70bf04b2793",
+      "offer_id": "asperg-offer-30b245bd860f",
+      "amount_cents": 37350,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c039257120e8",
+        "locator": "§ 5 Abs. 6 a–e, Spalte ab 01.09.2025",
+        "original": "373,50"
+      }
+    },
+    {
+      "id": "asperg-price-ff64831f13b2",
+      "offer_id": "asperg-offer-30b245bd860f",
+      "amount_cents": 33650,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c039257120e8",
+        "locator": "§ 5 Abs. 6 a–e, Spalte ab 01.09.2025",
+        "original": "336,50"
+      }
+    },
+    {
+      "id": "asperg-price-c01c5ff4dfc5",
+      "offer_id": "asperg-offer-30b245bd860f",
+      "amount_cents": 29900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c039257120e8",
+        "locator": "§ 5 Abs. 6 a–e, Spalte ab 01.09.2025",
+        "original": 299
+      }
+    },
+    {
+      "id": "asperg-price-14a99c38f43c",
+      "offer_id": "asperg-offer-30b245bd860f",
+      "amount_cents": 26650,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c039257120e8",
+        "locator": "§ 5 Abs. 6 a–e, Spalte ab 01.09.2025",
+        "original": "266,50"
+      }
+    },
+    {
+      "id": "asperg-price-b0d7995c74e2",
+      "offer_id": "asperg-offer-0221355b15b0",
+      "amount_cents": 47300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c039257120e8",
+        "locator": "§ 5 Abs. 6 a–e, Spalte ab 01.09.2025",
+        "original": 473
+      }
+    },
+    {
+      "id": "asperg-price-58bbcef07f38",
+      "offer_id": "asperg-offer-0221355b15b0",
+      "amount_cents": 42600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c039257120e8",
+        "locator": "§ 5 Abs. 6 a–e, Spalte ab 01.09.2025",
+        "original": 426
+      }
+    },
+    {
+      "id": "asperg-price-53affa8b421b",
+      "offer_id": "asperg-offer-0221355b15b0",
+      "amount_cents": 37900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c039257120e8",
+        "locator": "§ 5 Abs. 6 a–e, Spalte ab 01.09.2025",
+        "original": 379
+      }
+    },
+    {
+      "id": "asperg-price-d56552474dd4",
+      "offer_id": "asperg-offer-0221355b15b0",
+      "amount_cents": 33650,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c039257120e8",
+        "locator": "§ 5 Abs. 6 a–e, Spalte ab 01.09.2025",
+        "original": "336,50"
+      }
+    },
+    {
+      "id": "asperg-price-4d67cc143bce",
+      "offer_id": "asperg-offer-61b64a9fe0c3",
+      "amount_cents": 8550,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c039257120e8",
+        "locator": "§ 5 Abs. 6 f–g, tageweise U3-Beiträge",
+        "original": "85,50"
+      }
+    },
+    {
+      "id": "asperg-price-03f1ca1e16cf",
+      "offer_id": "asperg-offer-61b64a9fe0c3",
+      "amount_cents": 7800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c039257120e8",
+        "locator": "§ 5 Abs. 6 f–g, tageweise U3-Beiträge",
+        "original": 78
+      }
+    },
+    {
+      "id": "asperg-price-a28753eabcad",
+      "offer_id": "asperg-offer-61b64a9fe0c3",
+      "amount_cents": 7150,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c039257120e8",
+        "locator": "§ 5 Abs. 6 f–g, tageweise U3-Beiträge",
+        "original": "71,50"
+      }
+    },
+    {
+      "id": "asperg-price-98183340853a",
+      "offer_id": "asperg-offer-61b64a9fe0c3",
+      "amount_cents": 6350,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c039257120e8",
+        "locator": "§ 5 Abs. 6 f–g, tageweise U3-Beiträge",
+        "original": "63,50"
+      }
+    },
+    {
+      "id": "asperg-price-3d9679d8b7fc",
+      "offer_id": "asperg-offer-b6cdb381f82f",
+      "amount_cents": 10700,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c039257120e8",
+        "locator": "§ 5 Abs. 6 f–g, tageweise U3-Beiträge",
+        "original": 107
+      }
+    },
+    {
+      "id": "asperg-price-8e47d35dd2fb",
+      "offer_id": "asperg-offer-b6cdb381f82f",
+      "amount_cents": 9800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c039257120e8",
+        "locator": "§ 5 Abs. 6 f–g, tageweise U3-Beiträge",
+        "original": 98
+      }
+    },
+    {
+      "id": "asperg-price-9a64f7432481",
+      "offer_id": "asperg-offer-b6cdb381f82f",
+      "amount_cents": 9000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c039257120e8",
+        "locator": "§ 5 Abs. 6 f–g, tageweise U3-Beiträge",
+        "original": 90
+      }
+    },
+    {
+      "id": "asperg-price-bee1a97c35f9",
+      "offer_id": "asperg-offer-b6cdb381f82f",
+      "amount_cents": 8000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c039257120e8",
+        "locator": "§ 5 Abs. 6 f–g, tageweise U3-Beiträge",
+        "original": 80
+      }
+    },
+    {
+      "id": "asperg-price-d085e9cdb6f3",
+      "offer_id": "asperg-offer-e348cc1c7526",
+      "amount_cents": 19600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 a, ab 2027-01-01",
+        "original": 19600
+      }
+    },
+    {
+      "id": "asperg-price-1a23063d244b",
+      "offer_id": "asperg-offer-e348cc1c7526",
+      "amount_cents": 15150,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 a, ab 2027-01-01",
+        "original": 15150
+      }
+    },
+    {
+      "id": "asperg-price-2e31f6ed30f4",
+      "offer_id": "asperg-offer-e348cc1c7526",
+      "amount_cents": 10400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 a, ab 2027-01-01",
+        "original": 10400
+      }
+    },
+    {
+      "id": "asperg-price-6a1f2e3336e5",
+      "offer_id": "asperg-offer-e348cc1c7526",
+      "amount_cents": 3900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 a, ab 2027-01-01",
+        "original": 3900
+      }
+    },
+    {
+      "id": "asperg-price-8166ab1649b8",
+      "offer_id": "asperg-offer-2c8a89ee55f6",
+      "amount_cents": 21650,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 a, ab 2027-09-01",
+        "original": 21650
+      }
+    },
+    {
+      "id": "asperg-price-8e3323c5824e",
+      "offer_id": "asperg-offer-2c8a89ee55f6",
+      "amount_cents": 16750,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 a, ab 2027-09-01",
+        "original": 16750
+      }
+    },
+    {
+      "id": "asperg-price-6ceb694d87fd",
+      "offer_id": "asperg-offer-2c8a89ee55f6",
+      "amount_cents": 11500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 a, ab 2027-09-01",
+        "original": 11500
+      }
+    },
+    {
+      "id": "asperg-price-f7cc7b155b2f",
+      "offer_id": "asperg-offer-2c8a89ee55f6",
+      "amount_cents": 3750,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 a, ab 2027-09-01",
+        "original": 3750
+      }
+    },
+    {
+      "id": "asperg-price-e83005892daa",
+      "offer_id": "asperg-offer-648ef9772d94",
+      "amount_cents": 28000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 b, ab 2027-01-01",
+        "original": 28000
+      }
+    },
+    {
+      "id": "asperg-price-f68cbe283965",
+      "offer_id": "asperg-offer-648ef9772d94",
+      "amount_cents": 23350,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 b, ab 2027-01-01",
+        "original": 23350
+      }
+    },
+    {
+      "id": "asperg-price-a6609c54f9d3",
+      "offer_id": "asperg-offer-648ef9772d94",
+      "amount_cents": 18700,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 b, ab 2027-01-01",
+        "original": 18700
+      }
+    },
+    {
+      "id": "asperg-price-64300d14d11d",
+      "offer_id": "asperg-offer-648ef9772d94",
+      "amount_cents": 12450,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 b, ab 2027-01-01",
+        "original": 12450
+      }
+    },
+    {
+      "id": "asperg-price-c6fc4aeaf008",
+      "offer_id": "asperg-offer-e903b9c99653",
+      "amount_cents": 31150,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 b, ab 2027-09-01",
+        "original": 31150
+      }
+    },
+    {
+      "id": "asperg-price-f135addc430f",
+      "offer_id": "asperg-offer-e903b9c99653",
+      "amount_cents": 26000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 b, ab 2027-09-01",
+        "original": 26000
+      }
+    },
+    {
+      "id": "asperg-price-adf8d99b129c",
+      "offer_id": "asperg-offer-e903b9c99653",
+      "amount_cents": 20850,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 b, ab 2027-09-01",
+        "original": 20850
+      }
+    },
+    {
+      "id": "asperg-price-cb50b271d12a",
+      "offer_id": "asperg-offer-e903b9c99653",
+      "amount_cents": 13850,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 b, ab 2027-09-01",
+        "original": 13850
+      }
+    },
+    {
+      "id": "asperg-price-86fa1daf381e",
+      "offer_id": "asperg-offer-0ceae519cbe2",
+      "amount_cents": 34600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 c, ab 2027-01-01",
+        "original": 34600
+      }
+    },
+    {
+      "id": "asperg-price-00bfb1066c31",
+      "offer_id": "asperg-offer-0ceae519cbe2",
+      "amount_cents": 29350,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 c, ab 2027-01-01",
+        "original": 29350
+      }
+    },
+    {
+      "id": "asperg-price-898161951e72",
+      "offer_id": "asperg-offer-0ceae519cbe2",
+      "amount_cents": 24350,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 c, ab 2027-01-01",
+        "original": 24350
+      }
+    },
+    {
+      "id": "asperg-price-5ee95ef4fe97",
+      "offer_id": "asperg-offer-0ceae519cbe2",
+      "amount_cents": 17300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 c, ab 2027-01-01",
+        "original": 17300
+      }
+    },
+    {
+      "id": "asperg-price-e7476653504b",
+      "offer_id": "asperg-offer-1dc41ac409e7",
+      "amount_cents": 37150,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 c, ab 2027-09-01",
+        "original": 37150
+      }
+    },
+    {
+      "id": "asperg-price-d2060c0c90e4",
+      "offer_id": "asperg-offer-1dc41ac409e7",
+      "amount_cents": 31050,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 c, ab 2027-09-01",
+        "original": 31050
+      }
+    },
+    {
+      "id": "asperg-price-f85d275f5f05",
+      "offer_id": "asperg-offer-1dc41ac409e7",
+      "amount_cents": 24900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 c, ab 2027-09-01",
+        "original": 24900
+      }
+    },
+    {
+      "id": "asperg-price-6de1ae1fa714",
+      "offer_id": "asperg-offer-1dc41ac409e7",
+      "amount_cents": 16550,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 c, ab 2027-09-01",
+        "original": 16550
+      }
+    },
+    {
+      "id": "asperg-price-86287c018baf",
+      "offer_id": "asperg-offer-1ca989d7504d",
+      "amount_cents": 33000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 d, ab 2027-01-01",
+        "original": 33000
+      }
+    },
+    {
+      "id": "asperg-price-92565f293dd5",
+      "offer_id": "asperg-offer-1ca989d7504d",
+      "amount_cents": 27750,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 d, ab 2027-01-01",
+        "original": 27750
+      }
+    },
+    {
+      "id": "asperg-price-07fc0aa7783b",
+      "offer_id": "asperg-offer-1ca989d7504d",
+      "amount_cents": 22300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 d, ab 2027-01-01",
+        "original": 22300
+      }
+    },
+    {
+      "id": "asperg-price-377fe7566d4c",
+      "offer_id": "asperg-offer-1ca989d7504d",
+      "amount_cents": 14800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 d, ab 2027-01-01",
+        "original": 14800
+      }
+    },
+    {
+      "id": "asperg-price-e52b8c23c765",
+      "offer_id": "asperg-offer-4be22ba2124d",
+      "amount_cents": 43100,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 d, ab 2027-09-01",
+        "original": 43100
+      }
+    },
+    {
+      "id": "asperg-price-2000cdec860b",
+      "offer_id": "asperg-offer-4be22ba2124d",
+      "amount_cents": 36000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 d, ab 2027-09-01",
+        "original": 36000
+      }
+    },
+    {
+      "id": "asperg-price-91e2d1112cb3",
+      "offer_id": "asperg-offer-4be22ba2124d",
+      "amount_cents": 28900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 d, ab 2027-09-01",
+        "original": 28900
+      }
+    },
+    {
+      "id": "asperg-price-4243830a73e9",
+      "offer_id": "asperg-offer-4be22ba2124d",
+      "amount_cents": 19200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 d, ab 2027-09-01",
+        "original": 19200
+      }
+    },
+    {
+      "id": "asperg-price-4f26d5e4a4cb",
+      "offer_id": "asperg-offer-8fdb97ecb7cf",
+      "amount_cents": 27900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 e, ab 2027-01-01",
+        "original": 27900
+      }
+    },
+    {
+      "id": "asperg-price-728504d4a9a4",
+      "offer_id": "asperg-offer-8fdb97ecb7cf",
+      "amount_cents": 23300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 e, ab 2027-01-01",
+        "original": 23300
+      }
+    },
+    {
+      "id": "asperg-price-0e6f481bb955",
+      "offer_id": "asperg-offer-8fdb97ecb7cf",
+      "amount_cents": 18700,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 e, ab 2027-01-01",
+        "original": 18700
+      }
+    },
+    {
+      "id": "asperg-price-bd820f7dd1ab",
+      "offer_id": "asperg-offer-8fdb97ecb7cf",
+      "amount_cents": 12400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 e, ab 2027-01-01",
+        "original": 12400
+      }
+    },
+    {
+      "id": "asperg-price-e02f0cdea206",
+      "offer_id": "asperg-offer-bbae14fad720",
+      "amount_cents": 36200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 e, ab 2027-09-01",
+        "original": 36200
+      }
+    },
+    {
+      "id": "asperg-price-9c7824e3b8da",
+      "offer_id": "asperg-offer-bbae14fad720",
+      "amount_cents": 30250,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 e, ab 2027-09-01",
+        "original": 30250
+      }
+    },
+    {
+      "id": "asperg-price-4302a02aa86a",
+      "offer_id": "asperg-offer-bbae14fad720",
+      "amount_cents": 24250,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 e, ab 2027-09-01",
+        "original": 24250
+      }
+    },
+    {
+      "id": "asperg-price-58d8d1b48bda",
+      "offer_id": "asperg-offer-bbae14fad720",
+      "amount_cents": 16100,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 e, ab 2027-09-01",
+        "original": 16100
+      }
+    },
+    {
+      "id": "asperg-price-23f4eeffe554",
+      "offer_id": "asperg-offer-afb21658f904",
+      "amount_cents": 22600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 f, ab 2027-01-01",
+        "original": 22600
+      }
+    },
+    {
+      "id": "asperg-price-7e1f2a958a25",
+      "offer_id": "asperg-offer-afb21658f904",
+      "amount_cents": 18900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 f, ab 2027-01-01",
+        "original": 18900
+      }
+    },
+    {
+      "id": "asperg-price-0642d087d17b",
+      "offer_id": "asperg-offer-afb21658f904",
+      "amount_cents": 15150,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 f, ab 2027-01-01",
+        "original": 15150
+      }
+    },
+    {
+      "id": "asperg-price-f6b8e040d008",
+      "offer_id": "asperg-offer-afb21658f904",
+      "amount_cents": 10050,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 f, ab 2027-01-01",
+        "original": 10050
+      }
+    },
+    {
+      "id": "asperg-price-b6d6e97333fd",
+      "offer_id": "asperg-offer-73d2eec049cd",
+      "amount_cents": 29300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 f, ab 2027-09-01",
+        "original": 29300
+      }
+    },
+    {
+      "id": "asperg-price-4ad4926a4e5a",
+      "offer_id": "asperg-offer-73d2eec049cd",
+      "amount_cents": 24500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 f, ab 2027-09-01",
+        "original": 24500
+      }
+    },
+    {
+      "id": "asperg-price-d68f8b04eb67",
+      "offer_id": "asperg-offer-73d2eec049cd",
+      "amount_cents": 19650,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 f, ab 2027-09-01",
+        "original": 19650
+      }
+    },
+    {
+      "id": "asperg-price-7791160b45ce",
+      "offer_id": "asperg-offer-73d2eec049cd",
+      "amount_cents": 13050,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 f, ab 2027-09-01",
+        "original": 13050
+      }
+    },
+    {
+      "id": "asperg-price-36ce7c5c3d2f",
+      "offer_id": "asperg-offer-c2da9fc66a24",
+      "amount_cents": 18050,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 g, ab 2027-01-01",
+        "original": 18050
+      }
+    },
+    {
+      "id": "asperg-price-a4c89bd8f61f",
+      "offer_id": "asperg-offer-c2da9fc66a24",
+      "amount_cents": 15100,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 g, ab 2027-01-01",
+        "original": 15100
+      }
+    },
+    {
+      "id": "asperg-price-578592730127",
+      "offer_id": "asperg-offer-c2da9fc66a24",
+      "amount_cents": 12100,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 g, ab 2027-01-01",
+        "original": 12100
+      }
+    },
+    {
+      "id": "asperg-price-746215dd9c5d",
+      "offer_id": "asperg-offer-c2da9fc66a24",
+      "amount_cents": 8050,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 g, ab 2027-01-01",
+        "original": 8050
+      }
+    },
+    {
+      "id": "asperg-price-b124707de886",
+      "offer_id": "asperg-offer-4e1e808f90a4",
+      "amount_cents": 23400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 g, ab 2027-09-01",
+        "original": 23400
+      }
+    },
+    {
+      "id": "asperg-price-e66905ed1cc0",
+      "offer_id": "asperg-offer-4e1e808f90a4",
+      "amount_cents": 19550,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 g, ab 2027-09-01",
+        "original": 19550
+      }
+    },
+    {
+      "id": "asperg-price-926ad9cf37fa",
+      "offer_id": "asperg-offer-4e1e808f90a4",
+      "amount_cents": 15700,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 g, ab 2027-09-01",
+        "original": 15700
+      }
+    },
+    {
+      "id": "asperg-price-182004c61a45",
+      "offer_id": "asperg-offer-4e1e808f90a4",
+      "amount_cents": 10400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 g, ab 2027-09-01",
+        "original": 10400
+      }
+    },
+    {
+      "id": "asperg-price-81842e465fbe",
+      "offer_id": "asperg-offer-f7a4ddea9dda",
+      "amount_cents": 44550,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 h, ab 2027-01-01",
+        "original": 44550
+      }
+    },
+    {
+      "id": "asperg-price-bcd92d654b87",
+      "offer_id": "asperg-offer-f7a4ddea9dda",
+      "amount_cents": 38450,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 h, ab 2027-01-01",
+        "original": 38450
+      }
+    },
+    {
+      "id": "asperg-price-1904c7118073",
+      "offer_id": "asperg-offer-f7a4ddea9dda",
+      "amount_cents": 32300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 h, ab 2027-01-01",
+        "original": 32300
+      }
+    },
+    {
+      "id": "asperg-price-4fd66a8a2d45",
+      "offer_id": "asperg-offer-f7a4ddea9dda",
+      "amount_cents": 24850,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 h, ab 2027-01-01",
+        "original": 24850
+      }
+    },
+    {
+      "id": "asperg-price-2b72fb196562",
+      "offer_id": "asperg-offer-01b83f07ebdc",
+      "amount_cents": 51750,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 h, ab 2027-09-01",
+        "original": 51750
+      }
+    },
+    {
+      "id": "asperg-price-77320ffb7256",
+      "offer_id": "asperg-offer-01b83f07ebdc",
+      "amount_cents": 43200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 h, ab 2027-09-01",
+        "original": 43200
+      }
+    },
+    {
+      "id": "asperg-price-bb663701f34c",
+      "offer_id": "asperg-offer-01b83f07ebdc",
+      "amount_cents": 34700,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 h, ab 2027-09-01",
+        "original": 34700
+      }
+    },
+    {
+      "id": "asperg-price-2896e1e2db2a",
+      "offer_id": "asperg-offer-01b83f07ebdc",
+      "amount_cents": 23050,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 h, ab 2027-09-01",
+        "original": 23050
+      }
+    },
+    {
+      "id": "asperg-price-9490376865c3",
+      "offer_id": "asperg-offer-3da61ec5e4a1",
+      "amount_cents": 38650,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 i, ab 2027-01-01",
+        "original": 38650
+      }
+    },
+    {
+      "id": "asperg-price-2713204f5488",
+      "offer_id": "asperg-offer-3da61ec5e4a1",
+      "amount_cents": 33600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 i, ab 2027-01-01",
+        "original": 33600
+      }
+    },
+    {
+      "id": "asperg-price-92c6c3162beb",
+      "offer_id": "asperg-offer-3da61ec5e4a1",
+      "amount_cents": 28750,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 i, ab 2027-01-01",
+        "original": 28750
+      }
+    },
+    {
+      "id": "asperg-price-26bae7b5c62d",
+      "offer_id": "asperg-offer-3da61ec5e4a1",
+      "amount_cents": 22300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 i, ab 2027-01-01",
+        "original": 22300
+      }
+    },
+    {
+      "id": "asperg-price-b2c4b7f95387",
+      "offer_id": "asperg-offer-44516b9d8aab",
+      "amount_cents": 43100,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 i, ab 2027-09-01",
+        "original": 43100
+      }
+    },
+    {
+      "id": "asperg-price-35d0e67c2ea2",
+      "offer_id": "asperg-offer-44516b9d8aab",
+      "amount_cents": 36000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 i, ab 2027-09-01",
+        "original": 36000
+      }
+    },
+    {
+      "id": "asperg-price-b7884a7d2844",
+      "offer_id": "asperg-offer-44516b9d8aab",
+      "amount_cents": 28900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 i, ab 2027-09-01",
+        "original": 28900
+      }
+    },
+    {
+      "id": "asperg-price-f87c0b36a54f",
+      "offer_id": "asperg-offer-44516b9d8aab",
+      "amount_cents": 19200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 i, ab 2027-09-01",
+        "original": 19200
+      }
+    },
+    {
+      "id": "asperg-price-d26d691ae2c9",
+      "offer_id": "asperg-offer-6bbdcbbcd870",
+      "amount_cents": 30050,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 j, ab 2027-01-01",
+        "original": 30050
+      }
+    },
+    {
+      "id": "asperg-price-d0039348f305",
+      "offer_id": "asperg-offer-6bbdcbbcd870",
+      "amount_cents": 26100,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 j, ab 2027-01-01",
+        "original": 26100
+      }
+    },
+    {
+      "id": "asperg-price-2b179645738f",
+      "offer_id": "asperg-offer-6bbdcbbcd870",
+      "amount_cents": 22300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 j, ab 2027-01-01",
+        "original": 22300
+      }
+    },
+    {
+      "id": "asperg-price-1b8e4076dfe6",
+      "offer_id": "asperg-offer-6bbdcbbcd870",
+      "amount_cents": 17200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 j, ab 2027-01-01",
+        "original": 17200
+      }
+    },
+    {
+      "id": "asperg-price-dfe74ee35a89",
+      "offer_id": "asperg-offer-905de1d13e7a",
+      "amount_cents": 34450,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 j, ab 2027-09-01",
+        "original": 34450
+      }
+    },
+    {
+      "id": "asperg-price-f1a47e741d7f",
+      "offer_id": "asperg-offer-905de1d13e7a",
+      "amount_cents": 28800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 j, ab 2027-09-01",
+        "original": 28800
+      }
+    },
+    {
+      "id": "asperg-price-d7be6a1e2312",
+      "offer_id": "asperg-offer-905de1d13e7a",
+      "amount_cents": 23100,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 j, ab 2027-09-01",
+        "original": 23100
+      }
+    },
+    {
+      "id": "asperg-price-0c47dc7ca4e8",
+      "offer_id": "asperg-offer-905de1d13e7a",
+      "amount_cents": 15350,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 j, ab 2027-09-01",
+        "original": 15350
+      }
+    },
+    {
+      "id": "asperg-price-ff25f63a73a2",
+      "offer_id": "asperg-offer-58fe1801904e",
+      "amount_cents": 21500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 k, ab 2027-01-01",
+        "original": 21500
+      }
+    },
+    {
+      "id": "asperg-price-b0f45221a5ee",
+      "offer_id": "asperg-offer-58fe1801904e",
+      "amount_cents": 18600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 k, ab 2027-01-01",
+        "original": 18600
+      }
+    },
+    {
+      "id": "asperg-price-669ae60c6b88",
+      "offer_id": "asperg-offer-58fe1801904e",
+      "amount_cents": 15800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 k, ab 2027-01-01",
+        "original": 15800
+      }
+    },
+    {
+      "id": "asperg-price-9ae4e7e56951",
+      "offer_id": "asperg-offer-58fe1801904e",
+      "amount_cents": 12100,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 k, ab 2027-01-01",
+        "original": 12100
+      }
+    },
+    {
+      "id": "asperg-price-5015a40925f5",
+      "offer_id": "asperg-offer-9dbcb442b0cd",
+      "amount_cents": 25850,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 k, ab 2027-09-01",
+        "original": 25850
+      }
+    },
+    {
+      "id": "asperg-price-474b430715b9",
+      "offer_id": "asperg-offer-9dbcb442b0cd",
+      "amount_cents": 21600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 k, ab 2027-09-01",
+        "original": 21600
+      }
+    },
+    {
+      "id": "asperg-price-25bffd02ff21",
+      "offer_id": "asperg-offer-9dbcb442b0cd",
+      "amount_cents": 17300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 k, ab 2027-09-01",
+        "original": 17300
+      }
+    },
+    {
+      "id": "asperg-price-5984b627460d",
+      "offer_id": "asperg-offer-9dbcb442b0cd",
+      "amount_cents": 11500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 k, ab 2027-09-01",
+        "original": 11500
+      }
+    },
+    {
+      "id": "asperg-price-ec46d05cfca3",
+      "offer_id": "asperg-offer-0f33ff816e47",
+      "amount_cents": 55300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 l, ab 2027-01-01",
+        "original": 55300
+      }
+    },
+    {
+      "id": "asperg-price-d5751fa7068b",
+      "offer_id": "asperg-offer-0f33ff816e47",
+      "amount_cents": 47700,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 l, ab 2027-01-01",
+        "original": 47700
+      }
+    },
+    {
+      "id": "asperg-price-a464f2635186",
+      "offer_id": "asperg-offer-0f33ff816e47",
+      "amount_cents": 40150,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 l, ab 2027-01-01",
+        "original": 40150
+      }
+    },
+    {
+      "id": "asperg-price-d5545c6c8cad",
+      "offer_id": "asperg-offer-0f33ff816e47",
+      "amount_cents": 30900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 l, ab 2027-01-01",
+        "original": 30900
+      }
+    },
+    {
+      "id": "asperg-price-2d10db4d00d6",
+      "offer_id": "asperg-offer-65d51a1665f1",
+      "amount_cents": 63250,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 l, ab 2027-09-01",
+        "original": 63250
+      }
+    },
+    {
+      "id": "asperg-price-d77e27b10280",
+      "offer_id": "asperg-offer-65d51a1665f1",
+      "amount_cents": 52800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 l, ab 2027-09-01",
+        "original": 52800
+      }
+    },
+    {
+      "id": "asperg-price-c115e02d1855",
+      "offer_id": "asperg-offer-65d51a1665f1",
+      "amount_cents": 42400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 l, ab 2027-09-01",
+        "original": 42400
+      }
+    },
+    {
+      "id": "asperg-price-e8847206b661",
+      "offer_id": "asperg-offer-65d51a1665f1",
+      "amount_cents": 28200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 l, ab 2027-09-01",
+        "original": 28200
+      }
+    },
+    {
+      "id": "asperg-price-c4d63a3fe3ab",
+      "offer_id": "asperg-offer-1ad4823c193e",
+      "amount_cents": 47550,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 m, ab 2027-01-01",
+        "original": 47550
+      }
+    },
+    {
+      "id": "asperg-price-78277291228a",
+      "offer_id": "asperg-offer-1ad4823c193e",
+      "amount_cents": 41450,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 m, ab 2027-01-01",
+        "original": 41450
+      }
+    },
+    {
+      "id": "asperg-price-68ccfc92f371",
+      "offer_id": "asperg-offer-1ad4823c193e",
+      "amount_cents": 35550,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 m, ab 2027-01-01",
+        "original": 35550
+      }
+    },
+    {
+      "id": "asperg-price-46111177c0bf",
+      "offer_id": "asperg-offer-1ad4823c193e",
+      "amount_cents": 27650,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 m, ab 2027-01-01",
+        "original": 27650
+      }
+    },
+    {
+      "id": "asperg-price-8eaf57038a12",
+      "offer_id": "asperg-offer-a253f59ff1fb",
+      "amount_cents": 52300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 m, ab 2027-09-01",
+        "original": 52300
+      }
+    },
+    {
+      "id": "asperg-price-d6a3329e6a6e",
+      "offer_id": "asperg-offer-a253f59ff1fb",
+      "amount_cents": 43700,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 m, ab 2027-09-01",
+        "original": 43700
+      }
+    },
+    {
+      "id": "asperg-price-4e95c08427de",
+      "offer_id": "asperg-offer-a253f59ff1fb",
+      "amount_cents": 35050,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 m, ab 2027-09-01",
+        "original": 35050
+      }
+    },
+    {
+      "id": "asperg-price-6f0e95744ef0",
+      "offer_id": "asperg-offer-a253f59ff1fb",
+      "amount_cents": 23300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 m, ab 2027-09-01",
+        "original": 23300
+      }
+    },
+    {
+      "id": "asperg-price-3a45c068653b",
+      "offer_id": "asperg-offer-09386e4bb97f",
+      "amount_cents": 36750,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 n, ab 2027-01-01",
+        "original": 36750
+      }
+    },
+    {
+      "id": "asperg-price-1cf0df332456",
+      "offer_id": "asperg-offer-09386e4bb97f",
+      "amount_cents": 32000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 n, ab 2027-01-01",
+        "original": 32000
+      }
+    },
+    {
+      "id": "asperg-price-30dd8d9c405e",
+      "offer_id": "asperg-offer-09386e4bb97f",
+      "amount_cents": 27400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 n, ab 2027-01-01",
+        "original": 27400
+      }
+    },
+    {
+      "id": "asperg-price-4cd25413c68d",
+      "offer_id": "asperg-offer-09386e4bb97f",
+      "amount_cents": 21250,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 n, ab 2027-01-01",
+        "original": 21250
+      }
+    },
+    {
+      "id": "asperg-price-61713ee38bf4",
+      "offer_id": "asperg-offer-063e9d4048ca",
+      "amount_cents": 41400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 n, ab 2027-09-01",
+        "original": 41400
+      }
+    },
+    {
+      "id": "asperg-price-62ea8153609f",
+      "offer_id": "asperg-offer-063e9d4048ca",
+      "amount_cents": 34550,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 n, ab 2027-09-01",
+        "original": 34550
+      }
+    },
+    {
+      "id": "asperg-price-040f219be6bf",
+      "offer_id": "asperg-offer-063e9d4048ca",
+      "amount_cents": 27750,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 n, ab 2027-09-01",
+        "original": 27750
+      }
+    },
+    {
+      "id": "asperg-price-2d8fb78bb0d2",
+      "offer_id": "asperg-offer-063e9d4048ca",
+      "amount_cents": 28450,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 n, ab 2027-09-01",
+        "original": 28450
+      }
+    },
+    {
+      "id": "asperg-price-8bac15dfa640",
+      "offer_id": "asperg-offer-9e79d8879137",
+      "amount_cents": 25950,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 o, ab 2027-01-01",
+        "original": 25950
+      }
+    },
+    {
+      "id": "asperg-price-b980d71b0a8e",
+      "offer_id": "asperg-offer-9e79d8879137",
+      "amount_cents": 22500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 o, ab 2027-01-01",
+        "original": 22500
+      }
+    },
+    {
+      "id": "asperg-price-d769b7c14e47",
+      "offer_id": "asperg-offer-9e79d8879137",
+      "amount_cents": 19200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 o, ab 2027-01-01",
+        "original": 19200
+      }
+    },
+    {
+      "id": "asperg-price-ddf723bce57f",
+      "offer_id": "asperg-offer-9e79d8879137",
+      "amount_cents": 14800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 o, ab 2027-01-01",
+        "original": 14800
+      }
+    },
+    {
+      "id": "asperg-price-5fc1fccd37c4",
+      "offer_id": "asperg-offer-471dab3661f6",
+      "amount_cents": 30450,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 o, ab 2027-09-01",
+        "original": 30450
+      }
+    },
+    {
+      "id": "asperg-price-5f6a85590bba",
+      "offer_id": "asperg-offer-471dab3661f6",
+      "amount_cents": 25400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 o, ab 2027-09-01",
+        "original": 25400
+      }
+    },
+    {
+      "id": "asperg-price-87a756832fd8",
+      "offer_id": "asperg-offer-471dab3661f6",
+      "amount_cents": 20400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 o, ab 2027-09-01",
+        "original": 20400
+      }
+    },
+    {
+      "id": "asperg-price-107203cb88dc",
+      "offer_id": "asperg-offer-471dab3661f6",
+      "amount_cents": 13550,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 o, ab 2027-09-01",
+        "original": 13550
+      }
+    }
+  ],
+  "income_bands": [],
+  "components": [
+    {
+      "id": "asperg-component-8085c01bf08e",
+      "kind": "meal",
+      "original_label": "Mittagessen je Portion",
+      "amount_cents": 420,
+      "unit": "per_meal",
+      "age_group": null,
+      "required": null,
+      "payment_months": null,
+      "offer_ids": null,
+      "valid_from": "2025-09-01",
+      "valid_to": "2026-12-31",
+      "value_status": "known",
+      "evidence": {
+        "source_id": "c039257120e8",
+        "locator": "§ 5 Abs. 6 h",
+        "original": null
+      }
+    },
+    {
+      "id": "asperg-component-db173e9e977b",
+      "kind": "late_pickup",
+      "original_label": "Verspätete Abholung",
+      "amount_cents": 2500,
+      "unit": "per_started_hour",
+      "age_group": null,
+      "required": false,
+      "payment_months": null,
+      "offer_ids": null,
+      "valid_from": "2025-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "c039257120e8",
+        "locator": "§ 6 Abs. 6",
+        "original": null
+      }
+    },
+    {
+      "id": "asperg-component-848fbca65a66",
+      "kind": "meal",
+      "original_label": "Mittagessen ab 2027, 2 Tage",
+      "amount_cents": 3450,
+      "unit": "per_month",
+      "age_group": null,
+      "required": null,
+      "payment_months": 12,
+      "offer_ids": null,
+      "valid_from": "2027-01-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 p",
+        "original": null
+      },
+      "days_per_week": 2
+    },
+    {
+      "id": "asperg-component-5cd1577d559e",
+      "kind": "meal",
+      "original_label": "Mittagessen ab 2027, 3 Tage",
+      "amount_cents": 5200,
+      "unit": "per_month",
+      "age_group": null,
+      "required": null,
+      "payment_months": 12,
+      "offer_ids": null,
+      "valid_from": "2027-01-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 p",
+        "original": null
+      },
+      "days_per_week": 3
+    },
+    {
+      "id": "asperg-component-0cd30d23364d",
+      "kind": "meal",
+      "original_label": "Mittagessen ab 2027, 4 Tage",
+      "amount_cents": 6900,
+      "unit": "per_month",
+      "age_group": null,
+      "required": null,
+      "payment_months": 12,
+      "offer_ids": null,
+      "valid_from": "2027-01-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 p",
+        "original": null
+      },
+      "days_per_week": 4
+    },
+    {
+      "id": "asperg-component-02340acd64cd",
+      "kind": "meal",
+      "original_label": "Mittagessen ab 2027, 5 Tage",
+      "amount_cents": 8650,
+      "unit": "per_month",
+      "age_group": null,
+      "required": null,
+      "payment_months": 12,
+      "offer_ids": null,
+      "valid_from": "2027-01-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 p",
+        "original": null
+      },
+      "days_per_week": 5
+    },
+    {
+      "id": "asperg-component-535b0aef44ff",
+      "kind": "meal",
+      "original_label": "Mittagessen während Eingewöhnung ab 2027",
+      "amount_cents": 450,
+      "unit": "per_meal",
+      "age_group": null,
+      "required": null,
+      "payment_months": null,
+      "offer_ids": null,
+      "valid_from": "2027-01-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "§ 5 Abs. 5 p",
+        "original": null
+      }
+    }
+  ],
+  "rules": [
+    {
+      "id": "asperg-rule-bf0fd215bf3d",
+      "kind": "pass_discounts",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "single_parent_state_family_pass_percent": 30,
+        "municipal_family_pass_percent": 50,
+        "meal_hardship_discount_percent": 50,
+        "application_required": true
+      },
+      "evidence": {
+        "source_id": "c039257120e8",
+        "locator": "§ 6 Abs. 1–5",
+        "original": null
+      }
+    },
+    {
+      "id": "asperg-rule-443442fd702b",
+      "kind": "mixed_age_u3_surcharge",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "percent": 50,
+        "applies_to": "kindergarten_admission_before_age_three"
+      },
+      "evidence": {
+        "source_id": "c039257120e8",
+        "locator": "§ 6 Abs. 4",
+        "original": null
+      }
+    },
+    {
+      "id": "asperg-rule-f39ab93db25a",
+      "kind": "source_provisions_c039257120e8",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "archive_text_path": "data/sources/c039257120e8/text.txt",
+        "text_sha256": "d2f9cca9eb70525fb6c170c92aaeb3e7e260de5176cf2e56342d886dd533b210",
+        "review_status": "archived_provisions_preserved"
+      },
+      "evidence": {
+        "source_id": "c039257120e8",
+        "locator": "Vollständiger archivierter Dokumenttext einschließlich Fußnoten",
+        "original": null
+      }
+    },
+    {
+      "id": "asperg-rule-5cab42d95c25",
+      "kind": "source_clause_c039257120e8_1_1",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 0,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "c039257120e8",
+        "locator": "PDF-/Textseite 1, Absatzblock 1",
+        "original": null
+      }
+    },
+    {
+      "id": "asperg-rule-5fd56a692da5",
+      "kind": "source_clause_c039257120e8_1_2",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 1,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "c039257120e8",
+        "locator": "PDF-/Textseite 1, Absatzblock 2",
+        "original": null
+      }
+    },
+    {
+      "id": "asperg-rule-f58eeb3a79d6",
+      "kind": "source_clause_c039257120e8_1_4",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 2,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "c039257120e8",
+        "locator": "PDF-/Textseite 1, Absatzblock 4",
+        "original": null
+      }
+    },
+    {
+      "id": "asperg-rule-cb4a44a9c72d",
+      "kind": "source_clause_c039257120e8_1_5",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 3,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "c039257120e8",
+        "locator": "PDF-/Textseite 1, Absatzblock 5",
+        "original": null
+      }
+    },
+    {
+      "id": "asperg-rule-7a5eb0fb4f87",
+      "kind": "source_clause_c039257120e8_1_6",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 4,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "c039257120e8",
+        "locator": "PDF-/Textseite 1, Absatzblock 6",
+        "original": null
+      }
+    },
+    {
+      "id": "asperg-rule-da77c90ed297",
+      "kind": "source_clause_c039257120e8_1_8",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 5,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "c039257120e8",
+        "locator": "PDF-/Textseite 1, Absatzblock 8",
+        "original": null
+      }
+    },
+    {
+      "id": "asperg-rule-7621531346ff",
+      "kind": "source_clause_c039257120e8_1_10",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 6,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "c039257120e8",
+        "locator": "PDF-/Textseite 1, Absatzblock 10",
+        "original": null
+      }
+    },
+    {
+      "id": "asperg-rule-df1b71c92092",
+      "kind": "source_clause_c039257120e8_1_11",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 7,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "c039257120e8",
+        "locator": "PDF-/Textseite 1, Absatzblock 11",
+        "original": null
+      }
+    },
+    {
+      "id": "asperg-rule-9eea7481740c",
+      "kind": "source_clause_c039257120e8_2_2",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 8,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "c039257120e8",
+        "locator": "PDF-/Textseite 2, Absatzblock 2",
+        "original": null
+      }
+    },
+    {
+      "id": "asperg-rule-e747bcddb9f4",
+      "kind": "source_clause_c039257120e8_2_4",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 9,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "c039257120e8",
+        "locator": "PDF-/Textseite 2, Absatzblock 4",
+        "original": null
+      }
+    },
+    {
+      "id": "asperg-rule-a57164bcb079",
+      "kind": "source_clause_c039257120e8_2_5",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 10,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "c039257120e8",
+        "locator": "PDF-/Textseite 2, Absatzblock 5",
+        "original": null
+      }
+    },
+    {
+      "id": "asperg-rule-04d3ed07c013",
+      "kind": "source_clause_c039257120e8_2_6",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 11,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "c039257120e8",
+        "locator": "PDF-/Textseite 2, Absatzblock 6",
+        "original": null
+      }
+    },
+    {
+      "id": "asperg-rule-53a21c7b8fd4",
+      "kind": "source_clause_c039257120e8_2_9",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 12,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "c039257120e8",
+        "locator": "PDF-/Textseite 2, Absatzblock 9",
+        "original": null
+      }
+    },
+    {
+      "id": "asperg-rule-8aa2c62c6c3f",
+      "kind": "source_clause_c039257120e8_3_2",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 13,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "c039257120e8",
+        "locator": "PDF-/Textseite 3, Absatzblock 2",
+        "original": null
+      }
+    },
+    {
+      "id": "asperg-rule-1038d3d475fb",
+      "kind": "source_clause_c039257120e8_3_3",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 14,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "c039257120e8",
+        "locator": "PDF-/Textseite 3, Absatzblock 3",
+        "original": null
+      }
+    },
+    {
+      "id": "asperg-rule-d4b7a83cfa62",
+      "kind": "source_clause_c039257120e8_3_4",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 15,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "c039257120e8",
+        "locator": "PDF-/Textseite 3, Absatzblock 4",
+        "original": null
+      }
+    },
+    {
+      "id": "asperg-rule-bea6fecd3f7c",
+      "kind": "source_clause_c039257120e8_5_4",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 16,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "c039257120e8",
+        "locator": "PDF-/Textseite 5, Absatzblock 4",
+        "original": null
+      }
+    },
+    {
+      "id": "asperg-rule-de8f1b1a1139",
+      "kind": "source_clause_c039257120e8_5_5",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 17,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "c039257120e8",
+        "locator": "PDF-/Textseite 5, Absatzblock 5",
+        "original": null
+      }
+    },
+    {
+      "id": "asperg-rule-fb098fc14e6b",
+      "kind": "source_clause_c039257120e8_5_6",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 18,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "c039257120e8",
+        "locator": "PDF-/Textseite 5, Absatzblock 6",
+        "original": null
+      }
+    },
+    {
+      "id": "asperg-rule-4d2ba5e0b6e3",
+      "kind": "source_clause_c039257120e8_5_7",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 19,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "c039257120e8",
+        "locator": "PDF-/Textseite 5, Absatzblock 7",
+        "original": null
+      }
+    },
+    {
+      "id": "asperg-rule-e72102b732a2",
+      "kind": "source_clause_c039257120e8_5_8",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 20,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "c039257120e8",
+        "locator": "PDF-/Textseite 5, Absatzblock 8",
+        "original": null
+      }
+    },
+    {
+      "id": "asperg-rule-72048557f860",
+      "kind": "source_provisions_b67815bb6fad",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "archive_text_path": "data/sources/b67815bb6fad/text.txt",
+        "text_sha256": "01874bf02c6dc96b8547847b8cf8f3a13105ea1460dd7f8bc136de3a00b3eabd",
+        "review_status": "archived_provisions_preserved"
+      },
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "Vollständiger archivierter Dokumenttext einschließlich Fußnoten",
+        "original": null
+      }
+    },
+    {
+      "id": "asperg-rule-ba08e4c95d66",
+      "kind": "source_clause_b67815bb6fad_1_1",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 21,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "PDF-/Textseite 1, Absatzblock 1",
+        "original": null
+      }
+    },
+    {
+      "id": "asperg-rule-0a387ffab6f2",
+      "kind": "source_clause_b67815bb6fad_1_2",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 22,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "PDF-/Textseite 1, Absatzblock 2",
+        "original": null
+      }
+    },
+    {
+      "id": "asperg-rule-db6faf54df10",
+      "kind": "source_clause_b67815bb6fad_1_4",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 23,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "PDF-/Textseite 1, Absatzblock 4",
+        "original": null
+      }
+    },
+    {
+      "id": "asperg-rule-05894add65ed",
+      "kind": "source_clause_b67815bb6fad_1_5",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 24,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "PDF-/Textseite 1, Absatzblock 5",
+        "original": null
+      }
+    },
+    {
+      "id": "asperg-rule-53036b5f8b19",
+      "kind": "source_clause_b67815bb6fad_1_6",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 25,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "PDF-/Textseite 1, Absatzblock 6",
+        "original": null
+      }
+    },
+    {
+      "id": "asperg-rule-8fc0570dfb11",
+      "kind": "source_clause_b67815bb6fad_1_8",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 26,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "PDF-/Textseite 1, Absatzblock 8",
+        "original": null
+      }
+    },
+    {
+      "id": "asperg-rule-27d44eb63ea0",
+      "kind": "source_clause_b67815bb6fad_1_10",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 27,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "PDF-/Textseite 1, Absatzblock 10",
+        "original": null
+      }
+    },
+    {
+      "id": "asperg-rule-4bbf53c7eac8",
+      "kind": "source_clause_b67815bb6fad_1_11",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 28,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "PDF-/Textseite 1, Absatzblock 11",
+        "original": null
+      }
+    },
+    {
+      "id": "asperg-rule-3e429a0d32c4",
+      "kind": "source_clause_b67815bb6fad_2_2",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 29,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "PDF-/Textseite 2, Absatzblock 2",
+        "original": null
+      }
+    },
+    {
+      "id": "asperg-rule-edd80bdb425a",
+      "kind": "source_clause_b67815bb6fad_2_4",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 30,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "PDF-/Textseite 2, Absatzblock 4",
+        "original": null
+      }
+    },
+    {
+      "id": "asperg-rule-06806404784b",
+      "kind": "source_clause_b67815bb6fad_2_5",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 31,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "PDF-/Textseite 2, Absatzblock 5",
+        "original": null
+      }
+    },
+    {
+      "id": "asperg-rule-aeae59c1b8e4",
+      "kind": "source_clause_b67815bb6fad_2_6",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 32,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "PDF-/Textseite 2, Absatzblock 6",
+        "original": null
+      }
+    },
+    {
+      "id": "asperg-rule-015aa9516aa7",
+      "kind": "source_clause_b67815bb6fad_2_7",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 33,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "PDF-/Textseite 2, Absatzblock 7",
+        "original": null
+      }
+    },
+    {
+      "id": "asperg-rule-25073bec85d8",
+      "kind": "source_clause_b67815bb6fad_3_1",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 34,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "PDF-/Textseite 3, Absatzblock 1",
+        "original": null
+      }
+    },
+    {
+      "id": "asperg-rule-9af68ff73dca",
+      "kind": "source_clause_b67815bb6fad_3_4",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 35,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "PDF-/Textseite 3, Absatzblock 4",
+        "original": null
+      }
+    },
+    {
+      "id": "asperg-rule-279ed070f36b",
+      "kind": "source_clause_b67815bb6fad_3_7",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 36,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "PDF-/Textseite 3, Absatzblock 7",
+        "original": null
+      }
+    },
+    {
+      "id": "asperg-rule-fa91664fcd60",
+      "kind": "source_clause_b67815bb6fad_3_8",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 37,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "PDF-/Textseite 3, Absatzblock 8",
+        "original": null
+      }
+    },
+    {
+      "id": "asperg-rule-429b7ad1520e",
+      "kind": "source_clause_b67815bb6fad_3_9",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 38,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "PDF-/Textseite 3, Absatzblock 9",
+        "original": null
+      }
+    },
+    {
+      "id": "asperg-rule-dc762bd15cfd",
+      "kind": "source_clause_b67815bb6fad_7_9",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 39,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "PDF-/Textseite 7, Absatzblock 9",
+        "original": null
+      }
+    },
+    {
+      "id": "asperg-rule-37cd4b1c8671",
+      "kind": "source_clause_b67815bb6fad_7_11",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 40,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "PDF-/Textseite 7, Absatzblock 11",
+        "original": null
+      }
+    },
+    {
+      "id": "asperg-rule-920fb7469a03",
+      "kind": "source_clause_b67815bb6fad_7_12",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 41,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "PDF-/Textseite 7, Absatzblock 12",
+        "original": null
+      }
+    },
+    {
+      "id": "asperg-rule-9af122c34213",
+      "kind": "source_clause_b67815bb6fad_8_1",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 42,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "PDF-/Textseite 8, Absatzblock 1",
+        "original": null
+      }
+    },
+    {
+      "id": "asperg-rule-37c187974b30",
+      "kind": "source_clause_b67815bb6fad_8_2",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 43,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "PDF-/Textseite 8, Absatzblock 2",
+        "original": null
+      }
+    },
+    {
+      "id": "asperg-rule-cc34aad6e01a",
+      "kind": "source_clause_b67815bb6fad_8_3",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 44,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "b67815bb6fad",
+        "locator": "PDF-/Textseite 8, Absatzblock 3",
+        "original": null
+      }
+    }
+  ],
+  "issues": [
+    {
+      "code": "pending_calculation_review",
+      "detail": "Strukturierter Import; noch keine Freigabe des Rechners oder der Website."
+    },
+    {
+      "code": "research_limitation_1",
+      "detail": "Familienpass-Berechtigungen müssen für die späteren Modellannahmen gesondert geprüft werden."
+    },
+    {
+      "code": "published_non_monotone_future_cell",
+      "detail": "Asperg ab September 2027, U3 GT9,5 drei Tage: vier Kinder 284,50 Euro laut Quelle; nicht auf einen vermuteten niedrigeren Betrag korrigiert."
+    }
+  ],
+  "coverage": {
+    "publication_status": "not_active",
+    "integration_status": "normalized_pending_calculation_review",
+    "history_in_scope": false,
+    "source_register": "data/research/neighbor_expansion_2026-11-10.json",
+    "research_id": "asperg",
+    "unavailable_configurations": [],
+    "offers": 37,
+    "price_cells": 148,
+    "income_bands": 0,
+    "components": 7,
+    "rule_records": 49,
+    "tariff_table_transcription": "complete_for_declared_scope",
+    "declared_scope": "Aktuelle und bereits veröffentlichte künftige Krippen- und Kindergartentarife; Zusatzkosten und Gebührenregeln.",
+    "excluded_from_regular_price_rows": [
+      "superseded_historical_tariffs",
+      "school_childcare",
+      "takki_and_childminding",
+      "separate_playgroups"
+    ],
+    "calculation_engine_changed": false,
+    "rule_transcription": "typed_parameters_and_source_clauses_with_explicit_unimplemented_status"
+  },
+  "original_research": {
+    "path": "data/research/neighbor_expansion_2026-11-10.json",
+    "section": "Asperg",
+    "text": "Aktuell gilt die bisherige Tabelle. Die auf der Ortsrechtsseite vorrangig verlinkte Neufassung gilt erst ab Januar 2027, mit weiterem Schritt September 2027.\nFamilienpass-Berechtigungen müssen für die späteren Modellannahmen gesondert geprüft werden.",
+    "source_clauses": [
+      {
+        "text": "Satzung über die Erhebung von Benutzungsgebühren für die\n                     Kindertageseinrichtungen der Stadt Asperg",
+        "evidence": {
+          "source_id": "c039257120e8",
+          "locator": "PDF-/Textseite 1, Absatzblock 1",
+          "original": null
+        }
+      },
+      {
+        "text": "Aufgrund von § 4 Abs. 1 der Gemeindeordnung Baden-Württemberg (GemO) vom 24.07.2000\n(zuletzt geändert am 04.04.2023), § 6 Satz 2 des Gesetzes über die Betreuung und Förderung\nvon Kindern in Kindergärten, anderen Tageseinrichtungen und der Kindertagespflege (KitaG)\nvom 19.03.2009 (zuletzt geändert am 11.02.2020) und §§ 2, 13 Abs. 1 des\nKommunalabgabengesetzes des Landes Baden-Württemberg (KAG) vom 17.03.2005 (zuletzt\ngeändert am 17.12.2020) hat der Gemeinderat der Stadt Asperg in seiner Sitzung am\n24.09.2024 folgende Änderung der Satzung über die Erhebung von Benutzungsgebühren für\ndie Kindertageseinrichtungen der Stadt Asperg beschlossen:",
+        "evidence": {
+          "source_id": "c039257120e8",
+          "locator": "PDF-/Textseite 1, Absatzblock 2",
+          "original": null
+        }
+      },
+      {
+        "text": "(1)   Die Stadt Asperg betreibt Kindertageseinrichtungen als öffentliche Einrichtung. Zur\n      teilweisen Deckung des entstehenden Aufwandes werden für die Benutzung der\n      Einrichtungen Gebühren nach Maßgabe dieser Satzung erhoben.",
+        "evidence": {
+          "source_id": "c039257120e8",
+          "locator": "PDF-/Textseite 1, Absatzblock 4",
+          "original": null
+        }
+      },
+      {
+        "text": "(2)   Die Gebühren sind für alle angemeldeten Kinder zu entrichten, gleichgültig ob sie im\n      Erhebungszeitraum (Kalendermonat) die Einrichtungen tatsächlich besuchten. Die\n      Gebühr ist auch bei längerem Fehlen des Kindes, während der Schulferien sowie bei\n      kurzfristiger behördlicher Schließung oder bei Schließung im Falle höherer Gewalt oder\n      aufgrund von Streik zu entrichten.",
+        "evidence": {
+          "source_id": "c039257120e8",
+          "locator": "PDF-/Textseite 1, Absatzblock 5",
+          "original": null
+        }
+      },
+      {
+        "text": "(3)   Die Gebühren werden für 12 Monate im Jahr erhoben. Für Schulanfänger ist die\n      Benutzungsgebühr bis zum Ende des Monats zu bezahlen, in dem die Sommerferien\n      des Kindergartens beginnen.",
+        "evidence": {
+          "source_id": "c039257120e8",
+          "locator": "PDF-/Textseite 1, Absatzblock 6",
+          "original": null
+        }
+      },
+      {
+        "text": "(1)   Gebührenschuldner sind die gesetzlichen Vertreter des Kindes. Die Anmeldung erfolgt\n      schriftlich.",
+        "evidence": {
+          "source_id": "c039257120e8",
+          "locator": "PDF-/Textseite 1, Absatzblock 8",
+          "original": null
+        }
+      },
+      {
+        "text": "§3\n                             Benutzungsgebühren und\n                Verpflegungsaufwand für die Teilnahme am Mittagessen",
+        "evidence": {
+          "source_id": "c039257120e8",
+          "locator": "PDF-/Textseite 1, Absatzblock 10",
+          "original": null
+        }
+      },
+      {
+        "text": "(1)   Bei den Benutzungsgebühren wird unterschieden in Gebühren nach verschiedenen\n      Betreuungsangeboten und Betreuungsaufwand:",
+        "evidence": {
+          "source_id": "c039257120e8",
+          "locator": "PDF-/Textseite 1, Absatzblock 11",
+          "original": null
+        }
+      },
+      {
+        "text": "(2)   Für die Teilnahme am Mittagessen wird ein Verpflegungsaufwand erhoben.",
+        "evidence": {
+          "source_id": "c039257120e8",
+          "locator": "PDF-/Textseite 2, Absatzblock 2",
+          "original": null
+        }
+      },
+      {
+        "text": "(1)   Die Gebührenpflicht beginnt zum 1. des Monats, in dem das Kind in die Einrichtung\n      aufgenommen wird. Sie endet bei Abmeldung des Kindes mit Ablauf des Monats, auf\n      dessen Ende das Kind abgemeldet wird, bzw. bei Schulanfängern mit dem\n      altersbedingten Ausscheiden des Kindes. Die Eingewöhnung zählt bereits zur\n      Aufnahme.",
+        "evidence": {
+          "source_id": "c039257120e8",
+          "locator": "PDF-/Textseite 2, Absatzblock 4",
+          "original": null
+        }
+      },
+      {
+        "text": "(2)   Die Benutzungsgebühren werden bei der erstmaligen Benutzung durch schriftlichen\n      Bescheid festgesetzt. Die Festsetzung gilt so lange weiter, bis ein neuer Bescheid oder\n      Änderungsbescheid ergeht.",
+        "evidence": {
+          "source_id": "c039257120e8",
+          "locator": "PDF-/Textseite 2, Absatzblock 5",
+          "original": null
+        }
+      },
+      {
+        "text": "(3)   Die Gebühr ist zum 1. jeden Monats zur Zahlung fällig und grundsätzlich durch\n      Abbuchung an die Stadtkasse zu entrichten.",
+        "evidence": {
+          "source_id": "c039257120e8",
+          "locator": "PDF-/Textseite 2, Absatzblock 6",
+          "original": null
+        }
+      },
+      {
+        "text": "(1)   Die Benutzungsgebühren werden je Kind und Betreuungsplatz erhoben. Die Höhe der\n      Gebühr bestimmt sich nach der Anzahl der im Haushalt lebenden Kinder, bis zur\n      Vollendung des 18. Lebensjahres.",
+        "evidence": {
+          "source_id": "c039257120e8",
+          "locator": "PDF-/Textseite 2, Absatzblock 9",
+          "original": null
+        }
+      },
+      {
+        "text": "(3)   Ändert sich die Zahl der berücksichtigungsfähigen Kinder, so muss der\n      Gebührenschuldner dies unverzüglich melden. Die Gebühr wird ab dem Folgemonat neu\n      festgesetzt. Erfolgt keine Meldung durch den Gebührenschuldner, wird die Gebühr ab\n      dem jeweiligen Folgemonat neu festgesetzt, sobald die Änderung der Stadt Asperg\n      amtlich bekannt ist.",
+        "evidence": {
+          "source_id": "c039257120e8",
+          "locator": "PDF-/Textseite 3, Absatzblock 2",
+          "original": null
+        }
+      },
+      {
+        "text": "(4)   Für die Teilnahme am Mittagessen wird ein Verpflegungsaufwand je Mittagessen\n      erhoben.",
+        "evidence": {
+          "source_id": "c039257120e8",
+          "locator": "PDF-/Textseite 3, Absatzblock 3",
+          "original": null
+        }
+      },
+      {
+        "text": "(5)   Die Höhe der Benutzungsgebühren und des Verpflegungsaufwands für die Teilnahme\n      am Mittagessen wird wie folgt festgesetzt:",
+        "evidence": {
+          "source_id": "c039257120e8",
+          "locator": "PDF-/Textseite 3, Absatzblock 4",
+          "original": null
+        }
+      },
+      {
+        "text": "(1)   Alleinerziehende Inhaber des Landesfamilienpasses erhalten eine Ermäßigung der\n      Benutzungsgebühr in Höhe von 30%.",
+        "evidence": {
+          "source_id": "c039257120e8",
+          "locator": "PDF-/Textseite 5, Absatzblock 4",
+          "original": null
+        }
+      },
+      {
+        "text": "(2)   Inhaber des städtischen Familienpasses            erhalten   eine    Ermäßigung       der\n      Benutzungsgebühr in Höhe von 50%.",
+        "evidence": {
+          "source_id": "c039257120e8",
+          "locator": "PDF-/Textseite 5, Absatzblock 5",
+          "original": null
+        }
+      },
+      {
+        "text": "(3)   Beim Städtischen Familienpass handelt es sich um eine Freiwilligkeitsleistung der Stadt\n      Asperg. Die Freiwilligkeitsleistungen nach dem Städtischen Familienpass sind stets\n      nachrangig zu Leistungen von Hilfeträgern im Sinne der Sozialgesetzbücher. Dies gilt\n      insbesondere für Leistungen nach dem Bildungs- und Teilhabepaket nach den\n      Sozialbüchern II und XII bzw. nach dem Bundeskindergeldgesetz. Bei Antragsstellung\n      sind entsprechende Nachweise über den Ausschluss einer Leistung nach den\n      Sozialgesetzbüchern bzw. dem Bundeskindergeldgesetz vorzulegen. Auf die Richtlinien\n      über den städtischen Familienpass in der jeweils gültigen Fassung wird verwiesen.",
+        "evidence": {
+          "source_id": "c039257120e8",
+          "locator": "PDF-/Textseite 5, Absatzblock 6",
+          "original": null
+        }
+      },
+      {
+        "text": "(4)   Die Benutzungsgebühr wird um 50% erhöht, wenn ein Kind eine Kindergartengruppe vor\n      Vollendung des 3. Lebensjahres besucht.",
+        "evidence": {
+          "source_id": "c039257120e8",
+          "locator": "PDF-/Textseite 5, Absatzblock 7",
+          "original": null
+        }
+      },
+      {
+        "text": "(5)   Beim Verpflegungsaufwand für das Mittagessen ist bei sozialen Härtefällen eine\n      Ermäßigung von 50% für Inhaber des städtischen Familienpasses auf Antrag möglich.\n      Absatz 3 gilt entsprechend.",
+        "evidence": {
+          "source_id": "c039257120e8",
+          "locator": "PDF-/Textseite 5, Absatzblock 8",
+          "original": null
+        }
+      },
+      {
+        "text": "Satzung über die Erhebung von Benutzungsgebühren für die\n                     Kindertageseinrichtungen der Stadt Asperg",
+        "evidence": {
+          "source_id": "b67815bb6fad",
+          "locator": "PDF-/Textseite 1, Absatzblock 1",
+          "original": null
+        }
+      },
+      {
+        "text": "Aufgrund von § 4 Abs. 1 der Gemeindeordnung Baden-Württemberg (GemO) vom\n24.07.2000 (zuletzt geändert am 10.02.2026), § 6 des Gesetzes über die Betreuung und\nFörderung von Kindern in Kindergärten, anderen Tageseinrichtungen und der\nKindertagespflege (KitaG) vom 19.03.2009 (zuletzt geändert am 29.07.2025) und §§ 2, 13\nAbs. 1 des Kommunalabgabengesetzes des Landes Baden-Württemberg (KAG) vom\n17.03.2005 (zuletzt geändert am 17.12.2020) hat der Gemeinderat der Stadt Asperg in\nseiner Sitzung am 29.09.2026 folgende Änderung der Satzung über die Erhebung von\nBenutzungsgebühren für die Kindertageseinrichtungen der Stadt Asperg beschlossen:",
+        "evidence": {
+          "source_id": "b67815bb6fad",
+          "locator": "PDF-/Textseite 1, Absatzblock 2",
+          "original": null
+        }
+      },
+      {
+        "text": "(1)   Die Stadt Asperg betreibt Kindertageseinrichtungen als öffentliche Einrichtung. Zur\n      teilweisen Deckung des entstehenden Aufwandes werden für die Benutzung der\n      Einrichtungen Gebühren nach Maßgabe dieser Satzung erhoben.",
+        "evidence": {
+          "source_id": "b67815bb6fad",
+          "locator": "PDF-/Textseite 1, Absatzblock 4",
+          "original": null
+        }
+      },
+      {
+        "text": "(2)   Die Gebühren sind für alle angemeldeten Kinder zu entrichten, gleichgültig ob sie im\n      Erhebungszeitraum (Kalendermonat) die Einrichtungen tatsächlich besuchten. Die\n      Gebühr ist auch bei längerem Fehlen des Kindes, während der Schließtage sowie bei\n      kurzfristiger behördlicher Schließung oder bei Schließung im Falle höherer Gewalt oder\n      aufgrund von Streik zu entrichten.",
+        "evidence": {
+          "source_id": "b67815bb6fad",
+          "locator": "PDF-/Textseite 1, Absatzblock 5",
+          "original": null
+        }
+      },
+      {
+        "text": "(3)   Die Gebühren werden für 12 Monate im Jahr erhoben. Für Schulanfänger ist die\n      Benutzungsgebühr bis zum Ende des Monats zu bezahlen, in dem die Sommerferien\n      des Kindergartens beginnen.",
+        "evidence": {
+          "source_id": "b67815bb6fad",
+          "locator": "PDF-/Textseite 1, Absatzblock 6",
+          "original": null
+        }
+      },
+      {
+        "text": "(1)   Gebührenschuldner sind die gesetzlichen Vertreter des Kindes sowie diejenigen, die\n      die Aufnahme in die Kindertageseinrichtung beantragt haben. Die Anmeldung erfolgt\n      schriftlich.",
+        "evidence": {
+          "source_id": "b67815bb6fad",
+          "locator": "PDF-/Textseite 1, Absatzblock 8",
+          "original": null
+        }
+      },
+      {
+        "text": "§3\n                             Benutzungsgebühren und\n                Verpflegungsaufwand für die Teilnahme am Mittagessen",
+        "evidence": {
+          "source_id": "b67815bb6fad",
+          "locator": "PDF-/Textseite 1, Absatzblock 10",
+          "original": null
+        }
+      },
+      {
+        "text": "(1)   Bei den Benutzungsgebühren wird unterschieden in Gebühren nach verschiedenen\n      Betreuungsangeboten und Betreuungsaufwand:\n      a)   Verlängerte Öffnungszeit für Kinder über 3 Jahre für 5 Tage und einer\n           Betreuungszeit von 7.30 Uhr - 13.30 Uhr",
+        "evidence": {
+          "source_id": "b67815bb6fad",
+          "locator": "PDF-/Textseite 1, Absatzblock 11",
+          "original": null
+        }
+      },
+      {
+        "text": "(2)   Für die Teilnahme am Mittagessen wird ein Verpflegungsaufwand erhoben.",
+        "evidence": {
+          "source_id": "b67815bb6fad",
+          "locator": "PDF-/Textseite 2, Absatzblock 2",
+          "original": null
+        }
+      },
+      {
+        "text": "(1)   Die Gebührenpflicht beginnt zum 1. des Monats, in dem das Kind in die Einrichtung\n      aufgenommen wird. Sie endet bei Abmeldung des Kindes mit Ablauf des Monats, auf\n      dessen Ende das Kind abgemeldet wird, bzw. bei Schulanfängern mit dem\n      altersbedingten Ausscheiden des Kindes. Die Eingewöhnung zählt bereits zur\n      Aufnahme.",
+        "evidence": {
+          "source_id": "b67815bb6fad",
+          "locator": "PDF-/Textseite 2, Absatzblock 4",
+          "original": null
+        }
+      },
+      {
+        "text": "(2)   Die Benutzungsgebühren werden bei der erstmaligen Benutzung durch schriftlichen\n      Bescheid festgesetzt. Die Festsetzung gilt so lange weiter, bis ein neuer Bescheid oder\n      Änderungsbescheid ergeht.",
+        "evidence": {
+          "source_id": "b67815bb6fad",
+          "locator": "PDF-/Textseite 2, Absatzblock 5",
+          "original": null
+        }
+      },
+      {
+        "text": "(3)   Die Gebühr ist zum 1. jeden Monats zur Zahlung fällig und grundsätzlich durch\n      Abbuchung an die Stadtkasse zu entrichten. Für den Monat des erstmaligen Besuchs\n      der Einrichtung wird die Gebührenschuld zwei Wochen nach Bekanntgabe des\n      Gebührenbescheides fällig. Dasselbe gilt bei Erlass eines neuen oder geänderten\n      Gebührenbescheides.",
+        "evidence": {
+          "source_id": "b67815bb6fad",
+          "locator": "PDF-/Textseite 2, Absatzblock 6",
+          "original": null
+        }
+      },
+      {
+        "text": "(4)   Die Benutzungsgebühr ist eine pauschalierte Monatsgebühr. Sie ist deshalb auch\n      während der Ferien, bei Nichtbenutzung, bei vorübergehender Schließung der\n      Einrichtung nach § 6 der Benutzungsordnung sowie bis zur Wirksamkeit der\n      Beendigung des Benutzungsverhältnisses zu entrichten. Urlaub, Krankheit oder\n      Quarantäne des Kindes führen nicht zu einer Gebührenerstattung. Bei Schließungen\n      oder einer Reduzierung der Betreuungszeiten insbesondere infolge höherer Gewalt,",
+        "evidence": {
+          "source_id": "b67815bb6fad",
+          "locator": "PDF-/Textseite 2, Absatzblock 7",
+          "original": null
+        }
+      },
+      {
+        "text": "Streik, behördlicher Anordnung oder anderer vom Träger nicht zu vertretender\n      Ereignisse werden weder Mehraufwendungen erstattet noch Gebühren ermäßigt.",
+        "evidence": {
+          "source_id": "b67815bb6fad",
+          "locator": "PDF-/Textseite 3, Absatzblock 1",
+          "original": null
+        }
+      },
+      {
+        "text": "(1)   Die Benutzungsgebühren werden je Kind und Betreuungsplatz erhoben. Die Höhe der\n      Gebühr bestimmt sich nach der Anzahl der im Haushalt lebenden Kinder, bis zur\n      Vollendung des 18. Lebensjahres.",
+        "evidence": {
+          "source_id": "b67815bb6fad",
+          "locator": "PDF-/Textseite 3, Absatzblock 4",
+          "original": null
+        }
+      },
+      {
+        "text": "(3)   Ändert sich die Zahl der berücksichtigungsfähigen Kinder, so muss der\n      Gebührenschuldner dies unverzüglich melden. Die Gebühr wird ab dem Folgemonat\n      neu festgesetzt. Erfolgt keine Meldung durch den Gebührenschuldner, wird die Gebühr\n      ab dem jeweiligen Folgemonat neu festgesetzt, sobald die Änderung der Stadt Asperg\n      amtlich bekannt ist.",
+        "evidence": {
+          "source_id": "b67815bb6fad",
+          "locator": "PDF-/Textseite 3, Absatzblock 7",
+          "original": null
+        }
+      },
+      {
+        "text": "(4)   Für die Teilnahme am Mittagessen wird ein pauschalierter Verpflegungsaufwand je\n      Monat erhoben.\n      Ausgenommen hiervon wird während der Eingewöhnungszeit für die Teilnahme am\n      Mittagessen ein Verpflegungsaufwand je Mittagessen erhoben.",
+        "evidence": {
+          "source_id": "b67815bb6fad",
+          "locator": "PDF-/Textseite 3, Absatzblock 8",
+          "original": null
+        }
+      },
+      {
+        "text": "(5)   Die Höhe der Benutzungsgebühren und des Verpflegungsaufwands für die Teilnahme\n      am Mittagessen wird wie folgt festgesetzt:",
+        "evidence": {
+          "source_id": "b67815bb6fad",
+          "locator": "PDF-/Textseite 3, Absatzblock 9",
+          "original": null
+        }
+      },
+      {
+        "text": "Während der Eingewöhnungszeit wird für die Teilnahme am Mittagessen ein\n           Verpflegungsaufwand in Höhe von 4,50 € je Mittagessen erhoben.",
+        "evidence": {
+          "source_id": "b67815bb6fad",
+          "locator": "PDF-/Textseite 7, Absatzblock 9",
+          "original": null
+        }
+      },
+      {
+        "text": "(1)   Alleinerziehende Inhaber des Landesfamilienpasses erhalten eine Ermäßigung der\n      Benutzungsgebühr in Höhe von 30%.",
+        "evidence": {
+          "source_id": "b67815bb6fad",
+          "locator": "PDF-/Textseite 7, Absatzblock 11",
+          "original": null
+        }
+      },
+      {
+        "text": "(2)   Inhaber des städtischen Familienpasses       erhalten   eine   Ermäßigung   der\n      Benutzungsgebühr in Höhe von 50%.",
+        "evidence": {
+          "source_id": "b67815bb6fad",
+          "locator": "PDF-/Textseite 7, Absatzblock 12",
+          "original": null
+        }
+      },
+      {
+        "text": "(3)   Beim Städtischen Familienpass handelt es sich um eine Freiwilligkeitsleistung der\n      Stadt Asperg. Die Freiwilligkeitsleistungen nach dem Städtischen Familienpass sind\n      stets nachrangig zu Leistungen von Hilfeträgern im Sinne der Sozialgesetzbücher. Dies\n      gilt insbesondere für Leistungen nach dem Bildungs- und Teilhabepaket nach den\n      Sozialbüchern II und XII bzw. nach dem Bundeskindergeldgesetz. Bei Antragsstellung\n      sind entsprechende Nachweise über den Ausschluss einer Leistung nach den\n      Sozialgesetzbüchern bzw. dem Bundeskindergeldgesetz vorzulegen. Auf die\n      Richtlinien über den städtischen Familienpass in der jeweils gültigen Fassung wird\n      verwiesen.",
+        "evidence": {
+          "source_id": "b67815bb6fad",
+          "locator": "PDF-/Textseite 8, Absatzblock 1",
+          "original": null
+        }
+      },
+      {
+        "text": "(4)   Die Benutzungsgebühr wird um 50% erhöht, wenn ein Kind eine Kindergartengruppe\n      vor Vollendung des 3. Lebensjahres besucht.",
+        "evidence": {
+          "source_id": "b67815bb6fad",
+          "locator": "PDF-/Textseite 8, Absatzblock 2",
+          "original": null
+        }
+      },
+      {
+        "text": "(5)   Beim Verpflegungsaufwand für das Mittagessen ist bei sozialen Härtefällen eine\n      Ermäßigung von 50% für Inhaber des städtischen Familienpasses auf Antrag möglich.\n      Absatz 3 gilt entsprechend.",
+        "evidence": {
+          "source_id": "b67815bb6fad",
+          "locator": "PDF-/Textseite 8, Absatzblock 3",
+          "original": null
+        }
+      }
+    ]
+  }
+}

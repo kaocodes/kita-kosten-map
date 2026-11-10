@@ -4,7 +4,7 @@
 
 **Ergebnis:** Für alle 33 Orte wurden offizielle kommunale Einstiegs- oder Gebührenquellen gesichert. Bei **32 Kommunen** ist eine auswertbare U3-/Ü3-Tarifbasis vorhanden; bei **1 Kommunen** bestehen konkrete Klärungspunkte für den bisherigen Vergleich. Damit liegt noch **kein uneingeschränkt vergleichbarer Produktionsdatensatz für alle 33 Orte** vor.
 
-Die Prüfung bewertet die gefundenen Quellen. Sie ist weder eine vollständige Umsetzung der Tarifregeln im Rechner noch eine Freigabe sämtlicher Familientypen. Alle zwölf bisherigen Kommunen bleiben unverändert aktiv; die neuen Gebiete wurden nicht veröffentlicht. Die Recherche wurde am 10. November auf ausdrücklichen Nutzerwunsch vorgezogen.
+Die Prüfung bewertet die gefundenen Quellen. Sie ist weder eine vollständige Umsetzung der Tarifregeln im Rechner noch eine Freigabe sämtlicher Familientypen. Die zwölf bisherigen Kommunen bleiben unverändert. Die Recherche wurde am 10. November auf ausdrücklichen Nutzerwunsch vorgezogen. Der anschließende Integrations- und Veröffentlichungsstand ist getrennt in der [Erweiterungsintegration](ERWEITERUNGSINTEGRATION.md) dokumentiert.
 
 ## Ablage und Prüfmethode
 
@@ -422,7 +422,7 @@ Original-Stundenpakete erhalten; TAKKI und Schulkindbetreuung im selben Dokument
 
 ## Nächster Umsetzungsschritt
 
-Die Tarifbasen wurden inzwischen in 33 getrennte Kommunen-JSONs im vorhandenen Schema übertragen; sie liegen isoliert unter `data/expansion/municipalities/`. Mengen, Umfang und technische Prüfung stehen in der [Aufbereitungsübersicht](ERWEITERUNGSDATEN.md). Die [Kompatibilitätsprüfung der bestehenden Engine](ERWEITERUNGSBERECHNUNG.md) ist inzwischen abgeschlossen und weist unterstützte sowie nicht berechenbare Konfigurationen aus. Die vertiefte fachliche Quellenabnahme bleibt ein weiterer Schritt. Die 1 verbleibenden Klärungsfälle bleiben für ihre betroffenen Konfigurationen eingeschränkt. Neue Einkommens-/Geschwisterregeln, Verpflegung und belegte Tagesverteilungen werden vor einer Aktivierung berücksichtigt. Die gemeinsame Engine und das produktive Register wurden nicht geändert. Die Website-Freischaltung bleibt ein eigener Schritt; historische Preisreihen bleiben zurückgestellt.
+Die Tarifbasen wurden inzwischen in 33 getrennte Kommunen-JSONs im vorhandenen Schema übertragen; sie liegen isoliert unter `data/expansion/municipalities/`. Mengen, Umfang und technische Prüfung stehen in der [Aufbereitungsübersicht](ERWEITERUNGSDATEN.md). Die [Kompatibilitätsprüfung der bestehenden Engine](ERWEITERUNGSBERECHNUNG.md) ist inzwischen abgeschlossen und weist unterstützte sowie nicht berechenbare Konfigurationen aus. Die vertiefte fachliche Quellenabnahme bleibt ein weiterer Schritt. Die 1 verbleibenden Klärungsfälle bleiben für ihre betroffenen Konfigurationen eingeschränkt. Neue Einkommens-/Geschwisterregeln, Verpflegung und belegte Tagesverteilungen werden vor einer Aktivierung berücksichtigt. Die gemeinsame Engine bleibt unverändert. Inzwischen sind **8 vollständig unterstützte Kandidaten** über eine gesonderte, gegen den Prüfindex abgesicherte Auswahl in die lokale Website übernommen. Die Veröffentlichung auf GitHub Pages erfolgt nach ausdrücklicher Freigabe über den Workflow auf `main`; historische Preisreihen bleiben zurückgestellt.
 
 Erneut prüfen und Bericht aus den Bewertungen erzeugen:
 

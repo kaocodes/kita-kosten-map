@@ -63,8 +63,7 @@ export function App() {
         <p>{error ? "Bitte lade die Daten erneut. Es wurden keine Ersatzwerte eingesetzt." : "Gemeindegrenzen und geprüfte Tarife werden vorbereitet."}</p>
         {error && <button className={styles.retryButton} onClick={() => setAttempt(value => value + 1)}>Erneut versuchen</button>}
       </section> : <>
-        <section className={styles.mapCard} id="vergleich" aria-labelledby="map-heading">
-          <div className={styles.cardHeading}><h2 id="map-heading">Eine Region, unterschiedliche Kita-Gebühren.</h2><span className={styles.countBadge}>{results.length} Kommunen</span></div>
+        <section className={styles.mapCard} id="vergleich" aria-label="Kita-Gebühren im Kartenvergleich">
           <MunicipalityMap geometry={data.geometry} results={results} selectedId={selected?.municipality_id ?? ""}
             maxZoom={data.bundle.geography.max_zoom} attribution={data.bundle.geography} onSelect={selectMunicipality} />
           <div className={styles.legend} aria-label="Gebührenlegende von günstig bis teuer">

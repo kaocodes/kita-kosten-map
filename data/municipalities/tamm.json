@@ -1,0 +1,834 @@
+{
+  "schema_version": "1.0",
+  "id": "tamm",
+  "name": "Tamm",
+  "reviewed_at": "2026-11-10",
+  "reference_date": "2026-11-10",
+  "scope": {
+    "included": [
+      "municipal"
+    ],
+    "other_providers": "only_with_explicit_source_evidence"
+  },
+  "family_basis": "under_18",
+  "family_evidence": {
+    "source_id": "44cdb8fc520a",
+    "locator": "Familienbegriff und Fußnoten der Gebührenunterlagen",
+    "original": null
+  },
+  "supporting_source_ids": [
+    "44cdb8fc520a"
+  ],
+  "offers": [
+    {
+      "id": "tamm-offer-d2c234c1f59c",
+      "original_label": "VÖ6",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2025-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2025-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 1800,
+      "weekday_minutes": [
+        360,
+        360,
+        360,
+        360,
+        360
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "44cdb8fc520a",
+        "locator": "Webseite: Elternbeiträge ab 01.09.2025",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "44cdb8fc520a",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "44cdb8fc520a",
+        "locator": "Webseite: Elternbeiträge ab 01.09.2025",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "tamm-offer-995adcccb7fb",
+      "original_label": "GT15",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2025-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2025-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2400,
+      "weekday_minutes": [
+        480,
+        480,
+        480,
+        480,
+        480
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "44cdb8fc520a",
+        "locator": "Webseite: Elternbeiträge ab 01.09.2025",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "44cdb8fc520a",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "44cdb8fc520a",
+        "locator": "Webseite: Elternbeiträge ab 01.09.2025",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "tamm-offer-af968255f028",
+      "original_label": "GT17",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2025-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2025-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 3000,
+      "weekday_minutes": [
+        600,
+        600,
+        600,
+        600,
+        600
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "44cdb8fc520a",
+        "locator": "Webseite: Elternbeiträge ab 01.09.2025",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "44cdb8fc520a",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "44cdb8fc520a",
+        "locator": "Webseite: Elternbeiträge ab 01.09.2025",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "tamm-offer-c419fd372278",
+      "original_label": "KR VÖ6",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2025-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2025-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 1800,
+      "weekday_minutes": [
+        360,
+        360,
+        360,
+        360,
+        360
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "44cdb8fc520a",
+        "locator": "Webseite: Elternbeiträge ab 01.09.2025",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "44cdb8fc520a",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "44cdb8fc520a",
+        "locator": "Webseite: Elternbeiträge ab 01.09.2025",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "tamm-offer-5e74bd57e554",
+      "original_label": "KR GT15",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2025-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2025-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2400,
+      "weekday_minutes": [
+        480,
+        480,
+        480,
+        480,
+        480
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "44cdb8fc520a",
+        "locator": "Webseite: Elternbeiträge ab 01.09.2025",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "44cdb8fc520a",
+        "locator": "Beitragsmonate in der Quelle ausdrücklich genannt.",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "44cdb8fc520a",
+        "locator": "Webseite: Elternbeiträge ab 01.09.2025",
+        "original": null
+      },
+      "formula": null
+    }
+  ],
+  "prices": [
+    {
+      "id": "tamm-price-fcb5b63929ea",
+      "offer_id": "tamm-offer-d2c234c1f59c",
+      "amount_cents": 19900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "44cdb8fc520a",
+        "locator": "Webseite: Elternbeiträge ab 01.09.2025",
+        "original": 199
+      }
+    },
+    {
+      "id": "tamm-price-87dc5f16debb",
+      "offer_id": "tamm-offer-d2c234c1f59c",
+      "amount_cents": 15000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "44cdb8fc520a",
+        "locator": "Webseite: Elternbeiträge ab 01.09.2025",
+        "original": 150
+      }
+    },
+    {
+      "id": "tamm-price-889a777759d7",
+      "offer_id": "tamm-offer-d2c234c1f59c",
+      "amount_cents": 10000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "44cdb8fc520a",
+        "locator": "Webseite: Elternbeiträge ab 01.09.2025",
+        "original": 100
+      }
+    },
+    {
+      "id": "tamm-price-95549ab7d16d",
+      "offer_id": "tamm-offer-d2c234c1f59c",
+      "amount_cents": 5000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "44cdb8fc520a",
+        "locator": "Webseite: Elternbeiträge ab 01.09.2025",
+        "original": 50
+      }
+    },
+    {
+      "id": "tamm-price-c09c0fc3f77e",
+      "offer_id": "tamm-offer-995adcccb7fb",
+      "amount_cents": 31500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "44cdb8fc520a",
+        "locator": "Webseite: Elternbeiträge ab 01.09.2025",
+        "original": 315
+      }
+    },
+    {
+      "id": "tamm-price-c6080d601bac",
+      "offer_id": "tamm-offer-995adcccb7fb",
+      "amount_cents": 23700,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "44cdb8fc520a",
+        "locator": "Webseite: Elternbeiträge ab 01.09.2025",
+        "original": 237
+      }
+    },
+    {
+      "id": "tamm-price-831bd8f9b519",
+      "offer_id": "tamm-offer-995adcccb7fb",
+      "amount_cents": 15800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "44cdb8fc520a",
+        "locator": "Webseite: Elternbeiträge ab 01.09.2025",
+        "original": 158
+      }
+    },
+    {
+      "id": "tamm-price-d432104a05c0",
+      "offer_id": "tamm-offer-995adcccb7fb",
+      "amount_cents": 7900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "44cdb8fc520a",
+        "locator": "Webseite: Elternbeiträge ab 01.09.2025",
+        "original": 79
+      }
+    },
+    {
+      "id": "tamm-price-7819b0242e19",
+      "offer_id": "tamm-offer-af968255f028",
+      "amount_cents": 40200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "44cdb8fc520a",
+        "locator": "Webseite: Elternbeiträge ab 01.09.2025",
+        "original": 402
+      }
+    },
+    {
+      "id": "tamm-price-19e9e21ce305",
+      "offer_id": "tamm-offer-af968255f028",
+      "amount_cents": 30200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "44cdb8fc520a",
+        "locator": "Webseite: Elternbeiträge ab 01.09.2025",
+        "original": 302
+      }
+    },
+    {
+      "id": "tamm-price-3b0827dd686b",
+      "offer_id": "tamm-offer-af968255f028",
+      "amount_cents": 20100,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "44cdb8fc520a",
+        "locator": "Webseite: Elternbeiträge ab 01.09.2025",
+        "original": 201
+      }
+    },
+    {
+      "id": "tamm-price-56b2babe95dc",
+      "offer_id": "tamm-offer-af968255f028",
+      "amount_cents": 10100,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "44cdb8fc520a",
+        "locator": "Webseite: Elternbeiträge ab 01.09.2025",
+        "original": 101
+      }
+    },
+    {
+      "id": "tamm-price-a9a8122bb294",
+      "offer_id": "tamm-offer-c419fd372278",
+      "amount_cents": 47100,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "44cdb8fc520a",
+        "locator": "Webseite: Elternbeiträge ab 01.09.2025",
+        "original": 471
+      }
+    },
+    {
+      "id": "tamm-price-9cfc03bf2ce3",
+      "offer_id": "tamm-offer-c419fd372278",
+      "amount_cents": 35000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "44cdb8fc520a",
+        "locator": "Webseite: Elternbeiträge ab 01.09.2025",
+        "original": 350
+      }
+    },
+    {
+      "id": "tamm-price-3f2cd8fa3da8",
+      "offer_id": "tamm-offer-c419fd372278",
+      "amount_cents": 23600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "44cdb8fc520a",
+        "locator": "Webseite: Elternbeiträge ab 01.09.2025",
+        "original": 236
+      }
+    },
+    {
+      "id": "tamm-price-faa1a30676e5",
+      "offer_id": "tamm-offer-c419fd372278",
+      "amount_cents": 9300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "44cdb8fc520a",
+        "locator": "Webseite: Elternbeiträge ab 01.09.2025",
+        "original": 93
+      }
+    },
+    {
+      "id": "tamm-price-1af2fc9de2cf",
+      "offer_id": "tamm-offer-5e74bd57e554",
+      "amount_cents": 62800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "44cdb8fc520a",
+        "locator": "Webseite: Elternbeiträge ab 01.09.2025",
+        "original": 628
+      }
+    },
+    {
+      "id": "tamm-price-8cd7f6861de2",
+      "offer_id": "tamm-offer-5e74bd57e554",
+      "amount_cents": 47100,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "44cdb8fc520a",
+        "locator": "Webseite: Elternbeiträge ab 01.09.2025",
+        "original": 471
+      }
+    },
+    {
+      "id": "tamm-price-afcfbbe70965",
+      "offer_id": "tamm-offer-5e74bd57e554",
+      "amount_cents": 31400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "44cdb8fc520a",
+        "locator": "Webseite: Elternbeiträge ab 01.09.2025",
+        "original": 314
+      }
+    },
+    {
+      "id": "tamm-price-f320061e75bd",
+      "offer_id": "tamm-offer-5e74bd57e554",
+      "amount_cents": 15700,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "44cdb8fc520a",
+        "locator": "Webseite: Elternbeiträge ab 01.09.2025",
+        "original": 157
+      }
+    }
+  ],
+  "income_bands": [],
+  "components": [
+    {
+      "id": "tamm-component-98c48b4e2bd3",
+      "kind": "meal",
+      "original_label": "Verpflegung u3 VÖ",
+      "amount_cents": 7300,
+      "unit": "per_month",
+      "age_group": "u3",
+      "required": null,
+      "payment_months": 11,
+      "offer_ids": [
+        "tamm-offer-c419fd372278"
+      ],
+      "valid_from": "2025-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "44cdb8fc520a",
+        "locator": "Webseite: Verpflegungskosten",
+        "original": null
+      },
+      "care_type": "VÖ"
+    },
+    {
+      "id": "tamm-component-2743da0e6182",
+      "kind": "meal",
+      "original_label": "Verpflegung o3 VÖ",
+      "amount_cents": 8100,
+      "unit": "per_month",
+      "age_group": "o3",
+      "required": null,
+      "payment_months": 11,
+      "offer_ids": [
+        "tamm-offer-d2c234c1f59c"
+      ],
+      "valid_from": "2025-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "44cdb8fc520a",
+        "locator": "Webseite: Verpflegungskosten",
+        "original": null
+      },
+      "care_type": "VÖ"
+    },
+    {
+      "id": "tamm-component-a387850ac4dc",
+      "kind": "meal",
+      "original_label": "Verpflegung u3 GT",
+      "amount_cents": 8500,
+      "unit": "per_month",
+      "age_group": "u3",
+      "required": null,
+      "payment_months": 11,
+      "offer_ids": [
+        "tamm-offer-5e74bd57e554"
+      ],
+      "valid_from": "2025-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "44cdb8fc520a",
+        "locator": "Webseite: Verpflegungskosten",
+        "original": null
+      },
+      "care_type": "GT"
+    },
+    {
+      "id": "tamm-component-cf211cd3a244",
+      "kind": "meal",
+      "original_label": "Verpflegung o3 GT",
+      "amount_cents": 9300,
+      "unit": "per_month",
+      "age_group": "o3",
+      "required": null,
+      "payment_months": 11,
+      "offer_ids": [
+        "tamm-offer-995adcccb7fb",
+        "tamm-offer-af968255f028"
+      ],
+      "valid_from": "2025-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "44cdb8fc520a",
+        "locator": "Webseite: Verpflegungskosten",
+        "original": null
+      },
+      "care_type": "GT"
+    },
+    {
+      "id": "tamm-component-0532b7304f24",
+      "kind": "drinks",
+      "original_label": "Getränkepauschale",
+      "amount_cents": 250,
+      "unit": "per_month",
+      "age_group": null,
+      "required": true,
+      "payment_months": null,
+      "offer_ids": null,
+      "valid_from": "2025-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "44cdb8fc520a",
+        "locator": "Webseite: alle Betreuungsformen",
+        "original": null
+      }
+    }
+  ],
+  "rules": [
+    {
+      "id": "tamm-rule-a084d14f10f4",
+      "kind": "age_transition",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "effective": "month_after_third_birthday"
+      },
+      "evidence": {
+        "source_id": "44cdb8fc520a",
+        "locator": "Absatz unter der Beitragstabelle",
+        "original": null
+      }
+    },
+    {
+      "id": "tamm-rule-a9d9351c78a1",
+      "kind": "source_provisions_44cdb8fc520a",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "archive_text_path": "data/sources/44cdb8fc520a/text.txt",
+        "text_sha256": "ab6f0aa3ebe90980705f2c28972e52b88a10ec760e1ab3dd72b037a4db407192",
+        "review_status": "archived_provisions_preserved"
+      },
+      "evidence": {
+        "source_id": "44cdb8fc520a",
+        "locator": "Vollständiger archivierter Dokumenttext einschließlich Fußnoten",
+        "original": null
+      }
+    },
+    {
+      "id": "tamm-rule-a73c47f6f8d2",
+      "kind": "source_clause_44cdb8fc520a_1_1",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "original_research_clause_index": 0,
+        "interpretation_status": "documented_not_executed"
+      },
+      "evidence": {
+        "source_id": "44cdb8fc520a",
+        "locator": "PDF-/Textseite 1, Absatzblock 1",
+        "original": null
+      }
+    }
+  ],
+  "issues": [
+    {
+      "code": "pending_calculation_review",
+      "detail": "Strukturierter Import; noch keine Freigabe des Rechners oder der Website."
+    },
+    {
+      "code": "research_limitation_1",
+      "detail": "Vor Aktivierung nochmals Aktualität prüfen; kein unbelegter Preisstand 2026. Getränkegeld 2,50 € separat erhalten."
+    }
+  ],
+  "coverage": {
+    "publication_status": "not_active",
+    "integration_status": "normalized_pending_calculation_review",
+    "history_in_scope": false,
+    "source_register": "data/research/neighbor_expansion_2026-11-10.json",
+    "research_id": "tamm",
+    "unavailable_configurations": [],
+    "offers": 5,
+    "price_cells": 20,
+    "income_bands": 0,
+    "components": 5,
+    "rule_records": 3,
+    "tariff_table_transcription": "complete_for_declared_scope",
+    "declared_scope": "Aktuelle und bereits veröffentlichte künftige Krippen- und Kindergartentarife; Zusatzkosten und Gebührenregeln.",
+    "excluded_from_regular_price_rows": [
+      "superseded_historical_tariffs",
+      "school_childcare",
+      "takki_and_childminding",
+      "separate_playgroups"
+    ],
+    "calculation_engine_changed": false,
+    "rule_transcription": "typed_parameters_and_source_clauses_with_explicit_unimplemented_status"
+  },
+  "original_research": {
+    "path": "data/research/neighbor_expansion_2026-11-10.json",
+    "section": "Tamm",
+    "text": "Die aktuell veröffentlichte Kita-Seite nennt weiterhin September 2025; die 2026/27-Schulkindtabellen sind kein Ersatz für Kita-Tarife.\nVor Aktivierung nochmals Aktualität prüfen; kein unbelegter Preisstand 2026. Getränkegeld 2,50 € separat erhalten.",
+    "source_clauses": [
+      {
+        "text": "Stadt Tamm | Beiträge und Öffnungszeiten |\nStadt Tamm\nSeitenbereiche\nSprung zum Hauptmenü\nSprung zum Hauptinhalt\nSprung zum Kontakt\nSprung zu den Wichtigen Links\nSprung zur Suche\nHauptmenü\nIhr Javascript ist deaktiviert.\nHierdurch kann es sein, dass die Seite nicht vollständig angezeigt\nwird.\nBitte aktivieren Sie dies, um die Seite uneingeschränkt darstellen zu\nkönnen.\nStadt Tamm\nLeichte Sprache\nGebärdensprache\nVolltextsuche\nHauptmenü\nStadt & Daten\nGrußwort\nAktuelles\nAmtliche Mitteilungen & Amtsblatt\nAmtliche Mitteilungen\nAmtsblatt\nChronik\nOrtsplan\nDetails\nPartnerstädte\nPartnerstadt Castions di Strada\nPartnerstadt Althofen\nPartnerstadt Pézenas\nBürgerschaftliches Engagement\nRepair-Café\nTafF\nTammer Bürgerbus\nBürgerstiftung\nZiele / Zweck\nStiftungsräte\nGeförderte Projekte\nFinanzierung / Zustiftung\nAntrag / Spendenkonto\nStatistische Daten\nTammer Haus in Beuren\nFeuerwehr\nPolizei\nGemeindeentwicklungs-konzept\nRathaus & Service\nBürgerservice\nAnträge & Formulare Stadt Tamm\nOnlineanträge Service-BW\nPark & Ride\nVollzugsdienst - Ordnungsamt\nFormulare Service-BW\nBehördenübersicht Service-BW\nDownloadportal\nRathaus\nÖffnungszeiten\nMitarbeiter\nDienstleistungen\nLebenslagen\nSatzungen\nStadtfinanzen\nPolitik & Gemeinderat\nMitglieder des Gemeinderats\nSitzungen des Gemeinderats\nParteien\nLandtagswahl 2026\nWahlen 2024\nWahlergebnisse\nStellenangebote\nOffene Stellen\nUnsere Ausbildungsangebote\nAVL / Müllabfuhr\nÖffentlicher Nahverkehr\nStandesamtliche Trauungen in Tamm\nBauhof\nNeubürger\nIntegration\nInformationen\nIntegration Englisch\nEinfaches Deutsch\nImpressum & Service\nVideo in Gebärdensprache\nLeichte Sprache\nErklärung zur Barrierefreiheit\nSuche\nNavigationshilfe\nInhaltsverzeichnis\nResponsive Webdesign\nDatenschutzerklärung\nImpressum\nBau & Wirtschaft\nAusschreibungen\nBauplätze\nMietspiegel\nWirtschaftsförderung\nBebauungspläne\nBauvorhaben Stadt Tamm\nBauleitpläne im Beteiligungsverfahren\nRechtskräftige Bebauungspläne\nKlima & Umwelt\nAktion Gelbes Band\nLudwigsburger Energieagentur\nLärmaktionsplan\nKlimaschutzkonzept\nKommunale Wärmeplanung\nStarkregengefahrenkarten\nWärmenetz\nWärmenetz Hohenstange\nWärmenetz alter Ort\nBodenrichtwerte\nFirmen\nGaststätten & Hotels\nWochenmarkt\nBanken in Tamm\nStraßensperrungen\nGlasfaserausbau\nGrüne Nachbarschaft\nWasserwerk\nKultur & Freizeit\nVeranstaltungskalender\nKulturprogramm\nVereine und Verbände\nMärkte & Messen\nTamm Spielt\nWorld of Whisky in Tamm\nFrühlingsmarkt\nWeihnachtsmarkt\nBürgersaal\nVeranstaltungen Bürgersaal\nDie Halle\nMieten, Buchen & Kontakt\nGastronomie\nImpressionen\nKartenbestellung\nAnfahrt & Parkplätze\nKelter\nVeranstaltungen Kelter\nInfo für Veranstalter & Besucher\nMieten - Buchen - Kontakt\nKartenbestellung\nBücherei\nKontakt und Informationen\nVeranstaltungen der Bücherei\nAngebote für Schulen und Kindertageseinrichtungen\nLieferdienst der Bücherei\nSehenswürdigkeiten\nStadtführungen Tamm\nBartholomäuskirche\nTammer Wassertürme\nAltes & Neues Rathaus\nTammer Hammelwege\nEnztalradweg\nLehrschwimmbad\nSpielplätze\nSporthallen\nKulturwerkstatt\nBildung & Soziales\nKindertageseinrichtungen\nKinderbetreuung\nAnmeldeverfahren\nKindertageseinrichtungen\nBeiträge und Öffnungszeiten\nSchließtage\nInfonachmittage\nElternbeirat\nekB Grundschülerbetreuung\nGrundschülerbetreuung\nAnmeldeverfahren\nGebühren\nFerienbetreuung / Schließtage\nInfonachmittage ekB\nKrankenpflegeverein\nHier finden Sie uns\nDer Vorstand\nSatzung\nUnser Leitbild\nUnsere Leistungen\nGeschichte des Vereins\nBeitrittserklärung\nAktion Gute Fee\nWer steckt hinter der Aktion?\nTelefonliste Tamm\nNicht wegschauen - Einmischen!\nDie Tammer Adressen\nEhrenamts-Börse\nKindertagespflege in Tamm\nSchulen\nKinderferienprogramm\nJugendhaus\nÄrzte & Apotheken\nNotrufe & Krankenhäuser\nKirchen\nKleeblatt Pflegeheim\nSchiller-Volkshochschule LB\nÖkumenische Hospizinitiative im Landkreis Ludwigsburg e.V.\nFacebook\nKalender\nKontakt\nOrtsplan\ndrucken\noben\nStartseite\nBildung & Soziales\nKindertageseinrichtungen\nBeiträge und Öffnungszeiten\nSeiteninhalt\nBeiträge und Öffnungszeiten\nKindertageseinrichtung Alleenstraße 56\nVerlängerte Öffnungszeiten (KR/VÖ u3): 07:30 - 13:30 Uhr\nGanztagesbetreuung (KR/GT 15 u3): 07:00 - 15:00 Uhr\nKindertageseinrichtung Bismarckstraße 10\nGanztagesbetreuung (KR/GT 15 u3): 07:00 - 15:00 Uhr\nGanztagesbetreuung (GT 15 ü3): 07:00 - 15:00 Uhr\nGanztagesbetreuung (GT 17 ü3): 07:00 -17:00 Uhr\nKindertageseinrichtung Häldenstraße 8\nVerlängerte Öffnungszeiten (VÖ ü3): 07:30 - 13:30 Uhr\nKindertageseinrichtung Heilbronner Str. 22\nVerlängerte Öffnungszeiten (VÖ ü3): 07:30 - 13:30 Uhr\nGanztagesbetreuung (GT 15 ü3): 07:00 - 15:00 Uhr\nKindertageseinrichtung Heilbronner Str. 118\nVerlängerte Öffnungszeiten (VÖ ü3): 07:30 - 13:30 Uhr\nGanztagesbetreuung (GT 15 ü3): 07:00 - 15:00 Uhr\nKindertageseinrichtung Öhringer Straße 2\nVerlängerte Öffnungszeiten (KR/VÖ u3): 07:30 - 13:30 Uhr\nGanztagesbetreuung (KR/GT 15 u3): 07:00 - 15:00 Uhr\nVerlängerte Öffnungszeiten (VÖ ü3): 07:30 - 13:30 Uhr\nGanztagesbetreuung (GT 15 ü3): 07:00 - 15:00 Uhr\nGanztagesbetreuung (GT 17 ü3): 07:00 -17:00 Uhr\nKindertageseinrichtung Silcherstraße 6\nVerlängerte Öffnungszeiten (KR/VÖ u3): 07:30 - 13:30 Uhr\nVerlängerte Öffnungszeiten (VÖ ü3): 07:30 - 13:30 Uhr\nGanztagesbetreuung (GT 15 ü3): 07:00 - 15:00 Uhr\nErläuterungen\nVÖ = verlängerte Öffnungszeiten Mo-Fr 07:30 - 13:30 Uhr\nGT = Ganztagesbetreuung Mo-Fr 07:00 - 15:00 Uhr bzw. 17:00 Uhr\nKR = Krippe\nü3 = Kinder über 3 Jahre\nu3 = Kinder unter 3 Jahre\nElternbeiträge ab 01.09.2025\nBetreuungsform |\nElternbeitrag je Kind bei ... Kind/ern unter 18 Jahren im gleichen Haushalt |\n|\n1 |\n2 |\n3 |\n4 |\nVerlängerte Öffnungszeiten (VÖ) |\n199,00 € |\n150,00 € |\n100,00 € |\n50,00 € |\nGanztagesbetreuung (GT15 / ü3) |\n315,00 € |\n237,00 € |\n158,00 € |\n79,00 € |\nGanztagesbetreuung (GT17 / ü3) |\n402,00 € |\n302,00 € |\n201,00 € |\n101,00 € |\n|\n|\nKleinkinder (KR / VÖ u3) |\n471,00 € |\n350,00 € |\n236,00 € |\n93,00 € |\nKleinkinder (KR / GT15 u3) |\n628,00 € |\n471,00 € |\n314,00 € |\n157,00 € |\nDer monatliche Elternbeitrag richtet sich nach der Zahl der Kinder in der Familie bis zur Vollendung des 18. Lebensjahres. Eine Änderung bei der Kinderzahl wird jeweils ab dem der Änderung folgenden Monat berücksichtigt. Ebenso verhält es sich bei Kindern, die das dritte Lebensjahr vollendet haben. Der Ü3-Betrag gilt ab dem Folgemonat. Der Elternbeitrag ist in zwölf gleich bleibenden Monatsbeträgen in der jeweils festgesetzten Höhe von Beginn des Monats an zu entrichten, in dem das Kind in die Einrichtung aufgenommen wird.\nVerpflegungskosten:\nZzgl. bei den verlängerten Öffnungszeiten (derzeit noch hinzubuchbar)\n73 € für Kinder von 1-3 Jahren\n81 € für Kinder von 3 Jahren bis zum Schuleintritt\nZzgl. bei der Ganztagesbetreuung\n85 € für Kinder von 1-3 Jahren\n93 € für Kinder von 3 Jahren bis zum Schuleintritt\nZzgl. für alle Betreuungsformen (RG, VÖ, GT)\nGetränkepauschale 2,50 €\nDer Verpflegungskostenbetrag ist in elf gleich bleibenden Monatsbeträgen in der jeweils festgesetzten Höhe von Beginn des Monats an zu entrichten, in dem das Kind in die Einrichtung aufgenommen wird. In dem Monat, in den der größte Teil der Sommerferien der Einrichtungen fällt, ist der Verpflegungskostenbetrag nicht zu bezahlen.\nBenutzungsordnung für die Kindertageseinrichtungen\nHier finden Sie die Benutzungsordnung für die Kindertageseinrichtungen der Stadt Tamm.\nKontakt\nStadtverwaltung Tamm\nHauptstr. 100\n71732 Tamm\nTel.: 07141 / 606 - 0\nFax: 07141 / 606 - 185\nE-Mail schreiben\nÖffnungszeiten\nRathaus Stadt Tamm\nMo - Fr 08.00 Uhr - 12.00 Uhr\nMo 14.00 Uhr - 16.00 Uhr\nDo 15.30 Uhr - 18.00 Uhr\nDienstag, Mittwoch und Freitag nachmittags geschlossen\nWeitere Öffnungszeiten\nAuch Interessant\nFacebook\nYoutube\nStellenanzeige\nReservix\nWichtige Links\nInhalt\nZum Impressum\nBarrierefreiheit\nDatenschutzerklärung\nVerwenden Sie diese Tastaturbefehle,\num die\nSchriftgröße zu verändern:\nSTRG- bzw.\nSTRG+",
+        "evidence": {
+          "source_id": "44cdb8fc520a",
+          "locator": "PDF-/Textseite 1, Absatzblock 1",
+          "original": null
+        }
+      }
+    ]
+  }
+}

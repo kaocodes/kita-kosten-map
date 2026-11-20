@@ -85,7 +85,7 @@ def create_city(city_id, family_basis="under_18"):
 
 
 def payment(city, age=None):
-    months = RECORDS[city["id"]]["payment_months"]
+    months = city.get("_payment") or RECORDS[city["id"]]["payment_months"]
     if months["verification"] == "age_group_specific":
         months = months["by_age_group"][age]
     ref = evidence(months.get("source_id", city["_source"]), months.get("locator", months.get("notes", "Beitragspflicht")))
@@ -147,11 +147,11 @@ def matrix(city, label, age, hours, values, **kwargs):
     return item
 
 
-def component(city, label, value, *, source=None, locator="Verpflegung / Zusatzkosten", unit="per_month",
+def component(city, label, value, *, key=None, source=None, locator="Verpflegung / Zusatzkosten", unit="per_month",
               age=None, required=None, months=None, kind="meal", offers=None, **extra):
     if "meal_days_per_week" in extra:
         extra["days_per_week"]=extra.pop("meal_days_per_week")
-    item = {"id": stable_id(city, "component", label + str(extra.get("valid_from", city["_from"]))),
+    item = {"id": stable_id(city, "component", (key or label) + str(extra.get("valid_from", city["_from"]))),
             "kind": kind, "original_label": label, "amount_cents": money(value), "unit": unit,
             "age_group": age, "required": required, "payment_months": months,
             "offer_ids": [o["id"] for o in offers] if offers else None,
@@ -262,10 +262,16 @@ def adapter(name):
 def affalterbach():
     city = create_city("affalterbach")
     city["family_basis"] = "under_18"
+    review = json.loads((ROOT / "data/reviews/affalterbach_schedule_review.json").read_text())
+    schedules = {item["original_label"]: item for item in review["offers"]}
     for age, label, values in [("o3", "Verlängerte Öffnungszeiten Ü3", [155, 116, 77, 0]),
                                 ("o3", "Ganztagsbetreuung Ü3", [340, 340, 300, 0]),
                                 ("u3", "Ganztagsbetreuung ab dem dritten Lebensmonat", [503, 503, 447, 0])]:
-        matrix(city, label, age, None, values, minimum=3 if age == "u3" else 36, locator="§ 3 Gebührentabellen")
+        schedule = schedules[label]
+        daily = schedule["weekday_minutes"]
+        matrix(city, label, age, Decimal(sum(daily)) / 60, values,
+               minimum=3 if age == "u3" else 36, locator="§ 3 Gebührentabellen", daily=daily,
+               schedule_evidence=evidence(**schedule["schedule_evidence"]))
     component(city, "Essensgeld zusätzlich", None, required=None)
     rule(city, "adult_children_on_application", {"condition": "school_or_vocational_training", "application_required": True}, locator="§ 3 nach den Tabellen")
     rule(city, "partial_month", {"admission_from_day": 15, "admission_fraction": "1/2", "departure_until_day": 14, "departure_fraction": "1/2"}, locator="§ 5 Abs. 5")
@@ -276,13 +282,13 @@ def affalterbach():
 def aichwald():
     city = create_city("aichwald", "under_18_or_child_benefit")
     sid = "d9055ebd6801"
-    matrix(city, "Regelkindergarten", "o3", 30, [166,129,88,29], source=sid, continuous=False, locator="§ 6 Abs. 1")
+    matrix(city, "Regelkindergarten", "o3", 30, [166,129,88,29], source=sid, continuous=False, days_per_week=5, locator="§ 6 Abs. 1")
     matrix(city, "Regelkindergarten unter drei Jahren", "u3", 30, [332,258,176,58], source=sid, continuous=False, minimum=24, category="mixed_age", locator="§ 6 Abs. 1")
     matrix(city, "VÖ7 ohne Mittagessen", "o3", 35, ["207,50","161,50",110,"36,50"], daily=[420]*5, source=sid, locator="§ 6 Abs. 2")
     meal = component(city, "VÖ7 Ü3 enthaltenes Mittagessen", 75, age="o3", months=12, source=sid, locator="Differenz § 6 Abs. 2 und 3", inclusion="included", additional_charge=False)
     base = matrix(city, "VÖ7 mit Mittagessen", "o3", 35, ["282,50","236,50",185,"111,50"], daily=[420]*5, source=sid, included=[meal["id"]], locator="§ 6 Abs. 3")
     for days, add in [(5,[110,"85,50","58,50","19,50"]),(4,[88,"68,50","46,50","15,50"]),(3,[66,"51,50",35,"11,50"])]:
-        item = offer(city, f"VÖ7 + {days} GT-Nachmittage bis 16:30", "o3", 35 + days*2.5, source=sid, daily=[570]*5 if days==5 else None, locator=f"§ 6 Abs. 3 und 4, {days} Tage")
+        item = offer(city, f"VÖ7 + {days} GT-Nachmittage bis 16:30", "o3", 35 + days*2.5, source=sid, daily=[570]*5 if days==5 else None, days_per_week=5, locator=f"§ 6 Abs. 3 und 4, {days} Tage")
         for family, (original, supplement) in enumerate(zip(["282,50","236,50",185,"111,50"],add),1):
             row = price(city,item,money(original)+money(supplement),family,cents=True,included=[meal["id"]])
             row["derivation"]={"operation":"sum_published_cells","base_cents":money(original),"supplement_cents":money(supplement)}
@@ -292,8 +298,12 @@ def aichwald():
             ("Krippe 7–14 Uhr mit Mittagessen",35,[594,"455,50",325,160],5),
             ("Krippe GT fünf Nachmittage bis 16:30",47.5,["753,50","574,50",405,"191,50"],5),
             ("Krippe GT vier Nachmittage bis 16:30",None,[722,"550,50",389,185],4),
-            ("Krippe GT drei Nachmittage bis 16:30",None,[690,527,373,179],3)]:
-        item=matrix(city,label,"u3",hours,values,source=sid,daily=[int(hours*12)]*5 if hours else None,included=[food["id"]],locator="§ 6 Abs. 5–7; ursprüngliche Preise einschließlich Mittagessen")
+            ("Krippe GT drei Nachmittage bis 16:30",42.5,[690,527,373,179],3)]:
+        item=matrix(city,label,"u3",hours,values,source=sid,daily=[int(hours*12)]*5 if hours and days==5 else None,included=[food["id"]],
+                    locator="§ 6 Abs. 5–7; ursprüngliche Preise einschließlich Mittagessen",
+                    **({"days_per_week":5,"schedule_evidence":evidence("51cd863e63ef",
+                        "Grundbetreuung an fünf Tagen und drei GT-Nachmittage; kurze Tage bis 14 Uhr laut Nutzerfestlegung")}
+                       if days==3 else {}))
         for row in [p for p in city["prices"] if p["offer_id"]==item["id"]]:
             row["care_only_amount_cents"]=row["amount_cents"]-5300
             row["normalization"]={"operation":"subtract_known_included_meal","deduction_cents":5300,"decision_id":"2026-11-10-aichwald-u3-meals"}
@@ -307,6 +317,9 @@ def aichwald():
 @adapter("altbach")
 def altbach():
     city=create_city("altbach")
+    schedule_ref=evidence("1b761e309ae7", "Kinderhaus Vogelwiesen: Kindergarten und Kinderkrippe, Betreuungszeiten")
+    city["supporting_source_ids"].append(schedule_ref["source_id"])
+    city["issues"] = [issue for issue in city["issues"] if issue["code"] != "research_limitation_1"]
     for age,label,hours,values,category in [
         ("o3","Kindergarten VÖ30",30,[227,177,120,60],"kindergarten"),
         ("o3","Kindergarten GT40",40,[370,288,194,97],"kindergarten"),
@@ -314,9 +327,20 @@ def altbach():
         ("u3","Kindergarten U3 GT40",40,[703,548,369,185],"mixed_age"),
         ("u3","Kinderkrippe VÖ30",30,[537,399,269,135],"nursery"),
         ("u3","Kinderkrippe GT40",40,[716,532,359,180],"nursery")]:
-        matrix(city,label,age,hours,values,category=category,locator="Gebührenjahr 2026/2027, Ziffern 1–4")
+        schedule=[360]*5 if hours==30 else [510]*4+[360]
+        if category=="mixed_age":
+            matrix(city,label,age,hours,values,category=category,locator="Gebührenjahr 2026/2027, Ziffer 2")
+        else:
+            matrix(city,label,age,hours,values,category=category,locator="Gebührenjahr 2026/2027, Ziffern 1–4",
+                   daily=schedule,schedule_evidence=schedule_ref)
+    optional=[o for o in city["offers"] if o["original_label"]=="Kindergarten VÖ30"]
+    mandatory=[o for o in city["offers"] if o["weekday_minutes"] and o not in optional]
     for days,value in [(1,21),(2,41),(3,62),(4,82),(5,102)]:
-        component(city,f"Mittagessen {days} Tage/Woche",value,months=11,meal_days_per_week=days,locator="Ziffer 5 Mittagessen")
+        component(city,f"Mittagessen optional ({days} Tage/Woche)",value,required=False,offers=optional,
+                  months=11,meal_days_per_week=days,locator="Ziffer 5 Mittagessen")
+        if days==5:
+            component(city,"Mittagessen verpflichtend (5 Tage/Woche)",value,required=True,offers=mandatory,
+                      months=11,meal_days_per_week=days,locator="Ziffer 5 Mittagessen und Öffnungszeiten Kinderhaus Vogelwiesen")
     return city
 
 
@@ -358,18 +382,35 @@ def asperg():
 
 @adapter("benningen")
 def benningen():
-    city=create_city("benningen", "resident_children")
+    city=create_city("benningen","under_18")
+    kindergarten_application="a054d04197a1"
+    nursery_application="c6c5d5daf0ef"
+    city["supporting_source_ids"].extend([kindergarten_application,nursery_application])
+    city["issues"]=[issue for issue in city["issues"] if issue["code"]!="research_limitation_1"]
+    city["issues"].append({"code":"family_count_above_published_brackets",
+                           "detail":"Die Gebührentabelle nennt Beiträge für ein bis vier Kinder. Der Aufnahmeantrag erfasst vier oder mehr gemeinsam, nennt dafür aber keinen Tarif."})
+    schedules=[(0,"VÖ",[390]*5),(1,"GT fünf Tage",[570]*4+[450]),(2,"GT drei Tage",None)]
     for age,minimum,maximum,values in [("o3",36,None,[[217,417,356],[169,325,277],[115,221,189],[38,73,62]]),
             ("u3",24,36,[[434,834,712],[338,650,554],[230,442,378],[76,146,124]]),
             ("u3",12,24,[[582,895,None],[432,665,None],[291,448,None],[115,177,None]])]:
-        for column,label,hours in [(0,"VÖ",None),(1,"GT fünf Tage",45.5),(2,"GT drei Tage",None)]:
-            matrix(city,f"Ab {minimum//12}. Geburtstag: {label}",age,hours,[row[column] for row in values],minimum=minimum,maximum=maximum,locator="Elternbeiträge 2026/2027; Zeile der Altersgruppe",daily=[570]*4+[450] if column==1 else None)
+        for column,label,daily in schedules:
+            if column==0:
+                source=kindergarten_application if age=="o3" else nursery_application
+                schedule_ref=evidence(source,"Aufnahmeantrag S. 1, VÖ 6,5 zusammenhängende Stunden")
+            else:
+                schedule_ref=evidence("e12b8b803da5","Elternbeiträge 2026/2027, GT-Spalten und Zeitangaben am Seitenende")
+            matrix(city,f"Ab {minimum//12}. Geburtstag: {label}",age,Decimal(sum(daily))/60 if daily else None,
+                   [row[column] for row in values],minimum=minimum,maximum=maximum,
+                   locator="Elternbeiträge 2026/2027; Zeile der Altersgruppe",daily=daily,schedule_evidence=schedule_ref)
     for row in city["prices"]:
         row["selectors"]["family_count_is_minimum"]=False
-    rule(city,"conflicting_vo_hours",{"printed_daily_hours":"6,5","printed_opening_times":"7:00–14:30","resolved_daily_minutes":None},locator="Fußzeile der Gebührentabelle")
-    for group,values in [("ab zwei Jahren",[13,25,37,48,61]),("ab einem Jahr",[6,14,20,27,33])]:
+    rule(city,"vo_booking_window",{"daily_minutes":390,"window":"07:00–14:30"},nursery_application,
+         "Aufnahmeantrag S. 1, gewünschte Betreuungszeiten")
+    for group,is_younger,values in [("ab zwei Jahren",False,[13,25,37,48,61]),("ab einem Jahr",True,[6,14,20,27,33])]:
+        offers=[offer for offer in city["offers"] if (offer["age_min_months"]==12)==is_younger]
         for days,value in enumerate(values,1):
-            component(city,f"Mittagessen {group}, {days} Tage",value,meal_days_per_week=days,locator="Mittagessen neben den Altersgruppentabellen")
+            component(city,f"Mittagessen {group}, {days} Tage",value,required=False,offers=offers,
+                      months=11,meal_days_per_week=days,locator="Mittagessen neben den Altersgruppentabellen; August beitragsfrei laut § 6")
     component(city,"Verspätetes Abholen ab drittem Verstoß",50,unit="per_started_half_hour",kind="late_pickup",required=False)
     return city
 
@@ -382,7 +423,10 @@ def deizisau():
     for age,factor in [("o3",1),("u3",2)]:
         matrix(city,"VÖ 7–13 Uhr",age,30,[v*factor for v in base],daily=[360]*5,locator="VÖ-Tabelle ab September 2026")
         for days,values in gt.items():
-            matrix(city,f"GT 7–17 Uhr an {days} Tagen, sonst VÖ",age,30+4*days,[v*factor for v in values],daily=[600]*5 if days==5 else None,locator=f"GT-Tabelle, {days} Tage/Woche",gt_days_per_week=days,
+            daily=[600]*days+[360]*(5-days) if days>=4 else None
+            matrix(city,f"GT 7–17 Uhr an {days} Tagen, sonst VÖ",age,30+4*days,[v*factor for v in values],
+                   daily=daily,locator=f"GT-Tabelle, {days} Tage/Woche",gt_days_per_week=days,
+                   schedule_evidence=evidence("09e38530df32","Elternbeiträge 2026/27, tageweise buchbarer Ganztag und VÖ an übrigen Tagen"),
                    weekday_pattern={"long_days":days,"long_day_minutes":600,"other_day_minutes":360})
     component(city,"Mittagessen",None,required=True,offers=[o for o in city["offers"] if o.get("gt_days_per_week",0)>0],applies_when={"gt_days_per_week_min":1})
     rule(city,"gt_eligibility",{"annual_employer_certificate_required":True},locator="Einleitung zur Beitragstabelle")
@@ -409,7 +453,9 @@ def denkendorf():
             item=offer(city,label,age,hours,source=source,daily=[570]*4+[420] if hours==45 else [int(hours*12)]*5,minimum=0 if age=="u3" else 36,locator=f"PDF S. 1, {label}; Bruttoeinkommensgruppen")
             for income,values in zip(bands,rows,strict=True):
                 for family,value in enumerate(values,1):price(city,item,value,family,band=income)
-    component(city,"Mittagessen bei Ganztag verpflichtend; Kosten nicht bekannt",None,required=True,applies_when={"care_type":"full_day"},meal_days_per_week=5)
+    full_day=[o for o in city["offers"] if o["weekly_minutes"]==2700]
+    component(city,"Mittagessen bei Ganztag verpflichtend; Kosten nicht bekannt",None,required=True,
+              offers=full_day,meal_days_per_week=5)
     rule(city,"proportional_care_time",{"basis":"actually_offered_hours","minimum_gt_afternoons":2,"no_fictitious_daily_schedule":True},locator="Letzter Absatz der U3-/Ü3-Tabelle")
     return city
 
@@ -424,11 +470,17 @@ def hemmingen():
     for label,hours,rows,continuous in tables:
         for col,age in enumerate(["o3","u3"]):
             item=matrix(city,label,age,hours,[r[col] for r in rows[:4]],continuous=continuous,locator="§ 3 Abs. 2 a–d")
+            schedule = {"Regelgruppe": [360]*5, "VÖ": [420]*5, "GT": [510]*5}.get(label.split()[0])
+            if schedule:
+                item["model_schedule"] = {"weekday_minutes": schedule,
+                    "original_label": "Ganztagsbetreuung" if label.startswith("GT") else label,
+                    "schedule_evidence": evidence(city["_source"], "§ 3; kommunales Vormerkportal: Kita Hälde, fünf Tage U3 und Ü3")}
             price(city,item,rows[4][col],1,selectors={"single_parent":True})
             for row in city["prices"]:
                 if row["offer_id"]==item["id"] and row["selectors"]["family_count"]==1 and "single_parent" not in row["selectors"]:
                     row["selectors"]["single_parent"]=False
     rule(city,"rounding",{"unit_cents":10,"mode":"source_does_not_specify_direction"},locator="§ 3 Abs. 7")
+    city["model_tariff"] = "household_rows"
     return city
 
 
@@ -444,6 +496,7 @@ def magstadt():
                 row=price(city,item,amount,4,rank=rank,selectors={"care_rank_is_minimum":rank==4,"rank_basis":"birth_order"})
     component(city,"Mittagessen je Portion","3,95",unit="per_meal")
     rule(city,"gt_day_combination",{"age_group":"o3","minimum_gt_days":2,"daily_fraction":"1/5","remaining_days":"vo"},locator="Fußnote unter der Tabelle")
+    city["model_tariff"] = "birth_order"
     return city
 
 
@@ -489,6 +542,7 @@ def schwieberdingen():
         elif item["original_label"]=="VÖ mit MeKi":
             item["weekly_minutes"]=2400
             item["schedule_evidence"]=evidence("483de900d001","Pusteblume: MeKi 7:30–15:30, bis acht Stunden; konkrete Einrichtungsvariante separat dokumentiert")
+    city["model_tariff"] = "separate_age_tiers"
     return city
 
 
@@ -525,8 +579,11 @@ def eberdingen():
     for label,low,high,percent in [("unter 25.000 Euro",None,25000,50),("25.000,01–35.000 Euro","25000,01",35000,25)]:
         b=band(city,label,low,high,basis="gross_income",source=source["source_id"],upper_inclusive=percent!=50)
         rule(city,"income_reduction_"+str(percent),{"income_band_id":b,"discount_percent":percent,"condition":source["reduction_condition"]},source["source_id"],"§ 6 Abs. 9")
-    rule(city,"contract_regime",{"scope":"new_contribution_system","legacy_contracts":"preserved_in_original_not_automatically_reclassified"},source["source_id"],"Übergangsregelungen und alte Vertragssystematik")
+    rule(city,"contract_regime",{"scope":"new_contribution_system","new_placement_confirmation_from":"2023-07-01",
+        "legacy_contracts":"preserved_in_original_not_automatically_reclassified",
+        "legacy_opt_in_to_new_system_is_irreversible":True},"96de4f4a4e57","Übergangsregelung S. 10 des Masterplans")
     component(city,"Einrichtungsabhängiges Mittagessen zum Selbstkostenpreis",None,source=source["source_id"],required=None,locator="Satzung: Verpflegung")
+    city["model_tariff"] = "youngest_in_care"
     return city
 
 
@@ -543,6 +600,7 @@ def ehningen():
                 label=group["original_label"]+(f", {days} lange Tage" if days else "")
                 item=offer(city,label,age,total/60,source=s["source_id"],daily=schedule,locator="PDF S. 1–3, Grundgebühr und veröffentlichte Modulgruppen")
                 if days is not None:
+                    item["days_per_week"]=5
                     item["weekday_pattern"]={"long_days":days,"long_day_minutes":group["long_day_minutes"],"other_day_minutes":group["other_day_minutes"]}
                 for family,value in enumerate(base,1):
                     amount=value+(total-1800)//60*s["additional_weekly_hour_monthly_amounts_cents"][family-1]
@@ -565,9 +623,12 @@ def erdmannhausen():
             for gt_days in [0]+s["gt_days"]:
                 label=f"{category} VÖ"+(f" + {gt_days} GT-Nachmittage" if gt_days else "")+(" ermäßigter Grundbeitrag" if reduced else "")
                 base_minutes=410 if category=="u3" else 420
-                daily=[base_minutes]*5 if gt_days==0 else [600]*5 if gt_days==5 else None
+                daily=[base_minutes]*5 if gt_days==0 else [600]*gt_days+[base_minutes]*(5-gt_days) if gt_days>=4 else None
                 weekly=base_minutes*5+(600-base_minutes)*gt_days
-                item=offer(city,label,age,weekly/60,source=s["source_id"],daily=daily,minimum=30 if category=="u3_mixed" else None,category="mixed_age" if category=="u3_mixed" else "childcare",locator="PDF S. 3–7: Öffnungszeiten, Grundbeiträge und GT-Gesamttabellen",gt_days_per_week=gt_days)
+                item=offer(city,label,age,weekly/60,source=s["source_id"],daily=daily,minimum=30 if category=="u3_mixed" else None,
+                           category="mixed_age" if category=="u3_mixed" else "childcare",locator="PDF S. 3–7: Öffnungszeiten, Grundbeiträge und GT-Gesamttabellen",
+                           gt_days_per_week=gt_days,weekday_pattern={"long_days":gt_days,"long_day_minutes":600,"other_day_minutes":base_minutes},
+                           model_schedule={"days_per_week":5}, model_reduced_income=reduced)
                 surcharge=s["gt_monthly_surcharges_cents"][gt_days-1] if gt_days else 0
                 meal=s["published_meal_monthly_amounts_cents"][gt_days-1] if gt_days else 0
                 for family,value in enumerate(values,1):
@@ -578,14 +639,21 @@ def erdmannhausen():
                         row["included_components"]=[{"kind":"meal","amount_cents":meal,"unit":"per_month"}]
             rule(city,"gt_formula_"+category+("_reduced" if reduced else ""),{"base_amounts_cents":values,"gt_days":s["gt_days"],"gt_surcharges_cents":s["gt_monthly_surcharges_cents"],"meal_amounts_cents":s["published_meal_monthly_amounts_cents"]},s["source_id"],"PDF S. 3–7")
     for days,value in zip(s["gt_days"],s["published_meal_monthly_amounts_cents"],strict=True):
-        component(city,f"Mittagessen {days} Tage/Woche",str(Decimal(value)/100).replace('.',','),source=s["source_id"],meal_days_per_week=days,locator="Verpflegungsstaffel in den GT-Tabellen")
+        component(city,f"Mittagessen {days} Tage/Woche",str(Decimal(value)/100).replace('.',','),source=s["source_id"],
+                  required=True,months=payment(city,"u3")[0],offers=[item for item in city["offers"] if item["gt_days_per_week"]==days],
+                  locator="Verpflegungsstaffel in den GT-Tabellen")
+    component(city,"Mittagessen bei VÖ (optional)", "4,20",source=s["source_id"],required=False,unit="per_meal",
+              offers=[item for item in city["offers"] if item["gt_days_per_week"]==0],locator="PDF S. 4: Einzelpreis bei VÖ")
     rule(city,"family_and_income_discounts",s["additional_rules"],s["source_id"],"Ermäßigungsregeln und Fußnoten")
+    city["model_tariff"] = "erdmannhausen"
     return city
 
 
 @adapter("freiberg")
 def freiberg():
     city=create_city("freiberg","child_benefit")
+    municipal_hours="93da36bc25d7"
+    city["supporting_source_ids"].append(municipal_hours)
     s=transcription("Freiberg am Neckar")
     sid=s["source_id"]
     city["scope"]={"included":["municipal_o3","zwergenstueble_freiberg_u3"],"other_providers":"explicit_user_authorization_for_named_u3_provider"}
@@ -618,7 +686,8 @@ def freiberg():
         ("Vormittag 7 Stunden",35,[["242,50",279],["145,50","167,50"],["48,50",56],[0,0]]),
         ("GT40",40,[[355,408],[213,245],[71,"81,50"],[0,0]]),
         ("GT45",45,[[430,"494,50"],[258,"296,50"],[86,99],[0,0]])]:
-        item=offer(city,label,"o3",hours,source="5f09f91f5eb1",start="2026-09-01",daily=[int(hours*12)]*5 if hours in [30,35] else None,locator="Anlage A S. 1–2, "+label)
+        item=offer(city,label,"o3",hours,source="5f09f91f5eb1",start="2026-09-01",daily=[hours*12]*5,locator="Anlage A S. 1–2, "+label,
+                   schedule_evidence=evidence(municipal_hours,"Städtische Kindergärten, Beethovenkindergarten: Betreuungsmodelle Montag bis Freitag"))
         for family in range(1,5):
             for rank,row in enumerate(rows,1):
                 for n,value in enumerate(row,1):price(city,item,value,family,rank=rank,band=bands[family,n],selectors={"care_rank_is_minimum":rank==4,"rank_basis":"simultaneous_care_youngest_first"})
@@ -626,12 +695,28 @@ def freiberg():
         if part.get("age_group")=="o3":continue
         rows=part.get("rows",[part])
         for index,row in enumerate(rows,1):
-            label=part.get("original_label",part["kind"])+" "+str(index)
-            component(city,label,str(Decimal(row["amount_cents"])/100).replace('.',','),source=sid,age=part.get("age_group"),months=part.get("payment_months"),required=part.get("required"),kind=part["kind"],locator="Gebührenordnung S. 1 und 4–5",conditions=deepcopy(row),valid_from=s["valid_from"])
-    component(city,"Städtisches Ü3 VÖ Lebensmittelbeitrag",5,source="5f09f91f5eb1",age="o3",months=11,required=True,kind="supplies",locator="Anlage A S. 1")
-    component(city,"Städtisches Ü3 GT Mittagessen fünf Tage",82,source="5f09f91f5eb1",age="o3",months=11,required=True,locator="Anlage A S. 2")
+            label=part.get("original_label", "Mittagessen" if part["kind"]=="meal" else "Verspätete Abholung")+" "+str(index)
+            applicable=[]
+            if part["kind"]=="meal" and row["days_per_week"]==5:
+                applicable=[item for item in city["offers"] if item["age_group"]=="u3" and (item["weekly_minutes"] or 0)>=2400]
+            if part["kind"]=="supplies_and_food":
+                labels=row["original_labels"]
+                applicable=[item for item in city["offers"] if item["age_group"]=="u3" and any(
+                    item["original_label"].split(": ",1)[1].startswith(text) and
+                    ("plus" not in item["original_label"] or "plus" in text) for text in labels)]
+            component(city,label,str(Decimal(row["amount_cents"])/100).replace('.',','),source=sid,age="u3",
+                      months=part.get("payment_months"),required=True if applicable else part.get("required"),kind=part["kind"],
+                      locator="Gebührenordnung S. 1 und 4–5",conditions=deepcopy(row),valid_from=s["valid_from"],
+                      **({"model_offer_ids":[item["id"] for item in applicable]} if part["kind"]!="penalty" else {}),
+                      **({"meal_days_per_week":row["days_per_week"]} if part["kind"]=="meal" and "days_per_week" in row else {}))
+    municipal_o3=[item for item in city["offers"] if item["age_group"]=="o3"]
+    component(city,"Städtisches Ü3 VÖ Lebensmittelbeitrag",5,source="5f09f91f5eb1",age="o3",months=11,required=True,kind="supplies",
+              offers=[item for item in municipal_o3 if item["weekly_minutes"]<=2100],locator="Anlage A S. 1")
+    component(city,"Städtisches Ü3 GT Mittagessen fünf Tage",82,source="5f09f91f5eb1",age="o3",months=11,required=True,
+              offers=[item for item in municipal_o3 if item["weekly_minutes"]>=2400],locator="Anlage A S. 2")
     rule(city,"authorized_provider_supplementary_o3_tables",{"tables":[t for t in s["tables"] if t["age_group"]=="o3"],"components":[p for p in s["components"] if p.get("age_group")=="o3"],"use_as_municipal_o3_reference":False},sid,"S. 3–5, ergänzende Ü3-Anbietertarife; städtisches Ü3 bleibt maßgeblich")
     for index,value in enumerate(s["rules"]):rule(city,"provider_rule_"+str(index),value,sid,"Gebührenordnung S. 5")
+    city["model_tariff"] = "freiberg"
     return city
 
 
@@ -643,13 +728,24 @@ def baltmannsweiler():
     rows=[amounts(line) for line in text.splitlines() if re.match(r"\s*[1-4] Kind",line) and amounts(line)]
     assert len(rows)==32 and all(len(row)==3 for row in rows)
     groups=[("u3",25),("u3",30),("u3",35),("o3",25),("o3",30),("o3",35),("o3",40.5),("o3",44.5)]
+    city["supporting_source_ids"].extend(["2348d5a43099","5498e2f0ce9c"])
+    schedules={25:[300]*5,30:[360]*5,35:[420]*5,40.5:[360,570,570,570,360],44.5:[570]*4+[390]}
     for index,(age,hours) in enumerate(groups):
         for column,year in [(0,2026),(1,2027)]:
-            matrix(city,f"{hours} Stunden/Woche",age,hours,[r[column] for r in rows[index*4:index*4+4]],source=sid,cents=True,start=f"{year}-09-01",end=f"{year+1}-08-31" if year==2026 else None,locator=f"Abschnitt {'I' if age=='u3' else 'II'}, {hours} Wochenstunden; Spalte ab 01.09.{year}")
+            matrix(city,f"{hours} Stunden/Woche",age,hours,[r[column] for r in rows[index*4:index*4+4]],source=sid,cents=True,start=f"{year}-09-01",end=f"{year+1}-08-31" if year==2026 else None,locator=f"Abschnitt {'I' if age=='u3' else 'II'}, {hours} Wochenstunden; Spalte ab 01.09.{year}",
+                   daily=schedules[hours],schedule_evidence=evidence("2348d5a43099" if hours<=35 else "5498e2f0ce9c",
+                   "Betreuungsformen und Öffnungszeiten: "+("HT/VÖ/VÖ XL" if hours<=35 else "Ganztag mit drei oder vier Nachmittagen")))
     rule(city,"mandatory_meals",{"u3_all_models":True,"o3_vo_xl_and_gt":True,"u3_meal_days":5},sid,"Abschnitte I und II")
     for age,values in [("u3",[16,31,46,61,77]),("o3",[19,37,55,73,91])]:
         for days,value in enumerate(values,1):
-            component(city,f"Mittagessen {age} {days} Tage/Woche",value,age=age,source=sid,meal_days_per_week=days,locator="Abschnitt V, aktuelle Essensbeiträge (nicht Klammerwerte)")
+            for required in ([True] if age=="u3" else [True,False]):
+                if age=="u3" and days!=5:
+                    continue
+                offers=[o for o in city["offers"] if o["age_group"]==age and
+                        (age=="u3" or (o["weekly_minutes"]>=2100)==required)]
+                component(city,f"Mittagessen {age} {days} Tage/Woche ({'verpflichtend' if required else 'optional'})",
+                          value,age=age,source=sid,offers=offers,required=required,
+                          meal_days_per_week=days,locator="Abschnitte I, II und V, aktuelle Essensbeiträge")
     return city
 
 
@@ -664,9 +760,11 @@ def grafenau():
         for age,section in [("o3",rows[:4]),("u3",rows[4:])]:
             for days in range(6 if age=="o3" else 4):
                 matrix(city,"VÖ"+(f" + {days} GT-Nachmittage" if days else ""),age,30+days*3.5,[r[days] for r in section],source=sid,cents=True,
-                    start=f"{year}-09-01",end="2027-08-31" if year==2026 else None,daily=[360]*5 if days==0 else [570]*5 if days==5 else [570]*3+[360]*2 if age=="u3" and days==3 else None,
+                    start=f"{year}-09-01",end="2027-08-31" if year==2026 else None,daily=[360]*5 if days==0 else [570]*days+[360]*(5-days) if days>=4 or (age=="u3" and days==3) else None,
+                    days_per_week=5, weekday_pattern={"long_days":days,"long_day_minutes":570,"other_day_minutes":360},
                     locator=f"Gebührenverzeichnis {year}/{year+1}, Nr. {'1' if age=='o3' else '2'}, VÖ + {days} GT",gt_days_per_week=days)
-    component(city,"Mittagessen bei GT-Nachmittagen verpflichtend",None,required=True,applies_when={"gt_days_per_week_min":1},source=sid,locator="§ 3 Abs. 3")
+    gt_offers=[o for o in city["offers"] if o["gt_days_per_week"]>0]
+    component(city,"Mittagessen bei GT-Nachmittagen verpflichtend",None,required=True,offers=gt_offers,source=sid,locator="§ 3 Abs. 3 und § 8")
     rule(city,"gt_booking",{"minimum_gt_afternoons":1,"u3_gt_days_available":["monday","tuesday","wednesday"],"o3_gt_days_available":["monday","tuesday","wednesday","thursday","friday"]},sid,"§ 2–3")
     return city
 
@@ -705,11 +803,21 @@ def filderstadt():
             assert len(values)==8
             rows.append((int(match[1]),values,line.strip()))
     assert len(rows)==22
+    base_schedule={
+        "daily":[360]*5,
+        "schedule_evidence":evidence("91ba1dc6c23f",
+            "Städtisches Kinderhaus Am Schlittenhügel, Krippe und Kindergarten Mo–Fr 08:00–14:00 Uhr"),
+    }
     for section,age in [(rows[:11],"u3"),(rows[11:],"o3")]:
         for hours,values,original in section:
+            schedule=base_schedule if hours==30 else ({
+                "days_per_week":5,
+                "schedule_evidence":evidence("91ba1dc6c23f",
+                    "Kinderhaus Anna-Fischer-Weg, U3 und Ü3; Wochenbuchung in Vollstunden gemäß § 17"),
+            } if hours==40 else {})
             for column,year in [(0,2026),(4,2027)]:
                 matrix(city,f"{hours} gebuchte Wochenstunden",age,hours,values[column:column+4],source=sid,cents=True,start=f"{year}-09-01",end="2027-08-31" if year==2026 else None,
-                       locator=f"PDF S. 14, {age}, {hours} Stunden, Spalte {year}/{year+1}")
+                       locator=f"PDF S. 14, {age}, {hours} Stunden, Spalte {year}/{year+1}",**schedule)
     for age,rates in [("u3",[[537,399,269,106],["5,37","3,99","2,69","1,06"]]),("o3",[[181,141,96,32],["1,81","1,41","0,96","0,32"]])]:
         rule(city,"weekly_hour_formula_"+age,{"base_weekly_minutes":1800,"base_amounts_cents":[money(v) for v in rates[0]],"additional_hour_amounts_cents":[money(v) for v in rates[1]],"weeks_per_month":4},sid,"PDF S. 14, Formel zur Zubuchung; aktuelle Spalte 2026/2027")
     rule(city,"weekly_hour_formula_2027",{"u3_rates_cents":[559,416,280,110],"o3_rates_cents":[189,146,100,33],"weeks_per_month":4,"valid_from":"2027-09-01"},sid,"PDF S. 14, künftige Stundenpreise")
@@ -750,13 +858,23 @@ def remseck():
     sid="5ebe63b06876"
     for age,label,hours,values in [("o3","VÖ6",30,[225,173,116,39]),("o3","GT7,5",37.5,[304,234,153,49]),("o3","GT10",50,[406,313,203,64]),
           ("u3","VÖ6 Altersmischung",30,[356,277,184,61]),("u3","VÖ6 Kinderkrippe",30,[468,359,234,74]),("u3","GT7,5",37.5,[609,469,306,97]),("u3","GT10",50,[813,623,406,120])]:
-        item=matrix(city,label,age,hours,values,source=sid,daily=[int(hours*12)]*5,locator="Anlage 1 S. 6, Nr. 1")
-        for row in city["prices"]:
-            if row["offer_id"]==item["id"]:row["selectors"]["family_count_is_minimum"]=False
-        price(city,item,0,5,selectors={"family_count_is_minimum":True},locator="Anlage 1 Fußnote: ab fünftem Kind gebührenfrei")
-    component(city,"Mittagessen ein bis zwei Jahre",45,age="u3",required=True,months=10,source=sid,locator="Anlage 1 Nr. 2",age_max_months_exclusive=24)
-    component(city,"Mittagessen über zwei Jahre",90,required=True,months=10,source=sid,locator="Anlage 1 Nr. 2",age_min_months=24)
+        matrix(city,label,age,hours,values,minimum=24 if label=="VÖ6 Altersmischung" else None,
+               source=sid,daily=[int(hours*12)]*5,locator="Anlage 1 S. 6, Nr. 1")
+    for row in city["prices"]:
+        row["selectors"]["family_count_is_minimum"]=False
+    rule(city,"fifth_child_exemption",{"from_child":5,"applies_to":"requires_confirmation"},sid,
+         "Anlage 1, Fußnote zur Gebührenbefreiung ab dem fünften Kind")
+    for full_day in (False,True):
+        offer_group=[item for item in city["offers"] if (item["weekly_minutes"]>1800)==full_day]
+        label="Ganztag" if full_day else "VÖ"
+        for age,age_label,value in [("u3","1–2 Jahre",45),("u3","über 2 Jahre",90),("o3","ab 3 Jahren",90)]:
+            component(city,f"Mittagessen {age_label}, {label}",value,age=age,
+                      required=full_day if age=="o3" or not full_day else None,months=10,
+                      offers=[item for item in offer_group if item["age_group"]==age],
+                      source=sid,locator="Anlage 1 Nr. 2, Alter; Benutzungsordnung § 4 Abs. 3, Essen bei mehr als sechs Stunden",
+                      required_when_age_matches=full_day, model_age_band=age_label)
     rule(city,"family_pass",{"pass":"remseck_family_pass","meal_discount":False,"rate":"see_current_pass_rules"},sid,"§ 6")
+    city["model_tariff"] = "remseck"
     return city
 
 
@@ -764,22 +882,36 @@ def remseck():
 def schoenaich():
     city=create_city("schoenaich")
     for age,label,hours,values in [("o3","VÖ30",30,[166,129,88,29]),("u3","VÖ30",30,[492,366,247,97]),("o3","GT51,5",51.5,[530,380,234,150]),("u3","GT37,5",37.5,[690,513,349,138])]:
-        matrix(city,label,age,hours,values,locator="Anlage § 1 a–d, Spalte ab September 2026")
-    component(city,"Mittagessen",85,required=True,locator="Anlage S. 3")
-    for family,value in enumerate([140,120,100],1):component(city,f"Ferienbetreuung Familiengröße {family}",value,unit="per_week",kind="holiday_care",required=False,selectors={"family_count":family,"family_count_is_minimum":family==3},valid_from="2026-08-01",locator="Anlage S. 2, wöchentliche Feriengebühr")
+        schedule = {"u3": [375]*4+[390], "o3": [390]*4+[345]}[age] if hours==30 else [450]*5 if age=="u3" else [630]*4+[570]
+        item=matrix(city,label,age,hours,values,locator="Anlage § 1 a–d, Spalte ab September 2026",
+                    model_schedule={"weekday_minutes":schedule,"original_label":"VÖ" if hours==30 else label})
+        if hours==30:
+            for row in city["prices"]:
+                if row["offer_id"]==item["id"]:
+                    row["model_amount_cents"]=int((Decimal(row["amount_cents"])*sum(schedule)/1800).quantize(Decimal("1"), rounding="ROUND_HALF_UP"))
+    component(city,"Mittagessen",85,required=True,offers=[item for item in city["offers"] if item["weekly_minutes"]>1800],locator="Anlage S. 3")
+    for family,value in enumerate([140,120,100],1):component(city,f"Ferienbetreuung Familiengröße {family}",value,unit="per_week",kind="holiday_care",required=False,
+                model_family_count=min(3,family),selectors={"family_count":family,"family_count_is_minimum":family==3},valid_from="2026-08-01",locator="Anlage S. 2, wöchentliche Feriengebühr")
     rule(city,"vo_proportional_extension",{"base_weekly_minutes":1800,"proportional_fee":True,"requires_offered_hours":True},locator="Anlage a–b")
+    city["model_tariff"] = "scheduled_prices"
     return city
 
 
 @adapter("steinenbronn")
 def steinenbronn():
     city=create_city("steinenbronn")
-    matrix(city,"VÖ32,5","o3",32.5,[248,190,128,54],locator="Anlage 1 S. 1")
+    city["supporting_source_ids"].append("e81f520977e7")
+    matrix(city,"VÖ32,5","o3",32.5,[248,190,128,54],daily=[390]*5,locator="Anlage 1 S. 1",
+           schedule_evidence=evidence("04fd37644a31", "§ 3 Abs. 1, Kindergarten Spatzennest"))
     rows={35:([267,197,128,62],[411,273,133,68]),37:([276,204,132,63],[433,295,155,78]),39:([285,211,138,64],[454,317,178,89]),41:([294,218,142,65],[476,339,200,99])}
     for hours,(o3,u3) in rows.items():
-        matrix(city,f"{hours} Wochenstunden","o3",hours,o3,locator="Anlage 1 S. 1, VÖ/GT-Module")
-        matrix(city,f"Krippe {hours} Wochenstunden","u3",hours,u3,locator="Anlage 1 S. 2, Krippengruppen")
-        matrix(city,f"Altersmischung 2–3 Jahre {hours} Wochenstunden","u3",hours,u3,minimum=24,category="mixed_age",locator="Anlage 1 S. 1, zweite Spalte")
+        schedule=[420]*5 if hours==35 else None
+        matrix(city,f"{hours} Wochenstunden","o3",hours,o3,locator="Anlage 1 S. 1, VÖ/GT-Module",
+               daily=schedule,days_per_week=5,schedule_evidence=evidence("04fd37644a31", "§ 3 Absätze 1–2, Grundbetreuung und Zusatznachmittage"))
+        matrix(city,f"Krippe {hours} Wochenstunden","u3",hours,u3,locator="Anlage 1 S. 2, Krippengruppen",
+               daily=schedule,days_per_week=5,schedule_evidence=evidence("e81f520977e7", "Kinderkrippe im Bürgerhaus KiBS, U3-Regelzeit 07:00–14:00 Uhr; Zusatznachmittage siehe § 3 Abs. 2"))
+        matrix(city,f"Altersmischung 2–3 Jahre {hours} Wochenstunden","u3",hours,u3,minimum=24,category="mixed_age",
+               locator="Anlage 1 S. 1, zweite Spalte")
     matrix(city,"Splitting U3-20 an fünf Tagen","u3",20,[318,229,133,68],daily=[240]*5,locator="Anlage 1 S. 2, Modul U3-20")
     matrix(city,"Splitting U3-21 an drei Tagen","u3",21,[330,248,146,83],locator="Anlage 1 S. 2, Modul U3-21",days_per_week=3)
     component(city,"Verpflegung",None,source="04fd37644a31",locator="Benutzungsordnung: Verpflegung gesondert")
@@ -810,7 +942,7 @@ def waldenbuch():
           ("VÖ + GT9 mit Frühbetreuung",44,[[424,328,221],[764,591,399]])]
     for label,hours,rows in data:
         for age,values in zip(["o3","u3"],rows,strict=True):
-            item=matrix(city,label,age,hours,values,daily=[360]*5 if hours==30 else [420]*5 if label=="VÖ mit Frühbetreuung" else [480]*4+[420] if label=="VÖ + GT9" else [540]*4+[480] if hours==44 else None,locator="§ 3 Angebotsformen; § 4 a–f")
+            item=matrix(city,label,age,hours,values,daily=[360]*5 if hours==30 else [420]*5 if label=="VÖ mit Frühbetreuung" else [480]*4+[420] if label=="VÖ + GT9" else [540]*4+[480] if hours==44 else None,days_per_week=5,locator="§ 3 Angebotsformen; § 4 a–f")
             for row in city["prices"]:
                 if row["offer_id"]==item["id"] and row["selectors"]["family_count"]==3:row["selectors"]["family_count_is_minimum"]=True
     rule(city,"partial_month",{"admission_after_day":15,"departure_until_day":15,"fraction":"1/2"},locator="§ 2 Abs. 3")
@@ -836,7 +968,11 @@ def ostfildern():
         assert len(rows)==48,(page_index,len(rows))
         for column,hours in enumerate([30,35,40,45,50]):
             item=offer(city,f"{hours} Wochenstunden",age,hours,source=sid,start=f"{year}-09-01",end=f"{year+1}-08-31",minimum=0 if age=="u3" else 36,
-                locator=f"PDF S. {page_index+1}, {age}, {hours} Wochenstunden, Tarifjahr {year}/{year+1}",booking_status="requires_cross_check_with_published_offer_structure")
+                locator=f"PDF S. {page_index+1}, {age}, {hours} Wochenstunden, Tarifjahr {year}/{year+1}",
+                daily=[360]*5 if age=="o3" and hours==30 else None,
+                booking_status="confirmed_base_booking" if hours==40 or (age,hours) in {("o3",30),("u3",35)} else "requires_cross_check_with_published_offer_structure",
+                **({"days_per_week":5} if hours==40 or (age,hours)==("u3",35) else {}),
+                schedule_evidence=evidence(sid,"§ 8 Abs. 2–5, Grundbuchungen und Zubuchungen"))
             for row_index,(values,original) in enumerate(rows):
                 price(city,item,values[column],row_index%4+1,band=bands[row_index//4],cents=True,locator=f"PDF S. {page_index+1}, Stufe {row_index//4+1}, Familie {row_index%4+1}, {hours} Stunden")
     component(city,"Mittagessen",None,source=sid,locator="§ 5; Verpflegung zusätzlich")
@@ -852,6 +988,15 @@ def ostfildern():
 def weissach():
     city=create_city("weissach")
     sid="f5d4fce7afeb"
+    schedule_source="ad0d6b22f97a"
+    city["supporting_source_ids"].extend([schedule_source,"28c7ea67f2d8"])
+    schedules={30:[360]*5,37.5:[450]*5,40:[480]*5,50:[600]*5}
+    locators={30:"VÖ 30 Wochenstunden, Modell 1 oder 2",37.5:"Ganztag 37,5 Wochenstunden, Modell 1 oder 2",
+              40:"Ganztag 40 Wochenstunden, Modell 3, Mo–Fr 8:00–16:00 Uhr",
+              50:"Ganztag 50 Wochenstunden, Modell 1"}
+    city["issues"]=[issue for issue in city["issues"] if issue["code"]!="research_limitation_1"]
+    city["issues"].append({"code":"family_count_above_published_brackets",
+                           "detail":"Die Staffel nennt Beiträge für ein bis vier Kinder. Eine Zuordnung für fünf oder mehr Haushaltskinder ist nicht belegt."})
     page=read_text(sid).split("\f")[11]
     section=page.split("Snack- und Getränkekostenpauschale")[0]
     rows=[amounts(line) for line in section.splitlines() if len(amounts(line))==3]
@@ -860,31 +1005,51 @@ def weissach():
         for index,hours in enumerate([30,35,37.5,40,50]):
             values=rows[group*20+index*4:group*20+index*4+4]
             for column,year in [(1,2026),(2,2027)]:
-                item=matrix(city,f"bis {hours} Wochenstunden",age,hours,[row[column] for row in values],source=sid,cents=True,start=f"{year}-09-01",end="2027-08-31" if year==2026 else None,locator=f"PDF S. 12, {age}, bis {hours} Stunden, Spalte {year}")
+                item=matrix(city,f"bis {hours} Wochenstunden",age,hours,[row[column] for row in values],source=sid,cents=True,start=f"{year}-09-01",end="2027-08-31" if year==2026 else None,locator=f"PDF S. 12, {age}, bis {hours} Stunden, Spalte {year}",
+                            daily=schedules.get(hours),schedule_evidence=evidence(schedule_source,locators.get(hours,"VÖ 35 Wochenstunden mit Nachmittagsunterbrechung")))
                 for row in city["prices"]:
                     if row["offer_id"]==item["id"]:row["selectors"]["family_count_is_minimum"]=False
-    component(city,"Snack und Getränke 30 Stunden",5,required=True,kind="supplies",source=sid,locator="PDF S. 12, aktuelle Spalten 2026/2027",weekly_minutes=1800)
-    component(city,"Snack und Getränke ab 35 Stunden",7,required=True,kind="supplies",source=sid,locator="PDF S. 12",weekly_minutes_min=2100)
-    component(city,"Verpflegung ab 37,5 Stunden fünf Tage",60,required=True,source=sid,locator="PDF S. 12",weekly_minutes_min=2250,meal_days_per_week=5)
+    component(city,"Snack und Getränke 30 Stunden",5,required=True,kind="supplies",source=sid,locator="PDF S. 12, aktuelle Spalten 2026/2027",
+              offers=[o for o in city["offers"] if o["weekly_minutes"]==1800],months=12)
+    component(city,"Snack und Getränke ab 35 Stunden",7,required=True,kind="supplies",source=sid,locator="PDF S. 12",
+              offers=[o for o in city["offers"] if o["weekly_minutes"]>=2100],months=12)
+    component(city,"Verpflegung ab 37,5 Stunden fünf Tage",60,required=True,source=sid,locator="PDF S. 12",
+              offers=[o for o in city["offers"] if o["weekly_minutes"]>=2250],months=12,meal_days_per_week=5)
     return city
 
 
 @adapter("plochingen")
 def plochingen():
     city=create_city("plochingen")
-    matrix(city,"Regelgruppe und flexible/VÖ-Gruppe","o3",None,[186,150,106,50],continuous=False,locator="PDF S. 1, Regelbetreuung")
-    matrix(city,"Regelgruppe ab zwei Jahren","u3",None,[372,300,212,100],minimum=24,category="mixed_age",continuous=False,locator="PDF S. 1, Regelbetreuung U3")
+    support="4759198b2594"
+    city["supporting_source_ids"].append(support)
+    city["issues"]=[issue for issue in city["issues"] if issue["code"]!="research_limitation_1"]
+    for age,label,values in [("o3","Flexible/VÖ-Gruppe", [186,150,106,50]),
+                             ("u3","Flexible/VÖ-Gruppe ab zwei Jahren", [372,300,212,100])]:
+        matrix(city,label,age,30,values,daily=[360]*5,minimum=24 if age=="u3" else 36,
+               category="mixed_age" if age=="u3" else "childcare",locator="PDF S. 1, Regelgruppe und flexible/VÖ-Gruppe",
+               schedule_evidence=evidence(support,"Kommunale Kindergärten: Parkkindergarten Bruckenwasen, VÖ ab zwei Jahren"))
     for age,rows in [("o3",[[340,303,266],[262,234,209],[181,164,143],[56,55,54]]),("u3",[[700,654,604],[544,521,481],[380,356,329],[108,100,93]])]:
         for col,days in enumerate([4,3,2]):
-            matrix(city,f"{days} GT-Tage bis 16 Uhr, sonst Regelgruppe",age,42 if days==4 else None,[r[col] for r in rows],daily=[540]*4+[360] if days==4 else None,locator=f"PDF S. 1, {age}, {days} GT-Tage",gt_days_per_week=days)
+            matrix(city,f"{days} GT-Tage bis 16 Uhr, sonst Regelgruppe",age,30+3*days,[r[col] for r in rows],daily=[540]*4+[360] if days==4 else None,locator=f"PDF S. 1, {age}, {days} GT-Tage",days_per_week=5,gt_days_per_week=days,
+                   schedule_evidence=evidence(support,"Kommunale Kindergärten: Kinderhaus Bismarckstraße, Krippe und Kindergarten"))
     rows=[[335,304,276,245],[256,235,213,194],[175,159,148,135],[50,50,50,50]]
     for col,days in enumerate([5,4,3,2]):
         matrix(city,f"St. Johann: {days} GT-Tage 7:30–15:30, sonst Regelgruppe","o3",40 if days==5 else None,[r[col] for r in rows],daily=[480]*5 if days==5 else None,
-               locator="PDF S. 2, ausschließlich Kindergarten Sankt Johann",scope="named_provider_offer",gt_days_per_week=days)
-    matrix(city,"Kinderkrippe 7:30–15:30 fünf Tage","u3",40,[666,532,359,106],daily=[480]*5,locator="PDF S. 2, Kinderkrippe")
-    for label,age,values in [("GT bis 16 Uhr", "o3",["40,80","61,20","81,60",102]),("St. Johann","o3",["37,60","56,40","75,20",94])]:
-        for days,value in zip([2,3,4,5],values,strict=True):component(city,f"Mittagessen {label} {days} Tage",value,age=age,months=11,meal_days_per_week=days,locator="Mittagessen unter den jeweiligen Tabellen")
-    for label,value in [("Kinderkrippe bis 16 Uhr fünf Tage",98),("Kinderkrippe bis 15:30 fünf Tage",94)]:component(city,"Mittagessen "+label,value,age="u3",months=11,meal_days_per_week=5)
+               locator="PDF S. 2, ausschließlich Kindergarten Sankt Johann",scope="non_municipal",gt_days_per_week=days)
+    matrix(city,"Kinderkrippe 7:30–15:30 fünf Tage","u3",40,[666,532,359,106],daily=[480]*5,
+           locator="PDF S. 2, Kinderkrippe Sankt Johann",scope="non_municipal")
+    for label,scope,values in [("GT bis 16 Uhr","municipal",["40,80","61,20","81,60",102]),
+                               ("St. Johann","non_municipal",["37,60","56,40","75,20",94])]:
+        for days,value in zip([2,3,4,5],values,strict=True):
+            offers=[o for o in city["offers"] if o["age_group"]=="o3" and o["scope"]==scope and
+                    o.get("gt_days_per_week")==min(days,4 if scope=="municipal" else 5)]
+            component(city,f"Mittagessen {label} {days} Tage",value,age="o3",months=11,offers=offers,
+                      locator="Mittagessen unter den jeweiligen Tabellen")
+    for label,scope,value in [("Kinderkrippe bis 16 Uhr fünf Tage","municipal",98),
+                              ("Kinderkrippe bis 15:30 fünf Tage","non_municipal",94)]:
+        offers=[o for o in city["offers"] if o["age_group"]=="u3" and o["scope"]==scope and o["weekly_minutes"]!=1800]
+        component(city,"Mittagessen "+label,value,age="u3",months=11,offers=offers)
     rule(city,"meal_refund",{"refund_from_absence_day":6,"planned_absence_notice_days":14,"august_charge":False},locator="PDF S. 1, wichtige Hinweise")
     return city
 
@@ -893,29 +1058,57 @@ def plochingen():
 def rutesheim():
     city=create_city("rutesheim")
     sid="3ffe1980c0fd"
+    published_hours="232b2c65d445"
+    city["supporting_source_ids"].append(published_hours)
+    kindergarten_schedule={
+        "daily":[375]*5,
+        "schedule_evidence":evidence(published_hours,"Kindergarten Richard-Wagner-Straße, Mo–Fr 07:15–13:30 Uhr"),
+    }
+    gt_schedule={
+        "15:00":([480]*5,"Kindergarten Goethestraße, Mo–Fr 07:00–15:00 Uhr"),
+        "17:00":([600]*5,"Kindergarten Robert-Bosch-Straße, Mo–Fr 07:00–17:00 Uhr"),
+    }
+    nursery_schedule={
+        "13:30":([390]*5,"Kinderkrippe Spatzennest, Mo–Fr 07:00–13:30 Uhr"),
+        "15:00":([480]*5,"Kinderkrippe Küken, Mo–Fr 07:00–15:00 Uhr"),
+        "17:00":([600]*5,"Haus der Kinder, Mo–Fr 07:00–17:00 Uhr"),
+    }
     for year,regular,nursery,gt in [(2026,[166,129,88,29],[380,490,620],[365,490]),(2027,[173,134,92,30],[395,500,640],[375,500])]:
         source=sid if year==2026 else "2189c4f26a64"
         end="2027-08-31" if year==2026 else None
-        matrix(city,"Kindergarten bis 13:30 Uhr","o3",None,regular,source=source,start=f"{year}-09-01",end=end,locator=f"Gebühren Kindergarten {year}/{year+1}")
+        matrix(city,"Kindergarten bis 13:30 Uhr","o3",31.25,regular,source=source,start=f"{year}-09-01",end=end,locator=f"Gebühren Kindergarten {year}/{year+1}",**kindergarten_schedule)
         for index,time in enumerate(["13:30","15:00","17:00"]):
             for days in [5,3,2]:
-                item=offer(city,f"Kinderkrippe bis {time}, {days} Tage","u3",None,source=source,start=f"{year}-09-01",end=end,locator="Kinderkrippe Vollzeit / Sharingplätze; Anteilsberechnung bei Sharing",days_per_week=days)
+                daily,place=nursery_schedule[time]
+                item=offer(city,f"Kinderkrippe bis {time}, {days} Tage","u3",sum(daily)/60 if days==5 else None,
+                           daily=daily if days==5 else None,source=source,start=f"{year}-09-01",end=end,
+                           locator="Kinderkrippe Vollzeit / Sharingplätze; Anteilsberechnung bei Sharing",days_per_week=days,
+                           schedule_evidence=evidence(published_hours,place))
                 row=price(city,item,money(nursery[index])*days//5,1,cents=True,selectors={"family_count_is_minimum":True})
                 row["derivation"]={"full_time_cents":money(nursery[index]),"days_numerator":days,"days_denominator":5}
         for index,time in enumerate(["15:00","17:00"]):
             for days in [5,4,3,2]:
-                item=offer(city,f"GT bis {time}, {days} Tage + übrige Tage Kindergarten","o3",None,source=source,start=f"{year}-09-01",end=end,locator="Ganztagesbetreuung; übrige Regelgruppentage zusätzlich anteilig",gt_days_per_week=days)
+                daily,place=gt_schedule[time]
+                item=offer(city,f"GT bis {time}, {days} Tage + übrige Tage Kindergarten","o3",sum(daily)/60 if days==5 else None,
+                           daily=daily if days==5 else None,source=source,start=f"{year}-09-01",end=end,
+                           locator="Ganztagesbetreuung; übrige Regelgruppentage zusätzlich anteilig",gt_days_per_week=days,
+                           schedule_evidence=evidence(published_hours,place))
                 for rank in [1,2]:
                     row=price(city,item,(money(gt[index])-(5000 if rank==2 else 0))*days//5,1,rank=rank,cents=True,selectors={"family_count_is_minimum":True,"care_rank_is_minimum":rank==2,"rank_basis":"simultaneous_krippe_gt_hort"})
                     row["price_role"]="full_month_total" if days==5 else "gt_portion_requires_regular_fee_for_remaining_days"
         for time,value in [("13:30",210 if year==2026 else 215),("15:00",gt[0])]:
             for days in [1,5]:
-                item=offer(city,f"U3 Kindergarten Richard-Wagner bis {time}, {days} Tage","u3",None,minimum=24,category="mixed_age",source=source,start=f"{year}-09-01",end=end,locator="U3 im Kindergarten Richard-Wagner; § 3 Abs. 4",days_per_week=days)
+                daily=kindergarten_schedule["daily"] if time=="13:30" else [480]*5
+                item=offer(city,f"U3 Kindergarten Richard-Wagner bis {time}, {days} Tage","u3",sum(daily)/60 if days==5 else None,
+                           minimum=24,category="mixed_age",daily=daily if days==5 else None,source=source,
+                           start=f"{year}-09-01",end=end,locator="U3 im Kindergarten Richard-Wagner; § 3 Abs. 4",days_per_week=days,
+                           schedule_evidence=evidence(published_hours,"Kindergarten Richard-Wagner-Straße, VÖ und GT"))
                 price(city,item,money(value)*days//5,1,cents=True,selectors={"family_count_is_minimum":True})
     for age,values in [("o3",{2:32,3:48,4:64,5:80}),("u3",{2:24,3:36,5:60})]:
         for days,value in values.items():component(city,f"Mittagessen {age} {days} Tage",value,age=age,meal_days_per_week=days,source=sid,locator="PDF S. 2, Mittagessen")
     rule(city,"simultaneous_sibling_discount",{"amount_cents":5000,"applies_to":"additional_children_in_krippe_gt_hort","rank_assignment":"not_defined_in_overview"},sid,"PDF S. 1–2, Geschwisterhinweis")
     rule(city,"family_pass_contribution",{"own_share_percent_of_income":10,"income_definition":"requires_separate_review","application_required":True},sid,"Ermäßigungsspalte; keine allgemeine Netto-/Bruttoumrechnung")
+    city["model_tariff"] = "rutesheim"
     return city
 
 
@@ -923,26 +1116,34 @@ def rutesheim():
 def renningen():
     city=create_city("renningen")
     s=transcription("Renningen")
+    kindergarten_hours="8afe40b37316"
+    city["supporting_source_ids"].append(kindergarten_hours)
+    preschool_schedule=evidence(kindergarten_hours,"Städtische Kindergärten: VÖ, GT40 und GT46")
     for table in s["tables"]:
         year=table["valid_from"][:4]
         if table["age_group"]=="u3":
             for row in table["rows"]:
                 hours=30 if "30" in row["original_label"] else 40
-                matrix(city,row["original_label"],"u3",hours,row["amounts_cents"],source=s["source_id"],cents=True,start=table["valid_from"],end="2027-08-31" if year=="2026" else None,locator=f"PDF S. 9, Krippe ab {table['valid_from']}")
+                matrix(city,row["original_label"],"u3",hours,row["amounts_cents"],source=s["source_id"],cents=True,start=table["valid_from"],end="2027-08-31" if year=="2026" else None,locator=f"PDF S. 9, Krippe ab {table['valid_from']}",
+                       daily=[hours*12]*5,schedule_evidence=evidence(s["source_id"],"§ 3 Abs. 1, VÖ sechs bzw. GT40 acht Stunden täglich"))
         else:
-            matrix(city,"VÖ monatlicher Festbetrag","o3",None,table["rows"][0]["amounts_cents"],source=s["source_id"],cents=True,start=table["valid_from"],end="2027-08-31" if year=="2026" else None,locator=f"PDF S. 10, VÖ ab {table['valid_from']}")
-            rule(city,"hourly_fee_parameters_"+year,{"valid_from":table["valid_from"],"base_amounts_cents_per_hour":table["rows"][1]["amounts_cents"],"additional_hour_from_31_cents":table["additional_hour_from_31_cents"],"monthly_conversion_factor":None,"conversion_status":"requires_calculation_review_not_inferred"},s["source_id"],"PDF S. 10, Gebühr je Stunde der wöchentlichen Betreuungszeit; kein Monatsbeitrag")
+            matrix(city,"VÖ monatlicher Festbetrag","o3",30,table["rows"][0]["amounts_cents"],source=s["source_id"],cents=True,
+                   start=table["valid_from"],end="2027-08-31" if year=="2026" else None,locator=f"PDF S. 10, VÖ ab {table['valid_from']}",
+                   daily=[360]*5,schedule_evidence=preschool_schedule)
+            rule(city,"hourly_fee_parameters_"+year,{"valid_from":table["valid_from"],"base_amounts_cents_per_hour":table["rows"][1]["amounts_cents"],"additional_hour_from_31_cents":table["additional_hour_from_31_cents"],"monthly_conversion_factor":None,"conversion_status":"monthly_conversion_not_published"},s["source_id"],"PDF S. 10, Gebühr je Stunde der wöchentlichen Betreuungszeit; kein Monatsbeitrag")
             for hours in [40,46]:
-                item=offer(city,f"GT{hours} nach Stundenformel","o3",hours,source=s["source_id"],start=table["valid_from"],end="2027-08-31" if year=="2026" else None,locator="§ 3 Angebotszeiten; S. 10 Stundenparameter")
-                item["formula"]={"type":"documented_hourly_parameters","base_amounts_cents_per_hour":table["rows"][1]["amounts_cents"],"additional_hour_from_31_cents":table["additional_hour_from_31_cents"],"execution_status":"requires_calculation_review"}
+                offer(city,f"GT{hours} nach Stundenformel","o3",hours,source=s["source_id"],start=table["valid_from"],
+                      end="2027-08-31" if year=="2026" else None,locator="§ 3 Angebotszeiten; S. 10 Stundenparameter",
+                      daily=[480]*5 if hours==40 else [570]*4+[480],schedule_evidence=preschool_schedule)
     component(city,"Mittagessen kostendeckend zusätzlich",None,required=None,source=s["source_id"],locator="Fußnote unter den Tabellen")
     rule(city,"playgroups_outside_comparison",{"monthly_amounts_cents_by_date":s["playgroup_monthly_cents"],"not_regular_nursery":True},s["source_id"],"§ 7 und gesonderte Spielgruppentarife")
+    city["model_tariff"] = "renningen"
     return city
 
 
 @adapter("waiblingen")
 def waiblingen():
-    city=create_city("waiblingen","under_18")
+    city=create_city("waiblingen","child_benefit")
     sid="59ecf75191ad"
     tables={"o3":[("Bis 30 Stunden ohne Mittagessen",30,"0,25",100,300,False),("Bis 30 Stunden mit Mittagessen",30,"0,30",120,360,True),
       ("31–35 Stunden mit Mittagessen",35,"0,40",160,480,True),("36–40 Stunden mit Mittagessen",40,"0,42",168,504,True),("41–50 Stunden mit Mittagessen",50,"0,50",200,600,True),
@@ -958,15 +1159,18 @@ def waiblingen():
             elif label.startswith("36–40"):item["weekly_minutes_lower_exclusive"]=2100
             elif label.startswith("41–50"):item["weekly_minutes_lower_exclusive"]=2400
             elif age=="u3" and label=="Bis 30 Stunden ohne Mittagessen":item["weekly_minutes_lower_exclusive"]=1200
+            if label in {"Bis 30 Stunden ohne Mittagessen", "36–40 Stunden mit Mittagessen"}:
+                item["model_schedule"] = {"days_per_week":5}
             if label.startswith("Kombination"):
                 item["time_derivation"]={"short_days":2,"short_day_maximum_minutes":360,"long_days":3,"long_day_maximum_minutes":600,"result_is_upper_bound":True}
             item["formula"]={"type":"percentage_of_annual_income","income_basis":"waiblingen_household_gross_including_child_benefit","percent":percent.replace(',','.'),
                 "income_floor_cents":4000000,"income_cap_cents":12000000,"minimum_monthly_cents":money(minimum),"maximum_monthly_cents":money(maximum),"published_min_max_before_child_discount":True,"no_income_proof":"maximum_monthly_fee"}
             if included:
-                food=component(city,"Im Tarif enthalten: "+age+" "+label,None,age=age,required=True,source="dae7d9e3a67b",locator="§ 6 Nr. 9; Nutzerfestlegung 2026-11-10-waiblingen-included-meals",offers=[item],inclusion="included",additional_charge=False,value_status="included",decision_id="2026-11-10-waiblingen-included-meals")
+                food=component(city,"Essenspauschale enthalten",None,key="Im Tarif enthalten: "+age+" "+label,age=age,required=True,source="dae7d9e3a67b",locator="§ 6 Nr. 9; Nutzerfestlegung 2026-11-10-waiblingen-included-meals",offers=[item],inclusion="included",additional_charge=False,value_status="included",decision_id="2026-11-10-waiblingen-included-meals")
                 item["included_components"]=[{"component_id":food["id"],"kind":"meal","amount_cents":None,"additional_charge":False}]
-    rule(city,"child_discount_by_birth_rank",{"discount_percent":[0,50,75,"87.5",100],"free_from_rank":5,"rank_basis":"birth_order_of_family_children_under_18","not_simultaneous_care_rank":True},"dae7d9e3a67b","§ 5")
+    rule(city,"child_discount_by_birth_rank",{"discount_percent":[0,50,75,"87.5",100],"free_from_rank":5,"rank_basis":"birth_order_of_children_with_child_benefit","not_simultaneous_care_rank":True},"dae7d9e3a67b","§ 5")
     rule(city,"income_definition",{"include_child_benefit":True,"include_other_household_income":True,"period":"year","formula_assessment":"source_defined_household_gross"},"dae7d9e3a67b","§ 4")
+    city["model_tariff"] = "waiblingen"
     return city
 
 
@@ -1005,13 +1209,20 @@ def kernen():
             values.append(full[year][age])
             for col,(low,high) in enumerate([(46,48),(43,46),(40,43)]):
                 item=offer(city,f"GT Angebotsklasse {col+1}: über {low} bis {high} Stunden",age,high,source=sid,start=f"{year}-01-01",end=f"{year}-12-31" if year<2028 else None,
-                    locator=f"PDF S. {7 if year==2026 else 8 if age=='o3' else 9}, GT {year}, Klasse {col+1}",weekly_minutes_lower_exclusive=low*60,weekly_minutes_upper_inclusive=high*60,weekly_minutes_is_upper_bound=True)
+                    locator=f"PDF S. {7 if year==2026 else 8 if age=='o3' else 9}, GT {year}, Klasse {col+1}",weekly_minutes_lower_exclusive=low*60,weekly_minutes_upper_inclusive=high*60,weekly_minutes_is_upper_bound=True,
+                    **({"model_schedule":{"days_per_week":5,"weekly_minutes":2400,"original_label":"Ganztag, Tarifstufe 40–43 Stunden"}} if low==40 else {}))
                 for income,row in zip(bands,values,strict=True):price(city,item,row[col],1,band=income,selectors={"family_count_is_minimum":True})
-    for age,value in [("o3",5),("u3",10)]:component(city,"Zusatzbuchung bis zwei Stunden "+age,value,age=age,kind="extra_care",unit="per_booked_day",source=sid,locator="§ 6a und § 7 Abs. 1 h")
-    for days,value in [(3,54),(5,90)]:component(city,f"Mittagessen {days} Tage",value,meal_days_per_week=days,source=sid,locator="§ 7 Abs. 1 i")
+    gt_offers = [item for item in city["offers"] if item.get("weekly_minutes_is_upper_bound")]
+    for age,value in [("o3",5),("u3",10)]:
+        component(city,"Zusatzbuchung bis zwei Stunden "+age,value,age=age,kind="extra_care",required=False,unit="per_booked_day",
+                  offers=[item for item in gt_offers if item["age_group"]==age],source=sid,locator="§ 6a und § 7 Abs. 1 h")
+    for days,value in [(3,54),(5,90)]:
+        component(city,f"Mittagessen {days} Tage",value,meal_days_per_week=days,source=sid,required=None,months=12,
+                  offers=gt_offers,locator="§ 7 Abs. 1 i")
     rule(city,"family_discounts",{"second_child_benefit_child_discount_percent":20,"single_parent_discount_percent":10,"order":["income_band","sibling_discount","single_parent_discount"],"meals_and_extra_bookings_excluded":True},sid,"§ 7 Abs. 8 a, PDF S. 12")
     rule(city,"u3_mixed_age_surcharge",{"percent":100,"applies_to":"admission_before_age_three_to_kindergarten","includes_vo_supplement":True,"rounding":"ceil_to_euro"},sid,"§ 7 Abs. 1 d und Abs. 3")
     rule(city,"income_assessment",{"reference":"source_defined_income_and_benefits","application_required":True,"incomplete_proof":"full_fee","no_automatic_gross_conversion":True},sid,"§ 7 Abs. 4–5, PDF S. 10–12")
+    city["model_tariff"] = "kernen"
     return city
 
 
@@ -1037,7 +1248,7 @@ def render_report(manifest):
         "Alle Geldbeträge sind ganzzahlige Centwerte, Zeiten Minuten. Beitragsmonate bleiben je Angebot/Kostenbaustein gespeichert. Bei Freiberg sind es U3 zwölf und Ü3 elf. Amtlicher Nachweis, Ableitung und ausdrückliche Nutzerangabe bleiben unterscheidbar.", "",
         "## Erfassungsgrenzen", "",
         "Aktuelle Krippen- und Kindergartentarife sowie in denselben Quellen bereits veröffentlichte künftige Fassungen sind übertragen. Überholte historische Tabellen, Schulkindbetreuung, TAKKI/Kindertagespflege und separate Spielgruppen gehören nicht zu den regulären Vergleichspreiszeilen. Ihre Originalunterlagen bleiben erhalten; ergänzende Klauseln sind dokumentiert. Es wird keine historische Preisreihe angelegt.", "",
-        "Eine Tabelle kann einen Tarif nennen, ohne die Buchbarkeit einer konkreten Tagesverteilung zu belegen. Dies bleibt beispielsweise bei einzelnen Ostfilderner Stundenklassen und bei der widersprüchlichen Benninger VÖ-Zeit offen. Der Schuljahresbeginn für die nur als 2026/2027 bezeichneten Tabellen in Altbach und Benningen ist ausdrücklich als Ableitung gekennzeichnet.", "",
+        "Eine Tabelle kann einen Tarif nennen, ohne die Buchbarkeit einer konkreten Tagesverteilung zu belegen. Dies bleibt beispielsweise bei einzelnen Ostfilderner Stundenklassen offen. Die Benninger Aufnahmeanträge belegen 6,5 zusammenhängende Stunden VÖ innerhalb des längeren Buchungsfensters. Der Schuljahresbeginn für die nur als 2026/2027 bezeichneten Tabellen in Altbach und Benningen ist ausdrücklich als Ableitung gekennzeichnet.", "",
         "## Besonderheiten für Rechenprüfung und Integration", "",
         "- **Denkendorf:** Jahresbrutto direkt verwenden; die genehmigte Ausnahme betrifft ausschließlich einen kürzeren Freitag bei ausreichender Betreuung Montag bis Donnerstag. Tatsächliche Zeiten und verpflichtendes GT-Essen mit unbekanntem Betrag bleiben sichtbar zu machen.",
         "- **Schwieberdingen:** elf Monate gemäß Nutzerbestätigung; die vereinbarte kumulative U3-Stufenregel ist als Modellannahme dokumentiert. Preiswirksame ungeklärte Ü3-Ränge und fehlende dritte Rangzellen bleiben `unavailable` / „Nicht berechenbar“.",

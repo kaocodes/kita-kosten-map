@@ -90,12 +90,27 @@ class ExpansionImportsTests(unittest.TestCase):
 
     def test_no_fictitious_schedules_or_silent_future_price_correction(self):
         benningen=self.cities["benningen"]
-        self.assertTrue(all(o["weekday_minutes"] is None for o in benningen["offers"] if "VÖ" in o["original_label"]))
+        self.assertTrue(all(o["weekday_minutes"] == [390]*5 for o in benningen["offers"] if "VÖ" in o["original_label"]))
+        self.assertTrue(all(o["weekday_minutes"] is None for o in benningen["offers"] if "GT drei Tage" in o["original_label"]))
         self.assertTrue(all(o["weekly_minutes"]<=2100 for o in self.cities["baltmannsweiler"]["offers"] if o["age_group"]=="u3"))
         asperg=self.cities["asperg"]
         offer=next(o for o in asperg["offers"] if o["original_label"]=="GT9,5 an 3 Tagen" and o["valid_from"]=="2027-09-01")
         price=next(p for p in asperg["prices"] if p["offer_id"]==offer["id"] and p["selectors"]["family_count"]==4)
         self.assertEqual(price["amount_cents"],28450)
+
+    def test_erdmannhausen_two_child_nursery_cells_match_the_tariff_scan(self):
+        city = self.cities["erdmannhausen"]
+        cases = {
+            "u3 VÖ": (37200, 37200),
+            "u3 VÖ ermäßigter Grundbeitrag": (26040, 26040),
+            "u3 VÖ + 5 GT-Nachmittage": (60600, 52200),
+            "u3 VÖ + 5 GT-Nachmittage ermäßigter Grundbeitrag": (49440, 41040),
+        }
+        for label, expected in cases.items():
+            offer = next(item for item in city["offers"] if item["original_label"] == label)
+            row = next(item for item in city["prices"]
+                       if item["offer_id"] == offer["id"] and item["selectors"]["family_count"] == 2)
+            self.assertEqual((row["amount_cents"], row["care_only_amount_cents"]), expected, label)
 
     def test_reproducible_import(self):
         result=subprocess.run([sys.executable,"scripts/normalize_expansion_tariffs.py","--check"],cwd=ROOT,capture_output=True,text=True)

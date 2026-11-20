@@ -1,0 +1,13 @@
+{
+  "id": "dd3e952d070a",
+  "municipality": "Neuhausen auf den Fildern",
+  "title": "Kinderhaus am Egelsee: Vergabe und Zeitmodelle",
+  "url": "https://www.kitas-neuhausen.de/Unsere-kommunalen-Kitas/Kommunale-Kitas/Kinderhaus-am-Egelsee",
+  "retrieved_at": "2026-11-20T19:47:23.053600+00:00",
+  "http_status": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "final_url": "https://www.kitas-neuhausen.de/Unsere-kommunalen-Kitas/Kommunale-Kitas/Kinderhaus-am-Egelsee",
+  "error": null,
+  "local_path": "data/sources/dd3e952d070a/document.html",
+  "sha256": "db1fcfd6b9b2b548d8cce006c0607ba8aa0300191ac85ea6922277176427f556"
+}

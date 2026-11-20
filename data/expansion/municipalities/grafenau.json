@@ -60,6 +60,12 @@
         "original": null
       },
       "formula": null,
+      "days_per_week": 5,
+      "weekday_pattern": {
+        "long_days": 0,
+        "long_day_minutes": 570,
+        "other_day_minutes": 360
+      },
       "gt_days_per_week": 0
     },
     {
@@ -96,6 +102,12 @@
         "original": null
       },
       "formula": null,
+      "days_per_week": 5,
+      "weekday_pattern": {
+        "long_days": 1,
+        "long_day_minutes": 570,
+        "other_day_minutes": 360
+      },
       "gt_days_per_week": 1
     },
     {
@@ -132,6 +144,12 @@
         "original": null
       },
       "formula": null,
+      "days_per_week": 5,
+      "weekday_pattern": {
+        "long_days": 2,
+        "long_day_minutes": 570,
+        "other_day_minutes": 360
+      },
       "gt_days_per_week": 2
     },
     {
@@ -168,6 +186,12 @@
         "original": null
       },
       "formula": null,
+      "days_per_week": 5,
+      "weekday_pattern": {
+        "long_days": 3,
+        "long_day_minutes": 570,
+        "other_day_minutes": 360
+      },
       "gt_days_per_week": 3
     },
     {
@@ -183,9 +207,15 @@
       "scope": "municipal",
       "category": "childcare",
       "weekly_minutes": 2640,
-      "weekday_minutes": null,
+      "weekday_minutes": [
+        570,
+        570,
+        570,
+        570,
+        360
+      ],
       "continuous": true,
-      "schedule_status": "daily_distribution_unverified",
+      "schedule_status": "verified",
       "schedule_evidence": {
         "source_id": "2dda8afa554c",
         "locator": "Gebührenverzeichnis 2026/2027, Nr. 1, VÖ + 4 GT",
@@ -204,6 +234,12 @@
         "original": null
       },
       "formula": null,
+      "days_per_week": 5,
+      "weekday_pattern": {
+        "long_days": 4,
+        "long_day_minutes": 570,
+        "other_day_minutes": 360
+      },
       "gt_days_per_week": 4
     },
     {
@@ -246,6 +282,12 @@
         "original": null
       },
       "formula": null,
+      "days_per_week": 5,
+      "weekday_pattern": {
+        "long_days": 5,
+        "long_day_minutes": 570,
+        "other_day_minutes": 360
+      },
       "gt_days_per_week": 5
     },
     {
@@ -288,6 +330,12 @@
         "original": null
       },
       "formula": null,
+      "days_per_week": 5,
+      "weekday_pattern": {
+        "long_days": 0,
+        "long_day_minutes": 570,
+        "other_day_minutes": 360
+      },
       "gt_days_per_week": 0
     },
     {
@@ -324,6 +372,12 @@
         "original": null
       },
       "formula": null,
+      "days_per_week": 5,
+      "weekday_pattern": {
+        "long_days": 1,
+        "long_day_minutes": 570,
+        "other_day_minutes": 360
+      },
       "gt_days_per_week": 1
     },
     {
@@ -360,6 +414,12 @@
         "original": null
       },
       "formula": null,
+      "days_per_week": 5,
+      "weekday_pattern": {
+        "long_days": 2,
+        "long_day_minutes": 570,
+        "other_day_minutes": 360
+      },
       "gt_days_per_week": 2
     },
     {
@@ -402,6 +462,12 @@
         "original": null
       },
       "formula": null,
+      "days_per_week": 5,
+      "weekday_pattern": {
+        "long_days": 3,
+        "long_day_minutes": 570,
+        "other_day_minutes": 360
+      },
       "gt_days_per_week": 3
     },
     {
@@ -444,6 +510,12 @@
         "original": null
       },
       "formula": null,
+      "days_per_week": 5,
+      "weekday_pattern": {
+        "long_days": 0,
+        "long_day_minutes": 570,
+        "other_day_minutes": 360
+      },
       "gt_days_per_week": 0
     },
     {
@@ -480,6 +552,12 @@
         "original": null
       },
       "formula": null,
+      "days_per_week": 5,
+      "weekday_pattern": {
+        "long_days": 1,
+        "long_day_minutes": 570,
+        "other_day_minutes": 360
+      },
       "gt_days_per_week": 1
     },
     {
@@ -516,6 +594,12 @@
         "original": null
       },
       "formula": null,
+      "days_per_week": 5,
+      "weekday_pattern": {
+        "long_days": 2,
+        "long_day_minutes": 570,
+        "other_day_minutes": 360
+      },
       "gt_days_per_week": 2
     },
     {
@@ -552,6 +636,12 @@
         "original": null
       },
       "formula": null,
+      "days_per_week": 5,
+      "weekday_pattern": {
+        "long_days": 3,
+        "long_day_minutes": 570,
+        "other_day_minutes": 360
+      },
       "gt_days_per_week": 3
     },
     {
@@ -567,9 +657,15 @@
       "scope": "municipal",
       "category": "childcare",
       "weekly_minutes": 2640,
-      "weekday_minutes": null,
+      "weekday_minutes": [
+        570,
+        570,
+        570,
+        570,
+        360
+      ],
       "continuous": true,
-      "schedule_status": "daily_distribution_unverified",
+      "schedule_status": "verified",
       "schedule_evidence": {
         "source_id": "2dda8afa554c",
         "locator": "Gebührenverzeichnis 2027/2028, Nr. 1, VÖ + 4 GT",
@@ -588,6 +684,12 @@
         "original": null
       },
       "formula": null,
+      "days_per_week": 5,
+      "weekday_pattern": {
+        "long_days": 4,
+        "long_day_minutes": 570,
+        "other_day_minutes": 360
+      },
       "gt_days_per_week": 4
     },
     {
@@ -630,6 +732,12 @@
         "original": null
       },
       "formula": null,
+      "days_per_week": 5,
+      "weekday_pattern": {
+        "long_days": 5,
+        "long_day_minutes": 570,
+        "other_day_minutes": 360
+      },
       "gt_days_per_week": 5
     },
     {
@@ -672,6 +780,12 @@
         "original": null
       },
       "formula": null,
+      "days_per_week": 5,
+      "weekday_pattern": {
+        "long_days": 0,
+        "long_day_minutes": 570,
+        "other_day_minutes": 360
+      },
       "gt_days_per_week": 0
     },
     {
@@ -708,6 +822,12 @@
         "original": null
       },
       "formula": null,
+      "days_per_week": 5,
+      "weekday_pattern": {
+        "long_days": 1,
+        "long_day_minutes": 570,
+        "other_day_minutes": 360
+      },
       "gt_days_per_week": 1
     },
     {
@@ -744,6 +864,12 @@
         "original": null
       },
       "formula": null,
+      "days_per_week": 5,
+      "weekday_pattern": {
+        "long_days": 2,
+        "long_day_minutes": 570,
+        "other_day_minutes": 360
+      },
       "gt_days_per_week": 2
     },
     {
@@ -786,6 +912,12 @@
         "original": null
       },
       "formula": null,
+      "days_per_week": 5,
+      "weekday_pattern": {
+        "long_days": 3,
+        "long_day_minutes": 570,
+        "other_day_minutes": 360
+      },
       "gt_days_per_week": 3
     }
   ],
@@ -2402,17 +2534,31 @@
       "age_group": null,
       "required": true,
       "payment_months": null,
-      "offer_ids": null,
+      "offer_ids": [
+        "grafenau-offer-98e9ca624105",
+        "grafenau-offer-ba607ea01d6c",
+        "grafenau-offer-e8974153f1ef",
+        "grafenau-offer-0d4123daf3c9",
+        "grafenau-offer-370f72ae87d7",
+        "grafenau-offer-2e1f4ef94dd3",
+        "grafenau-offer-d28124227b73",
+        "grafenau-offer-85e040c19c74",
+        "grafenau-offer-b5c35e1b1dee",
+        "grafenau-offer-c9bbbbab818f",
+        "grafenau-offer-7b9bbd54c439",
+        "grafenau-offer-f1395f826203",
+        "grafenau-offer-f71281473b8f",
+        "grafenau-offer-bbf36f7e785c",
+        "grafenau-offer-ea0a9d2885f9",
+        "grafenau-offer-d9dbdeadd65b"
+      ],
       "valid_from": "2026-09-01",
       "valid_to": null,
       "value_status": "unknown",
       "evidence": {
         "source_id": "2dda8afa554c",
-        "locator": "§ 3 Abs. 3",
+        "locator": "§ 3 Abs. 3 und § 8",
         "original": null
-      },
-      "applies_when": {
-        "gt_days_per_week_min": 1
       }
     }
   ],

@@ -33,12 +33,18 @@
       "scope": "municipal",
       "category": "childcare",
       "weekly_minutes": 1800,
-      "weekday_minutes": null,
+      "weekday_minutes": [
+        360,
+        360,
+        360,
+        360,
+        360
+      ],
       "continuous": true,
-      "schedule_status": "daily_distribution_unverified",
+      "schedule_status": "verified",
       "schedule_evidence": {
         "source_id": "af550fae0296",
-        "locator": "PDF S. 10, o3, 30 Wochenstunden, Tarifjahr 2026/2027",
+        "locator": "§ 8 Abs. 2–5, Grundbuchungen und Zubuchungen",
         "original": null
       },
       "payment_months": 12,
@@ -54,7 +60,7 @@
         "original": null
       },
       "formula": null,
-      "booking_status": "requires_cross_check_with_published_offer_structure"
+      "booking_status": "confirmed_base_booking"
     },
     {
       "id": "ostfildern-offer-f096567b3bd5",
@@ -74,7 +80,7 @@
       "schedule_status": "daily_distribution_unverified",
       "schedule_evidence": {
         "source_id": "af550fae0296",
-        "locator": "PDF S. 10, o3, 35 Wochenstunden, Tarifjahr 2026/2027",
+        "locator": "§ 8 Abs. 2–5, Grundbuchungen und Zubuchungen",
         "original": null
       },
       "payment_months": 12,
@@ -110,7 +116,7 @@
       "schedule_status": "daily_distribution_unverified",
       "schedule_evidence": {
         "source_id": "af550fae0296",
-        "locator": "PDF S. 10, o3, 40 Wochenstunden, Tarifjahr 2026/2027",
+        "locator": "§ 8 Abs. 2–5, Grundbuchungen und Zubuchungen",
         "original": null
       },
       "payment_months": 12,
@@ -126,7 +132,8 @@
         "original": null
       },
       "formula": null,
-      "booking_status": "requires_cross_check_with_published_offer_structure"
+      "booking_status": "confirmed_base_booking",
+      "days_per_week": 5
     },
     {
       "id": "ostfildern-offer-fe099e82d085",
@@ -146,7 +153,7 @@
       "schedule_status": "daily_distribution_unverified",
       "schedule_evidence": {
         "source_id": "af550fae0296",
-        "locator": "PDF S. 10, o3, 45 Wochenstunden, Tarifjahr 2026/2027",
+        "locator": "§ 8 Abs. 2–5, Grundbuchungen und Zubuchungen",
         "original": null
       },
       "payment_months": 12,
@@ -182,7 +189,7 @@
       "schedule_status": "daily_distribution_unverified",
       "schedule_evidence": {
         "source_id": "af550fae0296",
-        "locator": "PDF S. 10, o3, 50 Wochenstunden, Tarifjahr 2026/2027",
+        "locator": "§ 8 Abs. 2–5, Grundbuchungen und Zubuchungen",
         "original": null
       },
       "payment_months": 12,
@@ -213,12 +220,18 @@
       "scope": "municipal",
       "category": "childcare",
       "weekly_minutes": 1800,
-      "weekday_minutes": null,
+      "weekday_minutes": [
+        360,
+        360,
+        360,
+        360,
+        360
+      ],
       "continuous": true,
-      "schedule_status": "daily_distribution_unverified",
+      "schedule_status": "verified",
       "schedule_evidence": {
         "source_id": "af550fae0296",
-        "locator": "PDF S. 11, o3, 30 Wochenstunden, Tarifjahr 2027/2028",
+        "locator": "§ 8 Abs. 2–5, Grundbuchungen und Zubuchungen",
         "original": null
       },
       "payment_months": 12,
@@ -234,7 +247,7 @@
         "original": null
       },
       "formula": null,
-      "booking_status": "requires_cross_check_with_published_offer_structure"
+      "booking_status": "confirmed_base_booking"
     },
     {
       "id": "ostfildern-offer-f8d5f904b4f8",
@@ -254,7 +267,7 @@
       "schedule_status": "daily_distribution_unverified",
       "schedule_evidence": {
         "source_id": "af550fae0296",
-        "locator": "PDF S. 11, o3, 35 Wochenstunden, Tarifjahr 2027/2028",
+        "locator": "§ 8 Abs. 2–5, Grundbuchungen und Zubuchungen",
         "original": null
       },
       "payment_months": 12,
@@ -290,7 +303,7 @@
       "schedule_status": "daily_distribution_unverified",
       "schedule_evidence": {
         "source_id": "af550fae0296",
-        "locator": "PDF S. 11, o3, 40 Wochenstunden, Tarifjahr 2027/2028",
+        "locator": "§ 8 Abs. 2–5, Grundbuchungen und Zubuchungen",
         "original": null
       },
       "payment_months": 12,
@@ -306,7 +319,8 @@
         "original": null
       },
       "formula": null,
-      "booking_status": "requires_cross_check_with_published_offer_structure"
+      "booking_status": "confirmed_base_booking",
+      "days_per_week": 5
     },
     {
       "id": "ostfildern-offer-2ab02d8e0d57",
@@ -326,7 +340,7 @@
       "schedule_status": "daily_distribution_unverified",
       "schedule_evidence": {
         "source_id": "af550fae0296",
-        "locator": "PDF S. 11, o3, 45 Wochenstunden, Tarifjahr 2027/2028",
+        "locator": "§ 8 Abs. 2–5, Grundbuchungen und Zubuchungen",
         "original": null
       },
       "payment_months": 12,
@@ -362,7 +376,7 @@
       "schedule_status": "daily_distribution_unverified",
       "schedule_evidence": {
         "source_id": "af550fae0296",
-        "locator": "PDF S. 11, o3, 50 Wochenstunden, Tarifjahr 2027/2028",
+        "locator": "§ 8 Abs. 2–5, Grundbuchungen und Zubuchungen",
         "original": null
       },
       "payment_months": 12,
@@ -393,12 +407,18 @@
       "scope": "municipal",
       "category": "childcare",
       "weekly_minutes": 1800,
-      "weekday_minutes": null,
+      "weekday_minutes": [
+        360,
+        360,
+        360,
+        360,
+        360
+      ],
       "continuous": true,
-      "schedule_status": "daily_distribution_unverified",
+      "schedule_status": "verified",
       "schedule_evidence": {
         "source_id": "af550fae0296",
-        "locator": "PDF S. 12, o3, 30 Wochenstunden, Tarifjahr 2028/2029",
+        "locator": "§ 8 Abs. 2–5, Grundbuchungen und Zubuchungen",
         "original": null
       },
       "payment_months": 12,
@@ -414,7 +434,7 @@
         "original": null
       },
       "formula": null,
-      "booking_status": "requires_cross_check_with_published_offer_structure"
+      "booking_status": "confirmed_base_booking"
     },
     {
       "id": "ostfildern-offer-89f3541c7660",
@@ -434,7 +454,7 @@
       "schedule_status": "daily_distribution_unverified",
       "schedule_evidence": {
         "source_id": "af550fae0296",
-        "locator": "PDF S. 12, o3, 35 Wochenstunden, Tarifjahr 2028/2029",
+        "locator": "§ 8 Abs. 2–5, Grundbuchungen und Zubuchungen",
         "original": null
       },
       "payment_months": 12,
@@ -470,7 +490,7 @@
       "schedule_status": "daily_distribution_unverified",
       "schedule_evidence": {
         "source_id": "af550fae0296",
-        "locator": "PDF S. 12, o3, 40 Wochenstunden, Tarifjahr 2028/2029",
+        "locator": "§ 8 Abs. 2–5, Grundbuchungen und Zubuchungen",
         "original": null
       },
       "payment_months": 12,
@@ -486,7 +506,8 @@
         "original": null
       },
       "formula": null,
-      "booking_status": "requires_cross_check_with_published_offer_structure"
+      "booking_status": "confirmed_base_booking",
+      "days_per_week": 5
     },
     {
       "id": "ostfildern-offer-615f771c5782",
@@ -506,7 +527,7 @@
       "schedule_status": "daily_distribution_unverified",
       "schedule_evidence": {
         "source_id": "af550fae0296",
-        "locator": "PDF S. 12, o3, 45 Wochenstunden, Tarifjahr 2028/2029",
+        "locator": "§ 8 Abs. 2–5, Grundbuchungen und Zubuchungen",
         "original": null
       },
       "payment_months": 12,
@@ -542,7 +563,7 @@
       "schedule_status": "daily_distribution_unverified",
       "schedule_evidence": {
         "source_id": "af550fae0296",
-        "locator": "PDF S. 12, o3, 50 Wochenstunden, Tarifjahr 2028/2029",
+        "locator": "§ 8 Abs. 2–5, Grundbuchungen und Zubuchungen",
         "original": null
       },
       "payment_months": 12,
@@ -573,12 +594,18 @@
       "scope": "municipal",
       "category": "childcare",
       "weekly_minutes": 1800,
-      "weekday_minutes": null,
+      "weekday_minutes": [
+        360,
+        360,
+        360,
+        360,
+        360
+      ],
       "continuous": true,
-      "schedule_status": "daily_distribution_unverified",
+      "schedule_status": "verified",
       "schedule_evidence": {
         "source_id": "af550fae0296",
-        "locator": "PDF S. 13, o3, 30 Wochenstunden, Tarifjahr 2029/2030",
+        "locator": "§ 8 Abs. 2–5, Grundbuchungen und Zubuchungen",
         "original": null
       },
       "payment_months": 12,
@@ -594,7 +621,7 @@
         "original": null
       },
       "formula": null,
-      "booking_status": "requires_cross_check_with_published_offer_structure"
+      "booking_status": "confirmed_base_booking"
     },
     {
       "id": "ostfildern-offer-8e66380a8fc2",
@@ -614,7 +641,7 @@
       "schedule_status": "daily_distribution_unverified",
       "schedule_evidence": {
         "source_id": "af550fae0296",
-        "locator": "PDF S. 13, o3, 35 Wochenstunden, Tarifjahr 2029/2030",
+        "locator": "§ 8 Abs. 2–5, Grundbuchungen und Zubuchungen",
         "original": null
       },
       "payment_months": 12,
@@ -650,7 +677,7 @@
       "schedule_status": "daily_distribution_unverified",
       "schedule_evidence": {
         "source_id": "af550fae0296",
-        "locator": "PDF S. 13, o3, 40 Wochenstunden, Tarifjahr 2029/2030",
+        "locator": "§ 8 Abs. 2–5, Grundbuchungen und Zubuchungen",
         "original": null
       },
       "payment_months": 12,
@@ -666,7 +693,8 @@
         "original": null
       },
       "formula": null,
-      "booking_status": "requires_cross_check_with_published_offer_structure"
+      "booking_status": "confirmed_base_booking",
+      "days_per_week": 5
     },
     {
       "id": "ostfildern-offer-e29e2a556147",
@@ -686,7 +714,7 @@
       "schedule_status": "daily_distribution_unverified",
       "schedule_evidence": {
         "source_id": "af550fae0296",
-        "locator": "PDF S. 13, o3, 45 Wochenstunden, Tarifjahr 2029/2030",
+        "locator": "§ 8 Abs. 2–5, Grundbuchungen und Zubuchungen",
         "original": null
       },
       "payment_months": 12,
@@ -722,7 +750,7 @@
       "schedule_status": "daily_distribution_unverified",
       "schedule_evidence": {
         "source_id": "af550fae0296",
-        "locator": "PDF S. 13, o3, 50 Wochenstunden, Tarifjahr 2029/2030",
+        "locator": "§ 8 Abs. 2–5, Grundbuchungen und Zubuchungen",
         "original": null
       },
       "payment_months": 12,
@@ -758,7 +786,7 @@
       "schedule_status": "daily_distribution_unverified",
       "schedule_evidence": {
         "source_id": "af550fae0296",
-        "locator": "PDF S. 14, u3, 30 Wochenstunden, Tarifjahr 2026/2027",
+        "locator": "§ 8 Abs. 2–5, Grundbuchungen und Zubuchungen",
         "original": null
       },
       "payment_months": 12,
@@ -794,7 +822,7 @@
       "schedule_status": "daily_distribution_unverified",
       "schedule_evidence": {
         "source_id": "af550fae0296",
-        "locator": "PDF S. 14, u3, 35 Wochenstunden, Tarifjahr 2026/2027",
+        "locator": "§ 8 Abs. 2–5, Grundbuchungen und Zubuchungen",
         "original": null
       },
       "payment_months": 12,
@@ -810,7 +838,8 @@
         "original": null
       },
       "formula": null,
-      "booking_status": "requires_cross_check_with_published_offer_structure"
+      "booking_status": "confirmed_base_booking",
+      "days_per_week": 5
     },
     {
       "id": "ostfildern-offer-04b0b56c17bb",
@@ -830,7 +859,7 @@
       "schedule_status": "daily_distribution_unverified",
       "schedule_evidence": {
         "source_id": "af550fae0296",
-        "locator": "PDF S. 14, u3, 40 Wochenstunden, Tarifjahr 2026/2027",
+        "locator": "§ 8 Abs. 2–5, Grundbuchungen und Zubuchungen",
         "original": null
       },
       "payment_months": 12,
@@ -846,7 +875,8 @@
         "original": null
       },
       "formula": null,
-      "booking_status": "requires_cross_check_with_published_offer_structure"
+      "booking_status": "confirmed_base_booking",
+      "days_per_week": 5
     },
     {
       "id": "ostfildern-offer-996f01cece62",
@@ -866,7 +896,7 @@
       "schedule_status": "daily_distribution_unverified",
       "schedule_evidence": {
         "source_id": "af550fae0296",
-        "locator": "PDF S. 14, u3, 45 Wochenstunden, Tarifjahr 2026/2027",
+        "locator": "§ 8 Abs. 2–5, Grundbuchungen und Zubuchungen",
         "original": null
       },
       "payment_months": 12,
@@ -902,7 +932,7 @@
       "schedule_status": "daily_distribution_unverified",
       "schedule_evidence": {
         "source_id": "af550fae0296",
-        "locator": "PDF S. 14, u3, 50 Wochenstunden, Tarifjahr 2026/2027",
+        "locator": "§ 8 Abs. 2–5, Grundbuchungen und Zubuchungen",
         "original": null
       },
       "payment_months": 12,
@@ -938,7 +968,7 @@
       "schedule_status": "daily_distribution_unverified",
       "schedule_evidence": {
         "source_id": "af550fae0296",
-        "locator": "PDF S. 15, u3, 30 Wochenstunden, Tarifjahr 2027/2028",
+        "locator": "§ 8 Abs. 2–5, Grundbuchungen und Zubuchungen",
         "original": null
       },
       "payment_months": 12,
@@ -974,7 +1004,7 @@
       "schedule_status": "daily_distribution_unverified",
       "schedule_evidence": {
         "source_id": "af550fae0296",
-        "locator": "PDF S. 15, u3, 35 Wochenstunden, Tarifjahr 2027/2028",
+        "locator": "§ 8 Abs. 2–5, Grundbuchungen und Zubuchungen",
         "original": null
       },
       "payment_months": 12,
@@ -990,7 +1020,8 @@
         "original": null
       },
       "formula": null,
-      "booking_status": "requires_cross_check_with_published_offer_structure"
+      "booking_status": "confirmed_base_booking",
+      "days_per_week": 5
     },
     {
       "id": "ostfildern-offer-fc79537e7825",
@@ -1010,7 +1041,7 @@
       "schedule_status": "daily_distribution_unverified",
       "schedule_evidence": {
         "source_id": "af550fae0296",
-        "locator": "PDF S. 15, u3, 40 Wochenstunden, Tarifjahr 2027/2028",
+        "locator": "§ 8 Abs. 2–5, Grundbuchungen und Zubuchungen",
         "original": null
       },
       "payment_months": 12,
@@ -1026,7 +1057,8 @@
         "original": null
       },
       "formula": null,
-      "booking_status": "requires_cross_check_with_published_offer_structure"
+      "booking_status": "confirmed_base_booking",
+      "days_per_week": 5
     },
     {
       "id": "ostfildern-offer-fc5eaba43f57",
@@ -1046,7 +1078,7 @@
       "schedule_status": "daily_distribution_unverified",
       "schedule_evidence": {
         "source_id": "af550fae0296",
-        "locator": "PDF S. 15, u3, 45 Wochenstunden, Tarifjahr 2027/2028",
+        "locator": "§ 8 Abs. 2–5, Grundbuchungen und Zubuchungen",
         "original": null
       },
       "payment_months": 12,
@@ -1082,7 +1114,7 @@
       "schedule_status": "daily_distribution_unverified",
       "schedule_evidence": {
         "source_id": "af550fae0296",
-        "locator": "PDF S. 15, u3, 50 Wochenstunden, Tarifjahr 2027/2028",
+        "locator": "§ 8 Abs. 2–5, Grundbuchungen und Zubuchungen",
         "original": null
       },
       "payment_months": 12,
@@ -1118,7 +1150,7 @@
       "schedule_status": "daily_distribution_unverified",
       "schedule_evidence": {
         "source_id": "af550fae0296",
-        "locator": "PDF S. 16, u3, 30 Wochenstunden, Tarifjahr 2028/2029",
+        "locator": "§ 8 Abs. 2–5, Grundbuchungen und Zubuchungen",
         "original": null
       },
       "payment_months": 12,
@@ -1154,7 +1186,7 @@
       "schedule_status": "daily_distribution_unverified",
       "schedule_evidence": {
         "source_id": "af550fae0296",
-        "locator": "PDF S. 16, u3, 35 Wochenstunden, Tarifjahr 2028/2029",
+        "locator": "§ 8 Abs. 2–5, Grundbuchungen und Zubuchungen",
         "original": null
       },
       "payment_months": 12,
@@ -1170,7 +1202,8 @@
         "original": null
       },
       "formula": null,
-      "booking_status": "requires_cross_check_with_published_offer_structure"
+      "booking_status": "confirmed_base_booking",
+      "days_per_week": 5
     },
     {
       "id": "ostfildern-offer-c23f8424048c",
@@ -1190,7 +1223,7 @@
       "schedule_status": "daily_distribution_unverified",
       "schedule_evidence": {
         "source_id": "af550fae0296",
-        "locator": "PDF S. 16, u3, 40 Wochenstunden, Tarifjahr 2028/2029",
+        "locator": "§ 8 Abs. 2–5, Grundbuchungen und Zubuchungen",
         "original": null
       },
       "payment_months": 12,
@@ -1206,7 +1239,8 @@
         "original": null
       },
       "formula": null,
-      "booking_status": "requires_cross_check_with_published_offer_structure"
+      "booking_status": "confirmed_base_booking",
+      "days_per_week": 5
     },
     {
       "id": "ostfildern-offer-5e4b70c7e7cf",
@@ -1226,7 +1260,7 @@
       "schedule_status": "daily_distribution_unverified",
       "schedule_evidence": {
         "source_id": "af550fae0296",
-        "locator": "PDF S. 16, u3, 45 Wochenstunden, Tarifjahr 2028/2029",
+        "locator": "§ 8 Abs. 2–5, Grundbuchungen und Zubuchungen",
         "original": null
       },
       "payment_months": 12,
@@ -1262,7 +1296,7 @@
       "schedule_status": "daily_distribution_unverified",
       "schedule_evidence": {
         "source_id": "af550fae0296",
-        "locator": "PDF S. 16, u3, 50 Wochenstunden, Tarifjahr 2028/2029",
+        "locator": "§ 8 Abs. 2–5, Grundbuchungen und Zubuchungen",
         "original": null
       },
       "payment_months": 12,
@@ -1298,7 +1332,7 @@
       "schedule_status": "daily_distribution_unverified",
       "schedule_evidence": {
         "source_id": "af550fae0296",
-        "locator": "PDF S. 17, u3, 30 Wochenstunden, Tarifjahr 2029/2030",
+        "locator": "§ 8 Abs. 2–5, Grundbuchungen und Zubuchungen",
         "original": null
       },
       "payment_months": 12,
@@ -1334,7 +1368,7 @@
       "schedule_status": "daily_distribution_unverified",
       "schedule_evidence": {
         "source_id": "af550fae0296",
-        "locator": "PDF S. 17, u3, 35 Wochenstunden, Tarifjahr 2029/2030",
+        "locator": "§ 8 Abs. 2–5, Grundbuchungen und Zubuchungen",
         "original": null
       },
       "payment_months": 12,
@@ -1350,7 +1384,8 @@
         "original": null
       },
       "formula": null,
-      "booking_status": "requires_cross_check_with_published_offer_structure"
+      "booking_status": "confirmed_base_booking",
+      "days_per_week": 5
     },
     {
       "id": "ostfildern-offer-cc8723daa96b",
@@ -1370,7 +1405,7 @@
       "schedule_status": "daily_distribution_unverified",
       "schedule_evidence": {
         "source_id": "af550fae0296",
-        "locator": "PDF S. 17, u3, 40 Wochenstunden, Tarifjahr 2029/2030",
+        "locator": "§ 8 Abs. 2–5, Grundbuchungen und Zubuchungen",
         "original": null
       },
       "payment_months": 12,
@@ -1386,7 +1421,8 @@
         "original": null
       },
       "formula": null,
-      "booking_status": "requires_cross_check_with_published_offer_structure"
+      "booking_status": "confirmed_base_booking",
+      "days_per_week": 5
     },
     {
       "id": "ostfildern-offer-fb61d67733ca",
@@ -1406,7 +1442,7 @@
       "schedule_status": "daily_distribution_unverified",
       "schedule_evidence": {
         "source_id": "af550fae0296",
-        "locator": "PDF S. 17, u3, 45 Wochenstunden, Tarifjahr 2029/2030",
+        "locator": "§ 8 Abs. 2–5, Grundbuchungen und Zubuchungen",
         "original": null
       },
       "payment_months": 12,
@@ -1442,7 +1478,7 @@
       "schedule_status": "daily_distribution_unverified",
       "schedule_evidence": {
         "source_id": "af550fae0296",
-        "locator": "PDF S. 17, u3, 50 Wochenstunden, Tarifjahr 2029/2030",
+        "locator": "§ 8 Abs. 2–5, Grundbuchungen und Zubuchungen",
         "original": null
       },
       "payment_months": 12,

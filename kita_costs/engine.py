@@ -26,7 +26,7 @@ def load_highest_band_profile(root=ROOT):
     return json.loads((Path(root) / "data/profiles/highest_band.json").read_text())
 
 
-def compare_municipalities(cities, profile, registry, municipality_id=None):
+def compare_municipalities(cities, profile, registry, municipality_id=None, *, allow_shorter_friday=False):
     """Bind active geographic entries to tariffs without copying tariff records."""
     profile = normalize_profile(profile)
     catalogs = {city["id"]: city for city in cities}
@@ -42,7 +42,7 @@ def compare_municipalities(cities, profile, registry, municipality_id=None):
         # Geographic inputs take precedence when municipalities share a tariff catalog.
         local_profile["municipality_overrides"] = {
             entry["tariff_id"]: overrides.get(entry["id"], {})}
-        row = evaluate_city(catalogs[entry["tariff_id"]], local_profile)
+        row = evaluate_city(catalogs[entry["tariff_id"]], local_profile, allow_shorter_friday=allow_shorter_friday)
         row.update(municipality_id=entry["id"], municipality=entry["name"], ags=entry["ags"],
                    area_id=entry["area_id"], tariff_id=entry["tariff_id"])
         results.append(row)
@@ -325,7 +325,7 @@ def meal_details(city, item, profile, count):
     return details
 
 
-def evaluate_city(city, profile):
+def evaluate_city(city, profile, *, allow_shorter_friday=False):
     """Return a comparable price, or a specific reason; never guess missing inputs."""
     profile = normalize_profile(profile)
     overrides = profile.get("municipality_overrides", {}).get(city["id"], {})
@@ -411,7 +411,9 @@ def evaluate_city(city, profile):
         else:
             trace = []
         deficits = [max(0, need - have) for need, have in zip(requested, actual, strict=True)]
-        if any(deficits):
+        shorter_friday = (allow_shorter_friday and all(need == 480 for need in requested)
+                          and not any(deficits[:4]) and actual[4] >= 360 and deficits[4] > 0)
+        if not shorter_friday and any(deficits):
             # Esslingen's quoted supplement supplies one 30/60-minute extension on selected weekdays.
             parts = [p for p in city["components"] if p["kind"] == "care_extension" and item["id"] in (p.get("offer_ids") or []) and p.get("execution_status") is None]
             needed_minutes = max(deficits)
@@ -449,14 +451,14 @@ def evaluate_city(city, profile):
             amount = round_money(amount)
             candidates.append({"item": item, "row": row, "amount": amount,
                                "trace": row_trace, "weekly": sum(actual), "schedule": actual,
-                               "extension_rows": extension_rows})
-    if not candidates:
-        result["reasons"] = sorted(failures) or ["no_offer_covers_daily_need"]
-        return result
-    minimum_minutes = min(c["weekly"] for c in candidates)
-    blocking = [reason for minutes, reason in unresolved if minutes <= minimum_minutes]
-    if blocking:
-        result["reasons"] = sorted(set(blocking))
+                               "extension_rows": extension_rows, "shorter_friday": shorter_friday})
+    minimum_minutes = min((c["weekly"] for c in candidates), default=float("inf"))
+    blocking = [(minutes, reason) for minutes, reason in unresolved if minutes <= minimum_minutes]
+    if not candidates or blocking:
+        if allow_shorter_friday and blocking:
+            result["booked_weekly_minutes"] = min(minutes for minutes, _ in blocking)
+        result["reasons"] = (sorted(failures) or ["no_offer_covers_daily_need"]) if not candidates else sorted(
+            {reason for _, reason in blocking})
         return result
     candidates = [c for c in candidates if c["weekly"] == minimum_minutes]
     minimum_amount = min(c["amount"] for c in candidates)
@@ -475,8 +477,12 @@ def evaluate_city(city, profile):
         result["status"] = "comparable"
         result["annual_care_cents"] = amount * months
         result["monthly_equivalent_cents"] = round_money(Decimal(amount) * months / 12)
+    extra_minutes = winner["weekly"] - sum(requested)
+    if winner["shorter_friday"]:
+        result["shorter_friday_weekday_minutes"] = winner["schedule"]
+        extra_minutes = sum(max(0, have - need) for need, have in zip(requested, winner["schedule"], strict=True))
     result.update(monthly_care_cents=amount, offer_id=item["id"], offer_label=item["original_label"],
-                  booked_weekly_minutes=winner["weekly"], extra_weekly_minutes=winner["weekly"] - sum(requested),
+                  booked_weekly_minutes=winner["weekly"], extra_weekly_minutes=extra_minutes,
                   payment_months=months, family_count=count, care_rank=profile.get("care_rank"),
                   selected_price_id=winner["row"]["id"], calculation=winner["trace"],
                   components=meal_details(city, item, profile, count),

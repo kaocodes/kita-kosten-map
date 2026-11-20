@@ -1,0 +1,13 @@
+{
+  "id": "cfe9dee5c692",
+  "municipality": "Neuhausen auf den Fildern",
+  "title": "Nesthäkchen: Entgelte ab April 2026",
+  "url": "https://kitas-neuhausen.de/broschuere/Nesthaekchen-brochure588",
+  "retrieved_at": "2026-11-20T19:47:22.294589+00:00",
+  "http_status": 200,
+  "content_type": "application/pdf",
+  "final_url": "https://kitas-neuhausen.de/resources/02%20Datenobjekte/E-B%C3%BCrgerservice/Flyer-Brosch%C3%BCren/Monatliche%20Nutzungsentgelte%20Nesthaekchen%20ab%20042026.pdf",
+  "error": null,
+  "local_path": "data/sources/cfe9dee5c692/document.pdf",
+  "sha256": "a8afe7f0f434f7d0949d31c80711a8c5b7ac798e52714c86b7c1f716eb574b5d"
+}

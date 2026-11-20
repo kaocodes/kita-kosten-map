@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
 import { compareModelFamily } from "./domain/model-family.js";
+import { weeklyComparison } from "./domain/engine.js";
 import type { ModelSelection } from "./domain/model-family.js";
 import { ModelConfigurator } from "./components/ModelConfigurator.js";
 import { MunicipalityMap } from "./components/MunicipalityMap.js";
@@ -30,7 +31,7 @@ export function App() {
     .filter(municipality => municipality.active).map(municipality => municipality.name) ?? [], [data]);
   const model = selection ?? data?.bundle.models.default;
   const results = useMemo(() => data && profile && model
-    ? compareModelFamily(data.bundle.tariffs, profile, model, data.bundle.registry, data.bundle.models) : [], [data, profile, model]);
+    ? compareModelFamily(data.bundle.tariffs, profile, model, data.bundle.registry, data.bundle.models, weeklyComparison) : [], [data, profile, model]);
   const ordered = useMemo(() => [...results].sort(compareMonthlyFeesDescending), [results]);
   const initial = [...ordered].reverse().find(result => result.monthly_equivalent_cents !== null) ?? ordered[0];
   useEffect(() => {
@@ -84,7 +85,7 @@ export function App() {
               <button className={styles.municipalityButton} aria-expanded={expanded} aria-controls={`comparison-${result.municipality_id}`}
                 onClick={() => selectMunicipality(result.municipality_id, true)}>
                 <i className={styles.citySwatch} style={{ backgroundColor: feeColor(result) }} aria-hidden="true" />
-                <span className={styles.cityName}>{result.municipality}<small>{result.booked_weekly_minutes === null ? "Weitere Angabe oder Klärung erforderlich" : formatHours(result.booked_weekly_minutes) + " / Woche insgesamt gebucht"}</small></span>
+                <span className={styles.cityName}>{result.municipality}<small>{result.booked_weekly_minutes === null ? "Wochenstunden nicht ermittelbar" : formatHours(result.booked_weekly_minutes) + " pro Woche insgesamt"}</small></span>
                 <strong>{formatMoney(result.monthly_equivalent_cents)}</strong><span className={styles.rowArrow} aria-hidden="true">{expanded ? "−" : "+"}</span>
               </button>
               <div id={`comparison-${result.municipality_id}`} hidden={!expanded}>{expanded && <FamilyDetails id={`list-${result.municipality_id}`} embedded result={result}

@@ -1,0 +1,13 @@
+{
+  "id": "93da36bc25d7",
+  "municipality": "Freiberg am Neckar",
+  "title": "Städtische Kindergärten: Betreuungszeiten",
+  "url": "https://www.freiberg-an.de/de/bildung-betreuung-soziales/kinderbetreuung/kindergaerten",
+  "retrieved_at": "2026-11-18T11:36:07.014424+00:00",
+  "http_status": 200,
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://www.freiberg-an.de/de/bildung-betreuung-soziales/kinderbetreuung/kindergaerten",
+  "error": null,
+  "local_path": "data/sources/93da36bc25d7/document.html",
+  "sha256": "75b5d59af63667ade86bdced45b32cb367d04c6ed91e8e44d753e92dcf1fee55"
+}

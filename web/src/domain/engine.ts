@@ -166,7 +166,11 @@ interface Candidate {
   amount: number;
   trace: Trace;
   weekly: number;
+  shorterFriday: number[] | null;
 }
+
+export interface ScheduleOptions { allowShorterFriday?: boolean; compareWeeklyTargets?: boolean }
+export const weeklyComparison: ScheduleOptions = { compareWeeklyTargets: true };
 
 /** Eligibility confirmations for published local pass tariffs. */
 export function passRequirements(city: MunicipalityCatalog, passId: string): string[] {
@@ -181,7 +185,8 @@ export function passRequirements(city: MunicipalityCatalog, passId: string): str
 }
 
 /** Evaluate a validated canonical catalog using only local JSON data. */
-export function evaluateCity(catalog: MunicipalityCatalog, input: unknown): ComparisonResult {
+export function evaluateCity(catalog: MunicipalityCatalog, input: unknown,
+  { allowShorterFriday = false, compareWeeklyTargets = false }: ScheduleOptions = {}): ComparisonResult {
   const city = structuredClone(catalog);
   let profile = normalizeProfile(input);
   const overrides = profile.municipality_overrides?.[city.id] ?? {};
@@ -223,14 +228,22 @@ export function evaluateCity(catalog: MunicipalityCatalog, input: unknown): Comp
   const unresolved: { minutes: number; reason: string }[] = [];
   const failures = new Set<string>();
   const requested = profile.weekday_minutes;
+  const target = sum(requested);
+  const minimum = target === 2400 ? 2160 : target;
+  const compareTime = (first: number, second: number) => compareWeeklyTargets
+    ? Math.abs(first - target) - Math.abs(second - target) || second - first
+    : first - second;
   for (const item of offers) {
-    const schedule = item.weekday_minutes;
-    if (schedule === null || !["published", "verified"].includes(item.schedule_status)) {
+    const schedule = ["published", "verified"].includes(item.schedule_status) ? item.weekday_minutes : null;
+    if (schedule === null && !(compareWeeklyTargets && item.days_per_week === 5 && item.weekly_minutes !== null)) {
       failures.add("schedule_not_confirmed");
       continue;
     }
-    if (!item.continuous) continue;
-    const actual = [...schedule];
+    const actual = [...(schedule ?? [])];
+    if (compareWeeklyTargets) {
+      if (schedule && (schedule.length !== 5 || schedule.some(minutes => minutes <= 0))) continue;
+      if ((schedule ? sum(schedule) : item.weekly_minutes!) < minimum) continue;
+    } else if (!item.continuous) continue;
     let extensionRows: Component[] = [];
     let priceRows = city.prices.filter(row => row.offer_id === item.id && rowMatches(row, city, profile, count));
     let trace: Trace = [];
@@ -243,8 +256,10 @@ export function evaluateCity(catalog: MunicipalityCatalog, input: unknown): Comp
       trace = formulaTrace;
       priceRows = [{ id: null, amount_cents: amount, value_status: "known", evidence: item.evidence }];
     }
-    const deficits = requested.map((need, index) => Math.max(0, need - actual[index]));
-    if (deficits.some(value => value > 0)) {
+    const deficits = compareWeeklyTargets ? [] : requested.map((need, index) => Math.max(0, need - actual[index]));
+    const shorterFriday = allowShorterFriday && requested.every(need => need === 480) &&
+      deficits.slice(0, 4).every(deficit => deficit === 0) && actual[4] >= 360 && deficits[4] > 0 ? actual : null;
+    if (!shorterFriday && deficits.some(value => value > 0)) {
       const parts = city.components.filter(part => part.kind === "care_extension" &&
         (part.offer_ids ?? []).includes(item.id) && part.execution_status == null);
       const neededMinutes = Math.max(...deficits);
@@ -260,15 +275,16 @@ export function evaluateCity(catalog: MunicipalityCatalog, input: unknown): Comp
       }
       deficits.forEach((deficit, index) => { if (deficit > 0) actual[index] += duration; });
     }
+    const weekly = schedule ? sum(actual) : item.weekly_minutes!;
     if (priceRows.length === 0) {
       failures.add("price_or_income_input_missing");
-      unresolved.push({ minutes: sum(actual), reason: "price_or_income_input_missing" });
+      unresolved.push({ minutes: weekly, reason: "price_or_income_input_missing" });
     }
     for (const row of priceRows) {
       if (row.value_status !== "known" || row.amount_cents === null) {
         const reason = "tariff_" + row.value_status;
         failures.add(reason);
-        if (row.value_status !== "not_offered") unresolved.push({ minutes: sum(actual), reason });
+        if (row.value_status !== "not_offered") unresolved.push({ minutes: weekly, reason });
         continue;
       }
       let amount = new Fraction(row.amount_cents).add(sum(extensionRows.map(part => part.amount_cents!)));
@@ -284,20 +300,21 @@ export function evaluateCity(catalog: MunicipalityCatalog, input: unknown): Comp
         }
         amount = adjusted;
       }
-      candidates.push({ item, row, amount: roundMoney(amount), trace: rowTrace, weekly: sum(actual) });
+      candidates.push({ item, row, amount: roundMoney(amount), trace: rowTrace, weekly, shorterFriday });
     }
   }
-  if (candidates.length === 0) {
-    result.reasons = failures.size ? [...failures].sort() : ["no_offer_covers_daily_need"];
+  const preferredMinutes = candidates.map(candidate => candidate.weekly).sort(compareTime)[0];
+  const blocking = unresolved.filter(entry => preferredMinutes === undefined || compareTime(entry.minutes, preferredMinutes) <= 0);
+  if (candidates.length === 0 || blocking.length > 0) {
+    if ((allowShorterFriday || compareWeeklyTargets) && blocking.length > 0) {
+      result.booked_weekly_minutes = blocking.map(entry => entry.minutes).sort(compareTime)[0];
+    }
+    result.reasons = candidates.length === 0
+      ? (failures.size ? [...failures].sort() : ["no_offer_covers_daily_need"])
+      : [...new Set(blocking.map(entry => entry.reason))].sort();
     return result;
   }
-  const minimumMinutes = Math.min(...candidates.map(candidate => candidate.weekly));
-  const blocking = unresolved.filter(entry => entry.minutes <= minimumMinutes);
-  if (blocking.length > 0) {
-    result.reasons = [...new Set(blocking.map(entry => entry.reason))].sort();
-    return result;
-  }
-  const smallest = candidates.filter(candidate => candidate.weekly === minimumMinutes);
+  const smallest = candidates.filter(candidate => candidate.weekly === preferredMinutes);
   const minimumAmount = Math.min(...smallest.map(candidate => candidate.amount));
   const winners = smallest.filter(candidate => candidate.amount === minimumAmount);
   if (new Set(winners.map(candidate => candidate.row.id)).size > 1) {
@@ -318,12 +335,16 @@ export function evaluateCity(catalog: MunicipalityCatalog, input: unknown): Comp
   }
   Object.assign(result, {
     monthly_care_cents: amount, offer_id: item.id, offer_label: item.original_label,
-    booked_weekly_minutes: winner.weekly, extra_weekly_minutes: winner.weekly - sum(requested),
+    booked_weekly_minutes: winner.weekly,
+    extra_weekly_minutes: winner.shorterFriday
+      ? sum(winner.shorterFriday.map((minutes, index) => Math.max(0, minutes - requested[index])))
+      : Math.max(0, winner.weekly - target),
     payment_months: months, family_count: count, care_rank: profile.care_rank ?? null,
     selected_price_id: winner.row.id, calculation: winner.trace, components: mealDetails(city, item, profile),
     evidence: [item.evidence, winner.row.evidence, item.payment_evidence, item.schedule_evidence,
       ...(winner.row.corroborating_evidence ?? [])],
   });
+  if (winner.shorterFriday) result.shorter_friday_weekday_minutes = winner.shorterFriday;
   result.calculation.push({ operation: "annual_equivalent_divided_by_12", monthly_cents: amount,
     payment_months: months, result_cents: result.monthly_equivalent_cents });
   const parts = result.components;
@@ -344,7 +365,7 @@ export function evaluateCity(catalog: MunicipalityCatalog, input: unknown): Comp
 
 /** Resolve active geographic entries independently of the map or user interface. */
 export function compareMunicipalities(cities: MunicipalityCatalog[], input: unknown, registry: Registry,
-  municipalityId?: string): ComparisonResult[] {
+  municipalityId?: string, scheduleOptions?: ScheduleOptions): ComparisonResult[] {
   const profile = normalizeProfile(input);
   const catalogs = new Map(cities.map(city => [city.id, city]));
   let entries = registry.municipalities.filter(entry => entry.active);
@@ -358,7 +379,7 @@ export function compareMunicipalities(cities: MunicipalityCatalog[], input: unkn
     const local = { ...profile, municipality_overrides: {
       [entry.tariff_id]: profile.municipality_overrides?.[entry.id] ?? {},
     } };
-    return { ...evaluateCity(catalog, local), municipality_id: entry.id, municipality: entry.name,
+    return { ...evaluateCity(catalog, local, scheduleOptions), municipality_id: entry.id, municipality: entry.name,
       ags: entry.ags, area_id: entry.area_id, tariff_id: entry.tariff_id };
   });
 }

@@ -1,5 +1,13 @@
 # Integration der ersten acht Erweiterungskommunen
 
+## Lokale Freigabevorschau mit 49 Kommunen
+
+Die Vorschau enthält die zwölf ursprünglichen Kommunen und 37 Erweiterungskataloge. Seit der zweiten Erhebung sind Neuhausen auf den Fildern, Markgröningen, Bietigheim-Bissingen und Weinstadt eingebunden. Im voreingestellten Krippenmodell liefern 48 Kommunen einen Preis. Baltmannsweiler bleibt als auswählbare Gemeinde sichtbar. Dort ist für dieses Modell kein passender Stundenumfang belegt. In anderen Familienmodellen bleiben die dokumentierten Tariflücken in Freiberg, Renningen und Schwieberdingen ebenfalls sichtbar. [Berechnungsprüfung](ERWEITERUNGSBERECHNUNG.md)
+
+Das Vorschau-Bundle nutzt nur die für die Vergleichsstichtage gültigen Angebote und Preise. Nicht ausführbare Quelltranskriptionen bleiben im Archiv. Quellenverweise und bepreiste Zusatzkosten bleiben in der Vorschau verfügbar. Katalog und Geometrie ergeben zusammen rund 180 kB gzip. Für die 49-Kommunen-Vorschau gelten 185 kB gzip zusammen und 2,3 MB für den unkomprimierten Katalog. Die Vorschau ist von der veröffentlichten Auswahl getrennt.
+
+Starten mit `npm run dev:expansion`, prüfen mit `npm run test:expansion`.
+
 **Stand:** 10. November 2026 · **Branch:** `Datensatz-Erweiterung` · **Veröffentlichung:** nach lokaler Durchsicht freigegeben; Deployment über `main`.
 
 Der ursprüngliche Aufbereitungs- und Kompatibilitätsstand wurde vor der Integration als `1d69bad` auf `main` committed. Die folgende Erweiterung liegt auf dem anschließend angelegten Branch.

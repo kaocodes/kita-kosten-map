@@ -1,0 +1,5533 @@
+{
+  "schema_version": "1.0",
+  "id": "markgroeningen",
+  "name": "Markgröningen",
+  "reviewed_at": "2026-11-20",
+  "reference_date": "2026-11-20",
+  "scope": {
+    "included": [
+      "municipal"
+    ],
+    "other_providers": "only_with_explicit_source_evidence"
+  },
+  "family_basis": "under_18_or_child_benefit",
+  "family_evidence": {
+    "source_id": "c5ba47bb39c1",
+    "locator": "§ 7 Abs. 6–8",
+    "original": null
+  },
+  "supporting_source_ids": [
+    "c5ba47bb39c1",
+    "3631e7bba1ae",
+    "5e68a30e4936",
+    "bf6a5c1a144f"
+  ],
+  "offers": [
+    {
+      "id": "markgroeningen-offer-594c049fa4ac",
+      "original_label": "Modul 1 · VÖ 30 Stunden/Woche",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": "2027-08-31",
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 1800,
+      "weekday_minutes": [
+        360,
+        360,
+        360,
+        360,
+        360
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 8, Modul 1",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "§ 7 Abs. 6–8",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 8, Modul 1",
+        "original": null
+      },
+      "formula": null,
+      "applies_to_mixed_age_groups": true
+    },
+    {
+      "id": "markgroeningen-offer-3214a9a13606",
+      "original_label": "Modul 2 · VÖ 32.5 Stunden/Woche",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": "2027-08-31",
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 1950,
+      "weekday_minutes": [
+        390,
+        390,
+        390,
+        390,
+        390
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 8, Modul 2",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "§ 7 Abs. 6–8",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 8, Modul 2",
+        "original": null
+      },
+      "formula": null,
+      "applies_to_mixed_age_groups": true
+    },
+    {
+      "id": "markgroeningen-offer-9c2f66ebdae3",
+      "original_label": "Modul 3 · GT 40 Stunden/Woche",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": "2027-08-31",
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2400,
+      "weekday_minutes": [
+        480,
+        480,
+        480,
+        480,
+        480
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 9, Modul 3",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "§ 7 Abs. 6–8",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 9, Modul 3",
+        "original": null
+      },
+      "formula": null,
+      "applies_to_mixed_age_groups": false
+    },
+    {
+      "id": "markgroeningen-offer-a6db144c2213",
+      "original_label": "Modul 4 · GT 42.5 Stunden/Woche",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": "2027-08-31",
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2550,
+      "weekday_minutes": [
+        510,
+        510,
+        510,
+        510,
+        510
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 9, Modul 4",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "§ 7 Abs. 6–8",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 9, Modul 4",
+        "original": null
+      },
+      "formula": null,
+      "applies_to_mixed_age_groups": false
+    },
+    {
+      "id": "markgroeningen-offer-01385f38a1c7",
+      "original_label": "Modul 5 · VÖ 30 Stunden/Woche",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2025-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2025-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 1800,
+      "weekday_minutes": [
+        360,
+        360,
+        360,
+        360,
+        360
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 10, Modul 5",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "§ 7 Abs. 6–8",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 10, Modul 5",
+        "original": null
+      },
+      "formula": null,
+      "applies_to_mixed_age_groups": false
+    },
+    {
+      "id": "markgroeningen-offer-b86ed60e8adb",
+      "original_label": "Modul 6 · VÖ 32.5 Stunden/Woche",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2025-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2025-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 1950,
+      "weekday_minutes": [
+        390,
+        390,
+        390,
+        390,
+        390
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 10, Modul 6",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "§ 7 Abs. 6–8",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 10, Modul 6",
+        "original": null
+      },
+      "formula": null,
+      "applies_to_mixed_age_groups": false
+    },
+    {
+      "id": "markgroeningen-offer-191643014d4c",
+      "original_label": "Modul 7 · GT 40 Stunden/Woche",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2025-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2025-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2400,
+      "weekday_minutes": [
+        480,
+        480,
+        480,
+        480,
+        480
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 11, Modul 7",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "§ 7 Abs. 6–8",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 11, Modul 7",
+        "original": null
+      },
+      "formula": null,
+      "applies_to_mixed_age_groups": false
+    },
+    {
+      "id": "markgroeningen-offer-98a98970ed3c",
+      "original_label": "Modul 8 · GT 42.5 Stunden/Woche",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2025-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2025-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2550,
+      "weekday_minutes": [
+        510,
+        510,
+        510,
+        510,
+        510
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 11, Modul 8",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "§ 7 Abs. 6–8",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 11, Modul 8",
+        "original": null
+      },
+      "formula": null,
+      "applies_to_mixed_age_groups": false
+    },
+    {
+      "id": "markgroeningen-offer-63278cf3281f",
+      "original_label": "Modul 1 · VÖ 30 Stunden/Woche",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2027-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2027-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 1800,
+      "weekday_minutes": [
+        360,
+        360,
+        360,
+        360,
+        360
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 12, Modul 1",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "§ 7 Abs. 6–8",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 12, Modul 1",
+        "original": null
+      },
+      "formula": null,
+      "applies_to_mixed_age_groups": true
+    },
+    {
+      "id": "markgroeningen-offer-bb9294f9a14a",
+      "original_label": "Modul 2 · VÖ 32.5 Stunden/Woche",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2027-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2027-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 1950,
+      "weekday_minutes": [
+        390,
+        390,
+        390,
+        390,
+        390
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 12, Modul 2",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "§ 7 Abs. 6–8",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 12, Modul 2",
+        "original": null
+      },
+      "formula": null,
+      "applies_to_mixed_age_groups": true
+    },
+    {
+      "id": "markgroeningen-offer-e3cc8fdf153a",
+      "original_label": "Modul 3 · GT 40 Stunden/Woche",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2027-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2027-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2400,
+      "weekday_minutes": [
+        480,
+        480,
+        480,
+        480,
+        480
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 13, Modul 3",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "§ 7 Abs. 6–8",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 13, Modul 3",
+        "original": null
+      },
+      "formula": null,
+      "applies_to_mixed_age_groups": false
+    },
+    {
+      "id": "markgroeningen-offer-39cf46841b4c",
+      "original_label": "Modul 4 · GT 42.5 Stunden/Woche",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2027-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2027-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2550,
+      "weekday_minutes": [
+        510,
+        510,
+        510,
+        510,
+        510
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 13, Modul 4",
+        "original": null
+      },
+      "payment_months": 12,
+      "payment_evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "§ 7 Abs. 6–8",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 13, Modul 4",
+        "original": null
+      },
+      "formula": null,
+      "applies_to_mixed_age_groups": false
+    }
+  ],
+  "prices": [
+    {
+      "id": "markgroeningen-price-57bfe2468d7d",
+      "offer_id": "markgroeningen-offer-594c049fa4ac",
+      "amount_cents": 19575,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-274c9918edac",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 8, Modul 1",
+        "original": 19575
+      }
+    },
+    {
+      "id": "markgroeningen-price-3adc362813d4",
+      "offer_id": "markgroeningen-offer-594c049fa4ac",
+      "amount_cents": 15025,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-274c9918edac",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 8, Modul 1",
+        "original": 15025
+      }
+    },
+    {
+      "id": "markgroeningen-price-a3f0fbc78ef3",
+      "offer_id": "markgroeningen-offer-594c049fa4ac",
+      "amount_cents": 10475,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-274c9918edac",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 8, Modul 1",
+        "original": 10475
+      }
+    },
+    {
+      "id": "markgroeningen-price-429071f34f0b",
+      "offer_id": "markgroeningen-offer-594c049fa4ac",
+      "amount_cents": 5925,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": "markgroeningen-income-274c9918edac",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 8, Modul 1",
+        "original": 5925
+      }
+    },
+    {
+      "id": "markgroeningen-price-b73147f44b32",
+      "offer_id": "markgroeningen-offer-594c049fa4ac",
+      "amount_cents": 17317,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-7feff294cee4",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 8, Modul 1",
+        "original": 17317
+      }
+    },
+    {
+      "id": "markgroeningen-price-0f1c05d4a27d",
+      "offer_id": "markgroeningen-offer-594c049fa4ac",
+      "amount_cents": 13292,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-7feff294cee4",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 8, Modul 1",
+        "original": 13292
+      }
+    },
+    {
+      "id": "markgroeningen-price-45ad14ec5545",
+      "offer_id": "markgroeningen-offer-594c049fa4ac",
+      "amount_cents": 9267,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-7feff294cee4",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 8, Modul 1",
+        "original": 9267
+      }
+    },
+    {
+      "id": "markgroeningen-price-13b7b0d3c2df",
+      "offer_id": "markgroeningen-offer-594c049fa4ac",
+      "amount_cents": 5242,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": "markgroeningen-income-7feff294cee4",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 8, Modul 1",
+        "original": 5242
+      }
+    },
+    {
+      "id": "markgroeningen-price-ddc6c3e9a64e",
+      "offer_id": "markgroeningen-offer-594c049fa4ac",
+      "amount_cents": 15058,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-a1add55b888c",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 8, Modul 1",
+        "original": 15058
+      }
+    },
+    {
+      "id": "markgroeningen-price-f71de131fa03",
+      "offer_id": "markgroeningen-offer-594c049fa4ac",
+      "amount_cents": 11558,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-a1add55b888c",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 8, Modul 1",
+        "original": 11558
+      }
+    },
+    {
+      "id": "markgroeningen-price-3b5cf4a14c4c",
+      "offer_id": "markgroeningen-offer-594c049fa4ac",
+      "amount_cents": 8058,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-a1add55b888c",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 8, Modul 1",
+        "original": 8058
+      }
+    },
+    {
+      "id": "markgroeningen-price-f61618025e1a",
+      "offer_id": "markgroeningen-offer-594c049fa4ac",
+      "amount_cents": 4558,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": "markgroeningen-income-a1add55b888c",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 8, Modul 1",
+        "original": 4558
+      }
+    },
+    {
+      "id": "markgroeningen-price-9dd0d4665b7e",
+      "offer_id": "markgroeningen-offer-594c049fa4ac",
+      "amount_cents": 12799,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-de6067a999b7",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 8, Modul 1",
+        "original": 12799
+      }
+    },
+    {
+      "id": "markgroeningen-price-6d79e46b1827",
+      "offer_id": "markgroeningen-offer-594c049fa4ac",
+      "amount_cents": 9824,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-de6067a999b7",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 8, Modul 1",
+        "original": 9824
+      }
+    },
+    {
+      "id": "markgroeningen-price-55383c7a6845",
+      "offer_id": "markgroeningen-offer-594c049fa4ac",
+      "amount_cents": 6849,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-de6067a999b7",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 8, Modul 1",
+        "original": 6849
+      }
+    },
+    {
+      "id": "markgroeningen-price-4fb5a97706c1",
+      "offer_id": "markgroeningen-offer-594c049fa4ac",
+      "amount_cents": 3874,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": "markgroeningen-income-de6067a999b7",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 8, Modul 1",
+        "original": 3874
+      }
+    },
+    {
+      "id": "markgroeningen-price-5fb276dbb064",
+      "offer_id": "markgroeningen-offer-594c049fa4ac",
+      "amount_cents": 10541,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-8f8d402f0841",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 8, Modul 1",
+        "original": 10541
+      }
+    },
+    {
+      "id": "markgroeningen-price-fb1228904e7d",
+      "offer_id": "markgroeningen-offer-594c049fa4ac",
+      "amount_cents": 8091,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-8f8d402f0841",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 8, Modul 1",
+        "original": 8091
+      }
+    },
+    {
+      "id": "markgroeningen-price-a5ad16f56f91",
+      "offer_id": "markgroeningen-offer-594c049fa4ac",
+      "amount_cents": 5641,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-8f8d402f0841",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 8, Modul 1",
+        "original": 5641
+      }
+    },
+    {
+      "id": "markgroeningen-price-d8f7956ce854",
+      "offer_id": "markgroeningen-offer-594c049fa4ac",
+      "amount_cents": 3191,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": "markgroeningen-income-8f8d402f0841",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 8, Modul 1",
+        "original": 3191
+      }
+    },
+    {
+      "id": "markgroeningen-price-b58c0f3fa3ac",
+      "offer_id": "markgroeningen-offer-3214a9a13606",
+      "amount_cents": 21207,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-274c9918edac",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 8, Modul 2",
+        "original": 21207
+      }
+    },
+    {
+      "id": "markgroeningen-price-57ddb69049e4",
+      "offer_id": "markgroeningen-offer-3214a9a13606",
+      "amount_cents": 16657,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-274c9918edac",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 8, Modul 2",
+        "original": 16657
+      }
+    },
+    {
+      "id": "markgroeningen-price-63db3fb30e1a",
+      "offer_id": "markgroeningen-offer-3214a9a13606",
+      "amount_cents": 12107,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-274c9918edac",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 8, Modul 2",
+        "original": 12107
+      }
+    },
+    {
+      "id": "markgroeningen-price-2c0bb0c9ca52",
+      "offer_id": "markgroeningen-offer-3214a9a13606",
+      "amount_cents": 7557,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": "markgroeningen-income-274c9918edac",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 8, Modul 2",
+        "original": 7557
+      }
+    },
+    {
+      "id": "markgroeningen-price-abadcf24bd36",
+      "offer_id": "markgroeningen-offer-3214a9a13606",
+      "amount_cents": 18760,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-7feff294cee4",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 8, Modul 2",
+        "original": 18760
+      }
+    },
+    {
+      "id": "markgroeningen-price-d493d9a6970f",
+      "offer_id": "markgroeningen-offer-3214a9a13606",
+      "amount_cents": 14735,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-7feff294cee4",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 8, Modul 2",
+        "original": 14735
+      }
+    },
+    {
+      "id": "markgroeningen-price-2b514bc7a6ba",
+      "offer_id": "markgroeningen-offer-3214a9a13606",
+      "amount_cents": 10710,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-7feff294cee4",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 8, Modul 2",
+        "original": 10710
+      }
+    },
+    {
+      "id": "markgroeningen-price-81a07b946789",
+      "offer_id": "markgroeningen-offer-3214a9a13606",
+      "amount_cents": 6685,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": "markgroeningen-income-7feff294cee4",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 8, Modul 2",
+        "original": 6685
+      }
+    },
+    {
+      "id": "markgroeningen-price-83db40aef2cd",
+      "offer_id": "markgroeningen-offer-3214a9a13606",
+      "amount_cents": 16313,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-a1add55b888c",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 8, Modul 2",
+        "original": 16313
+      }
+    },
+    {
+      "id": "markgroeningen-price-458f36bf3310",
+      "offer_id": "markgroeningen-offer-3214a9a13606",
+      "amount_cents": 12813,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-a1add55b888c",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 8, Modul 2",
+        "original": 12813
+      }
+    },
+    {
+      "id": "markgroeningen-price-0678d538bee0",
+      "offer_id": "markgroeningen-offer-3214a9a13606",
+      "amount_cents": 9313,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-a1add55b888c",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 8, Modul 2",
+        "original": 9313
+      }
+    },
+    {
+      "id": "markgroeningen-price-d4e69666b26b",
+      "offer_id": "markgroeningen-offer-3214a9a13606",
+      "amount_cents": 5813,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": "markgroeningen-income-a1add55b888c",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 8, Modul 2",
+        "original": 5813
+      }
+    },
+    {
+      "id": "markgroeningen-price-002cdebb79fa",
+      "offer_id": "markgroeningen-offer-3214a9a13606",
+      "amount_cents": 13866,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-de6067a999b7",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 8, Modul 2",
+        "original": 13866
+      }
+    },
+    {
+      "id": "markgroeningen-price-9e400cc2a971",
+      "offer_id": "markgroeningen-offer-3214a9a13606",
+      "amount_cents": 10891,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-de6067a999b7",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 8, Modul 2",
+        "original": 10891
+      }
+    },
+    {
+      "id": "markgroeningen-price-ec72bdd81b19",
+      "offer_id": "markgroeningen-offer-3214a9a13606",
+      "amount_cents": 7916,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-de6067a999b7",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 8, Modul 2",
+        "original": 7916
+      }
+    },
+    {
+      "id": "markgroeningen-price-077422799eb0",
+      "offer_id": "markgroeningen-offer-3214a9a13606",
+      "amount_cents": 4941,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": "markgroeningen-income-de6067a999b7",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 8, Modul 2",
+        "original": 4941
+      }
+    },
+    {
+      "id": "markgroeningen-price-3dff6ef006ea",
+      "offer_id": "markgroeningen-offer-3214a9a13606",
+      "amount_cents": 11419,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-8f8d402f0841",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 8, Modul 2",
+        "original": 11419
+      }
+    },
+    {
+      "id": "markgroeningen-price-d62be215c67b",
+      "offer_id": "markgroeningen-offer-3214a9a13606",
+      "amount_cents": 8969,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-8f8d402f0841",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 8, Modul 2",
+        "original": 8969
+      }
+    },
+    {
+      "id": "markgroeningen-price-d6f5feca6a82",
+      "offer_id": "markgroeningen-offer-3214a9a13606",
+      "amount_cents": 6519,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-8f8d402f0841",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 8, Modul 2",
+        "original": 6519
+      }
+    },
+    {
+      "id": "markgroeningen-price-82db11a4ad3a",
+      "offer_id": "markgroeningen-offer-3214a9a13606",
+      "amount_cents": 4069,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": "markgroeningen-income-8f8d402f0841",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 8, Modul 2",
+        "original": 4069
+      }
+    },
+    {
+      "id": "markgroeningen-price-5abe08ad1aae",
+      "offer_id": "markgroeningen-offer-9c2f66ebdae3",
+      "amount_cents": 26100,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-274c9918edac",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 9, Modul 3",
+        "original": 26100
+      }
+    },
+    {
+      "id": "markgroeningen-price-0a22192537d0",
+      "offer_id": "markgroeningen-offer-9c2f66ebdae3",
+      "amount_cents": 21550,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-274c9918edac",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 9, Modul 3",
+        "original": 21550
+      }
+    },
+    {
+      "id": "markgroeningen-price-da2ccfbf04b2",
+      "offer_id": "markgroeningen-offer-9c2f66ebdae3",
+      "amount_cents": 17000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-274c9918edac",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 9, Modul 3",
+        "original": 17000
+      }
+    },
+    {
+      "id": "markgroeningen-price-9a20af1c6e5c",
+      "offer_id": "markgroeningen-offer-9c2f66ebdae3",
+      "amount_cents": 12450,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": "markgroeningen-income-274c9918edac",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 9, Modul 3",
+        "original": 12450
+      }
+    },
+    {
+      "id": "markgroeningen-price-da625dcdc7af",
+      "offer_id": "markgroeningen-offer-9c2f66ebdae3",
+      "amount_cents": 23089,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-7feff294cee4",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 9, Modul 3",
+        "original": 23089
+      }
+    },
+    {
+      "id": "markgroeningen-price-6c212be093d6",
+      "offer_id": "markgroeningen-offer-9c2f66ebdae3",
+      "amount_cents": 19064,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-7feff294cee4",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 9, Modul 3",
+        "original": 19064
+      }
+    },
+    {
+      "id": "markgroeningen-price-03755a652be1",
+      "offer_id": "markgroeningen-offer-9c2f66ebdae3",
+      "amount_cents": 15039,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-7feff294cee4",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 9, Modul 3",
+        "original": 15039
+      }
+    },
+    {
+      "id": "markgroeningen-price-9ff8c1a3b2b8",
+      "offer_id": "markgroeningen-offer-9c2f66ebdae3",
+      "amount_cents": 11014,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": "markgroeningen-income-7feff294cee4",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 9, Modul 3",
+        "original": 11014
+      }
+    },
+    {
+      "id": "markgroeningen-price-6c7e48c1ae16",
+      "offer_id": "markgroeningen-offer-9c2f66ebdae3",
+      "amount_cents": 20077,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-a1add55b888c",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 9, Modul 3",
+        "original": 20077
+      }
+    },
+    {
+      "id": "markgroeningen-price-aae0175017bf",
+      "offer_id": "markgroeningen-offer-9c2f66ebdae3",
+      "amount_cents": 16577,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-a1add55b888c",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 9, Modul 3",
+        "original": 16577
+      }
+    },
+    {
+      "id": "markgroeningen-price-46a7c5772d08",
+      "offer_id": "markgroeningen-offer-9c2f66ebdae3",
+      "amount_cents": 13077,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-a1add55b888c",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 9, Modul 3",
+        "original": 13077
+      }
+    },
+    {
+      "id": "markgroeningen-price-d4e9b7b14316",
+      "offer_id": "markgroeningen-offer-9c2f66ebdae3",
+      "amount_cents": 9577,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": "markgroeningen-income-a1add55b888c",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 9, Modul 3",
+        "original": 9577
+      }
+    },
+    {
+      "id": "markgroeningen-price-93e31eb18ca3",
+      "offer_id": "markgroeningen-offer-9c2f66ebdae3",
+      "amount_cents": 17065,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-de6067a999b7",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 9, Modul 3",
+        "original": 17065
+      }
+    },
+    {
+      "id": "markgroeningen-price-0150ac01a738",
+      "offer_id": "markgroeningen-offer-9c2f66ebdae3",
+      "amount_cents": 14090,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-de6067a999b7",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 9, Modul 3",
+        "original": 14090
+      }
+    },
+    {
+      "id": "markgroeningen-price-727b5cbfbb3f",
+      "offer_id": "markgroeningen-offer-9c2f66ebdae3",
+      "amount_cents": 11115,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-de6067a999b7",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 9, Modul 3",
+        "original": 11115
+      }
+    },
+    {
+      "id": "markgroeningen-price-ea52168f6104",
+      "offer_id": "markgroeningen-offer-9c2f66ebdae3",
+      "amount_cents": 8140,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": "markgroeningen-income-de6067a999b7",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 9, Modul 3",
+        "original": 8140
+      }
+    },
+    {
+      "id": "markgroeningen-price-35e396771a06",
+      "offer_id": "markgroeningen-offer-9c2f66ebdae3",
+      "amount_cents": 14054,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-8f8d402f0841",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 9, Modul 3",
+        "original": 14054
+      }
+    },
+    {
+      "id": "markgroeningen-price-123d0caac258",
+      "offer_id": "markgroeningen-offer-9c2f66ebdae3",
+      "amount_cents": 11604,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-8f8d402f0841",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 9, Modul 3",
+        "original": 11604
+      }
+    },
+    {
+      "id": "markgroeningen-price-abbd769dc9f1",
+      "offer_id": "markgroeningen-offer-9c2f66ebdae3",
+      "amount_cents": 9154,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-8f8d402f0841",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 9, Modul 3",
+        "original": 9154
+      }
+    },
+    {
+      "id": "markgroeningen-price-3c8f7c79d89d",
+      "offer_id": "markgroeningen-offer-9c2f66ebdae3",
+      "amount_cents": 6704,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": "markgroeningen-income-8f8d402f0841",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 9, Modul 3",
+        "original": 6704
+      }
+    },
+    {
+      "id": "markgroeningen-price-b7e2ef89a6b8",
+      "offer_id": "markgroeningen-offer-a6db144c2213",
+      "amount_cents": 27732,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-274c9918edac",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 9, Modul 4",
+        "original": 27732
+      }
+    },
+    {
+      "id": "markgroeningen-price-84a1b8a47018",
+      "offer_id": "markgroeningen-offer-a6db144c2213",
+      "amount_cents": 23182,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-274c9918edac",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 9, Modul 4",
+        "original": 23182
+      }
+    },
+    {
+      "id": "markgroeningen-price-f1afff9a0a5c",
+      "offer_id": "markgroeningen-offer-a6db144c2213",
+      "amount_cents": 18632,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-274c9918edac",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 9, Modul 4",
+        "original": 18632
+      }
+    },
+    {
+      "id": "markgroeningen-price-8c3021caafdf",
+      "offer_id": "markgroeningen-offer-a6db144c2213",
+      "amount_cents": 14082,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": "markgroeningen-income-274c9918edac",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 9, Modul 4",
+        "original": 14082
+      }
+    },
+    {
+      "id": "markgroeningen-price-b54c517dc77a",
+      "offer_id": "markgroeningen-offer-a6db144c2213",
+      "amount_cents": 24532,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-7feff294cee4",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 9, Modul 4",
+        "original": 24532
+      }
+    },
+    {
+      "id": "markgroeningen-price-5bddc705beea",
+      "offer_id": "markgroeningen-offer-a6db144c2213",
+      "amount_cents": 20507,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-7feff294cee4",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 9, Modul 4",
+        "original": 20507
+      }
+    },
+    {
+      "id": "markgroeningen-price-2923c1ae8640",
+      "offer_id": "markgroeningen-offer-a6db144c2213",
+      "amount_cents": 16482,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-7feff294cee4",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 9, Modul 4",
+        "original": 16482
+      }
+    },
+    {
+      "id": "markgroeningen-price-6c1f97ef2ac4",
+      "offer_id": "markgroeningen-offer-a6db144c2213",
+      "amount_cents": 12457,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": "markgroeningen-income-7feff294cee4",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 9, Modul 4",
+        "original": 12457
+      }
+    },
+    {
+      "id": "markgroeningen-price-3c45777a3b41",
+      "offer_id": "markgroeningen-offer-a6db144c2213",
+      "amount_cents": 21332,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-a1add55b888c",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 9, Modul 4",
+        "original": 21332
+      }
+    },
+    {
+      "id": "markgroeningen-price-44e67587d7e1",
+      "offer_id": "markgroeningen-offer-a6db144c2213",
+      "amount_cents": 17832,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-a1add55b888c",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 9, Modul 4",
+        "original": 17832
+      }
+    },
+    {
+      "id": "markgroeningen-price-fbf09027bce0",
+      "offer_id": "markgroeningen-offer-a6db144c2213",
+      "amount_cents": 14332,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-a1add55b888c",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 9, Modul 4",
+        "original": 14332
+      }
+    },
+    {
+      "id": "markgroeningen-price-3922b2dd1b60",
+      "offer_id": "markgroeningen-offer-a6db144c2213",
+      "amount_cents": 10832,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": "markgroeningen-income-a1add55b888c",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 9, Modul 4",
+        "original": 10832
+      }
+    },
+    {
+      "id": "markgroeningen-price-1a67504632f0",
+      "offer_id": "markgroeningen-offer-a6db144c2213",
+      "amount_cents": 18132,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-de6067a999b7",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 9, Modul 4",
+        "original": 18132
+      }
+    },
+    {
+      "id": "markgroeningen-price-fa151747f70d",
+      "offer_id": "markgroeningen-offer-a6db144c2213",
+      "amount_cents": 15157,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-de6067a999b7",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 9, Modul 4",
+        "original": 15157
+      }
+    },
+    {
+      "id": "markgroeningen-price-cab8c1413a21",
+      "offer_id": "markgroeningen-offer-a6db144c2213",
+      "amount_cents": 12182,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-de6067a999b7",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 9, Modul 4",
+        "original": 12182
+      }
+    },
+    {
+      "id": "markgroeningen-price-47ce67283554",
+      "offer_id": "markgroeningen-offer-a6db144c2213",
+      "amount_cents": 9207,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": "markgroeningen-income-de6067a999b7",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 9, Modul 4",
+        "original": 9207
+      }
+    },
+    {
+      "id": "markgroeningen-price-68c4d9df5495",
+      "offer_id": "markgroeningen-offer-a6db144c2213",
+      "amount_cents": 14932,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-8f8d402f0841",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 9, Modul 4",
+        "original": 14932
+      }
+    },
+    {
+      "id": "markgroeningen-price-ff368908efb1",
+      "offer_id": "markgroeningen-offer-a6db144c2213",
+      "amount_cents": 12482,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-8f8d402f0841",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 9, Modul 4",
+        "original": 12482
+      }
+    },
+    {
+      "id": "markgroeningen-price-fc9e6379afcb",
+      "offer_id": "markgroeningen-offer-a6db144c2213",
+      "amount_cents": 10032,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-8f8d402f0841",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 9, Modul 4",
+        "original": 10032
+      }
+    },
+    {
+      "id": "markgroeningen-price-0fb778839609",
+      "offer_id": "markgroeningen-offer-a6db144c2213",
+      "amount_cents": 7582,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": "markgroeningen-income-8f8d402f0841",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 9, Modul 4",
+        "original": 7582
+      }
+    },
+    {
+      "id": "markgroeningen-price-0e80e81d39e4",
+      "offer_id": "markgroeningen-offer-01385f38a1c7",
+      "amount_cents": 65000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-274c9918edac",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 10, Modul 5",
+        "original": 65000
+      }
+    },
+    {
+      "id": "markgroeningen-price-c5d926f34390",
+      "offer_id": "markgroeningen-offer-01385f38a1c7",
+      "amount_cents": 52000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-274c9918edac",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 10, Modul 5",
+        "original": 52000
+      }
+    },
+    {
+      "id": "markgroeningen-price-15f628268c45",
+      "offer_id": "markgroeningen-offer-01385f38a1c7",
+      "amount_cents": 39000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-274c9918edac",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 10, Modul 5",
+        "original": 39000
+      }
+    },
+    {
+      "id": "markgroeningen-price-d611afbab59c",
+      "offer_id": "markgroeningen-offer-01385f38a1c7",
+      "amount_cents": 26000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": "markgroeningen-income-274c9918edac",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 10, Modul 5",
+        "original": 26000
+      }
+    },
+    {
+      "id": "markgroeningen-price-56220ff5c840",
+      "offer_id": "markgroeningen-offer-01385f38a1c7",
+      "amount_cents": 57500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-7feff294cee4",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 10, Modul 5",
+        "original": 57500
+      }
+    },
+    {
+      "id": "markgroeningen-price-5d292a413136",
+      "offer_id": "markgroeningen-offer-01385f38a1c7",
+      "amount_cents": 46000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-7feff294cee4",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 10, Modul 5",
+        "original": 46000
+      }
+    },
+    {
+      "id": "markgroeningen-price-c4b16e2a8d8b",
+      "offer_id": "markgroeningen-offer-01385f38a1c7",
+      "amount_cents": 34500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-7feff294cee4",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 10, Modul 5",
+        "original": 34500
+      }
+    },
+    {
+      "id": "markgroeningen-price-46cb65f3bfd8",
+      "offer_id": "markgroeningen-offer-01385f38a1c7",
+      "amount_cents": 23000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": "markgroeningen-income-7feff294cee4",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 10, Modul 5",
+        "original": 23000
+      }
+    },
+    {
+      "id": "markgroeningen-price-45af2a4d74bc",
+      "offer_id": "markgroeningen-offer-01385f38a1c7",
+      "amount_cents": 50000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-a1add55b888c",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 10, Modul 5",
+        "original": 50000
+      }
+    },
+    {
+      "id": "markgroeningen-price-09c5c7e67757",
+      "offer_id": "markgroeningen-offer-01385f38a1c7",
+      "amount_cents": 40000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-a1add55b888c",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 10, Modul 5",
+        "original": 40000
+      }
+    },
+    {
+      "id": "markgroeningen-price-35e4a6f5ed70",
+      "offer_id": "markgroeningen-offer-01385f38a1c7",
+      "amount_cents": 30000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-a1add55b888c",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 10, Modul 5",
+        "original": 30000
+      }
+    },
+    {
+      "id": "markgroeningen-price-bdc52e53a157",
+      "offer_id": "markgroeningen-offer-01385f38a1c7",
+      "amount_cents": 20000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": "markgroeningen-income-a1add55b888c",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 10, Modul 5",
+        "original": 20000
+      }
+    },
+    {
+      "id": "markgroeningen-price-14db5c334a8a",
+      "offer_id": "markgroeningen-offer-01385f38a1c7",
+      "amount_cents": 42500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-de6067a999b7",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 10, Modul 5",
+        "original": 42500
+      }
+    },
+    {
+      "id": "markgroeningen-price-b9a9ec2e6d7b",
+      "offer_id": "markgroeningen-offer-01385f38a1c7",
+      "amount_cents": 34000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-de6067a999b7",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 10, Modul 5",
+        "original": 34000
+      }
+    },
+    {
+      "id": "markgroeningen-price-bd0a4f392ae7",
+      "offer_id": "markgroeningen-offer-01385f38a1c7",
+      "amount_cents": 25500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-de6067a999b7",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 10, Modul 5",
+        "original": 25500
+      }
+    },
+    {
+      "id": "markgroeningen-price-cf1481000e85",
+      "offer_id": "markgroeningen-offer-01385f38a1c7",
+      "amount_cents": 17000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": "markgroeningen-income-de6067a999b7",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 10, Modul 5",
+        "original": 17000
+      }
+    },
+    {
+      "id": "markgroeningen-price-083cd64b8cb9",
+      "offer_id": "markgroeningen-offer-01385f38a1c7",
+      "amount_cents": 35000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-8f8d402f0841",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 10, Modul 5",
+        "original": 35000
+      }
+    },
+    {
+      "id": "markgroeningen-price-137df9e847d4",
+      "offer_id": "markgroeningen-offer-01385f38a1c7",
+      "amount_cents": 28000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-8f8d402f0841",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 10, Modul 5",
+        "original": 28000
+      }
+    },
+    {
+      "id": "markgroeningen-price-2baf783af57f",
+      "offer_id": "markgroeningen-offer-01385f38a1c7",
+      "amount_cents": 21000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-8f8d402f0841",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 10, Modul 5",
+        "original": 21000
+      }
+    },
+    {
+      "id": "markgroeningen-price-2887330db414",
+      "offer_id": "markgroeningen-offer-01385f38a1c7",
+      "amount_cents": 14000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": "markgroeningen-income-8f8d402f0841",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 10, Modul 5",
+        "original": 14000
+      }
+    },
+    {
+      "id": "markgroeningen-price-90a530791795",
+      "offer_id": "markgroeningen-offer-b86ed60e8adb",
+      "amount_cents": 70200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-274c9918edac",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 10, Modul 6",
+        "original": 70200
+      }
+    },
+    {
+      "id": "markgroeningen-price-d9c39e293e52",
+      "offer_id": "markgroeningen-offer-b86ed60e8adb",
+      "amount_cents": 57200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-274c9918edac",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 10, Modul 6",
+        "original": 57200
+      }
+    },
+    {
+      "id": "markgroeningen-price-73eea105b49a",
+      "offer_id": "markgroeningen-offer-b86ed60e8adb",
+      "amount_cents": 44200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-274c9918edac",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 10, Modul 6",
+        "original": 44200
+      }
+    },
+    {
+      "id": "markgroeningen-price-b2665de82c01",
+      "offer_id": "markgroeningen-offer-b86ed60e8adb",
+      "amount_cents": 31200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": "markgroeningen-income-274c9918edac",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 10, Modul 6",
+        "original": 31200
+      }
+    },
+    {
+      "id": "markgroeningen-price-11acf1c5f9ca",
+      "offer_id": "markgroeningen-offer-b86ed60e8adb",
+      "amount_cents": 62100,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-7feff294cee4",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 10, Modul 6",
+        "original": 62100
+      }
+    },
+    {
+      "id": "markgroeningen-price-79465bd9bfe6",
+      "offer_id": "markgroeningen-offer-b86ed60e8adb",
+      "amount_cents": 50600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-7feff294cee4",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 10, Modul 6",
+        "original": 50600
+      }
+    },
+    {
+      "id": "markgroeningen-price-365a5a80c309",
+      "offer_id": "markgroeningen-offer-b86ed60e8adb",
+      "amount_cents": 39100,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-7feff294cee4",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 10, Modul 6",
+        "original": 39100
+      }
+    },
+    {
+      "id": "markgroeningen-price-3bb25bb8ab83",
+      "offer_id": "markgroeningen-offer-b86ed60e8adb",
+      "amount_cents": 27600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": "markgroeningen-income-7feff294cee4",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 10, Modul 6",
+        "original": 27600
+      }
+    },
+    {
+      "id": "markgroeningen-price-e2f28628d55b",
+      "offer_id": "markgroeningen-offer-b86ed60e8adb",
+      "amount_cents": 54000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-a1add55b888c",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 10, Modul 6",
+        "original": 54000
+      }
+    },
+    {
+      "id": "markgroeningen-price-a58a9cc692b7",
+      "offer_id": "markgroeningen-offer-b86ed60e8adb",
+      "amount_cents": 44000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-a1add55b888c",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 10, Modul 6",
+        "original": 44000
+      }
+    },
+    {
+      "id": "markgroeningen-price-19c208d626e0",
+      "offer_id": "markgroeningen-offer-b86ed60e8adb",
+      "amount_cents": 34000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-a1add55b888c",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 10, Modul 6",
+        "original": 34000
+      }
+    },
+    {
+      "id": "markgroeningen-price-ae7758effad4",
+      "offer_id": "markgroeningen-offer-b86ed60e8adb",
+      "amount_cents": 24000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": "markgroeningen-income-a1add55b888c",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 10, Modul 6",
+        "original": 24000
+      }
+    },
+    {
+      "id": "markgroeningen-price-e5fbe85a5afe",
+      "offer_id": "markgroeningen-offer-b86ed60e8adb",
+      "amount_cents": 45900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-de6067a999b7",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 10, Modul 6",
+        "original": 45900
+      }
+    },
+    {
+      "id": "markgroeningen-price-fbf45685a0e1",
+      "offer_id": "markgroeningen-offer-b86ed60e8adb",
+      "amount_cents": 37400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-de6067a999b7",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 10, Modul 6",
+        "original": 37400
+      }
+    },
+    {
+      "id": "markgroeningen-price-3ed7e2a62741",
+      "offer_id": "markgroeningen-offer-b86ed60e8adb",
+      "amount_cents": 28900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-de6067a999b7",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 10, Modul 6",
+        "original": 28900
+      }
+    },
+    {
+      "id": "markgroeningen-price-2f3503764806",
+      "offer_id": "markgroeningen-offer-b86ed60e8adb",
+      "amount_cents": 20400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": "markgroeningen-income-de6067a999b7",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 10, Modul 6",
+        "original": 20400
+      }
+    },
+    {
+      "id": "markgroeningen-price-23f7d3d93db4",
+      "offer_id": "markgroeningen-offer-b86ed60e8adb",
+      "amount_cents": 37800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-8f8d402f0841",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 10, Modul 6",
+        "original": 37800
+      }
+    },
+    {
+      "id": "markgroeningen-price-817478221ed3",
+      "offer_id": "markgroeningen-offer-b86ed60e8adb",
+      "amount_cents": 30800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-8f8d402f0841",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 10, Modul 6",
+        "original": 30800
+      }
+    },
+    {
+      "id": "markgroeningen-price-75ca2ec277b1",
+      "offer_id": "markgroeningen-offer-b86ed60e8adb",
+      "amount_cents": 23800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-8f8d402f0841",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 10, Modul 6",
+        "original": 23800
+      }
+    },
+    {
+      "id": "markgroeningen-price-22773f63e2ae",
+      "offer_id": "markgroeningen-offer-b86ed60e8adb",
+      "amount_cents": 16800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": "markgroeningen-income-8f8d402f0841",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 10, Modul 6",
+        "original": 16800
+      }
+    },
+    {
+      "id": "markgroeningen-price-c3b94deb3fa3",
+      "offer_id": "markgroeningen-offer-191643014d4c",
+      "amount_cents": 86450,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-274c9918edac",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 11, Modul 7",
+        "original": 86450
+      }
+    },
+    {
+      "id": "markgroeningen-price-95fb79e10c32",
+      "offer_id": "markgroeningen-offer-191643014d4c",
+      "amount_cents": 73450,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-274c9918edac",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 11, Modul 7",
+        "original": 73450
+      }
+    },
+    {
+      "id": "markgroeningen-price-685161c743a4",
+      "offer_id": "markgroeningen-offer-191643014d4c",
+      "amount_cents": 60450,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-274c9918edac",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 11, Modul 7",
+        "original": 60450
+      }
+    },
+    {
+      "id": "markgroeningen-price-f33385e00fb8",
+      "offer_id": "markgroeningen-offer-191643014d4c",
+      "amount_cents": 47450,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": "markgroeningen-income-274c9918edac",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 11, Modul 7",
+        "original": 47450
+      }
+    },
+    {
+      "id": "markgroeningen-price-6ab7e08ddbc2",
+      "offer_id": "markgroeningen-offer-191643014d4c",
+      "amount_cents": 76475,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-7feff294cee4",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 11, Modul 7",
+        "original": 76475
+      }
+    },
+    {
+      "id": "markgroeningen-price-05601552e855",
+      "offer_id": "markgroeningen-offer-191643014d4c",
+      "amount_cents": 64975,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-7feff294cee4",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 11, Modul 7",
+        "original": 64975
+      }
+    },
+    {
+      "id": "markgroeningen-price-5f36f70c6385",
+      "offer_id": "markgroeningen-offer-191643014d4c",
+      "amount_cents": 53475,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-7feff294cee4",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 11, Modul 7",
+        "original": 53475
+      }
+    },
+    {
+      "id": "markgroeningen-price-0e8056cb3f18",
+      "offer_id": "markgroeningen-offer-191643014d4c",
+      "amount_cents": 41975,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": "markgroeningen-income-7feff294cee4",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 11, Modul 7",
+        "original": 41975
+      }
+    },
+    {
+      "id": "markgroeningen-price-4cb961f7f1f3",
+      "offer_id": "markgroeningen-offer-191643014d4c",
+      "amount_cents": 66500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-a1add55b888c",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 11, Modul 7",
+        "original": 66500
+      }
+    },
+    {
+      "id": "markgroeningen-price-5c995b8b2bd1",
+      "offer_id": "markgroeningen-offer-191643014d4c",
+      "amount_cents": 56500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-a1add55b888c",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 11, Modul 7",
+        "original": 56500
+      }
+    },
+    {
+      "id": "markgroeningen-price-aba0efe63493",
+      "offer_id": "markgroeningen-offer-191643014d4c",
+      "amount_cents": 46500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-a1add55b888c",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 11, Modul 7",
+        "original": 46500
+      }
+    },
+    {
+      "id": "markgroeningen-price-49149c1ee61c",
+      "offer_id": "markgroeningen-offer-191643014d4c",
+      "amount_cents": 36500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": "markgroeningen-income-a1add55b888c",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 11, Modul 7",
+        "original": 36500
+      }
+    },
+    {
+      "id": "markgroeningen-price-ac0a174f1dbb",
+      "offer_id": "markgroeningen-offer-191643014d4c",
+      "amount_cents": 56525,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-de6067a999b7",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 11, Modul 7",
+        "original": 56525
+      }
+    },
+    {
+      "id": "markgroeningen-price-86b05aa52ad7",
+      "offer_id": "markgroeningen-offer-191643014d4c",
+      "amount_cents": 48025,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-de6067a999b7",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 11, Modul 7",
+        "original": 48025
+      }
+    },
+    {
+      "id": "markgroeningen-price-ee664d169514",
+      "offer_id": "markgroeningen-offer-191643014d4c",
+      "amount_cents": 39525,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-de6067a999b7",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 11, Modul 7",
+        "original": 39525
+      }
+    },
+    {
+      "id": "markgroeningen-price-e274839e151d",
+      "offer_id": "markgroeningen-offer-191643014d4c",
+      "amount_cents": 31025,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": "markgroeningen-income-de6067a999b7",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 11, Modul 7",
+        "original": 31025
+      }
+    },
+    {
+      "id": "markgroeningen-price-65de90f2039b",
+      "offer_id": "markgroeningen-offer-191643014d4c",
+      "amount_cents": 46550,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-8f8d402f0841",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 11, Modul 7",
+        "original": 46550
+      }
+    },
+    {
+      "id": "markgroeningen-price-d717e53a0518",
+      "offer_id": "markgroeningen-offer-191643014d4c",
+      "amount_cents": 39550,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-8f8d402f0841",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 11, Modul 7",
+        "original": 39550
+      }
+    },
+    {
+      "id": "markgroeningen-price-22eda279797d",
+      "offer_id": "markgroeningen-offer-191643014d4c",
+      "amount_cents": 32550,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-8f8d402f0841",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 11, Modul 7",
+        "original": 32550
+      }
+    },
+    {
+      "id": "markgroeningen-price-1c47c00e00c4",
+      "offer_id": "markgroeningen-offer-191643014d4c",
+      "amount_cents": 25550,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": "markgroeningen-income-8f8d402f0841",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 11, Modul 7",
+        "original": 25550
+      }
+    },
+    {
+      "id": "markgroeningen-price-0a292e7b135e",
+      "offer_id": "markgroeningen-offer-98a98970ed3c",
+      "amount_cents": 92300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-274c9918edac",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 11, Modul 8",
+        "original": 92300
+      }
+    },
+    {
+      "id": "markgroeningen-price-2705a4c492b1",
+      "offer_id": "markgroeningen-offer-98a98970ed3c",
+      "amount_cents": 79300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-274c9918edac",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 11, Modul 8",
+        "original": 79300
+      }
+    },
+    {
+      "id": "markgroeningen-price-09282da0a3a1",
+      "offer_id": "markgroeningen-offer-98a98970ed3c",
+      "amount_cents": 66300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-274c9918edac",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 11, Modul 8",
+        "original": 66300
+      }
+    },
+    {
+      "id": "markgroeningen-price-963a578b4e30",
+      "offer_id": "markgroeningen-offer-98a98970ed3c",
+      "amount_cents": 53300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": "markgroeningen-income-274c9918edac",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 11, Modul 8",
+        "original": 53300
+      }
+    },
+    {
+      "id": "markgroeningen-price-4f0cdb5acee9",
+      "offer_id": "markgroeningen-offer-98a98970ed3c",
+      "amount_cents": 81650,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-7feff294cee4",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 11, Modul 8",
+        "original": 81650
+      }
+    },
+    {
+      "id": "markgroeningen-price-f3f55c7b01ff",
+      "offer_id": "markgroeningen-offer-98a98970ed3c",
+      "amount_cents": 70150,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-7feff294cee4",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 11, Modul 8",
+        "original": 70150
+      }
+    },
+    {
+      "id": "markgroeningen-price-0f1b30ee8df6",
+      "offer_id": "markgroeningen-offer-98a98970ed3c",
+      "amount_cents": 58650,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-7feff294cee4",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 11, Modul 8",
+        "original": 58650
+      }
+    },
+    {
+      "id": "markgroeningen-price-632923e7147c",
+      "offer_id": "markgroeningen-offer-98a98970ed3c",
+      "amount_cents": 47150,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": "markgroeningen-income-7feff294cee4",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 11, Modul 8",
+        "original": 47150
+      }
+    },
+    {
+      "id": "markgroeningen-price-78adc1dddff7",
+      "offer_id": "markgroeningen-offer-98a98970ed3c",
+      "amount_cents": 71000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-a1add55b888c",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 11, Modul 8",
+        "original": 71000
+      }
+    },
+    {
+      "id": "markgroeningen-price-07f46ef25faf",
+      "offer_id": "markgroeningen-offer-98a98970ed3c",
+      "amount_cents": 61000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-a1add55b888c",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 11, Modul 8",
+        "original": 61000
+      }
+    },
+    {
+      "id": "markgroeningen-price-092d71ea84db",
+      "offer_id": "markgroeningen-offer-98a98970ed3c",
+      "amount_cents": 51000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-a1add55b888c",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 11, Modul 8",
+        "original": 51000
+      }
+    },
+    {
+      "id": "markgroeningen-price-9a19fe42dab9",
+      "offer_id": "markgroeningen-offer-98a98970ed3c",
+      "amount_cents": 41000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": "markgroeningen-income-a1add55b888c",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 11, Modul 8",
+        "original": 41000
+      }
+    },
+    {
+      "id": "markgroeningen-price-79bc8689373d",
+      "offer_id": "markgroeningen-offer-98a98970ed3c",
+      "amount_cents": 60350,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-de6067a999b7",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 11, Modul 8",
+        "original": 60350
+      }
+    },
+    {
+      "id": "markgroeningen-price-a01b85fe8a11",
+      "offer_id": "markgroeningen-offer-98a98970ed3c",
+      "amount_cents": 51850,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-de6067a999b7",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 11, Modul 8",
+        "original": 51850
+      }
+    },
+    {
+      "id": "markgroeningen-price-deb71f4ad4eb",
+      "offer_id": "markgroeningen-offer-98a98970ed3c",
+      "amount_cents": 43350,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-de6067a999b7",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 11, Modul 8",
+        "original": 43350
+      }
+    },
+    {
+      "id": "markgroeningen-price-fd3a49930edf",
+      "offer_id": "markgroeningen-offer-98a98970ed3c",
+      "amount_cents": 34850,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": "markgroeningen-income-de6067a999b7",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 11, Modul 8",
+        "original": 34850
+      }
+    },
+    {
+      "id": "markgroeningen-price-53accc7aa721",
+      "offer_id": "markgroeningen-offer-98a98970ed3c",
+      "amount_cents": 49700,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-8f8d402f0841",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 11, Modul 8",
+        "original": 49700
+      }
+    },
+    {
+      "id": "markgroeningen-price-bc49178bbfa0",
+      "offer_id": "markgroeningen-offer-98a98970ed3c",
+      "amount_cents": 42700,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-8f8d402f0841",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 11, Modul 8",
+        "original": 42700
+      }
+    },
+    {
+      "id": "markgroeningen-price-47db290219aa",
+      "offer_id": "markgroeningen-offer-98a98970ed3c",
+      "amount_cents": 35700,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-8f8d402f0841",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 11, Modul 8",
+        "original": 35700
+      }
+    },
+    {
+      "id": "markgroeningen-price-e7205d8afd8d",
+      "offer_id": "markgroeningen-offer-98a98970ed3c",
+      "amount_cents": 28700,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": "markgroeningen-income-8f8d402f0841",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 11, Modul 8",
+        "original": 28700
+      }
+    },
+    {
+      "id": "markgroeningen-price-af71f0adbb13",
+      "offer_id": "markgroeningen-offer-63278cf3281f",
+      "amount_cents": 20358,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-274c9918edac",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 12, Modul 1",
+        "original": 20358
+      }
+    },
+    {
+      "id": "markgroeningen-price-9778dd336f15",
+      "offer_id": "markgroeningen-offer-63278cf3281f",
+      "amount_cents": 15808,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-274c9918edac",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 12, Modul 1",
+        "original": 15808
+      }
+    },
+    {
+      "id": "markgroeningen-price-ba5a41a52990",
+      "offer_id": "markgroeningen-offer-63278cf3281f",
+      "amount_cents": 11258,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-274c9918edac",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 12, Modul 1",
+        "original": 11258
+      }
+    },
+    {
+      "id": "markgroeningen-price-7074e386d1de",
+      "offer_id": "markgroeningen-offer-63278cf3281f",
+      "amount_cents": 6708,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": "markgroeningen-income-274c9918edac",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 12, Modul 1",
+        "original": 6708
+      }
+    },
+    {
+      "id": "markgroeningen-price-6a7ff8b83a74",
+      "offer_id": "markgroeningen-offer-63278cf3281f",
+      "amount_cents": 18009,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-7feff294cee4",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 12, Modul 1",
+        "original": 18009
+      }
+    },
+    {
+      "id": "markgroeningen-price-73abe375afbe",
+      "offer_id": "markgroeningen-offer-63278cf3281f",
+      "amount_cents": 13984,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-7feff294cee4",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 12, Modul 1",
+        "original": 13984
+      }
+    },
+    {
+      "id": "markgroeningen-price-ea8ab0804767",
+      "offer_id": "markgroeningen-offer-63278cf3281f",
+      "amount_cents": 9959,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-7feff294cee4",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 12, Modul 1",
+        "original": 9959
+      }
+    },
+    {
+      "id": "markgroeningen-price-a42574ecfccb",
+      "offer_id": "markgroeningen-offer-63278cf3281f",
+      "amount_cents": 5934,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": "markgroeningen-income-7feff294cee4",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 12, Modul 1",
+        "original": 5934
+      }
+    },
+    {
+      "id": "markgroeningen-price-22a408b205d7",
+      "offer_id": "markgroeningen-offer-63278cf3281f",
+      "amount_cents": 15660,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-a1add55b888c",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 12, Modul 1",
+        "original": 15660
+      }
+    },
+    {
+      "id": "markgroeningen-price-6410117b995b",
+      "offer_id": "markgroeningen-offer-63278cf3281f",
+      "amount_cents": 12160,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-a1add55b888c",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 12, Modul 1",
+        "original": 12160
+      }
+    },
+    {
+      "id": "markgroeningen-price-37c022a086e8",
+      "offer_id": "markgroeningen-offer-63278cf3281f",
+      "amount_cents": 8660,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-a1add55b888c",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 12, Modul 1",
+        "original": 8660
+      }
+    },
+    {
+      "id": "markgroeningen-price-03416120a90e",
+      "offer_id": "markgroeningen-offer-63278cf3281f",
+      "amount_cents": 5160,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": "markgroeningen-income-a1add55b888c",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 12, Modul 1",
+        "original": 5160
+      }
+    },
+    {
+      "id": "markgroeningen-price-10bfd03c2a3d",
+      "offer_id": "markgroeningen-offer-63278cf3281f",
+      "amount_cents": 13311,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-de6067a999b7",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 12, Modul 1",
+        "original": 13311
+      }
+    },
+    {
+      "id": "markgroeningen-price-fa7f896c5ada",
+      "offer_id": "markgroeningen-offer-63278cf3281f",
+      "amount_cents": 10336,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-de6067a999b7",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 12, Modul 1",
+        "original": 10336
+      }
+    },
+    {
+      "id": "markgroeningen-price-9052bbce8a58",
+      "offer_id": "markgroeningen-offer-63278cf3281f",
+      "amount_cents": 7361,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-de6067a999b7",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 12, Modul 1",
+        "original": 7361
+      }
+    },
+    {
+      "id": "markgroeningen-price-53224e114955",
+      "offer_id": "markgroeningen-offer-63278cf3281f",
+      "amount_cents": 4386,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": "markgroeningen-income-de6067a999b7",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 12, Modul 1",
+        "original": 4386
+      }
+    },
+    {
+      "id": "markgroeningen-price-e3cd76789207",
+      "offer_id": "markgroeningen-offer-63278cf3281f",
+      "amount_cents": 10962,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-8f8d402f0841",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 12, Modul 1",
+        "original": 10962
+      }
+    },
+    {
+      "id": "markgroeningen-price-6fae4dd3c8bd",
+      "offer_id": "markgroeningen-offer-63278cf3281f",
+      "amount_cents": 8512,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-8f8d402f0841",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 12, Modul 1",
+        "original": 8512
+      }
+    },
+    {
+      "id": "markgroeningen-price-35e86caee273",
+      "offer_id": "markgroeningen-offer-63278cf3281f",
+      "amount_cents": 6062,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-8f8d402f0841",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 12, Modul 1",
+        "original": 6062
+      }
+    },
+    {
+      "id": "markgroeningen-price-5a254fc6b8ba",
+      "offer_id": "markgroeningen-offer-63278cf3281f",
+      "amount_cents": 3612,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": "markgroeningen-income-8f8d402f0841",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 12, Modul 1",
+        "original": 3612
+      }
+    },
+    {
+      "id": "markgroeningen-price-7dd5efb03e5e",
+      "offer_id": "markgroeningen-offer-bb9294f9a14a",
+      "amount_cents": 22056,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-274c9918edac",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 12, Modul 2",
+        "original": 22056
+      }
+    },
+    {
+      "id": "markgroeningen-price-a4710daea939",
+      "offer_id": "markgroeningen-offer-bb9294f9a14a",
+      "amount_cents": 17506,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-274c9918edac",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 12, Modul 2",
+        "original": 17506
+      }
+    },
+    {
+      "id": "markgroeningen-price-dafce1fce0c6",
+      "offer_id": "markgroeningen-offer-bb9294f9a14a",
+      "amount_cents": 12956,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-274c9918edac",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 12, Modul 2",
+        "original": 12956
+      }
+    },
+    {
+      "id": "markgroeningen-price-3bb874881866",
+      "offer_id": "markgroeningen-offer-bb9294f9a14a",
+      "amount_cents": 8406,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": "markgroeningen-income-274c9918edac",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 12, Modul 2",
+        "original": 8406
+      }
+    },
+    {
+      "id": "markgroeningen-price-a3e9f14eef79",
+      "offer_id": "markgroeningen-offer-bb9294f9a14a",
+      "amount_cents": 19511,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-7feff294cee4",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 12, Modul 2",
+        "original": 19511
+      }
+    },
+    {
+      "id": "markgroeningen-price-524c0da91760",
+      "offer_id": "markgroeningen-offer-bb9294f9a14a",
+      "amount_cents": 15486,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-7feff294cee4",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 12, Modul 2",
+        "original": 15486
+      }
+    },
+    {
+      "id": "markgroeningen-price-bbe9013e7e88",
+      "offer_id": "markgroeningen-offer-bb9294f9a14a",
+      "amount_cents": 11461,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-7feff294cee4",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 12, Modul 2",
+        "original": 11461
+      }
+    },
+    {
+      "id": "markgroeningen-price-bf0425e48962",
+      "offer_id": "markgroeningen-offer-bb9294f9a14a",
+      "amount_cents": 7436,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": "markgroeningen-income-7feff294cee4",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 12, Modul 2",
+        "original": 7436
+      }
+    },
+    {
+      "id": "markgroeningen-price-fefee2c842dd",
+      "offer_id": "markgroeningen-offer-bb9294f9a14a",
+      "amount_cents": 16966,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-a1add55b888c",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 12, Modul 2",
+        "original": 16966
+      }
+    },
+    {
+      "id": "markgroeningen-price-06a6d8691012",
+      "offer_id": "markgroeningen-offer-bb9294f9a14a",
+      "amount_cents": 13466,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-a1add55b888c",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 12, Modul 2",
+        "original": 13466
+      }
+    },
+    {
+      "id": "markgroeningen-price-4c7fad29e76f",
+      "offer_id": "markgroeningen-offer-bb9294f9a14a",
+      "amount_cents": 9966,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-a1add55b888c",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 12, Modul 2",
+        "original": 9966
+      }
+    },
+    {
+      "id": "markgroeningen-price-4a1399ea4659",
+      "offer_id": "markgroeningen-offer-bb9294f9a14a",
+      "amount_cents": 6466,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": "markgroeningen-income-a1add55b888c",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 12, Modul 2",
+        "original": 6466
+      }
+    },
+    {
+      "id": "markgroeningen-price-afd3df2ce1d0",
+      "offer_id": "markgroeningen-offer-bb9294f9a14a",
+      "amount_cents": 14421,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-de6067a999b7",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 12, Modul 2",
+        "original": 14421
+      }
+    },
+    {
+      "id": "markgroeningen-price-5affefedd4ca",
+      "offer_id": "markgroeningen-offer-bb9294f9a14a",
+      "amount_cents": 11446,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-de6067a999b7",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 12, Modul 2",
+        "original": 11446
+      }
+    },
+    {
+      "id": "markgroeningen-price-a36fe5c69f12",
+      "offer_id": "markgroeningen-offer-bb9294f9a14a",
+      "amount_cents": 8471,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-de6067a999b7",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 12, Modul 2",
+        "original": 8471
+      }
+    },
+    {
+      "id": "markgroeningen-price-c69d25088989",
+      "offer_id": "markgroeningen-offer-bb9294f9a14a",
+      "amount_cents": 5496,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": "markgroeningen-income-de6067a999b7",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 12, Modul 2",
+        "original": 5496
+      }
+    },
+    {
+      "id": "markgroeningen-price-6f6088650d15",
+      "offer_id": "markgroeningen-offer-bb9294f9a14a",
+      "amount_cents": 11876,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-8f8d402f0841",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 12, Modul 2",
+        "original": 11876
+      }
+    },
+    {
+      "id": "markgroeningen-price-a772b8b716bc",
+      "offer_id": "markgroeningen-offer-bb9294f9a14a",
+      "amount_cents": 9426,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-8f8d402f0841",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 12, Modul 2",
+        "original": 9426
+      }
+    },
+    {
+      "id": "markgroeningen-price-2a60b6a8bbe2",
+      "offer_id": "markgroeningen-offer-bb9294f9a14a",
+      "amount_cents": 6976,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-8f8d402f0841",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 12, Modul 2",
+        "original": 6976
+      }
+    },
+    {
+      "id": "markgroeningen-price-5a4b884f4d70",
+      "offer_id": "markgroeningen-offer-bb9294f9a14a",
+      "amount_cents": 4526,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": "markgroeningen-income-8f8d402f0841",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 12, Modul 2",
+        "original": 4526
+      }
+    },
+    {
+      "id": "markgroeningen-price-e2c842b17e0f",
+      "offer_id": "markgroeningen-offer-e3cc8fdf153a",
+      "amount_cents": 27144,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-274c9918edac",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 13, Modul 3",
+        "original": 27144
+      }
+    },
+    {
+      "id": "markgroeningen-price-1665d8ea8f6d",
+      "offer_id": "markgroeningen-offer-e3cc8fdf153a",
+      "amount_cents": 22594,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-274c9918edac",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 13, Modul 3",
+        "original": 22594
+      }
+    },
+    {
+      "id": "markgroeningen-price-527e1f7fa3dc",
+      "offer_id": "markgroeningen-offer-e3cc8fdf153a",
+      "amount_cents": 18044,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-274c9918edac",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 13, Modul 3",
+        "original": 18044
+      }
+    },
+    {
+      "id": "markgroeningen-price-a943b0e3aac6",
+      "offer_id": "markgroeningen-offer-e3cc8fdf153a",
+      "amount_cents": 13494,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": "markgroeningen-income-274c9918edac",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 13, Modul 3",
+        "original": 13494
+      }
+    },
+    {
+      "id": "markgroeningen-price-a1f195d50846",
+      "offer_id": "markgroeningen-offer-e3cc8fdf153a",
+      "amount_cents": 24012,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-7feff294cee4",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 13, Modul 3",
+        "original": 24012
+      }
+    },
+    {
+      "id": "markgroeningen-price-afaa9193252e",
+      "offer_id": "markgroeningen-offer-e3cc8fdf153a",
+      "amount_cents": 19987,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-7feff294cee4",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 13, Modul 3",
+        "original": 19987
+      }
+    },
+    {
+      "id": "markgroeningen-price-207fab304171",
+      "offer_id": "markgroeningen-offer-e3cc8fdf153a",
+      "amount_cents": 15962,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-7feff294cee4",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 13, Modul 3",
+        "original": 15962
+      }
+    },
+    {
+      "id": "markgroeningen-price-dd9ecf3097ce",
+      "offer_id": "markgroeningen-offer-e3cc8fdf153a",
+      "amount_cents": 11937,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": "markgroeningen-income-7feff294cee4",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 13, Modul 3",
+        "original": 11937
+      }
+    },
+    {
+      "id": "markgroeningen-price-5e13a7dc86dd",
+      "offer_id": "markgroeningen-offer-e3cc8fdf153a",
+      "amount_cents": 20880,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-a1add55b888c",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 13, Modul 3",
+        "original": 20880
+      }
+    },
+    {
+      "id": "markgroeningen-price-2e1200d71252",
+      "offer_id": "markgroeningen-offer-e3cc8fdf153a",
+      "amount_cents": 17380,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-a1add55b888c",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 13, Modul 3",
+        "original": 17380
+      }
+    },
+    {
+      "id": "markgroeningen-price-efe409ca1fe5",
+      "offer_id": "markgroeningen-offer-e3cc8fdf153a",
+      "amount_cents": 13880,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-a1add55b888c",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 13, Modul 3",
+        "original": 13880
+      }
+    },
+    {
+      "id": "markgroeningen-price-b7619b6cf61e",
+      "offer_id": "markgroeningen-offer-e3cc8fdf153a",
+      "amount_cents": 10380,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": "markgroeningen-income-a1add55b888c",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 13, Modul 3",
+        "original": 10380
+      }
+    },
+    {
+      "id": "markgroeningen-price-594401a510ca",
+      "offer_id": "markgroeningen-offer-e3cc8fdf153a",
+      "amount_cents": 17748,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-de6067a999b7",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 13, Modul 3",
+        "original": 17748
+      }
+    },
+    {
+      "id": "markgroeningen-price-5a173be0a96e",
+      "offer_id": "markgroeningen-offer-e3cc8fdf153a",
+      "amount_cents": 14773,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-de6067a999b7",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 13, Modul 3",
+        "original": 14773
+      }
+    },
+    {
+      "id": "markgroeningen-price-a8f1c5d47abf",
+      "offer_id": "markgroeningen-offer-e3cc8fdf153a",
+      "amount_cents": 11798,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-de6067a999b7",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 13, Modul 3",
+        "original": 11798
+      }
+    },
+    {
+      "id": "markgroeningen-price-5f2ec3090ec2",
+      "offer_id": "markgroeningen-offer-e3cc8fdf153a",
+      "amount_cents": 8823,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": "markgroeningen-income-de6067a999b7",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 13, Modul 3",
+        "original": 8823
+      }
+    },
+    {
+      "id": "markgroeningen-price-626285eb75d7",
+      "offer_id": "markgroeningen-offer-e3cc8fdf153a",
+      "amount_cents": 14616,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-8f8d402f0841",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 13, Modul 3",
+        "original": 14616
+      }
+    },
+    {
+      "id": "markgroeningen-price-ed9175799976",
+      "offer_id": "markgroeningen-offer-e3cc8fdf153a",
+      "amount_cents": 12166,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-8f8d402f0841",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 13, Modul 3",
+        "original": 12166
+      }
+    },
+    {
+      "id": "markgroeningen-price-741246766b99",
+      "offer_id": "markgroeningen-offer-e3cc8fdf153a",
+      "amount_cents": 9716,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-8f8d402f0841",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 13, Modul 3",
+        "original": 9716
+      }
+    },
+    {
+      "id": "markgroeningen-price-83d522f6ff55",
+      "offer_id": "markgroeningen-offer-e3cc8fdf153a",
+      "amount_cents": 7266,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": "markgroeningen-income-8f8d402f0841",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 13, Modul 3",
+        "original": 7266
+      }
+    },
+    {
+      "id": "markgroeningen-price-4c87c39baf10",
+      "offer_id": "markgroeningen-offer-39cf46841b4c",
+      "amount_cents": 28841,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-274c9918edac",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 13, Modul 4",
+        "original": 28841
+      }
+    },
+    {
+      "id": "markgroeningen-price-a1d3ddd03f6d",
+      "offer_id": "markgroeningen-offer-39cf46841b4c",
+      "amount_cents": 24291,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-274c9918edac",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 13, Modul 4",
+        "original": 24291
+      }
+    },
+    {
+      "id": "markgroeningen-price-76ad70c011a2",
+      "offer_id": "markgroeningen-offer-39cf46841b4c",
+      "amount_cents": 19741,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-274c9918edac",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 13, Modul 4",
+        "original": 19741
+      }
+    },
+    {
+      "id": "markgroeningen-price-d5e590d752be",
+      "offer_id": "markgroeningen-offer-39cf46841b4c",
+      "amount_cents": 15191,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": "markgroeningen-income-274c9918edac",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 13, Modul 4",
+        "original": 15191
+      }
+    },
+    {
+      "id": "markgroeningen-price-a5ca606109a9",
+      "offer_id": "markgroeningen-offer-39cf46841b4c",
+      "amount_cents": 25513,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-7feff294cee4",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 13, Modul 4",
+        "original": 25513
+      }
+    },
+    {
+      "id": "markgroeningen-price-4906ade1f3a3",
+      "offer_id": "markgroeningen-offer-39cf46841b4c",
+      "amount_cents": 21488,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-7feff294cee4",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 13, Modul 4",
+        "original": 21488
+      }
+    },
+    {
+      "id": "markgroeningen-price-e93c4202ba4a",
+      "offer_id": "markgroeningen-offer-39cf46841b4c",
+      "amount_cents": 17463,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-7feff294cee4",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 13, Modul 4",
+        "original": 17463
+      }
+    },
+    {
+      "id": "markgroeningen-price-05a74b5e4c11",
+      "offer_id": "markgroeningen-offer-39cf46841b4c",
+      "amount_cents": 13438,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": "markgroeningen-income-7feff294cee4",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 13, Modul 4",
+        "original": 13438
+      }
+    },
+    {
+      "id": "markgroeningen-price-e8be3d1b0811",
+      "offer_id": "markgroeningen-offer-39cf46841b4c",
+      "amount_cents": 22185,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-a1add55b888c",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 13, Modul 4",
+        "original": 22185
+      }
+    },
+    {
+      "id": "markgroeningen-price-ae2894ed0565",
+      "offer_id": "markgroeningen-offer-39cf46841b4c",
+      "amount_cents": 18685,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-a1add55b888c",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 13, Modul 4",
+        "original": 18685
+      }
+    },
+    {
+      "id": "markgroeningen-price-e9c01a164fa7",
+      "offer_id": "markgroeningen-offer-39cf46841b4c",
+      "amount_cents": 15185,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-a1add55b888c",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 13, Modul 4",
+        "original": 15185
+      }
+    },
+    {
+      "id": "markgroeningen-price-05e2e1b0f10b",
+      "offer_id": "markgroeningen-offer-39cf46841b4c",
+      "amount_cents": 11685,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": "markgroeningen-income-a1add55b888c",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 13, Modul 4",
+        "original": 11685
+      }
+    },
+    {
+      "id": "markgroeningen-price-bfcec8e2f815",
+      "offer_id": "markgroeningen-offer-39cf46841b4c",
+      "amount_cents": 18857,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-de6067a999b7",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 13, Modul 4",
+        "original": 18857
+      }
+    },
+    {
+      "id": "markgroeningen-price-d2511ebd12d4",
+      "offer_id": "markgroeningen-offer-39cf46841b4c",
+      "amount_cents": 15882,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-de6067a999b7",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 13, Modul 4",
+        "original": 15882
+      }
+    },
+    {
+      "id": "markgroeningen-price-58bf9519736b",
+      "offer_id": "markgroeningen-offer-39cf46841b4c",
+      "amount_cents": 12907,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-de6067a999b7",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 13, Modul 4",
+        "original": 12907
+      }
+    },
+    {
+      "id": "markgroeningen-price-9fb766afb1ab",
+      "offer_id": "markgroeningen-offer-39cf46841b4c",
+      "amount_cents": 9932,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": "markgroeningen-income-de6067a999b7",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 13, Modul 4",
+        "original": 9932
+      }
+    },
+    {
+      "id": "markgroeningen-price-fdc9a7f48ce8",
+      "offer_id": "markgroeningen-offer-39cf46841b4c",
+      "amount_cents": 15530,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-8f8d402f0841",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 13, Modul 4",
+        "original": 15530
+      }
+    },
+    {
+      "id": "markgroeningen-price-f67896911f77",
+      "offer_id": "markgroeningen-offer-39cf46841b4c",
+      "amount_cents": 13080,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-8f8d402f0841",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 13, Modul 4",
+        "original": 13080
+      }
+    },
+    {
+      "id": "markgroeningen-price-b2c40c757db3",
+      "offer_id": "markgroeningen-offer-39cf46841b4c",
+      "amount_cents": 10630,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": "markgroeningen-income-8f8d402f0841",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 13, Modul 4",
+        "original": 10630
+      }
+    },
+    {
+      "id": "markgroeningen-price-964ee4c0f9cf",
+      "offer_id": "markgroeningen-offer-39cf46841b4c",
+      "amount_cents": 8180,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": "markgroeningen-income-8f8d402f0841",
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 13, Modul 4",
+        "original": 8180
+      }
+    }
+  ],
+  "income_bands": [
+    {
+      "id": "markgroeningen-income-274c9918edac",
+      "basis": "gross_income",
+      "period": "year",
+      "reference_period": "not_specified",
+      "lower_cents": 12500000,
+      "upper_cents": null,
+      "lower_inclusive": true,
+      "upper_inclusive": false,
+      "is_highest": true,
+      "original_label": "Erhöhter Beitrag II",
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Einkommensstaffel: Erhöhter Beitrag II",
+        "original": null
+      }
+    },
+    {
+      "id": "markgroeningen-income-7feff294cee4",
+      "basis": "gross_income",
+      "period": "year",
+      "reference_period": "not_specified",
+      "lower_cents": 9000000,
+      "upper_cents": 12500000,
+      "lower_inclusive": true,
+      "upper_inclusive": false,
+      "is_highest": false,
+      "original_label": "Erhöhter Beitrag I",
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Einkommensstaffel: Erhöhter Beitrag I",
+        "original": null
+      }
+    },
+    {
+      "id": "markgroeningen-income-a1add55b888c",
+      "basis": "gross_income",
+      "period": "year",
+      "reference_period": "not_specified",
+      "lower_cents": 6500000,
+      "upper_cents": 9000000,
+      "lower_inclusive": true,
+      "upper_inclusive": false,
+      "is_highest": false,
+      "original_label": "Regelbeitrag",
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Einkommensstaffel: Regelbeitrag",
+        "original": null
+      }
+    },
+    {
+      "id": "markgroeningen-income-de6067a999b7",
+      "basis": "gross_income",
+      "period": "year",
+      "reference_period": "not_specified",
+      "lower_cents": 5000000,
+      "upper_cents": 6500000,
+      "lower_inclusive": true,
+      "upper_inclusive": false,
+      "is_highest": false,
+      "original_label": "Ermäßigungsstufe I",
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Einkommensstaffel: Ermäßigungsstufe I",
+        "original": null
+      }
+    },
+    {
+      "id": "markgroeningen-income-8f8d402f0841",
+      "basis": "gross_income",
+      "period": "year",
+      "reference_period": "not_specified",
+      "lower_cents": null,
+      "upper_cents": 5000000,
+      "lower_inclusive": true,
+      "upper_inclusive": false,
+      "is_highest": false,
+      "original_label": "Ermäßigungsstufe II",
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Einkommensstaffel: Ermäßigungsstufe II",
+        "original": null
+      }
+    }
+  ],
+  "components": [
+    {
+      "id": "markgroeningen-component-76c6f7cb4bfc",
+      "kind": "meal",
+      "original_label": "Mittagessen im Ganztag",
+      "amount_cents": 8800,
+      "unit": "per_month",
+      "age_group": null,
+      "required": true,
+      "payment_months": null,
+      "offer_ids": [
+        "markgroeningen-offer-9c2f66ebdae3",
+        "markgroeningen-offer-a6db144c2213",
+        "markgroeningen-offer-191643014d4c",
+        "markgroeningen-offer-98a98970ed3c",
+        "markgroeningen-offer-e3cc8fdf153a",
+        "markgroeningen-offer-39cf46841b4c"
+      ],
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 11 und 13; Angebotsübersicht Ganztagsgruppen inklusive Essen",
+        "original": null
+      }
+    },
+    {
+      "id": "markgroeningen-component-a6823c2617ab",
+      "kind": "meal",
+      "original_label": "Mittagessen bei VÖ im Nonnenpfad",
+      "amount_cents": 8800,
+      "unit": "per_month",
+      "age_group": null,
+      "required": false,
+      "payment_months": null,
+      "offer_ids": [
+        "markgroeningen-offer-3214a9a13606",
+        "markgroeningen-offer-b86ed60e8adb",
+        "markgroeningen-offer-bb9294f9a14a"
+      ],
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "Satzungsanlage S. 11 und 13; freiwilliges Essen in der Einrichtung Im Nonnenpfad",
+        "original": null
+      }
+    }
+  ],
+  "rules": [
+    {
+      "id": "markgroeningen-rule-c5487c86cb4a",
+      "kind": "income_definition",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "income_basis": "gross_income",
+        "include_other_income_and_benefits": true,
+        "excluded_income": [
+          "child_benefit",
+          "long_term_care_benefits",
+          "children_earned_income"
+        ],
+        "no_income_proof": "Erhöhter Beitrag II",
+        "model_assumption": "only_selected_annual_gross_income"
+      },
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "§ 7 Abs. 6–7, 14–15",
+        "original": null
+      }
+    },
+    {
+      "id": "markgroeningen-rule-5f6fcbca4617",
+      "kind": "holiday_care",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "age_group": "o3",
+        "half_month_fee_up_to_weeks": 2,
+        "full_month_fee_for_longer_booking": true
+      },
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "§ 7 Abs. 9",
+        "original": null
+      }
+    },
+    {
+      "id": "markgroeningen-rule-a084d14f10f4",
+      "kind": "age_transition",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "effective": "month_after_third_birthday"
+      },
+      "evidence": {
+        "source_id": "c5ba47bb39c1",
+        "locator": "§ 7 Abs. 11",
+        "original": null
+      }
+    }
+  ],
+  "issues": [
+    {
+      "code": "meal_payment_months_not_explicit",
+      "detail": "Essenspauschale bei Teilnahme. Die Satzung nennt keine feste Anzahl von Essensmonaten."
+    }
+  ],
+  "coverage": {
+    "publication_status": "not_active",
+    "history_in_scope": false,
+    "source_register": "data/research/municipal_tariff_collection_2026-11-20.json"
+  }
+}

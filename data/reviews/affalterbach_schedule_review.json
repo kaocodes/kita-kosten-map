@@ -1,0 +1,59 @@
+{
+  "municipality_id": "affalterbach",
+  "as_of": "2026-11-04",
+  "tariff_source_id": "c6cd13cdab20",
+  "tariff_locator": "§§ 3 und 6 der Gebührensatzung ab 01.09.2026",
+  "payment_months": 12,
+  "offers": [
+    {
+      "age_group": "o3",
+      "original_label": "Verlängerte Öffnungszeiten Ü3",
+      "weekday_minutes": [360, 360, 360, 360, 360],
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "5629ccd1d16f",
+        "locator": "Öffnungszeiten, Kindercampus Klingenstraße, Gruppe VÖ"
+      }
+    },
+    {
+      "age_group": "o3",
+      "original_label": "Ganztagsbetreuung Ü3",
+      "weekday_minutes": [510, 510, 510, 510, 360],
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "5629ccd1d16f",
+        "locator": "Öffnungszeiten, Kindercampus Klingenstraße, Ganztagesbetreuung"
+      }
+    },
+    {
+      "age_group": "u3",
+      "original_label": "Ganztagsbetreuung ab dem dritten Lebensmonat",
+      "weekday_minutes": [510, 510, 510, 510, 360],
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "5629ccd1d16f",
+        "locator": "Öffnungszeiten, Kindercampus Klingenstraße, Kleinkindgruppe / Ganztagesbetreuung"
+      }
+    }
+  ],
+  "source_conflicts": [
+    {
+      "field": "nursery_tariff_label_vs_weekday_hours",
+      "source_url": "https://www.affalterbach.de/rathaus-service/steuern-abgaben-gebuehren",
+      "detail": "Die Gebührenübersicht bezeichnet die Krippe mit 9,5 Std./Tag. Für die Prüfung des Betreuungsbedarfs gelten die konkreten Wochentagszeiten des Kindercampus. Beide Standortseiten nennen freitags sechs Stunden."
+    }
+  ],
+  "sample_results_cent": [
+    {"children": ["U3 6h"], "expected": 50300},
+    {"children": ["U3 8h"], "expected": 50300},
+    {"children": ["Ü3 6h"], "expected": 15500},
+    {"children": ["Ü3 8h"], "expected": 34000},
+    {"children": ["U3 6h", "Ü3 6h"], "expected": 61900},
+    {"children": ["Ü3 6h", "Schule"], "expected": 11600},
+    {"children": ["U3 6h", "Ü3 6h", "Schule", "Zuhause"], "expected": 0},
+    {"children": ["Ü3 8h"], "household": "single", "expected": 34000},
+    {"children": ["U3 6h", "Schule", "Zuhause"], "expected": 44700}
+  ],
+  "status": "sampled_with_verified_weekday_hours",
+  "scope": "Tarifprüfung mit veröffentlichten Wochentagszeiten. Essensgeld separat, Betrag offen."
+}

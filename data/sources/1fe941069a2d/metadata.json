@@ -1,0 +1,13 @@
+{
+  "id": "1fe941069a2d",
+  "municipality": "Neuhausen auf den Fildern",
+  "title": "Kommunales Kita-Portal: Entgelte",
+  "url": "https://www.kitas-neuhausen.de/Informationen/entgelte",
+  "retrieved_at": "2026-11-20T19:47:20.708641+00:00",
+  "http_status": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "final_url": "https://www.kitas-neuhausen.de/Informationen/entgelte",
+  "error": null,
+  "local_path": "data/sources/1fe941069a2d/document.html",
+  "sha256": "2aa3f690ea8533cbc014ff18f3c7e8fcd80c8e390683bcb62e216e8accae4717"
+}

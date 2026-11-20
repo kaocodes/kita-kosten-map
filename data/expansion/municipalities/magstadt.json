@@ -1269,6 +1269,7 @@
     "calculation_engine_changed": false,
     "rule_transcription": "typed_parameters_and_source_clauses_with_explicit_unimplemented_status"
   },
+  "model_tariff": "birth_order",
   "original_research": {
     "path": "data/research/neighbor_expansion_2026-11-10.json",
     "section": "Magstadt",

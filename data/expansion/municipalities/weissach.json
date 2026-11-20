@@ -17,7 +17,9 @@
     "original": null
   },
   "supporting_source_ids": [
-    "f5d4fce7afeb"
+    "f5d4fce7afeb",
+    "ad0d6b22f97a",
+    "28c7ea67f2d8"
   ],
   "offers": [
     {
@@ -33,12 +35,18 @@
       "scope": "municipal",
       "category": "childcare",
       "weekly_minutes": 1800,
-      "weekday_minutes": null,
+      "weekday_minutes": [
+        360,
+        360,
+        360,
+        360,
+        360
+      ],
       "continuous": true,
-      "schedule_status": "daily_distribution_unverified",
+      "schedule_status": "verified",
       "schedule_evidence": {
-        "source_id": "f5d4fce7afeb",
-        "locator": "PDF S. 12, u3, bis 30 Stunden, Spalte 2026",
+        "source_id": "ad0d6b22f97a",
+        "locator": "VÖ 30 Wochenstunden, Modell 1 oder 2",
         "original": null
       },
       "payment_months": 12,
@@ -68,12 +76,18 @@
       "scope": "municipal",
       "category": "childcare",
       "weekly_minutes": 1800,
-      "weekday_minutes": null,
+      "weekday_minutes": [
+        360,
+        360,
+        360,
+        360,
+        360
+      ],
       "continuous": true,
-      "schedule_status": "daily_distribution_unverified",
+      "schedule_status": "verified",
       "schedule_evidence": {
-        "source_id": "f5d4fce7afeb",
-        "locator": "PDF S. 12, u3, bis 30 Stunden, Spalte 2027",
+        "source_id": "ad0d6b22f97a",
+        "locator": "VÖ 30 Wochenstunden, Modell 1 oder 2",
         "original": null
       },
       "payment_months": 12,
@@ -107,8 +121,8 @@
       "continuous": true,
       "schedule_status": "daily_distribution_unverified",
       "schedule_evidence": {
-        "source_id": "f5d4fce7afeb",
-        "locator": "PDF S. 12, u3, bis 35 Stunden, Spalte 2026",
+        "source_id": "ad0d6b22f97a",
+        "locator": "VÖ 35 Wochenstunden mit Nachmittagsunterbrechung",
         "original": null
       },
       "payment_months": 12,
@@ -142,8 +156,8 @@
       "continuous": true,
       "schedule_status": "daily_distribution_unverified",
       "schedule_evidence": {
-        "source_id": "f5d4fce7afeb",
-        "locator": "PDF S. 12, u3, bis 35 Stunden, Spalte 2027",
+        "source_id": "ad0d6b22f97a",
+        "locator": "VÖ 35 Wochenstunden mit Nachmittagsunterbrechung",
         "original": null
       },
       "payment_months": 12,
@@ -173,12 +187,18 @@
       "scope": "municipal",
       "category": "childcare",
       "weekly_minutes": 2250,
-      "weekday_minutes": null,
+      "weekday_minutes": [
+        450,
+        450,
+        450,
+        450,
+        450
+      ],
       "continuous": true,
-      "schedule_status": "daily_distribution_unverified",
+      "schedule_status": "verified",
       "schedule_evidence": {
-        "source_id": "f5d4fce7afeb",
-        "locator": "PDF S. 12, u3, bis 37.5 Stunden, Spalte 2026",
+        "source_id": "ad0d6b22f97a",
+        "locator": "Ganztag 37,5 Wochenstunden, Modell 1 oder 2",
         "original": null
       },
       "payment_months": 12,
@@ -208,12 +228,18 @@
       "scope": "municipal",
       "category": "childcare",
       "weekly_minutes": 2250,
-      "weekday_minutes": null,
+      "weekday_minutes": [
+        450,
+        450,
+        450,
+        450,
+        450
+      ],
       "continuous": true,
-      "schedule_status": "daily_distribution_unverified",
+      "schedule_status": "verified",
       "schedule_evidence": {
-        "source_id": "f5d4fce7afeb",
-        "locator": "PDF S. 12, u3, bis 37.5 Stunden, Spalte 2027",
+        "source_id": "ad0d6b22f97a",
+        "locator": "Ganztag 37,5 Wochenstunden, Modell 1 oder 2",
         "original": null
       },
       "payment_months": 12,
@@ -243,12 +269,18 @@
       "scope": "municipal",
       "category": "childcare",
       "weekly_minutes": 2400,
-      "weekday_minutes": null,
+      "weekday_minutes": [
+        480,
+        480,
+        480,
+        480,
+        480
+      ],
       "continuous": true,
-      "schedule_status": "daily_distribution_unverified",
+      "schedule_status": "verified",
       "schedule_evidence": {
-        "source_id": "f5d4fce7afeb",
-        "locator": "PDF S. 12, u3, bis 40 Stunden, Spalte 2026",
+        "source_id": "ad0d6b22f97a",
+        "locator": "Ganztag 40 Wochenstunden, Modell 3, Mo–Fr 8:00–16:00 Uhr",
         "original": null
       },
       "payment_months": 12,
@@ -278,12 +310,18 @@
       "scope": "municipal",
       "category": "childcare",
       "weekly_minutes": 2400,
-      "weekday_minutes": null,
+      "weekday_minutes": [
+        480,
+        480,
+        480,
+        480,
+        480
+      ],
       "continuous": true,
-      "schedule_status": "daily_distribution_unverified",
+      "schedule_status": "verified",
       "schedule_evidence": {
-        "source_id": "f5d4fce7afeb",
-        "locator": "PDF S. 12, u3, bis 40 Stunden, Spalte 2027",
+        "source_id": "ad0d6b22f97a",
+        "locator": "Ganztag 40 Wochenstunden, Modell 3, Mo–Fr 8:00–16:00 Uhr",
         "original": null
       },
       "payment_months": 12,
@@ -313,12 +351,18 @@
       "scope": "municipal",
       "category": "childcare",
       "weekly_minutes": 3000,
-      "weekday_minutes": null,
+      "weekday_minutes": [
+        600,
+        600,
+        600,
+        600,
+        600
+      ],
       "continuous": true,
-      "schedule_status": "daily_distribution_unverified",
+      "schedule_status": "verified",
       "schedule_evidence": {
-        "source_id": "f5d4fce7afeb",
-        "locator": "PDF S. 12, u3, bis 50 Stunden, Spalte 2026",
+        "source_id": "ad0d6b22f97a",
+        "locator": "Ganztag 50 Wochenstunden, Modell 1",
         "original": null
       },
       "payment_months": 12,
@@ -348,12 +392,18 @@
       "scope": "municipal",
       "category": "childcare",
       "weekly_minutes": 3000,
-      "weekday_minutes": null,
+      "weekday_minutes": [
+        600,
+        600,
+        600,
+        600,
+        600
+      ],
       "continuous": true,
-      "schedule_status": "daily_distribution_unverified",
+      "schedule_status": "verified",
       "schedule_evidence": {
-        "source_id": "f5d4fce7afeb",
-        "locator": "PDF S. 12, u3, bis 50 Stunden, Spalte 2027",
+        "source_id": "ad0d6b22f97a",
+        "locator": "Ganztag 50 Wochenstunden, Modell 1",
         "original": null
       },
       "payment_months": 12,
@@ -383,12 +433,18 @@
       "scope": "municipal",
       "category": "childcare",
       "weekly_minutes": 1800,
-      "weekday_minutes": null,
+      "weekday_minutes": [
+        360,
+        360,
+        360,
+        360,
+        360
+      ],
       "continuous": true,
-      "schedule_status": "daily_distribution_unverified",
+      "schedule_status": "verified",
       "schedule_evidence": {
-        "source_id": "f5d4fce7afeb",
-        "locator": "PDF S. 12, o3, bis 30 Stunden, Spalte 2026",
+        "source_id": "ad0d6b22f97a",
+        "locator": "VÖ 30 Wochenstunden, Modell 1 oder 2",
         "original": null
       },
       "payment_months": 12,
@@ -418,12 +474,18 @@
       "scope": "municipal",
       "category": "childcare",
       "weekly_minutes": 1800,
-      "weekday_minutes": null,
+      "weekday_minutes": [
+        360,
+        360,
+        360,
+        360,
+        360
+      ],
       "continuous": true,
-      "schedule_status": "daily_distribution_unverified",
+      "schedule_status": "verified",
       "schedule_evidence": {
-        "source_id": "f5d4fce7afeb",
-        "locator": "PDF S. 12, o3, bis 30 Stunden, Spalte 2027",
+        "source_id": "ad0d6b22f97a",
+        "locator": "VÖ 30 Wochenstunden, Modell 1 oder 2",
         "original": null
       },
       "payment_months": 12,
@@ -457,8 +519,8 @@
       "continuous": true,
       "schedule_status": "daily_distribution_unverified",
       "schedule_evidence": {
-        "source_id": "f5d4fce7afeb",
-        "locator": "PDF S. 12, o3, bis 35 Stunden, Spalte 2026",
+        "source_id": "ad0d6b22f97a",
+        "locator": "VÖ 35 Wochenstunden mit Nachmittagsunterbrechung",
         "original": null
       },
       "payment_months": 12,
@@ -492,8 +554,8 @@
       "continuous": true,
       "schedule_status": "daily_distribution_unverified",
       "schedule_evidence": {
-        "source_id": "f5d4fce7afeb",
-        "locator": "PDF S. 12, o3, bis 35 Stunden, Spalte 2027",
+        "source_id": "ad0d6b22f97a",
+        "locator": "VÖ 35 Wochenstunden mit Nachmittagsunterbrechung",
         "original": null
       },
       "payment_months": 12,
@@ -523,12 +585,18 @@
       "scope": "municipal",
       "category": "childcare",
       "weekly_minutes": 2250,
-      "weekday_minutes": null,
+      "weekday_minutes": [
+        450,
+        450,
+        450,
+        450,
+        450
+      ],
       "continuous": true,
-      "schedule_status": "daily_distribution_unverified",
+      "schedule_status": "verified",
       "schedule_evidence": {
-        "source_id": "f5d4fce7afeb",
-        "locator": "PDF S. 12, o3, bis 37.5 Stunden, Spalte 2026",
+        "source_id": "ad0d6b22f97a",
+        "locator": "Ganztag 37,5 Wochenstunden, Modell 1 oder 2",
         "original": null
       },
       "payment_months": 12,
@@ -558,12 +626,18 @@
       "scope": "municipal",
       "category": "childcare",
       "weekly_minutes": 2250,
-      "weekday_minutes": null,
+      "weekday_minutes": [
+        450,
+        450,
+        450,
+        450,
+        450
+      ],
       "continuous": true,
-      "schedule_status": "daily_distribution_unverified",
+      "schedule_status": "verified",
       "schedule_evidence": {
-        "source_id": "f5d4fce7afeb",
-        "locator": "PDF S. 12, o3, bis 37.5 Stunden, Spalte 2027",
+        "source_id": "ad0d6b22f97a",
+        "locator": "Ganztag 37,5 Wochenstunden, Modell 1 oder 2",
         "original": null
       },
       "payment_months": 12,
@@ -593,12 +667,18 @@
       "scope": "municipal",
       "category": "childcare",
       "weekly_minutes": 2400,
-      "weekday_minutes": null,
+      "weekday_minutes": [
+        480,
+        480,
+        480,
+        480,
+        480
+      ],
       "continuous": true,
-      "schedule_status": "daily_distribution_unverified",
+      "schedule_status": "verified",
       "schedule_evidence": {
-        "source_id": "f5d4fce7afeb",
-        "locator": "PDF S. 12, o3, bis 40 Stunden, Spalte 2026",
+        "source_id": "ad0d6b22f97a",
+        "locator": "Ganztag 40 Wochenstunden, Modell 3, Mo–Fr 8:00–16:00 Uhr",
         "original": null
       },
       "payment_months": 12,
@@ -628,12 +708,18 @@
       "scope": "municipal",
       "category": "childcare",
       "weekly_minutes": 2400,
-      "weekday_minutes": null,
+      "weekday_minutes": [
+        480,
+        480,
+        480,
+        480,
+        480
+      ],
       "continuous": true,
-      "schedule_status": "daily_distribution_unverified",
+      "schedule_status": "verified",
       "schedule_evidence": {
-        "source_id": "f5d4fce7afeb",
-        "locator": "PDF S. 12, o3, bis 40 Stunden, Spalte 2027",
+        "source_id": "ad0d6b22f97a",
+        "locator": "Ganztag 40 Wochenstunden, Modell 3, Mo–Fr 8:00–16:00 Uhr",
         "original": null
       },
       "payment_months": 12,
@@ -663,12 +749,18 @@
       "scope": "municipal",
       "category": "childcare",
       "weekly_minutes": 3000,
-      "weekday_minutes": null,
+      "weekday_minutes": [
+        600,
+        600,
+        600,
+        600,
+        600
+      ],
       "continuous": true,
-      "schedule_status": "daily_distribution_unverified",
+      "schedule_status": "verified",
       "schedule_evidence": {
-        "source_id": "f5d4fce7afeb",
-        "locator": "PDF S. 12, o3, bis 50 Stunden, Spalte 2026",
+        "source_id": "ad0d6b22f97a",
+        "locator": "Ganztag 50 Wochenstunden, Modell 1",
         "original": null
       },
       "payment_months": 12,
@@ -698,12 +790,18 @@
       "scope": "municipal",
       "category": "childcare",
       "weekly_minutes": 3000,
-      "weekday_minutes": null,
+      "weekday_minutes": [
+        600,
+        600,
+        600,
+        600,
+        600
+      ],
       "continuous": true,
-      "schedule_status": "daily_distribution_unverified",
+      "schedule_status": "verified",
       "schedule_evidence": {
-        "source_id": "f5d4fce7afeb",
-        "locator": "PDF S. 12, o3, bis 50 Stunden, Spalte 2027",
+        "source_id": "ad0d6b22f97a",
+        "locator": "Ganztag 50 Wochenstunden, Modell 1",
         "original": null
       },
       "payment_months": 12,
@@ -2333,8 +2431,13 @@
       "unit": "per_month",
       "age_group": null,
       "required": true,
-      "payment_months": null,
-      "offer_ids": null,
+      "payment_months": 12,
+      "offer_ids": [
+        "weissach-offer-9525571e7e9f",
+        "weissach-offer-36dcd059d91e",
+        "weissach-offer-9573c04ea258",
+        "weissach-offer-57a45618e972"
+      ],
       "valid_from": "2026-09-01",
       "valid_to": null,
       "value_status": "known",
@@ -2342,8 +2445,7 @@
         "source_id": "f5d4fce7afeb",
         "locator": "PDF S. 12, aktuelle Spalten 2026/2027",
         "original": null
-      },
-      "weekly_minutes": 1800
+      }
     },
     {
       "id": "weissach-component-0c287d87fb60",
@@ -2353,8 +2455,25 @@
       "unit": "per_month",
       "age_group": null,
       "required": true,
-      "payment_months": null,
-      "offer_ids": null,
+      "payment_months": 12,
+      "offer_ids": [
+        "weissach-offer-e7f02e100608",
+        "weissach-offer-b1df0362955c",
+        "weissach-offer-2b9ff16aa83b",
+        "weissach-offer-27ce35b096ec",
+        "weissach-offer-d56862085a4a",
+        "weissach-offer-d478ef125329",
+        "weissach-offer-ff4dc723200b",
+        "weissach-offer-d83752760015",
+        "weissach-offer-358ba89ce4fa",
+        "weissach-offer-4a8bff8238ca",
+        "weissach-offer-c14f0997fa9f",
+        "weissach-offer-5aac2ed3f093",
+        "weissach-offer-e0e7e66276ff",
+        "weissach-offer-d94737c2bf11",
+        "weissach-offer-3d8dc531eb71",
+        "weissach-offer-ae7c338e9fe4"
+      ],
       "valid_from": "2026-09-01",
       "valid_to": null,
       "value_status": "known",
@@ -2362,8 +2481,7 @@
         "source_id": "f5d4fce7afeb",
         "locator": "PDF S. 12",
         "original": null
-      },
-      "weekly_minutes_min": 2100
+      }
     },
     {
       "id": "weissach-component-57a14f4b6310",
@@ -2373,8 +2491,21 @@
       "unit": "per_month",
       "age_group": null,
       "required": true,
-      "payment_months": null,
-      "offer_ids": null,
+      "payment_months": 12,
+      "offer_ids": [
+        "weissach-offer-2b9ff16aa83b",
+        "weissach-offer-27ce35b096ec",
+        "weissach-offer-d56862085a4a",
+        "weissach-offer-d478ef125329",
+        "weissach-offer-ff4dc723200b",
+        "weissach-offer-d83752760015",
+        "weissach-offer-c14f0997fa9f",
+        "weissach-offer-5aac2ed3f093",
+        "weissach-offer-e0e7e66276ff",
+        "weissach-offer-d94737c2bf11",
+        "weissach-offer-3d8dc531eb71",
+        "weissach-offer-ae7c338e9fe4"
+      ],
       "valid_from": "2026-09-01",
       "valid_to": null,
       "value_status": "known",
@@ -2383,7 +2514,6 @@
         "locator": "PDF S. 12",
         "original": null
       },
-      "weekly_minutes_min": 2250,
       "days_per_week": 5
     }
   ],
@@ -2676,8 +2806,8 @@
       "detail": "Strukturierter Import; noch keine Freigabe des Rechners oder der Website."
     },
     {
-      "code": "research_limitation_1",
-      "detail": "Tatsächliche Tagesverteilungen zu den Wochenstundenpaketen vor der strengen 5×8-Auswahl verknüpfen."
+      "code": "family_count_above_published_brackets",
+      "detail": "Die Staffel nennt Beiträge für ein bis vier Kinder. Eine Zuordnung für fünf oder mehr Haushaltskinder ist nicht belegt."
     }
   ],
   "coverage": {

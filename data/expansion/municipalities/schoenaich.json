@@ -54,7 +54,17 @@
         "locator": "Anlage § 1 a–d, Spalte ab September 2026",
         "original": null
       },
-      "formula": null
+      "formula": null,
+      "model_schedule": {
+        "weekday_minutes": [
+          390,
+          390,
+          390,
+          390,
+          345
+        ],
+        "original_label": "VÖ"
+      }
     },
     {
       "id": "schoenaich-offer-457548230e9b",
@@ -89,7 +99,17 @@
         "locator": "Anlage § 1 a–d, Spalte ab September 2026",
         "original": null
       },
-      "formula": null
+      "formula": null,
+      "model_schedule": {
+        "weekday_minutes": [
+          375,
+          375,
+          375,
+          375,
+          390
+        ],
+        "original_label": "VÖ"
+      }
     },
     {
       "id": "schoenaich-offer-a688a121dd54",
@@ -124,7 +144,17 @@
         "locator": "Anlage § 1 a–d, Spalte ab September 2026",
         "original": null
       },
-      "formula": null
+      "formula": null,
+      "model_schedule": {
+        "weekday_minutes": [
+          630,
+          630,
+          630,
+          630,
+          570
+        ],
+        "original_label": "GT51,5"
+      }
     },
     {
       "id": "schoenaich-offer-e284527de906",
@@ -159,7 +189,17 @@
         "locator": "Anlage § 1 a–d, Spalte ab September 2026",
         "original": null
       },
-      "formula": null
+      "formula": null,
+      "model_schedule": {
+        "weekday_minutes": [
+          450,
+          450,
+          450,
+          450,
+          450
+        ],
+        "original_label": "GT37,5"
+      }
     }
   ],
   "prices": [
@@ -181,7 +221,8 @@
         "source_id": "1c7e3b410b71",
         "locator": "Anlage § 1 a–d, Spalte ab September 2026",
         "original": 166
-      }
+      },
+      "model_amount_cents": 17568
     },
     {
       "id": "schoenaich-price-8f490b9e7537",
@@ -201,7 +242,8 @@
         "source_id": "1c7e3b410b71",
         "locator": "Anlage § 1 a–d, Spalte ab September 2026",
         "original": 129
-      }
+      },
+      "model_amount_cents": 13653
     },
     {
       "id": "schoenaich-price-49869e6523a2",
@@ -221,7 +263,8 @@
         "source_id": "1c7e3b410b71",
         "locator": "Anlage § 1 a–d, Spalte ab September 2026",
         "original": 88
-      }
+      },
+      "model_amount_cents": 9313
     },
     {
       "id": "schoenaich-price-f17b8272b741",
@@ -241,7 +284,8 @@
         "source_id": "1c7e3b410b71",
         "locator": "Anlage § 1 a–d, Spalte ab September 2026",
         "original": 29
-      }
+      },
+      "model_amount_cents": 3069
     },
     {
       "id": "schoenaich-price-1368bc596920",
@@ -261,7 +305,8 @@
         "source_id": "1c7e3b410b71",
         "locator": "Anlage § 1 a–d, Spalte ab September 2026",
         "original": 492
-      }
+      },
+      "model_amount_cents": 51660
     },
     {
       "id": "schoenaich-price-a37f5383a84b",
@@ -281,7 +326,8 @@
         "source_id": "1c7e3b410b71",
         "locator": "Anlage § 1 a–d, Spalte ab September 2026",
         "original": 366
-      }
+      },
+      "model_amount_cents": 38430
     },
     {
       "id": "schoenaich-price-c10c3eb25989",
@@ -301,7 +347,8 @@
         "source_id": "1c7e3b410b71",
         "locator": "Anlage § 1 a–d, Spalte ab September 2026",
         "original": 247
-      }
+      },
+      "model_amount_cents": 25935
     },
     {
       "id": "schoenaich-price-d6364e3379b8",
@@ -321,7 +368,8 @@
         "source_id": "1c7e3b410b71",
         "locator": "Anlage § 1 a–d, Spalte ab September 2026",
         "original": 97
-      }
+      },
+      "model_amount_cents": 10185
     },
     {
       "id": "schoenaich-price-9f541135c699",
@@ -495,7 +543,10 @@
       "age_group": null,
       "required": true,
       "payment_months": null,
-      "offer_ids": null,
+      "offer_ids": [
+        "schoenaich-offer-a688a121dd54",
+        "schoenaich-offer-e284527de906"
+      ],
       "valid_from": "2026-09-01",
       "valid_to": null,
       "value_status": "known",
@@ -523,6 +574,7 @@
         "locator": "Anlage S. 2, wöchentliche Feriengebühr",
         "original": null
       },
+      "model_family_count": 1,
       "selectors": {
         "family_count": 1,
         "family_count_is_minimum": false
@@ -546,6 +598,7 @@
         "locator": "Anlage S. 2, wöchentliche Feriengebühr",
         "original": null
       },
+      "model_family_count": 2,
       "selectors": {
         "family_count": 2,
         "family_count_is_minimum": false
@@ -569,6 +622,7 @@
         "locator": "Anlage S. 2, wöchentliche Feriengebühr",
         "original": null
       },
+      "model_family_count": 3,
       "selectors": {
         "family_count": 3,
         "family_count_is_minimum": true
@@ -1145,6 +1199,7 @@
     "calculation_engine_changed": false,
     "rule_transcription": "typed_parameters_and_source_clauses_with_explicit_unimplemented_status"
   },
+  "model_tariff": "scheduled_prices",
   "original_research": {
     "path": "data/research/neighbor_expansion_2026-11-10.json",
     "section": "Schönaich",

@@ -9,7 +9,7 @@ Die öffentliche Website bietet einen Modellvergleich mit einfachen Auswahlen. P
 Die zentrale Datei `data/models/configuration.json` definiert Standardauswahl, Kinderkategorien, Modellalter, Betreuungszeiten, Einkommensszenarien und Annahmen. Der Browser erhält sie zusammen mit den Tarifdaten. Zod prüft Definitionen und Auswahlen; bei unvollständiger oder widersprüchlicher Konfiguration werden keine Ersatzwerte eingesetzt.
 
 - Haushalt: zwei zusammenlebende Eltern oder alleinerziehend.
-- Anzahl der Kinder in der Familienatlas-Oberfläche: 1 bis 4. Die erfassten Geschwisterstaffeln enden bei der vierten Stufe; größere Haushalte sind nicht überall eindeutig belegt. Der Rechenkern und das kanonische Modellformat unterstützen weiterhin bis zu zwölf Kinder, ohne unbelegte Tarifspalten fortzuschreiben.
+- Familienatlas und Modellberechnung bilden Familien mit einem bis vier Kindern ab. Vergünstigungen ab dem fünften Kind sind außerhalb des Modellvergleichs. Veröffentlichte Staffelzeilen bleiben in den Tarifkatalogen erhalten.
 - Je Kind: Krippenkind (Modellalter 24 Monate), Kindergartenkind (48 Monate), Schulkind (96 Monate) oder zu Hause betreut (24 Monate).
 - Nur Krippen- und Kindergartenkinder: 360 oder 480 Minuten durchgehend pro Tag, Montag bis Freitag.
 - Alle Kinder gelten als minderjährig, im Haushalt lebend und kindergeldberechtigt. Schulkinder besuchen im Modell keine kostenpflichtige Schul- oder Hortbetreuung. Sie und zu Hause betreute Kinder zählen nach örtlicher Familienregel als Geschwister mit.
@@ -18,6 +18,22 @@ Die zentrale Datei `data/models/configuration.json` definiert Standardauswahl, K
 Der Standard ist: zwei zusammenlebende Eltern, ein Krippenkind, Szenario 80.000 €, acht Stunden täglich. „Standard wiederherstellen“ setzt alle Auswahlen gemeinsam zurück. Neu ergänzte Kinder sind zunächst zu Hause betreut. Die Auswahlen bleiben nur im Arbeitsspeicher des Browserfensters; weder URL noch Local Storage noch Backend speichern sie.
 
 ## Einkommensszenarien und Aussagegrenze
+
+Für vorjahresbezogene Tarife setzt der Modellvergleich das gewählte Haushaltsjahresbrutto als Vorjahreseinkommen an. In Ostfildern ersetzt dieser Modellwert die örtliche Bemessungsgröße, die laut Satzung positive Einkünfte und weitere einzeln genannte Einnahmen umfasst. [Betreuungsgebühren Ostfildern](https://www.ostfildern.de/betreuungsgebuehren)
+
+### Monatliches Lohnnetto für Nettotarife
+
+Für jede der sechs Bruttostufen enthält die Modellkonfiguration je einen monatlichen Lohnnettowert für zusammenlebende Eltern und Alleinerziehende. Die Oberfläche zeigt weiterhin die Jahresbruttostufen. Die Nettowerte sind Modellannahmen für 2026 und werden als eigene Einkommensbasis an die Tarifberechnung übergeben.
+
+- **Zusammenlebende Eltern:** zwei gleich hohe Arbeitslöhne, beide mit Steuerklasse IV.
+- **Alleinerziehend:** ein Arbeitslohn in Steuerklasse II.
+- **Beide Varianten:** Baden-Württemberg, ein Kind als Referenz für die Lohnabrechnung, ein halber Kinderfreibetrag je beschäftigter Person, keine Kirchensteuer, gesetzliche Krankenversicherung mit 2,9 % durchschnittlichem Zusatzbeitrag und Beiträge zur Pflege-, Renten- und Arbeitslosenversicherung. Die Sozialversicherungsgrenzen und der Übergangsbereich für die niedrigste Paarstufe werden berücksichtigt. Das Jahresergebnis wird auf zwölf Monate verteilt.
+
+Die Jahreslohnsteuer und der Solidaritätszuschlag wurden für alle zwölf Varianten mit der amtlichen Prüfschnittstelle abgeglichen. [BMF-Programmablaufplan 2026](https://www.bundesfinanzministerium.de/Content/DE/Downloads/Steuern/Steuerarten/Lohnsteuer/Programmablaufplan/2025-11-12-PAP-2026.html) · [Krankenversicherungsbeiträge](https://www.bundesgesundheitsministerium.de/beitraege/seite) · [Sozialversicherungsgrenzen](https://www.bmas.bund.de/DE/Service/Gesetze-und-Gesetzesvorhaben/sozialversicherungs-rechengroessenverordnung-2026.html) · [Übergangsbereich](https://www.deutsche-rentenversicherung.de/DRV/DE/Experten/Arbeitgeber-und-Steuerberater/Gleitzone-Uebergangsbereich/uebergangsbereich_gleitzone)
+
+Freiberg verwendet das Lohnnetto zuzüglich **259 € Kindergeld pro Monat je kindergeldberechtigtem Haushaltskind**. Weitere Einkünfte und Leistungen aus der örtlichen Berechnungshilfe werden für die Modellfamilie mit null angesetzt. Weitere Kommunen können den Basiswert `household_net` verwenden, wenn ihr maßgebliches Netto dem modellierten Lohnnetto entspricht. Für abweichende örtliche Definitionen wird eine eigene Einkommensbasis benötigt. [Freiberger Berechnungshilfe](../data/sources/9f686742caff/document.pdf) · [Kindergeld 2026](https://www.arbeitsagentur.de/presse/2025-53-kindergeld-steigt-ab-januar-2026)
+
+### Bisherige Brutto- und Steuerannahmen
 
 Die folgende Tabelle enthält die ausdrücklich gesetzten jährlichen Rechenwerte in Euro. Sie sind Vergleichsannahmen, keine aus persönlichen Daten ermittelten oder statistisch belegten steuerlichen Werte. Das bestehende Modell 80.000/60.000 € bleibt unverändert; die steuerlich bezeichneten Werte der weiteren Szenarien führen dessen Verhältnis proportional fort. Dieser Modellabschlag von 25 % ist **keine allgemeingültige Umrechnung von Bruttoeinkommen in steuerliches Einkommen**. Das Brutto-Szenario allein bestimmt daher keinen verlässlichen persönlichen Gebührenbescheid. Für Alleinerziehende und Paare werden dieselben Einkommenswerte angenommen; dies ist ebenfalls keine steuerliche Gleichsetzung beider Haushalte.
 
@@ -50,6 +66,8 @@ Die Sortierung und feste Gebührenlegende verwenden denselben Familienwert wie d
 
 ## Sindelfinger Geschwisterränge
 
+Beim Geburtsrang nach Geburtenfolge steht das älteste berücksichtigte Kind zuerst. Beim Betreuungsrang bestimmt die Kommune, welche Kinder zählen und in welcher Reihenfolge. Freiberg und Eberdingen beginnen ausdrücklich mit dem jüngsten berücksichtigten Kind. Die Sindelfinger Modellannahme gilt für diesen Tarif. [Freiberg, Gebühren](https://www.freiberg-an.de/de/bildung-betreuung-soziales/kinderbetreuung/gebuehren) · [Eberdingen, Ortsrecht](https://www.eberdingen.de/website/de/rathaus/ortsrecht)
+
 Die Satzung vom 1. August 2026, § 11 Abs. 7 und Anlagen Seiten 12–13, unterscheidet Haushaltskinder und den Rang in städtischer Betreuung. Für den Modellvergleich gilt auf ausdrücklichen Nutzerwunsch folgende Festlegung:
 
 1. Ausschließlich gleichzeitig in einer Kita betreute Kinder erhalten einen Betreuungsrang. Schul- und zu Hause betreute Kinder zählen weiterhin nach örtlicher Regel zur Familiengröße, erhalten aber keinen Betreuungsrang.
@@ -79,3 +97,23 @@ Die frühere Oberfläche liegt unter `web/src/LegacyProfileApp.tsx`; `FamilyForm
 Die tatsächliche Anwendung wurde auf Desktop sowie bei 390 und 320 Pixeln Breite geprüft. Auch mit geöffneter Einkommenstabelle bleibt die Seite ohne horizontalen Überlauf; die Tabelle kann innerhalb ihres Bereichs horizontal gescrollt werden. Auswahl per Tastatur, Fokus auf Gemeindedetails, Zurücksetzen und der statische Build unter `/kita-kosten-map/` sind geprüft.
 
 Gesicherte Ansichten mit synthetischen Prüfdaten: [Desktop](../output/website-model-config-desktop.jpg), [Mobil](../output/website-model-config-mobile.jpg).
+
+## Tarifauswahl nach Wochenstunden
+
+Der Webvergleich berücksichtigt belegte Fünf-Tage-Pakete. Das 6-Stunden-Modell sucht das Paket am nächsten zu 30 Wochenstunden mit mindestens 30 Stunden. Das 8-Stunden-Modell sucht das Paket am nächsten zu 40 Wochenstunden mit mindestens 36 Stunden. Bei gleichem Abstand gewinnt der größere Wochenumfang. Bei gleicher Wochenzeit entscheidet der niedrigere belegte Betreuungsbeitrag. Die tatsächlichen Wochenstunden stehen in den Angebotsdetails. [Regelwerk](REGELWERK_DATENANALYSE.md)
+
+### Historische Freitagsprüfung
+
+Angebote müssen den gewählten Betreuungsbedarf montags bis donnerstags durchgehend abdecken. Für Freitag gilt die vereinbarte Untergrenze von sechs Stunden. Beim Sechs-Stunden-Modell ergibt sich damit dieselbe Mindestzeit für alle fünf Tage.
+
+Unter allen passenden Angeboten wird zuerst das mit den wenigsten tatsächlichen Wochenstunden gewählt. Bei gleichem Stundenumfang entscheidet der niedrigere Betreuungsbeitrag. Wenn das kleinste passende Paket über dem gewählten Bedarf liegt, zeigt der Vergleich diesen Umfang und den dazugehörigen Tarif. Fehlt ein belegtes passendes Zeitpaket, lautet der Vergleich „Kein passender Stundenumfang gefunden – nicht berechenbar“. Sind die Zeiten belegt und Preisangaben offen, werden die Wochenstunden separat ausgewiesen.
+
+Die Angebotsdetails nennen die belegten Zeiten für Mo–Do und Freitag und zeigen den Tagesdurchschnitt über die fünf Betreuungstage.
+Für die Zuordnung zählen die einzelnen Tage. Für die Kosten zählt der veröffentlichte Monatsbeitrag des gewählten Angebots, umgelegt nach der Zahl der Beitragsmonate.
+
+| Prüfbeispiel | Mo–Do je Tag | Freitag | Wochenstunden | U3 pro Monat | Ü3 pro Monat |
+|---|---:|---:|---:|---:|---:|
+| Affalterbach | 8,5 Std. | 6 Std. | 40 Std. | 503,00 € | 340,00 € |
+| Denkendorf | 9,5 Std. | 7 Std. | 45 Std. | 711,33 € | 384,08 € |
+
+Die Beispiele gelten für die bisherige Modellfamilie mit einem Kita-Kind und 80.000 € Haushaltsbrutto pro Jahr. Denkendorf erhebt 11 Monatsbeiträge, in Affalterbach sind es 12. Verpflegung wird separat behandelt. Die Beispiele liegen im Erweiterungsbestand. Die Karte zeigt die 20 bereits freigegebenen Kommunen.

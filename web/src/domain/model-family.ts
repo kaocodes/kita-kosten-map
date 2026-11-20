@@ -1,18 +1,23 @@
 import { z } from "zod";
 import { compareMunicipalities, normalizeProfile } from "./index.js";
+import type { ScheduleOptions } from "./engine.js";
 import { Fraction, roundMoney } from "./money.js";
+import { projectModelTariff } from "./model-tariff.js";
 import type { ComparisonResult, Income, MunicipalityCatalog, Profile, Registry } from "./types.js";
 
 const category = z.enum(["nursery", "kindergarten", "school", "home"]);
+const maxModelChildren = 4;
 const childSchema = z.strictObject({ category, daily_minutes: z.union([z.literal(360), z.literal(480)]) });
-const selectionSchema = z.strictObject({ household: z.enum(["couple", "single"]), income_id: z.string(), children: z.array(childSchema).min(1).max(12) });
+const selectionSchema = z.strictObject({ household: z.enum(["couple", "single"]), income_id: z.string(), children: z.array(childSchema).min(1).max(maxModelChildren) });
 export type ModelSelection = z.infer<typeof selectionSchema>;
 export type ModelCategory = z.infer<typeof category>;
 export interface ModelCatalog {
   schema_version: string; default: ModelSelection; max_children: number;
   categories: { id: ModelCategory; label: string; description: string; age_months: number; care_enabled: boolean }[];
   care_options: { minutes: number; label: string }[];
-  income_scenarios: { id: string; gross_annual_cents: number; incomes: Income[]; assumption: string }[];
+  income_scenarios: { id: string; gross_annual_cents: number; incomes: Income[];
+    household_net_monthly_cents: Record<ModelSelection["household"], number>; assumption: string }[];
+  child_benefit_monthly_cents: number;
   assumptions: string[];
 }
 export interface FamilyChildResult {
@@ -25,10 +30,12 @@ export interface FamilyResult extends ComparisonResult {
 }
 
 export function validateModelCatalog(input: unknown): ModelCatalog {
-  const parsed = z.object({ schema_version: z.literal("1.0"), default: selectionSchema, max_children: z.number().int().min(1).max(12),
+  const parsed = z.object({ schema_version: z.literal("1.0"), default: selectionSchema, max_children: z.number().int().min(1).max(maxModelChildren),
     categories: z.array(z.object({ id: category, label: z.string().min(1), description: z.string(), age_months: z.number().int().nonnegative(), care_enabled: z.boolean() })).length(4),
     care_options: z.array(z.object({ minutes: z.union([z.literal(360), z.literal(480)]), label: z.string() })).length(2),
+    child_benefit_monthly_cents: z.number().int().nonnegative(),
     income_scenarios: z.array(z.object({ id: z.string(), gross_annual_cents: z.number().int().nonnegative(), assumption: z.string(),
+      household_net_monthly_cents: z.strictObject({ couple: z.number().int().nonnegative(), single: z.number().int().nonnegative() }),
       incomes: z.array(z.object({ basis: z.string(), period: z.enum(["year", "month"]), amount_cents: z.number().int().nonnegative() })) })).length(6),
     assumptions: z.array(z.string()),
   }).parse(input);
@@ -39,6 +46,7 @@ export function validateModelCatalog(input: unknown): ModelCatalog {
   for (const scenario of parsed.income_scenarios) {
     if (scenario.incomes.length !== required.length || required.some(basis => scenario.incomes.filter(item => item.basis === basis && item.period === "year").length !== 1) ||
         scenario.incomes.some(item => !Number.isSafeInteger(item.amount_cents)) ||
+        Object.values(scenario.household_net_monthly_cents).some(net => net * 12 > scenario.gross_annual_cents) ||
         scenario.incomes.find(item => item.basis === "gross_income")!.amount_cents !== scenario.gross_annual_cents) throw new Error("Incomplete model income definitions");
   }
   return structuredClone(parsed);
@@ -55,7 +63,17 @@ export function modelProfile(reference: Profile, selection: ModelSelection, cata
   const profile = structuredClone(reference);
   profile.id = "configured-model-family"; delete profile.label;
   profile.children = selection.children.map(child => ({ age_months: catalog.categories.find(item => item.id === child.category)!.age_months, resident: true, child_benefit: true }));
-  profile.incomes = structuredClone(scenario.incomes); profile.income_mode = "specified";
+  const monthlyNet = scenario.household_net_monthly_cents[selection.household];
+  const eligibleChildren = profile.children.filter(child => child.resident && child.child_benefit).length;
+  profile.incomes = [
+    ...structuredClone(scenario.incomes),
+    // Model assumption: use the selected gross annual income for the previous year.
+    { basis: "ostfildern_assessable_income", period: "year", amount_cents: scenario.gross_annual_cents },
+    { basis: "household_net", period: "month", amount_cents: monthlyNet },
+    // Freiberg includes child benefit in its local assessment.
+    { basis: "freiberg_household_net", period: "month", amount_cents: monthlyNet + eligibleChildren * catalog.child_benefit_monthly_cents },
+  ];
+  profile.income_mode = "specified";
   profile.single_parent = selection.household === "single";
   profile.household = { parent_count: profile.single_parent ? 1 : 2, parents_living_together: !profile.single_parent };
   profile.pass_id = "none"; profile.approved_rules = []; profile.eligibility = [];
@@ -82,15 +100,17 @@ function assignmentRange(matrix: number[][]): [number, number] {
   return [min[states - 1], max[states - 1]];
 }
 
-export function compareModelFamily(tariffs: MunicipalityCatalog[], reference: Profile, input: unknown, registry: Registry, catalog: ModelCatalog): FamilyResult[] {
+export function compareModelFamily(tariffs: MunicipalityCatalog[], reference: Profile, input: unknown, registry: Registry, catalog: ModelCatalog, scheduleOptions?: ScheduleOptions): FamilyResult[] {
   const selection = normalizeSelection(input, catalog);
   const profile = modelProfile(reference, selection, catalog);
   const activeChildren = selection.children.map((child, index) => ({ ...child, index }))
     .filter(child => catalog.categories.find(item => item.id === child.category)!.care_enabled);
   const evaluated = new Map<number, ComparisonResult[]>();
   for (const child of activeChildren) {
-    evaluated.set(child.index, compareMunicipalities(tariffs, { ...profile, target_child: child.index,
-      weekday_minutes: Array(5).fill(child.daily_minutes), care_rank: 1, school_entry: false }, registry));
+    const projected = scheduleOptions?.compareWeeklyTargets ? tariffs.map(tariff => tariff.model_tariff
+      ? projectModelTariff(tariff, profile, selection.children, child.index, catalog.child_benefit_monthly_cents) : tariff) : tariffs;
+    evaluated.set(child.index, compareMunicipalities(projected, { ...profile, target_child: child.index,
+      weekday_minutes: Array(5).fill(child.daily_minutes), care_rank: 1, school_entry: false }, registry, undefined, scheduleOptions));
   }
   return registry.municipalities.filter(item => item.active).map(municipality => {
     const tariff = tariffs.find(item => item.id === municipality.tariff_id)!;
@@ -104,12 +124,12 @@ export function compareModelFamily(tariffs: MunicipalityCatalog[], reference: Pr
         profile.children[second.index].age_months - profile.children[first.index].age_months || first.index - second.index);
       oldestFirst.forEach((child, rank) => {
         children[child.index].result = compareMunicipalities([tariff], { ...profile, target_child: child.index,
-          weekday_minutes: Array(5).fill(child.daily_minutes), care_rank: rank + 1, school_entry: false }, registry, municipality.id)[0];
+          weekday_minutes: Array(5).fill(child.daily_minutes), care_rank: rank + 1, school_entry: false }, registry, municipality.id, scheduleOptions)[0];
       });
-    } else if (rows.length > 1 && tariff.prices.some(row => row.selectors?.care_rank != null)) {
+    } else if (!(scheduleOptions?.compareWeeklyTargets && tariff.model_tariff) && rows.length > 1 && tariff.prices.some(row => row.selectors?.care_rank != null)) {
       const matrix = activeChildren.map(child => Array.from({ length: rows.length }, (_, rank) =>
         compareMunicipalities([tariff], { ...profile, target_child: child.index, weekday_minutes: Array(5).fill(child.daily_minutes),
-          care_rank: rank + 1, school_entry: false }, registry, municipality.id)[0]));
+          care_rank: rank + 1, school_entry: false }, registry, municipality.id, scheduleOptions)[0]));
       if (matrix.every(row => row.every(value => value.status === "comparable" && value.annual_care_cents !== null))) {
         const [low, high] = assignmentRange(matrix.map(row => row.map(value => value.annual_care_cents!)));
         rankAmbiguous = low !== high;
@@ -126,6 +146,8 @@ export function compareModelFamily(tariffs: MunicipalityCatalog[], reference: Pr
     }
     const careRows = children.filter(child => child.in_care).map(child => child.result!);
     const complete = !rankAmbiguous && careRows.every(row => row.status === "comparable" && row.annual_care_cents !== null);
+    const knownHours = complete || ((scheduleOptions?.allowShorterFriday || scheduleOptions?.compareWeeklyTargets) && !rankAmbiguous &&
+      careRows.every(row => row.booked_weekly_minutes !== null));
     const annual = complete ? sum(careRows.map(row => row.annual_care_cents!)) : null;
     const evidence = careRows.flatMap(row => row.evidence);
     if (rankAmbiguous) evidence.push(...tariff.prices.filter(row => row.selectors?.care_rank != null).map(row => row.evidence));
@@ -139,7 +161,7 @@ export function compareModelFamily(tariffs: MunicipalityCatalog[], reference: Pr
       monthly_care_cents: complete ? sum(careRows.map(row => row.monthly_care_cents!)) : null,
       payment_months: complete && first && careRows.every(row => row.payment_months === first.payment_months) ? first.payment_months : null,
       offer_id: careRows.length === 1 ? first.offer_id : null, offer_label: careRows.length === 1 ? first.offer_label : null,
-      booked_weekly_minutes: complete ? sum(careRows.map(row => row.booked_weekly_minutes!)) : null,
+      booked_weekly_minutes: knownHours ? sum(careRows.map(row => row.booked_weekly_minutes!)) : null,
       extra_weekly_minutes: complete ? sum(careRows.map(row => row.extra_weekly_minutes!)) : null,
       components: [], calculation: [{ operation: "family_annual_sum_divided_by_12", complete }],
       evidence: [...new Map(evidence.map(item => [item.source_id + ":" + item.locator, item])).values()],

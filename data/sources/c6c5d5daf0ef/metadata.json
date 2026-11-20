@@ -1,0 +1,13 @@
+{
+  "id": "c6c5d5daf0ef",
+  "municipality": "Benningen am Neckar",
+  "title": "Aufnahmeantrag Kinderkrippe, Stand 2025",
+  "url": "https://www.benningen.de/fileadmin/Dateien/Dateien/Aufnahmeantrag_-_Kinderkrippe-_Ver.2-Stand_2025.pdf",
+  "retrieved_at": "2026-11-18T11:21:47.333561+00:00",
+  "http_status": 200,
+  "content_type": "application/pdf",
+  "final_url": "https://www.benningen.de/fileadmin/Dateien/Dateien/Aufnahmeantrag_-_Kinderkrippe-_Ver.2-Stand_2025.pdf",
+  "error": null,
+  "local_path": "data/sources/c6c5d5daf0ef/document.pdf",
+  "sha256": "fb36dc085b4cd59889c1abd7cface5213044523109e4ac33d4e272b903e6d043"
+}

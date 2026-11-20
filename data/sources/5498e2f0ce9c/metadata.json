@@ -1,0 +1,13 @@
+{
+  "id": "5498e2f0ce9c",
+  "municipality": "Baltmannsweiler",
+  "title": "Kinderhaus Arche Noah: Betreuungsformen",
+  "url": "https://www.baltmannsweiler.de/leben-wohnen/kinderbetreuung/kinderhaus-arche-noah",
+  "retrieved_at": "2026-11-17T21:23:26.320114+00:00",
+  "http_status": 200,
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://www.baltmannsweiler.de/leben-wohnen/kinderbetreuung/kinderhaus-arche-noah",
+  "error": null,
+  "local_path": "data/sources/5498e2f0ce9c/document.html",
+  "sha256": "889a1833ef2aed9fb4040073f8d7b16e9160141b39f3f48f8b55b92c3733c503"
+}

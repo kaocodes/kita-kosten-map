@@ -15,5 +15,43 @@
     "moeglingen",
     "tamm"
   ],
-  "note": "Acht im gesamten aktuellen Modellumfang unterstützte Kommunen. Nach lokaler Durchsicht auf ausdrücklichen Nutzerwunsch zum Merge nach main und zur Veröffentlichung auf GitHub Pages freigegeben. Originalkataloge und historischer Prüfstand bleiben unverändert."
+  "note": "Acht im gesamten aktuellen Modellumfang unterstützte Kommunen. Nach lokaler Durchsicht auf ausdrücklichen Nutzerwunsch zum Merge nach main und zur Veröffentlichung auf GitHub Pages freigegeben. Originalkataloge und historischer Prüfstand bleiben unverändert.",
+  "shorter_friday_review": {
+    "note": "Historische Vollprüfung als Basis. Die Freitagsregel und die nachgepflegten Daten des Erweiterungsbestands wurden separat mit gezielten Stichproben geprüft. Die Veröffentlichungsauswahl ist im Feld municipality_ids abgelegt. Die Nettomodellwerte und ihre Verwendung wurden mit gezielten Modelltests geprüft. Die acht freigegebenen Tarife verwenden keine dieser Nettobemessungsgrundlagen. Die Begrenzung auf vier Kinder entspricht dem geprüften Modellumfang. Der Ostfilderner Vorjahreswert wurde als zusätzliche Modellannahme separat geprüft. Die Wochenzielauswahl wurde im Browser für die Freigabekandidaten und bereits aktive Kommunen stichprobenartig geprüft.",
+    "input_sha256": {
+      "data/expansion/manifest.json": "64cda6deb9db9d08e6b4bbbff4ec8cdf70870a433073dda0572037cde583537f",
+      "kita_costs/engine.py": "1bd2fae5846551303db8aac46e52bf6666277ce0102bb1a675c7d354f42f77bb",
+      "web/src/domain/engine.ts": "8d9feca318f7c0d2da6e24194111a7b53c64475edb08d5858cd61c7357a86934",
+      "web/src/domain/model-family.ts": "ec66a9c9fff9ac6c2a2128f134b7f397e370047b8286b3031fbcf10e7d192135",
+      "web/src/domain/types.ts": "110037d3598c67ee19390021b8c7d6fa260b381bc88e81a7d4be4a45e687128f",
+      "data/expansion/municipalities/affalterbach.json": "ecf2292d35cc2bf46ad5db8f7561e39e887c9f7a5e5f84487e7d07dc5cd24916",
+      "data/expansion/municipalities/altbach.json": "51b4d1263938d603b3db0fd44d93388119c72abcffc9201930b86f66039249cb",
+      "data/expansion/municipalities/baltmannsweiler.json": "38c1d8c6231d559d00ca86a607e71d157f2ed2f1b25d6fb4c6c10a0a46db6fd6",
+      "data/expansion/municipalities/denkendorf.json": "62e97a0378830a4496e90e44b4288a3edb9c98640a04d13034707209c762532f",
+      "data/expansion/municipalities/grafenau.json": "a30caac46105241aa8ddfed47d280f8d5a62f692538c52393bf82e509f95de6e",
+      "data/expansion/municipalities/steinenbronn.json": "24648db6e9f0179d951448d28e16f669e549ed6f24aeb8d235017e2209e0eb48",
+      "data/expansion/municipalities/plochingen.json": "df3685da7f4d278c0294bb46b7817bac1dc2b87264caaa17ee5f54d3e69862f8",
+      "data/expansion/municipalities/weissach.json": "dc891387dddbde0ee98a49c4b1d8f96b60249f1476ee5e1afed26d8c91436264",
+      "data/expansion/municipalities/benningen.json": "b309ac07281355cd764fcd123a12e3cd62eeeb4e47ad2089e39ba9fc3bef3d62",
+      "data/expansion/municipalities/erdmannhausen.json": "ce288022c410c484a80ac93359e9f4f3433874cd0db63a09a1f1a4f12b4ba7b0",
+      "data/expansion/municipalities/filderstadt.json": "8f45642d006d1bbf51851c87d270372115451ec896c6e4b98f7cf357c88e32ad",
+      "data/expansion/municipalities/freiberg.json": "8e11ce406b47773b440b23f1766950f1e2f205049155197561fff8c9a49c1e01",
+      "data/expansion/municipalities/eberdingen.json": "733d11755cb575d3595ac75c82718c4da1ed3e7fee034d9aa96d9140c96ef28a",
+      "data/expansion/municipalities/remseck.json": "77045c2c1b96ab57c74d9471ef675a26182efd9db950d363b41c92a691578579",
+      "data/expansion/municipalities/rutesheim.json": "127b1c4d390ba52a349455145b8094c4ddc431382d3ca4a5f2fb84c0ee929611",
+      "data/expansion/municipalities/renningen.json": "d31cbf2fc221c1f72e4a418150f4811d58c8d1c8821c36ea6563fee308722d01",
+      "data/expansion/municipalities/waiblingen.json": "72f43e194fe3ecc7912186c4d1050cfa7acaabc843a455036b0eead3ff7f2554",
+      "data/expansion/municipalities/ostfildern.json": "c218a2fc294a9e3dd7e28e0e919c936e3fa749f4832a4bccaec99de1bdbc2461",
+      "data/expansion/municipalities/deizisau.json": "1bd341e8f822a7e382e3dbd43962393b7a3bb8103dafe1c0d66f853720a92afb",
+      "data/models/configuration.json": "f770f54a7afe9f214d27f47b7796b9c3fb52f7a3fbbce39340a205edadcf57de",
+      "data/expansion/municipalities/aichwald.json": "0ac258de840e6614f39f2042e1a234e806163c8a5fb8ac1e329597c0d5a15f97",
+      "data/expansion/municipalities/waldenbuch.json": "59ec665167f4b63820a486e5de129ea69cf9d9162086134612aa1c96a8b77202",
+      "data/expansion/municipalities/ehningen.json": "15692d19491f8b22c5fa8aef10b79153a1084efc35cf02ba4ef4db2df8980bf9",
+      "data/expansion/municipalities/hemmingen.json": "8a2e9895b0d2c8e83d0a44be2341485da0284f94c6375ee33f627978ffca25c9",
+      "data/expansion/municipalities/kernen.json": "65e764146a0317d66662a0ab60c4b5c9ac85b1221c81a6bcd2ae1af934b9d47f",
+      "data/expansion/municipalities/magstadt.json": "d7b6bc439e50c4b0cdbbefa37191f0820ac65d8af1fa37e4f28faef1fe819ada",
+      "data/expansion/municipalities/schoenaich.json": "50da1494bc25ec70e3d215a8e297491d703ecd38ca1283064cac6dd27fba931f",
+      "data/expansion/municipalities/schwieberdingen.json": "ef34c1e6a7d56a590f076fb9cb768b8c80e8c7d37f7b0eb5e0142ddebdd43506"
+    }
+  }
 }

@@ -852,7 +852,12 @@
       "formula": null,
       "weekly_minutes_lower_exclusive": 2400,
       "weekly_minutes_upper_inclusive": 2580,
-      "weekly_minutes_is_upper_bound": true
+      "weekly_minutes_is_upper_bound": true,
+      "model_schedule": {
+        "days_per_week": 5,
+        "weekly_minutes": 2400,
+        "original_label": "Ganztag, Tarifstufe 40–43 Stunden"
+      }
     },
     {
       "id": "kernen-offer-ccf39b6acca6",
@@ -966,7 +971,12 @@
       "formula": null,
       "weekly_minutes_lower_exclusive": 2400,
       "weekly_minutes_upper_inclusive": 2580,
-      "weekly_minutes_is_upper_bound": true
+      "weekly_minutes_is_upper_bound": true,
+      "model_schedule": {
+        "days_per_week": 5,
+        "weekly_minutes": 2400,
+        "original_label": "Ganztag, Tarifstufe 40–43 Stunden"
+      }
     },
     {
       "id": "kernen-offer-027e54961e6c",
@@ -1080,7 +1090,12 @@
       "formula": null,
       "weekly_minutes_lower_exclusive": 2400,
       "weekly_minutes_upper_inclusive": 2580,
-      "weekly_minutes_is_upper_bound": true
+      "weekly_minutes_is_upper_bound": true,
+      "model_schedule": {
+        "days_per_week": 5,
+        "weekly_minutes": 2400,
+        "original_label": "Ganztag, Tarifstufe 40–43 Stunden"
+      }
     },
     {
       "id": "kernen-offer-5e7116684fba",
@@ -1194,7 +1209,12 @@
       "formula": null,
       "weekly_minutes_lower_exclusive": 2400,
       "weekly_minutes_upper_inclusive": 2580,
-      "weekly_minutes_is_upper_bound": true
+      "weekly_minutes_is_upper_bound": true,
+      "model_schedule": {
+        "days_per_week": 5,
+        "weekly_minutes": 2400,
+        "original_label": "Ganztag, Tarifstufe 40–43 Stunden"
+      }
     },
     {
       "id": "kernen-offer-e1cc8f9e05b6",
@@ -1308,7 +1328,12 @@
       "formula": null,
       "weekly_minutes_lower_exclusive": 2400,
       "weekly_minutes_upper_inclusive": 2580,
-      "weekly_minutes_is_upper_bound": true
+      "weekly_minutes_is_upper_bound": true,
+      "model_schedule": {
+        "days_per_week": 5,
+        "weekly_minutes": 2400,
+        "original_label": "Ganztag, Tarifstufe 40–43 Stunden"
+      }
     },
     {
       "id": "kernen-offer-481a700ce660",
@@ -1422,7 +1447,12 @@
       "formula": null,
       "weekly_minutes_lower_exclusive": 2400,
       "weekly_minutes_upper_inclusive": 2580,
-      "weekly_minutes_is_upper_bound": true
+      "weekly_minutes_is_upper_bound": true,
+      "model_schedule": {
+        "days_per_week": 5,
+        "weekly_minutes": 2400,
+        "original_label": "Ganztag, Tarifstufe 40–43 Stunden"
+      }
     }
   ],
   "prices": [
@@ -10417,9 +10447,19 @@
       "amount_cents": 500,
       "unit": "per_booked_day",
       "age_group": "o3",
-      "required": null,
+      "required": false,
       "payment_months": null,
-      "offer_ids": null,
+      "offer_ids": [
+        "kernen-offer-bc087822becd",
+        "kernen-offer-ef9f639290c3",
+        "kernen-offer-f170959924d2",
+        "kernen-offer-027e54961e6c",
+        "kernen-offer-0443915d285a",
+        "kernen-offer-c5eae25f1eeb",
+        "kernen-offer-e1cc8f9e05b6",
+        "kernen-offer-c0d5510fcb71",
+        "kernen-offer-ab4335171012"
+      ],
       "valid_from": "2026-01-01",
       "valid_to": null,
       "value_status": "known",
@@ -10436,9 +10476,19 @@
       "amount_cents": 1000,
       "unit": "per_booked_day",
       "age_group": "u3",
-      "required": null,
+      "required": false,
       "payment_months": null,
-      "offer_ids": null,
+      "offer_ids": [
+        "kernen-offer-ccf39b6acca6",
+        "kernen-offer-dc0b9a2c4c41",
+        "kernen-offer-ee028e5916b1",
+        "kernen-offer-5e7116684fba",
+        "kernen-offer-6b24efdde756",
+        "kernen-offer-51737ab90bdb",
+        "kernen-offer-481a700ce660",
+        "kernen-offer-351a8cefb5df",
+        "kernen-offer-c4f0acdfd9dc"
+      ],
       "valid_from": "2026-01-01",
       "valid_to": null,
       "value_status": "known",
@@ -10456,8 +10506,27 @@
       "unit": "per_month",
       "age_group": null,
       "required": null,
-      "payment_months": null,
-      "offer_ids": null,
+      "payment_months": 12,
+      "offer_ids": [
+        "kernen-offer-bc087822becd",
+        "kernen-offer-ef9f639290c3",
+        "kernen-offer-f170959924d2",
+        "kernen-offer-ccf39b6acca6",
+        "kernen-offer-dc0b9a2c4c41",
+        "kernen-offer-ee028e5916b1",
+        "kernen-offer-027e54961e6c",
+        "kernen-offer-0443915d285a",
+        "kernen-offer-c5eae25f1eeb",
+        "kernen-offer-5e7116684fba",
+        "kernen-offer-6b24efdde756",
+        "kernen-offer-51737ab90bdb",
+        "kernen-offer-e1cc8f9e05b6",
+        "kernen-offer-c0d5510fcb71",
+        "kernen-offer-ab4335171012",
+        "kernen-offer-481a700ce660",
+        "kernen-offer-351a8cefb5df",
+        "kernen-offer-c4f0acdfd9dc"
+      ],
       "valid_from": "2026-01-01",
       "valid_to": null,
       "value_status": "known",
@@ -10476,8 +10545,27 @@
       "unit": "per_month",
       "age_group": null,
       "required": null,
-      "payment_months": null,
-      "offer_ids": null,
+      "payment_months": 12,
+      "offer_ids": [
+        "kernen-offer-bc087822becd",
+        "kernen-offer-ef9f639290c3",
+        "kernen-offer-f170959924d2",
+        "kernen-offer-ccf39b6acca6",
+        "kernen-offer-dc0b9a2c4c41",
+        "kernen-offer-ee028e5916b1",
+        "kernen-offer-027e54961e6c",
+        "kernen-offer-0443915d285a",
+        "kernen-offer-c5eae25f1eeb",
+        "kernen-offer-5e7116684fba",
+        "kernen-offer-6b24efdde756",
+        "kernen-offer-51737ab90bdb",
+        "kernen-offer-e1cc8f9e05b6",
+        "kernen-offer-c0d5510fcb71",
+        "kernen-offer-ab4335171012",
+        "kernen-offer-481a700ce660",
+        "kernen-offer-351a8cefb5df",
+        "kernen-offer-c4f0acdfd9dc"
+      ],
       "valid_from": "2026-01-01",
       "valid_to": null,
       "value_status": "known",
@@ -11695,6 +11783,7 @@
     "calculation_engine_changed": false,
     "rule_transcription": "typed_parameters_and_source_clauses_with_explicit_unimplemented_status"
   },
+  "model_tariff": "kernen",
   "original_research": {
     "path": "data/research/neighbor_expansion_2026-11-10.json",
     "section": "Kernen im Remstal",

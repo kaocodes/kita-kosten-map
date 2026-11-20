@@ -10,7 +10,7 @@
     ],
     "other_providers": "only_with_explicit_source_evidence"
   },
-  "family_basis": "resident_children",
+  "family_basis": "under_18",
   "family_evidence": {
     "source_id": "e12b8b803da5",
     "locator": "Familienbegriff und Fußnoten der Gebührenunterlagen",
@@ -18,7 +18,9 @@
   },
   "supporting_source_ids": [
     "e12b8b803da5",
-    "bd4dc531ae2b"
+    "bd4dc531ae2b",
+    "a054d04197a1",
+    "c6c5d5daf0ef"
   ],
   "offers": [
     {
@@ -33,13 +35,19 @@
       "original_price_valid_from": "2026-09-01",
       "scope": "municipal",
       "category": "childcare",
-      "weekly_minutes": null,
-      "weekday_minutes": null,
+      "weekly_minutes": 1950,
+      "weekday_minutes": [
+        390,
+        390,
+        390,
+        390,
+        390
+      ],
       "continuous": true,
-      "schedule_status": "daily_distribution_unverified",
+      "schedule_status": "verified",
       "schedule_evidence": {
-        "source_id": "e12b8b803da5",
-        "locator": "Elternbeiträge 2026/2027; Zeile der Altersgruppe",
+        "source_id": "a054d04197a1",
+        "locator": "Aufnahmeantrag S. 1, VÖ 6,5 zusammenhängende Stunden",
         "original": null
       },
       "payment_months": 11,
@@ -80,7 +88,7 @@
       "schedule_status": "verified",
       "schedule_evidence": {
         "source_id": "e12b8b803da5",
-        "locator": "Elternbeiträge 2026/2027; Zeile der Altersgruppe",
+        "locator": "Elternbeiträge 2026/2027, GT-Spalten und Zeitangaben am Seitenende",
         "original": null
       },
       "payment_months": 11,
@@ -115,7 +123,7 @@
       "schedule_status": "daily_distribution_unverified",
       "schedule_evidence": {
         "source_id": "e12b8b803da5",
-        "locator": "Elternbeiträge 2026/2027; Zeile der Altersgruppe",
+        "locator": "Elternbeiträge 2026/2027, GT-Spalten und Zeitangaben am Seitenende",
         "original": null
       },
       "payment_months": 11,
@@ -144,13 +152,19 @@
       "original_price_valid_from": "2026-09-01",
       "scope": "municipal",
       "category": "childcare",
-      "weekly_minutes": null,
-      "weekday_minutes": null,
+      "weekly_minutes": 1950,
+      "weekday_minutes": [
+        390,
+        390,
+        390,
+        390,
+        390
+      ],
       "continuous": true,
-      "schedule_status": "daily_distribution_unverified",
+      "schedule_status": "verified",
       "schedule_evidence": {
-        "source_id": "e12b8b803da5",
-        "locator": "Elternbeiträge 2026/2027; Zeile der Altersgruppe",
+        "source_id": "c6c5d5daf0ef",
+        "locator": "Aufnahmeantrag S. 1, VÖ 6,5 zusammenhängende Stunden",
         "original": null
       },
       "payment_months": 11,
@@ -191,7 +205,7 @@
       "schedule_status": "verified",
       "schedule_evidence": {
         "source_id": "e12b8b803da5",
-        "locator": "Elternbeiträge 2026/2027; Zeile der Altersgruppe",
+        "locator": "Elternbeiträge 2026/2027, GT-Spalten und Zeitangaben am Seitenende",
         "original": null
       },
       "payment_months": 11,
@@ -226,7 +240,7 @@
       "schedule_status": "daily_distribution_unverified",
       "schedule_evidence": {
         "source_id": "e12b8b803da5",
-        "locator": "Elternbeiträge 2026/2027; Zeile der Altersgruppe",
+        "locator": "Elternbeiträge 2026/2027, GT-Spalten und Zeitangaben am Seitenende",
         "original": null
       },
       "payment_months": 11,
@@ -255,13 +269,19 @@
       "original_price_valid_from": "2026-09-01",
       "scope": "municipal",
       "category": "childcare",
-      "weekly_minutes": null,
-      "weekday_minutes": null,
+      "weekly_minutes": 1950,
+      "weekday_minutes": [
+        390,
+        390,
+        390,
+        390,
+        390
+      ],
       "continuous": true,
-      "schedule_status": "daily_distribution_unverified",
+      "schedule_status": "verified",
       "schedule_evidence": {
-        "source_id": "e12b8b803da5",
-        "locator": "Elternbeiträge 2026/2027; Zeile der Altersgruppe",
+        "source_id": "c6c5d5daf0ef",
+        "locator": "Aufnahmeantrag S. 1, VÖ 6,5 zusammenhängende Stunden",
         "original": null
       },
       "payment_months": 11,
@@ -302,7 +322,7 @@
       "schedule_status": "verified",
       "schedule_evidence": {
         "source_id": "e12b8b803da5",
-        "locator": "Elternbeiträge 2026/2027; Zeile der Altersgruppe",
+        "locator": "Elternbeiträge 2026/2027, GT-Spalten und Zeitangaben am Seitenende",
         "original": null
       },
       "payment_months": 11,
@@ -337,7 +357,7 @@
       "schedule_status": "daily_distribution_unverified",
       "schedule_evidence": {
         "source_id": "e12b8b803da5",
-        "locator": "Elternbeiträge 2026/2027; Zeile der Altersgruppe",
+        "locator": "Elternbeiträge 2026/2027, GT-Spalten und Zeitangaben am Seitenende",
         "original": null
       },
       "payment_months": 11,
@@ -1086,15 +1106,22 @@
       "amount_cents": 1300,
       "unit": "per_month",
       "age_group": null,
-      "required": null,
-      "payment_months": null,
-      "offer_ids": null,
+      "required": false,
+      "payment_months": 11,
+      "offer_ids": [
+        "benningen-offer-0aa4fd9a3ad1",
+        "benningen-offer-e5f11d2c6e26",
+        "benningen-offer-7bc121d4f63d",
+        "benningen-offer-4fad29953783",
+        "benningen-offer-6dc861f19add",
+        "benningen-offer-2a2c5de75e5f"
+      ],
       "valid_from": "2026-09-01",
       "valid_to": null,
       "value_status": "known",
       "evidence": {
         "source_id": "e12b8b803da5",
-        "locator": "Mittagessen neben den Altersgruppentabellen",
+        "locator": "Mittagessen neben den Altersgruppentabellen; August beitragsfrei laut § 6",
         "original": null
       },
       "days_per_week": 1
@@ -1106,15 +1133,22 @@
       "amount_cents": 2500,
       "unit": "per_month",
       "age_group": null,
-      "required": null,
-      "payment_months": null,
-      "offer_ids": null,
+      "required": false,
+      "payment_months": 11,
+      "offer_ids": [
+        "benningen-offer-0aa4fd9a3ad1",
+        "benningen-offer-e5f11d2c6e26",
+        "benningen-offer-7bc121d4f63d",
+        "benningen-offer-4fad29953783",
+        "benningen-offer-6dc861f19add",
+        "benningen-offer-2a2c5de75e5f"
+      ],
       "valid_from": "2026-09-01",
       "valid_to": null,
       "value_status": "known",
       "evidence": {
         "source_id": "e12b8b803da5",
-        "locator": "Mittagessen neben den Altersgruppentabellen",
+        "locator": "Mittagessen neben den Altersgruppentabellen; August beitragsfrei laut § 6",
         "original": null
       },
       "days_per_week": 2
@@ -1126,15 +1160,22 @@
       "amount_cents": 3700,
       "unit": "per_month",
       "age_group": null,
-      "required": null,
-      "payment_months": null,
-      "offer_ids": null,
+      "required": false,
+      "payment_months": 11,
+      "offer_ids": [
+        "benningen-offer-0aa4fd9a3ad1",
+        "benningen-offer-e5f11d2c6e26",
+        "benningen-offer-7bc121d4f63d",
+        "benningen-offer-4fad29953783",
+        "benningen-offer-6dc861f19add",
+        "benningen-offer-2a2c5de75e5f"
+      ],
       "valid_from": "2026-09-01",
       "valid_to": null,
       "value_status": "known",
       "evidence": {
         "source_id": "e12b8b803da5",
-        "locator": "Mittagessen neben den Altersgruppentabellen",
+        "locator": "Mittagessen neben den Altersgruppentabellen; August beitragsfrei laut § 6",
         "original": null
       },
       "days_per_week": 3
@@ -1146,15 +1187,22 @@
       "amount_cents": 4800,
       "unit": "per_month",
       "age_group": null,
-      "required": null,
-      "payment_months": null,
-      "offer_ids": null,
+      "required": false,
+      "payment_months": 11,
+      "offer_ids": [
+        "benningen-offer-0aa4fd9a3ad1",
+        "benningen-offer-e5f11d2c6e26",
+        "benningen-offer-7bc121d4f63d",
+        "benningen-offer-4fad29953783",
+        "benningen-offer-6dc861f19add",
+        "benningen-offer-2a2c5de75e5f"
+      ],
       "valid_from": "2026-09-01",
       "valid_to": null,
       "value_status": "known",
       "evidence": {
         "source_id": "e12b8b803da5",
-        "locator": "Mittagessen neben den Altersgruppentabellen",
+        "locator": "Mittagessen neben den Altersgruppentabellen; August beitragsfrei laut § 6",
         "original": null
       },
       "days_per_week": 4
@@ -1166,15 +1214,22 @@
       "amount_cents": 6100,
       "unit": "per_month",
       "age_group": null,
-      "required": null,
-      "payment_months": null,
-      "offer_ids": null,
+      "required": false,
+      "payment_months": 11,
+      "offer_ids": [
+        "benningen-offer-0aa4fd9a3ad1",
+        "benningen-offer-e5f11d2c6e26",
+        "benningen-offer-7bc121d4f63d",
+        "benningen-offer-4fad29953783",
+        "benningen-offer-6dc861f19add",
+        "benningen-offer-2a2c5de75e5f"
+      ],
       "valid_from": "2026-09-01",
       "valid_to": null,
       "value_status": "known",
       "evidence": {
         "source_id": "e12b8b803da5",
-        "locator": "Mittagessen neben den Altersgruppentabellen",
+        "locator": "Mittagessen neben den Altersgruppentabellen; August beitragsfrei laut § 6",
         "original": null
       },
       "days_per_week": 5
@@ -1186,15 +1241,19 @@
       "amount_cents": 600,
       "unit": "per_month",
       "age_group": null,
-      "required": null,
-      "payment_months": null,
-      "offer_ids": null,
+      "required": false,
+      "payment_months": 11,
+      "offer_ids": [
+        "benningen-offer-eeef3f39aa9a",
+        "benningen-offer-5ef849f30d03",
+        "benningen-offer-d057f4745c13"
+      ],
       "valid_from": "2026-09-01",
       "valid_to": null,
       "value_status": "known",
       "evidence": {
         "source_id": "e12b8b803da5",
-        "locator": "Mittagessen neben den Altersgruppentabellen",
+        "locator": "Mittagessen neben den Altersgruppentabellen; August beitragsfrei laut § 6",
         "original": null
       },
       "days_per_week": 1
@@ -1206,15 +1265,19 @@
       "amount_cents": 1400,
       "unit": "per_month",
       "age_group": null,
-      "required": null,
-      "payment_months": null,
-      "offer_ids": null,
+      "required": false,
+      "payment_months": 11,
+      "offer_ids": [
+        "benningen-offer-eeef3f39aa9a",
+        "benningen-offer-5ef849f30d03",
+        "benningen-offer-d057f4745c13"
+      ],
       "valid_from": "2026-09-01",
       "valid_to": null,
       "value_status": "known",
       "evidence": {
         "source_id": "e12b8b803da5",
-        "locator": "Mittagessen neben den Altersgruppentabellen",
+        "locator": "Mittagessen neben den Altersgruppentabellen; August beitragsfrei laut § 6",
         "original": null
       },
       "days_per_week": 2
@@ -1226,15 +1289,19 @@
       "amount_cents": 2000,
       "unit": "per_month",
       "age_group": null,
-      "required": null,
-      "payment_months": null,
-      "offer_ids": null,
+      "required": false,
+      "payment_months": 11,
+      "offer_ids": [
+        "benningen-offer-eeef3f39aa9a",
+        "benningen-offer-5ef849f30d03",
+        "benningen-offer-d057f4745c13"
+      ],
       "valid_from": "2026-09-01",
       "valid_to": null,
       "value_status": "known",
       "evidence": {
         "source_id": "e12b8b803da5",
-        "locator": "Mittagessen neben den Altersgruppentabellen",
+        "locator": "Mittagessen neben den Altersgruppentabellen; August beitragsfrei laut § 6",
         "original": null
       },
       "days_per_week": 3
@@ -1246,15 +1313,19 @@
       "amount_cents": 2700,
       "unit": "per_month",
       "age_group": null,
-      "required": null,
-      "payment_months": null,
-      "offer_ids": null,
+      "required": false,
+      "payment_months": 11,
+      "offer_ids": [
+        "benningen-offer-eeef3f39aa9a",
+        "benningen-offer-5ef849f30d03",
+        "benningen-offer-d057f4745c13"
+      ],
       "valid_from": "2026-09-01",
       "valid_to": null,
       "value_status": "known",
       "evidence": {
         "source_id": "e12b8b803da5",
-        "locator": "Mittagessen neben den Altersgruppentabellen",
+        "locator": "Mittagessen neben den Altersgruppentabellen; August beitragsfrei laut § 6",
         "original": null
       },
       "days_per_week": 4
@@ -1266,15 +1337,19 @@
       "amount_cents": 3300,
       "unit": "per_month",
       "age_group": null,
-      "required": null,
-      "payment_months": null,
-      "offer_ids": null,
+      "required": false,
+      "payment_months": 11,
+      "offer_ids": [
+        "benningen-offer-eeef3f39aa9a",
+        "benningen-offer-5ef849f30d03",
+        "benningen-offer-d057f4745c13"
+      ],
       "valid_from": "2026-09-01",
       "valid_to": null,
       "value_status": "known",
       "evidence": {
         "source_id": "e12b8b803da5",
-        "locator": "Mittagessen neben den Altersgruppentabellen",
+        "locator": "Mittagessen neben den Altersgruppentabellen; August beitragsfrei laut § 6",
         "original": null
       },
       "days_per_week": 5
@@ -1301,17 +1376,16 @@
   ],
   "rules": [
     {
-      "id": "benningen-rule-ad24d9ad870e",
-      "kind": "conflicting_vo_hours",
+      "id": "benningen-rule-4c47716c45d6",
+      "kind": "vo_booking_window",
       "execution_status": "documented_not_implemented",
       "parameters": {
-        "printed_daily_hours": "6,5",
-        "printed_opening_times": "7:00–14:30",
-        "resolved_daily_minutes": null
+        "daily_minutes": 390,
+        "window": "07:00–14:30"
       },
       "evidence": {
-        "source_id": "e12b8b803da5",
-        "locator": "Fußzeile der Gebührentabelle",
+        "source_id": "c6c5d5daf0ef",
+        "locator": "Aufnahmeantrag S. 1, gewünschte Betreuungszeiten",
         "original": null
       }
     },
@@ -1548,8 +1622,8 @@
       "detail": "Strukturierter Import; noch keine Freigabe des Rechners oder der Website."
     },
     {
-      "code": "research_limitation_1",
-      "detail": "Beschriftung nennt VÖ 6,5 Stunden, gedruckte Uhrzeiten ergeben 7,5 Stunden. Nicht stillschweigend korrigieren. Freitag ermöglicht nach dieser Quelle keine acht Stunden."
+      "code": "family_count_above_published_brackets",
+      "detail": "Die Gebührentabelle nennt Beiträge für ein bis vier Kinder. Der Aufnahmeantrag erfasst vier oder mehr gemeinsam, nennt dafür aber keinen Tarif."
     }
   ],
   "coverage": {

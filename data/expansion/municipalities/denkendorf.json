@@ -2745,7 +2745,10 @@
       "age_group": null,
       "required": true,
       "payment_months": null,
-      "offer_ids": null,
+      "offer_ids": [
+        "denkendorf-offer-530d80984195",
+        "denkendorf-offer-1492435134f8"
+      ],
       "valid_from": "2026-09-01",
       "valid_to": null,
       "value_status": "unknown",
@@ -2753,9 +2756,6 @@
         "source_id": "08b47127170a",
         "locator": "Verpflegung / Zusatzkosten",
         "original": null
-      },
-      "applies_when": {
-        "care_type": "full_day"
       },
       "days_per_week": 5
     }

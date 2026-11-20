@@ -1,0 +1,13 @@
+{
+  "id": "2d5d6ba54f15",
+  "municipality": "Weinstadt",
+  "title": "Städtisches Verzeichnis der Kindertageseinrichtungen",
+  "url": "https://www.weinstadt.de/de/Leben-Lernen/Kinderbetreuung",
+  "retrieved_at": "2026-11-20T19:59:18.441308+00:00",
+  "http_status": 200,
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://www.weinstadt.de/de/Leben-Lernen/Kinderbetreuung",
+  "error": null,
+  "local_path": "data/sources/2d5d6ba54f15/document.html",
+  "sha256": "d27c1377039bf1fd2253e81cf1bf71452b86fb4cab5efea06d061702a3001f47"
+}

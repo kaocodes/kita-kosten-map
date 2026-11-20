@@ -57,7 +57,8 @@
         "locator": "§ 6 Abs. 1",
         "original": null
       },
-      "formula": null
+      "formula": null,
+      "days_per_week": 5
     },
     {
       "id": "aichwald-offer-5e659ff6edaa",
@@ -223,7 +224,8 @@
         "locator": "§ 6 Abs. 3 und 4, 5 Tage",
         "original": null
       },
-      "formula": null
+      "formula": null,
+      "days_per_week": 5
     },
     {
       "id": "aichwald-offer-92ac42fc5c7a",
@@ -260,7 +262,8 @@
         "locator": "§ 6 Abs. 3 und 4, 4 Tage",
         "original": null
       },
-      "formula": null
+      "formula": null,
+      "days_per_week": 5
     },
     {
       "id": "aichwald-offer-16cf65f3945a",
@@ -297,7 +300,8 @@
         "locator": "§ 6 Abs. 3 und 4, 3 Tage",
         "original": null
       },
-      "formula": null
+      "formula": null,
+      "days_per_week": 5
     },
     {
       "id": "aichwald-offer-a07cb720f50f",
@@ -520,13 +524,13 @@
       "original_price_valid_from": "2026-09-01",
       "scope": "municipal",
       "category": "childcare",
-      "weekly_minutes": null,
+      "weekly_minutes": 2550,
       "weekday_minutes": null,
       "continuous": true,
       "schedule_status": "daily_distribution_unverified",
       "schedule_evidence": {
-        "source_id": "d9055ebd6801",
-        "locator": "§ 6 Abs. 5–7; ursprüngliche Preise einschließlich Mittagessen",
+        "source_id": "51cd863e63ef",
+        "locator": "Grundbetreuung an fünf Tagen und drei GT-Nachmittage; kurze Tage bis 14 Uhr laut Nutzerfestlegung",
         "original": null
       },
       "payment_months": 12,
@@ -543,7 +547,8 @@
         "locator": "§ 6 Abs. 5–7; ursprüngliche Preise einschließlich Mittagessen",
         "original": null
       },
-      "formula": null
+      "formula": null,
+      "days_per_week": 5
     }
   ],
   "prices": [

@@ -1,0 +1,1537 @@
+{
+  "schema_version": "1.0",
+  "id": "weinstadt",
+  "name": "Weinstadt",
+  "reviewed_at": "2026-11-20",
+  "reference_date": "2026-11-20",
+  "scope": {
+    "included": [
+      "municipal",
+      "clemens_kita",
+      "rappelkiste",
+      "sonnenblume"
+    ],
+    "other_providers": "only_with_explicit_source_evidence"
+  },
+  "family_basis": "child_benefit",
+  "family_evidence": {
+    "source_id": "284b520e681b",
+    "locator": "§ 8 Ziff. 2–3 und Anlage S. 7",
+    "original": null
+  },
+  "supporting_source_ids": [
+    "284b520e681b",
+    "2d5d6ba54f15",
+    "b9fc6c1ad938",
+    "345a0c33f5a0",
+    "d1fb15d3ab56"
+  ],
+  "offers": [
+    {
+      "id": "weinstadt-offer-64ee0b49eca7",
+      "original_label": "Regelgruppe",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 1800,
+      "weekday_minutes": [
+        480,
+        330,
+        330,
+        330,
+        330
+      ],
+      "continuous": false,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "d1fb15d3ab56",
+        "locator": "Badkindergarten: Ü3-Regelgruppe an fünf Tagen, täglich 7:30–13:00 plus Montag 14:00–16:30 Uhr",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "284b520e681b",
+        "locator": "§ 8 Ziff. 2–3 und Anlage S. 7",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "284b520e681b",
+        "locator": "Satzungsanlage S. 7, Regelgruppe, O3",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "weinstadt-offer-35a11178b53d",
+      "original_label": "Regelgruppe",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": null,
+      "weekday_minutes": null,
+      "continuous": false,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "d1fb15d3ab56",
+        "locator": "Elternportal, kein aktuell bestätigter Fünf-Tage-Plan für Regelgruppe U3",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "284b520e681b",
+        "locator": "§ 8 Ziff. 2–3 und Anlage S. 7",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "284b520e681b",
+        "locator": "Satzungsanlage S. 7, Regelgruppe, U3",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "weinstadt-offer-d6f9f884deaf",
+      "original_label": "Waldkindergarten",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 1500,
+      "weekday_minutes": [
+        300,
+        300,
+        300,
+        300,
+        300
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "d1fb15d3ab56",
+        "locator": "Waldkindergarten: fünf Tage Ü3, 8:00–13:00 Uhr",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "284b520e681b",
+        "locator": "§ 8 Ziff. 2–3 und Anlage S. 7",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "284b520e681b",
+        "locator": "Satzungsanlage S. 7, Waldkindergarten, O3",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "weinstadt-offer-bc871c55cbd5",
+      "original_label": "Waldkindergarten",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": null,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "d1fb15d3ab56",
+        "locator": "Elternportal, kein aktuell bestätigter Fünf-Tage-Plan für Waldkindergarten U3",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "284b520e681b",
+        "locator": "§ 8 Ziff. 2–3 und Anlage S. 7",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "284b520e681b",
+        "locator": "Satzungsanlage S. 7, Waldkindergarten, U3",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "weinstadt-offer-d9d259f9ffaf",
+      "original_label": "VÖ 6",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 1800,
+      "weekday_minutes": [
+        360,
+        360,
+        360,
+        360,
+        360
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "d1fb15d3ab56",
+        "locator": "Badkindergarten: VÖ6 fünf Tage altersgemischt Ü3",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "284b520e681b",
+        "locator": "§ 8 Ziff. 2–3 und Anlage S. 7",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "284b520e681b",
+        "locator": "Satzungsanlage S. 7, VÖ 6, O3",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "weinstadt-offer-246e41a40aa1",
+      "original_label": "VÖ 6",
+      "age_group": "u3",
+      "age_min_months": 24,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "mixed_age",
+      "weekly_minutes": 1800,
+      "weekday_minutes": [
+        360,
+        360,
+        360,
+        360,
+        360
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "d1fb15d3ab56",
+        "locator": "Badkindergarten: VÖ6 fünf Tage altersgemischt U3 ab zwei Jahren",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "284b520e681b",
+        "locator": "§ 8 Ziff. 2–3 und Anlage S. 7",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "284b520e681b",
+        "locator": "Satzungsanlage S. 7, VÖ 6, U3",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "weinstadt-offer-269a8df10b7a",
+      "original_label": "VÖ 7",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2100,
+      "weekday_minutes": [
+        420,
+        420,
+        420,
+        420,
+        420
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "d1fb15d3ab56",
+        "locator": "Kinderhaus Benzach: VÖ 7, fünf Tage O3",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "284b520e681b",
+        "locator": "§ 8 Ziff. 2–3 und Anlage S. 7",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "284b520e681b",
+        "locator": "Satzungsanlage S. 7, VÖ 7, O3",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "weinstadt-offer-e4cffe659874",
+      "original_label": "VÖ 7",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2100,
+      "weekday_minutes": [
+        420,
+        420,
+        420,
+        420,
+        420
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "d1fb15d3ab56",
+        "locator": "Kinderhaus Benzach: VÖ 7, fünf Tage U3",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "284b520e681b",
+        "locator": "§ 8 Ziff. 2–3 und Anlage S. 7",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "284b520e681b",
+        "locator": "Satzungsanlage S. 7, VÖ 7, U3",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "weinstadt-offer-513d9c3f31d9",
+      "original_label": "GT 8",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2400,
+      "weekday_minutes": [
+        480,
+        480,
+        480,
+        480,
+        480
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "d1fb15d3ab56",
+        "locator": "Kinderhaus Benzach: GT 8, fünf Tage O3",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "284b520e681b",
+        "locator": "§ 8 Ziff. 2–3 und Anlage S. 7",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "284b520e681b",
+        "locator": "Satzungsanlage S. 7, GT 8, O3",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "weinstadt-offer-ffef1a82da7c",
+      "original_label": "GT 8",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2400,
+      "weekday_minutes": [
+        480,
+        480,
+        480,
+        480,
+        480
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "d1fb15d3ab56",
+        "locator": "Kinderhaus Benzach: GT 8, fünf Tage U3",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "284b520e681b",
+        "locator": "§ 8 Ziff. 2–3 und Anlage S. 7",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "284b520e681b",
+        "locator": "Satzungsanlage S. 7, GT 8, U3",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "weinstadt-offer-bb4729442891",
+      "original_label": "GT 10",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 3000,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "d1fb15d3ab56",
+        "locator": "Elternportal, kein aktuell bestätigter Fünf-Tage-Plan für GT 10 O3",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "284b520e681b",
+        "locator": "§ 8 Ziff. 2–3 und Anlage S. 7",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "284b520e681b",
+        "locator": "Satzungsanlage S. 7, GT 10, O3",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "weinstadt-offer-af8ceb54fbde",
+      "original_label": "GT 10",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-09-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 3000,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "d1fb15d3ab56",
+        "locator": "Elternportal, kein aktuell bestätigter Fünf-Tage-Plan für GT 10 U3",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "284b520e681b",
+        "locator": "§ 8 Ziff. 2–3 und Anlage S. 7",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "284b520e681b",
+        "locator": "Satzungsanlage S. 7, GT 10, U3",
+        "original": null
+      },
+      "formula": null
+    }
+  ],
+  "prices": [
+    {
+      "id": "weinstadt-price-c4fae46ae445",
+      "offer_id": "weinstadt-offer-64ee0b49eca7",
+      "amount_cents": 17400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "284b520e681b",
+        "locator": "Satzungsanlage S. 7, Regelgruppe, O3",
+        "original": 17400
+      }
+    },
+    {
+      "id": "weinstadt-price-82f89c0544b7",
+      "offer_id": "weinstadt-offer-64ee0b49eca7",
+      "amount_cents": 14800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "284b520e681b",
+        "locator": "Satzungsanlage S. 7, Regelgruppe, O3",
+        "original": 14800
+      }
+    },
+    {
+      "id": "weinstadt-price-bfed57057b5c",
+      "offer_id": "weinstadt-offer-64ee0b49eca7",
+      "amount_cents": 10400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "284b520e681b",
+        "locator": "Satzungsanlage S. 7, Regelgruppe, O3",
+        "original": 10400
+      }
+    },
+    {
+      "id": "weinstadt-price-736d31ddcf44",
+      "offer_id": "weinstadt-offer-64ee0b49eca7",
+      "amount_cents": 4400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "284b520e681b",
+        "locator": "Satzungsanlage S. 7, Regelgruppe, O3",
+        "original": 4400
+      }
+    },
+    {
+      "id": "weinstadt-price-58c3cefaeef4",
+      "offer_id": "weinstadt-offer-35a11178b53d",
+      "amount_cents": 34800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "284b520e681b",
+        "locator": "Satzungsanlage S. 7, Regelgruppe, U3",
+        "original": 34800
+      }
+    },
+    {
+      "id": "weinstadt-price-0398209d7dc5",
+      "offer_id": "weinstadt-offer-35a11178b53d",
+      "amount_cents": 29600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "284b520e681b",
+        "locator": "Satzungsanlage S. 7, Regelgruppe, U3",
+        "original": 29600
+      }
+    },
+    {
+      "id": "weinstadt-price-80f18693d36e",
+      "offer_id": "weinstadt-offer-35a11178b53d",
+      "amount_cents": 20900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "284b520e681b",
+        "locator": "Satzungsanlage S. 7, Regelgruppe, U3",
+        "original": 20900
+      }
+    },
+    {
+      "id": "weinstadt-price-c296cac3f8c2",
+      "offer_id": "weinstadt-offer-35a11178b53d",
+      "amount_cents": 8700,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "284b520e681b",
+        "locator": "Satzungsanlage S. 7, Regelgruppe, U3",
+        "original": 8700
+      }
+    },
+    {
+      "id": "weinstadt-price-8e3df508e18e",
+      "offer_id": "weinstadt-offer-d6f9f884deaf",
+      "amount_cents": 15700,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "284b520e681b",
+        "locator": "Satzungsanlage S. 7, Waldkindergarten, O3",
+        "original": 15700
+      }
+    },
+    {
+      "id": "weinstadt-price-7091572766f9",
+      "offer_id": "weinstadt-offer-d6f9f884deaf",
+      "amount_cents": 13300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "284b520e681b",
+        "locator": "Satzungsanlage S. 7, Waldkindergarten, O3",
+        "original": 13300
+      }
+    },
+    {
+      "id": "weinstadt-price-b4223a2b3707",
+      "offer_id": "weinstadt-offer-d6f9f884deaf",
+      "amount_cents": 9400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "284b520e681b",
+        "locator": "Satzungsanlage S. 7, Waldkindergarten, O3",
+        "original": 9400
+      }
+    },
+    {
+      "id": "weinstadt-price-c1da71c5a85e",
+      "offer_id": "weinstadt-offer-d6f9f884deaf",
+      "amount_cents": 3900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "284b520e681b",
+        "locator": "Satzungsanlage S. 7, Waldkindergarten, O3",
+        "original": 3900
+      }
+    },
+    {
+      "id": "weinstadt-price-2f1684926e26",
+      "offer_id": "weinstadt-offer-bc871c55cbd5",
+      "amount_cents": 31300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "284b520e681b",
+        "locator": "Satzungsanlage S. 7, Waldkindergarten, U3",
+        "original": 31300
+      }
+    },
+    {
+      "id": "weinstadt-price-f8e683a8d68e",
+      "offer_id": "weinstadt-offer-bc871c55cbd5",
+      "amount_cents": 26600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "284b520e681b",
+        "locator": "Satzungsanlage S. 7, Waldkindergarten, U3",
+        "original": 26600
+      }
+    },
+    {
+      "id": "weinstadt-price-ee0a32cda3e7",
+      "offer_id": "weinstadt-offer-bc871c55cbd5",
+      "amount_cents": 18800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "284b520e681b",
+        "locator": "Satzungsanlage S. 7, Waldkindergarten, U3",
+        "original": 18800
+      }
+    },
+    {
+      "id": "weinstadt-price-51ae1ea533e8",
+      "offer_id": "weinstadt-offer-bc871c55cbd5",
+      "amount_cents": 7800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "284b520e681b",
+        "locator": "Satzungsanlage S. 7, Waldkindergarten, U3",
+        "original": 7800
+      }
+    },
+    {
+      "id": "weinstadt-price-979ef54bfa5e",
+      "offer_id": "weinstadt-offer-d9d259f9ffaf",
+      "amount_cents": 21800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "284b520e681b",
+        "locator": "Satzungsanlage S. 7, VÖ 6, O3",
+        "original": 21800
+      }
+    },
+    {
+      "id": "weinstadt-price-a4510fd5b0be",
+      "offer_id": "weinstadt-offer-d9d259f9ffaf",
+      "amount_cents": 18500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "284b520e681b",
+        "locator": "Satzungsanlage S. 7, VÖ 6, O3",
+        "original": 18500
+      }
+    },
+    {
+      "id": "weinstadt-price-7503feb5e273",
+      "offer_id": "weinstadt-offer-d9d259f9ffaf",
+      "amount_cents": 13100,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "284b520e681b",
+        "locator": "Satzungsanlage S. 7, VÖ 6, O3",
+        "original": 13100
+      }
+    },
+    {
+      "id": "weinstadt-price-9f7f6e1ef68d",
+      "offer_id": "weinstadt-offer-d9d259f9ffaf",
+      "amount_cents": 5400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "284b520e681b",
+        "locator": "Satzungsanlage S. 7, VÖ 6, O3",
+        "original": 5400
+      }
+    },
+    {
+      "id": "weinstadt-price-de31539702f9",
+      "offer_id": "weinstadt-offer-246e41a40aa1",
+      "amount_cents": 43500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "284b520e681b",
+        "locator": "Satzungsanlage S. 7, VÖ 6, U3",
+        "original": 43500
+      }
+    },
+    {
+      "id": "weinstadt-price-d96b5f5fab9f",
+      "offer_id": "weinstadt-offer-246e41a40aa1",
+      "amount_cents": 37000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "284b520e681b",
+        "locator": "Satzungsanlage S. 7, VÖ 6, U3",
+        "original": 37000
+      }
+    },
+    {
+      "id": "weinstadt-price-ef6cb0a97953",
+      "offer_id": "weinstadt-offer-246e41a40aa1",
+      "amount_cents": 26100,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "284b520e681b",
+        "locator": "Satzungsanlage S. 7, VÖ 6, U3",
+        "original": 26100
+      }
+    },
+    {
+      "id": "weinstadt-price-ebab83970644",
+      "offer_id": "weinstadt-offer-246e41a40aa1",
+      "amount_cents": 10900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "284b520e681b",
+        "locator": "Satzungsanlage S. 7, VÖ 6, U3",
+        "original": 10900
+      }
+    },
+    {
+      "id": "weinstadt-price-233a11058076",
+      "offer_id": "weinstadt-offer-269a8df10b7a",
+      "amount_cents": 26100,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "284b520e681b",
+        "locator": "Satzungsanlage S. 7, VÖ 7, O3",
+        "original": 26100
+      }
+    },
+    {
+      "id": "weinstadt-price-e78e820dcd27",
+      "offer_id": "weinstadt-offer-269a8df10b7a",
+      "amount_cents": 22200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "284b520e681b",
+        "locator": "Satzungsanlage S. 7, VÖ 7, O3",
+        "original": 22200
+      }
+    },
+    {
+      "id": "weinstadt-price-4bc5eb2c62d0",
+      "offer_id": "weinstadt-offer-269a8df10b7a",
+      "amount_cents": 15700,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "284b520e681b",
+        "locator": "Satzungsanlage S. 7, VÖ 7, O3",
+        "original": 15700
+      }
+    },
+    {
+      "id": "weinstadt-price-46202c2808db",
+      "offer_id": "weinstadt-offer-269a8df10b7a",
+      "amount_cents": 6500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "284b520e681b",
+        "locator": "Satzungsanlage S. 7, VÖ 7, O3",
+        "original": 6500
+      }
+    },
+    {
+      "id": "weinstadt-price-2d546a2750ff",
+      "offer_id": "weinstadt-offer-e4cffe659874",
+      "amount_cents": 52200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "284b520e681b",
+        "locator": "Satzungsanlage S. 7, VÖ 7, U3",
+        "original": 52200
+      }
+    },
+    {
+      "id": "weinstadt-price-9261353bd78c",
+      "offer_id": "weinstadt-offer-e4cffe659874",
+      "amount_cents": 44400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "284b520e681b",
+        "locator": "Satzungsanlage S. 7, VÖ 7, U3",
+        "original": 44400
+      }
+    },
+    {
+      "id": "weinstadt-price-b8dadadb4b25",
+      "offer_id": "weinstadt-offer-e4cffe659874",
+      "amount_cents": 31300,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "284b520e681b",
+        "locator": "Satzungsanlage S. 7, VÖ 7, U3",
+        "original": 31300
+      }
+    },
+    {
+      "id": "weinstadt-price-a5ce78c1bd1c",
+      "offer_id": "weinstadt-offer-e4cffe659874",
+      "amount_cents": 13100,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "284b520e681b",
+        "locator": "Satzungsanlage S. 7, VÖ 7, U3",
+        "original": 13100
+      }
+    },
+    {
+      "id": "weinstadt-price-20a4d7bbc99d",
+      "offer_id": "weinstadt-offer-513d9c3f31d9",
+      "amount_cents": 34800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "284b520e681b",
+        "locator": "Satzungsanlage S. 7, GT 8, O3",
+        "original": 34800
+      }
+    },
+    {
+      "id": "weinstadt-price-6e3ccaddbf8e",
+      "offer_id": "weinstadt-offer-513d9c3f31d9",
+      "amount_cents": 29600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "284b520e681b",
+        "locator": "Satzungsanlage S. 7, GT 8, O3",
+        "original": 29600
+      }
+    },
+    {
+      "id": "weinstadt-price-4570b6242ca4",
+      "offer_id": "weinstadt-offer-513d9c3f31d9",
+      "amount_cents": 20900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "284b520e681b",
+        "locator": "Satzungsanlage S. 7, GT 8, O3",
+        "original": 20900
+      }
+    },
+    {
+      "id": "weinstadt-price-d31698df1547",
+      "offer_id": "weinstadt-offer-513d9c3f31d9",
+      "amount_cents": 8700,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "284b520e681b",
+        "locator": "Satzungsanlage S. 7, GT 8, O3",
+        "original": 8700
+      }
+    },
+    {
+      "id": "weinstadt-price-1278352bd2a0",
+      "offer_id": "weinstadt-offer-ffef1a82da7c",
+      "amount_cents": 69600,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "284b520e681b",
+        "locator": "Satzungsanlage S. 7, GT 8, U3",
+        "original": 69600
+      }
+    },
+    {
+      "id": "weinstadt-price-8eb1aaa1ad5f",
+      "offer_id": "weinstadt-offer-ffef1a82da7c",
+      "amount_cents": 59200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "284b520e681b",
+        "locator": "Satzungsanlage S. 7, GT 8, U3",
+        "original": 59200
+      }
+    },
+    {
+      "id": "weinstadt-price-a3f66643cff0",
+      "offer_id": "weinstadt-offer-ffef1a82da7c",
+      "amount_cents": 41800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "284b520e681b",
+        "locator": "Satzungsanlage S. 7, GT 8, U3",
+        "original": 41800
+      }
+    },
+    {
+      "id": "weinstadt-price-92164d17fb16",
+      "offer_id": "weinstadt-offer-ffef1a82da7c",
+      "amount_cents": 17400,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "284b520e681b",
+        "locator": "Satzungsanlage S. 7, GT 8, U3",
+        "original": 17400
+      }
+    },
+    {
+      "id": "weinstadt-price-125d15766fc5",
+      "offer_id": "weinstadt-offer-bb4729442891",
+      "amount_cents": 43500,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "284b520e681b",
+        "locator": "Satzungsanlage S. 7, GT 10, O3",
+        "original": 43500
+      }
+    },
+    {
+      "id": "weinstadt-price-e9302273ac55",
+      "offer_id": "weinstadt-offer-bb4729442891",
+      "amount_cents": 37000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "284b520e681b",
+        "locator": "Satzungsanlage S. 7, GT 10, O3",
+        "original": 37000
+      }
+    },
+    {
+      "id": "weinstadt-price-94174249f568",
+      "offer_id": "weinstadt-offer-bb4729442891",
+      "amount_cents": 26100,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "284b520e681b",
+        "locator": "Satzungsanlage S. 7, GT 10, O3",
+        "original": 26100
+      }
+    },
+    {
+      "id": "weinstadt-price-bb5459c5b549",
+      "offer_id": "weinstadt-offer-bb4729442891",
+      "amount_cents": 10900,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "284b520e681b",
+        "locator": "Satzungsanlage S. 7, GT 10, O3",
+        "original": 10900
+      }
+    },
+    {
+      "id": "weinstadt-price-f61699a6918c",
+      "offer_id": "weinstadt-offer-af8ceb54fbde",
+      "amount_cents": 87000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "284b520e681b",
+        "locator": "Satzungsanlage S. 7, GT 10, U3",
+        "original": 87000
+      }
+    },
+    {
+      "id": "weinstadt-price-828d9c83c987",
+      "offer_id": "weinstadt-offer-af8ceb54fbde",
+      "amount_cents": 74000,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "284b520e681b",
+        "locator": "Satzungsanlage S. 7, GT 10, U3",
+        "original": 74000
+      }
+    },
+    {
+      "id": "weinstadt-price-43fa7ff51eca",
+      "offer_id": "weinstadt-offer-af8ceb54fbde",
+      "amount_cents": 52200,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "284b520e681b",
+        "locator": "Satzungsanlage S. 7, GT 10, U3",
+        "original": 52200
+      }
+    },
+    {
+      "id": "weinstadt-price-ae3b51bce728",
+      "offer_id": "weinstadt-offer-af8ceb54fbde",
+      "amount_cents": 21800,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "284b520e681b",
+        "locator": "Satzungsanlage S. 7, GT 10, U3",
+        "original": 21800
+      }
+    }
+  ],
+  "income_bands": [],
+  "components": [
+    {
+      "id": "weinstadt-component-81791f857f6a",
+      "kind": "meal",
+      "original_label": "Pflichtmittagessen",
+      "amount_cents": 10500,
+      "unit": "per_month",
+      "age_group": null,
+      "required": true,
+      "payment_months": 11,
+      "offer_ids": [
+        "weinstadt-offer-269a8df10b7a",
+        "weinstadt-offer-e4cffe659874",
+        "weinstadt-offer-513d9c3f31d9",
+        "weinstadt-offer-ffef1a82da7c",
+        "weinstadt-offer-bb4729442891",
+        "weinstadt-offer-af8ceb54fbde"
+      ],
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "284b520e681b",
+        "locator": "§ 9 und Satzungsanlage S. 8, Pflicht bei Angeboten über sechs Stunden täglich",
+        "original": null
+      }
+    }
+  ],
+  "rules": [
+    {
+      "id": "weinstadt-rule-b83b9cabca58",
+      "kind": "sibling_eligibility",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "normal_age_limit_months": 120,
+        "primary_school_extension_requires_application": true,
+        "outside_city_uses_first_tier": true,
+        "model_children_are_under_age_limit": true
+      },
+      "evidence": {
+        "source_id": "284b520e681b",
+        "locator": "§ 8 Ziff. 3",
+        "original": null
+      }
+    },
+    {
+      "id": "weinstadt-rule-eae5b57fb5e5",
+      "kind": "optional_income_relief",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "income_basis": "housing_benefit_defined_gross",
+        "income_period": "month",
+        "threshold_cents": 350000,
+        "reference_period": "previous_year",
+        "application_required": true,
+        "model_assumed_eligible": false
+      },
+      "evidence": {
+        "source_id": "284b520e681b",
+        "locator": "§ 8 Ziff. 5",
+        "original": null
+      }
+    }
+  ],
+  "issues": [
+    {
+      "code": "booking_scope",
+      "detail": "U3-VÖ6 ist ab zwei Jahren belegt. GT10 ist in der Preistabelle enthalten. Eine durchgehend für beide Altersgruppen bestätigte städtische Fünf-Tage-Buchung ist nicht hinterlegt."
+    }
+  ],
+  "coverage": {
+    "publication_status": "not_active",
+    "history_in_scope": false,
+    "source_register": "data/research/municipal_tariff_collection_2026-11-20.json"
+  }
+}

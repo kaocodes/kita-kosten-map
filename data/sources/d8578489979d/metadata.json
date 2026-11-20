@@ -1,0 +1,13 @@
+{
+  "id": "d8578489979d",
+  "municipality": "Bietigheim-Bissingen",
+  "title": "Städtisches Anmeldeportal: angebotene Betreuungsformen",
+  "url": "https://nhkita.bietigheim-bissingen.de/anmeldung.html",
+  "retrieved_at": "2026-11-20T19:48:44.465311+00:00",
+  "http_status": 200,
+  "content_type": "text/html",
+  "final_url": "https://nhkita.bietigheim-bissingen.de/anmeldung.html",
+  "error": null,
+  "local_path": "data/sources/d8578489979d/document.html",
+  "sha256": "b2aadd4a177ba4b9c64f1c6690f7b812b695005b0aaed0f24b4b9ce987810915"
+}

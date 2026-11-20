@@ -2,7 +2,7 @@
 
 **Stand:** 2026-11-10. **Schritt 1 abgeschlossen:** Übertragung der aktuellen und bereits veröffentlichten künftigen Krippen-/Kindergartentarife in ein einheitliches Datenformat.
 
-Erfasst sind **33 Kommunen**, **553 Angebote**, **4433 Preiszellen**, **51 Einkommensstufen** und **141 Zusatzkostenbausteine**. Formeltarife werden zusätzlich mit ihren Parametern gespeichert; eine fehlende Anzahl diskreter Preiszellen ist dort keine fehlende Tarifquelle.
+Erfasst sind **33 Kommunen**, **553 Angebote**, **4426 Preiszellen**, **51 Einkommensstufen** und **148 Zusatzkostenbausteine**. Formeltarife werden zusätzlich mit ihren Parametern gespeichert; eine fehlende Anzahl diskreter Preiszellen ist dort keine fehlende Tarifquelle.
 
 ## Ablage und Status
 
@@ -29,7 +29,7 @@ Alle Geldbeträge sind ganzzahlige Centwerte, Zeiten Minuten. Beitragsmonate ble
 
 Aktuelle Krippen- und Kindergartentarife sowie in denselben Quellen bereits veröffentlichte künftige Fassungen sind übertragen. Überholte historische Tabellen, Schulkindbetreuung, TAKKI/Kindertagespflege und separate Spielgruppen gehören nicht zu den regulären Vergleichspreiszeilen. Ihre Originalunterlagen bleiben erhalten; ergänzende Klauseln sind dokumentiert. Es wird keine historische Preisreihe angelegt.
 
-Eine Tabelle kann einen Tarif nennen, ohne die Buchbarkeit einer konkreten Tagesverteilung zu belegen. Dies bleibt beispielsweise bei einzelnen Ostfilderner Stundenklassen und bei der widersprüchlichen Benninger VÖ-Zeit offen. Der Schuljahresbeginn für die nur als 2026/2027 bezeichneten Tabellen in Altbach und Benningen ist ausdrücklich als Ableitung gekennzeichnet.
+Eine Tabelle kann einen Tarif nennen, ohne die Buchbarkeit einer konkreten Tagesverteilung zu belegen. Dies bleibt beispielsweise bei einzelnen Ostfilderner Stundenklassen offen. Die Benninger Aufnahmeanträge belegen 6,5 zusammenhängende Stunden VÖ innerhalb des längeren Buchungsfensters. Der Schuljahresbeginn für die nur als 2026/2027 bezeichneten Tabellen in Altbach und Benningen ist ausdrücklich als Ableitung gekennzeichnet.
 
 ## Besonderheiten für Rechenprüfung und Integration
 
@@ -48,15 +48,15 @@ Eine Tabelle kann einen Tarif nennen, ohne die Buchbarkeit einer konkreten Tages
 | [Affalterbach](../data/expansion/municipalities/affalterbach.json) | 3 | 12 | 0 | 1 | Kompatibilität separat bewertet |
 | [Aichwald](../data/expansion/municipalities/aichwald.json) | 13 | 52 | 0 | 2 | Kompatibilität separat bewertet |
 | [Aidlingen](../data/expansion/municipalities/aidlingen.json) | 12 | 48 | 0 | 1 | Kompatibilität separat bewertet |
-| [Altbach](../data/expansion/municipalities/altbach.json) | 6 | 24 | 0 | 5 | Kompatibilität separat bewertet |
+| [Altbach](../data/expansion/municipalities/altbach.json) | 6 | 24 | 0 | 6 | Kompatibilität separat bewertet |
 | [Asperg](../data/expansion/municipalities/asperg.json) | 37 | 148 | 0 | 7 | Kompatibilität separat bewertet |
-| [Baltmannsweiler](../data/expansion/municipalities/baltmannsweiler.json) | 16 | 64 | 0 | 10 | Kompatibilität separat bewertet |
+| [Baltmannsweiler](../data/expansion/municipalities/baltmannsweiler.json) | 16 | 64 | 0 | 11 | Kompatibilität separat bewertet |
 | [Benningen am Neckar](../data/expansion/municipalities/benningen.json) | 9 | 36 | 0 | 11 | Kompatibilität separat bewertet |
 | [Deizisau](../data/expansion/municipalities/deizisau.json) | 12 | 48 | 0 | 1 | Kompatibilität separat bewertet |
 | [Denkendorf](../data/expansion/municipalities/denkendorf.json) | 5 | 120 | 6 | 1 | Kompatibilität separat bewertet |
 | [Eberdingen](../data/expansion/municipalities/eberdingen.json) | 4 | 12 | 2 | 1 | Kompatibilität separat bewertet |
 | [Ehningen](../data/expansion/municipalities/ehningen.json) | 30 | 120 | 0 | 1 | Kompatibilität separat bewertet |
-| [Erdmannhausen](../data/expansion/municipalities/erdmannhausen.json) | 36 | 144 | 3 | 5 | Kompatibilität separat bewertet |
+| [Erdmannhausen](../data/expansion/municipalities/erdmannhausen.json) | 36 | 144 | 3 | 6 | Kompatibilität separat bewertet |
 | [Filderstadt](../data/expansion/municipalities/filderstadt.json) | 44 | 176 | 0 | 12 | Kompatibilität separat bewertet |
 | [Freiberg am Neckar](../data/expansion/municipalities/freiberg.json) | 27 | 312 | 8 | 14 | Kompatibilität separat bewertet |
 | [Grafenau](../data/expansion/municipalities/grafenau.json) | 20 | 80 | 0 | 1 | Kompatibilität separat bewertet |
@@ -68,7 +68,7 @@ Eine Tabelle kann einen Tarif nennen, ohne die Buchbarkeit einer konkreten Tages
 | [Möglingen](../data/expansion/municipalities/moeglingen.json) | 10 | 80 | 0 | 3 | Kompatibilität separat bewertet |
 | [Ostfildern](../data/expansion/municipalities/ostfildern.json) | 40 | 1920 | 12 | 1 | Kompatibilität separat bewertet |
 | [Plochingen](../data/expansion/municipalities/plochingen.json) | 13 | 52 | 0 | 10 | Kompatibilität separat bewertet |
-| [Remseck am Neckar](../data/expansion/municipalities/remseck.json) | 7 | 35 | 0 | 2 | Kompatibilität separat bewertet |
+| [Remseck am Neckar](../data/expansion/municipalities/remseck.json) | 7 | 28 | 0 | 6 | Kompatibilität separat bewertet |
 | [Renningen](../data/expansion/municipalities/renningen.json) | 10 | 24 | 0 | 1 | Kompatibilität separat bewertet |
 | [Rutesheim](../data/expansion/municipalities/rutesheim.json) | 44 | 66 | 0 | 7 | Kompatibilität separat bewertet |
 | [Schönaich](../data/expansion/municipalities/schoenaich.json) | 4 | 16 | 0 | 4 | Kompatibilität separat bewertet |

@@ -1,0 +1,13 @@
+{
+  "id": "a6c3f78f69b9",
+  "municipality": "Neuhausen auf den Fildern",
+  "title": "Kommunale Einrichtungen und Links zu Zeitmodellen",
+  "url": "https://www.kitas-neuhausen.de/Unsere-kommunalen-Kitas/Kommunale-Kitas",
+  "retrieved_at": "2026-11-20T19:47:23.343386+00:00",
+  "http_status": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "final_url": "https://www.kitas-neuhausen.de/Unsere-kommunalen-Kitas/Kommunale-Kitas",
+  "error": null,
+  "local_path": "data/sources/a6c3f78f69b9/document.html",
+  "sha256": "bea72bd63bb5dc75dac8621475003b877d62da21f8392c975c6b2bf0b6bd910f"
+}

@@ -73,6 +73,7 @@ export interface Selectors {
   family_count_is_minimum?: boolean;
   care_rank?: number | null;
   care_rank_is_minimum?: boolean;
+  single_parent?: boolean;
   income_band_id: string | null;
   pass_id?: string;
 }
@@ -107,6 +108,7 @@ export interface Offer {
   valid_to: string | null;
   weekly_minutes: number | null;
   weekday_minutes: number[] | null;
+  days_per_week?: number;
   continuous: boolean;
   schedule_status: string;
   payment_months: number | null;
@@ -202,6 +204,7 @@ export interface ComparisonResult {
   offer_label: string | null;
   booked_weekly_minutes: number | null;
   extra_weekly_minutes: number | null;
+  shorter_friday_weekday_minutes?: number[];
   payment_months: number | null;
   components: CalculatedComponent[];
   calculation: Record<string, unknown>[];

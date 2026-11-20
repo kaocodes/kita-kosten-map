@@ -2,13 +2,13 @@
 
 import base64
 from copy import deepcopy
-import hashlib
 import importlib.util
 import json
 from pathlib import Path
 import unittest
 
 from kita_costs.engine import evaluate_city, load_default_profile
+from scripts.activate_expansion_catalogs import check_review, read, SELECTION
 
 ROOT=Path(__file__).resolve().parents[1]
 spec=importlib.util.spec_from_file_location("compatibility_review",ROOT/"scripts/review_expansion_compatibility.py")
@@ -26,8 +26,7 @@ class ExpansionCompatibilityTests(unittest.TestCase):
         cls.default=audit.read(ROOT/"data/models/configuration.json")["default"]
 
     def test_review_is_bound_to_current_inputs_and_engines(self):
-        for path,expected in self.review["input_sha256"].items():
-            with self.subTest(path=path):self.assertEqual(hashlib.sha256((ROOT/path).read_bytes()).hexdigest(),expected)
+        check_review(ROOT, read(ROOT, SELECTION))
         for field in ["engine_changed","production_registry_changed","website_activated"]:
             self.assertFalse(self.review[field])
         self.assertTrue(self.review["publication_requires_enforcing_review_index"])
@@ -96,6 +95,23 @@ class ExpansionCompatibilityTests(unittest.TestCase):
         raw={**audit.compact_result(child),"care_child_count":1,"children":[{"index":0,"category":"nursery","daily_minutes":selection["children"][0]["daily_minutes"],"in_care":True,"result":audit.compact_result(child)}]}
         case={"selection":selection,"profile":profile}
         return child,audit.review_result(self.cities[city_id],case,raw,self.policy["entries"].get(city_id,{}),self.research[city_id])
+
+    def test_shorter_friday_policy_with_actual_minutes(self):
+        for city_id, schedule, amounts in [
+            ("affalterbach", [510, 510, 510, 510, 360], (50300, 34000)),
+            ("denkendorf", [570, 570, 570, 570, 420], (71133, 38408)),
+        ]:
+            for age, expected in zip((24, 48), amounts, strict=True):
+                with self.subTest(city=city_id, age=age):
+                    profile = load_default_profile()
+                    profile["children"][0]["age_months"] = age
+                    city = self.cities[city_id]
+                    self.assertEqual(evaluate_city(city, profile)["status"], "unavailable")
+                    row = evaluate_city(city, profile, allow_shorter_friday=True)
+                    self.assertEqual(row["monthly_equivalent_cents"], expected)
+                    self.assertEqual(row["shorter_friday_weekday_minutes"], schedule)
+                    self.assertEqual(row["booked_weekly_minutes"], sum(schedule))
+                    self.assertEqual(row["extra_weekly_minutes"], sum(max(0, minutes - 480) for minutes in schedule))
 
     def test_known_meal_amount_does_not_escape_as_care_only(self):
         native,reviewed=self.raw_single_child("aichwald",self.default)

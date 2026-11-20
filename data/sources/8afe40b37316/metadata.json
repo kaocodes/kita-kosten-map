@@ -1,0 +1,13 @@
+{
+  "id": "8afe40b37316",
+  "municipality": "Renningen",
+  "title": "Städtische Kindergärten und Betreuungszeiten",
+  "url": "https://www.renningen.de/renninger-in/familienportal/kinderbetreuung/kindergaerten/",
+  "retrieved_at": "2026-11-18T11:46:39.090089+00:00",
+  "http_status": 200,
+  "content_type": "text/html;charset=UTF-8",
+  "final_url": "https://www.renningen.de/renninger-in/familienportal/kinderbetreuung/kindergaerten/",
+  "error": null,
+  "local_path": "data/sources/8afe40b37316/document.html",
+  "sha256": "2553ae4617a90271fe558dad06dd1340deb5765edf08d92692f819330038c88e"
+}

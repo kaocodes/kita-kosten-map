@@ -1,0 +1,13 @@
+{
+  "id": "a3f277739333",
+  "municipality": "Neuhausen auf den Fildern",
+  "title": "Kommunales Kita-Portal: Verpflegung",
+  "url": "https://www.kitas-neuhausen.de/Informationen/Verpflegung",
+  "retrieved_at": "2026-11-20T19:47:21.153908+00:00",
+  "http_status": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "final_url": "https://www.kitas-neuhausen.de/Informationen/Verpflegung",
+  "error": null,
+  "local_path": "data/sources/a3f277739333/document.html",
+  "sha256": "542257ba580e66d630ddc52f729153805b7c588934a8f93661738e982c3bc5a6"
+}

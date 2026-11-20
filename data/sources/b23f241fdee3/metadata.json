@@ -1,0 +1,13 @@
+{
+  "id": "b23f241fdee3",
+  "municipality": "Neuhausen auf den Fildern",
+  "title": "Egelsee: Kindergartenentgelte ab April 2026",
+  "url": "https://kitas-neuhausen.de/broschuere/Entgelt-Kinderhaus-am-Egelsee-Kindergarten-brochure586",
+  "retrieved_at": "2026-11-20T19:47:21.604313+00:00",
+  "http_status": 200,
+  "content_type": "application/pdf",
+  "final_url": "https://kitas-neuhausen.de/resources/02%20Datenobjekte/E-B%C3%BCrgerservice/Flyer-Brosch%C3%BCren/Monatliche%20Nutzungsentgelte%20Kinderhaus%20am%20Egelsee%20Kindergarten%20a.pdf",
+  "error": null,
+  "local_path": "data/sources/b23f241fdee3/document.pdf",
+  "sha256": "ad4ef3e9432fce71cfaa858334923820b4caeb1dfa39f168bb20b25f668635af"
+}

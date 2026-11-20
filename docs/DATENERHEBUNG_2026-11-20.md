@@ -1,0 +1,31 @@
+# Kita-Gebühren für vier weitere Kommunen
+
+Erhebung und Vergleichsstichtag sind der 20. November 2026. Erfasst sind die kommunalen Krippen- und Kindergartentarife. Die Quellen einschließlich Abrufdatum und Originaldatei sind über das [Quellenregister](../data/research/municipal_tariff_collection_2026-11-20.json) verknüpft. Die vier Datensätze sind in der lokalen Kartenvorschau eingebunden.
+
+## Stichprobe für einen Haushalt mit einem Kind
+
+Die Tabelle nennt den auf zwölf Monate umgelegten Betreuungsbeitrag und den tatsächlich angesetzten Wochenumfang. Modellbrutto sind 80.000 € pro Jahr. Das Essen steht separat.
+
+| Kommune | U3 · 6 Std. | U3 · 8 Std. | Ü3 · 6 Std. | Ü3 · 8 Std. | Verpflegung separat |
+|---|---:|---:|---:|---:|---|
+| Neuhausen auf den Fildern | 620,84 € · 36 Std. 15 Min. | 685,06 € · 40 Std. | 351,20 € · 40 Std. | 351,20 € · 40 Std. | Pflicht im Ganztag je Essen, 4,00 € U3 und 5,20 € Ü3 |
+| Markgröningen | 500,00 € · 30 Std. | 665,00 € · 40 Std. | 150,58 € · 30 Std. | 200,77 € · 40 Std. | 88,00 € pro Monat bei Teilnahme, im Ganztag und als freiwilliges Angebot im Nonnenpfad bei 32,5 Stunden erfasst |
+| Bietigheim-Bissingen | 259,00 € · 30 Std. | 404,00 € · 40 Std. | 150,00 € · 30 Std. | 281,00 € · 40 Std. | 95,00 € pro Monat im Ganztag, bei VÖ und verfügbarem Essen optional 38,00 €, 57,00 € oder 95,00 € für zwei, drei oder fünf Tage |
+| Weinstadt | 398,75 € · 30 Std. | 638,00 € · 40 Std. | 159,50 € · 30 Std. | 319,00 € · 40 Std. | 105,00 € je Beitragsmonat, Pflicht bei Angeboten über sechs Stunden täglich |
+
+## Örtliche Regeln und Quellen
+
+- **Neuhausen auf den Fildern.** Elf Betreuungsbeiträge, August entgeltfrei. Die Familienstaffel zählt unter 18-Jährige mit Erstwohnsitz im selben Haushalt. Der veröffentlichte Krippentarif für 36 Std. 15 Min. im Rohrspätzle beträgt 677,28 € je Beitragsmonat. Im Ü3-Angebot bleibt der Waldkindergarten mit 28 Std. 45 Min. unter der Mindestgröße für das Sechs-Stunden-Modell. Deshalb fällt die Auswahl auf GT 8 mit 40 Stunden und 383,13 € je Beitragsmonat. Im Egelsee ist dieser Ü3-Tarif bis August 2027 als buchbar angegeben. Der Alfred-Delp-Weg führt GT 8 ebenfalls. Das Egelsee-Profil nennt zusätzlich 43,5 und 45 Wochenstunden mit Freitagswahl. Deren genaue Monatsbeträge fehlen in der zugehörigen Tabelle. Die Tabelle führt GT 10, für das derzeit kein konkreter Fünf-Tage-Nachweis aus dem Einrichtungsprofil vorliegt. [Entgelte](https://www.kitas-neuhausen.de/Informationen/entgelte), [Egelsee](https://www.kitas-neuhausen.de/Unsere-kommunalen-Kitas/Kommunale-Kitas/Kinderhaus-am-Egelsee), [Verpflegung](https://www.kitas-neuhausen.de/Informationen/Verpflegung)
+- **Markgröningen.** Zwölf Betreuungsbeiträge, für beide Altersgruppen 30, 32,5, 40 und 42,5 Wochenstunden. Das Bruttojahreseinkommen bestimmt fünf Stufen mit Grenzen bei 50.000 €, 65.000 €, 90.000 € und 125.000 €. Die Satzung berücksichtigt weitere Einnahmen und schließt unter anderem Kindergeld aus. Die Stichprobe verwendet das Modellbrutto als Arbeitslohn. Ab September 2027 steigen die Ü3-Beiträge. Für U3 gelten weiterhin die Beträge ab September 2025. Die Zahl der Essensmonate ist nicht ausdrücklich festgelegt. [Satzung und Gebührentabellen](https://www.markgroeningen.de/bildung-freizeit/betreuung/kindertageseinrichtungen/satzung-gebuehren-formulare), [Städtische Angebote](https://www.markgroeningen.de/bildung-freizeit/betreuung/kindertageseinrichtungen/staedt-kindertageseinrichtungen)
+- **Bietigheim-Bissingen.** Zwölf Betreuungsbeiträge sowie zwölf Monate bei gebuchter Verpflegung. VÖ 6, VÖ 7 und GT 8 sind als Betreuungsformen belegt. Die Satzung enthält zusätzlich GT 9 und GT 10. GT 9 ist in der aktuellen Angebotsübersicht nicht belegt, GT 10 laut Anmeldeportal derzeit nicht verfügbar. Die Staffel zählt unter 18-Jährige mit Hauptwohnsitz im Haushalt. Bei mindestens drei Haushaltskindern sind Kinder ab Rang 3 im VÖ-Tarif beitragsfrei. Die Modellrechnung verwendet den Geburtsrang gemäß Projektregel. Das älteste berücksichtigte Haushaltskind erhält Rang 1. Die Karte wendet den Rang auch an, wenn ältere Geschwister keine Kita besuchen. Der Familienpass ermäßigt den Betreuungsbeitrag um 50 Prozent. Er gehört nicht zur allgemeinen Modellrechnung. Gebührenstände sind bis August 2030 veröffentlicht. [Gebührensatzung](https://www.bietigheim-bissingen.de/fileadmin/user_upload_stadtverwaltung/seitenstruktur/familie-soziales-bildung/kinderbetreuung/staedtische-einrichtungen/Kita-Satzung_Geb%C3%BChren_2026-07.pdf), [Anmeldeportal](https://nhkita.bietigheim-bissingen.de/anmeldung.html)
+
+- **Weinstadt.** Kinderbetreuung und Essen werden je elf Monate berechnet. Die Stufen zählen im Haushalt lebende kindergeldberechtigte Kinder unter zehn Jahren. Eine Verlängerung bis zum Ende der Grundschulzeit und die einkommensabhängige Sozialermäßigung sind antragsgebunden und fließen nicht in die Modellbeträge ein. Der Badkindergarten belegt VÖ6 für Zweijährige in einer altersgemischten Gruppe. Seine Ü3-Regelgruppe erreicht durch einen Nachmittagsblock ebenfalls 30 Wochenstunden und kostet bei gleichem Wochenumfang weniger als VÖ6. Das Kinderhaus Benzach weist GT8 mit 40 Wochenstunden für beide Altersgruppen aus. Die GT10-Preise sind archiviert. Für die Modellrechnung werden die belegten 40-Stunden-Angebote gewählt. [Satzung mit Gebührenanlage](https://www.weinstadt.de/ceasy/resource/?download=1&id=12754), [Städtisches Elternportal](https://elternportal.komm.one/weinstadt/#/eltern/suchen)
+
+## Daten und Prüfung
+
+- [Neuhausen auf den Fildern](../data/expansion/batches/2026-11-20/neuhausen-auf-den-fildern.json)
+- [Markgröningen](../data/expansion/batches/2026-11-20/markgroeningen.json)
+- [Bietigheim-Bissingen](../data/expansion/batches/2026-11-20/bietigheim-bissingen.json)
+- [Weinstadt](../data/expansion/batches/2026-11-20/weinstadt.json)
+
+`python3 scripts/normalize_municipal_tariff_collection.py` erzeugt die vier Kataloge aus den archivierten Quellen und der visuell geprüften Markgröninger Abschrift. Das Skript prüft Schema, Quellenhashes und Gebietszuordnung. Je Kommune wurden acht Modellkonfigurationen aus dem Regelwerk gegen Preis und Wochenstunden geprüft. In der Bietigheimer Stichprobe wurde der Geburtsrang der einzelnen Kinder ausdrücklich übergeben.

@@ -1,0 +1,13 @@
+{
+  "id": "d1fb15d3ab56",
+  "municipality": "Weinstadt",
+  "title": "Städtisches Elternportal: Detailprofile Badkindergarten, Kinderhaus Benzach und Waldkindergarten",
+  "url": "https://elternportal.komm.one/weinstadt/#/eltern/suchen",
+  "retrieved_at": "2026-11-20T20:02:54.010720+00:00",
+  "http_status": 200,
+  "content_type": "text/html",
+  "final_url": "https://elternportal.komm.one/weinstadt/#/eltern/suchen",
+  "error": null,
+  "local_path": "data/sources/d1fb15d3ab56/document.html",
+  "sha256": "1b0ee23e5f7a53edd5152449795f842c774fd4d95e06e6e9b658bd4e6062dec3"
+}

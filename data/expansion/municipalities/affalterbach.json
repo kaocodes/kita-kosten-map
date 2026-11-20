@@ -32,13 +32,19 @@
       "original_price_valid_from": "2026-09-01",
       "scope": "municipal",
       "category": "childcare",
-      "weekly_minutes": null,
-      "weekday_minutes": null,
+      "weekly_minutes": 1800,
+      "weekday_minutes": [
+        360,
+        360,
+        360,
+        360,
+        360
+      ],
       "continuous": true,
-      "schedule_status": "daily_distribution_unverified",
+      "schedule_status": "verified",
       "schedule_evidence": {
-        "source_id": "c6cd13cdab20",
-        "locator": "§ 3 Gebührentabellen",
+        "source_id": "5629ccd1d16f",
+        "locator": "Öffnungszeiten, Kindercampus Klingenstraße, Gruppe VÖ",
         "original": null
       },
       "payment_months": 12,
@@ -67,13 +73,19 @@
       "original_price_valid_from": "2026-09-01",
       "scope": "municipal",
       "category": "childcare",
-      "weekly_minutes": null,
-      "weekday_minutes": null,
+      "weekly_minutes": 2400,
+      "weekday_minutes": [
+        510,
+        510,
+        510,
+        510,
+        360
+      ],
       "continuous": true,
-      "schedule_status": "daily_distribution_unverified",
+      "schedule_status": "verified",
       "schedule_evidence": {
-        "source_id": "c6cd13cdab20",
-        "locator": "§ 3 Gebührentabellen",
+        "source_id": "5629ccd1d16f",
+        "locator": "Öffnungszeiten, Kindercampus Klingenstraße, Ganztagesbetreuung",
         "original": null
       },
       "payment_months": 12,
@@ -102,13 +114,19 @@
       "original_price_valid_from": "2026-09-01",
       "scope": "municipal",
       "category": "childcare",
-      "weekly_minutes": null,
-      "weekday_minutes": null,
+      "weekly_minutes": 2400,
+      "weekday_minutes": [
+        510,
+        510,
+        510,
+        510,
+        360
+      ],
       "continuous": true,
-      "schedule_status": "daily_distribution_unverified",
+      "schedule_status": "verified",
       "schedule_evidence": {
-        "source_id": "c6cd13cdab20",
-        "locator": "§ 3 Gebührentabellen",
+        "source_id": "5629ccd1d16f",
+        "locator": "Öffnungszeiten, Kindercampus Klingenstraße, Kleinkindgruppe / Ganztagesbetreuung",
         "original": null
       },
       "payment_months": 12,

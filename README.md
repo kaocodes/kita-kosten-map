@@ -10,6 +10,7 @@ Der Datenbestand enthält Krippen- und Kindergartentarife, Einkommens- und Famil
 
 ## Einstieg
 
+- [Regelwerk für die Kita-Gebührenanalyse](docs/REGELWERK_DATENANALYSE.md): verbindliche Vorgaben für Zeitpakete, Tarifvergleich, Quellen und Stichproben.
 - [UI-To-dos und SEO-Erinnerung](docs/NAECHSTE_SESSION.md): die UI-Punkte sind lokal umgesetzt; SEO bleibt eine offene Erinnerung.
 - [Standardvergleich und Vollständigkeitsprüfung](docs/STANDARDVERGLEICH.md): die 20 Vergleichswerte und ihre Einschränkungen.
 - [Höchsttarifvergleich](docs/HOECHSTTARIFVERGLEICH.md): die erhaltene Vollzahlerreferenz.
@@ -48,7 +49,13 @@ npm run dev
 
 Danach **http://127.0.0.1:5173/** öffnen. Die Website bietet den Modellfamilien-Konfigurator mit Haushaltskonstellation, Kinderkategorien, sechs Einkommensszenarien und 6/8 Stunden Betreuung je Kita-Kind. Karte und Liste zeigen die vollständigen Betreuungskosten der Familie; die Details erhalten Einzelbeiträge, Essen und Quellen. Der frühere persönliche Rechner und die Höchsttarifreferenz bleiben im Code bzw. Datenbestand ohne öffentlichen Reiter erhalten.
 
-Prüfen und statisch bauen:
+### Lokale Vorschau der Kartenerweiterung
+
+`npm run dev:expansion` zeigt unter http://127.0.0.1:5174/ alle 49 Kommunen. Die Vorschau kombiniert die zwölf ursprünglichen Kommunen mit 37 geprüften Erweiterungskatalogen. Fehlende Angebote oder Preise bleiben grau und sind in den Details als „Nicht berechenbar“ erkennbar. `npm run test:expansion` prüft die Zuordnung von Tarifen und Gemeindegrenzen sowie Modellwerte und bekannte Lücken im erzeugten Vorschaukatalog.
+
+Die Vorschau liest die noch nicht aktivierten Kataloge aus dem Erweiterungsmanifest. Sie erzeugt ihre Daten unter `build/expansion-preview/`. Das produktive Register und der GitHub-Pages-Build verwenden weiterhin die bisher aktivierten Kommunen. [Prüfstand der Erweiterung](docs/ERWEITERUNGSBERECHNUNG.md)
+
+### Prüfen und statisch bauen
 
 ```bash
 npm run typecheck

@@ -1,0 +1,13 @@
+{
+  "id": "b9fc6c1ad938",
+  "municipality": "Weinstadt",
+  "title": "Antrag auf Ermäßigung der Kindergartengebühr",
+  "url": "https://www.weinstadt.de/ceasy/resource/?download=1&id=5175",
+  "retrieved_at": "2026-11-20T19:59:18.039937+00:00",
+  "http_status": 200,
+  "content_type": "application/pdf",
+  "final_url": "https://www.weinstadt.de/ceasy/resource/?download=1&id=5175",
+  "error": null,
+  "local_path": "data/sources/b9fc6c1ad938/document.pdf",
+  "sha256": "e83d3757e9d89c89008039423d9584aecf2d370a3f6bcfa83fc33c6f135d8e1a"
+}

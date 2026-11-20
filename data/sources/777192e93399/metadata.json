@@ -1,0 +1,13 @@
+{
+  "id": "777192e93399",
+  "municipality": "Neuhausen auf den Fildern",
+  "title": "Egelsee: Krippenentgelte ab April 2026",
+  "url": "https://kitas-neuhausen.de/broschuere/Kinderhaus-am-Egelsee-Krippe-brochure587",
+  "retrieved_at": "2026-11-20T19:47:21.219479+00:00",
+  "http_status": 200,
+  "content_type": "application/pdf",
+  "final_url": "https://kitas-neuhausen.de/resources/02%20Datenobjekte/E-B%C3%BCrgerservice/Flyer-Brosch%C3%BCren/Monatliche%20Nutzungsentgelte%20Kinderhaus%20am%20Egelsee%20Krippe%20ab%200420.pdf",
+  "error": null,
+  "local_path": "data/sources/777192e93399/document.pdf",
+  "sha256": "ac0bf3a72a9ef3f2d959eaef07d051fe7b46e502d27868cf02906ad817599865"
+}

@@ -1,6 +1,6 @@
 # Konfigurierbare Modellfamilien
 
-**Stand:** 8. November 2026 · **Tarifstichtag:** 4. November 2026
+**Stand:** 20. November 2026 · **Tarifstichtag:** 4. November 2026
 
 Die öffentliche Website bietet einen Modellvergleich mit einfachen Auswahlen. Persönliche Steuerdaten, Geburtsdaten und Pässe werden nicht abgefragt. Der bisherige Einzelkindvergleich bleibt als Standard erhalten. Das frühere persönliche Formular und die Höchsttarifreferenz bleiben im Code bzw. Datenbestand; beide haben keinen öffentlichen Reiter.
 
@@ -116,4 +116,4 @@ Für die Zuordnung zählen die einzelnen Tage. Für die Kosten zählt der veröf
 | Affalterbach | 8,5 Std. | 6 Std. | 40 Std. | 503,00 € | 340,00 € |
 | Denkendorf | 9,5 Std. | 7 Std. | 45 Std. | 711,33 € | 384,08 € |
 
-Die Beispiele gelten für die bisherige Modellfamilie mit einem Kita-Kind und 80.000 € Haushaltsbrutto pro Jahr. Denkendorf erhebt 11 Monatsbeiträge, in Affalterbach sind es 12. Verpflegung wird separat behandelt. Die Beispiele liegen im Erweiterungsbestand. Die Karte zeigt die 20 bereits freigegebenen Kommunen.
+Die Beispiele gelten für die bisherige Modellfamilie mit einem Kita-Kind und 80.000 € Haushaltsbrutto pro Jahr. Denkendorf erhebt 11 Monatsbeiträge, in Affalterbach sind es 12. Verpflegung wird separat behandelt. Die Beispiele liegen im Erweiterungsbestand. Der reguläre Build zeigt 20 Kommunen. Der Erweiterungsbestand ist in der lokalen Vorschau einsehbar. [Webanwendung](WEBANWENDUNG.md)

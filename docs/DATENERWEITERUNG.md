@@ -1,16 +1,8 @@
-# Mögliche Datenerweiterung nach Stabilisierung der Website
+# Direkte Nachbarkommunen des ursprünglichen Kartenbestands
 
-**Stand:** 10. November 2026
+Die Liste hält die geografische Auswahl vom 10. November 2026 fest. Alle 33 Kandidaten sind als Kataloge erfasst und in die lokale Vorschau eingebunden. Acht gehören auch zum regulären Kartenstand mit 20 Kommunen. Die zweite Erhebung mit vier zusätzlichen Orten wird separat geführt. [Erweiterungsintegration](ERWEITERUNGSINTEGRATION.md) · [Zweite Erhebung](DATENERHEBUNG_2026-11-20.md)
 
-**Status:** Quellenrecherche und Bewertung der 33 Kandidaten auf ausdrücklichen Nutzerwunsch vorgezogen. Die Tarife liegen als 33 getrennte JSON-Kataloge im gemeinsamen Schema unter `data/expansion/municipalities/` vor. Umfang und technische Prüfung stehen in der [Aufbereitungsübersicht](ERWEITERUNGSDATEN.md), Quellenbewertungen in der [Erweiterungsrecherche](ERWEITERUNGSRECHERCHE.md). Die [Kompatibilitätsprüfung der bestehenden Engine](ERWEITERUNGSBERECHNUNG.md) ist abgeschlossen und weist unterstützte sowie nicht berechenbare Konfigurationen aus. Auf weiteren ausdrücklichen Nutzerwunsch wurden acht im gesamten aktuellen Modellumfang unterstützte Kommunen auf Branch `Datensatz-Erweiterung` in die lokale Website übernommen. Die übrigen 25 bleiben inaktiv. Details: [Integrationsstand](ERWEITERUNGSINTEGRATION.md). Die acht aufgenommenen Kommunen sind nach lokaler Durchsicht für die Veröffentlichung auf GitHub Pages freigegeben. Die vertiefte Abnahme der übrigen Kommunen steht aus.
-
-## Voraussetzung und Reihenfolge
-
-Am 10. November 2026 wurde ausdrücklich beauftragt, die Daten der direkten Nachbarn zu recherchieren, zu sichern und auf Belastbarkeit zu bewerten. Diese Recherche wurde vorgezogen. Die Aufnahme neuer Kommunen in die öffentliche Website bleibt von der Datenfreigabe sowie der Stabilisierung und dokumentierten UI/UX-Prüfung abhängig. Die bisherigen automatisierten Tests und punktuellen Browserprüfungen bedeuten noch keine vollständige UI/UX-Abnahme.
-
-Die Prüfung umfasst insbesondere Modellkonfiguration und Zurücksetzen, Karten- und Listenauswahl, Familien- und Einzelbeiträge, Quellen, Nullbeträge sowie fehlende und unvollständige Ergebnisse. Desktop, Mobilansicht und Tastaturbedienung sind einzubeziehen. Vor der Gebietserweiterung sind offene blockierende Fehler zu beheben und die geltenden technischen Prüfungen erfolgreich abzuschließen.
-
-Nach diesem Abschluss werden die Kandidaten priorisiert und schrittweise in die einheitliche Datenpipeline aufgenommen: offizielle Quellen ermitteln und archivieren, Tarife in das gemeinsame Schema übertragen, örtliche Regeln und Referenzfälle prüfen und die Kommune anschließend im Register aktivieren. Die Liste legt keine Erhebungs- oder Veröffentlichungsreihenfolge fest.
+Die Prüfung und Freigabe neuer Datensätze richten sich nach der [Datenpipeline](DATENPIPELINE.md).
 
 ## Auswahlgrundlage
 
@@ -18,7 +10,7 @@ Die 33 Kandidaten haben jeweils eine gemeinsame Grenzlinie mit mindestens einer 
 
 Die Nachbarschaft wurde über gemeinsam genutzte Grenzabschnitte bestimmt; reine Punktberührungen zählen nicht als gemeinsame Grenzlinie. Die Zuordnung erfolgt über den amtlichen Gemeindeschlüssel (AGS). Alle Grenzen der zwölf Ausgangskommunen haben im verwendeten Geodatenausschnitt einen zugeordneten Nachbarn.
 
-Die bereits auf der Karte vorhandenen Flächen sind der geografische Ausgangspunkt. Acht der unten dokumentierten Kandidaten sind inzwischen lokal aktive Vergleichskommunen; die Tabelle bleibt die ursprüngliche Nachbarschaftsliste der zwölf Ausgangskommunen. Bei Aufnahme aller Kandidaten würde der Vergleich auf 45 Kommunen wachsen.
+Die Tabelle bildet die Nachbarschaft der zwölf ursprünglichen Vergleichskommunen ab.
 
 ## Kandidaten
 
@@ -70,4 +62,4 @@ Alphabetische Reihenfolge. Die letzte Spalte nennt ausschließlich angrenzende K
 | Rems-Murr-Kreis | 2 |
 | **Gesamt** | **33** |
 
-Die zwölf ursprünglichen Tarifkataloge und Vergleichswerte bleiben unverändert; acht zusätzliche Kataloge sind für die lokale Durchsicht registriert. Historische Preisreihen und weitere Nachbarschaftsringe sind keine Bestandteile dieser Kandidatenliste.
+Historische Preisreihen und weitere Nachbarschaftsringe liegen außerhalb dieser geografischen Bestandsaufnahme.

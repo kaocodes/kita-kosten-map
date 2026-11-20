@@ -25,6 +25,8 @@ Bei identischem Modellalter bestimmt die Reihenfolge der Eingabe den Rang. Bei F
 
 Die Nachprüfung vom 20. November 2026 nach Anpassung der Webauswahl ergab **104 von 104 übereinstimmende Modellfälle**. Die zwei nicht verfügbaren U3-Fälle in Baltmannsweiler stimmen mit den Quellen überein. Der laufende Tarifstichtag bleibt der 4. November. Die folgenden 41 Abweichungen dokumentieren den Stand vor der Korrektur. Der Nachtest ist in `web/tests/model-family.test.mjs` reproduzierbar.
 
+### Vor der Korrektur am 20. November
+
 Stand 18. November 2026, mit dem laufenden Tarifstichtag der Website vom 4. November 2026. Diese Prüfung vergleicht die dokumentierten Sollwerte aus Satzungen, Angeboten und Tarifzeilen mit der Browserberechnung nach der Webprojektion der Erweiterungskataloge. Die Prüfumgebung stellt jede Kommune isoliert im Register bereit. Die Aktivierungsliste führt weiterhin acht bereits freigegebene Erweiterungskommunen.
 
 Je Kommune wurden acht Fälle bei 80.000 € Haushaltsjahresbrutto geprüft: U3 und Ü3 jeweils mit sechs und acht Stunden, zwei unterschiedlich betreute Kita-Kinder, ein Ü3-Kind mit Schulkind, vier Haushaltskinder mit zwei Kita-Kindern und ein Ü3-Ganztagskind bei Alleinerziehung. Maßstab sind das passende Zeitpaket nach Wochenzielen, der monatliche Betreuungsvergleichswert und die korrekte Nichtverfügbarkeit. Für die fünf bestandenen Kommunen wurden auch Beitragsmonate und die Zuordnung der separat ausgewiesenen Zusatzkosten stichprobenartig geprüft.
@@ -47,27 +49,27 @@ Je Kommune wurden acht Fälle bei 80.000 € Haushaltsjahresbrutto geprüft: U3 
 
 Von **104 Fällen stimmen 63 mit dem Soll überein**, darunter zwei korrekte Nichtverfügbarkeiten in Baltmannsweiler. **41 weichen ab.** Die fünf Kommunen mit 8/8 können für die Übernahme vorgeschlagen werden. Die acht übrigen brauchen einen erneuten Test nach Umsetzung der Wochenstundenregel in der Webauswahl und Übernahme der dokumentierten Pakete in die Vergleichsdaten.
 
-[Regelwerk](REGELWERK_DATENANALYSE.md) · [Aktuelle Tarifauswahl und Quellen](TARIFAUSWAHL.md) · [Ergänzende Angebotsbelege](DATENPIPELINE.md)
+[Regelwerk](REGELWERK_DATENANALYSE.md) · [Aktuelle Tarifauswahl und Quellen](TARIFAUSWAHL.md)
 
 ## Historische Kompatibilitätsprüfung
 
-**Prüfstand:** 2026-11-10. **Schritt 2 abgeschlossen:** Kompatibilitätsprüfung der bestehenden Engine und Kennzeichnung nicht berechenbarer Modellkonfigurationen.
+**Prüfstand:** 2026-11-10. Die folgenden Zahlen, Freigabehinweise und Befehle dokumentieren den damaligen Lauf. Für neue Kommunen gilt die [Stichprobenprüfung](DATENPIPELINE.md#3-mit-gezielten-stichproben-prüfen). **Schritt 2 abgeschlossen:** Kompatibilitätsprüfung der bestehenden Engine und Kennzeichnung nicht berechenbarer Modellkonfigurationen.
 
 Für die bisherige Modellfamilie sind **10 Kommunen berechenbar** und **23 nicht berechenbar**. Das ist keine Freischaltung. Die gemeinsame Engine und das produktive Kommunenregister bleiben unverändert.
 
-## Prüfumfang
+### Prüfumfang
 
 Geprüft wurden **2508 Konfigurationen je Kommune**, insgesamt **82764 Familienfälle**: ein bis vier Haushaltskinder, beide Haushaltskonstellationen, alle sechs Einkommensszenarien, Krippe/Kindergarten mit sechs oder acht Stunden sowie Schul- und zu Hause betreute Kinder. Kindreihenfolgen wurden als Multimengen abgedeckt und durch Umkehrung zusätzlich geprüft. Familien mit fünf bis zwölf Kindern, persönliche Eingaben, Pässe, außergewöhnliche Aufnahmefälle und künftige Tarifstichtage sind nicht freigegeben.
 
 **15840 Einzelberechnungen** wurden zwischen unveränderter Python- und TypeScript-Engine abgeglichen; **80388 Reihenfolgeprüfungen** ergaben identische Familienbeträge/-status. Zusätzlich bestanden **61 ausdrücklich hinterlegte Quellen- und Ablehnungsfälle**. Diese technische Kompatibilitätsprüfung ersetzt die nachfolgende umfassende fachliche Quellenabnahme aus Schritt 3 nicht.
 
-## Sicherheitsentscheidung
+### Sicherheitsentscheidung
 
 Die native Berechnung lieferte in **11280 geprüften Fällen** einen als vergleichbar bezeichneten Betrag, der wegen einer nicht berücksichtigten Bedingung oder ungeklärten Angebotsauswahl verworfen wurde. Die geprüften Ausgaben verwenden dann `status: unavailable`, konkrete Gründe und leere Geldfelder. Weder null Euro noch ein geratener Ersatzpreis wird ausgegeben. Ein separater Schutzschritt in der Offline-Prüfung erzeugt diese Freigabeentscheidung; die bestehende Engine selbst wurde nicht nachträglich umdefiniert.
 
 Unbekannte separat zu erhebende Essenspreise sperren einen ansonsten belastbaren Betreuungskostenwert nicht automatisch. Ein falscher Essensabzug, Doppelansatz oder eine falsch zugeordnete Kostenvariante verhindert dagegen die Freigabe.
 
-## Ergebnisse nach Kommune
+### Ergebnisse nach Kommune
 
 | Kommune | Bisherige Modellfamilie | Berechenbare / geprüfte Konfigurationen mit Kita-Betreuung | Einschränkung |
 |---|---|---:|---|
@@ -107,7 +109,7 @@ Unbekannte separat zu erhebende Essenspreise sperren einen ansonsten belastbaren
 
 Die Zahlen schließen Familien ohne Kita-Kind aus; deren belegter Betreuungskostenwert null wird separat mitgeprüft. Ein berechenbarer Teilbereich bedeutet keine pauschale Freigabe der Kommune für alle Einstellungen.
 
-## Konkrete Einschränkungen und nächste Arbeit
+### Konkrete Einschränkungen und nächste Arbeit
 
 - **Schwieberdingen:** reguläre Tabellen können nur dort verwendet werden, wo die native Rechnung stimmt. Nicht ausgeführte Alleinerziehenden-/U3-Stufenverschiebungen, eine falsche Rangpopulation und ungeklärte Ü3-Ränge bleiben nicht berechenbar. Keine Sonderlogik wurde in die Engine eingebaut.
 - **Denkendorf:** die genehmigte Freitagsausnahme ist dokumentiert; die unveränderte tägliche Bedarfsprüfung berücksichtigt diese noch nicht. Sechs-Stunden-Fälle werden davon getrennt geprüft.
@@ -117,7 +119,7 @@ Die Zahlen schließen Familien ohne Kita-Kind aus; deren belegter Betreuungskost
 
 Änderungen der gemeinsamen Berechnungslogik für einzelne Kommunen werden vorab mit dem Nutzer besprochen. Für Schwieberdingen ist keine Engineänderung beauftragt. Schritt 3 bleibt die vertiefte Quellenabnahme der freizugebenden Ergebnisse, Schritt 4 die kontrollierte Integration.
 
-## Ablage und Wiederholung
+### Ablage und Wiederholung
 
 - [Maschinenlesbarer Freigabeindex](../data/expansion/calculation_review.json): geprüfter Umfang, Fallgruppen, Ablehnungsgründe und Standardergebnisse. Nicht berechenbare Standardergebnisse haben ausschließlich leere Geldfelder.
 - [Prüfbedingungen](../data/reviews/expansion_compatibility_policy.json) und [Referenzfälle](../data/reviews/expansion_calculation_cases.json): Quellenbelege und ausdrückliche Entscheidungen.
@@ -125,8 +127,4 @@ Die Zahlen schließen Familien ohne Kita-Kind aus; deren belegter Betreuungskost
 
 Der Freigabeindex ist ein Offline-Prüfergebnis, noch keine angeschlossene Laufzeitsperre. Eine spätere Veröffentlichung muss ihn wirksam beachten; die Importkataloge dürfen nicht ungeprüft aktiviert werden. Änderungen an Quellen, Katalogen, Modellprofilen, Engine oder Prüflogik machen die jeweilige Freigabe anhand gespeicherter Prüfsummen ungültig.
 
-```bash
-python3 scripts/review_expansion_compatibility.py
-# Bereits vorhandene, unveränderte Rohproben erneut auswerten:
-python3 scripts/review_expansion_compatibility.py --reuse-probes --check
-```
+Das Skript `scripts/review_expansion_compatibility.py` gehört zu diesem historischen Stand. Die Reproduktion setzt die damaligen Daten und Rechenstände voraus. Ein neuer Lauf im aktuellen Arbeitsstand würde den gespeicherten Freigabeindex und dieses Dokument überschreiben. Für die heutige Prüfung gelten die [gezielten Stichproben der Datenpipeline](DATENPIPELINE.md#3-mit-gezielten-stichproben-prüfen).

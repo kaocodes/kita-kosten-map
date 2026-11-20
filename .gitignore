@@ -8,3 +8,4 @@ dist/
 web/public/data/
 web/public/THIRD_PARTY_NOTICES.txt
 .sites-runtime/
+/.local-archive/

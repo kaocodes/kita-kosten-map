@@ -41,7 +41,7 @@ def write_report(path, cities, profile, results):
         reference = "Modellannahmen: Esslingens gesonderte Einkommensgrundlage wird mit 80.000 € angesetzt; ein möglicher Arbeitnehmer-Pauschbetrag wird im Modell nicht abgezogen. Korntal-Münchingens bereinigte steuerliche Grundlage beträgt ohne Vermietungsverluste 60.000 € jährlich bzw. 5.000 € monatlich. Das ist keine Brutto-/Steuerumrechnung und kein statistischer Durchschnittshaushalt. Die lokalen Grundlagen sind ausdrücklich im Profil erfasst."
     title = "# Höchsttarifvergleich und Vollständigkeitsprüfung" if profile["income_mode"] == "highest_band" else "# Standardvergleich und Vollständigkeitsprüfung"
     lines = [title, "",
-             f"**Tarifstichtag:** {profile['as_of']} · **Quellenprüfung:** 7. November 2026", "",
+             f"**Tarifstichtag:** {profile['as_of']} · **Berechnung:** Python-Referenz mit täglicher Zeitdeckung", "",
              description, "", reference, "",
              "Der Vergleichswert ist der am Stichtag geltende Monatsbeitrag × Beitragsmonate ÷ 12. Das Jahresäquivalent hält diesen Tarif konstant und bildet keine tatsächliche Jahresabrechnung mit unterjährigen Änderungen ab. Die Kennzahl enthält Betreuung; Zusatzkosten stehen separat im JSON-Export. Ein veröffentlichtes Angebot garantiert keinen freien Platz.", "",
              "| Kommune | Gewähltes Paket | Wochenstunden | Mehrstunden | Monatsbeitrag | Beitragsmonate | Monatsäquivalent | Status |",
@@ -141,8 +141,8 @@ def main():
         write_csv(args.output / (collection + ".csv"), records, columns)
     dump(args.output / "municipality_registry.json", registry)
     dump(args.output / "catalog.json", {"schema_version": "1.0", "registry": registry, "municipalities": cities})
-    write_report(ROOT / "docs/STANDARDVERGLEICH.md", report_cities, profile, results)
-    write_report(ROOT / "docs/HOECHSTTARIFVERGLEICH.md", report_cities, highest_profile, highest_results)
+    write_report(args.output / "STANDARDVERGLEICH.md", report_cities, profile, results)
+    write_report(args.output / "HOECHSTTARIFVERGLEICH.md", report_cities, highest_profile, highest_results)
     print(f"Exported {len(results)} default results ({sum(r['status'] == 'comparable' for r in results)} comparable) and {len(highest_results)} highest-band results to {args.output}.")
 
 

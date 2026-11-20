@@ -1,12 +1,12 @@
 # Website: Architektur, Karte und Bedienung
 
-**Stand:** 8. November 2026  
+**Aktuelle Orientierung:** Die statische Architektur mit React, Vite, Leaflet und TypeScript ist umgesetzt. Bedienung, Geodaten und Budgets stehen in [WEBANWENDUNG.md](WEBANWENDUNG.md). Die [Datenpipeline](DATENPIPELINE.md) beschreibt den regulären Bestand und die Erweiterungsvorschau.
 
 **Aktueller Modellvergleich:** Die vereinbarte Konfiguration ist umgesetzt. Haushaltskonstellation, Kinderzahl, vier Kinderkategorien, sechs Einkommensszenarien und 6/8 Stunden je Kita-Kind bestimmen die Familiengesamtkosten. Feste Einkommensannahmen und Einschränkungen stehen in [MODELLFAMILIEN.md](MODELLFAMILIEN.md). Die bisherigen persönlichen Eingaben und der Höchsttarif-Reiter bleiben öffentlich ausgeblendet.
 
 **Status:** Pakete 1 bis 4 umgesetzt: Register, Profile, TypeScript-Rechenkern und lokal aufrufbare React-/Leaflet-Website. Pages-Veröffentlichung ist automatisiert. Das individuelle Formular bleibt im Code erhalten, ist aber vorerst ausgeblendet; leicht konfigurierbare Modellfamilien sollen die Hauptbedienung bilden.
 
-Dieses Dokument bündelt die technische Beratung, die gezeigten Entwürfe und die daraus getroffenen Entscheidungen. Die fachlichen Anforderungen stehen in [PROJECT_REQUIREMENTS.md](PROJECT_REQUIREMENTS.md), die verbindliche Berechnung in [DATENMODELL.md](DATENMODELL.md) und das Referenzprofil in [STANDARDVERGLEICH.md](STANDARDVERGLEICH.md).
+Dieses Dokument bündelt die technische Beratung, die gezeigten Entwürfe und die daraus getroffenen Entscheidungen. Die fachlichen Anforderungen stehen in [PROJECT_REQUIREMENTS.md](PROJECT_REQUIREMENTS.md), die verbindliche Berechnung in [DATENMODELL.md](DATENMODELL.md) und das Referenzprofil unter [Modellfamilien](MODELLFAMILIEN.md).
 
 ## 1. Entscheidungen und Verbindlichkeit
 
@@ -20,9 +20,9 @@ Dieses Dokument bündelt die technische Beratung, die gezeigten Entwürfe und di
 | Grenzdaten | BKG VG250 mit Grenzstand 01.01.2025 sind für die regionale Webkarte übernommen. Quelle, Abruf, Lizenz und Hashwerte sind unter `data/geodata/` gesichert; die Verarbeitung ist reproduzierbar. |
 | Gestaltung und weitere Bedienfunktionen | Die unten beschriebenen Funktionen und Farben sind Vorschläge. Die Auswahl der Gemeindeflächen bestätigt nicht automatisch sämtliche Einzelheiten der Entwürfe. |
 
-Die früheren konkreten Technikvorgaben in `PROJECT_REQUIREMENTS_LEGACY.md` bleiben historische Planung und werden durch diese Beratung nicht nachträglich verbindlich.
+Die früheren konkreten Technikvorgaben im ursprünglichen Anforderungsdokument bleiben historische Planung und werden durch diese Beratung nicht nachträglich verbindlich.
 
-## 2. Empfohlener Stack
+## 2. Architekturentscheidungen
 
 | Baustein | Empfehlung und Zweck |
 |---|---|
@@ -67,7 +67,7 @@ Die Stackbewertung vom 8. November 2026 bestätigt React, TypeScript, Vite, CSS 
 1. **Kommunenregister:** Aktive Kommunen, stabile Kennungen, amtliche Namen, AGS, Geometrie- und Tarifverweise werden zentral als Daten geführt. `data/municipality_registry.json` ist umgesetzt; Vergleich, Export und Vollständigkeitsprüfung lesen dieses Register. Die feste Prüfung auf zwölf Kommunen wurde durch den Abgleich mit registrierten aktiven Kommunen ersetzt. Auch die spätere Oberfläche liest das Register.
 2. **Gebiet und Gebührenordnung:** Eine Kartenfläche bekommt eine eigene stabile Gebietskennung. Für Gemeinden wird der AGS gepflegt; Stadtbezirke erhalten eigene Kennungen und eine Referenz auf die übergeordnete Kommune. Mehrere Flächen können dieselbe Gebührenordnung verwenden. Eine neue Bezirksgeometrie begründet keinen neuen Tarif und keine Tarifkopie.
 3. **Eigenständige Tarifberechnung:** Datenzugriff, lokale Tarifregeln und Berechnung bleiben unabhängig von Karte und Formular. Neue Kommunen mit bereits unterstützten Regeln werden über Daten, Geometriezuordnung und Referenzfälle ergänzt. Neue Abrechnungsregeln erfordern gegebenenfalls eine Erweiterung und Prüfung beider Berechnungen; die bestehende Python-Logik enthält noch kommunenspezifische Sonderfälle.
-4. **Bedarfsgerechtes Laden:** Zunächst werden die benötigten Daten der zwölf Kommunen ausgeliefert. Bei wachsendem Umfang können Tarif- und Geometriedateien nach Region aufgeteilt und bei Bedarf nachgeladen werden. Das vollständige Quellenarchiv gehört nicht in den initialen Website-Download. Dateigrößen, Grenzpunkte, Ladezeit und Bedienung auf Mobilgeräten werden gemessen.
+4. **Bedarfsgerechtes Laden:** Der reguläre Build liefert die Tarifdaten der 20 aktiven Kommunen aus. Die lokale Vorschau enthält 49 Tarifgebiete. Bei wachsendem Umfang können Tarif- und Geometriedateien nach Region aufgeteilt und bei Bedarf nachgeladen werden. Das vollständige Quellenarchiv gehört nicht in den initialen Website-Download. Dateigrößen, Grenzpunkte, Ladezeit und Bedienung auf Mobilgeräten werden gemessen.
 5. **Austauschbare Kartenansicht:** React erhält Kommune und Ergebnis aus dem gemeinsamen Zustand; Leaflet übernimmt die Darstellung und Auswahl. Eine spätere andere Darstellungstechnik soll Tarifdaten und Rechenlogik weiterverwenden können. Canvas, andere Geometriedateien oder ein anderer Renderer werden erst bei gemessenen Engpässen bewertet.
 
 Ein Erweiterungsvorgang besteht damit aus Registereintrag, belegten Tarifdaten, passender Geometrie, Quellen- und Lizenzangaben, fachlichen Prüffällen und einem neuen statischen Build. Eine Grenze für die Anzahl unterstützter Kommunen wird nicht in Komponenten eingebaut. Neue Kommunen dürfen bestehende Tarife und regionale Vergleichsprofile nicht verändern.
@@ -87,7 +87,7 @@ Die Karte kann aus zwei getrennten Ebenen bestehen:
 
 Die Gemeindeflächen funktionieren ohne externe Kartenkacheln. Bei Verwendung einer Hintergrundkarte sind Anbieter, Lizenz, Namensnennung und technische Abhängigkeit gesondert zu entscheiden. Der bisherige Vergleich verwendet umgebende Gemeindegeometrien als regionalen Kontext und keinen externen Kacheldienst.
 
-## 5. Grenzdaten verkleinern
+## 5. Frühe Varianten zur Vereinfachung der Grenzdaten
 
 Für die vorgeschlagene Architektur wird eine kleine Webfassung der Grenzen vorbereitet. Die genaue Vereinfachungsstärke und ein verbindliches Größenbudget sind noch nicht beschlossen.
 
@@ -102,7 +102,7 @@ Als Werkzeug wurde **Mapshaper** empfohlen und für den Vergleich verwendet. Zun
 
 Für Paket 3 ist das Budget der Webgeometrie auf höchstens 200 kB festgelegt. Die erzeugte Fassung umfasst 132.114 Byte einschließlich Zuordnung und Kontext. Die maximale Zoomstufe ist 11. Verarbeitung, weitere Datenbudgets und aktuelle Prüfungen stehen in [WEBANWENDUNG.md](WEBANWENDUNG.md).
 
-## 6. Erprobte Datenquelle und Aufbereitung
+## 6. Historischer Geodatentest und Aufbereitung
 
 Die folgenden Angaben beschreiben den früheren visuellen Entwurf. Die seit Paket 3 verwendete Website verarbeitet denselben archivierten Ausgangsabruf mit Mapshaper 0.7.101 über ein festes Skript. Grenzstand 01.01.2025 und BKG-Produktseite sind inzwischen archiviert; die aktuelle Webfassung und deren Maße stehen in [WEBANWENDUNG.md](WEBANWENDUNG.md).
 
@@ -147,7 +147,9 @@ Die GeoJSON-Webfassung ist damit rund **69 % kleiner** als der regionale Abruf. 
 
 Die Quelle verlangt Namensnennung nach **Datenlizenz Deutschland – Namensnennung 2.0**. Im Vergleich werden `BKG` und `dl-de/by-2-0` verlinkt sowie die Vereinfachung kenntlich gemacht. Vor der produktiven Übernahme sind der konkrete Datenstand, vollständige Quellenangaben und die Lizenzinformationen dauerhaft mit den Geodaten zu sichern.
 
-## 7. Vorgeschlagene Oberfläche
+## 7. Früher Oberflächenentwurf
+
+Der folgende Entwurf beschreibt den Stand vor dem Familienatlas. Die implementierte Oberfläche verwendet Familienkarten, Details an Karte und Liste und eine Farblegende mit „günstig“ und „teuer“. [Aktuelle Webanwendung](WEBANWENDUNG.md)
 
 **Desktop:** Die Gemeindekarte steht im Mittelpunkt. Kompakte Profilfilter stehen darüber. Ein Klick auf eine Fläche öffnet die Gebührenaufschlüsselung, beispielsweise in einem seitlichen Detailbereich. Eine sortierbare Liste ergänzt die räumliche Ansicht; ein direkter Vergleich ausgewählter Kommunen wurde ebenfalls vorgeschlagen.
 
@@ -171,7 +173,9 @@ Gemeindedetails sollen den Vergleichswert, den ursprünglichen Beitrag, Beitrags
 
 Vorgeschlagene Gestaltung: ruhige Flächen, gut lesbare Schrift und Beträge, eine abgestufte Farbskala mit Euro-Legende und leicht erreichbare Quellen. Dezente Grüntöne wurden zunächst angeregt; die gezeigte Karte verwendet eine vom Gesprächsdesign abhängige Serienfarbe. Eine endgültige Palette oder feste Klassen wurden nicht beschlossen.
 
-## 8. Kennzahl und Vergleichbarkeit
+## 8. Frühere Referenzprofile und Kennzahl
+
+Für die laufende Karte gelten die Auswahl nach Wochenzielen und die Familiensumme aus dem [Regelwerk](REGELWERK_DATENANALYSE.md). Die folgenden Profile dokumentieren die frühere Einzelkindreferenz.
 
 Beide gezeigten Karten enthalten einen eingebetteten Auszug der bisherigen Höchsttarifwerte. Diese werden jetzt unter `data/exports/highest_band_comparison.json` erhalten; `default_comparison.json` verwendet seit Paket 1 die Modellfamilie. Das Profil der alten Vorschauen lautet:
 
@@ -236,7 +240,7 @@ Geprüft wurden die Datenzuordnung für alle zwölf Kommunen, die geografische R
 
 Die statischen PNGs stellen die Karten nebeneinander dar; die interaktive Darstellung ordnet sie bei schmaler Breite untereinander an. Der 500-Pixel-Kontrollstand wurde vor der letzten kleinen Text- und Mobilanpassung erzeugt und dient als Layoutreferenz.
 
-## 11. Nächste Umsetzungspakete und Abnahme
+## 11. Historische Umsetzungspakete und Abnahme
 
 **Gestaltungsentscheidung vom 9. November 2026:** Für die geplante UI-Neugestaltung ist die Variante **Familienatlas** gewählt. Große Karte und vollständige Kommunendetails bilden einen gemeinsamen Bereich; darunter folgen Familienkarten und die absteigende Kommunenliste mit vollständigen Details am Auswahlort. Die Bezeichnung lautet durchgehend Modellfamilie. Farben, Texte, Aufklappverhalten und Entwurf sind in [UI_REDESIGN.md](UI_REDESIGN.md) festgehalten. Der Familienatlas ist inzwischen auf `codex/ui-redesign` lokal umgesetzt. Kartenbedienung und dauerhafte Beschriftungen der zwölf Vergleichskommunen sind erhalten; die Auswahlkontur liegt in einer eigenen Ebene. Die Veröffentlichung auf GitHub Pages ist noch nicht erfolgt.
 

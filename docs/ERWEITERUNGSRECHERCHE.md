@@ -1,6 +1,6 @@
 # Recherche und Bewertung der 33 Nachbarkommunen
 
-**Prüfstand:** 2026-11-10. Aktuelle veröffentlichte Tarife; keine historische Preisrecherche.
+**Prüfstand:** 2026-11-10. Die Bewertungen und offenen Fragen unten halten den damaligen Quellenabgleich fest. Aktueller Stand der fachlichen Prüfung und Kartenvorschau: [Erweiterungsprüfung](ERWEITERUNGSBERECHNUNG.md) und [Integration](ERWEITERUNGSINTEGRATION.md). Aktuelle veröffentlichte Tarife; keine historische Preisrecherche.
 
 **Ergebnis:** Für alle 33 Orte wurden offizielle kommunale Einstiegs- oder Gebührenquellen gesichert. Bei **32 Kommunen** ist eine auswertbare U3-/Ü3-Tarifbasis vorhanden; bei **1 Kommunen** bestehen konkrete Klärungspunkte für den bisherigen Vergleich. Damit liegt noch **kein uneingeschränkt vergleichbarer Produktionsdatensatz für alle 33 Orte** vor.
 
@@ -420,9 +420,9 @@ Original-Stundenpakete erhalten; TAKKI und Schulkindbetreuung im selben Dokument
 
 **Grenzen / nächste fachliche Prüfung:** Tatsächliche Tagesverteilungen zu den Wochenstundenpaketen vor der strengen 5×8-Auswahl verknüpfen.
 
-## Nächster Umsetzungsschritt
+## Weiterverarbeitung
 
-Die Tarifbasen wurden inzwischen in 33 getrennte Kommunen-JSONs im vorhandenen Schema übertragen; sie liegen isoliert unter `data/expansion/municipalities/`. Mengen, Umfang und technische Prüfung stehen in der [Aufbereitungsübersicht](ERWEITERUNGSDATEN.md). Die [Kompatibilitätsprüfung der bestehenden Engine](ERWEITERUNGSBERECHNUNG.md) ist inzwischen abgeschlossen und weist unterstützte sowie nicht berechenbare Konfigurationen aus. Die vertiefte fachliche Quellenabnahme bleibt ein weiterer Schritt. Die 1 verbleibenden Klärungsfälle bleiben für ihre betroffenen Konfigurationen eingeschränkt. Neue Einkommens-/Geschwisterregeln, Verpflegung und belegte Tagesverteilungen werden vor einer Aktivierung berücksichtigt. Die gemeinsame Engine bleibt unverändert. Inzwischen sind **8 vollständig unterstützte Kandidaten** über eine gesonderte, gegen den Prüfindex abgesicherte Auswahl in die lokale Website übernommen. Die Veröffentlichung auf GitHub Pages erfolgt nach ausdrücklicher Freigabe über den Workflow auf `main`; historische Preisreihen bleiben zurückgestellt.
+Die 33 Kataloge liegen im gemeinsamen Schema unter `data/expansion/municipalities/`. Acht davon sind im regulären Build aktiv. Alle 33 sind zusammen mit den vier später erfassten Kommunen in der lokalen Vorschau enthalten. [Aufbereitungsübersicht](ERWEITERUNGSDATEN.md) · [Zweite Erhebung](DATENERHEBUNG_2026-11-20.md) · [Datenpipeline](DATENPIPELINE.md)
 
 Erneut prüfen und Bericht aus den Bewertungen erzeugen:
 

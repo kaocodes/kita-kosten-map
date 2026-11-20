@@ -40,7 +40,7 @@ Für Kopfbereich und Favicon wird `icon-2.png` beziehungsweise `kita-pin-bold.we
 
 Die Illustrationen zeigen jeweils zwei Eltern und ein Kind. Der Alternativtext bleibt entsprechend allgemein; das Motiv ändert keine fachliche Haushaltskonfiguration, Modellalter oder Gebührenberechnung.
 
-Die früheren, generierten Pixelart-Dateien und ihre Herkunft sind in [PIXELART_ASSETS.md](PIXELART_ASSETS.md) dokumentiert. Sie dienen für Familienkarte und Logo nicht mehr als aktive Bildquellen.
+Die Herkunft der früheren Pixelart-Motive ist im lokalen Archiv dokumentiert.
 
 ## Prüfung
 

@@ -1,6 +1,6 @@
 # Regelwerk für die Kita-Gebührenanalyse
 
-Dieses Regelwerk ist bei jeder neuen Kommunenprüfung und jeder Überarbeitung eines Tarifstands heranzuziehen. Es hält die allgemeinen Vorgaben fest. Ortsbezogene Entscheidungen gelten für die jeweils genannte Kommune und werden im Katalog und in der [Datenpipeline](DATENPIPELINE.md) dokumentiert.
+Dieses Regelwerk ist bei jeder neuen Kommunenprüfung und jeder Überarbeitung eines Tarifstands heranzuziehen. Es hält die allgemeinen Vorgaben fest. Ortsbezogene Entscheidungen gelten für die jeweils genannte Kommune und werden im Katalog und im jeweiligen Prüfbericht dokumentiert. Der Arbeitsablauf steht in der [Datenpipeline](DATENPIPELINE.md).
 
 ## 1. Passendes Zeitpaket auswählen
 

@@ -10,10 +10,9 @@ import hashlib
 import json
 from pathlib import Path
 import re
-import shutil
 
 ROOT = Path(__file__).resolve().parents[1]
-ARCHIVE = ROOT / "data/imported/research_2026-11-04.md"
+ARCHIVE = ROOT / ".local-archive/research_2026-11-04.md"
 CONFIG = {
     "ditzingen": ("Ditzingen", "e3a01305341e", "2026-01-01", 12, "child_benefit"),
     "kornwestheim": ("Kornwestheim", "ecb1d09b1939", "2026-09-01", 11, "resident_children"),
@@ -665,9 +664,8 @@ def main():
     target = ROOT / "data/municipalities"
     if target.exists() and any(target.glob("*.json")) and not args.force:
         parser.error("Canonical data already exists. Use --force only to repeat the initial migration.")
-    if not ARCHIVE.exists():
-        ARCHIVE.parent.mkdir(parents=True, exist_ok=True)
-        shutil.copyfile(ROOT / "docs/ERFASSTE_GEBUEHREN.md", ARCHIVE)
+    if not ARCHIVE.is_file():
+        parser.error(f"The one-time migration requires the original local research snapshot: {ARCHIVE}")
     text = ARCHIVE.read_text()
     tables = parse_tables(text)
     write_json(ROOT / "data/imported/original_tables.json", tables)

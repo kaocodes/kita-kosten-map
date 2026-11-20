@@ -1235,8 +1235,13 @@ def render_report(manifest):
         "- Je Kommune eine JSON unter [`data/expansion/municipalities/`](../data/expansion/municipalities/), nach dem bestehenden [`municipality.schema.json`](../data/municipality.schema.json).",
         "- [`data/expansion/manifest.json`](../data/expansion/manifest.json): vollständige Zuordnung, AGS, Dateipfade, Prüfsummen, Mengen und Umsetzungsgrenzen.",
         "- [`Erweiterungsrecherche`](ERWEITERUNGSRECHERCHE.md): Quellenbewertungen, vereinbarte Annahmen und offene fachliche Fälle.",
-        "- `data/municipalities/` bleibt der produktive Bestand der zwölf bisherigen Kommunen. Der Importbereich wird weder von der laufenden Website noch vom normalen Export geladen.", "",
-        "Die Importdateien sind strukturiert und technisch geprüft. **Sie sind noch nicht pauschal für die Berechnung oder Veröffentlichung freigegeben.** Welche Modellkonfigurationen die bestehende Engine abbildet, ist inzwischen in der [Kompatibilitätsprüfung aus Schritt 2](ERWEITERUNGSBERECHNUNG.md) und ihrem eigenen Prüfindex dokumentiert. Manifest und Importstatus beschreiben den reproduzierbaren Normalisierungsstand; die zusätzliche Freigabe ist konfigurationsabhängig. Die gemeinsame Python-/TypeScript-Berechnungsengine und das produktive Register wurden nicht verändert. Für Schwieberdingen erfolgen keine Engineänderungen; Änderungen an der gemeinsamen Logik für einzelne Kommunen werden vorher mit dem Nutzer besprochen.", "",
+        "- `data/municipalities/` enthält inzwischen die zwölf ursprünglichen und acht aktivierte "
+        "Erweiterungskommunen. Die lokale Vorschau liest zusätzlich die übrigen Kataloge aus beiden Manifesten.", "",
+        "Diese Übersicht dokumentiert den ersten Import mit 33 Katalogen. Seine Kataloge bilden einen Teil der "
+        "49er-Vorschau. Die [zweite Erhebung](DATENERHEBUNG_2026-11-20.md) umfasst vier weitere Kommunen. "
+        "Freigabestand und bekannte Rechenlücken stehen in der "
+        "[Integrationsdokumentation](ERWEITERUNGSINTEGRATION.md) und der "
+        "[Erweiterungsprüfung](ERWEITERUNGSBERECHNUNG.md).", "",
         "## Inhalt je Katalog", "",
         "- `offers`: Originalmodell, Altersgruppe und gegebenenfalls Altersmischung, Anbieter-/Zeitvariante, Gültigkeit, Originalpreisstand, Beitragsmonate und belegte Tages-/Wochenzeiten. Unbelegte Tagesverteilungen bleiben `null`; Tarifobergrenzen sind als Obergrenzen gekennzeichnet.",
         "- `prices`: veröffentlichte Monatsbeträge mit Familien-, Einkommens-, Pass- oder Rangzuordnung und Quellenfundstelle. Aus belegten Tarifbausteinen zusammengesetzte Beträge haben einen Rechenweg. Teilbeträge, etwa tageweise Rutesheimer GT-Gebühren ohne übrige Regelgruppentage, werden ausdrücklich als Teilbetrag gekennzeichnet.",
@@ -1249,7 +1254,9 @@ def render_report(manifest):
         "## Erfassungsgrenzen", "",
         "Aktuelle Krippen- und Kindergartentarife sowie in denselben Quellen bereits veröffentlichte künftige Fassungen sind übertragen. Überholte historische Tabellen, Schulkindbetreuung, TAKKI/Kindertagespflege und separate Spielgruppen gehören nicht zu den regulären Vergleichspreiszeilen. Ihre Originalunterlagen bleiben erhalten; ergänzende Klauseln sind dokumentiert. Es wird keine historische Preisreihe angelegt.", "",
         "Eine Tabelle kann einen Tarif nennen, ohne die Buchbarkeit einer konkreten Tagesverteilung zu belegen. Dies bleibt beispielsweise bei einzelnen Ostfilderner Stundenklassen offen. Die Benninger Aufnahmeanträge belegen 6,5 zusammenhängende Stunden VÖ innerhalb des längeren Buchungsfensters. Der Schuljahresbeginn für die nur als 2026/2027 bezeichneten Tabellen in Altbach und Benningen ist ausdrücklich als Ableitung gekennzeichnet.", "",
-        "## Besonderheiten für Rechenprüfung und Integration", "",
+        "## Fachliche Festlegungen und damalige Fragen des ersten Imports", "",
+        "Die folgenden Prüfhinweise gehören zum ersten Import. Neuere Rechenentscheidungen für Denkendorf, "
+        "Renningen und weitere Kommunen stehen in der [Erweiterungsprüfung](ERWEITERUNGSBERECHNUNG.md).", "",
         "- **Denkendorf:** Jahresbrutto direkt verwenden; die genehmigte Ausnahme betrifft ausschließlich einen kürzeren Freitag bei ausreichender Betreuung Montag bis Donnerstag. Tatsächliche Zeiten und verpflichtendes GT-Essen mit unbekanntem Betrag bleiben sichtbar zu machen.",
         "- **Schwieberdingen:** elf Monate gemäß Nutzerbestätigung; die vereinbarte kumulative U3-Stufenregel ist als Modellannahme dokumentiert. Preiswirksame ungeklärte Ü3-Ränge und fehlende dritte Rangzellen bleiben `unavailable` / „Nicht berechenbar“.",
         "- **Aichwald:** Originalpreise einschließlich Verpflegung bleiben erhalten; die getrennten Betreuungsanteile stehen ergänzend daneben. Für U3 gelten die vereinbarten 53 Euro, für Ü3 die belegte Differenz zwischen den Tabellen mit und ohne Essen. Kein pauschaler 53-Euro-Abzug bei Ü3.",

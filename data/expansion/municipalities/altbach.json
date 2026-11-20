@@ -17,7 +17,8 @@
     "original": null
   },
   "supporting_source_ids": [
-    "3c42fe2d0f06"
+    "3c42fe2d0f06",
+    "1b761e309ae7"
   ],
   "offers": [
     {
@@ -33,12 +34,18 @@
       "scope": "municipal",
       "category": "kindergarten",
       "weekly_minutes": 1800,
-      "weekday_minutes": null,
+      "weekday_minutes": [
+        360,
+        360,
+        360,
+        360,
+        360
+      ],
       "continuous": true,
-      "schedule_status": "daily_distribution_unverified",
+      "schedule_status": "verified",
       "schedule_evidence": {
-        "source_id": "3c42fe2d0f06",
-        "locator": "Gebührenjahr 2026/2027, Ziffern 1–4",
+        "source_id": "1b761e309ae7",
+        "locator": "Kinderhaus Vogelwiesen: Kindergarten und Kinderkrippe, Betreuungszeiten",
         "original": null
       },
       "payment_months": 11,
@@ -68,12 +75,18 @@
       "scope": "municipal",
       "category": "kindergarten",
       "weekly_minutes": 2400,
-      "weekday_minutes": null,
+      "weekday_minutes": [
+        510,
+        510,
+        510,
+        510,
+        360
+      ],
       "continuous": true,
-      "schedule_status": "daily_distribution_unverified",
+      "schedule_status": "verified",
       "schedule_evidence": {
-        "source_id": "3c42fe2d0f06",
-        "locator": "Gebührenjahr 2026/2027, Ziffern 1–4",
+        "source_id": "1b761e309ae7",
+        "locator": "Kinderhaus Vogelwiesen: Kindergarten und Kinderkrippe, Betreuungszeiten",
         "original": null
       },
       "payment_months": 11,
@@ -108,7 +121,7 @@
       "schedule_status": "daily_distribution_unverified",
       "schedule_evidence": {
         "source_id": "3c42fe2d0f06",
-        "locator": "Gebührenjahr 2026/2027, Ziffern 1–4",
+        "locator": "Gebührenjahr 2026/2027, Ziffer 2",
         "original": null
       },
       "payment_months": 11,
@@ -120,7 +133,7 @@
       },
       "evidence": {
         "source_id": "3c42fe2d0f06",
-        "locator": "Gebührenjahr 2026/2027, Ziffern 1–4",
+        "locator": "Gebührenjahr 2026/2027, Ziffer 2",
         "original": null
       },
       "formula": null
@@ -143,7 +156,7 @@
       "schedule_status": "daily_distribution_unverified",
       "schedule_evidence": {
         "source_id": "3c42fe2d0f06",
-        "locator": "Gebührenjahr 2026/2027, Ziffern 1–4",
+        "locator": "Gebührenjahr 2026/2027, Ziffer 2",
         "original": null
       },
       "payment_months": 11,
@@ -155,7 +168,7 @@
       },
       "evidence": {
         "source_id": "3c42fe2d0f06",
-        "locator": "Gebührenjahr 2026/2027, Ziffern 1–4",
+        "locator": "Gebührenjahr 2026/2027, Ziffer 2",
         "original": null
       },
       "formula": null
@@ -173,12 +186,18 @@
       "scope": "municipal",
       "category": "nursery",
       "weekly_minutes": 1800,
-      "weekday_minutes": null,
+      "weekday_minutes": [
+        360,
+        360,
+        360,
+        360,
+        360
+      ],
       "continuous": true,
-      "schedule_status": "daily_distribution_unverified",
+      "schedule_status": "verified",
       "schedule_evidence": {
-        "source_id": "3c42fe2d0f06",
-        "locator": "Gebührenjahr 2026/2027, Ziffern 1–4",
+        "source_id": "1b761e309ae7",
+        "locator": "Kinderhaus Vogelwiesen: Kindergarten und Kinderkrippe, Betreuungszeiten",
         "original": null
       },
       "payment_months": 11,
@@ -208,12 +227,18 @@
       "scope": "municipal",
       "category": "nursery",
       "weekly_minutes": 2400,
-      "weekday_minutes": null,
+      "weekday_minutes": [
+        510,
+        510,
+        510,
+        510,
+        360
+      ],
       "continuous": true,
-      "schedule_status": "daily_distribution_unverified",
+      "schedule_status": "verified",
       "schedule_evidence": {
-        "source_id": "3c42fe2d0f06",
-        "locator": "Gebührenjahr 2026/2027, Ziffern 1–4",
+        "source_id": "1b761e309ae7",
+        "locator": "Kinderhaus Vogelwiesen: Kindergarten und Kinderkrippe, Betreuungszeiten",
         "original": null
       },
       "payment_months": 11,
@@ -408,7 +433,7 @@
       "included_components": [],
       "evidence": {
         "source_id": "3c42fe2d0f06",
-        "locator": "Gebührenjahr 2026/2027, Ziffern 1–4",
+        "locator": "Gebührenjahr 2026/2027, Ziffer 2",
         "original": 432
       }
     },
@@ -428,7 +453,7 @@
       "included_components": [],
       "evidence": {
         "source_id": "3c42fe2d0f06",
-        "locator": "Gebührenjahr 2026/2027, Ziffern 1–4",
+        "locator": "Gebührenjahr 2026/2027, Ziffer 2",
         "original": 337
       }
     },
@@ -448,7 +473,7 @@
       "included_components": [],
       "evidence": {
         "source_id": "3c42fe2d0f06",
-        "locator": "Gebührenjahr 2026/2027, Ziffern 1–4",
+        "locator": "Gebührenjahr 2026/2027, Ziffer 2",
         "original": 228
       }
     },
@@ -468,7 +493,7 @@
       "included_components": [],
       "evidence": {
         "source_id": "3c42fe2d0f06",
-        "locator": "Gebührenjahr 2026/2027, Ziffern 1–4",
+        "locator": "Gebührenjahr 2026/2027, Ziffer 2",
         "original": 114
       }
     },
@@ -488,7 +513,7 @@
       "included_components": [],
       "evidence": {
         "source_id": "3c42fe2d0f06",
-        "locator": "Gebührenjahr 2026/2027, Ziffern 1–4",
+        "locator": "Gebührenjahr 2026/2027, Ziffer 2",
         "original": 703
       }
     },
@@ -508,7 +533,7 @@
       "included_components": [],
       "evidence": {
         "source_id": "3c42fe2d0f06",
-        "locator": "Gebührenjahr 2026/2027, Ziffern 1–4",
+        "locator": "Gebührenjahr 2026/2027, Ziffer 2",
         "original": 548
       }
     },
@@ -528,7 +553,7 @@
       "included_components": [],
       "evidence": {
         "source_id": "3c42fe2d0f06",
-        "locator": "Gebührenjahr 2026/2027, Ziffern 1–4",
+        "locator": "Gebührenjahr 2026/2027, Ziffer 2",
         "original": 369
       }
     },
@@ -548,7 +573,7 @@
       "included_components": [],
       "evidence": {
         "source_id": "3c42fe2d0f06",
-        "locator": "Gebührenjahr 2026/2027, Ziffern 1–4",
+        "locator": "Gebührenjahr 2026/2027, Ziffer 2",
         "original": 185
       }
     },
@@ -716,15 +741,17 @@
   "income_bands": [],
   "components": [
     {
-      "id": "altbach-component-e8c1e3ed0cf8",
+      "id": "altbach-component-c066775cd2ff",
       "kind": "meal",
-      "original_label": "Mittagessen 1 Tage/Woche",
+      "original_label": "Mittagessen optional (1 Tage/Woche)",
       "amount_cents": 2100,
       "unit": "per_month",
       "age_group": null,
-      "required": null,
+      "required": false,
       "payment_months": 11,
-      "offer_ids": null,
+      "offer_ids": [
+        "altbach-offer-75c9f4670218"
+      ],
       "valid_from": "2026-09-01",
       "valid_to": null,
       "value_status": "known",
@@ -736,15 +763,17 @@
       "days_per_week": 1
     },
     {
-      "id": "altbach-component-5ff235c36636",
+      "id": "altbach-component-71f1b893810a",
       "kind": "meal",
-      "original_label": "Mittagessen 2 Tage/Woche",
+      "original_label": "Mittagessen optional (2 Tage/Woche)",
       "amount_cents": 4100,
       "unit": "per_month",
       "age_group": null,
-      "required": null,
+      "required": false,
       "payment_months": 11,
-      "offer_ids": null,
+      "offer_ids": [
+        "altbach-offer-75c9f4670218"
+      ],
       "valid_from": "2026-09-01",
       "valid_to": null,
       "value_status": "known",
@@ -756,15 +785,17 @@
       "days_per_week": 2
     },
     {
-      "id": "altbach-component-eeaf4f0ff66f",
+      "id": "altbach-component-7db8a36953d8",
       "kind": "meal",
-      "original_label": "Mittagessen 3 Tage/Woche",
+      "original_label": "Mittagessen optional (3 Tage/Woche)",
       "amount_cents": 6200,
       "unit": "per_month",
       "age_group": null,
-      "required": null,
+      "required": false,
       "payment_months": 11,
-      "offer_ids": null,
+      "offer_ids": [
+        "altbach-offer-75c9f4670218"
+      ],
       "valid_from": "2026-09-01",
       "valid_to": null,
       "value_status": "known",
@@ -776,15 +807,17 @@
       "days_per_week": 3
     },
     {
-      "id": "altbach-component-dd97c90c88e0",
+      "id": "altbach-component-fea3566694ec",
       "kind": "meal",
-      "original_label": "Mittagessen 4 Tage/Woche",
+      "original_label": "Mittagessen optional (4 Tage/Woche)",
       "amount_cents": 8200,
       "unit": "per_month",
       "age_group": null,
-      "required": null,
+      "required": false,
       "payment_months": 11,
-      "offer_ids": null,
+      "offer_ids": [
+        "altbach-offer-75c9f4670218"
+      ],
       "valid_from": "2026-09-01",
       "valid_to": null,
       "value_status": "known",
@@ -796,21 +829,47 @@
       "days_per_week": 4
     },
     {
-      "id": "altbach-component-6002fdbc58e8",
+      "id": "altbach-component-af2574724a2a",
       "kind": "meal",
-      "original_label": "Mittagessen 5 Tage/Woche",
+      "original_label": "Mittagessen optional (5 Tage/Woche)",
       "amount_cents": 10200,
       "unit": "per_month",
       "age_group": null,
-      "required": null,
+      "required": false,
       "payment_months": 11,
-      "offer_ids": null,
+      "offer_ids": [
+        "altbach-offer-75c9f4670218"
+      ],
       "valid_from": "2026-09-01",
       "valid_to": null,
       "value_status": "known",
       "evidence": {
         "source_id": "3c42fe2d0f06",
         "locator": "Ziffer 5 Mittagessen",
+        "original": null
+      },
+      "days_per_week": 5
+    },
+    {
+      "id": "altbach-component-c2a900de924b",
+      "kind": "meal",
+      "original_label": "Mittagessen verpflichtend (5 Tage/Woche)",
+      "amount_cents": 10200,
+      "unit": "per_month",
+      "age_group": null,
+      "required": true,
+      "payment_months": 11,
+      "offer_ids": [
+        "altbach-offer-c2fbe34e1568",
+        "altbach-offer-97261e956098",
+        "altbach-offer-2006335e7011"
+      ],
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "3c42fe2d0f06",
+        "locator": "Ziffer 5 Mittagessen und Öffnungszeiten Kinderhaus Vogelwiesen",
         "original": null
       },
       "days_per_week": 5
@@ -893,10 +952,6 @@
     {
       "code": "pending_calculation_review",
       "detail": "Strukturierter Import; noch keine Freigabe des Rechners oder der Website."
-    },
-    {
-      "code": "research_limitation_1",
-      "detail": "Die Tagesverteilung des 40-Stunden-Pakets muss vor dem strengen 5×8-Stunden-Vergleich zusätzlich belegt werden."
     }
   ],
   "coverage": {
@@ -911,7 +966,7 @@
     "offers": 6,
     "price_cells": 24,
     "income_bands": 0,
-    "components": 5,
+    "components": 6,
     "rule_records": 5,
     "tariff_table_transcription": "complete_for_declared_scope",
     "declared_scope": "Aktuelle und bereits veröffentlichte künftige Krippen- und Kindergartentarife; Zusatzkosten und Gebührenregeln.",

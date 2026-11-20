@@ -1,0 +1,13 @@
+{
+  "id": "5e68a30e4936",
+  "municipality": "Markgröningen",
+  "title": "Städtische Information zu Essenspreisen",
+  "url": "https://www.markgroeningen.de/fileadmin/Dateien/Dateien/Downloads/BKF/2025/Information_einheitlicher_Essenspreise.pdf",
+  "retrieved_at": "2026-11-20T19:47:23.548449+00:00",
+  "http_status": 200,
+  "content_type": "application/pdf",
+  "final_url": "https://www.markgroeningen.de/fileadmin/Dateien/Dateien/Downloads/BKF/2025/Information_einheitlicher_Essenspreise.pdf",
+  "error": null,
+  "local_path": "data/sources/5e68a30e4936/document.pdf",
+  "sha256": "08c132ed39d9b1064e296a4e51df499eac8c92491991a91de51df2b3c6ec413e"
+}

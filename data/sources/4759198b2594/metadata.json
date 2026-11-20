@@ -1,0 +1,13 @@
+{
+  "id": "4759198b2594",
+  "municipality": "Plochingen",
+  "title": "Kinderbetreuungsangebote: Träger und Öffnungszeiten",
+  "url": "https://www.plochingen.de/start/leben%20_%20wohnen/kinderbetreuungsangebote.html",
+  "retrieved_at": "2026-11-17T21:31:09.840316+00:00",
+  "http_status": 200,
+  "content_type": "text/html;charset=UTF-8",
+  "final_url": "https://www.plochingen.de/start/leben%20_%20wohnen/kinderbetreuungsangebote.html",
+  "error": null,
+  "local_path": "data/sources/4759198b2594/document.html",
+  "sha256": "2356dd2cce197f4826da387d1e404c8d20048f829a21e486a30e1f920b2468fc"
+}

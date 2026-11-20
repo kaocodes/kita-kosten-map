@@ -1,105 +1,48 @@
 # Kita-Gebührenvergleich Region Stuttgart
 
-**Website:** [kaocodes.github.io/kita-kosten-map](https://kaocodes.github.io/kita-kosten-map/)
+Die interaktive Karte vergleicht kommunale Gebühren für Krippe und Kindergarten. Der freigegebene GitHub-Pages-Build umfasst **49 Kommunen**. Der lokale Basisbuild aus dem kanonischen Register enthält **20 Kommunen**. Der Vergleichsstichtag des Kartenprofils ist der **4. November 2026**. Vier zusätzliche Gemeinden wurden am 20. November separat erhoben und geprüft. [GitHub Pages](https://kaocodes.github.io/kita-kosten-map/) · [Erweiterungsstand](docs/ERWEITERUNGSINTEGRATION.md) · [Zweite Erhebung](docs/DATENERHEBUNG_2026-11-20.md)
 
-Strukturierte Gebühren für 20 Kommunen, mit archivierten offiziellen Quellen und einer nachvollziehbaren Vergleichsberechnung. Tarifstichtag des Standardprofils: **4. November 2026**; ergänzende Quellenprüfung: **10. November 2026**.
+Die voreingestellte **Modellfamilie** besteht aus zwei zusammenlebenden Eltern, einem Krippenkind mit acht Stunden Betreuungsbedarf und 80.000 € Haushaltsjahresbrutto. Die Vergleichsfamilie ist über Haushaltskonstellation, Kinderkategorien, sechs Einkommensstufen und den Betreuungsbedarf je Kita-Kind konfigurierbar. Karte und Liste zeigen die monatlichen Betreuungskosten der Familie. Details zeigen Wochenstunden, Einzelbeiträge, Verpflegung und Quellen. [Modellfamilien](docs/MODELLFAMILIEN.md)
 
-**Erweiterung auf Branch `Datensatz-Erweiterung`:** Acht im aktuellen Modellumfang vollständig unterstützte Kommunen sind zusätzlich eingebunden. Die Erweiterung ist nach lokaler Durchsicht zum Merge nach `main` und zur Veröffentlichung auf GitHub Pages freigegeben. Auswahl, Build-Schutz und Prüfungen: [Erweiterungsintegration](docs/ERWEITERUNGSINTEGRATION.md).
+## Lokal starten
 
-Der Datenbestand enthält Krippen- und Kindergartentarife, Einkommens- und Familienstaffeln, Betreuungsmodelle, Ermäßigungen sowie gesonderte Kostenbausteine. Die Python-Datenpipeline benötigt Python ab Version 3.11 und ausschließlich die Standardbibliothek. Die lokale React-/Leaflet-Website verwendet den TypeScript-Rechenkern direkt im Browser.
-
-## Einstieg
-
-- [UI-To-dos und SEO-Erinnerung](docs/NAECHSTE_SESSION.md): die UI-Punkte sind lokal umgesetzt; SEO bleibt eine offene Erinnerung.
-- [Standardvergleich und Vollständigkeitsprüfung](docs/STANDARDVERGLEICH.md): die 20 Vergleichswerte und ihre Einschränkungen.
-- [Höchsttarifvergleich](docs/HOECHSTTARIFVERGLEICH.md): die erhaltene Vollzahlerreferenz.
-- [Datenmodell und Berechnung](docs/DATENMODELL.md): Struktur, Eingaben, Regeln und Pflegeablauf.
-- [TypeScript-Berechnung](docs/BROWSERBERECHNUNG.md): Schnittstelle, Entwicklung und Python-Gegenprüfung für den Browser-Rechenkern.
-- [Konfigurierbare Modellfamilien](docs/MODELLFAMILIEN.md): Auswahlmöglichkeiten, Einkommensannahmen, Familiengesamtkosten und Geschwisterregeln.
-- [Lokale Webanwendung](docs/WEBANWENDUNG.md): Startbefehle, Bedienung, Geodaten, Größenbudget und statischer Build.
-- [Aktuelle Projektanforderungen](docs/PROJECT_REQUIREMENTS.md): fachlicher Umfang des Gesamtprojekts.
-- [Websitekonzept und Entscheidungen](docs/WEBSITE_KONZEPT.md): statische Architektur, Stackempfehlung, Gemeindeflächen, Geodatenaufbereitung, Bedienkonzept und Entwürfe.
-- [UI-Neugestaltung: Familienatlas](docs/UI_REDESIGN.md): lokal umgesetztes Layout mit vollständigen Kommunen-/Kinderdetails, Familienillustrationen und animierter Überschrift; noch nicht veröffentlicht.
-- [Quellenübersicht](docs/QUELLENUEBERSICHT.md): kommunale Einstiegsseiten und Prüfhinweise.
-- [Erweiterungsrecherche](docs/ERWEITERUNGSRECHERCHE.md): Quellen und Bewertung der 33 Nachbarkommunen vom 10. November 2026.
-- [Aufbereitete Erweiterungsdaten](docs/ERWEITERUNGSDATEN.md): 33 getrennte Kataloge im gemeinsamen Schema, isoliert im Importbereich; Berechnungsprüfung und Veröffentlichung ausstehend.
-- [Berechenbarkeit der Erweiterung](docs/ERWEITERUNGSBERECHNUNG.md): Prüfung der bestehenden Engine für alle 33 Kommunen, unterstützte Modellkonfigurationen und ausdrückliche Ablehnungsgründe; keine Website-Aktivierung.
-- [Mögliche Datenerweiterung](docs/DATENERWEITERUNG.md): geografisch belegte Kandidatenliste und Voraussetzungen für die öffentliche Aufnahme.
-
-Maßgeblicher Tarifbestand: `data/municipalities/*.json`. Das JSON-Schema steht in `data/municipality.schema.json`. Das neue `data/municipality_registry.json` bestimmt aktive Kommunen, amtliche Gemeindeschlüssel (AGS), Kartenflächen, Regionen und Tarifverweise. Es ersetzt die feste Prüfung auf zwölf Kommunen. `data/source_manifest.json` verknüpft Quellenkennungen mit URLs, Abrufzeitpunkten, lokalen Kopien und SHA-256-Prüfsummen. Ursprüngliche PDFs, Webseiten und Textauszüge liegen in `data/sources/`. Die ursprüngliche Recherchefassung bleibt in `data/imported/` erhalten.
-
-## Befehle
-
-Im Projektordner ausführen:
-
-```bash
-python3 -m kita_costs validate
-python3 -m kita_costs compare --municipality stuttgart
-python3 -m kita_costs export
-python3 -m unittest discover -s tests -v
-```
-
-Website und TypeScript-Rechenkern benötigen für Entwicklung und Gegenprüfung Node.js ab 22.12 sowie Python ab 3.11:
+Voraussetzungen sind Node.js ab 22.12 und Python ab 3.11. Die Python-Skripte verwenden die Standardbibliothek. Die Website nutzt React, Vite, Leaflet und einen TypeScript-Rechenkern im Browser.
 
 ```bash
 npm ci
 npm run dev
 ```
 
-Danach **http://127.0.0.1:5173/** öffnen. Die Website bietet den Modellfamilien-Konfigurator mit Haushaltskonstellation, Kinderkategorien, sechs Einkommensszenarien und 6/8 Stunden Betreuung je Kita-Kind. Karte und Liste zeigen die vollständigen Betreuungskosten der Familie; die Details erhalten Einzelbeiträge, Essen und Quellen. Der frühere persönliche Rechner und die Höchsttarifreferenz bleiben im Code bzw. Datenbestand ohne öffentlichen Reiter erhalten.
+Der reguläre Stand läuft auf [localhost:5173](http://127.0.0.1:5173/). Für die lokale Vorschau aller 49 Kommunen `npm run dev:expansion` starten und [localhost:5174](http://127.0.0.1:5174/) öffnen. Die Vorschau verwendet eigene generierte Dateien unter `build/expansion-preview/`.
 
-Prüfen und statisch bauen:
+## Prüfen, bauen und exportieren
 
 ```bash
-npm run typecheck
+python3 -m kita_costs validate
+python3 -m unittest discover -s tests -v
 npm test
-npm run build
+npm run test:expansion
+npm run build:pages
+npm run test:pages
 npm run preview
 ```
 
-`npm test` prüft Rechenkern und Webdaten mit 157 JavaScript-Tests, einschließlich der gemeinsamen Szenarien gegen Python. `build` erzeugt die statische Website unter `dist/`; `preview` zeigt diesen Build unter **http://127.0.0.1:4173/**. Der Workflow unter `.github/workflows/pages.yml` prüft Änderungen und veröffentlicht erfolgreiche Builds von `main` auf GitHub Pages. Die Python-Datenpipeline benötigt weiterhin keine externen Python-Pakete.
-
-`export` erzeugt `data/exports/default_comparison.json` für die Modellfamilie und `highest_band_comparison.json` für die Höchsttarifreferenz, jeweils mit CSV-Datei. Dazu kommen Register, Katalog der aktiven Tarife sowie CSV-Tabellen für Tarife, Angebote, Einkommensstufen und Zusatzkosten. Beide deutschen Vergleichsberichte werden aktualisiert. Die CSV-Dateien sind abgeleitete Ansichten; ihre Geldbeträge stehen in **Cent**, Zeitangaben in **Minuten**. Verschachtelte Felder enthalten JSON. Das vollständige Quellenarchiv wird nicht in diese Exporte kopiert.
-
-Das zusätzliche Höchsttarifprofil oder eigene Profile werden als JSON übergeben:
+`npm run build:pages` baut den freigegebenen Stand mit 49 Kommunen nach `dist/`. `npm run test:pages` testet dessen Daten. `npm run preview` zeigt diesen Build auf [localhost:4173](http://127.0.0.1:4173/). Der Workflow prüft Pull Requests gegen `main` und veröffentlicht erfolgreiche Builds von `main`. [Webanwendung](docs/WEBANWENDUNG.md) · [Pages-Workflow](.github/workflows/pages.yml)
 
 ```bash
+python3 -m kita_costs compare --municipality stuttgart
 python3 -m kita_costs compare --profile data/profiles/highest_band.json
-python3 -m kita_costs compare --profile /path/to/personal-profile.json
+python3 -m kita_costs export --output build/exports
 ```
 
-Das Standardprofil ist die Modellfamilie: zwei zusammenlebende Eltern, ein zweijähriges Kind, 80.000 € Haushaltsbrutto und unabhängig angenommene 60.000 € zu versteuerndes Jahreseinkommen, mindestens acht Stunden durchgehende Betreuung an jedem Wochentag. Die Hauptkennzahl ist der Monatsbeitrag × Beitragsmonate ÷ 12. Essen und weitere Kosten stehen gesondert im Ergebnis. Das ist ein Jahresäquivalent bei konstantem Stichtagstarif, kein Durchschnittshaushalt und keine tatsächliche Kalenderjahresabrechnung. Lokale Einkommensdefinitionen und der Schutz gegen unbemerkt veraltete Modellannahmen sind im [Datenmodell](docs/DATENMODELL.md) beschrieben.
+Der Python-Export schreibt Referenzvergleiche als JSON, CSV und Markdown in das gewählte Verzeichnis. Hinzu kommen Register, Tarifkatalog sowie CSV-Tabellen für Angebote, Einzelpreise, Einkommensstufen und Zusatzkosten. Beträge stehen in Cent und Zeitangaben in Minuten. Der Browservergleich verwendet die aktuellen Wochenziele. Die archivierten Python-Berichte halten ihre damalige Auswahl mit acht Stunden pro Wochentag fest.
 
-## Pflege und Grenzen
+## Dokumentation und Datenpflege
 
-Neue Quellenkopien werden ausdrücklich angefordert und überschreiben vorhandene Belege nicht:
+- [Datenpipeline](docs/DATENPIPELINE.md) für Quellen, Kataloge, Stichproben, Kartenvorschau und Freigabe.
+- [Regelwerk](docs/REGELWERK_DATENANALYSE.md) für Zeitpakete, Einkommens- und Geschwisterregeln, Kosten und Quellen.
+- [Projektanforderungen](docs/PROJECT_REQUIREMENTS.md) für fachlichen Umfang und Abnahme.
+- [Webanwendung](docs/WEBANWENDUNG.md), [Datenmodell](docs/DATENMODELL.md) und [Browserberechnung](docs/BROWSERBERECHNUNG.md) für Architektur, Laufzeit und Schnittstellen.
+- [Quellenübersicht](docs/QUELLENUEBERSICHT.md) für die anfänglichen zwölf Kommunen sowie Verweise auf die Erweiterungserhebungen.
 
-```bash
-python3 scripts/fetch_sources.py --municipality Stuttgart --url https://www.stuttgart.de/elternbeitraege-staedtische-kitas --refresh
-```
-
-Der Abruf benötigt Internetzugang; PDF-Texte werden mit `pdftotext` extrahiert. Anschließend müssen Änderungen an den kanonischen JSON-Dateien geprüft, mit Quellen belegt und mit den Befehlen oben validiert und exportiert werden. Der einmalige Import `scripts/import_snapshot.py` ist eine Migration der alten Recherchefassung. Er wird im Pflegeablauf nicht erneut ausgeführt; `--force` würde manuelle Datenänderungen ersetzen.
-
-Die zwölf bisherigen Referenzwerte bleiben unverändert. Die acht neuen Kommunen sind über die gesonderten Quellenreferenzen und die vollständige Modellprüfung abgesichert. Einzelne andere Modelle und Sonderfälle bleiben eingeschränkt: etwa nicht veröffentlichte GT11-Preise, uneindeutige Einkommensgrenzen, unbestätigte Tagesverteilungen und die einmalige FamilienCard-Zuschlagsverteilung bei mehreren U3-Kindern. Solche Fälle liefern einen konkreten Grund statt eines geschätzten Betrags. Satzungsregeln zu Abwesenheit, Eingewöhnung und Einzelfallentscheidungen bleiben vollständig in den Quellen erhalten; die ausführbare Berechnung deckt reguläre Tarife und die dokumentierten unterstützten Ermäßigungen ab.
-
-Historische Preisreihen sind zurückgestellt. Die Webkarte verwendet diese Datengrundlage seit Paket 3.
-
-## Website und weitere Umsetzung
-
-Als Hauptdarstellung sind seit 8. November 2026 **eingefärbte Gemeindeflächen** beschlossen und mit React, Vite, CSS Modules und Leaflet umgesetzt. TypeScript und Zod bilden den Rechenkern und die Eingabeprüfung. Eine statische Website auf **GitHub Pages** ist die bevorzugte Betriebsform; Tests, Build und Veröffentlichung werden durch GitHub Actions automatisiert.
-
-Die Webgeometrie wird reproduzierbar aus den archivierten BKG-Grenzen aufbereitet. Sie enthält die 20 Vergleichskommunen und 120 Umgebungsgebiete und umfasst rund 132 kB. Grenzstand 1. Januar 2025, Quellen, Lizenz und Prüfsummen sind gesichert; die aktuelle Verarbeitung steht in [WEBANWENDUNG.md](docs/WEBANWENDUNG.md). Die älteren HTML-Entwürfe in `output/` bleiben Gesprächsvorschauen mit Höchsttarifwerten.
-
-Die bisherige Modellfamilie bleibt der Startwert des neuen Konfigurators. `data/models/configuration.json` definiert dessen Szenarien und feste Einkommensannahmen. Die alten Reiter „Eigene Familie“ und „Höchsttarif“ entfallen. Die frühere Oberfläche ist unter `web/src/LegacyProfileApp.tsx` erhalten und wird nicht öffentlich gebündelt. Einzelheiten einschließlich Aussagegrenzen stehen in [MODELLFAMILIEN.md](docs/MODELLFAMILIEN.md).
-
-Die Erweiterungsstrategie ist im Websitekonzept festgehalten: ein zentrales Kommunenregister, getrennte Kartenflächen und Gebührenordnungen, eine eigenständige Tarifberechnung, bedarfsgerecht geladene regionale Daten und eine austauschbare Kartenansicht. Neue Kommunen benötigen Register-, Tarif- und Geometriedaten sowie Referenzfälle; neue Abrechnungsregeln können zusätzliche Berechnungslogik erfordern.
-
-Vor einer Datenerweiterung haben der stabile Betrieb der bestehenden Website und die vollständige, dokumentierte UI/UX-Prüfung Vorrang. Die 33 direkt angrenzenden Kandidaten stehen in [DATENERWEITERUNG.md](docs/DATENERWEITERUNG.md); ihre Aufnahme ist bis dahin zurückgestellt.
-
-**Pakete 1 bis 4 umgesetzt:** Register, beide Referenzprofile, unabhängige TypeScript-Berechnung sowie die lokal aufrufbare Website mit Gemeindekarte und reproduzierbarer Geodatenaufbereitung. Die Gegenprüfung umfasst 106 gemeinsame Szenarien; zusätzliche Webtests sichern Geometriezuordnung, Gebührenwerte und Datenbudgets. Das Familienformular aktualisiert Karte, Liste und Details gemeinsam; Eingabeprüfung, Mobilansicht und Tastaturbedienung sind geprüft. Die statische Veröffentlichung auf GitHub Pages ist automatisiert. Der Modellfamilien-Konfigurator mit dokumentierten Szenarien und Familiengesamtkosten ist umgesetzt. Die planmäßige Tarifpflege bleibt ein weiterer Ausbauschritt.
-
-## Veröffentlichung und Aktualisierung
-
-Der [Pages-Workflow](.github/workflows/pages.yml) installiert die festgelegten npm-Abhängigkeiten, führt die Python- und JavaScript-Tests aus und baut die Website. Auf `main` wird anschließend ausschließlich `dist/` veröffentlicht. Pull Requests durchlaufen dieselben Prüfungen ohne Deployment. Der Workflow kann auch manuell über GitHub Actions gestartet werden. Schlägt ein Schritt fehl, wird der neue Stand nicht veröffentlicht.
-
-Gebührenänderungen werden weiterhin anhand neuer Quellen geprüft und in den kanonischen Daten gepflegt. Ein Push nach `main` baut die Browserdaten neu und aktualisiert die Website. Es gibt keinen automatischen Abruf kommunaler Quellen beim Seitenbesuch oder Deployment.
+Die kanonischen Kataloge stehen unter [data/municipalities/](data/municipalities/). Das [Kommunenregister](data/municipality_registry.json) verbindet Tarife und Kartenflächen. Das [Quellenmanifest](data/source_manifest.json) verknüpft URLs, lokale Originaldateien, Abrufzeitpunkte und SHA-256-Prüfsummen. Quellenabgleich und fachliche Erfassung werden bei Bedarf angestoßen.

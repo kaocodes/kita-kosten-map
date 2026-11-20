@@ -1,0 +1,13 @@
+{
+  "id": "cfd856901fab",
+  "municipality": "Bietigheim-Bissingen",
+  "title": "Kinderhaus Buch: buchbare Zeiten",
+  "url": "https://www.bietigheim-bissingen.de/familie-soziales-bildung/kindertagesbetreuung/staedtische-einrichtungen/kinderhaus-buch/",
+  "retrieved_at": "2026-11-20T19:48:44.310105+00:00",
+  "http_status": 200,
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://www.bietigheim-bissingen.de/familie-soziales-bildung/kindertagesbetreuung/staedtische-einrichtungen/kinderhaus-buch/",
+  "error": null,
+  "local_path": "data/sources/cfd856901fab/document.html",
+  "sha256": "5e0828fb725255eaf0e141c971612f003a8ec2cd59ea4ed433e1a3e8dab577c4"
+}

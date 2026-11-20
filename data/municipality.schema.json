@@ -61,6 +61,7 @@
         "valid_from": {"type": "string", "format": "date"}, "valid_to": {"$ref": "#/$defs/date_or_null"},
         "original_price_valid_from": {"type": "string", "format": "date"},
         "weekly_minutes": {"type": ["integer", "null"], "minimum": 0},
+        "days_per_week": {"type": "integer", "minimum": 1, "maximum": 5},
         "weekday_minutes": {"type": ["array", "null"], "minItems": 5, "maxItems": 5, "items": {"type": "integer", "minimum": 0, "maximum": 1440}},
         "continuous": {"type": "boolean"}, "payment_months": {"type": ["integer", "null"], "minimum": 1, "maximum": 12},
         "evidence": {"$ref": "#/$defs/evidence"}, "schedule_evidence": {"$ref": "#/$defs/evidence"},

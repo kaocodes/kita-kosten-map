@@ -1,0 +1,13 @@
+{
+  "id": "ebf4a741fccb",
+  "municipality": "Neuhausen auf den Fildern",
+  "title": "Alfred-Delp-Weg: Entgelte ab April 2026",
+  "url": "https://kitas-neuhausen.de/broschuere/Entgelt-Kita-ADW-brochure584",
+  "retrieved_at": "2026-11-20T19:47:22.070846+00:00",
+  "http_status": 200,
+  "content_type": "application/pdf",
+  "final_url": "https://kitas-neuhausen.de/resources/02%20Datenobjekte/E-B%C3%BCrgerservice/Flyer-Brosch%C3%BCren/Monatliche%20Nutzungsentgelte%20Kita%20Alfred-Delp-Weg%20ab%20042026.pdf",
+  "error": null,
+  "local_path": "data/sources/ebf4a741fccb/document.pdf",
+  "sha256": "8e50e07236f2fbf4ab72ee1db494dc0238623e428c1d2a8d92fd580544634168"
+}

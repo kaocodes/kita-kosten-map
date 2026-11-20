@@ -1,0 +1,13 @@
+{
+  "id": "6fa342f5da83",
+  "municipality": "Neuhausen auf den Fildern",
+  "title": "Alfred-Delp-Weg: Zeitmodelle",
+  "url": "https://www.kitas-neuhausen.de/Unsere-kommunalen-Kitas/Kommunale-Kitas/Kindertagesstaette-Alfred-Delp-Weg",
+  "retrieved_at": "2026-11-20T19:47:23.420833+00:00",
+  "http_status": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "final_url": "https://www.kitas-neuhausen.de/Unsere-kommunalen-Kitas/Kommunale-Kitas/Kindertagesstaette-Alfred-Delp-Weg",
+  "error": null,
+  "local_path": "data/sources/6fa342f5da83/document.html",
+  "sha256": "ecfe00fddddd36c0b0739cb28c4f04fc0f63e3d42f2ccf53e012c48f455d914f"
+}

@@ -4,3 +4,4 @@ import "./site-data.test.mjs";
 import "./personal-profile.test.mjs";
 import "./model-family.test.mjs";
 import "./expansion-activation.test.mjs";
+import "./expansion-model-tariffs.test.mjs";

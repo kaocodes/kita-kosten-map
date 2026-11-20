@@ -1,0 +1,13 @@
+{
+  "id": "c5ba47bb39c1",
+  "municipality": "Markgröningen",
+  "title": "Städtische Kita-Satzung vom 01.09.2026 mit Gebührentabellen",
+  "url": "https://www.markgroeningen.de/fileadmin/Dateien/Dateien/Downloads/BKF/2026/Satzung_%C3%BCber_die_Kindertageseinrichtungen_und_die_Betreuung_von_Kindern_der_Stadt_Markgr%C3%B6ningen_vom_01.09.2026.pdf",
+  "retrieved_at": "2026-11-20T19:47:23.413429+00:00",
+  "http_status": 200,
+  "content_type": "application/pdf",
+  "final_url": "https://www.markgroeningen.de/fileadmin/Dateien/Dateien/Downloads/BKF/2026/Satzung_%C3%BCber_die_Kindertageseinrichtungen_und_die_Betreuung_von_Kindern_der_Stadt_Markgr%C3%B6ningen_vom_01.09.2026.pdf",
+  "error": null,
+  "local_path": "data/sources/c5ba47bb39c1/document.pdf",
+  "sha256": "c2002d93968166492a598cdc6636b1835524e479b5b5b0e38c2fb771ebe6f667"
+}

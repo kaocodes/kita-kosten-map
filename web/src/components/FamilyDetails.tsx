@@ -18,8 +18,13 @@ export function FamilyDetails({ result, tariff, sources, catalog, id = "gemeinde
       {result.monthly_equivalent_cents !== null && <span>für die Familie pro Monat</span>}</div>
     </div>
     <p className={styles.detailLocation}>Modellfamilie · {result.children.length} {result.children.length === 1 ? "Kind" : "Kinder"} · {result.care_child_count} in Kita-Betreuung</p>
-    <p className={styles.costNote}>Betreuung aller Kita-Kinder, auf zwölf Monate umgelegt. Essen und Zusatzkosten separat.</p>
+    {result.booked_weekly_minutes !== null && <p className={styles.detailLocation}>Insgesamt {formatHours(result.booked_weekly_minutes)} pro Woche</p>}
+    <p className={styles.costNote}>Betreuung aller Kita-Kinder, auf zwölf Monate umgelegt. {result.children.some(child => child.result?.components.some(part => part.value_status === "included"))
+      ? "Enthaltenes Essen ist beim jeweiligen Kind gekennzeichnet." : "Essen und Zusatzkosten separat."}</p>
     {result.care_child_count === 0 && <p className={styles.familyNote}>Im gewählten Modell besucht kein Kind eine Kita. Daher entstehen im Vergleich keine Kita-Betreuungskosten. Schul- und Hortkosten sind nicht enthalten.</p>}
+    {result.booked_weekly_minutes === null && result.reasons.includes("schedule_not_confirmed") &&
+      !result.reasons.includes("no_offer_covers_daily_need") &&
+      <p className={styles.familyNote}>{reasonLabel("no_offer_covers_daily_need")}</p>}
     {result.reasons.length > 0 && <ul className={styles.reasonList}>{result.reasons.map(reason => <li key={reason}>{reasonLabel(reason)}</li>)}</ul>}
     {result.monthly_equivalent_cents === null && <p className={styles.familyNote}>Die Familiensumme bleibt offen. Bekannte Einzelbeiträge sind unten sichtbar und werden nicht als vollständige Summe ausgegeben.</p>}
     <div className={styles.childBreakdowns}>{result.children.map(child => {
@@ -27,26 +32,36 @@ export function FamilyDetails({ result, tariff, sources, catalog, id = "gemeinde
       const row = child.result;
       const offer = tariff.offers.find(item => item.id === row?.offer_id);
       const uncertain = child.possible_monthly_cents;
+      const mealSeparated = row?.components.some(part => part.separated_from_care_price === true);
+      const weekdayMinutes = row?.shorter_friday_weekday_minutes;
+      const weekdayRange = weekdayMinutes?.slice(0, 4);
+      const shortest = weekdayRange ? Math.min(...weekdayRange) : 0;
+      const longest = weekdayRange ? Math.max(...weekdayRange) : 0;
+      const regularHours = shortest === longest ? formatHours(shortest) : `${formatHours(shortest)} bis ${formatHours(longest)}`;
       return <details className={styles.childBreakdown} key={child.index}>
-        <summary><span>Kind {child.index + 1} · {category.label}</span><strong>{!child.in_care ? "Keine Kita-Kosten" : uncertain ? `${formatMoney(uncertain[0])} – ${formatMoney(uncertain[1])}` : formatMoney(row?.monthly_equivalent_cents ?? null)}</strong><i aria-hidden="true">+</i></summary>
+        <summary><span>Kind {child.index + 1} · {category.label}{weekdayMinutes && " · Freitag verkürzt"}</span><strong>{!child.in_care ? "Keine Kita-Kosten" : uncertain ? `${formatMoney(uncertain[0])} – ${formatMoney(uncertain[1])}` : formatMoney(row?.monthly_equivalent_cents ?? null)}</strong><i aria-hidden="true">+</i></summary>
         <div className={styles.childContent}>
         {!child.in_care ? <p>Keine Kita-Kosten · als Geschwisterkind berücksichtigt</p> : row && <>
           <div className={styles.childPrice}>{uncertain ? `${formatMoney(uncertain[0])} – ${formatMoney(uncertain[1])}` : formatMoney(row.monthly_equivalent_cents)}<small>Monatsäquivalent{uncertain ? " · Geschwisterrang offen" : ""}</small></div>
           <dl className={styles.breakdown}>
             <div><dt>Bedarf pro Tag, Mo–Fr</dt><dd>{formatHours(child.daily_minutes)}</dd></div>
-            <div><dt>Monatsbeitrag laut Tarif</dt><dd>{uncertain ? "Zuordnung offen" : formatMoney(row.monthly_care_cents)}</dd></div>
+            <div><dt>{mealSeparated ? "Betreuungsanteil pro Beitragsmonat" : "Monatsbeitrag laut Tarif"}</dt><dd>{uncertain ? "Zuordnung offen" : formatMoney(row.monthly_care_cents)}</dd></div>
             <div><dt>Beitragsmonate im Jahr</dt><dd>{row.payment_months ?? "Nicht belegt"}</dd></div>
-            <div><dt>Gebuchte Wochenstunden</dt><dd>{formatHours(row.booked_weekly_minutes)}</dd></div>
+            <div><dt>Wochenstunden des Angebots</dt><dd>{formatHours(row.booked_weekly_minutes)}</dd></div>
             <div><dt>Zusätzlich gebuchte Zeit</dt><dd>{formatHours(row.extra_weekly_minutes)}</dd></div>
           </dl>
+          {weekdayMinutes && <p className={styles.familyNote}>
+            Freitag verkürzt · Mo–Do {regularHours} pro Tag, Fr {formatHours(weekdayMinutes[4])}.
+            Im Wochendurchschnitt {formatHours(row.booked_weekly_minutes! / 5)} pro Betreuungstag.
+          </p>}
           {row.reasons.length > 0 && <ul className={styles.reasonList}>{row.reasons.map(reason => <li key={reason}>{reasonLabel(reason)}</li>)}</ul>}
-          {offer && <div className={styles.offerNote}><span>Gewähltes Betreuungsmodell</span><strong>{offer.original_label}</strong>{offer.valid_from && <span>Tarif gültig ab {formatDate(offer.valid_from)}</span>}</div>}
+          {offer && <div className={styles.offerNote}><span>Gewähltes Betreuungsmodell</span><strong>{row.offer_label ?? offer.original_label}</strong>{offer.valid_from && <span>Tarif gültig ab {formatDate(offer.valid_from)}</span>}</div>}
           <section className={styles.extraCosts} aria-labelledby={`${id}-child-${child.index}-extras`}><h4 id={`${id}-child-${child.index}-extras`}>Verpflegung und Zusatzkosten</h4>
             {row.components.length ? <ul className={styles.componentList}>{row.components.map(component => <li key={component.id}>
               <span>{typeof component.original_label === "string" ? component.original_label : "Zusatzkosten"}</span>
-              <strong>{component.amount_cents === null ? "Nicht belegt" : formatMoney(component.amount_cents) + (units[component.unit] ?? "")}</strong>
-              {component.unit === "per_month" && <small>{component.payment_months === null ? "Beitragsmonate nicht belegt" : `${component.payment_months} Beitragsmonate im Jahr`}</small>}
-              {component.required !== true && <small>{component.kind === "penalty" ? "Nur im angegebenen Sonderfall" : "Abhängig von Buchung oder Angebotsvariante"}</small>}
+              {component.value_status !== "included" && <strong>{component.amount_cents === null ? "Nicht belegt" : formatMoney(component.amount_cents) + (units[component.unit] ?? "")}</strong>}
+              {component.value_status !== "included" && component.unit === "per_month" && <small>{component.payment_months === null ? "Beitragsmonate nicht belegt" : `${component.payment_months} Beitragsmonate im Jahr`}</small>}
+              {component.value_status !== "included" && component.required !== true && <small>{component.kind === "penalty" ? "Nur im angegebenen Sonderfall" : "Abhängig von Buchung oder Angebotsvariante"}</small>}
             </li>)}</ul> : <p>Für dieses Modell liegen keine berechenbaren Zusatzkosten vor.</p>}
             <p className={styles.smallNote}>Varianten bleiben getrennt. Ein Gesamtbetrag für Essen und Zusatzkosten wird nicht geschätzt.</p>
           </section>

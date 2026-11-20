@@ -1,0 +1,13 @@
+{
+  "id": "deee2933d83b",
+  "municipality": "Bietigheim-Bissingen",
+  "title": "Städtische Kindertageseinrichtungen",
+  "url": "https://www.bietigheim-bissingen.de/familie-soziales-bildung/kindertagesbetreuung/staedtische-einrichtungen/",
+  "retrieved_at": "2026-11-20T19:47:23.839339+00:00",
+  "http_status": 200,
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://www.bietigheim-bissingen.de/familie-soziales-bildung/kindertagesbetreuung/staedtische-einrichtungen/",
+  "error": null,
+  "local_path": "data/sources/deee2933d83b/document.html",
+  "sha256": "7127884aaaa06dc6c52352e4142278e07277f33a673c05ee10263a6db069ac55"
+}

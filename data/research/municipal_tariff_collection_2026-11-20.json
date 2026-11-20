@@ -1,0 +1,179 @@
+{
+  "schema_version": "1.0",
+  "reference_date": "2026-11-20",
+  "municipalities": [
+    {
+      "id": "neuhausen-auf-den-fildern",
+      "name": "Neuhausen auf den Fildern",
+      "ags": "08116047",
+      "sources": [
+        {
+          "title": "Kommunales Kita-Portal: Entgelte",
+          "url": "https://www.kitas-neuhausen.de/Informationen/entgelte",
+          "source_id": "1fe941069a2d"
+        },
+        {
+          "title": "Kommunales Kita-Portal: Verpflegung",
+          "url": "https://www.kitas-neuhausen.de/Informationen/Verpflegung",
+          "source_id": "a3f277739333"
+        },
+        {
+          "title": "Egelsee: Krippenentgelte ab April 2026",
+          "url": "https://kitas-neuhausen.de/broschuere/Kinderhaus-am-Egelsee-Krippe-brochure587",
+          "source_id": "777192e93399"
+        },
+        {
+          "title": "Egelsee: Kindergartenentgelte ab April 2026",
+          "url": "https://kitas-neuhausen.de/broschuere/Entgelt-Kinderhaus-am-Egelsee-Kindergarten-brochure586",
+          "source_id": "b23f241fdee3"
+        },
+        {
+          "title": "Alfred-Delp-Weg: Entgelte ab April 2026",
+          "url": "https://kitas-neuhausen.de/broschuere/Entgelt-Kita-ADW-brochure584",
+          "source_id": "ebf4a741fccb"
+        },
+        {
+          "title": "Nesthäkchen: Entgelte ab April 2026",
+          "url": "https://kitas-neuhausen.de/broschuere/Nesthaekchen-brochure588",
+          "source_id": "cfe9dee5c692"
+        },
+        {
+          "title": "Rohrspätzle: Entgelte ab April 2026",
+          "url": "https://kitas-neuhausen.de/broschuere/Rohrspaetzle-brochure590",
+          "source_id": "93811d30f87d"
+        },
+        {
+          "title": "Waldkindergarten: Entgelte",
+          "url": "https://kitas-neuhausen.de/broschuere/Waldkindergarten-brochure589",
+          "source_id": "265bb4d2baaa"
+        },
+        {
+          "title": "Kinderhaus am Egelsee: Vergabe und Zeitmodelle",
+          "url": "https://www.kitas-neuhausen.de/Unsere-kommunalen-Kitas/Kommunale-Kitas/Kinderhaus-am-Egelsee",
+          "source_id": "dd3e952d070a"
+        },
+        {
+          "title": "Alfred-Delp-Weg: Zeitmodelle",
+          "url": "https://www.kitas-neuhausen.de/Unsere-kommunalen-Kitas/Kommunale-Kitas/Kindertagesstaette-Alfred-Delp-Weg",
+          "source_id": "6fa342f5da83"
+        },
+        {
+          "title": "Kommunale Einrichtungen und Links zu Zeitmodellen",
+          "url": "https://www.kitas-neuhausen.de/Unsere-kommunalen-Kitas/Kommunale-Kitas",
+          "source_id": "a6c3f78f69b9"
+        },
+        {
+          "title": "Kita Rohrspätzle: Zeitmodelle",
+          "url": "https://www.kitas-neuhausen.de/Unsere-kommunalen-Kitas/Kommunale-Kitas/Kindertagesstaette-Rohrspaetzle",
+          "source_id": "e61763663d37"
+        },
+        {
+          "title": "Kita Nesthäkchen: Zeitmodelle",
+          "url": "https://www.kitas-neuhausen.de/Unsere-kommunalen-Kitas/Kommunale-Kitas/kindertagesstaette-nesthaekchen",
+          "source_id": "6133f7667fac"
+        },
+        {
+          "title": "Waldkindergarten Waldstampfer: Zeitmodelle",
+          "url": "https://www.kitas-neuhausen.de/Unsere-kommunalen-Kitas/Kommunale-Kitas/waldkindergarten-waldstampfer",
+          "source_id": "db99211e39dd"
+        }
+      ]
+    },
+    {
+      "id": "markgroeningen",
+      "name": "Markgröningen",
+      "ags": "08118050",
+      "sources": [
+        {
+          "title": "Städtische Kita-Satzung vom 01.09.2026 mit Gebührentabellen",
+          "url": "https://www.markgroeningen.de/fileadmin/Dateien/Dateien/Downloads/BKF/2026/Satzung_%C3%BCber_die_Kindertageseinrichtungen_und_die_Betreuung_von_Kindern_der_Stadt_Markgr%C3%B6ningen_vom_01.09.2026.pdf",
+          "source_id": "c5ba47bb39c1"
+        },
+        {
+          "title": "Städtische Kita-Entgelte und Formulare",
+          "url": "https://www.markgroeningen.de/bildung-freizeit/betreuung/kindertageseinrichtungen/satzung-gebuehren-formulare",
+          "source_id": "3631e7bba1ae"
+        },
+        {
+          "title": "Städtische Information zu Essenspreisen",
+          "url": "https://www.markgroeningen.de/fileadmin/Dateien/Dateien/Downloads/BKF/2025/Information_einheitlicher_Essenspreise.pdf",
+          "source_id": "5e68a30e4936"
+        },
+        {
+          "title": "Städtische Kindertageseinrichtungen mit Zeitmodellen",
+          "url": "https://www.markgroeningen.de/bildung-freizeit/betreuung/kindertageseinrichtungen/staedt-kindertageseinrichtungen",
+          "source_id": "bf6a5c1a144f"
+        }
+      ]
+    },
+    {
+      "id": "bietigheim-bissingen",
+      "name": "Bietigheim-Bissingen",
+      "ags": "08118079",
+      "sources": [
+        {
+          "title": "Städtische Kita-Gebührensatzung mit Anlagen bis August 2030",
+          "url": "https://www.bietigheim-bissingen.de/fileadmin/user_upload_stadtverwaltung/seitenstruktur/familie-soziales-bildung/kinderbetreuung/staedtische-einrichtungen/Kita-Satzung_Geb%C3%BChren_2026-07.pdf",
+          "source_id": "edebe0ffd22e"
+        },
+        {
+          "title": "Städtische Kita-Benutzungsordnung",
+          "url": "https://www.bietigheim-bissingen.de/fileadmin/user_upload_stadtverwaltung/seitenstruktur/familie-soziales-bildung/kinderbetreuung/staedtische-einrichtungen/benutzungsordnung-kindertageseinrichtungen.pdf",
+          "source_id": "3169496e91ba"
+        },
+        {
+          "title": "Städtische Kindertageseinrichtungen",
+          "url": "https://www.bietigheim-bissingen.de/familie-soziales-bildung/kindertagesbetreuung/staedtische-einrichtungen/",
+          "source_id": "deee2933d83b"
+        },
+        {
+          "title": "Städtisches Vormerkportal: Angebotsübersicht",
+          "url": "https://nhkita.bietigheim-bissingen.de/uebersicht.html",
+          "source_id": "78267e4b6807"
+        },
+        {
+          "title": "Kinderhaus Buch: buchbare Zeiten",
+          "url": "https://www.bietigheim-bissingen.de/familie-soziales-bildung/kindertagesbetreuung/staedtische-einrichtungen/kinderhaus-buch/",
+          "source_id": "cfd856901fab"
+        },
+        {
+          "title": "Städtisches Anmeldeportal: angebotene Betreuungsformen",
+          "url": "https://nhkita.bietigheim-bissingen.de/anmeldung.html",
+          "source_id": "d8578489979d"
+        }
+      ]
+    },
+    {
+      "id": "weinstadt",
+      "name": "Weinstadt",
+      "ags": "08119091",
+      "sources": [
+        {
+          "title": "Städtische KiTa-Satzung und Gebührenanlage ab September 2026",
+          "url": "https://www.weinstadt.de/ceasy/resource/?download=1&id=12754",
+          "source_id": "284b520e681b"
+        },
+        {
+          "title": "Städtisches Verzeichnis der Kindertageseinrichtungen",
+          "url": "https://www.weinstadt.de/de/Leben-Lernen/Kinderbetreuung",
+          "source_id": "2d5d6ba54f15"
+        },
+        {
+          "title": "Antrag auf Ermäßigung der Kindergartengebühr",
+          "url": "https://www.weinstadt.de/ceasy/resource/?download=1&id=5175",
+          "source_id": "b9fc6c1ad938"
+        },
+        {
+          "title": "Clemens Kita: Betreuungsmodule und Anwendung des städtischen Tarifs",
+          "url": "https://www.clemens.schule/angebote/kita/",
+          "source_id": "345a0c33f5a0"
+        },
+        {
+          "title": "Städtisches Elternportal: Detailprofile Badkindergarten, Kinderhaus Benzach und Waldkindergarten",
+          "url": "https://elternportal.komm.one/weinstadt/#/eltern/suchen",
+          "source_id": "d1fb15d3ab56"
+        }
+      ]
+    }
+  ]
+}

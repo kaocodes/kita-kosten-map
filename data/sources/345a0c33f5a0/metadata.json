@@ -1,0 +1,13 @@
+{
+  "id": "345a0c33f5a0",
+  "municipality": "Weinstadt",
+  "title": "Clemens Kita: Betreuungsmodule und Anwendung des städtischen Tarifs",
+  "url": "https://www.clemens.schule/angebote/kita/",
+  "retrieved_at": "2026-11-20T19:59:18.675032+00:00",
+  "http_status": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "final_url": "https://www.clemens.schule/angebote/kita/",
+  "error": null,
+  "local_path": "data/sources/345a0c33f5a0/document.html",
+  "sha256": "add08c89959d80f2742320b1a4284f1ef63393a15b80eb2751edf586d1ff4647"
+}

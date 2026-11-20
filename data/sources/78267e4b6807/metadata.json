@@ -1,0 +1,13 @@
+{
+  "id": "78267e4b6807",
+  "municipality": "Bietigheim-Bissingen",
+  "title": "Städtisches Vormerkportal: Angebotsübersicht",
+  "url": "https://nhkita.bietigheim-bissingen.de/uebersicht.html",
+  "retrieved_at": "2026-11-20T19:48:44.092909+00:00",
+  "http_status": 200,
+  "content_type": "text/html",
+  "final_url": "https://nhkita.bietigheim-bissingen.de/uebersicht.html",
+  "error": null,
+  "local_path": "data/sources/78267e4b6807/document.html",
+  "sha256": "8638b181ce6b569faab7808cc5851d905adc2fdba3c61e8155c76c6ad94ea1a5"
+}

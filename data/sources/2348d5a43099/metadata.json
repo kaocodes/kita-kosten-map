@@ -1,0 +1,13 @@
+{
+  "id": "2348d5a43099",
+  "municipality": "Baltmannsweiler",
+  "title": "Kindervilla Kunterbunt: Betreuungsformen",
+  "url": "https://www.baltmannsweiler.de/leben-wohnen/kinderbetreuung/kindervilla-kunterbunt",
+  "retrieved_at": "2026-11-17T21:23:26.295494+00:00",
+  "http_status": 200,
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://www.baltmannsweiler.de/leben-wohnen/kinderbetreuung/kindervilla-kunterbunt",
+  "error": null,
+  "local_path": "data/sources/2348d5a43099/document.html",
+  "sha256": "dac3bb667702fe1db875c242aa474f813a8311ad15cb06b3f4610d3ea694dcab"
+}

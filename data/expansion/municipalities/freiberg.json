@@ -21,7 +21,8 @@
     "22d5726e7e48",
     "5f09f91f5eb1",
     "eb4fe138090b",
-    "86cec5756015"
+    "86cec5756015",
+    "93da36bc25d7"
   ],
   "offers": [
     {
@@ -941,8 +942,8 @@
       "continuous": true,
       "schedule_status": "verified",
       "schedule_evidence": {
-        "source_id": "5f09f91f5eb1",
-        "locator": "Anlage A S. 1–2, Vormittag 6 Stunden",
+        "source_id": "93da36bc25d7",
+        "locator": "Städtische Kindergärten, Beethovenkindergarten: Betreuungsmodelle Montag bis Freitag",
         "original": null
       },
       "payment_months": 11,
@@ -982,8 +983,8 @@
       "continuous": true,
       "schedule_status": "verified",
       "schedule_evidence": {
-        "source_id": "5f09f91f5eb1",
-        "locator": "Anlage A S. 1–2, Vormittag 7 Stunden",
+        "source_id": "93da36bc25d7",
+        "locator": "Städtische Kindergärten, Beethovenkindergarten: Betreuungsmodelle Montag bis Freitag",
         "original": null
       },
       "payment_months": 11,
@@ -1013,12 +1014,18 @@
       "scope": "municipal",
       "category": "childcare",
       "weekly_minutes": 2400,
-      "weekday_minutes": null,
+      "weekday_minutes": [
+        480,
+        480,
+        480,
+        480,
+        480
+      ],
       "continuous": true,
-      "schedule_status": "daily_distribution_unverified",
+      "schedule_status": "verified",
       "schedule_evidence": {
-        "source_id": "5f09f91f5eb1",
-        "locator": "Anlage A S. 1–2, GT40",
+        "source_id": "93da36bc25d7",
+        "locator": "Städtische Kindergärten, Beethovenkindergarten: Betreuungsmodelle Montag bis Freitag",
         "original": null
       },
       "payment_months": 11,
@@ -1048,12 +1055,18 @@
       "scope": "municipal",
       "category": "childcare",
       "weekly_minutes": 2700,
-      "weekday_minutes": null,
+      "weekday_minutes": [
+        540,
+        540,
+        540,
+        540,
+        540
+      ],
       "continuous": true,
-      "schedule_status": "daily_distribution_unverified",
+      "schedule_status": "verified",
       "schedule_evidence": {
-        "source_id": "5f09f91f5eb1",
-        "locator": "Anlage A S. 1–2, GT45",
+        "source_id": "93da36bc25d7",
+        "locator": "Städtische Kindergärten, Beethovenkindergarten: Betreuungsmodelle Montag bis Freitag",
         "original": null
       },
       "payment_months": 11,
@@ -7725,9 +7738,9 @@
   ],
   "components": [
     {
-      "id": "freiberg-component-9b8981bfa3bd",
+      "id": "freiberg-component-67170238bcfb",
       "kind": "meal",
-      "original_label": "meal 1",
+      "original_label": "Mittagessen 1",
       "amount_cents": 1650,
       "unit": "per_month",
       "age_group": "u3",
@@ -7745,12 +7758,14 @@
       "conditions": {
         "days_per_week": 1,
         "amount_cents": 1650
-      }
+      },
+      "model_offer_ids": [],
+      "days_per_week": 1
     },
     {
-      "id": "freiberg-component-2ab998092c36",
+      "id": "freiberg-component-78fc22c8e582",
       "kind": "meal",
-      "original_label": "meal 2",
+      "original_label": "Mittagessen 2",
       "amount_cents": 3350,
       "unit": "per_month",
       "age_group": "u3",
@@ -7768,12 +7783,14 @@
       "conditions": {
         "days_per_week": 2,
         "amount_cents": 3350
-      }
+      },
+      "model_offer_ids": [],
+      "days_per_week": 2
     },
     {
-      "id": "freiberg-component-3d6431021c18",
+      "id": "freiberg-component-7118aafe4945",
       "kind": "meal",
-      "original_label": "meal 3",
+      "original_label": "Mittagessen 3",
       "amount_cents": 5000,
       "unit": "per_month",
       "age_group": "u3",
@@ -7791,12 +7808,14 @@
       "conditions": {
         "days_per_week": 3,
         "amount_cents": 5000
-      }
+      },
+      "model_offer_ids": [],
+      "days_per_week": 3
     },
     {
-      "id": "freiberg-component-e2cf2674576e",
+      "id": "freiberg-component-b86d70b1a725",
       "kind": "meal",
-      "original_label": "meal 4",
+      "original_label": "Mittagessen 4",
       "amount_cents": 6700,
       "unit": "per_month",
       "age_group": "u3",
@@ -7814,16 +7833,18 @@
       "conditions": {
         "days_per_week": 4,
         "amount_cents": 6700
-      }
+      },
+      "model_offer_ids": [],
+      "days_per_week": 4
     },
     {
-      "id": "freiberg-component-72e462d06423",
+      "id": "freiberg-component-571a5c6ce25b",
       "kind": "meal",
-      "original_label": "meal 5",
+      "original_label": "Mittagessen 5",
       "amount_cents": 8350,
       "unit": "per_month",
       "age_group": "u3",
-      "required": null,
+      "required": true,
       "payment_months": 12,
       "offer_ids": null,
       "valid_from": "2026-06-01",
@@ -7837,7 +7858,15 @@
       "conditions": {
         "days_per_week": 5,
         "amount_cents": 8350
-      }
+      },
+      "model_offer_ids": [
+        "freiberg-offer-0ee61e34af56",
+        "freiberg-offer-35565c6a6f76",
+        "freiberg-offer-f31a2c604102",
+        "freiberg-offer-b1a299c1b60f",
+        "freiberg-offer-5ea9be87c262"
+      ],
+      "days_per_week": 5
     },
     {
       "id": "freiberg-component-b5a420679cf4",
@@ -7862,7 +7891,10 @@
           "3 Tage halbtags"
         ],
         "amount_cents": 1400
-      }
+      },
+      "model_offer_ids": [
+        "freiberg-offer-53801e5ab369"
+      ]
     },
     {
       "id": "freiberg-component-1a54f7377d42",
@@ -7888,7 +7920,10 @@
           "3 Tage (2 halbtags/1 ganztags)"
         ],
         "amount_cents": 1800
-      }
+      },
+      "model_offer_ids": [
+        "freiberg-offer-081ba1658538"
+      ]
     },
     {
       "id": "freiberg-component-d66706ab9db2",
@@ -7917,7 +7952,16 @@
           "4 Tage (2 halbtags/2 ganztags)"
         ],
         "amount_cents": 1950
-      }
+      },
+      "model_offer_ids": [
+        "freiberg-offer-dc27b3c43b3c",
+        "freiberg-offer-1efe7dd05117",
+        "freiberg-offer-f6be5a216ec0",
+        "freiberg-offer-bebab17620a8",
+        "freiberg-offer-428e96042124",
+        "freiberg-offer-130d742a85d8",
+        "freiberg-offer-d31a228ea076"
+      ]
     },
     {
       "id": "freiberg-component-03adb2fb8846",
@@ -7942,7 +7986,14 @@
           "5 Tage ganztags"
         ],
         "amount_cents": 3100
-      }
+      },
+      "model_offer_ids": [
+        "freiberg-offer-0ee61e34af56",
+        "freiberg-offer-35565c6a6f76",
+        "freiberg-offer-f31a2c604102",
+        "freiberg-offer-b1a299c1b60f",
+        "freiberg-offer-5ea9be87c262"
+      ]
     },
     {
       "id": "freiberg-component-35a38bbeb928",
@@ -7969,7 +8020,13 @@
           "4 Tage ganztags"
         ],
         "amount_cents": 2450
-      }
+      },
+      "model_offer_ids": [
+        "freiberg-offer-f1ec3d4029fc",
+        "freiberg-offer-0327e6ce0591",
+        "freiberg-offer-87eddb58196d",
+        "freiberg-offer-3c9786c00a04"
+      ]
     },
     {
       "id": "freiberg-component-2dd16f5b5cef",
@@ -7977,7 +8034,7 @@
       "original_label": "Verspätete Abholung ab16 Minuten 1",
       "amount_cents": 1600,
       "unit": "per_month",
-      "age_group": null,
+      "age_group": "u3",
       "required": null,
       "payment_months": null,
       "offer_ids": null,
@@ -8001,7 +8058,7 @@
       "original_label": "Verspätete Abholung ab46 Minuten 1",
       "amount_cents": 4000,
       "unit": "per_month",
-      "age_group": null,
+      "age_group": "u3",
       "required": null,
       "payment_months": null,
       "offer_ids": null,
@@ -8028,7 +8085,10 @@
       "age_group": "o3",
       "required": true,
       "payment_months": 11,
-      "offer_ids": null,
+      "offer_ids": [
+        "freiberg-offer-dc2e5c887aed",
+        "freiberg-offer-f7a888bc0d06"
+      ],
       "valid_from": "2026-09-01",
       "valid_to": null,
       "value_status": "known",
@@ -8047,7 +8107,10 @@
       "age_group": "o3",
       "required": true,
       "payment_months": 11,
-      "offer_ids": null,
+      "offer_ids": [
+        "freiberg-offer-c14c52fd09de",
+        "freiberg-offer-314c7c9ec93a"
+      ],
       "valid_from": "2026-09-01",
       "valid_to": null,
       "value_status": "known",
@@ -8913,6 +8976,7 @@
     "calculation_engine_changed": false,
     "rule_transcription": "typed_parameters_and_source_clauses_with_explicit_unimplemented_status"
   },
+  "model_tariff": "freiberg",
   "original_research": {
     "path": "data/research/neighbor_expansion_2026-11-10.json",
     "section": "Freiberg am Neckar",

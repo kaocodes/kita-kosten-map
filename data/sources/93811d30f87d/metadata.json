@@ -1,0 +1,13 @@
+{
+  "id": "93811d30f87d",
+  "municipality": "Neuhausen auf den Fildern",
+  "title": "Rohrspätzle: Entgelte ab April 2026",
+  "url": "https://kitas-neuhausen.de/broschuere/Rohrspaetzle-brochure590",
+  "retrieved_at": "2026-11-20T19:47:22.453164+00:00",
+  "http_status": 200,
+  "content_type": "application/pdf",
+  "final_url": "https://kitas-neuhausen.de/resources/02%20Datenobjekte/E-B%C3%BCrgerservice/Flyer-Brosch%C3%BCren/Monatliche%20Nutzungsentgelte%20Rohrspaetzle%20ab%20042026.pdf",
+  "error": null,
+  "local_path": "data/sources/93811d30f87d/document.pdf",
+  "sha256": "df2e9ef331b8fa01d28bf2809f4e5671005b6fa5f1294dfc2deec917d6b4ccc7"
+}

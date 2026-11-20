@@ -60,7 +60,8 @@
         "locator": "§ 3 Angebotsformen; § 4 a–f",
         "original": null
       },
-      "formula": null
+      "formula": null,
+      "days_per_week": 5
     },
     {
       "id": "waldenbuch-offer-457548230e9b",
@@ -101,7 +102,8 @@
         "locator": "§ 3 Angebotsformen; § 4 a–f",
         "original": null
       },
-      "formula": null
+      "formula": null,
+      "days_per_week": 5
     },
     {
       "id": "waldenbuch-offer-6403dd386657",
@@ -142,7 +144,8 @@
         "locator": "§ 3 Angebotsformen; § 4 a–f",
         "original": null
       },
-      "formula": null
+      "formula": null,
+      "days_per_week": 5
     },
     {
       "id": "waldenbuch-offer-b5c9a1ea0e3e",
@@ -183,7 +186,8 @@
         "locator": "§ 3 Angebotsformen; § 4 a–f",
         "original": null
       },
-      "formula": null
+      "formula": null,
+      "days_per_week": 5
     },
     {
       "id": "waldenbuch-offer-999de3403874",
@@ -218,7 +222,8 @@
         "locator": "§ 3 Angebotsformen; § 4 a–f",
         "original": null
       },
-      "formula": null
+      "formula": null,
+      "days_per_week": 5
     },
     {
       "id": "waldenbuch-offer-f80b46ee26e6",
@@ -253,7 +258,8 @@
         "locator": "§ 3 Angebotsformen; § 4 a–f",
         "original": null
       },
-      "formula": null
+      "formula": null,
+      "days_per_week": 5
     },
     {
       "id": "waldenbuch-offer-006964232b71",
@@ -294,7 +300,8 @@
         "locator": "§ 3 Angebotsformen; § 4 a–f",
         "original": null
       },
-      "formula": null
+      "formula": null,
+      "days_per_week": 5
     },
     {
       "id": "waldenbuch-offer-ae342585b8c1",
@@ -335,7 +342,8 @@
         "locator": "§ 3 Angebotsformen; § 4 a–f",
         "original": null
       },
-      "formula": null
+      "formula": null,
+      "days_per_week": 5
     },
     {
       "id": "waldenbuch-offer-3c9b2050acfe",
@@ -370,7 +378,8 @@
         "locator": "§ 3 Angebotsformen; § 4 a–f",
         "original": null
       },
-      "formula": null
+      "formula": null,
+      "days_per_week": 5
     },
     {
       "id": "waldenbuch-offer-82e3c35b9fab",
@@ -405,7 +414,8 @@
         "locator": "§ 3 Angebotsformen; § 4 a–f",
         "original": null
       },
-      "formula": null
+      "formula": null,
+      "days_per_week": 5
     },
     {
       "id": "waldenbuch-offer-456ef157178d",
@@ -446,7 +456,8 @@
         "locator": "§ 3 Angebotsformen; § 4 a–f",
         "original": null
       },
-      "formula": null
+      "formula": null,
+      "days_per_week": 5
     },
     {
       "id": "waldenbuch-offer-29456dc7d95c",
@@ -487,7 +498,8 @@
         "locator": "§ 3 Angebotsformen; § 4 a–f",
         "original": null
       },
-      "formula": null
+      "formula": null,
+      "days_per_week": 5
     }
   ],
   "prices": [

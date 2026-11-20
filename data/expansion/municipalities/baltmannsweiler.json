@@ -17,7 +17,9 @@
     "original": null
   },
   "supporting_source_ids": [
-    "dbe696bf2305"
+    "dbe696bf2305",
+    "2348d5a43099",
+    "5498e2f0ce9c"
   ],
   "offers": [
     {
@@ -33,12 +35,18 @@
       "scope": "municipal",
       "category": "childcare",
       "weekly_minutes": 1500,
-      "weekday_minutes": null,
+      "weekday_minutes": [
+        300,
+        300,
+        300,
+        300,
+        300
+      ],
       "continuous": true,
-      "schedule_status": "daily_distribution_unverified",
+      "schedule_status": "verified",
       "schedule_evidence": {
-        "source_id": "dbe696bf2305",
-        "locator": "Abschnitt I, 25 Wochenstunden; Spalte ab 01.09.2026",
+        "source_id": "2348d5a43099",
+        "locator": "Betreuungsformen und Öffnungszeiten: HT/VÖ/VÖ XL",
         "original": null
       },
       "payment_months": 12,
@@ -68,12 +76,18 @@
       "scope": "municipal",
       "category": "childcare",
       "weekly_minutes": 1500,
-      "weekday_minutes": null,
+      "weekday_minutes": [
+        300,
+        300,
+        300,
+        300,
+        300
+      ],
       "continuous": true,
-      "schedule_status": "daily_distribution_unverified",
+      "schedule_status": "verified",
       "schedule_evidence": {
-        "source_id": "dbe696bf2305",
-        "locator": "Abschnitt I, 25 Wochenstunden; Spalte ab 01.09.2027",
+        "source_id": "2348d5a43099",
+        "locator": "Betreuungsformen und Öffnungszeiten: HT/VÖ/VÖ XL",
         "original": null
       },
       "payment_months": 12,
@@ -103,12 +117,18 @@
       "scope": "municipal",
       "category": "childcare",
       "weekly_minutes": 1800,
-      "weekday_minutes": null,
+      "weekday_minutes": [
+        360,
+        360,
+        360,
+        360,
+        360
+      ],
       "continuous": true,
-      "schedule_status": "daily_distribution_unverified",
+      "schedule_status": "verified",
       "schedule_evidence": {
-        "source_id": "dbe696bf2305",
-        "locator": "Abschnitt I, 30 Wochenstunden; Spalte ab 01.09.2026",
+        "source_id": "2348d5a43099",
+        "locator": "Betreuungsformen und Öffnungszeiten: HT/VÖ/VÖ XL",
         "original": null
       },
       "payment_months": 12,
@@ -138,12 +158,18 @@
       "scope": "municipal",
       "category": "childcare",
       "weekly_minutes": 1800,
-      "weekday_minutes": null,
+      "weekday_minutes": [
+        360,
+        360,
+        360,
+        360,
+        360
+      ],
       "continuous": true,
-      "schedule_status": "daily_distribution_unverified",
+      "schedule_status": "verified",
       "schedule_evidence": {
-        "source_id": "dbe696bf2305",
-        "locator": "Abschnitt I, 30 Wochenstunden; Spalte ab 01.09.2027",
+        "source_id": "2348d5a43099",
+        "locator": "Betreuungsformen und Öffnungszeiten: HT/VÖ/VÖ XL",
         "original": null
       },
       "payment_months": 12,
@@ -173,12 +199,18 @@
       "scope": "municipal",
       "category": "childcare",
       "weekly_minutes": 2100,
-      "weekday_minutes": null,
+      "weekday_minutes": [
+        420,
+        420,
+        420,
+        420,
+        420
+      ],
       "continuous": true,
-      "schedule_status": "daily_distribution_unverified",
+      "schedule_status": "verified",
       "schedule_evidence": {
-        "source_id": "dbe696bf2305",
-        "locator": "Abschnitt I, 35 Wochenstunden; Spalte ab 01.09.2026",
+        "source_id": "2348d5a43099",
+        "locator": "Betreuungsformen und Öffnungszeiten: HT/VÖ/VÖ XL",
         "original": null
       },
       "payment_months": 12,
@@ -208,12 +240,18 @@
       "scope": "municipal",
       "category": "childcare",
       "weekly_minutes": 2100,
-      "weekday_minutes": null,
+      "weekday_minutes": [
+        420,
+        420,
+        420,
+        420,
+        420
+      ],
       "continuous": true,
-      "schedule_status": "daily_distribution_unverified",
+      "schedule_status": "verified",
       "schedule_evidence": {
-        "source_id": "dbe696bf2305",
-        "locator": "Abschnitt I, 35 Wochenstunden; Spalte ab 01.09.2027",
+        "source_id": "2348d5a43099",
+        "locator": "Betreuungsformen und Öffnungszeiten: HT/VÖ/VÖ XL",
         "original": null
       },
       "payment_months": 12,
@@ -243,12 +281,18 @@
       "scope": "municipal",
       "category": "childcare",
       "weekly_minutes": 1500,
-      "weekday_minutes": null,
+      "weekday_minutes": [
+        300,
+        300,
+        300,
+        300,
+        300
+      ],
       "continuous": true,
-      "schedule_status": "daily_distribution_unverified",
+      "schedule_status": "verified",
       "schedule_evidence": {
-        "source_id": "dbe696bf2305",
-        "locator": "Abschnitt II, 25 Wochenstunden; Spalte ab 01.09.2026",
+        "source_id": "2348d5a43099",
+        "locator": "Betreuungsformen und Öffnungszeiten: HT/VÖ/VÖ XL",
         "original": null
       },
       "payment_months": 12,
@@ -278,12 +322,18 @@
       "scope": "municipal",
       "category": "childcare",
       "weekly_minutes": 1500,
-      "weekday_minutes": null,
+      "weekday_minutes": [
+        300,
+        300,
+        300,
+        300,
+        300
+      ],
       "continuous": true,
-      "schedule_status": "daily_distribution_unverified",
+      "schedule_status": "verified",
       "schedule_evidence": {
-        "source_id": "dbe696bf2305",
-        "locator": "Abschnitt II, 25 Wochenstunden; Spalte ab 01.09.2027",
+        "source_id": "2348d5a43099",
+        "locator": "Betreuungsformen und Öffnungszeiten: HT/VÖ/VÖ XL",
         "original": null
       },
       "payment_months": 12,
@@ -313,12 +363,18 @@
       "scope": "municipal",
       "category": "childcare",
       "weekly_minutes": 1800,
-      "weekday_minutes": null,
+      "weekday_minutes": [
+        360,
+        360,
+        360,
+        360,
+        360
+      ],
       "continuous": true,
-      "schedule_status": "daily_distribution_unverified",
+      "schedule_status": "verified",
       "schedule_evidence": {
-        "source_id": "dbe696bf2305",
-        "locator": "Abschnitt II, 30 Wochenstunden; Spalte ab 01.09.2026",
+        "source_id": "2348d5a43099",
+        "locator": "Betreuungsformen und Öffnungszeiten: HT/VÖ/VÖ XL",
         "original": null
       },
       "payment_months": 12,
@@ -348,12 +404,18 @@
       "scope": "municipal",
       "category": "childcare",
       "weekly_minutes": 1800,
-      "weekday_minutes": null,
+      "weekday_minutes": [
+        360,
+        360,
+        360,
+        360,
+        360
+      ],
       "continuous": true,
-      "schedule_status": "daily_distribution_unverified",
+      "schedule_status": "verified",
       "schedule_evidence": {
-        "source_id": "dbe696bf2305",
-        "locator": "Abschnitt II, 30 Wochenstunden; Spalte ab 01.09.2027",
+        "source_id": "2348d5a43099",
+        "locator": "Betreuungsformen und Öffnungszeiten: HT/VÖ/VÖ XL",
         "original": null
       },
       "payment_months": 12,
@@ -383,12 +445,18 @@
       "scope": "municipal",
       "category": "childcare",
       "weekly_minutes": 2100,
-      "weekday_minutes": null,
+      "weekday_minutes": [
+        420,
+        420,
+        420,
+        420,
+        420
+      ],
       "continuous": true,
-      "schedule_status": "daily_distribution_unverified",
+      "schedule_status": "verified",
       "schedule_evidence": {
-        "source_id": "dbe696bf2305",
-        "locator": "Abschnitt II, 35 Wochenstunden; Spalte ab 01.09.2026",
+        "source_id": "2348d5a43099",
+        "locator": "Betreuungsformen und Öffnungszeiten: HT/VÖ/VÖ XL",
         "original": null
       },
       "payment_months": 12,
@@ -418,12 +486,18 @@
       "scope": "municipal",
       "category": "childcare",
       "weekly_minutes": 2100,
-      "weekday_minutes": null,
+      "weekday_minutes": [
+        420,
+        420,
+        420,
+        420,
+        420
+      ],
       "continuous": true,
-      "schedule_status": "daily_distribution_unverified",
+      "schedule_status": "verified",
       "schedule_evidence": {
-        "source_id": "dbe696bf2305",
-        "locator": "Abschnitt II, 35 Wochenstunden; Spalte ab 01.09.2027",
+        "source_id": "2348d5a43099",
+        "locator": "Betreuungsformen und Öffnungszeiten: HT/VÖ/VÖ XL",
         "original": null
       },
       "payment_months": 12,
@@ -453,12 +527,18 @@
       "scope": "municipal",
       "category": "childcare",
       "weekly_minutes": 2430,
-      "weekday_minutes": null,
+      "weekday_minutes": [
+        360,
+        570,
+        570,
+        570,
+        360
+      ],
       "continuous": true,
-      "schedule_status": "daily_distribution_unverified",
+      "schedule_status": "verified",
       "schedule_evidence": {
-        "source_id": "dbe696bf2305",
-        "locator": "Abschnitt II, 40.5 Wochenstunden; Spalte ab 01.09.2026",
+        "source_id": "5498e2f0ce9c",
+        "locator": "Betreuungsformen und Öffnungszeiten: Ganztag mit drei oder vier Nachmittagen",
         "original": null
       },
       "payment_months": 12,
@@ -488,12 +568,18 @@
       "scope": "municipal",
       "category": "childcare",
       "weekly_minutes": 2430,
-      "weekday_minutes": null,
+      "weekday_minutes": [
+        360,
+        570,
+        570,
+        570,
+        360
+      ],
       "continuous": true,
-      "schedule_status": "daily_distribution_unverified",
+      "schedule_status": "verified",
       "schedule_evidence": {
-        "source_id": "dbe696bf2305",
-        "locator": "Abschnitt II, 40.5 Wochenstunden; Spalte ab 01.09.2027",
+        "source_id": "5498e2f0ce9c",
+        "locator": "Betreuungsformen und Öffnungszeiten: Ganztag mit drei oder vier Nachmittagen",
         "original": null
       },
       "payment_months": 12,
@@ -523,12 +609,18 @@
       "scope": "municipal",
       "category": "childcare",
       "weekly_minutes": 2670,
-      "weekday_minutes": null,
+      "weekday_minutes": [
+        570,
+        570,
+        570,
+        570,
+        390
+      ],
       "continuous": true,
-      "schedule_status": "daily_distribution_unverified",
+      "schedule_status": "verified",
       "schedule_evidence": {
-        "source_id": "dbe696bf2305",
-        "locator": "Abschnitt II, 44.5 Wochenstunden; Spalte ab 01.09.2026",
+        "source_id": "5498e2f0ce9c",
+        "locator": "Betreuungsformen und Öffnungszeiten: Ganztag mit drei oder vier Nachmittagen",
         "original": null
       },
       "payment_months": 12,
@@ -558,12 +650,18 @@
       "scope": "municipal",
       "category": "childcare",
       "weekly_minutes": 2670,
-      "weekday_minutes": null,
+      "weekday_minutes": [
+        570,
+        570,
+        570,
+        570,
+        390
+      ],
       "continuous": true,
-      "schedule_status": "daily_distribution_unverified",
+      "schedule_status": "verified",
       "schedule_evidence": {
-        "source_id": "dbe696bf2305",
-        "locator": "Abschnitt II, 44.5 Wochenstunden; Spalte ab 01.09.2027",
+        "source_id": "5498e2f0ce9c",
+        "locator": "Betreuungsformen und Öffnungszeiten: Ganztag mit drei oder vier Nachmittagen",
         "original": null
       },
       "payment_months": 12,
@@ -1866,201 +1964,288 @@
   "income_bands": [],
   "components": [
     {
-      "id": "baltmannsweiler-component-40e7f306ef2b",
+      "id": "baltmannsweiler-component-49549445d214",
       "kind": "meal",
-      "original_label": "Mittagessen u3 1 Tage/Woche",
-      "amount_cents": 1600,
-      "unit": "per_month",
-      "age_group": "u3",
-      "required": null,
-      "payment_months": null,
-      "offer_ids": null,
-      "valid_from": "2026-09-01",
-      "valid_to": null,
-      "value_status": "known",
-      "evidence": {
-        "source_id": "dbe696bf2305",
-        "locator": "Abschnitt V, aktuelle Essensbeiträge (nicht Klammerwerte)",
-        "original": null
-      },
-      "days_per_week": 1
-    },
-    {
-      "id": "baltmannsweiler-component-6af316d29708",
-      "kind": "meal",
-      "original_label": "Mittagessen u3 2 Tage/Woche",
-      "amount_cents": 3100,
-      "unit": "per_month",
-      "age_group": "u3",
-      "required": null,
-      "payment_months": null,
-      "offer_ids": null,
-      "valid_from": "2026-09-01",
-      "valid_to": null,
-      "value_status": "known",
-      "evidence": {
-        "source_id": "dbe696bf2305",
-        "locator": "Abschnitt V, aktuelle Essensbeiträge (nicht Klammerwerte)",
-        "original": null
-      },
-      "days_per_week": 2
-    },
-    {
-      "id": "baltmannsweiler-component-5fc624f866e2",
-      "kind": "meal",
-      "original_label": "Mittagessen u3 3 Tage/Woche",
-      "amount_cents": 4600,
-      "unit": "per_month",
-      "age_group": "u3",
-      "required": null,
-      "payment_months": null,
-      "offer_ids": null,
-      "valid_from": "2026-09-01",
-      "valid_to": null,
-      "value_status": "known",
-      "evidence": {
-        "source_id": "dbe696bf2305",
-        "locator": "Abschnitt V, aktuelle Essensbeiträge (nicht Klammerwerte)",
-        "original": null
-      },
-      "days_per_week": 3
-    },
-    {
-      "id": "baltmannsweiler-component-3c4237d6f910",
-      "kind": "meal",
-      "original_label": "Mittagessen u3 4 Tage/Woche",
-      "amount_cents": 6100,
-      "unit": "per_month",
-      "age_group": "u3",
-      "required": null,
-      "payment_months": null,
-      "offer_ids": null,
-      "valid_from": "2026-09-01",
-      "valid_to": null,
-      "value_status": "known",
-      "evidence": {
-        "source_id": "dbe696bf2305",
-        "locator": "Abschnitt V, aktuelle Essensbeiträge (nicht Klammerwerte)",
-        "original": null
-      },
-      "days_per_week": 4
-    },
-    {
-      "id": "baltmannsweiler-component-1519a7c915a8",
-      "kind": "meal",
-      "original_label": "Mittagessen u3 5 Tage/Woche",
+      "original_label": "Mittagessen u3 5 Tage/Woche (verpflichtend)",
       "amount_cents": 7700,
       "unit": "per_month",
       "age_group": "u3",
-      "required": null,
+      "required": true,
       "payment_months": null,
-      "offer_ids": null,
+      "offer_ids": [
+        "baltmannsweiler-offer-3a85cd8cee1d",
+        "baltmannsweiler-offer-34014bffe0c7",
+        "baltmannsweiler-offer-5f4504e93f08",
+        "baltmannsweiler-offer-d40a14a0052b",
+        "baltmannsweiler-offer-c83b0a0d7233",
+        "baltmannsweiler-offer-f054201268ff"
+      ],
       "valid_from": "2026-09-01",
       "valid_to": null,
       "value_status": "known",
       "evidence": {
         "source_id": "dbe696bf2305",
-        "locator": "Abschnitt V, aktuelle Essensbeiträge (nicht Klammerwerte)",
+        "locator": "Abschnitte I, II und V, aktuelle Essensbeiträge",
         "original": null
       },
       "days_per_week": 5
     },
     {
-      "id": "baltmannsweiler-component-494cd744a085",
+      "id": "baltmannsweiler-component-080535fb745a",
       "kind": "meal",
-      "original_label": "Mittagessen o3 1 Tage/Woche",
+      "original_label": "Mittagessen o3 1 Tage/Woche (verpflichtend)",
       "amount_cents": 1900,
       "unit": "per_month",
       "age_group": "o3",
-      "required": null,
+      "required": true,
       "payment_months": null,
-      "offer_ids": null,
+      "offer_ids": [
+        "baltmannsweiler-offer-35e93b259ef1",
+        "baltmannsweiler-offer-2b6117af1659",
+        "baltmannsweiler-offer-dbcc4eda3bfc",
+        "baltmannsweiler-offer-f6275597738e",
+        "baltmannsweiler-offer-6111f6a1dce9",
+        "baltmannsweiler-offer-f783c633159d"
+      ],
       "valid_from": "2026-09-01",
       "valid_to": null,
       "value_status": "known",
       "evidence": {
         "source_id": "dbe696bf2305",
-        "locator": "Abschnitt V, aktuelle Essensbeiträge (nicht Klammerwerte)",
+        "locator": "Abschnitte I, II und V, aktuelle Essensbeiträge",
         "original": null
       },
       "days_per_week": 1
     },
     {
-      "id": "baltmannsweiler-component-9998ad7939a1",
+      "id": "baltmannsweiler-component-145250aeed86",
       "kind": "meal",
-      "original_label": "Mittagessen o3 2 Tage/Woche",
-      "amount_cents": 3700,
+      "original_label": "Mittagessen o3 1 Tage/Woche (optional)",
+      "amount_cents": 1900,
       "unit": "per_month",
       "age_group": "o3",
-      "required": null,
+      "required": false,
       "payment_months": null,
-      "offer_ids": null,
+      "offer_ids": [
+        "baltmannsweiler-offer-6bfd90f0bbb3",
+        "baltmannsweiler-offer-551f8b4d871d",
+        "baltmannsweiler-offer-911849fb104e",
+        "baltmannsweiler-offer-26254b9f58b8"
+      ],
       "valid_from": "2026-09-01",
       "valid_to": null,
       "value_status": "known",
       "evidence": {
         "source_id": "dbe696bf2305",
-        "locator": "Abschnitt V, aktuelle Essensbeiträge (nicht Klammerwerte)",
+        "locator": "Abschnitte I, II und V, aktuelle Essensbeiträge",
+        "original": null
+      },
+      "days_per_week": 1
+    },
+    {
+      "id": "baltmannsweiler-component-b346654719d1",
+      "kind": "meal",
+      "original_label": "Mittagessen o3 2 Tage/Woche (verpflichtend)",
+      "amount_cents": 3700,
+      "unit": "per_month",
+      "age_group": "o3",
+      "required": true,
+      "payment_months": null,
+      "offer_ids": [
+        "baltmannsweiler-offer-35e93b259ef1",
+        "baltmannsweiler-offer-2b6117af1659",
+        "baltmannsweiler-offer-dbcc4eda3bfc",
+        "baltmannsweiler-offer-f6275597738e",
+        "baltmannsweiler-offer-6111f6a1dce9",
+        "baltmannsweiler-offer-f783c633159d"
+      ],
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "Abschnitte I, II und V, aktuelle Essensbeiträge",
         "original": null
       },
       "days_per_week": 2
     },
     {
-      "id": "baltmannsweiler-component-88f87d337ce8",
+      "id": "baltmannsweiler-component-1399b3b4c99a",
       "kind": "meal",
-      "original_label": "Mittagessen o3 3 Tage/Woche",
-      "amount_cents": 5500,
+      "original_label": "Mittagessen o3 2 Tage/Woche (optional)",
+      "amount_cents": 3700,
       "unit": "per_month",
       "age_group": "o3",
-      "required": null,
+      "required": false,
       "payment_months": null,
-      "offer_ids": null,
+      "offer_ids": [
+        "baltmannsweiler-offer-6bfd90f0bbb3",
+        "baltmannsweiler-offer-551f8b4d871d",
+        "baltmannsweiler-offer-911849fb104e",
+        "baltmannsweiler-offer-26254b9f58b8"
+      ],
       "valid_from": "2026-09-01",
       "valid_to": null,
       "value_status": "known",
       "evidence": {
         "source_id": "dbe696bf2305",
-        "locator": "Abschnitt V, aktuelle Essensbeiträge (nicht Klammerwerte)",
+        "locator": "Abschnitte I, II und V, aktuelle Essensbeiträge",
+        "original": null
+      },
+      "days_per_week": 2
+    },
+    {
+      "id": "baltmannsweiler-component-ef06b8f81dc3",
+      "kind": "meal",
+      "original_label": "Mittagessen o3 3 Tage/Woche (verpflichtend)",
+      "amount_cents": 5500,
+      "unit": "per_month",
+      "age_group": "o3",
+      "required": true,
+      "payment_months": null,
+      "offer_ids": [
+        "baltmannsweiler-offer-35e93b259ef1",
+        "baltmannsweiler-offer-2b6117af1659",
+        "baltmannsweiler-offer-dbcc4eda3bfc",
+        "baltmannsweiler-offer-f6275597738e",
+        "baltmannsweiler-offer-6111f6a1dce9",
+        "baltmannsweiler-offer-f783c633159d"
+      ],
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "Abschnitte I, II und V, aktuelle Essensbeiträge",
         "original": null
       },
       "days_per_week": 3
     },
     {
-      "id": "baltmannsweiler-component-1a0ecb82c81d",
+      "id": "baltmannsweiler-component-708c991bd0da",
       "kind": "meal",
-      "original_label": "Mittagessen o3 4 Tage/Woche",
-      "amount_cents": 7300,
+      "original_label": "Mittagessen o3 3 Tage/Woche (optional)",
+      "amount_cents": 5500,
       "unit": "per_month",
       "age_group": "o3",
-      "required": null,
+      "required": false,
       "payment_months": null,
-      "offer_ids": null,
+      "offer_ids": [
+        "baltmannsweiler-offer-6bfd90f0bbb3",
+        "baltmannsweiler-offer-551f8b4d871d",
+        "baltmannsweiler-offer-911849fb104e",
+        "baltmannsweiler-offer-26254b9f58b8"
+      ],
       "valid_from": "2026-09-01",
       "valid_to": null,
       "value_status": "known",
       "evidence": {
         "source_id": "dbe696bf2305",
-        "locator": "Abschnitt V, aktuelle Essensbeiträge (nicht Klammerwerte)",
+        "locator": "Abschnitte I, II und V, aktuelle Essensbeiträge",
+        "original": null
+      },
+      "days_per_week": 3
+    },
+    {
+      "id": "baltmannsweiler-component-1287c66cc36b",
+      "kind": "meal",
+      "original_label": "Mittagessen o3 4 Tage/Woche (verpflichtend)",
+      "amount_cents": 7300,
+      "unit": "per_month",
+      "age_group": "o3",
+      "required": true,
+      "payment_months": null,
+      "offer_ids": [
+        "baltmannsweiler-offer-35e93b259ef1",
+        "baltmannsweiler-offer-2b6117af1659",
+        "baltmannsweiler-offer-dbcc4eda3bfc",
+        "baltmannsweiler-offer-f6275597738e",
+        "baltmannsweiler-offer-6111f6a1dce9",
+        "baltmannsweiler-offer-f783c633159d"
+      ],
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "Abschnitte I, II und V, aktuelle Essensbeiträge",
         "original": null
       },
       "days_per_week": 4
     },
     {
-      "id": "baltmannsweiler-component-f7cad79a91f0",
+      "id": "baltmannsweiler-component-31fa9c2d45bd",
       "kind": "meal",
-      "original_label": "Mittagessen o3 5 Tage/Woche",
-      "amount_cents": 9100,
+      "original_label": "Mittagessen o3 4 Tage/Woche (optional)",
+      "amount_cents": 7300,
       "unit": "per_month",
       "age_group": "o3",
-      "required": null,
+      "required": false,
       "payment_months": null,
-      "offer_ids": null,
+      "offer_ids": [
+        "baltmannsweiler-offer-6bfd90f0bbb3",
+        "baltmannsweiler-offer-551f8b4d871d",
+        "baltmannsweiler-offer-911849fb104e",
+        "baltmannsweiler-offer-26254b9f58b8"
+      ],
       "valid_from": "2026-09-01",
       "valid_to": null,
       "value_status": "known",
       "evidence": {
         "source_id": "dbe696bf2305",
-        "locator": "Abschnitt V, aktuelle Essensbeiträge (nicht Klammerwerte)",
+        "locator": "Abschnitte I, II und V, aktuelle Essensbeiträge",
+        "original": null
+      },
+      "days_per_week": 4
+    },
+    {
+      "id": "baltmannsweiler-component-b134ae587dd5",
+      "kind": "meal",
+      "original_label": "Mittagessen o3 5 Tage/Woche (verpflichtend)",
+      "amount_cents": 9100,
+      "unit": "per_month",
+      "age_group": "o3",
+      "required": true,
+      "payment_months": null,
+      "offer_ids": [
+        "baltmannsweiler-offer-35e93b259ef1",
+        "baltmannsweiler-offer-2b6117af1659",
+        "baltmannsweiler-offer-dbcc4eda3bfc",
+        "baltmannsweiler-offer-f6275597738e",
+        "baltmannsweiler-offer-6111f6a1dce9",
+        "baltmannsweiler-offer-f783c633159d"
+      ],
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "Abschnitte I, II und V, aktuelle Essensbeiträge",
+        "original": null
+      },
+      "days_per_week": 5
+    },
+    {
+      "id": "baltmannsweiler-component-554161a6abfa",
+      "kind": "meal",
+      "original_label": "Mittagessen o3 5 Tage/Woche (optional)",
+      "amount_cents": 9100,
+      "unit": "per_month",
+      "age_group": "o3",
+      "required": false,
+      "payment_months": null,
+      "offer_ids": [
+        "baltmannsweiler-offer-6bfd90f0bbb3",
+        "baltmannsweiler-offer-551f8b4d871d",
+        "baltmannsweiler-offer-911849fb104e",
+        "baltmannsweiler-offer-26254b9f58b8"
+      ],
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "dbe696bf2305",
+        "locator": "Abschnitte I, II und V, aktuelle Essensbeiträge",
         "original": null
       },
       "days_per_week": 5
@@ -2482,7 +2667,7 @@
     "offers": 16,
     "price_cells": 64,
     "income_bands": 0,
-    "components": 10,
+    "components": 11,
     "rule_records": 28,
     "tariff_table_transcription": "complete_for_declared_scope",
     "declared_scope": "Aktuelle und bereits veröffentlichte künftige Krippen- und Kindergartentarife; Zusatzkosten und Gebührenregeln.",

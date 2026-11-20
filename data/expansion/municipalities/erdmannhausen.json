@@ -61,7 +61,16 @@
         "original": null
       },
       "formula": null,
-      "gt_days_per_week": 0
+      "gt_days_per_week": 0,
+      "weekday_pattern": {
+        "long_days": 0,
+        "long_day_minutes": 600,
+        "other_day_minutes": 410
+      },
+      "model_schedule": {
+        "days_per_week": 5
+      },
+      "model_reduced_income": false
     },
     {
       "id": "erdmannhausen-offer-31e3b5e982cc",
@@ -97,7 +106,16 @@
         "original": null
       },
       "formula": null,
-      "gt_days_per_week": 1
+      "gt_days_per_week": 1,
+      "weekday_pattern": {
+        "long_days": 1,
+        "long_day_minutes": 600,
+        "other_day_minutes": 410
+      },
+      "model_schedule": {
+        "days_per_week": 5
+      },
+      "model_reduced_income": false
     },
     {
       "id": "erdmannhausen-offer-a7d5e405d23d",
@@ -133,7 +151,16 @@
         "original": null
       },
       "formula": null,
-      "gt_days_per_week": 2
+      "gt_days_per_week": 2,
+      "weekday_pattern": {
+        "long_days": 2,
+        "long_day_minutes": 600,
+        "other_day_minutes": 410
+      },
+      "model_schedule": {
+        "days_per_week": 5
+      },
+      "model_reduced_income": false
     },
     {
       "id": "erdmannhausen-offer-8e96c1fdbc27",
@@ -169,7 +196,16 @@
         "original": null
       },
       "formula": null,
-      "gt_days_per_week": 3
+      "gt_days_per_week": 3,
+      "weekday_pattern": {
+        "long_days": 3,
+        "long_day_minutes": 600,
+        "other_day_minutes": 410
+      },
+      "model_schedule": {
+        "days_per_week": 5
+      },
+      "model_reduced_income": false
     },
     {
       "id": "erdmannhausen-offer-1f78ed6fdf38",
@@ -184,9 +220,15 @@
       "scope": "municipal",
       "category": "childcare",
       "weekly_minutes": 2810,
-      "weekday_minutes": null,
+      "weekday_minutes": [
+        600,
+        600,
+        600,
+        600,
+        410
+      ],
       "continuous": true,
-      "schedule_status": "daily_distribution_unverified",
+      "schedule_status": "verified",
       "schedule_evidence": {
         "source_id": "9290d9f1b98e",
         "locator": "PDF S. 3–7: Öffnungszeiten, Grundbeiträge und GT-Gesamttabellen",
@@ -205,7 +247,16 @@
         "original": null
       },
       "formula": null,
-      "gt_days_per_week": 4
+      "gt_days_per_week": 4,
+      "weekday_pattern": {
+        "long_days": 4,
+        "long_day_minutes": 600,
+        "other_day_minutes": 410
+      },
+      "model_schedule": {
+        "days_per_week": 5
+      },
+      "model_reduced_income": false
     },
     {
       "id": "erdmannhausen-offer-a10c4d0bb168",
@@ -247,7 +298,16 @@
         "original": null
       },
       "formula": null,
-      "gt_days_per_week": 5
+      "gt_days_per_week": 5,
+      "weekday_pattern": {
+        "long_days": 5,
+        "long_day_minutes": 600,
+        "other_day_minutes": 410
+      },
+      "model_schedule": {
+        "days_per_week": 5
+      },
+      "model_reduced_income": false
     },
     {
       "id": "erdmannhausen-offer-ebe8a741b1d1",
@@ -289,7 +349,16 @@
         "original": null
       },
       "formula": null,
-      "gt_days_per_week": 0
+      "gt_days_per_week": 0,
+      "weekday_pattern": {
+        "long_days": 0,
+        "long_day_minutes": 600,
+        "other_day_minutes": 410
+      },
+      "model_schedule": {
+        "days_per_week": 5
+      },
+      "model_reduced_income": true
     },
     {
       "id": "erdmannhausen-offer-eb60782dcf52",
@@ -325,7 +394,16 @@
         "original": null
       },
       "formula": null,
-      "gt_days_per_week": 1
+      "gt_days_per_week": 1,
+      "weekday_pattern": {
+        "long_days": 1,
+        "long_day_minutes": 600,
+        "other_day_minutes": 410
+      },
+      "model_schedule": {
+        "days_per_week": 5
+      },
+      "model_reduced_income": true
     },
     {
       "id": "erdmannhausen-offer-d08ea58659ab",
@@ -361,7 +439,16 @@
         "original": null
       },
       "formula": null,
-      "gt_days_per_week": 2
+      "gt_days_per_week": 2,
+      "weekday_pattern": {
+        "long_days": 2,
+        "long_day_minutes": 600,
+        "other_day_minutes": 410
+      },
+      "model_schedule": {
+        "days_per_week": 5
+      },
+      "model_reduced_income": true
     },
     {
       "id": "erdmannhausen-offer-155d08fcb7d0",
@@ -397,7 +484,16 @@
         "original": null
       },
       "formula": null,
-      "gt_days_per_week": 3
+      "gt_days_per_week": 3,
+      "weekday_pattern": {
+        "long_days": 3,
+        "long_day_minutes": 600,
+        "other_day_minutes": 410
+      },
+      "model_schedule": {
+        "days_per_week": 5
+      },
+      "model_reduced_income": true
     },
     {
       "id": "erdmannhausen-offer-d82708b52aa7",
@@ -412,9 +508,15 @@
       "scope": "municipal",
       "category": "childcare",
       "weekly_minutes": 2810,
-      "weekday_minutes": null,
+      "weekday_minutes": [
+        600,
+        600,
+        600,
+        600,
+        410
+      ],
       "continuous": true,
-      "schedule_status": "daily_distribution_unverified",
+      "schedule_status": "verified",
       "schedule_evidence": {
         "source_id": "9290d9f1b98e",
         "locator": "PDF S. 3–7: Öffnungszeiten, Grundbeiträge und GT-Gesamttabellen",
@@ -433,7 +535,16 @@
         "original": null
       },
       "formula": null,
-      "gt_days_per_week": 4
+      "gt_days_per_week": 4,
+      "weekday_pattern": {
+        "long_days": 4,
+        "long_day_minutes": 600,
+        "other_day_minutes": 410
+      },
+      "model_schedule": {
+        "days_per_week": 5
+      },
+      "model_reduced_income": true
     },
     {
       "id": "erdmannhausen-offer-6d7996d21c18",
@@ -475,7 +586,16 @@
         "original": null
       },
       "formula": null,
-      "gt_days_per_week": 5
+      "gt_days_per_week": 5,
+      "weekday_pattern": {
+        "long_days": 5,
+        "long_day_minutes": 600,
+        "other_day_minutes": 410
+      },
+      "model_schedule": {
+        "days_per_week": 5
+      },
+      "model_reduced_income": true
     },
     {
       "id": "erdmannhausen-offer-8967ce521f20",
@@ -517,7 +637,16 @@
         "original": null
       },
       "formula": null,
-      "gt_days_per_week": 0
+      "gt_days_per_week": 0,
+      "weekday_pattern": {
+        "long_days": 0,
+        "long_day_minutes": 600,
+        "other_day_minutes": 420
+      },
+      "model_schedule": {
+        "days_per_week": 5
+      },
+      "model_reduced_income": false
     },
     {
       "id": "erdmannhausen-offer-fc8644d274e2",
@@ -553,7 +682,16 @@
         "original": null
       },
       "formula": null,
-      "gt_days_per_week": 1
+      "gt_days_per_week": 1,
+      "weekday_pattern": {
+        "long_days": 1,
+        "long_day_minutes": 600,
+        "other_day_minutes": 420
+      },
+      "model_schedule": {
+        "days_per_week": 5
+      },
+      "model_reduced_income": false
     },
     {
       "id": "erdmannhausen-offer-f24045f3405a",
@@ -589,7 +727,16 @@
         "original": null
       },
       "formula": null,
-      "gt_days_per_week": 2
+      "gt_days_per_week": 2,
+      "weekday_pattern": {
+        "long_days": 2,
+        "long_day_minutes": 600,
+        "other_day_minutes": 420
+      },
+      "model_schedule": {
+        "days_per_week": 5
+      },
+      "model_reduced_income": false
     },
     {
       "id": "erdmannhausen-offer-bfe1e3402cc4",
@@ -625,7 +772,16 @@
         "original": null
       },
       "formula": null,
-      "gt_days_per_week": 3
+      "gt_days_per_week": 3,
+      "weekday_pattern": {
+        "long_days": 3,
+        "long_day_minutes": 600,
+        "other_day_minutes": 420
+      },
+      "model_schedule": {
+        "days_per_week": 5
+      },
+      "model_reduced_income": false
     },
     {
       "id": "erdmannhausen-offer-f534e386fe22",
@@ -640,9 +796,15 @@
       "scope": "municipal",
       "category": "mixed_age",
       "weekly_minutes": 2820,
-      "weekday_minutes": null,
+      "weekday_minutes": [
+        600,
+        600,
+        600,
+        600,
+        420
+      ],
       "continuous": true,
-      "schedule_status": "daily_distribution_unverified",
+      "schedule_status": "verified",
       "schedule_evidence": {
         "source_id": "9290d9f1b98e",
         "locator": "PDF S. 3–7: Öffnungszeiten, Grundbeiträge und GT-Gesamttabellen",
@@ -661,7 +823,16 @@
         "original": null
       },
       "formula": null,
-      "gt_days_per_week": 4
+      "gt_days_per_week": 4,
+      "weekday_pattern": {
+        "long_days": 4,
+        "long_day_minutes": 600,
+        "other_day_minutes": 420
+      },
+      "model_schedule": {
+        "days_per_week": 5
+      },
+      "model_reduced_income": false
     },
     {
       "id": "erdmannhausen-offer-51956621df50",
@@ -703,7 +874,16 @@
         "original": null
       },
       "formula": null,
-      "gt_days_per_week": 5
+      "gt_days_per_week": 5,
+      "weekday_pattern": {
+        "long_days": 5,
+        "long_day_minutes": 600,
+        "other_day_minutes": 420
+      },
+      "model_schedule": {
+        "days_per_week": 5
+      },
+      "model_reduced_income": false
     },
     {
       "id": "erdmannhausen-offer-4a3ee8d9146a",
@@ -745,7 +925,16 @@
         "original": null
       },
       "formula": null,
-      "gt_days_per_week": 0
+      "gt_days_per_week": 0,
+      "weekday_pattern": {
+        "long_days": 0,
+        "long_day_minutes": 600,
+        "other_day_minutes": 420
+      },
+      "model_schedule": {
+        "days_per_week": 5
+      },
+      "model_reduced_income": true
     },
     {
       "id": "erdmannhausen-offer-25c5324183fa",
@@ -781,7 +970,16 @@
         "original": null
       },
       "formula": null,
-      "gt_days_per_week": 1
+      "gt_days_per_week": 1,
+      "weekday_pattern": {
+        "long_days": 1,
+        "long_day_minutes": 600,
+        "other_day_minutes": 420
+      },
+      "model_schedule": {
+        "days_per_week": 5
+      },
+      "model_reduced_income": true
     },
     {
       "id": "erdmannhausen-offer-8982d6c66463",
@@ -817,7 +1015,16 @@
         "original": null
       },
       "formula": null,
-      "gt_days_per_week": 2
+      "gt_days_per_week": 2,
+      "weekday_pattern": {
+        "long_days": 2,
+        "long_day_minutes": 600,
+        "other_day_minutes": 420
+      },
+      "model_schedule": {
+        "days_per_week": 5
+      },
+      "model_reduced_income": true
     },
     {
       "id": "erdmannhausen-offer-564deefb557e",
@@ -853,7 +1060,16 @@
         "original": null
       },
       "formula": null,
-      "gt_days_per_week": 3
+      "gt_days_per_week": 3,
+      "weekday_pattern": {
+        "long_days": 3,
+        "long_day_minutes": 600,
+        "other_day_minutes": 420
+      },
+      "model_schedule": {
+        "days_per_week": 5
+      },
+      "model_reduced_income": true
     },
     {
       "id": "erdmannhausen-offer-6bd249dbc3fb",
@@ -868,9 +1084,15 @@
       "scope": "municipal",
       "category": "mixed_age",
       "weekly_minutes": 2820,
-      "weekday_minutes": null,
+      "weekday_minutes": [
+        600,
+        600,
+        600,
+        600,
+        420
+      ],
       "continuous": true,
-      "schedule_status": "daily_distribution_unverified",
+      "schedule_status": "verified",
       "schedule_evidence": {
         "source_id": "9290d9f1b98e",
         "locator": "PDF S. 3–7: Öffnungszeiten, Grundbeiträge und GT-Gesamttabellen",
@@ -889,7 +1111,16 @@
         "original": null
       },
       "formula": null,
-      "gt_days_per_week": 4
+      "gt_days_per_week": 4,
+      "weekday_pattern": {
+        "long_days": 4,
+        "long_day_minutes": 600,
+        "other_day_minutes": 420
+      },
+      "model_schedule": {
+        "days_per_week": 5
+      },
+      "model_reduced_income": true
     },
     {
       "id": "erdmannhausen-offer-9531bf3ac654",
@@ -931,7 +1162,16 @@
         "original": null
       },
       "formula": null,
-      "gt_days_per_week": 5
+      "gt_days_per_week": 5,
+      "weekday_pattern": {
+        "long_days": 5,
+        "long_day_minutes": 600,
+        "other_day_minutes": 420
+      },
+      "model_schedule": {
+        "days_per_week": 5
+      },
+      "model_reduced_income": true
     },
     {
       "id": "erdmannhausen-offer-aa754ed007aa",
@@ -973,7 +1213,16 @@
         "original": null
       },
       "formula": null,
-      "gt_days_per_week": 0
+      "gt_days_per_week": 0,
+      "weekday_pattern": {
+        "long_days": 0,
+        "long_day_minutes": 600,
+        "other_day_minutes": 420
+      },
+      "model_schedule": {
+        "days_per_week": 5
+      },
+      "model_reduced_income": false
     },
     {
       "id": "erdmannhausen-offer-49e2bc1f7372",
@@ -1009,7 +1258,16 @@
         "original": null
       },
       "formula": null,
-      "gt_days_per_week": 1
+      "gt_days_per_week": 1,
+      "weekday_pattern": {
+        "long_days": 1,
+        "long_day_minutes": 600,
+        "other_day_minutes": 420
+      },
+      "model_schedule": {
+        "days_per_week": 5
+      },
+      "model_reduced_income": false
     },
     {
       "id": "erdmannhausen-offer-f178d86db35d",
@@ -1045,7 +1303,16 @@
         "original": null
       },
       "formula": null,
-      "gt_days_per_week": 2
+      "gt_days_per_week": 2,
+      "weekday_pattern": {
+        "long_days": 2,
+        "long_day_minutes": 600,
+        "other_day_minutes": 420
+      },
+      "model_schedule": {
+        "days_per_week": 5
+      },
+      "model_reduced_income": false
     },
     {
       "id": "erdmannhausen-offer-ee36e074566c",
@@ -1081,7 +1348,16 @@
         "original": null
       },
       "formula": null,
-      "gt_days_per_week": 3
+      "gt_days_per_week": 3,
+      "weekday_pattern": {
+        "long_days": 3,
+        "long_day_minutes": 600,
+        "other_day_minutes": 420
+      },
+      "model_schedule": {
+        "days_per_week": 5
+      },
+      "model_reduced_income": false
     },
     {
       "id": "erdmannhausen-offer-9991b64f81dd",
@@ -1096,9 +1372,15 @@
       "scope": "municipal",
       "category": "childcare",
       "weekly_minutes": 2820,
-      "weekday_minutes": null,
+      "weekday_minutes": [
+        600,
+        600,
+        600,
+        600,
+        420
+      ],
       "continuous": true,
-      "schedule_status": "daily_distribution_unverified",
+      "schedule_status": "verified",
       "schedule_evidence": {
         "source_id": "9290d9f1b98e",
         "locator": "PDF S. 3–7: Öffnungszeiten, Grundbeiträge und GT-Gesamttabellen",
@@ -1117,7 +1399,16 @@
         "original": null
       },
       "formula": null,
-      "gt_days_per_week": 4
+      "gt_days_per_week": 4,
+      "weekday_pattern": {
+        "long_days": 4,
+        "long_day_minutes": 600,
+        "other_day_minutes": 420
+      },
+      "model_schedule": {
+        "days_per_week": 5
+      },
+      "model_reduced_income": false
     },
     {
       "id": "erdmannhausen-offer-5c4c0510a316",
@@ -1159,7 +1450,16 @@
         "original": null
       },
       "formula": null,
-      "gt_days_per_week": 5
+      "gt_days_per_week": 5,
+      "weekday_pattern": {
+        "long_days": 5,
+        "long_day_minutes": 600,
+        "other_day_minutes": 420
+      },
+      "model_schedule": {
+        "days_per_week": 5
+      },
+      "model_reduced_income": false
     },
     {
       "id": "erdmannhausen-offer-e5b9dfc26fcd",
@@ -1201,7 +1501,16 @@
         "original": null
       },
       "formula": null,
-      "gt_days_per_week": 0
+      "gt_days_per_week": 0,
+      "weekday_pattern": {
+        "long_days": 0,
+        "long_day_minutes": 600,
+        "other_day_minutes": 420
+      },
+      "model_schedule": {
+        "days_per_week": 5
+      },
+      "model_reduced_income": true
     },
     {
       "id": "erdmannhausen-offer-42ba29fcec7f",
@@ -1237,7 +1546,16 @@
         "original": null
       },
       "formula": null,
-      "gt_days_per_week": 1
+      "gt_days_per_week": 1,
+      "weekday_pattern": {
+        "long_days": 1,
+        "long_day_minutes": 600,
+        "other_day_minutes": 420
+      },
+      "model_schedule": {
+        "days_per_week": 5
+      },
+      "model_reduced_income": true
     },
     {
       "id": "erdmannhausen-offer-f3b086587c2e",
@@ -1273,7 +1591,16 @@
         "original": null
       },
       "formula": null,
-      "gt_days_per_week": 2
+      "gt_days_per_week": 2,
+      "weekday_pattern": {
+        "long_days": 2,
+        "long_day_minutes": 600,
+        "other_day_minutes": 420
+      },
+      "model_schedule": {
+        "days_per_week": 5
+      },
+      "model_reduced_income": true
     },
     {
       "id": "erdmannhausen-offer-793c59ed675a",
@@ -1309,7 +1636,16 @@
         "original": null
       },
       "formula": null,
-      "gt_days_per_week": 3
+      "gt_days_per_week": 3,
+      "weekday_pattern": {
+        "long_days": 3,
+        "long_day_minutes": 600,
+        "other_day_minutes": 420
+      },
+      "model_schedule": {
+        "days_per_week": 5
+      },
+      "model_reduced_income": true
     },
     {
       "id": "erdmannhausen-offer-b7a83a5b60dd",
@@ -1324,9 +1660,15 @@
       "scope": "municipal",
       "category": "childcare",
       "weekly_minutes": 2820,
-      "weekday_minutes": null,
+      "weekday_minutes": [
+        600,
+        600,
+        600,
+        600,
+        420
+      ],
       "continuous": true,
-      "schedule_status": "daily_distribution_unverified",
+      "schedule_status": "verified",
       "schedule_evidence": {
         "source_id": "9290d9f1b98e",
         "locator": "PDF S. 3–7: Öffnungszeiten, Grundbeiträge und GT-Gesamttabellen",
@@ -1345,7 +1687,16 @@
         "original": null
       },
       "formula": null,
-      "gt_days_per_week": 4
+      "gt_days_per_week": 4,
+      "weekday_pattern": {
+        "long_days": 4,
+        "long_day_minutes": 600,
+        "other_day_minutes": 420
+      },
+      "model_schedule": {
+        "days_per_week": 5
+      },
+      "model_reduced_income": true
     },
     {
       "id": "erdmannhausen-offer-986a790ec1da",
@@ -1387,7 +1738,16 @@
         "original": null
       },
       "formula": null,
-      "gt_days_per_week": 5
+      "gt_days_per_week": 5,
+      "weekday_pattern": {
+        "long_days": 5,
+        "long_day_minutes": 600,
+        "other_day_minutes": 420
+      },
+      "model_schedule": {
+        "days_per_week": 5
+      },
+      "model_reduced_income": true
     }
   ],
   "prices": [
@@ -1420,7 +1780,7 @@
     {
       "id": "erdmannhausen-price-8d400c361853",
       "offer_id": "erdmannhausen-offer-ea8f77db60d1",
-      "amount_cents": 37180,
+      "amount_cents": 37200,
       "unit": "per_month",
       "value_status": "known",
       "selectors": {
@@ -1434,14 +1794,14 @@
       "evidence": {
         "source_id": "9290d9f1b98e",
         "locator": "PDF S. 3–7: Öffnungszeiten, Grundbeiträge und GT-Gesamttabellen",
-        "original": 37180
+        "original": 37200
       },
       "derivation": {
-        "base_cents": 37180,
+        "base_cents": 37200,
         "gt_surcharge_cents": 0,
         "included_meal_cents": 0
       },
-      "care_only_amount_cents": 37180
+      "care_only_amount_cents": 37200
     },
     {
       "id": "erdmannhausen-price-9772b88325e6",
@@ -1530,7 +1890,7 @@
     {
       "id": "erdmannhausen-price-aad42d92120d",
       "offer_id": "erdmannhausen-offer-31e3b5e982cc",
-      "amount_cents": 46860,
+      "amount_cents": 46880,
       "unit": "per_month",
       "value_status": "known",
       "selectors": {
@@ -1550,14 +1910,14 @@
       "evidence": {
         "source_id": "9290d9f1b98e",
         "locator": "PDF S. 3–7: Öffnungszeiten, Grundbeiträge und GT-Gesamttabellen",
-        "original": 46860
+        "original": 46880
       },
       "derivation": {
-        "base_cents": 37180,
+        "base_cents": 37200,
         "gt_surcharge_cents": 8000,
         "included_meal_cents": 1680
       },
-      "care_only_amount_cents": 45180
+      "care_only_amount_cents": 45200
     },
     {
       "id": "erdmannhausen-price-8dfcbfba627f",
@@ -1658,7 +2018,7 @@
     {
       "id": "erdmannhausen-price-cb69f1180908",
       "offer_id": "erdmannhausen-offer-a7d5e405d23d",
-      "amount_cents": 50540,
+      "amount_cents": 50560,
       "unit": "per_month",
       "value_status": "known",
       "selectors": {
@@ -1678,14 +2038,14 @@
       "evidence": {
         "source_id": "9290d9f1b98e",
         "locator": "PDF S. 3–7: Öffnungszeiten, Grundbeiträge und GT-Gesamttabellen",
-        "original": 50540
+        "original": 50560
       },
       "derivation": {
-        "base_cents": 37180,
+        "base_cents": 37200,
         "gt_surcharge_cents": 10000,
         "included_meal_cents": 3360
       },
-      "care_only_amount_cents": 47180
+      "care_only_amount_cents": 47200
     },
     {
       "id": "erdmannhausen-price-f1f96c34df27",
@@ -1786,7 +2146,7 @@
     {
       "id": "erdmannhausen-price-9d438b972306",
       "offer_id": "erdmannhausen-offer-8e96c1fdbc27",
-      "amount_cents": 54220,
+      "amount_cents": 54240,
       "unit": "per_month",
       "value_status": "known",
       "selectors": {
@@ -1806,14 +2166,14 @@
       "evidence": {
         "source_id": "9290d9f1b98e",
         "locator": "PDF S. 3–7: Öffnungszeiten, Grundbeiträge und GT-Gesamttabellen",
-        "original": 54220
+        "original": 54240
       },
       "derivation": {
-        "base_cents": 37180,
+        "base_cents": 37200,
         "gt_surcharge_cents": 12000,
         "included_meal_cents": 5040
       },
-      "care_only_amount_cents": 49180
+      "care_only_amount_cents": 49200
     },
     {
       "id": "erdmannhausen-price-74fb37088cc3",
@@ -1914,7 +2274,7 @@
     {
       "id": "erdmannhausen-price-cb249f0d7d84",
       "offer_id": "erdmannhausen-offer-1f78ed6fdf38",
-      "amount_cents": 57400,
+      "amount_cents": 57420,
       "unit": "per_month",
       "value_status": "known",
       "selectors": {
@@ -1934,14 +2294,14 @@
       "evidence": {
         "source_id": "9290d9f1b98e",
         "locator": "PDF S. 3–7: Öffnungszeiten, Grundbeiträge und GT-Gesamttabellen",
-        "original": 57400
+        "original": 57420
       },
       "derivation": {
-        "base_cents": 37180,
+        "base_cents": 37200,
         "gt_surcharge_cents": 13500,
         "included_meal_cents": 6720
       },
-      "care_only_amount_cents": 50680
+      "care_only_amount_cents": 50700
     },
     {
       "id": "erdmannhausen-price-fc55634b5b12",
@@ -2042,7 +2402,7 @@
     {
       "id": "erdmannhausen-price-36d28f2767f9",
       "offer_id": "erdmannhausen-offer-a10c4d0bb168",
-      "amount_cents": 60580,
+      "amount_cents": 60600,
       "unit": "per_month",
       "value_status": "known",
       "selectors": {
@@ -2062,14 +2422,14 @@
       "evidence": {
         "source_id": "9290d9f1b98e",
         "locator": "PDF S. 3–7: Öffnungszeiten, Grundbeiträge und GT-Gesamttabellen",
-        "original": 60580
+        "original": 60600
       },
       "derivation": {
-        "base_cents": 37180,
+        "base_cents": 37200,
         "gt_surcharge_cents": 15000,
         "included_meal_cents": 8400
       },
-      "care_only_amount_cents": 52180
+      "care_only_amount_cents": 52200
     },
     {
       "id": "erdmannhausen-price-9f865ec96dd7",
@@ -2164,7 +2524,7 @@
     {
       "id": "erdmannhausen-price-bbfa2874fba6",
       "offer_id": "erdmannhausen-offer-ebe8a741b1d1",
-      "amount_cents": 26026,
+      "amount_cents": 26040,
       "unit": "per_month",
       "value_status": "known",
       "selectors": {
@@ -2178,14 +2538,14 @@
       "evidence": {
         "source_id": "9290d9f1b98e",
         "locator": "PDF S. 3–7: Öffnungszeiten, Grundbeiträge und GT-Gesamttabellen",
-        "original": 26026
+        "original": 26040
       },
       "derivation": {
-        "base_cents": 26026,
+        "base_cents": 26040,
         "gt_surcharge_cents": 0,
         "included_meal_cents": 0
       },
-      "care_only_amount_cents": 26026
+      "care_only_amount_cents": 26040
     },
     {
       "id": "erdmannhausen-price-d45887e14af8",
@@ -2274,7 +2634,7 @@
     {
       "id": "erdmannhausen-price-4bdcc19f040d",
       "offer_id": "erdmannhausen-offer-eb60782dcf52",
-      "amount_cents": 35706,
+      "amount_cents": 35720,
       "unit": "per_month",
       "value_status": "known",
       "selectors": {
@@ -2294,14 +2654,14 @@
       "evidence": {
         "source_id": "9290d9f1b98e",
         "locator": "PDF S. 3–7: Öffnungszeiten, Grundbeiträge und GT-Gesamttabellen",
-        "original": 35706
+        "original": 35720
       },
       "derivation": {
-        "base_cents": 26026,
+        "base_cents": 26040,
         "gt_surcharge_cents": 8000,
         "included_meal_cents": 1680
       },
-      "care_only_amount_cents": 34026
+      "care_only_amount_cents": 34040
     },
     {
       "id": "erdmannhausen-price-102719e2ccdd",
@@ -2402,7 +2762,7 @@
     {
       "id": "erdmannhausen-price-7efb94afe080",
       "offer_id": "erdmannhausen-offer-d08ea58659ab",
-      "amount_cents": 39386,
+      "amount_cents": 39400,
       "unit": "per_month",
       "value_status": "known",
       "selectors": {
@@ -2422,14 +2782,14 @@
       "evidence": {
         "source_id": "9290d9f1b98e",
         "locator": "PDF S. 3–7: Öffnungszeiten, Grundbeiträge und GT-Gesamttabellen",
-        "original": 39386
+        "original": 39400
       },
       "derivation": {
-        "base_cents": 26026,
+        "base_cents": 26040,
         "gt_surcharge_cents": 10000,
         "included_meal_cents": 3360
       },
-      "care_only_amount_cents": 36026
+      "care_only_amount_cents": 36040
     },
     {
       "id": "erdmannhausen-price-67aac235789f",
@@ -2530,7 +2890,7 @@
     {
       "id": "erdmannhausen-price-81cf6db265b6",
       "offer_id": "erdmannhausen-offer-155d08fcb7d0",
-      "amount_cents": 43066,
+      "amount_cents": 43080,
       "unit": "per_month",
       "value_status": "known",
       "selectors": {
@@ -2550,14 +2910,14 @@
       "evidence": {
         "source_id": "9290d9f1b98e",
         "locator": "PDF S. 3–7: Öffnungszeiten, Grundbeiträge und GT-Gesamttabellen",
-        "original": 43066
+        "original": 43080
       },
       "derivation": {
-        "base_cents": 26026,
+        "base_cents": 26040,
         "gt_surcharge_cents": 12000,
         "included_meal_cents": 5040
       },
-      "care_only_amount_cents": 38026
+      "care_only_amount_cents": 38040
     },
     {
       "id": "erdmannhausen-price-b2ee2ea854ba",
@@ -2658,7 +3018,7 @@
     {
       "id": "erdmannhausen-price-501f93e34456",
       "offer_id": "erdmannhausen-offer-d82708b52aa7",
-      "amount_cents": 46246,
+      "amount_cents": 46260,
       "unit": "per_month",
       "value_status": "known",
       "selectors": {
@@ -2678,14 +3038,14 @@
       "evidence": {
         "source_id": "9290d9f1b98e",
         "locator": "PDF S. 3–7: Öffnungszeiten, Grundbeiträge und GT-Gesamttabellen",
-        "original": 46246
+        "original": 46260
       },
       "derivation": {
-        "base_cents": 26026,
+        "base_cents": 26040,
         "gt_surcharge_cents": 13500,
         "included_meal_cents": 6720
       },
-      "care_only_amount_cents": 39526
+      "care_only_amount_cents": 39540
     },
     {
       "id": "erdmannhausen-price-80b5de15fcaf",
@@ -2786,7 +3146,7 @@
     {
       "id": "erdmannhausen-price-f9233fbfb5c6",
       "offer_id": "erdmannhausen-offer-6d7996d21c18",
-      "amount_cents": 49426,
+      "amount_cents": 49440,
       "unit": "per_month",
       "value_status": "known",
       "selectors": {
@@ -2806,14 +3166,14 @@
       "evidence": {
         "source_id": "9290d9f1b98e",
         "locator": "PDF S. 3–7: Öffnungszeiten, Grundbeiträge und GT-Gesamttabellen",
-        "original": 49426
+        "original": 49440
       },
       "derivation": {
-        "base_cents": 26026,
+        "base_cents": 26040,
         "gt_surcharge_cents": 15000,
         "included_meal_cents": 8400
       },
-      "care_only_amount_cents": 41026
+      "care_only_amount_cents": 41040
     },
     {
       "id": "erdmannhausen-price-0248a7b58689",
@@ -5917,9 +6277,16 @@
       "amount_cents": 1680,
       "unit": "per_month",
       "age_group": null,
-      "required": null,
-      "payment_months": null,
-      "offer_ids": null,
+      "required": true,
+      "payment_months": 12,
+      "offer_ids": [
+        "erdmannhausen-offer-31e3b5e982cc",
+        "erdmannhausen-offer-eb60782dcf52",
+        "erdmannhausen-offer-fc8644d274e2",
+        "erdmannhausen-offer-25c5324183fa",
+        "erdmannhausen-offer-49e2bc1f7372",
+        "erdmannhausen-offer-42ba29fcec7f"
+      ],
       "valid_from": "2026-09-01",
       "valid_to": null,
       "value_status": "known",
@@ -5927,8 +6294,7 @@
         "source_id": "9290d9f1b98e",
         "locator": "Verpflegungsstaffel in den GT-Tabellen",
         "original": null
-      },
-      "days_per_week": 1
+      }
     },
     {
       "id": "erdmannhausen-component-5ff235c36636",
@@ -5937,9 +6303,16 @@
       "amount_cents": 3360,
       "unit": "per_month",
       "age_group": null,
-      "required": null,
-      "payment_months": null,
-      "offer_ids": null,
+      "required": true,
+      "payment_months": 12,
+      "offer_ids": [
+        "erdmannhausen-offer-a7d5e405d23d",
+        "erdmannhausen-offer-d08ea58659ab",
+        "erdmannhausen-offer-f24045f3405a",
+        "erdmannhausen-offer-8982d6c66463",
+        "erdmannhausen-offer-f178d86db35d",
+        "erdmannhausen-offer-f3b086587c2e"
+      ],
       "valid_from": "2026-09-01",
       "valid_to": null,
       "value_status": "known",
@@ -5947,8 +6320,7 @@
         "source_id": "9290d9f1b98e",
         "locator": "Verpflegungsstaffel in den GT-Tabellen",
         "original": null
-      },
-      "days_per_week": 2
+      }
     },
     {
       "id": "erdmannhausen-component-eeaf4f0ff66f",
@@ -5957,9 +6329,16 @@
       "amount_cents": 5040,
       "unit": "per_month",
       "age_group": null,
-      "required": null,
-      "payment_months": null,
-      "offer_ids": null,
+      "required": true,
+      "payment_months": 12,
+      "offer_ids": [
+        "erdmannhausen-offer-8e96c1fdbc27",
+        "erdmannhausen-offer-155d08fcb7d0",
+        "erdmannhausen-offer-bfe1e3402cc4",
+        "erdmannhausen-offer-564deefb557e",
+        "erdmannhausen-offer-ee36e074566c",
+        "erdmannhausen-offer-793c59ed675a"
+      ],
       "valid_from": "2026-09-01",
       "valid_to": null,
       "value_status": "known",
@@ -5967,8 +6346,7 @@
         "source_id": "9290d9f1b98e",
         "locator": "Verpflegungsstaffel in den GT-Tabellen",
         "original": null
-      },
-      "days_per_week": 3
+      }
     },
     {
       "id": "erdmannhausen-component-dd97c90c88e0",
@@ -5977,9 +6355,16 @@
       "amount_cents": 6720,
       "unit": "per_month",
       "age_group": null,
-      "required": null,
-      "payment_months": null,
-      "offer_ids": null,
+      "required": true,
+      "payment_months": 12,
+      "offer_ids": [
+        "erdmannhausen-offer-1f78ed6fdf38",
+        "erdmannhausen-offer-d82708b52aa7",
+        "erdmannhausen-offer-f534e386fe22",
+        "erdmannhausen-offer-6bd249dbc3fb",
+        "erdmannhausen-offer-9991b64f81dd",
+        "erdmannhausen-offer-b7a83a5b60dd"
+      ],
       "valid_from": "2026-09-01",
       "valid_to": null,
       "value_status": "known",
@@ -5987,8 +6372,7 @@
         "source_id": "9290d9f1b98e",
         "locator": "Verpflegungsstaffel in den GT-Tabellen",
         "original": null
-      },
-      "days_per_week": 4
+      }
     },
     {
       "id": "erdmannhausen-component-6002fdbc58e8",
@@ -5997,9 +6381,16 @@
       "amount_cents": 8400,
       "unit": "per_month",
       "age_group": null,
-      "required": null,
-      "payment_months": null,
-      "offer_ids": null,
+      "required": true,
+      "payment_months": 12,
+      "offer_ids": [
+        "erdmannhausen-offer-a10c4d0bb168",
+        "erdmannhausen-offer-6d7996d21c18",
+        "erdmannhausen-offer-51956621df50",
+        "erdmannhausen-offer-9531bf3ac654",
+        "erdmannhausen-offer-5c4c0510a316",
+        "erdmannhausen-offer-986a790ec1da"
+      ],
       "valid_from": "2026-09-01",
       "valid_to": null,
       "value_status": "known",
@@ -6007,8 +6398,33 @@
         "source_id": "9290d9f1b98e",
         "locator": "Verpflegungsstaffel in den GT-Tabellen",
         "original": null
-      },
-      "days_per_week": 5
+      }
+    },
+    {
+      "id": "erdmannhausen-component-8fed49daa7e7",
+      "kind": "meal",
+      "original_label": "Mittagessen bei VÖ (optional)",
+      "amount_cents": 420,
+      "unit": "per_meal",
+      "age_group": null,
+      "required": false,
+      "payment_months": null,
+      "offer_ids": [
+        "erdmannhausen-offer-ea8f77db60d1",
+        "erdmannhausen-offer-ebe8a741b1d1",
+        "erdmannhausen-offer-8967ce521f20",
+        "erdmannhausen-offer-4a3ee8d9146a",
+        "erdmannhausen-offer-aa754ed007aa",
+        "erdmannhausen-offer-e5b9dfc26fcd"
+      ],
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "9290d9f1b98e",
+        "locator": "PDF S. 4: Einzelpreis bei VÖ",
+        "original": null
+      }
     }
   ],
   "rules": [
@@ -6022,7 +6438,7 @@
             "amount_cents": 50060
           },
           {
-            "amount_cents": 37180
+            "amount_cents": 37200
           },
           {
             "amount_cents": 25080
@@ -6089,7 +6505,7 @@
             "amount_cents": 35042
           },
           {
-            "amount_cents": 26026
+            "amount_cents": 26040
           },
           {
             "amount_cents": 17556
@@ -6556,7 +6972,7 @@
     "offers": 36,
     "price_cells": 144,
     "income_bands": 3,
-    "components": 5,
+    "components": 6,
     "rule_records": 14,
     "tariff_table_transcription": "complete_for_declared_scope",
     "declared_scope": "Aktuelle und bereits veröffentlichte künftige Krippen- und Kindergartentarife; Zusatzkosten und Gebührenregeln.",
@@ -6569,6 +6985,7 @@
     "calculation_engine_changed": false,
     "rule_transcription": "typed_parameters_and_source_clauses_with_explicit_unimplemented_status"
   },
+  "model_tariff": "erdmannhausen",
   "original_research": {
     "path": "data/research/neighbor_expansion_2026-11-10.json",
     "section": "Erdmannhausen",

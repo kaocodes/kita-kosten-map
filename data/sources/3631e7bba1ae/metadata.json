@@ -1,0 +1,13 @@
+{
+  "id": "3631e7bba1ae",
+  "municipality": "Markgröningen",
+  "title": "Städtische Kita-Entgelte und Formulare",
+  "url": "https://www.markgroeningen.de/bildung-freizeit/betreuung/kindertageseinrichtungen/satzung-gebuehren-formulare",
+  "retrieved_at": "2026-11-20T19:47:23.757727+00:00",
+  "http_status": 200,
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://www.markgroeningen.de/bildung-freizeit/betreuung/kindertageseinrichtungen/satzung-gebuehren-formulare",
+  "error": null,
+  "local_path": "data/sources/3631e7bba1ae/document.html",
+  "sha256": "66ca722a39d3e3cfe935d6b8a0da817bf8c238b1655268becf2187749148bf51"
+}

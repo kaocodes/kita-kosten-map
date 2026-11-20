@@ -1,0 +1,13 @@
+{
+  "id": "1b761e309ae7",
+  "municipality": "Altbach",
+  "title": "Kommunale Kindergärten: Kinderhaus Vogelwiesen",
+  "url": "https://www.altbach.de/leben-wohnen/kindergaerten/kommunale-kindergaerten",
+  "retrieved_at": "2026-11-17T21:22:25.342583+00:00",
+  "http_status": 200,
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://www.altbach.de/leben-wohnen/kindergaerten/kommunale-kindergaerten",
+  "error": null,
+  "local_path": "data/sources/1b761e309ae7/document.html",
+  "sha256": "2d08dbbc24c3960c1af2bf248896524b4e2bd6e0288ce7bf8de44b7a5f6b5594"
+}

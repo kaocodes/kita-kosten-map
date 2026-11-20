@@ -1,10 +1,10 @@
 # Datenmodell und Vergleichsberechnung
 
-**Stand:** 10. November 2026 · **Schema:** 1.0 · **Tarifstichtag beider Referenzprofile:** 4. November 2026
+**Stand:** 20. November 2026 · **Schema:** 1.0 · **Tarifstichtag beider Referenzprofile:** 4. November 2026
 
 ## 1. Fachliche Trennung
 
-Die 20 lokal aktiven Kommunen sind geografische Vergleichseinheiten. Es werden keine einzelnen Einrichtungen auf der Karte benötigt. Einrichtungsbezogene Veröffentlichungen dienen dort als Beleg, wo die kommunale Gebührenformel von den angebotenen Öffnungsstunden abhängt. Unterschiedliche Zeitverteilungen sind als Angebotsvarianten einer Kommune gespeichert; abweichende Essenspreise bleiben gesonderte Kostenvarianten.
+Der lokale Basisbuild verwendet 20 Kommunen. GitHub Pages und die Erweiterungsvorschau binden 49 Tarifgebiete über dieselbe geografische Zuordnung ein. Einrichtungen dienen als Nachweis für Tarifgeltung und Buchbarkeit.
 
 Der Datenbestand besteht aus drei nachvollziehbaren Ebenen:
 
@@ -12,13 +12,11 @@ Der Datenbestand besteht aus drei nachvollziehbaren Ebenen:
 2. **Strukturierte Originaltarife:** Versionierte Angebote, Preiszellen, Einkommensstufen, Kostenbausteine und Regeln. Normalisierte Angaben ergänzen Originalbezeichnungen und Quellenfundstellen.
 3. **Vergleichsergebnisse:** Ein Profil wird auf die lokalen Regeln angewendet. Das Ergebnis enthält den ausgewählten Tarif, Buchungsumfang, Originalbeitrag, Beitragsmonate, Vergleichsbetrag und Rechenweg.
 
-Die kanonischen Daten stehen in `data/municipalities/`. Quellenkennungen werden über `data/source_manifest.json` aufgelöst. Die frühere Markdown-Recherche ist unter `data/imported/` eingefroren; sie wird nicht als aktuelle Gebühren-API gelesen. CSV-Dateien und der gemeinsame Katalog in `data/exports/` entstehen aus den kanonischen JSON-Dateien.
+Die kanonischen Daten für den regulären Build stehen in `data/municipalities/`. Quellenkennungen werden über `data/source_manifest.json` aufgelöst. Die ursprüngliche Markdown-Recherche liegt im lokalen Archiv. Aus dem kanonischen Bestand lassen sich mit dem Python-Export CSV-, JSON- und Markdown-Dateien erzeugen.
 
-**Erweiterungsimport vom 10. November 2026:** Die 33 neuen Kommunen sind im selben Schema unter `data/expansion/municipalities/` aufbereitet. Dieser getrennte Importbereich wird noch nicht vom Rechner, regulären Export oder Webbuild geladen. Das [Manifest](../data/expansion/manifest.json) enthält Dateiprüfsummen und Erfassungsumfang; die [Aufbereitungsübersicht](ERWEITERUNGSDATEN.md) erläutert Formeltarife, Quellengrenzen und ausstehende Rechenprüfung. Die ursprünglichen Monatsbeträge bleiben auch bei enthaltenem Essen erhalten; bekannte reine Betreuungsanteile werden ergänzend mit `care_only_amount_cents` und Herleitung gespeichert. Gebührenklauseln sind mit Fundstellen dokumentiert; noch nicht ausführbare Regeln bleiben ausdrücklich gekennzeichnet. Dieser Abschnitt beschreibt den ursprünglichen Importstand. Der aktuelle lokale Integrationsstand steht im folgenden Absatz. Die Berechnungsengine bleibt unverändert.
+Die erste Erweiterung enthält 33 Kataloge unter `data/expansion/municipalities/`. Acht davon wurden in den regulären Bestand übernommen. Die zweite Erhebung ergänzt vier Kataloge unter `data/expansion/batches/2026-11-20/`. Der Vorschau-Build prüft beide Manifeste und ergänzt deren Kataloge im Browserdatenexport. Das reguläre Register und die Python-Exporte bleiben auf den aktiven Bestand begrenzt.
 
-**Kompatibilitätsprüfung aus Schritt 2:** Der separate [Prüfindex](../data/expansion/calculation_review.json) ist anhand von Eingabe- und Codeprüfsummen an die geprüften Kataloge und Modellprofile gebunden. Er enthält die unterstützten Konfigurationen und Fallgruppen mit `unavailable` und konkreten Gründen. Die [Prüfdokumentation](ERWEITERUNGSBERECHNUNG.md) grenzt den Umfang auf die aktuellen Modelloptionen mit maximal vier Kindern ein. Der Index ist ein Offline-Ergebnis und noch keine Laufzeitänderung; bei einer späteren Integration muss die Ablehnung wirksam übernommen werden. Nicht ausgeführte kommunale Regeln werden nicht durch eine Änderung der gemeinsamen Engine umgangen.
-
-**Lokale Integration von acht Kommunen:** `data/expansion/activation.json` wählt die vollständig unterstützten Kataloge aus. `scripts/activate_expansion_catalogs.py` übernimmt sie bytegleich nach `data/municipalities/` und ergänzt das Register. Bei jedem Webstart und Build prüft `--check` die Freigabe-Prüfsumme, sämtliche gebundenen Eingaben, die komplette Modellabdeckung und die Katalogkopien. Teilweise unterstützte Kommunen werden nicht aktiviert. Damit umfasst die lokale Website 20 Kommunen; die restlichen 25 Erweiterungskataloge bleiben außerhalb des Webexports. Importmanifest und Kompatibilitätsindex bleiben unveränderte Prüfsnapshots, ihre damaligen Aktivierungsangaben sind keine aktuelle Registerauskunft. Die fachliche Freigabe gilt nur für die vorhandenen Modelloptionen. [Integrationsdokumentation](ERWEITERUNGSINTEGRATION.md).
+Der [historische Prüfindex](../data/expansion/calculation_review.json) und die [Aktivierungsauswahl](../data/expansion/activation.json) sichern die erste Freigabe. Die [Datenpipeline](DATENPIPELINE.md) beschreibt die heutigen begrenzten Stichproben und die Trennung zwischen Sichtung und Veröffentlichung.
 
 ## 2. Vertrag des Datenformats
 
@@ -55,7 +53,7 @@ Diese Regeln und betroffenen Konfigurationen stehen zunächst im Recherchebestan
 
 - `municipalities`: stabile `id`, amtlicher `name`, achtstelliger `ags` als Zeichenkette einschließlich führender Null, `active`, `region_id`, `tariff_id` und primäre `area_id`.
 - `areas`: eigene Flächenkennung, `kind` (`municipality` oder `district`), `municipality_id`, `parent_id`, `tariff_id` und `geometry_key`. Ein Bezirk verweist auf die übergeordnete Gemeindefläche und denselben kommunalen Tarif; zusätzliche Tarifkopien sind dafür nicht erforderlich.
-- `geometry_reference`: Pfad, SHA-256-Prüfsumme, Schlüssel-/Namensfelder, Abrufdatum, Quelle und Lizenz der archivierten Geodaten. Die vorhandene BKG-Datei dient als Zuordnungsbeleg; die produktive Geodatenaufbereitung folgt in Paket 3.
+- `geometry_reference`: Pfad, SHA-256-Prüfsumme, Schlüssel-/Namensfelder, Abrufdatum, Quelle und Lizenz der archivierten Geodaten. Die vorhandene BKG-Datei dient als Zuordnungsbeleg; die Webaufbereitung erfolgt beim Build.
 
 Die Validierung verlangt die Tarifkataloge aller aktiven Kommunen und meldet nicht registrierte Kataloge. Registrierte inaktive Kommunen dürfen ihre Daten behalten oder noch keinen Katalog haben; sie erscheinen nicht im Vergleich. Doppelte Kennungen oder AGS, falsche Verweise, fehlende Geometrien und widersprüchliche amtliche Namen werden beanstandet. Es gibt keine feste Sollanzahl von Kommunen mehr. Alle aktiven Zuordnungen werden gegen die archivierten BKG-Attribute geprüft; Namensgleichheit allein wird nicht als laufende Verknüpfung verwendet.
 
@@ -87,9 +85,9 @@ Wesentliche Profileingaben:
 
 Bei einem gerade drei Jahre alten Kind verlangen Kommunen mit Wechsel im Folgemonat zusätzlich `birthday_in_reference_month`. Ohne diese Angabe wird der Grenzmonat nicht geraten. Persönliche Angaben zur Haushaltszugehörigkeit, Kindergeldberechtigung und Anerkennung volljähriger Kinder müssen die für den Tarif genehmigte Konstellation wiedergeben.
 
-Die Berechnung wählt gültige Tarife für Alter und Geltungsbereich, wendet lokale Familien- und Einkommensmerkmale an und prüft die Zeitdeckung **für jeden einzelnen Tag**. Unter den belegten passenden Angeboten wird zuerst der geringste Buchungsumfang und danach der günstigste anwendbare Betreuungspreis gewählt. Nicht veröffentlichte Preise für ein kleineres passendes Paket dürfen nicht stillschweigend durch einen größeren Tarif ersetzt werden. Ungeklärte gleichwertige Varianten ergeben `ambiguous`.
+Die Python-Referenzberechnung und die allgemeine TypeScript-API ohne Wochenoption prüfen die Zeitdeckung je Wochentag. Die öffentliche Modellfamilienansicht aktiviert die Wochenziele. Sie wählt unter belegten Fünf-Tage-Angeboten das Paket am nächsten zu 30 bzw. 40 Wochenstunden mit Untergrenzen bei 30 bzw. 36 Stunden. Mehr Umfang entscheidet bei gleichem Abstand. Bei gleicher Wochenzeit gewinnt der geringere belegte Beitrag. [Regelwerk](REGELWERK_DATENANALYSE.md)
 
-Für die spätere Integration ist ausschließlich für **Denkendorf** eine Nutzerfreigabe zur kürzeren Freitagsbetreuung dokumentiert: Montag bis Donnerstag müssen den gewünschten Tagesumfang belegt erreichen, der Freitag darf kürzer sein. Die tatsächliche Tagesverteilung und der veröffentlichte Preis bleiben unverändert. Das Recherchefeld `model_8h_schedule_status: friday_too_short` bleibt deshalb korrekt; die zusätzliche lokale Vergleichsfreigabe steht in `comparison_policy`. Sie darf nicht zu `available` im Sinn von fünfmal acht Stunden umgedeutet werden. Für Denkendorfs Einkommen wird unmittelbar das gemeinsame Jahresbrutto verwendet; GT-Mittagessen bleibt verpflichtend mit unbekanntem Preis. Dies ist eine Integrationsvorgabe und noch keine Änderung der bestehenden Engine.
+Der Kartenwert einer Modellfamilie ist die Summe aller Jahresbeiträge ihrer betreuten Kita-Kinder, geteilt durch zwölf. Einzelkind-Ergebnisse bleiben in den Details erhalten. Ein nicht berechenbarer Einzelbeitrag sperrt die Familiensumme.
 
 Reguläre Ergebnisse verwenden `status: comparable`. Bei fehlenden Angaben wird `status: unavailable` mit konkreten `reasons` geliefert. Ein Ergebnis kann den bekannten Originalmonatsbeitrag enthalten, während das Monatsäquivalent wegen unbekannter Beitragsmonate leer bleibt.
 
@@ -99,7 +97,9 @@ Für die Erweiterung ist eine Ausnahme für **bereits enthaltene Verpflegung in 
 
 Bei **Aichwald** ist der U3-Essensanteil dagegen mit 5.300 Cent monatlich über zwölf Monate gemäß Nutzerangabe festgelegt. Der Abzug setzt sowohl U3 als auch nachgewiesene Einbeziehung des Essens im veröffentlichten Preis voraus. Die Kontrollzelle bleibt ursprünglich 75.350 Cent; abgeleitet werden 70.050 Cent Betreuung und 5.300 Cent Essen. Ü3, bereits essensfreie U3-Angebote und Original-Ausnahmen für altersgemischte Gruppen bleiben davon unberührt. Originalbetrag, Abzug, Nutzerentscheidung und Quellenfundstelle werden gemeinsam erhalten. Diese Ergebnisbehandlung muss bei der anschließenden Integration im Python- und TypeScript-Rechner sowie in der Anzeige umgesetzt und geprüft werden.
 
-## 4. Vergleichsregeln und Default
+## 4. Python-Referenzprofile und fachliche Annahmen
+
+Die konkreten Pakete in diesem Abschnitt gehören zur Python-Referenz mit täglicher Zeitdeckung. Für die öffentliche Karte gelten die oben beschriebenen Wochenziele.
 
 Das Standardprofil `data/profiles/default.json` ist die Modellfamilie: zwei zusammenlebende Eltern, ein 24 Monate altes Kind ohne Geschwister, Montag bis Freitag mindestens acht Stunden durchgehend, städtischer Tarif. Das Haushaltsbrutto beträgt 80.000 € jährlich; das zu versteuernde Einkommen wird unabhängig davon mit 60.000 € angenommen. Einkommen bleibt im Vorjahr und laufenden Jahr gleich; andere Einkünfte und Vermietungsverluste werden ausgeschlossen. Pass- und zusätzliche Sozialermäßigungen sind nicht bestätigt und werden nicht automatisch angewendet.
 
@@ -123,7 +123,7 @@ Der TypeScript-Kern verwendet dafür exakte Bruchrechnung mit `bigint` und gibt 
 
 ## 5. Prüfung, Pflege und verbleibende Einschränkungen
 
-Der [Standardvergleich](STANDARDVERGLEICH.md) und der [Höchsttarifvergleich](HOECHSTTARIFVERGLEICH.md) werden aus den Daten erzeugt. Die unabhängigen Sollwerte stehen in `data/reviews/model_family_review.json` und `data/reviews/highest_band_review.json`, mit Fundstellen für alle zwölf Kommunen. Die bisherige `default_review.json` wurde in `highest_band_review.json` umbenannt. Für die Modellfamilie ändern sich Ditzingen, Esslingen und Korntal-Münchingen; deren neue Zellen wurden gegen die archivierten Originaltabellen geprüft. Die zuvor ausgewählten Höchsttarifzellen wurden auch visuell geprüft; Fellbachs Formel wurde mit den offiziellen Tageszeiten abgeglichen. Alle 800 Esslinger Zusatzzeitbeträge werden außerdem automatisiert gegen die archivierte Original-PDF-Tabelle geprüft.
+Standardvergleich und Höchsttarifvergleich halten den damaligen Stand im lokalen Archiv fest. Die unabhängigen Sollwerte der ursprünglichen Kommunen stehen in `data/reviews/model_family_review.json` und `data/reviews/highest_band_review.json`. Der Python-Export kann neue Referenzberichte im gewählten Ausgabeverzeichnis erzeugen. Die aktuellen Web-Stichproben stehen in der [Erweiterungsprüfung](ERWEITERUNGSBERECHNUNG.md).
 
 Die Tests decken beide Referenzprofile, Registererweiterung, inaktive Kommunen, AGS-Zuordnung, geteilte Tarifverweise, Schutz der Modellannahmen, Zahlungsmonate, Paketgrenzen, Tagesverteilung, Einkommensarten und Grenzwerte, Alleinerziehende, Familiengröße und Betreuungsrang, Passvoraussetzungen, Rundung, Zusatzzeiten, eingeschlossene Zuschläge, künftige Tarife und fehlende Angaben ab. Die Datenvalidierung kontrolliert außerdem die kanonischen Profile, deren Quellenverweise und die SHA-256-Prüfsummen aller archivierten Antworten und der Geometrie-Referenzdatei.
 

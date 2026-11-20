@@ -1,0 +1,28 @@
+Information zu den einheitlichen Essenspreisen
+Abrechnung seit Januar 2024
+Einrichtung                Zahlweise                    Zahlungsempfänger     Betrag    Anzahl Betreuungstage
+Kita Fliederweg            Fester Monatsbeitrag         Stadt Markgröningen   88,00 €
+Kita Nonnenpfad            Fester Monatsbeitrag         Stadt Markgröningen   88,00 €
+Kita Sudetenstraße         Fester Monatsbeitrag         Stadt Markgröningen   88,00 €
+
+BBE                        Monatsbeitrag                Stadt Markgröningen   88,00 €   5 Tage Betreuung
+Ludwig-Heyd-Schule
+BBE                        Monatsbeitrag                Stadt Markgröningen   70,40 €   4 Tage Betreuung
+Ludwig-Heyd-Schule
+BBE                        Monatsbeitrag                Stadt Markgröningen   52,80 €   3 Tage Betreuung
+Ludwig-Heyd-Schule
+BBE                        Monatsbeitrag                Stadt Markgröningen   35,20 €   2 Tage Betreuung
+Ludwig-Heyd-Schule
+BBE                        Monatsbeitrag                Stadt Markgröningen   17,60 €   1 Tag Betreuung
+Ludwig-Heyd-Schule
+
+BBE                        Einzelessen                  Caterer               5,00 €    Je nach Anzahl der Essen
+Landern Grundschule
+
+
+Bildungszentrum Benzberg   Bezahlung vor Ort je nach Speise
+Hauptspeise                3,80 €
+Nudelgericht               3,00 €
+Beilagensalat              1,00 €
+Suppe/Dessert              0,80 €
+

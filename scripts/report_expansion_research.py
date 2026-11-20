@@ -186,7 +186,11 @@ def render(register, sources):
     lines = [
         "# Recherche und Bewertung der 33 Nachbarkommunen",
         "",
-        f"**Prüfstand:** {date}. Aktuelle veröffentlichte Tarife; keine historische Preisrecherche.",
+        f"**Prüfstand:** {date}."
+        " Die Bewertungen und offenen Fragen unten halten den damaligen Quellenabgleich fest. Aktueller Stand "
+        "der fachlichen Prüfung und Kartenvorschau: [Erweiterungsprüfung](ERWEITERUNGSBERECHNUNG.md) und "
+        "[Integration](ERWEITERUNGSINTEGRATION.md). Aktuelle veröffentlichte Tarife; keine historische "
+        "Preisrecherche.",
         "",
         f"**Ergebnis:** Für alle 33 Orte wurden offizielle kommunale Einstiegs- oder Gebührenquellen gesichert. "
         f"Bei **{counts['available']} Kommunen** ist eine auswertbare U3-/Ü3-Tarifbasis vorhanden; "
@@ -327,17 +331,12 @@ def render(register, sources):
             "",
         ]
     lines += [
-        "## Nächster Umsetzungsschritt",
+        "## Weiterverarbeitung",
         "",
-        "Die Tarifbasen wurden inzwischen in 33 getrennte Kommunen-JSONs im vorhandenen Schema übertragen; "
-        "sie liegen isoliert unter `data/expansion/municipalities/`. Mengen, Umfang und technische Prüfung stehen in der "
-        "[Aufbereitungsübersicht](ERWEITERUNGSDATEN.md). Die [Kompatibilitätsprüfung der bestehenden Engine](ERWEITERUNGSBERECHNUNG.md) "
-        "ist inzwischen abgeschlossen und weist unterstützte sowie nicht berechenbare Konfigurationen aus. Die vertiefte fachliche Quellenabnahme bleibt ein weiterer Schritt. "
-        f"Die {counts['clarification_required']} verbleibenden Klärungsfälle bleiben für ihre betroffenen Konfigurationen eingeschränkt. "
-        "Neue Einkommens-/Geschwisterregeln, Verpflegung und belegte Tagesverteilungen werden vor einer Aktivierung berücksichtigt. "
-        f"Die gemeinsame Engine bleibt unverändert. Inzwischen sind **{len(activated_candidates(register))} vollständig unterstützte Kandidaten** "
-        "über eine gesonderte, gegen den Prüfindex abgesicherte Auswahl in die lokale Website übernommen. "
-        "Die Veröffentlichung auf GitHub Pages erfolgt nach ausdrücklicher Freigabe über den Workflow auf `main`; historische Preisreihen bleiben zurückgestellt.",
+        "Die 33 Kataloge liegen im gemeinsamen Schema unter `data/expansion/municipalities/`. Acht davon sind "
+        "im regulären Build aktiv. Alle 33 sind zusammen mit den vier später erfassten Kommunen in der lokalen "
+        "Vorschau enthalten. [Aufbereitungsübersicht](ERWEITERUNGSDATEN.md) · [Zweite "
+        "Erhebung](DATENERHEBUNG_2026-11-20.md) · [Datenpipeline](DATENPIPELINE.md)",
         "",
         "Erneut prüfen und Bericht aus den Bewertungen erzeugen:",
         "",

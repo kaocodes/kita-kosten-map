@@ -1,0 +1,13 @@
+{
+  "id": "ad0d6b22f97a",
+  "municipality": "Weissach",
+  "title": "Betreuungsmodelle und Wochenstunden",
+  "url": "https://www.kitas-weissach.de/fileadmin/KiTas_Weissach/Dateien/Betreuungsmodelle_Webseite.pdf",
+  "retrieved_at": "2026-11-17T21:34:50.308760+00:00",
+  "http_status": 200,
+  "content_type": "application/pdf",
+  "final_url": "https://www.kitas-weissach.de/fileadmin/KiTas_Weissach/Dateien/Betreuungsmodelle_Webseite.pdf",
+  "error": null,
+  "local_path": "data/sources/ad0d6b22f97a/document.pdf",
+  "sha256": "6ad74a7a840fa597b311c2f2444c7ec2455aa641560a92d5444b56b3f65be965"
+}

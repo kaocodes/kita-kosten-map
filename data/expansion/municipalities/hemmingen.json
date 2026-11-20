@@ -54,7 +54,22 @@
         "locator": "§ 3 Abs. 2 a–d",
         "original": null
       },
-      "formula": null
+      "formula": null,
+      "model_schedule": {
+        "weekday_minutes": [
+          360,
+          360,
+          360,
+          360,
+          360
+        ],
+        "original_label": "Regelgruppe bis 30 Wochenstunden",
+        "schedule_evidence": {
+          "source_id": "6125abe78891",
+          "locator": "§ 3; kommunales Vormerkportal: Kita Hälde, fünf Tage U3 und Ü3",
+          "original": null
+        }
+      }
     },
     {
       "id": "hemmingen-offer-38fc8882c9be",
@@ -89,7 +104,22 @@
         "locator": "§ 3 Abs. 2 a–d",
         "original": null
       },
-      "formula": null
+      "formula": null,
+      "model_schedule": {
+        "weekday_minutes": [
+          360,
+          360,
+          360,
+          360,
+          360
+        ],
+        "original_label": "Regelgruppe bis 30 Wochenstunden",
+        "schedule_evidence": {
+          "source_id": "6125abe78891",
+          "locator": "§ 3; kommunales Vormerkportal: Kita Hälde, fünf Tage U3 und Ü3",
+          "original": null
+        }
+      }
     },
     {
       "id": "hemmingen-offer-fb65d8aa3653",
@@ -124,7 +154,22 @@
         "locator": "§ 3 Abs. 2 a–d",
         "original": null
       },
-      "formula": null
+      "formula": null,
+      "model_schedule": {
+        "weekday_minutes": [
+          420,
+          420,
+          420,
+          420,
+          420
+        ],
+        "original_label": "VÖ bis 35 Wochenstunden",
+        "schedule_evidence": {
+          "source_id": "6125abe78891",
+          "locator": "§ 3; kommunales Vormerkportal: Kita Hälde, fünf Tage U3 und Ü3",
+          "original": null
+        }
+      }
     },
     {
       "id": "hemmingen-offer-f85d7b13810c",
@@ -159,7 +204,22 @@
         "locator": "§ 3 Abs. 2 a–d",
         "original": null
       },
-      "formula": null
+      "formula": null,
+      "model_schedule": {
+        "weekday_minutes": [
+          420,
+          420,
+          420,
+          420,
+          420
+        ],
+        "original_label": "VÖ bis 35 Wochenstunden",
+        "schedule_evidence": {
+          "source_id": "6125abe78891",
+          "locator": "§ 3; kommunales Vormerkportal: Kita Hälde, fünf Tage U3 und Ü3",
+          "original": null
+        }
+      }
     },
     {
       "id": "hemmingen-offer-0dcc09d17162",
@@ -194,7 +254,22 @@
         "locator": "§ 3 Abs. 2 a–d",
         "original": null
       },
-      "formula": null
+      "formula": null,
+      "model_schedule": {
+        "weekday_minutes": [
+          510,
+          510,
+          510,
+          510,
+          510
+        ],
+        "original_label": "Ganztagsbetreuung",
+        "schedule_evidence": {
+          "source_id": "6125abe78891",
+          "locator": "§ 3; kommunales Vormerkportal: Kita Hälde, fünf Tage U3 und Ü3",
+          "original": null
+        }
+      }
     },
     {
       "id": "hemmingen-offer-0a7c148f212f",
@@ -229,7 +304,22 @@
         "locator": "§ 3 Abs. 2 a–d",
         "original": null
       },
-      "formula": null
+      "formula": null,
+      "model_schedule": {
+        "weekday_minutes": [
+          510,
+          510,
+          510,
+          510,
+          510
+        ],
+        "original_label": "Ganztagsbetreuung",
+        "schedule_evidence": {
+          "source_id": "6125abe78891",
+          "locator": "§ 3; kommunales Vormerkportal: Kita Hälde, fünf Tage U3 und Ü3",
+          "original": null
+        }
+      }
     },
     {
       "id": "hemmingen-offer-7a9c642fe80b",
@@ -1411,6 +1501,7 @@
     "calculation_engine_changed": false,
     "rule_transcription": "typed_parameters_and_source_clauses_with_explicit_unimplemented_status"
   },
+  "model_tariff": "household_rows",
   "original_research": {
     "path": "data/research/neighbor_expansion_2026-11-10.json",
     "section": "Hemmingen",

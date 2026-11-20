@@ -17,12 +17,13 @@
     "original": null
   },
   "supporting_source_ids": [
-    "f19acfa12958"
+    "f19acfa12958",
+    "4759198b2594"
   ],
   "offers": [
     {
-      "id": "plochingen-offer-6007ba6faaa5",
-      "original_label": "Regelgruppe und flexible/VÖ-Gruppe",
+      "id": "plochingen-offer-d8f987c2756f",
+      "original_label": "Flexible/VÖ-Gruppe",
       "age_group": "o3",
       "age_min_months": 36,
       "age_max_months_exclusive": null,
@@ -32,13 +33,19 @@
       "original_price_valid_from": "2026-09-01",
       "scope": "municipal",
       "category": "childcare",
-      "weekly_minutes": null,
-      "weekday_minutes": null,
-      "continuous": false,
-      "schedule_status": "daily_distribution_unverified",
+      "weekly_minutes": 1800,
+      "weekday_minutes": [
+        360,
+        360,
+        360,
+        360,
+        360
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
       "schedule_evidence": {
-        "source_id": "f19acfa12958",
-        "locator": "PDF S. 1, Regelbetreuung",
+        "source_id": "4759198b2594",
+        "locator": "Kommunale Kindergärten: Parkkindergarten Bruckenwasen, VÖ ab zwei Jahren",
         "original": null
       },
       "payment_months": 12,
@@ -50,14 +57,14 @@
       },
       "evidence": {
         "source_id": "f19acfa12958",
-        "locator": "PDF S. 1, Regelbetreuung",
+        "locator": "PDF S. 1, Regelgruppe und flexible/VÖ-Gruppe",
         "original": null
       },
       "formula": null
     },
     {
-      "id": "plochingen-offer-c644177d31ff",
-      "original_label": "Regelgruppe ab zwei Jahren",
+      "id": "plochingen-offer-8761b2a5cea7",
+      "original_label": "Flexible/VÖ-Gruppe ab zwei Jahren",
       "age_group": "u3",
       "age_min_months": 24,
       "age_max_months_exclusive": 36,
@@ -67,13 +74,19 @@
       "original_price_valid_from": "2026-09-01",
       "scope": "municipal",
       "category": "mixed_age",
-      "weekly_minutes": null,
-      "weekday_minutes": null,
-      "continuous": false,
-      "schedule_status": "daily_distribution_unverified",
+      "weekly_minutes": 1800,
+      "weekday_minutes": [
+        360,
+        360,
+        360,
+        360,
+        360
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
       "schedule_evidence": {
-        "source_id": "f19acfa12958",
-        "locator": "PDF S. 1, Regelbetreuung U3",
+        "source_id": "4759198b2594",
+        "locator": "Kommunale Kindergärten: Parkkindergarten Bruckenwasen, VÖ ab zwei Jahren",
         "original": null
       },
       "payment_months": 12,
@@ -85,7 +98,7 @@
       },
       "evidence": {
         "source_id": "f19acfa12958",
-        "locator": "PDF S. 1, Regelbetreuung U3",
+        "locator": "PDF S. 1, Regelgruppe und flexible/VÖ-Gruppe",
         "original": null
       },
       "formula": null
@@ -113,8 +126,8 @@
       "continuous": true,
       "schedule_status": "verified",
       "schedule_evidence": {
-        "source_id": "f19acfa12958",
-        "locator": "PDF S. 1, o3, 4 GT-Tage",
+        "source_id": "4759198b2594",
+        "locator": "Kommunale Kindergärten: Kinderhaus Bismarckstraße, Krippe und Kindergarten",
         "original": null
       },
       "payment_months": 12,
@@ -130,6 +143,7 @@
         "original": null
       },
       "formula": null,
+      "days_per_week": 5,
       "gt_days_per_week": 4
     },
     {
@@ -144,13 +158,13 @@
       "original_price_valid_from": "2026-09-01",
       "scope": "municipal",
       "category": "childcare",
-      "weekly_minutes": null,
+      "weekly_minutes": 2340,
       "weekday_minutes": null,
       "continuous": true,
       "schedule_status": "daily_distribution_unverified",
       "schedule_evidence": {
-        "source_id": "f19acfa12958",
-        "locator": "PDF S. 1, o3, 3 GT-Tage",
+        "source_id": "4759198b2594",
+        "locator": "Kommunale Kindergärten: Kinderhaus Bismarckstraße, Krippe und Kindergarten",
         "original": null
       },
       "payment_months": 12,
@@ -166,6 +180,7 @@
         "original": null
       },
       "formula": null,
+      "days_per_week": 5,
       "gt_days_per_week": 3
     },
     {
@@ -180,13 +195,13 @@
       "original_price_valid_from": "2026-09-01",
       "scope": "municipal",
       "category": "childcare",
-      "weekly_minutes": null,
+      "weekly_minutes": 2160,
       "weekday_minutes": null,
       "continuous": true,
       "schedule_status": "daily_distribution_unverified",
       "schedule_evidence": {
-        "source_id": "f19acfa12958",
-        "locator": "PDF S. 1, o3, 2 GT-Tage",
+        "source_id": "4759198b2594",
+        "locator": "Kommunale Kindergärten: Kinderhaus Bismarckstraße, Krippe und Kindergarten",
         "original": null
       },
       "payment_months": 12,
@@ -202,6 +217,7 @@
         "original": null
       },
       "formula": null,
+      "days_per_week": 5,
       "gt_days_per_week": 2
     },
     {
@@ -227,8 +243,8 @@
       "continuous": true,
       "schedule_status": "verified",
       "schedule_evidence": {
-        "source_id": "f19acfa12958",
-        "locator": "PDF S. 1, u3, 4 GT-Tage",
+        "source_id": "4759198b2594",
+        "locator": "Kommunale Kindergärten: Kinderhaus Bismarckstraße, Krippe und Kindergarten",
         "original": null
       },
       "payment_months": 12,
@@ -244,6 +260,7 @@
         "original": null
       },
       "formula": null,
+      "days_per_week": 5,
       "gt_days_per_week": 4
     },
     {
@@ -258,13 +275,13 @@
       "original_price_valid_from": "2026-09-01",
       "scope": "municipal",
       "category": "childcare",
-      "weekly_minutes": null,
+      "weekly_minutes": 2340,
       "weekday_minutes": null,
       "continuous": true,
       "schedule_status": "daily_distribution_unverified",
       "schedule_evidence": {
-        "source_id": "f19acfa12958",
-        "locator": "PDF S. 1, u3, 3 GT-Tage",
+        "source_id": "4759198b2594",
+        "locator": "Kommunale Kindergärten: Kinderhaus Bismarckstraße, Krippe und Kindergarten",
         "original": null
       },
       "payment_months": 12,
@@ -280,6 +297,7 @@
         "original": null
       },
       "formula": null,
+      "days_per_week": 5,
       "gt_days_per_week": 3
     },
     {
@@ -294,13 +312,13 @@
       "original_price_valid_from": "2026-09-01",
       "scope": "municipal",
       "category": "childcare",
-      "weekly_minutes": null,
+      "weekly_minutes": 2160,
       "weekday_minutes": null,
       "continuous": true,
       "schedule_status": "daily_distribution_unverified",
       "schedule_evidence": {
-        "source_id": "f19acfa12958",
-        "locator": "PDF S. 1, u3, 2 GT-Tage",
+        "source_id": "4759198b2594",
+        "locator": "Kommunale Kindergärten: Kinderhaus Bismarckstraße, Krippe und Kindergarten",
         "original": null
       },
       "payment_months": 12,
@@ -316,6 +334,7 @@
         "original": null
       },
       "formula": null,
+      "days_per_week": 5,
       "gt_days_per_week": 2
     },
     {
@@ -328,7 +347,7 @@
       "valid_from": "2026-09-01",
       "valid_to": null,
       "original_price_valid_from": "2026-09-01",
-      "scope": "named_provider_offer",
+      "scope": "non_municipal",
       "category": "childcare",
       "weekly_minutes": 2400,
       "weekday_minutes": [
@@ -370,7 +389,7 @@
       "valid_from": "2026-09-01",
       "valid_to": null,
       "original_price_valid_from": "2026-09-01",
-      "scope": "named_provider_offer",
+      "scope": "non_municipal",
       "category": "childcare",
       "weekly_minutes": null,
       "weekday_minutes": null,
@@ -406,7 +425,7 @@
       "valid_from": "2026-09-01",
       "valid_to": null,
       "original_price_valid_from": "2026-09-01",
-      "scope": "named_provider_offer",
+      "scope": "non_municipal",
       "category": "childcare",
       "weekly_minutes": null,
       "weekday_minutes": null,
@@ -442,7 +461,7 @@
       "valid_from": "2026-09-01",
       "valid_to": null,
       "original_price_valid_from": "2026-09-01",
-      "scope": "named_provider_offer",
+      "scope": "non_municipal",
       "category": "childcare",
       "weekly_minutes": null,
       "weekday_minutes": null,
@@ -478,7 +497,7 @@
       "valid_from": "2026-09-01",
       "valid_to": null,
       "original_price_valid_from": "2026-09-01",
-      "scope": "municipal",
+      "scope": "non_municipal",
       "category": "childcare",
       "weekly_minutes": 2400,
       "weekday_minutes": [
@@ -492,7 +511,7 @@
       "schedule_status": "verified",
       "schedule_evidence": {
         "source_id": "f19acfa12958",
-        "locator": "PDF S. 2, Kinderkrippe",
+        "locator": "PDF S. 2, Kinderkrippe Sankt Johann",
         "original": null
       },
       "payment_months": 12,
@@ -504,7 +523,7 @@
       },
       "evidence": {
         "source_id": "f19acfa12958",
-        "locator": "PDF S. 2, Kinderkrippe",
+        "locator": "PDF S. 2, Kinderkrippe Sankt Johann",
         "original": null
       },
       "formula": null
@@ -512,8 +531,8 @@
   ],
   "prices": [
     {
-      "id": "plochingen-price-3580779dbd76",
-      "offer_id": "plochingen-offer-6007ba6faaa5",
+      "id": "plochingen-price-ea4b01cf1b4b",
+      "offer_id": "plochingen-offer-d8f987c2756f",
       "amount_cents": 18600,
       "unit": "per_month",
       "value_status": "known",
@@ -527,13 +546,13 @@
       "included_components": [],
       "evidence": {
         "source_id": "f19acfa12958",
-        "locator": "PDF S. 1, Regelbetreuung",
+        "locator": "PDF S. 1, Regelgruppe und flexible/VÖ-Gruppe",
         "original": 186
       }
     },
     {
-      "id": "plochingen-price-810cf4a4634c",
-      "offer_id": "plochingen-offer-6007ba6faaa5",
+      "id": "plochingen-price-01b1b19e0eb6",
+      "offer_id": "plochingen-offer-d8f987c2756f",
       "amount_cents": 15000,
       "unit": "per_month",
       "value_status": "known",
@@ -547,13 +566,13 @@
       "included_components": [],
       "evidence": {
         "source_id": "f19acfa12958",
-        "locator": "PDF S. 1, Regelbetreuung",
+        "locator": "PDF S. 1, Regelgruppe und flexible/VÖ-Gruppe",
         "original": 150
       }
     },
     {
-      "id": "plochingen-price-9fa79ca05c42",
-      "offer_id": "plochingen-offer-6007ba6faaa5",
+      "id": "plochingen-price-1d40eef1fd48",
+      "offer_id": "plochingen-offer-d8f987c2756f",
       "amount_cents": 10600,
       "unit": "per_month",
       "value_status": "known",
@@ -567,13 +586,13 @@
       "included_components": [],
       "evidence": {
         "source_id": "f19acfa12958",
-        "locator": "PDF S. 1, Regelbetreuung",
+        "locator": "PDF S. 1, Regelgruppe und flexible/VÖ-Gruppe",
         "original": 106
       }
     },
     {
-      "id": "plochingen-price-12af444f9dfc",
-      "offer_id": "plochingen-offer-6007ba6faaa5",
+      "id": "plochingen-price-cc8ec9369e79",
+      "offer_id": "plochingen-offer-d8f987c2756f",
       "amount_cents": 5000,
       "unit": "per_month",
       "value_status": "known",
@@ -587,13 +606,13 @@
       "included_components": [],
       "evidence": {
         "source_id": "f19acfa12958",
-        "locator": "PDF S. 1, Regelbetreuung",
+        "locator": "PDF S. 1, Regelgruppe und flexible/VÖ-Gruppe",
         "original": 50
       }
     },
     {
-      "id": "plochingen-price-00095cbeef17",
-      "offer_id": "plochingen-offer-c644177d31ff",
+      "id": "plochingen-price-584704e47e3d",
+      "offer_id": "plochingen-offer-8761b2a5cea7",
       "amount_cents": 37200,
       "unit": "per_month",
       "value_status": "known",
@@ -607,13 +626,13 @@
       "included_components": [],
       "evidence": {
         "source_id": "f19acfa12958",
-        "locator": "PDF S. 1, Regelbetreuung U3",
+        "locator": "PDF S. 1, Regelgruppe und flexible/VÖ-Gruppe",
         "original": 372
       }
     },
     {
-      "id": "plochingen-price-f1a641b69559",
-      "offer_id": "plochingen-offer-c644177d31ff",
+      "id": "plochingen-price-9c177fbc095a",
+      "offer_id": "plochingen-offer-8761b2a5cea7",
       "amount_cents": 30000,
       "unit": "per_month",
       "value_status": "known",
@@ -627,13 +646,13 @@
       "included_components": [],
       "evidence": {
         "source_id": "f19acfa12958",
-        "locator": "PDF S. 1, Regelbetreuung U3",
+        "locator": "PDF S. 1, Regelgruppe und flexible/VÖ-Gruppe",
         "original": 300
       }
     },
     {
-      "id": "plochingen-price-f95a85178269",
-      "offer_id": "plochingen-offer-c644177d31ff",
+      "id": "plochingen-price-485ed0bfbf04",
+      "offer_id": "plochingen-offer-8761b2a5cea7",
       "amount_cents": 21200,
       "unit": "per_month",
       "value_status": "known",
@@ -647,13 +666,13 @@
       "included_components": [],
       "evidence": {
         "source_id": "f19acfa12958",
-        "locator": "PDF S. 1, Regelbetreuung U3",
+        "locator": "PDF S. 1, Regelgruppe und flexible/VÖ-Gruppe",
         "original": 212
       }
     },
     {
-      "id": "plochingen-price-c09befb20816",
-      "offer_id": "plochingen-offer-c644177d31ff",
+      "id": "plochingen-price-816c0ff42a8a",
+      "offer_id": "plochingen-offer-8761b2a5cea7",
       "amount_cents": 10000,
       "unit": "per_month",
       "value_status": "known",
@@ -667,7 +686,7 @@
       "included_components": [],
       "evidence": {
         "source_id": "f19acfa12958",
-        "locator": "PDF S. 1, Regelbetreuung U3",
+        "locator": "PDF S. 1, Regelgruppe und flexible/VÖ-Gruppe",
         "original": 100
       }
     },
@@ -1487,7 +1506,7 @@
       "included_components": [],
       "evidence": {
         "source_id": "f19acfa12958",
-        "locator": "PDF S. 2, Kinderkrippe",
+        "locator": "PDF S. 2, Kinderkrippe Sankt Johann",
         "original": 666
       }
     },
@@ -1507,7 +1526,7 @@
       "included_components": [],
       "evidence": {
         "source_id": "f19acfa12958",
-        "locator": "PDF S. 2, Kinderkrippe",
+        "locator": "PDF S. 2, Kinderkrippe Sankt Johann",
         "original": 532
       }
     },
@@ -1527,7 +1546,7 @@
       "included_components": [],
       "evidence": {
         "source_id": "f19acfa12958",
-        "locator": "PDF S. 2, Kinderkrippe",
+        "locator": "PDF S. 2, Kinderkrippe Sankt Johann",
         "original": 359
       }
     },
@@ -1547,7 +1566,7 @@
       "included_components": [],
       "evidence": {
         "source_id": "f19acfa12958",
-        "locator": "PDF S. 2, Kinderkrippe",
+        "locator": "PDF S. 2, Kinderkrippe Sankt Johann",
         "original": 106
       }
     }
@@ -1563,7 +1582,9 @@
       "age_group": "o3",
       "required": null,
       "payment_months": 11,
-      "offer_ids": null,
+      "offer_ids": [
+        "plochingen-offer-cf9da56e2619"
+      ],
       "valid_from": "2026-09-01",
       "valid_to": null,
       "value_status": "known",
@@ -1571,8 +1592,7 @@
         "source_id": "f19acfa12958",
         "locator": "Mittagessen unter den jeweiligen Tabellen",
         "original": null
-      },
-      "days_per_week": 2
+      }
     },
     {
       "id": "plochingen-component-f98d3be404f8",
@@ -1583,7 +1603,9 @@
       "age_group": "o3",
       "required": null,
       "payment_months": 11,
-      "offer_ids": null,
+      "offer_ids": [
+        "plochingen-offer-317b833a7acf"
+      ],
       "valid_from": "2026-09-01",
       "valid_to": null,
       "value_status": "known",
@@ -1591,8 +1613,7 @@
         "source_id": "f19acfa12958",
         "locator": "Mittagessen unter den jeweiligen Tabellen",
         "original": null
-      },
-      "days_per_week": 3
+      }
     },
     {
       "id": "plochingen-component-1f624764f237",
@@ -1603,7 +1624,9 @@
       "age_group": "o3",
       "required": null,
       "payment_months": 11,
-      "offer_ids": null,
+      "offer_ids": [
+        "plochingen-offer-136156931b23"
+      ],
       "valid_from": "2026-09-01",
       "valid_to": null,
       "value_status": "known",
@@ -1611,8 +1634,7 @@
         "source_id": "f19acfa12958",
         "locator": "Mittagessen unter den jeweiligen Tabellen",
         "original": null
-      },
-      "days_per_week": 4
+      }
     },
     {
       "id": "plochingen-component-a975a5c7def5",
@@ -1623,7 +1645,9 @@
       "age_group": "o3",
       "required": null,
       "payment_months": 11,
-      "offer_ids": null,
+      "offer_ids": [
+        "plochingen-offer-136156931b23"
+      ],
       "valid_from": "2026-09-01",
       "valid_to": null,
       "value_status": "known",
@@ -1631,8 +1655,7 @@
         "source_id": "f19acfa12958",
         "locator": "Mittagessen unter den jeweiligen Tabellen",
         "original": null
-      },
-      "days_per_week": 5
+      }
     },
     {
       "id": "plochingen-component-850adc875b71",
@@ -1643,7 +1666,9 @@
       "age_group": "o3",
       "required": null,
       "payment_months": 11,
-      "offer_ids": null,
+      "offer_ids": [
+        "plochingen-offer-65a0d0089ccd"
+      ],
       "valid_from": "2026-09-01",
       "valid_to": null,
       "value_status": "known",
@@ -1651,8 +1676,7 @@
         "source_id": "f19acfa12958",
         "locator": "Mittagessen unter den jeweiligen Tabellen",
         "original": null
-      },
-      "days_per_week": 2
+      }
     },
     {
       "id": "plochingen-component-f23e347e06c6",
@@ -1663,7 +1687,9 @@
       "age_group": "o3",
       "required": null,
       "payment_months": 11,
-      "offer_ids": null,
+      "offer_ids": [
+        "plochingen-offer-206fc118ccd0"
+      ],
       "valid_from": "2026-09-01",
       "valid_to": null,
       "value_status": "known",
@@ -1671,8 +1697,7 @@
         "source_id": "f19acfa12958",
         "locator": "Mittagessen unter den jeweiligen Tabellen",
         "original": null
-      },
-      "days_per_week": 3
+      }
     },
     {
       "id": "plochingen-component-3acbe951cfb8",
@@ -1683,7 +1708,9 @@
       "age_group": "o3",
       "required": null,
       "payment_months": 11,
-      "offer_ids": null,
+      "offer_ids": [
+        "plochingen-offer-5b27a59d018d"
+      ],
       "valid_from": "2026-09-01",
       "valid_to": null,
       "value_status": "known",
@@ -1691,8 +1718,7 @@
         "source_id": "f19acfa12958",
         "locator": "Mittagessen unter den jeweiligen Tabellen",
         "original": null
-      },
-      "days_per_week": 4
+      }
     },
     {
       "id": "plochingen-component-fe78dbdad466",
@@ -1703,7 +1729,9 @@
       "age_group": "o3",
       "required": null,
       "payment_months": 11,
-      "offer_ids": null,
+      "offer_ids": [
+        "plochingen-offer-8f2ea77d2a71"
+      ],
       "valid_from": "2026-09-01",
       "valid_to": null,
       "value_status": "known",
@@ -1711,8 +1739,7 @@
         "source_id": "f19acfa12958",
         "locator": "Mittagessen unter den jeweiligen Tabellen",
         "original": null
-      },
-      "days_per_week": 5
+      }
     },
     {
       "id": "plochingen-component-ff5f5f473862",
@@ -1723,7 +1750,11 @@
       "age_group": "u3",
       "required": null,
       "payment_months": 11,
-      "offer_ids": null,
+      "offer_ids": [
+        "plochingen-offer-b6781a52bb9b",
+        "plochingen-offer-778af4936451",
+        "plochingen-offer-3536bf67c0e3"
+      ],
       "valid_from": "2026-09-01",
       "valid_to": null,
       "value_status": "known",
@@ -1731,8 +1762,7 @@
         "source_id": "f19acfa12958",
         "locator": "Verpflegung / Zusatzkosten",
         "original": null
-      },
-      "days_per_week": 5
+      }
     },
     {
       "id": "plochingen-component-b90099a6976d",
@@ -1743,7 +1773,9 @@
       "age_group": "u3",
       "required": null,
       "payment_months": 11,
-      "offer_ids": null,
+      "offer_ids": [
+        "plochingen-offer-7ccb001d2246"
+      ],
       "valid_from": "2026-09-01",
       "valid_to": null,
       "value_status": "known",
@@ -1751,8 +1783,7 @@
         "source_id": "f19acfa12958",
         "locator": "Verpflegung / Zusatzkosten",
         "original": null
-      },
-      "days_per_week": 5
+      }
     }
   ],
   "rules": [
@@ -1819,10 +1850,6 @@
     {
       "code": "pending_calculation_review",
       "detail": "Strukturierter Import; noch keine Freigabe des Rechners oder der Website."
-    },
-    {
-      "code": "research_limitation_1",
-      "detail": "GT-Freitagsgrenze erhalten. Die aktuelle Übersicht gilt für mehrere Träger; kommunale Angebote vor Tarifzuordnung filtern."
     }
   ],
   "coverage": {

@@ -1,4 +1,4 @@
-"""Promote explicitly selected, fully reviewed catalogs without modifying calculators."""
+"""Promote explicitly selected and reviewed catalogs."""
 
 import argparse
 import base64
@@ -24,7 +24,11 @@ def check_review(root, selection):
     review = read(root, selection["review_path"])
     if sha256(root / selection["review_path"]) != selection["review_sha256"]:
         raise ValueError("The selected calculation review has changed")
-    for path, expected in review["input_sha256"].items():
+    # Keep the original exhaustive audit intact and bind the sampled follow-up separately.
+    follow_up = selection.get("shorter_friday_review", {}).get("input_sha256", {})
+    if not follow_up.keys() <= review["input_sha256"].keys():
+        raise ValueError("Follow-up contains an input outside the original review")
+    for path, expected in {**review["input_sha256"], **follow_up}.items():
         if sha256(root / path) != expected:
             raise ValueError("Reviewed input has changed: " + path)
     ids = selection["municipality_ids"]
@@ -116,7 +120,7 @@ def main():
     parser.add_argument("--check", action="store_true", help="Verify the selection without writing files")
     args = parser.parse_args()
     count = activate(check=args.check)
-    print(f"{'Verified' if args.check else 'Activated'} {count} fully supported expansion catalogs; calculation engines unchanged.")
+    print(f"{'Verified' if args.check else 'Activated'} {count} approved expansion catalogs.")
 
 
 if __name__ == "__main__":

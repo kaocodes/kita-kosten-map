@@ -1,0 +1,2269 @@
+﻿<!DOCTYPE html>
+<html xmlns='http://www.w3.org/1999/xhtml' xml:lang='de' lang='de' translate='no'>
+
+<head>
+<meta http-equiv=Content-Type content='text/html; charset=utf-8'>
+<meta name=Generator content='Internetmodul der NH-Kindergartenverwaltung SQL'>
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+
+<meta http-equiv='Cache-Control' content='no-cache, no-store, must-revalidate'>
+<meta http-equiv='Pragma' content='no-cache'>
+<meta http-equiv='Expires' content='0'>
+<meta name='version' content='Version: 20,00 Datum: 01.09.2026'>
+
+<meta name='created' content='Ver&ouml;ffentlicht am: 30.09.2026 10:35:19'>
+
+<link rel='stylesheet' href='https://code.jquery.com/ui/1.9.1/themes/base/jquery-ui.css'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css'>
+<link href='css/outdatedbrowser.min.css' rel='stylesheet'>
+<link href='css/multi-select.css' media='screen' rel='stylesheet' type='text/css'>
+<link href='css/bootstrap.min.css' rel='stylesheet'>
+<link href='css/select2.min.css' rel='stylesheet'>
+<link href='css/datepicker.w3.css' rel='stylesheet'>
+<link href='css/styles.css' rel='stylesheet'>
+<link href='css/modal.css' rel='stylesheet'>
+<link href='css/nh.css' rel='stylesheet'>
+<title>anmeldung - Stadtverwaltung Bietigheim-Bissingen</title>
+<script src='js/outdatedbrowser.min.js'></script>
+<script src='https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+<script src='js/tether.min.js'></script>
+<script src='js/bootstrap.bundle.min.js'></script>
+<script src='js/select2.js'></script>
+<script src='js/datepicker.w3.js'></script>
+<script src='js/jquery.multi-select.js'></script>
+<script src='js/jquery.listselect.js'></script>
+<script src='js/nh_kiga_functions.js'></script>
+<script src='js/jquery.inputmask.bundle.js'></script>
+<script src='https://ajax.googleapis.com/ajax/libs/jqueryui/1.14.1/jquery-ui.min.js'></script>
+<script src='js/nh_kiga_inputmask.js'></script>
+<script src='js/nh_kiga_kontrolle.js'></script>
+<script src='js/nh_kiga_daten.js'></script>
+<script src='js/nh_kiga_daten_strassen.js'></script>
+<script src='js/captcha.js'></script>
+<script src='js/iban.js'></script>
+
+<script src='js/iframeResize.js'></script>
+
+<script>
+    //event listener: DOM ready
+    function addLoadEvent(func) {
+        var oldonload = window.onload;
+        if (typeof window.onload != 'function') {
+            window.onload = func;
+        } else {
+            window.onload = function() {
+                if (oldonload) {
+	                oldonload();
+                }
+                func();
+            }
+        }
+    }
+    // Aufruf der Funktion, wenn DOM fertig ist
+    addLoadEvent(function(){
+       outdatedBrowser({
+            bgColor: '#f25648',
+            color: '#ffffff',
+            lowerThan: 'Edge',
+            languagePath: '\outdatedbrowser\lang\de.html'
+        })
+    });
+
+    window.addEventListener('visibilitychange', (event) => {
+      placenumber();
+    });
+</script>
+
+<style>
+
+</style>
+
+</head>
+
+<body lang=DE style='word-wrap:break-word'>
+
+
+  <a class='sprunglink' href='#main-content'>Direkt zum Hauptinhalt springen</a>
+  <div id='outdated'></div>
+	<header>
+		<nav aria-label='Hauptnavigation'>
+			<button id='buttonNav' class='button_menue' aria-controls='hauptmenue' aria-expanded='false' aria-label='Navigation &ouml;ffnen'>
+				<i class='fa fa-bars' aria-hidden='true'></i>
+			</button>
+			<ul id='hauptmenue' class='navList' aria-labelledby='buttonNav'>
+				<li><a href='./uebersicht.html'>Einrichtungen</a></li>
+				<li><a href='./karte.html'>&Uuml;bersichtskarte</a></li>
+				<li><a href='./anmeldung.html' class='navList_active' aria-current='page'>Zur Vormerkung</a></li>
+			</ul>
+		</nav>
+	</header>
+<main id='main-content'>
+<noscript>
+<h1 style='color:#730D12;text-align:center'>Javascript wird zur Verwendung der Webseite ben&ouml;tigt!</h1>
+</noscript>
+<div class='container-fluid collapse' id='frm'>
+<div class='pl-3 pt-2'>
+<form accept-charset='utf-8' name='anmeldung' method='post' action='formmail.php' onsubmit='return Kontrolle()' enctype='multipart/form-data'>
+
+<h1 align=right style='text-align:right'><span style='font-size: 1.33rem'><img
+width=204 height=99 src="anmeldung-Dateien/image001.gif"></span></h1>
+
+<h1><span style='font-size: 1.33rem'>Online-Anmeldung</span></h1>
+
+<b><span style='font-size: 1.33rem;'>f&uuml;r
+Kindertageseinrichtungen der Stadt Bietigheim-Bissingen</span></b>
+
+<b><br></b>
+
+<span style='font-size: 0.92rem;'>Diese
+Anmeldung stellt keine Platzzusage dar.</span><span style='font-size: 0.92rem'> </span><span
+style='font-size: 0.92rem;'>Auf Grund dieser
+Anmeldung erhalten Sie im Rahmen unserer Kapazit&auml;ten ein Platzangebot. </span>
+
+<br>
+
+<span
+style='font-size: 0.92rem'><br>
+
+<div id='error-summary' role='alert' aria-live='polite' aria-labelledby='error-header'>
+  <h2 id='error-header'></h2>
+  <ul id='error-list'></ul>
+  </div>
+<div class='row'>
+<div class='col-sm-11 col-md-11 col-lg-11 col-xl-11'>
+<fieldset class='card'>
+<legend class='card-header'>Daten des Kindes</legend>
+<div class='card-block'>
+
+<br>
+
+<span style='font-size: 0.92rem;'>Daten
+des Kindes:</span>
+
+<br>
+
+<div class='form-group row'>
+<label style='margin-left:1em;' class = 'col-sm-4 col-md-4 col-lg-3 col-xl-3 col-form-label' id='lblkindvorname' for='kindvorname'>Vorname<span style='color:#730D12;font-size:1.5em;'>*</span></label>
+<div class='col-sm-6 col-md-5 col-lg-4 col-xl-4'>
+<input type='text' class='form-control input-sm' name = 'kindvorname' id='kindvorname' style='font-family:arial;' required autocomplete='section-kind given-name'>
+</div>
+<div class='col-sm-5 col-md-4 col-lg-3 col-xl-3'>
+<div id='pflichtkindvorname' aria-live='assertive' aria-atomic='true'></div>
+</div></div>
+
+<div class='form-group row'>
+<label style='margin-left:1em;' class = 'col-sm-4 col-md-4 col-lg-3 col-xl-3 col-form-label' id='lblkindnachname' for='kindnachname'>Nachname<span style='color:#730D12;font-size:1.5em;'>*</span></label>
+<div class='col-sm-6 col-md-5 col-lg-4 col-xl-4'>
+<input type='text' class='form-control input-sm' name = 'kindnachname' id='kindnachname' style='font-family:arial;' required autocomplete='section-kind family-name'>
+</div>
+<div class='col-sm-5 col-md-4 col-lg-3 col-xl-3'>
+<div id='pflichtkindnachname' aria-live='assertive' aria-atomic='true'></div>
+</div></div>
+
+<div class='form-group row'>
+<label style='margin-left:1em;' class = 'col-sm-4 col-md-4 col-lg-3 col-xl-3 col-form-label' id='lblstrasse' for='strasse'>Stra&szlig;e / Haus-Nr.<span style='color:#730D12;font-size:1.5em;'>*</span></label>
+<div class='col-sm-6 col-md-5 col-lg-4 col-xl-4'>
+<input type='text' class='form-control input-sm' name = 'strasse' id='strasse' style='font-family:arial;' required autocomplete='section-parent1 address-line1'>
+</div>
+<div class='col-sm-5 col-md-4 col-lg-3 col-xl-3'>
+<div id='pflichtstrasse' aria-live='assertive' aria-atomic='true'></div>
+</div></div>
+
+<div class='form-group row'>
+<div style='margin-left:1em;' class='col-sm-4 col-md-4 col-lg-3 col-xl-3 col-form-label'><label id='lblplz' for='plz'>Postleitzahl<span style='color:#730D12;font-size:1.5em;'>*</span></label><label id='lblort' style='margin-left:1em;' for='ort'>Wohnort<span style='color:#730D12;font-size:1.5em;'>*</span></label></div><div class='col-sm-2 col-md-2 col-lg-1 col-xl-1' style='min-width:95px;'>
+<input type='text' class='form-control input-sm' id='plz' name='plz' style='font-family:arial;' required autocomplete='section-parent1 postal-code'>
+</div>
+<div class='col-sm-4 col-md-3 col-lg-3 col-xl-3'><label for='ort' class='collapse'>Wohnort</label>
+<input type='text' class='form-control input-sm' id='ort' name='ort' aria-label='Wohnort' style='font-family:arial;' required autocomplete='section-parent1 address-level2'>
+</div>
+<div class='col-sm-5 col-md-4 col-lg-3 col-xl-3'>
+<div id='pflichtplz'  aria-live='assertive' aria-atomic='true'></div>
+<div id='pflichtort'  aria-live='assertive' aria-atomic='true'></div>
+</div></div>
+
+
+<br>
+
+<div class='form-group row'>
+<label style='margin-left:1em;' class = 'col-sm-4 col-md-4 col-lg-3 col-xl-3 col-form-label' id='lblkindgeburtstag' for='kindgeburtstag'>Geburtsdatum:<span style='color:#730D12;font-size:1.5em;'>*</span></label>
+<div class='datepicker'>
+<div class='date'>
+<div class='group'>
+<div class='col-sm-2 col-md-2 col-lg-2 col-xl-2' style='min-width: 195px;'>
+<input type='text' class='form-control input-sm' id='kindgeburtstag' name='kindgeburtstag'  aria-describedby='dateDescribedkindgeburtstag' required autocomplete='section-kind bday'>
+<span class='described' id='dateDescribedkindgeburtstag'>(<span class='sr-only'>Datum format: </span>tt.mm.jjjj)</span>
+</div>
+<button type='button' class='btn icon'  id='kindgeburtstagButton' aria-label='Datum w&auml;hlen'>
+<span  class='icon fa-solid fa-calendar-days' style='font-size:1.5em;color: #ffffff;'></span>
+</button>
+</div>
+</div>
+<div id='datepickerkindgeburtstag' class='datepicker-dialog' role='dialog' aria-modal='true' aria-label='Datum w&auml;hlen'>
+    <div class='header'>
+        <button type='button' class='prev-year' aria-label='Vorheriges Jahr'>
+            <span class='fa-solid fa-angles-left'></span>
+        </button>
+        <button type='button' class='prev-month' aria-label='Vorheriger Monat'>
+            <span class='fa-solid fa-angle-left'></span>
+        </button>
+        <h2 id='datepicker-grid-kindgeburtstag' class='month-year' aria-live='polite'>February 2020</h2>
+        <button type='button' class='next-month' aria-label='N&auml;chster Monat'>
+            <span class='fa-solid fa-angle-right'></span>
+        </button>
+        <button type='button' class='next-year' aria-label='N&auml;chstes Jahr'>
+            <span class='fa-solid fa-angles-right'></span>
+        </button>
+    </div>
+    <div class='table-wrap'>
+        <table class='dates' role='grid' aria-labelledby='datepicker-grid-kindgeburtstag'>
+            <thead>
+                <tr>
+                    <th scope='col' abbr='Sonntag'>So</th>
+                    <th scope='col' abbr='Montag'>Mo</th>
+                    <th scope='col' abbr='Dienstag'>Di</th>
+                    <th scope='col' abbr='Mittwoch'>Mi</th>
+                    <th scope='col' abbr='Donnerstag'>Do</th>
+                    <th scope='col' abbr='Freitag'>Fr</th>
+                    <th scope='col' abbr='Samstag'>Sa</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class='disabled' tabindex='-1'></td>
+                    <td class='disabled' tabindex='-1'></td>
+                    <td class='disabled' tabindex='-1'></td>
+                    <td class='disabled' tabindex='-1'></td>
+                    <td class='disabled' tabindex='-1'></td>
+                    <td class='disabled' tabindex='-1'></td>
+                    <td tabindex='-1' data-date='2020-02-01'>1</td>
+                </tr>
+                <tr>
+                    <td  tabindex='-1' data-date='2020-02-02'>2</td>
+                    <td  tabindex='-1' data-date='2020-02-03'>3</td>
+                    <td  tabindex='-1' data-date='2020-02-04'>4</td>
+                    <td  tabindex='-1' data-date='2020-02-05'>5</td>
+                    <td  tabindex='-1' data-date='2020-02-06'>6</td>
+                    <td  tabindex='-1' data-date='2020-02-07'>7</td>
+                    <td  tabindex='-1' data-date='2020-02-08'>8</td>
+                 </tr>
+                 <tr>
+                    <td  tabindex='-1' data-date='2020-02-09'>9</td>
+                    <td  tabindex='-1' data-date='2020-02-10'>10</td>
+                    <td  tabindex='-1' data-date='2020-02-11'>11</td>
+                    <td  tabindex='-1' data-date='2020-02-12'>12</td>
+                    <td  tabindex='-1' data-date='2020-02-13'>13</td>
+                    <td  tabindex='-1' data-date='2020-02-14'>14</td>
+                    <td  tabindex='-1' data-date='2020-02-15'>15</td>
+                </tr>
+                <tr>
+                    <td  tabindex='-1' data-date='2020-02-16'>16</td>
+                    <td  tabindex='-1' data-date='2020-02-17'>17</td>
+                    <td  tabindex='-1' data-date='2020-02-18'>18</td>
+                    <td  tabindex='-1' data-date='2020-02-19'>19</td>
+                    <td  tabindex='-1' data-date='2020-02-20'>20</td>
+                    <td  tabindex='-1' data-date='2020-02-21'>21</td>
+                    <td  tabindex='-1' data-date='2020-02-22'>22</td>
+                </tr>
+                <tr>
+                    <td  tabindex='-1' data-date='2020-02-23'>23</td>
+                    <td  tabindex='-1' data-date='2020-02-24'>24</td>
+                    <td  tabindex='-1' data-date='2020-02-25'>25</td>
+                    <td  tabindex='-1' data-date='2020-02-26'>26</td>
+                    <td  tabindex='-1' data-date='2020-02-27'>27</td>
+                    <td  tabindex='-1' data-date='2020-02-28'>28</td>
+                    <td  tabindex='-1' data-date='2020-02-29'>29</td>
+                </tr>
+                <tr>
+                    <td  tabindex='-1' data-date='2020-02-30'>30</td>
+                    <td  tabindex='-1' data-date='2020-02-31'>31</td>
+                    <td  class='disabled' tabindex='-1'></td>
+                    <td  class='disabled' tabindex='-1'></td>
+                    <td  class='disabled' tabindex='-1'></td>
+                    <td  class='disabled' tabindex='-1'></td>
+                    <td  class='disabled' tabindex='-1'></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class='dialog-ok-cancel-group'>
+        <button class='dialog-button' value='cancel'>Abbrechen</button>
+        <button class='dialog-button' value='ok'>OK</button>
+    </div>
+    <div class='dialog-message' aria-live='polite'></div>
+</div>
+</div>
+<div class='col-sm-5 col-md-4 col-lg-3 col-xl-3'>
+<div id='pflichtkindgeburtstag' aria-live='assertive' aria-atomic='true'></div>
+</div></div>
+
+<div class='form-group row'>
+<label style='margin-left:1em;' class = 'col-sm-4 col-md-4 col-lg-3 col-xl-3 col-form-label' id='lblkindgeschlecht' for='kindgeschlecht'>Geschlecht</label>
+<div class='col-sm-6 col-md-5 col-lg-4'>
+<select class='form-control input-sm select2' size='5' id='kindgeschlecht' name='kindgeschlecht' style='color:black;'  >
+ <option selected='selected' value=''>Keine Angabe</option>
+ <option>m&auml;nnlich</option>
+ <option>weiblich</option>
+ <option>divers (&sect;22 Abs. 3 PStG)</option>
+ <option>ohne Angabe (&sect;22 Abs. 3 PStG)</option>
+</select></div>
+</div>
+
+<div class='form-group row'>
+<label style='margin-left:1em;' class = 'col-sm-4 col-md-4 col-lg-3 col-xl-3 col-form-label' id='lblkindnational1' for='kindnational1'>Nationalit&auml;t<span style='color:#730D12;font-size:1.5em;'>*</span></label>
+<div class='col-sm-6 col-md-5 col-lg-4 col-xl-4'>
+<select class='form-control input-sm select2' size='124' id='kindnational1' name='kindnational1' style='color:black;' required >
+<option>Deutsch</option>
+<option value=''>Keine Angabe</option>
+
+<option>afghan.</option>
+<option>&auml;gypt.</option>
+<option>alban.</option>
+<option>algerisch</option>
+<option>amerikanisch</option>
+<option>andorran</option>
+<option>arabisch</option>
+<option>aram&auml;isch</option>
+<option>argent.</option>
+<option>armeni.</option>
+<option>aserbaidschan.</option>
+<option>&auml;thiop.</option>
+<option>&auml;thiop.</option>
+<option>austral.</option>
+<option>banglad.</option>
+<option>belgisch</option>
+<option>bosnisch</option>
+<option>brasilianisch</option>
+<option>britisch</option>
+<option>bulgar.</option>
+<option>canadisch</option>
+<option>chilen.</option>
+<option>chines.</option>
+<option>d&auml;nisch</option>
+<option>der DRK</option>
+<option>deutsch/t&uuml;rkisch</option>
+<option>dschibut</option>
+<option>ecuador.</option>
+<option>ehem jug</option>
+<option>eritrei.</option>
+<option>estnisch</option>
+<option>ex-serbi</option>
+<option>ex-serbm</option>
+<option>finnisch</option>
+<option>franz&ouml;s.</option>
+<option>gambisch</option>
+<option>georg.</option>
+<option>ghanai.</option>
+<option>griech.</option>
+<option>guineisch</option>
+<option>haiti.</option>
+<option>indisch</option>
+<option>indonesisch</option>
+<option>irak.</option>
+<option>irakisch</option>
+<option>iranisch</option>
+<option>irisch</option>
+<option>israel.</option>
+<option>italien.</option>
+<option>ivorisch</option>
+<option>japan.</option>
+<option>jordan.</option>
+<option>kamerun.</option>
+<option>kanad.</option>
+<option>kasach.</option>
+<option>kenianisch</option>
+<option>kirgis.</option>
+<option>kolumb.</option>
+<option>kongoles</option>
+<option>korean.</option>
+<option>koreanisch</option>
+<option>kosovar.</option>
+<option>kroat.</option>
+<option>kuban.</option>
+<option>kurdisch</option>
+<option>lettisch</option>
+<option>libanes.</option>
+<option>litau.</option>
+<option>malays.</option>
+<option>maldavisch</option>
+<option>marokk.</option>
+<option>mazedon.</option>
+<option>mex.</option>
+<option>moldau.</option>
+<option>mongol.</option>
+<option>monten.</option>
+<option>muslim.</option>
+<option>neuseel.</option>
+<option>niederl.</option>
+<option>nigeria.</option>
+<option>o Angabe</option>
+<option>&ouml;ster.</option>
+<option>pakistan</option>
+<option>paraguayisch</option>
+<option>Peruanisch</option>
+<option>philipp.</option>
+<option>polnisch</option>
+<option>portug.</option>
+<option>rum&auml;n.</option>
+<option>russ.</option>
+<option>Saudi-Arabien</option>
+<option>schwed.</option>
+<option>schweiz.</option>
+<option>senegal.</option>
+<option>serbisch</option>
+<option>serbokroatisch</option>
+<option>sierra-l</option>
+<option>singapurisch</option>
+<option>slowak.</option>
+<option>slowen.</option>
+<option>somalisch</option>
+<option>spanisch</option>
+<option>sri-lan.</option>
+<option>staatlos</option>
+<option>s&uuml;dafrik.</option>
+<option>sudanesisch</option>
+<option>syrisch</option>
+<option>taiwan.</option>
+<option>tansanisch</option>
+<option>thail&auml;n.</option>
+<option>togoisch</option>
+<option>tschech.</option>
+<option>tunes.</option>
+<option>t&uuml;rkisch</option>
+<option>turkmenisch</option>
+<option>ukrain.</option>
+<option>ungar.</option>
+<option>unklar</option>
+<option>usbekis.</option>
+<option>venezol.</option>
+<option>vietnam.</option>
+<option>wei&szlig;rus.</option>
+</select></div>
+<div class='col-sm-5 col-md-4 col-lg-3 col-xl-3'>
+<div id='pflichtkindnational1' aria-live='assertive' aria-atomic='true'></div>
+</div></div>
+
+<div class='form-group row'>
+<label style='margin-left:1em;' class = 'col-sm-4 col-md-4 col-lg-3 col-xl-3 col-form-label' id='lblkindsprache1' for='kindsprache1'>Sprache, die vorrangig in der Familie gesprochen wird</label>
+<div class='col-sm-6 col-md-5 col-lg-4 col-xl-4'>
+<select class='form-control input-sm select2' size='54' id='kindsprache1' name='kindsprache1' style='color:black;' >
+<option>deutsch</option>
+<option value=''>Keine Angabe</option>
+
+<option>afghanisch</option>
+<option>&auml;gyptisch</option>
+<option>albanisch</option>
+<option>arabisch</option>
+<option>aram&auml;isch</option>
+<option>aserbaidschan.</option>
+<option>bengali</option>
+<option>bosnisch</option>
+<option>bulgarisch</option>
+<option>chinesisch</option>
+<option>englisch</option>
+<option>eritr&auml;isch</option>
+<option>eritreisch</option>
+<option>franz&ouml;sisch</option>
+<option>griechisch</option>
+<option>hindi</option>
+<option>indisch</option>
+<option>irakisch</option>
+<option>italienisch</option>
+<option>japanisch</option>
+<option>kamerunisch</option>
+<option>kanadisch</option>
+<option>kasachisch</option>
+<option>koreanisch</option>
+<option>kosovarisch</option>
+<option>kroatisch</option>
+<option>kurdisch</option>
+<option>lettisch</option>
+<option>litauisch</option>
+<option>marathi</option>
+<option>mazedonisch</option>
+<option>nigerianisch</option>
+<option>pakistanisch</option>
+<option>persisch</option>
+<option>polnisch</option>
+<option>portugiesisch</option>
+<option>rum&auml;nisch</option>
+<option>russisch</option>
+<option>serbisch</option>
+<option>serbokroat.</option>
+<option>slowakisch</option>
+<option>spanisch</option>
+<option>syrisch</option>
+<option>tamil</option>
+<option>thail&auml;nd.</option>
+<option>tschechisch</option>
+<option>tunesisch</option>
+<option>t&uuml;rkisch</option>
+<option>ukrainisch</option>
+<option>ungarisch</option>
+<option>urdu</option>
+<option>vietnamesisch</option>
+</select></div>
+</div>
+
+<br>
+
+<span style='font-size: 0.92rem;'>Besteht
+F&ouml;derbedarf nach (freiwillige Angabe):</span>
+
+<br>
+
+<div class='form-group row collapse'>
+<div class='col-sm-4 col-md-4 col-lg-3 col-xl-3'>
+<label style='margin-left:1em;' id='lblkindpunkte39' for='kindpunkte39'>§ 35a SGB VII</label>
+</div>
+<div class='col-sm-6 col-md-5 col-lg-4 col-xl-4'>
+            <div class='switch'>
+                 <input type='checkbox' role='switch' name='kindpunkte39' id='kindpunkte39'>
+                <span class='slider' id ='slider_kindpunkte39' aria-hidden='true'></span>
+                <span class='label-text' id ='switch_text_kindpunkte39' aria-hidden='true'>Nein</span>
+            </div>
+</div>
+</div>
+
+<b><span style='font-size: 0.83rem;'>§
+35a Eingliederungshilfe f&uuml;r seelisch behinderte Kinder und Jugendliche</span></b>
+
+<span style='font-size: 0.83rem;'>Kinder
+oder Jugendliche haben Anspruch auf Eingliederungshilfe, wenn</span>
+
+<ol style='margin-top:0cm' start=1 type=1>
+ <li class=MsoNormal><span style='font-size: 0.83rem;'> ihre
+     seelische Gesundheit mit hoher Wahrscheinlichkeit l&auml;nger als sechs Monate
+     von dem f&uuml;r ihr Lebensalter typischen Zustand abweicht, und</span></li>
+</ol>
+
+<p class=MsoNormal style='margin-left:14.2pt;text-indent:2.8pt'><span
+style='font-size: 0.83rem;'>daher ihre Teilhabe am
+Leben in der Gesellschaft beeintr&auml;chtigt ist oder eine solche Beeintr&auml;chtigung
+zu erwarten ist.</span>
+
+<ol style='margin-top:0cm' start=2 type=1>
+ <li class=MsoNormal><span style='font-size: 0.83rem;'> Von
+     einer seelischen Behinderung bedroht im Sinne dieses Buches sind Kinder
+     oder Jugendliche, bei denen eine Beeintr&auml;chtigung ihrer Teilhabe am Leben
+     in der Gesellschaft nach fachlicher Erkenntnis mit hoher
+     Wahrscheinlichkeit zu erwarten ist. 3§ 27 Abs. 4 gilt entsprechend.</span></li>
+</ol>
+
+<br>
+
+<div class='form-group row collapse'>
+<div class='col-sm-4 col-md-4 col-lg-3 col-xl-3'>
+<label style='margin-left:1em;' id='lblkindpunkte40' for='kindpunkte40'>§ 53 SGB  XII</label>
+</div>
+<div class='col-sm-6 col-md-5 col-lg-4 col-xl-4'>
+            <div class='switch'>
+                 <input type='checkbox' role='switch' name='kindpunkte40' id='kindpunkte40'>
+                <span class='slider' id ='slider_kindpunkte40' aria-hidden='true'></span>
+                <span class='label-text' id ='switch_text_kindpunkte40' aria-hidden='true'>Nein</span>
+            </div>
+</div>
+</div>
+
+<b><span style='font-size: 0.83rem;'>§
+53 Leistungsberechtigte und Aufgabe</span></b>
+
+<ol style='margin-top:0cm' start=1 type=1>
+ <li class=MsoNormal><span style='font-size: 0.83rem;'> Personen,
+     die durch eine Behinderung im Sinne von § 2 Abs. 1 Satz 1 des Neunten
+     Buches wesentlich in ihrer F&auml;higkeit, an der Gesellschaft teilzuhaben,
+     eingeschr&auml;nkt oder von einer solchen wesentlichen Behinderung bedroht
+     sind, erhalten Leistungen der Eingliederungshilfe, wenn und solange nach
+     der Besonderheit des Einzelfalles, insbesondere nach Art oder Schwere der
+     Behinderung, Aussicht besteht, dass die Aufgabe der Eingliederungshilfe
+     erf&uuml;llt werden kann. </span></li>
+</ol>
+
+<p class=MsoNormal style='text-indent:35.4pt'><span style='font-size: 0.83rem;
+'>Personen mit einer anderen k&ouml;rperlichen,
+geistigen oder seelischen Behinderung k&ouml;nnen Leistungen der Eingliederungshilfe
+erhalten.</span>
+
+<ol style='margin-top:0cm' start=2 type=1>
+ <li class=MsoNormal><span style='font-size: 0.83rem;'> Von
+     einer Behinderung bedroht sind Personen, bei denen der Eintritt der
+     Behinderung nach fachlicher Erkenntnis mit hoher Wahrscheinlichkeit zu
+     erwarten ist. 2Dies gilt f&uuml;r Personen, f&uuml;r die vorbeugende
+     Gesundheitshilfe und Hilfe bei Krankheit nach den §§ 47 und 48
+     erforderlich ist, nur, wenn auch bei Durchf&uuml;hrung dieser Leistungen eine
+     Behinderung einzutreten droht.</span></li>
+</ol>
+
+<br>
+
+<div class='form-group row collapse'>
+<div class='col-sm-4 col-md-4 col-lg-3 col-xl-3'>
+<label style='margin-left:1em;' id='lblkindpunkte41' for='kindpunkte41'>Betreuung durch Tagesmutter / Gro&szlig;tagespflegestelle</label>
+</div>
+<div class='col-sm-6 col-md-5 col-lg-4 col-xl-4'>
+            <div class='switch'>
+                 <input type='checkbox' role='switch' name='kindpunkte41' id='kindpunkte41'>
+                <span class='slider' id ='slider_kindpunkte41' aria-hidden='true'></span>
+                <span class='label-text' id ='switch_text_kindpunkte41' aria-hidden='true'>Nein</span>
+            </div>
+</div>
+</div>
+
+</div>
+</fieldset>
+</div>
+</div>
+
+<div class='row'>
+<div class='col-sm-11 col-md-11 col-lg-11 col-xl-11'>
+<fieldset class='card'>
+<legend class='card-header'>Betreuungsdaten</legend>
+<div class='card-block'>
+
+<div class='form-group row'>
+<label style='margin-left:1em;' class = 'col-sm-4 col-md-4 col-lg-3 col-xl-3 col-form-label' id='lblkindeintritt' for='kindeintritt'>Gew&uuml;nschtes Aufnahmedatum<span style='color:#730D12;font-size:1.5em;'>*</span></label>
+<div class='datepicker'>
+<div class='date'>
+<div class='group'>
+<div class='col-sm-2 col-md-2 col-lg-2 col-xl-2' style='min-width: 195px;'>
+<input type='text' class='form-control input-sm' id='kindeintritt' name='kindeintritt'  aria-describedby='dateDescribedkindeintritt' required>
+<span class='described' id='dateDescribedkindeintritt'>(<span class='sr-only'>Datum format: </span>tt.mm.jjjj)</span>
+</div>
+<button type='button' class='btn icon'  id='kindeintrittButton' aria-label='Datum w&auml;hlen'>
+<span  class='icon fa-solid fa-calendar-days' style='font-size:1.5em;color: #ffffff;'></span>
+</button>
+</div>
+</div>
+<div id='datepickerkindeintritt' class='datepicker-dialog' role='dialog' aria-modal='true' aria-label='Datum w&auml;hlen'>
+    <div class='header'>
+        <button type='button' class='prev-year' aria-label='Vorheriges Jahr'>
+            <span class='fa-solid fa-angles-left'></span>
+        </button>
+        <button type='button' class='prev-month' aria-label='Vorheriger Monat'>
+            <span class='fa-solid fa-angle-left'></span>
+        </button>
+        <h2 id='datepicker-grid-kindeintritt' class='month-year' aria-live='polite'>February 2020</h2>
+        <button type='button' class='next-month' aria-label='N&auml;chster Monat'>
+            <span class='fa-solid fa-angle-right'></span>
+        </button>
+        <button type='button' class='next-year' aria-label='N&auml;chstes Jahr'>
+            <span class='fa-solid fa-angles-right'></span>
+        </button>
+    </div>
+    <div class='table-wrap'>
+        <table class='dates' role='grid' aria-labelledby='datepicker-grid-kindeintritt'>
+            <thead>
+                <tr>
+                    <th scope='col' abbr='Sonntag'>So</th>
+                    <th scope='col' abbr='Montag'>Mo</th>
+                    <th scope='col' abbr='Dienstag'>Di</th>
+                    <th scope='col' abbr='Mittwoch'>Mi</th>
+                    <th scope='col' abbr='Donnerstag'>Do</th>
+                    <th scope='col' abbr='Freitag'>Fr</th>
+                    <th scope='col' abbr='Samstag'>Sa</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class='disabled' tabindex='-1'></td>
+                    <td class='disabled' tabindex='-1'></td>
+                    <td class='disabled' tabindex='-1'></td>
+                    <td class='disabled' tabindex='-1'></td>
+                    <td class='disabled' tabindex='-1'></td>
+                    <td class='disabled' tabindex='-1'></td>
+                    <td tabindex='-1' data-date='2020-02-01'>1</td>
+                </tr>
+                <tr>
+                    <td  tabindex='-1' data-date='2020-02-02'>2</td>
+                    <td  tabindex='-1' data-date='2020-02-03'>3</td>
+                    <td  tabindex='-1' data-date='2020-02-04'>4</td>
+                    <td  tabindex='-1' data-date='2020-02-05'>5</td>
+                    <td  tabindex='-1' data-date='2020-02-06'>6</td>
+                    <td  tabindex='-1' data-date='2020-02-07'>7</td>
+                    <td  tabindex='-1' data-date='2020-02-08'>8</td>
+                 </tr>
+                 <tr>
+                    <td  tabindex='-1' data-date='2020-02-09'>9</td>
+                    <td  tabindex='-1' data-date='2020-02-10'>10</td>
+                    <td  tabindex='-1' data-date='2020-02-11'>11</td>
+                    <td  tabindex='-1' data-date='2020-02-12'>12</td>
+                    <td  tabindex='-1' data-date='2020-02-13'>13</td>
+                    <td  tabindex='-1' data-date='2020-02-14'>14</td>
+                    <td  tabindex='-1' data-date='2020-02-15'>15</td>
+                </tr>
+                <tr>
+                    <td  tabindex='-1' data-date='2020-02-16'>16</td>
+                    <td  tabindex='-1' data-date='2020-02-17'>17</td>
+                    <td  tabindex='-1' data-date='2020-02-18'>18</td>
+                    <td  tabindex='-1' data-date='2020-02-19'>19</td>
+                    <td  tabindex='-1' data-date='2020-02-20'>20</td>
+                    <td  tabindex='-1' data-date='2020-02-21'>21</td>
+                    <td  tabindex='-1' data-date='2020-02-22'>22</td>
+                </tr>
+                <tr>
+                    <td  tabindex='-1' data-date='2020-02-23'>23</td>
+                    <td  tabindex='-1' data-date='2020-02-24'>24</td>
+                    <td  tabindex='-1' data-date='2020-02-25'>25</td>
+                    <td  tabindex='-1' data-date='2020-02-26'>26</td>
+                    <td  tabindex='-1' data-date='2020-02-27'>27</td>
+                    <td  tabindex='-1' data-date='2020-02-28'>28</td>
+                    <td  tabindex='-1' data-date='2020-02-29'>29</td>
+                </tr>
+                <tr>
+                    <td  tabindex='-1' data-date='2020-02-30'>30</td>
+                    <td  tabindex='-1' data-date='2020-02-31'>31</td>
+                    <td  class='disabled' tabindex='-1'></td>
+                    <td  class='disabled' tabindex='-1'></td>
+                    <td  class='disabled' tabindex='-1'></td>
+                    <td  class='disabled' tabindex='-1'></td>
+                    <td  class='disabled' tabindex='-1'></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class='dialog-ok-cancel-group'>
+        <button class='dialog-button' value='cancel'>Abbrechen</button>
+        <button class='dialog-button' value='ok'>OK</button>
+    </div>
+    <div class='dialog-message' aria-live='polite'></div>
+</div>
+</div>
+<div class='col-sm-5 col-md-4 col-lg-3 col-xl-3'>
+<div id='pflichtkindeintritt' aria-live='assertive' aria-atomic='true'></div>
+</div></div>
+
+<br>
+
+<span style='font-size: 0.92rem;'>In
+den st&auml;dtischen Einrichtungen werden Kinder in verschiedenen Altersgruppen und
+unterschiedlichen Betreuungsumfang betreut. Die &Ouml;ffnungszeiten einzelner
+Gruppen variieren in den jeweiligen Einrichtungen. Bitte informieren Sie sich
+auf unserer Homepage. </span>
+
+<br>
+
+<span style='font-size: 0.92rem;'>Folgende
+Betreuungsformen sind m&ouml;glich:</span>
+
+<br>
+
+<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse;border:none'>
+ <tr>
+  <td width=368 colspan=2 valign=top style='width:276.05pt;border:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <span style='font-size: 0.92rem;'>Angebotene
+  Altersgruppen</span>
+  </td>
+ </tr>
+ <tr>
+  <td width=85 valign=top style='width:63.4pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <span style='font-size: 0.92rem;'>Krippe
+  1</span>
+  </td>
+  <td width=284 valign=top style='width:212.65pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <span style='font-size: 0.92rem;'>von
+  1 - 3 Jahre</span>
+  </td>
+ </tr>
+ <tr>
+  <td width=85 valign=top style='width:63.4pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <span style='font-size: 0.92rem;'>Krippe
+  2</span>
+  </td>
+  <td width=284 valign=top style='width:212.65pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <span style='font-size: 0.92rem;'>von
+  2 - 3 Jahre</span>
+  </td>
+ </tr>
+ <tr>
+  <td width=85 valign=top style='width:63.4pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <span style='font-size: 0.92rem;'>AM</span>
+  </td>
+  <td width=284 valign=top style='width:212.65pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <span style='font-size: 0.92rem;'>von
+  2 - 6 Jahre</span>
+  </td>
+ </tr>
+ <tr>
+  <td width=85 valign=top style='width:63.4pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <span style='font-size: 0.92rem;'>&Uuml;3</span>
+  </td>
+  <td width=284 valign=top style='width:212.65pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <span style='font-size: 0.92rem;'>von
+  3 - 6 Jahre</span>
+  </td>
+ </tr>
+</table>
+
+<br>
+
+<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0 width=376
+ style='width:281.85pt;border-collapse:collapse;border:none'>
+ <tr>
+  <td width=376 colspan=2 valign=top style='width:281.85pt;border:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <span style='font-size: 0.92rem;'>Angebotener
+  Betreuungsumfang</span>
+  </td>
+ </tr>
+ <tr>
+  <td width=66 valign=top style='width:49.25pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <span style='font-size: 0.92rem;'>V&Ouml;
+  6</span>
+  </td>
+  <td width=310 valign=top style='width:232.6pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <span style='font-size: 0.92rem;'>Verl&auml;ngerte
+  &Ouml;ffnungszeiten bis 6 Stunden</span>
+  </td>
+ </tr>
+ <tr>
+  <td width=66 valign=top style='width:49.25pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <span style='font-size: 0.92rem;'>V&Ouml;
+  7 </span>
+  </td>
+  <td width=310 valign=top style='width:232.6pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <span style='font-size: 0.92rem;'>Verl&auml;ngerte
+  &Ouml;ffnungszeiten bis 7 Stunden</span>
+  </td>
+ </tr>
+ <tr>
+  <td width=66 valign=top style='width:49.25pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <span style='font-size: 0.92rem;'>GT
+  8</span>
+  </td>
+  <td width=310 valign=top style='width:232.6pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <span style='font-size: 0.92rem;'>Ganztagesbetreuung
+  bis 8 Stunden</span>
+  </td>
+ </tr>
+ <tr>
+  <td width=66 valign=top style='width:49.25pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <span style='font-size: 0.92rem;'>GT
+  10</span>
+  </td>
+  <td width=310 valign=top style='width:232.6pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <span style='font-size: 0.92rem;'>Ganztagesbetreuung
+  bis 10 Stunden<span style='color:#EE7219'>*</span> </span>
+  </td>
+ </tr>
+</table>
+
+<span style='font-size: 0.92rem;
+color:#EE7219'>*<b>kann aktuell leider nicht angeboten</b> <b>werden</b></span>
+
+<br>
+
+<span style='font-size: 0.92rem;'>Bitte
+beachten Sie, dass nicht in allen Einrichtungen ein warmes Mittagessen
+angeboten wird. In der Betreuungsform Ganztagesbetreuung ist das warme Mittagessen
+verpflichtend.</span>
+
+<br>
+
+<div class='form-group row'>
+<label style='margin-left:1em;' class = 'col-sm-4 col-md-4 col-lg-3 col-xl-3 col-form-label' id='lblkindergarten' for='kindergarten'>1. Wunsch<span style='color:#730D12;font-size:1.5em;'>*</span></label>
+<div class='col-sm-6 col-md-5 col-lg-4 col-xl-4'>
+<select class='form-control input-sm select2' style='color:black;' size='27' id='kindergarten' name='kindergarten' onChange='setzeBetreuung();' required>
+<option selected='selected' value=''>Keine Angabe</option>
+ <option value='23;Kinderhaus Buch'>Kinderhaus Buch</option>
+ <option value='21987;Kinderhaus Domino'>Kinderhaus Domino</option>
+ <option value='29538;Kinderhaus Halli Galli'>Kinderhaus Halli Galli</option>
+ <option value='25;Kinderhaus Malefiz'>Kinderhaus Malefiz</option>
+ <option value='25656;Kinderhaus Memory'>Kinderhaus Memory</option>
+ <option value='27;Kinderhaus Mikado'>Kinderhaus Mikado</option>
+ <option value='29;Kinderhaus Untermberg'>Kinderhaus Untermberg</option>
+ <option value='29142;Kinderhaus Villa Paletti'>Kinderhaus Villa Paletti</option>
+ <option value='2;Kita Allensteiner Stra&szlig;e'>Kita Allensteiner Stra&szlig;e</option>
+ <option value='4;Kita Breslauer Stra&szlig;e'>Kita Breslauer Stra&szlig;e</option>
+ <option value='6;Kita Brunnenstra&szlig;e'>Kita Brunnenstra&szlig;e</option>
+ <option value='8;Kita Enten&auml;cker'>Kita Enten&auml;cker</option>
+ <option value='10;Kita Farbstra&szlig;e'>Kita Farbstra&szlig;e</option>
+ <option value='12;Kita Fliederweg'>Kita Fliederweg</option>
+ <option value='14;Kita Im Leintal'>Kita Im Leintal</option>
+ <option value='16;Kita Im Sand'>Kita Im Sand</option>
+ <option value='19;Kita Kammgarnspinnerei'>Kita Kammgarnspinnerei</option>
+ <option value='21;Kita Kelterstra&szlig;e'>Kita Kelterstra&szlig;e</option>
+ <option value='31;Kita Kreuz&auml;cker I'>Kita Kreuz&auml;cker I</option>
+ <option value='32;Kita Kreuz&auml;cker II'>Kita Kreuz&auml;cker II</option>
+ <option value='34;Kita Lugstra&szlig;e'>Kita Lugstra&szlig;e</option>
+ <option value='36;Kita Metterzimmern'>Kita Metterzimmern</option>
+ <option value='38;Kita Paul-B&uuml;hler-Stra&szlig;e'>Kita Paul-B&uuml;hler-Stra&szlig;e</option>
+ <option value='43;Kita Streifelbach'>Kita Streifelbach</option>
+ <option value='45;Kita Vorderer Weingartweg'>Kita Vorderer Weingartweg</option>
+ <option value='20941;Naturkita Buch'>Naturkita Buch</option>
+</select>
+</div>
+<div class='col-sm-5 col-md-4 col-lg-3 col-xl-3'>
+<div id='pflichtkindergarten' aria-live='assertive' aria-atomic='true'></div>
+</div></div>
+
+<div class='form-group row'>
+<label style='margin-left:1em;' class = 'col-sm-4 col-md-4 col-lg-3 col-xl-3 col-form-label' id='lblgruppenart' for='gruppenart'>Betreuungform<span style='color:#730D12;font-size:1.5em;'>*</span></label>
+<div class='col-sm-6 col-md-5 col-lg-4 col-xl-4'>
+<select style='color:black;' id='gruppenart' name='gruppenart[]'  required class='form-control input-sm select2'>
+<option value=''>Keine Angabe</option>
+</select></div>
+<div class='col-sm-5 col-md-4 col-lg-3 col-xl-3'>
+<div id='pflichtgruppenart' aria-live='assertive' aria-atomic='true'></div>
+</div></div>
+
+<div class='form-group row'>
+<label style='margin-left:1em;' class = 'col-sm-4 col-md-4 col-lg-3 col-xl-3 col-form-label' id='lblsonderleistungen' for='sonderleistungen'>Mittagessen</label>
+<div class='col-sm-6 col-md-5 col-lg-4 col-xl-4'>
+<select style='color:black;' id='sonderleistungen' name='sonderleistungen[]' class='form-control input-sm' multiple='multiple' >
+<option value=''>Keine Angabe</option>
+</select></div>
+</div>
+
+<div class='form-group row'>
+<label style='margin-left:1em;' class = 'col-sm-4 col-md-4 col-lg-3 col-xl-3 col-form-label' id='lblkindergarten2' for='kindergarten2'>2. Wunsch</label>
+<div class='col-sm-6 col-md-5 col-lg-4 col-xl-4'>
+<select class='form-control input-sm select2' style='color:black;' size='27' id='kindergarten2' name='kindergarten2' onChange='setzeBetreuung();' >
+<option selected='selected' value=''>Keine Angabe</option>
+ <option value='23;Kinderhaus Buch'>Kinderhaus Buch</option>
+ <option value='21987;Kinderhaus Domino'>Kinderhaus Domino</option>
+ <option value='29538;Kinderhaus Halli Galli'>Kinderhaus Halli Galli</option>
+ <option value='25;Kinderhaus Malefiz'>Kinderhaus Malefiz</option>
+ <option value='25656;Kinderhaus Memory'>Kinderhaus Memory</option>
+ <option value='27;Kinderhaus Mikado'>Kinderhaus Mikado</option>
+ <option value='29;Kinderhaus Untermberg'>Kinderhaus Untermberg</option>
+ <option value='29142;Kinderhaus Villa Paletti'>Kinderhaus Villa Paletti</option>
+ <option value='2;Kita Allensteiner Stra&szlig;e'>Kita Allensteiner Stra&szlig;e</option>
+ <option value='4;Kita Breslauer Stra&szlig;e'>Kita Breslauer Stra&szlig;e</option>
+ <option value='6;Kita Brunnenstra&szlig;e'>Kita Brunnenstra&szlig;e</option>
+ <option value='8;Kita Enten&auml;cker'>Kita Enten&auml;cker</option>
+ <option value='10;Kita Farbstra&szlig;e'>Kita Farbstra&szlig;e</option>
+ <option value='12;Kita Fliederweg'>Kita Fliederweg</option>
+ <option value='14;Kita Im Leintal'>Kita Im Leintal</option>
+ <option value='16;Kita Im Sand'>Kita Im Sand</option>
+ <option value='19;Kita Kammgarnspinnerei'>Kita Kammgarnspinnerei</option>
+ <option value='21;Kita Kelterstra&szlig;e'>Kita Kelterstra&szlig;e</option>
+ <option value='31;Kita Kreuz&auml;cker I'>Kita Kreuz&auml;cker I</option>
+ <option value='32;Kita Kreuz&auml;cker II'>Kita Kreuz&auml;cker II</option>
+ <option value='34;Kita Lugstra&szlig;e'>Kita Lugstra&szlig;e</option>
+ <option value='36;Kita Metterzimmern'>Kita Metterzimmern</option>
+ <option value='38;Kita Paul-B&uuml;hler-Stra&szlig;e'>Kita Paul-B&uuml;hler-Stra&szlig;e</option>
+ <option value='43;Kita Streifelbach'>Kita Streifelbach</option>
+ <option value='45;Kita Vorderer Weingartweg'>Kita Vorderer Weingartweg</option>
+ <option value='20941;Naturkita Buch'>Naturkita Buch</option>
+</select>
+</div>
+</div>
+
+<div class='form-group row'>
+<label style='margin-left:1em;' class = 'col-sm-4 col-md-4 col-lg-3 col-xl-3 col-form-label' id='lblgruppenart2' for='gruppenart2'>Betreuungform</label>
+<div class='col-sm-6 col-md-5 col-lg-4 col-xl-4'>
+<select style='color:black;' id='gruppenart2' name='gruppenart2[]'  class='form-control input-sm select2'>
+<option value=''>Keine Angabe</option>
+</select></div>
+</div>
+
+<div class='form-group row'>
+<label style='margin-left:1em;' class = 'col-sm-4 col-md-4 col-lg-3 col-xl-3 col-form-label' id='lblkindergarten3' for='kindergarten3'>3. Wunsch</label>
+<div class='col-sm-6 col-md-5 col-lg-4 col-xl-4'>
+<select class='form-control input-sm select2' style='color:black;' size='27' id='kindergarten3' name='kindergarten3' onChange='setzeBetreuung();' >
+<option selected='selected' value=''>Keine Angabe</option>
+ <option value='23;Kinderhaus Buch'>Kinderhaus Buch</option>
+ <option value='21987;Kinderhaus Domino'>Kinderhaus Domino</option>
+ <option value='29538;Kinderhaus Halli Galli'>Kinderhaus Halli Galli</option>
+ <option value='25;Kinderhaus Malefiz'>Kinderhaus Malefiz</option>
+ <option value='25656;Kinderhaus Memory'>Kinderhaus Memory</option>
+ <option value='27;Kinderhaus Mikado'>Kinderhaus Mikado</option>
+ <option value='29;Kinderhaus Untermberg'>Kinderhaus Untermberg</option>
+ <option value='29142;Kinderhaus Villa Paletti'>Kinderhaus Villa Paletti</option>
+ <option value='2;Kita Allensteiner Stra&szlig;e'>Kita Allensteiner Stra&szlig;e</option>
+ <option value='4;Kita Breslauer Stra&szlig;e'>Kita Breslauer Stra&szlig;e</option>
+ <option value='6;Kita Brunnenstra&szlig;e'>Kita Brunnenstra&szlig;e</option>
+ <option value='8;Kita Enten&auml;cker'>Kita Enten&auml;cker</option>
+ <option value='10;Kita Farbstra&szlig;e'>Kita Farbstra&szlig;e</option>
+ <option value='12;Kita Fliederweg'>Kita Fliederweg</option>
+ <option value='14;Kita Im Leintal'>Kita Im Leintal</option>
+ <option value='16;Kita Im Sand'>Kita Im Sand</option>
+ <option value='19;Kita Kammgarnspinnerei'>Kita Kammgarnspinnerei</option>
+ <option value='21;Kita Kelterstra&szlig;e'>Kita Kelterstra&szlig;e</option>
+ <option value='31;Kita Kreuz&auml;cker I'>Kita Kreuz&auml;cker I</option>
+ <option value='32;Kita Kreuz&auml;cker II'>Kita Kreuz&auml;cker II</option>
+ <option value='34;Kita Lugstra&szlig;e'>Kita Lugstra&szlig;e</option>
+ <option value='36;Kita Metterzimmern'>Kita Metterzimmern</option>
+ <option value='38;Kita Paul-B&uuml;hler-Stra&szlig;e'>Kita Paul-B&uuml;hler-Stra&szlig;e</option>
+ <option value='43;Kita Streifelbach'>Kita Streifelbach</option>
+ <option value='45;Kita Vorderer Weingartweg'>Kita Vorderer Weingartweg</option>
+ <option value='20941;Naturkita Buch'>Naturkita Buch</option>
+</select>
+</div>
+</div>
+
+<div class='form-group row'>
+<label style='margin-left:1em;' class = 'col-sm-4 col-md-4 col-lg-3 col-xl-3 col-form-label' id='lblgruppenart3' for='gruppenart3'>Betreuungform</label>
+<div class='col-sm-6 col-md-5 col-lg-4 col-xl-4'>
+<select style='color:black;' id='gruppenart3' name='gruppenart3[]'  class='form-control input-sm select2'>
+<option value=''>Keine Angabe</option>
+</select></div>
+</div>
+
+<span style='font-size: 0.92rem;'>Sollte
+in der als 1., 2. oder 3. Wunsch genannten Einrichtung zum Aufnahmewunschtermin
+kein Betreuungsplatz zur Verf&uuml;gung stehen, dann…</span>
+
+<span style='font-size: 0.92rem;'>…verzichten
+wir auf eine Aufnahme zum Wunschtermin und warten auf einen Betreuungsplatz in
+der / den genannten Einrichtung/-en zu einem sp&auml;teren Zeitpunkt.</span>
+
+<div class='form-group row collapse'>
+<div class='col-sm-4 col-md-4 col-lg-3 col-xl-3'>
+<label style='margin-left:1em;' id='lblkindpunkte37' for='kindpunkte37'>Verzicht auf Aufnahme zum Wunschtermin</label>
+</div>
+<div class='col-sm-6 col-md-5 col-lg-4 col-xl-4'>
+            <div class='switch'>
+                 <input type='checkbox' role='switch' name='kindpunkte37' id='kindpunkte37'>
+                <span class='slider' id ='slider_kindpunkte37' aria-hidden='true'></span>
+                <span class='label-text' id ='switch_text_kindpunkte37' aria-hidden='true'>Nein</span>
+            </div>
+</div>
+</div>
+
+<br>
+
+<span style='font-size: 0.92rem;'>…
+m&ouml;chten wir zum Aufnahmewunschtermin einen Betreuungsplatz in einer
+alternativen Einrichtung in Bietigheim-Bissingen. Uns ist bewusst, dass ein
+Einrichtungswechsel aus p&auml;dagogischer Sicht vermieden werden sollte.</span>
+
+<div class='form-group row collapse'>
+<div class='col-sm-4 col-md-4 col-lg-3 col-xl-3'>
+<label style='margin-left:1em;' id='lblkindpunkte38' for='kindpunkte38'>Aufnahme zum Wunschtermin in anderer Einrichtung</label>
+</div>
+<div class='col-sm-6 col-md-5 col-lg-4 col-xl-4'>
+            <div class='switch'>
+                 <input type='checkbox' role='switch' name='kindpunkte38' id='kindpunkte38'>
+                <span class='slider' id ='slider_kindpunkte38' aria-hidden='true'></span>
+                <span class='label-text' id ='switch_text_kindpunkte38' aria-hidden='true'>Nein</span>
+            </div>
+</div>
+</div>
+
+<br>
+
+<span style='font-size: 0.92rem;'>Hinweis:</span>
+
+<span style='font-size: 0.92rem;'>Da
+Ganztagesbetreuung und Pl&auml;tze unter 3 Jahren stark nachgefragt werden, vergeben
+wir diese vorrangig bei Berufst&auml;tigkeit aller Personensorgeberechtigten. Hierzu
+ben&ouml;tigen wir einen entsprechenden Nachweis der Berufst&auml;tigkeit.</span>
+
+<br>
+
+</div>
+</fieldset>
+</div>
+</div>
+
+<div class='row'>
+<div class='col-sm-11 col-md-11 col-lg-11 col-xl-11'>
+<fieldset class='card'>
+<legend class='card-header'>Daten zur Familie</legend>
+<div class='card-block'>
+
+<b><span style='font-size: 0.92rem;'>Daten
+zur Familie</span></b>
+
+<br>
+
+<span style='font-size: 0.92rem;'>Erste
+Sorgeberechtigte / erster Sorgeberechtigter</span>
+
+<div class='form-group row'>
+<label style='margin-left:1em;' class = 'col-sm-4 col-md-4 col-lg-3 col-xl-3 col-form-label' id='lblsorg1anrede' for='sorg1anrede'>Anrede<span style='color:#730D12;font-size:1.5em;'>*</span></label>
+<div class='col-sm-1 col-md-1 col-lg-1 col-xl-1' style='min-width: 200px;'>
+<select class='form-control input-sm select2' size='3' id='sorg1anrede' name='sorg1anrede' style='color:black;' required>
+ <option selected='selected' value=''>Keine Angabe</option>
+ <option>Frau</option>
+ <option>Herr</option>
+</select></div>
+<div class='col-sm-5 col-md-4 col-lg-3 col-xl-3'>
+<div id='pflichtsorg1anrede' aria-live='assertive' aria-atomic='true'></div>
+</div></div>
+
+<div class='form-group row'>
+<label style='margin-left:1em;' class = 'col-sm-4 col-md-4 col-lg-3 col-xl-3 col-form-label' id='lblsorg1vorname' for='sorg1vorname'>Vorname<span style='color:#730D12;font-size:1.5em;'>*</span></label>
+<div class='col-sm-6 col-md-5 col-lg-4 col-xl-4'>
+<input type='text' class='form-control input-sm' name = 'sorg1vorname' id='sorg1vorname' style='font-family:arial;' required autocomplete='section-parent1 given-name'>
+</div>
+<div class='col-sm-5 col-md-4 col-lg-3 col-xl-3'>
+<div id='pflichtsorg1vorname' aria-live='assertive' aria-atomic='true'></div>
+</div></div>
+
+<div class='form-group row'>
+<label style='margin-left:1em;' class = 'col-sm-4 col-md-4 col-lg-3 col-xl-3 col-form-label' id='lblsorg1nachname' for='sorg1nachname'>Familienname<span style='color:#730D12;font-size:1.5em;'>*</span></label>
+<div class='col-sm-6 col-md-5 col-lg-4 col-xl-4'>
+<input type='text' class='form-control input-sm' name = 'sorg1nachname' id='sorg1nachname' style='font-family:arial;' required autocomplete='section-parent1 family-name'>
+</div>
+<div class='col-sm-5 col-md-4 col-lg-3 col-xl-3'>
+<div id='pflichtsorg1nachname' aria-live='assertive' aria-atomic='true'></div>
+</div></div>
+
+<div class='form-group row collapse'>
+<div class='col-sm-4 col-md-4 col-lg-3 col-xl-3'>
+<label style='margin-left:1em;' id='lblkindpunkte42' for='kindpunkte42'>berufst&auml;tig Vollzeit</label>
+</div>
+<div class='col-sm-6 col-md-5 col-lg-4 col-xl-4'>
+            <div class='switch'>
+                 <input type='checkbox' role='switch' name='kindpunkte42' id='kindpunkte42'>
+                <span class='slider' id ='slider_kindpunkte42' aria-hidden='true'></span>
+                <span class='label-text' id ='switch_text_kindpunkte42' aria-hidden='true'>Nein</span>
+            </div>
+</div>
+</div>
+
+<div class='form-group row collapse'>
+<div class='col-sm-4 col-md-4 col-lg-3 col-xl-3'>
+<label style='margin-left:1em;' id='lblkindpunkte45' for='kindpunkte45'>berufst&auml;tig Teilzeit</label>
+</div>
+<div class='col-sm-6 col-md-5 col-lg-4 col-xl-4'>
+            <div class='switch'>
+                 <input type='checkbox' role='switch' name='kindpunkte45' id='kindpunkte45'>
+                <span class='slider' id ='slider_kindpunkte45' aria-hidden='true'></span>
+                <span class='label-text' id ='switch_text_kindpunkte45' aria-hidden='true'>Nein</span>
+            </div>
+</div>
+</div>
+
+<div class='form-group row collapse'>
+<div class='col-sm-4 col-md-4 col-lg-3 col-xl-3'>
+<label style='margin-left:1em;' id='lblkindpunkte47' for='kindpunkte47'>nicht berufst&auml;tig</label>
+</div>
+<div class='col-sm-6 col-md-5 col-lg-4 col-xl-4'>
+            <div class='switch'>
+                 <input type='checkbox' role='switch' name='kindpunkte47' id='kindpunkte47'>
+                <span class='slider' id ='slider_kindpunkte47' aria-hidden='true'></span>
+                <span class='label-text' id ='switch_text_kindpunkte47' aria-hidden='true'>Nein</span>
+            </div>
+</div>
+</div>
+
+<div class='form-group row'>
+<label style='margin-left:1em;' class = 'col-sm-4 col-md-4 col-lg-3 col-xl-3 col-form-label' id='lblsorg1strasse' for='sorg1strasse'>Stra&szlig;e<span style='color:#730D12;font-size:1.5em;'>*</span></label>
+<div class='col-sm-6 col-md-5 col-lg-4 col-xl-4'>
+<input type='text' class='form-control input-sm' name = 'sorg1strasse' id='sorg1strasse' style='font-family:arial;' required autocomplete='section-parent1 address-line1'>
+</div>
+<div class='col-sm-5 col-md-4 col-lg-3 col-xl-3'>
+<div id='pflichtsorg1strasse' aria-live='assertive' aria-atomic='true'></div>
+</div></div>
+
+<div class='form-group row'>
+<div style='margin-left:1em;' class='col-sm-4 col-md-4 col-lg-3 col-xl-3 col-form-label'><label id='lblsorg1plz' for='sorg1plz'>Postleitzahl<span style='color:#730D12;font-size:1.5em;'>*</span></label><label id='lblsorg1ort' style='margin-left:1em;' for='sorg1ort'>Wohnort<span style='color:#730D12;font-size:1.5em;'>*</span></label></div><div class='col-sm-2 col-md-2 col-lg-1 col-xl-1' style='min-width:95px;'>
+<input type='text' class='form-control input-sm' id='sorg1plz' name='sorg1plz' style='font-family:arial;' required autocomplete='section-parent1 postal-code'>
+</div>
+<div class='col-sm-4 col-md-3 col-lg-3 col-xl-3'><label for='sorg1ort' class='collapse'>Wohnort<span style='color:#730D12;font-size:1.5em;'>*</span></label>
+<input type='text' class='form-control input-sm' id='sorg1ort' name='sorg1ort' aria-label='Wohnort' style='font-family:arial;' required autocomplete='section-parent1 address-level2'>
+</div>
+<div class='col-sm-5 col-md-4 col-lg-3 col-xl-3'>
+<div id='pflichtsorg1plz'  aria-live='assertive' aria-atomic='true'></div>
+<div id='pflichtsorg1ort' aria-live='assertive' aria-atomic='true'></div>
+</div></div>
+
+
+<div class='form-group row'>
+<label style='margin-left:1em;' class = 'col-sm-4 col-md-4 col-lg-3 col-xl-3 col-form-label' id='lblemail' for='email'>E-Mail:<span style='color:#730D12;font-size:1.5em;'>*</span></label>
+<div class='col-sm-6 col-md-5 col-lg-4 col-xl-4'>
+<input type='text' class='form-control input-sm' name = 'email' id='email' style='font-family:arial;' required autocomplete='section-parent1 email'> 
+</div>
+<div class='col-sm-5 col-md-4 col-lg-3 col-xl-3'>
+<div id='pflichtemail' aria-live='assertive' aria-atomic='true'></div>
+</div></div>
+<div class='form-group row'>
+<label style='margin-left:1em;' class = 'col-sm-4 col-md-4 col-lg-3 col-xl-3 col-form-label' id='lblemailbestaetigung' for='emailconfirm'>E-Mail: Best&auml;tigung<span style='color:#730D12;font-size:1.5em;'>*</span></label>
+<div class='col-sm-6 col-md-5 col-lg-4 col-xl-4'>
+<input type='text' class='form-control input-sm' name = 'emailconfirm' id='emailconfirm' style='font-family:arial;' required autocomplete='off'>
+</div>
+<div class='col-sm-5 col-md-4 col-lg-3 col-xl-3'>
+<div id='pruefemailconfirm'  aria-live='assertive' aria-atomic='true'></div>
+</div></div>
+
+<div class='form-group row'>
+<label style='margin-left:1em;' class = 'col-sm-4 col-md-4 col-lg-3 col-xl-3 col-form-label' id='lbltelefon1' for='telefon1'>Telefonnummer</label>
+<div class='col-sm-6 col-md-5 col-lg-4 col-xl-4'>
+<input type='text' class='form-control input-sm' name = 'telefon1' id='telefon1' style='font-family:arial;'  autocomplete='section-parent1 tel'>
+</div>
+<div class='col-sm-5 col-md-4 col-lg-3 col-xl-3'>
+<p id='prueftelefon1'>
+</div></div>
+
+<div class='form-group row'>
+<label style='margin-left:1em;' class = 'col-sm-4 col-md-4 col-lg-3 col-xl-3 col-form-label' id='lblhandy' for='handy'>Mobiltelefon<span style='color:#730D12;font-size:1.5em;'>*</span></label>
+<div class='col-sm-6 col-md-5 col-lg-4 col-xl-4'>
+<input type='text' class='form-control input-sm' name = 'handy' id='handy' style='font-family:arial;' required>
+</div>
+<div class='col-sm-5 col-md-4 col-lg-3 col-xl-3'>
+<div id='pflichthandy' aria-live='assertive' aria-atomic='true'></div>
+</div></div>
+
+<div class='form-group row collapse'>
+<div class='col-sm-4 col-md-4 col-lg-3 col-xl-3'>
+<label style='margin-left:1em;' id='lblkindpunkte43' for='kindpunkte43'>Leben Sie mit Ihrem Kind / Ihren Kindern alleine in einem Haushalt im oben genannten Hauptwohnsitz ?</label>
+</div>
+<div class='col-sm-6 col-md-5 col-lg-4 col-xl-4'>
+            <div class='switch'>
+                 <input type='checkbox' role='switch' name='kindpunkte43' id='kindpunkte43'>
+                <span class='slider' id ='slider_kindpunkte43' aria-hidden='true'></span>
+                <span class='label-text' id ='switch_text_kindpunkte43' aria-hidden='true'>Nein</span>
+            </div>
+</div>
+</div>
+
+<br>
+
+<span style='font-size: 0.92rem;'>Zweite
+Sorgeberechtigte /zweiter Sorgeberechtigter</span>
+
+<div class='form-group row'>
+<label style='margin-left:1em;' class = 'col-sm-4 col-md-4 col-lg-3 col-xl-3 col-form-label' id='lblsorg2anrede' for='sorg2anrede'>Anrede</label>
+<div class='col-sm-1 col-md-1 col-lg-1 col-xl-1' style='min-width: 200px;'>
+<select class='form-control input-sm select2' size='3' id='sorg2anrede' name='sorg2anrede' style='color:black;' >
+ <option selected='selected' value=''>Keine Angabe</option>
+ <option>Frau</option>
+ <option>Herr</option>
+</select></div>
+</div>
+
+<div class='form-group row'>
+<label style='margin-left:1em;' class = 'col-sm-4 col-md-4 col-lg-3 col-xl-3 col-form-label' id='lblsorg2vorname' for='sorg2vorname'>Vorname</label>
+<div class='col-sm-6 col-md-5 col-lg-4 col-xl-4'>
+<input type='text' class='form-control input-sm' name = 'sorg2vorname' id='sorg2vorname' style='font-family:arial;'  autocomplete='section-parent2 given-name'>
+</div>
+</div>
+
+<div class='form-group row'>
+<label style='margin-left:1em;' class = 'col-sm-4 col-md-4 col-lg-3 col-xl-3 col-form-label' id='lblsorg2nachname' for='sorg2nachname'>Familienname</label>
+<div class='col-sm-6 col-md-5 col-lg-4 col-xl-4'>
+<input type='text' class='form-control input-sm' name = 'sorg2nachname' id='sorg2nachname' style='font-family:arial;'  autocomplete='section-parent2 family-name'>
+</div>
+</div>
+
+<div class='form-group row collapse'>
+<div class='col-sm-4 col-md-4 col-lg-3 col-xl-3'>
+<label style='margin-left:1em;' id='lblkindpunkte44' for='kindpunkte44'>berufst&auml;tig Vollzeit</label>
+</div>
+<div class='col-sm-6 col-md-5 col-lg-4 col-xl-4'>
+            <div class='switch'>
+                 <input type='checkbox' role='switch' name='kindpunkte44' id='kindpunkte44'>
+                <span class='slider' id ='slider_kindpunkte44' aria-hidden='true'></span>
+                <span class='label-text' id ='switch_text_kindpunkte44' aria-hidden='true'>Nein</span>
+            </div>
+</div>
+</div>
+
+<div class='form-group row collapse'>
+<div class='col-sm-4 col-md-4 col-lg-3 col-xl-3'>
+<label style='margin-left:1em;' id='lblkindpunkte46' for='kindpunkte46'>berufst&auml;tig Teilzeit</label>
+</div>
+<div class='col-sm-6 col-md-5 col-lg-4 col-xl-4'>
+            <div class='switch'>
+                 <input type='checkbox' role='switch' name='kindpunkte46' id='kindpunkte46'>
+                <span class='slider' id ='slider_kindpunkte46' aria-hidden='true'></span>
+                <span class='label-text' id ='switch_text_kindpunkte46' aria-hidden='true'>Nein</span>
+            </div>
+</div>
+</div>
+
+<div class='form-group row collapse'>
+<div class='col-sm-4 col-md-4 col-lg-3 col-xl-3'>
+<label style='margin-left:1em;' id='lblkindpunkte48' for='kindpunkte48'>nicht berufst&auml;tig</label>
+</div>
+<div class='col-sm-6 col-md-5 col-lg-4 col-xl-4'>
+            <div class='switch'>
+                 <input type='checkbox' role='switch' name='kindpunkte48' id='kindpunkte48'>
+                <span class='slider' id ='slider_kindpunkte48' aria-hidden='true'></span>
+                <span class='label-text' id ='switch_text_kindpunkte48' aria-hidden='true'>Nein</span>
+            </div>
+</div>
+</div>
+
+<div class='form-group row'>
+<label style='margin-left:1em;' class = 'col-sm-4 col-md-4 col-lg-3 col-xl-3 col-form-label' id='lblsorg2strasse' for='sorg2strasse'>Stra&szlig;e</label>
+<div class='col-sm-6 col-md-5 col-lg-4 col-xl-4'>
+<input type='text' class='form-control input-sm' name = 'sorg2strasse' id='sorg2strasse' style='font-family:arial;'  autocomplete='section-parent2 address-line1'>
+</div>
+</div>
+
+<div class='form-group row'>
+<div style='margin-left:1em;' class='col-sm-4 col-md-4 col-lg-3 col-xl-3 col-form-label'><label id='lblsorg2plz' for='sorg2plz'>Postleitzahl</label><label style='margin-left:1em;' id='lblsorg2ort' for='sorg2ort'>Wohnort</label></div><div class='col-sm-2 col-md-2 col-lg-1 col-xl-1' style='min-width:95px;'>
+<input type='text' class='form-control input-sm' id='sorg2plz' name='sorg2plz' style='font-family:arial;'  autocomplete='section-parent2 postal-code'>
+</div>
+<div class='col-sm-4 col-md-3 col-lg-3 col-xl-3'><label for='sorg2ort' class='collapse'>Wohnort</label>
+<input type='text' class='form-control input-sm' id='sorg2ort' name='sorg2ort' aria-label='Wohnort' style='font-family:arial;'  autocomplete='section-parent2 address-level2'>
+</div>
+</div>
+
+
+<div class='form-group row'>
+<label style='margin-left:1em;' class = 'col-sm-4 col-md-4 col-lg-3 col-xl-3 col-form-label' id='lblsorg2email' for='sorg2email'>E-Mail Adresse</label>
+<div class='col-sm-6 col-md-5 col-lg-4 col-xl-4'>
+<input type='text' class='form-control input-sm' name = 'sorg2email' id='sorg2email' style='font-family:arial;'  autocomplete='section-parent2 email'> 
+</div>
+<div class='col-sm-1 col-md-1 col-lg-1 col-xl-1'></div>
+<div class='col-sm-5 col-md-4 col-lg-3 col-xl-3'>
+<div id='pruefsorg2email'  aria-live='assertive' aria-atomic='true'></div>
+</div></div>
+<div class='form-group row'>
+<label style='margin-left:1em;' class = 'col-sm-4 col-md-4 col-lg-3 col-xl-3 col-form-label' id='lblsorg2emailbestaetigung' for='sorg2emailconfirm'>E-Mail Adresse Best&auml;tigung</label>
+<div class='col-sm-6 col-md-5 col-lg-4 col-xl-4'>
+<input type='text' class='form-control input-sm' name = 'sorg2emailconfirm' id='sorg2emailconfirm' style='font-family:arial;'  autocomplete='off'>
+</div>
+<div class='col-sm-5 col-md-4 col-lg-3 col-xl-3'>
+<div id='pruefsorg2emailconfirm'  aria-live='assertive' aria-atomic='true'></div>
+</div></div>
+
+<div class='form-group row'>
+<label style='margin-left:1em;' class = 'col-sm-4 col-md-4 col-lg-3 col-xl-3 col-form-label' id='lblsorg2telefon1' for='sorg2telefon1'>Telefon-Nr.</label>
+<div class='col-sm-6 col-md-5 col-lg-4 col-xl-4'>
+<input type='text' class='form-control input-sm' name = 'sorg2telefon1' id='sorg2telefon1' style='font-family:arial;'  autocomplete='section-parent2 tel'>
+</div>
+<div class='col-sm-5 col-md-4 col-lg-3 col-xl-3'>
+<p id='pruefsorg2telefon1'>
+</div></div>
+
+<div class='form-group row'>
+<label style='margin-left:1em;' class = 'col-sm-4 col-md-4 col-lg-3 col-xl-3 col-form-label' id='lblsorg2handy' for='sorg2handy'>Mobiltelefon</label>
+<div class='col-sm-6 col-md-5 col-lg-4 col-xl-4'>
+<input type='text' class='form-control input-sm' name = 'sorg2handy' id='sorg2handy' style='font-family:arial;' >
+</div>
+<div class='col-sm-5 col-md-4 col-lg-3 col-xl-3'>
+<p id='pruefsorg2handy'>
+</div></div>
+
+</div>
+</fieldset>
+</div>
+</div>
+
+<div class='row'>
+<div class='col-sm-11 col-md-11 col-lg-11 col-xl-11'>
+<fieldset class='card'>
+<legend class='card-header'>Weitere Angaben</legend>
+<div class='card-block'>
+
+<ol style='margin-top:0cm' start=1 type=1>
+ <li class=MsoNormal><span style='font-size: 0.92rem;'>Geschwisterkind
+     (im selben Haushalt lebend mit Hauptwohnsitz)</span></li>
+</ol>
+
+<div class='form-group row'>
+<label style='margin-left:1em;' class = 'col-sm-4 col-md-4 col-lg-3 col-xl-3 col-form-label' id='lblgeschw1vorname' for='geschw1vorname'>Vorname</label>
+<div class='col-sm-6 col-md-5 col-lg-4 col-xl-4'>
+<input type='text' class='form-control input-sm' name = 'geschw1vorname' id='geschw1vorname' style='font-family:arial;'  autocomplete='section-sibling1 given-name'>
+</div>
+</div>
+
+<div class='form-group row'>
+<label style='margin-left:1em;' class = 'col-sm-4 col-md-4 col-lg-3 col-xl-3 col-form-label' id='lblgeschw1nachname' for='geschw1nachname'>Familienname</label>
+<div class='col-sm-6 col-md-5 col-lg-4 col-xl-4'>
+<input type='text' class='form-control input-sm' name = 'geschw1nachname' id='geschw1nachname' style='font-family:arial;'  autocomplete='section-sibling1 family-name'>
+</div>
+</div>
+
+<div class='form-group row'>
+<label style='margin-left:1em;' class = 'col-sm-4 col-md-4 col-lg-3 col-xl-3 col-form-label' id='lblgeschw1geburtstag' for='geschw1geburtstag'>Geburtsdatum</label>
+<div class='datepicker'>
+<div class='date'>
+<div class='group'>
+<div class='col-sm-2 col-md-2 col-lg-2 col-xl-2' style='min-width: 195px;'>
+<input type='text' class='form-control input-sm' id='geschw1geburtstag' name='geschw1geburtstag'  aria-describedby='dateDescribedgeschw1geburtstag'  autocomplete='section-sibling1 given-name'>
+<span class='described' id='dateDescribedgeschw1geburtstag'>(<span class='sr-only'>Datum format: </span>tt.mm.jjjj)</span>
+</div>
+<button type='button' class='btn icon'  id='geschw1geburtstagButton' aria-label='Datum w&auml;hlen'>
+<span  class='icon fa-solid fa-calendar-days' style='font-size:1.5em;color: #ffffff;'></span>
+</button>
+</div>
+</div>
+<div id='datepickergeschw1geburtstag' class='datepicker-dialog' role='dialog' aria-modal='true' aria-label='Datum w&auml;hlen'>
+    <div class='header'>
+        <button type='button' class='prev-year' aria-label='Vorheriges Jahr'>
+            <span class='fa-solid fa-angles-left'></span>
+        </button>
+        <button type='button' class='prev-month' aria-label='Vorheriger Monat'>
+            <span class='fa-solid fa-angle-left'></span>
+        </button>
+        <h2 id='datepicker-grid-geschw1geburtstag' class='month-year' aria-live='polite'>February 2020</h2>
+        <button type='button' class='next-month' aria-label='N&auml;chster Monat'>
+            <span class='fa-solid fa-angle-right'></span>
+        </button>
+        <button type='button' class='next-year' aria-label='N&auml;chstes Jahr'>
+            <span class='fa-solid fa-angles-right'></span>
+        </button>
+    </div>
+    <div class='table-wrap'>
+        <table class='dates' role='grid' aria-labelledby='datepicker-grid-geschw1geburtstag'>
+            <thead>
+                <tr>
+                    <th scope='col' abbr='Sonntag'>So</th>
+                    <th scope='col' abbr='Montag'>Mo</th>
+                    <th scope='col' abbr='Dienstag'>Di</th>
+                    <th scope='col' abbr='Mittwoch'>Mi</th>
+                    <th scope='col' abbr='Donnerstag'>Do</th>
+                    <th scope='col' abbr='Freitag'>Fr</th>
+                    <th scope='col' abbr='Samstag'>Sa</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class='disabled' tabindex='-1'></td>
+                    <td class='disabled' tabindex='-1'></td>
+                    <td class='disabled' tabindex='-1'></td>
+                    <td class='disabled' tabindex='-1'></td>
+                    <td class='disabled' tabindex='-1'></td>
+                    <td class='disabled' tabindex='-1'></td>
+                    <td tabindex='-1' data-date='2020-02-01'>1</td>
+                </tr>
+                <tr>
+                    <td  tabindex='-1' data-date='2020-02-02'>2</td>
+                    <td  tabindex='-1' data-date='2020-02-03'>3</td>
+                    <td  tabindex='-1' data-date='2020-02-04'>4</td>
+                    <td  tabindex='-1' data-date='2020-02-05'>5</td>
+                    <td  tabindex='-1' data-date='2020-02-06'>6</td>
+                    <td  tabindex='-1' data-date='2020-02-07'>7</td>
+                    <td  tabindex='-1' data-date='2020-02-08'>8</td>
+                 </tr>
+                 <tr>
+                    <td  tabindex='-1' data-date='2020-02-09'>9</td>
+                    <td  tabindex='-1' data-date='2020-02-10'>10</td>
+                    <td  tabindex='-1' data-date='2020-02-11'>11</td>
+                    <td  tabindex='-1' data-date='2020-02-12'>12</td>
+                    <td  tabindex='-1' data-date='2020-02-13'>13</td>
+                    <td  tabindex='-1' data-date='2020-02-14'>14</td>
+                    <td  tabindex='-1' data-date='2020-02-15'>15</td>
+                </tr>
+                <tr>
+                    <td  tabindex='-1' data-date='2020-02-16'>16</td>
+                    <td  tabindex='-1' data-date='2020-02-17'>17</td>
+                    <td  tabindex='-1' data-date='2020-02-18'>18</td>
+                    <td  tabindex='-1' data-date='2020-02-19'>19</td>
+                    <td  tabindex='-1' data-date='2020-02-20'>20</td>
+                    <td  tabindex='-1' data-date='2020-02-21'>21</td>
+                    <td  tabindex='-1' data-date='2020-02-22'>22</td>
+                </tr>
+                <tr>
+                    <td  tabindex='-1' data-date='2020-02-23'>23</td>
+                    <td  tabindex='-1' data-date='2020-02-24'>24</td>
+                    <td  tabindex='-1' data-date='2020-02-25'>25</td>
+                    <td  tabindex='-1' data-date='2020-02-26'>26</td>
+                    <td  tabindex='-1' data-date='2020-02-27'>27</td>
+                    <td  tabindex='-1' data-date='2020-02-28'>28</td>
+                    <td  tabindex='-1' data-date='2020-02-29'>29</td>
+                </tr>
+                <tr>
+                    <td  tabindex='-1' data-date='2020-02-30'>30</td>
+                    <td  tabindex='-1' data-date='2020-02-31'>31</td>
+                    <td  class='disabled' tabindex='-1'></td>
+                    <td  class='disabled' tabindex='-1'></td>
+                    <td  class='disabled' tabindex='-1'></td>
+                    <td  class='disabled' tabindex='-1'></td>
+                    <td  class='disabled' tabindex='-1'></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class='dialog-ok-cancel-group'>
+        <button class='dialog-button' value='cancel'>Abbrechen</button>
+        <button class='dialog-button' value='ok'>OK</button>
+    </div>
+    <div class='dialog-message' aria-live='polite'></div>
+</div>
+</div>
+<div class='col-sm-5 col-md-4 col-lg-3 col-xl-3'>
+<p id='pruefgeschw1geburtstag'>
+</div></div>
+
+<div class='form-group row'>
+<label style='margin-left:1em;' class = 'col-sm-4 col-md-4 col-lg-3 col-xl-3 col-form-label' id='lblkindergartengeschw1' for='kindergartengeschw1'>Besucht folgende Einrichtung</label>
+<div class='col-sm-6 col-md-5 col-lg-4 col-xl-4'>
+<select class='form-control input-sm select2' style='color:black;' size='27' id='kindergartengeschw1' name='kindergartengeschw1'>
+<option selected='selected' value=''>Keine Angabe</option>
+ <option value='23;Kinderhaus Buch'>Kinderhaus Buch</option>
+ <option value='21987;Kinderhaus Domino'>Kinderhaus Domino</option>
+ <option value='29538;Kinderhaus Halli Galli'>Kinderhaus Halli Galli</option>
+ <option value='25;Kinderhaus Malefiz'>Kinderhaus Malefiz</option>
+ <option value='25656;Kinderhaus Memory'>Kinderhaus Memory</option>
+ <option value='27;Kinderhaus Mikado'>Kinderhaus Mikado</option>
+ <option value='29;Kinderhaus Untermberg'>Kinderhaus Untermberg</option>
+ <option value='29142;Kinderhaus Villa Paletti'>Kinderhaus Villa Paletti</option>
+ <option value='2;Kita Allensteiner Stra&szlig;e'>Kita Allensteiner Stra&szlig;e</option>
+ <option value='4;Kita Breslauer Stra&szlig;e'>Kita Breslauer Stra&szlig;e</option>
+ <option value='6;Kita Brunnenstra&szlig;e'>Kita Brunnenstra&szlig;e</option>
+ <option value='8;Kita Enten&auml;cker'>Kita Enten&auml;cker</option>
+ <option value='10;Kita Farbstra&szlig;e'>Kita Farbstra&szlig;e</option>
+ <option value='12;Kita Fliederweg'>Kita Fliederweg</option>
+ <option value='14;Kita Im Leintal'>Kita Im Leintal</option>
+ <option value='16;Kita Im Sand'>Kita Im Sand</option>
+ <option value='19;Kita Kammgarnspinnerei'>Kita Kammgarnspinnerei</option>
+ <option value='21;Kita Kelterstra&szlig;e'>Kita Kelterstra&szlig;e</option>
+ <option value='31;Kita Kreuz&auml;cker I'>Kita Kreuz&auml;cker I</option>
+ <option value='32;Kita Kreuz&auml;cker II'>Kita Kreuz&auml;cker II</option>
+ <option value='34;Kita Lugstra&szlig;e'>Kita Lugstra&szlig;e</option>
+ <option value='36;Kita Metterzimmern'>Kita Metterzimmern</option>
+ <option value='38;Kita Paul-B&uuml;hler-Stra&szlig;e'>Kita Paul-B&uuml;hler-Stra&szlig;e</option>
+ <option value='43;Kita Streifelbach'>Kita Streifelbach</option>
+ <option value='45;Kita Vorderer Weingartweg'>Kita Vorderer Weingartweg</option>
+ <option value='20941;Naturkita Buch'>Naturkita Buch</option>
+</select>
+</div>
+</div>
+
+<ol style='margin-top:0cm' start=2 type=1>
+ <li class=MsoNormal>Geschwisterkind
+     (im selben Haushalt lebend mit Hauptwohnsitz)</li>
+</ol>
+
+<div class='form-group row'>
+<label style='margin-left:1em;' class = 'col-sm-4 col-md-4 col-lg-3 col-xl-3 col-form-label' id='lblgeschw2vorname' for='geschw2vorname'>Vorname</label>
+<div class='col-sm-6 col-md-5 col-lg-4 col-xl-4'>
+<input type='text' class='form-control input-sm' name = 'geschw2vorname' id='geschw2vorname' style='font-family:arial;'  autocomplete='section-sibling2 given-name'>
+</div>
+</div>
+
+<div class='form-group row'>
+<label style='margin-left:1em;' class = 'col-sm-4 col-md-4 col-lg-3 col-xl-3 col-form-label' id='lblgeschw2nachname' for='geschw2nachname'>Familienname</label>
+<div class='col-sm-6 col-md-5 col-lg-4 col-xl-4'>
+<input type='text' class='form-control input-sm' name = 'geschw2nachname' id='geschw2nachname' style='font-family:arial;'  autocomplete='section-sibling2 family-name'>
+</div>
+</div>
+
+<div class='form-group row'>
+<label style='margin-left:1em;' class = 'col-sm-4 col-md-4 col-lg-3 col-xl-3 col-form-label' id='lblgeschw2geburtstag' for='geschw2geburtstag'>Geburtsdatum</label>
+<div class='datepicker'>
+<div class='date'>
+<div class='group'>
+<div class='col-sm-2 col-md-2 col-lg-2 col-xl-2' style='min-width: 195px;'>
+<input type='text' class='form-control input-sm' id='geschw2geburtstag' name='geschw2geburtstag'  aria-describedby='dateDescribedgeschw2geburtstag'  autocomplete='section-sibling2 given-name'>
+<span class='described' id='dateDescribedgeschw2geburtstag'>(<span class='sr-only'>Datum format: </span>tt.mm.jjjj)</span>
+</div>
+<button type='button' class='btn icon'  id='geschw2geburtstagButton' aria-label='Datum w&auml;hlen'>
+<span  class='icon fa-solid fa-calendar-days' style='font-size:1.5em;color: #ffffff;'></span>
+</button>
+</div>
+</div>
+<div id='datepickergeschw2geburtstag' class='datepicker-dialog' role='dialog' aria-modal='true' aria-label='Datum w&auml;hlen'>
+    <div class='header'>
+        <button type='button' class='prev-year' aria-label='Vorheriges Jahr'>
+            <span class='fa-solid fa-angles-left'></span>
+        </button>
+        <button type='button' class='prev-month' aria-label='Vorheriger Monat'>
+            <span class='fa-solid fa-angle-left'></span>
+        </button>
+        <h2 id='datepicker-grid-geschw2geburtstag' class='month-year' aria-live='polite'>February 2020</h2>
+        <button type='button' class='next-month' aria-label='N&auml;chster Monat'>
+            <span class='fa-solid fa-angle-right'></span>
+        </button>
+        <button type='button' class='next-year' aria-label='N&auml;chstes Jahr'>
+            <span class='fa-solid fa-angles-right'></span>
+        </button>
+    </div>
+    <div class='table-wrap'>
+        <table class='dates' role='grid' aria-labelledby='datepicker-grid-geschw2geburtstag'>
+            <thead>
+                <tr>
+                    <th scope='col' abbr='Sonntag'>So</th>
+                    <th scope='col' abbr='Montag'>Mo</th>
+                    <th scope='col' abbr='Dienstag'>Di</th>
+                    <th scope='col' abbr='Mittwoch'>Mi</th>
+                    <th scope='col' abbr='Donnerstag'>Do</th>
+                    <th scope='col' abbr='Freitag'>Fr</th>
+                    <th scope='col' abbr='Samstag'>Sa</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class='disabled' tabindex='-1'></td>
+                    <td class='disabled' tabindex='-1'></td>
+                    <td class='disabled' tabindex='-1'></td>
+                    <td class='disabled' tabindex='-1'></td>
+                    <td class='disabled' tabindex='-1'></td>
+                    <td class='disabled' tabindex='-1'></td>
+                    <td tabindex='-1' data-date='2020-02-01'>1</td>
+                </tr>
+                <tr>
+                    <td  tabindex='-1' data-date='2020-02-02'>2</td>
+                    <td  tabindex='-1' data-date='2020-02-03'>3</td>
+                    <td  tabindex='-1' data-date='2020-02-04'>4</td>
+                    <td  tabindex='-1' data-date='2020-02-05'>5</td>
+                    <td  tabindex='-1' data-date='2020-02-06'>6</td>
+                    <td  tabindex='-1' data-date='2020-02-07'>7</td>
+                    <td  tabindex='-1' data-date='2020-02-08'>8</td>
+                 </tr>
+                 <tr>
+                    <td  tabindex='-1' data-date='2020-02-09'>9</td>
+                    <td  tabindex='-1' data-date='2020-02-10'>10</td>
+                    <td  tabindex='-1' data-date='2020-02-11'>11</td>
+                    <td  tabindex='-1' data-date='2020-02-12'>12</td>
+                    <td  tabindex='-1' data-date='2020-02-13'>13</td>
+                    <td  tabindex='-1' data-date='2020-02-14'>14</td>
+                    <td  tabindex='-1' data-date='2020-02-15'>15</td>
+                </tr>
+                <tr>
+                    <td  tabindex='-1' data-date='2020-02-16'>16</td>
+                    <td  tabindex='-1' data-date='2020-02-17'>17</td>
+                    <td  tabindex='-1' data-date='2020-02-18'>18</td>
+                    <td  tabindex='-1' data-date='2020-02-19'>19</td>
+                    <td  tabindex='-1' data-date='2020-02-20'>20</td>
+                    <td  tabindex='-1' data-date='2020-02-21'>21</td>
+                    <td  tabindex='-1' data-date='2020-02-22'>22</td>
+                </tr>
+                <tr>
+                    <td  tabindex='-1' data-date='2020-02-23'>23</td>
+                    <td  tabindex='-1' data-date='2020-02-24'>24</td>
+                    <td  tabindex='-1' data-date='2020-02-25'>25</td>
+                    <td  tabindex='-1' data-date='2020-02-26'>26</td>
+                    <td  tabindex='-1' data-date='2020-02-27'>27</td>
+                    <td  tabindex='-1' data-date='2020-02-28'>28</td>
+                    <td  tabindex='-1' data-date='2020-02-29'>29</td>
+                </tr>
+                <tr>
+                    <td  tabindex='-1' data-date='2020-02-30'>30</td>
+                    <td  tabindex='-1' data-date='2020-02-31'>31</td>
+                    <td  class='disabled' tabindex='-1'></td>
+                    <td  class='disabled' tabindex='-1'></td>
+                    <td  class='disabled' tabindex='-1'></td>
+                    <td  class='disabled' tabindex='-1'></td>
+                    <td  class='disabled' tabindex='-1'></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class='dialog-ok-cancel-group'>
+        <button class='dialog-button' value='cancel'>Abbrechen</button>
+        <button class='dialog-button' value='ok'>OK</button>
+    </div>
+    <div class='dialog-message' aria-live='polite'></div>
+</div>
+</div>
+<div class='col-sm-5 col-md-4 col-lg-3 col-xl-3'>
+<p id='pruefgeschw2geburtstag'>
+</div></div>
+
+<div class='form-group row'>
+<label style='margin-left:1em;' class = 'col-sm-4 col-md-4 col-lg-3 col-xl-3 col-form-label' id='lblkindergartengeschw2' for='kindergartengeschw2'>Besucht folgende Einrichtung</label>
+<div class='col-sm-6 col-md-5 col-lg-4 col-xl-4'>
+<select class='form-control input-sm select2' style='color:black;' size='27' id='kindergartengeschw2' name='kindergartengeschw2'>
+<option selected='selected' value=''>Keine Angabe</option>
+ <option value='23;Kinderhaus Buch'>Kinderhaus Buch</option>
+ <option value='21987;Kinderhaus Domino'>Kinderhaus Domino</option>
+ <option value='29538;Kinderhaus Halli Galli'>Kinderhaus Halli Galli</option>
+ <option value='25;Kinderhaus Malefiz'>Kinderhaus Malefiz</option>
+ <option value='25656;Kinderhaus Memory'>Kinderhaus Memory</option>
+ <option value='27;Kinderhaus Mikado'>Kinderhaus Mikado</option>
+ <option value='29;Kinderhaus Untermberg'>Kinderhaus Untermberg</option>
+ <option value='29142;Kinderhaus Villa Paletti'>Kinderhaus Villa Paletti</option>
+ <option value='2;Kita Allensteiner Stra&szlig;e'>Kita Allensteiner Stra&szlig;e</option>
+ <option value='4;Kita Breslauer Stra&szlig;e'>Kita Breslauer Stra&szlig;e</option>
+ <option value='6;Kita Brunnenstra&szlig;e'>Kita Brunnenstra&szlig;e</option>
+ <option value='8;Kita Enten&auml;cker'>Kita Enten&auml;cker</option>
+ <option value='10;Kita Farbstra&szlig;e'>Kita Farbstra&szlig;e</option>
+ <option value='12;Kita Fliederweg'>Kita Fliederweg</option>
+ <option value='14;Kita Im Leintal'>Kita Im Leintal</option>
+ <option value='16;Kita Im Sand'>Kita Im Sand</option>
+ <option value='19;Kita Kammgarnspinnerei'>Kita Kammgarnspinnerei</option>
+ <option value='21;Kita Kelterstra&szlig;e'>Kita Kelterstra&szlig;e</option>
+ <option value='31;Kita Kreuz&auml;cker I'>Kita Kreuz&auml;cker I</option>
+ <option value='32;Kita Kreuz&auml;cker II'>Kita Kreuz&auml;cker II</option>
+ <option value='34;Kita Lugstra&szlig;e'>Kita Lugstra&szlig;e</option>
+ <option value='36;Kita Metterzimmern'>Kita Metterzimmern</option>
+ <option value='38;Kita Paul-B&uuml;hler-Stra&szlig;e'>Kita Paul-B&uuml;hler-Stra&szlig;e</option>
+ <option value='43;Kita Streifelbach'>Kita Streifelbach</option>
+ <option value='45;Kita Vorderer Weingartweg'>Kita Vorderer Weingartweg</option>
+ <option value='20941;Naturkita Buch'>Naturkita Buch</option>
+</select>
+</div>
+</div>
+
+<ol style='margin-top:0cm' start=3 type=1>
+ <li class=MsoNormal>Geschwisterkind
+     (im selben Haushalt lebend mit Hauptwohnsitz)</li>
+</ol>
+
+<div class='form-group row'>
+<label style='margin-left:1em;' class = 'col-sm-4 col-md-4 col-lg-3 col-xl-3 col-form-label' id='lblgeschw3vorname' for='geschw3vorname'>Vorname</label>
+<div class='col-sm-6 col-md-5 col-lg-4 col-xl-4'>
+<input type='text' class='form-control input-sm' name = 'geschw3vorname' id='geschw3vorname' style='font-family:arial;'  autocomplete='section-sibling3 given-name'>
+</div>
+</div>
+
+<div class='form-group row'>
+<label style='margin-left:1em;' class = 'col-sm-4 col-md-4 col-lg-3 col-xl-3 col-form-label' id='lblgeschw3nachname' for='geschw3nachname'>Familienname</label>
+<div class='col-sm-6 col-md-5 col-lg-4 col-xl-4'>
+<input type='text' class='form-control input-sm' name = 'geschw3nachname' id='geschw3nachname' style='font-family:arial;'  autocomplete='section-sibling3 family-name'>
+</div>
+</div>
+
+<div class='form-group row'>
+<label style='margin-left:1em;' class = 'col-sm-4 col-md-4 col-lg-3 col-xl-3 col-form-label' id='lblgeschw3geburtstag' for='geschw3geburtstag'>Geburtsdatum</label>
+<div class='datepicker'>
+<div class='date'>
+<div class='group'>
+<div class='col-sm-2 col-md-2 col-lg-2 col-xl-2' style='min-width: 195px;'>
+<input type='text' class='form-control input-sm' id='geschw3geburtstag' name='geschw3geburtstag'  aria-describedby='dateDescribedgeschw3geburtstag'  autocomplete='section-sibling3 given-name'>
+<span class='described' id='dateDescribedgeschw3geburtstag'>(<span class='sr-only'>Datum format: </span>tt.mm.jjjj)</span>
+</div>
+<button type='button' class='btn icon'  id='geschw3geburtstagButton' aria-label='Datum w&auml;hlen'>
+<span  class='icon fa-solid fa-calendar-days' style='font-size:1.5em;color: #ffffff;'></span>
+</button>
+</div>
+</div>
+<div id='datepickergeschw3geburtstag' class='datepicker-dialog' role='dialog' aria-modal='true' aria-label='Datum w&auml;hlen'>
+    <div class='header'>
+        <button type='button' class='prev-year' aria-label='Vorheriges Jahr'>
+            <span class='fa-solid fa-angles-left'></span>
+        </button>
+        <button type='button' class='prev-month' aria-label='Vorheriger Monat'>
+            <span class='fa-solid fa-angle-left'></span>
+        </button>
+        <h2 id='datepicker-grid-geschw3geburtstag' class='month-year' aria-live='polite'>February 2020</h2>
+        <button type='button' class='next-month' aria-label='N&auml;chster Monat'>
+            <span class='fa-solid fa-angle-right'></span>
+        </button>
+        <button type='button' class='next-year' aria-label='N&auml;chstes Jahr'>
+            <span class='fa-solid fa-angles-right'></span>
+        </button>
+    </div>
+    <div class='table-wrap'>
+        <table class='dates' role='grid' aria-labelledby='datepicker-grid-geschw3geburtstag'>
+            <thead>
+                <tr>
+                    <th scope='col' abbr='Sonntag'>So</th>
+                    <th scope='col' abbr='Montag'>Mo</th>
+                    <th scope='col' abbr='Dienstag'>Di</th>
+                    <th scope='col' abbr='Mittwoch'>Mi</th>
+                    <th scope='col' abbr='Donnerstag'>Do</th>
+                    <th scope='col' abbr='Freitag'>Fr</th>
+                    <th scope='col' abbr='Samstag'>Sa</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class='disabled' tabindex='-1'></td>
+                    <td class='disabled' tabindex='-1'></td>
+                    <td class='disabled' tabindex='-1'></td>
+                    <td class='disabled' tabindex='-1'></td>
+                    <td class='disabled' tabindex='-1'></td>
+                    <td class='disabled' tabindex='-1'></td>
+                    <td tabindex='-1' data-date='2020-02-01'>1</td>
+                </tr>
+                <tr>
+                    <td  tabindex='-1' data-date='2020-02-02'>2</td>
+                    <td  tabindex='-1' data-date='2020-02-03'>3</td>
+                    <td  tabindex='-1' data-date='2020-02-04'>4</td>
+                    <td  tabindex='-1' data-date='2020-02-05'>5</td>
+                    <td  tabindex='-1' data-date='2020-02-06'>6</td>
+                    <td  tabindex='-1' data-date='2020-02-07'>7</td>
+                    <td  tabindex='-1' data-date='2020-02-08'>8</td>
+                 </tr>
+                 <tr>
+                    <td  tabindex='-1' data-date='2020-02-09'>9</td>
+                    <td  tabindex='-1' data-date='2020-02-10'>10</td>
+                    <td  tabindex='-1' data-date='2020-02-11'>11</td>
+                    <td  tabindex='-1' data-date='2020-02-12'>12</td>
+                    <td  tabindex='-1' data-date='2020-02-13'>13</td>
+                    <td  tabindex='-1' data-date='2020-02-14'>14</td>
+                    <td  tabindex='-1' data-date='2020-02-15'>15</td>
+                </tr>
+                <tr>
+                    <td  tabindex='-1' data-date='2020-02-16'>16</td>
+                    <td  tabindex='-1' data-date='2020-02-17'>17</td>
+                    <td  tabindex='-1' data-date='2020-02-18'>18</td>
+                    <td  tabindex='-1' data-date='2020-02-19'>19</td>
+                    <td  tabindex='-1' data-date='2020-02-20'>20</td>
+                    <td  tabindex='-1' data-date='2020-02-21'>21</td>
+                    <td  tabindex='-1' data-date='2020-02-22'>22</td>
+                </tr>
+                <tr>
+                    <td  tabindex='-1' data-date='2020-02-23'>23</td>
+                    <td  tabindex='-1' data-date='2020-02-24'>24</td>
+                    <td  tabindex='-1' data-date='2020-02-25'>25</td>
+                    <td  tabindex='-1' data-date='2020-02-26'>26</td>
+                    <td  tabindex='-1' data-date='2020-02-27'>27</td>
+                    <td  tabindex='-1' data-date='2020-02-28'>28</td>
+                    <td  tabindex='-1' data-date='2020-02-29'>29</td>
+                </tr>
+                <tr>
+                    <td  tabindex='-1' data-date='2020-02-30'>30</td>
+                    <td  tabindex='-1' data-date='2020-02-31'>31</td>
+                    <td  class='disabled' tabindex='-1'></td>
+                    <td  class='disabled' tabindex='-1'></td>
+                    <td  class='disabled' tabindex='-1'></td>
+                    <td  class='disabled' tabindex='-1'></td>
+                    <td  class='disabled' tabindex='-1'></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class='dialog-ok-cancel-group'>
+        <button class='dialog-button' value='cancel'>Abbrechen</button>
+        <button class='dialog-button' value='ok'>OK</button>
+    </div>
+    <div class='dialog-message' aria-live='polite'></div>
+</div>
+</div>
+<div class='col-sm-5 col-md-4 col-lg-3 col-xl-3'>
+<p id='pruefgeschw3geburtstag'>
+</div></div>
+
+<div class='form-group row'>
+<label style='margin-left:1em;' class = 'col-sm-4 col-md-4 col-lg-3 col-xl-3 col-form-label' id='lblkindergartengeschw3' for='kindergartengeschw3'>Besucht folgende Einrichtung</label>
+<div class='col-sm-6 col-md-5 col-lg-4 col-xl-4'>
+<select class='form-control input-sm select2' style='color:black;' size='27' id='kindergartengeschw3' name='kindergartengeschw3'>
+<option selected='selected' value=''>Keine Angabe</option>
+ <option value='23;Kinderhaus Buch'>Kinderhaus Buch</option>
+ <option value='21987;Kinderhaus Domino'>Kinderhaus Domino</option>
+ <option value='29538;Kinderhaus Halli Galli'>Kinderhaus Halli Galli</option>
+ <option value='25;Kinderhaus Malefiz'>Kinderhaus Malefiz</option>
+ <option value='25656;Kinderhaus Memory'>Kinderhaus Memory</option>
+ <option value='27;Kinderhaus Mikado'>Kinderhaus Mikado</option>
+ <option value='29;Kinderhaus Untermberg'>Kinderhaus Untermberg</option>
+ <option value='29142;Kinderhaus Villa Paletti'>Kinderhaus Villa Paletti</option>
+ <option value='2;Kita Allensteiner Stra&szlig;e'>Kita Allensteiner Stra&szlig;e</option>
+ <option value='4;Kita Breslauer Stra&szlig;e'>Kita Breslauer Stra&szlig;e</option>
+ <option value='6;Kita Brunnenstra&szlig;e'>Kita Brunnenstra&szlig;e</option>
+ <option value='8;Kita Enten&auml;cker'>Kita Enten&auml;cker</option>
+ <option value='10;Kita Farbstra&szlig;e'>Kita Farbstra&szlig;e</option>
+ <option value='12;Kita Fliederweg'>Kita Fliederweg</option>
+ <option value='14;Kita Im Leintal'>Kita Im Leintal</option>
+ <option value='16;Kita Im Sand'>Kita Im Sand</option>
+ <option value='19;Kita Kammgarnspinnerei'>Kita Kammgarnspinnerei</option>
+ <option value='21;Kita Kelterstra&szlig;e'>Kita Kelterstra&szlig;e</option>
+ <option value='31;Kita Kreuz&auml;cker I'>Kita Kreuz&auml;cker I</option>
+ <option value='32;Kita Kreuz&auml;cker II'>Kita Kreuz&auml;cker II</option>
+ <option value='34;Kita Lugstra&szlig;e'>Kita Lugstra&szlig;e</option>
+ <option value='36;Kita Metterzimmern'>Kita Metterzimmern</option>
+ <option value='38;Kita Paul-B&uuml;hler-Stra&szlig;e'>Kita Paul-B&uuml;hler-Stra&szlig;e</option>
+ <option value='43;Kita Streifelbach'>Kita Streifelbach</option>
+ <option value='45;Kita Vorderer Weingartweg'>Kita Vorderer Weingartweg</option>
+ <option value='20941;Naturkita Buch'>Naturkita Buch</option>
+</select>
+</div>
+</div>
+
+<ol style='margin-top:0cm' start=4 type=1>
+ <li class=MsoNormal>Geschwisterkind
+     (im selben Haushalt lebend mit Hauptwohnsitz)</li>
+</ol>
+
+<div class='form-group row'>
+<label style='margin-left:1em;' class = 'col-sm-4 col-md-4 col-lg-3 col-xl-3 col-form-label' id='lblgeschw4vorname' for='geschw4vorname'>Vorname</label>
+<div class='col-sm-6 col-md-5 col-lg-4 col-xl-4'>
+<input type='text' class='form-control input-sm' name = 'geschw4vorname' id='geschw4vorname' style='font-family:arial;'  autocomplete='section-sibling4 given-name'>
+</div>
+</div>
+
+<div class='form-group row'>
+<label style='margin-left:1em;' class = 'col-sm-4 col-md-4 col-lg-3 col-xl-3 col-form-label' id='lblgeschw4nachname' for='geschw4nachname'>Familienname</label>
+<div class='col-sm-6 col-md-5 col-lg-4 col-xl-4'>
+<input type='text' class='form-control input-sm' name = 'geschw4nachname' id='geschw4nachname' style='font-family:arial;'  autocomplete='section-sibling4 family-name'>
+</div>
+</div>
+
+<div class='form-group row'>
+<label style='margin-left:1em;' class = 'col-sm-4 col-md-4 col-lg-3 col-xl-3 col-form-label' id='lblgeschw4geburtstag' for='geschw4geburtstag'>Geburtsdatum</label>
+<div class='datepicker'>
+<div class='date'>
+<div class='group'>
+<div class='col-sm-2 col-md-2 col-lg-2 col-xl-2' style='min-width: 195px;'>
+<input type='text' class='form-control input-sm' id='geschw4geburtstag' name='geschw4geburtstag'  aria-describedby='dateDescribedgeschw4geburtstag'  autocomplete='section-sibling4 given-name'>
+<span class='described' id='dateDescribedgeschw4geburtstag'>(<span class='sr-only'>Datum format: </span>tt.mm.jjjj)</span>
+</div>
+<button type='button' class='btn icon'  id='geschw4geburtstagButton' aria-label='Datum w&auml;hlen'>
+<span  class='icon fa-solid fa-calendar-days' style='font-size:1.5em;color: #ffffff;'></span>
+</button>
+</div>
+</div>
+<div id='datepickergeschw4geburtstag' class='datepicker-dialog' role='dialog' aria-modal='true' aria-label='Datum w&auml;hlen'>
+    <div class='header'>
+        <button type='button' class='prev-year' aria-label='Vorheriges Jahr'>
+            <span class='fa-solid fa-angles-left'></span>
+        </button>
+        <button type='button' class='prev-month' aria-label='Vorheriger Monat'>
+            <span class='fa-solid fa-angle-left'></span>
+        </button>
+        <h2 id='datepicker-grid-geschw4geburtstag' class='month-year' aria-live='polite'>February 2020</h2>
+        <button type='button' class='next-month' aria-label='N&auml;chster Monat'>
+            <span class='fa-solid fa-angle-right'></span>
+        </button>
+        <button type='button' class='next-year' aria-label='N&auml;chstes Jahr'>
+            <span class='fa-solid fa-angles-right'></span>
+        </button>
+    </div>
+    <div class='table-wrap'>
+        <table class='dates' role='grid' aria-labelledby='datepicker-grid-geschw4geburtstag'>
+            <thead>
+                <tr>
+                    <th scope='col' abbr='Sonntag'>So</th>
+                    <th scope='col' abbr='Montag'>Mo</th>
+                    <th scope='col' abbr='Dienstag'>Di</th>
+                    <th scope='col' abbr='Mittwoch'>Mi</th>
+                    <th scope='col' abbr='Donnerstag'>Do</th>
+                    <th scope='col' abbr='Freitag'>Fr</th>
+                    <th scope='col' abbr='Samstag'>Sa</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class='disabled' tabindex='-1'></td>
+                    <td class='disabled' tabindex='-1'></td>
+                    <td class='disabled' tabindex='-1'></td>
+                    <td class='disabled' tabindex='-1'></td>
+                    <td class='disabled' tabindex='-1'></td>
+                    <td class='disabled' tabindex='-1'></td>
+                    <td tabindex='-1' data-date='2020-02-01'>1</td>
+                </tr>
+                <tr>
+                    <td  tabindex='-1' data-date='2020-02-02'>2</td>
+                    <td  tabindex='-1' data-date='2020-02-03'>3</td>
+                    <td  tabindex='-1' data-date='2020-02-04'>4</td>
+                    <td  tabindex='-1' data-date='2020-02-05'>5</td>
+                    <td  tabindex='-1' data-date='2020-02-06'>6</td>
+                    <td  tabindex='-1' data-date='2020-02-07'>7</td>
+                    <td  tabindex='-1' data-date='2020-02-08'>8</td>
+                 </tr>
+                 <tr>
+                    <td  tabindex='-1' data-date='2020-02-09'>9</td>
+                    <td  tabindex='-1' data-date='2020-02-10'>10</td>
+                    <td  tabindex='-1' data-date='2020-02-11'>11</td>
+                    <td  tabindex='-1' data-date='2020-02-12'>12</td>
+                    <td  tabindex='-1' data-date='2020-02-13'>13</td>
+                    <td  tabindex='-1' data-date='2020-02-14'>14</td>
+                    <td  tabindex='-1' data-date='2020-02-15'>15</td>
+                </tr>
+                <tr>
+                    <td  tabindex='-1' data-date='2020-02-16'>16</td>
+                    <td  tabindex='-1' data-date='2020-02-17'>17</td>
+                    <td  tabindex='-1' data-date='2020-02-18'>18</td>
+                    <td  tabindex='-1' data-date='2020-02-19'>19</td>
+                    <td  tabindex='-1' data-date='2020-02-20'>20</td>
+                    <td  tabindex='-1' data-date='2020-02-21'>21</td>
+                    <td  tabindex='-1' data-date='2020-02-22'>22</td>
+                </tr>
+                <tr>
+                    <td  tabindex='-1' data-date='2020-02-23'>23</td>
+                    <td  tabindex='-1' data-date='2020-02-24'>24</td>
+                    <td  tabindex='-1' data-date='2020-02-25'>25</td>
+                    <td  tabindex='-1' data-date='2020-02-26'>26</td>
+                    <td  tabindex='-1' data-date='2020-02-27'>27</td>
+                    <td  tabindex='-1' data-date='2020-02-28'>28</td>
+                    <td  tabindex='-1' data-date='2020-02-29'>29</td>
+                </tr>
+                <tr>
+                    <td  tabindex='-1' data-date='2020-02-30'>30</td>
+                    <td  tabindex='-1' data-date='2020-02-31'>31</td>
+                    <td  class='disabled' tabindex='-1'></td>
+                    <td  class='disabled' tabindex='-1'></td>
+                    <td  class='disabled' tabindex='-1'></td>
+                    <td  class='disabled' tabindex='-1'></td>
+                    <td  class='disabled' tabindex='-1'></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class='dialog-ok-cancel-group'>
+        <button class='dialog-button' value='cancel'>Abbrechen</button>
+        <button class='dialog-button' value='ok'>OK</button>
+    </div>
+    <div class='dialog-message' aria-live='polite'></div>
+</div>
+</div>
+<div class='col-sm-5 col-md-4 col-lg-3 col-xl-3'>
+<p id='pruefgeschw4geburtstag'>
+</div></div>
+
+<span style='font-size: 0.92rem;
+'><div class='form-group row'>
+<label style='margin-left:1em;' class = 'col-sm-4 col-md-4 col-lg-3 col-xl-3 col-form-label' id='lblkindergartengeschw4' for='kindergartengeschw4'>Besucht folgende Einrichtung</label>
+<div class='col-sm-6 col-md-5 col-lg-4 col-xl-4'>
+<select class='form-control input-sm select2' style='color:black;' size='27' id='kindergartengeschw4' name='kindergartengeschw4'>
+<option selected='selected' value=''>Keine Angabe</option>
+ <option value='23;Kinderhaus Buch'>Kinderhaus Buch</option>
+ <option value='21987;Kinderhaus Domino'>Kinderhaus Domino</option>
+ <option value='29538;Kinderhaus Halli Galli'>Kinderhaus Halli Galli</option>
+ <option value='25;Kinderhaus Malefiz'>Kinderhaus Malefiz</option>
+ <option value='25656;Kinderhaus Memory'>Kinderhaus Memory</option>
+ <option value='27;Kinderhaus Mikado'>Kinderhaus Mikado</option>
+ <option value='29;Kinderhaus Untermberg'>Kinderhaus Untermberg</option>
+ <option value='29142;Kinderhaus Villa Paletti'>Kinderhaus Villa Paletti</option>
+ <option value='2;Kita Allensteiner Stra&szlig;e'>Kita Allensteiner Stra&szlig;e</option>
+ <option value='4;Kita Breslauer Stra&szlig;e'>Kita Breslauer Stra&szlig;e</option>
+ <option value='6;Kita Brunnenstra&szlig;e'>Kita Brunnenstra&szlig;e</option>
+ <option value='8;Kita Enten&auml;cker'>Kita Enten&auml;cker</option>
+ <option value='10;Kita Farbstra&szlig;e'>Kita Farbstra&szlig;e</option>
+ <option value='12;Kita Fliederweg'>Kita Fliederweg</option>
+ <option value='14;Kita Im Leintal'>Kita Im Leintal</option>
+ <option value='16;Kita Im Sand'>Kita Im Sand</option>
+ <option value='19;Kita Kammgarnspinnerei'>Kita Kammgarnspinnerei</option>
+ <option value='21;Kita Kelterstra&szlig;e'>Kita Kelterstra&szlig;e</option>
+ <option value='31;Kita Kreuz&auml;cker I'>Kita Kreuz&auml;cker I</option>
+ <option value='32;Kita Kreuz&auml;cker II'>Kita Kreuz&auml;cker II</option>
+ <option value='34;Kita Lugstra&szlig;e'>Kita Lugstra&szlig;e</option>
+ <option value='36;Kita Metterzimmern'>Kita Metterzimmern</option>
+ <option value='38;Kita Paul-B&uuml;hler-Stra&szlig;e'>Kita Paul-B&uuml;hler-Stra&szlig;e</option>
+ <option value='43;Kita Streifelbach'>Kita Streifelbach</option>
+ <option value='45;Kita Vorderer Weingartweg'>Kita Vorderer Weingartweg</option>
+ <option value='20941;Naturkita Buch'>Naturkita Buch</option>
+</select>
+</div>
+</div>
+
+<span style='font-size: 0.92rem;
+'><br>
+
+<span style='font-size: 0.92rem;'>M&ouml;chten
+Sie uns noch etwas mitteilen?
+
+<span style='font-size: 0.92rem;'>(z.B.
+geplanter Umzug nach Bietigheim-Bissingen / lebensgef&auml;hrliche Allergien /
+Diabetes / Kind ben&ouml;tigt Notfall-Medikamente)
+
+<span style='font-size: 0.92rem;'><div class='form-group row'>
+<label style='margin-left:1em;' class = 'col-sm-4 col-md-4 col-lg-3 col-xl-3 col-form-label' id='lblbemerkung' for='bemerkung'>Feld f&uuml;r Kurznotizen (maximal 250 Zeichen)</label>
+<div class='col-sm-6 col-md-5 col-lg-4 col-xl-4'>
+<div class='form-group'>
+ <textarea class='form-control' id='bemerkung' name='bemerkung' style ='font-family:arial;height:25em;' maxlength='250' aria-describedby='zeichen-infobemerkung zeichen-warnungbemerkung'></textarea>
+ <div id='zeichen-infobemerkung' >Verbleibende Zeichen: <span id='zeichen-countbemerkung' >250</span></div>
+ <div id='zeichen-warnungbemerkung' class='alert-text'  aria-live='assertive' aria-atomic='true' hidden ></div>
+</div> </div>
+</div>
+
+<span style='font-size: 0.92rem;'>Ich/Wir
+haben/n die <a
+href="https://www.bietigheim-bissingen.de/fileadmin/user_upload_stadtverwaltung/seitenstruktur/familie-soziales-bildung/staedtische_einrichtungen_neu/benutzungsordnung-kindertageseinrichtungen.pdf">Benutzungsordnung</a>
+und die <a
+href="https://www.bietigheim-bissingen.de/fileadmin/user_upload_stadtverwaltung/seitenstruktur/familie-soziales-bildung/kinderbetreuung_neu/gebuehrensatzung-kindertageseinrichtungen.pdf">Geb&uuml;hrensatzung</a>
+zur Kenntnis genommen. 
+
+<span style='font-size: 0.92rem;'>Hiermit
+best&auml;tige ich / best&auml;tigen wir die Richtigkeit der Angaben. Ich bin mit der
+Verarbeitung und Speicherung meiner Daten einverstanden und habe die Datenschutzerkl&auml;rung
+gelesen. 
+
+<span style='font-size: 0.92rem;'><div class='form-group row collapse'>
+<div class='col-sm-4 col-md-4 col-lg-3 col-xl-3'>
+<label style='margin-left:1em;' id='lblkindpunkte45' for='kindpunkte45'>berufst&auml;tig Teilzeit</label>
+</div>
+<div class='col-sm-6 col-md-5 col-lg-4 col-xl-4'>
+            <div class='switch'>
+                 <input type='checkbox' role='switch' name='kindpunkte45' id='kindpunkte45'>
+                <span class='slider' id ='slider_kindpunkte45' aria-hidden='true'></span>
+                <span class='label-text' id ='switch_text_kindpunkte45' aria-hidden='true'>Nein</span>
+            </div>
+</div>
+</div>
+
+<span style='font-size: 0.92rem;'>Wir
+speichern und verarbeiten Ihre Daten nach der EU-DSGVO. Ihre Betroffenenrechte
+entnehmen Sie bitte der Datenschutzerkl&auml;rung  unserer <a
+href="https://www.bietigheim-bissingen.de/deutsch/datenschutzerklaerung/">Homepage.</a>
+
+
+<span style='font-size: 0.92rem;'><br>
+
+<span style='font-size: 0.92rem;'>Die
+gemachten Angaben sind verbindlich. Eventuelle &Auml;nderungen sind schriftlich oder
+per Mail zu erkl&auml;ren. E-Mail Adresse: anmeldung-kita@bietigheim-bissingen.de
+
+<span style='font-size: 0.92rem;'><br>
+
+<span style='font-size: 0.92rem;'>Wenn
+Sie sicher sind, dass alle Angaben korrekt ausgef&uuml;llt sind, dann senden Sie die
+Daten jetzt ab. Sie erhalten nach dem Absenden eine Best&auml;tigung per Mail f&uuml;r
+Ihre Unterlagen.
+
+<span style='font-size: 0.92rem;'><br>
+
+<span style='font-size: 0.92rem;'></div>
+</fieldset>
+</div>
+</div>
+
+<span style='font-size: 0.92rem;'><div class='form-group row alert alert-info' style='margin-left:0px;'>
+<div class='col-sm-11 col-md-11 col-lg-11 col-xl-11'>
+<div class='col-sm-4 col-md-4 col-lg-4 col-xl-4' style='margin-left:-15px;'>
+<label id='lblAntwort' for='antwort'><span style='color:#730D12;font-size:1.5em;'>*</span></label>
+<input class='form-control input-sm' name='antwort' id='antwort' required autocomplete='off'>
+</div><div class='col-sm-5 col-md-4 col-lg-3 col-xl-3'>
+<div id='pflichtantwort'  aria-live='assertive' aria-atomic='true'></div>
+</div>
+</div>
+</div>
+
+<span style='font-size: 0.92rem;'><div class='form-group row' style='padding-bottom: 15px;'>
+<div class='col-sm-11 col-md-11 col-lg-11 col-xl-11'>
+<button type='submit' class='btn btn-primary' name='kigasubmit' id='kigasubmit'>Senden</button>
+<button type='reset' class='btn btn-danger' name='kigareset' id='kigareset'>Zur&uuml;cksetzen</button>
+</div>
+</div>
+
+
+
+<input type='text' name='testfeld' style='display:none;'>
+<input type='hidden' id='testfeld2' name='testfeld2' value=''>
+</form>
+</div>
+</div>
+</main>
+<script>
+try {
+// Initiale Javascript-Funktionen ansprechen
+inputmask_setzen() // Inputmask setzen (Beinhaltet DateTimePicker)
+setzeOnchangeEvents()
+nh_kiga_init() // Benötigt für CheckBox
+placenumber()
+startIframeResize();
+fetch('testfeld2.php')
+      .then(response => response.json())
+      .then(data => {
+          document.getElementById('testfeld2').value = data.testfeld2;
+      })
+      .catch(err => {
+                console.warn('testfeld2 fetch fehlgeschlagen:', err);
+      });
+}
+catch (e) {
+    document.getElementById('frm').innerHTML = 'Der von Ihnen verwendete Browser ist veraltet und wird nicht mehr unterstützt!';
+}
+</script>
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

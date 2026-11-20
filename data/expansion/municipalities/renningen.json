@@ -18,7 +18,8 @@
   },
   "supporting_source_ids": [
     "bb4cc2c68bd2",
-    "9cb2d5d59c60"
+    "9cb2d5d59c60",
+    "8afe40b37316"
   ],
   "offers": [
     {
@@ -34,12 +35,18 @@
       "scope": "municipal",
       "category": "childcare",
       "weekly_minutes": 1800,
-      "weekday_minutes": null,
+      "weekday_minutes": [
+        360,
+        360,
+        360,
+        360,
+        360
+      ],
       "continuous": true,
-      "schedule_status": "daily_distribution_unverified",
+      "schedule_status": "verified",
       "schedule_evidence": {
         "source_id": "bb4cc2c68bd2",
-        "locator": "PDF S. 9, Krippe ab 2026-09-01",
+        "locator": "§ 3 Abs. 1, VÖ sechs bzw. GT40 acht Stunden täglich",
         "original": null
       },
       "payment_months": 12,
@@ -69,12 +76,18 @@
       "scope": "municipal",
       "category": "childcare",
       "weekly_minutes": 2400,
-      "weekday_minutes": null,
+      "weekday_minutes": [
+        480,
+        480,
+        480,
+        480,
+        480
+      ],
       "continuous": true,
-      "schedule_status": "daily_distribution_unverified",
+      "schedule_status": "verified",
       "schedule_evidence": {
         "source_id": "bb4cc2c68bd2",
-        "locator": "PDF S. 9, Krippe ab 2026-09-01",
+        "locator": "§ 3 Abs. 1, VÖ sechs bzw. GT40 acht Stunden täglich",
         "original": null
       },
       "payment_months": 12,
@@ -104,12 +117,18 @@
       "scope": "municipal",
       "category": "childcare",
       "weekly_minutes": 1800,
-      "weekday_minutes": null,
+      "weekday_minutes": [
+        360,
+        360,
+        360,
+        360,
+        360
+      ],
       "continuous": true,
-      "schedule_status": "daily_distribution_unverified",
+      "schedule_status": "verified",
       "schedule_evidence": {
         "source_id": "bb4cc2c68bd2",
-        "locator": "PDF S. 9, Krippe ab 2027-09-01",
+        "locator": "§ 3 Abs. 1, VÖ sechs bzw. GT40 acht Stunden täglich",
         "original": null
       },
       "payment_months": 12,
@@ -139,12 +158,18 @@
       "scope": "municipal",
       "category": "childcare",
       "weekly_minutes": 2400,
-      "weekday_minutes": null,
+      "weekday_minutes": [
+        480,
+        480,
+        480,
+        480,
+        480
+      ],
       "continuous": true,
-      "schedule_status": "daily_distribution_unverified",
+      "schedule_status": "verified",
       "schedule_evidence": {
         "source_id": "bb4cc2c68bd2",
-        "locator": "PDF S. 9, Krippe ab 2027-09-01",
+        "locator": "§ 3 Abs. 1, VÖ sechs bzw. GT40 acht Stunden täglich",
         "original": null
       },
       "payment_months": 12,
@@ -173,13 +198,19 @@
       "original_price_valid_from": "2026-09-01",
       "scope": "municipal",
       "category": "childcare",
-      "weekly_minutes": null,
-      "weekday_minutes": null,
+      "weekly_minutes": 1800,
+      "weekday_minutes": [
+        360,
+        360,
+        360,
+        360,
+        360
+      ],
       "continuous": true,
-      "schedule_status": "daily_distribution_unverified",
+      "schedule_status": "verified",
       "schedule_evidence": {
-        "source_id": "bb4cc2c68bd2",
-        "locator": "PDF S. 10, VÖ ab 2026-09-01",
+        "source_id": "8afe40b37316",
+        "locator": "Städtische Kindergärten: VÖ, GT40 und GT46",
         "original": null
       },
       "payment_months": 12,
@@ -209,12 +240,18 @@
       "scope": "municipal",
       "category": "childcare",
       "weekly_minutes": 2400,
-      "weekday_minutes": null,
+      "weekday_minutes": [
+        480,
+        480,
+        480,
+        480,
+        480
+      ],
       "continuous": true,
-      "schedule_status": "daily_distribution_unverified",
+      "schedule_status": "verified",
       "schedule_evidence": {
-        "source_id": "bb4cc2c68bd2",
-        "locator": "§ 3 Angebotszeiten; S. 10 Stundenparameter",
+        "source_id": "8afe40b37316",
+        "locator": "Städtische Kindergärten: VÖ, GT40 und GT46",
         "original": null
       },
       "payment_months": 12,
@@ -229,17 +266,7 @@
         "locator": "§ 3 Angebotszeiten; S. 10 Stundenparameter",
         "original": null
       },
-      "formula": {
-        "type": "documented_hourly_parameters",
-        "base_amounts_cents_per_hour": [
-          161,
-          125,
-          85,
-          28
-        ],
-        "additional_hour_from_31_cents": 246,
-        "execution_status": "requires_calculation_review"
-      }
+      "formula": null
     },
     {
       "id": "renningen-offer-e950fd0ce622",
@@ -254,12 +281,18 @@
       "scope": "municipal",
       "category": "childcare",
       "weekly_minutes": 2760,
-      "weekday_minutes": null,
+      "weekday_minutes": [
+        570,
+        570,
+        570,
+        570,
+        480
+      ],
       "continuous": true,
-      "schedule_status": "daily_distribution_unverified",
+      "schedule_status": "verified",
       "schedule_evidence": {
-        "source_id": "bb4cc2c68bd2",
-        "locator": "§ 3 Angebotszeiten; S. 10 Stundenparameter",
+        "source_id": "8afe40b37316",
+        "locator": "Städtische Kindergärten: VÖ, GT40 und GT46",
         "original": null
       },
       "payment_months": 12,
@@ -274,17 +307,7 @@
         "locator": "§ 3 Angebotszeiten; S. 10 Stundenparameter",
         "original": null
       },
-      "formula": {
-        "type": "documented_hourly_parameters",
-        "base_amounts_cents_per_hour": [
-          161,
-          125,
-          85,
-          28
-        ],
-        "additional_hour_from_31_cents": 246,
-        "execution_status": "requires_calculation_review"
-      }
+      "formula": null
     },
     {
       "id": "renningen-offer-a7e39eeebc45",
@@ -298,13 +321,19 @@
       "original_price_valid_from": "2027-09-01",
       "scope": "municipal",
       "category": "childcare",
-      "weekly_minutes": null,
-      "weekday_minutes": null,
+      "weekly_minutes": 1800,
+      "weekday_minutes": [
+        360,
+        360,
+        360,
+        360,
+        360
+      ],
       "continuous": true,
-      "schedule_status": "daily_distribution_unverified",
+      "schedule_status": "verified",
       "schedule_evidence": {
-        "source_id": "bb4cc2c68bd2",
-        "locator": "PDF S. 10, VÖ ab 2027-09-01",
+        "source_id": "8afe40b37316",
+        "locator": "Städtische Kindergärten: VÖ, GT40 und GT46",
         "original": null
       },
       "payment_months": 12,
@@ -334,12 +363,18 @@
       "scope": "municipal",
       "category": "childcare",
       "weekly_minutes": 2400,
-      "weekday_minutes": null,
+      "weekday_minutes": [
+        480,
+        480,
+        480,
+        480,
+        480
+      ],
       "continuous": true,
-      "schedule_status": "daily_distribution_unverified",
+      "schedule_status": "verified",
       "schedule_evidence": {
-        "source_id": "bb4cc2c68bd2",
-        "locator": "§ 3 Angebotszeiten; S. 10 Stundenparameter",
+        "source_id": "8afe40b37316",
+        "locator": "Städtische Kindergärten: VÖ, GT40 und GT46",
         "original": null
       },
       "payment_months": 12,
@@ -354,17 +389,7 @@
         "locator": "§ 3 Angebotszeiten; S. 10 Stundenparameter",
         "original": null
       },
-      "formula": {
-        "type": "documented_hourly_parameters",
-        "base_amounts_cents_per_hour": [
-          168,
-          130,
-          89,
-          29
-        ],
-        "additional_hour_from_31_cents": 256,
-        "execution_status": "requires_calculation_review"
-      }
+      "formula": null
     },
     {
       "id": "renningen-offer-80a628a90e02",
@@ -379,12 +404,18 @@
       "scope": "municipal",
       "category": "childcare",
       "weekly_minutes": 2760,
-      "weekday_minutes": null,
+      "weekday_minutes": [
+        570,
+        570,
+        570,
+        570,
+        480
+      ],
       "continuous": true,
-      "schedule_status": "daily_distribution_unverified",
+      "schedule_status": "verified",
       "schedule_evidence": {
-        "source_id": "bb4cc2c68bd2",
-        "locator": "§ 3 Angebotszeiten; S. 10 Stundenparameter",
+        "source_id": "8afe40b37316",
+        "locator": "Städtische Kindergärten: VÖ, GT40 und GT46",
         "original": null
       },
       "payment_months": 12,
@@ -399,17 +430,7 @@
         "locator": "§ 3 Angebotszeiten; S. 10 Stundenparameter",
         "original": null
       },
-      "formula": {
-        "type": "documented_hourly_parameters",
-        "base_amounts_cents_per_hour": [
-          168,
-          130,
-          89,
-          29
-        ],
-        "additional_hour_from_31_cents": 256,
-        "execution_status": "requires_calculation_review"
-      }
+      "formula": null
     }
   ],
   "prices": [
@@ -931,7 +952,7 @@
         ],
         "additional_hour_from_31_cents": 246,
         "monthly_conversion_factor": null,
-        "conversion_status": "requires_calculation_review_not_inferred"
+        "conversion_status": "monthly_conversion_not_published"
       },
       "evidence": {
         "source_id": "bb4cc2c68bd2",
@@ -953,7 +974,7 @@
         ],
         "additional_hour_from_31_cents": 256,
         "monthly_conversion_factor": null,
-        "conversion_status": "requires_calculation_review_not_inferred"
+        "conversion_status": "monthly_conversion_not_published"
       },
       "evidence": {
         "source_id": "bb4cc2c68bd2",
@@ -1200,6 +1221,7 @@
     "calculation_engine_changed": false,
     "rule_transcription": "typed_parameters_and_source_clauses_with_explicit_unimplemented_status"
   },
+  "model_tariff": "renningen",
   "original_research": {
     "path": "data/research/neighbor_expansion_2026-11-10.json",
     "section": "Renningen",

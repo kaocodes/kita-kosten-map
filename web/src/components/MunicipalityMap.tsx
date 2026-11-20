@@ -68,7 +68,7 @@ export function MunicipalityMap({ geometry, results, selectedId, maxZoom, attrib
         const anchor = L.latLng(point[1], point[0]);
         labelAnchors.current.set(id, anchor);
         labelLines.current.set(id, L.polyline([anchor, anchor], { pane: "label-lines", interactive: false,
-          color: "#515b70", opacity: 0.65, weight: 1 }).addTo(instance));
+          color: "#515b70", opacity: 0, weight: 1 }).addTo(instance));
         const tooltip = document.createElement("span");
         layer.bindTooltip(tooltip, { direction: "top", className: styles.tooltip });
         layer.on("tooltipopen", () => {
@@ -91,66 +91,68 @@ export function MunicipalityMap({ geometry, results, selectedId, maxZoom, attrib
         if (key === "Enter" || key === " ") { event.preventDefault(); select.current(id); }
       });
     });
-    // Move colliding labels with short leader lines instead of hiding municipalities.
+    // Space in screen pixels lets more labels fit as the user zooms in.
     updateLabels.current = () => {
       const accepted: { left: number; top: number; right: number; bottom: number }[] = [];
       const size = instance.getSize();
       const mapBox = container.current!.getBoundingClientRect();
-      // Controls are obstacles too, especially with more towns on narrow screens.
       container.current!.parentElement!.querySelectorAll(`.leaflet-control-zoom, .${styles.reset}, .${styles.mapNote}`).forEach(control => {
         const box = control.getBoundingClientRect();
         accepted.push({ left: box.left - mapBox.left - 4, right: box.right - mapBox.left + 4,
           top: box.top - mapBox.top - 4, bottom: box.bottom - mapBox.top + 4 });
       });
-      const offsets = [[0, 0], [0, -28], [0, 28], [-45, 0], [45, 0], [0, -56], [0, 56],
-        [-60, -28], [60, -28], [-60, 28], [60, 28], [0, -84], [0, 84], [-95, -56], [95, -56], [-95, 56], [95, 56]];
       const ordered = [...labels.current.entries()].sort(([first], [second]) =>
         Number(second === currentSelection.current) - Number(first === currentSelection.current));
       for (const [id, marker] of ordered) {
         const element = marker.getElement();
-        if (!element) continue;
+        const label = element?.firstElementChild;
+        if (!element || !label) continue;
+        const selected = id === currentSelection.current;
         const anchor = labelAnchors.current.get(id)!;
         const point = instance.latLngToContainerPoint(anchor);
-        const name = currentResults.current.get(id)?.municipality ?? "";
-        const width = element.firstElementChild?.getBoundingClientRect().width || Math.max(55, name.length * 6 + 15);
-        let position = point;
-        let selectedBox = { left: point.x - width / 2, right: point.x + width / 2, top: point.y - 12, bottom: point.y + 12 };
-        // Offscreen towns stay at their geographic anchors while the user pans.
-        if (point.x >= 0 && point.x <= size.x && point.y >= 0 && point.y <= size.y) {
-          let minimumOverlap = Infinity;
-          const tryPosition = (candidateX: number, candidateY: number) => {
-            const x = Math.max(width / 2 + 8, Math.min(size.x - width / 2 - 8, candidateX));
-            const y = Math.max(14, Math.min(size.y - 14, candidateY));
-            const box = { left: x - width / 2 - 3, right: x + width / 2 + 3, top: y - 12, bottom: y + 12 };
-            const overlap = accepted.reduce((total, other) => total + Math.max(0, Math.min(box.right, other.right) - Math.max(box.left, other.left)) *
-              Math.max(0, Math.min(box.bottom, other.bottom) - Math.max(box.top, other.top)), 0);
-            if (overlap < minimumOverlap) { minimumOverlap = overlap; position = L.point(x, y); selectedBox = box; }
-            return overlap === 0;
-          };
-          for (const [dx, dy] of offsets) {
-            if (tryPosition(point.x + dx, point.y + dy)) break;
+        const line = labelLines.current.get(id);
+        element.style.visibility = "hidden";
+        line?.setStyle({ opacity: 0 });
+        if (point.x < 0 || point.y < 0 || point.x > size.x || point.y > size.y) continue;
+
+        const { width, height } = label.getBoundingClientRect();
+        const halfWidth = width / 2 + 5;
+        const halfHeight = height / 2 + 4;
+        const offsets = selected
+          ? [[0, 0], [0, -28], [0, 28], [-35, 0], [35, 0], [0, -52], [0, 52]]
+          : [[0, 0]];
+        let placement: { point: L.Point; box: typeof accepted[number]; overlap: number } | undefined;
+        for (const [dx, dy] of offsets) {
+          const x = selected ? Math.max(halfWidth, Math.min(size.x - halfWidth, point.x + dx)) : point.x + dx;
+          const y = selected ? Math.max(halfHeight, Math.min(size.y - halfHeight, point.y + dy)) : point.y + dy;
+          const box = { left: x - halfWidth, top: y - halfHeight, right: x + halfWidth, bottom: y + halfHeight };
+          if (!selected && (box.left < 0 || box.top < 0 || box.right > size.x || box.bottom > size.y)) continue;
+          const overlap = accepted.reduce((total, other) =>
+            total + Math.max(0, Math.min(box.right, other.right) - Math.max(box.left, other.left))
+              * Math.max(0, Math.min(box.bottom, other.bottom) - Math.max(box.top, other.top)), 0);
+          if (overlap === 0 || (selected && (!placement || overlap < placement.overlap))) {
+            placement = { point: L.point(x, y), box, overlap };
           }
-          if (minimumOverlap > 0) {
-            // Search remaining canvas space only when nearby positions are full.
-            const fallback: [number, number][] = [];
-            for (let y = 14; y <= size.y - 14; y += 26) {
-              for (let x = width / 2 + 8; x <= size.x - width / 2 - 8; x += 28) fallback.push([x, y]);
-            }
-            fallback.sort(([ax, ay], [bx, by]) => (ax - point.x) ** 2 + (ay - point.y) ** 2 -
-              ((bx - point.x) ** 2 + (by - point.y) ** 2));
-            for (const [x, y] of fallback) if (tryPosition(x, y)) break;
-          }
+          if (overlap === 0) break;
         }
-        const target = instance.containerPointToLatLng(position);
+        if (!placement) continue;
+
+        const target = instance.containerPointToLatLng(placement.point);
         marker.setLatLng(target);
-        labelLines.current.get(id)?.setLatLngs([anchor, target]);
-        marker.setZIndexOffset(id === currentSelection.current ? 1000 : 0);
-        element.classList.toggle(styles.selectedLabel, id === currentSelection.current);
-        accepted.push(selectedBox);
+        marker.setZIndexOffset(selected ? 1000 : 0);
+        element.classList.toggle(styles.selectedLabel, selected);
+        element.style.visibility = "visible";
+        if (!placement.point.equals(point)) {
+          line?.setLatLngs([anchor, target]).setStyle({ opacity: 0.65 });
+        }
+        accepted.push(placement.box);
       }
     };
     instance.on("zoomend moveend resize", () => updateLabels.current());
     updateLabels.current();
+    void document.fonts.ready.then(() => {
+      if (map.current === instance) updateLabels.current();
+    });
     const observer = new ResizeObserver(() => {
       instance.invalidateSize({ pan: false });
       fit();

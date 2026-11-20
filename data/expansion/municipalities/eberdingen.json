@@ -550,11 +550,13 @@
       "execution_status": "documented_not_implemented",
       "parameters": {
         "scope": "new_contribution_system",
-        "legacy_contracts": "preserved_in_original_not_automatically_reclassified"
+        "new_placement_confirmation_from": "2023-07-01",
+        "legacy_contracts": "preserved_in_original_not_automatically_reclassified",
+        "legacy_opt_in_to_new_system_is_irreversible": true
       },
       "evidence": {
-        "source_id": "5637db02621e",
-        "locator": "Übergangsregelungen und alte Vertragssystematik",
+        "source_id": "96de4f4a4e57",
+        "locator": "Übergangsregelung S. 10 des Masterplans",
         "original": null
       }
     },
@@ -1231,6 +1233,7 @@
     "calculation_engine_changed": false,
     "rule_transcription": "typed_parameters_and_source_clauses_with_explicit_unimplemented_status"
   },
+  "model_tariff": "youngest_in_care",
   "original_research": {
     "path": "data/research/neighbor_expansion_2026-11-10.json",
     "section": "Eberdingen",

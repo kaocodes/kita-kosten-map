@@ -1,0 +1,13 @@
+{
+  "id": "232b2c65d445",
+  "municipality": "Rutesheim",
+  "title": "Öffnungszeiten der städtischen Kindertageseinrichtungen",
+  "url": "https://www.rutesheim.de/site/Rutesheim-Internet-2021/get/params_E-1082970528/19086738/Geb%C3%BChren.pdf",
+  "retrieved_at": "2026-11-18T11:46:39.393809+00:00",
+  "http_status": 200,
+  "content_type": "application/pdf",
+  "final_url": "https://www.rutesheim.de/site/Rutesheim-Internet-2021/get/params_E-1082970528/19086738/Geb%C3%BChren.pdf",
+  "error": null,
+  "local_path": "data/sources/232b2c65d445/document.pdf",
+  "sha256": "fc02f986164667d2d47a58f62777032090eae6bd035bfe4eedc634101c80977a"
+}

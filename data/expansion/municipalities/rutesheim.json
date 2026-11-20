@@ -18,7 +18,8 @@
   },
   "supporting_source_ids": [
     "3ffe1980c0fd",
-    "2189c4f26a64"
+    "2189c4f26a64",
+    "232b2c65d445"
   ],
   "offers": [
     {
@@ -33,13 +34,19 @@
       "original_price_valid_from": "2026-09-01",
       "scope": "municipal",
       "category": "childcare",
-      "weekly_minutes": null,
-      "weekday_minutes": null,
+      "weekly_minutes": 1875,
+      "weekday_minutes": [
+        375,
+        375,
+        375,
+        375,
+        375
+      ],
       "continuous": true,
-      "schedule_status": "daily_distribution_unverified",
+      "schedule_status": "verified",
       "schedule_evidence": {
-        "source_id": "3ffe1980c0fd",
-        "locator": "Gebühren Kindergarten 2026/2027",
+        "source_id": "232b2c65d445",
+        "locator": "Kindergarten Richard-Wagner-Straße, Mo–Fr 07:15–13:30 Uhr",
         "original": null
       },
       "payment_months": 12,
@@ -68,13 +75,19 @@
       "original_price_valid_from": "2026-09-01",
       "scope": "municipal",
       "category": "childcare",
-      "weekly_minutes": null,
-      "weekday_minutes": null,
+      "weekly_minutes": 1950,
+      "weekday_minutes": [
+        390,
+        390,
+        390,
+        390,
+        390
+      ],
       "continuous": true,
-      "schedule_status": "daily_distribution_unverified",
+      "schedule_status": "verified",
       "schedule_evidence": {
-        "source_id": "3ffe1980c0fd",
-        "locator": "Kinderkrippe Vollzeit / Sharingplätze; Anteilsberechnung bei Sharing",
+        "source_id": "232b2c65d445",
+        "locator": "Kinderkrippe Spatzennest, Mo–Fr 07:00–13:30 Uhr",
         "original": null
       },
       "payment_months": 12,
@@ -109,8 +122,8 @@
       "continuous": true,
       "schedule_status": "daily_distribution_unverified",
       "schedule_evidence": {
-        "source_id": "3ffe1980c0fd",
-        "locator": "Kinderkrippe Vollzeit / Sharingplätze; Anteilsberechnung bei Sharing",
+        "source_id": "232b2c65d445",
+        "locator": "Kinderkrippe Spatzennest, Mo–Fr 07:00–13:30 Uhr",
         "original": null
       },
       "payment_months": 12,
@@ -145,8 +158,8 @@
       "continuous": true,
       "schedule_status": "daily_distribution_unverified",
       "schedule_evidence": {
-        "source_id": "3ffe1980c0fd",
-        "locator": "Kinderkrippe Vollzeit / Sharingplätze; Anteilsberechnung bei Sharing",
+        "source_id": "232b2c65d445",
+        "locator": "Kinderkrippe Spatzennest, Mo–Fr 07:00–13:30 Uhr",
         "original": null
       },
       "payment_months": 12,
@@ -176,13 +189,19 @@
       "original_price_valid_from": "2026-09-01",
       "scope": "municipal",
       "category": "childcare",
-      "weekly_minutes": null,
-      "weekday_minutes": null,
+      "weekly_minutes": 2400,
+      "weekday_minutes": [
+        480,
+        480,
+        480,
+        480,
+        480
+      ],
       "continuous": true,
-      "schedule_status": "daily_distribution_unverified",
+      "schedule_status": "verified",
       "schedule_evidence": {
-        "source_id": "3ffe1980c0fd",
-        "locator": "Kinderkrippe Vollzeit / Sharingplätze; Anteilsberechnung bei Sharing",
+        "source_id": "232b2c65d445",
+        "locator": "Kinderkrippe Küken, Mo–Fr 07:00–15:00 Uhr",
         "original": null
       },
       "payment_months": 12,
@@ -217,8 +236,8 @@
       "continuous": true,
       "schedule_status": "daily_distribution_unverified",
       "schedule_evidence": {
-        "source_id": "3ffe1980c0fd",
-        "locator": "Kinderkrippe Vollzeit / Sharingplätze; Anteilsberechnung bei Sharing",
+        "source_id": "232b2c65d445",
+        "locator": "Kinderkrippe Küken, Mo–Fr 07:00–15:00 Uhr",
         "original": null
       },
       "payment_months": 12,
@@ -253,8 +272,8 @@
       "continuous": true,
       "schedule_status": "daily_distribution_unverified",
       "schedule_evidence": {
-        "source_id": "3ffe1980c0fd",
-        "locator": "Kinderkrippe Vollzeit / Sharingplätze; Anteilsberechnung bei Sharing",
+        "source_id": "232b2c65d445",
+        "locator": "Kinderkrippe Küken, Mo–Fr 07:00–15:00 Uhr",
         "original": null
       },
       "payment_months": 12,
@@ -284,13 +303,19 @@
       "original_price_valid_from": "2026-09-01",
       "scope": "municipal",
       "category": "childcare",
-      "weekly_minutes": null,
-      "weekday_minutes": null,
+      "weekly_minutes": 3000,
+      "weekday_minutes": [
+        600,
+        600,
+        600,
+        600,
+        600
+      ],
       "continuous": true,
-      "schedule_status": "daily_distribution_unverified",
+      "schedule_status": "verified",
       "schedule_evidence": {
-        "source_id": "3ffe1980c0fd",
-        "locator": "Kinderkrippe Vollzeit / Sharingplätze; Anteilsberechnung bei Sharing",
+        "source_id": "232b2c65d445",
+        "locator": "Haus der Kinder, Mo–Fr 07:00–17:00 Uhr",
         "original": null
       },
       "payment_months": 12,
@@ -325,8 +350,8 @@
       "continuous": true,
       "schedule_status": "daily_distribution_unverified",
       "schedule_evidence": {
-        "source_id": "3ffe1980c0fd",
-        "locator": "Kinderkrippe Vollzeit / Sharingplätze; Anteilsberechnung bei Sharing",
+        "source_id": "232b2c65d445",
+        "locator": "Haus der Kinder, Mo–Fr 07:00–17:00 Uhr",
         "original": null
       },
       "payment_months": 12,
@@ -361,8 +386,8 @@
       "continuous": true,
       "schedule_status": "daily_distribution_unverified",
       "schedule_evidence": {
-        "source_id": "3ffe1980c0fd",
-        "locator": "Kinderkrippe Vollzeit / Sharingplätze; Anteilsberechnung bei Sharing",
+        "source_id": "232b2c65d445",
+        "locator": "Haus der Kinder, Mo–Fr 07:00–17:00 Uhr",
         "original": null
       },
       "payment_months": 12,
@@ -392,13 +417,19 @@
       "original_price_valid_from": "2026-09-01",
       "scope": "municipal",
       "category": "childcare",
-      "weekly_minutes": null,
-      "weekday_minutes": null,
+      "weekly_minutes": 2400,
+      "weekday_minutes": [
+        480,
+        480,
+        480,
+        480,
+        480
+      ],
       "continuous": true,
-      "schedule_status": "daily_distribution_unverified",
+      "schedule_status": "verified",
       "schedule_evidence": {
-        "source_id": "3ffe1980c0fd",
-        "locator": "Ganztagesbetreuung; übrige Regelgruppentage zusätzlich anteilig",
+        "source_id": "232b2c65d445",
+        "locator": "Kindergarten Goethestraße, Mo–Fr 07:00–15:00 Uhr",
         "original": null
       },
       "payment_months": 12,
@@ -433,8 +464,8 @@
       "continuous": true,
       "schedule_status": "daily_distribution_unverified",
       "schedule_evidence": {
-        "source_id": "3ffe1980c0fd",
-        "locator": "Ganztagesbetreuung; übrige Regelgruppentage zusätzlich anteilig",
+        "source_id": "232b2c65d445",
+        "locator": "Kindergarten Goethestraße, Mo–Fr 07:00–15:00 Uhr",
         "original": null
       },
       "payment_months": 12,
@@ -469,8 +500,8 @@
       "continuous": true,
       "schedule_status": "daily_distribution_unverified",
       "schedule_evidence": {
-        "source_id": "3ffe1980c0fd",
-        "locator": "Ganztagesbetreuung; übrige Regelgruppentage zusätzlich anteilig",
+        "source_id": "232b2c65d445",
+        "locator": "Kindergarten Goethestraße, Mo–Fr 07:00–15:00 Uhr",
         "original": null
       },
       "payment_months": 12,
@@ -505,8 +536,8 @@
       "continuous": true,
       "schedule_status": "daily_distribution_unverified",
       "schedule_evidence": {
-        "source_id": "3ffe1980c0fd",
-        "locator": "Ganztagesbetreuung; übrige Regelgruppentage zusätzlich anteilig",
+        "source_id": "232b2c65d445",
+        "locator": "Kindergarten Goethestraße, Mo–Fr 07:00–15:00 Uhr",
         "original": null
       },
       "payment_months": 12,
@@ -536,13 +567,19 @@
       "original_price_valid_from": "2026-09-01",
       "scope": "municipal",
       "category": "childcare",
-      "weekly_minutes": null,
-      "weekday_minutes": null,
+      "weekly_minutes": 3000,
+      "weekday_minutes": [
+        600,
+        600,
+        600,
+        600,
+        600
+      ],
       "continuous": true,
-      "schedule_status": "daily_distribution_unverified",
+      "schedule_status": "verified",
       "schedule_evidence": {
-        "source_id": "3ffe1980c0fd",
-        "locator": "Ganztagesbetreuung; übrige Regelgruppentage zusätzlich anteilig",
+        "source_id": "232b2c65d445",
+        "locator": "Kindergarten Robert-Bosch-Straße, Mo–Fr 07:00–17:00 Uhr",
         "original": null
       },
       "payment_months": 12,
@@ -577,8 +614,8 @@
       "continuous": true,
       "schedule_status": "daily_distribution_unverified",
       "schedule_evidence": {
-        "source_id": "3ffe1980c0fd",
-        "locator": "Ganztagesbetreuung; übrige Regelgruppentage zusätzlich anteilig",
+        "source_id": "232b2c65d445",
+        "locator": "Kindergarten Robert-Bosch-Straße, Mo–Fr 07:00–17:00 Uhr",
         "original": null
       },
       "payment_months": 12,
@@ -613,8 +650,8 @@
       "continuous": true,
       "schedule_status": "daily_distribution_unverified",
       "schedule_evidence": {
-        "source_id": "3ffe1980c0fd",
-        "locator": "Ganztagesbetreuung; übrige Regelgruppentage zusätzlich anteilig",
+        "source_id": "232b2c65d445",
+        "locator": "Kindergarten Robert-Bosch-Straße, Mo–Fr 07:00–17:00 Uhr",
         "original": null
       },
       "payment_months": 12,
@@ -649,8 +686,8 @@
       "continuous": true,
       "schedule_status": "daily_distribution_unverified",
       "schedule_evidence": {
-        "source_id": "3ffe1980c0fd",
-        "locator": "Ganztagesbetreuung; übrige Regelgruppentage zusätzlich anteilig",
+        "source_id": "232b2c65d445",
+        "locator": "Kindergarten Robert-Bosch-Straße, Mo–Fr 07:00–17:00 Uhr",
         "original": null
       },
       "payment_months": 12,
@@ -685,8 +722,8 @@
       "continuous": true,
       "schedule_status": "daily_distribution_unverified",
       "schedule_evidence": {
-        "source_id": "3ffe1980c0fd",
-        "locator": "U3 im Kindergarten Richard-Wagner; § 3 Abs. 4",
+        "source_id": "232b2c65d445",
+        "locator": "Kindergarten Richard-Wagner-Straße, VÖ und GT",
         "original": null
       },
       "payment_months": 12,
@@ -716,13 +753,19 @@
       "original_price_valid_from": "2026-09-01",
       "scope": "municipal",
       "category": "mixed_age",
-      "weekly_minutes": null,
-      "weekday_minutes": null,
+      "weekly_minutes": 1875,
+      "weekday_minutes": [
+        375,
+        375,
+        375,
+        375,
+        375
+      ],
       "continuous": true,
-      "schedule_status": "daily_distribution_unverified",
+      "schedule_status": "verified",
       "schedule_evidence": {
-        "source_id": "3ffe1980c0fd",
-        "locator": "U3 im Kindergarten Richard-Wagner; § 3 Abs. 4",
+        "source_id": "232b2c65d445",
+        "locator": "Kindergarten Richard-Wagner-Straße, VÖ und GT",
         "original": null
       },
       "payment_months": 12,
@@ -757,8 +800,8 @@
       "continuous": true,
       "schedule_status": "daily_distribution_unverified",
       "schedule_evidence": {
-        "source_id": "3ffe1980c0fd",
-        "locator": "U3 im Kindergarten Richard-Wagner; § 3 Abs. 4",
+        "source_id": "232b2c65d445",
+        "locator": "Kindergarten Richard-Wagner-Straße, VÖ und GT",
         "original": null
       },
       "payment_months": 12,
@@ -788,13 +831,19 @@
       "original_price_valid_from": "2026-09-01",
       "scope": "municipal",
       "category": "mixed_age",
-      "weekly_minutes": null,
-      "weekday_minutes": null,
+      "weekly_minutes": 2400,
+      "weekday_minutes": [
+        480,
+        480,
+        480,
+        480,
+        480
+      ],
       "continuous": true,
-      "schedule_status": "daily_distribution_unverified",
+      "schedule_status": "verified",
       "schedule_evidence": {
-        "source_id": "3ffe1980c0fd",
-        "locator": "U3 im Kindergarten Richard-Wagner; § 3 Abs. 4",
+        "source_id": "232b2c65d445",
+        "locator": "Kindergarten Richard-Wagner-Straße, VÖ und GT",
         "original": null
       },
       "payment_months": 12,
@@ -824,13 +873,19 @@
       "original_price_valid_from": "2027-09-01",
       "scope": "municipal",
       "category": "childcare",
-      "weekly_minutes": null,
-      "weekday_minutes": null,
+      "weekly_minutes": 1875,
+      "weekday_minutes": [
+        375,
+        375,
+        375,
+        375,
+        375
+      ],
       "continuous": true,
-      "schedule_status": "daily_distribution_unverified",
+      "schedule_status": "verified",
       "schedule_evidence": {
-        "source_id": "2189c4f26a64",
-        "locator": "Gebühren Kindergarten 2027/2028",
+        "source_id": "232b2c65d445",
+        "locator": "Kindergarten Richard-Wagner-Straße, Mo–Fr 07:15–13:30 Uhr",
         "original": null
       },
       "payment_months": 12,
@@ -859,13 +914,19 @@
       "original_price_valid_from": "2027-09-01",
       "scope": "municipal",
       "category": "childcare",
-      "weekly_minutes": null,
-      "weekday_minutes": null,
+      "weekly_minutes": 1950,
+      "weekday_minutes": [
+        390,
+        390,
+        390,
+        390,
+        390
+      ],
       "continuous": true,
-      "schedule_status": "daily_distribution_unverified",
+      "schedule_status": "verified",
       "schedule_evidence": {
-        "source_id": "2189c4f26a64",
-        "locator": "Kinderkrippe Vollzeit / Sharingplätze; Anteilsberechnung bei Sharing",
+        "source_id": "232b2c65d445",
+        "locator": "Kinderkrippe Spatzennest, Mo–Fr 07:00–13:30 Uhr",
         "original": null
       },
       "payment_months": 12,
@@ -900,8 +961,8 @@
       "continuous": true,
       "schedule_status": "daily_distribution_unverified",
       "schedule_evidence": {
-        "source_id": "2189c4f26a64",
-        "locator": "Kinderkrippe Vollzeit / Sharingplätze; Anteilsberechnung bei Sharing",
+        "source_id": "232b2c65d445",
+        "locator": "Kinderkrippe Spatzennest, Mo–Fr 07:00–13:30 Uhr",
         "original": null
       },
       "payment_months": 12,
@@ -936,8 +997,8 @@
       "continuous": true,
       "schedule_status": "daily_distribution_unverified",
       "schedule_evidence": {
-        "source_id": "2189c4f26a64",
-        "locator": "Kinderkrippe Vollzeit / Sharingplätze; Anteilsberechnung bei Sharing",
+        "source_id": "232b2c65d445",
+        "locator": "Kinderkrippe Spatzennest, Mo–Fr 07:00–13:30 Uhr",
         "original": null
       },
       "payment_months": 12,
@@ -967,13 +1028,19 @@
       "original_price_valid_from": "2027-09-01",
       "scope": "municipal",
       "category": "childcare",
-      "weekly_minutes": null,
-      "weekday_minutes": null,
+      "weekly_minutes": 2400,
+      "weekday_minutes": [
+        480,
+        480,
+        480,
+        480,
+        480
+      ],
       "continuous": true,
-      "schedule_status": "daily_distribution_unverified",
+      "schedule_status": "verified",
       "schedule_evidence": {
-        "source_id": "2189c4f26a64",
-        "locator": "Kinderkrippe Vollzeit / Sharingplätze; Anteilsberechnung bei Sharing",
+        "source_id": "232b2c65d445",
+        "locator": "Kinderkrippe Küken, Mo–Fr 07:00–15:00 Uhr",
         "original": null
       },
       "payment_months": 12,
@@ -1008,8 +1075,8 @@
       "continuous": true,
       "schedule_status": "daily_distribution_unverified",
       "schedule_evidence": {
-        "source_id": "2189c4f26a64",
-        "locator": "Kinderkrippe Vollzeit / Sharingplätze; Anteilsberechnung bei Sharing",
+        "source_id": "232b2c65d445",
+        "locator": "Kinderkrippe Küken, Mo–Fr 07:00–15:00 Uhr",
         "original": null
       },
       "payment_months": 12,
@@ -1044,8 +1111,8 @@
       "continuous": true,
       "schedule_status": "daily_distribution_unverified",
       "schedule_evidence": {
-        "source_id": "2189c4f26a64",
-        "locator": "Kinderkrippe Vollzeit / Sharingplätze; Anteilsberechnung bei Sharing",
+        "source_id": "232b2c65d445",
+        "locator": "Kinderkrippe Küken, Mo–Fr 07:00–15:00 Uhr",
         "original": null
       },
       "payment_months": 12,
@@ -1075,13 +1142,19 @@
       "original_price_valid_from": "2027-09-01",
       "scope": "municipal",
       "category": "childcare",
-      "weekly_minutes": null,
-      "weekday_minutes": null,
+      "weekly_minutes": 3000,
+      "weekday_minutes": [
+        600,
+        600,
+        600,
+        600,
+        600
+      ],
       "continuous": true,
-      "schedule_status": "daily_distribution_unverified",
+      "schedule_status": "verified",
       "schedule_evidence": {
-        "source_id": "2189c4f26a64",
-        "locator": "Kinderkrippe Vollzeit / Sharingplätze; Anteilsberechnung bei Sharing",
+        "source_id": "232b2c65d445",
+        "locator": "Haus der Kinder, Mo–Fr 07:00–17:00 Uhr",
         "original": null
       },
       "payment_months": 12,
@@ -1116,8 +1189,8 @@
       "continuous": true,
       "schedule_status": "daily_distribution_unverified",
       "schedule_evidence": {
-        "source_id": "2189c4f26a64",
-        "locator": "Kinderkrippe Vollzeit / Sharingplätze; Anteilsberechnung bei Sharing",
+        "source_id": "232b2c65d445",
+        "locator": "Haus der Kinder, Mo–Fr 07:00–17:00 Uhr",
         "original": null
       },
       "payment_months": 12,
@@ -1152,8 +1225,8 @@
       "continuous": true,
       "schedule_status": "daily_distribution_unverified",
       "schedule_evidence": {
-        "source_id": "2189c4f26a64",
-        "locator": "Kinderkrippe Vollzeit / Sharingplätze; Anteilsberechnung bei Sharing",
+        "source_id": "232b2c65d445",
+        "locator": "Haus der Kinder, Mo–Fr 07:00–17:00 Uhr",
         "original": null
       },
       "payment_months": 12,
@@ -1183,13 +1256,19 @@
       "original_price_valid_from": "2027-09-01",
       "scope": "municipal",
       "category": "childcare",
-      "weekly_minutes": null,
-      "weekday_minutes": null,
+      "weekly_minutes": 2400,
+      "weekday_minutes": [
+        480,
+        480,
+        480,
+        480,
+        480
+      ],
       "continuous": true,
-      "schedule_status": "daily_distribution_unverified",
+      "schedule_status": "verified",
       "schedule_evidence": {
-        "source_id": "2189c4f26a64",
-        "locator": "Ganztagesbetreuung; übrige Regelgruppentage zusätzlich anteilig",
+        "source_id": "232b2c65d445",
+        "locator": "Kindergarten Goethestraße, Mo–Fr 07:00–15:00 Uhr",
         "original": null
       },
       "payment_months": 12,
@@ -1224,8 +1303,8 @@
       "continuous": true,
       "schedule_status": "daily_distribution_unverified",
       "schedule_evidence": {
-        "source_id": "2189c4f26a64",
-        "locator": "Ganztagesbetreuung; übrige Regelgruppentage zusätzlich anteilig",
+        "source_id": "232b2c65d445",
+        "locator": "Kindergarten Goethestraße, Mo–Fr 07:00–15:00 Uhr",
         "original": null
       },
       "payment_months": 12,
@@ -1260,8 +1339,8 @@
       "continuous": true,
       "schedule_status": "daily_distribution_unverified",
       "schedule_evidence": {
-        "source_id": "2189c4f26a64",
-        "locator": "Ganztagesbetreuung; übrige Regelgruppentage zusätzlich anteilig",
+        "source_id": "232b2c65d445",
+        "locator": "Kindergarten Goethestraße, Mo–Fr 07:00–15:00 Uhr",
         "original": null
       },
       "payment_months": 12,
@@ -1296,8 +1375,8 @@
       "continuous": true,
       "schedule_status": "daily_distribution_unverified",
       "schedule_evidence": {
-        "source_id": "2189c4f26a64",
-        "locator": "Ganztagesbetreuung; übrige Regelgruppentage zusätzlich anteilig",
+        "source_id": "232b2c65d445",
+        "locator": "Kindergarten Goethestraße, Mo–Fr 07:00–15:00 Uhr",
         "original": null
       },
       "payment_months": 12,
@@ -1327,13 +1406,19 @@
       "original_price_valid_from": "2027-09-01",
       "scope": "municipal",
       "category": "childcare",
-      "weekly_minutes": null,
-      "weekday_minutes": null,
+      "weekly_minutes": 3000,
+      "weekday_minutes": [
+        600,
+        600,
+        600,
+        600,
+        600
+      ],
       "continuous": true,
-      "schedule_status": "daily_distribution_unverified",
+      "schedule_status": "verified",
       "schedule_evidence": {
-        "source_id": "2189c4f26a64",
-        "locator": "Ganztagesbetreuung; übrige Regelgruppentage zusätzlich anteilig",
+        "source_id": "232b2c65d445",
+        "locator": "Kindergarten Robert-Bosch-Straße, Mo–Fr 07:00–17:00 Uhr",
         "original": null
       },
       "payment_months": 12,
@@ -1368,8 +1453,8 @@
       "continuous": true,
       "schedule_status": "daily_distribution_unverified",
       "schedule_evidence": {
-        "source_id": "2189c4f26a64",
-        "locator": "Ganztagesbetreuung; übrige Regelgruppentage zusätzlich anteilig",
+        "source_id": "232b2c65d445",
+        "locator": "Kindergarten Robert-Bosch-Straße, Mo–Fr 07:00–17:00 Uhr",
         "original": null
       },
       "payment_months": 12,
@@ -1404,8 +1489,8 @@
       "continuous": true,
       "schedule_status": "daily_distribution_unverified",
       "schedule_evidence": {
-        "source_id": "2189c4f26a64",
-        "locator": "Ganztagesbetreuung; übrige Regelgruppentage zusätzlich anteilig",
+        "source_id": "232b2c65d445",
+        "locator": "Kindergarten Robert-Bosch-Straße, Mo–Fr 07:00–17:00 Uhr",
         "original": null
       },
       "payment_months": 12,
@@ -1440,8 +1525,8 @@
       "continuous": true,
       "schedule_status": "daily_distribution_unverified",
       "schedule_evidence": {
-        "source_id": "2189c4f26a64",
-        "locator": "Ganztagesbetreuung; übrige Regelgruppentage zusätzlich anteilig",
+        "source_id": "232b2c65d445",
+        "locator": "Kindergarten Robert-Bosch-Straße, Mo–Fr 07:00–17:00 Uhr",
         "original": null
       },
       "payment_months": 12,
@@ -1476,8 +1561,8 @@
       "continuous": true,
       "schedule_status": "daily_distribution_unverified",
       "schedule_evidence": {
-        "source_id": "2189c4f26a64",
-        "locator": "U3 im Kindergarten Richard-Wagner; § 3 Abs. 4",
+        "source_id": "232b2c65d445",
+        "locator": "Kindergarten Richard-Wagner-Straße, VÖ und GT",
         "original": null
       },
       "payment_months": 12,
@@ -1507,13 +1592,19 @@
       "original_price_valid_from": "2027-09-01",
       "scope": "municipal",
       "category": "mixed_age",
-      "weekly_minutes": null,
-      "weekday_minutes": null,
+      "weekly_minutes": 1875,
+      "weekday_minutes": [
+        375,
+        375,
+        375,
+        375,
+        375
+      ],
       "continuous": true,
-      "schedule_status": "daily_distribution_unverified",
+      "schedule_status": "verified",
       "schedule_evidence": {
-        "source_id": "2189c4f26a64",
-        "locator": "U3 im Kindergarten Richard-Wagner; § 3 Abs. 4",
+        "source_id": "232b2c65d445",
+        "locator": "Kindergarten Richard-Wagner-Straße, VÖ und GT",
         "original": null
       },
       "payment_months": 12,
@@ -1548,8 +1639,8 @@
       "continuous": true,
       "schedule_status": "daily_distribution_unverified",
       "schedule_evidence": {
-        "source_id": "2189c4f26a64",
-        "locator": "U3 im Kindergarten Richard-Wagner; § 3 Abs. 4",
+        "source_id": "232b2c65d445",
+        "locator": "Kindergarten Richard-Wagner-Straße, VÖ und GT",
         "original": null
       },
       "payment_months": 12,
@@ -1579,13 +1670,19 @@
       "original_price_valid_from": "2027-09-01",
       "scope": "municipal",
       "category": "mixed_age",
-      "weekly_minutes": null,
-      "weekday_minutes": null,
+      "weekly_minutes": 2400,
+      "weekday_minutes": [
+        480,
+        480,
+        480,
+        480,
+        480
+      ],
       "continuous": true,
-      "schedule_status": "daily_distribution_unverified",
+      "schedule_status": "verified",
       "schedule_evidence": {
-        "source_id": "2189c4f26a64",
-        "locator": "U3 im Kindergarten Richard-Wagner; § 3 Abs. 4",
+        "source_id": "232b2c65d445",
+        "locator": "Kindergarten Richard-Wagner-Straße, VÖ und GT",
         "original": null
       },
       "payment_months": 12,
@@ -3718,6 +3815,7 @@
     "calculation_engine_changed": false,
     "rule_transcription": "typed_parameters_and_source_clauses_with_explicit_unimplemented_status"
   },
+  "model_tariff": "rutesheim",
   "original_research": {
     "path": "data/research/neighbor_expansion_2026-11-10.json",
     "section": "Rutesheim",

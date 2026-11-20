@@ -1,0 +1,26 @@
+                                               Betreuungsmodelle der Kindertageseinrichtungen der Gemeinde Weissach ab 01.01.2022
+
+
+
+                               Betreuungsmodelle verlängerte Öffnungszeit (VÖ)
+              30 Wochenstunden                                                 35 Wochenstunden
+Modell   Tage    Beginn     Ende         Mittagessen     Modell        Tage       Beginn     Ende            Mittagessen
+  1        5     7:00       13:00            nein                        5        07:00      13:30               nein
+                                                            1
+  2        5     7:30       13:30            nein                        1        14:30      17:00               nein
+           5     8:00       13:30            nein
+  3
+           1     14:30      17:00            nein
+
+
+
+                                                                   Betreuungsmodelle ganztags Öffnungszeit (GT)
+
+                37,5 Wochenstunden                                               40 Wochenstunden                                          50 Wochenstunden
+Modell   Tage       Beginn      Ende       Mittagessen    Modell          Tage      Beginn     Ende          Mittagessen   Modell   Tage      Beginn     Ende          Mittagessen
+  1        5        7:00        14:30           ja          1               5       7:00       15:00              ja         1        5       07:00      17:00              ja
+  2        5        7:30        15:00           ja                         4        7:00       14:30              ja         2        5       08:00      18:00              ja
+                                                             2
+                                                                            1       7:00       17:00              ja                                     nur Ferry-Porsche-KiTa
+                                                             3              5       8:00       16:00              ja
+

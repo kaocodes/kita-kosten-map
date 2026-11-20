@@ -1,0 +1,2035 @@
+{
+  "schema_version": "1.0",
+  "id": "neuhausen-auf-den-fildern",
+  "name": "Neuhausen auf den Fildern",
+  "reviewed_at": "2026-11-20",
+  "reference_date": "2026-11-20",
+  "scope": {
+    "included": [
+      "municipal"
+    ],
+    "other_providers": "only_with_explicit_source_evidence"
+  },
+  "family_basis": "under_18",
+  "family_evidence": {
+    "source_id": "1fe941069a2d",
+    "locator": "Entgeltübersicht; Tabellenfuß: August entgeltfrei und Kinder unter 18 mit Erstwohnsitz",
+    "original": null
+  },
+  "supporting_source_ids": [
+    "1fe941069a2d",
+    "a3f277739333",
+    "777192e93399",
+    "b23f241fdee3",
+    "ebf4a741fccb",
+    "cfe9dee5c692",
+    "93811d30f87d",
+    "265bb4d2baaa",
+    "dd3e952d070a",
+    "6fa342f5da83",
+    "a6c3f78f69b9",
+    "e61763663d37",
+    "6133f7667fac",
+    "db99211e39dd"
+  ],
+  "offers": [
+    {
+      "id": "neuhausen-auf-den-fildern-offer-f2c7a7fb7822",
+      "original_label": "GT 8",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-04-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-04-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2400,
+      "weekday_minutes": [
+        480,
+        480,
+        480,
+        480,
+        480
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "dd3e952d070a",
+        "locator": "Kommunales Einrichtungsprofil und Wochentage laut Entgelttabelle",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "1fe941069a2d",
+        "locator": "Entgeltübersicht; Tabellenfuß: August entgeltfrei und Kinder unter 18 mit Erstwohnsitz",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "777192e93399",
+        "locator": "PDF S. 1, Entgelte ab April 2026",
+        "original": null
+      },
+      "formula": null,
+      "nominal_daily_minutes": 480,
+      "days_per_week": 5
+    },
+    {
+      "id": "neuhausen-auf-den-fildern-offer-413e0d2eb990",
+      "original_label": "GT 8",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-04-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-04-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2400,
+      "weekday_minutes": [
+        480,
+        480,
+        480,
+        480,
+        480
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "dd3e952d070a",
+        "locator": "Kommunales Einrichtungsprofil und Wochentage laut Entgelttabelle",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "1fe941069a2d",
+        "locator": "Entgeltübersicht; Tabellenfuß: August entgeltfrei und Kinder unter 18 mit Erstwohnsitz",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "b23f241fdee3",
+        "locator": "PDF S. 1, Entgelte ab April 2026",
+        "original": null
+      },
+      "formula": null,
+      "nominal_daily_minutes": 480,
+      "days_per_week": 5,
+      "booking_source_details": [
+        {
+          "site": "Kinderhaus am Egelsee",
+          "until": "2027-08-31",
+          "evidence": {
+            "source_id": "dd3e952d070a",
+            "locator": "Betreuungsmodelle",
+            "original": null
+          }
+        },
+        {
+          "site": "Kindergarten Alfred-Delp-Weg",
+          "evidence": {
+            "source_id": "6fa342f5da83",
+            "locator": "Ganztag 7 bis 15 Uhr",
+            "original": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "neuhausen-auf-den-fildern-offer-2da9dc50b683",
+      "original_label": "GT 10",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-04-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-04-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": null,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "dd3e952d070a",
+        "locator": "Kommunales Einrichtungsprofil und Wochentage laut Entgelttabelle",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "1fe941069a2d",
+        "locator": "Entgeltübersicht; Tabellenfuß: August entgeltfrei und Kinder unter 18 mit Erstwohnsitz",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "b23f241fdee3",
+        "locator": "PDF S. 1, Entgelte ab April 2026",
+        "original": null
+      },
+      "formula": null,
+      "nominal_daily_minutes": 600
+    },
+    {
+      "id": "neuhausen-auf-den-fildern-offer-c8b921117258",
+      "original_label": "GT 8 · 4 Tage",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-04-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-04-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 1920,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "6133f7667fac",
+        "locator": "Kommunales Einrichtungsprofil und Wochentage laut Entgelttabelle",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "1fe941069a2d",
+        "locator": "Entgeltübersicht; Tabellenfuß: August entgeltfrei und Kinder unter 18 mit Erstwohnsitz",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "cfe9dee5c692",
+        "locator": "PDF S. 1, Entgelte ab April 2026",
+        "original": null
+      },
+      "formula": null,
+      "nominal_daily_minutes": 480,
+      "days_per_week": 4
+    },
+    {
+      "id": "neuhausen-auf-den-fildern-offer-86a1086da821",
+      "original_label": "GT 8 · 3 Tage",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-04-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-04-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 1440,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "6133f7667fac",
+        "locator": "Kommunales Einrichtungsprofil und Wochentage laut Entgelttabelle",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "1fe941069a2d",
+        "locator": "Entgeltübersicht; Tabellenfuß: August entgeltfrei und Kinder unter 18 mit Erstwohnsitz",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "cfe9dee5c692",
+        "locator": "PDF S. 1, Entgelte ab April 2026",
+        "original": null
+      },
+      "formula": null,
+      "nominal_daily_minutes": 480,
+      "days_per_week": 3
+    },
+    {
+      "id": "neuhausen-auf-den-fildern-offer-df4c7143c09c",
+      "original_label": "GT 8 · 2 Tage",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-04-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-04-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 960,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "6133f7667fac",
+        "locator": "Kommunales Einrichtungsprofil und Wochentage laut Entgelttabelle",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "1fe941069a2d",
+        "locator": "Entgeltübersicht; Tabellenfuß: August entgeltfrei und Kinder unter 18 mit Erstwohnsitz",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "cfe9dee5c692",
+        "locator": "PDF S. 1, Entgelte ab April 2026",
+        "original": null
+      },
+      "formula": null,
+      "nominal_daily_minutes": 480,
+      "days_per_week": 2
+    },
+    {
+      "id": "neuhausen-auf-den-fildern-offer-d71fa5ef10bb",
+      "original_label": "GT 7:15 · 5 Tage",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-04-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-04-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2175,
+      "weekday_minutes": [
+        435,
+        435,
+        435,
+        435,
+        435
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "e61763663d37",
+        "locator": "Kommunales Einrichtungsprofil und Wochentage laut Entgelttabelle",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "1fe941069a2d",
+        "locator": "Entgeltübersicht; Tabellenfuß: August entgeltfrei und Kinder unter 18 mit Erstwohnsitz",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "93811d30f87d",
+        "locator": "PDF S. 1, Entgelte ab April 2026",
+        "original": null
+      },
+      "formula": null,
+      "nominal_daily_minutes": 435,
+      "days_per_week": 5
+    },
+    {
+      "id": "neuhausen-auf-den-fildern-offer-6ac8f92bbb53",
+      "original_label": "GT 7:15 · 3 Tage",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-04-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-04-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 1305,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "e61763663d37",
+        "locator": "Kommunales Einrichtungsprofil und Wochentage laut Entgelttabelle",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "1fe941069a2d",
+        "locator": "Entgeltübersicht; Tabellenfuß: August entgeltfrei und Kinder unter 18 mit Erstwohnsitz",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "93811d30f87d",
+        "locator": "PDF S. 1, Entgelte ab April 2026",
+        "original": null
+      },
+      "formula": null,
+      "nominal_daily_minutes": 435,
+      "days_per_week": 3
+    },
+    {
+      "id": "neuhausen-auf-den-fildern-offer-e85565994eef",
+      "original_label": "GT 7:15 · 2 Tage",
+      "age_group": "u3",
+      "age_min_months": 12,
+      "age_max_months_exclusive": 36,
+      "until_school_entry": false,
+      "valid_from": "2026-04-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-04-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 870,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "e61763663d37",
+        "locator": "Kommunales Einrichtungsprofil und Wochentage laut Entgelttabelle",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "1fe941069a2d",
+        "locator": "Entgeltübersicht; Tabellenfuß: August entgeltfrei und Kinder unter 18 mit Erstwohnsitz",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "93811d30f87d",
+        "locator": "PDF S. 1, Entgelte ab April 2026",
+        "original": null
+      },
+      "formula": null,
+      "nominal_daily_minutes": 435,
+      "days_per_week": 2
+    },
+    {
+      "id": "neuhausen-auf-den-fildern-offer-b49b0f59422d",
+      "original_label": "Halbtags 5 Stunden",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-04-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-04-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": null,
+      "weekday_minutes": null,
+      "continuous": true,
+      "schedule_status": "daily_distribution_unverified",
+      "schedule_evidence": {
+        "source_id": "db99211e39dd",
+        "locator": "Kommunales Einrichtungsprofil und Wochentage laut Entgelttabelle",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "1fe941069a2d",
+        "locator": "Entgeltübersicht; Tabellenfuß: August entgeltfrei und Kinder unter 18 mit Erstwohnsitz",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "265bb4d2baaa",
+        "locator": "PDF S. 1, Entgelte ab April 2026",
+        "original": null
+      },
+      "formula": null,
+      "nominal_daily_minutes": 300
+    },
+    {
+      "id": "neuhausen-auf-den-fildern-offer-da07b4083d98",
+      "original_label": "Halbtags 5:45 Stunden",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-04-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-04-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 1725,
+      "weekday_minutes": [
+        345,
+        345,
+        345,
+        345,
+        345
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "db99211e39dd",
+        "locator": "Kommunales Einrichtungsprofil und Wochentage laut Entgelttabelle",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "1fe941069a2d",
+        "locator": "Entgeltübersicht; Tabellenfuß: August entgeltfrei und Kinder unter 18 mit Erstwohnsitz",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "265bb4d2baaa",
+        "locator": "PDF S. 1, Entgelte ab April 2026",
+        "original": null
+      },
+      "formula": null,
+      "nominal_daily_minutes": 345,
+      "days_per_week": 5
+    },
+    {
+      "id": "neuhausen-auf-den-fildern-offer-0cdc9e6e0089",
+      "original_label": "GT 9 · 43.5 Wochenstunden",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-04-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-04-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2610,
+      "weekday_minutes": [
+        540,
+        540,
+        540,
+        540,
+        450
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "dd3e952d070a",
+        "locator": "Kinderhaus am Egelsee, Betreuungsmodelle mit Freitagswahl",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "1fe941069a2d",
+        "locator": "Entgeltübersicht; Tabellenfuß: August entgeltfrei und Kinder unter 18 mit Erstwohnsitz",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "dd3e952d070a",
+        "locator": "Kinderhaus am Egelsee, Betreuungsmodelle mit Freitagswahl",
+        "original": null
+      },
+      "formula": null
+    },
+    {
+      "id": "neuhausen-auf-den-fildern-offer-16a6565285e9",
+      "original_label": "GT 9 · 45 Wochenstunden",
+      "age_group": "o3",
+      "age_min_months": 36,
+      "age_max_months_exclusive": null,
+      "until_school_entry": true,
+      "valid_from": "2026-04-01",
+      "valid_to": null,
+      "original_price_valid_from": "2026-04-01",
+      "scope": "municipal",
+      "category": "childcare",
+      "weekly_minutes": 2700,
+      "weekday_minutes": [
+        540,
+        540,
+        540,
+        540,
+        540
+      ],
+      "continuous": true,
+      "schedule_status": "verified",
+      "schedule_evidence": {
+        "source_id": "dd3e952d070a",
+        "locator": "Kinderhaus am Egelsee, Betreuungsmodelle mit Freitagswahl",
+        "original": null
+      },
+      "payment_months": 11,
+      "payment_evidence": {
+        "source_id": "1fe941069a2d",
+        "locator": "Entgeltübersicht; Tabellenfuß: August entgeltfrei und Kinder unter 18 mit Erstwohnsitz",
+        "original": null,
+        "verification": "explicit"
+      },
+      "evidence": {
+        "source_id": "dd3e952d070a",
+        "locator": "Kinderhaus am Egelsee, Betreuungsmodelle mit Freitagswahl",
+        "original": null
+      },
+      "formula": null
+    }
+  ],
+  "prices": [
+    {
+      "id": "neuhausen-auf-den-fildern-price-f6b89992d05c",
+      "offer_id": "neuhausen-auf-den-fildern-offer-f2c7a7fb7822",
+      "amount_cents": 74734,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "777192e93399",
+        "locator": "PDF S. 1, Entgelte ab April 2026",
+        "original": 74734
+      },
+      "corroborating_evidence": [
+        {
+          "source_id": "cfe9dee5c692",
+          "locator": "PDF S. 1, Spalte 5 Tage",
+          "original": null
+        }
+      ]
+    },
+    {
+      "id": "neuhausen-auf-den-fildern-price-6411a155a5b3",
+      "offer_id": "neuhausen-auf-den-fildern-offer-f2c7a7fb7822",
+      "amount_cents": 56051,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "777192e93399",
+        "locator": "PDF S. 1, Entgelte ab April 2026",
+        "original": 56051
+      },
+      "corroborating_evidence": [
+        {
+          "source_id": "cfe9dee5c692",
+          "locator": "PDF S. 1, Spalte 5 Tage",
+          "original": null
+        }
+      ]
+    },
+    {
+      "id": "neuhausen-auf-den-fildern-price-01ebbf630030",
+      "offer_id": "neuhausen-auf-den-fildern-offer-f2c7a7fb7822",
+      "amount_cents": 37367,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "777192e93399",
+        "locator": "PDF S. 1, Entgelte ab April 2026",
+        "original": 37367
+      },
+      "corroborating_evidence": [
+        {
+          "source_id": "cfe9dee5c692",
+          "locator": "PDF S. 1, Spalte 5 Tage",
+          "original": null
+        }
+      ]
+    },
+    {
+      "id": "neuhausen-auf-den-fildern-price-605fceb9b856",
+      "offer_id": "neuhausen-auf-den-fildern-offer-f2c7a7fb7822",
+      "amount_cents": 12705,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "777192e93399",
+        "locator": "PDF S. 1, Entgelte ab April 2026",
+        "original": 12705
+      },
+      "corroborating_evidence": [
+        {
+          "source_id": "cfe9dee5c692",
+          "locator": "PDF S. 1, Spalte 5 Tage",
+          "original": null
+        }
+      ]
+    },
+    {
+      "id": "neuhausen-auf-den-fildern-price-ac05d6ec8140",
+      "offer_id": "neuhausen-auf-den-fildern-offer-f2c7a7fb7822",
+      "amount_cents": 0,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 5,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "777192e93399",
+        "locator": "PDF S. 1, Entgelte ab April 2026",
+        "original": 0
+      },
+      "corroborating_evidence": [
+        {
+          "source_id": "cfe9dee5c692",
+          "locator": "PDF S. 1, Spalte 5 Tage",
+          "original": null
+        }
+      ]
+    },
+    {
+      "id": "neuhausen-auf-den-fildern-price-303e4eccc787",
+      "offer_id": "neuhausen-auf-den-fildern-offer-413e0d2eb990",
+      "amount_cents": 38313,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b23f241fdee3",
+        "locator": "PDF S. 1, Entgelte ab April 2026",
+        "original": 38313
+      },
+      "corroborating_evidence": [
+        {
+          "source_id": "ebf4a741fccb",
+          "locator": "PDF S. 1, GT 8",
+          "original": null
+        }
+      ]
+    },
+    {
+      "id": "neuhausen-auf-den-fildern-price-c52de9f0c78b",
+      "offer_id": "neuhausen-auf-den-fildern-offer-413e0d2eb990",
+      "amount_cents": 28735,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b23f241fdee3",
+        "locator": "PDF S. 1, Entgelte ab April 2026",
+        "original": 28735
+      },
+      "corroborating_evidence": [
+        {
+          "source_id": "ebf4a741fccb",
+          "locator": "PDF S. 1, GT 8",
+          "original": null
+        }
+      ]
+    },
+    {
+      "id": "neuhausen-auf-den-fildern-price-f4b4f4b16968",
+      "offer_id": "neuhausen-auf-den-fildern-offer-413e0d2eb990",
+      "amount_cents": 19157,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b23f241fdee3",
+        "locator": "PDF S. 1, Entgelte ab April 2026",
+        "original": 19157
+      },
+      "corroborating_evidence": [
+        {
+          "source_id": "ebf4a741fccb",
+          "locator": "PDF S. 1, GT 8",
+          "original": null
+        }
+      ]
+    },
+    {
+      "id": "neuhausen-auf-den-fildern-price-17548b7151ea",
+      "offer_id": "neuhausen-auf-den-fildern-offer-413e0d2eb990",
+      "amount_cents": 6513,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b23f241fdee3",
+        "locator": "PDF S. 1, Entgelte ab April 2026",
+        "original": 6513
+      },
+      "corroborating_evidence": [
+        {
+          "source_id": "ebf4a741fccb",
+          "locator": "PDF S. 1, GT 8",
+          "original": null
+        }
+      ]
+    },
+    {
+      "id": "neuhausen-auf-den-fildern-price-1d81550bddb6",
+      "offer_id": "neuhausen-auf-den-fildern-offer-413e0d2eb990",
+      "amount_cents": 0,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 5,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b23f241fdee3",
+        "locator": "PDF S. 1, Entgelte ab April 2026",
+        "original": 0
+      },
+      "corroborating_evidence": [
+        {
+          "source_id": "ebf4a741fccb",
+          "locator": "PDF S. 1, GT 8",
+          "original": null
+        }
+      ]
+    },
+    {
+      "id": "neuhausen-auf-den-fildern-price-77c3888513f7",
+      "offer_id": "neuhausen-auf-den-fildern-offer-2da9dc50b683",
+      "amount_cents": 47891,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b23f241fdee3",
+        "locator": "PDF S. 1, Entgelte ab April 2026",
+        "original": 47891
+      }
+    },
+    {
+      "id": "neuhausen-auf-den-fildern-price-344181f37878",
+      "offer_id": "neuhausen-auf-den-fildern-offer-2da9dc50b683",
+      "amount_cents": 35918,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b23f241fdee3",
+        "locator": "PDF S. 1, Entgelte ab April 2026",
+        "original": 35918
+      }
+    },
+    {
+      "id": "neuhausen-auf-den-fildern-price-f80368cca7fd",
+      "offer_id": "neuhausen-auf-den-fildern-offer-2da9dc50b683",
+      "amount_cents": 23946,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b23f241fdee3",
+        "locator": "PDF S. 1, Entgelte ab April 2026",
+        "original": 23946
+      }
+    },
+    {
+      "id": "neuhausen-auf-den-fildern-price-450b7d217681",
+      "offer_id": "neuhausen-auf-den-fildern-offer-2da9dc50b683",
+      "amount_cents": 8142,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b23f241fdee3",
+        "locator": "PDF S. 1, Entgelte ab April 2026",
+        "original": 8142
+      }
+    },
+    {
+      "id": "neuhausen-auf-den-fildern-price-0afee0df670f",
+      "offer_id": "neuhausen-auf-den-fildern-offer-2da9dc50b683",
+      "amount_cents": 0,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 5,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "b23f241fdee3",
+        "locator": "PDF S. 1, Entgelte ab April 2026",
+        "original": 0
+      }
+    },
+    {
+      "id": "neuhausen-auf-den-fildern-price-65e5a2ffaf30",
+      "offer_id": "neuhausen-auf-den-fildern-offer-c8b921117258",
+      "amount_cents": 59787,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "cfe9dee5c692",
+        "locator": "PDF S. 1, Entgelte ab April 2026",
+        "original": 59787
+      }
+    },
+    {
+      "id": "neuhausen-auf-den-fildern-price-81f6fdb8612a",
+      "offer_id": "neuhausen-auf-den-fildern-offer-c8b921117258",
+      "amount_cents": 44841,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "cfe9dee5c692",
+        "locator": "PDF S. 1, Entgelte ab April 2026",
+        "original": 44841
+      }
+    },
+    {
+      "id": "neuhausen-auf-den-fildern-price-67ff0bb37347",
+      "offer_id": "neuhausen-auf-den-fildern-offer-c8b921117258",
+      "amount_cents": 29894,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "cfe9dee5c692",
+        "locator": "PDF S. 1, Entgelte ab April 2026",
+        "original": 29894
+      }
+    },
+    {
+      "id": "neuhausen-auf-den-fildern-price-a4a94af7fa11",
+      "offer_id": "neuhausen-auf-den-fildern-offer-c8b921117258",
+      "amount_cents": 10164,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "cfe9dee5c692",
+        "locator": "PDF S. 1, Entgelte ab April 2026",
+        "original": 10164
+      }
+    },
+    {
+      "id": "neuhausen-auf-den-fildern-price-aad8140a192a",
+      "offer_id": "neuhausen-auf-den-fildern-offer-c8b921117258",
+      "amount_cents": 0,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 5,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "cfe9dee5c692",
+        "locator": "PDF S. 1, Entgelte ab April 2026",
+        "original": 0
+      }
+    },
+    {
+      "id": "neuhausen-auf-den-fildern-price-8d695b7a87a1",
+      "offer_id": "neuhausen-auf-den-fildern-offer-86a1086da821",
+      "amount_cents": 44840,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "cfe9dee5c692",
+        "locator": "PDF S. 1, Entgelte ab April 2026",
+        "original": 44840
+      }
+    },
+    {
+      "id": "neuhausen-auf-den-fildern-price-8b9feb039501",
+      "offer_id": "neuhausen-auf-den-fildern-offer-86a1086da821",
+      "amount_cents": 33631,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "cfe9dee5c692",
+        "locator": "PDF S. 1, Entgelte ab April 2026",
+        "original": 33631
+      }
+    },
+    {
+      "id": "neuhausen-auf-den-fildern-price-cfdfa67ab80d",
+      "offer_id": "neuhausen-auf-den-fildern-offer-86a1086da821",
+      "amount_cents": 22420,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "cfe9dee5c692",
+        "locator": "PDF S. 1, Entgelte ab April 2026",
+        "original": 22420
+      }
+    },
+    {
+      "id": "neuhausen-auf-den-fildern-price-f86d66d6159a",
+      "offer_id": "neuhausen-auf-den-fildern-offer-86a1086da821",
+      "amount_cents": 7623,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "cfe9dee5c692",
+        "locator": "PDF S. 1, Entgelte ab April 2026",
+        "original": 7623
+      }
+    },
+    {
+      "id": "neuhausen-auf-den-fildern-price-5da765b1cac5",
+      "offer_id": "neuhausen-auf-den-fildern-offer-86a1086da821",
+      "amount_cents": 0,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 5,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "cfe9dee5c692",
+        "locator": "PDF S. 1, Entgelte ab April 2026",
+        "original": 0
+      }
+    },
+    {
+      "id": "neuhausen-auf-den-fildern-price-68b837531b05",
+      "offer_id": "neuhausen-auf-den-fildern-offer-df4c7143c09c",
+      "amount_cents": 29894,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "cfe9dee5c692",
+        "locator": "PDF S. 1, Entgelte ab April 2026",
+        "original": 29894
+      }
+    },
+    {
+      "id": "neuhausen-auf-den-fildern-price-4d0bf70d05da",
+      "offer_id": "neuhausen-auf-den-fildern-offer-df4c7143c09c",
+      "amount_cents": 22420,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "cfe9dee5c692",
+        "locator": "PDF S. 1, Entgelte ab April 2026",
+        "original": 22420
+      }
+    },
+    {
+      "id": "neuhausen-auf-den-fildern-price-d941b13f5062",
+      "offer_id": "neuhausen-auf-den-fildern-offer-df4c7143c09c",
+      "amount_cents": 14947,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "cfe9dee5c692",
+        "locator": "PDF S. 1, Entgelte ab April 2026",
+        "original": 14947
+      }
+    },
+    {
+      "id": "neuhausen-auf-den-fildern-price-e0e017babade",
+      "offer_id": "neuhausen-auf-den-fildern-offer-df4c7143c09c",
+      "amount_cents": 5082,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "cfe9dee5c692",
+        "locator": "PDF S. 1, Entgelte ab April 2026",
+        "original": 5082
+      }
+    },
+    {
+      "id": "neuhausen-auf-den-fildern-price-587538f83cf0",
+      "offer_id": "neuhausen-auf-den-fildern-offer-df4c7143c09c",
+      "amount_cents": 0,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 5,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "cfe9dee5c692",
+        "locator": "PDF S. 1, Entgelte ab April 2026",
+        "original": 0
+      }
+    },
+    {
+      "id": "neuhausen-auf-den-fildern-price-779b86f11c2a",
+      "offer_id": "neuhausen-auf-den-fildern-offer-d71fa5ef10bb",
+      "amount_cents": 67728,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "93811d30f87d",
+        "locator": "PDF S. 1, Entgelte ab April 2026",
+        "original": 67728
+      }
+    },
+    {
+      "id": "neuhausen-auf-den-fildern-price-8434c1113c73",
+      "offer_id": "neuhausen-auf-den-fildern-offer-d71fa5ef10bb",
+      "amount_cents": 50796,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "93811d30f87d",
+        "locator": "PDF S. 1, Entgelte ab April 2026",
+        "original": 50796
+      }
+    },
+    {
+      "id": "neuhausen-auf-den-fildern-price-5f7c4781dbae",
+      "offer_id": "neuhausen-auf-den-fildern-offer-d71fa5ef10bb",
+      "amount_cents": 33864,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "93811d30f87d",
+        "locator": "PDF S. 1, Entgelte ab April 2026",
+        "original": 33864
+      }
+    },
+    {
+      "id": "neuhausen-auf-den-fildern-price-e1d20d8f7382",
+      "offer_id": "neuhausen-auf-den-fildern-offer-d71fa5ef10bb",
+      "amount_cents": 11514,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "93811d30f87d",
+        "locator": "PDF S. 1, Entgelte ab April 2026",
+        "original": 11514
+      }
+    },
+    {
+      "id": "neuhausen-auf-den-fildern-price-cd5b5f2993f0",
+      "offer_id": "neuhausen-auf-den-fildern-offer-d71fa5ef10bb",
+      "amount_cents": 0,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 5,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "93811d30f87d",
+        "locator": "PDF S. 1, Entgelte ab April 2026",
+        "original": 0
+      }
+    },
+    {
+      "id": "neuhausen-auf-den-fildern-price-27bf0b97cbf4",
+      "offer_id": "neuhausen-auf-den-fildern-offer-6ac8f92bbb53",
+      "amount_cents": 40637,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "93811d30f87d",
+        "locator": "PDF S. 1, Entgelte ab April 2026",
+        "original": 40637
+      }
+    },
+    {
+      "id": "neuhausen-auf-den-fildern-price-c9e87fc676a9",
+      "offer_id": "neuhausen-auf-den-fildern-offer-6ac8f92bbb53",
+      "amount_cents": 30478,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "93811d30f87d",
+        "locator": "PDF S. 1, Entgelte ab April 2026",
+        "original": 30478
+      }
+    },
+    {
+      "id": "neuhausen-auf-den-fildern-price-4a53e302eee6",
+      "offer_id": "neuhausen-auf-den-fildern-offer-6ac8f92bbb53",
+      "amount_cents": 20318,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "93811d30f87d",
+        "locator": "PDF S. 1, Entgelte ab April 2026",
+        "original": 20318
+      }
+    },
+    {
+      "id": "neuhausen-auf-den-fildern-price-94b8a904c01a",
+      "offer_id": "neuhausen-auf-den-fildern-offer-6ac8f92bbb53",
+      "amount_cents": 6908,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "93811d30f87d",
+        "locator": "PDF S. 1, Entgelte ab April 2026",
+        "original": 6908
+      }
+    },
+    {
+      "id": "neuhausen-auf-den-fildern-price-79e2dcc68198",
+      "offer_id": "neuhausen-auf-den-fildern-offer-6ac8f92bbb53",
+      "amount_cents": 0,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 5,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "93811d30f87d",
+        "locator": "PDF S. 1, Entgelte ab April 2026",
+        "original": 0
+      }
+    },
+    {
+      "id": "neuhausen-auf-den-fildern-price-a10e0f294bdd",
+      "offer_id": "neuhausen-auf-den-fildern-offer-e85565994eef",
+      "amount_cents": 27091,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "93811d30f87d",
+        "locator": "PDF S. 1, Entgelte ab April 2026",
+        "original": 27091
+      }
+    },
+    {
+      "id": "neuhausen-auf-den-fildern-price-118d9df57594",
+      "offer_id": "neuhausen-auf-den-fildern-offer-e85565994eef",
+      "amount_cents": 20318,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "93811d30f87d",
+        "locator": "PDF S. 1, Entgelte ab April 2026",
+        "original": 20318
+      }
+    },
+    {
+      "id": "neuhausen-auf-den-fildern-price-bb3c1bb2ecb5",
+      "offer_id": "neuhausen-auf-den-fildern-offer-e85565994eef",
+      "amount_cents": 13546,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "93811d30f87d",
+        "locator": "PDF S. 1, Entgelte ab April 2026",
+        "original": 13546
+      }
+    },
+    {
+      "id": "neuhausen-auf-den-fildern-price-733bd462bc1a",
+      "offer_id": "neuhausen-auf-den-fildern-offer-e85565994eef",
+      "amount_cents": 4606,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "93811d30f87d",
+        "locator": "PDF S. 1, Entgelte ab April 2026",
+        "original": 4606
+      }
+    },
+    {
+      "id": "neuhausen-auf-den-fildern-price-acd7156029c0",
+      "offer_id": "neuhausen-auf-den-fildern-offer-e85565994eef",
+      "amount_cents": 0,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 5,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "93811d30f87d",
+        "locator": "PDF S. 1, Entgelte ab April 2026",
+        "original": 0
+      }
+    },
+    {
+      "id": "neuhausen-auf-den-fildern-price-b9212f2e40c1",
+      "offer_id": "neuhausen-auf-den-fildern-offer-b49b0f59422d",
+      "amount_cents": 18208,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "265bb4d2baaa",
+        "locator": "PDF S. 1, Entgelte ab April 2026",
+        "original": 18208
+      }
+    },
+    {
+      "id": "neuhausen-auf-den-fildern-price-32e17c4fff9b",
+      "offer_id": "neuhausen-auf-den-fildern-offer-b49b0f59422d",
+      "amount_cents": 13656,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "265bb4d2baaa",
+        "locator": "PDF S. 1, Entgelte ab April 2026",
+        "original": 13656
+      }
+    },
+    {
+      "id": "neuhausen-auf-den-fildern-price-5fa44195035e",
+      "offer_id": "neuhausen-auf-den-fildern-offer-b49b0f59422d",
+      "amount_cents": 9104,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "265bb4d2baaa",
+        "locator": "PDF S. 1, Entgelte ab April 2026",
+        "original": 9104
+      }
+    },
+    {
+      "id": "neuhausen-auf-den-fildern-price-75d2c8be75fc",
+      "offer_id": "neuhausen-auf-den-fildern-offer-b49b0f59422d",
+      "amount_cents": 3095,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "265bb4d2baaa",
+        "locator": "PDF S. 1, Entgelte ab April 2026",
+        "original": 3095
+      }
+    },
+    {
+      "id": "neuhausen-auf-den-fildern-price-7d91dd6cfdeb",
+      "offer_id": "neuhausen-auf-den-fildern-offer-b49b0f59422d",
+      "amount_cents": 0,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 5,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "265bb4d2baaa",
+        "locator": "PDF S. 1, Entgelte ab April 2026",
+        "original": 0
+      }
+    },
+    {
+      "id": "neuhausen-auf-den-fildern-price-2f2f5f373ae8",
+      "offer_id": "neuhausen-auf-den-fildern-offer-da07b4083d98",
+      "amount_cents": 20939,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "265bb4d2baaa",
+        "locator": "PDF S. 1, Entgelte ab April 2026",
+        "original": 20939
+      }
+    },
+    {
+      "id": "neuhausen-auf-den-fildern-price-10f2a8f1b671",
+      "offer_id": "neuhausen-auf-den-fildern-offer-da07b4083d98",
+      "amount_cents": 15704,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "265bb4d2baaa",
+        "locator": "PDF S. 1, Entgelte ab April 2026",
+        "original": 15704
+      }
+    },
+    {
+      "id": "neuhausen-auf-den-fildern-price-e48bcd3c8d56",
+      "offer_id": "neuhausen-auf-den-fildern-offer-da07b4083d98",
+      "amount_cents": 10470,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "265bb4d2baaa",
+        "locator": "PDF S. 1, Entgelte ab April 2026",
+        "original": 10470
+      }
+    },
+    {
+      "id": "neuhausen-auf-den-fildern-price-4607501ffcb0",
+      "offer_id": "neuhausen-auf-den-fildern-offer-da07b4083d98",
+      "amount_cents": 3560,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "265bb4d2baaa",
+        "locator": "PDF S. 1, Entgelte ab April 2026",
+        "original": 3560
+      }
+    },
+    {
+      "id": "neuhausen-auf-den-fildern-price-0118fafd4d05",
+      "offer_id": "neuhausen-auf-den-fildern-offer-da07b4083d98",
+      "amount_cents": 0,
+      "unit": "per_month",
+      "value_status": "known",
+      "selectors": {
+        "family_count": 5,
+        "family_count_is_minimum": true,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "265bb4d2baaa",
+        "locator": "PDF S. 1, Entgelte ab April 2026",
+        "original": 0
+      }
+    },
+    {
+      "id": "neuhausen-auf-den-fildern-price-5af3ba96cba8",
+      "offer_id": "neuhausen-auf-den-fildern-offer-0cdc9e6e0089",
+      "amount_cents": null,
+      "unit": "per_month",
+      "value_status": "not_published",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "dd3e952d070a",
+        "locator": "Kinderhaus am Egelsee, Betreuungsmodelle mit Freitagswahl",
+        "original": null
+      }
+    },
+    {
+      "id": "neuhausen-auf-den-fildern-price-4b0a31e12abd",
+      "offer_id": "neuhausen-auf-den-fildern-offer-0cdc9e6e0089",
+      "amount_cents": null,
+      "unit": "per_month",
+      "value_status": "not_published",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "dd3e952d070a",
+        "locator": "Kinderhaus am Egelsee, Betreuungsmodelle mit Freitagswahl",
+        "original": null
+      }
+    },
+    {
+      "id": "neuhausen-auf-den-fildern-price-50aa910bcc9c",
+      "offer_id": "neuhausen-auf-den-fildern-offer-0cdc9e6e0089",
+      "amount_cents": null,
+      "unit": "per_month",
+      "value_status": "not_published",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "dd3e952d070a",
+        "locator": "Kinderhaus am Egelsee, Betreuungsmodelle mit Freitagswahl",
+        "original": null
+      }
+    },
+    {
+      "id": "neuhausen-auf-den-fildern-price-ba9ad5f92346",
+      "offer_id": "neuhausen-auf-den-fildern-offer-0cdc9e6e0089",
+      "amount_cents": null,
+      "unit": "per_month",
+      "value_status": "not_published",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "dd3e952d070a",
+        "locator": "Kinderhaus am Egelsee, Betreuungsmodelle mit Freitagswahl",
+        "original": null
+      }
+    },
+    {
+      "id": "neuhausen-auf-den-fildern-price-3c8c27ca9a8a",
+      "offer_id": "neuhausen-auf-den-fildern-offer-0cdc9e6e0089",
+      "amount_cents": null,
+      "unit": "per_month",
+      "value_status": "not_published",
+      "selectors": {
+        "family_count": 5,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "dd3e952d070a",
+        "locator": "Kinderhaus am Egelsee, Betreuungsmodelle mit Freitagswahl",
+        "original": null
+      }
+    },
+    {
+      "id": "neuhausen-auf-den-fildern-price-77f65e962813",
+      "offer_id": "neuhausen-auf-den-fildern-offer-16a6565285e9",
+      "amount_cents": null,
+      "unit": "per_month",
+      "value_status": "not_published",
+      "selectors": {
+        "family_count": 1,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "dd3e952d070a",
+        "locator": "Kinderhaus am Egelsee, Betreuungsmodelle mit Freitagswahl",
+        "original": null
+      }
+    },
+    {
+      "id": "neuhausen-auf-den-fildern-price-e98c57dae857",
+      "offer_id": "neuhausen-auf-den-fildern-offer-16a6565285e9",
+      "amount_cents": null,
+      "unit": "per_month",
+      "value_status": "not_published",
+      "selectors": {
+        "family_count": 2,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "dd3e952d070a",
+        "locator": "Kinderhaus am Egelsee, Betreuungsmodelle mit Freitagswahl",
+        "original": null
+      }
+    },
+    {
+      "id": "neuhausen-auf-den-fildern-price-2ff2ae3785c7",
+      "offer_id": "neuhausen-auf-den-fildern-offer-16a6565285e9",
+      "amount_cents": null,
+      "unit": "per_month",
+      "value_status": "not_published",
+      "selectors": {
+        "family_count": 3,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "dd3e952d070a",
+        "locator": "Kinderhaus am Egelsee, Betreuungsmodelle mit Freitagswahl",
+        "original": null
+      }
+    },
+    {
+      "id": "neuhausen-auf-den-fildern-price-0cbaecc8e295",
+      "offer_id": "neuhausen-auf-den-fildern-offer-16a6565285e9",
+      "amount_cents": null,
+      "unit": "per_month",
+      "value_status": "not_published",
+      "selectors": {
+        "family_count": 4,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "dd3e952d070a",
+        "locator": "Kinderhaus am Egelsee, Betreuungsmodelle mit Freitagswahl",
+        "original": null
+      }
+    },
+    {
+      "id": "neuhausen-auf-den-fildern-price-2fea486804af",
+      "offer_id": "neuhausen-auf-den-fildern-offer-16a6565285e9",
+      "amount_cents": null,
+      "unit": "per_month",
+      "value_status": "not_published",
+      "selectors": {
+        "family_count": 5,
+        "family_count_is_minimum": false,
+        "income_band_id": null,
+        "pass_id": "none",
+        "care_rank": null
+      },
+      "included_components": [],
+      "evidence": {
+        "source_id": "dd3e952d070a",
+        "locator": "Kinderhaus am Egelsee, Betreuungsmodelle mit Freitagswahl",
+        "original": null
+      }
+    }
+  ],
+  "income_bands": [],
+  "components": [
+    {
+      "id": "neuhausen-auf-den-fildern-component-c1aaccd5c8e2",
+      "kind": "meal",
+      "original_label": "Pflichtmittagessen Krippe",
+      "amount_cents": 400,
+      "unit": "per_meal",
+      "age_group": "u3",
+      "required": true,
+      "payment_months": null,
+      "offer_ids": [
+        "neuhausen-auf-den-fildern-offer-f2c7a7fb7822",
+        "neuhausen-auf-den-fildern-offer-c8b921117258",
+        "neuhausen-auf-den-fildern-offer-86a1086da821",
+        "neuhausen-auf-den-fildern-offer-df4c7143c09c",
+        "neuhausen-auf-den-fildern-offer-d71fa5ef10bb",
+        "neuhausen-auf-den-fildern-offer-6ac8f92bbb53",
+        "neuhausen-auf-den-fildern-offer-e85565994eef"
+      ],
+      "valid_from": "2026-04-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "a3f277739333",
+        "locator": "Verpflegung: Preise pro Essen",
+        "original": null
+      }
+    },
+    {
+      "id": "neuhausen-auf-den-fildern-component-9b1c924044d0",
+      "kind": "meal",
+      "original_label": "Pflichtmittagessen Kindergarten",
+      "amount_cents": 520,
+      "unit": "per_meal",
+      "age_group": "o3",
+      "required": true,
+      "payment_months": null,
+      "offer_ids": [
+        "neuhausen-auf-den-fildern-offer-413e0d2eb990",
+        "neuhausen-auf-den-fildern-offer-2da9dc50b683",
+        "neuhausen-auf-den-fildern-offer-0cdc9e6e0089",
+        "neuhausen-auf-den-fildern-offer-16a6565285e9"
+      ],
+      "valid_from": "2026-04-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "a3f277739333",
+        "locator": "Verpflegung: Preise pro Essen",
+        "original": null
+      }
+    }
+  ],
+  "rules": [
+    {
+      "id": "neuhausen-auf-den-fildern-rule-2ff4628c5df4",
+      "kind": "published_hourly_rates",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "regular_cents": 149,
+        "extended_cents": 186,
+        "full_day_cents": 223,
+        "nursery_cents": 435,
+        "monthly_factor": "4.3",
+        "family_shares_percent": [
+          100,
+          75,
+          50,
+          17,
+          0
+        ],
+        "prefer_published_monthly_values": true
+      },
+      "evidence": {
+        "source_id": "1fe941069a2d",
+        "locator": "Kommunales Kita-Portal: Entgelte",
+        "original": null
+      }
+    }
+  ],
+  "issues": [
+    {
+      "code": "gt9_monthly_amount_not_published",
+      "detail": "Das Egelsee-Angebot GT 9 wird mit 43,5 oder 45 Wochenstunden geführt. Die Entgelttabelle nennt stattdessen GT 8 und GT 10. Die gerundeten Stundenbeträge reproduzieren die veröffentlichten Monatsentgelte nicht durchgängig."
+    },
+    {
+      "code": "rohrspaetzle_hours_inconsistent_heading",
+      "detail": "Entgelttabelle und konkrete Uhrzeit 7:45 bis 15:00 ergeben 7:15 Stunden täglich. Das Profil verwendet an anderer Stelle die Überschrift GT 8."
+    }
+  ],
+  "coverage": {
+    "publication_status": "not_active",
+    "history_in_scope": false,
+    "source_register": "data/research/municipal_tariff_collection_2026-11-20.json"
+  }
+}

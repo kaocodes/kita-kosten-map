@@ -1,0 +1,13 @@
+{
+  "id": "e61763663d37",
+  "municipality": "Neuhausen auf den Fildern",
+  "title": "Kita Rohrspätzle: Zeitmodelle",
+  "url": "https://www.kitas-neuhausen.de/Unsere-kommunalen-Kitas/Kommunale-Kitas/Kindertagesstaette-Rohrspaetzle",
+  "retrieved_at": "2026-11-20T19:48:45.231241+00:00",
+  "http_status": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "final_url": "https://www.kitas-neuhausen.de/Unsere-kommunalen-Kitas/Kommunale-Kitas/Kindertagesstaette-Rohrspaetzle",
+  "error": null,
+  "local_path": "data/sources/e61763663d37/document.html",
+  "sha256": "16d4bb4c2917ea63e03d613dde68006cc7410115284d979b2b5b2f320bbc6423"
+}

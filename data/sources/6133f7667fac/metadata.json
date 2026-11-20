@@ -1,0 +1,13 @@
+{
+  "id": "6133f7667fac",
+  "municipality": "Neuhausen auf den Fildern",
+  "title": "Kita Nesthäkchen: Zeitmodelle",
+  "url": "https://www.kitas-neuhausen.de/Unsere-kommunalen-Kitas/Kommunale-Kitas/kindertagesstaette-nesthaekchen",
+  "retrieved_at": "2026-11-20T19:48:44.680719+00:00",
+  "http_status": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "final_url": "https://www.kitas-neuhausen.de/Unsere-kommunalen-Kitas/Kommunale-Kitas/kindertagesstaette-nesthaekchen",
+  "error": null,
+  "local_path": "data/sources/6133f7667fac/document.html",
+  "sha256": "487107acb4b4f05ae9c85d69c7a369efc5d0a6470aa9a6ffb6a61f7a04e302e3"
+}

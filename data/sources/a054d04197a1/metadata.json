@@ -1,0 +1,13 @@
+{
+  "id": "a054d04197a1",
+  "municipality": "Benningen am Neckar",
+  "title": "Aufnahmeantrag Kindergarten, Stand 01.09.2025",
+  "url": "https://www.benningen.de/fileadmin/Dateien/Dateien/Aufnahmeantrag_fuer_Kinder_in_Benninger_Kindergaerten-01-09-2025.pdf",
+  "retrieved_at": "2026-11-18T11:21:47.333474+00:00",
+  "http_status": 200,
+  "content_type": "application/pdf",
+  "final_url": "https://www.benningen.de/fileadmin/Dateien/Dateien/Aufnahmeantrag_fuer_Kinder_in_Benninger_Kindergaerten-01-09-2025.pdf",
+  "error": null,
+  "local_path": "data/sources/a054d04197a1/document.pdf",
+  "sha256": "7c1ece5c93905869cfbeed9a5f8d87f3e2d7aca12621e9c1566257f4af8b0fb6"
+}

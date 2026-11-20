@@ -34,12 +34,18 @@
       "scope": "municipal",
       "category": "childcare",
       "weekly_minutes": 1800,
-      "weekday_minutes": null,
+      "weekday_minutes": [
+        360,
+        360,
+        360,
+        360,
+        360
+      ],
       "continuous": true,
-      "schedule_status": "daily_distribution_unverified",
+      "schedule_status": "verified",
       "schedule_evidence": {
-        "source_id": "7b3a2062d94d",
-        "locator": "PDF S. 14, u3, 30 Stunden, Spalte 2026/2027",
+        "source_id": "91ba1dc6c23f",
+        "locator": "Städtisches Kinderhaus Am Schlittenhügel, Krippe und Kindergarten Mo–Fr 08:00–14:00 Uhr",
         "original": null
       },
       "payment_months": 11,
@@ -69,12 +75,18 @@
       "scope": "municipal",
       "category": "childcare",
       "weekly_minutes": 1800,
-      "weekday_minutes": null,
+      "weekday_minutes": [
+        360,
+        360,
+        360,
+        360,
+        360
+      ],
       "continuous": true,
-      "schedule_status": "daily_distribution_unverified",
+      "schedule_status": "verified",
       "schedule_evidence": {
-        "source_id": "7b3a2062d94d",
-        "locator": "PDF S. 14, u3, 30 Stunden, Spalte 2027/2028",
+        "source_id": "91ba1dc6c23f",
+        "locator": "Städtisches Kinderhaus Am Schlittenhügel, Krippe und Kindergarten Mo–Fr 08:00–14:00 Uhr",
         "original": null
       },
       "payment_months": 11,
@@ -738,8 +750,8 @@
       "continuous": true,
       "schedule_status": "daily_distribution_unverified",
       "schedule_evidence": {
-        "source_id": "7b3a2062d94d",
-        "locator": "PDF S. 14, u3, 40 Stunden, Spalte 2026/2027",
+        "source_id": "91ba1dc6c23f",
+        "locator": "Kinderhaus Anna-Fischer-Weg, U3 und Ü3; Wochenbuchung in Vollstunden gemäß § 17",
         "original": null
       },
       "payment_months": 11,
@@ -754,7 +766,8 @@
         "locator": "PDF S. 14, u3, 40 Stunden, Spalte 2026/2027",
         "original": null
       },
-      "formula": null
+      "formula": null,
+      "days_per_week": 5
     },
     {
       "id": "filderstadt-offer-3f216786699e",
@@ -773,8 +786,8 @@
       "continuous": true,
       "schedule_status": "daily_distribution_unverified",
       "schedule_evidence": {
-        "source_id": "7b3a2062d94d",
-        "locator": "PDF S. 14, u3, 40 Stunden, Spalte 2027/2028",
+        "source_id": "91ba1dc6c23f",
+        "locator": "Kinderhaus Anna-Fischer-Weg, U3 und Ü3; Wochenbuchung in Vollstunden gemäß § 17",
         "original": null
       },
       "payment_months": 11,
@@ -789,7 +802,8 @@
         "locator": "PDF S. 14, u3, 40 Stunden, Spalte 2027/2028",
         "original": null
       },
-      "formula": null
+      "formula": null,
+      "days_per_week": 5
     },
     {
       "id": "filderstadt-offer-f569808bbe8d",
@@ -804,12 +818,18 @@
       "scope": "municipal",
       "category": "childcare",
       "weekly_minutes": 1800,
-      "weekday_minutes": null,
+      "weekday_minutes": [
+        360,
+        360,
+        360,
+        360,
+        360
+      ],
       "continuous": true,
-      "schedule_status": "daily_distribution_unverified",
+      "schedule_status": "verified",
       "schedule_evidence": {
-        "source_id": "7b3a2062d94d",
-        "locator": "PDF S. 14, o3, 30 Stunden, Spalte 2026/2027",
+        "source_id": "91ba1dc6c23f",
+        "locator": "Städtisches Kinderhaus Am Schlittenhügel, Krippe und Kindergarten Mo–Fr 08:00–14:00 Uhr",
         "original": null
       },
       "payment_months": 11,
@@ -839,12 +859,18 @@
       "scope": "municipal",
       "category": "childcare",
       "weekly_minutes": 1800,
-      "weekday_minutes": null,
+      "weekday_minutes": [
+        360,
+        360,
+        360,
+        360,
+        360
+      ],
       "continuous": true,
-      "schedule_status": "daily_distribution_unverified",
+      "schedule_status": "verified",
       "schedule_evidence": {
-        "source_id": "7b3a2062d94d",
-        "locator": "PDF S. 14, o3, 30 Stunden, Spalte 2027/2028",
+        "source_id": "91ba1dc6c23f",
+        "locator": "Städtisches Kinderhaus Am Schlittenhügel, Krippe und Kindergarten Mo–Fr 08:00–14:00 Uhr",
         "original": null
       },
       "payment_months": 11,
@@ -1508,8 +1534,8 @@
       "continuous": true,
       "schedule_status": "daily_distribution_unverified",
       "schedule_evidence": {
-        "source_id": "7b3a2062d94d",
-        "locator": "PDF S. 14, o3, 40 Stunden, Spalte 2026/2027",
+        "source_id": "91ba1dc6c23f",
+        "locator": "Kinderhaus Anna-Fischer-Weg, U3 und Ü3; Wochenbuchung in Vollstunden gemäß § 17",
         "original": null
       },
       "payment_months": 11,
@@ -1524,7 +1550,8 @@
         "locator": "PDF S. 14, o3, 40 Stunden, Spalte 2026/2027",
         "original": null
       },
-      "formula": null
+      "formula": null,
+      "days_per_week": 5
     },
     {
       "id": "filderstadt-offer-cf2cc6a352c8",
@@ -1543,8 +1570,8 @@
       "continuous": true,
       "schedule_status": "daily_distribution_unverified",
       "schedule_evidence": {
-        "source_id": "7b3a2062d94d",
-        "locator": "PDF S. 14, o3, 40 Stunden, Spalte 2027/2028",
+        "source_id": "91ba1dc6c23f",
+        "locator": "Kinderhaus Anna-Fischer-Weg, U3 und Ü3; Wochenbuchung in Vollstunden gemäß § 17",
         "original": null
       },
       "payment_months": 11,
@@ -1559,7 +1586,8 @@
         "locator": "PDF S. 14, o3, 40 Stunden, Spalte 2027/2028",
         "original": null
       },
-      "formula": null
+      "formula": null,
+      "days_per_week": 5
     }
   ],
   "prices": [

@@ -10,7 +10,7 @@
     ],
     "other_providers": "only_with_explicit_source_evidence"
   },
-  "family_basis": "under_18",
+  "family_basis": "child_benefit",
   "family_evidence": {
     "source_id": "59ecf75191ad",
     "locator": "Familienbegriff und Fußnoten der Gebührenunterlagen",
@@ -66,7 +66,10 @@
         "published_min_max_before_child_discount": true,
         "no_income_proof": "maximum_monthly_fee"
       },
-      "weekly_minutes_is_upper_bound": true
+      "weekly_minutes_is_upper_bound": true,
+      "model_schedule": {
+        "days_per_week": 5
+      }
     },
     {
       "id": "waiblingen-offer-4a14eb25d9a2",
@@ -223,6 +226,9 @@
       },
       "weekly_minutes_is_upper_bound": true,
       "weekly_minutes_lower_exclusive": 2100,
+      "model_schedule": {
+        "days_per_week": 5
+      },
       "included_components": [
         {
           "component_id": "waiblingen-component-8885693eeadd",
@@ -500,7 +506,10 @@
         "no_income_proof": "maximum_monthly_fee"
       },
       "weekly_minutes_is_upper_bound": true,
-      "weekly_minutes_lower_exclusive": 1200
+      "weekly_minutes_lower_exclusive": 1200,
+      "model_schedule": {
+        "days_per_week": 5
+      }
     },
     {
       "id": "waiblingen-offer-cc100b8138cd",
@@ -657,6 +666,9 @@
       },
       "weekly_minutes_is_upper_bound": true,
       "weekly_minutes_lower_exclusive": 2100,
+      "model_schedule": {
+        "days_per_week": 5
+      },
       "included_components": [
         {
           "component_id": "waiblingen-component-78f8d8ddc3b0",
@@ -850,7 +862,7 @@
     {
       "id": "waiblingen-component-16a76ba36817",
       "kind": "meal",
-      "original_label": "Im Tarif enthalten: o3 Bis 30 Stunden mit Mittagessen",
+      "original_label": "Essenspauschale enthalten",
       "amount_cents": null,
       "unit": "per_month",
       "age_group": "o3",
@@ -874,7 +886,7 @@
     {
       "id": "waiblingen-component-5238bddf5bdf",
       "kind": "meal",
-      "original_label": "Im Tarif enthalten: o3 31–35 Stunden mit Mittagessen",
+      "original_label": "Essenspauschale enthalten",
       "amount_cents": null,
       "unit": "per_month",
       "age_group": "o3",
@@ -898,7 +910,7 @@
     {
       "id": "waiblingen-component-8885693eeadd",
       "kind": "meal",
-      "original_label": "Im Tarif enthalten: o3 36–40 Stunden mit Mittagessen",
+      "original_label": "Essenspauschale enthalten",
       "amount_cents": null,
       "unit": "per_month",
       "age_group": "o3",
@@ -922,7 +934,7 @@
     {
       "id": "waiblingen-component-9b52eeff056b",
       "kind": "meal",
-      "original_label": "Im Tarif enthalten: o3 41–50 Stunden mit Mittagessen",
+      "original_label": "Essenspauschale enthalten",
       "amount_cents": null,
       "unit": "per_month",
       "age_group": "o3",
@@ -946,7 +958,7 @@
     {
       "id": "waiblingen-component-fb8f63c1f321",
       "kind": "meal",
-      "original_label": "Im Tarif enthalten: o3 Kombination 1: zwei Tage VÖ ohne Essen, drei GT",
+      "original_label": "Essenspauschale enthalten",
       "amount_cents": null,
       "unit": "per_month",
       "age_group": "o3",
@@ -970,7 +982,7 @@
     {
       "id": "waiblingen-component-cf78038ac031",
       "kind": "meal",
-      "original_label": "Im Tarif enthalten: o3 Kombination 2: zwei Tage VÖ mit Essen, drei GT",
+      "original_label": "Essenspauschale enthalten",
       "amount_cents": null,
       "unit": "per_month",
       "age_group": "o3",
@@ -994,7 +1006,7 @@
     {
       "id": "waiblingen-component-dbd1c337ab6a",
       "kind": "meal",
-      "original_label": "Im Tarif enthalten: u3 Bis 30 Stunden mit Mittagessen",
+      "original_label": "Essenspauschale enthalten",
       "amount_cents": null,
       "unit": "per_month",
       "age_group": "u3",
@@ -1018,7 +1030,7 @@
     {
       "id": "waiblingen-component-1d5a3acc5f38",
       "kind": "meal",
-      "original_label": "Im Tarif enthalten: u3 31–35 Stunden mit Mittagessen",
+      "original_label": "Essenspauschale enthalten",
       "amount_cents": null,
       "unit": "per_month",
       "age_group": "u3",
@@ -1042,7 +1054,7 @@
     {
       "id": "waiblingen-component-78f8d8ddc3b0",
       "kind": "meal",
-      "original_label": "Im Tarif enthalten: u3 36–40 Stunden mit Mittagessen",
+      "original_label": "Essenspauschale enthalten",
       "amount_cents": null,
       "unit": "per_month",
       "age_group": "u3",
@@ -1066,7 +1078,7 @@
     {
       "id": "waiblingen-component-780b9c11c24b",
       "kind": "meal",
-      "original_label": "Im Tarif enthalten: u3 41–50 Stunden mit Mittagessen",
+      "original_label": "Essenspauschale enthalten",
       "amount_cents": null,
       "unit": "per_month",
       "age_group": "u3",
@@ -1090,7 +1102,7 @@
     {
       "id": "waiblingen-component-de51ec406944",
       "kind": "meal",
-      "original_label": "Im Tarif enthalten: u3 Kombination 3: zwei Tage VÖ ohne Essen, drei GT",
+      "original_label": "Essenspauschale enthalten",
       "amount_cents": null,
       "unit": "per_month",
       "age_group": "u3",
@@ -1114,7 +1126,7 @@
     {
       "id": "waiblingen-component-544ba12227f0",
       "kind": "meal",
-      "original_label": "Im Tarif enthalten: u3 Kombination 4: zwei Tage VÖ mit Essen, drei GT",
+      "original_label": "Essenspauschale enthalten",
       "amount_cents": null,
       "unit": "per_month",
       "age_group": "u3",
@@ -1190,7 +1202,7 @@
           100
         ],
         "free_from_rank": 5,
-        "rank_basis": "birth_order_of_family_children_under_18",
+        "rank_basis": "birth_order_of_children_with_child_benefit",
         "not_simultaneous_care_rank": true
       },
       "evidence": {
@@ -1732,6 +1744,7 @@
     "calculation_engine_changed": false,
     "rule_transcription": "typed_parameters_and_source_clauses_with_explicit_unimplemented_status"
   },
+  "model_tariff": "waiblingen",
   "original_research": {
     "path": "data/research/neighbor_expansion_2026-11-10.json",
     "section": "Waiblingen",

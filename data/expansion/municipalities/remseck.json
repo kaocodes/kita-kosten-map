@@ -148,7 +148,7 @@
       "id": "remseck-offer-52d186c0febb",
       "original_label": "VÖ6 Altersmischung",
       "age_group": "u3",
-      "age_min_months": 12,
+      "age_min_months": 24,
       "age_max_months_exclusive": 36,
       "until_school_entry": false,
       "valid_from": "2026-09-01",
@@ -391,26 +391,6 @@
       }
     },
     {
-      "id": "remseck-price-e9f4625dc5ee",
-      "offer_id": "remseck-offer-ee6f92973200",
-      "amount_cents": 0,
-      "unit": "per_month",
-      "value_status": "known",
-      "selectors": {
-        "family_count": 5,
-        "family_count_is_minimum": true,
-        "income_band_id": null,
-        "pass_id": "none",
-        "care_rank": null
-      },
-      "included_components": [],
-      "evidence": {
-        "source_id": "5ebe63b06876",
-        "locator": "Anlage 1 Fußnote: ab fünftem Kind gebührenfrei",
-        "original": 0
-      }
-    },
-    {
       "id": "remseck-price-82f9ecfaa015",
       "offer_id": "remseck-offer-e7ba9381d3ec",
       "amount_cents": 30400,
@@ -488,26 +468,6 @@
         "source_id": "5ebe63b06876",
         "locator": "Anlage 1 S. 6, Nr. 1",
         "original": 49
-      }
-    },
-    {
-      "id": "remseck-price-7b4ff24a4099",
-      "offer_id": "remseck-offer-e7ba9381d3ec",
-      "amount_cents": 0,
-      "unit": "per_month",
-      "value_status": "known",
-      "selectors": {
-        "family_count": 5,
-        "family_count_is_minimum": true,
-        "income_band_id": null,
-        "pass_id": "none",
-        "care_rank": null
-      },
-      "included_components": [],
-      "evidence": {
-        "source_id": "5ebe63b06876",
-        "locator": "Anlage 1 Fußnote: ab fünftem Kind gebührenfrei",
-        "original": 0
       }
     },
     {
@@ -591,26 +551,6 @@
       }
     },
     {
-      "id": "remseck-price-954f238a0cac",
-      "offer_id": "remseck-offer-2beb94274218",
-      "amount_cents": 0,
-      "unit": "per_month",
-      "value_status": "known",
-      "selectors": {
-        "family_count": 5,
-        "family_count_is_minimum": true,
-        "income_band_id": null,
-        "pass_id": "none",
-        "care_rank": null
-      },
-      "included_components": [],
-      "evidence": {
-        "source_id": "5ebe63b06876",
-        "locator": "Anlage 1 Fußnote: ab fünftem Kind gebührenfrei",
-        "original": 0
-      }
-    },
-    {
       "id": "remseck-price-45de3816a825",
       "offer_id": "remseck-offer-52d186c0febb",
       "amount_cents": 35600,
@@ -688,26 +628,6 @@
         "source_id": "5ebe63b06876",
         "locator": "Anlage 1 S. 6, Nr. 1",
         "original": 61
-      }
-    },
-    {
-      "id": "remseck-price-43ff507a3954",
-      "offer_id": "remseck-offer-52d186c0febb",
-      "amount_cents": 0,
-      "unit": "per_month",
-      "value_status": "known",
-      "selectors": {
-        "family_count": 5,
-        "family_count_is_minimum": true,
-        "income_band_id": null,
-        "pass_id": "none",
-        "care_rank": null
-      },
-      "included_components": [],
-      "evidence": {
-        "source_id": "5ebe63b06876",
-        "locator": "Anlage 1 Fußnote: ab fünftem Kind gebührenfrei",
-        "original": 0
       }
     },
     {
@@ -791,26 +711,6 @@
       }
     },
     {
-      "id": "remseck-price-3c058dca78fd",
-      "offer_id": "remseck-offer-c82b2d8734b8",
-      "amount_cents": 0,
-      "unit": "per_month",
-      "value_status": "known",
-      "selectors": {
-        "family_count": 5,
-        "family_count_is_minimum": true,
-        "income_band_id": null,
-        "pass_id": "none",
-        "care_rank": null
-      },
-      "included_components": [],
-      "evidence": {
-        "source_id": "5ebe63b06876",
-        "locator": "Anlage 1 Fußnote: ab fünftem Kind gebührenfrei",
-        "original": 0
-      }
-    },
-    {
       "id": "remseck-price-a0d199dd9a06",
       "offer_id": "remseck-offer-19b7c45eddb9",
       "amount_cents": 60900,
@@ -888,26 +788,6 @@
         "source_id": "5ebe63b06876",
         "locator": "Anlage 1 S. 6, Nr. 1",
         "original": 97
-      }
-    },
-    {
-      "id": "remseck-price-862d8574035d",
-      "offer_id": "remseck-offer-19b7c45eddb9",
-      "amount_cents": 0,
-      "unit": "per_month",
-      "value_status": "known",
-      "selectors": {
-        "family_count": 5,
-        "family_count_is_minimum": true,
-        "income_band_id": null,
-        "pass_id": "none",
-        "care_rank": null
-      },
-      "included_components": [],
-      "evidence": {
-        "source_id": "5ebe63b06876",
-        "locator": "Anlage 1 Fußnote: ab fünftem Kind gebührenfrei",
-        "original": 0
       }
     },
     {
@@ -989,72 +869,169 @@
         "locator": "Anlage 1 S. 6, Nr. 1",
         "original": 120
       }
-    },
-    {
-      "id": "remseck-price-dbf526615932",
-      "offer_id": "remseck-offer-f5deb9a1f8b4",
-      "amount_cents": 0,
-      "unit": "per_month",
-      "value_status": "known",
-      "selectors": {
-        "family_count": 5,
-        "family_count_is_minimum": true,
-        "income_band_id": null,
-        "pass_id": "none",
-        "care_rank": null
-      },
-      "included_components": [],
-      "evidence": {
-        "source_id": "5ebe63b06876",
-        "locator": "Anlage 1 Fußnote: ab fünftem Kind gebührenfrei",
-        "original": 0
-      }
     }
   ],
   "income_bands": [],
   "components": [
     {
-      "id": "remseck-component-80e6ce92f8af",
+      "id": "remseck-component-35bae8d6e809",
       "kind": "meal",
-      "original_label": "Mittagessen ein bis zwei Jahre",
+      "original_label": "Mittagessen 1–2 Jahre, VÖ",
       "amount_cents": 4500,
       "unit": "per_month",
       "age_group": "u3",
-      "required": true,
+      "required": false,
       "payment_months": 10,
-      "offer_ids": null,
+      "offer_ids": [
+        "remseck-offer-52d186c0febb",
+        "remseck-offer-c82b2d8734b8"
+      ],
       "valid_from": "2026-09-01",
       "valid_to": null,
       "value_status": "known",
       "evidence": {
         "source_id": "5ebe63b06876",
-        "locator": "Anlage 1 Nr. 2",
+        "locator": "Anlage 1 Nr. 2, Alter; Benutzungsordnung § 4 Abs. 3, Essen bei mehr als sechs Stunden",
         "original": null
       },
-      "age_max_months_exclusive": 24
+      "required_when_age_matches": false,
+      "model_age_band": "1–2 Jahre"
     },
     {
-      "id": "remseck-component-1c17590dffd6",
+      "id": "remseck-component-7f7166b185eb",
       "kind": "meal",
-      "original_label": "Mittagessen über zwei Jahre",
+      "original_label": "Mittagessen über 2 Jahre, VÖ",
       "amount_cents": 9000,
       "unit": "per_month",
-      "age_group": null,
-      "required": true,
+      "age_group": "u3",
+      "required": false,
       "payment_months": 10,
-      "offer_ids": null,
+      "offer_ids": [
+        "remseck-offer-52d186c0febb",
+        "remseck-offer-c82b2d8734b8"
+      ],
       "valid_from": "2026-09-01",
       "valid_to": null,
       "value_status": "known",
       "evidence": {
         "source_id": "5ebe63b06876",
-        "locator": "Anlage 1 Nr. 2",
+        "locator": "Anlage 1 Nr. 2, Alter; Benutzungsordnung § 4 Abs. 3, Essen bei mehr als sechs Stunden",
         "original": null
       },
-      "age_min_months": 24
+      "required_when_age_matches": false,
+      "model_age_band": "über 2 Jahre"
+    },
+    {
+      "id": "remseck-component-634e714b54be",
+      "kind": "meal",
+      "original_label": "Mittagessen ab 3 Jahren, VÖ",
+      "amount_cents": 9000,
+      "unit": "per_month",
+      "age_group": "o3",
+      "required": false,
+      "payment_months": 10,
+      "offer_ids": [
+        "remseck-offer-ee6f92973200"
+      ],
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "5ebe63b06876",
+        "locator": "Anlage 1 Nr. 2, Alter; Benutzungsordnung § 4 Abs. 3, Essen bei mehr als sechs Stunden",
+        "original": null
+      },
+      "required_when_age_matches": false,
+      "model_age_band": "ab 3 Jahren"
+    },
+    {
+      "id": "remseck-component-9ba251dc5a8d",
+      "kind": "meal",
+      "original_label": "Mittagessen 1–2 Jahre, Ganztag",
+      "amount_cents": 4500,
+      "unit": "per_month",
+      "age_group": "u3",
+      "required": null,
+      "payment_months": 10,
+      "offer_ids": [
+        "remseck-offer-19b7c45eddb9",
+        "remseck-offer-f5deb9a1f8b4"
+      ],
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "5ebe63b06876",
+        "locator": "Anlage 1 Nr. 2, Alter; Benutzungsordnung § 4 Abs. 3, Essen bei mehr als sechs Stunden",
+        "original": null
+      },
+      "required_when_age_matches": true,
+      "model_age_band": "1–2 Jahre"
+    },
+    {
+      "id": "remseck-component-253c5aead2d3",
+      "kind": "meal",
+      "original_label": "Mittagessen über 2 Jahre, Ganztag",
+      "amount_cents": 9000,
+      "unit": "per_month",
+      "age_group": "u3",
+      "required": null,
+      "payment_months": 10,
+      "offer_ids": [
+        "remseck-offer-19b7c45eddb9",
+        "remseck-offer-f5deb9a1f8b4"
+      ],
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "5ebe63b06876",
+        "locator": "Anlage 1 Nr. 2, Alter; Benutzungsordnung § 4 Abs. 3, Essen bei mehr als sechs Stunden",
+        "original": null
+      },
+      "required_when_age_matches": true,
+      "model_age_band": "über 2 Jahre"
+    },
+    {
+      "id": "remseck-component-02d047579437",
+      "kind": "meal",
+      "original_label": "Mittagessen ab 3 Jahren, Ganztag",
+      "amount_cents": 9000,
+      "unit": "per_month",
+      "age_group": "o3",
+      "required": true,
+      "payment_months": 10,
+      "offer_ids": [
+        "remseck-offer-e7ba9381d3ec",
+        "remseck-offer-2beb94274218"
+      ],
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "value_status": "known",
+      "evidence": {
+        "source_id": "5ebe63b06876",
+        "locator": "Anlage 1 Nr. 2, Alter; Benutzungsordnung § 4 Abs. 3, Essen bei mehr als sechs Stunden",
+        "original": null
+      },
+      "required_when_age_matches": true,
+      "model_age_band": "ab 3 Jahren"
     }
   ],
   "rules": [
+    {
+      "id": "remseck-rule-d696e4552d97",
+      "kind": "fifth_child_exemption",
+      "execution_status": "documented_not_implemented",
+      "parameters": {
+        "from_child": 5,
+        "applies_to": "requires_confirmation"
+      },
+      "evidence": {
+        "source_id": "5ebe63b06876",
+        "locator": "Anlage 1, Fußnote zur Gebührenbefreiung ab dem fünften Kind",
+        "original": null
+      }
+    },
     {
       "id": "remseck-rule-748fd1e04f83",
       "kind": "family_pass",
@@ -1571,10 +1548,10 @@
     "research_id": "remseck",
     "unavailable_configurations": [],
     "offers": 7,
-    "price_cells": 35,
+    "price_cells": 28,
     "income_bands": 0,
-    "components": 2,
-    "rule_records": 35,
+    "components": 6,
+    "rule_records": 36,
     "tariff_table_transcription": "complete_for_declared_scope",
     "declared_scope": "Aktuelle und bereits veröffentlichte künftige Krippen- und Kindergartentarife; Zusatzkosten und Gebührenregeln.",
     "excluded_from_regular_price_rows": [
@@ -1586,6 +1563,7 @@
     "calculation_engine_changed": false,
     "rule_transcription": "typed_parameters_and_source_clauses_with_explicit_unimplemented_status"
   },
+  "model_tariff": "remseck",
   "original_research": {
     "path": "data/research/neighbor_expansion_2026-11-10.json",
     "section": "Remseck am Neckar",

@@ -1,10 +1,22 @@
-# Integration der ersten acht Erweiterungskommunen
+# Erweiterungsvorschau und Veröffentlichung
+
+## Freigegebene Karte mit 49 Kommunen
+
+GitHub Pages und die lokale Vorschau enthalten die zwölf ursprünglichen Kommunen und 37 Erweiterungskataloge. Seit der zweiten Erhebung sind Neuhausen auf den Fildern, Markgröningen, Bietigheim-Bissingen und Weinstadt eingebunden. Im voreingestellten Krippenmodell liefern 48 Kommunen einen Preis. Baltmannsweiler bleibt als auswählbare Gemeinde sichtbar. Dort ist für dieses Modell kein passender Stundenumfang belegt. In anderen Familienmodellen bleiben die dokumentierten Tariflücken in Freiberg, Renningen und Schwieberdingen ebenfalls sichtbar. [Berechnungsprüfung](ERWEITERUNGSBERECHNUNG.md)
+
+Das Vorschau-Bundle nutzt nur die für die Vergleichsstichtage gültigen Angebote und Preise. Nicht ausführbare Quelltranskriptionen bleiben im Archiv. Quellenverweise und bepreiste Zusatzkosten bleiben in der Vorschau verfügbar. Katalog und Geometrie ergeben zusammen rund 180 kB gzip. Für die 49-Kommunen-Vorschau gelten 185 kB gzip zusammen und 2,3 MB für den unkomprimierten Katalog. Die [Pages-Freigabe](../data/expansion/pages_release.json) bindet beide Manifeststände per Prüfsumme. Neue Vorschau-Datenstände benötigen eine eigene Freigabe.
+
+Lokal starten mit `npm run dev:expansion`. Für Pages mit `npm run build:pages` bauen und die Dateien mit `npm run test:pages` prüfen.
+
+## Historischer Freigabestand der ersten acht Kommunen
+
+Im regulären Build sind diese acht Kommunen weiterhin aktiv. In der lokalen Vorschau stehen zusätzlich die übrigen Kataloge bereit. Die folgenden Zahlen und Prüfschritte halten die damalige Freigabe fest.
 
 **Stand:** 10. November 2026 · **Branch:** `Datensatz-Erweiterung` · **Veröffentlichung:** nach lokaler Durchsicht freigegeben; Deployment über `main`.
 
 Der ursprüngliche Aufbereitungs- und Kompatibilitätsstand wurde vor der Integration als `1d69bad` auf `main` committed. Die folgende Erweiterung liegt auf dem anschließend angelegten Branch.
 
-## Aufgenommene Kommunen
+### Aufgenommene Kommunen
 
 Ausgewählt sind ausschließlich die acht Kommunen, die sämtliche 2.508 geprüften Modellkonfigurationen unterstützen. Das umfasst bis zu vier Haushaltskinder, beide Haushaltskonstellationen, sechs Einkommensszenarien, sechs beziehungsweise acht Stunden täglich für Krippen- und Kindergartenkinder sowie Schul- und zu Hause betreute Geschwister. Sonderpässe, persönliche Eingaben und künftige Tarifstichtage gehören nicht zu dieser Freigabe.
 
@@ -23,7 +35,7 @@ Der Bedarf der Modellfamilie bleibt acht Stunden an jedem Wochentag. Größere g
 
 Die zwölf bisherigen Kataloge, Profile und Rechenfunktionen bleiben unverändert. Die restlichen 25 Erweiterungskommunen, einschließlich Schwieberdingen, sind weiterhin nicht aktiviert. Der [Kompatibilitätsbericht](ERWEITERUNGSBERECHNUNG.md) dokumentiert den ursprünglichen Prüfstand aller 33 Kandidaten; er wird durch diese Auswahl nicht rückwirkend verändert.
 
-## Übernahme und Schutz vor ungeprüften Änderungen
+### Übernahme und Schutz vor ungeprüften Änderungen
 
 `data/expansion/activation.json` hält die ausdrückliche Auswahl und die Prüfsumme des zugrunde liegenden Prüfindexes fest. `scripts/activate_expansion_catalogs.py` kopiert ausschließlich diese Kataloge bytegleich nach `data/municipalities/` und ergänzt Register und AGS-Flächenzuordnung. Importdaten und Prüfsnapshots bleiben erhalten; ihre damaligen Angaben wie `not_active` sind Archivmetadaten. Für die laufende Aktivierung ist das Kommunenregister maßgeblich.
 
@@ -33,7 +45,7 @@ Der bestehende Berechnungsstichtag bleibt der 4. November 2026; die Kompatibilit
 
 Karte, Namenwechsel, Liste und Quellen arbeiten bereits registergesteuert. Sie zeigen nun 20 Vergleichskommunen und 120 Umgebungsgebiete. Die Geometrien werden weiterhin gemeinsam vereinfacht; alle 20 aktiven Gebiete erhalten eine dauerhafte Beschriftung und bleiben auswählbar.
 
-## Datenmenge
+### Datenmenge
 
 Der Browserexport entfernt reine Importmetadaten und Parameter ausdrücklich nicht ausführbarer Regeln; Regelkennung, Ablehnungsstatus und Quellenbelege bleiben erhalten. Vollständige Originale liegen weiterhin in den kanonischen JSONs und Archiven. Die Projektion ändert keine ausführbare Berechnungsregel.
 
@@ -44,7 +56,7 @@ Der Browserexport entfernt reine Importmetadaten und Parameter ausdrücklich nic
 
 Der Webbuild enthält weiterhin weder Quellen-PDFs noch das Forschungsarchiv oder den vollständigen Prüfindex. Ein Backend wird nicht benötigt. Die CSV-/JSON-Exporte und beide Vergleichsberichte wurden ebenfalls auf 20 Kommunen aktualisiert.
 
-## Prüfungen und Veröffentlichungsfreigabe
+### Prüfungen und Veröffentlichungsfreigabe
 
 Die bestehenden Quellenreferenzen der zwölf Ausgangskommunen bleiben als Regressionstests erhalten. Separate Integrationstests prüfen die acht neuen Referenzwerte, veröffentlichte Einzel- und Geschwisterzellen, beide Referenzprofile, Quellenverweise, zusätzliche Familienkonfigurationen und die Ablehnung geänderter oder nur teilweise unterstützter Kataloge.
 

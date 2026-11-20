@@ -1,0 +1,13 @@
+{
+  "id": "28c7ea67f2d8",
+  "municipality": "Weissach",
+  "title": "Ferry-Porsche-Kita: kommunale Angebote und Öffnungszeiten",
+  "url": "https://www.kitas-weissach.de/kindergaerten/ferry-porsche-kita",
+  "retrieved_at": "2026-11-17T21:34:50.770449+00:00",
+  "http_status": 200,
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://www.kitas-weissach.de/kindergaerten/ferry-porsche-kita",
+  "error": null,
+  "local_path": "data/sources/28c7ea67f2d8/document.html",
+  "sha256": "e47bb96e01846cd1e111c241a57e5d7991a7d342f9651b7230fcb0a10ffb26ec"
+}

@@ -8,7 +8,7 @@ Die Anwendung sammelt, dokumentiert und vergleicht öffentlich verfügbare Gebü
 
 ## 2. Projektstatus und Leitlinien
 
-Der reguläre Build enthält 20 Kommunen. Die lokale Erweiterungsvorschau umfasst 49 Kommunen. [Datenpipeline](DATENPIPELINE.md) und [Erweiterungsintegration](ERWEITERUNGSINTEGRATION.md) dokumentieren Datensätze, Prüfung und Freigabe.
+Für GitHub Pages sind 49 Kommunen freigegeben. Die lokale Erweiterungsvorschau umfasst denselben Gebietsstand. Der Basisbuild und die Python-Referenzexporte verwenden die 20 Kommunen des kanonischen Registers. [Datenpipeline](DATENPIPELINE.md) und [Erweiterungsintegration](ERWEITERUNGSINTEGRATION.md) dokumentieren Datensätze, Prüfung und Freigabe.
 
 Der Projektchat kann auf Deutsch oder Englisch geführt werden. Projektdokumentation wird auf Deutsch geschrieben. Bezeichner und Kommentare im Code werden auf Englisch geschrieben.
 
@@ -144,7 +144,7 @@ Für neue Gebiete zuerst offizielle Quellen sichern und die Kataloge normalisier
 
 ## 11. Offene Aufgaben und Entscheidungen
 
-- Weitere Freigaben für die Erweiterungsvorschau nach fachlicher Prüfung.
+- Weitere Datenerweiterungen nach fachlicher Prüfung und eigener Veröffentlichungsfreigabe.
 - Rhythmus und mögliche Automatisierung des Quellenabgleichs und der Übernahme neuer Tarifstände.
 - Historische Preisreihen, zusätzliche Sprachversionen und gegebenenfalls detailliertere Grenzdaten bleiben spätere Entscheidungen.
 - Die Prüfung der Webseitentexte auf SEO bleibt vorgemerkt. [Offene Aufgabe](NAECHSTE_SESSION.md)

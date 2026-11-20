@@ -11,14 +11,23 @@ const root = new URL("../", import.meta.url);
 const read = async path => JSON.parse(await readFile(new URL(path, root), "utf8"));
 const hash = value => createHash("sha256").update(value).digest("hex");
 const expansionPreview = process.argv.includes("--expansion-preview");
+const pagesRelease = process.argv.includes("--pages-release");
+assert.ok(!(expansionPreview && pagesRelease), "Select one expansion mode");
+const expanded = expansionPreview || pagesRelease;
 const output = new URL(expansionPreview ? "build/expansion-preview/" : "web/public/data/", root);
 const registry = await read("data/municipality_registry.json");
 const candidates = new Map();
-if (expansionPreview) {
-  const manifests = await Promise.all([
-    read("data/expansion/manifest.json"),
-    read("data/expansion/batches/2026-11-20/manifest.json"),
-  ]);
+const release = pagesRelease ? await read("data/expansion/pages_release.json") : null;
+if (expanded) {
+  const inputs = release?.manifests ?? [
+    { path: "data/expansion/manifest.json" },
+    { path: "data/expansion/batches/2026-11-20/manifest.json" },
+  ];
+  const manifests = await Promise.all(inputs.map(async ({ path, sha256 }) => {
+    const content = await readFile(new URL(path, root));
+    if (pagesRelease) assert.equal(hash(content), sha256, `Pages release manifest hash mismatch: ${path}`);
+    return JSON.parse(content);
+  }));
   const municipalities = manifests.flatMap(manifest => manifest.municipalities);
   const registered = new Set(registry.municipalities.map(item => item.id));
   for (const { id, name, ags, path, sha256 } of municipalities) {
@@ -26,7 +35,7 @@ if (expansionPreview) {
     const source = await readFile(new URL(path, root));
     assert.equal(hash(source), sha256, `Expansion catalog hash mismatch: ${id}`);
     const areaID = "municipality-" + ags;
-    assert.ok(!registry.areas.some(area => area.id === areaID), `Duplicate preview area: ${areaID}`);
+    assert.ok(!registry.areas.some(area => area.id === areaID), `Duplicate expansion area: ${areaID}`);
     registry.municipalities.push({ id, name, ags, active: true, region_id: "stuttgart-region", tariff_id: id, area_id: areaID });
     registry.areas.push({ id: areaID, kind: "municipality", municipality_id: id, parent_id: null, tariff_id: id, geometry_key: ags });
     candidates.set(id, JSON.parse(source));
@@ -49,6 +58,7 @@ const simplified = await mapshaper.applyCommands(
 const raw = JSON.parse(geometryContent);
 const geometry = JSON.parse(simplified["municipalities-web.geojson"].toString());
 const active = registry.municipalities.filter(entry => entry.active);
+if (release) assert.equal(active.length, release.municipality_count, "Unexpected Pages release municipality count");
 const byAGS = new Map(active.map(entry => [entry.ags, entry]));
 const areas = new Map(registry.areas.map(area => [area.id, area]));
 assert.equal(geometry.features.length, raw.features.length, "Simplification removed an entire municipality");
@@ -121,14 +131,14 @@ function browserProjection(value) {
 }
 
 const profiles = { default: await read("data/profiles/default.json"), highest_band: await read("data/profiles/highest_band.json") };
-const previewDates = [...new Set(Object.values(profiles).map(profile => profile.as_of))];
+const comparisonDates = [...new Set(Object.values(profiles).map(profile => profile.as_of))];
 const tariffIDs = [...new Set(active.map(entry => entry.tariff_id))].sort();
 const tariffs = await Promise.all(tariffIDs.map(async id => {
   const catalog = projectWebTariff(candidates.get(id) ?? await read(`data/municipalities/${id}.json`));
-  if (expansionPreview) {
-    const currentAtPreviewDate = item => previewDates.some(date =>
+  if (expanded) {
+    const currentAtComparisonDate = item => comparisonDates.some(date =>
       (!item.valid_from || item.valid_from <= date) && (!item.valid_to || date <= item.valid_to));
-    catalog.offers = catalog.offers.filter(currentAtPreviewDate);
+    catalog.offers = catalog.offers.filter(currentAtComparisonDate);
     const currentOffers = new Set(catalog.offers.map(offer => offer.id));
     catalog.prices = catalog.prices.filter(row => currentOffers.has(row.offer_id)).map(row => {
       const { id, offer_id, amount_cents, value_status, selectors, evidence, corroborating_evidence,
@@ -141,7 +151,7 @@ const tariffs = await Promise.all(tariffIDs.map(async id => {
           pass_id: pass_id === "none" ? undefined : pass_id, care_rank: care_rank ?? undefined,
           care_rank_is_minimum: care_rank_is_minimum || undefined, single_parent } };
     });
-    catalog.components = catalog.components.filter(currentAtPreviewDate);
+    catalog.components = catalog.components.filter(currentAtComparisonDate);
     // Full transcriptions stay in the import archive and are never inputs to the web calculator.
     catalog.rules = catalog.rules.filter(rule => !/^source_(clause|provisions)_/.test(rule.kind ?? ""));
   }
@@ -197,8 +207,8 @@ const metrics = {
   max_map_zoom: provenance.processing.max_map_zoom,
 };
 assert.ok(metrics.geometry_bytes <= 200_000, "Geometry exceeds its 200 kB budget");
-const catalogBudget = expansionPreview ? 2_300_000 : 2_000_000;
-const compressedBudget = expansionPreview ? 185_000 : 150_000;
+const catalogBudget = expanded ? 2_300_000 : 2_000_000;
+const compressedBudget = expanded ? 185_000 : 150_000;
 assert.ok(metrics.catalog_bytes <= catalogBudget, `Browser catalog exceeds its byte budget: ${metrics.catalog_bytes} > ${catalogBudget}`);
 const compressedBytes = metrics.catalog_gzip_bytes + metrics.geometry_gzip_bytes;
 assert.ok(compressedBytes <= compressedBudget, `Compressed data exceeds its byte budget: ${compressedBytes} > ${compressedBudget}`);

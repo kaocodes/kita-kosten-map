@@ -10,8 +10,9 @@ const read = path => JSON.parse(readFileSync(new URL("../../" + path, import.met
 const firstBatch = read("data/expansion/manifest.json");
 const additionalBatch = read("data/expansion/batches/2026-11-20/manifest.json");
 const production = read("data/municipality_registry.json");
-const bundle = read("build/expansion-preview/region-stuttgart.json");
-const geometry = read("build/expansion-preview/municipalities.geojson");
+const output = process.argv.includes("--pages-release") ? "dist/data" : "build/expansion-preview";
+const bundle = read(`${output}/region-stuttgart.json`);
+const geometry = read(`${output}/municipalities.geojson`);
 const active = bundle.registry.municipalities.filter(item => item.active);
 const models = validateModelCatalog(bundle.models);
 const catalogPaths = new Map([...firstBatch.municipalities, ...additionalBatch.municipalities].map(item => [item.id, item.path]));
@@ -21,7 +22,7 @@ function compare(selection, tariffs = bundle.tariffs) {
   return compareModelFamily(tariffs, bundle.profiles.default, selection, bundle.registry, models, weeklyComparison);
 }
 
-test("Preview matches all original and expansion tariffs to labeled municipal polygons", () => {
+test("Expanded data matches all original and expansion tariffs to labeled municipal polygons", () => {
   const ids = new Set([...productionIDs, ...catalogPaths.keys()]);
   assert.deepEqual(new Set(active.map(item => item.id)), ids);
   assert.equal(active.length, ids.size);
@@ -35,7 +36,7 @@ test("Preview matches all original and expansion tariffs to labeled municipal po
   }
 });
 
-test("Preview projection preserves weekly model-family results from the source catalogs", () => {
+test("Expanded projection preserves weekly model-family results from the source catalogs", () => {
   const fullTariffs = active.map(({ id }) => projectWebTariff(read(productionIDs.has(id)
     ? `data/municipalities/${id}.json` : catalogPaths.get(id))));
   const summarize = rows => rows.map(row => ({

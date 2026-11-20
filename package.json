@@ -9,10 +9,12 @@
     "dev:expansion": "node scripts/prepare_web_data.mjs --expansion-preview && vite --config vite.config.ts --mode expansion-preview",
     "dev": "npm run prepare:web && vite --config vite.config.ts",
     "build": "npm run prepare:web && npm run typecheck && vite build --config vite.config.ts",
+    "build:pages": "npm run prepare:web -- --pages-release && npm run typecheck && vite build --config vite.config.ts",
     "preview": "vite preview --config vite.config.ts",
     "build:domain": "tsc -p tsconfig.json",
     "typecheck": "tsc -p tsconfig.json --noEmit && tsc -p tsconfig.app.json && tsc -p tsconfig.node.json",
     "test:expansion": "node scripts/prepare_web_data.mjs --expansion-preview && npm run build:domain && node web/tests/expansion-preview.test.mjs",
+    "test:pages": "npm run build:domain && node web/tests/expansion-preview.test.mjs --pages-release",
     "test:web": "npm run prepare:web && npm run build:domain && node web/tests/site-data.test.mjs",
     "test": "npm run prepare:web && npm run build:domain && python3 -m scripts.evaluate_reference_cases --output build/python-reference-results.json && node web/tests/all.test.mjs"
   },

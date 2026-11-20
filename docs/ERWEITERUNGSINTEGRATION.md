@@ -1,12 +1,12 @@
-# Erweiterungsvorschau und regulärer Build
+# Erweiterungsvorschau und Veröffentlichung
 
-## Lokale Freigabevorschau mit 49 Kommunen
+## Freigegebene Karte mit 49 Kommunen
 
-Die Vorschau enthält die zwölf ursprünglichen Kommunen und 37 Erweiterungskataloge. Seit der zweiten Erhebung sind Neuhausen auf den Fildern, Markgröningen, Bietigheim-Bissingen und Weinstadt eingebunden. Im voreingestellten Krippenmodell liefern 48 Kommunen einen Preis. Baltmannsweiler bleibt als auswählbare Gemeinde sichtbar. Dort ist für dieses Modell kein passender Stundenumfang belegt. In anderen Familienmodellen bleiben die dokumentierten Tariflücken in Freiberg, Renningen und Schwieberdingen ebenfalls sichtbar. [Berechnungsprüfung](ERWEITERUNGSBERECHNUNG.md)
+GitHub Pages und die lokale Vorschau enthalten die zwölf ursprünglichen Kommunen und 37 Erweiterungskataloge. Seit der zweiten Erhebung sind Neuhausen auf den Fildern, Markgröningen, Bietigheim-Bissingen und Weinstadt eingebunden. Im voreingestellten Krippenmodell liefern 48 Kommunen einen Preis. Baltmannsweiler bleibt als auswählbare Gemeinde sichtbar. Dort ist für dieses Modell kein passender Stundenumfang belegt. In anderen Familienmodellen bleiben die dokumentierten Tariflücken in Freiberg, Renningen und Schwieberdingen ebenfalls sichtbar. [Berechnungsprüfung](ERWEITERUNGSBERECHNUNG.md)
 
-Das Vorschau-Bundle nutzt nur die für die Vergleichsstichtage gültigen Angebote und Preise. Nicht ausführbare Quelltranskriptionen bleiben im Archiv. Quellenverweise und bepreiste Zusatzkosten bleiben in der Vorschau verfügbar. Katalog und Geometrie ergeben zusammen rund 180 kB gzip. Für die 49-Kommunen-Vorschau gelten 185 kB gzip zusammen und 2,3 MB für den unkomprimierten Katalog. Die Vorschau ist von der veröffentlichten Auswahl getrennt.
+Das Vorschau-Bundle nutzt nur die für die Vergleichsstichtage gültigen Angebote und Preise. Nicht ausführbare Quelltranskriptionen bleiben im Archiv. Quellenverweise und bepreiste Zusatzkosten bleiben in der Vorschau verfügbar. Katalog und Geometrie ergeben zusammen rund 180 kB gzip. Für die 49-Kommunen-Vorschau gelten 185 kB gzip zusammen und 2,3 MB für den unkomprimierten Katalog. Die [Pages-Freigabe](../data/expansion/pages_release.json) bindet beide Manifeststände per Prüfsumme. Neue Vorschau-Datenstände benötigen eine eigene Freigabe.
 
-Starten mit `npm run dev:expansion`, prüfen mit `npm run test:expansion`.
+Lokal starten mit `npm run dev:expansion`. Für Pages mit `npm run build:pages` bauen und die Dateien mit `npm run test:pages` prüfen.
 
 ## Historischer Freigabestand der ersten acht Kommunen
 

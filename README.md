@@ -1,6 +1,6 @@
 # Kita-Gebührenvergleich Region Stuttgart
 
-Die interaktive Karte vergleicht kommunale Gebühren für Krippe und Kindergarten. Der reguläre Build enthält **20 Kommunen**. Auf dem Branch `datapipeline` sind **49 Kommunen** in der lokalen Erweiterungsvorschau verfügbar. Der Vergleichsstichtag des Kartenprofils ist der **4. November 2026**. Vier zusätzliche Gemeinden wurden am 20. November separat erhoben und geprüft. [GitHub Pages](https://kaocodes.github.io/kita-kosten-map/) · [Erweiterungsstand](docs/ERWEITERUNGSINTEGRATION.md) · [Zweite Erhebung](docs/DATENERHEBUNG_2026-11-20.md)
+Die interaktive Karte vergleicht kommunale Gebühren für Krippe und Kindergarten. Der freigegebene GitHub-Pages-Build umfasst **49 Kommunen**. Der lokale Basisbuild aus dem kanonischen Register enthält **20 Kommunen**. Der Vergleichsstichtag des Kartenprofils ist der **4. November 2026**. Vier zusätzliche Gemeinden wurden am 20. November separat erhoben und geprüft. [GitHub Pages](https://kaocodes.github.io/kita-kosten-map/) · [Erweiterungsstand](docs/ERWEITERUNGSINTEGRATION.md) · [Zweite Erhebung](docs/DATENERHEBUNG_2026-11-20.md)
 
 Die voreingestellte **Modellfamilie** besteht aus zwei zusammenlebenden Eltern, einem Krippenkind mit acht Stunden Betreuungsbedarf und 80.000 € Haushaltsjahresbrutto. Die Vergleichsfamilie ist über Haushaltskonstellation, Kinderkategorien, sechs Einkommensstufen und den Betreuungsbedarf je Kita-Kind konfigurierbar. Karte und Liste zeigen die monatlichen Betreuungskosten der Familie. Details zeigen Wochenstunden, Einzelbeiträge, Verpflegung und Quellen. [Modellfamilien](docs/MODELLFAMILIEN.md)
 
@@ -22,11 +22,12 @@ python3 -m kita_costs validate
 python3 -m unittest discover -s tests -v
 npm test
 npm run test:expansion
-npm run build
+npm run build:pages
+npm run test:pages
 npm run preview
 ```
 
-`npm run build` prüft das reguläre Datenregister und erzeugt `dist/`. `npm run preview` zeigt diesen Build auf [localhost:4173](http://127.0.0.1:4173/). Der Workflow prüft Pull Requests gegen `main` und veröffentlicht erfolgreiche Builds von `main`. [Webanwendung](docs/WEBANWENDUNG.md) · [Pages-Workflow](.github/workflows/pages.yml)
+`npm run build:pages` baut den freigegebenen Stand mit 49 Kommunen nach `dist/`. `npm run test:pages` testet dessen Daten. `npm run preview` zeigt diesen Build auf [localhost:4173](http://127.0.0.1:4173/). Der Workflow prüft Pull Requests gegen `main` und veröffentlicht erfolgreiche Builds von `main`. [Webanwendung](docs/WEBANWENDUNG.md) · [Pages-Workflow](.github/workflows/pages.yml)
 
 ```bash
 python3 -m kita_costs compare --municipality stuttgart

@@ -12,6 +12,7 @@ Diese Anleitung beschreibt den Arbeitsablauf für neue Kommunen und geänderte T
 | Erste Erweiterung | [Manifest für 33 Kommunen](../data/expansion/manifest.json), [Kommunenkataloge](../data/expansion/municipalities/) | Erster Erweiterungsbestand, einschließlich der acht bereits für den regulären Build aktivierten Kommunen. |
 | Zweite Erweiterung | [Manifest vom 20. November](../data/expansion/batches/2026-11-20/manifest.json), [Erhebungsbericht](DATENERHEBUNG_2026-11-20.md) | Neuhausen auf den Fildern, Markgröningen, Bietigheim-Bissingen und Weinstadt. |
 | Regulärer Build | [Kommunenregister](../data/municipality_registry.json), [aktive Auswahl der Erweiterung](../data/expansion/activation.json), [kanonische Kataloge](../data/municipalities/) | 20 aktive Kommunen. Das Register ordnet die Tarife und Kartenflächen über den amtlichen Gemeindeschlüssel (AGS) einander zu. |
+| GitHub Pages | [Veröffentlichungsauswahl](../data/expansion/pages_release.json) | 49 freigegebene Kommunen. Die Auswahl bindet die beiden Erweiterungsmanifeste per Prüfsumme. |
 | Lokale Vorschau | `build/expansion-preview/` | 49 Kommunen aus dem regulären Bestand und den übrigen Einträgen der beiden Erweiterungsmanifeste. Die Vorschau verändert das reguläre Register auf der Festplatte nicht. |
 
 ## 1. Quellen finden und archivieren
@@ -68,6 +69,6 @@ Die Vorschau läuft auf [localhost:5174](http://127.0.0.1:5174/). Dort Modellfam
 
 ## 4. Regelbetrieb und Freigabe
 
-Die Vorschau dient der fachlichen Sichtung. Der reguläre Build bezieht Tarife aus den aktiven Einträgen des kanonischen Registers. Für die bereits freigegebenen acht Erweiterungskommunen prüft `npm run prepare:web` die Auswahl, Quellkataloge und Prüfsummen über `scripts/activate_expansion_catalogs.py --check`. Diese Sperre basiert auf dem historischen Freigabeindex des ersten Imports. Für weitere Freigaben muss die technische Prüfung an die heutigen Stichproben und das betroffene Manifest angebunden werden.
+Die Vorschau dient der fachlichen Sichtung. Der reguläre Build bezieht Tarife aus den aktiven Einträgen des kanonischen Registers. Für die bereits freigegebenen acht Erweiterungskommunen prüft `npm run prepare:web` die Auswahl, Quellkataloge und Prüfsummen über `scripts/activate_expansion_catalogs.py --check`. Diese Sperre basiert auf dem historischen Freigabeindex des ersten Imports. Der Pages-Build ergänzt die 29 weiteren Kommunen über die Freigabedatei. Sie legt die geprüften Manifeststände und die freigegebene Gebietsanzahl fest, ohne das kanonische Register zu ändern. Neue oder geänderte Manifeststände brauchen erneute Prüfung und eine aktualisierte Freigabedatei.
 
-Nach einer Veröffentlichungsfreigabe laufen regulärer Build und Tests. GitHub Actions veröffentlicht erfolgreiche Builds von `main`. Details zu Ports, Größenbudgets und Befehlen stehen in [WEBANWENDUNG.md](WEBANWENDUNG.md). Frühere Quellen- und Tarifprüfungen liegen im lokalen Archiv.
+Nach einer Veröffentlichungsfreigabe bauen `npm run build:pages` und `npm run test:pages` den freigegebenen Stand und prüfen die erzeugten Daten. GitHub Actions veröffentlicht erfolgreiche Builds von `main`. Details zu Ports, Größenbudgets und Befehlen stehen in [WEBANWENDUNG.md](WEBANWENDUNG.md). Frühere Quellen- und Tarifprüfungen liegen im lokalen Archiv.

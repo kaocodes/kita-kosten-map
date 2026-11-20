@@ -12,7 +12,7 @@ Voraussetzungen sind Node.js ab 22.12 und Python ab 3.11. Im Projektverzeichnis 
 |---|---|---|
 | `npm run dev` | [localhost:5173](http://127.0.0.1:5173/) | Regulärer Stand mit 20 Vergleichskommunen und 120 Kontextflächen. |
 | `npm run dev:expansion` | [localhost:5174](http://127.0.0.1:5174/) | Lokale Vorschau mit 49 Vergleichskommunen und 91 Kontextflächen. |
-| `npm run build`, danach `npm run preview` | [localhost:4173](http://127.0.0.1:4173/) | Vorschau von `dist/` mit dem regulären Bestand. |
+| `npm run build:pages`, danach `npm run preview` | [localhost:4173](http://127.0.0.1:4173/) | Vorschau des GitHub-Pages-Builds mit 49 freigegebenen Kommunen in `dist/`. |
 
 Die Server lassen sich mit `Ctrl+C` beenden. Der reguläre Start prüft Freigabe, Kataloge und Quellenprüfsummen und schreibt die Webdaten in `web/public/data/`. Die Erweiterungsvorschau lädt eigene Daten aus `build/expansion-preview/` über Vite. Sie ist unabhängig vom statischen Build.
 
@@ -33,7 +33,7 @@ Die Server lassen sich mit `Ctrl+C` beenden. Der reguläre Start prüft Freigabe
 | `web/src/components/MunicipalityMap.tsx` | Leaflet-Karte, Flächenauswahl und Beschriftung. |
 | `web/src/domain/` | Datenprüfung, Angebotsauswahl nach Wochenzielen und Vergleichsberechnung. |
 
-Das reguläre Register liefert die 20 freigegebenen Tarife. Die Vorschau ergänzt fehlende Einträge aus beiden Erweiterungsmanifesten und prüft deren Prüfsummen. Abrufe von Gebührenquellen finden im Erhebungsprozess statt. Der Browser erhält aufbereitete Daten und Quellenlinks. [Datenpipeline](DATENPIPELINE.md)
+Das kanonische Register liefert 20 Tarife für den Basisbuild `npm run build`. Vorschau und Pages-Build ergänzen die Einträge aus beiden Erweiterungsmanifesten und prüfen die Katalogprüfsummen. Der Pages-Build prüft zusätzlich die freigegebenen Manifeststände. Abrufe von Gebührenquellen finden im Erhebungsprozess statt. Der Browser erhält aufbereitete Daten und Quellenlinks. [Datenpipeline](DATENPIPELINE.md)
 
 ## 4. Geodaten und Herkunft
 
@@ -59,7 +59,7 @@ Die zwei Browserdateien heißen `region-stuttgart.json` und `municipalities.geoj
 | Modus | Katalog unkomprimiert | Geometrie unkomprimiert | Beide Dateien gzip | Höchstwerte für Katalog und gzip-Summe |
 |---|---:|---:|---:|---:|
 | Regulärer Build | rund 1,52 MB | rund 133 kB | rund 105 kB | 2 MB und 150 kB |
-| Erweiterungsvorschau | rund 2,27 MB | rund 134 kB | rund 180 kB | 2,3 MB und 185 kB |
+| Erweiterungsvorschau und Pages | rund 2,27 MB | rund 134 kB | rund 180 kB | 2,3 MB und 185 kB |
 
 Die Geometrie hat in beiden Modi ein Limit von 200 kB. Die Werte betreffen die Datenressourcen. Messwerte und Prüfsummen stehen in der jeweils erzeugten `build-metrics.json`.
 
@@ -69,11 +69,12 @@ Die Geometrie hat in beiden Modi ein Limit von 200 kB. Die Werte betreffen die D
 python3 -m unittest discover -s tests
 npm test
 npm run test:expansion
-npm run build
+npm run build:pages
+npm run test:pages
 ```
 
 `npm test` prüft Rechenkern, Python-Referenzfälle und reguläre Webdaten. `npm run test:expansion` prüft die Vorschaugeometrie und die Zuordnung der Kataloge, Modellwerte und erwartete Lücken. Bei UI-Änderungen auf Desktop und schmalen Ansichten zusätzlich Kartenauswahl, Familienwechsel, Listen- und Kinderdetails sowie Tastaturbedienung prüfen.
 
-Vite baut mit relativer Basis `./` und legt die statischen Dateien in `dist/` ab. Der [Pages-Workflow](../.github/workflows/pages.yml) prüft Pull Requests gegen `main` und veröffentlicht erfolgreiche Builds von `main`. Der manuelle Workflow-Aufruf verwendet dieselben Prüfungen. Der Build für GitHub Pages verwendet das reguläre Register.
+Vite baut mit relativer Basis `./` und legt die statischen Dateien in `dist/` ab. Der [Pages-Workflow](../.github/workflows/pages.yml) prüft Pull Requests gegen `main` und veröffentlicht erfolgreiche Builds von `main`. Der manuelle Workflow-Aufruf verwendet dieselben Prüfungen. Der Build für GitHub Pages ergänzt das kanonische Register aus der [Freigabedatei](../data/expansion/pages_release.json). Vor dem Upload prüft `npm run test:pages` die veröffentlichten Dateien unter `dist/data/`.
 
 Frühere Bildschirmaufnahmen dienen als Referenz für [Paket 3](../output/website-preview-desktop.jpg) und [Paket 4 mit dem persönlichen Formular](../output/website-family-form-desktop.jpg).

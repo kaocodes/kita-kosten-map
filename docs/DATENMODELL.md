@@ -4,7 +4,7 @@
 
 ## 1. Fachliche Trennung
 
-Der reguläre Build verwendet 20 Kommunen. Die lokale Vorschau bindet 49 Tarifgebiete über dieselbe geografische Zuordnung ein. Einrichtungen dienen als Nachweis für Tarifgeltung und Buchbarkeit.
+Der lokale Basisbuild verwendet 20 Kommunen. GitHub Pages und die Erweiterungsvorschau binden 49 Tarifgebiete über dieselbe geografische Zuordnung ein. Einrichtungen dienen als Nachweis für Tarifgeltung und Buchbarkeit.
 
 Der Datenbestand besteht aus drei nachvollziehbaren Ebenen:
 

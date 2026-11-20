@@ -1,0 +1,13 @@
+{
+  "municipality_count": 49,
+  "manifests": [
+    {
+      "path": "data/expansion/manifest.json",
+      "sha256": "64cda6deb9db9d08e6b4bbbff4ec8cdf70870a433073dda0572037cde583537f"
+    },
+    {
+      "path": "data/expansion/batches/2026-11-20/manifest.json",
+      "sha256": "c763944dc98deacd56a904da159f82b377aa401914afa7e9c26f0d4320994efe"
+    }
+  ]
+}

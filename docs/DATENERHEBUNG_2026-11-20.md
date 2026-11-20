@@ -1,6 +1,6 @@
 # Kita-Gebühren für vier weitere Kommunen
 
-Erhebungsdatum und Stichtag der folgenden Stichproben sind der 20. November 2026. Die Kartenvorschau verwendet weiterhin den [Vergleichsstichtag des Kartenprofils](../data/profiles/default.json) vom 4. November 2026. Erfasst sind die kommunalen Krippen- und Kindergartentarife. Die Quellen einschließlich Abrufdatum und Originaldatei sind über das [Quellenregister](../data/research/municipal_tariff_collection_2026-11-20.json) verknüpft. Die vier Datensätze sind in der lokalen Kartenvorschau eingebunden.
+Erhebungsdatum und Stichtag der folgenden Stichproben sind der 20. November 2026. Die Kartenvorschau verwendet weiterhin den [Vergleichsstichtag des Kartenprofils](../data/profiles/default.json) vom 4. November 2026. Erfasst sind die kommunalen Krippen- und Kindergartentarife. Die Quellen einschließlich Abrufdatum und Originaldatei sind über das [Quellenregister](../data/research/municipal_tariff_collection_2026-11-20.json) verknüpft. Die vier Datensätze sind in der lokalen Kartenvorschau eingebunden und für GitHub Pages freigegeben.
 
 ## Stichprobe für einen Haushalt mit einem Kind
 
